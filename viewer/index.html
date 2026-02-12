@@ -937,7 +937,7 @@ body {
   var ORG_ICONS = {
     NATO: "\u{1F6E1}\uFE0F", CSTO: "\u2694\uFE0F", SCO: "\u{1F310}",
     G7: "\u{1F4B0}", OSCE: "\u{1F54A}\uFE0F", ASEAN: "\u{1F30F}",
-    AFC: "\u{1F30D}", ARAB: "\u{1F54C}",
+    AFC: "\u{1F30D}", AU_ORG: "\u{1F30D}", ARAB: "\u{1F54C}",
   };
   function getFlag(code) {
     return FLAGS[code] || ORG_ICONS[code] || "\uD83C\uDFF4";
@@ -966,7 +966,7 @@ body {
     VN: "#da251d", AE: "#00732f", AR: "#75aadb", CO: "#fcd116",
     // Orgs
     NATO: "#004990", CSTO: "#8b0000", SCO: "#1a5276", G7: "#daa520",
-    OSCE: "#006cb4", ASEAN: "#003580", AFC: "#009639", ARAB: "#006233",
+    OSCE: "#006cb4", ASEAN: "#003580", AFC: "#009639", AU_ORG: "#009639", ARAB: "#006233",
   };
 
   function getColor(code) { return COUNTRY_COLORS[code] || "#8b949e"; }
@@ -1499,7 +1499,7 @@ body {
       "EG", "PK", "NG", "MX", "PH", "VN", "AE", "AR", "CO", "UA", "IL"],
     // Organizations
     organizations: ["EU", "UN", "NATO", "CSTO", "SCO", "G7", "OSCE",
-      "ASEAN", "AFC", "ARAB"]
+      "ASEAN", "AFC", "AU_ORG", "ARAB"]
   };
 
   function getBloc(code) {
