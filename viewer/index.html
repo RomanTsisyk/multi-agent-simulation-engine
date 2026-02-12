@@ -196,9 +196,8 @@ body {
 
 .content-area {
   flex: 1;
-  padding: 24px;
+  padding: 24px 32px;
   overflow-y: auto;
-  max-width: 1100px;
 }
 
 /* ---- Empty state ---- */
@@ -293,16 +292,27 @@ body {
 /* ---- Situation Briefing ---- */
 
 .briefing-text {
-  white-space: pre-wrap;
   font-size: 14px;
   line-height: 1.7;
   color: var(--text-primary);
 }
 
+.briefing-text strong,
+.narrative-text strong {
+  color: var(--accent-cyan);
+  font-weight: 600;
+}
+
 /* ---- Country Debates ---- */
 
+.country-decisions-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
 .country-block {
-  margin-bottom: 20px;
+  margin-bottom: 0;
   border: 1px solid var(--border);
   border-radius: 8px;
   overflow: hidden;
@@ -387,8 +397,12 @@ body {
 .debate-entry .faction-content {
   font-size: 13px;
   line-height: 1.6;
-  white-space: pre-wrap;
   color: var(--text-primary);
+}
+
+.debate-entry .faction-content strong {
+  color: var(--accent-cyan);
+  font-weight: 600;
 }
 
 /* Role-specific border colors */
@@ -449,13 +463,20 @@ body {
 /* ---- GM Resolution ---- */
 
 .narrative-text {
-  white-space: pre-wrap;
   font-size: 14px;
   line-height: 1.7;
   color: var(--text-primary);
-  padding: 12px;
+  padding: 16px;
   background: var(--bg-secondary);
   border-radius: 6px;
+}
+
+.narrative-text strong {
+  color: var(--accent-cyan);
+}
+
+.decision-text strong {
+  color: var(--accent-blue);
 }
 
 /* ---- Headlines ---- */
@@ -699,6 +720,102 @@ body {
     align-items: flex-start;
   }
 }
+
+/* ---- Wide screens (1600px+) ---- */
+@media (min-width: 1600px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .content-area {
+    padding: 28px 48px;
+  }
+  .briefing-text,
+  .narrative-text {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+  .chart-container {
+    height: 220px;
+  }
+}
+
+/* ---- Ultra-wide screens (2400px+) ---- */
+@media (min-width: 2400px) {
+  .content-area {
+    padding: 32px 64px;
+  }
+  .dashboard-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 24px;
+  }
+  .dash-card.full-width {
+    grid-column: 1 / -1;
+  }
+  .section-body {
+    padding: 24px;
+  }
+  .briefing-text,
+  .narrative-text {
+    font-size: 16px;
+    line-height: 1.85;
+    column-count: 2;
+    column-gap: 48px;
+    column-rule: 1px solid var(--border);
+  }
+  .country-decisions-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .chart-container {
+    height: 260px;
+  }
+  .header-title h1 {
+    font-size: 26px;
+  }
+  .debate-entry .faction-content {
+    font-size: 14px;
+  }
+}
+
+/* ---- Super-wide screens (3200px+) ---- */
+@media (min-width: 3200px) {
+  .content-area {
+    padding: 40px 80px;
+  }
+  .dashboard-grid {
+    gap: 28px;
+  }
+  .briefing-text,
+  .narrative-text {
+    font-size: 17px;
+    column-count: 3;
+    column-gap: 56px;
+  }
+  .country-decisions-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .chart-container {
+    height: 300px;
+  }
+  .round-sidebar {
+    width: 260px;
+    min-width: 260px;
+  }
+  .round-tab {
+    font-size: 15px;
+    padding: 12px 20px;
+  }
+  .section-header h3 {
+    font-size: 17px;
+  }
+  .country-name {
+    font-size: 17px;
+  }
+  .country-flag {
+    font-size: 26px;
+  }
+}
 </style>
 </head>
 <body>
@@ -769,6 +886,11 @@ body {
     IN: "\uD83C\uDDEE\uD83C\uDDF3", SA: "\uD83C\uDDF8\uD83C\uDDE6",
     IL: "\uD83C\uDDEE\uD83C\uDDF1", RS: "\uD83C\uDDF7\uD83C\uDDF8",
     CA: "\uD83C\uDDE8\uD83C\uDDE6", NO: "\uD83C\uDDF3\uD83C\uDDF4",
+    HU: "\uD83C\uDDED\uD83C\uDDFA", IT: "\uD83C\uDDEE\uD83C\uDDF9",
+    RO: "\uD83C\uDDF7\uD83C\uDDF4", BR: "\uD83C\uDDE7\uD83C\uDDF7",
+    ZA: "\uD83C\uDDFF\uD83C\uDDE6", CZ: "\uD83C\uDDE8\uD83C\uDDFF",
+    DK: "\uD83C\uDDE9\uD83C\uDDF0", NL: "\uD83C\uDDF3\uD83C\uDDF1",
+    EU: "\uD83C\uDDEA\uD83C\uDDFA", UN: "\uD83C\uDDFA\uD83C\uDDF3",
   };
   var COUNTRY_COLORS = {
     PL: "#dc3545", RU: "#6f42c1", US: "#0d6efd", DE: "#ffc107",
@@ -776,7 +898,9 @@ body {
     TR: "#fd7e14", JP: "#d63384", FI: "#20c997", LT: "#adb5bd",
     LV: "#87603e", EE: "#0aa2c0", SE: "#4f9d69", BY: "#7c5a2e",
     IN: "#ff6b35", SA: "#2d6a4f", IL: "#4361ee", RS: "#9b2226",
-    CA: "#e63946", NO: "#457b9d",
+    CA: "#e63946", NO: "#457b9d", HU: "#c1440e", IT: "#008c45",
+    RO: "#fcd116", BR: "#009c3b", ZA: "#e03c31", CZ: "#11457e",
+    DK: "#c8102e", NL: "#ff6f00", EU: "#003399", UN: "#5b92e5",
   };
 
   function getFlag(code) { return FLAGS[code] || "\uD83C\uDFF4"; }
@@ -1067,7 +1191,7 @@ body {
     var countries = Object.keys(countryData).sort();
     if (countries.length === 0) return '<div style="color: var(--text-muted);">No data yet</div>';
 
-    var W = 600, H = 160, PAD = 30;
+    var W = 900, H = 200, PAD = 36;
     var xMin = sortedRounds[0], xMax = sortedRounds[sortedRounds.length - 1];
     if (xMin === xMax) xMax = xMin + 1;
     var yMin = 0, yMax = 100;
@@ -1117,7 +1241,7 @@ body {
     });
     if (pts.length === 0) return '<div style="color: var(--text-muted);">No data yet</div>';
 
-    var W = 280, H = 120, PAD = 35;
+    var W = 400, H = 160, PAD = 40;
     var xMin = sortedRounds[0], xMax = sortedRounds[sortedRounds.length - 1];
     if (xMin === xMax) xMax = xMin + 1;
     var vals = pts.map(function(p) { return p.value; });
@@ -1144,7 +1268,7 @@ body {
       svg += '<circle cx="' + sx(p.round) + '" cy="' + sy(p.value) + '" r="3" fill="' + color + '"/>';
     });
     svg += '</svg>';
-    return '<div class="chart-container" style="height: 120px;">' + svg + '</div>';
+    return '<div class="chart-container" style="height: 160px;">' + svg + '</div>';
   }
 
   // ---- Bar chart: actions per round ----
@@ -1158,7 +1282,7 @@ body {
     });
     if (data.length === 0) return '<div style="color: var(--text-muted);">No data</div>';
 
-    var W = 280, H = 120, PAD = 30;
+    var W = 400, H = 160, PAD = 35;
     var maxVal = Math.max.apply(null, data.map(function(d) { return d.value; })) || 1;
     var barW = Math.min(30, (W - PAD * 2) / data.length - 4);
 
@@ -1172,7 +1296,7 @@ body {
       svg += '<text x="' + (x + barW / 2) + '" y="' + (H - 8) + '" fill="#6e7681" font-size="8" text-anchor="middle">R' + d.round + '</text>';
     });
     svg += '</svg>';
-    return '<div class="chart-container" style="height: 120px;">' + svg + '</div>';
+    return '<div class="chart-container" style="height: 160px;">' + svg + '</div>';
   }
 
   // ======================================================================
@@ -1186,13 +1310,15 @@ body {
     var briefing = data.situation || data.briefing || "";
     if (briefing) {
       html += buildSection("Situation Briefing", "situation",
-        '<div class="briefing-text">' + escapeHtml(briefing) + '</div>');
+        '<div class="briefing-text">' + renderMarkdown(briefing) + '</div>');
     }
 
     var decisions = data.country_decisions || [];
     if (decisions.length > 0) {
-      var countriesHtml = "";
-      decisions.forEach(function(cd) { countriesHtml += renderCountryDecision(cd); });
+      var collapseByDefault = decisions.length > 4;
+      var countriesHtml = '<div class="country-decisions-grid">';
+      decisions.forEach(function(cd) { countriesHtml += renderCountryDecision(cd, collapseByDefault); });
+      countriesHtml += '</div>';
       html += buildSection("Country Debates & Decisions", "debates", countriesHtml, decisions.length + " countries");
     }
 
@@ -1200,7 +1326,7 @@ body {
     var narrative = gm.narrative || "";
     if (narrative) {
       html += buildSection("Game Master Resolution", "gm",
-        '<div class="narrative-text">' + escapeHtml(narrative) + '</div>');
+        '<div class="narrative-text">' + renderMarkdown(narrative) + '</div>');
     }
 
     var headlines = gm.headlines || data.headlines || [];
@@ -1250,7 +1376,7 @@ body {
       '</div><div class="section-body">' + bodyHtml + '</div></div>';
   }
 
-  function renderCountryDecision(cd) {
+  function renderCountryDecision(cd, collapsed) {
     var code = cd.country_code || cd.country || "??";
     var name = cd.country_name || cd.country || code;
     if (cd.country && cd.country.length > 3) name = cd.country;
@@ -1269,7 +1395,7 @@ body {
         bodyHtml += '<div class="debate-entry ' + roleClass + '">' +
           '<div class="faction-name">' + escapeHtml(entry.faction || "Unknown") + '</div>' +
           '<div class="faction-role">' + escapeHtml(entry.role || "") + '</div>' +
-          '<div class="faction-content">' + escapeHtml(entry.content || "") + '</div></div>';
+          '<div class="faction-content">' + renderMarkdown(entry.content || "") + '</div></div>';
       });
     }
 
@@ -1277,7 +1403,7 @@ body {
     var actions = cd.actions || [];
     if (decision || actions.length > 0) {
       bodyHtml += '<div class="decision-block"><h4>Final Decision</h4>';
-      if (decision) bodyHtml += '<div class="decision-text">' + escapeHtml(decision) + '</div>';
+      if (decision) bodyHtml += '<div class="decision-text">' + renderMarkdown(decision) + '</div>';
       if (actions.length > 0) {
         bodyHtml += '<ul class="action-list">';
         actions.forEach(function(a) { bodyHtml += '<li>' + escapeHtml(a) + '</li>'; });
@@ -1290,14 +1416,18 @@ body {
     var reasoning = cd.reasoning || "";
     if (reasoning && !debateLog.length) {
       bodyHtml += '<div class="debate-entry"><div class="faction-name">Internal Reasoning</div>' +
-        '<div class="faction-content">' + escapeHtml(reasoning) + '</div></div>';
+        '<div class="faction-content">' + renderMarkdown(reasoning) + '</div></div>';
     }
+
+    // Show action count summary in header
+    var actionCount = (cd.actions || []).length;
+    var actionBadge = actionCount > 0 ? '<span class="badge" style="margin-left:auto;">' + actionCount + ' action' + (actionCount !== 1 ? 's' : '') + '</span>' : '';
 
     return '<div class="country-block"><div class="country-header" style="border-left: 3px solid ' + getColor(code) + '">' +
       '<span class="country-flag">' + flag + '</span>' +
       '<span class="country-name">' + escapeHtml(name) + '</span>' +
-      '<span class="country-code">' + escapeHtml(code) + '</span></div>' +
-      '<div class="country-body">' + bodyHtml + '</div></div>';
+      '<span class="country-code">' + escapeHtml(code) + '</span>' + actionBadge + '</div>' +
+      '<div class="country-body' + (collapsed ? ' hidden' : '') + '">' + bodyHtml + '</div></div>';
   }
 
   function renderWorldState(ws) {
@@ -1406,6 +1536,28 @@ body {
     var d = document.createElement("div");
     d.appendChild(document.createTextNode(String(t)));
     return d.innerHTML;
+  }
+
+  /** Light markdown renderer: **bold**, *italic*, ### headers, - lists, numbered lists */
+  function renderMarkdown(t) {
+    if (!t) return "";
+    var safe = escapeHtml(t);
+    // Headers: ### text -> <h4>, ## -> <h3> (only at line start)
+    safe = safe.replace(/^####\s+(.+)$/gm, '<h5 style="color:var(--accent-cyan);margin:12px 0 4px;font-size:13px;">$1</h5>');
+    safe = safe.replace(/^###\s+(.+)$/gm, '<h4 style="color:var(--accent-blue);margin:14px 0 6px;font-size:14px;">$1</h4>');
+    safe = safe.replace(/^##\s+(.+)$/gm, '<h3 style="color:var(--accent-blue);margin:16px 0 8px;font-size:15px;">$1</h3>');
+    // Bold: **text** or __text__
+    safe = safe.replace(/\*\*([^*]+)\*\*/g, '<strong style="color:var(--accent-cyan);">$1</strong>');
+    safe = safe.replace(/__([^_]+)__/g, '<strong style="color:var(--accent-cyan);">$1</strong>');
+    // Italic: *text* or _text_ (but not inside **)
+    safe = safe.replace(/(?<!\*)\*([^*]+)\*(?!\*)/g, '<em>$1</em>');
+    // Unordered lists: - item or * item at line start
+    safe = safe.replace(/^[\-\*]\s+(.+)$/gm, '<div style="padding-left:16px;position:relative;"><span style="color:var(--accent-blue);position:absolute;left:0;">\u25B8</span>$1</div>');
+    // Numbered lists: 1. item, 2. item
+    safe = safe.replace(/^(\d+)\.\s+(.+)$/gm, '<div style="padding-left:24px;position:relative;"><span style="color:var(--accent-orange);position:absolute;left:0;font-weight:600;font-size:12px;">$1.</span>$2</div>');
+    // Line breaks
+    safe = safe.replace(/\n/g, '<br>');
+    return safe;
   }
 
   // ---- Init: try server, fallback to manual ----
