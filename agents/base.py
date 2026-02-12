@@ -72,11 +72,13 @@ class Agent:
         backend: LLMBackend,
         temperature: float = 0.7,
         max_history: int = _DEFAULT_MAX_HISTORY,
+        max_tokens: int | None = None,
     ) -> None:
         self.config = config
         self.backend = backend
         self.temperature = temperature
         self.max_history = max_history
+        self.max_tokens = max_tokens
         self.message_history: list[dict[str, str]] = []
         self.logger = logging.getLogger(
             f"agent.{config.country_code}.{config.name}"
@@ -159,6 +161,7 @@ class Agent:
             system_prompt=system_prompt,
             messages=self.message_history,
             temperature=self.temperature,
+            max_tokens=self.max_tokens,
         )
 
         self.message_history.append({"role": "assistant", "content": response})

@@ -216,33 +216,145 @@ class GameMaster:
             (countries, initial state, constraints, etc.).
     """
 
-    def __init__(self, backend: LLMBackend, scenario_config: dict) -> None:
+    def __init__(
+        self,
+        backend: LLMBackend,
+        scenario_config: dict,
+        max_tokens: int | None = None,
+    ) -> None:
         self.backend = backend
         self.scenario = scenario_config
+        self.max_tokens = max_tokens
+        self._round_history: list[dict] = []
 
     # ------------------------------------------------------------------
     # Public API
     # ------------------------------------------------------------------
 
+    def record_round_summary(
+        self,
+        round_num: int,
+        briefing_summary: str,
+        key_decisions: list[str],
+        resolution_summary: str,
+    ) -> None:
+        """Record a compact summary of a completed round for context in future rounds.
+
+        Args:
+            round_num: The round number that just completed.
+            briefing_summary: A 1-2 sentence summary of the situation at round start.
+            key_decisions: List of major actions countries took this round.
+            resolution_summary: A 1-2 sentence summary of what happened/changed.
+        """
+        summary = {
+            "round": round_num,
+            "briefing_summary": briefing_summary,
+            "key_decisions": key_decisions,
+            "resolution_summary": resolution_summary,
+        }
+        self._round_history.append(summary)
+
+        # Keep only the last 5 rounds to prevent context overflow
+        if len(self._round_history) > 5:
+            self._round_history = self._round_history[-5:]
+
+    def _build_history_context(self, max_rounds: int = 3) -> str:
+        """Build a formatted history context string from recent rounds.
+
+        Args:
+            max_rounds: Maximum number of recent rounds to include.
+
+        Returns:
+            A formatted string summarizing recent round history, or empty string if no history.
+        """
+        if not self._round_history:
+            return ""
+
+        recent = self._round_history[-max_rounds:]
+        lines = ["PREVIOUS ROUNDS SUMMARY:"]
+        for entry in recent:
+            round_num = entry["round"]
+            resolution = entry.get("resolution_summary", "")
+            decisions = entry.get("key_decisions", [])
+
+            decisions_str = "; ".join(decisions[:3]) if decisions else "No major actions"
+            lines.append(
+                f"Round {round_num}: {resolution} "
+                f"(Key actions: {decisions_str})"
+            )
+
+        lines.append("")  # blank line after history
+        return "\n".join(lines)
+
     async def generate_situation_briefing(
         self,
         world_state: WorldState,
         round_num: int,
+        previous_round_summary: str = "",
     ) -> str:
         """Generate the narrative situation report for the start of a round.
 
         Returns:
             A multi-paragraph narrative briefing string.
         """
-        prompt = _BRIEFING_PROMPT_TEMPLATE.format(
-            round_num=round_num,
-            world_state_json=world_state.to_json(),
+        # Build history context from previous rounds
+        history_context = self._build_history_context(max_rounds=3)
+
+        # Construct the prompt with history inserted between world state and instructions
+        prompt_parts = [
+            f"Generate the situation briefing for Round {round_num} of the wargame.",
+            "",
+            "Current world state:",
+            world_state.to_json(),
+        ]
+
+        # Insert history context if available
+        if history_context:
+            prompt_parts.append("")
+            prompt_parts.append(history_context)
+
+        # Add the main instructions
+        prompt_parts.append("")
+        prompt_parts.append(
+            "Write a compelling, detailed, 3-5 paragraph narrative situation report that:\n"
+            "1. Summarises the current strategic situation.\n"
+            "2. Highlights the most important developments from the previous round.\n"
+            "3. Notes any escalation or de-escalation dynamics.\n"
+            "4. Mentions key decisions that countries face this round."
         )
+
+        if history_context:
+            prompt_parts.append(
+                "\nIMPORTANT: Consider the narrative arc from previous rounds. "
+                "The briefing should show CONTINUITY and PROGRESSION. "
+                "Reference earlier developments where relevant. "
+                "Show how the situation is evolving, not just the current snapshot."
+            )
+
+        prompt_parts.append(
+            "\nRespond with JSON:\n"
+            "{\n"
+            '    "briefing": "<the narrative text>"\n'
+            "}"
+        )
+
+        prompt = "\n".join(prompt_parts)
+
+        if previous_round_summary:
+            prompt += (
+                f"\n\n{previous_round_summary}\n\n"
+                "IMPORTANT: The briefing must reflect what CHANGED since last round. "
+                "Do NOT repeat the same narrative. Focus on NEW developments, "
+                "consequences of previous actions, and evolving dynamics. "
+                "The situation should PROGRESS — escalation, de-escalation, "
+                "new crises, or diplomatic breakthroughs."
+            )
 
         raw = await self.backend.generate(
             system_prompt=_GM_SYSTEM_PROMPT,
             messages=[{"role": "user", "content": prompt}],
             temperature=0.7,
+            max_tokens=self.max_tokens,
         )
 
         parsed = parse_json_response(raw)
@@ -266,16 +378,28 @@ class GameMaster:
             A dictionary with keys ``narrative``, ``world_state_updates``,
             ``events``, ``headlines``, and ``surprises``.
         """
+        # Condense decisions to save context: strip debate_log, raw_response
+        condensed = []
+        for d in all_country_decisions:
+            condensed.append({
+                "country": d.get("country", "??"),
+                "country_name": d.get("country_name", ""),
+                "actions": d.get("actions", []),
+                "reasoning": str(d.get("reasoning", ""))[:300],
+                "diplomatic_messages": d.get("diplomatic_messages", []),
+            })
+
         prompt = _RESOLVE_PROMPT_TEMPLATE.format(
             round_num=world_state.round_number,
             world_state_json=world_state.to_json(),
-            decisions_json=json.dumps(all_country_decisions, indent=2, ensure_ascii=False),
+            decisions_json=json.dumps(condensed, indent=2, ensure_ascii=False),
         )
 
         raw = await self.backend.generate(
             system_prompt=_GM_SYSTEM_PROMPT,
             messages=[{"role": "user", "content": prompt}],
             temperature=0.5,
+            max_tokens=self.max_tokens,
         )
 
         parsed = parse_json_response(raw)
@@ -309,6 +433,7 @@ class GameMaster:
             system_prompt=_GM_SYSTEM_PROMPT,
             messages=[{"role": "user", "content": prompt}],
             temperature=0.7,
+            max_tokens=self.max_tokens,
         )
 
         parsed = parse_json_response(raw)

@@ -294,6 +294,8 @@ def build_game_config(
             "end_conditions": scenario.get("end_conditions", []),
         },
         "logs_dir": game_cfg.get("logs_dir", "logs"),
+        "game_master": raw_config.get("game_master", {}),
+        "debate": raw_config.get("debate", {}),
     }
 
 

@@ -238,6 +238,11 @@ class Game:
         self.total_rounds: int = config.get("scenario", {}).get("rounds", 6)
         # Diplomatic message buffer: messages from previous round delivered next round
         self._diplomatic_inbox: list[dict] = []
+        # Cross-round memory: summary of last round's decisions for context
+        self._previous_round_summary: str = ""
+        # Territorial control tracking for end conditions
+        self._corridor_hold_rounds: int = 0
+        self._corridor_was_contested: bool = False
 
     # ------------------------------------------------------------------
     # Setup
@@ -270,15 +275,21 @@ class Game:
         )
 
         # --- Countries ---
+        debate_max_tokens = self.config.get("debate", {}).get("max_tokens_per_response")
         for code, country_cfg in scenario_cfg.get("countries", {}).items():
             name = country_cfg.get("name", code)
-            country_obj = self._build_country(code, country_cfg, self.backend)
+            country_obj = self._build_country(code, country_cfg, self.backend, debate_max_tokens)
             self.countries[code] = country_obj
             n_factions = len(country_obj.factions) if isinstance(country_obj, Country) else 0
             _print_info(f"  Loaded country: {name} ({code}) - {n_factions} factions")
 
         # --- Game Master ---
-        self.game_master = GameMaster(backend=self.backend, scenario_config=scenario_cfg)
+        gm_max_tokens = self.config.get("game_master", {}).get("max_tokens")
+        self.game_master = GameMaster(
+            backend=self.backend,
+            scenario_config=scenario_cfg,
+            max_tokens=gm_max_tokens,
+        )
         _print_info("Game Master initialised")
 
         # --- Logger ---
@@ -328,7 +339,8 @@ class Game:
         # --- 1. Situation briefing ---
         _print_phase("Game Master", "Generating situation briefing...")
         briefing = await self.game_master.generate_situation_briefing(
-            self.world_state, round_num
+            self.world_state, round_num,
+            previous_round_summary=self._previous_round_summary,
         )
         round_record["briefing"] = briefing
         _print_info(f"Briefing length: {len(briefing)} chars")
@@ -394,6 +406,11 @@ class Game:
         updates = resolution.get("world_state_updates", {})
         self.world_state.apply_updates(updates)
         round_record["world_state_after"] = self.world_state.to_dict()
+
+        # Store summary for cross-round memory
+        self._previous_round_summary = self._build_round_summary(
+            all_decisions, resolution
+        )
 
         # Display narrative
         narrative = resolution.get("narrative", "")
@@ -544,12 +561,55 @@ class Game:
                         return cond
 
             if ctype == "political" and cid == "nato_collapse":
-                refusals = sum(
-                    1 for pos in self.world_state.nato_consensus.values()
-                    if "refuse" in pos.lower() or "reject" in pos.lower()
-                    or "oppose" in pos.lower() or "no" == pos.strip().lower()
-                )
+                # BUG FIX 2: Improved NATO collapse detection with positive/negative indicator analysis
+                refusals = 0
+                for pos in self.world_state.nato_consensus.values():
+                    pos_lower = pos.lower()
+
+                    # Check for positive indicators (support for Article 5)
+                    positive_indicators = [
+                        "support", "agree", "invoke", "commit", "stand with",
+                        "honor", "activate", "defend", "solidarity"
+                    ]
+                    has_positive = any(indicator in pos_lower for indicator in positive_indicators)
+
+                    # Check for negative indicators (refusal/opposition)
+                    negative_indicators = [
+                        "refuse", "reject", "oppose", "will not", "cannot support",
+                        "no to article", "decline", "abstain"
+                    ]
+                    has_negative = any(indicator in pos_lower for indicator in negative_indicators)
+
+                    # Special case: single word "no"
+                    is_plain_no = pos.strip().lower() == "no"
+
+                    # Count as refusal only if negative indicators exist WITHOUT positive indicators
+                    if (has_negative or is_plain_no) and not has_positive:
+                        refusals += 1
+
                 if refusals >= 3:
+                    return cond
+
+            # BUG FIX 1: Implement territorial control end conditions
+            if ctype == "territorial_control" and cid == "russian_corridor_hold":
+                corridor_control = getattr(self.world_state, "corridor_control", None)
+                if corridor_control == "russian":
+                    self._corridor_hold_rounds += 1
+                    # Default threshold: 6 rounds = 3 days at 12hr/round
+                    # Can be overridden in end condition config
+                    threshold = cond.get("threshold_rounds", 6)
+                    if self._corridor_hold_rounds >= threshold:
+                        return cond
+                else:
+                    self._corridor_hold_rounds = 0
+
+            if ctype == "territorial_control" and cid == "nato_corridor_liberated":
+                corridor_control = getattr(self.world_state, "corridor_control", None)
+                # Track if corridor was ever contested or Russian-controlled
+                if corridor_control in ("contested", "russian"):
+                    self._corridor_was_contested = True
+                # Trigger if corridor is now NATO-controlled after being contested
+                if corridor_control == "nato" and self._corridor_was_contested:
                     return cond
 
             # Other conditions are checked via keywords in recent events
@@ -702,6 +762,40 @@ class Game:
         return all_decisions, diplomatic_messages
 
     # ------------------------------------------------------------------
+    # Cross-round memory
+    # ------------------------------------------------------------------
+
+    @staticmethod
+    def _build_round_summary(all_decisions: list[dict], resolution: dict) -> str:
+        """Build a concise summary of what happened last round.
+
+        This is injected into the next round's briefing to prevent
+        countries from repeating the same actions and to give the GM
+        context about the previous round's developments.
+        """
+        lines = ["PREVIOUS ROUND ACTIONS SUMMARY:"]
+        for decision in all_decisions:
+            code = decision.get("country", "??")
+            name = decision.get("country_name", code)
+            actions = decision.get("actions", [])
+            if actions:
+                action_str = "; ".join(str(a)[:100] for a in actions[:4])
+                lines.append(f"  {name} ({code}): {action_str}")
+
+        narrative = resolution.get("narrative", "")
+        if narrative:
+            # Take first 500 chars of narrative as outcome summary
+            lines.append(f"\nOUTCOME: {narrative[:500]}")
+
+        surprises = resolution.get("surprises", [])
+        if surprises:
+            lines.append("SURPRISE DEVELOPMENTS:")
+            for s in surprises:
+                lines.append(f"  - {s}")
+
+        return "\n".join(lines)
+
+    # ------------------------------------------------------------------
     # Internal helpers
     # ------------------------------------------------------------------
 
@@ -747,7 +841,10 @@ class Game:
         return messages
 
     @staticmethod
-    def _build_country(code: str, cfg: dict, backend: LLMBackend) -> Country | _CountryStub:
+    def _build_country(
+        code: str, cfg: dict, backend: LLMBackend,
+        debate_max_tokens: int | None = None,
+    ) -> Country | _CountryStub:
         """Build a Country with real Faction agents from a country config dict.
 
         Falls back to _CountryStub if the config has no factions list.
@@ -784,7 +881,7 @@ class Game:
                 voice=fc.get("voice", ""),
                 country_code=code,
             )
-            factions.append(Faction(config=agent_cfg, backend=backend))
+            factions.append(Faction(config=agent_cfg, backend=backend, max_tokens=debate_max_tokens))
 
         description = cfg.get("geographic_relevance", "")
         if nuclear_status:

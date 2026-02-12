@@ -38,8 +38,9 @@ class Faction(Agent):
         config: AgentConfig,
         backend: LLMBackend,
         temperature: float = 0.75,
+        max_tokens: int | None = None,
     ) -> None:
-        super().__init__(config, backend, temperature)
+        super().__init__(config, backend, temperature, max_tokens=max_tokens)
 
     # ------------------------------------------------------------------
     # System prompt -- enriched for debate context
@@ -189,11 +190,16 @@ class Faction(Agent):
             f"{topic}\n\n"
             f"Here are the positions stated by the other factions:\n\n"
             f"{position_block}\n\n"
-            "Now respond. You may:\n"
-            "- Rebut points you disagree with.\n"
-            "- Acknowledge points that have merit.\n"
-            "- Propose a compromise if appropriate.\n"
-            "- Hold firm if your red lines are at stake.\n\n"
+            "CRITICAL INSTRUCTIONS FOR THIS ROUND:\n"
+            "- You MUST identify at least ONE point of DISAGREEMENT with "
+            "the other factions. Real policy debates have genuine friction.\n"
+            "- If any proposal violates your RED LINES, say so explicitly "
+            "and forcefully. Do NOT water down your objections.\n"
+            "- Point out RISKS and COSTS that other factions are ignoring.\n"
+            "- If you are a dove/diplomat, challenge escalatory proposals. "
+            "If you are a hawk/military, challenge proposals that show weakness.\n"
+            "- DO NOT simply agree with the majority. Your role exists because "
+            "your perspective matters.\n\n"
             "Remember to include your POSITION, REASONING, and "
             "RECOMMENDED ACTION."
         )
@@ -221,11 +227,14 @@ class Faction(Agent):
             f"{topic}\n\n"
             f"Full debate transcript so far:\n\n"
             f"{debate_history}\n\n"
-            "Deliver your FINAL position. Indicate:\n"
-            "- What you are willing to concede.\n"
-            "- What you absolutely will not accept.\n"
-            "- Your final RECOMMENDED ACTION.\n"
-            "Be concise."
+            "Deliver your FINAL position. You MUST indicate:\n"
+            "- What you are willing to concede (be specific).\n"
+            "- What you absolutely WILL NOT accept — state your remaining "
+            "objections clearly. If your red lines are being crossed, "
+            "this is your LAST chance to register dissent.\n"
+            "- Your final RECOMMENDED ACTION (specific and executable).\n"
+            "- ONE risk or consequence the group has NOT adequately considered.\n"
+            "Be concise but forceful."
         )
         return await self.respond(prompt, world_context)
 

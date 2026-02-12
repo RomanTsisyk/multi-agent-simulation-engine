@@ -27,6 +27,7 @@ class MilitaryUnit:
     casualties: int = 0  # cumulative casualties (abstract units)
     supply_level: int = 10  # 1-10 (ammo, fuel, spare parts)
     morale: int = 7  # 1-10
+    _last_casualty_morale_applied: int = 0  # internal: casualties already penalised
 
     def summary(self) -> str:
         return (
@@ -76,6 +77,11 @@ class WorldState:
     nato_consensus: dict[str, str] = field(default_factory=dict)  # country -> position
 
     # ------------------------------------------------------------------
+    # Territorial control
+    # ------------------------------------------------------------------
+    corridor_control: str = "contested"  # russian, nato, contested
+
+    # ------------------------------------------------------------------
     # Nuclear posture
     # ------------------------------------------------------------------
     # Levels: peacetime -> elevated -> dispersal -> launch_ready -> tactical_use -> strategic
@@ -111,6 +117,10 @@ class WorldState:
     def to_dict(self) -> dict:
         """Serialise the entire world state to a JSON-safe dictionary."""
         data = asdict(self)
+        # Convert sets to lists for JSON serialization
+        if "_nuclear_penalty_applied" in data.get("markets", {}):
+            if isinstance(data["markets"]["_nuclear_penalty_applied"], set):
+                data["markets"]["_nuclear_penalty_applied"] = list(data["markets"]["_nuclear_penalty_applied"])
         return data
 
     @classmethod
@@ -120,6 +130,10 @@ class WorldState:
         # Reconstitute MilitaryUnit objects
         raw_units = data.pop("military_units", [])
         units = [MilitaryUnit(**u) for u in raw_units]
+        # Convert lists back to sets for internal tracking
+        if "markets" in data and "_nuclear_penalty_applied" in data["markets"]:
+            if isinstance(data["markets"]["_nuclear_penalty_applied"], list):
+                data["markets"]["_nuclear_penalty_applied"] = set(data["markets"]["_nuclear_penalty_applied"])
         state = cls(**data)
         state.military_units = units
         return state
@@ -380,11 +394,20 @@ class WorldState:
             if posture_lower in _NUCLEAR_LEVELS:
                 self.nuclear_posture[country] = posture_lower
 
-        # Append lists
-        self.sanctions.extend(updates.get("sanctions_add", []))
-        self.trade_disruptions.extend(updates.get("trade_disruptions_add", []))
-        self.treaties_invoked.extend(updates.get("treaties_invoked_add", []))
-        self.un_resolutions.extend(updates.get("un_resolutions_add", []))
+        # Append lists (with deduplication)
+        self.sanctions = _dedup_dicts(
+            self.sanctions, updates.get("sanctions_add", []),
+            key_fields=("from", "target", "type"),
+        )
+        self.trade_disruptions = _dedup_strings(
+            self.trade_disruptions, updates.get("trade_disruptions_add", []),
+        )
+        self.treaties_invoked = _dedup_strings(
+            self.treaties_invoked, updates.get("treaties_invoked_add", []),
+        )
+        self.un_resolutions = _dedup_strings(
+            self.un_resolutions, updates.get("un_resolutions_add", []),
+        )
 
         # Nested dict merge -- diplomatic_relations
         for c1, rels in updates.get("diplomatic_relations", {}).items():
@@ -399,14 +422,20 @@ class WorldState:
             self.public_opinion[country].update(opinion)
 
         # --- Humanitarian ---
-        self.refugee_flows.extend(updates.get("refugee_flows_add", []))
+        self.refugee_flows = _dedup_dicts(
+            self.refugee_flows, updates.get("refugee_flows_add", []),
+            key_fields=("from", "to"),
+        )
         for country, level in updates.get("humanitarian_crisis_level", {}).items():
             self.humanitarian_crisis_level[country] = _safe_int(
                 level, self.humanitarian_crisis_level.get(country, 0)
             )
 
         # --- Cyber operations ---
-        self.cyber_operations.extend(updates.get("cyber_operations_add", []))
+        self.cyber_operations = _dedup_dicts(
+            self.cyber_operations, updates.get("cyber_operations_add", []),
+            key_fields=("attacker", "target", "type"),
+        )
 
         # Nested dict merge -- infrastructure_status
         for country, infra in updates.get("infrastructure_status", {}).items():
@@ -435,26 +464,44 @@ class WorldState:
         These are deterministic rules that model realistic consequences
         without requiring the LLM to remember every interaction.
         """
-        # 1. Oil price affects public war support globally
+        # Track which countries escalated nuclear posture this round (for de-escalation logic)
+        countries_escalated_nuclear: set[str] = set()
+
+        # 1. Oil price affects public war support globally (BUG FIX: one-time per threshold)
         oil = self.markets.get("oil_price")
         if oil is not None:
             try:
                 oil_f = float(oil)
             except (ValueError, TypeError):
                 oil_f = 0.0
-            if oil_f > 120:
+
+            # Track last threshold crossed to apply penalty only once per new threshold
+            last_threshold = self.markets.get("_oil_penalty_last_threshold", 0)
+            if isinstance(last_threshold, str):
+                try:
+                    last_threshold = float(last_threshold)
+                except (ValueError, TypeError):
+                    last_threshold = 0
+
+            # Apply penalty only when crossing a new $20 threshold above $120
+            new_threshold = 0
+            if oil_f >= 120:
+                new_threshold = int((oil_f - 100) // 20) * 20 + 100
+
+            if new_threshold > last_threshold:
                 for country, opinion in self.public_opinion.items():
                     ws = opinion.get("war_support", 50)
                     # High oil = economic pain = less support for war
                     opinion["war_support"] = max(0, ws - 3)
+                self.markets["_oil_penalty_last_threshold"] = new_threshold
 
-        # 2. Active sanctions on Russia increase EU gas prices
+        # 2. Active sanctions on Russia increase EU gas prices (BUG FIX: add cap at 200)
         ru_sanctions = [s for s in self.sanctions if s.get("target") == "RU"]
         if ru_sanctions:
             gas = self.markets.get("gas_price_eu")
             if isinstance(gas, (int, float)):
-                # Each new sanction round adds pressure
-                self.markets["gas_price_eu"] = round(gas * 1.02, 2)
+                # Each new sanction round adds pressure, but cap at 200
+                self.markets["gas_price_eu"] = min(round(gas * 1.02, 2), 200)
 
         # 3. Units with low supply degrade
         for unit in self.military_units:
@@ -463,13 +510,21 @@ class WorldState:
             if unit.supply_level <= 1:
                 unit.morale = max(1, unit.morale - 1)
 
-        # 4. High casualties reduce morale
+        # 4. High casualties reduce morale (BUG FIX: already fixed - delta-based)
         for unit in self.military_units:
             if unit.casualties >= 2:
-                morale_penalty = unit.casualties // 2
-                unit.morale = max(1, unit.morale - morale_penalty)
-                # Reset casualties counter after applying penalty
-                # (penalty was from cumulative; keep casualties as-is)
+                total_penalty = unit.casualties // 2
+                new_penalty = total_penalty - unit._last_casualty_morale_applied
+                if new_penalty > 0:
+                    unit.morale = max(1, unit.morale - new_penalty)
+                    unit._last_casualty_morale_applied = total_penalty
+
+        # 4b. Casualties affect strength (BUG FIX #5: reduce strength based on casualties)
+        for unit in self.military_units:
+            if unit.casualties >= 2:
+                # For every 2 casualty points, reduce strength by 1 (minimum 1)
+                strength_reduction = unit.casualties // 2
+                unit.strength = max(1, unit.strength - strength_reduction)
 
         # 5. Degraded infrastructure affects public opinion
         for country, infra in self.infrastructure_status.items():
@@ -504,15 +559,70 @@ class WorldState:
                 min_idx = max(1, max_posture_idx - 1)
                 if current_idx < min_idx:
                     self.nuclear_posture[country] = _NUCLEAR_LEVELS[min_idx]
+                    countries_escalated_nuclear.add(country)
 
-        # 7. Nuclear posture affects public opinion dramatically
+        # 7b. Nuclear posture affects public opinion (BUG FIX #4: one-time penalty)
+        # Track countries that already received nuclear penalty
+        if "_nuclear_penalty_applied" not in self.markets:
+            self.markets["_nuclear_penalty_applied"] = set()
+        elif not isinstance(self.markets["_nuclear_penalty_applied"], set):
+            # In case it was serialized/deserialized, reconstruct the set
+            self.markets["_nuclear_penalty_applied"] = set(self.markets["_nuclear_penalty_applied"])
+
+        nuclear_penalty_applied = self.markets["_nuclear_penalty_applied"]
+
         for country, posture in self.nuclear_posture.items():
             idx = _NUCLEAR_LEVELS.index(posture) if posture in _NUCLEAR_LEVELS else 0
             if idx >= 3 and country in self.public_opinion:  # launch_ready+
-                ws = self.public_opinion[country].get("war_support", 50)
-                self.public_opinion[country]["war_support"] = max(0, ws - 5)
+                # Only apply penalty if not already applied
+                if country not in nuclear_penalty_applied:
+                    ws = self.public_opinion[country].get("war_support", 50)
+                    self.public_opinion[country]["war_support"] = max(0, ws - 5)
+                    nuclear_penalty_applied.add(country)
+            elif idx < 3 and country in nuclear_penalty_applied:
+                # If posture drops below launch_ready, remove from penalty set
+                nuclear_penalty_applied.discard(country)
 
-        # 8. Clamp all values to valid ranges
+        # 8. Auto-escalate NATO alert based on Article 5 invocations
+        _ALERT_ORDER = ["normal", "elevated", "high", "article5"]
+        current_idx = (
+            _ALERT_ORDER.index(self.nato_alert_level)
+            if self.nato_alert_level in _ALERT_ORDER else 0
+        )
+        # Check if any treaty invocation mentions Article 5
+        article5_invoked = any(
+            "article 5" in t.lower() or "article5" in t.lower()
+            for t in self.treaties_invoked
+        )
+        # Check NATO consensus for article5 support
+        article5_supporters = sum(
+            1 for pos in self.nato_consensus.values()
+            if "article 5" in pos.lower() or "invoke" in pos.lower()
+            or "activate" in pos.lower()
+        )
+        if article5_invoked or article5_supporters >= 3:
+            if current_idx < 3:  # not yet at article5
+                self.nato_alert_level = "article5"
+        elif article5_supporters >= 1 and current_idx < 2:
+            self.nato_alert_level = "high"
+
+        # 9. Nuclear de-escalation mechanism (BUG FIX #6)
+        # Check if recent events contain provocative keywords
+        provocative_keywords = ["nuclear", "strike", "attack", "launch", "missile", "bomb"]
+        has_provocative_events = any(
+            any(keyword in event.lower() for keyword in provocative_keywords)
+            for event in self.recent_events
+        )
+
+        # If no provocations and country hasn't escalated this round, allow de-escalation
+        if not has_provocative_events:
+            for country, posture in list(self.nuclear_posture.items()):
+                if country not in countries_escalated_nuclear:
+                    current_idx = _NUCLEAR_LEVELS.index(posture) if posture in _NUCLEAR_LEVELS else 0
+                    if current_idx > 0:  # Can de-escalate from any level above peacetime
+                        self.nuclear_posture[country] = _NUCLEAR_LEVELS[current_idx - 1]
+
+        # 10. Clamp all values to valid ranges
         for unit in self.military_units:
             unit.readiness = max(1, min(10, unit.readiness))
             unit.strength = max(0, min(10, unit.strength))
@@ -538,6 +648,37 @@ _NUCLEAR_LEVELS = [
 # ======================================================================
 # Private helpers
 # ======================================================================
+
+def _dedup_strings(existing: list[str], new_items: list[str]) -> list[str]:
+    """Append new strings only if they're not already present (case-insensitive)."""
+    seen = {s.lower().strip() for s in existing}
+    result = list(existing)
+    for item in new_items:
+        key = item.lower().strip() if isinstance(item, str) else str(item).lower()
+        if key not in seen:
+            result.append(item)
+            seen.add(key)
+    return result
+
+
+def _dedup_dicts(
+    existing: list[dict], new_items: list[dict], key_fields: tuple[str, ...]
+) -> list[dict]:
+    """Append new dicts only if no existing dict matches on all key_fields."""
+    def _sig(d: dict) -> tuple:
+        return tuple(str(d.get(k, "")).lower().strip() for k in key_fields)
+
+    seen = {_sig(d) for d in existing}
+    result = list(existing)
+    for item in new_items:
+        if not isinstance(item, dict):
+            continue
+        sig = _sig(item)
+        if sig not in seen:
+            result.append(item)
+            seen.add(sig)
+    return result
+
 
 def _safe_int(value: Any, default: int) -> int:
     """Coerce a value to int, returning *default* on failure.

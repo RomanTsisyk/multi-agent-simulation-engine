@@ -76,9 +76,15 @@ DISSENT: <which faction(s) objected and what red line was at stake, or "None">
 DIPLOMATIC_MESSAGES:
 - TO: <country code> | CHANNEL: <public|private|backchannel> | MESSAGE: <the message text>
 - TO: <country code> | CHANNEL: <public|private|backchannel> | MESSAGE: <the message text>
-(Write "None" if no diplomatic messages this round. Public messages are visible \
-to all countries. Private messages are only visible to the recipient. \
-Backchannel messages are secret and deniable.)
+
+IMPORTANT: You MUST include at least ONE diplomatic message. In a real \
+crisis, every country communicates with allies, adversaries, or neutral \
+parties. Think about who {country_name} would NEED to talk to right now. \
+Examples:
+- TO: US | CHANNEL: private | MESSAGE: We request immediate deployment of additional forces to our eastern border
+- TO: RU | CHANNEL: backchannel | MESSAGE: We are open to a 48-hour ceasefire to allow humanitarian corridors
+- TO: UN | CHANNEL: public | MESSAGE: We call on the Security Council to convene an emergency session
+Only write "None" if the country is completely isolated with zero diplomatic contacts.
 """
 
 _DIPLOMACY_SYSTEM_PROMPT = """\
