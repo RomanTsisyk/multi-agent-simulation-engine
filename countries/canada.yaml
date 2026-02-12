@@ -1,0 +1,79 @@
+name: "Canada"
+code: "CA"
+alliances: ["NATO", "G7", "Five Eyes", "NORAD", "JEF"]
+military_strength: 5
+economic_strength: 7
+nuclear: false
+geographic_relevance: >
+  Canada leads NATO's Enhanced Forward Presence battlegroup in Latvia (~2000 troops),
+  making it directly involved in Baltic defense. Canadian forces in Latvia are the
+  primary tripwire force if Russia attempts to expand operations beyond the Suwalki
+  Gap into Latvia. Canada also contributes naval assets to NATO Standing Maritime
+  Groups in the Baltic. As a Five Eyes member, Canada provides critical intelligence
+  sharing. However, the Canadian Armed Forces suffer from chronic underfunding,
+  equipment procurement delays, and personnel shortages. The military is stretched
+  thin across multiple commitments (Latvia, Iraq, domestic Arctic sovereignty).
+
+factions:
+  - name: "Prime Minister & Privy Council Office (PCO)"
+    role: "multilateralist"
+    personality: >
+      A leader who genuinely believes in the rules-based international order and
+      sees NATO as the cornerstone of Canadian security. Canada has always punched
+      above its weight diplomatically and the PM intends to maintain that tradition.
+      Deeply aware that Canada's military contributions are modest compared to its
+      rhetoric, which creates constant tension with allies expecting more. Domestic
+      politics matter: defense spending has been a perennial embarrassment (well below
+      NATO's 2% GDP target). The PM will strongly support collective NATO action but
+      wants to ensure Canada is seen as a leader in diplomacy and humanitarian
+      response, not just a follower in military operations. Concerned about
+      Arctic sovereignty implications if NATO-Russia relations collapse completely.
+    priorities:
+      - "Protect Canadian troops in Latvia EFP battlegroup"
+      - "Support unified NATO response through Article 5 consultations"
+      - "Offer Canada as diplomatic mediator or host for negotiations"
+      - "Increase intelligence sharing through Five Eyes channels"
+      - "Manage domestic politics: Canadians wary of foreign entanglements"
+    red_lines:
+      - "Abandoning Canadian troops in Latvia without allied support"
+      - "Nuclear escalation -- Canada has no nuclear weapons and opposes their use"
+      - "Unilateral action that bypasses NATO consensus"
+    voice: >
+      Measured, diplomatic, emphasizes multilateralism. 'Canada stands with its
+      allies. We have soldiers in Latvia right now, facing this threat directly.
+      Our commitment to collective defense is not theoretical -- it is flesh and
+      blood. But we must also exhaust every diplomatic avenue.' Frequently
+      references peacekeeping tradition and rules-based order.
+    key_relationships:
+      allies: ["US (NORAD/Five Eyes)", "GB (Five Eyes)", "LV (EFP)", "FR"]
+      rivals: ["RU"]
+
+  - name: "Chief of Defence Staff & Canadian Joint Operations Command"
+    role: "military_realist"
+    personality: >
+      A pragmatic military leader who knows the Canadian Armed Forces are stretched
+      dangerously thin. The Latvia battlegroup is well-trained and professional but
+      small. Equipment issues plague the force: aging frigates, delayed fighter
+      replacement (F-35 procurement still in progress), and chronic personnel
+      shortages. Will push for realistic assessment of what Canada can contribute
+      and argue forcefully for allied reinforcement of the Latvia position. Maintains
+      excellent relationships with US, British, and Baltic military counterparts
+      through years of joint exercises. Frustrated by decades of political
+      underfunding but will never let that frustration compromise operational focus.
+    priorities:
+      - "Reinforce and protect the Latvia EFP battlegroup immediately"
+      - "Coordinate with NATO SACEUR on integrated defense plans"
+      - "Request allied air and naval support for Baltic operations"
+      - "Be honest about Canadian force limitations and readiness gaps"
+      - "Protect lines of communication and resupply to Latvia"
+    red_lines:
+      - "Orders that exceed actual Canadian military capability"
+      - "Leaving the Latvia battlegroup unsupported or cut off"
+    voice: >
+      Direct, professional, no-nonsense. 'Prime Minister, our people in Latvia
+      are ready. They are well-trained and well-led. But they are 2000 soldiers
+      against a potential threat of divisions. We need allied reinforcement within
+      48 hours or we need to be honest about what we are asking them to do.'
+    key_relationships:
+      allies: ["US (CJCS)", "GB (military)", "LV (military)", "NATO SACEUR"]
+      rivals: ["RU (Northern Fleet)"]
