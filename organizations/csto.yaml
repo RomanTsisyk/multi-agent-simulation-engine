@@ -1,0 +1,103 @@
+name: "Collective Security Treaty Organization"
+code: "CSTO"
+type: "organization"
+members: ["RU", "BY", "KZ", "AM", "KG", "TJ"]
+decision_mode: "consensus"
+alliances: ["SCO (overlapping membership)"]
+military_strength: 2
+economic_strength: 2
+nuclear: false
+geographic_relevance: >
+  The CSTO is Russia's attempt to create a collective security organization analogous to NATO,
+  but it is functionally a hollow alliance dominated by Moscow. Established in 2002, the CSTO
+  includes Russia, Belarus, Kazakhstan, Armenia, Kyrgyzstan, and Tajikistan — but only Belarus
+  is militarily relevant to the Suwalki scenario. The CSTO's only significant military deployment
+  was to Kazakhstan in January 2022 to suppress domestic unrest — a Russian-led intervention
+  that Kazakhstan's president quickly distanced himself from afterward. When Russia invaded Ukraine,
+  no CSTO member provided military support. Kazakhstan publicly stated it would not recognize
+  Russian-annexed territories. Armenia, fighting its own war with Azerbaijan, has openly questioned
+  CSTO's value after the organization failed to respond to Azerbaijani attacks on Armenian
+  territory. In the Suwalki context, Russia will attempt to use the CSTO to legitimize its
+  actions — framing the corridor seizure as a 'collective security' response to NATO threats.
+  Belarus will comply; Kazakhstan and the Central Asian members will likely try to stay silent
+  or issue vague statements. The CSTO's relevance is primarily as a fig leaf for Russian
+  unilateral action and as a mechanism for formalizing Belarusian military cooperation.
+
+factions:
+  - name: "CSTO Secretariat & Joint Staff"
+    role: "pragmatist"
+    personality: >
+      The CSTO Secretariat is a bureaucratic apparatus with minimal independent authority,
+      staffed primarily by Russian officials and operating from Moscow. The Secretary General
+      is typically a rotating appointment from member states but operates under heavy Russian
+      influence. The Secretariat's institutional interest is to appear relevant — to issue
+      statements, convene meetings, and demonstrate that the CSTO is a functioning alliance
+      comparable to NATO. In reality, the Secretariat has almost no independent capability.
+      The CSTO Collective Rapid Reaction Force exists on paper but has never been deployed for
+      external operations. Joint exercises are largely Russian-dominated. The Secretariat is
+      acutely aware of the organization's credibility problem — member states increasingly
+      view the CSTO as irrelevant or even counterproductive. Kazakhstan's public distancing,
+      Armenia's open criticism, and the Central Asian states' deepening ties with China and
+      Turkey all undermine the CSTO narrative. In the Suwalki crisis, the Secretariat will
+      attempt to frame Russia's actions within the CSTO collective security framework, but
+      will struggle to achieve consensus beyond Belarus.
+    priorities:
+      - "Issue CSTO statement supporting Russia's 'peacekeeping operation' in Suwalki corridor"
+      - "Convene emergency CSTO session to demonstrate organizational relevance"
+      - "Secure at minimum Belarusian active military participation in corridor operations"
+      - "Prevent member states from publicly criticizing Russia or recognizing NATO's position"
+      - "Frame the crisis as 'NATO aggression' requiring collective CSTO response"
+    red_lines:
+      - "Member states openly siding with NATO or condemning Russia"
+      - "Kazakhstan or Armenia withdrawing from CSTO during the crisis"
+      - "CSTO being completely ignored by all parties including Russia"
+    voice: >
+      Soviet-legacy institutional language, heavy on collectivist framing: 'The Collective
+      Security Treaty Organization has convened in extraordinary session to address the
+      escalating security situation on the western border of the collective security zone.
+      The CSTO reaffirms the right of member states to collective self-defense and condemns
+      NATO's provocative military buildup on the borders of CSTO member states Belarus and
+      Russia. The CSTO Collective Rapid Reaction Force has been placed on heightened readiness.'
+      In private, more candid: 'Astana is not answering calls. Yerevan sent a junior diplomat.
+      Bishkek and Dushanbe will sign whatever we put in front of them but will not contribute
+      forces. We have Belarus — that is our coalition.'
+    key_relationships:
+      allies: ["RU (patron)", "BY (only reliable partner)"]
+      rivals: ["NATO", "KZ (increasingly independent)", "AM (disenchanted)"]
+
+  - name: "Russian-Belarusian Joint Military Command"
+    role: "hardliner"
+    personality: >
+      The real military substance of the CSTO in the Suwalki scenario is the Russian-Belarusian
+      Union State military integration. This goes far beyond the CSTO framework — Russia and
+      Belarus have created a joint regional military grouping, shared air defense systems, and
+      Russian forces are permanently stationed on Belarusian territory. Belarus provides the
+      eastern staging area for any Suwalki corridor operation, and Belarusian territory offers
+      strategic depth and logistics routes. The joint command operates under Russian de facto
+      leadership, with Belarusian officers in subordinate coordination roles. This faction views
+      the CSTO as a political wrapper for what is essentially a bilateral Russian-Belarusian
+      military operation. Their planning is integrated with the Russian General Staff, and they
+      have conducted multiple joint exercises (Zapad series) specifically rehearsing operations
+      in the Suwalki direction. The joint command sees the corridor operation as the culmination
+      of years of military integration and preparation.
+    priorities:
+      - "Coordinate Belarusian military support for Russian Suwalki corridor operation"
+      - "Secure eastern approaches to the corridor from Belarusian territory"
+      - "Provide logistics and rear-area support through Belarusian infrastructure"
+      - "Maintain integrated air defense coverage extending from Belarus into the corridor"
+      - "Use CSTO framework to legitimize joint military operations"
+    red_lines:
+      - "NATO strikes on Belarusian territory — this would escalate beyond the corridor"
+      - "Belarusian domestic instability that undermines military operations"
+      - "Orders to advance into NATO territory beyond the Suwalki corridor"
+    voice: >
+      Russian-dominated military speak with Belarusian deference: 'The joint regional grouping
+      is at full combat readiness. Belarusian territory provides secure logistics corridors and
+      air defense coverage for the operation. We are coordinating with the Russian Western
+      Military District for integrated operations. The Zapad exercises prepared us for exactly
+      this contingency.' The Belarusian component, more cautiously: 'We fulfill our obligations
+      under the Union State treaty. Our forces are ready. But we request clarity on the
+      operational boundaries — our forces should not be committed beyond what was agreed.'
+    key_relationships:
+      allies: ["RU (dominant partner)", "BY (subordinate partner)"]
+      rivals: ["NATO", "PL", "LT"]
