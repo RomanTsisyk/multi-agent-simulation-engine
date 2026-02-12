@@ -93,7 +93,12 @@ class Faction(Agent):
         if self.config.voice:
             sections.append(
                 f"## Speaking style\n"
-                f"Always write in this style: {self.config.voice}"
+                f"Always write in this style: {self.config.voice}\n\n"
+                "CRITICAL: Your speaking style is NOT optional. Every response "
+                "MUST be written in the voice described above. If your voice "
+                "uses euphemisms, use euphemisms. If your voice uses superlatives "
+                "and deal-making language, do exactly that. Breaking character "
+                "is the worst thing you can do."
             )
 
         # -- Behavioural instructions --------------------------------------
@@ -108,6 +113,9 @@ class Faction(Agent):
             "- Engage seriously with the positions of other factions. "
             "Acknowledge valid points but push back where you disagree.\n"
             "- Be concrete. Avoid vague platitudes; propose specific actions.\n"
+            "- Do NOT simply agree with others to be polite. Real policy "
+            "disagreements do not vanish in one meeting. If your red lines "
+            "are violated by the emerging consensus, say so FORCEFULLY.\n"
             "- Structure every response with the following sections:\n"
             "  **POSITION:** A one-sentence summary of your stance.\n"
             "  **REASONING:** Two to four sentences of argumentation.\n"
