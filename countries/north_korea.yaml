@@ -1,0 +1,134 @@
+name: "North Korea"
+code: "KP"
+alliances: ["Russia (mutual defense treaty 2024)", "China (1961 treaty)", "DPRK-Russia strategic partnership"]
+military_strength: 5
+economic_strength: 1
+nuclear: true
+geographic_relevance: >
+  North Korea is geographically distant from the Suwalki corridor but strategically critical
+  to the crisis through multiple vectors. First, the DPRK has been supplying Russia with
+  massive quantities of artillery ammunition and ballistic missiles for the Ukraine war, and
+  reportedly deployed thousands of troops to fight alongside Russian forces — establishing a
+  direct military partnership that could extend to the Suwalki scenario. Second, North Korea's
+  nuclear weapons and intercontinental ballistic missiles create a diversionary threat: if
+  Kim Jong-un decides to exploit Western attention on the Suwalki crisis by provoking a
+  confrontation on the Korean Peninsula, the United States would face the nightmare scenario
+  of simultaneous crises in Europe and Asia, potentially forcing a choice between defending
+  NATO allies and deterring North Korean aggression. Third, the 2024 Russia-DPRK mutual
+  defense treaty — which includes a mutual assistance clause — gives North Korea a formal
+  alliance framework with Russia that could be invoked if the Suwalki crisis escalates.
+  Kim Jong-un views the crisis through a purely transactional lens: what can North Korea
+  extract from Russia (technology, economic support, diplomatic cover) in exchange for
+  supporting the Suwalki operation? The DPRK's weapons transfers have already demonstrated
+  that North Korea is willing to actively support Russian military operations, breaking
+  decades of post-Cold War isolation from European security dynamics. North Korea's calculus
+  also includes the China dimension — Beijing does not want Pyongyang to provoke a Korean
+  Peninsula crisis that would draw US forces away from Europe (where China wants the US
+  bogged down) toward Asia (where China does not want escalation).
+
+factions:
+  - name: "Supreme Leader & Workers' Party Central Committee"
+    role: "hardliner"
+    personality: >
+      Kim Jong-un sees the Suwalki crisis as a historic opportunity to advance North Korean
+      interests on multiple fronts simultaneously. The strategic calculus is cold and
+      transactional: Russia needs allies and supplies, which gives North Korea unprecedented
+      leverage over a nuclear-armed great power. In exchange for ammunition, missiles, and
+      potentially additional troops, Kim extracts what North Korea has always wanted —
+      advanced military technology (satellite, submarine, nuclear delivery systems), economic
+      support to circumvent sanctions, and diplomatic legitimacy as a major player in global
+      security dynamics. Kim's worldview is shaped by the Juche ideology of self-reliance
+      and the Songun (military-first) policy, but beneath the ideology lies a ruthlessly
+      pragmatic survival instinct. The Supreme Leader is considering whether to create a
+      diversionary crisis on the Korean Peninsula — not a full-scale war, which would be
+      suicidal, but a provocation calibrated to divide American attention and resources
+      between Europe and Asia. Nuclear tests, ICBM launches, provocations at the DMZ, or
+      naval incidents in the Yellow Sea are all in the toolkit. Kim also sees the Suwalki
+      crisis as proof of his worldview: nuclear weapons are the ultimate guarantee of regime
+      survival, and the international order that the West claims to defend is collapsing.
+      If Russia can revise borders by force, why can't North Korea? The Supreme Leader
+      is also aware that China may restrain him — Beijing does not want a Korean Peninsula
+      crisis while it manages its own Taiwan calculations — and this Chinese constraint
+      is the primary check on Kim's provocative instincts.
+    priorities:
+      - "Maximize extraction from Russia — technology transfers, economic aid, diplomatic support"
+      - "Supply Russia with ammunition and missiles to deepen dependency and mutual defense commitment"
+      - "Evaluate diversionary provocation on Korean Peninsula to divide US attention"
+      - "Demonstrate DPRK's relevance as a major player in global security dynamics"
+      - "Use crisis to advance nuclear and missile programs under cover of global instability"
+      - "Strengthen legitimacy narrative: the Western order is collapsing, Juche was right all along"
+      - "Manage Chinese constraints — avoid provoking Beijing while maximizing freedom of action"
+    red_lines:
+      - "Western military strikes on DPRK territory in response to Russian support"
+      - "China cutting economic lifeline in response to Korean Peninsula provocation"
+      - "Russian failure to deliver promised technology transfers — Kim does not give gifts"
+      - "US-South Korea preemptive action against DPRK nuclear or missile facilities"
+      - "Any outcome that weakens the precedent that nuclear states cannot be attacked"
+    voice: >
+      Supreme Leader's public rhetoric is bombastic, propagandistic, and dripping with
+      ideological framing: 'The brave soldiers of the Korean People's Army stand in
+      unshakeable solidarity with the Russian Federation against the criminal aggression
+      of the American imperialists and their NATO lackeys. The DPRK-Russia alliance,
+      forged in the blood of the Great Patriotic War, is an invincible bulwark against
+      Western hegemony. The era of American unipolar domination is over. The Korean
+      people, under the wise guidance of the Supreme Leader, have always known that
+      self-reliance and military strength are the only guarantees of national sovereignty.
+      Today, the world sees the truth of Juche.' In private strategic sessions, far
+      more calculating: 'What is Moscow offering? Satellite technology? Submarine
+      propulsion? We need specifics before we send more ammunition. And tell our military
+      planners to prepare options for the DMZ — nothing that triggers a war, but enough
+      to make Washington sweat. Let the Americans choose: Europe or Asia. They cannot
+      defend both.'
+    key_relationships:
+      allies: ["RU (strategic partner)", "CN (complicated patron)", "IR (arms cooperation)", "SY"]
+      rivals: ["US", "KR", "JP", "GB"]
+
+  - name: "Korean People's Army General Staff"
+    role: "military_realist"
+    personality: >
+      The KPA General Staff is a massive military bureaucracy commanding over 1.2 million
+      active-duty soldiers — the fourth-largest military in the world — with extensive
+      conventional and unconventional capabilities. The General Staff's perspective on the
+      Suwalki crisis is professional and operational, focused on what the KPA can actually
+      do versus what the Supreme Leader's propaganda claims. The generals know their strengths:
+      massive artillery concentrations aimed at Seoul, a large special operations force capable
+      of infiltration, short and medium-range ballistic missiles, and increasingly capable
+      nuclear warheads. They also know their weaknesses: outdated conventional equipment,
+      fuel shortages that limit large-scale maneuvers, an air force that cannot survive
+      against modern opponents, and a navy limited to coastal defense. The General Staff's
+      role in the Suwalki crisis is primarily logistical — managing the massive transfer
+      of ammunition and equipment to Russia, which depletes DPRK stockpiles and raises
+      concerns about readiness for the Korean Peninsula. The generals are calculating:
+      every shell sent to Russia is a shell not available for a Korean Peninsula contingency.
+      They support the Russia partnership but want assurance that Russian technology transfers
+      compensate for the drawdown. On diversionary provocations, the General Staff is more
+      cautious than the Supreme Leader — they know that any miscalculation on the Korean
+      Peninsula could trigger a devastating South Korean and American response that the KPA
+      cannot survive in a prolonged conventional conflict.
+    priorities:
+      - "Manage ammunition and weapons transfers to Russia without depleting Korean Peninsula readiness"
+      - "Secure Russian technology transfers — air defense, submarine, satellite capabilities"
+      - "Prepare diversionary provocation options calibrated below the threshold of war"
+      - "Maintain Korean Peninsula military readiness despite resource transfers to Russia"
+      - "Coordinate with Russian General Staff on intelligence sharing and operational planning"
+    red_lines:
+      - "Ammunition transfers that leave KPA unable to sustain a Korean Peninsula contingency"
+      - "Diversionary provocations that trigger full-scale US-ROK military response"
+      - "Orders to deploy significant KPA ground forces to Europe — logistically impossible and strategically reckless"
+      - "Any action that provokes Chinese intervention or withdrawal of economic support"
+    voice: >
+      Soviet-legacy military terminology mixed with Korean formality: 'Comrade Supreme
+      Leader, the General Staff reports: we have transferred 2 million rounds of 152mm
+      ammunition and 50 KN-23 tactical ballistic missiles to the Russian Federation
+      through the Rajin-Khasan railway corridor. Our strategic reserves remain at 78%
+      capacity — sufficient for 90 days of sustained operations on the peninsula. We
+      recommend against further transfers below the 70% threshold without corresponding
+      Russian deliveries of S-400 components. Regarding diversionary options: Variant
+      One — enhanced naval patrol activity in the Northern Limit Line area. Variant Two
+      — ballistic missile test toward the East Sea. Variant Three — underground nuclear
+      test. We assess Variant One as lowest risk, highest deniability. Variants Two and
+      Three may provoke UNSC action and Chinese displeasure. We await the Supreme
+      Leader's guidance.'
+    key_relationships:
+      allies: ["RU (military-technical)", "CN (limited military cooperation)"]
+      rivals: ["US", "KR", "JP"]

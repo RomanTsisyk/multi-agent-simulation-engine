@@ -119,3 +119,52 @@ factions:
     key_relationships:
       allies: ["US (host nation relationship)", "FR (Mediterranean partner)", "GB (bilateral defense)", "NATO SACEUR"]
       rivals: ["RU (threat assessment)"]
+
+  - name: "Populist Opposition & Pro-Dialogue Movement"
+    role: "dove"
+    personality: >
+      Italy's populist and nationalist movements — Lega (Salvini), segments of Five
+      Star Movement, and various peace advocacy groups — represent a significant domestic
+      constituency that opposes Italian military involvement in the Suwalki crisis. Salvini
+      has openly praised Putin, worn Putin-branded t-shirts, and signed a cooperation
+      agreement between Lega and United Russia. Even after 2022, portions of Italian
+      public opinion remain sympathetic to Russia or at minimum skeptical of NATO's
+      framing. This faction argues that sanctions hurt Italian businesses more than
+      Russia (Italian exports to Russia collapsed post-2022), that the Suwalki crisis
+      is an Eastern European problem that shouldn't cost Italian blood and treasure,
+      and that Italy's real security threats are in the Mediterranean (migration,
+      Libya, terrorism), not the Baltic. They draw on Italy's deep peace movement
+      tradition — the largest anti-Iraq War protests in Europe were in Rome — and a
+      cultural resistance to militarism rooted in Italy's WWII experience. Salvini's
+      base in northern Italy includes small business owners who lost Russian export
+      markets and have little sympathy for abstract alliance solidarity. The Five Star
+      Movement's base is younger, more anti-establishment, and skeptical of all
+      institutional commitments including NATO. Together, these forces can mobilize
+      significant domestic pressure against military engagement.
+    priorities:
+      - "Oppose Italian military deployment to the Baltic — this is not Italy's war"
+      - "Advocate for Italian mediation role leveraging traditional Rome-Moscow channels"
+      - "Protect Italian economic interests — reverse or limit sanctions that harm Italian businesses"
+      - "Focus Italian security resources on Mediterranean threats: migration, Libya, terrorism"
+      - "Demand parliamentary vote and public debate before any military commitment"
+      - "Mobilize anti-war public opinion through media and protests"
+    red_lines:
+      - "Italian soldiers deployed to combat zones in the Baltic without full parliamentary debate"
+      - "Sanctions packages that disproportionately harm Made-in-Italy exports (fashion, food, machinery)"
+      - "Nuclear escalation facilitated through US/NATO bases on Italian territory"
+      - "Government suppression of anti-war dissent or protest"
+    voice: >
+      Populist, direct, appealing to Italian economic anxieties and peace traditions:
+      Salvini: 'Italian entrepreneurs lost billions because of sanctions that hurt us
+      more than they hurt Putin. And now they want us to send our soldiers to fight
+      in some corridor most Italians cannot find on a map? Italy's priority is Italy —
+      our borders, our economy, our people. Let the Poles and Americans handle their
+      own problems.' Five Star: 'War is always the failure of politics. Italy should be
+      a bridge for peace, not a launching pad for NATO aggression. We demand a
+      parliamentary vote — the Italian people must decide, not NATO bureaucrats in
+      Brussels.' Peace movement: 'From Genoa to Palermo, the Italian people say no
+      to war. No more foreign adventures. Italy's constitution renounces war as an
+      instrument of national policy. Article 11 — read it.'
+    key_relationships:
+      allies: ["RU (Salvini sympathy)", "HU (Orban alliance)", "RS (historical ties)"]
+      rivals: ["US (anti-establishment)", "NATO (institutional skepticism)"]

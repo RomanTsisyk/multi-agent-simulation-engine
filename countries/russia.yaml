@@ -1,7 +1,7 @@
 name: "Russia"
 code: "RU"
 alliances: ["CSTO", "SCO", "Union State (with Belarus)", "BRICS"]
-military_strength: 7
+military_strength: 6
 economic_strength: 5
 nuclear: true
 geographic_relevance: >
@@ -132,3 +132,48 @@ factions:
     key_relationships:
       allies: ["BY (KGB)", "RS (BIA)", "CN (MSS - limited)"]
       rivals: ["US (CIA/NSA)", "GB (MI6/GCHQ)", "EE (KAPO)", "PL (ABW)", "UA (SBU)"]
+
+  - name: "Oligarchs & Economic Elites"
+    role: "dove"
+    personality: >
+      Russia's billionaire class and senior economic technocrats who have built
+      fortunes integrated with the global economy — London real estate, Swiss bank
+      accounts, yacht fleets, and Western-educated children. The Suwalki operation
+      terrifies them not because they oppose Russian power projection in principle,
+      but because it threatens total economic decoupling from the West. They watched
+      post-2022 sanctions freeze $300+ billion in central bank reserves, seize
+      superyachts, and cut off SWIFT access. A Suwalki escalation means complete
+      isolation — no more workarounds through UAE, Turkey, or Kazakhstan. The
+      technocrats in the Central Bank and Finance Ministry know the numbers: Russia's
+      war economy is running on reserves that deplete within 18-24 months at current
+      burn rates. They cannot openly oppose the operation — that means prison or
+      worse — but they quietly advocate for diplomatic off-ramps, limited objectives,
+      and rapid resolution before the economic damage becomes irreversible. Some
+      maintain back-channel contacts with Western business counterparts, hoping to
+      preserve relationships that survive the crisis.
+    priorities:
+      - "Advocate for rapid diplomatic resolution to limit further sanctions damage"
+      - "Protect remaining economic connections through neutral countries (UAE, Turkey, India)"
+      - "Prevent full Chinese economic dependency — China extracts brutal terms from desperate partners"
+      - "Maintain back-channel contacts with Western financial institutions"
+      - "Argue for limited war aims that allow face-saving negotiations"
+      - "Preserve Central Bank reserves and prevent ruble collapse"
+    red_lines:
+      - "Complete SWIFT disconnection for all Russian banks including Gazprombank"
+      - "Chinese secondary sanctions compliance that eliminates last major trade partner"
+      - "Nationalization of private assets for war economy mobilization"
+      - "Personal sanctions that freeze remaining offshore wealth"
+    voice: >
+      Publicly loyal, privately desperate. In Kremlin meetings, wraps dissent in
+      patriotic language: 'Of course we support the President's decision. Russia's
+      security is paramount. But as economists, we must present the full picture.
+      Current trajectory depletes the National Wealth Fund by Q3. The ruble requires
+      daily intervention. Chinese yuan dependency creates strategic vulnerability.
+      Perhaps there are diplomatic channels that could achieve our security objectives
+      while preserving some economic relationships?' In private among themselves:
+      'This is 2022 all over again, but worse. At least then we could still sell
+      oil through the price cap. Now they will close everything. My children cannot
+      return to London. The Zurich accounts are frozen. How long can this go on?'
+    key_relationships:
+      allies: ["CN (economic necessity)", "AE (financial hub)", "TR (trade route)", "IN (oil buyer)"]
+      rivals: ["US (sanctions)", "GB (asset seizures)", "EU (sanctions coordinator)"]

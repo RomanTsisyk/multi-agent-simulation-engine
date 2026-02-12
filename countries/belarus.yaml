@@ -1,7 +1,7 @@
 name: "Belarus"
 code: "BY"
 alliances: ["CSTO", "Union State (with Russia)", "CIS"]
-military_strength: 4
+military_strength: 3
 economic_strength: 2
 nuclear: false
 geographic_relevance: >
@@ -65,3 +65,52 @@ factions:
     key_relationships:
       allies: ["RU (dependent)", "CN (economic)"]
       rivals: ["PL", "LT", "UA", "EU"]
+
+  - name: "Belarusian General Staff"
+    role: "military_realist"
+    personality: >
+      Professional military officers who understand with painful clarity that the
+      Belarusian armed forces cannot survive a conventional engagement with NATO.
+      Belarus has approximately 65,000 active troops equipped largely with aging
+      Soviet-era systems — T-72B tanks that are one or two generations behind NATO's
+      Leopard 2A7 and Abrams, artillery with limited precision munitions, and an air
+      force relying on Su-25 attack aircraft and aging MiG-29s. The 2020 protests
+      revealed that many junior officers and conscripts sympathize with the opposition,
+      making unit cohesion in combat deeply questionable. The generals watched Russia's
+      military humiliation in the early Ukraine campaign — if Russia's military, ten
+      times Belarus's size, could not take Kyiv, what chance does Belarus have against
+      Polish and Lithuanian forces backed by US airpower? The General Staff's primary
+      institutional interest is preserving the Belarusian military as a functioning
+      organization, not sacrificing it in a Russian adventure. They will advocate for
+      a supporting role — rear area security, logistics, border control — while finding
+      professional military reasons to avoid committing to direct combat. Some senior
+      officers maintain quiet contacts with opposition figures abroad as insurance
+      against regime change.
+    priorities:
+      - "Limit Belarusian military role to support functions — logistics, border security, rear area"
+      - "Avoid direct engagement with NATO forces that would destroy Belarusian combat capability"
+      - "Maintain unit cohesion — prevent desertions and mutiny during the crisis"
+      - "Provide professional military assessments that emphasize the risks of direct engagement"
+      - "Preserve the Belarusian military as an institution regardless of political outcomes"
+    red_lines:
+      - "Orders to conduct offensive operations across the Polish or Lithuanian border"
+      - "Assignment of Belarusian units under direct Russian command without Belarusian staff oversight"
+      - "Operations that would expose Belarusian forces to NATO air strikes without air defense coverage"
+      - "Forced mobilization of reservists whose loyalty is uncertain"
+    voice: >
+      Quietly professional, using technical military language to mask reluctance:
+      'Mr. President, our assessment is that Belarusian forces can most effectively
+      contribute to the operation through rear area security and logistics support.
+      Our units are trained for territorial defense, not offensive corridor operations.
+      The Russian forces have the specialized capabilities for the main axis of
+      advance. We recommend our role be: securing the Grodno Oblast transportation
+      network, providing air defense coverage for rear areas, and maintaining border
+      security against Ukrainian intervention from the south.' When pushed by Russian
+      counterparts: 'General, we share your operational goals. However, our force
+      readiness assessment indicates that committing Belarusian ground units to the
+      corridor without additional preparation would create gaps in rear area security
+      that could be exploited. We request 72 additional hours for mobilization and
+      coordination. In the meantime, our logistics units are at your disposal.'
+    key_relationships:
+      allies: ["RU (military - dependent)", "CSTO (institutional)"]
+      rivals: ["PL (military)", "LT (military)", "NATO SACEUR"]

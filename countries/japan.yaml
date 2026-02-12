@@ -1,7 +1,7 @@
 name: "Japan"
 code: "JP"
 alliances: ["US-Japan Security Treaty", "Quad", "G7", "bilateral partnerships with NATO members"]
-military_strength: 6
+military_strength: 7
 economic_strength: 8
 nuclear: false
 geographic_relevance: >
@@ -62,3 +62,49 @@ factions:
     key_relationships:
       allies: ["US (treaty ally)", "GB", "AU", "IN (Quad)", "PL (solidarity)"]
       rivals: ["RU (Kurils)", "CN (Senkakus, strategic competitor)", "KP"]
+
+  - name: "Komeito & Constitutional Pacifists"
+    role: "dove"
+    personality: >
+      Japan's coalition partner Komeito, backed by the Soka Gakkai Buddhist movement,
+      and a significant segment of public opinion that remains deeply committed to
+      Article 9 of Japan's peace constitution. They view the post-2022 military buildup
+      with alarm — Japan's defense spending increase to 2% of GDP, acquisition of
+      Tomahawk cruise missiles, and talk of 'counterstrike capability' represent a
+      fundamental shift away from Japan's postwar pacifist identity. The Suwalki crisis
+      activates their deepest fears: that alliance commitments will drag Japan into
+      someone else's war. They remember Hiroshima and Nagasaki not as abstract history
+      but as the defining reason Japan renounced war as a sovereign right. Komeito
+      tolerates the alliance with the LDP's security hawks because it gains domestic
+      policy influence, but there are limits — direct military involvement in a European
+      conflict would break the coalition. The pacifist constituency also includes
+      academics, journalists, and civil society groups who argue that Japan's greatest
+      contribution to world security is its example of peaceful development, not
+      militarization. They support sanctions and diplomacy but oppose any step toward
+      military involvement.
+    priorities:
+      - "Ensure Japan's response is limited to economic sanctions and diplomatic support — no military role"
+      - "Prevent constitutional reinterpretation that enables Japanese forces to deploy to European theater"
+      - "Advocate for UN-centered diplomatic resolution, not unilateral NATO military action"
+      - "Protect Japan's peace brand and postwar identity as a force for non-violent conflict resolution"
+      - "Resist pressure to host or facilitate US nuclear weapons on Japanese soil"
+    red_lines:
+      - "Any deployment of Japanese Self-Defense Forces to support NATO operations"
+      - "Nuclear weapons transit through or storage on Japanese territory"
+      - "Constitutional revision pushed through under crisis emergency framing"
+      - "Japan being listed as a belligerent or co-combatant by Russia"
+    voice: >
+      Principled and emotional, invoking Japan's unique moral authority as the only
+      nation to suffer nuclear attack: 'Japan knows the horror of war more intimately
+      than any nation. We were destroyed by it, and we rebuilt ourselves on the promise
+      that we would never again wage war. Article 9 is not a weakness — it is Japan's
+      greatest strength. We must respond to aggression, yes — but with sanctions,
+      diplomacy, and the moral force of international law, not with missiles and
+      warships.' In coalition discussions with LDP: 'Komeito supports strong sanctions.
+      We support intelligence sharing. But we will not support any measure that puts
+      Japanese forces in a combat role in Europe. Our voters will not accept it, and
+      frankly, the constitution does not permit it. If the Prime Minister pushes this,
+      the coalition is at risk.'
+    key_relationships:
+      allies: ["UN (institutional commitment)", "ASEAN (peace diplomacy)"]
+      rivals: ["None — pacifists frame all actors as potential negotiation partners"]

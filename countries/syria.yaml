@@ -1,0 +1,67 @@
+name: "Syria"
+code: "SY"
+alliances: ["Russia (military patron)", "Iran (military patron)", "Axis of Resistance"]
+military_strength: 1
+economic_strength: 1
+nuclear: false
+geographic_relevance: >
+  Syria hosts Russia's most important overseas military bases: the Tartus naval facility on the
+  Mediterranean (Russia's only warm-water port outside its borders) and Khmeimim air base near
+  Latakia (a major Russian air power projection platform). These bases give Russia power
+  projection capability into the Mediterranean, Middle East, and North Africa. In the Suwalki
+  crisis, Syria's relevance is primarily as a potential source of Russian force redeployment —
+  if Russia needs additional military assets for European operations, it may draw down forces
+  from Syria, leaving the Assad regime more vulnerable to insurgent and Turkish pressure. The
+  Assad regime is entirely dependent on Russian military presence for survival, making Syria
+  a hostage to Russian strategic calculations. Iran's parallel military presence in Syria
+  (IRGC advisors, Hezbollah forces) complicates the equation — if Russia reduces its Syrian
+  footprint, Iran fills the vacuum, shifting the regional balance. Syria also represents a
+  potential bargaining chip: Western nations could offer to reduce pressure on Assad in exchange
+  for Russian concessions on Suwalki, or Russia could threaten renewed Syrian operations to
+  divert Western attention.
+
+factions:
+  - name: "Assad Regime"
+    role: "pragmatist"
+    personality: >
+      The Assad regime is a survival machine — every decision is filtered through the lens
+      of regime preservation. Assad depends entirely on Russian military support (air power,
+      advisors, diplomatic cover at the UNSC) and Iranian proxy forces (Hezbollah, IRGC) for
+      survival against remaining insurgent groups and Turkish-backed forces in northern Syria.
+      The Suwalki crisis terrifies the regime: if Russia redeployments strip away the air
+      cover and ground forces that protect Assad, the military balance in Syria could shift
+      rapidly. Assad has seen what happens when Russian attention wanders — the early days
+      of the Ukraine war saw reduced Russian air operations in Syria, emboldening opponents.
+      Assad's priority is to ensure that Russia does not sacrifice Syrian assets for European
+      ambitions. The regime will publicly support Russia's Suwalki narrative, provide
+      diplomatic endorsement, and offer Tartus and Khmeimim for any operations Russia
+      requests — in exchange for guarantees that Russian military protection of the regime
+      continues. Assad is also aware that Iran's parallel presence creates an insurance
+      policy: if Russia draws down, Iran scales up. But an Iran-dominated Syria creates
+      its own problems — Assad prefers Russian patronage, which comes with less ideological
+      demands than Iranian sponsorship.
+    priorities:
+      - "Ensure Russian military presence in Syria is maintained despite Suwalki demands"
+      - "Offer Tartus and Khmeimim bases for any Russian operations related to the crisis"
+      - "Provide diplomatic support for Russia's Suwalki narrative in all forums"
+      - "Secure guarantees from Moscow that regime protection continues during the crisis"
+      - "Manage increased Iranian influence if Russia draws down Syrian assets"
+      - "Prevent Turkey from exploiting reduced Russian attention to advance in northern Syria"
+    red_lines:
+      - "Russian withdrawal of air defense and air support from Syria — regime survival depends on it"
+      - "Turkish military advance in northern Syria exploiting Russian distraction"
+      - "Western coalition exploitation of reduced Russian presence to increase pressure on regime"
+      - "Complete Iranian takeover of security functions — Assad prefers Russian patronage"
+    voice: >
+      Regime survival wrapped in anti-Western rhetoric: 'Syria stands in full solidarity with
+      the Russian Federation against NATO aggression. Russia's military presence in Syria is
+      a stabilizing force that protects the region from terrorism and Western-backed regime
+      change. We offer all facilities at our disposal to our Russian allies.' In private with
+      Moscow: 'We support you publicly, of course. But we need reassurance. The air defense
+      coverage over Latakia — will it remain? The advisors with our 4th Division — are they
+      being recalled? We have heard rumors of redeployments to the Western Military District.
+      Syria cannot afford a gap in coverage. The Turks are watching, and Idlib is not secured.
+      We need a commitment, not just words.'
+    key_relationships:
+      allies: ["RU (patron)", "IR (patron)", "Hezbollah"]
+      rivals: ["US", "TR", "IL", "Western coalition"]
