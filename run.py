@@ -256,6 +256,7 @@ def build_game_config(
     # Remove keys not accepted by backend constructors
     # (temperature is handled per-request, not at constructor level)
     backend_settings.pop("temperature", None)
+    backend_settings.pop("base_url", None)  # informational only, not used by constructors
 
     # Add the backend name
     backend_settings["name"] = backend_name

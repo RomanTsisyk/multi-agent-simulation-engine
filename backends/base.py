@@ -40,6 +40,16 @@ class LLMBackend(ABC):
         """
         pass
 
+    @property
+    def supports_parallel(self) -> bool:
+        """Whether this backend can handle multiple concurrent requests.
+
+        API backends (DeepSeek, OpenAI) return True; local backends
+        (Ollama with a single GPU) return False.  The game engine uses
+        this to decide whether to parallelise country deliberations.
+        """
+        return False
+
     @abstractmethod
     async def close(self) -> None:
         """Release any resources held by the backend (HTTP sessions, etc.)."""

@@ -221,6 +221,11 @@ class DeepSeekBackend(LLMBackend):
 
         raise last_exc  # type: ignore[misc]
 
+    @property
+    def supports_parallel(self) -> bool:
+        """DeepSeek API supports concurrent requests (semaphore-limited)."""
+        return True
+
     async def close(self) -> None:
         """Close the underlying HTTP session."""
         if self._session and not self._session.closed:

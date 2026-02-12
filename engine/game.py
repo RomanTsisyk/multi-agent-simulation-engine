@@ -330,72 +330,24 @@ class Game:
         round_record["briefing"] = briefing
         _print_info(f"Briefing length: {len(briefing)} chars")
 
-        # --- 2 & 3. Country deliberation (SEQUENTIAL) ---
-        all_decisions: list[dict] = []
-        diplomatic_messages: list[dict] = []
+        # --- 2 & 3. Country deliberation ---
+        use_parallel = (
+            self.backend is not None
+            and self.backend.supports_parallel
+        )
 
-        for code, country in self.countries.items():
-            cname = country.config.name if isinstance(country, Country) else country.name
-            _print_phase(cname, "Receiving intelligence...")
-            try:
-                intel = await self.game_master.generate_private_intel(
-                    self.world_state, code
-                )
-            except Exception as exc:
-                _print_error(f"Intel generation failed for {code}: {exc}")
-                logger.exception("Intel generation failed for %s", code)
-                intel = "Intelligence services report no new developments."
-
-            _print_phase(cname, "Deliberating...")
-            try:
-                if isinstance(country, Country):
-                    # Real multi-faction debate
-                    world_context = self.world_state.to_briefing(for_country=code)
-                    combined_briefing = f"{briefing}\n\nCLASSIFIED INTELLIGENCE:\n{intel}"
-                    debate_result = await country.run_internal_debate(
-                        situation_briefing=combined_briefing,
-                        world_context=world_context,
-                    )
-                    decision = {
-                        "country": code,
-                        "country_name": country.config.name,
-                        "actions": debate_result.get("actions", []),
-                        "diplomatic_messages": [],
-                        "reasoning": debate_result.get("decision", ""),
-                        "debate_log": debate_result.get("debate_log", []),
-                        "dissent": debate_result.get("dissent", ""),
-                    }
-                else:
-                    # Fallback stub
-                    decision = await country.deliberate(
-                        briefing=briefing,
-                        intel=intel,
-                        world_state=self.world_state,
-                    )
-                all_decisions.append(decision)
-
-                # Collect diplomatic messages
-                for msg in decision.get("diplomatic_messages", []):
-                    diplomatic_messages.append({
-                        "from": code,
-                        "to": msg.get("to", "?"),
-                        "content": msg.get("content", ""),
-                    })
-
-                num_actions = len(decision.get("actions", []))
-                _print_info(f"  Actions: {num_actions}")
-                if decision.get("dissent"):
-                    _print_info(f"  Dissent: {decision['dissent'][:80]}...")
-
-            except Exception as exc:
-                _print_error(f"Country {code} failed: {exc}")
-                logger.exception("Country %s deliberation failed", code)
-                all_decisions.append({
-                    "country": code,
-                    "country_name": cname,
-                    "actions": ["No action taken (agent error)"],
-                    "error": str(exc),
-                })
+        if use_parallel:
+            _print_info(
+                f"Parallel mode: deliberating {len(self.countries)} "
+                f"countries concurrently"
+            )
+            all_decisions, diplomatic_messages = (
+                await self._deliberate_parallel(briefing)
+            )
+        else:
+            all_decisions, diplomatic_messages = (
+                await self._deliberate_sequential(briefing)
+            )
 
         round_record["country_decisions"] = all_decisions
         round_record["diplomatic_messages"] = diplomatic_messages
@@ -533,6 +485,137 @@ class Game:
         if self.backend:
             await self.backend.close()
             _print_info("Backend closed.")
+
+    # ------------------------------------------------------------------
+    # Deliberation strategies
+    # ------------------------------------------------------------------
+
+    async def _deliberate_one_country(
+        self, code: str, country: Country | _CountryStub, briefing: str,
+    ) -> dict:
+        """Run intel + deliberation for a single country.
+
+        Returns a decision dict.  Used by both sequential and parallel paths.
+        """
+        assert self.game_master is not None
+        assert self.world_state is not None
+
+        cname = country.config.name if isinstance(country, Country) else country.name
+
+        # Intel
+        try:
+            intel = await self.game_master.generate_private_intel(
+                self.world_state, code
+            )
+        except Exception as exc:
+            logger.exception("Intel generation failed for %s", code)
+            intel = "Intelligence services report no new developments."
+
+        # Deliberation
+        try:
+            if isinstance(country, Country):
+                world_context = self.world_state.to_briefing(for_country=code)
+                combined_briefing = f"{briefing}\n\nCLASSIFIED INTELLIGENCE:\n{intel}"
+                debate_result = await country.run_internal_debate(
+                    situation_briefing=combined_briefing,
+                    world_context=world_context,
+                )
+                decision = {
+                    "country": code,
+                    "country_name": country.config.name,
+                    "actions": debate_result.get("actions", []),
+                    "diplomatic_messages": [],
+                    "reasoning": debate_result.get("decision", ""),
+                    "debate_log": debate_result.get("debate_log", []),
+                    "dissent": debate_result.get("dissent", ""),
+                }
+            else:
+                decision = await country.deliberate(
+                    briefing=briefing,
+                    intel=intel,
+                    world_state=self.world_state,
+                )
+        except Exception as exc:
+            logger.exception("Country %s deliberation failed", code)
+            decision = {
+                "country": code,
+                "country_name": cname,
+                "actions": ["No action taken (agent error)"],
+                "error": str(exc),
+            }
+
+        _print_phase(cname, f"{len(decision.get('actions', []))} actions")
+        if decision.get("dissent"):
+            _print_info(f"  Dissent: {decision['dissent'][:80]}...")
+
+        return decision
+
+    async def _deliberate_sequential(
+        self, briefing: str,
+    ) -> tuple[list[dict], list[dict]]:
+        """Process all countries one at a time (for local backends)."""
+        all_decisions: list[dict] = []
+        diplomatic_messages: list[dict] = []
+
+        for code, country in self.countries.items():
+            cname = country.config.name if isinstance(country, Country) else country.name
+            _print_phase(cname, "Deliberating...")
+            decision = await self._deliberate_one_country(code, country, briefing)
+            all_decisions.append(decision)
+            for msg in decision.get("diplomatic_messages", []):
+                diplomatic_messages.append({
+                    "from": code, "to": msg.get("to", "?"),
+                    "content": msg.get("content", ""),
+                })
+
+        return all_decisions, diplomatic_messages
+
+    async def _deliberate_parallel(
+        self, briefing: str,
+    ) -> tuple[list[dict], list[dict]]:
+        """Process all countries concurrently (for API backends).
+
+        Each country's internal debate is still sequential (round 2 depends
+        on round 1), but different countries deliberate simultaneously.
+        This turns a 30-country round from ~35 min to ~3 min with an API.
+        """
+        tasks = []
+        country_order: list[str] = []
+
+        for code, country in self.countries.items():
+            country_order.append(code)
+            tasks.append(
+                self._deliberate_one_country(code, country, briefing)
+            )
+
+        # Run all countries concurrently
+        results = await asyncio.gather(*tasks, return_exceptions=True)
+
+        all_decisions: list[dict] = []
+        diplomatic_messages: list[dict] = []
+
+        for code, result in zip(country_order, results):
+            if isinstance(result, Exception):
+                cname = code
+                if code in self.countries:
+                    c = self.countries[code]
+                    cname = c.config.name if isinstance(c, Country) else c.name
+                _print_error(f"Country {cname} failed: {result}")
+                all_decisions.append({
+                    "country": code,
+                    "country_name": cname,
+                    "actions": ["No action taken (agent error)"],
+                    "error": str(result),
+                })
+            else:
+                all_decisions.append(result)
+                for msg in result.get("diplomatic_messages", []):
+                    diplomatic_messages.append({
+                        "from": code, "to": msg.get("to", "?"),
+                        "content": msg.get("content", ""),
+                    })
+
+        return all_decisions, diplomatic_messages
 
     # ------------------------------------------------------------------
     # Internal helpers
