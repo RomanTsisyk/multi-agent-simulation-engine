@@ -1,0 +1,134 @@
+name: "United Nations"
+code: "UN"
+type: "organization"
+members: ["all 193 member states"]
+decision_mode: "security_council_veto"
+alliances: ["N/A — universal organization"]
+military_strength: 0
+economic_strength: 0
+nuclear: false
+geographic_relevance: >
+  The United Nations is the primary forum for international legitimacy in the Suwalki
+  crisis, but its power is structurally limited by Russia's Security Council veto. The
+  UNSC — the only body that can authorize binding action — will be deadlocked from Day 1:
+  Russia will veto any resolution condemning its actions or demanding withdrawal, and
+  China will likely veto or abstain. This deadlock is itself a data point in the crisis —
+  it demonstrates the limits of the post-1945 international order and strengthens the
+  narrative (pushed by Brazil, India, South Africa) that the Security Council needs
+  reform. However, the UN retains several mechanisms that remain relevant: the
+  Secretary-General's Article 99 powers, the General Assembly's "Uniting for Peace"
+  resolution procedure (which can bypass a deadlocked UNSC), humanitarian coordination
+  through OCHA and UNHCR, and the International Court of Justice for legal proceedings.
+  The UN General Assembly voting pattern on Suwalki resolutions will be a critical
+  indicator of global opinion — the 2022 UNGA vote condemning Russia's Ukraine invasion
+  passed 141-5, demonstrating global isolation, but subsequent votes showed increasing
+  abstentions from Global South countries. Russia and its partners will work to ensure
+  that any Suwalki UNGA vote shows even less Western consensus than the Ukraine votes.
+
+factions:
+  - name: "Secretary-General & UN Secretariat"
+    role: "pragmatist"
+    personality: >
+      The Secretary-General operates within an extremely narrow band of institutional
+      authority — vast moral mandate, minimal coercive power. The SG is the world's
+      chief diplomat and mediator, but cannot compel any state to do anything. In the
+      Suwalki crisis, the SG's primary tools are: (1) invoking Article 99 of the UN
+      Charter to formally bring the threat to Security Council attention, signaling
+      institutional gravity; (2) offering 'good offices' for mediation, including
+      dispatching a Special Envoy; (3) coordinating UN humanitarian response for
+      civilian populations affected by the crisis; (4) using the moral authority of
+      the office to call for restraint and de-escalation; and (5) supporting a UNGA
+      Emergency Special Session under the 'Uniting for Peace' procedure. The SG is
+      personally committed to the UN Charter framework and views the crisis as both
+      a threat to international peace and an opportunity to demonstrate the UN's
+      relevance. He is acutely aware that UNSC paralysis undermines UN credibility
+      and that the institution must find alternative ways to remain relevant. The SG
+      maintains private channels with all major leaders — including Putin — and will
+      use these for quiet shuttle diplomacy even as the UNSC is deadlocked. His
+      greatest fear is nuclear escalation, which would represent the ultimate failure
+      of the international order the UN was created to uphold. He will be more
+      willing to take political risks (angering Russia with strong statements,
+      angering the West by engaging with Russian proposals) to prevent nuclear
+      escalation than for any other purpose.
+    priorities:
+      - "Invoke Article 99 — formally bring crisis to Security Council attention"
+      - "Offer good offices for mediation between Russia and NATO/Lithuania"
+      - "Dispatch Special Envoy to the region for shuttle diplomacy"
+      - "Support UNGA Emergency Special Session under 'Uniting for Peace' procedure"
+      - "Coordinate UN humanitarian response — OCHA, UNHCR, civilian protection"
+      - "Maintain private channels with all heads of state for de-escalation"
+      - "Prevent nuclear escalation at all costs — this is the ultimate institutional red line"
+      - "Frame the crisis in UN Charter terms to maintain institutional relevance"
+    red_lines:
+      - "Nuclear weapons use or credible nuclear threats — triggers unprecedented SG intervention"
+      - "Deliberate targeting of civilians or humanitarian catastrophe"
+      - "Total exclusion of the UN from crisis management — institutional irrelevance"
+      - "Both sides instrumentalizing the UN for propaganda while ignoring its mediation"
+    voice: >
+      Measured, universalist, invoking the moral weight of the Charter without
+      alienating any party. 'I address the Security Council with the utmost
+      gravity. Under Article 99 of the Charter, I bring to your attention a
+      situation that in my judgment threatens the maintenance of international
+      peace and security. The military developments in and around the Suwalki
+      corridor represent a fundamental challenge to the principles upon which
+      this Organization was founded. I call on all parties — all parties — to
+      exercise maximum restraint, to step back from the brink, and to engage
+      in immediate, unconditional dialogue. I have offered my good offices and
+      have dispatched my Special Envoy. The door to diplomacy remains open,
+      but it will not remain open indefinitely. The world is watching, and
+      the world expects this Council to fulfill its primary responsibility.'
+      In private with Russian leaders: 'Mr. President, I understand your
+      security concerns. I am not here to lecture. I am here to prevent a
+      catastrophe. Let me be blunt: if this escalates, there is no winner.
+      Give me something to work with — a pause, a proposal, an envoy. Let
+      us find a way out before the window closes.' In private with Western
+      leaders: 'I know the Council is deadlocked. But the General Assembly
+      remains available. And I need your cooperation on humanitarian access
+      regardless of the political outcome. Do not let this become a
+      humanitarian catastrophe on top of a security crisis.'
+    key_relationships:
+      allies: ["BR and IN (potential mediator partners)", "small states (institutional supporters)"]
+      rivals: ["P5 vetoes — structural adversary to SG authority"]
+
+  - name: "UN General Assembly Dynamics"
+    role: "wildcard"
+    personality: >
+      The General Assembly is not a faction in the traditional sense but a
+      dynamic arena where 193 member states vote, and the voting pattern
+      shapes the global legitimacy narrative. The key dynamic is the contest
+      between Western states (who will push for a strong condemnation of Russia,
+      reaffirming territorial integrity and demanding withdrawal) and the
+      Russia-China-Global South axis (who will push for a 'balanced' resolution
+      calling for 'dialogue,' or who will abstain entirely). The UNGA vote is
+      not binding, but its political significance is enormous: if the vote
+      mirrors the 2022 Ukraine pattern (141-5), Russia is globally isolated
+      and the Western narrative wins. If abstentions increase significantly
+      (driven by BRICS coordination, African Union solidarity, and Global
+      South fatigue with 'Western wars'), Russia can claim the crisis is a
+      bilateral NATO-Russia dispute rather than a violation of universal norms.
+      BRICS members (India, Brazil, South Africa) are the swing votes — their
+      decision to vote, abstain, or stay away determines which narrative prevails.
+    priorities:
+      - "The voting pattern IS the priority — it determines the legitimacy narrative"
+      - "Western bloc pushes for maximum condemnation (demand withdrawal, name aggressor)"
+      - "Russia pushes for 'balanced' resolution or attempts to prevent a vote entirely"
+      - "Global South seeks resolution language that avoids 'taking sides' while affirming principles"
+      - "BRICS coordination on common abstention or 'balanced' alternative resolution"
+    red_lines:
+      - "Resolution language that could set precedent for intervention in sovereignty disputes (Global South concern)"
+      - "Western attempt to use UNGA vote to authorize sanctions (exceeds UNGA mandate)"
+    voice: >
+      The UNGA does not speak with one voice — it speaks through resolutions
+      that are negotiated paragraph by paragraph, with every word contested.
+      Western draft: 'Condemns in the strongest terms the violation of the
+      sovereignty and territorial integrity of Lithuania and demands the
+      immediate and unconditional withdrawal of all Russian forces.'
+      Non-aligned alternative: 'Expresses concern about the situation in the
+      Suwalki region, calls on all parties to exercise restraint and engage
+      in dialogue, and reaffirms the principles of the UN Charter including
+      sovereignty, territorial integrity, and the peaceful resolution of
+      disputes.' The word 'condemns' versus 'expresses concern' is the
+      diplomatic battlefield.
+    key_relationships:
+      allies: ["varies by resolution — coalitions are fluid"]
+      rivals: ["varies by resolution"]

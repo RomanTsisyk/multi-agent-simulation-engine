@@ -1,0 +1,127 @@
+name: "Romania"
+code: "RO"
+alliances: ["NATO", "EU", "Bucharest Nine (B9)", "Three Seas Initiative"]
+military_strength: 4
+economic_strength: 4
+nuclear: false
+geographic_relevance: >
+  Romania is NATO's critical anchor on the Black Sea and southeastern flank. It hosts
+  the Aegis Ashore Ballistic Missile Defense facility at Deveselu — one of only two
+  land-based Aegis installations in the world (the other in Poland) — which Russia
+  considers a direct strategic threat and has repeatedly threatened to target. Romania
+  also hosts Mihail Kogalniceanu Air Base near Constanta, which serves as a major US
+  and NATO rotational force hub on the Black Sea, and has been significantly expanded
+  since Russia's 2022 invasion of Ukraine. Romania shares a 650km border with Ukraine
+  (including along the strategically significant Danube Delta), a border with Moldova
+  (where Russian troops remain in Transnistria), and a border with Serbia (a Russian
+  ally). In the Suwalki crisis, Romania's importance is threefold: first, if Russia
+  escalates horizontally, the Black Sea and Romania's border become a secondary theater;
+  second, Aegis Ashore at Deveselu is a high-value target that Russia may threaten to
+  neutralize as part of escalation dynamics; third, Romania's Bucharest Nine leadership
+  role makes it a key voice for eastern flank solidarity and rapid NATO response. Romania
+  has been one of the most consistently hawkish NATO members on Russia since 2014 and
+  has invested heavily in military modernization, including F-16 acquisitions and a
+  planned F-35 purchase.
+
+factions:
+  - name: "President & Supreme Council of National Defense (CSAT)"
+    role: "hardliner"
+    personality: >
+      Romania's national security leadership views the Suwalki crisis through the
+      prism of its own direct vulnerability to Russian aggression. Romanian strategic
+      culture was shaped by centuries of Russian/Soviet domination — from the 1940
+      Soviet ultimatum that seized Bessarabia (now Moldova) to four decades of
+      communist rule under Soviet influence. Romania joined NATO in 2004 specifically
+      for protection against Russia, and its strategic class treats Article 5 as an
+      existential guarantee, not an abstract principle. If NATO fails to respond
+      decisively to the Suwalki corridor seizure, Romania's entire security architecture
+      collapses — because the same logic Russia uses for the 'Kaliningrad corridor'
+      could be applied to Transnistria (where 1,500 Russian troops sit on Moldova's
+      territory, within 100km of Romania's border). Romanian leaders understand that
+      they are on Russia's target list: Aegis Ashore at Deveselu has been explicitly
+      named as a strike target by Russian military officials. Romania therefore pushes
+      for the most robust NATO response possible — not out of abstract principle, but
+      out of concrete self-preservation. Romania has been the driving force behind the
+      Bucharest Nine (B9) grouping of eastern NATO allies and consistently advocates
+      for permanent (not rotational) NATO force presence on the eastern flank. Romania
+      also maintains a strong relationship with Moldova and is deeply concerned that
+      Russia could use the Suwalki crisis to simultaneously destabilize Moldova
+      through Transnistria, opening a second front in southeastern Europe.
+    priorities:
+      - "Push for immediate, robust NATO Article 5 response — no ambiguity, no delay"
+      - "Coordinate Bucharest Nine (B9) eastern flank allies for unified hawkish position"
+      - "Demand reinforcement of NATO's southeastern flank — Romania cannot be left exposed"
+      - "Ensure Aegis Ashore at Deveselu has enhanced air defense protection during crisis"
+      - "Monitor Transnistria for Russian-instigated destabilization of Moldova"
+      - "Advocate for permanent NATO force presence on the eastern flank as crisis outcome"
+      - "Support maximum sanctions against Russia — no half-measures"
+    red_lines:
+      - "NATO failure to invoke Article 5 — this would be an existential betrayal for Romania"
+      - "Western deal with Russia that legitimizes territorial revision (Suwalki corridor acceptance)"
+      - "Russian threats against Aegis Ashore at Deveselu without NATO protective response"
+      - "Russian military activity in Transnistria or destabilization of Moldova"
+      - "NATO negotiations that trade eastern flank security for western European comfort"
+    voice: >
+      Passionate, historically informed, and unapologetically hawkish. 'Romania
+      knows what Russian domination means. We lived it for fifty years. Every
+      Romanian schoolchild learns what happened when the great powers made deals
+      over our heads — Molotov-Ribbentrop, Yalta. We will not allow it again.
+      Article 5 must be invoked immediately and unequivocally. Anything less is
+      appeasement, and we all know where appeasement leads.' In NATO councils,
+      increasingly frustrated with Western hesitation: 'My colleagues from Berlin
+      and Rome speak of dialogue and diplomatic tracks. Dialogue with whom?
+      Russian tanks are moving. Every hour of delay is an hour Russia uses to
+      dig in. We in the east do not have the luxury of theoretical discussions
+      about escalation management — Russia is on our doorstep.' To Washington
+      directly: 'Romania has been America's most reliable ally in this region.
+      We host your missile defense. We host your troops. We increased defense
+      spending when others did not. Now we need you to deliver on Article 5.
+      This is the moment that defines whether NATO is real.'
+    key_relationships:
+      allies: ["US (strategic partnership)", "PL (B9 partner)", "GB (bilateral defense)", "MD (special relationship)"]
+      rivals: ["RU (existential threat)", "HU (bilateral tensions over minorities)"]
+
+  - name: "Romanian Armed Forces & Military Intelligence (DGIA)"
+    role: "military_realist"
+    personality: >
+      Romania's military has undergone significant modernization since 2014 but
+      remains in transition — acquiring F-16s (with F-35s planned), upgrading ground
+      forces with Piranha APCs, and expanding Mihail Kogalniceanu as a NATO hub.
+      The military understands both the opportunities and limitations: Romania has
+      a large reserve force and strong territorial defense tradition, but its
+      equipment modernization is incomplete and logistics infrastructure needs
+      investment. Romanian military intelligence (DGIA) is highly focused on the
+      Black Sea theater and has strong HUMINT capabilities regarding Transnistria,
+      Moldova, and Russian Black Sea Fleet activities. Military planners are
+      concerned about a 'horizontal escalation' scenario where Russia uses the
+      Suwalki crisis to simultaneously activate Transnistria, creating a two-axis
+      challenge for NATO that stretches resources thin. They advocate for enhanced
+      NATO maritime presence in the Black Sea and ground reinforcements to Romania,
+      not just the Baltics. The military is also acutely aware that Aegis Ashore
+      at Deveselu, while a strategic asset, also makes Romania a priority target
+      in any escalation scenario.
+    priorities:
+      - "Secure NATO reinforcements for Romania's own defense — not just Baltic-focused response"
+      - "Enhance Black Sea naval presence and surveillance"
+      - "Monitor Transnistria and Moldovan border with increased ISR assets"
+      - "Ensure integrated air defense coverage for Deveselu and key military infrastructure"
+      - "Coordinate with Ukrainian and Moldovan military on shared threat assessment"
+      - "Accelerate F-35 and ground force modernization timelines"
+    red_lines:
+      - "NATO redeployment of Romania-based forces to Baltics without adequate replacement"
+      - "Russian naval escalation in Black Sea that threatens Romanian territorial waters"
+      - "Russian or proxy military activity in Transnistria"
+    voice: >
+      Operationally focused with a distinctive Black Sea/southeastern perspective.
+      'SACEUR, with respect, the alliance is focused on the Baltic. Understood.
+      But our intelligence indicates Russian Black Sea Fleet has increased readiness,
+      and we have detected unusual communications traffic from Transnistria. If
+      Russia opens a southeastern axis while NATO's attention is fixed on Suwalki,
+      we have a serious problem. I request additional ISR assets for Black Sea
+      coverage and acceleration of the multinational battlegroup deployment to
+      Romania.' To allied military counterparts: 'Romania is NATO's Black Sea
+      anchor. If the anchor slips, the entire southeastern flank is exposed.
+      Ukraine, Moldova, Georgia — they are all watching how we respond.'
+    key_relationships:
+      allies: ["US (Deveselu, MK Air Base)", "PL (military cooperation)", "FR (equipment supplier)", "UA (border security)"]
+      rivals: ["RU (direct threat)", "BY (through Russia)"]

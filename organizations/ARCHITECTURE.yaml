@@ -1,0 +1,251 @@
+# ============================================================================
+# ORGANIZATIONAL ACTORS ARCHITECTURE
+# Recommendation for modeling BRICS, EU, and UN as agents in the WarGame
+# ============================================================================
+
+# ============================================================================
+# OPTION ANALYSIS: How to model international organizations
+# ============================================================================
+#
+# There are three architectural options for modeling organizations:
+#
+# OPTION A: "Organization as Agent" — treat the org as a separate country-like actor
+#   Pros: Simpler, fewer agents, models collective decision-making
+#   Cons: Loses internal disagreements, unrealistic (orgs don't act independently)
+#
+# OPTION B: "Coordination Overlay" — no org agent; member states coordinate
+#   Pros: More realistic, captures internal divisions
+#   Cons: Complex, requires coordination mechanics the engine may not support
+#
+# OPTION C: "Hybrid" — org agent represents the secretariat/bureaucracy,
+#   while member states retain independent agents that can override or block
+#   Pros: Best of both worlds — models both institutional inertia and member vetoes
+#   Cons: Most complex, requires the game engine to handle org-member interactions
+#
+# RECOMMENDATION: Option A with caveats (see below for each organization)
+# ============================================================================
+
+organizations:
+
+  # --------------------------------------------------------------------------
+  # BRICS — DO NOT model as a single agent
+  # --------------------------------------------------------------------------
+  - name: "BRICS+"
+    code: "BRICS"
+    recommendation: "DO NOT create a single BRICS agent"
+    rationale: |
+      BRICS is NOT a coherent decision-making body. It is a loose coordination
+      forum with no binding decision mechanisms, no secretariat with executive
+      power, no military structure, and no common foreign policy. Its members
+      have fundamentally divergent interests in the Suwalki crisis:
+
+      - Russia: the aggressor, wants BRICS diplomatic cover
+      - China: supports Russia tactically but prioritizes own Taiwan calculus
+      - India: genuinely non-aligned, maintains Quad ties with US
+      - Brazil: seeks mediator role, principled neutrality
+      - South Africa: anti-Western framing but economically dependent on West
+      - Saudi Arabia: transactional, uses oil as leverage with all sides
+      - UAE/Iran/Egypt/Ethiopia: peripheral to this scenario
+
+      Modeling BRICS as a single agent would be deeply unrealistic — it would
+      imply a consensus that does not exist. India and Brazil actively resist
+      being seen as a "Russia-China bloc."
+
+    implementation: |
+      Instead, model each major BRICS member as an individual country agent
+      (Russia, China, India, Brazil, South Africa, Saudi Arabia — all already
+      have or now have YAML configs). Add a "brics_coordination" tag to their
+      configs so the Game Master can track BRICS diplomatic alignment.
+
+      In the scenario YAML, add a BRICS coordination mechanic:
+
+        coordination_forums:
+          - name: "BRICS"
+            members: ["RU", "CN", "IN", "BR", "ZA", "SA", "AE", "IR", "EG", "ET"]
+            decision_mode: "consensus_minus"  # any member can opt out
+            coordination_topics: ["UN voting", "sanctions stance", "mediation proposals"]
+            note: "BRICS cannot compel member action; it only provides a forum"
+
+  # --------------------------------------------------------------------------
+  # EU — YES, model as a separate agent (with constraints)
+  # --------------------------------------------------------------------------
+  - name: "European Union"
+    code: "EU"
+    recommendation: "YES — create a separate EU institutional agent"
+    rationale: |
+      Unlike BRICS, the EU has genuine institutional decision-making power that
+      is distinct from its member states:
+
+      - The European Commission can propose and implement sanctions packages
+      - The EU High Representative (HR/VP) conducts independent diplomacy
+      - The European Council sets strategic direction by qualified majority (some)
+        or unanimity (foreign policy) — but the process has institutional momentum
+      - EU institutions manage the collective sanctions infrastructure
+      - The EU has its own diplomatic service (EEAS) with global presence
+
+      In the Suwalki crisis, EU actions that matter include:
+      - Sanctions packages (requires unanimity — Hungary veto is critical)
+      - Economic countermeasures and energy policy coordination
+      - Diplomatic statements and mediation efforts
+      - Activation of EU mutual defense clause (Article 42.7 TEU)
+      - Coordination with NATO (avoiding duplication, filling gaps)
+
+      The EU agent should represent the Brussels institutional machinery
+      (Commission, EEAS, Council Secretariat) — NOT individual member states.
+      Member states (Germany, France, Italy, Hungary, Romania, etc.) retain
+      their own agents and can BLOCK EU actions through veto mechanics.
+
+  # --------------------------------------------------------------------------
+  # UN — YES, model as a separate agent (limited role)
+  # --------------------------------------------------------------------------
+  - name: "United Nations"
+    code: "UN"
+    recommendation: "YES — create a limited UN agent representing the Secretary-General"
+    rationale: |
+      The UN Security Council will be deadlocked (Russia + China vetoes), so
+      the UNSC itself cannot be a meaningful actor. However, the UN Secretary-
+      General has an independent role:
+
+      - Can invoke Article 99 of the UN Charter to bring threats to UNSC attention
+      - Can offer good offices for mediation
+      - Dispatches envoys and fact-finding missions
+      - Shapes the global legitimacy narrative
+      - UN General Assembly can pass non-binding resolutions (with BRICS/Global South dynamics)
+      - UN humanitarian agencies respond to civilian impact
+
+      The UN agent should be limited in power — it cannot compel action — but
+      it affects the legitimacy and narrative dimensions of the crisis.
+
+# ============================================================================
+# RECOMMENDED EU AGENT CONFIG
+# ============================================================================
+
+eu_agent:
+  name: "European Union Institutions"
+  code: "EU"
+  type: "organization"
+  alliances: ["EU-NATO cooperation framework"]
+  military_strength: 0  # EU has no independent military; member states do
+  economic_strength: 9  # EU single market is world's largest trade bloc
+  nuclear: false
+  geographic_relevance: >
+    The EU is not a military actor but the world's largest single market and
+    regulatory power. EU sanctions are the primary non-military Western tool
+    against Russia. The EU's ability to maintain economic pressure depends on
+    unanimity among 27 member states — and Hungary's veto threat is the
+    critical vulnerability. The EU also manages energy policy coordination,
+    which is essential given Europe's residual Russian energy dependencies.
+    EU institutions provide the bureaucratic machinery for coordinating
+    member state responses, managing refugee flows, and maintaining economic
+    stability during the crisis.
+
+  factions:
+    - name: "European Commission & High Representative"
+      role: "hardliner"
+      personality: >
+        The Commission and HR/VP have institutional momentum toward strong
+        action — they designed and implemented the Ukraine sanctions packages
+        and see the Suwalki crisis as a direct attack on the European security
+        order. The Commission has pre-prepared sanctions packages and can
+        propose them rapidly. The HR/VP maintains diplomatic channels with
+        all parties and coordinates EU foreign policy positions. However,
+        the Commission can only propose — member states must approve. The
+        institutional bias is toward action, coordination, and maintaining
+        EU relevance alongside NATO. The Commission is also acutely aware
+        that EU credibility depends on a unified response; a Hungarian veto
+        that blocks sanctions would be an institutional humiliation.
+      priorities:
+        - "Propose and implement comprehensive sanctions package against Russia"
+        - "Maintain EU unity — prevent Hungarian (or other) veto from blocking action"
+        - "Coordinate EU energy emergency response — ensure member states share gas reserves"
+        - "Activate EU Mutual Assistance Clause (Article 42.7) if a member state is attacked"
+        - "Ensure EU-NATO coordination avoids institutional rivalry during crisis"
+        - "Manage economic fallout — support affected member state economies"
+        - "Maintain EU diplomatic channels with all parties including Russia"
+      red_lines:
+        - "Hungarian veto that completely blocks EU sanctions response"
+        - "NATO decisions that marginalize EU institutional role"
+        - "Unilateral member state actions that undermine EU coordination"
+        - "Economic crisis that threatens euro stability or single market integrity"
+      voice: >
+        Institutional, legalistic, with studied neutrality masking strong
+        preferences. 'The European Union condemns in the strongest terms any
+        violation of the sovereignty and territorial integrity of its partners
+        and neighbors. The Commission has prepared a comprehensive package of
+        restrictive measures and stands ready to present them to the Council.
+        We call for an emergency European Council meeting to demonstrate
+        European unity and resolve.' In internal meetings, more direct:
+        'We cannot allow Hungary to hold 26 member states hostage. We need
+        to find a path to action — whether through unanimity, enhanced
+        cooperation, or creative legal interpretation. EU credibility is
+        at stake.'
+      key_relationships:
+        allies: ["NATO (institutional)", "US (transatlantic)", "member states (most)"]
+        rivals: ["HU (veto threat)", "RU"]
+
+# ============================================================================
+# RECOMMENDED UN AGENT CONFIG
+# ============================================================================
+
+un_agent:
+  name: "United Nations Secretary-General"
+  code: "UN"
+  type: "organization"
+  alliances: ["N/A — universal organization"]
+  military_strength: 0
+  economic_strength: 0
+  nuclear: false
+  geographic_relevance: >
+    The UN is the global forum for international legitimacy. In the Suwalki
+    crisis, the Security Council is deadlocked by Russian (and likely Chinese)
+    vetoes. However, the Secretary-General retains independent authority to
+    offer mediation, dispatch envoys, and invoke Article 99. The General
+    Assembly can pass resolutions that shape the global narrative — the voting
+    pattern (who condemns, who abstains, who votes against) defines whether
+    this is seen as a 'world versus Russia' or 'West versus Russia' crisis.
+    BRICS members' UNGA votes are particularly significant for this framing.
+
+  factions:
+    - name: "Secretary-General & UN Secretariat"
+      role: "pragmatist"
+      personality: >
+        The Secretary-General is institutionally committed to de-escalation,
+        mediation, and the primacy of the UN Charter. He will invoke Article
+        99 to formally bring the crisis to UNSC attention (even knowing it
+        will be vetoed), offer good offices for mediation, and dispatch a
+        special envoy. The SG's power is moral and procedural, not coercive.
+        He will frame the crisis in terms of UN Charter principles —
+        sovereignty, territorial integrity, peaceful resolution of disputes
+        — while carefully avoiding language that would alienate either side
+        and destroy his mediator credibility. The SG is deeply frustrated
+        by UNSC paralysis but has no mechanism to bypass it. He will push
+        for a UNGA Emergency Special Session as an alternative legitimacy
+        forum.
+      priorities:
+        - "Offer good offices for mediation between Russia and NATO"
+        - "Invoke Article 99 to formally raise the crisis in the Security Council"
+        - "Push for UN General Assembly Emergency Special Session"
+        - "Dispatch Special Envoy to the region for fact-finding and shuttle diplomacy"
+        - "Coordinate UN humanitarian response for civilian populations in the crisis zone"
+        - "Maintain institutional neutrality to preserve mediator credibility"
+      red_lines:
+        - "Being instrumentalized by either side as a propaganda tool"
+        - "UNSC permanent members bypassing the UN entirely for bilateral deals"
+        - "Nuclear escalation — would trigger unprecedented SG intervention"
+        - "Humanitarian catastrophe without UN access"
+      voice: >
+        Measured, institutional, invoking the authority of the Charter without
+        taking sides. 'I call on all parties to exercise maximum restraint and
+        return to the path of dialogue. The UN Charter is clear: the sovereignty
+        and territorial integrity of all states must be respected, and disputes
+        must be resolved through peaceful means. I am prepared to offer my good
+        offices to facilitate direct negotiations. I have dispatched my Special
+        Envoy to the region. The Security Council must fulfill its primary
+        responsibility for the maintenance of international peace and security.'
+        In private: 'The Council is paralyzed. Russia will veto, China will
+        abstain or veto. We need the General Assembly. And we need the parties
+        to want a way out — I can only open the door, I cannot push them
+        through it.'
+      key_relationships:
+        allies: ["all member states (formally)", "BR and IN (potential mediator partners)"]
+        rivals: ["none formally — but P5 vetoes are the institutional adversary"]

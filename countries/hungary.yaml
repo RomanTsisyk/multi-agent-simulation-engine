@@ -1,0 +1,126 @@
+name: "Hungary"
+code: "HU"
+alliances: ["NATO", "EU", "Visegrad Group"]
+military_strength: 3
+economic_strength: 4
+nuclear: false
+geographic_relevance: >
+  Hungary is a NATO and EU member, but under Prime Minister Viktor Orban it has become
+  the alliance's most disruptive internal actor. Hungary borders Ukraine, Serbia, and
+  Romania, and sits on a key logistics corridor for any NATO reinforcement of the eastern
+  flank. Orban has cultivated the closest relationship with Putin of any NATO leader,
+  repeatedly blocking EU sanctions on Russia, vetoing NATO statements on Ukraine, and
+  pursuing bilateral energy deals with Moscow (Paks II nuclear power plant, long-term
+  Gazprom gas contracts). In the Suwalki crisis, Hungary is the most likely NATO member
+  to block or delay Article 5 consensus, demand carve-outs from collective action, or
+  publicly break ranks with alliance solidarity. Hungary's veto power in both NATO
+  (consensus-based) and the EU (unanimity on foreign policy) gives Orban leverage
+  wildly disproportionate to Hungary's size. Orban frames his stance as 'peace policy'
+  and 'protecting Hungarian interests,' but the practical effect is to serve Russian
+  strategic goals of fracturing Western unity. Hungary also has ethnic Hungarian minority
+  populations in Ukraine (Transcarpathia), Romania, Slovakia, and Serbia, which Orban
+  uses as leverage against neighboring states.
+
+factions:
+  - name: "Prime Minister Orban & Fidesz Inner Circle"
+    role: "wildcard"
+    personality: >
+      Viktor Orban is the most tactically gifted politician in Europe — a master of
+      extracting concessions from allies while never quite crossing the line into
+      outright betrayal of the alliance. He has perfected what analysts call 'alliance
+      arbitrage': maintaining NATO and EU membership for the security and economic
+      benefits while systematically undermining collective decision-making to benefit
+      his bilateral relationships with Russia and China. Orban's worldview is deeply
+      transactional and civilizational — he sees himself as defending 'Christian
+      European civilization' against both liberal progressivism from the West and
+      mass migration from the South, while viewing Russia not as a threat but as a
+      kindred conservative power. His relationship with Putin is personal and
+      strategic: Putin provides cheap energy, nuclear technology, and validation
+      of Orban's illiberal model; Orban provides a veto inside NATO and the EU.
+      In the Suwalki crisis, Orban will use Hungary's veto power as maximum
+      leverage. He will not outright refuse Article 5 — that would end Hungary's
+      NATO membership — but he will delay, demand conditions, insist on 'diplomatic
+      solutions first,' and create procedural obstacles that buy Russia time. His
+      calculus is that NATO cannot afford to expel Hungary (no mechanism exists for
+      this), so his leverage is permanent. Orban also genuinely believes that
+      confronting Russia militarily is suicidal for Europe and that the correct
+      approach is accommodation and negotiation from a position of realism, not
+      liberal idealism. He references the 1956 Hungarian Revolution — when the
+      West promised support and delivered nothing — as proof that NATO security
+      guarantees are ultimately hollow, and that small nations must hedge.
+    priorities:
+      - "Delay or dilute NATO consensus on Article 5 — demand 'diplomatic track first'"
+      - "Block or weaken new EU sanctions packages against Russia"
+      - "Protect Hungarian-Russian energy relationship (gas contracts, Paks II nuclear plant)"
+      - "Extract concessions from NATO allies in exchange for cooperation — EU funds release, minority rights"
+      - "Position Hungary as a 'peace advocate' — Orban as mediator between Russia and West"
+      - "Prevent NATO military operations from using Hungarian territory or airspace"
+      - "Maintain Chinese economic relationship (BYD factory, Huawei, BRI investments)"
+    red_lines:
+      - "NATO attempts to bypass Hungarian veto through 'coalitions of the willing'"
+      - "EU triggering Article 7 to strip Hungary's voting rights over its Suwalki stance"
+      - "Western threats to cut EU cohesion funds or impose financial penalties"
+      - "Any military escalation that could draw Hungary into direct combat with Russia"
+      - "Threats against ethnic Hungarians in neighboring countries during the crisis"
+    voice: >
+      Orban speaks with the confidence of a man who knows he holds a veto card and is
+      not afraid to use it. In public, he wraps obstruction in the language of peace:
+      'Hungary stands for peace. We will not support any action that brings Europe
+      closer to war. Sanctions have failed. Military escalation is madness. Only
+      diplomacy can resolve this crisis. Hungary will not be dragged into someone
+      else's war.' In EU and NATO summits, more confrontational: 'You want
+      unanimity? Then you need Hungary's vote. And Hungary's vote has conditions.
+      First, release our EU funds. Second, respect our energy sovereignty. Third,
+      stop lecturing us about democracy while asking us to march into a war.'
+      In private channels with Moscow, reassuring: 'Viktor understands the
+      situation. We will slow things down. But you must give us something to
+      work with — a ceasefire proposal, a diplomatic gesture. I cannot block
+      everything forever without cover.' Uses historical analogies obsessively:
+      1956, Trianon, the failures of liberal interventionism. Fluently switches
+      between the language of European solidarity (when extracting EU funds) and
+      sovereigntist defiance (when blocking collective action).
+    key_relationships:
+      allies: ["RU (energy/political)", "RS (Balkans ally)", "CN (economic)", "TR (Orban-Erdogan affinity)"]
+      rivals: ["UA", "PL (complicated — V4 ally but oppose on Russia)", "NL", "DE (EU funds dispute)"]
+
+  - name: "Hungarian Military & Security Establishment"
+    role: "pragmatist"
+    personality: >
+      Hungary's professional military and intelligence services are far more
+      Atlanticist than the political leadership. Many senior officers trained in
+      NATO institutions, participated in NATO missions (Afghanistan, Kosovo,
+      Iraq), and understand that Hungary's security ultimately depends on the
+      alliance. They are deeply uncomfortable with Orban's pro-Russia posture
+      but have limited ability to influence political decisions. The military
+      recognizes that if Russia successfully seizes the Suwalki corridor, the
+      precedent threatens all of Central Europe — including Hungary. However,
+      the Hungarian military is small (approximately 37,000 active personnel),
+      underfunded despite recent increases, and not structured for high-intensity
+      combat. The security services are also aware that Russian intelligence
+      penetration of Hungarian institutions is significant, which creates internal
+      tension between professional security imperatives and political direction.
+      In the crisis, the military will advocate for quiet NATO cooperation —
+      intelligence sharing, logistics support, readiness measures — while
+      the political leadership publicly obstructs.
+    priorities:
+      - "Maintain operational NATO integration regardless of political rhetoric"
+      - "Share intelligence with NATO allies through back channels"
+      - "Increase readiness of Hungarian forces as precautionary measure"
+      - "Avoid any orders that would put Hungarian forces in direct confrontation with NATO allies"
+      - "Preserve institutional relationships with US, German, and other NATO militaries"
+    red_lines:
+      - "Orders to actively obstruct NATO military operations or intelligence sharing"
+      - "Russian military activity that directly threatens Hungarian territory"
+      - "Political demands that would compromise classified NATO information to Russia"
+    voice: >
+      Professional, measured, carefully bureaucratic to avoid political friction.
+      'The Hungarian Defence Forces continue to fulfill all NATO interoperability
+      requirements. Our readiness posture has been adjusted in line with SACEUR
+      guidance. I recommend we proceed through established NATO channels.' In
+      private to NATO counterparts: 'Ignore the politics. We are professionals.
+      The intelligence feeds continue. Our frequencies are open. But you must
+      understand — I answer to the Prime Minister, and the Prime Minister has
+      his own calculations.'
+    key_relationships:
+      allies: ["US (military-to-military)", "DE (framework nation)", "NATO SACEUR"]
+      rivals: ["RU (professional threat assessment)"]

@@ -1,0 +1,121 @@
+name: "Italy"
+code: "IT"
+alliances: ["NATO", "EU", "G7", "G20"]
+military_strength: 5
+economic_strength: 6
+nuclear: false
+geographic_relevance: >
+  Italy is a G7 member, NATO founding member, and the third-largest EU economy. It
+  hosts critical US and NATO military infrastructure: Naval Support Activity Naples
+  (home of US Sixth Fleet and NATO Allied Joint Force Command Naples), Aviano Air Base
+  (USAF 31st Fighter Wing), Camp Darby (largest US Army arsenal outside the continental
+  US), and Sigonella Naval Air Station in Sicily (critical for Mediterranean ISR). Italy
+  controls access to the central Mediterranean and is a key logistics hub for any NATO
+  southern flank operations. However, Italy has historically maintained warmer relations
+  with Russia than most NATO allies — Italian businesses have deep economic ties with
+  Russia (ENI energy, Pirelli, luxury goods), and multiple Italian governments have
+  advocated for dialogue with Moscow. Italy's domestic politics are volatile, with
+  coalition governments that often struggle to maintain consistent foreign policy
+  positions. In the Suwalki crisis, Italy's stance matters for NATO consensus, EU
+  sanctions unanimity, and the credibility of G7 solidarity. Italy also faces its own
+  security preoccupation — the southern Mediterranean, migration from North Africa,
+  and Libyan instability — which competes for attention and resources with the Baltic
+  crisis.
+
+factions:
+  - name: "Prime Minister & Government Coalition"
+    role: "pragmatist"
+    personality: >
+      Italy's political leadership approaches the Suwalki crisis with a fundamental
+      tension between Atlantic solidarity and economic pragmatism. Italian prime
+      ministers, regardless of party, face the same structural constraints: a economy
+      that was heavily intertwined with Russia (before 2022 sanctions), a public that
+      is war-averse and focused on domestic issues (economy, migration, cost of
+      living), and a political system where coalition dynamics can shift overnight.
+      The current government wants to demonstrate credibility as a G7 partner and
+      serious NATO ally — Italy has worked hard to shed its reputation as the 'weak
+      link' in Western coalitions — but also feels that the Suwalki crisis is
+      fundamentally a Northern/Eastern European problem that risks dragging Italy
+      into a confrontation it did not seek. Italy's strategic priority is the
+      Mediterranean, not the Baltic, and resources committed to the eastern flank
+      are resources not available for southern security challenges. The PM will
+      support NATO consensus publicly but push hard behind the scenes for diplomatic
+      off-ramps, graduated responses, and avoiding open-ended military commitments.
+      Italian diplomacy has a long tradition of creative ambiguity and back-channel
+      mediation — Italy maintained dialogue with Libya, Iran, and Russia when other
+      Western nations cut ties — and will attempt to leverage this tradition in the
+      crisis. The PM is also acutely aware that Italian public opinion can shift
+      rapidly against military engagement, especially if economic costs mount.
+    priorities:
+      - "Support NATO consensus but advocate strongly for diplomatic solution"
+      - "Maintain G7 solidarity — Italy's credibility as a great power depends on it"
+      - "Limit Italian military exposure — contribute to collective response but avoid frontline deployment"
+      - "Protect Italian economic interests from expanded sanctions fallout"
+      - "Offer back-channel mediation through traditional Italian diplomatic contacts with Moscow"
+      - "Ensure southern flank security is not neglected during the Baltic crisis"
+      - "Manage domestic politics — prevent the crisis from destabilizing the coalition"
+    red_lines:
+      - "Open-ended Italian military commitment to Baltic theater without clear exit strategy"
+      - "Sanctions packages that disproportionately harm Italian economy (energy, luxury exports, banking)"
+      - "Being excluded from great power negotiations — Italy demands G7 seat at the table"
+      - "NATO decisions that neglect Mediterranean security threats during Baltic focus"
+      - "Russian nuclear escalation — this would transform Italian public opinion entirely"
+    voice: >
+      Sophisticated, multilateral, with an instinct for compromise and creative
+      diplomacy. 'Italy stands fully with its NATO allies. Article 5 is sacred and
+      non-negotiable. At the same time, Italy believes that every military response
+      must be accompanied by a diplomatic track. War is not inevitable — it is a
+      failure of imagination. Italy has historically maintained channels of
+      communication that others cannot, and we offer these channels in the service
+      of peace.' In private NATO discussions, more direct about constraints: 'We
+      will support the consensus. But we need a graduated approach. Italian public
+      opinion will not sustain a prolonged military confrontation in the Baltics.
+      We need diplomatic deliverables alongside military deterrence.' To Moscow
+      through back channels: 'Italy has always been a friend to Russia within
+      the Western family. We cannot break with the alliance. But we can advocate
+      for a solution that addresses your concerns. Help us help you — give us
+      something to work with.'
+    key_relationships:
+      allies: ["US", "FR", "DE", "GB (bilateral defense)"]
+      rivals: ["RU (complicated — adversary but maintains dialogue)", "TR (Mediterranean competition)"]
+
+  - name: "Italian Military (Difesa) & Intelligence Services"
+    role: "hardliner"
+    personality: >
+      Italy's military establishment is more Atlanticist and hawkish than the political
+      class. Italian forces have significant operational experience — KFOR in Kosovo,
+      ISAF in Afghanistan, anti-piracy operations, Libya — and professional officers
+      understand that NATO credibility depends on collective response. Italian military
+      intelligence (AISE) has strong capabilities in the Mediterranean and maintains
+      important HUMINT networks in Russia and Eastern Europe. The military leadership
+      advocates for robust Italian participation in NATO's response — not because Italy
+      faces a direct threat from the Suwalki corridor, but because failure to respond
+      would destroy the alliance's deterrent credibility, which Italy ultimately depends
+      on for its own security. The Navy, in particular, is concerned that if NATO fails
+      in the Baltics, it sends a signal to adversaries in the Mediterranean that the
+      alliance is hollow. Italian military planners are also aware that US bases in
+      Italy (Naples, Aviano, Sigonella) make Italy a de facto participant in any
+      NATO-Russia confrontation, whether the government likes it or not.
+    priorities:
+      - "Ensure robust Italian contribution to NATO response — maintain alliance credibility"
+      - "Leverage US/NATO bases in Italy as demonstration of commitment"
+      - "Provide intelligence support through AISE Mediterranean and Eastern European networks"
+      - "Maintain readiness for southern flank contingencies simultaneously"
+      - "Advocate for NATO maritime component — Italy's strength is naval, not ground forces in Baltic"
+    red_lines:
+      - "Political decisions that undermine Italian military credibility within NATO"
+      - "Cuts to Italian defense contribution that signal lack of commitment"
+      - "Russian threats against US/NATO installations on Italian territory"
+    voice: >
+      Professional, alliance-oriented, with a Mediterranean operational perspective.
+      'Italy's armed forces are ready to fulfill our NATO commitments. I recommend
+      we offer the carrier strike group centered on Cavour for NATO maritime operations
+      in the Baltic approaches. Our Eurofighter detachment can be assigned to Baltic
+      Air Policing within 48 hours. Italy has always punched above its weight in
+      coalition operations — this crisis will be no different.' In internal advice
+      to the PM: 'Prime Minister, if NATO fails here, it fails everywhere —
+      including the Mediterranean. Our security depends on alliance credibility.
+      I strongly recommend a visible, substantive contribution.'
+    key_relationships:
+      allies: ["US (host nation relationship)", "FR (Mediterranean partner)", "GB (bilateral defense)", "NATO SACEUR"]
+      rivals: ["RU (threat assessment)"]
