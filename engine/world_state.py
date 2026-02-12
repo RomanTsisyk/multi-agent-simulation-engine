@@ -289,6 +289,9 @@ class WorldState:
                 if unit.name == name:
                     for k, v in patch.items():
                         if k != "name" and hasattr(unit, k):
+                            # Coerce types: LLMs sometimes return "7" instead of 7
+                            if k in ("readiness", "strength"):
+                                v = _safe_int(v, getattr(unit, k))
                             setattr(unit, k, v)
                     break
 
@@ -325,6 +328,19 @@ class WorldState:
 # ======================================================================
 # Private helpers
 # ======================================================================
+
+def _safe_int(value: Any, default: int) -> int:
+    """Coerce a value to int, returning *default* on failure.
+
+    LLMs sometimes return ``"7"`` or ``7.0`` instead of ``7``.
+    """
+    if isinstance(value, int):
+        return value
+    try:
+        return int(value)
+    except (ValueError, TypeError):
+        return default
+
 
 def _relation_label(score: int) -> str:
     """Convert a -10 .. +10 relation score to a human label."""

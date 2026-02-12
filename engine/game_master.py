@@ -13,11 +13,11 @@ from __future__ import annotations
 
 import json
 import logging
-import re
 from typing import Any
 
 from backends.base import LLMBackend
 from engine.world_state import WorldState
+from utils.json_parser import parse_json_response
 
 logger = logging.getLogger(__name__)
 
@@ -208,7 +208,7 @@ class GameMaster:
             temperature=0.7,
         )
 
-        parsed = _parse_json_response(raw)
+        parsed = parse_json_response(raw)
         briefing = parsed.get("briefing", raw)
         return briefing
 
@@ -241,7 +241,7 @@ class GameMaster:
             temperature=0.5,
         )
 
-        parsed = _parse_json_response(raw)
+        parsed = parse_json_response(raw)
 
         # Guarantee expected top-level keys exist
         result: dict[str, Any] = {
@@ -274,7 +274,7 @@ class GameMaster:
             temperature=0.7,
         )
 
-        parsed = _parse_json_response(raw)
+        parsed = parse_json_response(raw)
 
         # Build a readable briefing from the structured response
         briefing_text = parsed.get("intel_briefing", "")
@@ -292,78 +292,5 @@ class GameMaster:
         return briefing_text if briefing_text else raw
 
 
-# ======================================================================
-# Private helpers
-# ======================================================================
 
-def _parse_json_response(raw: str) -> dict:
-    """Best-effort extraction of a JSON object from an LLM response.
-
-    Local models sometimes wrap JSON in markdown fences, include a preamble,
-    produce trailing text, or include <think>...</think> reasoning blocks.
-    This function tries multiple strategies:
-    1. Direct ``json.loads``.
-    2. Strip ``<think>...</think>`` blocks (DeepSeek R1 reasoning).
-    3. Strip markdown code fences.
-    4. Find the outermost ``{...}`` block.
-    5. Attempt to fix common JSON issues (trailing commas, single quotes).
-    """
-    text = raw.strip()
-
-    # 1. Direct parse
-    try:
-        return json.loads(text)
-    except json.JSONDecodeError:
-        pass
-
-    # 2. Strip <think>...</think> reasoning blocks
-    text_no_think = re.sub(r"<think>.*?</think>", "", text, flags=re.DOTALL).strip()
-    if text_no_think != text:
-        try:
-            return json.loads(text_no_think)
-        except json.JSONDecodeError:
-            pass
-        text = text_no_think
-
-    # 3. Strip markdown fences (```json ... ``` or ``` ... ```)
-    fenced = re.search(r"```(?:json)?\s*\n?(.*?)```", text, re.DOTALL)
-    if fenced:
-        try:
-            return json.loads(fenced.group(1).strip())
-        except json.JSONDecodeError:
-            pass
-
-    # 4. Find outermost { ... } block
-    brace_start = text.find("{")
-    if brace_start != -1:
-        depth = 0
-        brace_end = -1
-        for i in range(brace_start, len(text)):
-            if text[i] == "{":
-                depth += 1
-            elif text[i] == "}":
-                depth -= 1
-                if depth == 0:
-                    brace_end = i
-                    break
-        if brace_end != -1:
-            candidate = text[brace_start : brace_end + 1]
-            try:
-                return json.loads(candidate)
-            except json.JSONDecodeError:
-                pass
-
-            # 5. Try fixing common LLM JSON issues
-            fixed = candidate
-            # Remove trailing commas before } or ]
-            fixed = re.sub(r",\s*([}\]])", r"\1", fixed)
-            # Replace single quotes with double quotes (crude but helps)
-            if "'" in fixed and '"' not in fixed:
-                fixed = fixed.replace("'", '"')
-            try:
-                return json.loads(fixed)
-            except json.JSONDecodeError:
-                pass
-
-    logger.warning("Failed to parse JSON from GM response. Returning raw text in wrapper.")
-    return {"_raw": text}
+# Note: JSON parsing is handled by utils.json_parser.parse_json_response

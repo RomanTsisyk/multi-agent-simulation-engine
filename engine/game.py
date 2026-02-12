@@ -24,6 +24,7 @@ from agents.country import Country, CountryConfig
 from engine.game_master import GameMaster
 from engine.round_logger import RoundLogger
 from engine.world_state import MilitaryUnit, WorldState
+from utils.json_parser import parse_json_response
 
 logger = logging.getLogger(__name__)
 
@@ -146,13 +147,16 @@ class _CountryStub:
         )
 
         # Attempt to parse JSON from the response
-        import json
-        import re
-
-        parsed = _try_parse_json(raw)
-        actions = parsed.get("actions", [])
-        diplomatic = parsed.get("diplomatic_messages", [])
-        reasoning = parsed.get("reasoning", "")
+        parsed = parse_json_response(raw)
+        if "_raw" in parsed:
+            # Parsing failed: wrap raw text as a single action
+            actions = [parsed["_raw"]]
+            diplomatic = []
+            reasoning = "Could not parse structured response."
+        else:
+            actions = parsed.get("actions", [])
+            diplomatic = parsed.get("diplomatic_messages", [])
+            reasoning = parsed.get("reasoning", "")
 
         return {
             "country": self.code,
@@ -184,41 +188,8 @@ def _dict_to_text(d: dict, indent: int = 0) -> str:
     return "\n".join(lines)
 
 
-def _try_parse_json(text: str) -> dict:
-    """Best-effort JSON extraction (mirrors logic in game_master.py)."""
-    import json
-    import re
 
-    text = text.strip()
-    try:
-        return json.loads(text)
-    except json.JSONDecodeError:
-        pass
-
-    # Strip markdown fences
-    fenced = re.search(r"```(?:json)?\s*\n?(.*?)```", text, re.DOTALL)
-    if fenced:
-        try:
-            return json.loads(fenced.group(1).strip())
-        except json.JSONDecodeError:
-            pass
-
-    # Find outermost { ... }
-    brace_start = text.find("{")
-    if brace_start != -1:
-        depth = 0
-        for i in range(brace_start, len(text)):
-            if text[i] == "{":
-                depth += 1
-            elif text[i] == "}":
-                depth -= 1
-                if depth == 0:
-                    try:
-                        return json.loads(text[brace_start : i + 1])
-                    except json.JSONDecodeError:
-                        break
-
-    return {"actions": [text], "reasoning": "Could not parse structured response."}
+# Note: JSON parsing now handled by utils.json_parser.parse_json_response
 
 
 # ======================================================================
