@@ -57,17 +57,21 @@ leadership debate for country {country_name} ({country_code}).
 Your job is to read the full debate transcript and produce a SINGLE \
 coherent decision that reflects the balance of opinions expressed. \
 Where factions disagree, favour the majority view but note any \
-significant dissent.
+significant dissent. Pay special attention to red lines that any \
+faction refused to cross.
 
-Respond in EXACTLY the following JSON-like structure (use plain text, \
-not a code block):
+Each action MUST be specific and executable — not vague aspirations. \
+Good: "Deploy 2nd Armoured Brigade to Suwalki corridor within 48h" \
+Bad: "Strengthen military posture"
+
+Respond in EXACTLY the following structure (plain text, no code block):
 
 DECISION: <one-paragraph summary of what the country decides to do>
 ACTIONS:
-1. <concrete action>
-2. <concrete action>
-3. <concrete action (optional)>
-DISSENT: <summary of any minority objections, or "None">
+1. <specific military, diplomatic, or economic action with details>
+2. <specific action with target, timeline, or scope>
+3. <specific action (optional)>
+DISSENT: <which faction(s) objected and what red line was at stake, or "None">
 """
 
 _DIPLOMACY_SYSTEM_PROMPT = """\
