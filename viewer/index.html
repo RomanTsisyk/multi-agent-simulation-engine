@@ -305,6 +305,28 @@ body {
 
 /* ---- Country Debates ---- */
 
+.country-group {
+  margin-bottom: 20px;
+}
+
+.country-group-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 14px;
+  margin-bottom: 12px;
+  background: var(--bg-secondary);
+  border-radius: 6px;
+}
+
+.country-group-header .badge {
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 10px;
+  background: var(--bg-tertiary);
+  color: var(--text-secondary);
+}
+
 .country-decisions-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -891,7 +913,36 @@ body {
     ZA: "\uD83C\uDDFF\uD83C\uDDE6", CZ: "\uD83C\uDDE8\uD83C\uDDFF",
     DK: "\uD83C\uDDE9\uD83C\uDDF0", NL: "\uD83C\uDDF3\uD83C\uDDF1",
     EU: "\uD83C\uDDEA\uD83C\uDDFA", UN: "\uD83C\uDDFA\uD83C\uDDF3",
+    // NATO members batch 2
+    BE: "\uD83C\uDDE7\uD83C\uDDEA", ES: "\uD83C\uDDEA\uD83C\uDDF8",
+    GR: "\uD83C\uDDEC\uD83C\uDDF7", PT: "\uD83C\uDDF5\uD83C\uDDF9",
+    LU: "\uD83C\uDDF1\uD83C\uDDFA", BG: "\uD83C\uDDE7\uD83C\uDDEC",
+    SK: "\uD83C\uDDF8\uD83C\uDDF0", HR: "\uD83C\uDDED\uD83C\uDDF7",
+    SI: "\uD83C\uDDF8\uD83C\uDDEE", AL: "\uD83C\uDDE6\uD83C\uDDF1",
+    ME: "\uD83C\uDDF2\uD83C\uDDEA", MK: "\uD83C\uDDF2\uD83C\uDDF0",
+    IS: "\uD83C\uDDEE\uD83C\uDDF8",
+    // Russian allies
+    KP: "\uD83C\uDDF0\uD83C\uDDF5", IR: "\uD83C\uDDEE\uD83C\uDDF7",
+    SY: "\uD83C\uDDF8\uD83C\uDDFE", CU: "\uD83C\uDDE8\uD83C\uDDFA",
+    VE: "\uD83C\uDDFB\uD83C\uDDEA", MM: "\uD83C\uDDF2\uD83C\uDDF2",
+    // Global South + key economies
+    KR: "\uD83C\uDDF0\uD83C\uDDF7", AU: "\uD83C\uDDE6\uD83C\uDDFA",
+    ID: "\uD83C\uDDEE\uD83C\uDDE9", EG: "\uD83C\uDDEA\uD83C\uDDEC",
+    PK: "\uD83C\uDDF5\uD83C\uDDF0", NG: "\uD83C\uDDF3\uD83C\uDDEC",
+    MX: "\uD83C\uDDF2\uD83C\uDDFD", PH: "\uD83C\uDDF5\uD83C\uDDED",
+    VN: "\uD83C\uDDFB\uD83C\uDDF3", AE: "\uD83C\uDDE6\uD83C\uDDEA",
+    AR: "\uD83C\uDDE6\uD83C\uDDF7", CO: "\uD83C\uDDE8\uD83C\uDDF4",
   };
+  // Organization labels (not flag emoji — use symbols)
+  var ORG_ICONS = {
+    NATO: "\u{1F6E1}\uFE0F", CSTO: "\u2694\uFE0F", SCO: "\u{1F310}",
+    G7: "\u{1F4B0}", OSCE: "\u{1F54A}\uFE0F", ASEAN: "\u{1F30F}",
+    AFC: "\u{1F30D}", ARAB: "\u{1F54C}",
+  };
+  function getFlag(code) {
+    return FLAGS[code] || ORG_ICONS[code] || "\uD83C\uDFF4";
+  }
+
   var COUNTRY_COLORS = {
     PL: "#dc3545", RU: "#6f42c1", US: "#0d6efd", DE: "#ffc107",
     FR: "#0dcaf0", CN: "#e35d6a", UA: "#198754", GB: "#6610f2",
@@ -901,9 +952,23 @@ body {
     CA: "#e63946", NO: "#457b9d", HU: "#c1440e", IT: "#008c45",
     RO: "#fcd116", BR: "#009c3b", ZA: "#e03c31", CZ: "#11457e",
     DK: "#c8102e", NL: "#ff6f00", EU: "#003399", UN: "#5b92e5",
+    // NATO batch 2
+    BE: "#fdda24", ES: "#aa151b", GR: "#0d5eaf", PT: "#006600",
+    LU: "#00a1de", BG: "#00966e", SK: "#0b4ea2", HR: "#171796",
+    SI: "#005da4", AL: "#cc0000", ME: "#d4af37", MK: "#ce2028",
+    IS: "#003897",
+    // Russian allies
+    KP: "#ed1c27", IR: "#239f40", SY: "#ce1126", CU: "#002a8f",
+    VE: "#cf142b", MM: "#fecb00",
+    // Global South
+    KR: "#003478", AU: "#00843d", ID: "#ff0000", EG: "#c8102e",
+    PK: "#01411c", NG: "#008751", MX: "#006847", PH: "#0038a8",
+    VN: "#da251d", AE: "#00732f", AR: "#75aadb", CO: "#fcd116",
+    // Orgs
+    NATO: "#004990", CSTO: "#8b0000", SCO: "#1a5276", G7: "#daa520",
+    OSCE: "#006cb4", ASEAN: "#003580", AFC: "#009639", ARAB: "#006233",
   };
 
-  function getFlag(code) { return FLAGS[code] || "\uD83C\uDFF4"; }
   function getColor(code) { return COUNTRY_COLORS[code] || "#8b949e"; }
 
   // ---- State ----
@@ -1316,10 +1381,49 @@ body {
     var decisions = data.country_decisions || [];
     if (decisions.length > 0) {
       var collapseByDefault = decisions.length > 4;
-      var countriesHtml = '<div class="country-decisions-grid">';
-      decisions.forEach(function(cd) { countriesHtml += renderCountryDecision(cd, collapseByDefault); });
-      countriesHtml += '</div>';
-      html += buildSection("Country Debates & Decisions", "debates", countriesHtml, decisions.length + " countries");
+      var countriesHtml = "";
+      if (decisions.length > 6) {
+        // Group by bloc when many countries
+        var groups = groupDecisionsByBloc(decisions);
+        var groupOrder = ["frontline", "nato_core", "nato_other", "russian_bloc", "global_south", "organizations", "other"];
+        var groupLabels = {
+          frontline: "\u{1F6A8} Frontline States",
+          nato_core: "\u{1F6E1}\uFE0F NATO Core",
+          nato_other: "\u{1F6E1}\uFE0F NATO Members",
+          russian_bloc: "\u2694\uFE0F Russian Bloc",
+          global_south: "\u{1F30D} Global South & Neutral",
+          organizations: "\u{1F3DB}\uFE0F Organizations",
+          other: "\u{1F30F} Other Actors"
+        };
+        var groupColors = {
+          frontline: "var(--accent-red)",
+          nato_core: "var(--accent-blue)",
+          nato_other: "var(--accent-cyan)",
+          russian_bloc: "var(--accent-purple)",
+          global_south: "var(--accent-green)",
+          organizations: "var(--accent-orange)",
+          other: "var(--text-secondary)"
+        };
+        groupOrder.forEach(function(gk) {
+          var items = groups[gk];
+          if (!items || items.length === 0) return;
+          var label = groupLabels[gk] || gk;
+          var color = groupColors[gk] || "var(--text-secondary)";
+          countriesHtml += '<div class="country-group">';
+          countriesHtml += '<div class="country-group-header" style="border-left: 3px solid ' + color + ';">';
+          countriesHtml += '<span style="font-size:14px; font-weight:600; color:' + color + ';">' + label + '</span>';
+          countriesHtml += '<span class="badge">' + items.length + '</span>';
+          countriesHtml += '</div>';
+          countriesHtml += '<div class="country-decisions-grid">';
+          items.forEach(function(cd) { countriesHtml += renderCountryDecision(cd, collapseByDefault); });
+          countriesHtml += '</div></div>';
+        });
+      } else {
+        countriesHtml = '<div class="country-decisions-grid">';
+        decisions.forEach(function(cd) { countriesHtml += renderCountryDecision(cd, collapseByDefault); });
+        countriesHtml += '</div>';
+      }
+      html += buildSection("Country Debates & Decisions", "debates", countriesHtml, decisions.length + " actors");
     }
 
     var gm = data.game_master || data.resolution || {};
@@ -1374,6 +1478,54 @@ body {
     return '<div class="section"><div class="section-header" data-section="' + id + '">' +
       '<span class="toggle-icon">&#9660;</span><h3>' + escapeHtml(title) + '</h3>' + badge +
       '</div><div class="section-body">' + bodyHtml + '</div></div>';
+  }
+
+  // ---- Bloc grouping for country decisions ----
+  var BLOC_MAP = {
+    // Frontline states (directly involved in Suwalki)
+    frontline: ["PL", "LT", "LV", "EE", "BY", "RU"],
+    // NATO core (P5 + major contributors)
+    nato_core: ["US", "GB", "FR", "DE", "CA", "TR"],
+    // Other NATO members
+    nato_other: [
+      "NO", "DK", "NL", "BE", "LU", "IT", "ES", "PT", "GR",
+      "CZ", "SK", "HU", "RO", "BG", "HR", "SI", "AL", "ME",
+      "MK", "IS", "FI", "SE"
+    ],
+    // Russian bloc / allies
+    russian_bloc: ["RU", "BY", "RS", "KP", "IR", "SY", "CU", "VE", "MM"],
+    // Global South & neutral
+    global_south: ["CN", "IN", "BR", "ZA", "SA", "JP", "KR", "AU", "ID",
+      "EG", "PK", "NG", "MX", "PH", "VN", "AE", "AR", "CO", "UA", "IL"],
+    // Organizations
+    organizations: ["EU", "UN", "NATO", "CSTO", "SCO", "G7", "OSCE",
+      "ASEAN", "AFC", "ARAB"]
+  };
+
+  function getBloc(code) {
+    // Check organizations first (exact matches)
+    if (BLOC_MAP.organizations.indexOf(code) !== -1) return "organizations";
+    if (BLOC_MAP.frontline.indexOf(code) !== -1) {
+      // RU and BY are also in russian_bloc — classify by role in crisis
+      if (code === "RU" || code === "BY") return "russian_bloc";
+      return "frontline";
+    }
+    if (BLOC_MAP.nato_core.indexOf(code) !== -1) return "nato_core";
+    if (BLOC_MAP.nato_other.indexOf(code) !== -1) return "nato_other";
+    if (BLOC_MAP.russian_bloc.indexOf(code) !== -1) return "russian_bloc";
+    if (BLOC_MAP.global_south.indexOf(code) !== -1) return "global_south";
+    return "other";
+  }
+
+  function groupDecisionsByBloc(decisions) {
+    var groups = {};
+    decisions.forEach(function(cd) {
+      var code = cd.country_code || cd.country || "??";
+      var bloc = getBloc(code);
+      if (!groups[bloc]) groups[bloc] = [];
+      groups[bloc].push(cd);
+    });
+    return groups;
   }
 
   function renderCountryDecision(cd, collapsed) {
