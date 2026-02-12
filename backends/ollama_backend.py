@@ -9,6 +9,15 @@ because large local models can be slow on consumer hardware.
 
 Includes automatic retry with exponential backoff and configurable
 num_ctx to prevent silent prompt truncation.
+
+Parallel mode
+-------------
+When ``max_concurrent`` > 1, the backend uses an ``asyncio.Semaphore``
+to allow multiple in-flight requests.  This requires Ollama to be
+started with ``OLLAMA_NUM_PARALLEL`` set to the same (or higher) value
+so the server actually processes requests concurrently::
+
+    OLLAMA_NUM_PARALLEL=4 ollama serve
 """
 
 import asyncio
@@ -27,6 +36,7 @@ _DEFAULT_TIMEOUT_S = 300  # 5 minutes -- local models can be slow
 _DEFAULT_NUM_CTX = 16384  # context window -- Ollama defaults to 4096 which truncates prompts
 _DEFAULT_MAX_RETRIES = 3
 _DEFAULT_RETRY_DELAY = 2.0  # seconds, doubles each retry
+_DEFAULT_MAX_CONCURRENT = 1  # sequential by default; set >1 for parallel
 
 
 class OllamaBackend(LLMBackend):
@@ -39,6 +49,9 @@ class OllamaBackend(LLMBackend):
         num_ctx: Context window size in tokens. Defaults to 16384.
         max_retries: Number of retry attempts on failure.
         retry_delay: Initial delay between retries (doubles each attempt).
+        max_concurrent: Maximum number of parallel requests.  Set >1 to
+            enable parallel country deliberation.  Requires Ollama to be
+            started with ``OLLAMA_NUM_PARALLEL`` >= this value.
     """
 
     def __init__(
@@ -49,6 +62,7 @@ class OllamaBackend(LLMBackend):
         num_ctx: int = _DEFAULT_NUM_CTX,
         max_retries: int = _DEFAULT_MAX_RETRIES,
         retry_delay: float = _DEFAULT_RETRY_DELAY,
+        max_concurrent: int = _DEFAULT_MAX_CONCURRENT,
     ) -> None:
         self.model = model
         self.base_url = base_url.rstrip("/")
@@ -56,6 +70,8 @@ class OllamaBackend(LLMBackend):
         self.num_ctx = num_ctx
         self.max_retries = max_retries
         self.retry_delay = retry_delay
+        self.max_concurrent = max(1, max_concurrent)
+        self._semaphore = asyncio.Semaphore(self.max_concurrent)
         self._session: aiohttp.ClientSession | None = None
 
     # ------------------------------------------------------------------
@@ -132,20 +148,21 @@ class OllamaBackend(LLMBackend):
 
         for attempt in range(1, self.max_retries + 1):
             try:
-                session = await self._get_session()
-                async with session.post(url, json=payload) as resp:
-                    if resp.status >= 500:
-                        body = await resp.text()
-                        raise RuntimeError(
-                            f"Ollama returned HTTP {resp.status}: {body}"
-                        )
-                    if resp.status != 200:
-                        body = await resp.text()
-                        raise RuntimeError(
-                            f"Ollama returned HTTP {resp.status}: {body}"
-                        )
+                async with self._semaphore:
+                    session = await self._get_session()
+                    async with session.post(url, json=payload) as resp:
+                        if resp.status >= 500:
+                            body = await resp.text()
+                            raise RuntimeError(
+                                f"Ollama returned HTTP {resp.status}: {body}"
+                            )
+                        if resp.status != 200:
+                            body = await resp.text()
+                            raise RuntimeError(
+                                f"Ollama returned HTTP {resp.status}: {body}"
+                            )
 
-                    data: dict = await resp.json()
+                        data: dict = await resp.json()
 
                 # Success -- extract and return
                 content: str = data.get("message", {}).get("content", "")
@@ -200,6 +217,15 @@ class OllamaBackend(LLMBackend):
                 )
 
         raise last_exc  # type: ignore[misc]
+
+    @property
+    def supports_parallel(self) -> bool:
+        """Ollama supports parallel when max_concurrent > 1.
+
+        Requires the Ollama server to be started with
+        ``OLLAMA_NUM_PARALLEL`` >= ``max_concurrent``.
+        """
+        return self.max_concurrent > 1
 
     async def close(self) -> None:
         """Close the underlying HTTP session."""

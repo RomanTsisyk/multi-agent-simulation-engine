@@ -158,9 +158,18 @@ def _build_initial_state(scenario: dict) -> dict:
     # Diplomatic
     diplo = iws.get("diplomatic", {})
 
+    # Initial nuclear posture -- all nuclear states at peacetime
+    nuclear_posture = {
+        "RU": "elevated",  # Russia initiating, slightly elevated
+        "US": "peacetime",
+        "GB": "peacetime",
+        "FR": "peacetime",
+    }
+
     return {
         "game_time": "Day 1, 06:00 CET",
         "nato_alert_level": "elevated",
+        "nuclear_posture": nuclear_posture,
         "military_units": military_units,
         "military_alerts": {k: str(v) for k, v in mil.items()},
         "markets": markets,
@@ -256,7 +265,7 @@ def build_game_config(
     # Remove keys not accepted by backend constructors
     # (temperature is handled per-request, not at constructor level)
     backend_settings.pop("temperature", None)
-    backend_settings.pop("base_url", None)  # informational only, not used by constructors
+    # Note: base_url IS used by OllamaBackend constructor -- do not pop it
 
     # Add the backend name
     backend_settings["name"] = backend_name
@@ -280,6 +289,7 @@ def build_game_config(
             "rounds": total_rounds,
             "countries": countries,
             "initial_state": initial_state,
+            "end_conditions": scenario.get("end_conditions", []),
         },
         "logs_dir": game_cfg.get("logs_dir", "logs"),
     }

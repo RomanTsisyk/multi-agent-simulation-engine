@@ -36,6 +36,29 @@ initial_event: |
 game_time_per_round: "12 hours"
 total_rounds: 10
 
+# Victory / early-end conditions -- checked each round by the engine
+end_conditions:
+  - id: "russian_corridor_hold"
+    type: "territorial_control"
+    description: "Russia holds the Suwalki corridor for 7+ consecutive days"
+    winner: "RU"
+  - id: "nato_corridor_liberated"
+    type: "territorial_control"
+    description: "NATO forces recapture the full Suwalki corridor"
+    winner: "NATO"
+  - id: "ceasefire_agreement"
+    type: "diplomatic"
+    description: "All major parties agree to a ceasefire and negotiations"
+    winner: "diplomatic"
+  - id: "nuclear_detonation"
+    type: "catastrophic"
+    description: "Any nuclear weapon is detonated (tactical or strategic)"
+    winner: "none"
+  - id: "nato_collapse"
+    type: "political"
+    description: "3+ NATO members refuse Article 5 commitment, alliance fractures"
+    winner: "RU"
+
 initial_world_state:
   military:
     russian_kaliningrad_forces: "3 BTGs forward-deployed, Baltic Fleet active, S-400 systems operational"

@@ -55,10 +55,11 @@ You are a neutral analyst summarising the outcome of an internal \
 leadership debate for country {country_name} ({country_code}).
 
 Your job is to read the full debate transcript and produce a SINGLE \
-coherent decision that reflects the balance of opinions expressed. \
-Where factions disagree, favour the majority view but note any \
-significant dissent. Pay special attention to red lines that any \
-faction refused to cross.
+coherent decision that reflects the WEIGHTED balance of opinions. \
+{faction_weights_text}
+Where factions disagree, favour the higher-weighted faction's view \
+but note any significant dissent. Pay special attention to red lines \
+that any faction refused to cross.
 
 Each action MUST be specific and executable — not vague aspirations. \
 Good: "Deploy 2nd Armoured Brigade to Suwalki corridor within 48h" \
@@ -72,6 +73,12 @@ ACTIONS:
 2. <specific action with target, timeline, or scope>
 3. <specific action (optional)>
 DISSENT: <which faction(s) objected and what red line was at stake, or "None">
+DIPLOMATIC_MESSAGES:
+- TO: <country code> | CHANNEL: <public|private|backchannel> | MESSAGE: <the message text>
+- TO: <country code> | CHANNEL: <public|private|backchannel> | MESSAGE: <the message text>
+(Write "None" if no diplomatic messages this round. Public messages are visible \
+to all countries. Private messages are only visible to the recipient. \
+Backchannel messages are secret and deniable.)
 """
 
 _DIPLOMACY_SYSTEM_PROMPT = """\
@@ -268,7 +275,7 @@ class Country:
         self.logger.info("Synthesising debate into decision...")
         decision_raw = await self._synthesise(debate_log, world_context)
 
-        decision, actions, dissent = self._parse_synthesis(decision_raw)
+        decision, actions, dissent, diplomatic_messages = self._parse_synthesis(decision_raw)
 
         self.logger.info(
             "Debate concluded. Decision: %.120s...", decision
@@ -282,6 +289,7 @@ class Country:
             "decision": decision,
             "actions": actions,
             "dissent": dissent,
+            "diplomatic_messages": diplomatic_messages,
         }
 
     # ------------------------------------------------------------------
@@ -378,15 +386,46 @@ class Country:
             )
         return "\n".join(lines)
 
+    def _compute_faction_weights(self) -> str:
+        """Compute influence weights for each faction based on role.
+
+        During a military crisis, military and hawk factions gain influence.
+        During peacetime or diplomacy-heavy phases, diplomats gain influence.
+        This is a heuristic based on role archetypes.
+        """
+        role_weights = {
+            "hawk": 3,
+            "military_realist": 3,
+            "military realist": 3,
+            "diplomat": 2,
+            "pragmatist": 2,
+            "wildcard": 1,
+            "intelligence": 1,
+            "economic": 1,
+        }
+        lines = []
+        for f in self.factions:
+            role = f.config.role.lower()
+            weight = role_weights.get(role, 2)
+            lines.append(f"  - {f.config.name} ({f.config.role}): influence weight {weight}/3")
+        if lines:
+            return (
+                "Faction influence weights (higher = more influence on final decision):\n"
+                + "\n".join(lines)
+            )
+        return ""
+
     async def _synthesise(
         self, debate_log: list[dict[str, str]], world_context: str
     ) -> str:
         """Ask the synthesis agent to distil the debate into a decision."""
         self._synthesiser.reset_history()
 
+        faction_weights_text = self._compute_faction_weights()
         system_prompt = _SYNTHESIS_SYSTEM_PROMPT.format(
             country_name=self.config.name,
             country_code=self.config.code,
+            faction_weights_text=faction_weights_text,
         )
 
         transcript = self._format_transcript(debate_log)
@@ -406,7 +445,7 @@ class Country:
         return response
 
     @staticmethod
-    def _parse_synthesis(raw: str) -> tuple[str, list[str], str]:
+    def _parse_synthesis(raw: str) -> tuple[str, list[str], str, list[dict]]:
         """Parse the synthesis agent's output into structured fields.
 
         Expects the format produced by ``_SYNTHESIS_SYSTEM_PROMPT``:
@@ -418,16 +457,19 @@ class Country:
             1. ...
             2. ...
             DISSENT: ...
+            DIPLOMATIC_MESSAGES:
+            - TO: XX | CHANNEL: public | MESSAGE: ...
 
         If parsing fails the raw text is returned as the decision with
         an empty actions list and no dissent.
 
         Returns:
-            A tuple of ``(decision, actions, dissent)``.
+            A tuple of ``(decision, actions, dissent, diplomatic_messages)``.
         """
         decision = ""
         actions: list[str] = []
         dissent = ""
+        diplomatic_messages: list[dict] = []
 
         # State machine: which section are we currently accumulating?
         section: str | None = None
@@ -453,6 +495,9 @@ class Country:
                 if remainder:
                     dissent_lines.append(remainder)
                 continue
+            elif stripped.upper().startswith("DIPLOMATIC_MESSAGES:"):
+                section = "diplomatic"
+                continue
 
             # Accumulate content into the active section
             if section == "decision" and stripped:
@@ -464,11 +509,15 @@ class Country:
                     actions.append(action_text)
             elif section == "dissent" and stripped:
                 dissent_lines.append(stripped)
+            elif section == "diplomatic" and stripped:
+                msg = _parse_diplomatic_line(stripped)
+                if msg:
+                    diplomatic_messages.append(msg)
 
         decision = " ".join(decision_lines) if decision_lines else raw.strip()
         dissent = " ".join(dissent_lines) if dissent_lines else ""
 
-        return decision, actions, dissent
+        return decision, actions, dissent, diplomatic_messages
 
     def __repr__(self) -> str:
         faction_names = [f.config.name for f in self.factions]
@@ -477,3 +526,31 @@ class Country:
             f"code={self.config.code!r}, "
             f"factions={faction_names!r})"
         )
+
+
+def _parse_diplomatic_line(line: str) -> dict | None:
+    """Parse a diplomatic message line like:
+
+    ``- TO: US | CHANNEL: private | MESSAGE: We propose joint patrols``
+
+    Returns a dict with keys ``to``, ``channel``, ``message`` or None.
+    """
+    stripped = re.sub(r"^-\s*", "", line.strip())
+    if stripped.lower() == "none":
+        return None
+
+    parts: dict[str, str] = {}
+    for segment in stripped.split("|"):
+        segment = segment.strip()
+        if ":" in segment:
+            key, value = segment.split(":", 1)
+            parts[key.strip().lower()] = value.strip()
+
+    to_country = parts.get("to", "").strip()
+    channel = parts.get("channel", "public").strip().lower()
+    message = parts.get("message", "").strip()
+
+    if not to_country or not message:
+        return None
+
+    return {"to": to_country, "channel": channel, "message": message}

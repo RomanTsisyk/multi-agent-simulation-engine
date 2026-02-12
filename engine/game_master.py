@@ -63,6 +63,16 @@ REALISM GUIDELINES:
 - Cyber and information warfare are constant factors.
 - Weather, terrain, and supply lines matter.
 
+LOGISTICS AND ATTRITION RULES:
+- Units in combat lose supply_level by 1-2 per round (ammo expenditure).
+- Units with supply_level <= 3 suffer -1 readiness per round (degraded ops).
+- Units with supply_level <= 1 cannot conduct offensive operations.
+- Casualties are cumulative and permanent within a game. High casualties \
+  reduce morale (-1 morale per 2 casualty points).
+- Morale below 3 risks unit refusing orders or retreating without authorisation.
+- Supply lines can be interdicted by air power, special forces, or cyber attacks.
+- Resupply requires a secure logistics corridor and takes 1-2 rounds.
+
 You must ALWAYS respond with valid JSON and nothing else.
 """
 
@@ -116,7 +126,7 @@ Respond with a single JSON object (no markdown, no commentary):
         "military_units_add": [],
         "military_units_remove": [],
         "military_units_update": [
-            {{"name": "<unit name>", "location": "<new loc>", "readiness": <int>, "strength": <int>}}
+            {{"name": "<unit name>", "location": "<new loc>", "readiness": <int 1-10>, "strength": <int 1-10>, "casualties": <int cumulative>, "supply_level": <int 1-10>, "morale": <int 1-10>}}
         ],
         "military_alerts": {{"<country>": "<alert level>"}},
         "markets": {{"oil_price": <float>, "euro_usd": <float>}},
@@ -127,7 +137,12 @@ Respond with a single JSON object (no markdown, no commentary):
         "un_resolutions_add": [],
         "nato_alert_level": "<normal|elevated|high|article5>",
         "nato_consensus": {{"<country>": "<position>"}},
+        "nuclear_posture": {{"<nuclear_country>": "<peacetime|elevated|dispersal|launch_ready|tactical_use|strategic>"}},
         "public_opinion": {{"<country>": {{"war_support": <int 0-100>, "government_approval": <int 0-100>}}}},
+        "refugee_flows_add": [{{"from": "<country>", "to": "<country>", "count": <int>, "status": "<fleeing|in_transit|settled|blocked>"}}],
+        "humanitarian_crisis_level": {{"<country>": <int 1-10>}},
+        "cyber_operations_add": [{{"attacker": "<country>", "target": "<country>", "type": "<ddos|malware|supply_chain|espionage|infrastructure>", "severity": "<low|medium|high|critical>", "infrastructure_affected": "<power_grid|comms|financial|military_c2|none>"}}],
+        "infrastructure_status": {{"<country>": {{"power_grid": <int 1-10>, "comms": <int 1-10>, "financial": <int 1-10>, "military_c2": <int 1-10>}}}},
         "recent_events": ["<event1>", "<event2>"],
         "media_headlines": ["<headline1>", "<headline2>"]
     }},
@@ -147,7 +162,25 @@ human intelligence networks, and internal government communications.
 Current world state:
 {world_state_json}
 
-The briefing should include 2-4 items such as:
+The briefing should include 3-5 items. CRITICAL REALISM RULES FOR INTELLIGENCE:
+
+1. FOG OF WAR: At least ONE item must contain INACCURATE or OUTDATED information \
+   that the intelligence service believes is true but is actually wrong. Real \
+   intelligence is never perfect. Examples: wrong troop counts, misidentified \
+   unit types, outdated positions (12-24h old), misread intentions.
+
+2. CONTRADICTIONS: If possible, include one item that partially contradicts \
+   another item (e.g. SIGINT suggests attack, but HUMINT suggests diplomacy). \
+   Real intelligence often presents conflicting pictures.
+
+3. CONFIDENCE LEVELS: Each item MUST have an individual confidence level. \
+   Not all intelligence is equally reliable. HUMINT from a new source is less \
+   reliable than satellite imagery.
+
+4. INTELLIGENCE GAPS: Mention 1-2 things the intelligence service DOES NOT \
+   know and is trying to find out. Absence of information is itself information.
+
+Item types:
 - Intercepted communications or signals intelligence
 - Satellite imagery analysis of enemy movements
 - Reports from human intelligence assets
@@ -156,15 +189,19 @@ The briefing should include 2-4 items such as:
 - Cyber intelligence
 - Economic intelligence not publicly available
 
-Make it realistic for {country_code}'s actual intelligence capabilities.
+Make it realistic for {country_code}'s actual intelligence capabilities. \
+A small country has weaker SIGINT/IMINT; a major power has better coverage \
+but still has blind spots.
 
 Respond with JSON:
 {{
     "intel_briefing": "<the classified briefing text>",
-    "confidence_level": "<high|medium|low>",
+    "overall_confidence": "<high|medium|low>",
     "items": [
-        {{"type": "<sigint|humint|imint|osint|cyber>", "content": "<detail>", "reliability": "<A|B|C|D>"}}
-    ]
+        {{"type": "<sigint|humint|imint|osint|cyber>", "content": "<detail>", "confidence": "<high|medium|low>", "reliability": "<A|B|C|D>", "caveat": "<any limitation or doubt about this item>"}}
+    ],
+    "intelligence_gaps": ["<what we don't know yet>", "<another gap>"],
+    "fog_of_war_note": "<internal note: which item above is inaccurate and why -- this is for GM tracking only>"
 }}
 """
 
@@ -283,9 +320,25 @@ class GameMaster:
             lines = [briefing_text, "", "INTELLIGENCE ITEMS:"]
             for item in items:
                 reliability = item.get("reliability", "?")
+                confidence = item.get("confidence", "medium").upper()
                 itype = item.get("type", "unknown").upper()
                 content = item.get("content", "")
-                lines.append(f"  [{itype} | Reliability: {reliability}] {content}")
+                caveat = item.get("caveat", "")
+                lines.append(
+                    f"  [{itype} | Reliability: {reliability} | "
+                    f"Confidence: {confidence}] {content}"
+                )
+                if caveat:
+                    lines.append(f"    CAVEAT: {caveat}")
+
+            # Intelligence gaps
+            gaps = parsed.get("intelligence_gaps", [])
+            if gaps:
+                lines.append("")
+                lines.append("INTELLIGENCE GAPS (what we do NOT know):")
+                for gap in gaps:
+                    lines.append(f"  - {gap}")
+
             return "\n".join(lines)
 
         # Fallback: return raw text if JSON parsing failed

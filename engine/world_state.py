@@ -24,12 +24,17 @@ class MilitaryUnit:
     location: str
     readiness: int  # 1-10
     strength: int  # 1-10
+    casualties: int = 0  # cumulative casualties (abstract units)
+    supply_level: int = 10  # 1-10 (ammo, fuel, spare parts)
+    morale: int = 7  # 1-10
 
     def summary(self) -> str:
         return (
             f"{self.name} ({self.country} {self.type}) "
             f"@ {self.location} "
-            f"[readiness={self.readiness}, strength={self.strength}]"
+            f"[readiness={self.readiness}, strength={self.strength}, "
+            f"supply={self.supply_level}, morale={self.morale}, "
+            f"casualties={self.casualties}]"
         )
 
 
@@ -71,9 +76,27 @@ class WorldState:
     nato_consensus: dict[str, str] = field(default_factory=dict)  # country -> position
 
     # ------------------------------------------------------------------
+    # Nuclear posture
+    # ------------------------------------------------------------------
+    # Levels: peacetime -> elevated -> dispersal -> launch_ready -> tactical_use -> strategic
+    nuclear_posture: dict[str, str] = field(default_factory=dict)  # country -> posture level
+
+    # ------------------------------------------------------------------
     # Public opinion
     # ------------------------------------------------------------------
     public_opinion: dict[str, dict] = field(default_factory=dict)  # country -> {war_support, government_approval}
+
+    # ------------------------------------------------------------------
+    # Humanitarian
+    # ------------------------------------------------------------------
+    refugee_flows: list[dict] = field(default_factory=list)  # {"from", "to", "count", "status"}
+    humanitarian_crisis_level: dict[str, int] = field(default_factory=dict)  # country -> 1-10
+
+    # ------------------------------------------------------------------
+    # Cyber & information warfare
+    # ------------------------------------------------------------------
+    cyber_operations: list[dict] = field(default_factory=list)  # {"attacker", "target", "type", "severity", "infrastructure_affected"}
+    infrastructure_status: dict[str, dict[str, int]] = field(default_factory=dict)  # country -> {"power_grid": 1-10, "comms": 1-10, "financial": 1-10, "military_c2": 1-10}
 
     # ------------------------------------------------------------------
     # Events & media
@@ -128,6 +151,14 @@ class WorldState:
             for country, position in sorted(self.nato_consensus.items()):
                 lines.append(f"  {country}: {position}")
         lines.append("")
+
+        # --- Nuclear posture ---
+        if self.nuclear_posture:
+            lines.append("NUCLEAR POSTURE:")
+            for country, posture in sorted(self.nuclear_posture.items()):
+                warning = " *** CRITICAL ***" if posture in ("launch_ready", "tactical_use", "strategic") else ""
+                lines.append(f"  {country}: {posture.upper()}{warning}")
+            lines.append("")
 
         # --- Military overview ---
         lines.append("MILITARY SITUATION:")
@@ -205,6 +236,48 @@ class WorldState:
                     f"  {c}: war_support={po.get('war_support', '?')}%, "
                     f"gov_approval={po.get('government_approval', '?')}%"
                 )
+            lines.append("")
+
+        # --- Humanitarian ---
+        if self.refugee_flows or self.humanitarian_crisis_level:
+            lines.append("HUMANITARIAN SITUATION:")
+            if self.refugee_flows:
+                total = sum(f.get("count", 0) for f in self.refugee_flows)
+                lines.append(f"  Total displaced persons: ~{total:,}")
+                for flow in self.refugee_flows[-5:]:  # last 5 flows
+                    lines.append(
+                        f"  {flow.get('from','?')} -> {flow.get('to','?')}: "
+                        f"~{flow.get('count', 0):,} ({flow.get('status', 'ongoing')})"
+                    )
+            if self.humanitarian_crisis_level:
+                for country, level in sorted(self.humanitarian_crisis_level.items()):
+                    severity = "CRITICAL" if level >= 8 else "severe" if level >= 5 else "moderate" if level >= 3 else "low"
+                    lines.append(f"  {country} crisis level: {level}/10 ({severity})")
+            lines.append("")
+
+        # --- Cyber & infrastructure ---
+        if self.cyber_operations or self.infrastructure_status:
+            lines.append("CYBER & INFRASTRUCTURE:")
+            if self.cyber_operations:
+                # Show last 5 cyber ops
+                for op in self.cyber_operations[-5:]:
+                    attacker = op.get("attacker", "?")
+                    target = op.get("target", "?")
+                    op_type = op.get("type", "?")
+                    severity = op.get("severity", "?")
+                    lines.append(
+                        f"  [{severity}] {attacker} -> {target}: {op_type}"
+                    )
+            if for_country and for_country in self.infrastructure_status:
+                infra = self.infrastructure_status[for_country]
+                lines.append(f"  Your infrastructure status ({for_country}):")
+                for system, level in sorted(infra.items()):
+                    status = "CRITICAL" if level <= 3 else "degraded" if level <= 6 else "operational"
+                    lines.append(f"    {system}: {level}/10 ({status})")
+            elif self.infrastructure_status:
+                for country, infra in sorted(self.infrastructure_status.items()):
+                    vals = ", ".join(f"{k}={v}" for k, v in sorted(infra.items()))
+                    lines.append(f"  {country}: {vals}")
             lines.append("")
 
         # --- Recent events ---
@@ -290,7 +363,8 @@ class WorldState:
                     for k, v in patch.items():
                         if k != "name" and hasattr(unit, k):
                             # Coerce types: LLMs sometimes return "7" instead of 7
-                            if k in ("readiness", "strength"):
+                            if k in ("readiness", "strength", "casualties",
+                                     "supply_level", "morale"):
                                 v = _safe_int(v, getattr(unit, k))
                             setattr(unit, k, v)
                     break
@@ -299,6 +373,12 @@ class WorldState:
         self.military_alerts.update(updates.get("military_alerts", {}))
         self.markets.update(updates.get("markets", {}))
         self.nato_consensus.update(updates.get("nato_consensus", {}))
+
+        # Nuclear posture -- update and auto-escalate peers
+        for country, posture in updates.get("nuclear_posture", {}).items():
+            posture_lower = posture.lower()
+            if posture_lower in _NUCLEAR_LEVELS:
+                self.nuclear_posture[country] = posture_lower
 
         # Append lists
         self.sanctions.extend(updates.get("sanctions_add", []))
@@ -318,12 +398,142 @@ class WorldState:
                 self.public_opinion[country] = {}
             self.public_opinion[country].update(opinion)
 
+        # --- Humanitarian ---
+        self.refugee_flows.extend(updates.get("refugee_flows_add", []))
+        for country, level in updates.get("humanitarian_crisis_level", {}).items():
+            self.humanitarian_crisis_level[country] = _safe_int(
+                level, self.humanitarian_crisis_level.get(country, 0)
+            )
+
+        # --- Cyber operations ---
+        self.cyber_operations.extend(updates.get("cyber_operations_add", []))
+
+        # Nested dict merge -- infrastructure_status
+        for country, infra in updates.get("infrastructure_status", {}).items():
+            if country not in self.infrastructure_status:
+                self.infrastructure_status[country] = {
+                    "power_grid": 10, "comms": 10,
+                    "financial": 10, "military_c2": 10,
+                }
+            for k, v in infra.items():
+                self.infrastructure_status[country][k] = _safe_int(
+                    v, self.infrastructure_status[country].get(k, 10)
+                )
+
         # Replace per-round transient data
         if "recent_events" in updates:
             self.recent_events = updates["recent_events"]
         if "media_headlines" in updates:
             self.media_headlines = updates["media_headlines"]
 
+        # --- Cascading automatic effects ---
+        self._apply_cascading_effects()
+
+    def _apply_cascading_effects(self) -> None:
+        """Apply automatic second-order effects after GM updates.
+
+        These are deterministic rules that model realistic consequences
+        without requiring the LLM to remember every interaction.
+        """
+        # 1. Oil price affects public war support globally
+        oil = self.markets.get("oil_price")
+        if oil is not None:
+            try:
+                oil_f = float(oil)
+            except (ValueError, TypeError):
+                oil_f = 0.0
+            if oil_f > 120:
+                for country, opinion in self.public_opinion.items():
+                    ws = opinion.get("war_support", 50)
+                    # High oil = economic pain = less support for war
+                    opinion["war_support"] = max(0, ws - 3)
+
+        # 2. Active sanctions on Russia increase EU gas prices
+        ru_sanctions = [s for s in self.sanctions if s.get("target") == "RU"]
+        if ru_sanctions:
+            gas = self.markets.get("gas_price_eu")
+            if isinstance(gas, (int, float)):
+                # Each new sanction round adds pressure
+                self.markets["gas_price_eu"] = round(gas * 1.02, 2)
+
+        # 3. Units with low supply degrade
+        for unit in self.military_units:
+            if unit.supply_level <= 3:
+                unit.readiness = max(1, unit.readiness - 1)
+            if unit.supply_level <= 1:
+                unit.morale = max(1, unit.morale - 1)
+
+        # 4. High casualties reduce morale
+        for unit in self.military_units:
+            if unit.casualties >= 2:
+                morale_penalty = unit.casualties // 2
+                unit.morale = max(1, unit.morale - morale_penalty)
+                # Reset casualties counter after applying penalty
+                # (penalty was from cumulative; keep casualties as-is)
+
+        # 5. Degraded infrastructure affects public opinion
+        for country, infra in self.infrastructure_status.items():
+            avg_infra = sum(infra.values()) / max(len(infra), 1)
+            if avg_infra < 5 and country in self.public_opinion:
+                ga = self.public_opinion[country].get("government_approval", 50)
+                self.public_opinion[country]["government_approval"] = max(0, ga - 2)
+
+        # 6. Refugee inflows reduce government approval in receiving countries
+        refugee_burden: dict[str, int] = {}
+        for flow in self.refugee_flows:
+            to_country = flow.get("to", "")
+            count = flow.get("count", 0)
+            if to_country:
+                refugee_burden[to_country] = refugee_burden.get(to_country, 0) + count
+        for country, total in refugee_burden.items():
+            if total > 50000 and country in self.public_opinion:
+                penalty = min(5, total // 100000)
+                ga = self.public_opinion[country].get("government_approval", 50)
+                self.public_opinion[country]["government_approval"] = max(0, ga - penalty)
+
+        # 7. Nuclear auto-escalation: if any state escalates past dispersal,
+        #    all other nuclear states escalate at least to elevated
+        max_posture_idx = 0
+        for country, posture in self.nuclear_posture.items():
+            idx = _NUCLEAR_LEVELS.index(posture) if posture in _NUCLEAR_LEVELS else 0
+            max_posture_idx = max(max_posture_idx, idx)
+        if max_posture_idx >= 2:  # dispersal or higher
+            for country, posture in self.nuclear_posture.items():
+                current_idx = _NUCLEAR_LEVELS.index(posture) if posture in _NUCLEAR_LEVELS else 0
+                # Others escalate to at least one step below the max
+                min_idx = max(1, max_posture_idx - 1)
+                if current_idx < min_idx:
+                    self.nuclear_posture[country] = _NUCLEAR_LEVELS[min_idx]
+
+        # 7. Nuclear posture affects public opinion dramatically
+        for country, posture in self.nuclear_posture.items():
+            idx = _NUCLEAR_LEVELS.index(posture) if posture in _NUCLEAR_LEVELS else 0
+            if idx >= 3 and country in self.public_opinion:  # launch_ready+
+                ws = self.public_opinion[country].get("war_support", 50)
+                self.public_opinion[country]["war_support"] = max(0, ws - 5)
+
+        # 8. Clamp all values to valid ranges
+        for unit in self.military_units:
+            unit.readiness = max(1, min(10, unit.readiness))
+            unit.strength = max(0, min(10, unit.strength))
+            unit.supply_level = max(0, min(10, unit.supply_level))
+            unit.morale = max(1, min(10, unit.morale))
+            unit.casualties = max(0, unit.casualties)
+
+        for country, opinion in self.public_opinion.items():
+            for key in ("war_support", "government_approval"):
+                if key in opinion:
+                    opinion[key] = max(0, min(100, opinion[key]))
+
+
+# ======================================================================
+# Constants
+# ======================================================================
+
+_NUCLEAR_LEVELS = [
+    "peacetime", "elevated", "dispersal",
+    "launch_ready", "tactical_use", "strategic",
+]
 
 # ======================================================================
 # Private helpers

@@ -21,6 +21,7 @@ from backends import LLMBackend, create_backend
 from agents.base import AgentConfig
 from agents.faction import Faction
 from agents.country import Country, CountryConfig
+from engine.analytics import generate_analytics, format_analytics_text
 from engine.game_master import GameMaster
 from engine.round_logger import RoundLogger
 from engine.world_state import MilitaryUnit, WorldState
@@ -235,6 +236,8 @@ class Game:
         self.countries: dict[str, Country | _CountryStub] = {}
         self.logger: RoundLogger | None = None
         self.total_rounds: int = config.get("scenario", {}).get("rounds", 6)
+        # Diplomatic message buffer: messages from previous round delivered next round
+        self._diplomatic_inbox: list[dict] = []
 
     # ------------------------------------------------------------------
     # Setup
@@ -350,12 +353,23 @@ class Game:
             )
 
         round_record["country_decisions"] = all_decisions
-        round_record["diplomatic_messages"] = diplomatic_messages
 
-        # --- 4. Deliver diplomatic messages (for logging; content is
-        #     visible to GM during resolution) ---
-        if diplomatic_messages:
-            _print_info(f"Diplomatic messages exchanged: {len(diplomatic_messages)}")
+        # --- 4. Collect diplomatic messages from debate synthesis ---
+        outgoing = self._collect_outgoing_messages(all_decisions)
+        all_diplomatic = diplomatic_messages + outgoing
+        round_record["diplomatic_messages"] = all_diplomatic
+
+        if all_diplomatic:
+            _print_info(f"Diplomatic messages exchanged: {len(all_diplomatic)}")
+            for dm in all_diplomatic:
+                ch = dm.get("channel", "public").upper()
+                _print_info(
+                    f"  [{ch}] {dm.get('from','?')} -> {dm.get('to','?')}: "
+                    f"{dm.get('message','')[:80]}..."
+                )
+
+        # Store messages for delivery next round
+        self._diplomatic_inbox = all_diplomatic
 
         # --- 5. GM resolves actions ---
         _print_phase("Game Master", "Resolving actions...")
@@ -428,6 +442,7 @@ class Game:
         game_start = time.time()
         round_records: list[dict] = []
         round_times: list[float] = []
+        end_condition_triggered: dict | None = None
 
         for round_num in range(1, self.total_rounds + 1):
             try:
@@ -448,6 +463,15 @@ class Game:
                     f"Avg {avg_time:.0f}s/round | "
                     f"ETA: {eta_min}m {eta_sec}s"
                 )
+
+                # Check victory / end conditions
+                end_condition_triggered = self.check_end_conditions()
+                if end_condition_triggered:
+                    _print_header("ENDGAME CONDITION TRIGGERED")
+                    _print_info(f"Condition: {end_condition_triggered.get('description', '?')}")
+                    _print_info(f"Winner: {end_condition_triggered.get('winner', '?')}")
+                    break
+
             except Exception as exc:
                 _print_error(f"Round {round_num} failed catastrophically: {exc}")
                 logger.exception("Round %d failed", round_num)
@@ -462,12 +486,32 @@ class Game:
             "total_rounds": self.total_rounds,
             "rounds_completed": len(round_records),
             "total_time_seconds": round(total_elapsed, 1),
+            "end_condition": end_condition_triggered,
             "final_world_state": self.world_state.to_dict() if self.world_state else {},
             "final_briefing": (
                 self.world_state.to_briefing() if self.world_state else ""
             ),
         }
         self.logger.log_summary(summary)
+
+        # --- Post-game analytics ---
+        _print_header("GENERATING POST-GAME ANALYTICS")
+        try:
+            analytics = generate_analytics(self.logger.game_dir)
+            analytics_text = format_analytics_text(analytics)
+            print(analytics_text)
+
+            # Save analytics to file
+            analytics_path = self.logger.game_dir / "analytics.json"
+            import json as _json
+            analytics_path.write_text(
+                _json.dumps(analytics, indent=2, ensure_ascii=False, default=str),
+                encoding="utf-8",
+            )
+            _print_info(f"Analytics saved to: {analytics_path}")
+        except Exception as exc:
+            _print_error(f"Analytics generation failed: {exc}")
+            logger.exception("Analytics failed")
 
         _print_header("GAME COMPLETE")
         _print_info(f"Rounds completed: {len(round_records)}/{self.total_rounds}")
@@ -479,6 +523,42 @@ class Game:
     # ------------------------------------------------------------------
     # Teardown
     # ------------------------------------------------------------------
+
+    def check_end_conditions(self) -> dict | None:
+        """Check if any end/victory condition has been met.
+
+        Returns the triggered condition dict, or None.
+        """
+        assert self.world_state is not None
+        conditions = self.config.get("scenario", {}).get("end_conditions", [])
+        if not conditions:
+            return None
+
+        for cond in conditions:
+            ctype = cond.get("type", "")
+            cid = cond.get("id", "")
+
+            if ctype == "catastrophic" and cid == "nuclear_detonation":
+                for country, posture in self.world_state.nuclear_posture.items():
+                    if posture in ("tactical_use", "strategic"):
+                        return cond
+
+            if ctype == "political" and cid == "nato_collapse":
+                refusals = sum(
+                    1 for pos in self.world_state.nato_consensus.values()
+                    if "refuse" in pos.lower() or "reject" in pos.lower()
+                    or "oppose" in pos.lower() or "no" == pos.strip().lower()
+                )
+                if refusals >= 3:
+                    return cond
+
+            # Other conditions are checked via keywords in recent events
+            if ctype == "diplomatic" and cid == "ceasefire_agreement":
+                for ev in self.world_state.recent_events:
+                    if "ceasefire" in ev.lower() and "agree" in ev.lower():
+                        return cond
+
+        return None
 
     async def close(self) -> None:
         """Release all resources (LLM backend sessions, etc.)."""
@@ -515,7 +595,11 @@ class Game:
         try:
             if isinstance(country, Country):
                 world_context = self.world_state.to_briefing(for_country=code)
+                # Inject incoming diplomatic messages into briefing
+                incoming_msgs = self._get_incoming_messages(code)
                 combined_briefing = f"{briefing}\n\nCLASSIFIED INTELLIGENCE:\n{intel}"
+                if incoming_msgs:
+                    combined_briefing += "\n\nINCOMING DIPLOMATIC MESSAGES:\n" + incoming_msgs
                 debate_result = await country.run_internal_debate(
                     situation_briefing=combined_briefing,
                     world_context=world_context,
@@ -524,7 +608,7 @@ class Game:
                     "country": code,
                     "country_name": country.config.name,
                     "actions": debate_result.get("actions", []),
-                    "diplomatic_messages": [],
+                    "diplomatic_messages": debate_result.get("diplomatic_messages", []),
                     "reasoning": debate_result.get("decision", ""),
                     "debate_log": debate_result.get("debate_log", []),
                     "dissent": debate_result.get("dissent", ""),
@@ -621,6 +705,47 @@ class Game:
     # Internal helpers
     # ------------------------------------------------------------------
 
+    def _get_incoming_messages(self, country_code: str) -> str:
+        """Return formatted diplomatic messages addressed to *country_code*.
+
+        A country sees:
+        - All ``public`` messages from any sender.
+        - ``private`` messages addressed specifically to it.
+        - ``backchannel`` messages addressed specifically to it (marked deniable).
+
+        Returns an empty string if there are no relevant messages.
+        """
+        lines: list[str] = []
+        for msg in self._diplomatic_inbox:
+            channel = msg.get("channel", "public")
+            to = msg.get("to", "").upper()
+            sender = msg.get("from", "??")
+            text = msg.get("message", "")
+
+            if channel == "public":
+                lines.append(f"[PUBLIC from {sender}]: {text}")
+            elif channel == "private" and to == country_code.upper():
+                lines.append(f"[PRIVATE from {sender}]: {text}")
+            elif channel == "backchannel" and to == country_code.upper():
+                lines.append(f"[BACKCHANNEL from {sender} -- deniable]: {text}")
+        return "\n".join(lines)
+
+    def _collect_outgoing_messages(
+        self, all_decisions: list[dict],
+    ) -> list[dict]:
+        """Extract diplomatic messages from all country decisions and tag sender."""
+        messages: list[dict] = []
+        for decision in all_decisions:
+            sender = decision.get("country", "??")
+            for msg in decision.get("diplomatic_messages", []):
+                messages.append({
+                    "from": sender,
+                    "to": msg.get("to", "??"),
+                    "channel": msg.get("channel", "public"),
+                    "message": msg.get("message", msg.get("content", "")),
+                })
+        return messages
+
     @staticmethod
     def _build_country(code: str, cfg: dict, backend: LLMBackend) -> Country | _CountryStub:
         """Build a Country with real Faction agents from a country config dict.
@@ -688,6 +813,7 @@ class Game:
         state.game_time = initial.get("game_time", "Day 1, 00:00")
 
         # Dicts
+        state.nuclear_posture = initial.get("nuclear_posture", {})
         state.military_alerts = initial.get("military_alerts", {})
         state.markets = initial.get("markets", {
             "oil_price": 95.0,
