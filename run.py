@@ -265,7 +265,9 @@ def build_game_config(
     # Remove keys not accepted by backend constructors
     # (temperature is handled per-request, not at constructor level)
     backend_settings.pop("temperature", None)
-    # Note: base_url IS used by OllamaBackend constructor -- do not pop it
+    # base_url: Ollama uses it, DeepSeek does not (URL is hardcoded in the backend)
+    if backend_name != "ollama":
+        backend_settings.pop("base_url", None)
 
     # Add the backend name
     backend_settings["name"] = backend_name
