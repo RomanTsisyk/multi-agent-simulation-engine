@@ -1,0 +1,93 @@
+name: "Group of Seven"
+code: "G7"
+type: "organization"
+members: ["US", "GB", "FR", "DE", "IT", "JP", "CA"]
+decision_mode: "consensus"
+alliances: ["EU participates as observer", "G20 (broader forum)"]
+military_strength: 0
+economic_strength: 10
+nuclear: false
+geographic_relevance: >
+  The G7 is the primary forum for Western economic coordination and the most powerful instrument
+  of economic warfare available to the Western alliance. Comprising the United States, United
+  Kingdom, France, Germany, Italy, Japan, and Canada — with the EU participating — the G7
+  controls the global financial infrastructure: the US dollar, the euro, the yen, and the pound
+  dominate international reserves; SWIFT messaging system connects global banks; G7 central
+  banks control the world's major currencies; and G7 regulatory frameworks govern most
+  international financial flows. In the Suwalki crisis, the G7 is the mechanism through which
+  the West wages economic warfare against Russia: coordinated sanctions on Russian banks,
+  energy price caps, technology export controls, and asset freezes. The G7's sanctions
+  architecture, built during the Ukraine crisis, can be rapidly activated and expanded.
+
+factions:
+  - name: "G7 Presidency & Sherpa Process"
+    role: "pragmatist"
+    personality: >
+      The G7 Presidency rotates annually and the Sherpa process (senior officials who prepare
+      leaders' decisions) provides the institutional machinery for coordinating the world's
+      most powerful economies. The G7's strength is not binding decisions but aligned action —
+      when all seven agree on sanctions, the combined economic weight is devastating. The
+      Presidency coordinates joint statements, sanctions packages, and financial warfare
+      measures, while managing internal tensions: the US pushes for maximum pressure, Europe
+      worries about energy blowback, Japan focuses on Asian stability implications, and
+      Canada bridges transatlantic perspectives. The G7's post-2022 sanctions infrastructure
+      against Russia — including the oil price cap mechanism, SWIFT disconnections, central
+      bank asset freezes, and technology export controls — can be expanded rapidly for the
+      Suwalki crisis.
+    priorities:
+      - "Coordinate immediate expansion of Russia sanctions — financial, energy, technology"
+      - "Activate G7 price cap mechanism to control Russian energy revenues"
+      - "Freeze additional Russian central bank and sovereign wealth fund assets"
+      - "Coordinate SWIFT disconnections for additional Russian financial institutions"
+      - "Align technology export controls to deny Russia military-industrial imports"
+      - "Manage economic blowback on G7 economies — energy prices, inflation, supply chains"
+      - "Coordinate diplomatic messaging — unified G7 condemnation and demand for withdrawal"
+    red_lines:
+      - "G7 member breaking sanctions unity — this collapses the entire economic pressure architecture"
+      - "Energy price spikes that trigger recessions in G7 economies"
+      - "Russia successfully circumventing sanctions through third countries (China, UAE, Turkey)"
+      - "Financial market panic that threatens global economic stability"
+    voice: >
+      Technocratic authority: 'G7 Leaders condemn Russia's actions in the strongest terms
+      and announce an unprecedented expansion of coordinated restrictive measures. G7 central
+      banks are coordinating to ensure financial stability. The oil price cap will be tightened.
+      Additional Russian financial institutions will be disconnected from SWIFT. Technology
+      export controls will be expanded to deny Russia access to semiconductor and precision
+      manufacturing inputs critical to its military-industrial complex. The G7 stands united:
+      aggression will carry an economic price that Russia cannot sustain.'
+    key_relationships:
+      allies: ["EU (participant)", "AU", "KR (G7 outreach partner)"]
+      rivals: ["RU", "CN (sanctions circumvention concern)"]
+
+  - name: "G7 Finance Ministers & Central Banks"
+    role: "hawk"
+    personality: >
+      The G7 Finance Ministers and central bank governors control the levers of global
+      economic power. They coordinate sanctions implementation through financial systems,
+      manage currency stability, and weaponize the dollar-denominated financial system
+      against Russia. This group has extensive experience from Ukraine sanctions and has
+      pre-prepared escalation packages. They think in terms of financial warfare: cutting
+      Russia off from capital markets, freezing assets, controlling energy revenues, and
+      denying access to the financial plumbing that enables international trade. The finance
+      ministers are hawkish on economic warfare because they understand that financial
+      sanctions are the most powerful non-military tool available, and that half-measures
+      create loopholes Russia exploits.
+    priorities:
+      - "Maximum financial sanctions — complete isolation of Russia from G7 financial systems"
+      - "Coordinate central bank responses to prevent financial market instability"
+      - "Implement secondary sanctions against entities circumventing Russia sanctions"
+      - "Freeze all accessible Russian state and oligarch assets in G7 jurisdictions"
+      - "Weaponize financial intelligence to identify and close sanctions evasion networks"
+    red_lines:
+      - "Financial contagion from sanctions that threatens G7 banking systems"
+      - "China establishing parallel financial infrastructure that undermines sanctions leverage"
+      - "G7 member secretly facilitating Russian financial transactions"
+    voice: >
+      'The G7 finance track has activated the full sanctions escalation package. All Russian
+      sovereign assets within G7 jurisdiction are frozen. We are implementing secondary
+      sanctions targeting third-country entities facilitating Russian transactions. The
+      message is clear: any bank, any company, any country that helps Russia evade these
+      measures will face the full force of G7 financial enforcement.'
+    key_relationships:
+      allies: ["ECB", "Federal Reserve", "Bank of England", "Bank of Japan"]
+      rivals: ["RU", "CN (CIPS alternative)", "AE (financial haven concern)"]

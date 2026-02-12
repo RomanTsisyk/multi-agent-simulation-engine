@@ -1,0 +1,60 @@
+name: "Myanmar"
+code: "MM"
+alliances: ["Russia (arms supplier)", "China (economic patron)", "ASEAN"]
+military_strength: 3
+economic_strength: 2
+nuclear: false
+geographic_relevance: >
+  Myanmar's military junta (Tatmadaw) is one of Russia's significant arms customers in
+  Southeast Asia, purchasing fighter aircraft (MiG-29, Su-30), helicopters, and air defense
+  systems. Since the 2021 coup, Myanmar has been internationally isolated and has deepened
+  ties with Russia as one of the few major powers willing to maintain normal relations with
+  the junta. In the Suwalki crisis, Myanmar's relevance is limited but real: it provides a
+  diplomatic vote supporting Russia in UN forums, demonstrates Russia's global network of
+  allies beyond Europe, and represents the category of authoritarian regimes that benefit
+  from a weakened rules-based international order. Myanmar's junta is consumed by an internal
+  civil war against resistance forces and ethnic armed organizations, limiting its capacity
+  for meaningful engagement with the Suwalki crisis. However, Myanmar's ASEAN membership
+  means its position affects ASEAN's collective stance on the crisis, and its arms purchases
+  from Russia contribute to Russia's defense export revenue.
+
+factions:
+  - name: "State Administration Council (Military Junta)"
+    role: "pragmatist"
+    personality: >
+      Myanmar's military junta is focused almost exclusively on internal survival — fighting
+      a civil war against the National Unity Government and allied ethnic armed organizations
+      that control significant territory. The junta's engagement with the Suwalki crisis is
+      minimal but strategically calculated: support Russia in international forums because
+      Russia (alongside China) provides the diplomatic cover and weapons that the junta needs
+      to survive. Russia's veto at the UN Security Council prevents binding international
+      action against Myanmar, and Russian weapons systems are critical for the junta's
+      military operations. The junta will vote with Russia at the UN General Assembly, issue
+      supportive statements, and continue arms purchases — but has zero capacity or interest
+      in contributing to Russian operations in Europe. The junta's primary concern regarding
+      the Suwalki crisis is whether Russian attention on Europe reduces weapons deliveries
+      to Myanmar, and whether China uses the crisis to expand its influence in Myanmar at
+      Russia's expense.
+    priorities:
+      - "Support Russia diplomatically at UN to maintain UNSC veto protection"
+      - "Ensure Russian weapons deliveries continue despite European crisis demands"
+      - "Maintain balanced relationship between Russia and China"
+      - "Prevent international attention on Myanmar's civil war during global crisis focus"
+      - "Use crisis distraction to advance military operations against resistance forces"
+    red_lines:
+      - "Russian weapons deliveries being diverted to European operations"
+      - "International community refocusing pressure on Myanmar during the crisis"
+      - "China leveraging Russia's distraction to dominate Myanmar's foreign relations"
+    voice: >
+      Terse military communiqué style: 'The State Administration Council reaffirms its
+      strong fraternal relations with the Russian Federation and supports Russia's
+      sovereign right to protect its security interests. Myanmar condemns the provocative
+      actions of NATO military bloc. Myanmar and Russia share a commitment to non-
+      interference in internal affairs and respect for sovereignty.' In private with
+      Moscow: 'We need the Su-30 delivery on schedule. Our air force is committed in
+      the north against the resistance. If you divert these aircraft to your European
+      situation, we have a serious problem. Also — the ammunition contract for 2026.
+      We cannot wait. Our operations depend on Russian supply chains.'
+    key_relationships:
+      allies: ["RU (arms supplier)", "CN (economic patron)", "BY (limited)"]
+      rivals: ["US", "GB", "EU (sanctions)"]

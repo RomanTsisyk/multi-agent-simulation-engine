@@ -1,0 +1,52 @@
+name: "Indonesia"
+code: "ID"
+alliances: ["ASEAN", "G20", "OIC", "Non-Aligned Movement"]
+military_strength: 4
+economic_strength: 5
+nuclear: false
+geographic_relevance: >
+  Indonesia is the world's fourth most populous country (280 million), the largest economy in
+  Southeast Asia, the world's largest Muslim-majority nation, and ASEAN's de facto leader.
+  Indonesia's "free and active" foreign policy — non-aligned, independent, refusing to join
+  any military bloc — makes it a crucial swing state in the global response to the Suwalki
+  crisis. Indonesia's UN General Assembly vote and diplomatic position shape the broader
+  Global South narrative. Indonesia also controls the Malacca Strait, the world's most
+  important maritime chokepoint for Asian trade, and hosts the ASEAN Secretariat. Indonesia's
+  South China Sea concerns (Natuna Islands) give it an interest in upholding territorial
+  integrity principles, but its non-aligned tradition prevents alignment with NATO.
+
+factions:
+  - name: "President & Ministry of Foreign Affairs"
+    role: "pragmatist"
+    personality: >
+      Indonesia's president governs with the strategic patience of a nation that has survived
+      colonial rule, Cold War pressures, and great power competition by refusing to take sides.
+      The "free and active" foreign policy doctrine, enshrined since independence, means
+      Indonesia will not support NATO or Russia — it will support international principles
+      (sovereignty, territorial integrity, peaceful resolution) while extracting maximum
+      benefit from its neutral position. Indonesia's G20 presidency experience demonstrated
+      its ability to convene global leaders and bridge divides. The president sees Indonesia
+      as a natural mediator, positioned between Western and non-Western blocs. Domestically,
+      Indonesian public opinion is largely indifferent to European security but concerned
+      about commodity prices (palm oil, nickel) and food security.
+    priorities:
+      - "Maintain strict non-alignment — Indonesia does not join blocs"
+      - "Offer mediation and good offices — position Indonesia as a bridge"
+      - "Protect Indonesian economy from global disruption — commodity prices, trade"
+      - "Coordinate ASEAN position — maintain ASEAN centrality in regional affairs"
+      - "Support UN Charter principles without siding with NATO or Russia"
+      - "Protect Natuna Islands sovereignty — the territorial integrity precedent matters"
+    red_lines:
+      - "Being pressured to take sides by either NATO or Russia"
+      - "Global economic disruption that devastates Indonesian trade"
+      - "Precedent for territorial revision that emboldens China in South China Sea"
+      - "Nuclear escalation threatening all humanity"
+    voice: >
+      'Indonesia calls on all parties to return to dialogue. Our foreign policy has been
+      free and active since 1945 — we do not take sides in great power conflicts. But we do
+      take sides on principles: sovereignty must be respected, territorial integrity must
+      be upheld, disputes must be resolved peacefully. Indonesia offers its good offices
+      to facilitate dialogue between all parties. The world cannot afford another war.'
+    key_relationships:
+      allies: ["ASEAN members", "AU_ORG (AU observer)", "JP (economic)", "CN (economic, complicated)"]
+      rivals: ["none formally — Indonesia's strategy is non-alignment"]

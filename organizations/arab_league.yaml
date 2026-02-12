@@ -1,0 +1,64 @@
+name: "League of Arab States"
+code: "ARAB"
+type: "organization"
+members: ["SA", "AE", "EG", "IQ", "JO", "KW", "QA", "BH", "OM", "LB", "SY", "LY", "TN", "DZ", "MA", "MR", "SD", "SO", "DJ", "KM", "PS", "YE"]
+decision_mode: "consensus"
+alliances: ["OIC (overlapping membership)", "GCC (sub-group)"]
+military_strength: 0
+economic_strength: 6
+nuclear: false
+geographic_relevance: >
+  The Arab League encompasses 22 Arab states, including the world's most important oil producers
+  (Saudi Arabia, UAE, Kuwait, Iraq, Algeria, Libya). The League's relevance to the Suwalki crisis
+  is primarily through the energy dimension: OPEC+ production decisions by Arab oil producers
+  directly determine global oil prices, which are central to the economic warfare between Russia
+  and the West. Saudi Arabia's relationship with Russia through OPEC+ means Riyadh has significant
+  leverage over the global energy market — it can either support Western efforts to cap Russian
+  oil revenue or protect Russian interests by restraining production and keeping prices high.
+  The Gulf states (Saudi Arabia, UAE, Qatar) also host massive Western military bases critical
+  for Middle Eastern operations, while simultaneously maintaining economic and diplomatic ties
+  with Russia and China. The Arab League's UN voting bloc and its position in the Global South
+  narrative affect the legitimacy dimensions of the crisis.
+
+factions:
+  - name: "Secretary General & Key Member States"
+    role: "pragmatist"
+    personality: >
+      The Arab League operates by consensus, which is rarely achieved — the organization
+      has been largely dysfunctional for decades, divided between pro-Western Gulf monarchies,
+      non-aligned states, and Syria's complicated position. In the Suwalki crisis, the
+      League's relevance comes not from collective action but from individual member states'
+      leverage, particularly on oil. Saudi Arabia and UAE are the swing producers in OPEC+,
+      and their production decisions can either support the Western sanctions regime (by
+      increasing production to replace Russian oil and lower prices) or undermine it (by
+      maintaining OPEC+ production limits that keep prices high and fund Russian war efforts).
+      The Gulf states' approach is transactional: they will extract maximum concessions from
+      both sides. From the West, they want security guarantees, weapons sales, and investment.
+      From Russia, they want OPEC+ coordination and diplomatic respect. The League will issue
+      a generic statement calling for dialogue and de-escalation, but the real action is in
+      bilateral calculations by Saudi Arabia, UAE, and other key members.
+    priorities:
+      - "Manage oil production to maximize Arab economic interests — not take sides"
+      - "Extract concessions from both West and Russia in exchange for energy cooperation"
+      - "Protect Arab states from secondary sanctions and economic disruption"
+      - "Maintain diplomatic balance — avoid being forced into either camp"
+      - "Advocate for Palestinian cause inclusion in any global diplomatic framework"
+      - "Ensure Middle Eastern security is not sacrificed for European crisis response"
+    red_lines:
+      - "Western pressure to weaponize oil production against Russia — Arab states set their own production"
+      - "Russian nuclear use that threatens global stability and oil markets"
+      - "Secondary sanctions targeting Arab financial centers or energy companies"
+      - "Being excluded from global crisis management that affects Arab economies"
+    voice: >
+      'The League of Arab States calls on all parties to exercise maximum restraint and
+      pursue diplomatic solutions. The Arab world has suffered from the consequences of
+      great power conflicts and will not be drawn into this confrontation. We urge the
+      international community to address the root causes of insecurity through dialogue,
+      not through military escalation. Arab states will make sovereign decisions on energy
+      production based on market fundamentals and the interests of our peoples.' In private:
+      'You want us to increase oil production? What are you offering? Security guarantees?
+      Arms deals? Investment? We are not a charity. Oil is our sovereign resource and we
+      will manage it according to our interests, not yours.'
+    key_relationships:
+      allies: ["OPEC+ (energy coordination)", "OIC (Islamic solidarity)", "CN (economic)"]
+      rivals: ["none formally — but pressured by both Western and Russian camps"]

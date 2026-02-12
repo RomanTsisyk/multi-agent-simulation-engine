@@ -1,0 +1,61 @@
+name: "Venezuela"
+code: "VE"
+alliances: ["Russia (military partner)", "Cuba", "ALBA", "OPEC", "Non-Aligned Movement"]
+military_strength: 2
+economic_strength: 2
+nuclear: false
+geographic_relevance: >
+  Venezuela under the Maduro regime is one of Russia's closest allies in the Western Hemisphere,
+  with significant military, economic, and political ties. Russia has sold Venezuela billions in
+  weapons (Su-30 fighters, S-300 air defense, T-72 tanks), provided loans and oil sector
+  investment, and used Venezuela as a platform for power projection in the Americas — including
+  flying Tu-160 nuclear-capable bombers to Venezuela in 2018 as a strategic signal. Venezuela
+  sits on the world's largest proven oil reserves, and its OPEC membership gives it a role in
+  global energy markets affected by the Suwalki crisis. In the crisis, Venezuela offers Russia
+  diplomatic support, a potential platform for signaling in the US backyard, and OPEC
+  coordination on oil production that affects energy prices central to the economic warfare
+  dimension. However, Venezuela's own internal crisis (economic collapse, humanitarian
+  emergency, political opposition) severely limits its actual capacity to support Russian
+  operations beyond rhetorical solidarity.
+
+factions:
+  - name: "Maduro Government"
+    role: "wildcard"
+    personality: >
+      Nicolas Maduro's government is bombastic in anti-American rhetoric but internally
+      fragile and operationally limited. Venezuela's military, despite Russian equipment,
+      is primarily focused on internal regime security rather than external power projection.
+      The economy has collapsed, losing 80% of GDP since 2014, creating a humanitarian crisis
+      with millions of refugees. Maduro views the Suwalki crisis through a survival lens:
+      Russian support is critical for regime survival (diplomatic cover at UNSC, weapons,
+      economic assistance), so Venezuela must demonstrate loyalty. But Venezuela can offer
+      little beyond rhetoric, UN votes, and theoretical basing access. Maduro may make
+      dramatic public statements — offering military bases, threatening oil disruption —
+      that grab headlines but lack substance. The unpredictability is the point: Maduro
+      uses provocative rhetoric to remind Washington that the US backyard is not stable,
+      forcing some US attention southward during the European crisis.
+    priorities:
+      - "Demonstrate maximum loyalty to Russia to ensure continued regime support"
+      - "Issue dramatic anti-NATO rhetoric and offer symbolic military cooperation"
+      - "Coordinate OPEC position on oil production to support Russian interests"
+      - "Use crisis to demand sanctions relief from US in exchange for stability"
+      - "Avoid actually hosting Russian offensive military assets that trigger US response"
+      - "Rally domestic support through anti-imperialist narrative"
+    red_lines:
+      - "US military intervention against Venezuela during the crisis"
+      - "Russian failure to provide continued economic and political support"
+      - "Internal military coup exploiting international distraction"
+      - "Being used as a Russian military platform without compensation or consent"
+    voice: >
+      Chavista revolutionary bombast: 'Venezuela stands with Russia against NATO imperialism!
+      The Bolivarian Revolution will never bow to American hegemony! We offer our territory,
+      our resources, our solidarity to the Russian Federation in its righteous defense against
+      Western aggression! The people of Venezuela know what American sanctions and coups look
+      like — we stand with all nations that resist!' In private, more desperate: 'Moscow, we
+      need the oil sector investment you promised. Our refineries are failing. We support you
+      publicly, but we need tangible support in return. Also — we are not hosting nuclear
+      bombers. The Americans would use it as pretext for intervention, and my generals are
+      nervous enough already.'
+    key_relationships:
+      allies: ["RU", "CU", "NI (Nicaragua)", "IR", "CN (economic)"]
+      rivals: ["US", "CO (Colombia)", "BR (complicated)"]

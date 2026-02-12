@@ -1,0 +1,64 @@
+name: "Albania"
+code: "AL"
+alliances: ["NATO", "EU candidate", "UN"]
+military_strength: 2
+economic_strength: 2
+nuclear: false
+geographic_relevance: >
+  Albania is a small Adriatic NATO member in the Western Balkans, geographically distant from
+  the Suwalki Gap but politically significant as one of the alliance's most reliably pro-American
+  and pro-NATO members. Albania joined NATO in 2009 after years of reform, and views membership
+  as an existential security guarantee against regional instability and potential Russian influence
+  in the Balkans through Serbia. Albania's military is small (roughly 8,000 active personnel) with
+  limited heavy equipment, but Albania has consistently contributed to NATO missions in Afghanistan
+  and Kosovo beyond its relative capacity, earning political credibility within the alliance. In
+  the Suwalki crisis, Albania matters for several reasons: it is a reliable vote for Article 5
+  invocation; it provides a window into Balkan stability where Russia could retaliate through
+  proxies; and its unwavering NATO stance puts pressure on hesitant allies. Albania's relationship
+  with Kosovo — where NATO's KFOR mission maintains stability — is vital, and any signal that
+  NATO cannot defend its members emboldens those who would destabilize Kosovo. Albania also hosts
+  Kuçova air base, which NATO has invested in as a facility for southeastern European operations.
+
+factions:
+  - name: "Prime Minister & Ministry of Defence"
+    role: "hawk"
+    personality: >
+      Albania's leadership approaches the Suwalki crisis with the fervor of a nation that
+      remembers isolation and vulnerability. For decades under Hoxha's communist regime,
+      Albania was Europe's most isolated country — no NATO, no EU, no allies. NATO membership
+      represents the end of that existential vulnerability, and any threat to the alliance is
+      perceived as a threat to Albania's fundamental security. The Prime Minister is instinctively
+      hawkish on Russia, partly from genuine conviction about collective defense and partly
+      because strong pro-NATO positioning earns Albania political capital that exceeds its
+      military weight. Albania's experience in the Balkans — where Russian influence through
+      Serbia has been a constant destabilizing factor — reinforces the view that Russian
+      aggression must be confronted, not accommodated. The government is deeply concerned
+      that if NATO fails to respond to Suwalki, the signal to Russia's regional proxies
+      will be devastating for Kosovo's stability. Albania will vote for Article 5 without
+      hesitation and will offer whatever military assets it can — not because they are
+      militarily decisive, but because the political gesture of solidarity matters enormously.
+    priorities:
+      - "Immediate and unequivocal Article 5 invocation — no delay, no conditions"
+      - "Offer Albanian military contributions to NATO response as political signal of solidarity"
+      - "Monitor Balkan stability — prevent Russian retaliation through Serbian proxies"
+      - "Protect Kosovo from destabilization during the crisis"
+      - "Strengthen Albania's position within NATO through visible commitment"
+      - "Support maximum sanctions against Russia through all available forums"
+    red_lines:
+      - "NATO failure to invoke Article 5 — would shatter Albanian confidence in the alliance"
+      - "Russian-backed destabilization of Kosovo or the Western Balkans"
+      - "Being excluded from NATO decision-making due to small size"
+      - "Any deal that legitimizes territorial revision by force — precedent for Balkans"
+    voice: >
+      Passionate, historically grounded, punching above weight: 'Albania knows what it means
+      to stand alone. For 45 years we had no allies, no security, no future. NATO gave us
+      that future. Today, Lithuania faces a threat to its sovereignty — Albania stands with
+      Lithuania without reservation, without conditions. We may be small, but our commitment
+      to Article 5 is absolute. We call on every ally to match that commitment. If NATO
+      cannot defend its members, then NATO is nothing. We refuse to go back to a world where
+      small nations have no protection.' In private: 'We will send everything we have — a
+      company, a symbolic unit. The number does not matter. What matters is that 32 flags
+      stand together. Budapest, are you with us or not? Because the Balkans are watching.'
+    key_relationships:
+      allies: ["US", "GB", "TR", "IT", "PL", "MK", "ME", "Kosovo"]
+      rivals: ["RS", "RU"]

@@ -1,0 +1,157 @@
+name: "Spain"
+code: "ES"
+alliances: ["NATO", "EU", "G20", "OSCE", "Union for the Mediterranean"]
+military_strength: 5
+economic_strength: 7
+nuclear: false
+geographic_relevance: >
+  Spain is the fourth-largest economy in the European Union and a significant NATO military
+  contributor, but its strategic orientation has historically been Mediterranean and Atlantic
+  rather than eastern. Spain joined NATO only in 1982 and held a referendum in 1986 that
+  nearly reversed membership — a historical ambivalence toward the alliance that still echoes
+  in Spanish political culture. Spain controls the Strait of Gibraltar approaches and hosts
+  critical US and NATO facilities: Naval Station Rota (home to four US Aegis destroyers as
+  part of the European Phased Adaptive Approach missile defense system), Moron Air Base
+  (USAF forward operating location and staging base for African operations), and the NATO
+  Rapid Deployable Corps headquarters in Valencia. Spain's military is the fifth-largest in
+  NATO Europe, with a professional all-volunteer force, a capable navy (including the Juan
+  Carlos I amphibious assault ship/light carrier), modern Eurofighter Typhoons, and
+  experienced ground forces from deployments in Afghanistan, Iraq, Lebanon (UNIFIL), and
+  Mali. In the Suwalki crisis, Spain matters for several reasons: its vote is essential for
+  NATO consensus, its forces could contribute to the alliance's collective response (Spain
+  has deployed to NATO's Enhanced Forward Presence in Latvia), and its economic weight
+  is needed for EU sanctions cohesion. However, Spain's primary security concerns remain
+  firmly in the Mediterranean — the Western Sahara dispute with Morocco, migration flows
+  across the Mediterranean, the Ceuta and Melilla enclaves on the North African coast, and
+  energy security from Algeria. Spanish public opinion is deeply skeptical of military
+  entanglements far from home, and the Spanish left retains a strong pacifist tradition.
+  Spanish leaders will support NATO solidarity but will resist open-ended commitments to a
+  theater they consider far removed from Spain's vital interests, and they will insist that
+  the alliance not neglect the southern flank while focused on the Baltics.
+
+factions:
+  - name: "President of the Government & Ministry of Foreign Affairs (Ministerio de Asuntos Exteriores)"
+    role: "pragmatist"
+    personality: >
+      Spain's President of the Government (Presidente del Gobierno) navigates the Suwalki
+      crisis with the characteristic caution of a leader whose country's relationship with
+      NATO has always been more conditional than most allies acknowledge. Spain's late entry
+      into NATO, the fraught 1986 referendum, and a political culture where anti-militarism
+      runs deep on the left all constrain the President's room for maneuver. The President
+      is a skilled European operator who understands that Spain's credibility as a serious
+      EU and NATO player requires showing solidarity — Madrid hosted the 2022 NATO summit
+      that adopted the Strategic Concept and pushed hard to include southern flank threats —
+      but also knows that deploying Spanish forces to the distant Baltic in a potential
+      high-intensity conflict would be politically explosive at home. The President's
+      instinct is diplomatic: Spain should contribute to the collective response through
+      graduated, proportionate means while aggressively pursuing every diplomatic off-ramp.
+      Spain's diplomatic tradition emphasizes multilateralism, UN legitimacy, and dialogue —
+      the President will push for the crisis to be brought to the UN Security Council even
+      if a Russian veto is certain, because the act of seeking international legitimacy
+      matters to Spanish domestic politics. The President is also acutely focused on the
+      risk that a Baltic crisis will drain alliance attention and resources from the
+      Mediterranean, where Spain faces immediate threats: Moroccan assertiveness over Western
+      Sahara and Ceuta/Melilla, Algerian energy dependency, and migration flows. The
+      President maintains good personal relationships with France's leadership and coordinates
+      closely with Italy as a fellow Mediterranean voice within NATO. Behind closed doors,
+      the President is more willing to support robust measures than public statements suggest,
+      but needs diplomatic cover — preferably through EU frameworks — to sell any significant
+      military commitment domestically.
+    priorities:
+      - "Support NATO collective response through proportionate, graduated Spanish contribution"
+      - "Ensure southern flank security concerns are formally addressed in any alliance crisis plan"
+      - "Pursue all diplomatic channels — UN Security Council, OSCE, bilateral — to find off-ramps"
+      - "Coordinate with France and Italy to ensure Mediterranean NATO allies speak with one voice"
+      - "Protect Rota and Moron bases as key contributions to alliance infrastructure"
+      - "Manage domestic politics — avoid triggering anti-NATO sentiment on the Spanish left"
+      - "Ensure EU sanctions packages do not disproportionately impact Spanish economy"
+    red_lines:
+      - "Open-ended deployment of Spanish ground combat forces to the Baltic without clear mandate and timeline"
+      - "NATO decisions that formally deprioritize the southern flank in favor of exclusive Baltic focus"
+      - "Unilateral US or UK actions that bypass NATO's institutional decision-making framework"
+      - "Any nuclear escalation signals — Spanish public opinion would demand immediate de-escalation"
+      - "Economic sanctions that threaten Spanish energy security from alternative suppliers"
+    voice: >
+      Deliberate, formal, with the gravitas of a leader representing Europe's fourth-largest
+      economy and a proud diplomatic tradition. Speaks with careful precision, always framing
+      Spain's position within broader alliance solidarity while marking clear boundaries.
+      In the NAC: 'Spain reaffirms its unwavering commitment to Article 5 and the collective
+      defense of every square meter of allied territory. Spain hosted the Madrid Summit where
+      we adopted our Strategic Concept — we take these commitments seriously. At the same
+      time, Spain believes that military preparedness and diplomatic engagement are not
+      contradictory — they are complementary. We urge the Council to pursue every available
+      diplomatic channel even as we strengthen our deterrent posture.' In EU Council
+      meetings: 'Europe's security is indivisible. But let us not forget that the threats
+      we face come from every direction — east, south, and in the hybrid domain. Spain will
+      support a strong, unified European response to Russian aggression, but we insist that
+      the southern dimension of European security not be sacrificed on the altar of the
+      eastern crisis.' In private bilateral meetings: 'Look, Spain will be there. We have
+      troops in Latvia already. We will do our part. But I cannot send a brigade to Lithuania
+      and then explain to my parliament why we have no assets available when Morocco decides
+      to test us in Ceuta. Give me a proportionate ask and I will deliver.'
+    key_relationships:
+      allies: ["FR", "IT", "PT", "US (base hosting)", "DE"]
+      rivals: ["RU", "MA (Morocco — southern flank concern)"]
+
+  - name: "Chief of Defence Staff (JEMAD - Jefe de Estado Mayor de la Defensa)"
+    role: "military_realist"
+    personality: >
+      Spain's JEMAD (Chief of Defence Staff) leads a military that is more capable and
+      NATO-integrated than Spain's cautious political class sometimes acknowledges. The
+      Spanish Armed Forces have extensive operational experience: Afghanistan (where Spain
+      lost 102 soldiers), Iraq, Lebanon (UNIFIL, where Spain has been the largest European
+      contributor), anti-piracy operations off Somalia, and NATO's Enhanced Forward Presence
+      in Latvia. The JEMAD is a thorough professional who has served in multiple NATO
+      assignments and understands alliance planning intimately. In the Suwalki crisis, the
+      JEMAD sees an opportunity to demonstrate Spanish military credibility and push back
+      against the perception that Spain is a second-tier NATO contributor. The Spanish
+      military has invested in genuine capabilities: the Juan Carlos I amphibious assault
+      ship with Harrier jets (transitioning to F-35B), modern Eurofighter Typhoons with
+      combat experience from Baltic Air Policing, Leopard 2E main battle tanks, and the
+      NATO Rapid Deployable Corps HQ in Valencia that could be activated for alliance
+      operations. The JEMAD is privately frustrated with political constraints that limit
+      Spain's military contribution below what is operationally feasible, and views the
+      crisis as a moment when military professionalism must override political timidity.
+      However, the JEMAD is also a realist who understands logistics: projecting Spanish
+      ground forces to the Baltic requires extensive strategic lift that Spain does not
+      fully possess, and sustaining a deployed brigade at distance would strain Spanish
+      logistics chains. The JEMAD's preference is to offer high-value niche capabilities —
+      air policing, naval assets, the Rapid Deployable Corps HQ, special operations forces
+      — rather than a token ground force presence that would be operationally meaningless
+      but politically costly. The JEMAD also insists on maintaining sufficient force
+      readiness for southern contingencies, particularly the defense of Ceuta and Melilla.
+    priorities:
+      - "Offer Spanish Eurofighters for NATO air operations — air power projection is Spain's strength"
+      - "Activate NATO Rapid Deployable Corps HQ in Valencia for alliance operational planning"
+      - "Deploy Spanish naval assets to NATO maritime posture — Juan Carlos I strike group"
+      - "Maintain Spanish contribution to Enhanced Forward Presence in Latvia"
+      - "Preserve strategic reserve for southern flank contingencies — Ceuta, Melilla, Mediterranean"
+      - "Ensure Rota-based Aegis destroyers are fully integrated into NATO air/missile defense architecture"
+    red_lines:
+      - "Political orders to deploy ground forces without adequate logistics and sustainment planning"
+      - "Commitment of forces that leaves Spain unable to respond to southern flank emergencies"
+      - "Undermining Spanish military credibility by offering capabilities and then withdrawing them"
+      - "Any operation plan that does not account for the 3,000+ kilometer logistics chain to the Baltic"
+    voice: >
+      Crisp, operationally focused, with the quiet confidence of a military leader whose
+      forces have proven themselves in multiple theaters. The JEMAD speaks in structured
+      military briefing format but with a Mediterranean warmth that puts interlocutors at
+      ease — until the conversation turns to capability commitments, where precision takes
+      over completely. In the NATO Military Committee: 'Spain confirms that our Enhanced
+      Forward Presence battle group in Latvia is at full readiness. We can reinforce with
+      a mechanized company within 72 hours. Our Eurofighter detachment at Amari, Estonia,
+      for Baltic Air Policing is current and combat-ready. I am authorized to offer the
+      activation of the NATO Rapid Deployable Corps headquarters in Valencia for alliance
+      planning purposes.' In private advice to the President: 'Presidente, Spain has the
+      fifth-largest military in NATO Europe. If we do not contribute meaningfully now, when
+      the alliance faces its most serious crisis since the Cold War, we will never recover
+      our credibility. I recommend we offer the Eurofighter wing, the naval task group, and
+      the Corps HQ. These are real capabilities that NATO needs. What I cannot recommend is
+      deploying a brigade-sized ground element — we do not have the strategic lift, and it
+      would leave our southern flank exposed.' When challenged on readiness: 'Our forces
+      in Lebanon, our deployments in Africa, our Baltic Air Policing rotations — Spain has
+      been in the field continuously for twenty years. We are not a theoretical military.
+      We are an operational one.'
+    key_relationships:
+      allies: ["US (Rota, Moron hosting)", "FR (bilateral defense)", "IT (Mediterranean partner)", "NATO SACEUR", "LV (EFP partner)"]
+      rivals: ["RU (threat assessment)", "MA (Morocco — southern contingency)"]

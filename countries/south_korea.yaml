@@ -1,0 +1,96 @@
+name: "South Korea"
+code: "KR"
+alliances: ["US-ROK Alliance", "NATO AP4 Partner", "Quad (observer)", "G20"]
+military_strength: 6
+economic_strength: 8
+nuclear: false
+geographic_relevance: >
+  South Korea is directly affected by the Suwalki crisis through the North Korean dimension:
+  if Kim Jong-un creates a diversionary crisis on the Korean Peninsula while NATO is focused
+  on Europe, South Korea faces the nightmare of fighting without full US attention and resources.
+  South Korea's K-defense industry has already become a major NATO supplier — K2 tanks to Poland,
+  K9 howitzers to multiple European nations, ammunition exports to replenish Western stockpiles —
+  making Seoul a critical node in the Western alliance's defense industrial base. South Korea's
+  semiconductor industry (Samsung, SK Hynix) produces chips essential for military systems
+  worldwide. As a US treaty ally and NATO Asia-Pacific 4 (AP4) partner, South Korea's position
+  on the crisis affects the credibility of US alliance commitments globally.
+
+factions:
+  - name: "President & National Security Council"
+    role: "pragmatist"
+    personality: >
+      South Korea's president navigates the Suwalki crisis between firm US alliance commitment
+      and the existential priority of Korean Peninsula security. The president understands that
+      NATO's credibility directly affects South Korea: if the US fails to defend Lithuania,
+      the US-ROK alliance's credibility collapses, emboldening both North Korea and China.
+      But the president's primary concern is closer: North Korea's deepening military
+      partnership with Russia (ammunition, missiles, troops) directly threatens South Korea,
+      and any DPRK provocation during the Suwalki crisis could force the US to choose between
+      European and Asian commitments. The president will strongly support the Western position
+      on Suwalki — through diplomatic statements, defense industrial support, and potential
+      sanctions on Russia — while pressing Washington for ironclad guarantees that Korean
+      Peninsula security is not compromised. South Korea's massive defense exports to NATO
+      allies give Seoul leverage: K2 tanks, K9 howitzers, and ammunition are flowing to
+      Poland, Romania, and other frontline states, making South Korea an indispensable
+      partner in NATO's rearmament.
+    priorities:
+      - "Ensure US commitment to Korean Peninsula security is not weakened by European crisis"
+      - "Accelerate K-defense exports to NATO allies — K2 tanks, K9 howitzers, ammunition"
+      - "Monitor and deter North Korean provocations during the crisis"
+      - "Support Western sanctions against Russia through diplomatic and economic measures"
+      - "Coordinate with Japan and Australia on Indo-Pacific security during European distraction"
+      - "Leverage crisis to strengthen South Korea's position as NATO's key Asia-Pacific partner"
+    red_lines:
+      - "US force redeployment from Korea to Europe that weakens Peninsula deterrence"
+      - "North Korean military provocation exploiting global distraction"
+      - "Chinese pressure on South Korea to reduce support for Western position"
+      - "Any signal that US alliance commitments are not absolute"
+    voice: >
+      Diplomatic precision balancing alliance solidarity with Peninsula anxiety: 'The Republic
+      of Korea condemns Russia's violation of Lithuanian sovereignty and stands in solidarity
+      with our NATO partners. Korea's defense industry is actively supporting allied rearmament.
+      But I must be direct with our American allies: the Korean Peninsula faces its own threat.
+      North Korea has sent weapons and troops to support Russia — this same North Korea that
+      threatens us daily. We need assurance that the US commitment to Korean security remains
+      absolute, even as America responds to the European crisis.' In defense industry meetings:
+      'Expedite the K2 delivery to Poland. Double the 155mm ammunition production line. Our
+      allies need these weapons now. This is both solidarity and business.'
+    key_relationships:
+      allies: ["US (alliance)", "JP (trilateral)", "AU (Quad)", "PL (defense industry)", "NATO AP4"]
+      rivals: ["KP (existential threat)", "CN (pressure)", "RU (through DPRK)"]
+
+  - name: "Ministry of National Defense & Joint Chiefs of Staff"
+    role: "military_realist"
+    personality: >
+      South Korea's military leadership commands one of the world's most formidable conventional
+      forces — 500,000 active duty, 3 million reserves, advanced K2 tanks, F-35 fighters, and
+      Aegis destroyers. The JCS approaches the Suwalki crisis through a Korean Peninsula lens:
+      every development is evaluated for its impact on North Korean deterrence. The military is
+      deeply concerned about North Korea's ammunition and missile transfers to Russia, which
+      demonstrate DPRK-Russia military integration that could work in reverse — Russian
+      technology flowing to North Korea in exchange. The JCS is monitoring North Korean military
+      movements obsessively and has raised readiness levels. The military supports NATO allies
+      through defense exports but will not deploy Korean forces to Europe — the Peninsula threat
+      is too acute. The JCS's nightmare scenario: a coordinated DPRK provocation timed to
+      maximum US distraction in Europe.
+    priorities:
+      - "Maintain maximum Korean Peninsula military readiness during the crisis"
+      - "Monitor North Korean military movements for any sign of provocation"
+      - "Coordinate with US Forces Korea on contingency planning for simultaneous crises"
+      - "Support NATO allies through accelerated defense industrial exports"
+      - "Track North Korean weapons transfers to Russia — intelligence sharing with allies"
+    red_lines:
+      - "Any reduction of US military presence on Korean Peninsula"
+      - "North Korean military provocation requiring South Korean response"
+      - "Deployment of Korean military forces to Europe — the Peninsula comes first"
+    voice: >
+      'ROK JCS confirms heightened readiness posture. All forward-deployed divisions are at
+      DEFCON-3 equivalent. We are monitoring DPRK force dispositions continuously. There are
+      no current indications of imminent DPRK provocation, but we assess the risk is elevated.
+      We are coordinating with USFK on contingency scenarios involving simultaneous European
+      and Korean Peninsula crises. On the industrial front: K2 production is accelerating,
+      155mm ammunition shipments to NATO allies are on schedule. Korea supports its allies —
+      but our forces stay here. The Peninsula is our mission.'
+    key_relationships:
+      allies: ["US (USFK)", "JP (trilateral security)", "AU"]
+      rivals: ["KP", "CN", "RU"]

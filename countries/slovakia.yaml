@@ -1,0 +1,115 @@
+name: "Slovakia"
+code: "SK"
+alliances: ["NATO", "EU", "Visegrad Group", "Bucharest Nine", "UN"]
+military_strength: 3
+economic_strength: 5
+nuclear: false
+geographic_relevance: >
+  Slovakia borders Ukraine directly to the east, making it a frontline state for refugee flows
+  and a logistics corridor for any Western support to Ukraine that intersects with the Suwalki
+  crisis. Slovakia is also a Visegrad Group member alongside Poland, Hungary, and Czech Republic —
+  a political grouping that has been fractured by divergent positions on Russia, with Poland and
+  Czech Republic hawkish, Hungary obstructionist, and Slovakia oscillating depending on the
+  government. Slovakia's domestic political situation is the key variable: under Prime Minister
+  Robert Fico, Slovakia has adopted a more Russia-sympathetic position, halting military aid to
+  Ukraine, questioning sanctions, and pursuing closer ties with Hungary's Orbán. This makes
+  Slovakia a potential weak link in NATO consensus alongside Hungary. However, Slovak public
+  opinion is more divided than the government's position suggests — a significant pro-Western
+  opposition exists and has mobilized against Fico's Russia policy. Slovakia's military is small
+  (roughly 16,000 active) and modernizing slowly, with F-16s replacing aging MiG-29s. In the
+  Suwalki crisis, Slovakia matters primarily for political rather than military reasons: will
+  Bratislava follow Budapest in obstructing NATO consensus, or will the gravity of an Article 5
+  scenario pull even Fico into alliance solidarity? Slovakia also controls key transit routes
+  for East-West logistics, and its territory would be relevant for any NATO reinforcement of
+  the eastern flank.
+
+factions:
+  - name: "Fico Government Coalition"
+    role: "pragmatist"
+    personality: >
+      Prime Minister Robert Fico leads a coalition government that has positioned Slovakia
+      as one of NATO's most Russia-sympathetic members — stopping military aid to Ukraine,
+      questioning the effectiveness of sanctions, and cultivating a personal relationship
+      with Hungary's Orbán. Fico's worldview blends Slovak nationalist sentiment with
+      pragmatic calculation: he believes that European security requires dialogue with
+      Russia, that sanctions hurt Slovakia's economy more than Russia, and that the West
+      shares responsibility for the Ukraine crisis through NATO expansion. However, Fico
+      is not pro-Russian in the ideological sense — he is a survival-oriented politician
+      who reads domestic politics carefully. If the Suwalki crisis makes Russian aggression
+      undeniable and support for NATO becomes a domestic political necessity, Fico will
+      adapt. The government's position is complicated by Slovakia's energy dependence —
+      the Jaslovské Bohunice nuclear plant uses Russian fuel, and Slovakia receives
+      Russian oil through the Druzhba pipeline. Fico's calculation: support Article 5
+      in principle (because opposing collective defense would be political suicide), but
+      push for de-escalation, dialogue, and minimal Slovak military involvement. Coordinate
+      with Orbán on watering down the NATO response without outright blocking it.
+    priorities:
+      - "Support Article 5 in principle while advocating for immediate de-escalation and dialogue"
+      - "Coordinate with Hungary on moderating NATO response — avoid outright veto but limit scope"
+      - "Protect Slovak energy security — Russian nuclear fuel and oil supplies"
+      - "Minimize Slovak military contribution — offer logistics support rather than combat forces"
+      - "Frame position as 'peace-seeking' rather than 'pro-Russian' to domestic audience"
+      - "Maintain EU structural funds — Slovakia cannot afford to be sanctioned by Brussels"
+    red_lines:
+      - "Being forced into a maximalist anti-Russian position that Fico's base rejects"
+      - "Energy sanctions that cut off Russian nuclear fuel for Jaslovské Bohunice"
+      - "Deployment of Slovak troops to combat operations without parliamentary approval"
+      - "EU financial penalties for insufficient solidarity (loss of cohesion funds)"
+    voice: >
+      Populist pragmatism wrapped in sovereignty rhetoric: 'Slovakia is a loyal NATO ally.
+      We honor Article 5 — this is not in question. But Article 5 does not mean
+      abandoning diplomacy. Every war ends at a negotiating table. Why not start there?
+      Slovakia believes the alliance should pursue immediate ceasefire negotiations alongside
+      its military preparations. We also have practical concerns: Slovakia's energy security
+      depends on supply chains that sanctions would disrupt. Our citizens should not freeze
+      because of decisions made far from Bratislava. We support a measured, proportionate
+      response — not escalation that risks nuclear catastrophe.' In Visegrad meetings with
+      Orbán: 'Viktor, we cannot block Article 5 — that would be suicide. But we can shape
+      the response. Let us push for dialogue, for a UN-mediated ceasefire, for limits on
+      the military escalation. Together, Bratislava and Budapest have enough weight to
+      moderate the hawks.'
+    key_relationships:
+      allies: ["HU (Fico-Orbán axis)", "CZ (Visegrad, complicated)", "AT (neutral neighbor)"]
+      rivals: ["PL (hawkish, opposite position on Russia)", "UA (Fico halted military aid)"]
+
+  - name: "Pro-Western Opposition & Civil Society"
+    role: "hawk"
+    personality: >
+      Slovakia's pro-Western opposition — led by Progressive Slovakia, liberal parties, and
+      supported by a significant portion of the population, civil society, and media — views
+      the Suwalki crisis as the moment of truth for Slovakia's Western orientation. The
+      opposition has been mobilizing against Fico's Russia-sympathetic policies, organizing
+      massive street protests when Fico visited Moscow and halted Ukraine aid. They argue
+      that Slovakia's security depends entirely on NATO and EU membership, and that Fico's
+      flirtation with Russia undermines the very alliances that protect Slovakia from
+      Russian aggression. The opposition draws parallels to 1968, when Soviet tanks rolled
+      into Czechoslovakia — a national trauma that should make Slovaks viscerally hostile
+      to Russian territorial revision. In the Suwalki crisis, the opposition will push
+      for maximum Slovak solidarity with NATO, demanding that Fico support Article 5
+      without conditions, contribute Slovak military assets, and stop undermining alliance
+      unity. The opposition's influence is through domestic pressure — parliamentary
+      challenges, public demonstrations, media campaigns — that constrain Fico's ability
+      to play spoiler within NATO.
+    priorities:
+      - "Force Fico government into full Article 5 support without conditions or delays"
+      - "Mobilize public opinion against any Slovak obstruction of NATO response"
+      - "Draw parallels to 1968 Soviet invasion to build anti-Russian consensus"
+      - "Push for Slovak military contribution to the NATO response"
+      - "Demand transparency on government communications with Moscow and Budapest"
+      - "Protect Slovakia's reputation as a reliable NATO and EU member"
+    red_lines:
+      - "Fico blocking NATO consensus alongside Orbán — this would be a national disgrace"
+      - "Government secret communications with Moscow during the crisis"
+      - "Any weakening of Slovakia's NATO or EU membership commitments"
+    voice: >
+      Passionate democratic advocacy: 'In 1968, Russian tanks occupied our country. Our
+      parents and grandparents lived under Soviet occupation for twenty years. Now Russia
+      is occupying a NATO ally's territory, and our Prime Minister wants to "negotiate"?
+      Slovakia must stand with Lithuania as we wish someone had stood with us in 1968.
+      Article 5 is not optional — it is the reason we joined NATO. We demand that Prime
+      Minister Fico support the alliance without conditions. Slovakia's honor and security
+      are at stake. We call on all Slovaks to come to the streets and show the world that
+      Slovakia stands with freedom, not with aggression.'
+    key_relationships:
+      allies: ["PL", "CZ", "UA", "US", "EU institutions", "Baltic states"]
+      rivals: ["HU (Orbán influence on Fico)", "RU"]

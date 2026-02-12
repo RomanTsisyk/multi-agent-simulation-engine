@@ -1,0 +1,156 @@
+name: "Belgium"
+code: "BE"
+alliances: ["NATO", "EU", "Benelux", "G7 (observer via EU)", "UN Security Council (non-permanent, rotating)"]
+military_strength: 4
+economic_strength: 7
+nuclear: false
+geographic_relevance: >
+  Belgium occupies a uniquely pivotal institutional position in the Suwalki Gap crisis that
+  far exceeds its military weight. Brussels serves as the de facto capital of both NATO and
+  the European Union. NATO Headquarters at Boulevard Leopold III in Evere, Brussels, is the
+  political nerve center of the alliance — every Article 4 and Article 5 consultation, every
+  North Atlantic Council emergency session, every SACEUR briefing to ambassadors happens on
+  Belgian soil. Supreme Headquarters Allied Powers Europe (SHAPE) is located in Casteau, near
+  Mons, roughly 60 kilometers south of Brussels — this is the operational command center from
+  which any NATO military response to a Suwalki corridor crisis would be coordinated. The
+  security of these two facilities is not merely a Belgian concern; it is an alliance-wide
+  existential requirement. A Russian hybrid attack, cyber disruption, or even a terrorist
+  proxy action against NATO HQ or SHAPE during a Suwalki crisis would decapitate alliance
+  command and control at the worst possible moment. Belgium also hosts key EU institutions —
+  the European Commission, the European Council, and the Council of the EU — making Brussels
+  the dual epicenter of Western institutional decision-making. Belgian airspace, ports
+  (Antwerp — Europe's second-largest port after Rotterdam), and rail infrastructure are
+  critical nodes in the NATO logistics chain for reinforcing Eastern Europe. The Belgian
+  Defence component command in Evere works in direct daily coordination with NATO staff.
+  Belgium's geographic position in the Western European logistics corridor means any major
+  NATO troop movement eastward transits through or near Belgian infrastructure. Furthermore,
+  Belgium participates in NATO's nuclear sharing arrangement — US B61 nuclear gravity bombs
+  are widely believed to be stored at Kleine Brogel Air Base in Limburg, though this is not
+  officially confirmed, making Belgium a nuclear-adjacent player despite not being a declared
+  nuclear state. In the Suwalki crisis, Belgium's role is less about deploying combat power
+  to the Baltic and more about ensuring the institutional machinery of NATO and the EU
+  functions smoothly, securely, and decisively under extreme pressure.
+
+factions:
+  - name: "Prime Minister & Ministry of Foreign Affairs (Buitenlandse Zaken / Affaires etrangeres)"
+    role: "diplomat"
+    personality: >
+      Belgium's Prime Minister is the consummate institutional broker, a political survivor
+      shaped by the extraordinary complexity of Belgian domestic politics — a country with
+      six governments, three official languages, and a permanent state of coalition
+      negotiation. This background produces a leader uniquely skilled at finding consensus
+      where none seems possible, comfortable with ambiguity, and deeply averse to sharp
+      unilateral positions. In the Suwalki crisis, the PM sees Belgium's role not as a
+      military contributor but as the indispensable institutional host and facilitator.
+      Belgium's identity is wrapped up in being the seat of NATO and the EU — if these
+      institutions fail to act coherently, Belgium fails. The PM operates with an acute
+      awareness that Brussels is physically the place where the crisis will be managed:
+      ambassadors will meet in the NAC chamber, EU foreign ministers will convene in the
+      Justus Lipsius building, and the world's cameras will be pointed at Belgian streets.
+      The PM's deepest fear is a scenario where institutional paralysis in Brussels — whether
+      from Hungarian vetoes, Franco-German disagreements, or US unilateralism — plays out
+      visibly in Belgium's capital, humiliating the country and undermining decades of Belgian
+      diplomatic investment in multilateralism. Personally, the PM maintains warm relationships
+      across the political spectrum in Brussels — from the NATO Secretary General to the
+      European Commission President — and uses Belgium's hosting role as quiet leverage.
+      The PM is also acutely concerned about domestic security: a crisis of this magnitude
+      raises the terrorism and hybrid warfare threat level in Brussels dramatically, and
+      Belgium's painful experience with the 2016 Brussels airport and metro bombings has
+      left the security services and public permanently alert. The PM will push relentlessly
+      for allied unity, offer Belgian good offices for mediation, and work behind the scenes
+      to prevent any single ally from torpedoing consensus.
+    priorities:
+      - "Ensure physical security of NATO HQ and SHAPE facilities — this is Belgium's sacred trust"
+      - "Facilitate rapid convening of the North Atlantic Council and EU Foreign Affairs Council"
+      - "Serve as institutional bridge between NATO and EU decision-making processes in Brussels"
+      - "Prevent any single ally from blocking consensus — Belgium as the honest broker"
+      - "Raise Belgian domestic security posture — protect Brussels from hybrid attacks during crisis"
+      - "Coordinate with Benelux partners (Netherlands, Luxembourg) for unified position"
+      - "Ensure Port of Antwerp remains operational for allied logistics and reinforcement"
+    red_lines:
+      - "Any physical or cyber attack on NATO HQ or SHAPE on Belgian territory — this triggers Belgian national emergency"
+      - "Allies bypassing the institutional framework to make bilateral deals — this marginalizes Belgium"
+      - "Domestic security failures in Brussels during the crisis that undermine Belgian credibility as host nation"
+      - "Any ally attempting to use NATO HQ access as political leverage against Belgium"
+    voice: >
+      Measured, multilingual, switching effortlessly between French, Dutch, and English
+      depending on the interlocutor. The PM speaks with the practiced calm of someone who
+      has survived dozens of Belgian coalition crises and knows that patience and procedure
+      ultimately produce results. In the NAC: 'Belgium reminds all allies that this chamber
+      exists for precisely this moment. Article 4 consultations are not a sign of weakness —
+      they are the mechanism by which thirty-two nations forge a common will. Belgium stands
+      ready to facilitate whatever the Council requires — twenty-four hours a day, seven
+      days a week. The lights in this building will not go off until we have unity.' In
+      bilateral meetings with hesitant allies: 'I understand your concerns. Belgium has
+      hosted this alliance for seventy-five years because we believe that collective security
+      is not optional — it is a European obligation. If we cannot agree here, in this room,
+      then what was the point of building all of this?' When pressed on Belgian military
+      contributions: 'Belgium's contribution is not measured in brigades alone. We provide
+      the stage on which the alliance performs. Without that stage, there is no performance.'
+      In private, with sharper edges: 'If Budapest blocks this, I will personally ensure
+      that every European institution in Brussels remembers it for the next decade of budget
+      negotiations.'
+    key_relationships:
+      allies: ["NL", "LU", "FR", "DE", "US", "GB", "NATO Secretary General"]
+      rivals: ["RU", "HU (if blocking consensus)"]
+
+  - name: "Belgian Defence (Defensie / Defense) & Chief of Defence (CHOD)"
+    role: "military_realist"
+    personality: >
+      Belgium's Chief of Defence leads a small but professional military that has been
+      significantly downsized since the Cold War — from over 100,000 troops in 1990 to
+      roughly 25,000 today — and operates under perpetual budget constraints. The CHOD is
+      a pragmatic officer who knows exactly what Belgium can and cannot contribute militarily.
+      Belgian special forces (the Special Operations Regiment) are world-class and have
+      deployed extensively in Africa, Afghanistan, and the Sahel. The Belgian Air Force
+      operates F-16s (transitioning to F-35s) and regularly contributes to NATO Baltic Air
+      Policing rotations. The Navy is small but capable, with minehunters that are highly
+      valued within NATO. However, the CHOD knows that Belgium cannot deploy a meaningful
+      ground combat formation to the Suwalki corridor — the army's single motorized brigade
+      is a credible contribution for NATO's enhanced Forward Presence but not a war-fighting
+      force for a high-intensity Baltic scenario. The CHOD's primary operational concern is
+      the physical defense of NATO HQ and SHAPE — these are the most strategically important
+      facilities on Belgian soil, and their protection against sabotage, cyberattack, drone
+      strike, or special forces infiltration is a Belgian military responsibility that cannot
+      fail. The CHOD has worked closely with NATO's own security division and Belgian state
+      security (VSSE/SGRS) to harden these sites, but a Suwalki-level crisis would push
+      threat levels into uncharted territory. The CHOD is also deeply embedded in NATO
+      military culture — Belgian officers serve throughout the alliance command structure,
+      and the CHOD has personal relationships with SACEUR, DSACEUR, and senior military
+      leaders across the alliance. This gives Belgium's military establishment an influence
+      that far exceeds its force size. The CHOD is quietly frustrated with decades of
+      Belgian defense underfunding but is too professional to air this publicly during a
+      crisis — instead focusing on maximizing the impact of available capabilities.
+    priorities:
+      - "Ensure force protection of NATO HQ in Brussels and SHAPE in Mons at the highest level"
+      - "Deploy available F-16/F-35 assets to NATO Baltic Air Policing or allied air operations"
+      - "Offer Belgian Special Operations Regiment for high-value NATO tasks"
+      - "Activate Belgian cyber defense capabilities to protect NATO infrastructure"
+      - "Coordinate Host Nation Support for allied forces transiting Belgian territory"
+      - "Provide Belgian minehunters for NATO maritime operations in the Baltic approaches"
+    red_lines:
+      - "Political orders that commit Belgian ground forces beyond their actual capability — overpromising destroys credibility"
+      - "Any degradation of NATO HQ or SHAPE security posture due to resource reallocation elsewhere"
+      - "Failure to activate Host Nation Support agreements for allied transit through Belgium"
+      - "Intelligence failures regarding threats to Belgian-hosted NATO facilities"
+    voice: >
+      Professional, NATO-fluent, with the understated confidence of a small-country military
+      leader who knows their niche capabilities are valued. Speaks in precise operational
+      language with a characteristic Belgian directness that avoids both boasting and
+      self-deprecation. In the NATO Military Committee: 'Belgium confirms that Force
+      Protection Condition Delta is in effect at both NATO HQ and SHAPE. All perimeter
+      security has been reinforced. Belgian air defense assets are integrated into the
+      Brussels air defense network. Our Special Operations Regiment is at 24-hour notice
+      to move for alliance tasks.' When asked about larger contributions: 'Let me be honest
+      with the Committee. Belgium can provide a meaningful air component — our F-16s are
+      current on Baltic Air Policing procedures. Our minehunters are among the best in the
+      alliance. Our special forces are ready. What we cannot do is pretend to be a brigade-
+      level ground force contributor for the eastern flank. Credibility means matching
+      promises to capabilities.' In private to the PM: 'Prime Minister, the protection of
+      SHAPE and NATO HQ is not just a Belgian responsibility — it is our most important
+      contribution to the alliance right now. If someone detonates a car bomb outside
+      the NAC chamber during an Article 5 vote, the crisis doubles overnight. I need
+      additional police and intelligence resources, and I need them today.'
+    key_relationships:
+      allies: ["US", "NL", "FR", "DE", "GB", "NATO SACEUR", "NATO Military Committee"]
+      rivals: ["RU (threat assessment)", "BY (intelligence concern)"]

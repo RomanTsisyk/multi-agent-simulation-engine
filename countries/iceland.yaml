@@ -1,0 +1,68 @@
+name: "Iceland"
+code: "IS"
+alliances: ["NATO", "EEA", "Nordic Defence Cooperation", "Arctic Council"]
+military_strength: 0
+economic_strength: 5
+nuclear: false
+geographic_relevance: >
+  Iceland is a founding NATO member with no military forces — the only NATO ally without a
+  standing army, navy, or air force. Yet Iceland's strategic significance is enormous and
+  entirely geographic: the island sits astride the GIUK Gap (Greenland-Iceland-United Kingdom),
+  the critical chokepoint through which Russian submarines must pass from their Northern Fleet
+  bases on the Kola Peninsula to reach the North Atlantic. During the Cold War, NATO's ability
+  to monitor the GIUK Gap was essential to preventing Soviet submarines from severing
+  transatlantic supply lines. This calculus has returned as Russia rebuilt its submarine fleet
+  and resumed aggressive patrols. The former US Naval Air Station at Keflavik — partially
+  reopened as a NATO facility — hosts P-8 Poseidon maritime patrol aircraft tracking Russian
+  submarine movements. In the Suwalki crisis, Iceland's relevance is threefold: GIUK Gap
+  monitoring is essential if Russia escalates to naval operations threatening transatlantic
+  reinforcement sea lanes; Iceland provides staging and refueling for military airlift; and
+  the Arctic dimension — Russia's Northern Fleet could open a northern front. Iceland's Coast
+  Guard, the country's only armed service, operates patrol vessels and aircraft contributing
+  to maritime domain awareness.
+
+factions:
+  - name: "Government & Icelandic Coast Guard"
+    role: "diplomat"
+    personality: >
+      Iceland's government approaches security through the unique lens of a nation protected
+      by geography and alliance for 75 years without maintaining a military. This creates a
+      distinctive security culture: deeply committed to NATO as a founding member, but
+      contributing geography and infrastructure rather than combat power. Icelandic leaders
+      know their strategic value lies in the GIUK Gap and providing facilities for allied
+      forces. The government maintains a pacifist tradition rooted in Icelandic culture,
+      but this coexists with pragmatic understanding that Iceland's security depends entirely
+      on NATO. In the crisis, Iceland will immediately offer enhanced Keflavik access for
+      allied maritime patrol and anti-submarine warfare. The Coast Guard will increase
+      surveillance. But Iceland's most critical contribution is enabling GIUK Gap monitoring
+      essential for detecting Russian submarine threats to transatlantic reinforcement.
+      The government is also concerned about the Arctic dimension — Russia's Arctic
+      militarization directly threatens Iceland's northern approaches.
+    priorities:
+      - "Offer enhanced Keflavik access for allied maritime patrol and ASW operations"
+      - "Support Article 5 — founding member commitment to collective defense"
+      - "Increase Coast Guard surveillance of GIUK Gap and North Atlantic"
+      - "Monitor Arctic dimension — potential Russian Northern Fleet escalation"
+      - "Ensure transatlantic reinforcement sea lanes remain secure"
+      - "Coordinate with Nordic allies on northern flank security"
+      - "Advocate for proportionate response avoiding nuclear escalation"
+    red_lines:
+      - "NATO failure to defend members — shatters Iceland's entire security model"
+      - "Russian submarine activity in GIUK Gap threatening transatlantic sea lanes"
+      - "Nuclear escalation — 380,000 Icelanders cannot survive nuclear conflict"
+      - "Erosion of international law principles Iceland's security depends on"
+    voice: >
+      Quiet authority of a nation providing strategic geography for 75 years: 'Iceland has
+      been a NATO ally since 1949. We have no army, no tanks, no jets. But we sit on the
+      most important maritime chokepoint in the North Atlantic. For 75 years, we have
+      provided that geography, and in return, the alliance has provided our security. Today
+      that bargain is tested. Lithuania is our ally and we stand with Lithuania. Keflavik
+      is open to allied forces. Our Coast Guard is increasing patrols. NATO's strength is
+      not just tanks and aircraft — it is 32 nations committed that an attack on one is
+      an attack on all.' In Nordic consultations: 'Our patrol aircraft track increased
+      Russian submarine activity from the Northern Fleet. If this escalates to the North
+      Atlantic, the GIUK Gap becomes critical. Norway, Denmark — we need coordinated
+      maritime domain awareness across the entire northern flank.'
+    key_relationships:
+      allies: ["US", "NO", "DK", "GB", "CA", "FI", "SE"]
+      rivals: ["RU (Arctic and submarine threat)"]

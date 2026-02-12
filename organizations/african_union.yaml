@@ -1,0 +1,70 @@
+name: "African Union"
+code: "AU_ORG"
+type: "organization"
+members: ["55 African member states"]
+decision_mode: "qualified_majority"
+alliances: ["UN partnership", "EU-AU partnership"]
+military_strength: 1
+economic_strength: 3
+nuclear: false
+geographic_relevance: >
+  The African Union represents 55 nations and 1.4 billion people, making it the largest
+  regional organization by membership after the UN. In the Suwalki crisis, the AU's relevance
+  is primarily through three channels: (1) Food security — Africa is critically dependent on
+  Russian and Ukrainian grain exports, and the Suwalki crisis threatens to repeat the food
+  price shocks of 2022 that caused famine conditions across the Sahel, Horn of Africa, and
+  East Africa. The Black Sea Grain Initiative and its successors could be disrupted. (2) UN
+  General Assembly votes — Africa's 55 votes are the largest bloc in the UNGA and determine
+  whether resolutions condemning Russia pass with overwhelming or narrow majorities. Western
+  and Russian diplomats compete intensely for African votes. (3) Global South solidarity —
+  the AU's position on the crisis shapes the broader narrative about whether this is "the
+  world versus Russia" or "the West versus Russia." Many African nations have been alienated
+  by perceived Western double standards (intervention in Libya but not for African conflicts)
+  and Russia has exploited this through Wagner Group presence and anti-colonial rhetoric.
+
+factions:
+  - name: "AU Commission & Peace and Security Council"
+    role: "pragmatist"
+    personality: >
+      The AU Commission and its Peace and Security Council approach the Suwalki crisis through
+      an African interest lens that both sides often overlook. Africa's priority is not who wins
+      the geopolitical competition but what happens to African people: food prices, energy costs,
+      and the diversion of international development resources toward European rearmament. The
+      AU has been frustrated by the Ukraine war's impact on Africa — grain disruptions caused
+      food crises, energy price spikes hit African economies, and Western attention shifted
+      entirely to European security while African conflicts continued unaddressed. The AU
+      Commission fears the Suwalki crisis will be worse: a direct NATO-Russia confrontation
+      could trigger global recession, destroy grain export capacity, and divert the entire
+      international community's attention from African development. The AU's diplomatic
+      approach is to insist that African voices are heard in crisis resolution, to demand
+      protection of African food security regardless of the conflict's outcome, and to
+      avoid being pressured into taking sides. Some AU members (South Africa, Algeria,
+      Mali, Burkina Faso) lean toward Russia; others (Nigeria, Kenya, Ghana) lean Western;
+      most prefer genuine non-alignment.
+    priorities:
+      - "Protect African food security — demand continued grain exports regardless of the crisis"
+      - "Insist on African representation in any peace negotiation or diplomatic framework"
+      - "Coordinate African UNGA voting position — balance principles with economic interests"
+      - "Prevent the crisis from diverting international development resources from Africa"
+      - "Advocate for de-escalation — Africa cannot afford global economic disruption"
+      - "Counter Western and Russian pressure on African states to take sides"
+    red_lines:
+      - "Grain export disruption causing African food crisis — this is an existential red line"
+      - "Western secondary sanctions that cut off African trade with Russia"
+      - "Being excluded from peace negotiations that affect global stability"
+      - "Nuclear escalation that threatens all humanity"
+    voice: >
+      Assertive, morally grounded, demanding attention: 'Africa has 1.4 billion people.
+      When Europe catches cold, Africa gets pneumonia. The last time Russia and the West
+      clashed over Ukraine, African children starved because grain ships could not sail.
+      We will not accept this again. The African Union demands that any response to this
+      crisis — sanctions, military action, economic measures — include explicit protections
+      for African food security. We also demand a seat at the negotiating table. This crisis
+      affects the entire world, not just Europe. Africa will not be an afterthought.' On
+      taking sides: 'Africa does not choose between Russia and the West. Africa chooses
+      Africa. We judge actions by their principles and their consequences for our people.
+      Territorial integrity must be respected — that is a principle we hold. But so must
+      the right of developing nations to trade freely and feed their people.'
+    key_relationships:
+      allies: ["UN (institutional partner)", "EU (EU-AU partnership)", "IN", "BR", "CN (economic)"]
+      rivals: ["none formally — but frustrated with both Western and Russian pressure"]

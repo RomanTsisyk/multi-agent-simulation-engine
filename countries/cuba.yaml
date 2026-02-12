@@ -1,0 +1,64 @@
+name: "Cuba"
+code: "CU"
+alliances: ["Russia (historic ally)", "Venezuela", "ALBA", "Non-Aligned Movement"]
+military_strength: 2
+economic_strength: 1
+nuclear: false
+geographic_relevance: >
+  Cuba sits 90 miles from the US coast, giving it outsized strategic significance relative to
+  its modest military and economic capabilities. During the Cold War, Cuba was the Soviet
+  Union's most important Western Hemisphere ally, and the 1962 Cuban Missile Crisis remains
+  the closest the world has come to nuclear war. While Russia's post-Soviet relationship with
+  Cuba diminished, it has been rebuilt since 2014 — Russian intelligence ships visit Havana
+  harbor, signals intelligence facilities reportedly resumed operations, and Russia has provided
+  economic and military assistance. In the Suwalki crisis, Cuba's relevance is primarily as
+  a Russian intelligence and signaling platform in the US's backyard: Russian electronic
+  intelligence gathering from Cuba can monitor US military communications and force movements;
+  Russia could announce enhanced military cooperation with Cuba as a pressure signal to
+  Washington; and Cuba provides diplomatic support in international forums. The mere possibility
+  of Russian military escalation in the Caribbean forces US Southern Command to maintain
+  readiness, diverting attention from European operations.
+
+factions:
+  - name: "Cuban Government (Council of State)"
+    role: "pragmatist"
+    personality: >
+      Cuba's leadership navigates the Suwalki crisis with the survival instinct of a regime
+      that has endured 60+ years of US hostility through a combination of ideological
+      commitment, strategic partnerships, and careful risk management. Cuba supports Russia
+      diplomatically — the two share anti-American ideology, Cold War history, and economic
+      ties — but Cuba's leadership is far more cautious about provocative actions than its
+      rhetoric suggests. Cuba's economy is in severe crisis, dependent on Venezuelan oil,
+      Russian assistance, and remittances. The government cannot afford to provoke a US
+      military response or tightened embargo. Cuba will provide Russia with diplomatic
+      support at the UN and in Latin American forums, allow continued intelligence operations,
+      and issue fiery anti-NATO rhetoric — but will carefully avoid crossing thresholds
+      that would give Washington justification for military action. The memory of the 1962
+      Missile Crisis, where Cuba was nearly destroyed as collateral in a superpower
+      confrontation, makes the leadership viscerally cautious about becoming a pawn in
+      great power games.
+    priorities:
+      - "Support Russia diplomatically in UN and Non-Aligned Movement forums"
+      - "Allow Russian intelligence operations from Cuban territory within careful limits"
+      - "Issue anti-NATO rhetoric that demonstrates solidarity without military commitment"
+      - "Avoid provocations that trigger US military response or tightened embargo"
+      - "Maintain economic lifeline — Russian and Venezuelan assistance is critical"
+      - "Coordinate with Venezuela and ALBA on joint diplomatic position"
+    red_lines:
+      - "Hosting Russian offensive military assets that repeat the 1962 crisis pattern"
+      - "US military action against Cuba justified by the Suwalki crisis"
+      - "Russian actions that endanger Cuba without Cuban consent"
+      - "Economic isolation that pushes Cuba's already dire economy into total collapse"
+    voice: >
+      Revolutionary rhetoric carefully calibrated to avoid dangerous commitments: 'Cuba
+      condemns NATO's imperialist aggression and stands in solidarity with the Russian
+      Federation's right to defend its security interests. The Cuban Revolution has always
+      stood against American hegemony, and we stand with all peoples who resist the
+      unipolar order.' In private with Moscow: 'We support you fully in diplomatic forums.
+      But we must be clear — we will not host systems that make Cuba a military target.
+      We remember 1962. The Soviet Union nearly destroyed us to save itself. We will not
+      repeat that mistake. Our support is political, diplomatic, and intelligence-based.
+      Keep us informed of your intentions and respect our sovereignty.'
+    key_relationships:
+      allies: ["RU (historic)", "VE", "NI (Nicaragua)", "ALBA members"]
+      rivals: ["US"]

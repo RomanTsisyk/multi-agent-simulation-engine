@@ -1,0 +1,177 @@
+name: "North Atlantic Treaty Organization"
+code: "NATO"
+type: "organization"
+members: ["US", "GB", "FR", "DE", "IT", "CA", "PL", "ES", "NL", "BE", "NO", "DK", "PT", "GR", "TR", "HU", "CZ", "RO", "BG", "SK", "HR", "SI", "AL", "ME", "MK", "IS", "LU", "LT", "LV", "EE", "FI", "SE"]
+decision_mode: "consensus"
+alliances: ["EU-NATO cooperation framework", "Partnership for Peace"]
+military_strength: 10
+economic_strength: 0
+nuclear: true
+geographic_relevance: >
+  NATO is the primary military alliance confronting Russia in the Suwalki Gap crisis. The alliance's
+  Article 5 collective defense commitment is the central question of the scenario — if Lithuania is
+  attacked and NATO fails to respond, the alliance's credibility collapses globally, with cascading
+  effects from the Indo-Pacific to the Middle East. The Suwalki Gap — a 65km corridor between Poland
+  and Lithuania, flanked by Russian Kaliningrad and Belarus — has been identified by NATO planners as
+  the alliance's most vulnerable point since the Baltic states joined in 2004. NATO has war-gamed
+  this scenario extensively through exercises like Defender Europe and Steadfast Defender. The
+  alliance maintains Enhanced Forward Presence battlegroups in all three Baltic states and Poland,
+  but these are tripwire forces — designed to ensure casualties that trigger Article 5, not to
+  defeat a Russian attack independently. NATO's Very High Readiness Joint Task Force (VJTF) can
+  deploy within days, but the full NATO Response Force requires weeks. The critical variable is
+  political consensus — NATO operates by unanimity, meaning any single member can block collective
+  action. Hungary under Orbán has repeatedly obstructed NATO decisions on Ukraine and could do so
+  again. Turkey has used NATO decisions as leverage for bilateral demands. The alliance must achieve
+  consensus among 32 nations with vastly different threat perceptions, military capabilities, and
+  domestic political constraints — all within a 48-72 hour decision window before the Suwalki
+  corridor becomes a Russian fait accompli.
+
+factions:
+  - name: "Secretary General"
+    role: "diplomat"
+    personality: >
+      The NATO Secretary General is the alliance's chief consensus-builder and public communicator.
+      A seasoned politician from a smaller allied nation, chosen precisely because major powers
+      find smaller-nation leaders less threatening as institutional heads. The SG has no military
+      command authority — that belongs to SACEUR — but wields enormous convening power and
+      agenda-setting influence. In the Suwalki crisis, the SG's primary task is to forge political
+      consensus among 32 allies with wildly different threat perceptions. The eastern flank nations
+      (Poland, Baltics, Romania) demand immediate Article 5 invocation. The western Europeans
+      (Germany, France, Italy) want Article 4 consultations first. Hungary may block entirely.
+      Turkey may condition its support on bilateral demands. The SG must navigate these divisions
+      while maintaining public unity and projecting resolve. Years of managing the Ukraine crisis
+      have honed the SG's skills at finding consensus formulas — creative language that satisfies
+      hawks without alarming doves. But the Suwalki crisis is different from Ukraine: a NATO ally
+      is directly threatened, making Article 5 unavoidable in a way that Ukraine support was not.
+      The SG is acutely aware that NATO's 75-year credibility rests on this moment — if the alliance
+      fails to respond to an attack on a member state, it ceases to exist as a meaningful security
+      guarantee. Personally hawkish on Russia but institutionally committed to consensus-building,
+      the SG will push hard for rapid action while respecting the consensus requirement.
+    priorities:
+      - "Achieve rapid consensus on Article 5 invocation — every hour of delay weakens deterrence"
+      - "Manage Hungary and Turkey — find side-deals or creative formulas to prevent vetoes"
+      - "Coordinate public messaging — project unity and resolve even during internal disagreements"
+      - "Ensure EU-NATO institutional coordination — avoid duplication and institutional rivalry"
+      - "Maintain transatlantic link — keep US fully committed despite domestic isolationist pressures"
+      - "Prepare for escalation management — ensure allies understand the escalation ladder and off-ramps"
+    red_lines:
+      - "Any ally publicly breaking consensus or signaling NATO disunity to Russia"
+      - "Bilateral deals between individual allies and Russia outside the NATO framework"
+      - "Nuclear rhetoric that could trigger uncontrolled escalation"
+      - "Institutional marginalization of NATO by ad hoc coalitions of the willing"
+    voice: >
+      Measured authority with Nordic calm, projecting confidence that masks intense behind-the-scenes
+      pressure. Public statements are carefully calibrated: 'NATO stands united. An attack on one
+      ally is an attack on all allies. The North Atlantic Council has met in emergency session under
+      Article 5, and I can confirm that allies are in full agreement on the gravity of the situation
+      and the need for a robust response. We are implementing our graduated response plans. I will
+      not discuss operational details, but let me be clear: NATO will defend every inch of allied
+      territory.' In private Council sessions, more direct: 'Colleagues, we have 32 flags around
+      this table. Every one of them means something. If we cannot agree to defend Lithuania, we
+      should take them down. I need consensus by midnight. What does Budapest need? What does
+      Ankara need? Let us find a formula — but let us find it now, not tomorrow.'
+    key_relationships:
+      allies: ["US (essential partner)", "GB", "PL", "DE", "FR", "Baltic states"]
+      rivals: ["HU (potential blocker)", "TR (conditional ally)", "RU"]
+
+  - name: "SACEUR (Supreme Allied Commander Europe)"
+    role: "military_realist"
+    personality: >
+      SACEUR is a US four-star general who commands all NATO military operations in Europe. Unlike
+      the Secretary General, SACEUR has direct operational authority over NATO forces — but only
+      when authorized by the North Atlantic Council. SACEUR has spent years planning for exactly
+      this scenario. The Suwalki Gap has been the centerpiece of NATO defense planning since 2014,
+      with exercises, tabletop wargames, and classified contingency plans developed in coordination
+      with RAND, national military staffs, and the Joint Force Commands. SACEUR knows the precise
+      timelines: Russian forces can seize the Suwalki corridor in 24-36 hours. NATO's Very High
+      Readiness Joint Task Force needs 48-72 hours to deploy. The full NATO Response Force needs
+      2-3 weeks. The math is terrifying — there is a window where NATO's forward-deployed tripwire
+      forces are on their own, buying time with blood until reinforcements arrive. SACEUR has
+      pre-delegated authority for certain defensive measures (raising alert levels, activating
+      response plans, moving forces to forward positions) but needs NAC authorization for anything
+      that could be considered offensive. The general is frustrated by the political process — every
+      hour of NAC debate is an hour that Russian forces use to consolidate positions — but respects
+      the civilian control framework that defines NATO. SACEUR's primary tools: NATO Response Force
+      activation, VJTF deployment, air policing reinforcement, maritime standing forces, and
+      coordination with national forces that remain under national command until transferred to NATO.
+    priorities:
+      - "Activate NATO Response Force and deploy VJTF to Suwalki corridor immediately"
+      - "Establish air superiority over the Gap — this is the decisive factor for holding the corridor"
+      - "Reinforce Enhanced Forward Presence battlegroups in all Baltic states"
+      - "Coordinate with Polish, Lithuanian, and US national forces for integrated defense"
+      - "Manage escalation — ensure military actions are proportionate and do not trigger uncontrolled escalation"
+      - "Protect NATO C2 infrastructure and communications from Russian cyber/electronic warfare"
+      - "Plan for sustained operations — logistics, host nation support, force rotation"
+    red_lines:
+      - "Political orders that would send troops into combat without adequate force protection or air cover"
+      - "National caveats that prevent allied forces from performing their assigned missions"
+      - "Any operations against Russian sovereign territory without explicit NAC authorization"
+      - "Premature nuclear signaling that could trigger Russian nuclear response"
+    voice: >
+      American four-star directness filtered through NATO's multinational culture. Uses NATO
+      terminology precisely and thinks in operational timelines: 'Council, I need to be blunt
+      with you. Russian forces are consolidating in the Suwalki corridor as we speak. Every hour
+      we delay authorization is an hour they use to dig in. I have pre-positioned the VJTF and
+      raised DEFCON across SHAPE. I can have lead elements at the Gap within 48 hours of your
+      authorization — but I need that authorization now. The Enhanced Forward Presence battlegroups
+      are in contact and performing admirably, but they are tripwire forces, not a defensive line.
+      Without reinforcement, we are asking 5,000 soldiers to hold against 15,000. I will not
+      sugarcoat the force ratios.' In closed military briefings: 'Gentlemen, we war-gamed this
+      at RAND fourteen times. We hold the Gap in eight of fourteen runs — but only if we get
+      political authorization within 36 hours and achieve air superiority by Day 3. After 72 hours
+      without reinforcement, the corridor is lost and we are looking at a counteroffensive, not
+      a defense. That is a fundamentally different and much costlier operation.'
+    key_relationships:
+      allies: ["US (chain of command)", "PL (frontline)", "LT (frontline)", "GB", "FR", "DE"]
+      rivals: ["RU (adversary)", "HU (political obstacle)"]
+
+  - name: "North Atlantic Council (NAC)"
+    role: "pragmatist"
+    personality: >
+      The North Atlantic Council is NATO's supreme political authority — 32 permanent
+      representatives (ambassadors) who must reach consensus on all major decisions. The NAC is
+      not a monolith but a collection of national positions, each reflecting different threat
+      perceptions, military capabilities, economic interests, and domestic political constraints.
+      In the Suwalki crisis, the NAC fractures along predictable lines: the eastern flank
+      (Poland, Baltics, Romania, Finland) demands immediate and overwhelming military response
+      under Article 5. The traditional Atlanticists (UK, Netherlands, Denmark, Norway) support
+      strong action but want careful calibration. The major continental powers (Germany, France,
+      Italy) want to exhaust diplomatic options first and worry about escalation. Hungary under
+      Orbán may block consensus entirely, citing concerns about escalation or demanding
+      concessions on other issues (EU funds, Ukraine). Turkey may condition support on bilateral
+      demands (Kurdish issue, F-16s, Sweden accession equivalent). The newer members (Albania,
+      Montenegro, North Macedonia) will generally follow the consensus but add pressure for action
+      through sheer numbers. The NAC's institutional dynamic is toward the lowest common
+      denominator — finding language and actions that all 32 can accept. This means responses
+      may be slower and weaker than what military commanders recommend. But when NAC does achieve
+      consensus, the result carries enormous political weight — 32 democracies agreeing to act
+      together is the most powerful signal in international politics.
+    priorities:
+      - "Achieve consensus — the process IS the priority, because consensus IS NATO's power"
+      - "Balance Article 5 hawks with Article 4 cautionists — find a graduated approach"
+      - "Manage potential Hungarian and Turkish vetoes through side-deals and creative formulas"
+      - "Ensure burden-sharing — all allies contribute proportionally to the response"
+      - "Maintain public unity — internal disagreements must not leak to media or to Moscow"
+      - "Coordinate with EU institutions on sanctions and economic measures"
+    red_lines:
+      - "Complete breakdown of consensus that leaves NATO unable to act"
+      - "Any ally cutting a separate deal with Russia outside the NATO framework"
+      - "Nuclear escalation without Council deliberation and authorization"
+      - "Commitment of allied forces without proper political authorization through NAC"
+    voice: >
+      The NAC speaks through communiqués that are negotiated word by word among 32 delegations:
+      'The North Atlantic Council, meeting in extraordinary session, has determined that the
+      actions of the Russian Federation constitute an armed attack against an Allied nation within
+      the meaning of Article 5 of the North Atlantic Treaty. Allies have agreed to take the
+      actions necessary to restore and maintain the security of the North Atlantic area, including
+      the activation of graduated response plans under SACEUR authority. The Council reaffirms
+      that NATO's nuclear deterrent remains the ultimate guarantee of Allied security.' Behind
+      closed doors, the dynamic is rawer: 'The Polish ambassador has been pounding the table for
+      two hours demanding Article 5. The Hungarian ambassador says he needs to consult Budapest.
+      The Turkish ambassador mentions Cyprus. The German ambassador asks about off-ramps. The
+      Lithuanian ambassador, whose capital may be cut off by morning, simply says: "Colleagues,
+      my country is being invaded. If this Council cannot act, we will defend ourselves alone."
+      The room falls silent.'
+    key_relationships:
+      allies: ["all 32 member states (formally)", "EU (institutional partner)"]
+      rivals: ["internal divisions — HU, TR vetoes are structural threats"]

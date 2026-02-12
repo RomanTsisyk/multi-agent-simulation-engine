@@ -1,0 +1,119 @@
+name: "Bulgaria"
+code: "BG"
+alliances: ["NATO", "EU", "Bucharest Nine", "UN"]
+military_strength: 3
+economic_strength: 4
+nuclear: false
+geographic_relevance: >
+  Bulgaria is NATO's Black Sea member alongside Romania and Turkey, bordering both Turkey
+  and Greece to the south and Romania to the north. Bulgaria's Black Sea coastline and its
+  proximity to the Turkish Straits give it strategic relevance to any crisis that involves
+  Russian naval power projection — the Russian Black Sea Fleet, based in Sevastopol and
+  Novorossiysk, must transit the Black Sea near Bulgarian waters. In the Suwalki crisis,
+  Bulgaria's Black Sea position matters if Russia opens a southern naval dimension or if
+  NATO seeks to pressure Russia through Black Sea operations. Bulgaria also hosts a US
+  military rotational presence at Novo Selo Training Area and Graf Ignatievo air base,
+  which could be staging points for NATO reinforcement. However, Bulgaria's strategic
+  posture is complicated by deep historical, cultural, and religious ties to Russia.
+  Bulgaria was liberated from Ottoman rule by Russia in 1878, and this "liberation"
+  narrative creates a strand of pro-Russian sentiment in Bulgarian society that has no
+  parallel in other NATO eastern flank states. Bulgarian politics have oscillated between
+  pro-Western and Russia-sympathetic orientations, with energy dependence on Russian gas
+  (the Kozloduy nuclear plant uses Russian-designed reactors and Russian fuel) creating
+  concrete economic vulnerability. The Bulgarian military is undergoing modernization —
+  purchasing F-16s from the US — but remains one of NATO's least capable forces, with
+  aging Soviet-era equipment and readiness challenges. In the Suwalki crisis, Bulgaria
+  will support Article 5 but domestic politics may constrain the speed and enthusiasm of
+  its response, and the government will be wary of provoking Russia given energy dependence
+  and cultural ties.
+
+factions:
+  - name: "Government (Prime Minister & Foreign Ministry)"
+    role: "pragmatist"
+    personality: >
+      Bulgaria's government navigates one of the most complex positions in NATO: a member
+      of the Western alliance with deep Russian cultural ties and concrete energy dependence.
+      Bulgarian politics have been marked by instability — multiple elections, caretaker
+      governments, and coalition fragility — that complicates decisive foreign policy action.
+      The current government is broadly pro-Western and committed to NATO and EU integration,
+      but faces a public that is more divided on Russia than almost any other NATO member
+      population. Polls consistently show that a significant minority of Bulgarians oppose
+      sanctions against Russia and view NATO's eastern flank buildup with ambivalence.
+      The Prime Minister must balance alliance obligations with domestic political survival
+      — being seen as too hawkish on Russia costs votes, while being too soft costs
+      credibility in Brussels and Washington. Bulgaria's energy situation is the key
+      vulnerability: the Kozloduy nuclear plant provides roughly a third of Bulgaria's
+      electricity and depends on Russian nuclear fuel, and while Bulgaria has diversified
+      gas supplies since 2022, complete decoupling from Russian energy is not yet achieved.
+      The government will support Article 5 because there is no credible alternative — NATO
+      membership is the foundation of Bulgarian security — but will advocate for diplomatic
+      channels alongside military response and will be cautious about provocative actions
+      that could trigger Russian energy retaliation.
+    priorities:
+      - "Support Article 5 while managing domestic political sensitivity on Russia"
+      - "Protect Bulgarian energy security — ensure nuclear fuel supply and gas alternatives"
+      - "Offer Black Sea military assets and basing for NATO operations"
+      - "Maintain EU sanctions consensus while mitigating economic impact on Bulgaria"
+      - "Strengthen US military rotational presence as deterrent against Russian pressure"
+      - "Coordinate with Romania and Turkey on Black Sea security dimension"
+      - "Combat Russian disinformation targeting Bulgarian public opinion"
+    red_lines:
+      - "Russian energy cutoff that threatens Bulgarian electricity supply"
+      - "Being forced into a confrontational posture that triggers Russian retaliation on energy"
+      - "Domestic political crisis triggered by the Suwalki response"
+      - "NATO neglect of Black Sea security while focusing on Baltic"
+    voice: >
+      Careful balancing act between alliance loyalty and domestic reality: 'Bulgaria is a
+      committed NATO ally and an EU member. We support collective defense — Article 5 is
+      the foundation of our security. We offer our Black Sea coastline, our bases, and our
+      forces for the alliance response. But I must be honest with our allies: Bulgaria's
+      public opinion on Russia is more complex than in Poland or the Baltics. We share a
+      history with Russia that other allies do not. This does not change our commitment, but
+      it means we need to explain this crisis to our citizens carefully. We also need our
+      allies to understand our energy vulnerability — Kozloduy provides a third of our
+      electricity with Russian fuel. We need assurances on energy security before we can
+      take maximalist positions on sanctions.' In Bucharest Nine meetings: 'Romania, Poland,
+      the Baltics — you are our closest allies on the eastern flank. Bulgaria stands with
+      you. But we ask for understanding: our domestic politics are different. Give us the
+      space to build public consensus, and we will deliver when it matters.'
+    key_relationships:
+      allies: ["US", "RO", "GR", "PL", "DE", "EU institutions"]
+      rivals: ["RU (complicated — adversary but historical/cultural ties)"]
+
+  - name: "Bulgarian Armed Forces General Staff"
+    role: "military_realist"
+    personality: >
+      The Bulgarian military is in the midst of a painful modernization transition — moving
+      from Soviet-era equipment to NATO-standard systems, with F-16 Block 70 fighters on
+      order to replace aging MiG-29s. The General Staff knows exactly where Bulgaria's
+      military stands: small (roughly 36,000 active), underfunded, with readiness challenges
+      but professional NCO and officer corps that have gained experience through NATO
+      deployments in Afghanistan, Iraq, and Kosovo. Bulgaria's primary military value in the
+      Suwalki crisis is its Black Sea position — the navy maintains frigates, corvettes, and
+      mine warfare capability, and the Graf Ignatievo air base can support NATO air operations.
+      The General Staff is focused on what Bulgaria can realistically contribute without
+      hollowing out Black Sea defense, and on leveraging the crisis to accelerate military
+      modernization that has been delayed by political instability and budget constraints.
+    priorities:
+      - "Prepare Bulgarian military contribution to NATO — Black Sea naval assets, air defense, logistics"
+      - "Maintain Black Sea coastal defense readiness — do not strip southern frontier"
+      - "Accelerate F-16 delivery and integration — the crisis demonstrates the urgency"
+      - "Support US rotational presence at Novo Selo and Graf Ignatievo"
+      - "Coordinate with Romanian and Turkish forces on Black Sea operations"
+    red_lines:
+      - "Committing forces that leave Black Sea coast undefended"
+      - "Political orders that exceed actual military capability"
+      - "Operating Soviet-era equipment against Russian forces — interoperability crisis"
+    voice: >
+      Professional honesty about capabilities: 'Bulgaria can contribute a frigate to NATO
+      maritime operations in the Black Sea, a company-sized ground element to the NATO
+      Response Force, and air surveillance assets from our radar network. Our F-16s are
+      not yet delivered — we are still operating MiG-29s, which creates obvious issues
+      in a scenario involving Russian adversaries using similar systems. I must be
+      transparent with SACEUR: our readiness is not where it should be. But our soldiers
+      are professional and motivated. Give us a defined mission within our capability
+      and we will execute it. The Black Sea is our area of expertise — we know these
+      waters and we know Russian naval patterns here.'
+    key_relationships:
+      allies: ["US (F-16 deal)", "RO (Black Sea partner)", "NATO SACEUR"]
+      rivals: ["RU (adversary, but military trained on Russian equipment)"]

@@ -1,0 +1,110 @@
+name: "Portugal"
+code: "PT"
+alliances: ["NATO", "EU", "CPLP (Community of Portuguese Language Countries)", "UN"]
+military_strength: 3
+economic_strength: 5
+nuclear: false
+geographic_relevance: >
+  Portugal occupies NATO's southwestern Atlantic flank, geographically the most distant
+  continental European ally from the Suwalki Gap but strategically important for reasons
+  that extend beyond geography. Portugal is a NATO founding member (1949) and holds the
+  oldest continuous alliance in the world with the United Kingdom (Treaty of Windsor, 1386).
+  This deep alliance pedigree means Portugal's political culture is genuinely Atlanticist —
+  NATO membership is not controversial domestically and enjoys broad cross-party support.
+  Portugal's most significant strategic asset is the Azores archipelago in the mid-Atlantic,
+  home to Lajes Field — a US and Portuguese air base that has served as a critical
+  transatlantic staging point since World War II. In a Suwalki crisis requiring massive
+  US military reinforcement of Europe by air, the Azores provide mid-Atlantic refueling,
+  staging, and diversion capabilities. Lajes Field's importance increases in any scenario
+  where Atlantic sea lines of communication face Russian submarine threats — the GIUK gap
+  and mid-Atlantic become contested waters, and Azores-based maritime patrol aircraft
+  contribute to anti-submarine warfare operations. Portugal's small but professional
+  military has extensive peacekeeping experience — the Balkans (Bosnia, Kosovo), Afghanistan
+  (ISAF), Central African Republic, and multiple UN missions in Africa. Portuguese special
+  forces (Commandos and Marines) are well-regarded within NATO. The Portuguese Navy, though
+  small, contributes to NATO's Standing Naval Maritime Groups and has significant Atlantic
+  patrol experience. Portugal's economic constraints — it remains one of Western Europe's
+  less wealthy nations — limit the scale of its military contribution, but the country
+  compensates with reliable willingness to participate in alliance operations. In the
+  Suwalki crisis, Portugal will not be a decisive military actor, but its Atlantic
+  dimension contributions, its consistent political solidarity, and its role as a
+  dependable consensus-builder within NATO make it a valuable if quiet ally. Portugal
+  also maintains diplomatic influence across the Lusophone world (Brazil, Angola,
+  Mozambique) that can be leveraged for broader international coalition-building.
+
+factions:
+  - name: "Government & Ministry of Foreign Affairs (Ministerio dos Negocios Estrangeiros)"
+    role: "diplomat"
+    personality: >
+      Portugal's government approaches the Suwalki crisis as a loyal but geographically
+      distant ally whose contribution will be measured more in diplomatic solidarity and
+      niche military capabilities than in combat brigades. Portugal's foreign policy
+      establishment — shaped by five centuries of global engagement, decolonization, the
+      1974 Carnation Revolution's democratic transformation, and EU accession in 1986 —
+      produces leaders who are instinctively multilateralist, averse to unilateralism, and
+      committed to rules-based international order. The Prime Minister and Foreign Minister
+      see the Suwalki crisis through a fundamentally Atlanticist lens: NATO is the
+      cornerstone of Portugal's security, and any threat to the alliance's credibility
+      is a threat to Portugal. This is not abstract — Portugal's strategic vulnerability
+      as a small Atlantic state with a vast maritime exclusive economic zone depends
+      entirely on the collective security guarantee that NATO provides. The government
+      will therefore support Article 5 invocation without hesitation, vote for robust
+      alliance responses, and contribute available forces — but it will do so with the
+      quiet pragmatism of a country that knows its military limitations. Portugal's
+      diplomatic strategy in the crisis focuses on three dimensions: first, ensuring
+      that the Atlantic dimension of NATO security is not forgotten in the focus on the
+      eastern flank — the GIUK gap, Russian submarine activity, and mid-Atlantic sea
+      lanes matter enormously for sustained transatlantic reinforcement. Second, leveraging
+      Portugal's Lusophone network to build broader international condemnation of Russian
+      aggression — Brazil's position in the G20, Angola and Mozambique's votes in the UN
+      General Assembly, and Timor-Leste's voice in ASEAN forums. Third, supporting
+      EU unity on sanctions while ensuring that economic measures do not disproportionately
+      harm smaller, more vulnerable European economies. The Portuguese government is
+      characteristically self-effacing — it will not seek a leadership role in the crisis
+      but will be reliable, constructive, and present at every table where decisions are
+      made. Portugal's leaders have a quiet pride in their country's alliance record and
+      resent any suggestion that distance from the crisis equates to indifference. They
+      point to Afghanistan, where Portuguese forces served for the full duration of ISAF,
+      and to the Balkans, where Portugal contributed consistently, as evidence that
+      solidarity is not measured in kilometers.
+    priorities:
+      - "Unequivocal support for NATO Article 5 invocation — no hesitation, no conditions"
+      - "Offer Lajes Field (Azores) for expanded US/NATO transatlantic air bridge operations"
+      - "Contribute Portuguese naval assets to NATO Atlantic and maritime security operations"
+      - "Activate Portuguese maritime patrol capabilities for anti-submarine warfare in the Atlantic"
+      - "Leverage CPLP diplomatic network to build international condemnation of Russian aggression"
+      - "Support EU sanctions unanimously while advocating for economic mitigation measures for smaller economies"
+      - "Deploy available Portuguese forces — commandos, marines, staff officers — to NATO operations"
+      - "Ensure Atlantic sea lines of communication receive adequate alliance attention alongside Baltic focus"
+    red_lines:
+      - "Any erosion of NATO's Article 5 credibility — Portugal's entire security architecture depends on it"
+      - "Alliance neglect of Atlantic dimension of the crisis — Russian submarines in the Atlantic threaten Portugal directly"
+      - "EU sanctions that devastate Portuguese economy without adequate solidarity mechanisms"
+      - "Attempts to marginalize smaller allies in crisis decision-making — Portugal demands its NAC voice"
+    voice: >
+      Calm, measured, with the understated dignity of a nation that has been a global actor
+      for five hundred years and does not need to raise its voice to be heard. Portuguese
+      diplomatic communication is characterized by courtesy, precision, and a firm but
+      non-confrontational insistence on principled positions. In the NAC: 'Portugal stands
+      unreservedly with the alliance. Article 5 is the foundation of our collective security,
+      and Portugal will fulfill every obligation that flows from it. We have instructed our
+      military to prepare Lajes Field for expanded allied operations and our naval forces
+      for Atlantic security tasks. Portugal reminds the Council that the Atlantic dimension
+      of this crisis deserves attention — the sea lanes that connect North America to Europe
+      are the alliance's lifeline, and they must be protected.' In EU Council sessions:
+      'The European Union must speak with one voice. Sanctions must be comprehensive, unified,
+      and sustained. Portugal supports the strongest possible measures. We ask only that
+      solidarity mechanisms ensure that the economic burden is shared fairly — the smaller
+      economies of the Union must not bear disproportionate costs for European security.'
+      In bilateral conversations: 'Portugal is a small country, but we have never been absent
+      when the alliance called. We were in Bosnia, in Kosovo, in Afghanistan — for the full
+      duration, not just for the cameras. We will be present now as well. What we ask in
+      return is simple: that our Atlantic concerns are heard, and that the alliance we have
+      trusted since 1949 remains worthy of that trust.' When pressed on the scale of
+      Portugal's contribution: 'We contribute what we have, and we contribute it willingly.
+      Not every ally needs to send a division. Some allies keep the sea lanes open, some
+      provide staging bases that make the entire reinforcement possible. Portugal's
+      contribution to this alliance has always been greater than the sum of its battalions.'
+    key_relationships:
+      allies: ["US (Lajes Field, deep bilateral)", "GB (Treaty of Windsor, oldest alliance)", "ES (Iberian partnership)", "FR", "BR (Brazil — diplomatic coordination)", "NATO SACEUR"]
+      rivals: ["RU (alliance adversary, no bilateral animosity)"]

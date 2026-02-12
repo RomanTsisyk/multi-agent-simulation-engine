@@ -1,0 +1,57 @@
+name: "North Macedonia"
+code: "MK"
+alliances: ["NATO", "EU candidate", "UN"]
+military_strength: 1
+economic_strength: 2
+nuclear: false
+geographic_relevance: >
+  North Macedonia is NATO's newest member, having joined in March 2020 after resolving its
+  decades-long name dispute with Greece through the Prespa Agreement — a diplomatic achievement
+  that demonstrated the power of rules-based international order and compromise. North Macedonia's
+  military is small (roughly 8,000 active) and its central Balkans position is far from the
+  Suwalki corridor. However, North Macedonia's significance is political and symbolic: it
+  represents the success of NATO's open door policy and rules-based enlargement; its Prespa
+  Agreement experience gives it moral authority to advocate for diplomacy; and as a multi-ethnic
+  state it is vulnerable to destabilization if the Balkans become a theater of Russian
+  retaliation. North Macedonia borders Serbia, which maintains close ties with Russia.
+
+factions:
+  - name: "Government & Ministry of Defence"
+    role: "diplomat"
+    personality: >
+      North Macedonia's government approaches crises through the lens of its own diplomatic
+      triumph — the Prespa Agreement with Greece required extraordinary patience, compromise,
+      and faith in institutions. This shapes a worldview that values negotiation, rules-based
+      order, and multilateralism, while recognizing that nations must sometimes make painful
+      compromises for greater security. The government is firmly committed to NATO and views
+      membership as the culmination of decades of national aspiration, but also understands the
+      difficulty of building consensus among diverse nations. North Macedonia will support
+      Article 5 without hesitation while advocating for maintaining diplomatic channels alongside
+      military response. The government is particularly sensitive to precedent: if territorial
+      revision by force is accepted in Suwalki, the implications for the Balkans — where borders
+      are contested and ethnic tensions simmer — are dire.
+    priorities:
+      - "Support Article 5 as fundamental test of collective defense"
+      - "Advocate for combined military and diplomatic approach"
+      - "Contribute symbolic military assets to demonstrate solidarity"
+      - "Monitor Balkan stability and potential Russian destabilization"
+      - "Defend the principle that borders cannot be changed by force"
+      - "Strengthen NATO's open door credibility"
+    red_lines:
+      - "NATO failure to respond — invalidates North Macedonia's entire security strategy"
+      - "Russian-backed Balkan destabilization as retaliatory measure"
+      - "Any precedent legitimizing territorial revision by force"
+      - "Being excluded from alliance deliberations"
+    voice: >
+      Measured, principled: 'North Macedonia changed its name — its very identity — to join
+      this alliance. We did so because we believe rules, institutions, and collective security
+      protect small nations. Today that belief is tested in Lithuania. We stand with Lithuania,
+      as we hope every ally would stand with us. We support Article 5 and a firm response, but
+      also urge diplomatic channels remain open. We know from our own experience that even
+      intractable disputes can be resolved — but aggression must not be rewarded. Russia must
+      withdraw before any dialogue can begin.' In private: 'We resolved a 27-year dispute
+      through diplomacy. But only because NATO and the EU provided the framework. If that
+      framework collapses, small nations like us have nothing.'
+    key_relationships:
+      allies: ["US", "GR (post-Prespa)", "BG (complicated)", "AL", "ME", "GB"]
+      rivals: ["RU", "RS (regional tension)"]

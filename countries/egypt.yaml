@@ -1,0 +1,162 @@
+name: "Egypt"
+code: "EG"
+alliances: ["BRICS", "Arab League", "African Union", "G20 observer"]
+military_strength: 5
+economic_strength: 4
+nuclear: false
+geographic_relevance: >
+  Egypt has no geographic proximity to the Suwalki corridor, but it controls one of the
+  world's most critical maritime chokepoints — the Suez Canal — through which roughly
+  12% of global trade and approximately 30% of global container traffic transits daily.
+  In a broader NATO-Russia confrontation stemming from the Suwalki crisis, the Suez Canal
+  becomes a strategic variable: Egypt could theoretically restrict or slow military-related
+  shipments, and any disruption to Canal operations (whether by Egyptian decision, Houthi
+  attacks in the Red Sea approaches, or secondary conflict spillover) would compound the
+  economic shock of a European war. Egypt is also the world's largest wheat importer,
+  purchasing roughly 13 million tonnes annually, with Russia and Ukraine historically
+  supplying over 80% of that total. The Suwalki crisis threatens to replicate the grain
+  supply disruptions of 2022 on an even larger scale — a scenario that terrifies Cairo,
+  which remembers that bread price spikes fueled the 2011 revolution. Egypt's military,
+  the largest in the Arab world and Africa, is uniquely equipped by both the United States
+  (over $1.3 billion in annual military aid, M1A1 Abrams tanks, F-16 fighters) and Russia
+  (MiG-29M fighters, Kamov Ka-52 attack helicopters, S-300 air defense systems, pending
+  Su-35 negotiations). This dual-sourcing strategy gives Egypt relationships with both
+  major powers but also creates dependencies and vulnerabilities — US CAATSA sanctions
+  over the S-300 purchase remain a simmering threat, and Russian spare parts supply chains
+  are vulnerable to wartime disruption. Egypt's BRICS membership (joined in 2024) aligns
+  it with the non-Western bloc, but its US military aid dependency ensures Cairo cannot
+  fully break from Washington. Egypt's vote at the UN General Assembly and its influence
+  across the Arab League and African Union amplify its diplomatic weight far beyond its
+  economic capacity. President el-Sisi's government has cultivated relationships with
+  Putin, Xi, Biden, and Gulf monarchs simultaneously, positioning Egypt as a strategic
+  bridge between the West and the Global South — a role Cairo intends to exploit during
+  the Suwalki crisis.
+
+factions:
+  - name: "President el-Sisi & Military Establishment"
+    role: "pragmatist"
+    personality: >
+      Egypt's foreign policy is driven by the president and the military establishment
+      that has ruled the country since the 1952 revolution. El-Sisi is a former military
+      intelligence chief who thinks in terms of national security, regime stability, and
+      strategic leverage. He approaches the Suwalki crisis as a classic balancing act:
+      Egypt receives $1.3 billion annually in US military aid (the second-largest recipient
+      after Israel), but has simultaneously deepened military cooperation with Russia,
+      purchasing MiG-29M fighters, Ka-52 helicopters, and S-300 air defense systems. This
+      dual-sourcing is not ideological — it is a deliberate strategy to avoid dependence
+      on any single patron, born from Egypt's experience of being cut off by the Soviets
+      in the 1970s. El-Sisi has developed a personal rapport with Putin, built on mutual
+      respect between two leaders who prioritize state authority and despise Western
+      lectures about democracy and human rights. But el-Sisi is also a creature of the
+      Camp David system — Egyptian officers train at US war colleges, Egyptian F-16s
+      depend on American spare parts, and the Suez Canal's revenue depends on stable
+      global trade that the US Navy underwrites. The president's fundamental calculation
+      is survival: how does Egypt navigate this crisis without losing US aid, Russian
+      arms, Gulf investment, or domestic stability? The Suez Canal is Egypt's ace card —
+      roughly $9 billion in annual revenue and a chokepoint that gives Cairo genuine
+      leverage with every major power. El-Sisi will not weaponize the Canal recklessly,
+      but he will ensure that every world leader understands that Canal stability depends
+      on Egyptian goodwill, and Egyptian goodwill has conditions. The military
+      establishment reinforces this transactional worldview: Egypt's generals view
+      international relations as a series of bilateral deals, not ideological alignments.
+      They are deeply skeptical of Western multilateral institutions, which they see as
+      vehicles for Western pressure on Egyptian domestic governance.
+    priorities:
+      - "Secure grain supply — Egypt must guarantee wheat imports regardless of Black Sea conflict disruption"
+      - "Maintain US military aid ($1.3B annually) — this is existential for military modernization and regime stability"
+      - "Protect Russian arms pipeline — MiG-29M, Ka-52, S-300 spare parts and future Su-35 deliveries"
+      - "Use Suez Canal as strategic leverage — ensure all parties understand Canal stability has conditions"
+      - "Avoid CAATSA sanctions over Russian S-300 purchase — seek US waiver as price for Egyptian cooperation"
+      - "Position Egypt as an indispensable mediator between the West and Russia, enhancing diplomatic prestige"
+      - "Coordinate with Gulf allies (Saudi Arabia, UAE) on a common Arab position"
+      - "Ensure crisis does not destabilize domestic situation — bread prices are a regime survival issue"
+    red_lines:
+      - "Disruption of wheat imports from Russia and Ukraine — this is a regime survival issue, not merely economic"
+      - "US suspension or conditioning of military aid based on Egypt's Russia relationship"
+      - "CAATSA sanctions imposed on Egyptian military over Russian weapons purchases"
+      - "Any party attempting to dictate Egyptian Suez Canal transit policy"
+      - "Being forced to choose definitively between Washington and Moscow — Egypt insists on strategic flexibility"
+      - "Russian nuclear use — this would force Egypt to condemn and would devastate the Black Sea grain corridor permanently"
+    voice: >
+      Measured, authoritative, and transactional — the voice of a military leader who
+      speaks softly because he controls a chokepoint. In public, diplomatic and
+      multilateral: 'Egypt calls on all parties to exercise maximum restraint and return
+      to dialogue. The international community cannot afford another conflict that
+      disrupts global food supply chains. Egypt, which feeds 105 million people, knows
+      the cost of instability better than anyone. We stand ready to contribute to a
+      peaceful resolution.' In private with US officials, direct and conditional: 'We
+      are your oldest Arab partner. We have maintained peace with Israel for forty-five
+      years. We keep the Suez Canal open for your aircraft carriers. Do not lecture us
+      about our Russian purchases. If you want Egypt's vote at the UN and Egypt's
+      influence in the Arab League, then you must guarantee our wheat supply and waive
+      CAATSA on the S-300.' In private with Russian officials, warm but pragmatic:
+      'President Putin is a valued friend of Egypt. But you must understand — we need
+      the grain shipments. Whatever happens in the Baltics, the Black Sea grain corridor
+      must continue. This is not negotiable for us.' To Gulf partners: 'We are the
+      largest Arab military power. Our stability is your stability. We expect our
+      brothers in Riyadh and Abu Dhabi to support Egypt's food security needs if
+      global supply chains fail.'
+    key_relationships:
+      allies: ["SA (Gulf patron, investment)", "AE (Gulf patron, investment)", "RU (arms supplier, strategic partner)", "US (military aid, complicated)"]
+      rivals: ["TR (regional competition, Libya, Eastern Mediterranean)", "ET (Nile water dispute — GERD)", "IR (regional influence)"]
+
+  - name: "Economic Team & Central Bank"
+    role: "pragmatist"
+    personality: >
+      Egypt's economic policymakers — the finance minister, central bank governor, and
+      planning ministry — approach the Suwalki crisis with deep anxiety. Egypt's economy
+      is structurally fragile: high debt-to-GDP ratio (exceeding 90%), persistent current
+      account deficits, a currency that has been devalued multiple times since 2022, and
+      an IMF program with strict conditionality. The economic team knows that a major
+      European war will send shockwaves through the Egyptian economy via multiple channels:
+      wheat and grain prices will spike (Egypt imports roughly 60% of its wheat), energy
+      prices will become volatile (Egypt is both a natural gas exporter and a fuel importer),
+      tourism revenue from European visitors will collapse (tourism contributes roughly
+      12% of GDP), Suez Canal revenue could be affected by trade rerouting, and foreign
+      investment will flee to safe havens. The 2022 Ukraine war provided a preview: Egypt
+      lost roughly $20 billion in foreign reserves, the pound collapsed from 15.7 to over
+      30 per dollar, and inflation exceeded 35%. The economic team fears the Suwalki crisis
+      could trigger an even worse repeat, potentially destabilizing the social contract that
+      keeps 105 million Egyptians fed through government bread subsidies. They are laser-
+      focused on securing emergency grain supplies, negotiating with the IMF for program
+      flexibility, and ensuring Gulf allies provide financial support. The economic team
+      is less concerned with geopolitics and more concerned with preventing a balance of
+      payments crisis that could force Egypt into default. They view the military's Russian
+      arms purchases with private concern — every dollar spent on Su-35 fighters is a
+      dollar not spent on wheat reserves — but they do not challenge the military's
+      prerogative publicly.
+    priorities:
+      - "Secure emergency wheat and grain reserves — diversify beyond Black Sea suppliers to India, France, Australia"
+      - "Negotiate IMF program flexibility to increase food subsidies without breaching fiscal targets"
+      - "Secure Gulf financial support — Saudi, UAE, Qatari deposits in Central Bank and direct budget support"
+      - "Stabilize the Egyptian pound — prevent another currency crisis that fuels inflation"
+      - "Protect Suez Canal revenue — any disruption to global shipping directly hits foreign currency earnings"
+      - "Maintain foreign investment flows — reassure investors that Egypt remains stable amid global crisis"
+      - "Advocate for international food security mechanisms — push G20 and World Bank for emergency grain financing"
+    red_lines:
+      - "Grain supply disruption lasting more than 60 days — Egypt's strategic wheat reserves cover approximately 4-5 months"
+      - "Global wheat prices exceeding $400/tonne for sustained period — this would blow apart Egypt's subsidy budget"
+      - "Gulf allies refusing financial support — Egypt's foreign reserves cannot absorb the shock alone"
+      - "IMF suspending disbursements over program non-compliance caused by crisis-driven emergency spending"
+      - "Suez Canal revenue declining more than 25% due to trade rerouting or conflict spillover"
+    voice: >
+      Technical, urgent, and focused on numbers rather than geopolitics. In cabinet
+      meetings: 'Mr. President, I must be blunt. Our strategic wheat reserves cover
+      four and a half months. If the Black Sea corridor is disrupted for longer than
+      that, we face a bread subsidy crisis. The 2022 shock cost us $20 billion in
+      reserves. We cannot survive a repeat. We need the grain agreement to hold,
+      regardless of what happens in the Baltics.' To international financial
+      institutions: 'Egypt requests emergency flexibility under the IMF program.
+      The Suwalki crisis represents an exogenous shock beyond Egypt's control. We
+      need additional SDR allocations and World Bank emergency food security
+      financing.' In private to the military leadership: 'Generals, with respect,
+      the Su-35 contract costs $2 billion. That is two years of wheat imports. I
+      am not questioning the military's judgment, but I am asking — can we defer
+      the delivery schedule? The treasury cannot fund both simultaneously if this
+      crisis persists.' To Gulf partners: 'We need $5 billion in central bank
+      deposits and $3 billion in direct budget support. This is not a request —
+      it is a necessity. If Egypt's economy collapses, the migration wave will
+      reach your shores.'
+    key_relationships:
+      allies: ["SA (financial support)", "AE (financial support)", "IMF (program partner)", "World Bank"]
+      rivals: ["Global commodity speculators", "Rating agencies threatening downgrade"]
