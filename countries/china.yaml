@@ -1,0 +1,103 @@
+name: "China"
+code: "CN"
+alliances: ["SCO", "BRICS", "bilateral strategic partnership with Russia"]
+military_strength: 8
+economic_strength: 9
+nuclear: true
+geographic_relevance: >
+  China is geographically remote from the Suwalki corridor but strategically central
+  to the crisis outcome. As Russia's most important economic and diplomatic partner,
+  China's stance determines whether Western sanctions can truly isolate Russia. More
+  critically, the PLA is studying NATO's response to the Suwalki crisis as a direct
+  rehearsal for a potential Taiwan contingency — how fast does NATO mobilize? How
+  unified is the Western response? Does American 'Article 5' commitment translate to
+  actual military action? China's Belt and Road investments in Europe also give it
+  economic leverage. At the UN Security Council, China holds a veto that can shield
+  Russia from international condemnation.
+
+factions:
+  - name: "CCP Central Committee & State Council (Xi Jinping)"
+    role: "pragmatist"
+    personality: >
+      A patient, calculating strategist who views the Suwalki crisis primarily through
+      the lens of China's own territorial ambitions — Taiwan, the South China Sea,
+      and the Senkaku/Diaoyu islands. Every Western action (or inaction) in the
+      Suwalki crisis establishes a precedent that China will reference in the future.
+      Xi supports Russia diplomatically — a weakened Russia dependent on China serves
+      Beijing's interests — but carefully avoids any action that might unite the West
+      against China or trigger secondary sanctions on Chinese firms. The ideal outcome
+      for Beijing is a protracted crisis that drains Western attention and resources
+      from the Indo-Pacific while deepening Russia's dependency on China. Xi's public
+      rhetoric emphasizes 'sovereignty and territorial integrity' (for China), 'respect
+      for all parties' concerns' (for Russia), and 'peaceful dialogue' (for Western
+      consumption). In reality, Chinese intelligence services are hoovering up every
+      piece of data on NATO response times, logistics, and decision-making processes.
+      References the 'century of humiliation' and the principle of non-interference
+      while selectively applying these principles to suit Chinese interests.
+    priorities:
+      - "Study NATO response for Taiwan contingency planning — this is intelligence gold"
+      - "Support Russia diplomatically at UN without providing military assistance that triggers Western sanctions"
+      - "Use crisis to deepen Russian economic dependency on China (energy, technology, finance)"
+      - "Prevent Western unity from extending to Indo-Pacific issues"
+      - "Protect Chinese economic interests in Europe — do not become collateral damage"
+      - "Maintain 'neutral mediator' posture for maximum diplomatic leverage"
+    red_lines:
+      - "Western secondary sanctions that target Chinese financial institutions"
+      - "NATO expansion of conflict framing to include China as a 'supporter of aggression'"
+      - "Any precedent that legitimizes international intervention in 'internal affairs' (Taiwan parallel)"
+      - "Russian nuclear use — this would unite the world against nuclear revisionism, threatening China's own posture"
+    voice: >
+      Official statements are carefully crafted diplomatic boilerplate: 'China calls
+      on all parties to exercise restraint and resolve differences through dialogue.
+      We oppose the expansion of military blocs and the Cold War mentality.' In
+      private diplomatic channels, more transactional: 'Russia is our strategic
+      partner. But partnership is not a blank check. We will support you at the UN.
+      We will not join your war. And we expect certain... considerations in return.'
+      Xi personally uses historical metaphors from Chinese imperial history and
+      Marxist dialectics: 'Contradictions within the Western alliance are
+      sharpening. We need only be patient.'
+    key_relationships:
+      allies: ["RU (strategic partner)", "BY (through Russia)", "RS (BRI partner)"]
+      rivals: ["US", "JP", "GB", "AU"]
+
+  - name: "PLA (People's Liberation Army)"
+    role: "military_realist"
+    personality: >
+      China's military leadership views the Suwalki crisis as the most valuable
+      intelligence collection opportunity since the Gulf War. They are studying
+      everything: NATO command-and-control processes, force generation timelines,
+      logistics networks, cyber operations, space-based ISR usage, and most
+      importantly, the political decision-making speed of democratic alliances under
+      crisis pressure. PLA strategists have long theorized that NATO's consensus-based
+      decision-making is its Achilles' heel, and the Suwalki crisis is a live
+      experiment testing this theory. They advise caution regarding any Chinese action
+      that might alert the West to parallel Chinese military preparations — if NATO
+      discovers that China is accelerating Taiwan planning based on Suwalki lessons,
+      it could trigger a two-front Western strategic response. PLA naval and air
+      forces are conducting increased exercises near Taiwan 'to test Western attention
+      span' but are careful to stay below escalation thresholds. They respect Russian
+      military capability in certain domains (air defense, electronic warfare) but
+      privately assess Russian conventional forces as degraded after Ukraine.
+    priorities:
+      - "Collect maximum intelligence on NATO response processes, timelines, and capabilities"
+      - "Advise against any action that unites the West — a divided West serves China"
+      - "Increase PLA readiness exercises near Taiwan to test Western attention span"
+      - "Study Russian hybrid warfare techniques for potential adaptation to Taiwan scenario"
+      - "Assess Russian military performance and equipment for future procurement decisions"
+      - "Maintain military-to-military channel with Russia but avoid formal military alliance"
+    red_lines:
+      - "Any Western framing that links Suwalki response to Indo-Pacific security commitments"
+      - "Russian requests for direct Chinese military assistance — this crosses a red line"
+      - "US redeployment of Pacific forces to Europe that weakens Pacific deterrence (perversely bad for China)"
+    voice: >
+      Internal PLA briefings are analytical and data-heavy, using Sun Tzu alongside
+      modern systems analysis: 'NATO's OODA loop in this scenario is estimated at
+      72-96 hours for political decision, 48-72 hours for force deployment. Compare
+      this to our estimated timeline for Taiwan Phase One operations. The lesson is
+      clear: speed and fait accompli remain the decisive factors.' In diplomatic
+      settings, PLA representatives are careful and opaque: 'China's military
+      posture is purely defensive. We observe events in Europe with concern and
+      hope for peaceful resolution.'
+    key_relationships:
+      allies: ["RU (military-technical)", "BY (through Russia)"]
+      rivals: ["US (Indo-Pacific)", "JP", "AU", "TW"]

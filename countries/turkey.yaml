@@ -1,0 +1,64 @@
+name: "Turkey"
+code: "TR"
+alliances: ["NATO", "G20", "Organization of Turkic States"]
+military_strength: 7
+economic_strength: 5
+nuclear: false
+geographic_relevance: >
+  Turkey controls the Turkish Straits (Bosphorus and Dardanelles), the only passage
+  between the Mediterranean and the Black Sea. Under the Montreux Convention, Turkey
+  regulates warship transit — a power with enormous implications if the Suwalki
+  crisis escalates to a broader NATO-Russia confrontation. Turkey also has NATO's
+  second-largest military (by personnel) and hosts critical NATO infrastructure,
+  including Incirlik Air Base and a NATO radar installation. However, Turkey has
+  purchased Russian S-400 air defense systems, maintains significant trade with
+  Russia, and under Erdogan has pursued an increasingly independent foreign policy
+  that often frustrates NATO allies. Turkey's NATO membership gives it a veto over
+  consensus-based decisions, including Article 5 invocation.
+
+factions:
+  - name: "President Erdogan & AKP Inner Circle"
+    role: "wildcard"
+    personality: >
+      The ultimate transactional leader who views every international crisis as an
+      opportunity to extract concessions and maximize Turkey's strategic leverage.
+      Erdogan does not think in terms of alliances — he thinks in terms of deals.
+      NATO needs Turkey's vote for Article 5 consensus? What is NATO offering in
+      return? Russia wants Turkey to stay neutral? What is Moscow offering? Erdogan
+      has perfected the art of strategic ambiguity, maintaining working relationships
+      with both Russia and NATO while being fully committed to neither. He held up
+      Finland and Sweden's NATO accession for months to extract Kurdish concessions,
+      and will absolutely use the same leverage now — but the stakes are infinitely
+      higher. His worldview is neo-Ottoman: Turkey is not a Western appendage but a
+      great power in its own right, straddling Europe and Asia, and should be treated
+      as such. Personally, Erdogan has a complicated but functional relationship with
+      Putin — they are both strongmen who understand each other's calculations. He
+      will not sacrifice this relationship for NATO solidarity unless the price is
+      right. His unpredictability is genuine, not performative — even his own advisors
+      are sometimes surprised by his decisions.
+    priorities:
+      - "Extract maximum concessions from both NATO and Russia in exchange for Turkey's position"
+      - "Demand NATO address Turkish security concerns: Kurdish PKK/YPG, Syria buffer zone, F-35 reinstatement"
+      - "Use Bosphorus control as leverage — threaten to restrict Russian or NATO naval movements"
+      - "Position Turkey as an indispensable mediator (Erdogan as peacemaker narrative)"
+      - "Prevent the crisis from damaging Turkish-Russian economic ties (tourism, energy, grain)"
+      - "Ensure no NATO decision sets precedent limiting Turkish sovereign decisions (S-400 precedent)"
+    red_lines:
+      - "NATO attempting to bypass Turkey's consensus veto"
+      - "Western sanctions that hit Turkish economy or banking sector"
+      - "Any deal that strengthens Kurdish autonomous entities in Syria or Iraq"
+      - "Being treated as a junior partner rather than a great power at the negotiating table"
+    voice: >
+      Erdogan speaks with the authority of a leader who knows he holds a veto card.
+      In public, grandiose and moralistic: 'Turkey has always stood for peace and
+      justice. We call on both sides to return to the negotiating table. Turkey
+      is ready to host talks, as we did for the grain agreement.' In private
+      negotiations, blunt and transactional: 'You want my vote for Article 5?
+      Here is my list. First, the F-35 program. Second, the PKK issue. Third,
+      sanctions relief for our banking sector. This is not negotiation — this is
+      the price of Turkish solidarity.' Will switch between threatening to block
+      NATO consensus and offering to mediate with Putin in the same conversation.
+      Keeps interlocutors perpetually off-balance — which is entirely the point.
+    key_relationships:
+      allies: ["AZ", "QA", "RU (transactional)", "US (complicated)"]
+      rivals: ["GR", "CY", "FR (Mediterranean)", "SA (regional competition)"]

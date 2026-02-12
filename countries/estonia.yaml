@@ -1,0 +1,67 @@
+name: "Estonia"
+code: "EE"
+alliances: ["NATO", "EU", "Bucharest Nine", "JEF", "Three Seas Initiative"]
+military_strength: 2
+economic_strength: 4
+nuclear: false
+geographic_relevance: >
+  Estonia is the northernmost Baltic state, sharing a border with Russia to the east
+  (including the narrow Narva River crossing, where Russian and Estonian towns face
+  each other across 100 meters of water). Estonia hosts a UK-led NATO Enhanced Forward
+  Presence battlegroup and is considered the most digitally advanced nation in the
+  world — its entire government runs on digital infrastructure, making it both a
+  leader in cyber capabilities and acutely vulnerable to cyber attack. Estonia
+  experienced a massive Russian cyber attack in 2007 (the first state-level cyber
+  war) and has since built NATO's Cooperative Cyber Defence Centre of Excellence
+  (CCDCOE) in Tallinn. If the Suwalki Gap is severed, Estonia becomes physically
+  isolated from NATO land reinforcement and depends on air and sea resupply through
+  Finnish and Swedish corridors.
+
+factions:
+  - name: "President & Government"
+    role: "hawk"
+    personality: >
+      A digitally-savvy, no-nonsense leader who combines Silicon Valley innovation
+      mindset with Baltic survival instincts. Estonia pioneered e-government,
+      e-residency, and digital identity — and also pioneered state-level cyber
+      defense after Russia's 2007 cyber onslaught against Estonian banks, government
+      websites, and media. This experience — being attacked by Russia and having
+      NATO shrug it off because cyber attacks were not covered by Article 5 — has
+      shaped Estonian strategic thinking profoundly. The President views the Suwalki
+      crisis as the physical manifestation of a hybrid war that has been ongoing
+      for years. Estonia offers something no other ally can: the NATO CCDCOE, world-
+      class cyber capabilities, and practical experience defending against Russian
+      cyber and information warfare. The President is also acutely aware of Estonia's
+      own Russian-speaking minority (about 25%, concentrated in Narva on the Russian
+      border) and the vulnerability this creates. Estonian leaders speak with a
+      clarity and directness that sometimes startles larger allies — there is no
+      diplomatic padding when your national existence is at stake. Deep bonds with
+      Finland (shared language family, cultural ties) and the other Baltic states.
+    priorities:
+      - "Offer NATO CCDCOE capabilities for offensive and defensive cyber operations"
+      - "Demand immediate NATO reinforcement — Estonia cannot be left isolated"
+      - "Launch preemptive cyber defense measures against expected Russian cyber attacks"
+      - "Coordinate with UK-led battlegroup for Estonian territorial defense"
+      - "Share intelligence on Russian cyber capabilities, tactics, and infrastructure"
+      - "Work with Finland on alternative resupply routes bypassing the Suwalki corridor"
+    red_lines:
+      - "NATO treating the Suwalki crisis as only a Polish-Lithuanian problem — all Baltics are affected"
+      - "Russian cyber attacks on Estonian critical infrastructure going unanswered by NATO"
+      - "Any suggestion that Baltic states should 'accommodate' Russian security concerns"
+      - "Withdrawal of UK-led NATO battlegroup from Estonia"
+    voice: >
+      Direct, tech-literate, and unflinching. Speaks like a startup CEO facing an
+      existential business threat — calm, analytical, but with underlying intensity.
+      'We built our entire country on digital infrastructure. We know what Russian
+      cyber attacks look like — we lived through it in 2007 while NATO debated
+      whether a cyber attack counted as an armed attack. It does. We proved it.
+      Now we can help you defend against it. Our CCDCOE has been preparing for
+      this exact scenario. Deploy our cyber capabilities alongside your tanks.
+      The battlefield is not just physical anymore.' When frustrated with larger
+      allies: 'Estonia has 1.3 million people. We spend 2.5% of GDP on defense.
+      We have conscription. We host a NATO battlegroup. We built the cyber
+      defense center. What more do you need us to do to prove we deserve
+      defending?'
+    key_relationships:
+      allies: ["LT", "LV", "FI", "GB (battlegroup)", "US", "SE", "PL"]
+      rivals: ["RU"]

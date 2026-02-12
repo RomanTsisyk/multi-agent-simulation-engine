@@ -1,0 +1,29 @@
+game:
+  name: "Suwalki Gap Crisis"
+  scenario: "scenarios/suwalki_gap.yaml"
+  rounds: 10
+  countries_dir: "countries"
+  logs_dir: "logs"
+
+llm:
+  backend: "ollama"  # "ollama" or "deepseek"
+
+  ollama:
+    base_url: "http://localhost:11434"
+    model: "deepseek-r1:32b"
+    temperature: 0.7
+    timeout: 300  # seconds, generous for local models
+    num_ctx: 16384  # context window size -- prevents silent prompt truncation
+
+  deepseek:
+    base_url: "https://api.deepseek.com/v1"
+    model: "deepseek-reasoner"  # or "deepseek-chat"
+    temperature: 0.7
+    # API key from DEEPSEEK_API_KEY env var
+
+debate:
+  rounds: 3  # internal faction debate rounds
+  max_tokens_per_response: 500
+
+game_master:
+  max_tokens: 2000  # GM needs more tokens for resolution

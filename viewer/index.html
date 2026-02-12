@@ -1,0 +1,1417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WarGame Viewer - Suwalki Gap Crisis</title>
+<style>
+/* ================================================================
+   CSS: Dark theme wargame viewer
+   ================================================================ */
+
+:root {
+  --bg-primary: #0d1117;
+  --bg-secondary: #161b22;
+  --bg-tertiary: #21262d;
+  --bg-hover: #30363d;
+  --border: #30363d;
+  --border-light: #484f58;
+  --text-primary: #e6edf3;
+  --text-secondary: #8b949e;
+  --text-muted: #6e7681;
+  --accent-blue: #58a6ff;
+  --accent-green: #3fb950;
+  --accent-red: #f85149;
+  --accent-orange: #d29922;
+  --accent-purple: #bc8cff;
+  --accent-cyan: #39d2c0;
+  --accent-yellow: #e3b341;
+  --shadow: rgba(0, 0, 0, 0.4);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* ---- Header ---- */
+
+.header {
+  background: linear-gradient(135deg, #1a1e2e 0%, #0d1117 100%);
+  border-bottom: 1px solid var(--border);
+  padding: 20px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.header-title h1 {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: 0.5px;
+}
+
+.header-title .subtitle {
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-top: 2px;
+}
+
+.header-badge {
+  background: var(--accent-red);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 10px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+/* ---- Load Controls ---- */
+
+.load-controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg-tertiary);
+  color: var(--text-primary);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.btn:hover {
+  background: var(--bg-hover);
+  border-color: var(--border-light);
+}
+
+.btn-primary {
+  background: #1f6feb;
+  border-color: #1f6feb;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: #388bfd;
+}
+
+.file-input-hidden {
+  display: none;
+}
+
+.loaded-info {
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+/* ---- Layout ---- */
+
+.main-container {
+  display: flex;
+  min-height: calc(100vh - 80px);
+}
+
+/* ---- Round sidebar ---- */
+
+.round-sidebar {
+  width: 220px;
+  min-width: 220px;
+  background: var(--bg-secondary);
+  border-right: 1px solid var(--border);
+  padding: 16px 0;
+  overflow-y: auto;
+}
+
+.sidebar-header {
+  padding: 0 16px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.round-tab {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 16px;
+  cursor: pointer;
+  border-left: 3px solid transparent;
+  transition: all 0.15s ease;
+  font-size: 14px;
+}
+
+.round-tab:hover {
+  background: var(--bg-tertiary);
+}
+
+.round-tab.active {
+  background: var(--bg-tertiary);
+  border-left-color: var(--accent-blue);
+  color: var(--accent-blue);
+}
+
+.round-tab .round-num {
+  font-weight: 600;
+  min-width: 32px;
+}
+
+.round-tab .round-time {
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+/* ---- Content area ---- */
+
+.content-area {
+  flex: 1;
+  padding: 24px;
+  overflow-y: auto;
+  max-width: 1100px;
+}
+
+/* ---- Empty state ---- */
+
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  text-align: center;
+  gap: 16px;
+}
+
+.empty-state .icon {
+  font-size: 64px;
+  opacity: 0.6;
+}
+
+.empty-state h2 {
+  font-size: 20px;
+  color: var(--text-secondary);
+}
+
+.empty-state p {
+  font-size: 14px;
+  color: var(--text-muted);
+  max-width: 400px;
+}
+
+/* ---- Sections ---- */
+
+.section {
+  margin-bottom: 24px;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 8px 8px 0 0;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.15s;
+}
+
+.section-header:hover {
+  background: var(--bg-tertiary);
+}
+
+.section-header .toggle-icon {
+  font-size: 12px;
+  color: var(--text-muted);
+  transition: transform 0.2s;
+}
+
+.section-header.collapsed .toggle-icon {
+  transform: rotate(-90deg);
+}
+
+.section-header h3 {
+  font-size: 15px;
+  font-weight: 600;
+  flex: 1;
+}
+
+.section-header .badge {
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 10px;
+  background: var(--bg-tertiary);
+  color: var(--text-secondary);
+}
+
+.section-body {
+  border: 1px solid var(--border);
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+  padding: 16px;
+  background: var(--bg-primary);
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.section-body.hidden {
+  display: none;
+}
+
+/* ---- Situation Briefing ---- */
+
+.briefing-text {
+  white-space: pre-wrap;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--text-primary);
+}
+
+/* ---- Country Debates ---- */
+
+.country-block {
+  margin-bottom: 20px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.country-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  background: var(--bg-secondary);
+  cursor: pointer;
+  user-select: none;
+}
+
+.country-header:hover {
+  background: var(--bg-tertiary);
+}
+
+.country-flag {
+  font-size: 22px;
+}
+
+.country-name {
+  font-weight: 600;
+  font-size: 15px;
+  flex: 1;
+}
+
+.country-code {
+  font-size: 12px;
+  color: var(--text-muted);
+  font-family: monospace;
+}
+
+.country-body {
+  padding: 16px;
+}
+
+.country-body.hidden {
+  display: none;
+}
+
+/* ---- Debate entries ---- */
+
+.debate-round-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent-blue);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 16px 0 8px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--border);
+}
+
+.debate-round-label:first-child {
+  margin-top: 0;
+}
+
+.debate-entry {
+  margin-bottom: 12px;
+  padding: 12px;
+  background: var(--bg-secondary);
+  border-radius: 6px;
+  border-left: 3px solid var(--accent-purple);
+}
+
+.debate-entry .faction-name {
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--accent-cyan);
+  margin-bottom: 2px;
+}
+
+.debate-entry .faction-role {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+
+.debate-entry .faction-content {
+  font-size: 13px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  color: var(--text-primary);
+}
+
+/* Role-specific border colors */
+.debate-entry.role-hawk { border-left-color: var(--accent-red); }
+.debate-entry.role-diplomat { border-left-color: var(--accent-blue); }
+.debate-entry.role-military_realist { border-left-color: var(--accent-orange); }
+.debate-entry.role-economic { border-left-color: var(--accent-green); }
+.debate-entry.role-intelligence { border-left-color: var(--accent-purple); }
+.debate-entry.role-dove { border-left-color: var(--accent-cyan); }
+
+/* ---- Decision block ---- */
+
+.decision-block {
+  margin-top: 12px;
+  padding: 12px;
+  background: rgba(31, 111, 235, 0.08);
+  border: 1px solid rgba(31, 111, 235, 0.2);
+  border-radius: 6px;
+}
+
+.decision-block h4 {
+  font-size: 13px;
+  color: var(--accent-blue);
+  margin-bottom: 6px;
+}
+
+.decision-block .decision-text {
+  font-size: 13px;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+
+.decision-block .action-list {
+  list-style: none;
+  padding: 0;
+}
+
+.decision-block .action-list li {
+  padding: 4px 0 4px 16px;
+  position: relative;
+  font-size: 13px;
+}
+
+.decision-block .action-list li::before {
+  content: "\25B8";
+  position: absolute;
+  left: 0;
+  color: var(--accent-blue);
+}
+
+.dissent-text {
+  margin-top: 8px;
+  font-size: 12px;
+  color: var(--accent-orange);
+  font-style: italic;
+}
+
+/* ---- GM Resolution ---- */
+
+.narrative-text {
+  white-space: pre-wrap;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--text-primary);
+  padding: 12px;
+  background: var(--bg-secondary);
+  border-radius: 6px;
+}
+
+/* ---- Headlines ---- */
+
+.headline-list {
+  list-style: none;
+  padding: 0;
+}
+
+.headline-list li {
+  padding: 8px 12px;
+  margin-bottom: 4px;
+  background: var(--bg-secondary);
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  border-left: 3px solid var(--accent-yellow);
+}
+
+/* ---- World State Table ---- */
+
+.state-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.state-table th {
+  text-align: left;
+  padding: 8px 12px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.state-table td {
+  padding: 8px 12px;
+  border: 1px solid var(--border);
+  vertical-align: top;
+}
+
+.state-table tr:hover td {
+  background: var(--bg-secondary);
+}
+
+.metric-label {
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.metric-value {
+  color: var(--text-primary);
+}
+
+.metric-value.positive { color: var(--accent-green); }
+.metric-value.negative { color: var(--accent-red); }
+
+/* ---- Public Opinion Bar ---- */
+
+.opinion-bar-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 4px 0;
+}
+
+.opinion-bar-label {
+  font-size: 12px;
+  color: var(--text-secondary);
+  min-width: 40px;
+}
+
+.opinion-bar-track {
+  flex: 1;
+  height: 8px;
+  background: var(--bg-tertiary);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.opinion-bar-fill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.opinion-bar-value {
+  font-size: 12px;
+  font-weight: 600;
+  min-width: 30px;
+  text-align: right;
+}
+
+/* ---- Dashboard ---- */
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.dash-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.dash-card h3 {
+  font-size: 13px;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 12px;
+}
+
+.dash-card.full-width {
+  grid-column: 1 / -1;
+}
+
+.chart-container {
+  position: relative;
+  height: 180px;
+}
+
+.chart-svg {
+  width: 100%;
+  height: 100%;
+}
+
+.chart-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 8px;
+  font-size: 11px;
+}
+
+.chart-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--text-secondary);
+}
+
+.chart-legend-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.dash-stat {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 13px;
+}
+
+.dash-stat:last-child {
+  border-bottom: none;
+}
+
+.dash-stat-label {
+  color: var(--text-secondary);
+}
+
+.dash-stat-value {
+  font-weight: 600;
+}
+
+.game-status-live {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: var(--accent-green);
+  font-weight: 600;
+}
+
+.game-status-live::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent-green);
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+.game-status-done {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+/* ---- Responsive ---- */
+
+@media (max-width: 768px) {
+  .main-container {
+    flex-direction: column;
+  }
+  .round-sidebar {
+    width: 100%;
+    min-width: unset;
+    max-height: 200px;
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px;
+    gap: 4px;
+  }
+  .sidebar-header {
+    width: 100%;
+    padding: 4px 8px;
+  }
+  .round-tab {
+    padding: 6px 12px;
+    border-left: none;
+    border-bottom: 2px solid transparent;
+    border-radius: 4px;
+  }
+  .round-tab.active {
+    border-left: none;
+    border-bottom-color: var(--accent-blue);
+  }
+  .content-area {
+    padding: 16px;
+  }
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- ================================================================
+     HTML Structure
+     ================================================================ -->
+
+<div class="header">
+  <div class="header-title">
+    <div>
+      <h1>WarGame Viewer</h1>
+      <div class="subtitle">Suwalki Gap Crisis Simulation - Round Timeline</div>
+    </div>
+    <span class="header-badge">CLASSIFIED</span>
+  </div>
+  <div class="load-controls">
+    <select class="btn" id="gameSelect" style="min-width: 200px;">
+      <option value="">-- Select Game --</option>
+    </select>
+    <button class="btn btn-primary" id="loadFilesBtn">Load Round Files</button>
+    <button class="btn" id="loadFolderBtn">Load Game Folder</button>
+    <input type="file" id="fileInput" class="file-input-hidden" accept=".json" multiple>
+    <input type="file" id="folderInput" class="file-input-hidden" webkitdirectory multiple>
+    <label class="btn" id="autoRefreshLabel" style="cursor: pointer; font-size: 12px;">
+      <input type="checkbox" id="autoRefreshToggle" checked style="margin-right: 4px;"> Auto-refresh
+    </label>
+    <span class="loaded-info" id="loadedInfo"></span>
+  </div>
+</div>
+
+<div class="main-container">
+  <div class="round-sidebar" id="roundSidebar">
+    <div class="sidebar-header">Rounds</div>
+    <div class="round-tab" id="dashboardTab" style="border-left-color: var(--accent-purple); font-weight: 600;">
+      <span class="round-num">Dashboard</span>
+    </div>
+    <div id="roundTabs"></div>
+  </div>
+  <div class="content-area" id="contentArea">
+    <div class="empty-state" id="emptyState">
+      <div class="icon">&#127758;</div>
+      <h2>No Game Data Loaded</h2>
+      <p>If running via <code>python3 serve.py</code>, games load automatically. Otherwise click "Load Round Files" to select JSON files manually.</p>
+    </div>
+    <div id="dashboardContent" style="display: none;"></div>
+    <div id="roundContent" style="display: none;"></div>
+  </div>
+</div>
+
+<!-- ================================================================
+     JavaScript
+     ================================================================ -->
+<script>
+(function() {
+  "use strict";
+
+  // ---- Country flag mapping ----
+  var FLAGS = {
+    PL: "\uD83C\uDDF5\uD83C\uDDF1", RU: "\uD83C\uDDF7\uD83C\uDDFA",
+    US: "\uD83C\uDDFA\uD83C\uDDF8", DE: "\uD83C\uDDE9\uD83C\uDDEA",
+    FR: "\uD83C\uDDEB\uD83C\uDDF7", CN: "\uD83C\uDDE8\uD83C\uDDF3",
+    UA: "\uD83C\uDDFA\uD83C\uDDE6", GB: "\uD83C\uDDEC\uD83C\uDDE7",
+    TR: "\uD83C\uDDF9\uD83C\uDDF7", JP: "\uD83C\uDDEF\uD83C\uDDF5",
+    FI: "\uD83C\uDDEB\uD83C\uDDEE", LT: "\uD83C\uDDF1\uD83C\uDDF9",
+    LV: "\uD83C\uDDF1\uD83C\uDDFB", EE: "\uD83C\uDDEA\uD83C\uDDEA",
+    SE: "\uD83C\uDDF8\uD83C\uDDEA", BY: "\uD83C\uDDE7\uD83C\uDDFE",
+    IN: "\uD83C\uDDEE\uD83C\uDDF3", SA: "\uD83C\uDDF8\uD83C\uDDE6",
+    IL: "\uD83C\uDDEE\uD83C\uDDF1", RS: "\uD83C\uDDF7\uD83C\uDDF8",
+    CA: "\uD83C\uDDE8\uD83C\uDDE6", NO: "\uD83C\uDDF3\uD83C\uDDF4",
+  };
+  var COUNTRY_COLORS = {
+    PL: "#dc3545", RU: "#6f42c1", US: "#0d6efd", DE: "#ffc107",
+    FR: "#0dcaf0", CN: "#e35d6a", UA: "#198754", GB: "#6610f2",
+    TR: "#fd7e14", JP: "#d63384", FI: "#20c997", LT: "#adb5bd",
+    LV: "#87603e", EE: "#0aa2c0", SE: "#4f9d69", BY: "#7c5a2e",
+    IN: "#ff6b35", SA: "#2d6a4f", IL: "#4361ee", RS: "#9b2226",
+    CA: "#e63946", NO: "#457b9d",
+  };
+
+  function getFlag(code) { return FLAGS[code] || "\uD83C\uDFF4"; }
+  function getColor(code) { return COUNTRY_COLORS[code] || "#8b949e"; }
+
+  // ---- State ----
+  var rounds = {};
+  var gameSummary = null;
+  var activeRound = null;
+  var activeView = null; // "dashboard" or round number
+  var currentGameName = null;
+  var serverMode = false;
+  var autoRefreshTimer = null;
+
+  // ---- DOM refs ----
+  var fileInput = document.getElementById("fileInput");
+  var folderInput = document.getElementById("folderInput");
+  var loadFilesBtn = document.getElementById("loadFilesBtn");
+  var loadFolderBtn = document.getElementById("loadFolderBtn");
+  var loadedInfo = document.getElementById("loadedInfo");
+  var roundTabsEl = document.getElementById("roundTabs");
+  var emptyState = document.getElementById("emptyState");
+  var roundContent = document.getElementById("roundContent");
+  var dashboardContent = document.getElementById("dashboardContent");
+  var gameSelect = document.getElementById("gameSelect");
+  var dashboardTab = document.getElementById("dashboardTab");
+  var autoRefreshToggle = document.getElementById("autoRefreshToggle");
+
+  // ---- Event listeners ----
+  loadFilesBtn.addEventListener("click", function() { fileInput.click(); });
+  loadFolderBtn.addEventListener("click", function() { folderInput.click(); });
+  dashboardTab.addEventListener("click", function() { showDashboard(); });
+
+  fileInput.addEventListener("change", function(e) { handleFiles(Array.from(e.target.files)); });
+  folderInput.addEventListener("change", function(e) {
+    var all = Array.from(e.target.files);
+    handleFiles(all.filter(function(f) { return f.name.endsWith(".json"); }));
+  });
+
+  gameSelect.addEventListener("change", function() {
+    var name = gameSelect.value;
+    if (name) loadGameFromServer(name);
+  });
+
+  autoRefreshToggle.addEventListener("change", function() {
+    if (autoRefreshToggle.checked && serverMode && currentGameName) {
+      startAutoRefresh();
+    } else {
+      stopAutoRefresh();
+    }
+  });
+
+  // ---- File loading (manual) ----
+  function handleFiles(files) {
+    if (!files.length) return;
+    var promises = files.map(function(file) {
+      return file.text().then(function(text) {
+        try {
+          var data = JSON.parse(text);
+          if (file.name === "game_summary.json") { gameSummary = data; return; }
+          var num = data.round || extractRoundNum(file.name);
+          if (num) rounds[num] = data;
+        } catch (err) { console.warn("Parse error: " + file.name, err); }
+      });
+    });
+    Promise.all(promises).then(function() { onDataLoaded(); });
+  }
+
+  function extractRoundNum(fn) {
+    var m = fn.match(/round[_\-]?(\d+)/i);
+    return m ? parseInt(m[1], 10) : null;
+  }
+
+  // ---- Server loading (auto) ----
+  function tryServerConnect() {
+    fetch("/api/games").then(function(r) { return r.json(); }).then(function(games) {
+      serverMode = true;
+      gameSelect.innerHTML = '<option value="">-- Select Game --</option>';
+      games.forEach(function(g) {
+        var opt = document.createElement("option");
+        opt.value = g.name;
+        opt.textContent = g.name + " (" + g.round_count + " rounds)";
+        gameSelect.appendChild(opt);
+      });
+      // Auto-select latest game
+      if (games.length > 0) {
+        var latest = games[0].name;
+        gameSelect.value = latest;
+        loadGameFromServer(latest);
+      }
+    }).catch(function() {
+      // Not running via serve.py — file:// mode
+      serverMode = false;
+    });
+  }
+
+  function loadGameFromServer(name) {
+    currentGameName = name;
+    fetch("/api/game/" + name).then(function(r) { return r.json(); }).then(function(data) {
+      rounds = {};
+      gameSummary = data.summary;
+      data.rounds.forEach(function(rd) {
+        var num = rd.round;
+        if (num) rounds[num] = rd;
+      });
+      onDataLoaded();
+      if (autoRefreshToggle.checked) startAutoRefresh();
+    }).catch(function(err) { console.error("Load game error:", err); });
+  }
+
+  function startAutoRefresh() {
+    stopAutoRefresh();
+    autoRefreshTimer = setInterval(function() {
+      if (!currentGameName) return;
+      fetch("/api/games").then(function(r) { return r.json(); }).then(function(games) {
+        var g = games.find(function(x) { return x.name === currentGameName; });
+        if (!g) return;
+        // Update game selector round counts
+        var opts = gameSelect.options;
+        for (var i = 0; i < opts.length; i++) {
+          var gm = games.find(function(x) { return x.name === opts[i].value; });
+          if (gm) opts[i].textContent = gm.name + " (" + gm.round_count + " rounds)";
+        }
+        var currentCount = Object.keys(rounds).length;
+        if (g.round_count > currentCount) {
+          loadGameFromServer(currentGameName);
+        } else if (g.has_summary && !gameSummary) {
+          fetch("/api/summary/" + currentGameName).then(function(r) { return r.json(); })
+            .then(function(s) { gameSummary = s; if (activeView === "dashboard") showDashboard(); });
+        }
+      });
+    }, 15000);
+  }
+
+  function stopAutoRefresh() {
+    if (autoRefreshTimer) { clearInterval(autoRefreshTimer); autoRefreshTimer = null; }
+  }
+
+  // ---- Data loaded callback ----
+  function onDataLoaded() {
+    var count = Object.keys(rounds).length;
+    var status = gameSummary
+      ? '<span class="game-status-done">Complete</span>'
+      : '<span class="game-status-live">LIVE</span>';
+    loadedInfo.innerHTML = count + " round" + (count !== 1 ? "s" : "") + " " + status;
+    buildRoundTabs();
+    if (count > 0 && !activeView) {
+      showDashboard();
+    } else if (activeView === "dashboard") {
+      showDashboard();
+    }
+  }
+
+  // ---- Build sidebar ----
+  function buildRoundTabs() {
+    roundTabsEl.innerHTML = "";
+    var sorted = Object.keys(rounds).map(Number).sort(function(a, b) { return a - b; });
+    sorted.forEach(function(num) {
+      var data = rounds[num];
+      var tab = document.createElement("div");
+      tab.className = "round-tab" + (activeView === num ? " active" : "");
+      tab.innerHTML = '<span class="round-num">R' + num + '</span>' +
+        '<span class="round-time">' + escapeHtml(data.game_time || "") + '</span>';
+      tab.addEventListener("click", function() { selectRound(num); });
+      roundTabsEl.appendChild(tab);
+    });
+    // Update dashboard tab active state
+    dashboardTab.className = "round-tab" + (activeView === "dashboard" ? " active" : "");
+  }
+
+  // ---- Show dashboard ----
+  function showDashboard() {
+    activeView = "dashboard";
+    activeRound = null;
+    buildRoundTabs();
+    emptyState.style.display = "none";
+    roundContent.style.display = "none";
+    dashboardContent.style.display = "block";
+    renderDashboard();
+  }
+
+  // ---- Select round ----
+  function selectRound(num) {
+    activeView = num;
+    activeRound = num;
+    buildRoundTabs();
+    emptyState.style.display = "none";
+    dashboardContent.style.display = "none";
+    roundContent.style.display = "block";
+    renderRound(rounds[num]);
+  }
+
+  // ======================================================================
+  // Dashboard rendering
+  // ======================================================================
+  function renderDashboard() {
+    var sorted = Object.keys(rounds).map(Number).sort(function(a, b) { return a - b; });
+    if (sorted.length === 0) {
+      dashboardContent.innerHTML = '<div class="empty-state"><h2>Waiting for first round...</h2></div>';
+      return;
+    }
+    var html = '<h2 style="margin-bottom: 20px; color: var(--accent-blue);">Game Dashboard</h2>';
+
+    // Summary stats row
+    var lastRound = rounds[sorted[sorted.length - 1]];
+    var lastWs = lastRound.world_state || lastRound.world_state_after || {};
+    html += '<div class="dashboard-grid">';
+
+    // Card: game info
+    html += '<div class="dash-card">';
+    html += '<h3>Game Status</h3>';
+    html += '<div class="dash-stat"><span class="dash-stat-label">Rounds</span><span class="dash-stat-value">' + sorted.length + (gameSummary ? ' / ' + (gameSummary.total_rounds || '?') : ' (in progress)') + '</span></div>';
+    html += '<div class="dash-stat"><span class="dash-stat-label">Game Time</span><span class="dash-stat-value">' + escapeHtml(lastWs.game_time || "?") + '</span></div>';
+    html += '<div class="dash-stat"><span class="dash-stat-label">NATO Alert</span><span class="dash-stat-value" style="color:' + alertColor(lastWs.nato_alert_level) + '">' + escapeHtml((lastWs.nato_alert_level || "?").toUpperCase()) + '</span></div>';
+    if (gameSummary && gameSummary.total_time_seconds) {
+      var mins = Math.round(gameSummary.total_time_seconds / 60);
+      html += '<div class="dash-stat"><span class="dash-stat-label">Total Time</span><span class="dash-stat-value">' + mins + ' min</span></div>';
+    }
+    html += '</div>';
+
+    // Card: markets
+    html += '<div class="dash-card">';
+    html += '<h3>Markets (Latest)</h3>';
+    var mkts = lastWs.markets || {};
+    for (var mk in mkts) {
+      if (mkts.hasOwnProperty(mk)) {
+        html += '<div class="dash-stat"><span class="dash-stat-label">' + escapeHtml(mk) + '</span><span class="dash-stat-value">' + escapeHtml(String(mkts[mk])) + '</span></div>';
+      }
+    }
+    html += '</div>';
+
+    // Card: War Support chart (full width)
+    html += '<div class="dash-card full-width">';
+    html += '<h3>War Support by Country (across rounds)</h3>';
+    html += renderLineChart(sorted, "war_support");
+    html += '</div>';
+
+    // Card: Oil price chart
+    html += '<div class="dash-card">';
+    html += '<h3>Oil Price Trend</h3>';
+    html += renderSingleLineChart(sorted, function(ws) {
+      return (ws.markets || {}).oil_price;
+    }, "var(--accent-orange)", "$");
+    html += '</div>';
+
+    // Card: Total actions per round
+    html += '<div class="dash-card">';
+    html += '<h3>Actions per Round</h3>';
+    html += renderBarChart(sorted);
+    html += '</div>';
+
+    // Card: Latest headlines (full width)
+    var allHeadlines = [];
+    sorted.forEach(function(num) {
+      var rd = rounds[num];
+      var gm = rd.game_master || rd.resolution || {};
+      var hls = gm.headlines || rd.headlines || [];
+      hls.forEach(function(h) { allHeadlines.push({ round: num, text: h }); });
+    });
+    if (allHeadlines.length > 0) {
+      html += '<div class="dash-card full-width">';
+      html += '<h3>All Headlines</h3>';
+      html += '<ul class="headline-list">';
+      allHeadlines.slice(-10).reverse().forEach(function(h) {
+        html += '<li><span style="color: var(--text-muted); font-size: 11px;">R' + h.round + '</span> ' + escapeHtml(h.text) + '</li>';
+      });
+      html += '</ul></div>';
+    }
+
+    html += '</div>'; // end grid
+    dashboardContent.innerHTML = html;
+  }
+
+  // ---- SVG Line Chart for war_support ----
+  function renderLineChart(sortedRounds, field) {
+    // Collect all countries that have data
+    var countryData = {};
+    sortedRounds.forEach(function(num) {
+      var ws = rounds[num].world_state || rounds[num].world_state_after || {};
+      var po = ws.public_opinion || {};
+      for (var c in po) {
+        if (po.hasOwnProperty(c) && po[c][field] !== undefined) {
+          if (!countryData[c]) countryData[c] = [];
+          countryData[c].push({ round: num, value: po[c][field] });
+        }
+      }
+    });
+    var countries = Object.keys(countryData).sort();
+    if (countries.length === 0) return '<div style="color: var(--text-muted);">No data yet</div>';
+
+    var W = 600, H = 160, PAD = 30;
+    var xMin = sortedRounds[0], xMax = sortedRounds[sortedRounds.length - 1];
+    if (xMin === xMax) xMax = xMin + 1;
+    var yMin = 0, yMax = 100;
+
+    function sx(v) { return PAD + (v - xMin) / (xMax - xMin) * (W - PAD * 2); }
+    function sy(v) { return H - PAD - (v - yMin) / (yMax - yMin) * (H - PAD * 2); }
+
+    var svg = '<svg class="chart-svg" viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="xMidYMid meet">';
+    // Grid lines
+    for (var g = 0; g <= 100; g += 25) {
+      var gy = sy(g);
+      svg += '<line x1="' + PAD + '" y1="' + gy + '" x2="' + (W - PAD) + '" y2="' + gy + '" stroke="#30363d" stroke-width="0.5"/>';
+      svg += '<text x="' + (PAD - 4) + '" y="' + (gy + 3) + '" fill="#6e7681" font-size="9" text-anchor="end">' + g + '%</text>';
+    }
+    // X axis labels
+    sortedRounds.forEach(function(num) {
+      svg += '<text x="' + sx(num) + '" y="' + (H - 5) + '" fill="#6e7681" font-size="9" text-anchor="middle">R' + num + '</text>';
+    });
+    // Lines
+    countries.forEach(function(c) {
+      var pts = countryData[c];
+      var color = getColor(c);
+      var d = pts.map(function(p, i) { return (i === 0 ? "M" : "L") + sx(p.round) + "," + sy(p.value); }).join(" ");
+      svg += '<path d="' + d + '" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>';
+      // Dots
+      pts.forEach(function(p) {
+        svg += '<circle cx="' + sx(p.round) + '" cy="' + sy(p.value) + '" r="3" fill="' + color + '"/>';
+      });
+    });
+    svg += '</svg>';
+    // Legend
+    svg += '<div class="chart-legend">';
+    countries.forEach(function(c) {
+      svg += '<div class="chart-legend-item"><span class="chart-legend-dot" style="background:' + getColor(c) + '"></span>' + getFlag(c) + ' ' + c + '</div>';
+    });
+    svg += '</div>';
+    return '<div class="chart-container">' + svg + '</div>';
+  }
+
+  // ---- Single value line chart ----
+  function renderSingleLineChart(sortedRounds, valueFn, color, prefix) {
+    var pts = [];
+    sortedRounds.forEach(function(num) {
+      var ws = rounds[num].world_state || rounds[num].world_state_after || {};
+      var v = valueFn(ws);
+      if (v !== undefined && v !== null && typeof v === "number") pts.push({ round: num, value: v });
+    });
+    if (pts.length === 0) return '<div style="color: var(--text-muted);">No data yet</div>';
+
+    var W = 280, H = 120, PAD = 35;
+    var xMin = sortedRounds[0], xMax = sortedRounds[sortedRounds.length - 1];
+    if (xMin === xMax) xMax = xMin + 1;
+    var vals = pts.map(function(p) { return p.value; });
+    var yMin = Math.floor(Math.min.apply(null, vals) * 0.95);
+    var yMax = Math.ceil(Math.max.apply(null, vals) * 1.05);
+    if (yMin === yMax) yMax = yMin + 10;
+
+    function sx(v) { return PAD + (v - xMin) / (xMax - xMin) * (W - PAD * 2); }
+    function sy(v) { return H - PAD - (v - yMin) / (yMax - yMin) * (H - PAD * 2); }
+
+    var svg = '<svg class="chart-svg" viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="xMidYMid meet">';
+    // Y axis
+    var steps = 4;
+    for (var i = 0; i <= steps; i++) {
+      var yv = yMin + (yMax - yMin) * i / steps;
+      var yp = sy(yv);
+      svg += '<line x1="' + PAD + '" y1="' + yp + '" x2="' + (W - 5) + '" y2="' + yp + '" stroke="#30363d" stroke-width="0.5"/>';
+      svg += '<text x="' + (PAD - 3) + '" y="' + (yp + 3) + '" fill="#6e7681" font-size="8" text-anchor="end">' + (prefix || "") + Math.round(yv) + '</text>';
+    }
+    // Line
+    var d = pts.map(function(p, j) { return (j === 0 ? "M" : "L") + sx(p.round) + "," + sy(p.value); }).join(" ");
+    svg += '<path d="' + d + '" fill="none" stroke="' + color + '" stroke-width="2"/>';
+    pts.forEach(function(p) {
+      svg += '<circle cx="' + sx(p.round) + '" cy="' + sy(p.value) + '" r="3" fill="' + color + '"/>';
+    });
+    svg += '</svg>';
+    return '<div class="chart-container" style="height: 120px;">' + svg + '</div>';
+  }
+
+  // ---- Bar chart: actions per round ----
+  function renderBarChart(sortedRounds) {
+    var data = [];
+    sortedRounds.forEach(function(num) {
+      var rd = rounds[num];
+      var total = 0;
+      (rd.country_decisions || []).forEach(function(cd) { total += (cd.actions || []).length; });
+      data.push({ round: num, value: total });
+    });
+    if (data.length === 0) return '<div style="color: var(--text-muted);">No data</div>';
+
+    var W = 280, H = 120, PAD = 30;
+    var maxVal = Math.max.apply(null, data.map(function(d) { return d.value; })) || 1;
+    var barW = Math.min(30, (W - PAD * 2) / data.length - 4);
+
+    var svg = '<svg class="chart-svg" viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="xMidYMid meet">';
+    data.forEach(function(d, i) {
+      var x = PAD + i * ((W - PAD * 2) / data.length) + 2;
+      var bh = (d.value / maxVal) * (H - PAD * 2);
+      var y = H - PAD - bh;
+      svg += '<rect x="' + x + '" y="' + y + '" width="' + barW + '" height="' + bh + '" rx="2" fill="var(--accent-blue)" opacity="0.8"/>';
+      svg += '<text x="' + (x + barW / 2) + '" y="' + (y - 4) + '" fill="var(--text-secondary)" font-size="9" text-anchor="middle">' + d.value + '</text>';
+      svg += '<text x="' + (x + barW / 2) + '" y="' + (H - 8) + '" fill="#6e7681" font-size="8" text-anchor="middle">R' + d.round + '</text>';
+    });
+    svg += '</svg>';
+    return '<div class="chart-container" style="height: 120px;">' + svg + '</div>';
+  }
+
+  // ======================================================================
+  // Round rendering (kept from original, with minor fixes)
+  // ======================================================================
+  function renderRound(data) {
+    var html = "";
+    html += '<h2 style="margin-bottom: 20px; color: var(--accent-blue);">Round ' +
+      (data.round || "?") + ' &mdash; ' + escapeHtml(data.game_time || "") + '</h2>';
+
+    var briefing = data.situation || data.briefing || "";
+    if (briefing) {
+      html += buildSection("Situation Briefing", "situation",
+        '<div class="briefing-text">' + escapeHtml(briefing) + '</div>');
+    }
+
+    var decisions = data.country_decisions || [];
+    if (decisions.length > 0) {
+      var countriesHtml = "";
+      decisions.forEach(function(cd) { countriesHtml += renderCountryDecision(cd); });
+      html += buildSection("Country Debates & Decisions", "debates", countriesHtml, decisions.length + " countries");
+    }
+
+    var gm = data.game_master || data.resolution || {};
+    var narrative = gm.narrative || "";
+    if (narrative) {
+      html += buildSection("Game Master Resolution", "gm",
+        '<div class="narrative-text">' + escapeHtml(narrative) + '</div>');
+    }
+
+    var headlines = gm.headlines || data.headlines || [];
+    if (headlines.length > 0) {
+      var hlHtml = '<ul class="headline-list">';
+      headlines.forEach(function(hl) { hlHtml += '<li>' + escapeHtml(hl) + '</li>'; });
+      hlHtml += '</ul>';
+      html += buildSection("Headlines", "headlines", hlHtml, headlines.length + " stories");
+    }
+
+    var surprises = gm.surprises || [];
+    if (surprises.length > 0) {
+      var sHtml = '<ul class="headline-list">';
+      surprises.forEach(function(s) { sHtml += '<li style="border-left-color: var(--accent-red);">' + escapeHtml(s) + '</li>'; });
+      sHtml += '</ul>';
+      html += buildSection("Surprise Developments", "surprises", sHtml, surprises.length);
+    }
+
+    var ws = data.world_state || data.world_state_after || {};
+    if (Object.keys(ws).length > 0) {
+      html += buildSection("World State", "worldstate", renderWorldState(ws));
+    }
+
+    roundContent.innerHTML = html;
+    attachToggles(roundContent);
+  }
+
+  function attachToggles(container) {
+    container.querySelectorAll(".section-header").forEach(function(h) {
+      h.addEventListener("click", function() {
+        var body = h.nextElementSibling;
+        body.classList.toggle("hidden");
+        h.classList.toggle("collapsed");
+      });
+    });
+    container.querySelectorAll(".country-header").forEach(function(h) {
+      h.addEventListener("click", function() {
+        h.nextElementSibling.classList.toggle("hidden");
+      });
+    });
+  }
+
+  function buildSection(title, id, bodyHtml, badgeText) {
+    var badge = badgeText ? '<span class="badge">' + escapeHtml(String(badgeText)) + '</span>' : '';
+    return '<div class="section"><div class="section-header" data-section="' + id + '">' +
+      '<span class="toggle-icon">&#9660;</span><h3>' + escapeHtml(title) + '</h3>' + badge +
+      '</div><div class="section-body">' + bodyHtml + '</div></div>';
+  }
+
+  function renderCountryDecision(cd) {
+    var code = cd.country_code || cd.country || "??";
+    var name = cd.country_name || cd.country || code;
+    if (cd.country && cd.country.length > 3) name = cd.country;
+    var flag = getFlag(code);
+    var bodyHtml = "";
+
+    var debateLog = cd.debate_log || [];
+    if (debateLog.length > 0) {
+      var curRound = 0;
+      debateLog.forEach(function(entry) {
+        if (entry.round !== curRound) {
+          curRound = entry.round;
+          bodyHtml += '<div class="debate-round-label">Debate Round ' + curRound + '</div>';
+        }
+        var roleClass = "role-" + (entry.role || "").replace(/\s+/g, "_");
+        bodyHtml += '<div class="debate-entry ' + roleClass + '">' +
+          '<div class="faction-name">' + escapeHtml(entry.faction || "Unknown") + '</div>' +
+          '<div class="faction-role">' + escapeHtml(entry.role || "") + '</div>' +
+          '<div class="faction-content">' + escapeHtml(entry.content || "") + '</div></div>';
+      });
+    }
+
+    var decision = cd.decision || "";
+    var actions = cd.actions || [];
+    if (decision || actions.length > 0) {
+      bodyHtml += '<div class="decision-block"><h4>Final Decision</h4>';
+      if (decision) bodyHtml += '<div class="decision-text">' + escapeHtml(decision) + '</div>';
+      if (actions.length > 0) {
+        bodyHtml += '<ul class="action-list">';
+        actions.forEach(function(a) { bodyHtml += '<li>' + escapeHtml(a) + '</li>'; });
+        bodyHtml += '</ul>';
+      }
+      if (cd.dissent) bodyHtml += '<div class="dissent-text">Dissent: ' + escapeHtml(cd.dissent) + '</div>';
+      bodyHtml += '</div>';
+    }
+
+    var reasoning = cd.reasoning || "";
+    if (reasoning && !debateLog.length) {
+      bodyHtml += '<div class="debate-entry"><div class="faction-name">Internal Reasoning</div>' +
+        '<div class="faction-content">' + escapeHtml(reasoning) + '</div></div>';
+    }
+
+    return '<div class="country-block"><div class="country-header" style="border-left: 3px solid ' + getColor(code) + '">' +
+      '<span class="country-flag">' + flag + '</span>' +
+      '<span class="country-name">' + escapeHtml(name) + '</span>' +
+      '<span class="country-code">' + escapeHtml(code) + '</span></div>' +
+      '<div class="country-body">' + bodyHtml + '</div></div>';
+  }
+
+  function renderWorldState(ws) {
+    var html = '<table class="state-table">';
+    html += tableRow("NATO Alert Level",
+      '<span style="color:' + alertColor(ws.nato_alert_level) + '; font-weight: 600;">' +
+      escapeHtml((ws.nato_alert_level || "unknown").toUpperCase()) + '</span>');
+    html += tableRow("Game Time", escapeHtml(ws.game_time || "N/A"));
+
+    var markets = ws.markets || {};
+    if (Object.keys(markets).length > 0) {
+      var ml = "";
+      for (var k in markets) { if (markets.hasOwnProperty(k)) ml += '<div><span class="metric-label">' + escapeHtml(k) + ':</span> <span class="metric-value">' + escapeHtml(String(markets[k])) + '</span></div>'; }
+      html += tableRow("Markets", ml);
+    }
+
+    var po = ws.public_opinion || {};
+    if (Object.keys(po).length > 0) {
+      var poH = "";
+      for (var co in po) {
+        if (po.hasOwnProperty(co)) {
+          poH += '<div style="margin-bottom: 8px;"><strong>' + getFlag(co) + ' ' + escapeHtml(co) + '</strong>';
+          if (po[co].war_support !== undefined) poH += renderOpinionBar("War Support", po[co].war_support, warSupportColor);
+          if (po[co].government_approval !== undefined) poH += renderOpinionBar("Gov Approval", po[co].government_approval, approvalColor);
+          poH += '</div>';
+        }
+      }
+      html += tableRow("Public Opinion", poH);
+    }
+
+    var cons = ws.nato_consensus || {};
+    if (Object.keys(cons).length > 0) {
+      var cH = "";
+      for (var cc in cons) { if (cons.hasOwnProperty(cc)) cH += '<div>' + getFlag(cc) + ' <strong>' + escapeHtml(cc) + '</strong>: ' + escapeHtml(cons[cc]) + '</div>'; }
+      html += tableRow("NATO Consensus", cH);
+    }
+
+    var sanctions = ws.sanctions || [];
+    if (sanctions.length > 0) {
+      var sH = '<ul style="margin:0; padding-left:16px;">';
+      sanctions.forEach(function(s) {
+        var txt = (typeof s === "string") ? s : (s.from || "?") + " -> " + (s.target || "?") + ": " + (s.type || "");
+        sH += '<li style="margin:2px 0;">' + escapeHtml(txt) + '</li>';
+      });
+      sH += '</ul>';
+      html += tableRow("Sanctions", sH);
+    }
+
+    var treaties = ws.treaties_invoked || [];
+    if (treaties.length > 0) {
+      var tH = '<ul style="margin:0; padding-left:16px;">';
+      treaties.forEach(function(t) { tH += '<li style="margin:2px 0; color: var(--accent-red);">' + escapeHtml(t) + '</li>'; });
+      tH += '</ul>';
+      html += tableRow("Treaties Invoked", tH);
+    }
+
+    var events = ws.recent_events || [];
+    if (events.length > 0) {
+      var eH = '<ul style="margin:0; padding-left:16px;">';
+      events.forEach(function(ev) { eH += '<li style="margin:2px 0;">' + escapeHtml(ev) + '</li>'; });
+      eH += '</ul>';
+      html += tableRow("Recent Events", eH);
+    }
+
+    var units = ws.military_units || [];
+    if (units.length > 0) {
+      var uH = '<div style="max-height: 250px; overflow-y: auto;">';
+      units.forEach(function(u) {
+        uH += '<div style="margin:4px 0; font-size:12px;">' +
+          getFlag(u.country || "") + ' <strong>' + escapeHtml(u.name || "") + '</strong> @ ' +
+          escapeHtml(u.location || "?") + ' [R:' + (u.readiness || "?") + ' S:' + (u.strength || "?") + ']</div>';
+      });
+      uH += '</div>';
+      html += tableRow("Military Units (" + units.length + ")", uH);
+    }
+
+    html += '</table>';
+    return html;
+  }
+
+  // ---- Helpers ----
+  function tableRow(l, v) {
+    return '<tr><td class="metric-label" style="width:160px; white-space:nowrap;">' + l + '</td><td>' + v + '</td></tr>';
+  }
+  function renderOpinionBar(label, value, colorFn) {
+    var pct = Math.max(0, Math.min(100, value));
+    var c = colorFn(pct);
+    return '<div class="opinion-bar-container"><span class="opinion-bar-label">' + escapeHtml(label) + '</span>' +
+      '<div class="opinion-bar-track"><div class="opinion-bar-fill" style="width:' + pct + '%; background:' + c + ';"></div></div>' +
+      '<span class="opinion-bar-value" style="color:' + c + ';">' + pct + '%</span></div>';
+  }
+  function warSupportColor(p) { return p >= 60 ? "var(--accent-red)" : p >= 40 ? "var(--accent-orange)" : "var(--accent-green)"; }
+  function approvalColor(p) { return p >= 60 ? "var(--accent-green)" : p >= 40 ? "var(--accent-orange)" : "var(--accent-red)"; }
+  function alertColor(l) {
+    if (!l) return "var(--text-secondary)";
+    switch (l.toLowerCase()) {
+      case "article5": return "var(--accent-red)";
+      case "high": return "var(--accent-orange)";
+      case "elevated": return "var(--accent-yellow)";
+      case "normal": return "var(--accent-green)";
+      default: return "var(--text-secondary)";
+    }
+  }
+  function escapeHtml(t) {
+    if (!t) return "";
+    var d = document.createElement("div");
+    d.appendChild(document.createTextNode(String(t)));
+    return d.innerHTML;
+  }
+
+  // ---- Init: try server, fallback to manual ----
+  tryServerConnect();
+
+})();
+</script>
+</body>
+</html>

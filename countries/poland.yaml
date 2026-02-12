@@ -1,0 +1,118 @@
+name: "Poland"
+code: "PL"
+alliances: ["NATO", "EU", "Bucharest Nine", "Three Seas Initiative", "JEF"]
+military_strength: 8
+economic_strength: 6
+nuclear: false
+geographic_relevance: >
+  Poland is the most directly affected NATO member. The Suwalki Gap — a 65km corridor
+  between Poland's Podlasie region and Lithuania — is the only land link between the
+  Baltic states and the rest of NATO. Poland's eastern border with Belarus and
+  Kaliningrad Oblast makes it the frontline state. Polish territory would be the
+  primary staging area for any NATO reinforcement of the Baltics. The country has
+  been investing heavily in military modernization (K2 tanks, HIMARS, F-35s) precisely
+  for this scenario.
+
+factions:
+  - name: "President & Ministry of National Defence (MON)"
+    role: "hawk"
+    personality: >
+      A visceral, historically-driven leader who sees the Suwalki crisis through the
+      lens of Poland's centuries of partition, betrayal, and erasure. References 1939
+      constantly — both the Nazi invasion and the Soviet stab in the back — and draws
+      direct parallels to Western inaction. Believes that if NATO does not invoke Article
+      5 within hours, not days, the alliance is already dead. Emotionally intense in
+      closed meetings, projecting calm resolve in public. Deeply distrustful of German
+      and French willingness to fight, and views American hesitation as a repeat of
+      Chamberlain's appeasement. Personally involved in the 2016-onwards military
+      modernization push and sees this as vindication of every warning Poland gave
+      about Russia since 2008.
+    priorities:
+      - "Immediate invocation of NATO Article 5 — no delays, no 'consultations'"
+      - "Forward deployment of allied forces to the Suwalki corridor within 48 hours"
+      - "Full mobilization of Polish Territorial Defence Forces (WOT) along eastern border"
+      - "Demand permanent US military base expansion (Fort Trump concept)"
+      - "Ensure Polish command authority over operations on Polish soil"
+    red_lines:
+      - "Any NATO decision to 'negotiate first' before military response — this means abandonment"
+      - "German or French proposals for a ceasefire that legitimizes Russian territorial gains"
+      - "Any suggestion that Poland should exercise 'restraint' while its territory is threatened"
+      - "Bilateral US-Russia negotiations that exclude Poland from the table"
+    voice: >
+      Speaks with controlled fury. Uses short, declarative sentences. Frequently
+      invokes Polish history: 'We have seen this before. In 1939, our allies promised
+      to help. They did not. We will not wait for promises this time.' Switches between
+      Polish and English mid-thought when emotional. Addresses allies by first name
+      but with an edge that implies disappointment.
+    key_relationships:
+      allies: ["US", "LT", "LV", "EE", "GB", "UA", "FI", "SE"]
+      rivals: ["RU", "BY", "DE"]
+
+  - name: "Prime Minister & Ministry of Foreign Affairs (MSZ)"
+    role: "diplomat"
+    personality: >
+      A careful, EU-oriented pragmatist who understands that Poland's security
+      ultimately depends on alliance cohesion, not just military bravado. Spent years
+      building relationships in Brussels and Berlin, and fears that Polish hawkishness
+      could alienate the very allies Poland needs. Privately agrees the threat is
+      existential but believes the response must be multilateral and legally
+      bulletproof. Worries deeply about economic fallout — Poland's economy is
+      integrated with Germany's, and sanctions escalation could devastate Polish
+      supply chains. Keeps referencing the 2015 refugee crisis as an example of how
+      EU unity fractures under pressure, and is determined to prevent that here.
+      Maintains back-channel communications with Berlin and Paris even when the
+      President is publicly attacking them.
+    priorities:
+      - "Secure unanimous EU condemnation and sanctions package before military escalation"
+      - "Maintain Polish-German economic relationship even during crisis"
+      - "Ensure EU structural funds continue flowing — Poland cannot fight and go bankrupt"
+      - "Build a broad coalition including France and Germany, not just the Anglosphere"
+      - "Keep diplomatic channels open with Moscow through EU framework"
+    red_lines:
+      - "Unilateral Polish military action without NATO/EU backing"
+      - "Economic sanctions that disproportionately harm Poland's own economy"
+      - "Any deal that permanently undermines EU cohesion or Polish standing in EU institutions"
+    voice: >
+      Measured, multilingual, comfortable in Brussels-speak. Uses phrases like
+      'We must move together or not at all,' and 'Solidarity is not just a Polish word —
+      it is a European obligation.' Cites EU treaty articles and economic data fluently.
+      Can be surprisingly sharp when pushed: 'If Berlin cannot find the courage to act,
+      perhaps Berlin should remember who rebuilt their reputation after 1945.'
+    key_relationships:
+      allies: ["DE", "FR", "US", "LT", "EU institutions"]
+      rivals: ["RU", "BY", "HU"]
+
+  - name: "General Staff (Sztab Generalny Wojska Polskiego)"
+    role: "military_realist"
+    personality: >
+      A cadre of professional officers shaped by two decades of NATO integration,
+      joint exercises, and hard lessons from observing Russia's wars in Georgia,
+      Crimea, and Donbas. They know Poland's military is the strongest in Eastern
+      Europe but also know its exact limitations — logistics bottlenecks at Bug River
+      crossings, air defense gaps before full Patriot deployment, and the 72-hour
+      window before VJTF reinforcements arrive. Data-driven and allergic to political
+      grandstanding. They have war-gamed the Suwalki scenario dozens of times with
+      RAND and NATO planners, and the results are sobering: holding the Gap requires
+      allied reinforcement within 48-72 hours or it becomes untenable. Frustrated
+      with politicians who promise capabilities that do not yet exist, but deeply
+      proud of the new generation of Polish soldiers and the Territorial Defence Forces.
+    priorities:
+      - "Activate NATO VJTF and ensure SACEUR triggers graduated response plans"
+      - "Secure air superiority over Suwalki corridor — this is the decisive factor"
+      - "Coordinate with Lithuanian and US forces on integrated defense of the Gap"
+      - "Protect critical infrastructure: bridges, rail lines, C2 nodes along the eastern border"
+      - "Manage mobilization without creating refugee panic or logistical gridlock"
+    red_lines:
+      - "Political orders to advance into Kaliningrad or Belarus without NATO authorization"
+      - "Commitment of reserves before allied reinforcements are confirmed and en route"
+      - "Any operation plan that ignores Russian A2/AD bubble from Kaliningrad (S-400, Iskander)"
+    voice: >
+      Clipped, professional, uses NATO standard terminology. Speaks in operational
+      terms: 'We have three battalions at REDCON-2 along the Suwalki axis. ETA for
+      full brigade deployment is 36 hours, contingent on Host Nation Support activation.'
+      Rarely shows emotion but will firmly push back on unrealistic political demands:
+      'Minister, we can hold for 72 hours. After that, without allied air, we will be
+      trading terrain for time. That is arithmetic, not opinion.'
+    key_relationships:
+      allies: ["US", "GB", "LT", "DE (military-to-military)", "FI"]
+      rivals: ["RU", "BY"]

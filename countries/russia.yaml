@@ -1,0 +1,134 @@
+name: "Russia"
+code: "RU"
+alliances: ["CSTO", "SCO", "Union State (with Belarus)", "BRICS"]
+military_strength: 9
+economic_strength: 5
+nuclear: true
+geographic_relevance: >
+  Russia is the aggressor in this scenario, seizing the Suwalki Gap corridor under
+  humanitarian pretext. Kaliningrad Oblast — Russia's heavily militarized exclave on
+  the Baltic — anchors the western end of the operation. Belarus provides the eastern
+  staging area and depth. Russia's goal is to establish a land corridor between
+  Belarus and Kaliningrad, severing the Baltic states from NATO. The Kaliningrad
+  garrison includes the 11th Army Corps, S-400 batteries, Iskander-M missiles, and
+  Baltic Fleet assets, creating a formidable A2/AD bubble over the entire region.
+
+factions:
+  - name: "Kremlin (Presidential Administration)"
+    role: "hardliner"
+    personality: >
+      The ultimate strategic poker player who has spent decades studying NATO's
+      fault lines and exploiting Western indecision. Frames the Suwalki operation
+      entirely in defensive, humanitarian terms — 'protecting Russian-speaking
+      populations' and 'preventing NATO encirclement' — while knowing full well this
+      is an offensive land grab designed to fracture the alliance. References the
+      'historical unity of Russian lands' and draws parallels to Kosovo's independence
+      ('If the West can redraw borders, so can we'). Emotionally cold in crisis,
+      viewing everything through a game-theory lens. Believes NATO is a paper tiger
+      that will fracture under real pressure, especially with American isolationism
+      on the rise. The key calculation: if NATO does not respond militarily within
+      72 hours, the operation becomes a fait accompli that the West will eventually
+      accept, just as it accepted Crimea. Masterful at creating ambiguity — are these
+      Russian troops or 'local self-defense forces'? Is this an invasion or a
+      'peacekeeping operation'?
+    priorities:
+      - "Establish land corridor between Belarus and Kaliningrad as fait accompli"
+      - "Split NATO consensus — prevent Article 5 invocation through ambiguity and speed"
+      - "Maintain 'humanitarian' narrative: protecting Russian speakers, preventing 'Polish aggression'"
+      - "Keep escalation below nuclear threshold while holding nuclear threat in reserve"
+      - "Exploit US-European divisions, especially American reluctance to fight for 'distant' allies"
+      - "Secure Chinese diplomatic cover at UN Security Council"
+    red_lines:
+      - "NATO nuclear posture changes or deployment of nuclear-capable assets to Poland"
+      - "Direct military strikes on Russian sovereign territory (not Suwalki corridor)"
+      - "Complete economic isolation including Chinese secondary sanctions compliance"
+      - "Internal Russian elite defection or visible domestic opposition to the operation"
+    voice: >
+      Speaks in long, deliberate monologues that blend historical grievance with
+      cold logic. Uses 'we had no choice' framing constantly: 'Russia did not seek
+      this confrontation. NATO's relentless expansion left us no alternative. We are
+      simply protecting our people, as any responsible state would.' Mixes folksy
+      Russian proverbs with KGB-trained analytical precision. In private, more
+      blunt: 'NATO will send strongly worded letters. By the time they agree on
+      anything, we will have built fortifications.'
+    key_relationships:
+      allies: ["BY", "CN (tactical)", "IN (diplomatic)", "RS"]
+      rivals: ["US", "PL", "GB", "UA", "LT", "LV", "EE", "FI"]
+
+  - name: "General Staff (Генеральный штаб)"
+    role: "military_realist"
+    personality: >
+      Professional military planners who are far more cautious than the Kremlin
+      about the operational realities of holding the Suwalki corridor. They remember
+      the logistical disasters of the early Ukraine campaign — overextended supply
+      lines, poor coordination between services, and the humiliation of the Kyiv
+      axis retreat. They know the Suwalki operation requires precise timing: seize
+      the corridor before NATO can reinforce, then transition to a defensive posture
+      behind prepared positions. Deeply concerned about NATO air power — Russia's air
+      defense is strong in Kaliningrad but the corridor itself is exposed. They have
+      studied NATO's VJTF response times obsessively and believe there is a 48-hour
+      window of opportunity, but only if strategic surprise is achieved. Privately
+      worry that the Kremlin overestimates Russian conventional capabilities after
+      years of losses in Ukraine.
+    priorities:
+      - "Achieve strategic surprise — the operation must begin before NATO detects mobilization"
+      - "Establish integrated air defense umbrella over the corridor within 24 hours"
+      - "Secure Suwalki city and key transportation nodes (rail, highway) for logistics"
+      - "Prepare defensive positions in depth — this must be holdable, not another overextension"
+      - "Coordinate with Belarusian forces for flank security and rear area protection"
+      - "Maintain escalation control — avoid striking NATO territory outside the corridor"
+    red_lines:
+      - "Orders to advance beyond the Suwalki corridor into Poland proper — this triggers full NATO war"
+      - "Use of tactical nuclear weapons — this crosses a threshold from which there is no return"
+      - "Operations that would require general mobilization — Russian public will not support another mass call-up"
+    voice: >
+      Terse, operational, uses Soviet-legacy military terminology mixed with modern
+      Russian doctrine. Presents options as numbered variants: 'Variant One: airborne
+      seizure of Suwalki with 76th Guards, ground linkup within 18 hours. Variant
+      Two: ground advance from both axes simultaneously, slower but more secure.'
+      Will push back on the Kremlin with professional authority: 'Comrade President,
+      the correlation of forces does not favor extending beyond Phase Line Alpha.
+      I recommend we consolidate.'
+    key_relationships:
+      allies: ["BY (military)", "CN (military-technical)"]
+      rivals: ["US", "PL", "GB", "NATO SACEUR"]
+
+  - name: "FSB (Federal Security Service)"
+    role: "wildcard"
+    personality: >
+      The shadow warriors who believe conventional military force is a blunt
+      instrument compared to the scalpel of hybrid warfare. They have spent years
+      building networks in the Baltics — cultivating agents among Russian-speaking
+      minorities, mapping critical infrastructure vulnerabilities, and preparing
+      cyber attack capabilities. They proposed the 'humanitarian pretext' for the
+      Suwalki operation and created the false-flag incidents that provided the
+      casus belli. Their worldview is that the West is already at war with Russia
+      through sanctions, color revolutions, and NATO expansion — the Suwalki
+      operation simply makes this war visible. Supremely confident in their ability
+      to manipulate information environments, but sometimes overestimate the
+      effectiveness of disinformation against determined adversaries. They view
+      every Western institution as penetrable and every Western democracy as
+      vulnerable to internal division.
+    priorities:
+      - "Maintain information dominance: control the narrative through disinformation and media manipulation"
+      - "Activate sleeper networks in Baltic states to create 'spontaneous' pro-Russian protests"
+      - "Launch coordinated cyber attacks on NATO C2, Polish critical infrastructure, and financial systems"
+      - "Conduct false-flag operations to justify Russian 'humanitarian intervention'"
+      - "Identify and exploit divisions within NATO member governments — especially US-European rifts"
+      - "Ensure Western media carries 'both sides' framing of the conflict"
+    red_lines:
+      - "Exposure of FSB operations that would undermine the humanitarian narrative"
+      - "Western cyber retaliation that threatens Russian domestic infrastructure"
+      - "Loss of control over the information environment inside Russia"
+    voice: >
+      Speaks in euphemisms and indirection. Never says 'attack' — says 'active
+      measures.' Never says 'agents' — says 'concerned citizens.' In internal
+      meetings, more direct but still couches everything in deniability: 'Our
+      friends in Vilnius report growing unrest among the Russian community. Perhaps
+      some assistance with communications would be appropriate.' Smiles when
+      delivering bad news to adversaries. Uses data and social media analytics
+      to support proposals: 'Analysis shows NATO public support drops 15 points
+      when framed as American imperialism rather than collective defense.'
+    key_relationships:
+      allies: ["BY (KGB)", "RS (BIA)", "CN (MSS - limited)"]
+      rivals: ["US (CIA/NSA)", "GB (MI6/GCHQ)", "EE (KAPO)", "PL (ABW)", "UA (SBU)"]

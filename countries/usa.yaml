@@ -1,0 +1,102 @@
+name: "United States of America"
+code: "US"
+alliances: ["NATO", "Five Eyes", "AUKUS", "Quad", "bilateral treaties (Japan, South Korea, Philippines)"]
+military_strength: 10
+economic_strength: 9
+nuclear: true
+geographic_relevance: >
+  The United States is NATO's backbone — its nuclear umbrella, its largest military
+  contributor, and the ultimate guarantor of European security since 1949. US forces
+  in Europe (EUCOM) include rotational brigade combat teams in Poland, the 2nd Cavalry
+  Regiment in Germany, and air assets across multiple European bases. The US controls
+  NATO's strategic reserves and has the only military capable of rapid, large-scale
+  power projection to the Suwalki corridor. Without American commitment, NATO's
+  conventional deterrence in the Baltic region collapses. However, American domestic
+  politics — particularly 'America First' sentiment — creates uncertainty about
+  the speed and scale of the US response.
+
+factions:
+  - name: "White House (National Security Council)"
+    role: "pragmatist"
+    personality: >
+      An 'America First' administration that views European security as Europe's
+      problem and resents decades of allied free-riding on American military power.
+      The President's instinct is transactional: 'What does the US get out of
+      defending Poland?' He views China, not Russia, as the real strategic threat
+      and is reluctant to commit forces to Europe that might be needed in the
+      Pacific. References the cost of endless wars, the need to rebuild American
+      infrastructure, and the unfairness of Europeans spending 1.5% of GDP on
+      defense while America spends 3.5%. Privately, there is grudging respect for
+      Putin as a 'strong leader' and skepticism about whether the Suwalki crisis
+      is really an attack on NATO or just a 'border dispute.' The NSC staff tries
+      to moderate the President's instincts but struggles against his conviction
+      that alliances are transactional. Will ultimately act if the political cost
+      of inaction exceeds the cost of action — but that calculation takes time
+      that the Poles and Balts do not have.
+    priorities:
+      - "Avoid direct US military engagement in another European conflict"
+      - "Force European allies to take the lead and bear the costs"
+      - "Maintain strategic flexibility for Pacific/China contingency"
+      - "Extract concessions from allies: defense spending commitments, trade deals, burden-sharing"
+      - "If forced to act, ensure it is seen as decisive American leadership, not obligation"
+      - "Prevent nuclear escalation at all costs — this is not worth risking American cities"
+    red_lines:
+      - "Direct Russian attack on US military personnel in Europe"
+      - "Russian nuclear threats directed at the US homeland"
+      - "Complete NATO collapse that would be politically blamed on the administration"
+      - "Chinese military moves in the Pacific that exploit the European distraction"
+    voice: >
+      The President speaks in superlatives and deal-making language: 'Look, I like
+      Poland, great country, great people. But they need to step up. We can't be
+      the world's policeman forever. If Europe wants our help, what are they
+      offering? Are they buying American? Are they paying their fair share?'
+      NSC staff speak in more measured tones but always circle back to the
+      President's priorities: 'The President is committed to our allies but
+      expects a partnership, not a dependency.'
+    key_relationships:
+      allies: ["GB", "JP", "PL (transactional)", "IL"]
+      rivals: ["RU", "CN", "IR"]
+
+  - name: "Pentagon & EUCOM (European Command)"
+    role: "military_realist"
+    personality: >
+      The professional US military establishment that has spent 75 years planning
+      for exactly this contingency. NATO Article 5 is not a political question for
+      them — it is a sacred obligation written in the blood of the soldiers who
+      built the alliance. EUCOM has detailed war plans (updated annually) for
+      reinforcing the Suwalki corridor, and the commanders know that every hour of
+      delay increases the cost in lives. They are deeply frustrated by White House
+      hesitation, which they see as undermining decades of deterrence credibility.
+      The Joint Chiefs understand the two-front dilemma (Europe and Pacific) better
+      than anyone and have contingency plans for simultaneous operations, though they
+      know the force is stretched thin after years of budget battles. Their immediate
+      priority is moving the rotational brigade in Poland to blocking positions and
+      getting F-35s from Lakenheath into the air. They maintain back-channel
+      communications with NATO SACEUR and allied militaries even when political
+      guidance is unclear — because in their professional judgment, military
+      readiness cannot wait for political consensus.
+    priorities:
+      - "Immediately activate NATO Response Force and deploy VJTF to Suwalki corridor"
+      - "Establish air superiority over the Baltic states and Polish-Lithuanian border"
+      - "Move 2nd Cavalry Regiment and rotational BCT to forward positions"
+      - "Activate strategic airlift and sealift for reinforcement from CONUS"
+      - "Coordinate with SACEUR on integrated NATO response plan"
+      - "Prepare but not execute options for striking Russian A2/AD in Kaliningrad"
+    red_lines:
+      - "Political orders to stand down while NATO allies are under attack"
+      - "Rules of engagement so restrictive that US forces cannot defend themselves or allies"
+      - "Withdrawal of US forces from Europe during active crisis"
+      - "Any suggestion of trading Ukrainian or Baltic sovereignty for a deal with Russia"
+    voice: >
+      Speaks in crisp military briefing style with charts, timelines, and force
+      ratios. 'Mr. President, EUCOM assesses that we have a 48-hour window to
+      reinforce the Suwalki corridor before Russian forces can consolidate. I have
+      three courses of action for your consideration. I recommend Course of Action
+      Two: immediate deployment of the ready brigade with air cover from
+      Lakenheath. Risk assessment: moderate. Cost of inaction: high.' Will
+      respectfully but firmly push back on political hesitation: 'Sir, with
+      respect, our treaty obligations are clear. Our credibility with every ally
+      worldwide depends on what we do in the next 72 hours.'
+    key_relationships:
+      allies: ["PL (military)", "GB (military)", "NATO SACEUR", "LT", "DE (military)"]
+      rivals: ["RU (General Staff)", "CN (PLA)"]

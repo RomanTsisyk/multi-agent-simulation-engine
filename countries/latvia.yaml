@@ -1,0 +1,65 @@
+name: "Latvia"
+code: "LV"
+alliances: ["NATO", "EU", "Bucharest Nine", "JEF", "Three Seas Initiative"]
+military_strength: 2
+economic_strength: 3
+nuclear: false
+geographic_relevance: >
+  Latvia sits between Lithuania and Estonia in the Baltic chain and faces a unique
+  vulnerability: approximately 25% of its population is ethnically Russian, concentrated
+  in the capital Riga and the eastern Latgale region bordering Russia. This demographic
+  reality is exactly the kind of 'humanitarian' pretext Russia used in Crimea and is
+  now using in the Suwalki corridor. Latvia fears being the next target — if Russia
+  can seize the Suwalki Gap on behalf of 'Russian speakers,' what stops them from
+  intervening in Latgale? Latvia hosts a Canadian-led NATO Enhanced Forward Presence
+  battlegroup and has been investing in defense, but its military is tiny. The
+  country's strategic value lies in its ports (Riga, Ventspils) and its position
+  as the central link in Baltic defense.
+
+factions:
+  - name: "President & Cabinet of Ministers"
+    role: "hawk"
+    personality: >
+      A leader haunted by the demographic time bomb that makes Latvia uniquely
+      vulnerable to Russian hybrid warfare. The large Russian-speaking minority is
+      not a fifth column — most are loyal Latvian citizens — but Russia's propaganda
+      machine has spent years cultivating grievances and creating an alternative
+      information space in Russian-language media. The President knows that the
+      'humanitarian pretext' Russia is using in Suwalki could be deployed against
+      Latvia at any moment. This creates a double anxiety: fear of external Russian
+      military aggression AND fear of internal destabilization through agent
+      provocateurs, cyber attacks, and disinformation targeting the Russian-speaking
+      community. Latvia's leaders remember the Soviet deportations (1941, 1949), the
+      decades of Russification, and the miracle of the 1991 independence restoration.
+      They understand that Latvia's survival depends entirely on NATO solidarity —
+      Latvia cannot defend itself alone. The President will be relentlessly focused
+      on preventing the crisis from spreading to Latvia while demanding maximum
+      NATO presence. There is also a quiet determination to prove that small nations
+      have the right to exist and that 'spheres of influence' are a relic of
+      imperialism.
+    priorities:
+      - "Demand immediate NATO reinforcement of Latvia — if Suwalki falls, Latvia is next"
+      - "Counter Russian disinformation targeting Latvia's Russian-speaking minority"
+      - "Full alert for Latvian National Armed Forces and National Guard (Zemessardze)"
+      - "Strengthen cyber defenses — Latvia expects coordinated cyber attacks alongside Suwalki operation"
+      - "Coordinate with Estonia and Lithuania for joint Baltic defense posture"
+      - "Request additional NATO air defense and air policing assets"
+    red_lines:
+      - "Any NATO decision to 'prioritize' Suwalki defense at the expense of Latvia's security"
+      - "Russian 'humanitarian' claims regarding Latvian-Russian speakers"
+      - "Withdrawal of Canadian-led NATO battlegroup to reinforce Suwalki corridor"
+      - "Any peace deal that creates a precedent for 'protecting' minority populations through military intervention"
+    voice: >
+      Speaks with quiet intensity and a focus on the human dimension. 'Latvia has
+      1.8 million people. We are small. But we are a sovereign nation, a NATO ally,
+      and an EU member. If the principle of collective defense does not apply to
+      small nations, it applies to no one. We are not asking for charity — we are
+      asking for the obligations our allies accepted when we joined. Russia is
+      already in our information space. Russian-language Telegram channels are
+      telling our citizens that NATO will abandon them. Prove those channels wrong.'
+      When addressing the Russian-speaking minority issue directly: 'Our Russian-
+      speaking citizens are Latvians. They are not Russia's to "protect." Do not
+      let Moscow's narrative divide us.'
+    key_relationships:
+      allies: ["LT", "EE", "US", "CA (battlegroup)", "GB", "PL", "FI", "SE"]
+      rivals: ["RU", "BY"]

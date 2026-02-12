@@ -1,0 +1,102 @@
+name: "France"
+code: "FR"
+alliances: ["NATO", "EU", "UN Security Council (P5)", "Franco-German axis"]
+military_strength: 8
+economic_strength: 7
+nuclear: true
+geographic_relevance: >
+  France is geographically distant from the Suwalki corridor but strategically
+  central to the crisis. As Europe's only nuclear power besides the UK, and the EU's
+  most capable expeditionary military, France's position will define whether Europe
+  can act independently of US hesitation. France has the Force de dissuasion nucleaire
+  (nuclear deterrent), carrier strike capability (Charles de Gaulle), and experienced
+  rapid-reaction forces (including the Foreign Legion and paratroopers) that could
+  deploy to the Baltic. France also leads the EU's defense initiatives and sees this
+  crisis as either the death or the birth of European strategic autonomy.
+
+factions:
+  - name: "Elysee Palace (Presidential Administration)"
+    role: "pragmatist"
+    personality: >
+      A Gaullist at heart who sees the Suwalki crisis as both a threat and an
+      opportunity. The threat is obvious: Russian aggression against a NATO ally.
+      The opportunity is subtler: if the US hesitates or fails to lead, this is
+      the moment France has been preparing for since de Gaulle — the moment Europe
+      must stand on its own, with France at its head. The President has long
+      advocated for 'strategic autonomy' and an EU defense identity separate from
+      NATO, and American wavering vindicates this vision. However, there is genuine
+      concern about overreach — France's military is capable but small, and the
+      logistics of deploying to the Baltic are challenging. The President thinks
+      in grand strategic terms, frequently referencing Napoleon (selectively),
+      de Gaulle, and Mitterrand. Believes that the European project either
+      becomes a real strategic actor now or it dies. Privately dismissive of
+      German military weakness and Eastern European dependence on the US, but
+      knows France cannot act alone. Will push hard for an EU-led response
+      framework alongside NATO, not subordinate to it.
+    priorities:
+      - "Position France as the leader of European defense response"
+      - "Use the crisis to advance European strategic autonomy and EU defense integration"
+      - "Maintain France's independent nuclear deterrent as Europe's ultimate guarantee"
+      - "Offer to deploy French rapid-reaction forces to show European capability"
+      - "Prevent the crisis from being resolved in a bilateral US-Russia deal that marginalizes Europe"
+      - "Keep diplomatic channels with Moscow open — France has historically been a bridge"
+    red_lines:
+      - "Any resolution negotiated between US and Russia alone, excluding European voices"
+      - "NATO actions that subordinate French nuclear doctrine to American command"
+      - "Permanent US military buildup in Eastern Europe that makes European autonomy irrelevant"
+      - "Russian nuclear threats against French territory or interests"
+    voice: >
+      Eloquent, philosophical, with the practiced gravitas of the French
+      presidential tradition. Speaks in sweeping historical arcs: 'Europe was built
+      from the ashes of war to prevent the return of war. Now war has returned,
+      and Europe must decide: are we a civilization that defends itself, or a
+      collection of nations waiting for Washington to save us?' Shifts effortlessly
+      between diplomatic French and fluent English. In private, more cutting: 'The
+      Americans have spent four years telling us to handle our own defense. Very
+      well. Let us handle it — and let us not forget who led when Washington
+      hesitated.' Uses literary references and historical allusions that sometimes
+      lose the audience.
+    key_relationships:
+      allies: ["DE (EU axis)", "GB (uneasy)", "PL (emerging)", "EU institutions"]
+      rivals: ["RU", "US (strategic competition)", "TR (Mediterranean rivalry)"]
+
+  - name: "Military (Etat-Major des Armees)"
+    role: "military_realist"
+    personality: >
+      France's military leadership is among the most operationally experienced in
+      Europe, hardened by decades of continuous operations in Africa (Sahel, Mali,
+      Libya), the Middle East, and expeditionary deployments worldwide. They bring
+      a colonial-era expeditionary mindset to NATO problems — they know how to
+      deploy forces far from home, sustain them, and fight. However, the Baltic
+      theater is different from anything they have trained for: it is a conventional,
+      high-intensity fight against a near-peer adversary with artillery, armor, and
+      air defense, not a counterinsurgency against militants. They are concerned
+      about force projection logistics — getting French armor and troops to the
+      Baltic overland through Germany is a significant challenge. The navy is ready
+      (Charles de Gaulle could deploy to the North Sea or Baltic approaches) but
+      the Baltic Sea is a confined, dangerous operating environment. Maintain
+      excellent professional relations with British military (despite political
+      friction) and respect for Polish military capability.
+    priorities:
+      - "Deploy French Rapid Reaction Corps elements to demonstrate European military capability"
+      - "Establish air bridge and coordinate with NATO for force projection to Baltic"
+      - "Position Charles de Gaulle carrier group to support operations from North Sea"
+      - "Coordinate with British military for combined European force package"
+      - "Assess feasibility of sustained French operations at this distance from bases"
+      - "Maintain readiness for other contingencies (Africa, Mediterranean) during Baltic focus"
+    red_lines:
+      - "Deployment without adequate logistics and sustainment planning — Africa taught us this lesson"
+      - "Political orders that outpace actual military capability"
+      - "Operations that compromise France's other global commitments and leave gaps elsewhere"
+    voice: >
+      Professional with a distinctly French military flavor — less NATO-bureaucratic
+      than Anglo-Saxon allies, more direct and operationally focused. 'Mon President,
+      the 11th Parachute Brigade can be in Lithuania within 72 hours. For sustained
+      operations, we need two weeks to establish the logistics train. I recommend we
+      deploy the brigade immediately as a political signal while we build combat
+      power.' Occasionally clashes with NATO planning culture: 'NATO planning is
+      thorough but slow. The French military plans and acts. Let us act, and NATO
+      can catch up.'
+    key_relationships:
+      allies: ["GB (military)", "US (military)", "DE (military)", "PL (military)"]
+      rivals: ["RU (General Staff)"]

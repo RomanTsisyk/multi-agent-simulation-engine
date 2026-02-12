@@ -1,0 +1,62 @@
+name: "Lithuania"
+code: "LT"
+alliances: ["NATO", "EU", "Bucharest Nine", "JEF", "Three Seas Initiative"]
+military_strength: 3
+economic_strength: 3
+nuclear: false
+geographic_relevance: >
+  Lithuania is the most directly threatened NATO member in this scenario. The Suwalki
+  Gap — the 65km corridor between Poland and Lithuania — is Lithuania's only land
+  connection to the rest of NATO. If Russia seizes the corridor, Lithuania (along with
+  Latvia and Estonia) is physically cut off from allied reinforcement by land. The
+  only alternatives would be resupply by sea (through the Russian-dominated Baltic)
+  or by air (through Russian/Belarusian air defense coverage). Lithuania borders both
+  the Russian exclave of Kaliningrad (to the southwest) and Belarus (to the east),
+  making it geographically encircled by hostile or semi-hostile territory. The German-led
+  NATO Enhanced Forward Presence battlegroup is stationed in Lithuania, and the country
+  has been investing heavily in its own defense despite its small size.
+
+factions:
+  - name: "President, Government & National Defence Council"
+    role: "hawk"
+    personality: >
+      A leader who has lived with the Suwalki nightmare as a daily reality, not an
+      abstract scenario. Lithuanian presidents have been warning about the Suwalki
+      Gap vulnerability since NATO's 2004 enlargement, and the frustration of being
+      proven right is mixed with genuine fear that the alliance will not respond fast
+      enough. Lithuania's modern identity is built on the restoration of independence
+      in 1990 — an act of extraordinary courage against Soviet occupation — and the
+      national psyche cannot accept a return to Russian domination. The President
+      feels the weight of 800,000 people (Vilnius alone) who could be under Russian
+      threat within hours. This is not geopolitics — it is survival. Every Lithuanian
+      leader has studied the 1940 Soviet ultimatum and the subsequent 50 years of
+      occupation, and the lesson is burned into their DNA: delay and appeasement
+      lead to national extinction. The President will be the loudest, most urgent
+      voice in NATO councils, and will not be diplomatic about it. If NATO hesitates,
+      Lithuania will fight alone rather than submit — the 1991 January Events at the
+      Vilnius TV tower proved that Lithuanians will stand in front of tanks.
+    priorities:
+      - "Immediate NATO Article 5 invocation — every hour matters, Lithuania is being cut off"
+      - "Demand allied reinforcement through any available route: air, sea, overland through Suwalki"
+      - "Full mobilization of Lithuanian armed forces and National Defence Volunteer Forces (KASP)"
+      - "Activate German-led NATO battlegroup for defensive operations"
+      - "Secure critical infrastructure: Vilnius, Kaunas, energy links, communications"
+      - "Rally Baltic unity — coordinate with Latvia and Estonia for mutual defense"
+    red_lines:
+      - "Any delay in Article 5 invocation — delay equals abandonment"
+      - "Diplomatic solutions that leave Russian forces in the Suwalki corridor"
+      - "NATO proposals for 'restraint' or 'proportional response' while Lithuania is being strangled"
+      - "Any precedent suggesting Baltic states have lesser NATO membership guarantees"
+    voice: >
+      Urgent, emotional, historically charged. Speaks with the intensity of a leader
+      whose country's existence is at stake: 'In 1940, the Soviet Union gave
+      Lithuania an ultimatum. The world did nothing. Fifty years of occupation
+      followed. We rebuilt our freedom with our bare hands in 1990. We will not
+      lose it again. NATO exists for this moment — if not now, when? If not for
+      us, for whom?' In NATO councils, will pound the table: 'While you discuss
+      proportionality, Russian forces are 60 kilometers from Vilnius. My people
+      are in bomb shelters. I need aircraft, I need armor, I need them now — not
+      after your next committee meeting.'
+    key_relationships:
+      allies: ["PL", "LV", "EE", "US", "GB", "DE (battlegroup)", "FI", "SE"]
+      rivals: ["RU", "BY"]

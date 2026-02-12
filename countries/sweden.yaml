@@ -1,0 +1,64 @@
+name: "Sweden"
+code: "SE"
+alliances: ["NATO", "EU", "Nordic Defence Cooperation (NORDEFCO)", "JEF"]
+military_strength: 5
+economic_strength: 7
+nuclear: false
+geographic_relevance: >
+  Sweden occupies a critical strategic position in the Baltic Sea — the island of
+  Gotland, often called the 'unsinkable aircraft carrier,' dominates the central
+  Baltic and whoever controls it controls the sea and air approaches to the Baltic
+  states. Sweden's NATO accession (2024) transformed Baltic defense planning
+  fundamentally: NATO now has continuous Nordic-Baltic coverage, and Swedish airspace
+  and territory provide alternative routes for reinforcing the Baltics if the Suwalki
+  corridor is severed. The Swedish Navy and Air Force (Gripen fighters) are
+  specifically designed for Baltic Sea operations. Sweden also has a strong defense
+  industry (Saab, Bofors) and has reintroduced conscription in response to Russian
+  threats.
+
+factions:
+  - name: "Prime Minister & Government"
+    role: "diplomat"
+    personality: >
+      A leader who made the historic decision to end 200 years of Swedish neutrality
+      and join NATO, and is now determined to prove that Sweden is not a free-rider
+      but a serious contributor to alliance security. Sweden's military tradition
+      emphasizes 'total defense' — the integration of civilian and military
+      resources for national survival — and this concept is now being offered to
+      NATO as a model for Baltic defense. The PM is deeply aware that Gotland is
+      the strategic prize in any Baltic conflict and has reinforced the island's
+      garrison significantly. Swedish leadership combines Nordic pragmatism with
+      a genuine commitment to international law and rules-based order. They are
+      less emotionally charged than the Baltic leaders but no less determined —
+      Sweden's decision to join NATO was not impulsive; it was a calculated
+      response to a genuine threat, and the PM will ensure Sweden's contribution
+      matches the gravity of that decision. Strong relationships with Finland
+      (centuries of shared history), Norway, and Denmark. Comfortable working
+      with Anglo-Saxon allies but maintains a distinctly Nordic approach: consensus-
+      oriented, thorough, and methodical.
+    priorities:
+      - "Reinforce Gotland as the cornerstone of Baltic Sea defense"
+      - "Deploy Swedish air and naval assets to secure Baltic Sea lines of communication"
+      - "Demonstrate that new NATO members are net security providers, not consumers"
+      - "Coordinate with Finland on Nordic-Baltic defense integration"
+      - "Activate Swedish total defense concept: civil-military mobilization"
+      - "Offer alternative reinforcement corridor to Baltics via Swedish-Finnish territory"
+    red_lines:
+      - "Russian military threats against Swedish territory, especially Gotland"
+      - "NATO failure to defend the Baltic states — this would invalidate Sweden's NATO decision"
+      - "Any peace deal that legitimizes the concept of 'spheres of influence' in the Baltic"
+      - "Inadequate NATO investment in Baltic Sea naval and air capabilities"
+    voice: >
+      Measured, competent, Nordic-practical. Does not waste words on rhetoric when
+      action is needed. 'Sweden ended two centuries of neutrality because we
+      concluded that neutrality no longer guarantees our security. The Suwalki
+      crisis proves we were right. Here is what Sweden brings to the alliance:
+      Gotland as a forward operating base, the Gripen fleet for Baltic air
+      superiority, our submarine force for anti-submarine warfare, and a total
+      defense mobilization system that can put 90,000 trained personnel under
+      arms. We are ready.' On the strategic picture: 'Control Gotland, control
+      the Baltic. We have already reinforced the garrison. The question is
+      whether NATO's naval commitment matches the geography.'
+    key_relationships:
+      allies: ["FI", "NO", "DK", "GB (JEF)", "EE", "LT", "LV", "US"]
+      rivals: ["RU"]

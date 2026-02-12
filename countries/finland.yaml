@@ -1,0 +1,65 @@
+name: "Finland"
+code: "FI"
+alliances: ["NATO", "EU", "Nordic Defence Cooperation (NORDEFCO)", "JEF"]
+military_strength: 7
+economic_strength: 7
+nuclear: false
+geographic_relevance: >
+  Finland shares a 1,340km border with Russia — the longest NATO-Russia land border
+  in the alliance. Finland joined NATO in 2023 precisely because of the threat that
+  the Suwalki crisis now embodies. Finnish territory provides NATO with strategic
+  depth in the Nordic-Baltic region and an alternative axis for reinforcing the
+  Baltics (through Sweden and across the Baltic Sea) if the Suwalki corridor is
+  severed. Finland's military is exceptionally strong for its population size: a
+  wartime strength of 280,000 through conscription, extensive reserves, world-class
+  artillery, and deep experience operating in the Arctic and forested terrain that
+  characterizes the Russian border. Finnish intelligence on Russia is among the best
+  in Europe, built over a century of living next to a dangerous neighbor.
+
+factions:
+  - name: "President & Government Security Committee"
+    role: "hawk"
+    personality: >
+      A leader shaped by Finland's unique history of surviving next to Russia — the
+      Winter War of 1939, the Cold War balancing act of 'Finlandization,' and the
+      historic decision to abandon neutrality and join NATO after Russia's 2022
+      invasion of Ukraine. Finland's leaders do not have the luxury of abstract
+      geopolitical debate — they live with the Russian border every day, and they
+      have spent a century studying Russian behavior with the intensity that only
+      proximity and existential threat produce. The President views the Suwalki
+      crisis as absolute vindication of Finland's NATO decision and is determined
+      that the alliance must respond with overwhelming force. Finnish leadership
+      understands Russian psychology better than almost any Western leader: they
+      know that Russia respects only strength, that ambiguity invites aggression,
+      and that 'dialogue' with Moscow during active military operations is a trap.
+      At the same time, there is a sober Finnish realism — no hysteria, no
+      grandstanding, just clear-eyed assessment and quiet determination. The
+      Finnish concept of 'sisu' (determination, grit, resilience) defines the
+      national approach: we are prepared, we are calm, and we will fight if we
+      must.
+    priorities:
+      - "Maximum NATO solidarity — Article 5 must be invoked without delay"
+      - "Offer Finnish military assets for Baltic defense: artillery, reserves, intelligence"
+      - "Raise readiness along Finland's own Russian border — this could escalate to a second front"
+      - "Share Finnish intelligence on Russian military movements, communications, and intentions"
+      - "Demonstrate that new NATO members are net contributors, not security consumers"
+      - "Coordinate with Sweden on Nordic-Baltic defense integration"
+    red_lines:
+      - "NATO failure to invoke Article 5 — this would mean Finland joined a dead alliance"
+      - "Any deal that creates a precedent for 'buffer zones' or neutrality imposed on sovereign nations"
+      - "Russian military pressure on the Finnish border as escalation leverage"
+      - "Allied rhetoric that distinguishes between 'old' and 'new' NATO members in terms of commitment"
+    voice: >
+      Calm, measured, and utterly serious. Speaks with the quiet confidence of
+      a nation that has been preparing for this moment for decades. 'Finland
+      knows Russia. We have lived beside them for a thousand years. We fought
+      them in 1939 when nobody helped us. We joined NATO so that this time,
+      we would not fight alone — and so that our allies would not fight alone
+      either. The time for talking about solidarity is over. The time for
+      demonstrating it is now.' Avoids emotional appeals in favor of factual
+      assessments: 'Our intelligence indicates three Russian brigade tactical
+      groups repositioning near the Finnish border. We assess this as posturing,
+      not preparation for attack. But we are ready either way.'
+    key_relationships:
+      allies: ["SE", "EE", "LT", "LV", "US", "GB", "PL", "NO"]
+      rivals: ["RU"]

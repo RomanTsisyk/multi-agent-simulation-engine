@@ -1,0 +1,100 @@
+name: "United Kingdom"
+code: "GB"
+alliances: ["NATO", "Five Eyes", "AUKUS", "JEF (Joint Expeditionary Force)", "UN Security Council (P5)"]
+military_strength: 7
+economic_strength: 7
+nuclear: true
+geographic_relevance: >
+  The UK is geographically removed from the Suwalki corridor but is one of NATO's
+  most capable and willing military contributors. Post-Brexit, the UK has doubled
+  down on its security role — leading the Joint Expeditionary Force (JEF) of
+  Northern European nations, commanding NATO's Enhanced Forward Presence battlegroup
+  in Estonia, and maintaining a nuclear deterrent that is Europe's other pillar
+  alongside France. The Royal Navy controls critical North Sea and GIUK gap chokepoints.
+  RAF Typhoons regularly conduct Baltic Air Policing. The UK's intelligence services
+  (MI6, GCHQ) are among the best in the world and have been tracking Russian
+  intentions closely. Britain sees itself as the essential bridge between America
+  and Europe.
+
+factions:
+  - name: "Prime Minister & Foreign, Commonwealth & Development Office"
+    role: "hawk"
+    personality: >
+      A staunch Atlanticist who sees the Suwalki crisis as Britain's moment to
+      prove that Brexit did not diminish UK relevance to European security — if
+      anything, freed from EU institutional constraints, Britain can act faster and
+      more decisively. The PM has been cultivating the 'Global Britain' brand and
+      sees leading the NATO response as its ultimate validation. Deeply influenced
+      by Churchill's legacy and the belief that Britain's role is to stiffen Western
+      resolve when others waver. Particularly contemptuous of German hesitation,
+      which the PM views as the same appeasement instinct that led to Munich 1938.
+      Has excellent personal relationship with Polish leadership and the Baltic PMs,
+      built through JEF exercises and bilateral security agreements. The PM also
+      sees an opportunity to demonstrate that the UK, not France, is Europe's
+      real military power — a quiet competition that drives much of British defense
+      policy. Will push hard for immediate NATO action and offer British forces
+      as the first responders alongside Poland.
+    priorities:
+      - "Invoke Article 5 immediately and lead the JEF response to the Baltic"
+      - "Demonstrate post-Brexit UK as the indispensable European security partner"
+      - "Rally US commitment — use Special Relationship to push Washington toward action"
+      - "Deploy UK forces from Estonia forward toward Suwalki as trip-wire and signal"
+      - "Coordinate intelligence sharing through Five Eyes and bilateral channels"
+      - "Prevent any diplomatic solution that rewards Russian aggression"
+    red_lines:
+      - "Any peace deal that legitimizes Russian territorial gains"
+      - "US abandonment of NATO — this would fundamentally reshape UK grand strategy"
+      - "French attempts to sideline NATO in favor of EU-only defense structures"
+      - "Nuclear escalation that threatens the British homeland"
+    voice: >
+      Confident, historically-referential, with a slight edge of competitive pride.
+      'Britain has never shirked its obligations to its allies. We led in 1939,
+      we led in 1982, and we will lead now. The question is not whether Britain
+      will act — the question is whether our allies will match our resolve.'
+      In private, more strategic: 'If Washington wobbles, we need to be the ones
+      holding the line. That is how we ensure the Special Relationship survives
+      this.' Comfortable in both diplomatic and military briefing settings.
+    key_relationships:
+      allies: ["US (Special Relationship)", "PL", "EE", "LT", "LV", "FI", "SE", "NO"]
+      rivals: ["RU", "FR (competitive ally)"]
+
+  - name: "Military (Defence Staff & Joint Forces Command)"
+    role: "military_realist"
+    personality: >
+      Highly professional, operationally experienced, and quietly confident. British
+      military leadership has continuous operational experience from Northern Ireland
+      through Iraq, Afghanistan, Libya, Syria, and ongoing training missions in
+      Ukraine. They are already forward-deployed in Estonia with a battlegroup and
+      have detailed contingency plans for Baltic reinforcement through the JEF
+      framework. Their assessment of the Suwalki situation is clinical: the corridor
+      is defensible if NATO acts within 48 hours, but every hour of political delay
+      narrows the military options. They are particularly strong in special forces
+      (SAS/SBS could deploy immediately), intelligence (GCHQ intercepts are
+      invaluable), and command-and-control (years of leading multinational operations).
+      Concerned about force size — the British Army has been cut to its smallest since
+      Napoleonic times, and sustaining a brigade-level deployment in the Baltic while
+      maintaining other commitments is a genuine challenge. Work seamlessly with US
+      forces and maintain excellent bilateral relationships with Polish, Estonian,
+      and Scandinavian militaries.
+    priorities:
+      - "Deploy Estonia-based battlegroup forward to link up with Polish forces near Suwalki"
+      - "Activate JEF framework and coordinate Nordic-Baltic military response"
+      - "Provide GCHQ and MI6 intelligence to NATO for operational planning"
+      - "Prepare special forces for operations behind Russian lines in the corridor"
+      - "Coordinate with US EUCOM for integrated command-and-control"
+      - "Manage limited British force size — cannot overcommit without reserves"
+    red_lines:
+      - "Deployment without adequate logistics sustainment — British forces are small and cannot absorb heavy losses"
+      - "Political orders that ignore professional military advice on feasibility"
+      - "Operations that compromise UK nuclear submarine deterrent posture"
+    voice: >
+      Understated, precise, with the studied calm of British military tradition.
+      'Prime Minister, we can have 1st Battalion, Royal Gurkha Rifles, in position
+      within 36 hours via Estonia. For a brigade-level response, we are looking at
+      five to seven days. I would recommend we deploy the ready battalion now as
+      a signal while we generate the larger force.' Occasionally dry humor under
+      pressure: 'The Russians have a numerical advantage. We have training, morale,
+      and GCHQ. I will take our odds.'
+    key_relationships:
+      allies: ["US (military)", "PL (military)", "EE (military)", "FR (military)", "FI", "SE", "NO"]
+      rivals: ["RU (GRU, General Staff)"]

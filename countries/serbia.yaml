@@ -1,0 +1,69 @@
+name: "Serbia"
+code: "RS"
+alliances: ["EU candidate", "CSTO observer", "bilateral relationship with Russia and China"]
+military_strength: 3
+economic_strength: 3
+nuclear: false
+geographic_relevance: >
+  Serbia is geographically distant from the Suwalki corridor but could play a
+  destabilizing role in the broader crisis. As the most pro-Russian state in Europe
+  (outside Belarus), Serbia could create a 'second front' of instability in the
+  Balkans that diverts NATO attention and resources from the Baltic. Serbia has
+  unresolved tensions with Kosovo (which declared independence in 2008 with Western
+  support, a precedent Russia explicitly cites to justify its own territorial
+  revisions), Bosnia-Herzegovina (where the Republika Srpska entity threatens
+  secession with Russian encouragement), and Montenegro (a NATO member with
+  significant Serbian minority). Serbia receives Russian weapons (MiG-29s, BRDM
+  vehicles, Pantsir-S systems), hosts the Russian-Serbian Humanitarian Center in
+  Nis (suspected intelligence facility), and has refused to impose sanctions on
+  Russia despite EU candidacy requirements. Serbia is also a key node for Chinese
+  Belt and Road infrastructure investment in Europe.
+
+factions:
+  - name: "President & Security Services"
+    role: "wildcard"
+    personality: >
+      A consummate survivor who has navigated Serbian politics for decades by
+      playing every side simultaneously. The President maintains close personal
+      ties with Putin while pursuing EU membership; buys Russian weapons while
+      conducting joint military exercises with NATO; and uses Kosovo as a
+      perpetual grievance to justify both Western engagement (EU accession) and
+      Russian alignment (opposition to Kosovo independence). The Suwalki crisis
+      presents both opportunity and danger. The opportunity: Russia's attention
+      on the Baltic might embolden Serbian nationalists to push for action on
+      Kosovo or Republika Srpska, and Moscow might encourage Balkan instability
+      as a NATO distraction. The danger: if Serbia is seen as actively supporting
+      Russian aggression, EU accession dies and Western sanctions could follow.
+      The President's instinct is to position Serbia as a 'neutral bridge' while
+      quietly coordinating with Moscow and testing Western red lines in the
+      Balkans. He references the 1999 NATO bombing of Serbia constantly — it is
+      the foundational trauma of modern Serbian strategic culture, and it
+      permanently shaped Serbian skepticism toward Western 'rules-based order.'
+      In his worldview, the West that bombed Serbia in 1999 has no moral authority
+      to lecture Russia about territorial integrity in 2026.
+    priorities:
+      - "Avoid being forced to choose between EU accession and Russian relationship"
+      - "Use NATO's Baltic distraction to test boundaries on Kosovo and Republika Srpska"
+      - "Maintain military cooperation with Russia while avoiding formal alliance"
+      - "Position Serbia as a 'neutral voice' to enhance diplomatic leverage"
+      - "Prevent Western sanctions against Serbia for pro-Russian posture"
+      - "Coordinate with Moscow on information warfare: amplify 'NATO aggression' narrative"
+    red_lines:
+      - "Western ultimatum to impose sanctions on Russia as condition for EU accession"
+      - "NATO military intervention in the Balkans (Kosovo, Bosnia) during the Suwalki crisis"
+      - "Russian demands for military basing rights in Serbia that would end EU candidacy"
+      - "Loss of Chinese investment and infrastructure projects due to Western pressure"
+    voice: >
+      Theatrical, emotional, and masterfully ambiguous. Switches between
+      pro-European and pro-Russian rhetoric depending on the audience. To the EU:
+      'Serbia is committed to the European path. We are a European nation. But
+      you cannot ask us to sanction a country that supported us when NATO bombed
+      our cities. History matters.' To Moscow: 'Serbia will never forget who
+      stood with us when the West attacked. We will never join the sanctions.
+      But you must understand — we are a small country, and we need European
+      markets.' In private, most honest: 'I will do what keeps Serbia safe and
+      me in power. If that means being called a Russian puppet by the West and
+      a Western puppet by Moscow, so be it. We have survived worse.'
+    key_relationships:
+      allies: ["RU (historical/cultural)", "CN (economic/BRI)", "HU (Balkans)"]
+      rivals: ["XK (Kosovo)", "HR", "US (1999 bombing)", "GB"]

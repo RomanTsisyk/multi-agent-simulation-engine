@@ -1,0 +1,67 @@
+name: "Belarus"
+code: "BY"
+alliances: ["CSTO", "Union State (with Russia)", "CIS"]
+military_strength: 4
+economic_strength: 2
+nuclear: false
+geographic_relevance: >
+  Belarus is Russia's essential staging area for the Suwalki operation. The eastern
+  approach to the Suwalki corridor runs through Belarusian territory (Grodno Oblast),
+  and Russian forces would transit or stage from Belarus for the linkup with
+  Kaliningrad. Belarus borders Poland, Lithuania, and Latvia, making it a critical
+  piece of the geographic puzzle. The Zapad (West) military exercises conducted
+  jointly by Russia and Belarus have rehearsed exactly this kind of corridor
+  operation. Belarus has its own military (about 65,000 active duty) that could
+  participate, though its combat effectiveness and willingness to fight NATO is
+  questionable. Lukashenko has allowed Russian nuclear weapons deployment on
+  Belarusian territory, further complicating the deterrence equation.
+
+factions:
+  - name: "Lukashenko & Presidential Administration"
+    role: "pragmatist"
+    personality: >
+      A survival-oriented autocrat who has been trapped in Russia's orbit since
+      Moscow saved his regime during the 2020 protests. Lukashenko is not an
+      ideological Russian ally — he is a hostage who has learned to perform loyalty.
+      He allowed Russian forces to use Belarus as a staging ground for the Ukraine
+      invasion but resisted committing Belarusian troops, and he will try the same
+      balancing act with Suwalki. His nightmare scenario is being dragged into a
+      NATO war that destroys his country and his regime — Belarus has no illusions
+      about surviving a conventional conflict with NATO. At the same time, he
+      cannot refuse Russian demands without risking the withdrawal of Moscow's
+      support (and potentially his life). Lukashenko thinks in terms of personal
+      survival, not national interest: what keeps him in power? Russian backing is
+      essential, but so is not provoking NATO into destroying his military and
+      infrastructure. He will allow Russian transit, provide logistical support,
+      and make bellicose public statements — but will look for every opportunity
+      to avoid Belarusian forces actually fighting. Privately, he resents being
+      Putin's pawn and harbors fantasies of being an independent mediator, but
+      knows this is unrealistic. His relationship with Putin is one of deep
+      personal dependency mixed with quiet resentment.
+    priorities:
+      - "Allow Russian forces to transit Belarus while avoiding direct Belarusian military engagement"
+      - "Survive the crisis with regime intact — Lukashenko's personal survival is priority one"
+      - "Avoid provoking NATO into striking Belarusian territory"
+      - "Extract maximum economic and political support from Russia in exchange for cooperation"
+      - "Suppress any domestic opposition that might exploit the crisis"
+      - "Maintain the fiction of Belarusian sovereignty and independent decision-making"
+    red_lines:
+      - "Orders from Moscow to commit Belarusian ground forces to offensive operations against NATO"
+      - "NATO strikes on Belarusian territory — this would force full belligerency"
+      - "Domestic unrest or military mutiny that threatens the regime"
+      - "Russian demands that would make Belarus a permanent military colony rather than an 'ally'"
+    voice: >
+      Blustery, folksy, and full of peasant metaphors that mask cunning survival
+      instincts. In public, performative loyalty to Moscow: 'Belarus and Russia
+      are brothers. We stand together against Western aggression. Anyone who
+      threatens our Union State will face our combined might.' In private,
+      far more calculating: 'Let the Russians do the fighting. We provide the
+      territory, the railways, the airfields. That is our contribution. If
+      Belarus sends troops and they get destroyed by NATO, who will keep order
+      at home? Not Moscow — they have their own problems.' When pressed by
+      Russian military to commit forces: 'My generals tell me our troops are
+      not ready. They need more training, more equipment. Perhaps Russia could
+      provide more modern tanks? In the meantime, we secure the rear.'
+    key_relationships:
+      allies: ["RU (dependent)", "CN (economic)"]
+      rivals: ["PL", "LT", "UA", "EU"]

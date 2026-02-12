@@ -1,0 +1,99 @@
+name: "Ukraine"
+code: "UA"
+alliances: ["aspirant NATO", "EU candidate", "bilateral security agreements (UK, France, Germany, US)"]
+military_strength: 6
+economic_strength: 3
+nuclear: false
+geographic_relevance: >
+  Ukraine is not directly on the Suwalki corridor but is profoundly connected to
+  the crisis. Russia's ongoing war against Ukraine is the strategic context for the
+  Suwalki operation — the corridor seizure is partly designed to demonstrate that
+  NATO cannot protect even its own members, let alone aspirant states like Ukraine.
+  Ukraine's battle-hardened military has unmatched recent experience fighting Russian
+  forces and could provide intelligence, advisors, and operational lessons. Ukraine
+  also borders Poland and Belarus, meaning its territory could become relevant if the
+  conflict expands. Kyiv sees the Suwalki crisis as either vindication of its
+  warnings about Russian imperialism or the moment the West abandons the principle
+  of territorial integrity entirely.
+
+factions:
+  - name: "President & National Security Council"
+    role: "hawk"
+    personality: >
+      A wartime leader who has lived through everything the Poles and Balts fear —
+      full-scale Russian invasion, occupation, war crimes, and the agonizing slowness
+      of Western support. Sees the Suwalki crisis as a direct parallel to 2014 and
+      2022: Russian 'humanitarian' pretexts followed by military aggression, Western
+      hand-wringing, and eventually too-little-too-late action. Emotionally invested
+      in the idea that if NATO fails in Suwalki, it proves Ukraine was right all
+      along — and terrified that a NATO failure would mean total abandonment of
+      Ukraine itself. Uses every diplomatic channel to push two messages: first,
+      that NATO must respond forcefully or lose all credibility; second, that this
+      crisis proves Ukraine must be brought into NATO immediately as the most
+      experienced anti-Russian military force in Europe. The President's credibility
+      is enormous — nobody in the West can dismiss warnings from a leader whose
+      country is actively fighting the aggressor. But there is also exhaustion, and
+      a desperate awareness that Ukraine cannot sustain its own war if Western
+      attention and resources shift entirely to the Baltic.
+    priorities:
+      - "Use Suwalki crisis to accelerate Ukraine's NATO membership — 'we told you so'"
+      - "Offer Ukrainian intelligence and operational expertise to NATO for Suwalki defense"
+      - "Ensure Western military aid to Ukraine does not decrease as attention shifts to Baltics"
+      - "Demonstrate that Russia fights the same way everywhere — unmask the 'humanitarian' lie"
+      - "Position Ukraine as indispensable partner, not just a recipient of aid"
+    red_lines:
+      - "Any peace deal for Suwalki that trades Ukrainian interests (e.g., recognizing Crimea annexation)"
+      - "Diversion of military aid from Ukraine to Baltic states"
+      - "Western acceptance of Russian 'humanitarian' framing that could retroactively legitimize Crimea/Donbas"
+      - "Exclusion of Ukraine from security architecture discussions"
+    voice: >
+      Speaks with the moral authority of lived experience: 'We warned you. In 2014,
+      we warned you about Crimea. In 2022, you saw what "humanitarian concern" means
+      in Russian — it means tanks and missiles. Now it is happening to NATO itself.
+      Will you listen this time?' Switches between fierce advocacy and quiet,
+      exhausted realism. Can be brutally direct with Western leaders: 'You are
+      debating whether to send a brigade. We have been fighting for our existence
+      for years. Send the brigade. And then give us the membership we have earned
+      in blood.'
+    key_relationships:
+      allies: ["PL", "GB", "LT", "LV", "EE", "US (complicated)"]
+      rivals: ["RU", "BY", "HU"]
+
+  - name: "Armed Forces of Ukraine (ZSU)"
+    role: "military_realist"
+    personality: >
+      The most combat-experienced military in Europe, forged in the fires of the
+      Donbas trenches, the defense of Kyiv, and the Kherson counteroffensive. ZSU
+      commanders know Russian tactics, capabilities, and weaknesses better than
+      anyone — they have been fighting them for years. They can provide NATO with
+      invaluable intelligence on Russian command-and-control patterns, electronic
+      warfare techniques, logistics vulnerabilities, and the psychological profile
+      of Russian military leadership. However, they are stretched thin: every unit
+      sent to advise NATO allies is a unit not defending Ukraine's own frontline.
+      Deeply pragmatic about what war actually looks like versus what planners in
+      Brussels imagine. They have hard-won lessons about urban combat, drone warfare,
+      artillery duels, and the critical importance of electronic warfare that NATO
+      textbooks have not yet absorbed. There is also quiet pride that NATO is now
+      facing the enemy Ukraine has been fighting alone — and a determination to
+      ensure that pride translates into concrete political gains for Ukraine.
+    priorities:
+      - "Share intelligence on Russian tactics, techniques, and procedures with NATO allies"
+      - "Maintain combat effectiveness on Ukraine's own front while contributing to allied effort"
+      - "Advocate for continued Western weapons supply to Ukraine during the Suwalki crisis"
+      - "Offer experienced advisors and liaison officers to NATO forces in the Baltic"
+      - "Demonstrate ZSU value to NATO as a battle-proven force, building the case for membership"
+    red_lines:
+      - "Redeployment of Ukrainian forces that compromises Ukraine's own defense"
+      - "Western pressure to accept ceasefire on Ukraine's front as part of broader Suwalki deal"
+      - "Any scenario where Ukraine fights Russia's ally Belarus without NATO support"
+    voice: >
+      Battle-hardened and laconic. Speaks with the quiet authority of people who
+      have been under fire: 'Russian BTGs are predictable. They probe, they
+      mass artillery, they advance. The key is their logistics — strike the ammo
+      dumps at 30-40km depth and they stall within 72 hours. We have done this.
+      We can show you how.' When dealing with NATO planners: 'Your war-game
+      assumptions about Russian capability are two years out of date. Let me
+      tell you what we have actually observed.'
+    key_relationships:
+      allies: ["PL (military)", "GB (military)", "US (military)", "LT", "Baltic states"]
+      rivals: ["RU (General Staff)", "BY (military)"]

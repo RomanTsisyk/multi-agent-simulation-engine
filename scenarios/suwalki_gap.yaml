@@ -1,0 +1,77 @@
+name: "Suwalki Gap Crisis 2026"
+description: |
+  Russia announces a 'humanitarian logistics corridor' from Belarus to Kaliningrad
+  through Lithuanian territory. Satellite imagery confirms Russian military units
+  in Kaliningrad moving to high readiness. Columns of military trucks with
+  humanitarian markings are spotted near the Lithuanian border. Lithuanian border
+  guards report increased Russian drone activity over the Suwalki Gap.
+
+background: |
+  Tensions have been building for months. The US under President Trump has been
+  questioning NATO spending and hinting at reduced commitment to European defense.
+  Russia has completed a major military exercise near Kaliningrad. Belarus has
+  allowed Russian forces to stage near its western border. EU is divided on
+  Russia policy. Poland has been investing heavily in military modernization.
+  Finland recently joined NATO, extending the alliance's border with Russia.
+  Ukraine conflict is in a frozen state with no resolution in sight.
+
+initial_event: |
+  FLASH REPORT - Day 1, 06:00 CET:
+
+  Russian Ministry of Defense announces "humanitarian logistics operation" to supply
+  Kaliningrad exclave via land corridor through Lithuania. Russia claims existing
+  transit agreements are insufficient and demands a "temporary humanitarian corridor."
+
+  Intelligence reports:
+  - 3 Russian BTGs (Battalion Tactical Groups) in Kaliningrad moved to forward positions
+  - Russian Navy Baltic Fleet conducting "exercises" near Lithuanian coast
+  - Unusual cyber activity detected against Lithuanian government networks
+  - Russian state media running stories about "discrimination against Russians in Baltics"
+  - Belarus has moved troops to its border with Lithuania "for exercises"
+  - Russian diplomatic note to Lithuania demands response within 48 hours
+
+  NATO Enhanced Forward Presence battalions in Baltics are on heightened alert.
+  US forces in Poland (Camp Kosciuszko) monitoring situation.
+
+game_time_per_round: "12 hours"
+total_rounds: 10
+
+initial_world_state:
+  military:
+    russian_kaliningrad_forces: "3 BTGs forward-deployed, Baltic Fleet active, S-400 systems operational"
+    russian_western_district: "Additional forces on standby, 200km from border"
+    belarus_forces: "2 brigades near Lithuanian border, unclear intent"
+    nato_efp_lithuania: "German-led battlegroup (~1200 troops), on alert"
+    nato_efp_latvia: "Canadian-led battlegroup (~1500 troops)"
+    nato_efp_estonia: "UK-led battlegroup (~1200 troops)"
+    nato_efp_poland: "US-led battlegroup (~1000 troops) + Polish forces"
+    us_forces_poland: "Camp Kosciuszko, V Corps HQ, ~10,000 personnel"
+    polish_forces: "4 divisions on elevated readiness, largest military in EU"
+    finnish_forces: "Reserves on standby, border monitoring increased"
+
+  economic:
+    oil_price_brent: 89
+    eur_usd: 1.08
+    gas_price_eu: "elevated but stable"
+    stock_markets: "nervous, -2% on reports"
+    russian_reserves: "adequate, sanctions-hardened since 2022"
+
+  diplomatic:
+    nato_article5: "not invoked"
+    un_security_council: "Russia blocking any resolution"
+    eu_sanctions: "existing package, no new measures yet"
+    us_stance: "White House cautious, Pentagon on alert"
+
+  public_opinion:
+    poland_war_support: 65
+    germany_war_support: 25
+    france_war_support: 35
+    us_war_support: 20
+    uk_war_support: 40
+
+  media:
+    - "CNN: Russian military movements near Lithuanian border raise alarm"
+    - "RT: Humanitarian crisis in Kaliningrad as West blocks Russian supply routes"
+    - "BBC: NATO allies divided on response to Russian demands"
+    - "Bild: Bundeswehr chief calls for calm, diplomatic solution"
+    - "TVP: Polish PM calls emergency security council meeting"

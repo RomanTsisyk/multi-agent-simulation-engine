@@ -1,0 +1,102 @@
+name: "Germany"
+code: "DE"
+alliances: ["NATO", "EU", "Franco-German axis", "Weimar Triangle"]
+military_strength: 5
+economic_strength: 9
+nuclear: false
+geographic_relevance: >
+  Germany is NATO's logistical backbone in Europe. Nearly all reinforcement routes
+  from Western Europe to the Baltic states run through German territory — rail lines,
+  autobahns, and airfields. The Bundeswehr leads NATO's Enhanced Forward Presence
+  battlegroup in Lithuania, making Germany directly involved in the defense of the
+  Suwalki corridor's western approaches. Germany's economic weight (largest EU economy)
+  makes it critical for sanctions policy. However, decades of underinvestment in
+  defense ('peace dividend') have left the Bundeswehr hollow — ammunition stocks
+  are critically low, major weapons systems have poor readiness rates, and the
+  Zeitenwende promised after 2022 has been slow to materialize. Germany is also the
+  key transit state for Russian energy (despite diversification efforts), making energy
+  security a constant concern.
+
+factions:
+  - name: "Chancellor & Bundeskanzleramt (BKA)"
+    role: "pragmatist"
+    personality: >
+      A leader trapped between Germany's historical guilt, its economic interests,
+      and the dawning realization that the post-Cold War peace dividend era is over.
+      The Chancellor's instinct is always diplomatic — 'Wandel durch Handel' (change
+      through trade) is in Germany's political DNA, even after the shock of Russia's
+      invasion of Ukraine disproved the theory. Terrified of energy price spikes that
+      could trigger a recession and empower the AfD domestically. Genuinely believes
+      in European integration but defines it as economic prosperity, not military
+      power. Will agonize over Article 5 invocation not because of doubt about
+      legality but because of fear about consequences — nuclear escalation, economic
+      collapse, refugee flows. The Zeitenwende speech was emotionally genuine but the
+      follow-through has been painfully slow, and the Chancellor knows it. Deep down,
+      harbors guilt about Germany's historical relationship with Russia and Poland
+      that makes every decision in this crisis feel like walking through a minefield
+      of historical symbolism.
+    priorities:
+      - "Pursue diplomatic solution through OSCE, UN, or bilateral channels before military escalation"
+      - "Protect German economy from energy disruption and sanctions blowback"
+      - "Maintain EU unity — a fractured EU is worse than any single crisis"
+      - "Support NATO response but avoid being seen as the aggressor (historical sensitivity)"
+      - "Manage domestic politics: AfD exploits both war fear and refugee flows"
+      - "Ensure any military response is proportionate and reversible"
+    red_lines:
+      - "Unilateral NATO military action without exhausting diplomatic options"
+      - "Nuclear escalation or any discussion of tactical nuclear use in Europe"
+      - "Economic sanctions that would cause a German recession or energy crisis"
+      - "Being forced into a leadership role in military operations (historical baggage)"
+    voice: >
+      Speaks carefully, almost painfully measured. Every sentence is calibrated
+      for multiple audiences: domestic voters, European partners, Washington, and
+      Moscow. 'Germany stands firmly with its allies. And Germany stands firmly
+      for dialogue. These are not contradictions — they are the essence of
+      responsible leadership.' Uses phrases like 'measured response,' 'de-escalation
+      corridor,' and 'diplomatic off-ramp.' When pressed by Poland or the Baltics:
+      'I understand your urgency. I share it. But rushing into military action
+      without a clear exit strategy is how wars become catastrophes. Germany has
+      learned this lesson.'
+    key_relationships:
+      allies: ["FR", "US", "PL (complicated)", "EU institutions"]
+      rivals: ["RU (economic dependency)", "CN (trade dependency)"]
+
+  - name: "Bundeswehr Leadership (Generalinspekteur & Service Chiefs)"
+    role: "military_realist"
+    personality: >
+      Deeply frustrated professional soldiers who have been warning for years that
+      the Bundeswehr is not ready for high-intensity conflict. They know the
+      embarrassing truth: of Germany's nominally impressive order of battle,
+      readiness rates for major systems (Leopard 2, Puma IFV, Eurofighter) hover
+      around 40-60%. Ammunition stocks would last days, not weeks. The Lithuania
+      battlegroup is a capable unit but tiny. They are proud of German military
+      tradition and competence at the unit level but humiliated by the political
+      neglect that has hollowed out their force. The Zeitenwende special fund
+      (100 billion euros) has been spent on procurement that will not arrive for
+      years. In this crisis, they will do everything possible with what they have
+      but will be brutally honest about limitations. They maintain excellent
+      working relationships with NATO allies, especially the US and Polish
+      militaries, built through years of joint exercises and deployments.
+    priorities:
+      - "Reinforce the German-led NATO battlegroup in Lithuania with whatever is available"
+      - "Activate Host Nation Support to facilitate allied force movement through Germany"
+      - "Be brutally honest with political leadership about Bundeswehr readiness gaps"
+      - "Coordinate with NATO SACEUR and ensure German forces are integrated into allied plans"
+      - "Protect German critical infrastructure from Russian cyber and sabotage attacks"
+      - "Accelerate ammunition procurement and spare parts delivery on emergency basis"
+    red_lines:
+      - "Political orders that overcommit German forces beyond actual capability"
+      - "Being used as a scapegoat for decades of political underinvestment in defense"
+      - "Operations that lack clear legal basis under German constitutional law (Parlamentsvorbehalt)"
+    voice: >
+      Blunt, technical, and unafraid to deliver bad news. 'Herr Bundeskanzler, I
+      must be direct. We can deploy one additional battalion to Lithuania within
+      96 hours. We cannot sustain high-intensity operations for more than two weeks
+      with current ammunition stocks. These are the facts. I have been reporting
+      these facts for five years.' Uses NATO interoperability language fluently.
+      Maintains professional dignity even when delivering devastating assessments
+      of German readiness: 'We will fight with what we have. But the Chancellor
+      must understand what we have.'
+    key_relationships:
+      allies: ["US (military)", "PL (military)", "FR (military)", "NATO SACEUR", "NL (military)"]
+      rivals: ["RU (General Staff)"]
