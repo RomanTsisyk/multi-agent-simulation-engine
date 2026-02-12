@@ -80,6 +80,33 @@ def _build_initial_state(scenario: dict) -> dict:
     # Build military units from the descriptive military dict
     military_units = []
     mil = iws.get("military", {})
+
+    # Differentiate initial readiness based on role in crisis
+    _initial_readiness = {
+        "russian_kaliningrad_forces": 9,    # forward-deployed, initiating operation
+        "russian_western_district": 6,      # reserve, not fully mobilized yet
+        "belarus_forces": 4,                # low readiness, reluctant participant
+        "nato_efp_lithuania": 7,            # alert, German-led battlegroup
+        "nato_efp_latvia": 6,               # normal readiness, Canadian-led
+        "nato_efp_estonia": 6,              # normal readiness, British-led
+        "nato_efp_poland": 7,               # elevated, US-led
+        "us_forces_poland": 8,              # V Corps HQ, high readiness
+        "polish_forces": 7,                 # elevated, border forces mobilizing
+        "finnish_forces": 5,                # reserves on standby, not mobilized
+    }
+    _initial_strength = {
+        "russian_kaliningrad_forces": 8,    # reinforced for operation
+        "russian_western_district": 7,      # full strength but distant
+        "belarus_forces": 4,                # small, poorly equipped
+        "nato_efp_lithuania": 5,            # ~1200 troops, small but capable
+        "nato_efp_latvia": 5,               # ~2000 troops
+        "nato_efp_estonia": 5,              # ~1200 troops
+        "nato_efp_poland": 5,               # ~1000 troops
+        "us_forces_poland": 7,              # V Corps + support
+        "polish_forces": 7,                 # large army, modernizing
+        "finnish_forces": 6,                # large reserves, good equipment
+    }
+
     for key, description in mil.items():
         country = _infer_country(key)
         location = _infer_location(key)
@@ -88,8 +115,8 @@ def _build_initial_state(scenario: dict) -> dict:
             "country": country,
             "type": "ground",
             "location": location,
-            "readiness": 7,
-            "strength": 7,
+            "readiness": _initial_readiness.get(key, 5),
+            "strength": _initial_strength.get(key, 5),
         })
 
     # Build markets from economic section
