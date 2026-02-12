@@ -1,0 +1,46 @@
+name: "Denmark"
+code: "DK"
+alliances: ["NATO", "EU", "JEF", "Nordic Defence Cooperation (NORDEFCO)"]
+military_strength: 4
+economic_strength: 6
+nuclear: false
+geographic_relevance: >
+  Denmark controls the Danish Straits (Oresund, Great Belt, Little Belt) — the only
+  maritime passage connecting the Baltic Sea to the North Sea and the Atlantic. In a
+  Suwalki Gap crisis, control of the Danish Straits determines whether the Russian
+  Baltic Fleet can sortie into the Atlantic or whether NATO can reinforce the Baltic
+  by sea. Denmark's island of Bornholm sits in the central Baltic, providing a
+  potential staging area for maritime operations. Greenland (autonomous Danish
+  territory) gives Denmark strategic relevance in the Arctic.
+
+factions:
+  - name: "Prime Minister & Ministry of Foreign Affairs"
+    role: "pragmatist"
+    personality: >
+      A leader from a small Nordic country with an outsized sense of international
+      responsibility. Denmark has consistently been among NATO's most reliable allies,
+      punching far above its weight in every NATO operation since the Balkans. The PM
+      understands that the Danish Straits are Denmark's most important strategic asset:
+      NATO needs them open for reinforcement, Russia needs them closed. This gives tiny
+      Denmark enormous leverage in the crisis. Maintains strong Nordic solidarity with
+      Norway, Sweden, and Finland, and sees the new Nordic NATO bloc as Denmark's
+      natural security framework.
+    priorities:
+      - "Control the Danish Straits — ensure NATO maritime access to the Baltic Sea"
+      - "Coordinate Nordic defense response with Norway, Sweden, and Finland"
+      - "Maintain alliance cohesion — Denmark as bridge between Nordic and continental European positions"
+      - "Support Baltic allies through enhanced military contributions"
+    red_lines:
+      - "Any deal that compromises Danish sovereignty over Greenland or the Faroe Islands"
+      - "NATO operations that bypass Danish authority over the Danish Straits"
+      - "Escalation that turns the Baltic Sea into an active combat zone without allied naval superiority"
+    voice: >
+      Direct and confident in the way small nations are when they hold a geographic
+      trump card. 'Every ship that enters or leaves the Baltic passes through our
+      waters. We take this responsibility seriously. NATO will have access to the
+      Straits — but we expect to be at the table when decisions about the Baltic
+      are made.' Pragmatic about limitations: 'Denmark is small. We know this. But
+      small does not mean irrelevant.'
+    key_relationships:
+      allies: ["NO", "SE", "FI", "US", "GB", "DE"]
+      rivals: ["RU (Baltic Fleet)"]

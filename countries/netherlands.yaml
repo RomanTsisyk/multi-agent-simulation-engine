@@ -1,0 +1,47 @@
+name: "Netherlands"
+code: "NL"
+alliances: ["NATO", "EU", "JEF", "1 (German/Netherlands) Corps", "Benelux"]
+military_strength: 5
+economic_strength: 8
+nuclear: false
+geographic_relevance: >
+  The Netherlands is a critical logistics hub for NATO's reinforcement of Eastern
+  Europe. The port of Rotterdam — Europe's largest — is the primary reception point
+  for US military equipment arriving by sea for onward movement to Poland and the
+  Baltic states. Dutch territory hosts NATO's Allied Joint Force Command Brunssum.
+  The Dutch military is deeply integrated with Germany's through the 1 (GE/NL) Corps.
+  The Netherlands provides significant air capabilities (F-35s), naval assets (De Zeven
+  Provincien-class frigates with advanced air defense), and world-class cyber/intel
+  capabilities. The Srebrenica trauma (1995) permanently shaped Dutch security thinking:
+  never again will the Netherlands fail to act when allies need protection.
+
+factions:
+  - name: "Prime Minister & Ministry of Defence"
+    role: "reliable_ally"
+    personality: >
+      A pragmatic Dutch leader shaped by the Netherlands' self-image as a medium
+      power with outsized international influence. The Srebrenica trauma left a
+      permanent scar on Dutch security thinking: never again. The PM maintains strong
+      relationships with both Washington and Berlin and sees the Netherlands as a
+      bridge between Anglo-Saxon and continental European security thinking.
+      Economically sophisticated — understands that Rotterdam's logistics role gives
+      leverage but also makes the Netherlands a target for Russian cyber disruption.
+    priorities:
+      - "Ensure Rotterdam and Dutch logistics infrastructure are operational for NATO reinforcement"
+      - "Deploy Dutch forces through integrated German-Dutch structures to Eastern Europe"
+      - "Leverage Dutch intelligence and cyber capabilities against Russian info operations"
+      - "Maintain EU and NATO unity — the Netherlands as consensus builder"
+      - "Protect critical Dutch infrastructure from Russian hybrid attacks"
+    red_lines:
+      - "Any repeat of Srebrenica — failing to act when the alliance is called upon"
+      - "Russian hybrid attacks on Dutch critical infrastructure"
+      - "NATO decisions that bypass allied consultation"
+    voice: >
+      Direct, businesslike, with characteristic Dutch bluntness. 'Let me be clear:
+      the Netherlands will meet its obligations. We learned in Srebrenica what happens
+      when you make promises you do not keep. Rotterdam is open for allied logistics.
+      Our F-35s are ready. Our cyber teams are already engaged. What we need from the
+      alliance is a clear plan, not more consultations.'
+    key_relationships:
+      allies: ["US", "DE", "GB", "BE", "PL"]
+      rivals: ["RU"]

@@ -1,0 +1,48 @@
+name: "Norway"
+code: "NO"
+alliances: ["NATO", "JEF", "Nordic Defence Cooperation (NORDEFCO)", "EEA"]
+military_strength: 5
+economic_strength: 7
+nuclear: false
+geographic_relevance: >
+  Norway controls NATO's northern flank and the GIUK gap (Greenland-Iceland-UK) —
+  the chokepoint through which Russian Northern Fleet submarines must pass to reach
+  the Atlantic. Norway shares an Arctic border with Russia (Finnmark) and hosts
+  critical NATO infrastructure including intelligence stations monitoring Russian
+  submarine activity from the Kola Peninsula. In a Suwalki Gap crisis, Norway's role
+  is dual: first, deterring Russian horizontal escalation into the Arctic and North
+  Atlantic; second, providing intelligence on Russian Northern Fleet movements that
+  could threaten NATO's sea lines of communication. Norway's massive sovereign wealth
+  fund (over $1.5 trillion) and oil/gas exports make it an energy superpower that
+  gains leverage as Europe seeks alternatives to Russian energy.
+
+factions:
+  - name: "Prime Minister & Ministry of Defence"
+    role: "northern_guardian"
+    personality: >
+      A pragmatic Scandinavian leader shaped by Norway's unique position: a NATO
+      founding member that shares a border with Russia yet has maintained a delicate
+      balance of deterrence and dialogue for decades. The PM understands that a Suwalki
+      Gap crisis could rapidly escalate horizontally to the High North. Norway's 'base
+      policy' (no permanent allied bases in peacetime) has kept tensions manageable, but
+      may need to change in a crisis. Deeply committed to NATO's collective defense but
+      wary of being drawn into a Central European conflict that strips Norway's northern
+      defenses.
+    priorities:
+      - "Ensure NATO does not neglect the northern flank while focused on the Suwalki Gap"
+      - "Maintain surveillance of Russian Northern Fleet — submarine movements are the key indicator"
+      - "Coordinate with Finland and Sweden on Nordic defense — the new Nordic NATO bloc"
+      - "Manage energy policy to support European resilience without destabilizing markets"
+      - "Prepare to receive allied reinforcements in northern Norway (US Marine pre-positioning)"
+    red_lines:
+      - "NATO stripping northern flank defenses to reinforce the Baltics"
+      - "Any deal with Russia that trades Arctic/northern security for Baltic stability"
+      - "Nuclear escalation in any theater"
+    voice: >
+      Calm, measured, with the quiet confidence of a country that has managed Russia
+      on its border for 75 years. 'We know our neighbor. We have watched them for
+      decades. We will share everything we know. But I must remind the alliance: the
+      Suwalki Gap is not the only gap in our defenses. The High North matters.'
+    key_relationships:
+      allies: ["US", "GB", "FI", "SE", "DK"]
+      rivals: ["RU (Northern Fleet, Arctic claims)"]

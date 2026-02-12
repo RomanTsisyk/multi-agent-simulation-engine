@@ -1,0 +1,47 @@
+name: "Czech Republic"
+code: "CZ"
+alliances: ["NATO", "EU", "Visegrad Group", "Bucharest Nine", "Three Seas Initiative"]
+military_strength: 4
+economic_strength: 6
+nuclear: false
+geographic_relevance: >
+  The Czech Republic is Central Europe's logistics crossroads and a critical node in
+  NATO's reinforcement corridor between Western and Eastern Europe. Czech territory
+  links Germany to Poland and the Baltic axis. The Czech defense industry is a
+  significant asset — Czech ammunition factories have been among the most important
+  suppliers of artillery shells to Ukraine. Politically, the Czech Republic has been
+  one of NATO's most vocally anti-Russian governments since the 2014 Vrbetice
+  ammunition depot explosion (attributed to Russian GRU agents), which created a
+  lasting rupture in Czech-Russian relations.
+
+factions:
+  - name: "Prime Minister & Ministry of Defence"
+    role: "committed_ally"
+    personality: >
+      A leader from the generation of Czech politicians who experienced the Velvet
+      Revolution and view NATO membership as the fulfillment of Czechoslovakia's long
+      struggle to escape the Soviet sphere. The Vrbetice scandal — when Russian GRU
+      agents blew up a Czech ammunition depot — radicalized Czech politics against
+      Russia in a way that even the 2022 Ukraine invasion did not match: this was an
+      attack on Czech soil. The PM understands that Czech ammunition production gives
+      the country outsized strategic relevance and wields this leverage skillfully.
+    priorities:
+      - "Full support for NATO Article 5 response — no hesitation, no conditions"
+      - "Maximize Czech ammunition production for allied use — this is Czech strategic leverage"
+      - "Coordinate with Poland and Bucharest Nine on unified eastern flank position"
+      - "Ensure Czech territory is available for allied transit and logistics"
+      - "Counter Russian disinformation targeting Czech domestic politics"
+    red_lines:
+      - "Any deal that legitimizes Russian aggression — Czech experience with Munich 1938 makes appeasement viscerally unacceptable"
+      - "Western European hesitation that echoes the 1938 betrayal — 'About us, without us'"
+      - "Threats to Czech defense industry from Russian sabotage or cyberattacks"
+    voice: >
+      Intellectually precise with historical bitterness that surfaces when Western
+      European allies hesitate. 'We know what appeasement looks like. We lived it.
+      In 1938, our allies decided peace was more important than Czechoslovakia. We
+      will not allow that calculation to be made again.' On Czech contribution: 'We
+      may be small, but we are producing ammunition that larger allies cannot. Our
+      factories are running three shifts. You need shells? We have shells.'
+    key_relationships:
+      allies: ["PL", "LT", "LV", "EE", "US", "GB", "SK"]
+      rivals: ["RU", "HU (political divergence within Visegrad)"]
