@@ -23,6 +23,17 @@ LOGS_DIR = PROJECT_ROOT / "logs"
 VIEWER_DIR = PROJECT_ROOT / "viewer"
 
 
+def _safe_resolve(base: Path, untrusted: str) -> Path | None:
+    """Resolve an untrusted path safely, preventing directory traversal."""
+    try:
+        resolved = (base / untrusted).resolve()
+        if resolved.is_relative_to(base.resolve()):
+            return resolved
+    except (ValueError, OSError):
+        pass
+    return None
+
+
 def find_games() -> list[dict]:
     """Return a list of game sessions sorted by name (newest first)."""
     if not LOGS_DIR.exists():
@@ -55,8 +66,8 @@ class ViewerHandler(SimpleHTTPRequestHandler):
             # /api/round/game_xxx/round_001.json
             parts = self.path[len("/api/round/"):].split("/", 1)
             if len(parts) == 2:
-                fpath = LOGS_DIR / parts[0] / parts[1]
-                if fpath.exists() and fpath.suffix == ".json":
+                fpath = _safe_resolve(LOGS_DIR, f"{parts[0]}/{parts[1]}")
+                if fpath and fpath.exists() and fpath.suffix == ".json":
                     self._file_response(fpath)
                     return
             self._error_response(404, "Round file not found")
@@ -65,8 +76,8 @@ class ViewerHandler(SimpleHTTPRequestHandler):
         # API: get game summary
         if self.path.startswith("/api/summary/"):
             game_name = self.path[len("/api/summary/"):]
-            fpath = LOGS_DIR / game_name / "game_summary.json"
-            if fpath.exists():
+            fpath = _safe_resolve(LOGS_DIR, f"{game_name}/game_summary.json")
+            if fpath and fpath.exists():
                 self._file_response(fpath)
                 return
             self._error_response(404, "Summary not found")
@@ -75,8 +86,8 @@ class ViewerHandler(SimpleHTTPRequestHandler):
         # API: get all rounds for a game
         if self.path.startswith("/api/game/"):
             game_name = self.path[len("/api/game/"):]
-            game_dir = LOGS_DIR / game_name
-            if game_dir.is_dir():
+            game_dir = _safe_resolve(LOGS_DIR, game_name)
+            if game_dir and game_dir.is_dir():
                 all_data = {"rounds": [], "summary": None}
                 for rf in sorted(game_dir.glob("round_*.json")):
                     with open(rf) as f:
@@ -97,8 +108,8 @@ class ViewerHandler(SimpleHTTPRequestHandler):
 
         # Serve other viewer static files
         safe_path = self.path.lstrip("/")
-        viewer_file = VIEWER_DIR / safe_path
-        if viewer_file.exists() and viewer_file.is_file():
+        viewer_file = _safe_resolve(VIEWER_DIR, safe_path)
+        if viewer_file and viewer_file.exists() and viewer_file.is_file():
             self._file_response(viewer_file)
             return
 
@@ -158,7 +169,7 @@ def main():
     print(f"\n  Open: http://localhost:{args.port}")
     print(f"  Press Ctrl+C to stop\n")
 
-    server = HTTPServer(("", args.port), ViewerHandler)
+    server = HTTPServer(("127.0.0.1", args.port), ViewerHandler)
     try:
         server.serve_forever()
     except KeyboardInterrupt:
