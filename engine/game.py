@@ -475,11 +475,27 @@ class Game:
 
         game_start = time.time()
         round_records: list[dict] = []
+        round_times: list[float] = []
 
         for round_num in range(1, self.total_rounds + 1):
             try:
                 record = await self.run_round(round_num)
                 round_records.append(record)
+
+                # Track timing and show ETA
+                elapsed_round = record.get("elapsed_seconds", 0)
+                round_times.append(elapsed_round)
+                avg_time = sum(round_times) / len(round_times)
+                remaining = self.total_rounds - round_num
+                eta_seconds = avg_time * remaining
+                eta_min = int(eta_seconds // 60)
+                eta_sec = int(eta_seconds % 60)
+                _print_info(
+                    f"Progress: {round_num}/{self.total_rounds} "
+                    f"({round_num * 100 // self.total_rounds}%) | "
+                    f"Avg {avg_time:.0f}s/round | "
+                    f"ETA: {eta_min}m {eta_sec}s"
+                )
             except Exception as exc:
                 _print_error(f"Round {round_num} failed catastrophically: {exc}")
                 logger.exception("Round %d failed", round_num)
