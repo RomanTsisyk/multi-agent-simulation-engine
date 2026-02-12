@@ -561,12 +561,29 @@ class Game:
         if not factions_cfg:
             return _CountryStub(code=code, name=cfg.get("name", code), config=cfg, backend=backend)
 
+        # Country-level context to inject into faction personalities
+        nuclear_status = cfg.get("nuclear", False)
+        country_name = cfg.get("name", code)
+
         factions: list[Faction] = []
         for fc in factions_cfg:
+            # Enrich personality with key_relationships and nuclear status
+            personality = fc.get("personality", "")
+            key_rels = fc.get("key_relationships", {})
+            if key_rels:
+                allies = ", ".join(key_rels.get("allies", []))
+                rivals = ", ".join(key_rels.get("rivals", []))
+                if allies:
+                    personality += f"\n\nYour key allies: {allies}"
+                if rivals:
+                    personality += f"\nYour key rivals: {rivals}"
+            if nuclear_status:
+                personality += f"\n\nIMPORTANT: {country_name} is a nuclear-armed state. This shapes all strategic calculations."
+
             agent_cfg = AgentConfig(
                 name=fc.get("name", "Unknown Faction"),
                 role=fc.get("role", "advisor"),
-                personality=fc.get("personality", ""),
+                personality=personality,
                 priorities=fc.get("priorities", []),
                 red_lines=fc.get("red_lines", []),
                 voice=fc.get("voice", ""),
@@ -574,13 +591,17 @@ class Game:
             )
             factions.append(Faction(config=agent_cfg, backend=backend))
 
+        description = cfg.get("geographic_relevance", "")
+        if nuclear_status:
+            description += f"\n{country_name} possesses nuclear weapons."
+
         country_config = CountryConfig(
-            name=cfg.get("name", code),
+            name=country_name,
             code=code,
             alliances=cfg.get("alliances", []),
             military_strength=cfg.get("military_strength", 5),
             economic_strength=cfg.get("economic_strength", 5),
-            description=cfg.get("geographic_relevance", ""),
+            description=description,
         )
         return Country(config=country_config, factions=factions, backend=backend)
 
