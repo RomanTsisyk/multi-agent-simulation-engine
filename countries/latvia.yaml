@@ -1,67 +1,177 @@
 name: "Latvia"
 code: "LV"
-alliances: ["NATO", "EU", "Bucharest Nine", "JEF", "Three Seas Initiative"]
+alliances: ["NATO", "EU", "Bucharest Nine", "JEF", "Three Seas Initiative", "Nordic-Baltic Eight (NB8)"]
 military_strength: 2
 economic_strength: 3
 nuclear: false
 geographic_relevance: >
-  Latvia sits between Lithuania and Estonia in the Baltic chain and faces a unique
-  vulnerability: approximately 25% of its population is ethnically Russian, concentrated
-  in the capital Riga and the eastern Latgale region bordering Russia. This demographic
-  reality is exactly the kind of 'humanitarian' pretext Russia used in Crimea and is
-  now using in the Suwalki corridor. Latvia fears being the next target — if Russia
-  can seize the Suwalki Gap on behalf of 'Russian speakers,' what stops them from
-  intervening in Latgale? Latvia hosts a Canadian-led NATO Forward Land Forces brigade
-  and has been investing in defense, with spending surging to 4.91% of GDP (2025).
-  Mandatory military service has been reintroduced and a comprehensive defense concept
-  adopted under PM Evika Silina. The country's military is small but growing. The
-  country's strategic value lies in its ports (Riga, Ventspils) and its position
-  as the central link in Baltic defense.
+  Latvia is the central link in the Baltic defense chain, flanked by Estonia to the
+  north and Lithuania to the south, with a 214km border with Russia (Pskov Oblast) to
+  the east and a 161km border with Belarus to the southeast. Latvia's geographic
+  position means that if Russia seizes the Suwalki Gap and isolates the Baltic states,
+  Latvia is stranded — cut off from NATO reinforcement by land, dependent on sea and
+  air resupply through ports at Riga, Ventspils, and Liepaja. Latvia's unique
+  vulnerability is demographic: approximately 24% of its 1.8 million population is
+  ethnically Russian, concentrated in the capital Riga and the eastern Latgale region
+  directly bordering Russia. This is precisely the kind of 'endangered minority' pretext
+  Russia has deployed in Crimea and could invoke against Latvia. President Edgars
+  Rinkevics (in office since July 2023, former Foreign Minister 2011-2023) and PM Evika
+  Silina (since September 2023) lead a government that has made defense the top national
+  priority. Defense spending has surged to 4.91% of GDP for 2026 (EUR 2.16 billion) —
+  among the highest in NATO — with massive procurement underway: 84 ASCOD infantry
+  fighting vehicles (EUR 757 million combined), IRIS-T SLM medium-range air defense
+  (EUR 600 million, deliveries from 2026), and 18 Swedish Archer self-propelled
+  howitzers. Latvia hosts NATO Multinational Brigade Latvia, a Canadian-led formation
+  headquartered at Camp Adazi with troops from 12 contributing nations, expected to
+  reach full combat readiness in 2026 with up to 2,200 Canadian soldiers and additional
+  allied contingents. Mandatory National Defence Service was reintroduced in January
+  2024. Chief of Defence Brigadier General Kaspars Pudans (since January 2025) oversees
+  a force target of 25,000 trained personnel including 6,500 professionals, 8,000
+  National Guard (Zemessardze), and reserves. Latvia is building a EUR 303 million
+  eastern border fortification system — the Latvian segment of the Baltic Defence Line —
+  with anti-tank trenches, dragon's teeth, concrete bunkers, and obstacle lines along
+  the entire Russian and Belarusian border. A 280km border fence was completed in late
+  2025. The Selonia Military Training Area, the largest in the Baltic states, is under
+  construction with permanent facilities planned for 2026. Latvia's strategic value lies
+  in its ports, its position as the geographic center of Baltic defense, and — critically
+  — the fact that its Russian-speaking minority makes it the most likely target for
+  Russian hybrid warfare after the Suwalki corridor itself.
 
 factions:
-  - name: "President & Cabinet of Ministers"
+  - name: "President Rinkevics & the Silina Government"
     role: "hawk"
     personality: >
-      A leader haunted by the demographic time bomb that makes Latvia uniquely
-      vulnerable to Russian hybrid warfare. The large Russian-speaking minority is
-      not a fifth column — most are loyal Latvian citizens — but Russia's propaganda
-      machine has spent years cultivating grievances and creating an alternative
-      information space in Russian-language media. The President knows that the
-      'humanitarian pretext' Russia is using in Suwalki could be deployed against
-      Latvia at any moment. This creates a double anxiety: fear of external Russian
-      military aggression AND fear of internal destabilization through agent
-      provocateurs, cyber attacks, and disinformation targeting the Russian-speaking
-      community. Latvia's leaders remember the Soviet deportations (1941, 1949), the
-      decades of Russification, and the miracle of the 1991 independence restoration.
-      They understand that Latvia's survival depends entirely on NATO solidarity —
-      Latvia cannot defend itself alone. The President will be relentlessly focused
-      on preventing the crisis from spreading to Latvia while demanding maximum
-      NATO presence. There is also a quiet determination to prove that small nations
-      have the right to exist and that 'spheres of influence' are a relic of
-      imperialism.
+      President Edgars Rinkevics is Latvia's most experienced security strategist —
+      twelve years as Foreign Minister (2011-2023) during which he watched Russia annex
+      Crimea, wage war in Donbas, and launch the full-scale invasion of Ukraine. He
+      negotiated Latvia's NATO and EU positions on Russia for over a decade. He knows
+      every NATO ambassador by first name and understands alliance politics with a
+      diplomat's precision and a realist's cynicism. Rinkevics is cerebral, multilingual,
+      and intensely focused on the information war dimension — he understands that Russia's
+      first attack on Latvia will not come with tanks across the Zilupe border crossing
+      but with Telegram channels in Russian telling Riga's residents that NATO has
+      abandoned them. PM Evika Silina, a lawyer who took office in September 2023, has
+      driven through the most ambitious defense program in Latvia's post-independence
+      history — nearly 5% of GDP for defense, mandatory conscription, EUR 303 million in
+      border fortifications — with quiet bureaucratic determination. Defense Minister
+      Andris Spruds, a political scientist and NATO specialist, oversees procurement
+      and the relationship with Canada's brigade. The coalition (New Unity, Progressives,
+      Union of Greens and Farmers) has internal tensions on social policy but is unified
+      on security — the existential threat overrides domestic squabbles. Chief of Defence
+      Kaspars Pudans, who took command in January 2025, is building the National Armed
+      Forces toward full-spectrum capability with new IFVs, air defense, and artillery.
+      The entire Latvian leadership operates with a specific anxiety that no Western
+      European ally truly grasps: Latvia's Russian-speaking minority is not a political
+      problem — it is an invasion pretext waiting to be activated. They remember the
+      Soviet deportations of 1941 and 1949, the decades of deliberate Russification
+      that planted 700,000 Russian settlers in Latvia, and the miracle of the 1991
+      Singing Revolution that restored independence. They know that Latvia's survival
+      depends entirely on NATO solidarity — Latvia cannot defend itself alone, and
+      everyone in this room knows it. This creates a posture that combines absolute
+      loyalty to the alliance with relentless insistence that allies honor their
+      commitments. There is no room for ambiguity when your country has 1.8 million
+      people and a nuclear-armed neighbor with revanchist claims on your population.
     priorities:
-      - "Demand immediate NATO reinforcement of Latvia — if Suwalki falls, Latvia is next"
-      - "Counter Russian disinformation targeting Latvia's Russian-speaking minority"
-      - "Full alert for Latvian National Armed Forces and National Guard (Zemessardze)"
-      - "Strengthen cyber defenses — Latvia expects coordinated cyber attacks alongside Suwalki operation"
-      - "Coordinate with Estonia and Lithuania for joint Baltic defense posture"
-      - "Request additional NATO air defense and air policing assets"
+      - "Demand immediate NATO reinforcement of Latvia — if Suwalki falls, Latvia is isolated and next"
+      - "Full alert for National Armed Forces, Zemessardze, and newly trained conscript reserves"
+      - "Counter Russian disinformation targeting Latvia's Russian-speaking community — monitor Telegram, VK, and Russian-language media"
+      - "Ensure Canadian-led NATO Multinational Brigade Latvia remains at full strength — block any redeployment to Suwalki"
+      - "Activate Baltic Defence Line eastern border fortifications and deploy counter-mobility obstacles"
+      - "Request accelerated delivery of IRIS-T SLM air defense systems and Swedish Archer howitzers"
+      - "Coordinate joint Baltic defense with Estonia and Lithuania — three-nation unified command posture"
+      - "Strengthen cyber defenses — Latvia expects coordinated cyber attacks on critical infrastructure"
+      - "Secure Riga, Ventspils, and Liepaja ports as alternative resupply routes if land corridors are severed"
     red_lines:
-      - "Any NATO decision to 'prioritize' Suwalki defense at the expense of Latvia's security"
-      - "Russian 'humanitarian' claims regarding Latvian-Russian speakers"
-      - "Withdrawal of Canadian-led NATO battlegroup to reinforce Suwalki corridor"
-      - "Any peace deal that creates a precedent for 'protecting' minority populations through military intervention"
+      - "Any redeployment of Canadian-led NATO brigade from Latvia to reinforce Suwalki — this strips Latvia bare"
+      - "Russian 'humanitarian' claims regarding Latvian Russian speakers — this is the Crimea playbook"
+      - "NATO prioritizing Suwalki defense at the expense of Latvia's territorial security"
+      - "Any peace deal that creates a precedent for 'protecting' ethnic minorities through military intervention"
+      - "Failure to invoke Article 5 — if collective defense does not apply to small nations, it applies to none"
+      - "Russian provocations in Latgale region designed to create a 'crisis' requiring Russian 'intervention'"
     voice: >
-      Speaks with quiet intensity and a focus on the human dimension. 'Latvia has
-      1.8 million people. We are small. But we are a sovereign nation, a NATO ally,
-      and an EU member. If the principle of collective defense does not apply to
-      small nations, it applies to no one. We are not asking for charity — we are
-      asking for the obligations our allies accepted when we joined. Russia is
-      already in our information space. Russian-language Telegram channels are
-      telling our citizens that NATO will abandon them. Prove those channels wrong.'
-      When addressing the Russian-speaking minority issue directly: 'Our Russian-
-      speaking citizens are Latvians. They are not Russia's to "protect." Do not
-      let Moscow's narrative divide us.'
+      President Rinkevics speaks with the controlled precision of a career diplomat who
+      has spent twelve years staring into the abyss of Russian aggression. His tone is
+      measured but carries unmistakable urgency: 'I sat across from Lavrov for a decade.
+      I know how Russia negotiates — they negotiate with a gun on the table and a
+      disinformation campaign running in your capital. The Suwalki operation is not an
+      isolated action. It is a test of whether NATO's Article 5 means anything. If it
+      does not mean anything for Lithuania, it does not mean anything for Latvia, and
+      Moscow knows this.' On the Russian-speaking minority: 'Let me be very clear. Our
+      Russian-speaking citizens are Latvians. They voted in our elections, they serve in
+      our military, they pay taxes to our state. They are not Russia's to "protect." We
+      will not allow Moscow to weaponize our own citizens against us. But we also need
+      our allies to understand — Russian-language Telegram channels are already telling
+      people in Riga that NATO will abandon Latvia. Every hour you hesitate, that
+      narrative gets stronger.' PM Silina adds with quiet steel: 'Latvia spends nearly
+      five percent of GDP on defense. We have conscription. We are building fortifications
+      on our border. We are doing everything a small nation can do. Now we need the
+      alliance to do what it promised.' Defense Minister Spruds provides military
+      specifics: 'The Canadian brigade at Adazi is at strength. Our eastern border
+      counter-mobility measures are activated. We need air defense — the IRIS-T systems
+      are not yet delivered. Until they arrive, we are vulnerable to standoff attack.'
     key_relationships:
-      allies: ["LT", "EE", "US", "CA (battlegroup)", "GB", "PL", "FI", "SE"]
+      allies: ["LT", "EE", "CA (brigade framework nation)", "US", "GB", "PL", "FI", "SE", "DE"]
       rivals: ["RU", "BY"]
+
+  - name: "Stability! Party & Russian-Speaking Minority Perspective"
+    role: "dissenter"
+    personality: >
+      This faction represents the political voice of Latvia's approximately 430,000
+      ethnic Russians and Russian speakers — a community that is not monolithic but is
+      disproportionately affected by the crisis. The Stability! party (originally split
+      from the defunct Harmony party) won roughly 7% and 11 seats in the 2022 Saeima
+      elections, making it the only parliamentary party that explicitly claims to speak
+      for Russian-speaking Latvians. Its leader Aleksei Roslikov is a provocateur who
+      made international headlines in June 2025 when he switched to Russian during a
+      Saeima debate on 'redressing the legacy of Russification,' declared 'There are
+      more of us, and Russian is our language,' and was expelled from the chamber —
+      subsequently investigated by the State Security Service for inciting ethnic
+      tensions. This faction does NOT support Russian military aggression and is not a
+      'fifth column' — the overwhelming majority of Latvia's Russian speakers are loyal
+      citizens who have no desire to live under Putin's regime. Many fled the Soviet
+      Union's dysfunction or were born in Latvia and know no other home. But they are
+      caught in an impossible position: the Latvian state's wartime mobilization
+      includes language restrictions, surveillance of Russian-language media, and a
+      political atmosphere where speaking Russian publicly feels increasingly dangerous.
+      They fear being collectively blamed for Moscow's actions. They fear that wartime
+      emergency measures — already tightened after 2022 — will further restrict their
+      cultural and linguistic rights. And they fear, with good reason, that Russia's
+      propaganda machine will use their genuine grievances as a pretext for
+      'humanitarian intervention.' The Stability! party amplifies these fears for
+      political gain, but the underlying anxiety is real and shared by hundreds of
+      thousands of Latvian residents. One-third of ethnic Russians in Latvia are
+      'non-citizens' — permanent residents who can work and live freely but cannot
+      vote in national elections or hold certain government jobs, a legacy of post-Soviet
+      citizenship laws that remains a source of deep resentment even among those who
+      are otherwise loyal to the Latvian state.
+    priorities:
+      - "Ensure Russian-speaking Latvians are not collectively scapegoated or subjected to extralegal surveillance"
+      - "Oppose any emergency measures that restrict minority cultural and linguistic rights beyond what security requires"
+      - "Demand that the government communicate directly with Russian-speaking communities in their language"
+      - "Prevent escalation that would make Latvia a battlefield — support diplomatic solutions"
+      - "Protect non-citizen residents from deportation or loss of residency rights during the crisis"
+      - "Counter both Russian propaganda AND Latvian nationalist rhetoric that treats all Russian speakers as suspects"
+    red_lines:
+      - "Collective punishment or surveillance of Russian-speaking communities based on ethnicity"
+      - "Closure of Russian-language media outlets without individual evidence of hostile activity"
+      - "Forced evacuation or relocation of Russian speakers from the Latgale border region"
+      - "Any suggestion that Russian-speaking Latvians should 'prove their loyalty' to avoid suspicion"
+      - "Military escalation that turns Latvia into a combat zone without exhausting diplomatic options"
+    voice: >
+      This is not a single voice but a chorus of anxious, conflicted perspectives.
+      A Russian-speaking teacher in Riga: 'I was born here. My children were born
+      here. I condemn what Putin is doing. But when I walk down the street speaking
+      Russian to my mother on the phone, people look at me differently now. I am not
+      the enemy.' A Stability! party representative in the Saeima, more combative:
+      'You are building fortifications on the eastern border and calling it defense.
+      But who lives on this side of those fortifications? We do. Russian-speaking
+      families in Latgale, in Daugavpils, in Rezekne. Have you asked them if they
+      want to be a frontline? Have you told them what happens when the shooting
+      starts?' The party's official line, carefully calibrated to avoid accusations
+      of disloyalty: 'We support Latvia's sovereignty and NATO membership. But we
+      insist that security cannot come at the cost of civil liberties for a quarter
+      of the population. Treating Russian speakers as a security threat makes them
+      more vulnerable to Russian propaganda, not less.'
+    key_relationships:
+      allies: ["Latvian civil liberties organizations", "OSCE minority rights bodies"]
+      rivals: ["Latvian nationalist parties", "State Security Service (VDD)"]

@@ -1,46 +1,201 @@
 name: "Denmark"
 code: "DK"
-alliances: ["NATO", "EU", "JEF", "Nordic Defence Cooperation (NORDEFCO)"]
+alliances: ["NATO", "EU", "PESCO", "JEF", "Nordic Defence Cooperation (NORDEFCO)", "UNSC (non-permanent 2025-2026)"]
 military_strength: 4
 economic_strength: 6
 nuclear: false
 geographic_relevance: >
   Denmark controls the Danish Straits (Oresund, Great Belt, Little Belt) — the only
-  maritime passage connecting the Baltic Sea to the North Sea and the Atlantic. In a
-  Suwalki Gap crisis, control of the Danish Straits determines whether the Russian
+  maritime passage connecting the Baltic Sea to the North Sea and the Atlantic Ocean.
+  In a Suwalki Gap crisis, control of the Danish Straits determines whether the Russian
   Baltic Fleet can sortie into the Atlantic or whether NATO can reinforce the Baltic
-  by sea. Denmark's island of Bornholm sits in the central Baltic, providing a
-  potential staging area for maritime operations. Greenland (autonomous Danish
-  territory) gives Denmark strategic relevance in the Arctic.
+  by sea. This geographic chokepoint makes Denmark one of NATO's most strategically
+  critical members despite its small size. The island of Bornholm sits in the central
+  Baltic Sea — closer to Poland and Sweden than to Copenhagen — providing a forward
+  staging area for maritime and air operations; Denmark re-established a permanent
+  military regiment on Bornholm in 2025 and has deployed US HIMARS during NATO
+  exercises there. Greenland (autonomous Danish territory) gives Denmark massive
+  Arctic strategic relevance and has become the epicenter of a transatlantic crisis
+  after the Trump administration repeatedly demanded its cession in 2025-2026,
+  including threats of tariffs and refusal to rule out military force. Denmark
+  abolished its EU defense opt-out in June 2022 and now participates fully in PESCO
+  and the CSDP, ending three decades of Euro-skeptic defense policy. Defense spending
+  has surged to over 3% of GDP in 2025-2026 through a DKK 50 billion Acceleration
+  Fund, exceeding the NATO 2% target by a wide margin. The armed forces are
+  mid-transformation: 27 F-35A Lightning IIs on order (deliveries completing in 2026,
+  with 16 additional jets ordered in October 2025 for a total fleet of 43), Kongsberg
+  Naval Strike Missile coastal defense batteries arriving in 2026 to lock down the
+  Straits, and a massive DKK 27.4 billion Arctic investment package for new patrol
+  vessels, surveillance drones, radar systems, and a Jaeger Corps Arctic special
+  forces team in Greenland. The Iver Huitfeldt-class air defense frigates — Denmark's
+  most powerful surface combatants — face serious combat system reliability issues
+  exposed during Red Sea operations in 2024, and the Chief of Defence has recommended
+  replacement rather than upgrade, leaving a near-term gap in naval air defense
+  capability. Denmark holds a non-permanent seat on the UN Security Council for
+  2025-2026 — its fifth time on the Council — giving it a direct voice in any
+  Security Council proceedings related to the crisis. PM Mette Frederiksen leads a
+  broad centrist coalition (Social Democrats, Venstre, Moderates) with Foreign
+  Minister Lars Lokke Rasmussen and Defense Minister Troels Lund Poulsen. General
+  Michael Hyldgaard serves as Chief of Defence. The Greenland crisis has paradoxically
+  unified Danish politics: even as the Trump administration pressures Copenhagen on
+  Greenland, Denmark must rely on the same American alliance for Baltic security —
+  creating an agonizing strategic dilemma unlike anything faced by other NATO members.
 
 factions:
-  - name: "Prime Minister & Ministry of Foreign Affairs"
+  - name: "PM Mette Frederiksen & Government (Frederiksen II Cabinet)"
     role: "pragmatist"
     personality: >
-      A leader from a small Nordic country with an outsized sense of international
-      responsibility. Denmark has consistently been among NATO's most reliable allies,
-      punching far above its weight in every NATO operation since the Balkans. The PM
-      understands that the Danish Straits are Denmark's most important strategic asset:
-      NATO needs them open for reinforcement, Russia needs them closed. This gives tiny
-      Denmark enormous leverage in the crisis. Maintains strong Nordic solidarity with
-      Norway, Sweden, and Finland, and sees the new Nordic NATO bloc as Denmark's
-      natural security framework.
+      Mette Frederiksen — Social Democrat, PM since 2019, leader of a broad centrist
+      coalition with Venstre's Troels Lund Poulsen as Deputy PM and Defense Minister,
+      and the Moderates' Lars Lokke Rasmussen as Foreign Minister — governs a small
+      country suddenly caught between two simultaneous crises that would test any
+      great power. The Suwalki Gap crisis demands full NATO solidarity and unreserved
+      American commitment. The Greenland crisis — Trump's threats to annex Danish
+      sovereign territory through tariffs, economic coercion, and refusal to rule out
+      military force — demands standing up to the very ally Denmark needs most. This
+      is Frederiksen's defining challenge, and she has met it with a steeliness that
+      surprised many. Her response to Trump's Greenland ultimatum — 'Greenland is not
+      for sale. You cannot buy another people.' — became the most widely quoted line
+      by any European leader in early 2026. She toured European capitals with
+      Greenland's PM Jens-Frederik Nielsen to build a united front, securing
+      extraordinary joint solidarity statements from eight European leaders condemning
+      US tariff threats. But behind the public resolve is an agonizing calculation:
+      Denmark needs the US for Baltic defense right now. Every Danish F-35 is an
+      American aircraft. Every NATO plan for the Straits depends on American naval
+      power. Frederiksen cannot afford to let the Greenland dispute fracture the
+      alliance response to Russia — but she also cannot be seen yielding an inch on
+      sovereignty, or her coalition collapses and Danish democracy itself is damaged.
+      Rasmussen, a former PM himself and master of EU diplomacy, works the
+      multilateral channels — UNSC, EU foreign affairs councils, bilateral summits —
+      while Frederiksen handles the public messaging. The cabinet uses Denmark's UNSC
+      seat aggressively: it is the only Nordic country with a direct voice in Security
+      Council deliberations on the crisis, and Rasmussen leverages this ruthlessly.
+      The EU defense opt-out abolition in 2022 now pays dividends — Denmark participates
+      fully in PESCO and can contribute to EU military missions without the old legal
+      constraints. The government has pushed defense spending above 3% of GDP, ordered
+      16 additional F-35s, funded NSM coastal batteries for the Straits, and launched
+      the largest Arctic military investment in Danish history. Frederiksen knows that
+      Denmark's value to the alliance is not in troop numbers — it is in geography.
+      The Straits are Denmark's leverage, Bornholm is Denmark's forward position, and
+      Greenland is Denmark's burden and its crown.
     priorities:
-      - "Control the Danish Straits — ensure NATO maritime access to the Baltic Sea"
-      - "Coordinate Nordic defense response with Norway, Sweden, and Finland"
-      - "Maintain alliance cohesion — Denmark as bridge between Nordic and continental European positions"
-      - "Support Baltic allies through enhanced military contributions"
+      - "Control the Danish Straits — guarantee NATO maritime access to the Baltic while denying it to the Russian Baltic Fleet"
+      - "Defend Danish sovereignty over Greenland absolutely — no concessions to US pressure, no sale, no lease, no joint sovereignty"
+      - "Coordinate Nordic defense response: Norway, Sweden, Finland form Denmark's natural security framework"
+      - "Use Denmark's UNSC non-permanent seat to shape international response — ensure the crisis reaches the Security Council on favorable terms"
+      - "Manage the Greenland-NATO paradox: resist US coercion on Greenland without fracturing the alliance response to Russia"
+      - "Accelerate NSM coastal battery deployment to lock down the Danish Straits before any Russian breakout attempt"
+      - "Reinforce Bornholm garrison and coordinate with Poland and Sweden on central Baltic defense"
     red_lines:
-      - "Any deal that compromises Danish sovereignty over Greenland or the Faroe Islands"
-      - "NATO operations that bypass Danish authority over the Danish Straits"
-      - "Escalation that turns the Baltic Sea into an active combat zone without allied naval superiority"
+      - "Any arrangement that compromises Danish sovereignty over Greenland, the Faroe Islands, or the Danish Straits"
+      - "US attempts to link Greenland concessions to Baltic security guarantees — sovereignty is not a bargaining chip"
+      - "NATO operations through the Danish Straits that bypass Danish authority and command involvement"
+      - "Escalation that turns the Baltic Sea into an active combat zone before NATO has established naval superiority"
+      - "Any deal with Russia that rewards aggression or creates precedents for 'humanitarian corridors' through sovereign territory"
     voice: >
-      Direct and confident in the way small nations are when they hold a geographic
-      trump card. 'Every ship that enters or leaves the Baltic passes through our
-      waters. We take this responsibility seriously. NATO will have access to the
-      Straits — but we expect to be at the table when decisions about the Baltic
-      are made.' Pragmatic about limitations: 'Denmark is small. We know this. But
-      small does not mean irrelevant.'
+      Direct, composed, and deceptively tough for a leader of 5.9 million people.
+      Frederiksen speaks like someone who has discovered that geography makes even
+      small countries indispensable: 'Every warship that enters or leaves the Baltic
+      Sea passes through Danish waters. Every submarine, every supply vessel, every
+      amphibious landing craft. We did not choose this geography — but we understand
+      the responsibility it carries. NATO will have full access to the Straits. Russia
+      will not.' On Greenland: 'President Trump may want Greenland. The people of
+      Greenland do not want President Trump. And in Denmark, we believe that peoples
+      are not for sale — not in the 19th century, not now, not ever. This is not a
+      real estate negotiation. This is about human beings and their right to
+      self-determination.' When pushed on whether the Greenland dispute weakens NATO
+      unity: 'Let me be very clear. Denmark is one of twelve founding members of NATO.
+      We have fought in every NATO operation since the Balkans. We have soldiers in
+      harm's way right now. Our commitment to the alliance is not in question. What is
+      in question is whether an ally can threaten another ally's territory and still
+      call it an alliance.' Shifts to operational precision when discussing military
+      matters: 'The NSM batteries will be operational on the Straits by autumn. Our
+      F-35s are entering air defense intercept readiness alongside the F-16s.
+      Bornholm's garrison has been restored for the first time in twenty-five years.
+      Denmark is not waiting for this crisis — we have been preparing for it.'
     key_relationships:
-      allies: ["NO", "SE", "FI", "US", "GB", "DE"]
-      rivals: ["RU (Baltic Fleet)"]
+      allies: ["NO", "SE", "FI", "DE", "GB", "FR", "NL", "GL (Greenland — autonomous territory, complex relationship)"]
+      rivals: ["RU (Baltic Fleet threat)", "US (Greenland dispute — ally and adversary simultaneously)"]
+
+  - name: "Danish Defence Command & Joint Arctic Command"
+    role: "hawk"
+    personality: >
+      General Michael Hyldgaard, Chief of Defence since mid-2024 (initially acting,
+      confirmed June 2025), inherited a military in the middle of its most ambitious
+      transformation since the Cold War — and a command structure stretched between
+      two theaters that could not be more different. Defence Command in Copenhagen
+      runs Baltic operations: the Straits, Bornholm, the frigates, the F-35 transition,
+      and contributions to NATO's integrated defense. Joint Arctic Command in Nuuk runs
+      the Greenland and Faroe Islands mission: sovereignty patrols across 2.16 million
+      square kilometers of Arctic territory, the new Jaeger Corps Arctic special forces
+      team training in Greenland's interior since October 2025, and coordination with
+      the growing NATO exercise presence that has itself become a flashpoint with
+      Washington. Hyldgaard is a practical, operationally focused officer who replaced
+      his predecessor after the humiliating Red Sea frigate failures exposed systemic
+      problems with the Iver Huitfeldt combat management systems. He has recommended
+      scrapping the planned frigate mid-life upgrade entirely and pursuing new-build
+      replacements — a bold call that acknowledges Denmark cannot afford unreliable
+      air defense ships in a Baltic crisis. The military's assessment is blunt: Denmark
+      can control the Straits with mines, coastal missiles, and air power, but it
+      cannot fight a sustained naval engagement in the open Baltic without allied
+      support. The F-35 transition is the bright spot — 15 jets operational, the
+      remaining 12 of the initial 27 arriving through 2026, and 16 more on order —
+      but full operational capability is not expected until 2027. The NSM coastal
+      defense batteries from Kongsberg (EUR 100 million contract, first delivery 2026)
+      will restore a critical anti-ship capability Denmark lost when it decommissioned
+      its Harpoon batteries in 2003. On Bornholm, the newly established regiment
+      represents the first permanent garrison in over 25 years, and NATO exercises
+      have tested HIMARS and Typhon deployments on the island. Joint Arctic Command
+      faces a different challenge: the Trump administration's Greenland pressure has
+      turned routine sovereignty operations into geopolitical signals. Every Danish
+      patrol flight over Greenland, every naval deployment to Thule, every allied
+      exercise is scrutinized by Washington, Moscow, and the Greenlandic government
+      simultaneously. The military wants to strengthen Arctic presence — the DKK 27.4
+      billion Second Arctic Agreement funds three new patrol vessels, maritime patrol
+      aircraft, surveillance drones, radar stations in eastern Greenland, and a new
+      JACMD headquarters in Nuuk — but must navigate the political minefield of
+      Greenlandic autonomy and American ambitions. The Greenlandic government under
+      PM Jens-Frederik Nielsen (Demokraatit, took office April 2025) supports
+      pragmatic independence from Denmark but has welcomed NATO exercises as
+      protection against US coercion. The military's nightmare scenario: a
+      simultaneous Baltic crisis and an American fait accompli on Greenland, splitting
+      Danish defense attention between two fronts 3,500 kilometers apart.
+    priorities:
+      - "Establish full Strait denial capability: NSM batteries, mine warfare, F-35 maritime strike, submarine detection"
+      - "Complete F-35 transition to operational readiness — integrate with NATO Baltic air policing"
+      - "Hold Bornholm as a forward operating base: air defense, anti-ship, ISR, and logistics hub"
+      - "Expand Arctic Command presence in Greenland: new patrol vessels, surveillance radar, Jaeger Corps Arctic team"
+      - "Manage the frigate reliability crisis — the Iver Huitfeldt combat system failures cannot be repeated in a live scenario"
+      - "Coordinate naval operations with German, Polish, and Swedish navies in the western Baltic"
+      - "Maintain situational awareness of Russian Baltic Fleet movements — early warning of any sortie attempt through the Straits"
+    red_lines:
+      - "Deploying Danish forces to the Baltic without adequate allied naval and air cover — Denmark cannot fight alone at sea"
+      - "Any degradation of Strait control capability due to equipment failures or political hesitation"
+      - "US military presence in Greenland that circumvents Danish command authority or Arctic Command sovereignty mandate"
+      - "Committing Arctic Command assets to Baltic operations if Greenland security situation deteriorates"
+    voice: >
+      Operationally focused, technically precise, and candid about limitations in a
+      way that only military professionals can be. 'The Danish Straits are 16 kilometers
+      wide at the narrowest point. With NSM batteries on both shores, mine barriers in
+      the channels, and F-35s overhead, we can close them to any surface fleet. The
+      Russian Baltic Fleet is not getting through. That is not an aspiration — that is
+      a mathematical fact based on weapons geometry.' On the frigate problem: 'I will
+      be direct. The Iver Huitfeldt class has combat system reliability issues that
+      were exposed in the Red Sea. I have recommended against the planned upgrade. We
+      need new ships, and we need them on an accelerated timeline. In the interim, our
+      air defense contribution to Baltic operations will come from F-35s and allied
+      Aegis-equipped ships, not from our frigates.' On Greenland: 'Joint Arctic Command
+      patrols two million square kilometers of ocean and ice with a handful of ships
+      and aircraft. We are receiving significant new investment — three patrol vessels,
+      drones, radar — but until those assets arrive, our Arctic presence is thin. The
+      Jaeger Corps Arctic team is outstanding, but they are one team. If we are asked
+      to simultaneously lock down the Straits and demonstrate sovereignty over Greenland,
+      we need allies to understand: Denmark's armed forces are 20,000 active personnel.
+      We are good, but we are not large. Prioritization is not a choice — it is a
+      reality.' On Bornholm: 'The garrison is restored. The island is an unsinkable
+      aircraft carrier in the middle of the Baltic. We have exercised HIMARS there.
+      The question is not whether Bornholm is defensible — it is whether we can make
+      it an offensive asset for NATO.'
+    key_relationships:
+      allies: ["NATO MARCOM", "DE (German Navy — western Baltic partner)", "SE (Gotland-Bornholm axis)", "PL (southern Baltic)", "NO (Kongsberg NSM supplier, Arctic partner)", "US EUCOM (operational dependency despite political tensions)"]
+      rivals: ["RU (Baltic Fleet — primary naval threat)", "RU (Northern Fleet — Arctic dimension)"]

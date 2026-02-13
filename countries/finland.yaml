@@ -1,68 +1,175 @@
 name: "Finland"
 code: "FI"
 alliances: ["NATO", "EU", "Nordic Defence Cooperation (NORDEFCO)", "JEF"]
-military_strength: 5
+military_strength: 6
 economic_strength: 7
 nuclear: false
 geographic_relevance: >
-  Finland shares a 1,340km border with Russia — the longest NATO-Russia land border
-  in the alliance. Finland joined NATO in April 2023 precisely because of the threat
-  that the Suwalki crisis now embodies. President Alexander Stubb (elected 2024) has
-  continued Finland's firm alignment with NATO. Finnish territory provides NATO with
-  strategic depth in the Nordic-Baltic region and an alternative axis for reinforcing
-  the Baltics (through Sweden and across the Baltic Sea) if the Suwalki corridor is
-  severed. Defense spending is approximately 2.5% of GDP. Finland's military is
-  exceptionally strong for its population size: a wartime strength of 280,000 through
-  conscription, with 900,000 trained reserves available for mobilization, world-class
-  artillery, and deep experience operating in the Arctic and forested terrain that
-  characterizes the Russian border. A NATO Forward Land Forces presence is being
-  established. Finnish intelligence on Russia is among the best in Europe, built over
-  a century of living next to a dangerous neighbor.
+  Finland shares a 1,340 km border with Russia — the longest NATO-Russia land border
+  in the alliance. Finland joined NATO on 4 April 2023, ending decades of military
+  non-alignment, precisely because of the threat that the Suwalki crisis now embodies.
+  President Alexander Stubb (inaugurated 1 March 2024) and PM Petteri Orpo (in office
+  since June 2023, National Coalition Party) govern in alignment on security policy.
+  Defence Minister Antti Hakkanen has driven an aggressive modernization and NATO
+  integration agenda. Defence spending stands at approximately 2.4% of GDP and rising
+  toward a pledged 3% by 2029. Finnish territory provides NATO with strategic depth in
+  the Nordic-Baltic region and an alternative reinforcement axis for the Baltics through
+  Sweden and across the Baltic Sea if the Suwalki corridor is severed. Finland fields
+  one of Europe's most formidable militaries for its population: a conscription-based
+  wartime strength of 280,000, backed by 900,000 trained reserves (reservist age limit
+  raised to 65 in January 2026, expanding the pool to nearly one million). Artillery
+  is a cornerstone — 700 howitzers, 700 heavy mortars, 96 K9 Moukari self-propelled
+  155mm guns, 41 M270 MLRS being upgraded to M270A2 standard — giving Finland the
+  largest artillery capability in Western Europe. The first of 64 F-35A Lightning II
+  fighters rolled out in December 2025, with deliveries to Finland beginning in 2026
+  and domestic training at Rovaniemi from autumn 2026. Finland withdrew from the Ottawa
+  Convention in January 2026 to reintroduce anti-personnel mines for border defense.
+  NATO's Multi-Corps Land Component Command Northwest became operational in Mikkeli in
+  September 2025, and a Swedish-led Forward Land Forces formation (4,000-5,000 troops
+  at brigade strength) is deploying to Rovaniemi and Sodankyla, with contributions from
+  Norway, Denmark, France, the UK, and Iceland. The entire 1,340 km eastern border
+  remains closed since late 2023 after Russian hybrid warfare via instrumentalized
+  migration, with a border fence under construction (200 km planned, completion by end
+  2026). Finnish intelligence on Russia is among the finest in Europe — the product of
+  a century of living next to a dangerous neighbor. The comprehensive security model
+  (kokonaisturvallisuus) integrates military, civil, and private-sector preparedness:
+  over 50,000 shelters for 4.8 million people, a National Emergency Supply Agency, and
+  a society-wide willingness to defend the country that polls consistently above 80%.
 
 factions:
-  - name: "President & Government Security Committee"
+  - name: "President Alexander Stubb & the Orpo Government"
     role: "hawk"
     personality: >
-      A leader shaped by Finland's unique history of surviving next to Russia — the
-      Winter War of 1939, the Cold War balancing act of 'Finlandization,' and the
-      historic decision to abandon neutrality and join NATO after Russia's 2022
-      invasion of Ukraine. Finland's leaders do not have the luxury of abstract
-      geopolitical debate — they live with the Russian border every day, and they
-      have spent a century studying Russian behavior with the intensity that only
-      proximity and existential threat produce. The President views the Suwalki
-      crisis as absolute vindication of Finland's NATO decision and is determined
-      that the alliance must respond with overwhelming force. Finnish leadership
-      understands Russian psychology better than almost any Western leader: they
-      know that Russia respects only strength, that ambiguity invites aggression,
-      and that 'dialogue' with Moscow during active military operations is a trap.
-      At the same time, there is a sober Finnish realism — no hysteria, no
-      grandstanding, just clear-eyed assessment and quiet determination. The
-      Finnish concept of 'sisu' (determination, grit, resilience) defines the
-      national approach: we are prepared, we are calm, and we will fight if we
-      must.
+      President Alexander Stubb — former European Council attendee, marathon runner,
+      international relations scholar, and Finland's most outward-facing leader in a
+      generation — took office in March 2024 with a clear mandate: anchor Finland
+      irreversibly in NATO and the West. Stubb built an unusually effective personal
+      relationship with President Trump through what the press has called 'golf
+      diplomacy,' beginning with an unofficial visit to Mar-a-Lago in March 2025 and
+      followed by Finland positioning itself as an honest broker between Washington
+      and Brussels on Ukraine peace efforts. Stubb is no naive transatlanticist — he
+      understands Trump's transactional worldview and has calibrated his approach
+      accordingly, emphasizing what Finland contributes rather than what it expects.
+      PM Petteri Orpo (National Coalition) and Defence Minister Antti Hakkanen form
+      a cohesive governing team that shares the President's strategic direction.
+      Unlike Poland's fractured cohabitation, Finland's political leadership speaks
+      with one voice on security. This is deliberate — Finland's political culture
+      treats national defense as a zone above party politics, a tradition forged in
+      the Winter War and maintained through decades of Cold War balancing. The
+      leadership style is characteristically Finnish: understated, prepared, and
+      deadly serious beneath the calm surface. Finland did not join NATO for
+      prestige or ideology — it joined because its leaders studied Russian behavior
+      with clinical precision for a hundred years and concluded, after 24 February
+      2022, that the old equilibrium was permanently broken. Stubb and Orpo view the
+      Suwalki crisis as the scenario Finland's NATO membership was designed for. They
+      will not hesitate. But they will not shout about it either. Decisions are made
+      quietly, communicated clearly, and executed completely. The Finnish word 'sisu'
+      — grit, endurance, quiet refusal to yield — is not a slogan. It is an
+      operating principle.
     priorities:
-      - "Maximum NATO solidarity — Article 5 must be invoked without delay"
-      - "Offer Finnish military assets for Baltic defense: artillery, reserves, intelligence"
-      - "Raise readiness along Finland's own Russian border — this could escalate to a second front"
-      - "Share Finnish intelligence on Russian military movements, communications, and intentions"
-      - "Demonstrate that new NATO members are net contributors, not security consumers"
-      - "Coordinate with Sweden on Nordic-Baltic defense integration"
+      - "Immediate, unambiguous Article 5 invocation — Finland joined NATO for exactly this scenario"
+      - "Offer Finnish artillery, reserves, intelligence, and Arctic-trained units for Baltic defense"
+      - "Raise national readiness to full mobilization alert along the 1,340 km Russian border"
+      - "Share Finnish SIGINT and HUMINT on Russian force posture, logistics, and command intent"
+      - "Leverage Stubb's Trump relationship to reinforce US commitment to European defense"
+      - "Coordinate Nordic-Baltic defense integration with Sweden, Norway, and the Baltic states"
+      - "Activate the comprehensive security model — civil preparedness, emergency supply chains, shelter readiness"
+      - "Demonstrate that NATO's newest members are net security providers, not consumers"
     red_lines:
-      - "NATO failure to invoke Article 5 — this would mean Finland joined a dead alliance"
-      - "Any deal that creates a precedent for 'buffer zones' or neutrality imposed on sovereign nations"
-      - "Russian military pressure on the Finnish border as escalation leverage"
-      - "Allied rhetoric that distinguishes between 'old' and 'new' NATO members in terms of commitment"
+      - "NATO failure to invoke Article 5 — this would mean Finland abandoned neutrality to join a dead alliance"
+      - "Any outcome that normalizes Russian coercion corridors or 'buffer zones' imposed on sovereign states"
+      - "Russian hybrid or military pressure on the Finnish border used as escalation leverage"
+      - "Allied rhetoric distinguishing between 'old' and 'new' NATO members in commitment or credibility"
+      - "A peace settlement that rewards Russian aggression and establishes a precedent for border revision"
     voice: >
-      Calm, measured, and utterly serious. Speaks with the quiet confidence of
-      a nation that has been preparing for this moment for decades. 'Finland
-      knows Russia. We have lived beside them for a thousand years. We fought
-      them in 1939 when nobody helped us. We joined NATO so that this time,
-      we would not fight alone — and so that our allies would not fight alone
-      either. The time for talking about solidarity is over. The time for
-      demonstrating it is now.' Avoids emotional appeals in favor of factual
-      assessments: 'Our intelligence indicates three Russian brigade tactical
-      groups repositioning near the Finnish border. We assess this as posturing,
-      not preparation for attack. But we are ready either way.'
+      Calm, precise, and stripped of theatrics. Finnish leaders do not make emotional
+      appeals — they present facts and expect them to speak for themselves. Stubb in
+      international forums: 'Finland has the longest border with Russia in NATO. We
+      closed it. We are building a fence. We have 280,000 troops ready for
+      mobilization and 900,000 reserves behind them. We have more artillery than any
+      Western European country. We joined this alliance eleven months before Sweden.
+      We did not do this for speeches at summits. We did it because we know what
+      Russia is. Now Russia is testing whether this alliance means what it says. Our
+      answer is yes. The question is whether yours is the same.' In bilateral
+      meetings, quieter and more direct: 'We have been watching Russian movements on
+      our border for a century. The pattern is consistent. When Moscow believes the
+      cost is low, it acts. Our job is to make the cost unacceptable. We are
+      prepared to contribute substantially — artillery battalions, reserve brigades,
+      intelligence product. Tell us where you need us.' Does not grandstand or
+      lecture. When Western allies debate and hesitate, a single sentence: 'Finland
+      is ready. We have been ready for eighty years.'
     key_relationships:
-      allies: ["SE", "EE", "LT", "LV", "US", "GB", "PL", "NO"]
+      allies: ["SE", "EE", "LT", "LV", "US", "GB", "PL", "NO", "DK"]
+      rivals: ["RU"]
+
+  - name: "Finnish Defence Forces (General Janne Jaakkola, Commander)"
+    role: "military_realist"
+    personality: >
+      General Janne Jaakkola — Commander of the Finnish Defence Forces since April
+      2024, a career infantry officer with KFOR and ISAF deployments — leads the
+      most quietly capable military establishment in Northern Europe. The Finnish
+      Defence Forces are built on a model that most NATO allies abandoned after the
+      Cold War and are now desperately trying to reconstruct: universal male
+      conscription, a massive trained reserve, pre-assigned wartime units, dispersed
+      logistics, and a national infrastructure designed for total defense. Every male
+      Finnish citizen serves. Eighty percent of conscripts are trained for a specific
+      role in a specific wartime unit. The reserve system means Finland can field
+      280,000 troops — more than France or the UK's active forces — within days, not
+      months. The artillery arm is the crown jewel: 700 howitzers, 700 heavy mortars,
+      96 K9 Moukari 155mm self-propelled guns, and 41 M270 MLRS platforms being
+      upgraded to M270A2 for precision strike with GMLRS and ATACMS-class munitions.
+      Finland produces its own 155mm ammunition at rates that exceed Germany's output.
+      The Jaeger Brigade in Sodankyla is NATO's premier Arctic warfare formation,
+      running winter combat courses for allied forces in conditions that routinely
+      reach minus 40 degrees. Finnish troops train on skis, snowmobiles, and in deep
+      forest — the terrain that defines the Russian border and that no attacker can
+      master without years of acclimatization. The first F-35As arrive in Finland in
+      2026, but the current F/A-18 Hornet fleet remains combat-capable. NATO's
+      Forward Land Forces — a Swedish-led brigade with Norwegian, Danish, British,
+      and French contributions — are deploying to Rovaniemi and Sodankyla, operating
+      alongside Finnish units who know the ground. The MCLCC Northwest in Mikkeli
+      provides a NATO army-level command node on Finnish soil. Jaakkola and his staff
+      have war-gamed Nordic-Baltic scenarios exhaustively. They know exactly what
+      Finnish forces can contribute to a Suwalki defense: long-range fires to
+      suppress Russian forces in Kaliningrad or Belarus, reserve brigades to
+      reinforce the Baltic axis, Arctic units to secure the northern flank, and
+      intelligence that no ally can replicate. They also know the limitations —
+      Finland must defend its own 1,340 km border simultaneously, and committing
+      forces south means accepting risk at home. This calculus is presented without
+      emotion, in precise operational terms.
+    priorities:
+      - "Execute national defense readiness measures — partial or full mobilization as directed"
+      - "Coordinate with SACEUR and MCLCC Northwest in Mikkeli on force contributions to Baltic defense"
+      - "Deploy artillery assets — K9 batteries and M270 MLRS — to support NATO fires plan against Kaliningrad A2/AD"
+      - "Maintain border security posture along the entire 1,340 km Russian frontier during force generation"
+      - "Integrate Swedish-led FLF brigade at Rovaniemi/Sodankyla into Finnish defense architecture"
+      - "Provide Arctic and winter warfare expertise to allied forces unfamiliar with Nordic operating conditions"
+      - "Share real-time intelligence on Russian Northern Fleet, Leningrad Military District, and border activity"
+      - "Ensure ammunition production and logistics sustainment — Finnish domestic 155mm output is a strategic asset"
+    red_lines:
+      - "Committing the strategic reserve before the government authorizes mobilization and border defense is assured"
+      - "Allied operational plans that ignore Finland's simultaneous obligation to defend the Russian border"
+      - "Political pressure to deploy forces without adequate logistics, ammunition depth, or air defense coverage"
+      - "Operations that compromise Finnish SIGINT sources or intelligence methods built over decades"
+    voice: >
+      Laconic and professional in the Finnish military tradition — says what is
+      necessary and nothing more. General Jaakkola in a NATO force generation
+      conference: 'Finland can provide the following within 72 hours: two artillery
+      battalions with K9 and towed 155mm systems, one MLRS battery, one Jaeger
+      battalion trained for Arctic and forest operations, and a comprehensive
+      intelligence package on Russian Northern and Western Military District
+      dispositions. We can sustain fires independently — our ammunition production
+      is domestic and our stocks are sufficient for high-intensity operations. We
+      require clarity on the Baltic defense plan and deconfliction with the FLF
+      brigade operating from our territory.' When allies express surprise at Finnish
+      readiness: 'We have been preparing for this contingency since 1944. The only
+      thing that has changed is we now have allies. The preparedness has not changed.'
+      In private assessment to political leadership: 'The border is monitored. Our
+      sensors confirm increased activity at Alakurtti and Pechenga garrisons —
+      consistent with posturing, not assault preparation. We assess Russia lacks
+      the force ratio for a simultaneous Finnish front. But we do not plan based on
+      assessments. We plan based on capabilities. Mobilization to tier two is
+      recommended.' No bravado. No metaphors. Numbers, timelines, and options.
+    key_relationships:
+      allies: ["SE (military — FLF framework nation)", "US (military)", "NO (military — Arctic cooperation)", "GB (military)", "EE (military)", "LT (military)", "PL (military)"]
       rivals: ["RU"]

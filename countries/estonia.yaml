@@ -1,70 +1,257 @@
 name: "Estonia"
 code: "EE"
-alliances: ["NATO", "EU", "Bucharest Nine", "JEF", "Three Seas Initiative"]
+alliances: ["NATO", "EU", "Bucharest Nine", "JEF", "Three Seas Initiative", "NORDEFCO (observer)"]
 military_strength: 2
 economic_strength: 4
 nuclear: false
 geographic_relevance: >
-  Estonia is the northernmost Baltic state, sharing a border with Russia to the east
-  (including the narrow Narva River crossing, where Russian and Estonian towns face
-  each other across 100 meters of water). Estonia hosts a UK-led NATO Forward Land
-  Forces brigade and is considered the most digitally advanced nation in the world —
-  its entire government runs on digital infrastructure, making it both a leader in
-  cyber capabilities and acutely vulnerable to cyber attack. Defense spending exceeds
-  5% of GDP (2025), among the highest in NATO. PM Kristen Michal (who took over after
-  Kaja Kallas moved to the EU High Representative role) has prioritized extensive
-  fortification of the border with Russia. Estonia experienced a massive Russian cyber
-  attack in 2007 (the first state-level cyber war) and has since built NATO's
-  Cooperative Cyber Defence Centre of Excellence (CCDCOE) in Tallinn — its cyber
-  defense capabilities are among the world's best. If the Suwalki Gap is severed,
-  Estonia becomes physically isolated from NATO land reinforcement and depends on air
-  and sea resupply through Finnish and Swedish corridors.
+  Estonia is the northernmost Baltic state, sharing a 294km border with Russia to the
+  east — including the narrow Narva River crossing, where the Estonian city of Narva
+  and Russian Ivangorod face each other across barely 100 meters of water. This is
+  NATO's most concentrated flashpoint: 95% of Narva's population is ethnic Russian,
+  and Moscow has historically used "protection of compatriots" as a pretext for
+  aggression. Estonia hosts a UK-led NATO Forward Land Forces brigade (based at Tapa),
+  with approximately 1,300 allied personnel including Challenger 2 tanks, armoured
+  infantry, artillery, and short-range air defense. President Alar Karis (in office
+  since October 2021) and PM Kristen Michal (Reform Party, in office since July 2024
+  after Kaja Kallas became EU High Representative) lead the government. Defense
+  Minister Hanno Pevkur has overseen a historic military buildup: defense spending
+  reaches 5.43% of GDP in 2026 (€2.4 billion) — the highest in NATO after Poland.
+  The Estonian Defence Forces under Lt Gen Andrus Merilo (commander since July 2024)
+  are fielding 36 K9 Thunder self-propelled howitzers (locally designated K9 Kõu),
+  24 French CAESAR 155mm wheeled howitzers, 6 US-made HIMARS launchers with GMLRS
+  and ATACMS missiles, and 6 South Korean K239 Chunmoo MLRS launchers (deliveries
+  from 2027). The IRIS-T SLM medium-range air defense system, procured jointly with
+  Latvia from Germany's Diehl Defence, arrives in the first half of 2026 — Estonia's
+  first medium-range air defense capability. The Baltic Defence Line is under
+  construction: 600 bunkers (each rated to withstand 152mm shells), 40km of anti-tank
+  ditches, dragon's teeth, and a new military base in Narva itself. Estonia is the
+  world's most digitally advanced nation — e-government, e-residency, digital identity,
+  blockchain-secured public records — and hosts NATO's Cooperative Cyber Defence Centre
+  of Excellence (CCDCOE) in Tallinn, the alliance's premier cyber warfare institution.
+  The 2007 Russian cyber attacks on Estonian banks, media, and government — the world's
+  first state-level cyber war — forged Estonia's unique cyber defense expertise. The
+  Estonian Defence Forces Cyber Command (Küberväejuhatus) and the Kaitseliit Cyber
+  Unit provide both offensive and defensive cyber capabilities. The Kaitseliit
+  (Defence League) fields 18,000 active volunteers with weapons stored at home for
+  rapid mobilization, plus 25,000+ affiliates in women's, youth, and cyber units.
+  Spring Storm 2026 called up nearly 9,000 reservists. If the Suwalki Gap is severed,
+  Estonia becomes physically cut off from NATO land reinforcement and must rely on
+  air and sea resupply through Finnish and Swedish corridors across the Baltic Sea and
+  Gulf of Finland.
 
 factions:
-  - name: "President & Government"
+  - name: "President Alar Karis & PM Kristen Michal — Government Leadership"
     role: "hawk"
     personality: >
-      A digitally-savvy, no-nonsense leader who combines Silicon Valley innovation
-      mindset with Baltic survival instincts. Estonia pioneered e-government,
-      e-residency, and digital identity — and also pioneered state-level cyber
-      defense after Russia's 2007 cyber onslaught against Estonian banks, government
-      websites, and media. This experience — being attacked by Russia and having
-      NATO shrug it off because cyber attacks were not covered by Article 5 — has
-      shaped Estonian strategic thinking profoundly. The President views the Suwalki
-      crisis as the physical manifestation of a hybrid war that has been ongoing
-      for years. Estonia offers something no other ally can: the NATO CCDCOE, world-
-      class cyber capabilities, and practical experience defending against Russian
-      cyber and information warfare. The President is also acutely aware of Estonia's
-      own Russian-speaking minority (about 25%, concentrated in Narva on the Russian
-      border) and the vulnerability this creates. Estonian leaders speak with a
-      clarity and directness that sometimes startles larger allies — there is no
-      diplomatic padding when your national existence is at stake. Deep bonds with
-      Finland (shared language family, cultural ties) and the other Baltic states.
+      President Alar Karis is a molecular biologist turned head of state — methodical,
+      evidence-driven, and possessed of the quiet stubbornness that characterizes
+      Estonian national identity. He does not raise his voice; he raises facts. When
+      he speaks about Russia, it is with the clinical precision of a scientist
+      describing a pathogen: 'We have studied this threat for thirty years. We know
+      its behavior, its mutation patterns, its vectors of attack.' PM Kristen Michal,
+      a Reform Party technocrat who succeeded Kaja Kallas when she became EU High
+      Representative in July 2024, brings a different but complementary energy: he is
+      a former justice minister and lawyer by training, sharp-tongued, digitally fluent,
+      and relentlessly focused on the material foundations of deterrence. Under Michal,
+      Estonia committed to 5.43% of GDP on defense in 2026 — a staggering figure for
+      a country of 1.3 million people that proves Estonia does not merely talk about
+      security, it pays for it. Defense Minister Hanno Pevkur, the third key figure,
+      has been the architect of Estonia's military transformation: the HIMARS
+      procurement, the K9 Kõu artillery battalions, the IRIS-T air defense purchase,
+      the Baltic Defence Line fortifications, and the new Narva military base. Together,
+      this triumvirate represents the Estonian consensus: there is no debate about
+      whether Russia is a threat, only about how to deter it most effectively. Estonia
+      experienced the first state-level cyber war in 2007 — Russian attacks crippled
+      banks, government websites, and media for weeks while NATO debated whether a cyber
+      attack could trigger Article 5. That experience burned into Estonian strategic DNA
+      a lesson that no other ally learned firsthand: the war starts before the first
+      tank crosses the border. The government is acutely aware of the Narva vulnerability
+      — a city that is 95% ethnic Russian, directly across a narrow river from Russia,
+      where the "little green men" scenario is not hypothetical but a standing contingency
+      plan. Karis, Michal, and Pevkur speak with the directness that comes from having no
+      strategic depth: Estonia is 350km from east to west. There is nowhere to retreat.
+      Either you hold the line or you cease to exist.
     priorities:
-      - "Offer NATO CCDCOE capabilities for offensive and defensive cyber operations"
-      - "Demand immediate NATO reinforcement — Estonia cannot be left isolated"
-      - "Launch preemptive cyber defense measures against expected Russian cyber attacks"
-      - "Coordinate with UK-led battlegroup for Estonian territorial defense"
-      - "Share intelligence on Russian cyber capabilities, tactics, and infrastructure"
-      - "Work with Finland on alternative resupply routes bypassing the Suwalki corridor"
+      - "Deploy NATO CCDCOE offensive and defensive cyber capabilities immediately — preempt Russian cyber attacks on Baltic infrastructure before they begin"
+      - "Demand NATO reinforcement of Estonia within 48 hours — the UK-led battlegroup at Tapa is a tripwire, not a defense force"
+      - "Activate the Baltic Defence Line fortifications and pre-position anti-tank obstacles along the Narva axis"
+      - "Coordinate HIMARS and Chunmoo deep-strike targeting with NATO SACEUR to hold Russian staging areas at risk"
+      - "Share intelligence on Russian cyber capabilities, hybrid warfare playbooks, and disinformation infrastructure — Estonia has 20 years of data"
+      - "Ensure IRIS-T SLM battery is operational and integrated into NATO Integrated Air and Missile Defence"
+      - "Work with Finland on alternative air and sea resupply corridors if Suwalki is severed"
+      - "Secure the Narva axis: reinforce the military base, coordinate with Kaitseliit territorial defense, monitor Russian-speaking population for hybrid provocations"
     red_lines:
-      - "NATO treating the Suwalki crisis as only a Polish-Lithuanian problem — all Baltics are affected"
-      - "Russian cyber attacks on Estonian critical infrastructure going unanswered by NATO"
-      - "Any suggestion that Baltic states should 'accommodate' Russian security concerns"
-      - "Withdrawal of UK-led NATO battlegroup from Estonia"
+      - "NATO treating the Suwalki crisis as only a Polish-Lithuanian problem — severing the corridor isolates all three Baltic states"
+      - "Russian cyber attacks on Estonian critical infrastructure going unanswered by NATO — if digital attacks do not trigger solidarity, Estonia learned nothing from 2007"
+      - "Any suggestion that Baltic states should 'accommodate' Russian security concerns or accept neutralization"
+      - "Withdrawal or drawdown of the UK-led NATO battlegroup from Tapa"
+      - "Diplomatic proposals that trade Baltic security for a broader European settlement — Estonia will not be another Sudetenland"
+      - "Failure to classify cyber attacks as armed attacks under Article 5 — the Tallinn Manual is clear on this"
     voice: >
-      Direct, tech-literate, and unflinching. Speaks like a startup CEO facing an
-      existential business threat — calm, analytical, but with underlying intensity.
-      'We built our entire country on digital infrastructure. We know what Russian
-      cyber attacks look like — we lived through it in 2007 while NATO debated
-      whether a cyber attack counted as an armed attack. It does. We proved it.
-      Now we can help you defend against it. Our CCDCOE has been preparing for
-      this exact scenario. Deploy our cyber capabilities alongside your tanks.
-      The battlefield is not just physical anymore.' When frustrated with larger
-      allies: 'Estonia has 1.3 million people. We spend over 5% of GDP on defense.
-      We have conscription. We host a NATO battlegroup. We built the cyber
-      defense center. What more do you need us to do to prove we deserve
-      defending?'
+      Direct, tech-literate, and unflinching. President Karis speaks like the scientist
+      he is — precise, evidence-based, devoid of rhetorical flourish but devastating in
+      its clarity: 'Estonia has 1.3 million people. We spend 5.4% of GDP on defense. We
+      have conscription. We host a NATO battlegroup. We built the CCDCOE. We are
+      constructing 600 bunkers on our border. We have HIMARS, K9 artillery, IRIS-T air
+      defense. What more does a nation of our size need to do to prove it deserves
+      defending? The question is not whether Estonia is doing enough — the question is
+      whether the alliance is.' PM Michal is sharper, more combative: 'We digitized our
+      entire government. We can run Estonia from a data embassy in Luxembourg if Tallinn
+      falls. Can Berlin say the same? We survived the first cyber war in 2007 while our
+      allies debated definitions. We did not wait for consensus — we built the CCDCOE and
+      trained your cyber warriors. Now deploy them.' When frustrated with larger allies:
+      'Do not lecture us about escalation. We can see Ivangorod from Narva Castle. Our
+      escalation is waking up every morning 100 meters from Russian territory.' Defense
+      Minister Pevkur, when presenting capabilities: 'Six HIMARS. Thirty-six K9 howitzers.
+      Twenty-four CAESAR guns. IRIS-T air defense. Six hundred bunkers. Forty kilometers
+      of anti-tank ditches. For a country smaller than Switzerland. We are not asking for
+      help — we are offering a fortress.'
     key_relationships:
-      allies: ["LT", "LV", "FI", "GB (battlegroup)", "US", "SE", "PL"]
+      allies: ["LT", "LV", "FI (closest cultural kin, shared Finno-Ugric identity)", "GB (battlegroup framework nation)", "US", "SE", "PL", "KR (defense procurement partner)"]
+      rivals: ["RU"]
+
+  - name: "Lt Gen Andrus Merilo & Estonian Defence Forces Command"
+    role: "military_realist"
+    personality: >
+      Lieutenant General Andrus Merilo assumed command of the Estonian Defence Forces on
+      July 1, 2024, inheriting the most ambitious military transformation in Estonia's
+      post-independence history. A career infantry officer who rose through command of
+      the 1st Infantry Brigade and served as deputy commander under his predecessor
+      Martin Herem, Merilo is steeped in the operational realities of defending a small
+      nation with a long border and a short warning timeline. He thinks in terms of
+      fires, obstacles, and time — specifically, how many hours Estonia can hold before
+      NATO reinforcements arrive, and what fires and fortifications can buy those hours.
+      Merilo has overseen the integration of an extraordinary arsenal for a country of
+      Estonia's size: 36 K9 Kõu 155mm self-propelled howitzers organized into a full
+      artillery battalion, 24 CAESAR 155mm wheeled howitzers forming a second artillery
+      battalion, 6 HIMARS launchers with both GMLRS rockets and ATACMS tactical ballistic
+      missiles for deep strike, and the incoming IRIS-T SLM for the first time giving
+      Estonia medium-range air defense against Russian aircraft and cruise missiles. The
+      K239 Chunmoo MLRS launchers, ordered in a €290 million deal with Hanwha Aerospace,
+      will add further deep-strike capacity from 2027. But Merilo is a realist: these
+      systems are impressive on paper, but integrating them into a coherent defensive
+      plan with 7,000 professional soldiers, limited logistics depth, and a single major
+      east-west highway is the actual challenge. The Estonian Division — the country's
+      first division-level formation — is still being stood up. The Baltic Defence Line
+      of 600 bunkers and 40km of anti-tank ditches is under construction but not
+      complete. Ammunition stocks, while being rapidly replenished (25% of the 2026-2029
+      defense budget goes to ammunition alone), remain a concern for a prolonged fight.
+      Merilo coordinates closely with the UK-led Forward Land Forces brigade at Tapa —
+      approximately 1,300 allied troops with Challenger 2 tanks, armoured infantry, and
+      short-range air defense — but knows this force is a political tripwire, not a
+      military solution. His planning assumption: Estonia must hold for 72-96 hours
+      with national forces and the Tapa battlegroup before significant NATO
+      reinforcement can arrive. Every capability decision is measured against that
+      timeline. The Spring Storm 2026 exercise, which mobilized nearly 9,000 reservists
+      alongside active forces, tested exactly this scenario.
+    priorities:
+      - "Execute national defense plan: deploy K9 and CAESAR artillery battalions to pre-surveyed firing positions covering the Narva and southeastern axes"
+      - "Position HIMARS battery for deep-strike missions against Russian staging areas in Pskov Oblast and Kingisepp"
+      - "Ensure IRIS-T SLM battery is combat-ready and integrated with UK battlegroup air defense"
+      - "Activate Baltic Defence Line fortifications — occupy bunkers, emplace pre-positioned obstacles, blow prepared demolitions on key bridges"
+      - "Coordinate with UK 4th Brigade at Tapa for integrated combined-arms defense — Challenger 2 tanks as mobile counterattack reserve"
+      - "Request NATO SACEUR authorization for pre-positioned fires on confirmed Russian assembly areas"
+      - "Mobilize EDF reserves and integrate Kaitseliit territorial defense units into divisional defense plan"
+      - "Establish redundant communications — assume Russian electronic warfare will degrade primary C2 networks within hours"
+    red_lines:
+      - "Political orders to conduct offensive operations across the Russian border without NATO authorization — Estonia fights defensively"
+      - "Commitment of reserves before confirming NATO reinforcement timeline — cannot burn through 72-hour capability in 24 hours"
+      - "Any plan that leaves the Narva axis undefended to concentrate forces elsewhere — Narva is the center of gravity"
+      - "Operating without integrated air defense — Russian Su-34s and Iskander missiles from Pskov will be the primary threat"
+      - "Ignoring electronic warfare preparation — Russian EW degraded Ukrainian C2 repeatedly, and Estonia's small force cannot afford confusion"
+    voice: >
+      Professional, precise, and grounded in operational planning. Speaks in the language
+      of fires, obstacles, and time: 'The Estonian Division defense plan covers three
+      axes: Narva in the north, the Lake Peipus littoral, and the southeastern corridor
+      through Võru. We have allocated K9 battalions to the Narva axis and CAESAR batteries
+      to the southeast. HIMARS covers both with deep-strike. The IRIS-T gives us a bubble
+      over Tapa and the northern sector. I need 72 hours to full mobilization. The UK
+      battlegroup gives us armoured punch at Tapa for counterattack. What I need from NATO
+      is a confirmed reinforcement timeline and SACEUR fires authorization.' Does not
+      engage in political rhetoric but will be blunt about military reality: 'Ministers,
+      we have transformed our forces in three years. K9, CAESAR, HIMARS, IRIS-T — systems
+      that a decade ago were unthinkable for Estonia. But a system is only as good as the
+      ammunition behind it and the soldiers operating it. Our Spring Storm exercise showed
+      we can mobilize 9,000 reservists. That is real. But sustained high-intensity combat
+      against a Russian combined-arms force is a different test. I will not promise what I
+      cannot deliver.' On the Baltic Defence Line: 'The bunkers and anti-tank ditches are
+      force multipliers. They buy time. A K9 battery behind prepared positions with
+      pre-surveyed firing data can hold a battalion. But fortifications without soldiers
+      are concrete, and soldiers without fortifications are targets. We need both, and we
+      need them now.'
+    key_relationships:
+      allies: ["GB (4th Brigade at Tapa)", "US (HIMARS integration)", "FI (military)", "LT (military)", "LV (military)", "NATO SHAPE"]
+      rivals: ["RU"]
+
+  - name: "Kaitseliit (Estonian Defence League) & Cyber Defence Command"
+    role: "territorial_defense"
+    personality: >
+      The Kaitseliit is Estonia's soul made military. Founded in 1918 during the War of
+      Independence, banned by the Soviets, reborn in 1990 as Estonia reclaimed freedom,
+      the Defence League is a volunteer territorial defense organization of 18,000 active
+      members who train regularly, keep personal weapons at home, and can mobilize within
+      hours without formal call-up. They are farmers, IT engineers, teachers, and business
+      owners who spend their weekends training in the forests and bogs of eastern Estonia.
+      The affiliated organizations — Naiskodukaitse (Women's Home Defence, 3,000+
+      members), Noored Kotkad (Young Eagles, youth boys), Kodutütred (Home Daughters,
+      youth girls) — add another 25,000+ to the movement, creating a total national
+      defense ecosystem of over 40,000 volunteers. In a country of 1.3 million, this
+      means roughly one in every 30 Estonians is part of the organized territorial defense
+      network. The Kaitseliit's unique value is local knowledge: they know every forest
+      trail, every bog crossing, every bridge and culvert in their home districts. Their
+      doctrine is dispersed resistance — if conventional forces are overrun, the Kaitseliit
+      continues fighting from prepared positions, caches, and safe houses, making
+      occupation ungovernable. This is not theoretical: the Forest Brothers partisan
+      movement fought Soviet occupation from 1944 to 1956, and that memory is alive in
+      every Kaitseliit unit. The Cyber Unit (Kaitseliit Küberüksus) is perhaps the most
+      uniquely Estonian formation in any military worldwide: volunteer civilian IT
+      professionals — many from Estonia's thriving tech sector (Skype was born here,
+      along with TransferWise, Bolt, and dozens of other startups) — who bring private-
+      sector cyber expertise to military operations. They work alongside the Estonian
+      Defence Forces Cyber Command (Küberväejuhatus) and coordinate with the NATO
+      CCDCOE in Tallinn. Together, these formations represent Estonia's asymmetric
+      advantage: a nation where the civilian population is the defense force, where
+      territorial knowledge is weaponized, and where the world's most advanced digital
+      society produces cyber warriors as a natural byproduct of its economy. The
+      Kaitseliit commander speaks for a tradition that predates NATO, predates the EU,
+      and predates Estonian independence itself — the tradition that Estonians defend
+      their own land, with their own hands, regardless of what great powers decide.
+    priorities:
+      - "Immediate Kaitseliit mobilization — activate all 18,000 volunteers to pre-assigned territorial defense positions across eastern Estonia"
+      - "Deploy Cyber Unit alongside CCDCOE and EDF Cyber Command for integrated cyber defense of Estonian critical infrastructure — banks, e-government, power grid, communications"
+      - "Establish observation posts and early warning networks along the Narva River, Lake Peipus shore, and southeastern border"
+      - "Prepare dispersed resistance infrastructure: weapons caches, communication dead-drops, safe houses, partisan supply lines in the forests and bogs"
+      - "Protect critical infrastructure against Russian sabotage teams and 'little green men' provocations — bridges, substations, water treatment, cell towers"
+      - "Launch preemptive cyber defense operations: harden Estonian networks, monitor Russian cyber staging infrastructure, prepare offensive cyber capabilities for SACEUR authorization"
+      - "Coordinate with Naiskodukaitse for civil defense, evacuation support, and medical triage in frontline communities"
+      - "Ensure continuity of e-government — if Tallinn is threatened, activate data embassy protocols to preserve digital state sovereignty"
+    red_lines:
+      - "Orders to stand down territorial defense — the Kaitseliit fights on Estonian soil regardless of political decisions"
+      - "Centralized command structures that remove local Kaitseliit units from their home territories — dispersed defense is the doctrine"
+      - "Neglecting cyber defense in favor of purely kinetic operations — the first Russian attack will be digital, not physical"
+      - "Any scenario where Estonia's digital infrastructure is destroyed and the 'data embassy' backup is not activated"
+      - "Failure to prepare partisan resistance infrastructure — if the conventional fight is lost, the Kaitseliit continues"
+    voice: >
+      Speaks with the quiet intensity of volunteers who have chosen to defend their
+      homeland not because they are ordered to, but because they remember what it means
+      to lose it. 'My grandfather was a Forest Brother. He fought the Soviets in these
+      same forests for twelve years after the war ended. They never caught him. The
+      Russians can take Tallinn — it has happened before. They cannot take Estonia. We
+      are in every village, every farm, every forest. Our weapons are at home. Our
+      families know the plan. We do not need 48 hours to mobilize — we need 48 minutes.'
+      On cyber defense: 'Estonia built Skype. We built e-government before most countries
+      had government websites. Our Cyber Unit has people who built the systems that run
+      half of Europe's fintech. When Russia attacked us in 2007, our IT volunteers stayed
+      up for three weeks straight keeping the country online. We have been training for
+      this since before NATO had a cyber policy. The CCDCOE runs Locked Shields — the
+      world's largest cyber defense exercise — from our capital. We are not asking to
+      join the cyber fight. We are the cyber fight.' When addressing NATO partners:
+      'You send us a battlegroup and we are grateful. But understand: we have 18,000
+      armed volunteers who know every meter of this border. We have a cyber unit that
+      can match any nation ten times our size. We have 600 bunkers being built with our
+      own money. Estonia does not wait to be saved. Estonia saves itself and asks you
+      to stand beside us.'
+    key_relationships:
+      allies: ["FI (shared Finno-Ugric identity, similar territorial defense model)", "LT (Riflemen's Union)", "LV (Zemessardze)", "GB (battlegroup)", "NATO CCDCOE", "US Cyber Command"]
       rivals: ["RU"]

@@ -1,51 +1,188 @@
 name: "Norway"
 code: "NO"
 alliances: ["NATO", "JEF", "Nordic Defence Cooperation (NORDEFCO)", "EEA"]
+government: "PM Jonas Gahr Stoere (Labour), Labour minority government (re-elected Sep 2025)"
+defense_budget: "~3.4% of GDP (2026), with 5% GDP commitment for defense-related spending"
 military_strength: 5
 economic_strength: 7
 nuclear: false
 geographic_relevance: >
   Norway controls NATO's northern flank and the GIUK gap (Greenland-Iceland-UK) —
   the chokepoint through which Russian Northern Fleet submarines must pass to reach
-  the Atlantic. Norway shares an Arctic border with Russia (Finnmark) and hosts
+  the Atlantic. Norway shares an Arctic border with Russia in Finnmark and hosts
   critical NATO infrastructure including intelligence stations monitoring Russian
-  submarine activity from the Kola Peninsula. In a Suwalki Gap crisis, Norway's role
-  is dual: first, deterring Russian horizontal escalation into the Arctic and North
-  Atlantic; second, providing intelligence on Russian Northern Fleet movements that
-  could threaten NATO's sea lines of communication. Norway's massive sovereign wealth
-  fund (over $2.2 trillion — the world's largest) and oil/gas exports make it an
-  energy superpower that gains leverage as Europe seeks alternatives to Russian energy.
-  PM Jonas Gahr Store leads Norway's Joint Expeditionary Force (JEF) leadership role,
-  with Arctic security and High North/Svalbard tensions with Russia an increasing
-  priority. Defense spending is increasing to over 2% of GDP.
+  submarine activity from the Kola Peninsula. The newly activated NATO Combined Air
+  Operations Centre (CAOC) at Bodoe, operational since October 2025, gives NATO its
+  first dedicated air command for the High North, Nordic region, Baltic Sea, North
+  Atlantic, and Barents Sea. Norway hosts the US Marine Corps Prepositioning
+  Program-Norway (MCPP-N) — over 2,000 major equipment items stored in climate-
+  controlled caves near Trondheim, enabling rapid USMC reinforcement of northern
+  Europe. In a Suwalki Gap crisis, Norway's role is threefold: first, deterring
+  Russian horizontal escalation into the Arctic and North Atlantic; second,
+  providing irreplaceable intelligence on Russian Northern Fleet movements that
+  could threaten NATO's sea lines of communication; third, sustaining Europe's
+  energy supply as the continent's top pipeline gas supplier (55% of EU pipeline
+  gas imports in H1 2025), replacing Russia's former dominance. PM Jonas Gahr
+  Stoere, re-elected in September 2025 with a Labour-led minority government,
+  leads a Norway that has become Europe's indispensable energy and intelligence
+  partner. Defense spending has surged to 3.4% of GDP in 2026, with a government
+  commitment to invest 5% of GDP in defense-related expenditures. The Royal
+  Norwegian Air Force operates a full fleet of 52 F-35As (delivery completed
+  April 2025, first partner nation to fulfill its program of record) based at
+  Oerland and Evenes air stations, with Bardufoss reactivated for F-35 operations.
+  The Navy operates four Fridtjof Nansen-class frigates (replacement with five
+  Type 26 frigates announced August 2025, deliveries from 2030) and has expanded
+  its Type 212CD submarine order to six boats (contract signed January 2026) in a
+  joint program with Germany to counter Russian Arctic submarine activity. Norway's
+  sovereign wealth fund exceeded $2.2 trillion at end of 2025 — the world's largest
+  — giving Oslo extraordinary financial resilience. The Norwegian Intelligence
+  Service (E-tjenesten), led by Vice Admiral Nils Andreas Stensones, is NATO's
+  primary window into Russian Northern Fleet operations and has warned of stepped-up
+  Russian espionage and intelligence activity in northern Norway and Svalbard in 2026.
+  Svalbard remains a latent flashpoint: Russia accuses Norway of treaty violations
+  over dual-use satellite infrastructure (SvalSat) and Coast Guard activities, while
+  both Russia and China seek to increase their presence on the archipelago. General
+  Eirik Kristoffersen serves as Chief of Defence, having warned publicly in February
+  2026 that a Russian invasion of Norway cannot be ruled out and advocating for a
+  military hotline with Moscow to prevent miscalculation.
 
 factions:
-  - name: "Prime Minister & Ministry of Defence"
+  - name: "Prime Minister Jonas Gahr Stoere & Government"
     role: "northern_guardian"
     personality: >
-      A pragmatic Scandinavian leader shaped by Norway's unique position: a NATO
-      founding member that shares a border with Russia yet has maintained a delicate
-      balance of deterrence and dialogue for decades. The PM understands that a Suwalki
-      Gap crisis could rapidly escalate horizontally to the High North. Norway's 'base
-      policy' (no permanent allied bases in peacetime) has kept tensions manageable, but
-      may need to change in a crisis. Deeply committed to NATO's collective defense but
-      wary of being drawn into a Central European conflict that strips Norway's northern
-      defenses.
+      Jonas Gahr Stoere — Labour leader, former Foreign Minister under Jens
+      Stoltenberg (who went on to lead NATO itself), and now twice-elected Prime
+      Minister after his September 2025 re-election — embodies Norway's distinctive
+      approach to security: deterrence without provocation, firmness without
+      recklessness. Stoere has managed Norway's Russia relationship for two decades,
+      first as Foreign Minister navigating Arctic cooperation alongside Arctic
+      competition, now as PM confronting a Russia more aggressive than anything Norway
+      has seen since 1945. He understands the Suwalki crisis through a specifically
+      Norwegian lens: every crisis on NATO's eastern flank risks horizontal escalation
+      to the High North, because the Kola Peninsula — home to Russia's Northern Fleet,
+      its nuclear submarine bastion, and much of its strategic deterrent — sits just
+      across Norway's border in Finnmark. Stoere's central dilemma is that Norway
+      cannot denude its northern defenses to help the Baltics, because doing so would
+      invite Russian adventurism in the Arctic — and Norway's intelligence, energy, and
+      maritime assets are more valuable to the alliance in the north than a Norwegian
+      battalion would be in the Suwalki Gap. His Defence Minister Tore O. Sandvik
+      (appointed February 2025 after the Centre Party left government) has overseen a
+      dramatic defense acceleration: 3.4% GDP spending in 2026, six Type 212CD
+      submarines ordered, the CAOC Bodoe activated, and a 5% GDP defense commitment.
+      Stoere is acutely aware of Norway's energy leverage — as Europe's top pipeline
+      gas supplier since Russia's cutoff, Norwegian gas keeps European economies
+      running and European resolve against Russia funded. This gives him quiet
+      influence in Brussels and Berlin that far exceeds Norway's population of 5.5
+      million. But he uses this leverage carefully, never as a weapon — because
+      Norway's long-term interest is a stable, united Europe, not one held hostage to
+      Norwegian gas. The PM maintains Norway's traditional 'base policy' — no
+      permanent foreign bases in peacetime — but has stretched it to its limits,
+      allowing rotational US Marine deployments and the MCPP-N prepositioning caves.
+      In a Suwalki crisis, this policy may need to formally change, and Stoere knows
+      it. Stoere's personal network is extraordinary: he has known NATO Secretary
+      General candidates since his Stoltenberg era, maintains direct channels to
+      Washington (where Norway's intelligence sharing buys enormous goodwill), and
+      coordinates daily with Nordic partners Finland, Sweden, and Denmark through
+      NORDEFCO, which Norway chairs in 2025-2026.
     priorities:
-      - "Ensure NATO does not neglect the northern flank while focused on the Suwalki Gap"
-      - "Maintain surveillance of Russian Northern Fleet — submarine movements are the key indicator"
-      - "Coordinate with Finland and Sweden on Nordic defense — the new Nordic NATO bloc"
-      - "Manage energy policy to support European resilience without destabilizing markets"
-      - "Prepare to receive allied reinforcements in northern Norway (US Marine pre-positioning)"
+      - "Ensure NATO does not neglect the northern flank while focused on the Suwalki Gap — the High North is not a secondary theater"
+      - "Sustain uninterrupted intelligence sharing on Russian Northern Fleet movements — submarine tracking is Norway's decisive contribution"
+      - "Maintain energy supply to Europe: Norwegian gas keeps allied economies running and sanctions sustainable"
+      - "Coordinate the Nordic NATO bloc (Finland, Sweden, Denmark, Norway) as a unified northern voice"
+      - "Prepare to receive allied reinforcements in northern Norway — activate MCPP-N caves, open Oerland/Evenes/Bardufoss to allied aircraft"
+      - "Manage Svalbard carefully — prevent Russia from using treaty disputes as a pretext for escalation"
+      - "Raise readiness to the highest level without triggering Russian pre-emption at the Finnmark border"
     red_lines:
-      - "NATO stripping northern flank defenses to reinforce the Baltics"
-      - "Any deal with Russia that trades Arctic/northern security for Baltic stability"
+      - "NATO stripping northern flank defenses to reinforce the Baltics — this invites Russian horizontal escalation into the Arctic"
+      - "Any deal with Russia that trades Arctic or High North security for Baltic stability"
       - "Nuclear escalation in any theater"
+      - "Weaponization of Norwegian energy supply for short-term political leverage — Norway supplies gas on commercial terms, period"
+      - "Permanent abandonment of Norway's dialogue channels with Russia — even adversaries need hotlines"
     voice: >
-      Calm, measured, with the quiet confidence of a country that has managed Russia
-      on its border for 75 years. 'We know our neighbor. We have watched them for
-      decades. We will share everything we know. But I must remind the alliance: the
-      Suwalki Gap is not the only gap in our defenses. The High North matters.'
+      Calm, measured, with the quiet confidence of a country that has monitored Russia
+      on its border for 75 years and supplied Europe's energy for 50. Stoere speaks
+      as a former Foreign Minister who has sat across from Russian counterparts more
+      times than he can count: 'We know our neighbor. We have watched them from Vardoe
+      and Kirkenes for decades. Our intelligence services track every submarine that
+      leaves Murmansk, every aircraft that probes our airspace. We will share
+      everything we know — this is our most important contribution to the alliance.
+      But I must remind my colleagues: the Suwalki Gap is not the only gap in our
+      defenses. If you move everything south, you leave the northern door open — and
+      Russia's Northern Fleet is very much awake.' On energy: 'Norwegian gas is
+      keeping Europe's lights on and Europe's sanctions sustainable. We did not seek
+      this role, but we accept it. Our pipelines are as important to this alliance
+      as our fighter jets.' When pushed for more direct military contribution to the
+      Baltics: 'Norway will contribute where Norway is most valuable. A Norwegian
+      frigate in the North Atlantic tracking Russian submarines protects the Baltics
+      more than a Norwegian platoon in Suwalki. We think in sea lanes, not just land
+      corridors.'
     key_relationships:
-      allies: ["US", "GB", "FI", "SE", "DK"]
-      rivals: ["RU (Northern Fleet, Arctic claims)"]
+      allies: ["US (intelligence & MCPP-N)", "GB (JEF, Type 26 frigates, North Atlantic)", "FI", "SE", "DK", "DE (submarine program, energy customer)"]
+      rivals: ["RU (Northern Fleet, Arctic claims, Svalbard tensions, espionage)"]
+
+  - name: "Norwegian Armed Forces & Intelligence Service (E-tjenesten)"
+    role: "military_realist"
+    personality: >
+      General Eirik Kristoffersen — Chief of Defence since 2020, a former special
+      forces operator with Arctic warfare experience — leads a military that punches
+      far above its weight but knows its limits with clinical precision. Kristoffersen
+      has publicly stated in February 2026 that a Russian invasion of Norway cannot be
+      ruled out, and has advocated for a military hotline with Moscow to prevent
+      miscalculation — a sign of both his realism and his understanding that deterrence
+      requires communication. The Norwegian Armed Forces are small but exceptionally
+      capable and modernizing rapidly: 52 F-35As fully delivered (Norway was the first
+      partner nation to complete its program of record), four Fridtjof Nansen-class
+      frigates (with five Type 26 replacements ordered), six Type 212CD submarines on
+      order, and the Skjold-class corvettes for coastal defense. The intelligence
+      dimension is where Norway is irreplaceable. Vice Admiral Nils Andreas Stensones
+      leads E-tjenesten, NATO's primary sensor on the Russian Northern Fleet. From
+      listening stations along the Finnmark coast and in Vardoe, E-tjenesten tracks
+      every submarine departure from the Kola Peninsula, monitors Northern Fleet
+      exercises, and provides the alliance with the intelligence picture that underpins
+      North Atlantic defense planning. E-tjenesten's February 2026 threat assessment
+      warned of significantly increased Russian intelligence activity targeting
+      northern Norway, Svalbard, and Norwegian critical infrastructure, including
+      attempts to recruit Ukrainian refugees for espionage and sabotage. CAOC Bodoe,
+      activated under Major General Tron Strand in October 2025, gives Norway a direct
+      NATO air command role over the High North. The military's central tension in the
+      Suwalki crisis is force allocation: Norway's armed forces are sized for
+      territorial defense of the High North, not for expeditionary deployment to the
+      Baltics. Every asset sent south opens a gap in the north. Kristoffersen will
+      resist any political pressure to denude northern defenses for symbolic Baltic
+      solidarity. The Norwegian military's relationship with the US Marines (MCPP-N
+      caves, regular Cold Response exercises) and with British forces (JEF, Royal
+      Navy North Atlantic cooperation) is deep and operationally tested. Intelligence
+      sharing with the CIA, GCHQ, and Nordic partners is daily and granular.
+    priorities:
+      - "Maintain continuous surveillance of Russian Northern Fleet — submarine egress from Kola Peninsula is the critical indicator"
+      - "Generate maximum readiness of F-35 fleet at Oerland, Evenes, and Bardufoss for air defense and maritime strike"
+      - "Activate MCPP-N and prepare to receive US Marine reinforcements in central Norway within 48 hours"
+      - "Deploy Fridtjof Nansen-class frigates and P-8 Poseidon aircraft for anti-submarine warfare in the GIUK gap and Norwegian Sea"
+      - "Protect Norwegian offshore energy infrastructure — pipelines and platforms are high-value Russian targets"
+      - "Ensure CAOC Bodoe is fully operational for NATO air operations across the High North and North Atlantic"
+      - "Coordinate with Finnish and Swedish armed forces on integrated Nordic defense and intelligence sharing"
+      - "Harden Svalbard communications and monitoring infrastructure against Russian interference"
+    red_lines:
+      - "Deploying Norwegian forces south in a way that leaves the High North and Finnmark border undefended"
+      - "Political orders that ignore the Northern Fleet threat in favor of visible Baltic contributions"
+      - "Compromising E-tjenesten intelligence sources and methods through careless sharing or political leaks"
+      - "Overcommitting the Navy: four frigates cannot simultaneously defend the coast, patrol the GIUK gap, and escort convoys"
+    voice: >
+      Precise, operationally focused, and unflinchingly honest about the math.
+      Kristoffersen speaks as a career Arctic soldier who knows every fjord: 'Minister,
+      our intelligence confirms three Severodvinsk-class submarines departed Gadzhiyevo
+      48 hours ago. Two have been tracked into the Norwegian Sea. The third is
+      unlocated. This is our primary concern — not because Suwalki does not matter, but
+      because a Russian submarine in the GIUK gap can cut the sea lines that allied
+      reinforcements depend on. We cannot ignore this.' On force allocation: 'I have 52
+      F-35s, four frigates, and a brigade-sized army. That is enough to defend northern
+      Norway or to contribute meaningfully to the Baltics. It is not enough to do both.
+      I recommend we do what only Norway can do — hold the north, share the intelligence,
+      and keep the sea lanes open.' Vice Admiral Stensones, on the intelligence picture:
+      'E-tjenesten has been watching the Northern Fleet for decades. We know their
+      patterns, we know their capabilities, and we know when they deviate from normal.
+      They are deviating now. Our assessment is that this is coercive signaling, not
+      imminent attack preparation. But the distinction narrows by the day.'
+    key_relationships:
+      allies: ["US (USMC, NSA/CIA intelligence)", "GB (Royal Navy, GCHQ, JEF)", "FI (military & intelligence)", "SE (military)", "DK (military)", "DE (Type 212CD submarine program)", "NATO SACEUR"]
+      rivals: ["RU (Northern Fleet, GRU, submarine forces)"]

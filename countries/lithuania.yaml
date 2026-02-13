@@ -1,65 +1,253 @@
 name: "Lithuania"
 code: "LT"
-alliances: ["NATO", "EU", "Bucharest Nine", "JEF", "Three Seas Initiative"]
+alliances: ["NATO", "EU", "Bucharest Nine", "JEF", "Three Seas Initiative", "Nordic-Baltic Eight (NB8)"]
+government: "President Gitanas Nauseda (re-elected May 2024); PM Inga Ruginiene (Social Democrats, since Sep 2025); Defense Minister Robertas Kaunas (since Nov 2025)"
+defense_budget: "4.8 billion EUR (~5.38% GDP, highest in NATO as share of GDP)"
 military_strength: 3
 economic_strength: 3
 nuclear: false
 geographic_relevance: >
-  Lithuania is the most directly threatened NATO member in this scenario. The Suwalki
-  Gap — the 65km corridor between Poland and Lithuania — is Lithuania's only land
-  connection to the rest of NATO. If Russia seizes the corridor, Lithuania (along with
-  Latvia and Estonia) is physically cut off from allied reinforcement by land. The
-  only alternatives would be resupply by sea (through the Russian-dominated Baltic)
-  or by air (through Russian/Belarusian air defense coverage). Lithuania borders both
-  the Russian exclave of Kaliningrad (to the southwest) and Belarus (to the east),
-  making it geographically encircled by hostile or semi-hostile territory. The German-led
-  NATO Forward Land Forces brigade is stationed in Lithuania, growing to a full brigade
-  of 5,000+ personnel. Defense spending has surged to 5.38% of GDP (2025) — among the
-  highest in the world — and conscription has been reintroduced. President Gitanas
-  Nauseda (re-elected 2024) has championed a Suwalki Gap fortification program. The
-  country has been investing heavily in its own defense despite its small size.
+  Lithuania is ground zero for the Suwalki Gap crisis — the single most vulnerable point in
+  the entire NATO alliance. The Suwalki Gap is the 65km corridor along Lithuania's southwestern
+  border with Poland, wedged between the Russian exclave of Kaliningrad (to the west) and
+  Belarus (to the east). This narrow strip of land is Lithuania's — and the entire Baltic
+  states' — only land connection to the rest of NATO. If Russian or Belarusian forces seize
+  or interdict the corridor, Lithuania, Latvia, and Estonia are physically severed from allied
+  reinforcement by land. The only alternatives would be resupply by sea (through the
+  Russian-dominated Baltic, contested by the Baltic Fleet based in Baltiysk) or by air (through
+  Russian/Belarusian air defense coverage including S-400 Triumf systems in Kaliningrad with
+  400km range, and Iskander-M tactical ballistic missiles capable of striking Vilnius, Kaunas,
+  and every major Lithuanian city within minutes). Lithuania is geographically encircled:
+  Kaliningrad to the southwest, Belarus to the south and east, and the Baltic Sea (contested)
+  to the west. Vilnius is only 35km from the Belarusian border. Kaunas is roughly 100km from
+  Kaliningrad. The terrain of the Suwalki Gap itself — the Augustow Forest, lakes, and swamps
+  — favors the defender, but the corridor is bisected by only a single two-lane highway (E67)
+  and a single-track rail line, meaning reinforcement throughput is extremely limited.
+
+  Lithuania has been preparing for this exact scenario for years. The German-led NATO 45th
+  Panzer Brigade "Litauen" — the first permanent German brigade stationed abroad since WWII —
+  was activated in Rukla on 1 April 2025 and formally inaugurated in Vilnius on 22 May 2025,
+  with approximately 2,000 German personnel by mid-2026 growing toward a full strength of
+  4,800 soldiers plus 200 civilian staff. The existing NATO Enhanced Forward Presence (eFP)
+  battlegroup was structurally integrated into the brigade in February 2026. At Pabrade
+  Training Area, a US rotational battalion from the 1st Cavalry Division operates Abrams
+  tanks, Bradley IFVs, and Paladin howitzers, with a 20-year infrastructure development plan
+  under way and $285 million invested in facility upgrades. Lithuania's own 1st Division was
+  re-established on 28 January 2025, comprising the Iron Wolf Mechanized Infantry Brigade (the
+  main combat formation, equipped with Boxer Vilkas IFVs and PzH 2000 howitzers), the
+  Zemaitija Infantry Brigade, and the reserve Aukstaitija Brigade, supported by air defense,
+  engineering, reconnaissance, and artillery units. Eight M142 HIMARS systems are arriving from
+  a $495M US contract. Leopard 2A8 main battle tanks (44 ordered) and CV90 tracked IFVs are
+  under procurement. NASAMS medium-range air defense systems are being integrated. A Rheinmetall
+  155mm artillery ammunition factory in Baisogala is expected to commence operations mid-2026.
+
+  Conscription was reintroduced in 2015 and expanded, with approximately 3,800-4,000 conscripts
+  annually. The National Defence Volunteer Forces (KASP) — the territorial defense component —
+  have surged toward 6,800 members, backed by the Lithuanian Riflemen's Union (Sauliu Sajunga),
+  a paramilitary civic organization with 17,000+ members that integrates into the armed forces
+  in wartime as drone operators, cyber specialists, medics, and engineers. Total active military
+  personnel approximately 23,000 (15,000 active duty plus civilians), with 100,000+ trained
+  reserves. Defense spending has surged from 2% in 2020 to 5.38% of GDP in 2026 (4.8 billion
+  EUR) — the highest in NATO as a share of GDP — with a commitment to maintain 5-6% through
+  2030. Lithuania is building a massive new training ground near the Suwalki Gap (14,600
+  hectares), adding road checkpoints and concrete barriers, and investing in Dragon's Teeth
+  anti-tank obstacles and fortified positions along key approaches. The country has also
+  constructed new barracks, dining facilities, and logistics infrastructure at Pabrade and Rukla
+  to permanently host allied forces.
+
+  Critical historical context: the 2022 Kaliningrad transit crisis — when Lithuania enforced EU
+  sanctions on Russian rail transit to Kaliningrad, prompting explicit Russian military threats
+  — demonstrated that Moscow views any restriction on Kaliningrad access as a potential casus
+  belli. Russia's "Zapad 2025" exercises near Kaliningrad involved 30,000 troops, Iskander
+  launches, and a simulated missile strike on Polish territory. Lithuania's 2021 decision to
+  allow Taiwan to open a representative office under the name "Taiwanese" provoked Chinese
+  economic coercion (near-total trade embargo), demonstrating Lithuania's willingness to absorb
+  severe economic punishment for values-based foreign policy. The new Social Democrat government
+  has sought to normalize China relations while maintaining the Taiwan office. President Nauseda,
+  re-elected in May 2024 with 75% of the vote (the largest margin in Lithuanian history), has
+  been the most vocal European leader on the Suwalki threat and Baltic defense.
 
 factions:
-  - name: "President, Government & National Defence Council"
+  - name: "President Gitanas Nauseda & National Defence Council"
     role: "hawk"
     personality: >
-      A leader who has lived with the Suwalki nightmare as a daily reality, not an
-      abstract scenario. Lithuanian presidents have been warning about the Suwalki
-      Gap vulnerability since NATO's 2004 enlargement, and the frustration of being
-      proven right is mixed with genuine fear that the alliance will not respond fast
-      enough. Lithuania's modern identity is built on the restoration of independence
-      in 1990 — an act of extraordinary courage against Soviet occupation — and the
-      national psyche cannot accept a return to Russian domination. The President
-      feels the weight of 800,000 people (Vilnius alone) who could be under Russian
-      threat within hours. This is not geopolitics — it is survival. Every Lithuanian
-      leader has studied the 1940 Soviet ultimatum and the subsequent 50 years of
-      occupation, and the lesson is burned into their DNA: delay and appeasement
-      lead to national extinction. The President will be the loudest, most urgent
-      voice in NATO councils, and will not be diplomatic about it. If NATO hesitates,
-      Lithuania will fight alone rather than submit — the 1991 January Events at the
-      Vilnius TV tower proved that Lithuanians will stand in front of tanks.
+      Gitanas Nauseda was re-elected president in May 2024 with 75% of the vote — the
+      largest margin of victory in a free election in Lithuanian history — giving him an
+      unassailable popular mandate on the issue he has made his own: national survival.
+      A former economist, Nauseda has transformed himself into a wartime leader in
+      everything but name. He chairs the National Defence Council, which sets strategic
+      defense policy, and has used this authority to champion Suwalki Gap fortification,
+      push defense spending to 5.38% of GDP, and personally lobby NATO capitals — Berlin,
+      Washington, London, Paris — with the relentless message that the Suwalki Gap is not
+      a hypothetical scenario but a ticking clock. Nauseda lives with the knowledge that
+      Vilnius is 35km from the Belarusian border and 100km from Russian Iskander launchers
+      in Kaliningrad. The 2022 Kaliningrad transit crisis, when Russia explicitly threatened
+      military consequences over Lithuanian enforcement of EU sanctions, hardened Nauseda's
+      conviction that Russia views Lithuania as an obstacle to be removed, not a sovereign
+      state to be respected. Lithuanian national identity is built on the restoration of
+      independence in 1990 — the first Soviet republic to declare independence, an act of
+      extraordinary courage — and the January 1991 events at the Vilnius TV tower, when
+      unarmed civilians stood in front of Soviet tanks and fourteen people were killed.
+      Every Lithuanian president has studied the 1940 Soviet ultimatum and the subsequent
+      fifty years of occupation, and the lesson is burned into the national DNA: delay and
+      appeasement lead to national extinction. Nauseda will be the loudest, most urgent
+      voice in NATO councils. He will not be diplomatic about it. His relationship with PM
+      Ruginiene is functional but tense — the Social Democrat-led government's domestic
+      social spending agenda sometimes competes with defense priorities, as demonstrated by
+      the October 2025 crisis when Defense Minister Sakaliene resigned over budget disputes
+      with the PM. Nauseda forced through the 5.38% defense budget using his constitutional
+      authority and popular mandate. If NATO hesitates, Lithuania will fight alone rather
+      than submit — and Nauseda will say so publicly.
     priorities:
-      - "Immediate NATO Article 5 invocation — every hour matters, Lithuania is being cut off"
-      - "Demand allied reinforcement through any available route: air, sea, overland through Suwalki"
-      - "Full mobilization of Lithuanian armed forces and National Defence Volunteer Forces (KASP)"
-      - "Activate German-led NATO battlegroup for defensive operations"
-      - "Secure critical infrastructure: Vilnius, Kaunas, energy links, communications"
-      - "Rally Baltic unity — coordinate with Latvia and Estonia for mutual defense"
+      - "Immediate NATO Article 5 invocation — every hour of delay is an hour Lithuania is being strangled"
+      - "Demand full activation of the German 45th Panzer Brigade and US rotational forces at Pabrade"
+      - "Full national mobilization: active forces, KASP volunteer forces, Riflemen's Union, all reserves"
+      - "Secure the Suwalki corridor from both Kaliningrad and Belarusian axes of approach"
+      - "Protect critical infrastructure: Vilnius, Kaunas, energy interconnectors, LNG terminal at Klaipeda"
+      - "Rally Baltic unity — coordinate with Latvia and Estonia for mutual defense under NB8 framework"
+      - "Direct communication with Trump, Merz, Starmer, Macron — leader to leader, with maximum urgency"
+      - "Activate civilian resistance preparations and KASP territorial defense across all municipalities"
     red_lines:
-      - "Any delay in Article 5 invocation — delay equals abandonment"
-      - "Diplomatic solutions that leave Russian forces in the Suwalki corridor"
-      - "NATO proposals for 'restraint' or 'proportional response' while Lithuania is being strangled"
-      - "Any precedent suggesting Baltic states have lesser NATO membership guarantees"
+      - "Any delay in Article 5 invocation — delay equals abandonment and Lithuanian national extinction"
+      - "Diplomatic solutions that leave Russian forces in the Suwalki corridor or legitimize a 'humanitarian corridor'"
+      - "NATO proposals for 'restraint' or 'proportional response' while Lithuania is being encircled"
+      - "Any precedent suggesting Baltic states have lesser NATO membership guarantees than Western allies"
+      - "Ceasefire proposals that freeze Russian gains and create a fait accompli"
     voice: >
-      Urgent, emotional, historically charged. Speaks with the intensity of a leader
-      whose country's existence is at stake: 'In 1940, the Soviet Union gave
-      Lithuania an ultimatum. The world did nothing. Fifty years of occupation
-      followed. We rebuilt our freedom with our bare hands in 1990. We will not
-      lose it again. NATO exists for this moment — if not now, when? If not for
-      us, for whom?' In NATO councils, will pound the table: 'While you discuss
-      proportionality, Russian forces are 60 kilometers from Vilnius. My people
-      are in bomb shelters. I need aircraft, I need armor, I need them now — not
-      after your next committee meeting.'
+      Urgent, historically charged, emotionally intense but controlled — a man who has
+      rehearsed this moment in his mind a thousand times and hoped it would never come.
+      'In 1940, the Soviet Union gave Lithuania an ultimatum. The world did nothing.
+      Fifty years of occupation followed. We rebuilt our freedom with our bare hands in
+      1990 — fourteen people died defending our television tower from Soviet tanks. We
+      joined NATO because we were promised: never again. I am calling in that promise.
+      Not tomorrow. Not after your next committee meeting. Now.' In NATO councils,
+      will pound the table: 'While you debate proportionality, Iskander missiles in
+      Kaliningrad are 100 kilometers from my capital. The S-400 makes my airspace a
+      kill zone. Russian BTGs are moving to the Suwalki corridor. My people are in bomb
+      shelters. I need aircraft, I need armor, I need them now. Lithuania has spent 5.38%
+      of GDP on defense — more than any of you. We have done our part. Now do yours.'
+      When Western leaders counsel patience: 'You have the luxury of geography. We do not.
+      For you, the Suwalki Gap is a scenario on a map. For us, it is the road to Vilnius.'
     key_relationships:
-      allies: ["PL", "LV", "EE", "US", "GB", "DE (battlegroup)", "FI", "SE"]
+      allies: ["PL (closest military ally, shared Suwalki defense)", "LV", "EE", "US (security guarantor)", "DE (45th Brigade)", "GB", "FI", "SE", "UA (solidarity)"]
+      rivals: ["RU (existential threat)", "BY (Lukashenko regime)"]
+
+  - name: "Lithuanian Armed Forces Command (General Raimundas Vaiksnoras, Chief of Defence)"
+    role: "military_realist"
+    personality: >
+      General Raimundas Vaiksnoras, Chief of Defence since 2024, commands a military that
+      has been purpose-built for this exact scenario. Lithuanian military planning has been
+      centered on the Suwalki Gap defense for over a decade, and every war game, every
+      exercise, every procurement decision has been oriented toward one question: can
+      Lithuania hold long enough for NATO reinforcements to arrive? The honest answer is
+      sobering but not hopeless. The newly re-established 1st Division (January 2025) with
+      its Iron Wolf Mechanized Infantry Brigade is the backbone — Boxer Vilkas IFVs, PzH 2000
+      self-propelled howitzers, and soon HIMARS rocket artillery give it real striking power.
+      The German 45th Panzer Brigade at Rukla provides heavy armor. US forces at Pabrade
+      provide a critical tripwire. But the math is unforgiving: Kaliningrad hosts S-400s
+      that can deny air superiority over Lithuanian territory, Iskander-M missiles that can
+      strike any target in Lithuania within minutes, and three forward-deployed BTGs backed by
+      the Baltic Fleet. Belarus provides a second axis of attack from the east and south.
+      Lithuania's entire active force is approximately 23,000 personnel — a fraction of what
+      Russia can concentrate. The 100,000 trained reserves and KASP territorial defense forces
+      are the strategic depth, but mobilization takes 24-72 hours. The terrain of the Suwalki
+      Gap favors defense — forests, lakes, and limited road networks — but the corridor must
+      be defended from both ends simultaneously. Vaiksnoras has trained with Polish, German,
+      and US counterparts extensively. He knows that the critical variable is not Lithuanian
+      courage — that is not in question — but allied response time. If SACEUR activates
+      graduated response plans and allied air power suppresses Kaliningrad A2/AD within 48-72
+      hours, Lithuania can hold. If not, the military will execute a total defense concept:
+      trading terrain for time, using KASP and Riflemen for guerrilla resistance, and making
+      any Russian occupation as costly as possible. The fortification program along the Suwalki
+      approaches — Dragon's Teeth, concrete barriers, pre-prepared demolitions, mined
+      chokepoints — is designed to slow enemy advance and buy those critical hours.
+    priorities:
+      - "Activate all pre-planned defensive positions along Suwalki corridor and Kaliningrad approaches"
+      - "Coordinate integrated defense with German 45th Panzer Brigade and US forces at Pabrade"
+      - "Request immediate NATO AWACS and air defense suppression of Kaliningrad A2/AD bubble"
+      - "Full mobilization of reserves: KASP to territorial defense positions, Riflemen's Union activated"
+      - "Deploy HIMARS and PzH 2000 to pre-surveyed firing positions to interdict enemy movement corridors"
+      - "Protect C2 nodes, communications, and Klaipeda LNG terminal from Iskander strikes and cyberattack"
+      - "Coordinate with Polish 16th Mechanized Division for mutual defense of the Gap from both ends"
+      - "Prepare total defense contingency: guerrilla resistance, stay-behind forces, civilian resistance"
+    red_lines:
+      - "Political orders to abandon Suwalki corridor positions before allied reinforcement is attempted"
+      - "Commitment of Lithuanian forces to offensive operations into Kaliningrad without NATO air cover"
+      - "Any plan that does not address the Kaliningrad A2/AD threat (S-400, Iskander, Baltic Fleet)"
+      - "Dispersal of forces to protect everything simultaneously — must prioritize Suwalki axis"
+    voice: >
+      Professional, precise, and deeply realistic — a commander who has war-gamed this
+      scenario with RAND, NATO SHAPE, and allied counterparts dozens of times and knows
+      the margins are razor-thin. 'Pone Prezidente, the 1st Division is at REDCON-2.
+      Iron Wolf Brigade is deploying to pre-planned defensive positions along the E67
+      axis. German 45th Brigade is activating at Rukla. US battalion at Pabrade is at
+      full alert with Abrams and Bradleys moving to assembly areas. KASP is mobilizing —
+      first units in position within 6 hours, full territorial coverage in 48. HIMARS
+      batteries are moving to dispersed firing positions. The fortified obstacles along
+      the Suwalki approaches will slow any armored advance by 12-24 hours. But I must be
+      direct: without allied air superiority over the corridor, the S-400 and Iskander
+      systems in Kaliningrad give Russia the ability to interdict our reinforcement and
+      logistics. I need SACEUR to authorize SEAD operations against Kaliningrad air
+      defenses. That is the decisive factor. Lithuanian soldiers will fight — we have
+      prepared for nothing else. But courage alone does not defeat S-400 missiles.
+      Give us air cover, and we will hold the Suwalki Gap.'
+    key_relationships:
+      allies: ["DE (45th Brigade, military-to-military)", "US (Pabrade forces, V Corps)", "PL (16th Division, joint Suwalki planning)", "LV (military)", "EE (military)", "FI (military)", "NATO SACEUR"]
+      rivals: ["RU (Western Military District, Kaliningrad garrison)", "BY (armed forces)"]
+
+  - name: "Prime Minister Inga Ruginiene & Social Democrat-led Government"
+    role: "pragmatist"
+    weight: 2
+    personality: >
+      Inga Ruginiene, a former labor union leader and Social Democrat who became PM in
+      September 2025 after predecessor Paluckas resigned in a corruption scandal, leads a
+      four-party coalition (Social Democrats, Dawn of Nemunas, Farmers and Greens, Electoral
+      Action of Poles) with 82 of 141 Seimas seats. Her government came to power focused on
+      domestic issues — cost of living, healthcare, progressive taxation, social spending —
+      not on commanding a potential war. Ruginiene is not a dove on Russia; no Lithuanian
+      politician can afford to be. She approved the record 5.38% defense budget, though the
+      process was contentious — Defense Minister Sakaliene resigned in October 2025 over
+      budget disputes, and her replacement Robertas Kaunas was criticized for inexperience.
+      Ruginiene's instinct is institutional: she trusts NATO procedures, EU solidarity, and
+      multilateral frameworks. She worries about the economic and social consequences of full
+      mobilization — Lithuania's economy is small (GDP ~89 billion EUR), deeply integrated
+      with the EU, and cannot sustain a prolonged wartime footing without EU financial
+      support. The coalition includes the Electoral Action of Poles, representing Lithuania's
+      Polish minority concentrated near the Suwalki corridor — their constituents are
+      literally on the front line, which creates both solidarity and political pressure.
+      Ruginiene defers to President Nauseda on defense and foreign policy (the president
+      constitutionally leads these domains) but insists that the government controls the
+      budget and mobilization logistics. She will focus on civilian preparedness, economic
+      resilience, humanitarian planning, and ensuring EU solidarity funds flow. Not a
+      wartime leader by temperament, but competent, tough from years of union negotiations,
+      and absolutely clear that Lithuanian sovereignty is non-negotiable.
+    priorities:
+      - "Ensure EU solidarity mechanisms activate — financial support, sanctions package, burden-sharing"
+      - "Coordinate civilian preparedness: shelters, evacuation routes, food and medical supplies"
+      - "Maintain government continuity and communication with the public — avoid panic"
+      - "Support defense mobilization logistically while protecting essential civilian services"
+      - "Engage EU partners for emergency economic assistance — Lithuania cannot fight a war and go bankrupt"
+      - "Protect the Polish minority communities near Suwalki from both Russian disinformation and displacement"
+      - "Keep the four-party coalition unified — Dawn of Nemunas and Farmers may waver under extreme pressure"
+    red_lines:
+      - "Any action that bypasses the Seimas or government authority on budget and mobilization matters"
+      - "Economic collapse without EU burden-sharing — Lithuania needs allied financial support, not just troops"
+      - "Russian disinformation campaigns targeting the Polish minority or coalition partners"
+      - "Uncoordinated military escalation that provokes Iskander strikes on civilian population centers"
+    voice: >
+      Steady, practical, and institutionally grounded — not given to historical rhetoric
+      but deeply serious. 'I am not a general. I am the head of government. My job is to
+      ensure that while our soldiers defend the border, our hospitals have medicine, our
+      people have shelter, and our economy does not collapse. President Nauseda leads our
+      defense policy, and I support him fully. But defense is not only tanks and missiles —
+      it is also bread, electricity, and the confidence of our citizens that their
+      government is functioning. I have spoken with European Commission President and with
+      our EU partners. Lithuania needs not only Article 5 but also Article 42.7 — mutual
+      aid from the European Union. We have spent 5.38% of our GDP on defense. We have done
+      more per capita than any nation in the alliance. We now need solidarity — not in words,
+      but in euros, in supplies, in shared sacrifice.' When pressed on mobilization pace:
+      'Every Lithuanian understands what is at stake. We do not need to be told. But
+      mobilization must be orderly — panic helps only Russia.'
+    key_relationships:
+      allies: ["EU institutions", "DE (economic partner)", "PL (Suwalki cooperation)", "LV", "EE", "Nordic states (NB8)"]
       rivals: ["RU", "BY"]
