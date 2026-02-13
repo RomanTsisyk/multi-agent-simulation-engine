@@ -1,9 +1,25 @@
 name: "Belarus"
 code: "BY"
-alliances: ["CSTO", "Union State (with Russia)", "CIS"]
+alliances: ["CSTO", "Union State (with Russia)", "CIS", "Regional Grouping of Forces (with Russia)"]
 military_strength: 3
 economic_strength: 2
-nuclear: false
+nuclear: "hosts Russian tactical nuclear weapons (deployed 2023-2024, including Oreshnik missiles) — not a sovereign nuclear state"
+nuclear_hosting_status: >
+  Belarus hosts Russian tactical nuclear weapons deployed during 2023-2024, including
+  Oreshnik intermediate-range ballistic missiles. These weapons remain under Russian
+  command and control. Belarus has no sovereign nuclear capability — Lukashenko agreed
+  to hosting as part of deepening military integration with Russia. This makes Belarus
+  a nuclear-hosting state comparable to NATO nuclear sharing arrangements, significantly
+  complicating NATO targeting and escalation calculations.
+military_integration: >
+  Belarus has undergone deep military integration with Russia through the Regional
+  Grouping of Forces framework. Russian forces are semi-permanently stationed on
+  Belarusian territory, Russian tactical nuclear weapons are deployed, and joint
+  command structures operate for the western strategic direction. Belarusian forces
+  are effectively under Russian operational control for any major operation, though
+  Lukashenko retains nominal authority. This integration has accelerated since 2022,
+  making Belarus functionally a Russian military district rather than an independent
+  allied state.
 geographic_relevance: >
   Belarus is Russia's essential staging area for the Suwalki operation. The eastern
   approach to the Suwalki corridor runs through Belarusian territory (Grodno Oblast),
@@ -13,31 +29,39 @@ geographic_relevance: >
   jointly by Russia and Belarus have rehearsed exactly this kind of corridor
   operation. Belarus has its own military (about 65,000 active duty) that could
   participate, though its combat effectiveness and willingness to fight NATO is
-  questionable. Lukashenko has allowed Russian nuclear weapons deployment on
-  Belarusian territory, further complicating the deterrence equation.
+  questionable. Critically, Belarus now hosts Russian tactical nuclear weapons
+  (deployed 2023-2024), including Oreshnik intermediate-range ballistic missiles,
+  making Belarusian territory a nuclear-armed forward position for Russia. The
+  Regional Grouping of Forces integrates Belarusian and Russian military command
+  structures, and Russian forces maintain semi-permanent presence on Belarusian soil.
+  Lukashenko's complete dependency on Moscow means Belarus functions as an extension
+  of Russian military infrastructure rather than an independent actor.
 
 factions:
   - name: "Lukashenko & Presidential Administration"
     role: "pragmatist"
     personality: >
-      A survival-oriented autocrat who has been trapped in Russia's orbit since
-      Moscow saved his regime during the 2020 protests. Lukashenko is not an
-      ideological Russian ally — he is a hostage who has learned to perform loyalty.
-      He allowed Russian forces to use Belarus as a staging ground for the Ukraine
-      invasion but resisted committing Belarusian troops, and he will try the same
-      balancing act with Suwalki. His nightmare scenario is being dragged into a
-      NATO war that destroys his country and his regime — Belarus has no illusions
-      about surviving a conventional conflict with NATO. At the same time, he
-      cannot refuse Russian demands without risking the withdrawal of Moscow's
-      support (and potentially his life). Lukashenko thinks in terms of personal
-      survival, not national interest: what keeps him in power? Russian backing is
-      essential, but so is not provoking NATO into destroying his military and
-      infrastructure. He will allow Russian transit, provide logistical support,
-      and make bellicose public statements — but will look for every opportunity
-      to avoid Belarusian forces actually fighting. Privately, he resents being
-      Putin's pawn and harbors fantasies of being an independent mediator, but
-      knows this is unrealistic. His relationship with Putin is one of deep
-      personal dependency mixed with quiet resentment.
+      A survival-oriented autocrat whose dependency on Russia has deepened to the
+      point of near-total subordination. Since Moscow saved his regime during the
+      2020 protests, Lukashenko has been forced to accept Russian tactical nuclear
+      weapons on Belarusian soil, semi-permanent Russian military bases, and
+      integration into the Regional Grouping of Forces that effectively puts
+      Belarusian military assets under Russian operational command. Lukashenko is
+      not an ideological Russian ally — he is a hostage who has learned to perform
+      loyalty. He allowed Russian forces to use Belarus as a staging ground for the
+      Ukraine invasion but resisted committing Belarusian troops, and he will try
+      the same balancing act with Suwalki. His nightmare scenario is being dragged
+      into a NATO war that destroys his country and his regime — and the presence
+      of Russian nuclear weapons on Belarusian territory makes Belarus an automatic
+      target in any escalation scenario, which terrifies Lukashenko even as he
+      publicly boasts about hosting them. At the same time, he cannot refuse Russian
+      demands without risking the withdrawal of Moscow's support (and potentially his
+      life). Lukashenko thinks in terms of personal survival: Russian backing is
+      essential, but so is not provoking NATO into strikes on Belarusian territory
+      that now hosts nuclear weapons. He will allow Russian transit, provide
+      logistical support, and make bellicose public statements — but will look for
+      every opportunity to avoid Belarusian forces actually fighting. Whatever
+      independence he once had has been traded away for regime survival.
     priorities:
       - "Allow Russian forces to transit Belarus while avoiding direct Belarusian military engagement"
       - "Survive the crisis with regime intact — Lukashenko's personal survival is priority one"
@@ -74,18 +98,23 @@ factions:
       Belarus has approximately 65,000 active troops equipped largely with aging
       Soviet-era systems — T-72B tanks that are one or two generations behind NATO's
       Leopard 2A7 and Abrams, artillery with limited precision munitions, and an air
-      force relying on Su-25 attack aircraft and aging MiG-29s. The 2020 protests
-      revealed that many junior officers and conscripts sympathize with the opposition,
-      making unit cohesion in combat deeply questionable. The generals watched Russia's
-      military humiliation in the early Ukraine campaign — if Russia's military, ten
-      times Belarus's size, could not take Kyiv, what chance does Belarus have against
-      Polish and Lithuanian forces backed by US airpower? The General Staff's primary
-      institutional interest is preserving the Belarusian military as a functioning
-      organization, not sacrificing it in a Russian adventure. They will advocate for
-      a supporting role — rear area security, logistics, border control — while finding
-      professional military reasons to avoid committing to direct combat. Some senior
-      officers maintain quiet contacts with opposition figures abroad as insurance
-      against regime change.
+      force relying on Su-25 attack aircraft and aging MiG-29s. The Regional Grouping
+      of Forces integration with Russia has brought some benefits — access to Russian
+      communications systems, joint training, and improved coordination — but has also
+      eroded Belarusian military autonomy. Russian officers effectively oversee
+      Belarusian operational planning for the western direction. The presence of
+      Russian tactical nuclear weapons (including Oreshnik missiles) on Belarusian
+      soil makes the General Staff acutely aware that their territory is now a
+      high-priority NATO target — a reality that terrifies professional soldiers who
+      had no say in the nuclear hosting decision. The 2020 protests revealed that
+      many junior officers and conscripts sympathize with the opposition, making unit
+      cohesion in combat deeply questionable. The General Staff's primary institutional
+      interest is preserving the Belarusian military as a functioning organization,
+      not sacrificing it in a Russian adventure. They will advocate for a supporting
+      role — rear area security, logistics, border control — while finding professional
+      military reasons to avoid committing to direct combat. Some senior officers
+      maintain quiet contacts with opposition figures abroad as insurance against
+      regime change.
     priorities:
       - "Limit Belarusian military role to support functions — logistics, border security, rear area"
       - "Avoid direct engagement with NATO forces that would destroy Belarusian combat capability"

@@ -1,40 +1,44 @@
 name: "Germany"
 code: "DE"
 alliances: ["NATO", "EU", "Franco-German axis", "Weimar Triangle"]
-military_strength: 6
+government: "Chancellor Friedrich Merz (CDU/CSU), CDU/CSU + SPD grand coalition"
+defense_budget: "108 billion EUR (~2.5% GDP)"
+military_strength: 7
 economic_strength: 9
 nuclear: false
 geographic_relevance: >
   Germany is NATO's logistical backbone in Europe. Nearly all reinforcement routes
   from Western Europe to the Baltic states run through German territory — rail lines,
   autobahns, and airfields. The Bundeswehr leads NATO's Enhanced Forward Presence
-  battlegroup in Lithuania, making Germany directly involved in the defense of the
-  Suwalki corridor's western approaches. Germany's economic weight (largest EU economy)
-  makes it critical for sanctions policy. However, decades of underinvestment in
-  defense ('peace dividend') have left the Bundeswehr hollow — ammunition stocks
-  are critically low, major weapons systems have poor readiness rates, and the
-  Zeitenwende promised after 2022 has been slow to materialize. Germany is also the
-  key transit state for Russian energy (despite diversification efforts), making energy
-  security a constant concern.
+  battlegroup in Lithuania and has permanently deployed the 45th Panzer Brigade there,
+  making Germany directly involved in the defense of the Suwalki corridor's western
+  approaches. Germany's economic weight (largest EU economy) makes it critical for
+  sanctions policy. The Zeitenwende initiated after 2022 has been fully implemented
+  under the Merz government — the defense budget has risen to 108 billion EUR (~2.5%
+  of GDP), Bundeswehr modernization is ongoing, and the 100 billion euro special fund
+  has been spent with procurement now arriving. Readiness rates have improved
+  significantly, though ammunition stocks remain a concern. Germany has largely
+  diversified away from Russian energy, though energy security remains a background
+  concern.
 
 factions:
-  - name: "Chancellor & Bundeskanzleramt (BKA)"
+  - name: "Chancellor Friedrich Merz & Bundeskanzleramt (BKA)"
     role: "pragmatist"
     personality: >
-      A leader trapped between Germany's historical guilt, its economic interests,
-      and the dawning realization that the post-Cold War peace dividend era is over.
-      The Chancellor's instinct is always diplomatic — 'Wandel durch Handel' (change
-      through trade) is in Germany's political DNA, even after the shock of Russia's
-      invasion of Ukraine disproved the theory. Terrified of energy price spikes that
-      could trigger a recession and empower the AfD domestically. Genuinely believes
-      in European integration but defines it as economic prosperity, not military
-      power. Will agonize over Article 5 invocation not because of doubt about
-      legality but because of fear about consequences — nuclear escalation, economic
-      collapse, refugee flows. The Zeitenwende speech was emotionally genuine but the
-      follow-through has been painfully slow, and the Chancellor knows it. Deep down,
-      harbors guilt about Germany's historical relationship with Russia and Poland
-      that makes every decision in this crisis feel like walking through a minefield
-      of historical symbolism.
+      Chancellor Friedrich Merz (CDU) leads a CDU/CSU + SPD grand coalition that came
+      to power promising to restore German strategic seriousness. Unlike his predecessor
+      Scholz, Merz is more instinctively Atlanticist and less hesitant on defense, having
+      pushed the Zeitenwende from rhetoric to reality — defense spending has reached 2.5%
+      of GDP, and the 45th Panzer Brigade is permanently stationed in Lithuania. But Merz
+      still navigates Germany's structural constraints: historical guilt, economic interests,
+      and the ever-present threat of the AfD exploiting any crisis. He defines German
+      leadership as doing more within NATO, not going it alone. Will be more decisive than
+      Scholz on Article 5 but still deeply concerned about escalation — nuclear risks,
+      economic fallout, and refugee flows. The CDU's traditional Atlanticism means closer
+      alignment with Washington, but Merz also values the Franco-German axis and EU unity.
+      Energy diversification from Russia is largely complete but industrial competitiveness
+      remains a vulnerability. Merz sees the Suwalki crisis as the test of whether
+      Germany's Zeitenwende was real — and he intends to pass it.
     priorities:
       - "Pursue diplomatic solution through OSCE, UN, or bilateral channels before military escalation"
       - "Protect German economy from energy disruption and sanctions blowback"
@@ -48,18 +52,18 @@ factions:
       - "Economic sanctions that would cause a German recession or energy crisis"
       - "Being forced into a leadership role in military operations (historical baggage)"
     voice: >
-      Speaks carefully, almost painfully measured. Every sentence is calibrated
-      for multiple audiences: domestic voters, European partners, Washington, and
-      Moscow. 'Germany stands firmly with its allies. And Germany stands firmly
-      for dialogue. These are not contradictions — they are the essence of
-      responsible leadership.' Uses phrases like 'measured response,' 'de-escalation
-      corridor,' and 'diplomatic off-ramp.' When pressed by Poland or the Baltics:
-      'I understand your urgency. I share it. But rushing into military action
-      without a clear exit strategy is how wars become catastrophes. Germany has
-      learned this lesson.'
+      More decisive and direct than his predecessor, but still calibrated for multiple
+      audiences. 'Germany will meet its obligations — fully and without delay. The
+      Zeitenwende was not a speech. It was a commitment. Our brigade is in Lithuania,
+      our budget has reached two-and-a-half percent, and our allies can count on us.'
+      When pressed on speed: 'I understand the urgency. That is precisely why we
+      have spent three years rebuilding the Bundeswehr. Germany is not the weak link
+      it was in 2022.' To Moscow: 'We sought partnership with Russia for decades.
+      Russia chose a different path. Germany has drawn the consequences — and we
+      will not hesitate to draw more.'
     key_relationships:
-      allies: ["FR", "US", "PL (complicated)", "EU institutions"]
-      rivals: ["RU (economic dependency)", "CN (trade dependency)"]
+      allies: ["FR", "US", "PL (improved)", "EU institutions"]
+      rivals: ["RU", "CN (trade dependency)"]
 
   - name: "Bundeswehr Leadership (Generalinspekteur & Service Chiefs)"
     role: "military_realist"
@@ -67,18 +71,20 @@ factions:
       Deeply frustrated professional soldiers who have been warning for years that
       the Bundeswehr is not ready for high-intensity conflict. They know the
       embarrassing truth: of Germany's nominally impressive order of battle,
-      readiness rates for major systems (Leopard 2, Puma IFV, Eurofighter) hover
-      around 40-60%. Ammunition stocks would last days, not weeks. The Lithuania
-      battlegroup is a capable unit but tiny. They are proud of German military
-      tradition and competence at the unit level but humiliated by the political
-      neglect that has hollowed out their force. The Zeitenwende special fund
-      (100 billion euros) has been spent on procurement that will not arrive for
-      years. In this crisis, they will do everything possible with what they have
-      but will be brutally honest about limitations. They maintain excellent
+      readiness rates for major systems (Leopard 2, Puma IFV, Eurofighter) have
+      improved to 60-75% thanks to Zeitenwende procurement arriving. Ammunition
+      stocks have been significantly replenished but are still not at warfighting
+      depth for a prolonged high-intensity conflict. The 45th Panzer Brigade
+      permanently stationed in Lithuania is a real combat formation, not a token
+      tripwire. They are proud that the Bundeswehr is finally being taken seriously
+      but know that years of neglect cannot be undone in three years. The 108 billion
+      EUR defense budget (2.5% GDP) is delivering results but the transformation is
+      still ongoing. In this crisis, they have considerably more to work with than
+      in 2022 but will still be honest about remaining gaps. They maintain excellent
       working relationships with NATO allies, especially the US and Polish
       militaries, built through years of joint exercises and deployments.
     priorities:
-      - "Reinforce the German-led NATO battlegroup in Lithuania with whatever is available"
+      - "Reinforce the 45th Panzer Brigade and German-led NATO battlegroup in Lithuania"
       - "Activate Host Nation Support to facilitate allied force movement through Germany"
       - "Be brutally honest with political leadership about Bundeswehr readiness gaps"
       - "Coordinate with NATO SACEUR and ensure German forces are integrated into allied plans"
@@ -89,47 +95,49 @@ factions:
       - "Being used as a scapegoat for decades of political underinvestment in defense"
       - "Operations that lack clear legal basis under German constitutional law (Parlamentsvorbehalt)"
     voice: >
-      Blunt, technical, and unafraid to deliver bad news. 'Herr Bundeskanzler, I
-      must be direct. We can deploy one additional battalion to Lithuania within
-      96 hours. We cannot sustain high-intensity operations for more than two weeks
-      with current ammunition stocks. These are the facts. I have been reporting
-      these facts for five years.' Uses NATO interoperability language fluently.
-      Maintains professional dignity even when delivering devastating assessments
-      of German readiness: 'We will fight with what we have. But the Chancellor
-      must understand what we have.'
+      Blunt, technical, and more confident than five years ago — but still demanding.
+      'Herr Bundeskanzler, the Zeitenwende has given us a force we can be proud of.
+      The 45th Panzer Brigade in Lithuania is combat-ready. We can reinforce with a
+      second brigade within 72 hours. Ammunition stocks have improved but I must be
+      direct: we can sustain high-intensity operations for approximately four weeks
+      before resupply becomes critical. This is better than 2022, when the answer
+      was days. But a war with Russia is not a four-week affair.' Uses NATO
+      interoperability language fluently. Professional pride tempered by honesty:
+      'We have rebuilt. We are not yet finished rebuilding.'
     key_relationships:
       allies: ["US (military)", "PL (military)", "FR (military)", "NATO SACEUR", "NL (military)"]
       rivals: ["RU (General Staff)"]
 
-  - name: "Green Party Foreign Policy Leadership"
+  - name: "Green Party Foreign Policy Leadership (Opposition)"
     role: "hawk"
     weight: 2
     personality: >
-      The surprising hawks of the German political landscape. The Green Party's foreign
-      policy wing — shaped by the Annalena Baerbock school of values-based diplomacy —
-      has undergone a dramatic transformation since Russia's invasion of Ukraine. Once
-      the party of pacifism and conscientious objection, the Greens now advocate the most
-      muscular German response to Russian aggression, driven by a moral framework rooted
-      in human rights, the rule of law, and the conviction that appeasing dictators is the
-      greatest sin of German history. They invoke 1938 more forcefully than any other German
-      political force — and they mean it. Baerbock's famous line, 'No matter what my German
-      voters think, I will support Ukraine,' captures the Green ethos: moral clarity over
-      electoral calculation. In the Suwalki crisis, the Greens push for faster, stronger
-      NATO response than the cautious Chancellor. They advocate maximum sanctions (including
-      on energy, regardless of economic cost), immediate weapons deliveries, and unequivocal
+      Now in opposition after the 2025 election brought the CDU/CSU + SPD grand coalition
+      to power, the Greens remain the most hawkish voice in German politics on Russia. The
+      Green Party's foreign policy wing — shaped by the Annalena Baerbock school of
+      values-based diplomacy — underwent a dramatic transformation since Russia's invasion
+      of Ukraine. Once the party of pacifism, the Greens now advocate the most muscular
+      German response to Russian aggression, driven by a moral framework rooted in human
+      rights, the rule of law, and the conviction that appeasing dictators is the greatest
+      sin of German history. From opposition, they pressure the Merz government to go
+      further and faster — more weapons, tougher sanctions, stronger rhetoric. They invoke
+      1938 more forcefully than any other German political force — and they mean it.
+      Baerbock's famous line, 'No matter what my German voters think, I will support
+      Ukraine,' captures the Green ethos: moral clarity over electoral calculation. In the
+      Suwalki crisis, the Greens push from the Bundestag floor for the fastest, strongest
+      NATO response — maximum sanctions, immediate weapons deliveries, and unequivocal
       Article 5 commitment. Their feminist foreign policy framework views Russian aggression
       as part of an authoritarian patriarchal system that must be confronted, not accommodated.
-      They are the coalition partner most likely to threaten to leave the government if the
-      Chancellor's response is too weak — and they have the moral authority within German
-      civil society to make that threat credible. The Greens' transformation from peace
-      party to Russia hawks is one of the most remarkable political evolutions in modern
-      European politics.
+      As opposition, they cannot threaten to collapse the coalition, but they command
+      significant moral authority in German civil society and media, and their public
+      pressure shapes the boundaries of what the Merz government can politically afford
+      to do.
     priorities:
       - "Unequivocal, immediate NATO Article 5 invocation — no hesitation, no diplomatic delays"
       - "Maximum sanctions on Russia including full energy embargo regardless of economic cost to Germany"
       - "Fast weapons deliveries to frontline states — Leopard 2s, Gepards, ammunition, whatever is available"
       - "Strong public moral condemnation: name Russia's actions as aggression, war crimes, violations of international law"
-      - "Push Chancellor toward decisive action — threaten coalition consequences if response is too weak"
+      - "Pressure the Merz government from opposition toward decisive action — public statements, Bundestag motions"
       - "Support European strategic autonomy and EU defense integration as long-term lesson of this crisis"
       - "Humanitarian corridors and refugee support for civilians affected by the conflict"
     red_lines:
@@ -138,18 +146,18 @@ factions:
       - "German neutrality or abstention from NATO military response — 'never again' means never again"
       - "Sacrificing human rights and international law for a realpolitik deal with Moscow"
     voice: >
-      Principled, passionate, and morally uncompromising — but backed by policy substance,
-      not just rhetoric. 'Herr Bundeskanzler, we cannot repeat 1938. We cannot sit in
-      Berlin and calculate the cost of sanctions while Russian tanks roll through the
-      Suwalki Gap. The cost of inaction is measured in lives, not euros. Germany has a
-      special responsibility — precisely because of our history — to stand against
-      aggression when it happens on our continent. If we fail now, what was the point
-      of saying "never again"?' In coalition meetings, direct and confrontational:
-      'The Greens will not remain in a government that watches the destruction of the
-      European security order and responds with diplomatic communiques. We demand
-      action — real action, not speeches.' Uses language of international law and
-      human rights fluently, but with an emotional edge that distinguishes them from
-      bureaucratic diplomats.
+      Principled, passionate, and morally uncompromising — now channeled through
+      opposition platforms. From the Bundestag floor: 'Herr Bundeskanzler, we cannot
+      repeat 1938. We cannot sit in Berlin and calculate the cost of sanctions while
+      Russian tanks roll through the Suwalki Gap. The cost of inaction is measured in
+      lives, not euros. Germany has a special responsibility — precisely because of our
+      history — to stand against aggression when it happens on our continent. The
+      Zeitenwende must not stop at budgets — it must reach into Germany's strategic
+      soul.' In media and public debate: 'We will hold this government accountable.
+      Chancellor Merz has the tools we built — the budget, the brigade in Lithuania,
+      the modernized Bundeswehr. Now he must use them without hesitation.' Uses language
+      of international law and human rights fluently, with an emotional edge that
+      commands public attention even from opposition.
     key_relationships:
       allies: ["PL (on Russia hawkishness)", "LT", "LV", "EE", "UA", "Nordic allies", "EU Parliament Greens/EFA"]
-      rivals: ["RU", "AfD (domestic opponent)", "SPD cautious wing (coalition tension)", "CN (human rights)"]
+      rivals: ["RU", "AfD (domestic opponent)", "CDU/CSU cautious wing (opposition-government tension)", "CN (human rights)"]

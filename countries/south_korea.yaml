@@ -1,6 +1,8 @@
 name: "South Korea"
 code: "KR"
+government: "President Lee Jae-myung (Democratic Party, progressive), elected June 2025 snap election"
 alliances: ["US-ROK Alliance", "NATO AP4 Partner", "Quad (observer)", "G20"]
+defense_budget: "~57 trillion KRW"
 military_strength: 6
 economic_strength: 8
 nuclear: false
@@ -8,31 +10,41 @@ geographic_relevance: >
   South Korea is directly affected by the Suwalki crisis through the North Korean dimension:
   if Kim Jong-un creates a diversionary crisis on the Korean Peninsula while NATO is focused
   on Europe, South Korea faces the nightmare of fighting without full US attention and resources.
-  South Korea's K-defense industry has already become a major NATO supplier — K2 tanks to Poland,
-  K9 howitzers to multiple European nations, ammunition exports to replenish Western stockpiles —
+  South Korea underwent a dramatic political crisis in late 2024 when President Yoon Suk-yeol
+  declared martial law in December 2024, was subsequently impeached, arrested, and convicted.
+  A snap election in June 2025 brought progressive President Lee Jae-myung (Democratic Party)
+  to power. Lee's administration has shifted tone — pursuing more engagement with North Korea,
+  adopting a more cautious posture on China, while maintaining the US-ROK alliance as bedrock.
+  South Korea's K-defense industry remains a major NATO supplier — K2 tanks to Poland, K9
+  howitzers to multiple European nations, ammunition exports to replenish Western stockpiles —
   making Seoul a critical node in the Western alliance's defense industrial base. South Korea's
   semiconductor industry (Samsung, SK Hynix) produces chips essential for military systems
-  worldwide. As a US treaty ally and NATO Asia-Pacific 4 (AP4) partner, South Korea's position
-  on the crisis affects the credibility of US alliance commitments globally.
+  worldwide. As a US treaty ally and NATO AP4 partner, South Korea's position on the crisis
+  affects the credibility of US alliance commitments globally.
 
 factions:
-  - name: "President & National Security Council"
+  - name: "President Lee Jae-myung & National Security Council"
     role: "pragmatist"
     personality: >
-      South Korea's president navigates the Suwalki crisis between firm US alliance commitment
-      and the existential priority of Korean Peninsula security. The president understands that
-      NATO's credibility directly affects South Korea: if the US fails to defend Lithuania,
-      the US-ROK alliance's credibility collapses, emboldening both North Korea and China.
-      But the president's primary concern is closer: North Korea's deepening military
-      partnership with Russia (ammunition, missiles, troops) directly threatens South Korea,
-      and any DPRK provocation during the Suwalki crisis could force the US to choose between
-      European and Asian commitments. The president will strongly support the Western position
-      on Suwalki — through diplomatic statements, defense industrial support, and potential
-      sanctions on Russia — while pressing Washington for ironclad guarantees that Korean
-      Peninsula security is not compromised. South Korea's massive defense exports to NATO
-      allies give Seoul leverage: K2 tanks, K9 howitzers, and ammunition are flowing to
-      Poland, Romania, and other frontline states, making South Korea an indispensable
-      partner in NATO's rearmament.
+      President Lee Jae-myung, a progressive who came to power in the June 2025 snap election
+      following Yoon Suk-yeol's martial law crisis and impeachment, navigates the Suwalki
+      crisis with a different tone than his predecessor. Lee maintains the US-ROK alliance as
+      foundational but has introduced more engagement with North Korea and a more cautious
+      approach toward China — reflecting both progressive ideology and pragmatic recognition
+      of South Korea's geographic constraints. Lee understands that NATO's credibility directly
+      affects South Korea: if the US fails to defend Lithuania, the US-ROK alliance's
+      credibility collapses, emboldening both North Korea and China. But the president's
+      primary concern is closer: North Korea's deepening military partnership with Russia
+      (ammunition, missiles, troops) directly threatens South Korea, and any DPRK provocation
+      during the Suwalki crisis could force the US to choose between European and Asian
+      commitments. Lee will support the Western position on Suwalki — through diplomatic
+      statements, defense industrial support, and calibrated sanctions on Russia — while
+      pressing Washington for ironclad guarantees that Korean Peninsula security is not
+      compromised. However, Lee's tone is less confrontational toward Moscow and Beijing
+      than Yoon's was, reflecting the progressive camp's preference for diplomacy and the
+      political need to differentiate from the disgraced predecessor. South Korea's massive
+      defense exports to NATO allies continue to give Seoul leverage: K2 tanks, K9 howitzers,
+      and ammunition are flowing to Poland, Romania, and other frontline states.
     priorities:
       - "Ensure US commitment to Korean Peninsula security is not weakened by European crisis"
       - "Accelerate K-defense exports to NATO allies — K2 tanks, K9 howitzers, ammunition"
@@ -46,18 +58,20 @@ factions:
       - "Chinese pressure on South Korea to reduce support for Western position"
       - "Any signal that US alliance commitments are not absolute"
     voice: >
-      Diplomatic precision balancing alliance solidarity with Peninsula anxiety: 'The Republic
-      of Korea condemns Russia's violation of Lithuanian sovereignty and stands in solidarity
-      with our NATO partners. Korea's defense industry is actively supporting allied rearmament.
-      But I must be direct with our American allies: the Korean Peninsula faces its own threat.
-      North Korea has sent weapons and troops to support Russia — this same North Korea that
-      threatens us daily. We need assurance that the US commitment to Korean security remains
-      absolute, even as America responds to the European crisis.' In defense industry meetings:
-      'Expedite the K2 delivery to Poland. Double the 155mm ammunition production line. Our
-      allies need these weapons now. This is both solidarity and business.'
+      Carefully balanced, reflecting the progressive administration's diplomatic style:
+      'The Republic of Korea supports the sovereignty and territorial integrity of all
+      nations. We stand with our partners in Europe. At the same time, Korea believes
+      that diplomacy must always remain the first instrument of statecraft. We will
+      continue our defense industrial cooperation with NATO allies — this is both
+      solidarity and Korea's contribution to collective security. But I must be candid
+      with our American friends: the Korean Peninsula faces its own existential challenge.
+      North Korea's partnership with Russia makes our security environment more dangerous,
+      not less. We need clear assurances that America's commitment to Korea is unshaken.'
+      In private, more nuanced: 'We are not going to match Yoon's rhetoric on Russia and
+      China. But the alliance is solid. The K2s and ammunition will keep flowing.'
     key_relationships:
-      allies: ["US (alliance)", "JP (trilateral)", "AU (Quad)", "PL (defense industry)", "NATO AP4"]
-      rivals: ["KP (existential threat)", "CN (pressure)", "RU (through DPRK)"]
+      allies: ["US (alliance, tone shift)", "JP (trilateral, cautious)", "AU (Quad)", "PL (defense industry)", "NATO AP4"]
+      rivals: ["KP (existential threat)", "CN (cautious engagement)", "RU (through DPRK)"]
 
   - name: "Ministry of National Defense & Joint Chiefs of Staff"
     role: "military_realist"

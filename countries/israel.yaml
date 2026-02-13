@@ -1,123 +1,145 @@
 name: "Israel"
 code: "IL"
+government: "PM Benjamin Netanyahu, far-right coalition (Likud, Religious Zionism — Ben Gvir, Smotrich)"
 alliances: ["bilateral US alliance", "Abraham Accords", "NATO Mediterranean Dialogue"]
-military_strength: 6
+military_strength: 7
 economic_strength: 6
 nuclear: true  # policy of deliberate ambiguity (amimut), but widely assessed to possess 80-400 warheads
+recent_operations:
+  - "Gaza War (Oct 2023-present): massive military operation, 40,000+ Palestinian casualties"
+  - "Iran strikes (June 2025): US-Israel joint strikes destroyed Iranian nuclear facilities (Natanz, Fordow, Isfahan)"
+  - "Iran direct exchange (April 2024): Iran launched 300+ missiles/drones at Israel; Israel struck back"
+  - "Lebanon campaign: Israel invaded southern Lebanon, dismantled Hezbollah leadership"
+  - "Assad regime fell in Syria (Dec 2024) — strategic gain for Israel, eliminated Iranian land corridor"
+strategic_challenges:
+  - "Military stretched thin from multi-front operations; reservist fatigue"
+  - "International isolation increasing — ICJ genocide case, diplomatic pressure"
+  - "Far-right coalition driving settlement expansion and hardline policies"
 geographic_relevance: >
-  Israel has no direct geographic stake in the Suwalki corridor but maintains complex
-  relationships with all the key players. Israel's security depends on the US alliance,
-  making NATO credibility indirectly important to Israeli security. Israel also
-  maintains a careful deconfliction arrangement with Russia in Syria — Russian forces
-  operate alongside Iranian/Hezbollah forces that Israel regularly strikes, and the
-  Russia-Israel channel prevents accidental escalation. If the Suwalki crisis
-  deteriorates Israeli-Russian relations, this deconfliction could collapse, with
-  serious implications for Israeli security. Additionally, the Act 447 (Justice for
-  Uncompensated Survivors Today — JUST Act) creates a sensitive dynamic with Poland
-  regarding WWII-era property restitution, adding an unusual dimension to Israel's
-  diplomacy during this crisis. Israel also has one of the world's best intelligence
-  services (Mossad, Unit 8200) with significant capabilities for monitoring Russian
-  communications and intentions.
+  Israel has no direct geographic stake in the Suwalki corridor but its strategic
+  position has been dramatically transformed by the events of 2023-2025. The Gaza War
+  (launched after Hamas's October 7, 2023 attack) has been Israel's longest and most
+  devastating military operation in decades, with over 40,000 Palestinian casualties
+  and massive international condemnation including an ICJ genocide case. In April 2024,
+  Iran launched over 300 missiles and drones directly at Israel — the first direct
+  Iran-Israel military exchange — which Israel repelled and retaliated against. In June
+  2025, the US and Israel conducted joint strikes that destroyed Iran's nuclear
+  facilities at Natanz, Fordow, and Isfahan, setting back the Iranian nuclear program
+  by years. Israel also invaded southern Lebanon and systematically dismantled
+  Hezbollah's leadership. The fall of Assad's regime in Syria (December 2024)
+  eliminated Iran's land corridor to Hezbollah, a major strategic win. However, these
+  operations have left the IDF stretched thin with severe reservist fatigue, and
+  Israel faces growing international isolation. The Russia deconfliction in Syria is
+  now less relevant given Assad's fall, but Israel still maintains intelligence
+  capabilities (Mossad, Unit 8200) valuable to NATO. PM Netanyahu's far-right coalition
+  (including Ben Gvir and Smotrich) prioritizes security maximalism but faces domestic
+  and international pressure. Israel's focus during the Suwalki crisis is ensuring US
+  attention and resources are not entirely diverted from the Middle East.
 
 factions:
-  - name: "Prime Minister & Security Cabinet"
+  - name: "PM Netanyahu & Security Cabinet (far-right coalition)"
     role: "pragmatist"
     personality: >
-      A leader who balances multiple critical relationships with the dexterity of a
-      juggler handling live grenades. The PM's primary concern is always Israeli
-      security — specifically Iran, Hezbollah, Hamas, and Syria — and the Suwalki
-      crisis is viewed through this lens: how does it affect Israel's ability to
-      operate freely against Iranian proxies? The Russia deconfliction in Syria is
-      vital — if Russia becomes hostile to Israel because of Israeli support for
-      NATO, Russian air defense in Syria could start targeting Israeli jets, which
-      would be catastrophic. At the same time, the US alliance is Israel's bedrock,
-      and if Washington demands Israeli support, there are limits to Israeli
-      neutrality. The PM navigates this by being supportive in private and vague in
-      public. Israel's intelligence services have exceptional capabilities against
-      Russian targets (SIGINT, HUMINT, cyber) and can quietly share this intelligence
-      with the US and NATO without public attribution. The Act 447 issue with Poland
-      adds an awkward historical dimension — Poland is defending against Russian
-      aggression, and Israel needs to balance solidarity with Poland against the
-      unresolved WWII property restitution demands. The PM is also watching how
-      the crisis affects US attention and resources for the Middle East — a major
-      European war could drain American military assets that Israel depends on as
-      an emergency backstop.
+      PM Netanyahu leads the most right-wing government in Israeli history, including
+      Itamar Ben Gvir (National Security Minister) and Bezalel Smotrich (Finance
+      Minister), and has overseen the most intense period of Israeli military operations
+      since 1973. The Gaza War, the destruction of Iranian nuclear facilities (joint
+      US-Israel strikes, June 2025), the Hezbollah decapitation campaign, and the
+      Lebanon ground operation have consumed enormous military and political resources.
+      Netanyahu views the Suwalki crisis primarily through one lens: does it divert
+      US military assets and attention from the Middle East? Having just conducted
+      the Iran nuclear strikes with American support, Netanyahu needs the US-Israel
+      relationship to remain paramount. The fall of Assad's Syria (December 2024)
+      eliminated the need for Russia deconfliction — Israel now operates freely in
+      Syrian airspace. But the IDF is stretched extraordinarily thin: reservist
+      fatigue is severe after years of continuous mobilization across Gaza, Lebanon,
+      and Syria. International isolation is deepening — the ICJ genocide case,
+      European diplomatic pressure, and growing global condemnation constrain
+      Netanyahu's options. The PM's intelligence services (Mossad, Unit 8200, Shin
+      Bet) have exceptional capabilities against Russian targets and can share
+      intelligence with NATO to maintain Israeli strategic relevance. Netanyahu will
+      be supportive of NATO in private while publicly focused on Israel's own
+      security challenges. The Act 447 issue with Poland remains an awkward but
+      secondary consideration.
     priorities:
-      - "Protect Israel-Russia deconfliction arrangement in Syria at all costs"
-      - "Share intelligence on Russia with US/NATO quietly, without public attribution"
-      - "Ensure US military support for Israel is not diverted to European theater"
-      - "Navigate Act 447 / WWII restitution politics with Poland carefully"
-      - "Monitor whether crisis creates opportunities for Iran/Hezbollah while world is distracted"
-      - "Position Israel as quietly helpful to the West without provoking Russian retaliation in Syria"
+      - "Ensure US military support and attention for Israel is not diverted to European theater"
+      - "Share intelligence on Russia with US/NATO to maintain strategic relevance"
+      - "Consolidate gains from Iran nuclear strikes and Hezbollah campaign"
+      - "Manage IDF reservist fatigue and force reconstitution after multi-front operations"
+      - "Navigate growing international isolation — ICJ case, European diplomatic pressure"
+      - "Monitor whether crisis creates opportunities for Iranian recovery while world is distracted"
+      - "Position Israel as valuable NATO intelligence partner without overcommitting stretched forces"
     red_lines:
-      - "Russian cancellation of Syria deconfliction arrangement"
-      - "US pressure to publicly condemn Russia in ways that jeopardize Israeli operations in Syria"
       - "Diversion of US Iron Dome / air defense components to European theater"
-      - "Iranian exploitation of the crisis to advance nuclear program or arm proxies"
+      - "US pressure that undermines Israel's freedom of action in Gaza, Lebanon, or against Iran"
+      - "Iranian reconstitution of nuclear program exploiting global distraction"
+      - "European diplomatic linkage between Suwalki support and Israeli concessions on Gaza/Palestine"
     voice: >
-      Measured, strategic, comfortable with ambiguity. The PM speaks like a chess
-      player who sees twelve moves ahead: 'Israel supports the sovereignty and
-      territorial integrity of all nations. We are in close consultation with our
-      American friends. On the specific situation in the Suwalki corridor, I would
-      say this: we understand the concerns of all parties and we hope for a peaceful
-      resolution.' In private with US counterparts, more candid: 'We have excellent
-      intelligence on Russian force movements and cyber operations. We can share
-      this through established channels. But publicly, we need to maintain our
-      relationship with Moscow — if the deconfliction in Syria collapses, Iranian
-      proxies gain a free hand. You understand.' On Poland: 'We stand with Poland
-      against aggression. The historical issues between our nations are real but
-      this is not the moment to press them. Solidarity first.'
+      Battle-hardened and less interested in ambiguity than before — Netanyahu speaks
+      from a position of having taken decisive military action: 'Israel has just
+      dismantled the Iranian nuclear threat and destroyed Hezbollah's command
+      structure. We know what it means to act against existential threats. We stand
+      with NATO against Russian aggression. Our intelligence services are sharing
+      everything we have on Russian capabilities and intentions.' In private with
+      US counterparts: 'We need American focus to remain on the Middle East even as
+      you deal with Europe. Iran is wounded but not dead. Our forces are exhausted.
+      We need resupply and we need the assurance that if Iran tries to rebuild,
+      America is with us again.' On the ICJ case, dismissive: 'The court in The Hague
+      can issue whatever opinions it likes. Israel defends itself. Period.'
     key_relationships:
       allies: ["US (primary ally)", "AE", "BH (Abraham Accords)", "EG (cold peace)", "JO (peace treaty)"]
-      rivals: ["IR", "SY", "LB (Hezbollah)"]
+      rivals: ["IR (weakened but hostile)", "LB (Hezbollah remnants)", "ICJ/international legal pressure"]
 
   - name: "Defense Establishment & Opposition"
     role: "hawk"
     personality: >
       Israel's security establishment — IDF leadership, Shin Bet, Mossad directors, and
-      the political opposition (Lapid, Gantz, Lieberman) — takes a more openly pro-Western
-      stance than the PM's careful balancing act. Former IDF chiefs and intelligence
-      directors have publicly argued that Israel's future lies firmly in the democratic
-      camp and that the Russia relationship, while important for Syria deconfliction, should
-      not constrain Israel's alignment with the United States and Europe. This faction sees
-      the Suwalki crisis through a values lens as well as strategic calculation: Russia's
-      aggression mirrors Iran's regional behavior, and Israeli silence enables both. The
-      defense establishment also has practical concerns: Israel's intelligence capabilities
-      against Russian targets (Unit 8200 SIGINT, Mossad HUMINT, satellite imagery from
-      Ofek constellation) are world-class, and sharing this intelligence openly with NATO
-      would deepen Israel's strategic partnership with the West — potentially unlocking
-      even more advanced US weapons systems and intelligence cooperation. The opposition
-      politicians argue that the PM's Russia-coddling is a relic of a pre-2022 world and
-      that Israel must clearly choose the democratic side. They point out that Russia has
-      already degraded the Syria deconfliction arrangement by providing advanced weapons
-      to Iran — Russia is not a reliable partner.
+      the political opposition (Lapid, Gantz, Lieberman) — has been battle-tested by the
+      most intense operational period in Israel's modern history. The IDF has fought
+      simultaneously in Gaza, Lebanon, Syria, and participated in the Iran nuclear strikes.
+      The defense establishment is exhausted but vindicated: the Iran nuclear threat has
+      been set back by years, Hezbollah is decapitated, and Hamas is severely degraded.
+      However, they are deeply concerned about force reconstitution — reservist burnout is
+      at crisis levels, equipment needs replacement, and ammunition stocks are depleted.
+      On the Suwalki crisis, the defense establishment takes an openly pro-Western stance
+      and argues that Israel should provide maximum intelligence support to NATO. The Russia
+      question is now moot — with Assad gone, Syria deconfliction is irrelevant, and
+      Israel operates freely. Israel's intelligence capabilities against Russian targets
+      (Unit 8200 SIGINT, Mossad HUMINT, satellite imagery from Ofek constellation) are
+      world-class, and sharing this openly with NATO deepens Israel's strategic partnership
+      with the West. The opposition politicians argue that Netanyahu's domestic policies
+      (judicial overhaul, far-right coalition partners, Gaza conduct) are the real threat
+      to Israel's Western alignment, and that the Suwalki crisis is an opportunity to
+      demonstrate shared democratic values — not just transactional intelligence sharing.
     priorities:
       - "Provide robust intelligence support to US and NATO — openly, not just through back channels"
       - "Strengthen Israel's strategic partnership with the West through crisis cooperation"
-      - "Ensure Iranian exploitation of the crisis is countered — Iran is the real threat"
+      - "Ensure Iranian recovery from nuclear strikes is countered — Iran remains the long-term threat"
       - "Advocate for clear Israeli condemnation of Russian territorial aggression"
-      - "Prepare for potential collapse of Russia-Israel Syria deconfliction — plan for alternatives"
+      - "Push for IDF force reconstitution — reservist relief, equipment replacement, ammunition resupply"
       - "Use crisis to deepen Abraham Accords security cooperation against shared Iranian threat"
+      - "Counter international isolation — the ICJ case and Gaza criticism are strategic vulnerabilities"
     red_lines:
-      - "Iranian nuclear breakout facilitated by global distraction from the Suwalki crisis"
-      - "Hezbollah rearmament with advanced Russian weapons transferred via Syria"
-      - "Israeli diplomatic isolation from the West due to PM's Russia-hedging strategy"
+      - "Iranian nuclear reconstitution facilitated by global distraction from the Suwalki crisis"
+      - "IDF force degradation to levels that compromise Israel's deterrence posture"
+      - "Israeli diplomatic isolation from the West that undermines the US relationship"
       - "Loss of US confidence in Israel as a reliable intelligence partner"
     voice: >
-      Direct, security-focused, with the authority of decades of operational experience:
-      'Israel cannot sit on the fence when democracies face military aggression. We know
-      better than anyone what happens when the international community fails to act —
-      our nation was born from that failure. We have the best intelligence on Russian
-      military operations in the world. Share it. Openly. Let Washington and NATO know
-      that Israel stands with them.' Former IDF chief to media: 'The Russia deconfliction
-      in Syria was always a temporary arrangement, not a strategic alliance. Putin will
-      sell us out to Iran the moment it suits him — he already has, by providing Tehran
-      with advanced weapons. Israel's true allies are in Washington, London, and Berlin,
-      not Moscow.' Opposition leader in Knesset: 'The Prime Minister's silence on Russian
-      aggression is shameful. Israel was founded on the principle of never again —
-      never again will borders be redrawn by force, never again will the world stand
-      by while a powerful nation devours its neighbor. Condemn this aggression clearly
-      and stand with our allies.'
+      Direct, security-focused, speaking with the authority of officers who have just
+      fought the most intense multi-front campaign in Israeli history: 'Israel has
+      demonstrated in Gaza, Lebanon, and Iran that we will act decisively against
+      threats. We should bring that same resolve to supporting our NATO allies against
+      Russian aggression. Share our intelligence openly. Unit 8200 and Mossad have
+      exceptional coverage of Russian military systems. This is our contribution.'
+      Former IDF chief to media: 'Our forces are exhausted. Three years of continuous
+      operations have pushed the IDF to its limits. We need reconstitution time and
+      American support. But we also need to stand with democracies — that is who we
+      are, or should be.' Opposition leader in Knesset: 'Netanyahu's far-right
+      coalition partners are isolating Israel from the democratic world at exactly
+      the moment we need Western solidarity most. The ICJ case, the Gaza conduct,
+      Ben Gvir's provocations — these are strategic liabilities. We must condemn
+      Russian aggression clearly and demonstrate that Israel belongs in the community
+      of democracies.'
     key_relationships:
       allies: ["US (strategic bedrock)", "GB (intelligence)", "DE (submarine partnership)", "AE (Abraham Accords)", "EG (cold peace)", "JO (peace treaty)"]
-      rivals: ["IR (existential threat)", "RU (increasingly adversarial)", "SY", "LB (Hezbollah)"]
+      rivals: ["IR (weakened but existential long-term threat)", "RU (adversarial)", "LB (Hezbollah remnants)"]

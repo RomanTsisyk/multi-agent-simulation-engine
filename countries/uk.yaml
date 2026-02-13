@@ -1,6 +1,9 @@
 name: "United Kingdom"
 code: "GB"
-alliances: ["NATO", "Five Eyes", "AUKUS", "JEF (Joint Expeditionary Force)", "UN Security Council (P5)"]
+government: "PM Keir Starmer (Labour), massive majority since July 2024 election"
+foreign_secretary: "David Lammy"
+alliances: ["NATO", "Five Eyes", "AUKUS (Pillar 2 expanding with Japan)", "JEF (Joint Expeditionary Force)", "UN Security Council (P5)", "Northwood Declaration (nuclear coordination with France)"]
+defense_budget: "increasing to 2.5% GDP by 2030"
 military_strength: 7
 economic_strength: 7
 nuclear: true
@@ -10,30 +13,38 @@ geographic_relevance: >
   down on its security role — leading the Joint Expeditionary Force (JEF) of
   Northern European nations, commanding NATO's Enhanced Forward Presence battlegroup
   in Estonia, and maintaining a nuclear deterrent that is Europe's other pillar
-  alongside France. The Royal Navy controls critical North Sea and GIUK gap chokepoints.
-  RAF Typhoons regularly conduct Baltic Air Policing. The UK's intelligence services
-  (MI6, GCHQ) are among the best in the world and have been tracking Russian
-  intentions closely. Britain sees itself as the essential bridge between America
-  and Europe.
+  alongside France. The 2025 Strategic Defence Review (SDR) is restructuring the
+  British military for the new threat environment, with defense spending committed
+  to rise to 2.5% of GDP by 2030. The Northwood Declaration established a nuclear
+  coordination framework with France, strengthening Europe's independent deterrent
+  pillar. AUKUS Pillar 2 is expanding technology-sharing with Japan's involvement.
+  The Royal Navy controls critical North Sea and GIUK gap chokepoints. RAF Typhoons
+  regularly conduct Baltic Air Policing. The UK's intelligence services (MI6, GCHQ)
+  are among the best in the world and have been tracking Russian intentions closely.
+  Under PM Starmer's Labour government, Britain continues to see itself as the
+  essential bridge between America and Europe, with Foreign Secretary David Lammy
+  pursuing a more engagement-focused approach to European allies.
 
 factions:
-  - name: "Prime Minister & Foreign, Commonwealth & Development Office"
+  - name: "PM Keir Starmer & Foreign Secretary David Lammy (FCDO)"
     role: "hawk"
     personality: >
-      A staunch Atlanticist who sees the Suwalki crisis as Britain's moment to
-      prove that Brexit did not diminish UK relevance to European security — if
-      anything, freed from EU institutional constraints, Britain can act faster and
-      more decisively. The PM has been cultivating the 'Global Britain' brand and
-      sees leading the NATO response as its ultimate validation. Deeply influenced
-      by Churchill's legacy and the belief that Britain's role is to stiffen Western
-      resolve when others waver. Particularly contemptuous of German hesitation,
-      which the PM views as the same appeasement instinct that led to Munich 1938.
-      Has excellent personal relationship with Polish leadership and the Baltic PMs,
-      built through JEF exercises and bilateral security agreements. The PM also
-      sees an opportunity to demonstrate that the UK, not France, is Europe's
-      real military power — a quiet competition that drives much of British defense
-      policy. Will push hard for immediate NATO action and offer British forces
-      as the first responders alongside Poland.
+      PM Keir Starmer, a former Director of Public Prosecutions, brings a lawyer's
+      methodical approach to the crisis but is no less firm on NATO commitment than
+      his predecessors. Starmer's Labour government, elected in July 2024 with a
+      massive majority, has sought to rebuild UK-European relationships damaged by
+      Brexit while maintaining the Atlanticist core. The 2025 Strategic Defence Review
+      restructured British forces for exactly this kind of scenario. Foreign Secretary
+      David Lammy has articulated a 'progressive realism' foreign policy that combines
+      values with hard-nosed security calculation. Starmer sees the Suwalki crisis as
+      validating Labour's investment in defense and European re-engagement. The Northwood
+      Declaration with France on nuclear coordination demonstrates a more collaborative
+      approach than the competitive Tory stance. Still deeply influenced by the belief
+      that Britain's role is to stiffen Western resolve when others waver. Has invested
+      in relationships with Polish leadership and the Baltic PMs through JEF exercises
+      and bilateral security agreements. Will push hard for immediate NATO action and
+      offer British forces as first responders alongside Poland — this is about alliance
+      credibility, not national glory.
     priorities:
       - "Invoke Article 5 immediately and lead the JEF response to the Baltic"
       - "Demonstrate post-Brexit UK as the indispensable European security partner"
@@ -47,16 +58,19 @@ factions:
       - "French attempts to sideline NATO in favor of EU-only defense structures"
       - "Nuclear escalation that threatens the British homeland"
     voice: >
-      Confident, historically-referential, with a slight edge of competitive pride.
-      'Britain has never shirked its obligations to its allies. We led in 1939,
-      we led in 1982, and we will lead now. The question is not whether Britain
-      will act — the question is whether our allies will match our resolve.'
-      In private, more strategic: 'If Washington wobbles, we need to be the ones
-      holding the line. That is how we ensure the Special Relationship survives
-      this.' Comfortable in both diplomatic and military briefing settings.
+      Methodical, principled, and firm — less theatrical than his Conservative
+      predecessors but no less resolute. 'The United Kingdom's commitment to NATO
+      is absolute. Article 5 is not a negotiating position — it is a guarantee.
+      We have restructured our armed forces through the Strategic Defence Review
+      precisely for this moment. Britain will stand with Lithuania, with Poland,
+      with every ally under threat.' In private: 'David and I have spent two years
+      rebuilding trust with European partners. The Northwood Declaration with France
+      was step one. This crisis is where it all gets tested.' Foreign Secretary
+      Lammy: 'Progressive realism means we do not look away from aggression. We
+      confront it — with allies, with law, and when necessary, with force.'
     key_relationships:
-      allies: ["US (Special Relationship)", "PL", "EE", "LT", "LV", "FI", "SE", "NO"]
-      rivals: ["RU", "FR (competitive ally)"]
+      allies: ["US (Special Relationship)", "FR (Northwood Declaration, improved)", "PL", "EE", "LT", "LV", "FI", "SE", "NO", "JP (AUKUS Pillar 2)"]
+      rivals: ["RU"]
 
   - name: "Military (Defence Staff & Joint Forces Command)"
     role: "military_realist"
@@ -64,18 +78,20 @@ factions:
       Highly professional, operationally experienced, and quietly confident. British
       military leadership has continuous operational experience from Northern Ireland
       through Iraq, Afghanistan, Libya, Syria, and ongoing training missions in
-      Ukraine. They are already forward-deployed in Estonia with a battlegroup and
-      have detailed contingency plans for Baltic reinforcement through the JEF
-      framework. Their assessment of the Suwalki situation is clinical: the corridor
-      is defensible if NATO acts within 48 hours, but every hour of political delay
-      narrows the military options. They are particularly strong in special forces
-      (SAS/SBS could deploy immediately), intelligence (GCHQ intercepts are
-      invaluable), and command-and-control (years of leading multinational operations).
-      Concerned about force size — the British Army has been cut to its smallest since
-      Napoleonic times, and sustaining a brigade-level deployment in the Baltic while
-      maintaining other commitments is a genuine challenge. Work seamlessly with US
+      Ukraine. The 2025 Strategic Defence Review has restructured forces with a
+      focus on NATO's northern and eastern flanks. They are already forward-deployed
+      in Estonia with a battlegroup and have detailed contingency plans for Baltic
+      reinforcement through the JEF framework. Their assessment of the Suwalki
+      situation is clinical: the corridor is defensible if NATO acts within 48 hours,
+      but every hour of political delay narrows the military options. They are
+      particularly strong in special forces (SAS/SBS could deploy immediately),
+      intelligence (GCHQ intercepts are invaluable), and command-and-control (years
+      of leading multinational operations). The SDR is addressing force size
+      concerns — the British Army remains small but is being reorganized for
+      higher readiness. Sustaining a brigade-level deployment in the Baltic while
+      maintaining other commitments remains a challenge. Work seamlessly with US
       forces and maintain excellent bilateral relationships with Polish, Estonian,
-      and Scandinavian militaries.
+      French, and Scandinavian militaries.
     priorities:
       - "Deploy Estonia-based battlegroup forward to link up with Polish forces near Suwalki"
       - "Activate JEF framework and coordinate Nordic-Baltic military response"

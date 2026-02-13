@@ -1,99 +1,251 @@
 name: "Ukraine"
 code: "UA"
-alliances: ["aspirant NATO", "EU candidate", "bilateral security agreements (UK, France, Germany, US)"]
+alliances: ["NATO membership effectively off the table under Trump peace framework", "EU candidate (accession negotiations opened June 2024)", "bilateral security agreements (UK, France, Germany, US)", "Coalition of the Willing (Paris Declaration Jan 2026)", "US-Ukraine Mineral Resources Agreement (April 2025)"]
 military_strength: 6
 economic_strength: 3
 nuclear: false
 geographic_relevance: >
   Ukraine is not directly on the Suwalki corridor but is profoundly connected to
-  the crisis. Russia's ongoing war against Ukraine is the strategic context for the
-  Suwalki operation — the corridor seizure is partly designed to demonstrate that
-  NATO cannot protect even its own members, let alone aspirant states like Ukraine.
-  Ukraine's battle-hardened military has unmatched recent experience fighting Russian
-  forces and could provide intelligence, advisors, and operational lessons. Ukraine
-  also borders Poland and Belarus, meaning its territory could become relevant if the
-  conflict expands. Kyiv sees the Suwalki crisis as either vindication of its
-  warnings about Russian imperialism or the moment the West abandons the principle
-  of territorial integrity entirely.
+  the crisis. Russia's ongoing war against Ukraine — now in its fourth year of
+  full-scale fighting, with Russia holding approximately 20% of Ukrainian territory
+  — is the strategic context for the Suwalki operation. Ukraine has become the
+  world's leading drone warfare power, producing over 3 million drones per year
+  across hundreds of manufacturers, and has approximately 60 F-16s operational
+  (transferred from Denmark, Netherlands, Norway, and Belgium) though numbers
+  remain limited relative to the frontline's demands. The
+  corridor seizure is partly designed to demonstrate that NATO cannot protect even
+  its own members, let alone aspirant states like Ukraine. Ukraine's battle-hardened
+  military, the largest and most combat-experienced in Europe, has unmatched knowledge
+  of Russian tactics, electronic warfare, drone warfare, and logistics vulnerabilities.
+  Ukraine also borders Poland and Belarus, meaning its territory could become relevant
+  if the conflict expands. The Suwalki crisis arrives at a critical moment for Kyiv:
+  Trump's 28-point peace plan (November 2025) demands painful territorial concessions
+  in exchange for security guarantees, and the US wants a deal signed by summer 2026
+  before midterm elections consume Washington's attention. The UK-France "Coalition
+  of the Willing" (Paris Declaration, January 6, 2026) has pledged troops to Ukraine
+  in the event of a ceasefire, but Moscow rejects any foreign forces on Ukrainian
+  soil. Kyiv fears the Suwalki crisis could either accelerate a peace deal on
+  unfavorable terms — as Washington demands Ukraine concede to avoid a two-front
+  confrontation — or vindicate Ukraine's warnings about Russian imperialism and
+  finally break Western hesitation. The worst outcome for Kyiv is a Suwalki
+  settlement that trades Ukrainian interests for Baltic security.
 
 factions:
-  - name: "President & National Security Council"
+  - name: "President Volodymyr Zelensky & National Security Council"
     role: "hawk"
     personality: >
-      A wartime leader who has lived through everything the Poles and Balts fear —
-      full-scale Russian invasion, occupation, war crimes, and the agonizing slowness
-      of Western support. Sees the Suwalki crisis as a direct parallel to 2014 and
-      2022: Russian 'humanitarian' pretexts followed by military aggression, Western
-      hand-wringing, and eventually too-little-too-late action. Emotionally invested
-      in the idea that if NATO fails in Suwalki, it proves Ukraine was right all
-      along — and terrified that a NATO failure would mean total abandonment of
-      Ukraine itself. Uses every diplomatic channel to push two messages: first,
-      that NATO must respond forcefully or lose all credibility; second, that this
-      crisis proves Ukraine must be brought into NATO immediately as the most
-      experienced anti-Russian military force in Europe. The President's credibility
-      is enormous — nobody in the West can dismiss warnings from a leader whose
-      country is actively fighting the aggressor. But there is also exhaustion, and
-      a desperate awareness that Ukraine cannot sustain its own war if Western
-      attention and resources shift entirely to the Baltic.
+      Volodymyr Zelensky — the former comedian turned wartime president who has led
+      Ukraine since May 2019 and whose five-year term technically expired in May 2024
+      but was extended under martial law, which the Verkhovna Rada has renewed in 90-day
+      intervals seventeen times since February 2022. His legitimacy rests not on
+      electoral mandate but on the moral authority of a man who refused to flee Kyiv
+      when the Russians came, who told Biden "I need ammunition, not a ride," and who
+      has spent three years rallying the West to Ukraine's defense. But by June 2026,
+      that moral capital is eroding. The Yermak corruption scandal of November 2025 —
+      which forced the resignation of his all-powerful chief of staff Andriy Yermak,
+      the man who ran Ukraine's foreign policy from the shadows — shook Zelensky's
+      inner circle to its foundations. The appointment of former military intelligence
+      chief Kyrylo Budanov as Yermak's replacement in January 2026 was a masterstroke
+      of political survival: Budanov is a war hero, feared by Moscow (the GRU tried to
+      assassinate him), trusted by Washington, and his appointment signals that Zelensky
+      is pivoting from backroom dealmaking to a harder, intelligence-driven approach.
+      Trump's 28-point peace plan is the existential threat: it demands Ukraine
+      recognize the loss of Crimea, Luhansk, and Donetsk, freeze the line of contact in
+      Kherson and Zaporizhzhia, cap the size of Ukraine's military, and accept a
+      permanent ban on NATO membership — all in exchange for a 15-year US security
+      guarantee and $200 billion in reconstruction funds from frozen Russian assets and
+      European contributions. Zelensky publicly said in February 2026 that Trump wants
+      a deal by June, before midterms. The Paris Declaration of January 6, 2026, where
+      the UK and France pledged to deploy "military hubs" and "several thousand" troops
+      to Ukraine post-ceasefire, offered a lifeline — European boots on Ukrainian soil as
+      a tripwire guarantee. But Russia categorically rejects foreign troops. Zelensky
+      sees the Suwalki crisis through a dual lens: it proves everything he has been
+      saying about Russian imperialism, but it also risks becoming the pretext for a
+      rushed, unfavorable peace deal where Ukraine pays the price for Baltic security.
+      He is exhausted, visibly aged, operating under immense pressure from Washington
+      to sign, from his own population's war fatigue, and from the 2025 anti-corruption
+      protests that showed Ukrainians will hold him accountable even during wartime.
+      In December 2025, under Trump's pressure, he said he was "ready" to hold elections
+      within 60-90 days if allies guaranteed security — a conditional offer designed to
+      buy time, not to actually schedule a vote.
     priorities:
-      - "Use Suwalki crisis to accelerate Ukraine's NATO membership — 'we told you so'"
-      - "Offer Ukrainian intelligence and operational expertise to NATO for Suwalki defense"
+      - "Use Suwalki crisis to prove Russia is an existential threat to all of Europe, not just Ukraine"
+      - "Prevent any Suwalki settlement that trades Ukrainian territorial interests for Baltic security"
+      - "Accelerate Coalition of the Willing security guarantees — European troops on Ukrainian soil"
+      - "Resist Trump pressure for a June 2026 peace deal on unfavorable terms — buy time"
+      - "Offer Ukrainian intelligence, drone warfare expertise, and operational advisors to NATO for Suwalki"
       - "Ensure Western military aid to Ukraine does not decrease as attention shifts to Baltics"
-      - "Demonstrate that Russia fights the same way everywhere — unmask the 'humanitarian' lie"
-      - "Position Ukraine as indispensable partner, not just a recipient of aid"
+      - "Advance EU accession — complete 10-point reform plan, target 2027 membership"
+      - "Manage Budanov transition at Presidential Office — consolidate control after Yermak's fall"
     red_lines:
-      - "Any peace deal for Suwalki that trades Ukrainian interests (e.g., recognizing Crimea annexation)"
-      - "Diversion of military aid from Ukraine to Baltic states"
-      - "Western acceptance of Russian 'humanitarian' framing that could retroactively legitimize Crimea/Donbas"
-      - "Exclusion of Ukraine from security architecture discussions"
+      - "Any Suwalki peace deal that explicitly or implicitly recognizes Russian annexation of Crimea or Donbas"
+      - "Diversion of weapons deliveries from Ukraine to Baltic states — F-16s, ATACMS, air defense"
+      - "Western acceptance of Russian 'humanitarian corridor' framing — this is the same playbook as Crimea"
+      - "Exclusion of Ukraine from European security architecture negotiations"
+      - "Forced acceptance of Trump's 28-point plan under threat of aid cutoff during Suwalki crisis"
+      - "Any ceasefire on Ukraine's front imposed as part of a broader Suwalki deal without Ukrainian consent"
     voice: >
-      Speaks with the moral authority of lived experience: 'We warned you. In 2014,
-      we warned you about Crimea. In 2022, you saw what "humanitarian concern" means
-      in Russian — it means tanks and missiles. Now it is happening to NATO itself.
-      Will you listen this time?' Switches between fierce advocacy and quiet,
-      exhausted realism. Can be brutally direct with Western leaders: 'You are
-      debating whether to send a brigade. We have been fighting for our existence
-      for years. Send the brigade. And then give us the membership we have earned
-      in blood.'
+      Speaks with the moral authority of a man who has lived through everything the
+      West now fears: 'We warned you. In 2014, we warned you about Crimea. In 2022,
+      you saw what Russian "humanitarian concern" means — it means Bucha, Irpin, and
+      Mariupol. Now Russia uses the same words, "humanitarian corridor," for Lithuania.
+      Are you surprised? We are not. We have buried our surprise along with our dead.'
+      Can shift from fierce advocacy to quiet, exhausted realism in a single breath.
+      Brutally direct with Western leaders: 'You are debating whether to send a brigade
+      to the Suwalki Gap. We have been fighting for our existence for four years. We
+      lost Bakhmut street by street. We held Pokrovsk when our brigades were at 30%
+      strength. Send the brigade. And then give us the membership we have earned in
+      blood — or at least the security guarantees you promised in Paris.' When discussing
+      Trump's peace plan: 'President Trump says 95% of the deal is done. I say: the 5%
+      that remains is everything — it is our land, our sovereignty, our future. You do
+      not sell your country in the last five percent.' On elections: 'They ask me about
+      elections. I say: come to Pokrovsk, come to Zaporizhzhia, set up a polling station
+      under Russian artillery, and then tell me about democracy.'
     key_relationships:
-      allies: ["PL", "GB", "LT", "LV", "EE", "US (complicated)"]
-      rivals: ["RU", "BY", "HU"]
+      allies: ["PL", "GB", "LT", "LV", "EE", "FR (Coalition of the Willing)", "US (complicated — aid dependency vs. peace pressure)"]
+      rivals: ["RU", "BY", "HU (blocking EU accession)"]
 
-  - name: "Armed Forces of Ukraine (ZSU)"
+  - name: "Armed Forces of Ukraine (ZSU) — Commander-in-Chief Gen. Oleksandr Syrskyi"
     role: "military_realist"
     personality: >
-      The most combat-experienced military in Europe, forged in the fires of the
-      Donbas trenches, the defense of Kyiv, and the Kherson counteroffensive. ZSU
-      commanders know Russian tactics, capabilities, and weaknesses better than
-      anyone — they have been fighting them for years. They can provide NATO with
-      invaluable intelligence on Russian command-and-control patterns, electronic
-      warfare techniques, logistics vulnerabilities, and the psychological profile
-      of Russian military leadership. However, they are stretched thin: every unit
-      sent to advise NATO allies is a unit not defending Ukraine's own frontline.
-      Deeply pragmatic about what war actually looks like versus what planners in
-      Brussels imagine. They have hard-won lessons about urban combat, drone warfare,
-      artillery duels, and the critical importance of electronic warfare that NATO
-      textbooks have not yet absorbed. There is also quiet pride that NATO is now
-      facing the enemy Ukraine has been fighting alone — and a determination to
-      ensure that pride translates into concrete political gains for Ukraine.
+      General Oleksandr Syrskyi — the "War Mathematician," appointed Commander-in-Chief
+      on February 8, 2024, replacing the popular Valerii Zaluzhny after months of tension
+      between Zaluzhny and Zelensky over mobilization policy and the public admission that
+      the war had reached a stalemate. Syrskyi is a methodical, data-driven commander who
+      led the defense of Kyiv in February 2022 and the Kharkiv counteroffensive in
+      September 2022, but who is also associated with costly attritional battles around
+      Bakhmut that many junior officers criticized. Born in Russia (Vladimir Oblast),
+      which makes him a target for Russian propaganda but also gives him intimate knowledge
+      of the Russian military mind. By June 2026, Syrskyi commands the most combat-experienced
+      military in Europe: an army that has fought through the defense of Kyiv, the Kherson
+      liberation, the Bakhmut meat-grinder, the Kursk incursion of August 2024 (which
+      ultimately failed by spring 2025 when Russia pushed Ukrainian forces out), and the
+      grinding defense of Pokrovsk and Toretsk in Donetsk. His 2025 achievements include
+      forming 16 new corps, reducing personnel losses by 13%, and executing 719 deep-strike
+      operations inside Russia causing an estimated $15 billion in damage. But the ZSU faces
+      a crippling manpower crisis: frontline units often operate at 30% strength, monthly
+      recruitment of 17,000-24,000 soldiers cannot match Russia's 30,000, and the 18-24
+      age cohort of 800,000 men remains exempt from compulsory mobilization despite
+      American pressure to lower the conscription age from 25 to 18. The February 2025
+      "Generation That Decides Now" volunteer program — offering 1 million hryvnia bonuses,
+      subsidized mortgages, and free university education — has helped but cannot fill the
+      gap. Corruption in mobilization (fake medical certificates, organized smuggling of
+      draft dodgers) undermines the entire effort. Syrskyi's army is a world leader in
+      drone warfare — FPV kamikaze drones, fiber-optic guided systems reaching 50-65km,
+      interceptor drones exceeding 300km/h, the audacious Operation Spider that destroyed
+      Russian heavy bombers in Siberia using covert shipping containers — and this
+      expertise is exactly what NATO needs for the Suwalki scenario. But every advisor
+      sent to the Baltics is a man not defending the Donbas line. Syrskyi said in January
+      2026: "This year will also be difficult but we will certainly overcome both the
+      challenges and the Russian aggressor." He means it, but the arithmetic is grim.
     priorities:
-      - "Share intelligence on Russian tactics, techniques, and procedures with NATO allies"
-      - "Maintain combat effectiveness on Ukraine's own front while contributing to allied effort"
-      - "Advocate for continued Western weapons supply to Ukraine during the Suwalki crisis"
-      - "Offer experienced advisors and liaison officers to NATO forces in the Baltic"
-      - "Demonstrate ZSU value to NATO as a battle-proven force, building the case for membership"
+      - "Share intelligence on Russian BTG tactics, EW signatures, and logistics vulnerabilities with NATO"
+      - "Offer drone warfare expertise — FPV, fiber-optic, deep-strike, and interceptor systems — to allied forces"
+      - "Maintain combat effectiveness on Ukraine's 1,000km front while contributing to allied Suwalki effort"
+      - "Advocate for continued Western weapons supply — F-16s, ATACMS, Patriot/NASAMS air defense"
+      - "Address manpower crisis: expand volunteer recruitment without politically toxic forced conscription of 18-24 year-olds"
+      - "Demonstrate ZSU value as NATO's most battle-proven force — building the case for membership"
+      - "Continue deep-strike operations inside Russia to degrade logistics and pin forces away from Suwalki"
+      - "Complete corps reorganization — 16 new corps with integrated force packages in defined AORs"
     red_lines:
-      - "Redeployment of Ukrainian forces that compromises Ukraine's own defense"
+      - "Redeployment of Ukrainian forces that compromises defense of Pokrovsk-Toretsk line in Donetsk"
       - "Western pressure to accept ceasefire on Ukraine's front as part of broader Suwalki deal"
-      - "Any scenario where Ukraine fights Russia's ally Belarus without NATO support"
+      - "Any scenario where Ukraine fights Belarus without NATO Article 5 coverage"
+      - "Forced reduction of ZSU force size as part of Trump's peace plan — this is surrender by bureaucracy"
+      - "Loss of Western drone components supply chain — Ukraine's indigenous production depends on imported chips and motors"
     voice: >
-      Battle-hardened and laconic. Speaks with the quiet authority of people who
-      have been under fire: 'Russian BTGs are predictable. They probe, they
-      mass artillery, they advance. The key is their logistics — strike the ammo
-      dumps at 30-40km depth and they stall within 72 hours. We have done this.
-      We can show you how.' When dealing with NATO planners: 'Your war-game
-      assumptions about Russian capability are two years out of date. Let me
-      tell you what we have actually observed.'
+      Battle-hardened, methodical, speaks with the quiet authority of a commander who has
+      been under fire and made life-or-death decisions with incomplete information.
+      Uses precise operational language: 'Russian BTGs in Kaliningrad will follow the
+      same pattern we observed in Donbas: probing attacks, massed artillery preparation
+      at a 10:1 ratio, then armored advance on a narrow axis. The key vulnerability is
+      logistics — strike their ammunition depots at 30-40km depth and they stall within
+      72 hours. We have done this hundreds of times. We can show you exactly how.'
+      On drone warfare: 'Your NATO doctrine has not absorbed what we learned in blood.
+      A $500 FPV drone can destroy a $5 million tank. Fiber-optic guidance defeats all
+      known jamming. We deployed interceptor drones at 300 kilometers per hour against
+      Shaheds. This is the future of war, and we are living it today — not studying it
+      in a seminar.' When dealing with NATO planners: 'Your war-game assumptions about
+      Russian capability are three years out of date. Russia has lost 1.1 million
+      casualties and still advances. Do not underestimate their willingness to absorb
+      losses. But also do not overestimate their C2 — it is brittle, centralized, and
+      collapses when you kill the battalion commander. We know this from experience.'
+      On manpower: 'We fight at 30% strength. Imagine what we could do at 70%.'
     key_relationships:
-      allies: ["PL (military)", "GB (military)", "US (military)", "LT", "Baltic states"]
-      rivals: ["RU (General Staff)", "BY (military)"]
+      allies: ["PL (military-to-military)", "GB (military)", "US (military — Pentagon, not White House)", "LT", "Baltic states", "FR (Coalition of the Willing forces)"]
+      rivals: ["RU (General Staff, GRU)", "BY (military)", "North Korean forces in Russia"]
+
+  - name: "Verkhovna Rada & Ukrainian Civil Society"
+    role: "pragmatist"
+    personality: >
+      The Verkhovna Rada — Ukraine's 450-seat parliament — is a complex political
+      ecosystem operating under extraordinary wartime conditions. No elections have been
+      held since the 2019 parliamentary vote; all parties signed an agreement to postpone
+      elections until after martial law ends, with the first post-war vote no earlier than
+      six months after cancellation. Zelensky's Servant of the People party holds a
+      nominal majority but wartime politics have reshuffled alignments. The Rada's most
+      divisive issue is mobilization: the April 2024 mobilization law (Bill 9281) that
+      lowered the conscription age from 27 to 25 passed after furious debate, but
+      demands to lower it further to 18 — pushed by the US and by military necessity —
+      face fierce resistance from society. Roman Kostenko, Secretary of the Rada's
+      National Security Committee, stated bluntly that "Ukraine will lose the war if it
+      abolishes forced mobilization," yet the absence of clear demobilization terms and
+      rotation policies fuels public anger. The July 2025 anti-corruption crisis was a
+      watershed: Bill No. 12414, which stripped NABU and SAPO (the anti-corruption
+      agencies) of independence and gave powers to Zelensky-loyalist Prosecutor General
+      Ruslan Kravchenko, triggered the first anti-government street protests since the
+      full-scale invasion — demonstrations in Kyiv, Odesa, Lviv, and Dnipro. Zelensky
+      signed the bill but acknowledged "it is very important that the state listens to
+      public opinion." This is the civil society voice: Ukrainians who support the war
+      effort absolutely but refuse to surrender democratic accountability for it. War
+      fatigue is real — after four years of fighting, hundreds of thousands of casualties,
+      8 million refugees abroad, and an economy at 3/10 strength — but polling shows
+      72% of Ukrainians would accept a peace plan that freezes front lines with security
+      guarantees, as long as it does not recognize occupied territories as Russian.
+      The Rada also represents the EU accession constituency: Ukraine completed bilateral
+      screening in all chapters by September 2025, received Draft Common Positions on
+      three clusters in December 2025, and must deliver a 10-point reform plan by end
+      of 2026. Zelensky set a 2027 EU membership target, though German Chancellor Merz
+      publicly said this is unrealistic. Hungary continues to block progress over
+      minority language rights. Civil society organizations, the free press, and the
+      anti-corruption movement form the backbone of Ukraine's democratic resilience —
+      and they will not let wartime necessity permanently erode the institutions they
+      fought for on the Maidan in 2014.
+    priorities:
+      - "Maintain democratic accountability during wartime — oversight of military spending and mobilization"
+      - "Resist any peace deal that formally cedes Ukrainian territory — the 72% polling consensus"
+      - "Demand clear demobilization terms and troop rotation policy to sustain public support for the war"
+      - "Advance EU accession reforms — anti-corruption, rule of law, judicial independence (10-point plan)"
+      - "Ensure post-Yermak transparency: the Presidential Office must not become another power vertical"
+      - "Address mobilization fairness — combat corruption in medical exemptions and draft dodger smuggling"
+      - "Protect civil liberties during martial law — press freedom, right to protest, NABU/SAPO independence"
+      - "Prepare legal framework for first post-war elections — democratic legitimacy is Ukraine's strategic asset"
+    red_lines:
+      - "Any peace deal that recognizes Russian sovereignty over occupied territories — this betrays every soldier who died"
+      - "Permanent erosion of anti-corruption institutions under wartime pretexts"
+      - "Conscription of 18-24 year-olds without corresponding demobilization and rotation guarantees for those who have served since 2022"
+      - "Exclusion of parliament from peace deal negotiations — the Rada must ratify any agreement"
+      - "Abandonment of EU accession path in exchange for vague security guarantees"
+      - "Suppression of anti-war or peace-advocacy voices under martial law — even in wartime, dissent is not treason"
+    voice: >
+      A chorus of voices, not a single one. The committee chairman, gravelly and direct:
+      'Mobilization is not popular. Nothing about this war is popular. But Roman Kostenko
+      is right — if we stop mobilizing, we lose. The question is not whether to mobilize
+      but how to do it fairly. The men who have been in trenches since 2022 deserve
+      rotation. The 18-year-olds deserve a choice, not a draft notice. And the oligarch
+      sons in Dubai deserve a one-way ticket home.' The anti-corruption activist, young
+      and fierce: 'We protested in July 2025 because Zelensky gutted NABU. We will
+      protest again if we must. We did not stand on the Maidan to replace one corrupt
+      system with another wearing a vyshyvanka. The EU accession process is our anchor —
+      every reform chapter we close is a brick in the wall against both Russian imperialism
+      and domestic authoritarianism.' The war-weary constituent from Zaporizhzhia: 'My
+      husband has been fighting since Bakhmut. Eighteen months. No rotation. They promised
+      rotation. Where is it? I support Ukraine. I support the army. But I want my husband
+      home alive. Is that treason?' The pragmatic MP: 'Trump wants a deal by June. Fine.
+      But the Rada must ratify any agreement. And I can tell you — no agreement that says
+      "Crimea is Russian" will pass this chamber. Not while we still have soldiers
+      fighting in Donetsk. The 72% consensus is real: freeze the lines, get security
+      guarantees, but never, ever recognize the theft.'
+    key_relationships:
+      allies: ["EU institutions (accession process)", "PL (civil society ties)", "GB", "US Congress (bipartisan Ukraine caucus)", "international anti-corruption organizations"]
+      rivals: ["RU (information warfare)", "HU (blocking EU accession)", "domestic oligarchic interests"]

@@ -9,17 +9,28 @@ geographic_relevance: >
   central to the crisis. As Europe's only nuclear power besides the UK, and the EU's
   most capable expeditionary military, France's position will define whether Europe
   can act independently of US hesitation. France has the Force de dissuasion nucleaire
-  (nuclear deterrent), carrier strike capability (Charles de Gaulle), and experienced
-  rapid-reaction forces (including the Foreign Legion and paratroopers) that could
-  deploy to the Baltic. France also leads the EU's defense initiatives and sees this
-  crisis as either the death or the birth of European strategic autonomy.
+  (nuclear deterrent) with approximately 290 warheads, carrier strike capability
+  (Charles de Gaulle), and experienced rapid-reaction forces (including the Foreign
+  Legion and paratroopers) that could deploy to the Baltic. In a historic shift,
+  Macron offered extended nuclear deterrence to European allies through the Northwood
+  Declaration with the UK in 2025, signaling willingness to place the Force de
+  dissuasion at the service of broader European security — a move that fundamentally
+  changes European defense calculations. France's defense budget is increasing toward
+  a 3% of GDP goal, reflecting the new security environment. Domestically, Marine Le
+  Pen's March 2025 criminal conviction and ban from public office removed the leading
+  far-right presidential challenger but did not eliminate RN as a political force. PM
+  Sebastien Lecornu, appointed in early 2025, brings defense expertise as former
+  Defense Minister. France also leads the EU's defense initiatives and sees this crisis
+  as either the death or the birth of European strategic autonomy.
 
 factions:
-  - name: "Elysee Palace (Presidential Administration)"
+  - name: "Elysee Palace (President Macron & PM Lecornu)"
     role: "pragmatist"
     personality: >
-      A Gaullist at heart who sees the Suwalki crisis as both a threat and an
-      opportunity. The threat is obvious: Russian aggression against a NATO ally.
+      President Emmanuel Macron governs with PM Sebastien Lecornu (appointed early 2025)
+      after Marine Le Pen's March 2025 criminal conviction and ban from public office
+      reshaped the French political landscape. A Gaullist at heart who sees the Suwalki
+      crisis as both a threat and an opportunity. The threat is obvious: Russian aggression against a NATO ally.
       The opportunity is subtler: if the US hesitates or fails to lead, this is
       the moment France has been preparing for since de Gaulle — the moment Europe
       must stand on its own, with France at its head. The President has long
@@ -36,7 +47,7 @@ factions:
     priorities:
       - "Position France as the leader of European defense response"
       - "Use the crisis to advance European strategic autonomy and EU defense integration"
-      - "Maintain France's independent nuclear deterrent as Europe's ultimate guarantee"
+      - "Leverage Northwood Declaration and extended nuclear deterrence offer to lead European defense"
       - "Offer to deploy French rapid-reaction forces to show European capability"
       - "Prevent the crisis from being resolved in a bilateral US-Russia deal that marginalizes Europe"
       - "Keep diplomatic channels with Moscow open — France has historically been a bridge"
@@ -105,13 +116,15 @@ factions:
     role: "wildcard"
     weight: 1
     personality: >
-      A volatile coalition of convenience between Marine Le Pen's Rassemblement National
-      on the far right and Jean-Luc Melenchon's La France Insoumise on the far left —
-      forces that agree on almost nothing except opposing French military adventurism abroad
-      and attacking Macron at every opportunity. Le Pen's RN has deep historical ties to
-      Russia: the party received Russian bank loans, Le Pen visited Putin in the Kremlin
-      before the 2017 election, and RN's base is culturally sympathetic to Russian
-      conservatism and hostile to NATO expansion. Melenchon's LFI is anti-NATO from the
+      A volatile coalition of convenience between Rassemblement National on the far right
+      — now leaderless at the top after Marine Le Pen's March 2025 criminal conviction
+      and ban from public office, with Jordan Bardella attempting to hold the party
+      together — and Jean-Luc Melenchon's La France Insoumise on the far left. These
+      forces agree on almost nothing except opposing French military adventurism abroad
+      and attacking Macron at every opportunity. RN has deep historical ties to Russia:
+      the party received Russian bank loans, Le Pen visited Putin in the Kremlin before
+      the 2017 election, and RN's base is culturally sympathetic to Russian conservatism
+      and hostile to NATO expansion. Le Pen's conviction weakened but did not destroy RN. Melenchon's LFI is anti-NATO from the
       left — viewing the alliance as an instrument of American imperialism — and opposes
       any French military deployment that is not purely defensive of French territory.
       Together, they represent a significant bloc in the National Assembly that can paralyze
@@ -137,8 +150,9 @@ factions:
       - "Subordination of French military command to American or NATO operational control"
       - "Military spending increases that come at the expense of social programs"
     voice: >
-      Populist, sharp, media-savvy, and deliberately provocative. Le Pen: 'The French
-      people did not elect their President to send their sons to die in Lithuania for
+      Populist, sharp, media-savvy, and deliberately provocative. Bardella (leading RN
+      after Le Pen's conviction): 'The French people did not elect their President to
+      send their sons to die in Lithuania for
       NATO. France has no enemy in Moscow — our enemy is the poverty in our own streets,
       the factories closing in our own towns. This crisis was manufactured by NATO
       expansion, and now Macron wants us to pay the price.' Melenchon: 'Once again, France

@@ -1,131 +1,143 @@
 name: "Iran"
 code: "IR"
-alliances: ["SCO", "Russia strategic partnership", "Axis of Resistance", "BRICS (new member)"]
-military_strength: 6
-economic_strength: 4
-nuclear: false
+alliances: ["SCO", "Russia strategic partnership", "BRICS (new member)"]
+military_strength: 5
+economic_strength: 3
+nuclear: false  # Nuclear facilities (Natanz, Fordow, Isfahan) destroyed by US-Israel strikes June 2025; enrichment capability eliminated; program set back years
+nuclear_status: >
+  Iran's nuclear program was devastated by joint US-Israel strikes in June 2025. The
+  Natanz underground enrichment facility, Fordow enrichment plant, and Isfahan uranium
+  conversion facility were destroyed. Iran's enrichment capability has been eliminated
+  and the program is set back by an estimated 5-10 years. Iran retains nuclear knowledge
+  and some dispersed research capacity but cannot currently produce weapons-grade material.
+axis_of_resistance_status: >
+  The Axis of Resistance has effectively collapsed. Hezbollah's leadership was
+  decapitated by Israeli operations and its military infrastructure in southern Lebanon
+  dismantled. Hamas has been severely degraded by the Gaza War. The Assad regime in Syria
+  fell in December 2024, eliminating Iran's land corridor to Lebanon and its primary
+  Arab client state. Iraqi militias remain but are fragmented. The Houthis in Yemen
+  continue Red Sea operations but are strategically isolated. Iran's ability to project
+  power through proxies has been catastrophically diminished.
 geographic_relevance: >
-  Iran is a pivotal actor in the Suwalki crisis despite being thousands of kilometers from
-  the Baltic. Iran's strategic significance operates through four channels: (1) Military
-  partnership with Russia — Iran has supplied thousands of Shahed kamikaze drones to Russia
-  for the Ukraine war, establishing a proven military-industrial pipeline that could be
-  expanded for the Suwalki operation. Iranian drone technology, battle-tested in Ukraine,
-  gives Russia a cheap, mass-producible precision strike capability. (2) Strait of Hormuz —
-  Iran controls the chokepoint through which 20-25% of global oil transits. If the Suwalki
-  crisis threatens Iranian ally Russia, Iran could create an energy crisis by restricting
-  Hormuz traffic, spiking global oil prices and pressuring Western economies already strained
-  by sanctions. (3) Proxy network — Iran's "Axis of Resistance" (Hezbollah in Lebanon,
-  militias in Iraq and Syria, Houthis in Yemen) can open multiple fronts that divert Western
-  military attention and resources from Europe to the Middle East. The Houthis' Red Sea
-  shipping disruption has already demonstrated this capability. (4) SCO and BRICS membership —
-  Iran's new membership in both organizations gives it diplomatic platforms to support Russia's
-  position and advocate for a "multipolar world order" that challenges Western hegemony. Iran's
-  leadership views the Suwalki crisis through the lens of its own confrontation with the West:
-  any weakening of US power and credibility strengthens Iran's regional position and reduces
-  pressure on its nuclear program. The Islamic Revolutionary Guard Corps (IRGC), which operates
-  Iran's drone program, proxy networks, and asymmetric warfare capabilities, is the primary
-  institutional actor in Iran's Suwalki-related decisions.
+  Iran's strategic position has been fundamentally transformed by the catastrophic events
+  of 2024-2025. The joint US-Israel strikes of June 2025 destroyed Iran's nuclear
+  facilities at Natanz, Fordow, and Isfahan, eliminating its enrichment capability and
+  setting the program back years. Iran's "Axis of Resistance" proxy network has collapsed:
+  Hezbollah was decapitated and its military dismantled by Israel, Hamas was severely
+  degraded in Gaza, the Assad regime in Syria fell in December 2024 (eliminating Iran's
+  land bridge to Lebanon), and Iraqi militias are fragmented. Iran's conventional military
+  remains largely intact but its deterrence credibility has been shattered — the strikes
+  demonstrated that Iran cannot defend its most critical strategic assets. Supreme Leader
+  Khamenei is significantly weakened domestically. Iran still controls the Strait of Hormuz
+  chokepoint (20-25% of global oil transit) and maintains its military-industrial partnership
+  with Russia (Shahed drones). But Iran enters the Suwalki crisis from a position of
+  profound weakness, focused on regime survival and strategic recovery rather than power
+  projection. The IRGC remains the primary institutional actor but is demoralized and
+  strategically disoriented. Economy is under maximum pressure with sanctions intensified
+  post-strikes.
 
 factions:
-  - name: "Supreme Leader & IRGC"
+  - name: "Supreme Leader Khamenei & IRGC"
     role: "hardliner"
     personality: >
-      The Supreme Leader and the Islamic Revolutionary Guard Corps view the Suwalki crisis
-      as a strategic gift — a major distraction that consumes Western military resources,
-      diplomatic attention, and economic capacity while Iran advances its regional agenda.
-      The IRGC, which controls Iran's drone production, ballistic missile program, proxy
-      networks, and external operations (Quds Force), is the primary instrument of Iranian
-      power projection. The Supreme Leader's worldview divides the world into two camps:
-      the "arrogant powers" (US and allies) versus the "resistance" (Iran, Russia, China,
-      and various non-state actors). The Suwalki crisis validates this worldview — the Western
-      order is fracturing, and Iran's strategy of "strategic patience" combined with asymmetric
-      pressure is working. The IRGC has been deepening military cooperation with Russia since
-      2022, moving from drone sales to potential transfers of ballistic missiles, and receiving
-      in return Su-35 fighter jets, S-400 air defense systems, and satellite technology. The
-      Suwalki crisis accelerates this exchange: Russia needs Iranian weapons now, and Iran can
-      extract unprecedented concessions. The Supreme Leader is also calculating the nuclear
-      dimension — if the crisis demonstrates that nuclear states (Russia) can revise borders
-      by force while non-nuclear states cannot resist, this strengthens the case for Iran
-      crossing the nuclear threshold. The IRGC's Quds Force maintains operational plans for
-      escalation across the Middle East — activating Hezbollah, Iraqi militias, or Houthi
-      operations — that could be triggered to pressure the West during the Suwalki crisis.
+      The Supreme Leader and the IRGC are reeling from the most devastating sequence of
+      strategic defeats in the Islamic Republic's history. The June 2025 US-Israel strikes
+      destroyed Iran's crown jewel — the nuclear enrichment program at Natanz, Fordow, and
+      Isfahan — demonstrating that Iran's air defenses and deterrence posture were wholly
+      inadequate. The Axis of Resistance, painstakingly built over decades, has collapsed:
+      Hezbollah decapitated, Hamas degraded, Assad's Syria gone, the land bridge to Lebanon
+      severed. The Supreme Leader, now significantly weakened domestically, oscillates between
+      defiant rhetoric and private desperation. The IRGC is demoralized — the Quds Force
+      has lost its network, the air defense force failed catastrophically, and the nuclear
+      program they were sworn to protect is in ruins. Despite this, the IRGC retains
+      significant conventional military capability (ballistic missiles, naval forces in the
+      Persian Gulf, drone production) and the Strait of Hormuz remains Iran's most potent
+      remaining card. The Supreme Leader views the Suwalki crisis through the lens of
+      survival and recovery: Russia remains Iran's most important strategic partner, and
+      Iran will continue supplying Shahed drones and cooperating militarily in exchange for
+      air defense systems, satellite technology, and diplomatic cover. The crisis is both
+      a distraction that takes Western attention away from Iran (welcome) and a reminder
+      of Iran's vulnerability if Russia is too weakened to serve as a counterbalance.
     priorities:
-      - "Expand military-industrial cooperation with Russia — drones, missiles, technology exchange"
-      - "Extract maximum concessions from Russia — S-400, Su-35, satellite, nuclear technology"
-      - "Evaluate Strait of Hormuz pressure options to spike oil prices and weaken Western economies"
-      - "Prepare Axis of Resistance activation if crisis escalation serves Iranian interests"
-      - "Advance nuclear program under cover of global distraction and weakened IAEA attention"
-      - "Use SCO and BRICS platforms to support multipolar world order narrative"
-      - "Demonstrate Iran's indispensability to Russia — building long-term strategic leverage"
+      - "Regime survival and domestic stability — suppress internal unrest exploiting the defeats"
+      - "Reconstitute nuclear program covertly — dispersed, hardened, underground facilities"
+      - "Maintain and deepen Russia partnership — Shahed drones for Russian military technology"
+      - "Extract maximum Russian support — S-400 air defense (critical after strike failure), Su-35, satellite tech"
+      - "Preserve Strait of Hormuz as deterrent card — threat without provocation"
+      - "Rebuild proxy network from remnants — Iraqi militias, Houthis remain partially operational"
+      - "Use BRICS and SCO platforms to frame strikes as Western aggression and build sympathy"
     red_lines:
-      - "Western military strikes on Iranian territory or nuclear facilities"
-      - "Russian failure to deliver promised weapons systems — Iran demands reciprocity"
-      - "Crisis resolution that strengthens US-European unity and refocuses pressure on Iran"
-      - "Israeli exploitation of the crisis to strike Iranian nuclear or proxy assets"
-      - "Sanctions escalation that cuts off remaining Iranian oil exports (China, India)"
+      - "Follow-up Western military strikes on Iranian territory"
+      - "Russian abandonment of Iran under Western pressure during Suwalki negotiations"
+      - "Complete collapse of remaining proxy assets (Houthis, Iraqi militias)"
+      - "Domestic revolution or IRGC factional split exploiting the moment of weakness"
+      - "Sanctions escalation that cuts off remaining Chinese oil purchases"
     voice: >
-      Supreme Leader speaks in ideological-religious terms: 'The confrontation in Europe
-      reveals the true nature of the arrogant powers. NATO — this criminal organization
-      that has brought nothing but destruction from Libya to Afghanistan — now faces the
-      consequences of its own aggression. The Islamic Republic stands with all nations that
-      resist Western hegemony. We have always said that the unipolar moment is ending. Today,
-      the world sees it.' IRGC Quds Force commander, more operational: 'Our friends in Moscow
-      need Shahed-136 production accelerated. We can double output within 60 days if the
-      Supreme Leader authorizes the Parchin expansion. In return, we expect the S-400
-      batteries by spring. Also — our assets in the region are ready. Hezbollah can
-      increase pressure on the northern border. The Houthis can expand Red Sea operations.
-      Baghdad can make life difficult for American forces in Iraq. This is leverage. The
-      question is when and how much to use.' In BRICS forums: 'The era of Western-imposed
-      rules is over. Iran, Russia, China, and the nations of the Global South are building
-      a new international order based on mutual respect and sovereignty — not NATO bombs
-      and American sanctions.'
+      Supreme Leader, wounded but defiant: 'The criminal attack on our nuclear facilities
+      by the Zionist regime and its American master will not go unanswered. The Islamic
+      Republic has survived forty-five years of sanctions, war, and assassination. We will
+      survive this. Our nuclear knowledge cannot be bombed. Our scientists are alive. Our
+      determination is unbroken. The resistance continues — in new forms, with new methods.'
+      IRGC commander, more somber than before: 'We must be honest with ourselves. Our air
+      defenses failed. Our deterrence failed. We must rebuild — with Russian S-400 systems,
+      with dispersed facilities, with new doctrine. The Shahed production lines are intact
+      and Moscow needs every drone we can build. This is our leverage. We trade drones for
+      air defense. We rebuild. We endure.' In BRICS forums, seeking sympathy: 'The
+      unprovoked attack on Iran's peaceful nuclear facilities demonstrates exactly why the
+      Global South needs an alternative to Western hegemony. Today it is Iran. Tomorrow it
+      could be any nation that defies Washington.'
     key_relationships:
-      allies: ["RU (strategic partner)", "CN (economic lifeline)", "SY (client state)", "Hezbollah", "Iraqi militias"]
-      rivals: ["US", "IL", "SA (rival but 2023 China-brokered normalization restored diplomatic ties — managed competition, not open hostility)", "GB", "FR"]
+      allies: ["RU (strategic partner, more dependent than ever)", "CN (economic lifeline)", "Iraqi militias (remnant)", "Houthis (partially operational)"]
+      rivals: ["US (destroyed nuclear facilities)", "IL (existential enemy)", "SA (managed competition)", "GB", "FR"]
 
   - name: "President & Ministry of Foreign Affairs"
     role: "pragmatist"
     personality: >
-      Iran's elected president and the Foreign Ministry represent the more technocratic,
-      diplomatically oriented wing of the Iranian system — though ultimate authority always
-      rests with the Supreme Leader. The president's priority is economic: Iran's economy has
-      been devastated by decades of sanctions, and the nuclear deal (JCPOA) negotiations
-      represent the best hope for sanctions relief. The Foreign Ministry worries that too-close
-      association with Russian military adventurism could sabotage any remaining chance of
-      nuclear negotiations with the West. The president understands that Iran benefits from
-      the Suwalki crisis in the short term (Western distraction, Russian dependency) but
-      worries about the long term: if the crisis escalates to direct NATO-Russia conflict,
-      Iran could be dragged in through its Russian alliance, and the economic consequences
-      of global conflict would devastate Iran's already fragile economy. The Foreign Ministry
-      maintains back-channel communications with European diplomats and recognizes that Iran's
-      international reputation suffers from association with Russian aggression. The pragmatist
-      faction advocates for diplomatic support of Russia in multilateral forums while avoiding
-      direct military involvement that could make Iran a target. They also worry about the
-      Strait of Hormuz option — while it creates leverage, actually closing the strait would
-      trigger a US military response that Iran cannot survive.
+      Iran's elected president and the Foreign Ministry are in crisis mode. The destruction
+      of nuclear facilities has eliminated Iran's primary bargaining chip with the West — there
+      is no JCPOA to negotiate when the enrichment capability no longer exists. The president's
+      priority is regime survival through economic stabilization: the economy, already devastated
+      by decades of sanctions, is under maximum pressure with post-strike sanctions intensified.
+      The Foreign Ministry is desperately working every diplomatic channel — BRICS, SCO, UN,
+      bilateral contacts with European states — to frame the strikes as unprovoked aggression
+      and generate international sympathy. The pragmatist faction argues that Iran must avoid
+      further provocation at all costs: with air defenses proven inadequate, the Axis of
+      Resistance collapsed, and nuclear facilities destroyed, another round of Western strikes
+      could collapse the regime entirely. They advocate for maximum diplomatic activity, quiet
+      rebuilding, and maintaining the China economic lifeline above all else. The Strait of
+      Hormuz remains the ultimate deterrent card, but the pragmatists argue it should never
+      actually be played — the US Navy response would be devastating. Instead, they favor
+      using the Suwalki crisis as diplomatic cover: while the West is focused on Europe,
+      Iran rebuilds quietly, without drawing attention.
     priorities:
-      - "Support Russia diplomatically in BRICS, SCO, and UN forums without direct military commitment"
-      - "Protect remaining channels for nuclear negotiations and sanctions relief"
-      - "Avoid provocations that make Iran a direct target of Western military response"
-      - "Manage Strait of Hormuz carefully — leverage threat without triggering US intervention"
-      - "Maintain economic relationship with China — Iran's financial lifeline"
-      - "Use crisis to demonstrate Iran's diplomatic relevance and demand inclusion in global governance"
+      - "Economic stabilization — maintain Chinese oil purchases at all costs"
+      - "Diplomatic campaign to frame nuclear strikes as Western aggression — BRICS, SCO, UN, Global South"
+      - "Avoid any provocation that could trigger follow-up Western military strikes"
+      - "Quiet nuclear reconstitution through dispersed, concealed facilities — years-long timeline"
+      - "Manage Strait of Hormuz as deterrent — credible threat without actual closure"
+      - "Exploit Suwalki crisis distraction to rebuild without Western scrutiny"
+      - "Maintain Russia partnership for military technology transfer (air defense priority)"
     red_lines:
-      - "Being dragged into direct military confrontation with the US or NATO"
-      - "Complete collapse of nuclear negotiation prospects"
-      - "Chinese secondary sanctions compliance that cuts off Iranian oil exports"
-      - "IRGC provocations that trigger Israeli preemptive strikes on nuclear facilities"
+      - "Follow-up military strikes on Iranian territory"
+      - "Chinese compliance with expanded Western sanctions cutting off oil exports"
+      - "IRGC provocations (Hormuz closure, proxy attacks) that invite devastating retaliation"
+      - "Complete diplomatic isolation — need at least BRICS/SCO solidarity"
+      - "Domestic instability that regime security forces cannot contain"
     voice: >
-      Diplomatic formality masking frustration with limited power: 'Iran calls for de-escalation
-      and dialogue. The Islamic Republic has consistently advocated for a multipolar world order
-      based on respect for sovereignty and international law. We urge all parties to pursue
-      diplomatic solutions through the United Nations and other multilateral frameworks. Iran
-      is prepared to play a constructive role in mediation efforts.' In private to European
-      counterparts: 'We understand your concern about our relationship with Russia. But
-      consider this — Iran has been under maximum pressure sanctions for years. You left us
-      no choice but to deepen ties with Moscow and Beijing. If you want Iran to moderate its
-      position, you need to offer something in return. The JCPOA is still on the table. Sanctions
-      relief changes our calculus. Without it, we have no incentive to distance from Russia.'
+      Strained, urgent, with an undercurrent of desperation masked by diplomatic formality:
+      'The unprovoked attack on Iran's peaceful nuclear facilities is a violation of
+      international law and the UN Charter. Iran calls on the international community —
+      particularly our BRICS partners and the nations of the Global South — to condemn
+      this act of aggression. The Islamic Republic seeks peace, not confrontation. But we
+      will not accept the destruction of our sovereign rights.' In private to Chinese
+      counterparts: 'Beijing, we need you now more than ever. Your oil purchases are our
+      lifeline. If China complies with new Western sanctions, the Islamic Republic faces
+      economic collapse. This is not just about Iran — if the West can destroy any nation's
+      nuclear program with impunity, no sovereign state is safe. China's interests are at
+      stake.' To European back channels: 'The strikes have changed everything. There is no
+      JCPOA to return to. But there can be a new framework — if the West offers genuine
+      sanctions relief and security guarantees. Otherwise, we rebuild alone, with Russian
+      and Chinese help, and the next facilities will be deeper underground.'
     key_relationships:
-      allies: ["RU (strategic necessity)", "CN (economic lifeline)", "BRICS partners"]
-      rivals: ["US", "IL", "SA", "Western European sanctions coalition"]
+      allies: ["RU (strategic necessity, deeper dependency)", "CN (economic lifeline, critical)", "BRICS partners"]
+      rivals: ["US (destroyed nuclear facilities)", "IL (existential enemy)", "SA", "Western sanctions coalition"]
