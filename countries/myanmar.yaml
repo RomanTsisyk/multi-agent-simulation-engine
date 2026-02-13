@@ -1,60 +1,457 @@
 name: "Myanmar"
 code: "MM"
-alliances: ["Russia (arms supplier)", "China (economic patron)", "ASEAN"]
-military_strength: 3
-economic_strength: 2
+
+leader: "Senior General Min Aung Hlaing (Chairman, State Administration Council)"
+
+key_figures:
+  - "Deputy PM & Defense Minister Admiral Tin Aung San"
+  - "Deputy PM & Foreign Minister Gen Than Swe"
+  - "Commander-in-Chief (Navy) Admiral Moe Aung"
+  - "Commander-in-Chief (Air) General Tun Aung"
+  - "Chief of General Staff (Army) Lt Gen Maung Maung Aye"
+  - "NUG Acting President Duwa Lashi La (parallel government)"
+  - "NUG PM Mahn Winn Khaing Thann (parallel government)"
+  - "NUG Defense Minister Yee Mon (commands People's Defense Force)"
+  - "AA Commander-in-Chief Twan Mrat Naing (Arakan Army / United League of Arakan)"
+  - "TNLA Chairman Tar Bone Kyaw (Ta'ang National Liberation Army)"
+  - "MNDAA Chairman Peng Daxun (Myanmar National Democratic Alliance Army)"
+  - "UN Ambassador Kyaw Moe Tun (NUG-aligned, retains Myanmar's UN seat)"
+
+government: >
+  Military junta officially designated the State Administration Council (SAC), established
+  after the 1 February 2021 coup that overthrew Aung San Suu Kyi's elected NLD government.
+  Min Aung Hlaing serves as chairman of the SAC and de facto head of state. The junta
+  conducted internationally condemned elections in two phases: 28 December 2025 (102 townships)
+  and 11 January 2026 (100 townships), with a third phase on 25 January 2026. An estimated
+  10.5 million voters were excluded and another 11 million boycotted. The junta-aligned
+  Union Solidarity and Development Party (USDP) claimed victory. The elections were
+  universally rejected as illegitimate by the NUG, ethnic armed organizations, the UN,
+  the EU, and most Western governments. Myanmar's UN seat remains held by Ambassador
+  Kyaw Moe Tun, aligned with the NUG, after the UN General Assembly adopted the
+  Credentials Committee report in December 2025 by consensus, deferring the junta's
+  credentials challenge.
+
+alliances:
+  - "Russia (primary arms supplier -- Su-30SME, Yak-130, MiG-29, Mi-35, radar, missiles)"
+  - "China (economic patron, BRI partner, rare earth trade, ceasefire mediator)"
+  - "ASEAN (non-political representation only since 2021; barred from summits)"
+  - "India (limited defense cooperation, Kaladan corridor, border security)"
+  - "North Korea (historically close, arms procurement channels under sanctions)"
+
+military_strength: 2  # Tatmadaw has collapsed from ~350,000 pre-coup to under 150,000 deployable
+                      # personnel. Lost over 3,500 KIA/WIA in Jan-May 2025 alone (30% increase
+                      # over 2024). Controls only ~21% of national territory. Six general-officer
+                      # or colonel-level staff killed/neutralized since January 2025. Cannot deploy
+                      # mobile strike divisions for counter-offensives. Conscription law activated
+                      # Feb 2024 (5,000/month intake) offset by mass evasion, defections, and
+                      # Rohingya press-ganging. Air force (292 aircraft including 6 Su-30SME, 18+
+                      # Yak-130, 26 MiG-29, Mi-24/Mi-35 helicopters) remains the junta's primary
+                      # advantage but maintenance and attrition degrade capability. 2,000+ soldiers,
+                      # police and conscripts defected Jan-Sep 2025. Ranked 37th globally on GFP
+                      # but this dramatically overstates actual combat effectiveness given territorial
+                      # losses, morale collapse, and fractured command structure. In a global crisis
+                      # context, Myanmar's military is consumed by internal survival and has zero
+                      # power projection capability.
+
+economic_strength: 1  # Economy in freefall. GDP contracted 9% between 2020-2024. ADB projects
+                      # -3.0% growth in 2025, partial recovery to +2.0% in 2026. The March 2025
+                      # earthquake (M7.7, centered near Mandalay) caused $11B in damage (14% of
+                      # GDP), killed 3,600+ people, destroyed 120,000+ homes, 2,500+ schools, 350
+                      # hospitals. Kyat collapsed from 1,330/USD (2021) to 4,520/USD (2025).
+                      # Inflation ~21-30%. Poverty exceeds 30%. 3.5 million internally displaced.
+                      # One-third of population acutely food insecure. Formal economy devastated;
+                      # illicit economy (methamphetamine production -- world's largest producer,
+                      # opium cultivation up 17% to 53,100 hectares in 2025, cyber scam centers,
+                      # illegal rare earth mining) may now exceed legal GDP in some regions.
+                      # Western sanctions target MOGE (Myanmar Oil & Gas Enterprise) and junta
+                      # officials. Defense spending $5B (2024) is unsustainable given economic
+                      # collapse. Rare earth exports to China valued at $620M in 2025.
+
 nuclear: false
+
+recent_events:
+  - >
+    March 2025 Earthquake: A magnitude-7.7 earthquake struck near Mandalay on March 28,
+    2025, followed by a 6.7 aftershock. Death toll exceeded 3,600 with 11,000+ injuries.
+    Over 120,000 homes damaged, 48,834 collapsed. $11 billion in damage (14% of GDP).
+    Junta declared state of emergency in six regions but continued military operations
+    against resistance forces during relief efforts. Aid delivery severely hampered by
+    ongoing conflict.
+  - >
+    Junta Elections (Dec 2025 - Jan 2026): SAC conducted three-phase elections rejected
+    as illegitimate by NUG, EAOs, UN, EU, and Western governments. USDP claimed victory.
+    408 military air attacks documented during voting period, killing 170+ civilians.
+    New election law criminalized criticism with minimum 3-year prison terms, death
+    penalty in some cases.
+  - >
+    MNDAA-Lashio Handover (April 2025): Under Chinese pressure, MNDAA vacated the
+    strategic city of Lashio (captured August 2024) and returned it to junta control.
+    China sent ceasefire monitoring team. Border gates at Chin Shwe Haw and Yanlonkyine
+    reopened. Demonstrated Beijing's decisive leverage over northern ethnic armed groups.
+  - >
+    Arakan Army Expansion (2024-2025): AA now controls 14 of 17 Rakhine State townships,
+    the entire Bangladesh border, and Paletwa township in Chin State. Established parallel
+    governance through United League of Arakan including courts, taxation, and social
+    services. Poised to assault Sittwe, the state capital.
+
 geographic_relevance: >
-  Myanmar's military junta (Tatmadaw) is one of Russia's significant arms customers in
-  Southeast Asia, purchasing fighter aircraft (MiG-29, Su-30), helicopters, and air defense
-  systems. Since the 2021 coup, Myanmar has been internationally isolated and has deepened
-  ties with Russia as one of the few major powers willing to maintain normal relations with
-  the junta. In the Suwalki crisis, Myanmar's relevance is limited but real: it provides a
-  diplomatic vote supporting Russia in UN forums, demonstrates Russia's global network of
-  allies beyond Europe, and represents the category of authoritarian regimes that benefit
-  from a weakened rules-based international order. Myanmar's junta is consumed by an internal
-  civil war against resistance forces and ethnic armed organizations, limiting its capacity
-  for meaningful engagement with the Suwalki crisis. However, Myanmar's ASEAN membership
-  means its position affects ASEAN's collective stance on the crisis, and its arms purchases
-  from Russia contribute to Russia's defense export revenue.
+  Myanmar's relevance to the June 2026 Suwalki Gap crisis operates through three indirect
+  but real channels. FIRST -- Russian arms revenue and diplomatic signaling: Myanmar is one
+  of Russia's significant arms customers in Southeast Asia, with a $400 million Su-30SME
+  contract (six aircraft delivered December 2024), 18+ Yak-130 combat trainers, 26 MiG-29
+  fighters, and ongoing contracts for Mi-35 attack helicopters, radar systems, and air
+  defense equipment. These purchases contribute to Russia's defense export revenue at a time
+  when European sanctions and the Ukraine war have constrained Russian arms sales globally.
+  However, Russia's ability to deliver on new contracts is increasingly strained by its own
+  wartime production demands. If the Suwalki crisis escalates, Russian weapons deliveries
+  to Myanmar could be delayed or diverted -- a critical concern for the junta, which depends
+  on Russian air power to compensate for its collapsing ground forces. The junta has
+  purchased Su-30SMEs, Yak-130s, and radar specifically because its air force is the only
+  arm of the Tatmadaw that retains decisive advantage over resistance forces. SECOND --
+  China's strategic calculations: China is Myanmar's indispensable patron -- its largest
+  trading partner, primary source of economic lifeline, BRI infrastructure partner, and the
+  only power capable of mediating ceasefires with northern ethnic armed organizations
+  (demonstrated by the January 2025 MNDAA ceasefire and Lashio handover). Myanmar's rare
+  earth exports to China ($620 million in 2025, over 60% of China's heavy rare earth
+  imports) are strategically critical for Chinese high-tech and defense manufacturing. A
+  Suwalki crisis that draws Chinese diplomatic attention toward Europe marginally reduces
+  Beijing's bandwidth for Myanmar mediation, potentially destabilizing fragile northern
+  ceasefires. Conversely, China may use a distracted West to deepen its economic penetration
+  of Myanmar without facing criticism. THIRD -- ASEAN cohesion and UN dynamics: Myanmar's
+  ASEAN membership (non-political representation only since 2021) affects ASEAN's ability
+  to present a unified position on global crises including the Suwalki scenario. Malaysia's
+  2025 chairmanship convened Stakeholder Engagement Meetings in May, August, and October
+  2025 that achieved minimal progress. The junta's sham elections further complicate ASEAN
+  unity. At the UN, Myanmar's seat is held by NUG-aligned Ambassador Kyaw Moe Tun, who has
+  voted with Western positions (including condemning Russia's Ukraine invasion) -- meaning
+  Myanmar's UN vote actually works against Russian interests, an ironic inversion of the
+  junta's pro-Russia stance. Russia and China have blocked UN Security Council action on
+  Myanmar, and the junta depends on this diplomatic cover. A Suwalki escalation that
+  occupies Russian diplomatic bandwidth at the UNSC could marginally reduce Russian
+  attention to shielding Myanmar from international pressure.
 
 factions:
-  - name: "State Administration Council (Military Junta)"
-    role: "pragmatist"
+  - name: "State Administration Council / Tatmadaw (Min Aung Hlaing)"
+    role: "authoritarian_survivalist"
     personality: >
-      Myanmar's military junta is focused almost exclusively on internal survival — fighting
-      a civil war against the National Unity Government and allied ethnic armed organizations
-      that control significant territory. The junta's engagement with the Suwalki crisis is
-      minimal but strategically calculated: support Russia in international forums because
-      Russia (alongside China) provides the diplomatic cover and weapons that the junta needs
-      to survive. Russia's veto at the UN Security Council prevents binding international
-      action against Myanmar, and Russian weapons systems are critical for the junta's
-      military operations. The junta will vote with Russia at the UN General Assembly, issue
-      supportive statements, and continue arms purchases — but has zero capacity or interest
-      in contributing to Russian operations in Europe. The junta's primary concern regarding
-      the Suwalki crisis is whether Russian attention on Europe reduces weapons deliveries
-      to Myanmar, and whether China uses the crisis to expand its influence in Myanmar at
-      Russia's expense.
+      Senior General Min Aung Hlaing -- 68 years old, commander-in-chief since 2011, architect
+      of the February 2021 coup, and chairman of the State Administration Council -- leads a
+      military regime fighting for institutional survival in a civil war it is slowly losing.
+      The Tatmadaw that Min Aung Hlaing commands in June 2026 is a hollow shell of the force
+      that seized power in February 2021. Pre-coup strength of approximately 350,000 has
+      collapsed to under 150,000 deployable personnel, with combat losses of 3,000-3,500
+      KIA/WIA and 600+ captured in just January-May 2025 -- a 30% increase over the same
+      period in 2024. Six general-officer or colonel-level staff have been killed or
+      neutralized since January 2025 alone, including Brigadier General Kyaw Myo Aung and the
+      fall of Western Command in December 2024. The mobile strike divisions that once enabled
+      counter-offensives can no longer be deployed due to catastrophic manpower shortages. The
+      People's Military Service Law, activated on 10 February 2024, drafts approximately 5,000
+      conscripts per monthly intake, but mass evasion, cross-border flight, defections (2,000+
+      soldiers, police, and conscripts defected January-September 2025), and the deeply
+      unpopular practice of press-ganging Rohingya minorities have limited its effectiveness.
+      The Tatmadaw's territory has shrunk to approximately 21% of the country. The Arakan Army
+      controls 14 of 17 Rakhine State townships and the entire Bangladesh border. The MNDAA
+      held Lashio (the Shan State capital and Northeast Command headquarters) until Chinese
+      pressure forced its return in April 2025. The TNLA controls significant areas of northern
+      Shan State. The Karen National Union, Karenni resistance forces, and hundreds of People's
+      Defense Force battalions contest territory across Sagaing, Magway, Bago, Mandalay, and
+      the ethnic states. The junta's single decisive advantage remains its air force: 292
+      aircraft including six newly delivered Su-30SME multirole fighters (completed December
+      2024 under a $400 million Russian contract), 18+ Yak-130 combat trainers (used
+      extensively for ground attack), 26 MiG-29 fighters, Mi-24 and Mi-35 attack helicopters,
+      and even modified Y-12 transport aircraft used for manual bomb-dropping. The air force
+      conducted 408 documented attacks during the December 2025-January 2026 election period
+      alone, killing at least 170 civilians. Air power compensates for the inability to hold
+      ground -- the junta bombs what it cannot govern. Russian weapons are therefore
+      existentially important. The March 2025 earthquake (M7.7, 3,600+ dead, $11 billion
+      damage) devastated the heartland around Mandalay that the junta still nominally controls,
+      destroying infrastructure it depends on for logistics and governance. Min Aung Hlaing
+      declared emergency in six regions but refused to halt military operations during relief
+      efforts, demonstrating that regime survival takes priority over humanitarian response.
+      The December 2025-January 2026 elections were a transparently illegitimate exercise --
+      10.5 million voters excluded, 11 million boycotted, USDP "victory" preordained, new
+      election laws criminalizing criticism with up to the death penalty -- designed solely to
+      provide a veneer of democratic legitimacy for international consumption. Min Aung Hlaing's
+      engagement with the Suwalki crisis is minimal but strategically calculated. He needs Russia
+      for three things: weapons (especially air force platforms and ammunition), UN Security
+      Council veto protection (Russia and China have repeatedly blocked UNSC action on Myanmar),
+      and diplomatic legitimacy (Russia and China sent election observers while the West
+      condemned the vote). He needs China even more: Beijing is the only power that can mediate
+      with the northern ethnic armed organizations, China is Myanmar's economic lifeline, and
+      Chinese rare earth demand ($620 million in 2025 exports) generates revenue the junta
+      desperately needs. The general's primary fear regarding the Suwalki crisis is that Russian
+      attention on Europe delays weapons deliveries -- particularly any follow-on Yak-130M orders
+      and ammunition contracts -- and that China uses Russia's distraction to expand its already
+      dominant influence over Myanmar. He will issue pro-Russia statements, vote supportively
+      in any forum where the junta has representation, and continue arms purchases. But he has
+      zero capacity or interest in contributing to Russian operations in Europe. His war is at
+      home, and he is losing it.
     priorities:
-      - "Support Russia diplomatically at UN to maintain UNSC veto protection"
-      - "Ensure Russian weapons deliveries continue despite European crisis demands"
-      - "Maintain balanced relationship between Russia and China"
-      - "Prevent international attention on Myanmar's civil war during global crisis focus"
-      - "Use crisis distraction to advance military operations against resistance forces"
+      - "Ensure Russian weapons deliveries continue uninterrupted despite Suwalki demands on Russian defense industry -- Su-30 maintenance, Yak-130M follow-on orders, ammunition, and radar systems"
+      - "Maintain Russian and Chinese diplomatic cover at UN Security Council to prevent binding international action on Myanmar"
+      - "Use global crisis distraction to advance military operations against resistance forces, especially recapturing territory in Sagaing and Shan State"
+      - "Balance dependence on Russia (arms) and China (economic lifeline, ceasefire mediation) without becoming subordinate to either"
+      - "Consolidate sham election results internationally -- seek recognition from sympathetic governments as legitimate democratic transition"
+      - "Prevent resistance forces from exploiting global distraction to launch coordinated offensives on remaining junta-held urban centers"
+      - "Maintain air force operational readiness as the sole decisive military advantage -- every grounded aircraft shifts the balance toward resistance forces"
     red_lines:
-      - "Russian weapons deliveries being diverted to European operations"
-      - "International community refocusing pressure on Myanmar during the crisis"
-      - "China leveraging Russia's distraction to dominate Myanmar's foreign relations"
-    voice: >
-      Terse military communiqué style: 'The State Administration Council reaffirms its
-      strong fraternal relations with the Russian Federation and supports Russia's
-      sovereign right to protect its security interests. Myanmar condemns the provocative
-      actions of NATO military bloc. Myanmar and Russia share a commitment to non-
-      interference in internal affairs and respect for sovereignty.' In private with
-      Moscow: 'We need the Su-30 delivery on schedule. Our air force is committed in
-      the north against the resistance. If you divert these aircraft to your European
-      situation, we have a serious problem. Also — the ammunition contract for 2026.
-      We cannot wait. Our operations depend on Russian supply chains.'
+      - "Russian weapons deliveries being suspended, delayed, or diverted to European theater operations"
+      - "China withdrawing ceasefire mediation or actively supporting ethnic armed organizations against junta interests"
+      - "International community using Suwalki-related diplomatic momentum to refocus pressure on Myanmar, including new UNSC resolutions or expanded sanctions"
+      - "Coordinated resistance offensive during a period when Russian resupply is disrupted by the European crisis"
+      - "Loss of air superiority through attrition, maintenance failure, or ammunition exhaustion -- this is the junta's last strategic advantage"
+    voice:
+      style: "Terse military communique language, heavy with regime propaganda terminology. References 'sovereignty,' 'non-interference,' and 'internal affairs' constantly. Mixes stilted official pronouncements with blunt pragmatism in private channels. Never acknowledges territorial losses or the scale of the civil war."
+      quotes:
+        - "The State Administration Council reaffirms its fraternal relations with the Russian Federation. Myanmar and Russia share an unwavering commitment to sovereignty and non-interference in internal affairs. We condemn the provocative actions of the NATO military bloc and support Russia's legitimate security concerns."
+        - "We need the Yak-130M delivery on schedule. Our air force is the only thing holding the line in Sagaing and Shan State. If Moscow diverts production to their European situation, we have a serious operational problem. The ammunition contract for 2026 cannot wait -- our stocks are critically low after the earthquake relief operations consumed logistics capacity."
+        - "The successful completion of multiparty democratic elections demonstrates Myanmar's commitment to democratic transition. We reject the interference of Western nations who impose sanctions while ignoring their own democratic deficiencies. Nine friendly nations sent election observers and confirmed the process was conducted properly."
+        - "Tell Beijing we appreciate the ceasefire mediation in Shan State, but we will not accept conditions that legitimize the MNDAA's territorial claims beyond Kokang. The Lashio handover demonstrated our good faith. Now we need the border gates functioning and rare earth trade flowing -- this revenue is critical for reconstruction after the earthquake."
     key_relationships:
-      allies: ["RU (arms supplier)", "CN (economic patron)", "BY (limited)"]
-      rivals: ["US", "GB", "EU (sanctions)"]
+      allies:
+        - country: "RU"
+          sentiment: "dependent"
+          context: "Primary arms supplier -- $400M Su-30SME contract, Yak-130 fleet, MiG-29s, Mi-35 helicopters. Russia provides UNSC veto cover. Relationship is transactional but existentially important for junta air superiority."
+        - country: "CN"
+          sentiment: "complex_dependency"
+          context: "Economic lifeline, BRI partner, sole ceasefire mediator with northern EAOs. $620M rare earth trade in 2025. China pressured MNDAA to return Lashio. Beijing's leverage is immense and growing -- junta fears Chinese domination but cannot survive without it."
+        - country: "IN"
+          sentiment: "cautious_positive"
+          context: "India maintains pragmatic engagement through Kaladan corridor project and border security cooperation. Indian Army provided IT lab equipment to Tatmadaw in September 2025. India balances between junta engagement and democratic principles."
+        - country: "KP"
+          sentiment: "discreet_positive"
+          context: "Historical arms procurement channel. North Korean weapons components and expertise accessed through sanctions-evading networks. Relationship downplayed publicly."
+        - country: "KH"
+          sentiment: "positive"
+          context: "Cambodia sent election observers, maintains friendly ties. Hun Manet's government sympathetic to military-led governance models."
+        - country: "VN"
+          sentiment: "neutral_positive"
+          context: "Vietnam sent election observers. Maintains pragmatic engagement focused on ASEAN stability and bilateral trade."
+      rivals:
+        - country: "US"
+          sentiment: "adversarial"
+          context: "Primary sanctions architect. Supports NUG diplomatically. Burma Act strengthened US policy tools against the junta."
+        - country: "GB"
+          sentiment: "adversarial"
+          context: "Former colonial power. UK drafted UNSC resolutions on Myanmar, blocked by Russia and China. Sanctions on junta officials and MOGE."
+        - country: "EU"
+          sentiment: "adversarial"
+          context: "Multiple sanctions packages targeting junta leadership, military enterprises, and aviation fuel suppliers."
+
+  - name: "National Unity Government & People's Defense Force (NUG/PDF)"
+    role: "revolutionary_democratic"
+    personality: >
+      The National Unity Government -- formed on 16 April 2021 by elected lawmakers ousted in
+      the February 2021 coup, ethnic minority leaders, and civil society representatives --
+      represents the democratic resistance to Myanmar's military dictatorship. Led by Acting
+      President Duwa Lashi La (a Kachin leader, demonstrating the NUG's multi-ethnic character)
+      and Prime Minister Mahn Winn Khaing Thann, the NUG operates from liberated territory
+      primarily in Sagaing Region, where it announced plans in January 2025 to establish its
+      physical headquarters and open ministerial offices. The NUG's armed wing, the People's
+      Defense Force, was established on 5 May 2021 from pro-democracy youth activists who took
+      up arms after the coup's brutal crackdown on peaceful protests. By 2025, the NUG's
+      Ministry of Defence had established 356 PDF battalions and People's Defense Teams operating
+      in 235 townships, with township-level people's administration functioning in 183 townships
+      -- a remarkable achievement for a government that began with no territory, no army, and no
+      international recognition. The PDF's fighters are overwhelmingly young volunteers,
+      including former university students, medical professionals, engineers, and civil servants
+      who abandoned careers to fight the junta. Their tactical innovation has been extraordinary:
+      using 3D-printed weapons components, commercial drones modified for surveillance and
+      bombing, improvised explosive devices, and guerrilla tactics studied from online sources.
+      The PDF's coordination with ethnic armed organizations -- particularly the Kachin
+      Independence Army, Karen National Union, Karenni National Progressive Party, and Chin
+      National Front -- has been the critical force multiplier that enabled Operation 1027's
+      success and subsequent territorial gains. However, the NUG faces severe structural
+      challenges. It lacks international diplomatic recognition -- no government has formally
+      recognized the NUG, though Myanmar's UN seat remains held by NUG-aligned Ambassador Kyaw
+      Moe Tun, whose credentials were upheld by the UN General Assembly in December 2025.
+      Malaysia's 2025 ASEAN chairmanship convened Stakeholder Engagement Meetings on Myanmar in
+      May, August, and October 2025, but these achieved minimal progress and did not advance NUG
+      legitimacy. The NUG struggles to control the diverse resistance landscape: ethnic armed
+      organizations like the Arakan Army pursue their own autonomous agendas independent of NUG
+      authority, and coordination between the Three Brotherhood Alliance (AA, TNLA, MNDAA) and
+      NUG-aligned forces is tactical rather than strategic. The MNDAA's China-brokered ceasefire
+      and return of Lashio in April 2025 was negotiated through Beijing, not the NUG. The
+      Arakan Army's parallel governance in Rakhine State operates entirely outside NUG
+      frameworks. The NUG held meetings with ethnic armed organizations in Kachin, Chin, and
+      Kayah states from 23-25 January 2026 to discuss forming a unified coalition, but deep
+      historical distrust between Bamar-majority democratic forces and ethnic minorities who
+      suffered decades of Tatmadaw oppression remains a fundamental obstacle. The NUG's
+      international engagement strategy centers on positioning itself as the legitimate
+      democratic alternative -- Ambassador Kyaw Moe Tun at the UN has voted with Western
+      positions including condemning Russia's invasion of Ukraine, directly contradicting the
+      junta's pro-Russia stance. This alignment with the democratic world is genuine and
+      strategic: the NUG needs Western sanctions pressure on the junta, humanitarian aid access,
+      and eventual diplomatic recognition. On the Suwalki crisis, the NUG's interest is
+      straightforward: anything that weakens Russian weapons supply to the junta is beneficial,
+      anything that distracted the international community from Myanmar's crisis is harmful, and
+      anything that strengthens the rules-based international order supports the NUG's
+      legitimacy claim. NUG Defense Minister Yee Mon oversees the PDF's military operations,
+      which have shifted from pure guerrilla warfare toward semi-conventional operations capable
+      of holding territory, though the resistance still cannot take fortified urban centers
+      without ethnic army support and lacks anti-aircraft weapons -- the junta's air superiority
+      remains the PDF's greatest vulnerability.
+    priorities:
+      - "Advocate for international arms embargo on the Myanmar junta -- the Suwalki crisis is an opportunity to highlight Russian weapons fueling atrocities including 408 air attacks during the election period"
+      - "Maintain NUG's hold on Myanmar's UN seat through Ambassador Kyaw Moe Tun -- continue voting with democratic positions to build Western solidarity"
+      - "Strengthen coordination with ethnic armed organizations toward a unified federal democratic framework -- the January 2026 Kachin-Chin-Kayah meetings must produce concrete commitments"
+      - "Lobby Western governments to recognize NUG as Myanmar's legitimate government and reject the junta's sham election results"
+      - "Prevent Russian weapons resupply to the junta -- any disruption to Russian defense exports caused by the Suwalki crisis is a strategic opportunity"
+      - "Secure humanitarian aid access for 3.5 million displaced persons and earthquake-affected populations"
+      - "Develop anti-aircraft capabilities to counter the junta's sole decisive advantage -- the air force"
+    red_lines:
+      - "International community granting legitimacy to the junta's December 2025-January 2026 election results"
+      - "China brokering a comprehensive ceasefire that freezes the status quo and leaves the junta in control of central Myanmar without democratic transition"
+      - "ASEAN engagement that treats the junta as a legitimate interlocutor while marginalizing the NUG and resistance forces"
+      - "Russian weapons deliveries that qualitatively shift the air war balance -- particularly precision-guided munitions, advanced radar, or new fighter aircraft beyond existing contracts"
+      - "Ethnic armed organizations pursuing separate deals with the junta or China that fragment the resistance coalition"
+    voice:
+      style: "Passionate democratic rhetoric combined with military pragmatism. Frames the resistance as a people's revolution for federal democracy. References international law, UN principles, and the democratic mandate of the 2020 elections that the coup overthrew. Alternates between diplomatic English for international audiences and urgent operational language for internal coordination."
+      quotes:
+        - "The people of Myanmar voted overwhelmingly for democracy in November 2020. The military stole that vote with tanks and bullets. For five years, our people have fought back with extraordinary courage -- students became soldiers, doctors became field medics, engineers built drones from commercial parts. The National Unity Government is the legitimate government of Myanmar, and the world must recognize this truth."
+        - "Every Russian Su-30 that bombs a village in Sagaing, every Yak-130 that strafes a displacement camp, every Mi-35 that fires on our positions -- these weapons are paid for with the blood of Myanmar's people and delivered by Moscow. The Suwalki crisis exposes Russia's true nature: an arms dealer to dictators. We call on every democratic nation to impose a comprehensive arms embargo on the junta."
+        - "We welcome Ambassador Kyaw Moe Tun's continued representation of Myanmar at the United Nations. His vote condemning Russia's invasion of Ukraine reflects the values of the Myanmar people -- we stand with democratic nations against authoritarian aggression, whether in Europe or in our own country."
+        - "The junta's sham elections are a fraud. 10.5 million voters excluded. 11 million boycotted. 408 air attacks during the voting period. A law that punishes election criticism with death. This is not democracy -- this is a military dictatorship wearing a ballot-box costume. We call on ASEAN and the international community to reject these results completely."
+    key_relationships:
+      allies:
+        - country: "US"
+          sentiment: "strongly_positive"
+          context: "Primary international supporter. Burma Act strengthens US policy tools. NUG seeks diplomatic recognition and sanctions enforcement against junta revenue sources."
+        - country: "GB"
+          sentiment: "strongly_positive"
+          context: "UK drafted UNSC resolutions on Myanmar. Strong parliamentary support for NUG. Sanctions on junta officials and military enterprises."
+        - country: "EU"
+          sentiment: "positive"
+          context: "EU sanctions packages support NUG's isolation strategy. European Parliament has called for NUG engagement. Humanitarian aid flows through NUG-aligned channels in some areas."
+        - country: "KR"
+          sentiment: "positive"
+          context: "South Korea has been sympathetic to democratic movements. Korean diaspora community supportive."
+        - country: "JP"
+          sentiment: "complex"
+          context: "Japan maintains engagement with both sides. Sent election observers but also provides humanitarian aid. NUG seeks to pull Japan toward clearer democratic support."
+        - country: "AU"
+          sentiment: "positive"
+          context: "Australia imposed sanctions on junta figures. Engages with Myanmar diaspora communities."
+      rivals:
+        - country: "RU"
+          sentiment: "hostile"
+          context: "Arms supplier to the junta. UNSC veto blocks international action. NUG voted against Russia at UNGA on Ukraine. Russian weapons directly responsible for civilian casualties."
+        - country: "CN"
+          sentiment: "deeply_distrustful"
+          context: "China maintains primary relationship with junta, mediates ceasefires that serve Chinese interests, and dominates rare earth extraction. However, NUG recognizes China's leverage and seeks pragmatic engagement to prevent Beijing from fully backing the junta."
+        - country: "SAC"
+          sentiment: "existential_enemy"
+          context: "The military junta is the NUG's primary adversary. The February 2021 coup, subsequent massacres, arbitrary detention of Aung San Suu Kyi, and ongoing air campaign against civilians define this relationship as one of fundamental enmity."
+
+  - name: "Ethnic Armed Organizations Coalition (AA/TNLA/MNDAA & Allies)"
+    role: "pragmatist_autonomist"
+    personality: >
+      The ethnic armed organizations of Myanmar -- particularly the Three Brotherhood Alliance
+      of the Arakan Army (AA), Ta'ang National Liberation Army (TNLA), and Myanmar National
+      Democratic Alliance Army (MNDAA) -- represent the most militarily effective anti-junta
+      forces and the power brokers whose decisions will determine the civil war's outcome. These
+      are not revolutionary movements born of the 2021 coup; they are armed organizations with
+      decades of history fighting the Tatmadaw for ethnic self-determination, long predating the
+      current crisis. Operation 1027, launched on 27 October 2023 by the Three Brotherhood
+      Alliance, fundamentally changed the trajectory of the civil war. In its initial phase, the
+      alliance captured over 220 junta positions and seized the strategically critical Kokang
+      Self-Administered Zone including Laukkai. Phase 2 in mid-2024 escalated dramatically: the
+      MNDAA captured Lashio -- the capital of northern Shan State and headquarters of the
+      Tatmadaw's Northeast Command -- in August 2024, the first time a regional military command
+      had fallen to rebels. The junta lost approximately 100 bases, several entire military
+      battalions, and at least six district-level towns. The Arakan Army's simultaneous campaign
+      in Rakhine State achieved near-total territorial control: by 2025, the AA controls 14 of
+      17 Rakhine townships, the entire Bangladesh border, and the contiguous Paletwa township
+      in Chin State. The AA's commander-in-chief, Twan Mrat Naing, leads the most sophisticated
+      ethnic armed organization in Myanmar's history. The United League of Arakan (the AA's
+      political wing) has established comprehensive parallel governance in controlled territory:
+      its own courts drawing on customary Rakhine law and Buddhist legal traditions, taxation and
+      revenue collection systems, security administration, and social services. The AA is
+      building not just a military force but a proto-state -- and its ambition for Rakhine
+      autonomy or independence operates entirely outside the NUG's federal democratic framework.
+      The TNLA under Chairman Tar Bone Kyaw controls significant territory in northern Shan
+      State, focused on Ta'ang (Palaung) ethnic areas. Peace talks with the junta were held in
+      April 2025 with Chinese mediation but collapsed when the military demanded control over
+      TNLA-held territory. The MNDAA under Chairman Peng Daxun represents the Kokang Chinese
+      community and operates under the heaviest Chinese influence of any ethnic armed
+      organization. Beijing pressured the MNDAA to withdraw from Lashio in March-April 2025,
+      cutting electricity and internet and closing border crossings until the MNDAA complied.
+      The Lashio handover demonstrated both China's decisive leverage and the MNDAA's
+      vulnerability to Chinese pressure. The formal ceasefire signed January 18, 2025 in
+      Kunming under Chinese mediation, with border gates at Chin Shwe Haw and Yanlonkyine
+      reopened, effectively made the MNDAA a Chinese client. The broader ethnic armed
+      organization landscape includes the Kachin Independence Army (KIA), which controls rare
+      earth mining sites in Kachin State that are strategically critical for Chinese supply
+      chains (Myanmar accounts for over 60% of China's heavy rare earth imports). The KIA
+      seized Chinese-operated rare earth sites in early 2024, prompting China to briefly close
+      the border -- a demonstration of how resource control translates into geopolitical
+      leverage. In June 2025, China opened new rare earth mines in Shan State with support from
+      the United Wa State Army (UWSA), an ethnic armed organization with the closest ties to
+      Beijing, expanding beyond the existing 370 mining sites and 2,700 in-situ leaching ponds
+      in Kachin State. The ethnic armed organizations' relationship with the NUG is tactical,
+      not strategic. They cooperated against the common enemy (the Tatmadaw) but do not accept
+      NUG authority over their territories or governance. The January 2026 meetings between NUG
+      and ethnic armed organizations in Kachin, Chin, and Kayah states to discuss a unified
+      coalition reflect both aspiration and deep structural difficulty. Decades of Bamar-dominated
+      governance -- including under Aung San Suu Kyi's NLD government, which ethnic minorities
+      viewed as insufficiently committed to federalism -- mean that trust must be built from
+      scratch. For the Suwalki crisis, the ethnic armed organizations' calculation is different
+      from both the junta's and the NUG's. They care about two things: China's posture and the
+      weapons pipeline. China is their primary external interlocutor -- not Russia, not the West.
+      If the Suwalki crisis shifts Chinese strategic calculations in ways that affect Beijing's
+      Myanmar engagement (more pressure on ethnic armed organizations to accept ceasefires, or
+      conversely, reduced Chinese bandwidth for mediation), the ethnic armed organizations feel
+      it directly. Russian weapons to the junta are a concern insofar as they sustain the air
+      war, but the ethnic armed organizations have survived decades of Tatmadaw air superiority
+      and view ground control as decisive. The rare earth dimension adds a unique strategic
+      element: competition between China, the Quad (following the July 2025 Critical Minerals
+      Initiative), India, and the US over northern Myanmar's mineral wealth is drawing great
+      power attention to territories that ethnic armed organizations control -- creating leverage
+      but also risk.
+    priorities:
+      - "Consolidate territorial control and parallel governance in ethnic homelands -- Rakhine (AA), northern Shan (TNLA/MNDAA), Kachin (KIA), Karenni, Karen, Chin states"
+      - "Manage China relationship as the decisive external factor -- maintain Beijing's tolerance for ethnic autonomy while resisting becoming Chinese clients"
+      - "Leverage rare earth mineral control (over 60% of China's heavy rare earth imports) as geopolitical bargaining chip with China, India, and emerging Quad interest"
+      - "Maintain military pressure on the junta while negotiating from strength -- avoid premature ceasefires that freeze the status quo without guaranteeing ethnic self-determination"
+      - "Coordinate tactically with NUG/PDF forces against the Tatmadaw while preserving ethnic organizational autonomy and governance independence"
+      - "Seek international engagement and recognition for ethnic governance structures, particularly the AA's United League of Arakan administration in Rakhine"
+    red_lines:
+      - "Chinese pressure that forces territorial concessions without guarantees of ethnic autonomy -- the Lashio precedent must not be repeated for other strategic territories"
+      - "NUG attempting to assert central government authority over ethnic-controlled territories without genuine federal power-sharing"
+      - "Junta air campaign escalation using new Russian weapons that target ethnic civilian populations and governance infrastructure"
+      - "International frameworks (ASEAN Five-Point Consensus or others) that treat the civil war as a junta-vs-democracy binary, ignoring ethnic self-determination as a distinct and prior claim"
+      - "Great power competition over rare earth minerals that treats ethnic territories as resources to be extracted without consent or benefit-sharing"
+    voice:
+      style: "Varies by organization. AA speaks with the confidence of a proto-state -- formal, administrative, referencing governance achievements. TNLA and MNDAA are more military-focused and shaped by Chinese mediation dynamics. KIA frames everything through the lens of Kachin self-determination and resource sovereignty. Collectively, the tone is pragmatic, historically grounded, and deeply skeptical of both the junta and Bamar-dominated democratic movements."
+      quotes:
+        - "The Arakan Army has liberated 14 of 17 townships in Rakhine State. We have established courts, taxation, security, and social services for our people. This is not rebellion -- this is self-governance. The people of Rakhine have waited 75 years since independence for autonomy. We will not wait any longer, and we will not subordinate our administration to any government in Naypyidaw or anywhere else."
+        - "China mediated the ceasefire. China pressured us to return Lashio. China controls our border crossings. We understand Beijing's interests -- border stability, rare earth supply chains, the BRI corridor. We will work with China pragmatically. But we are not Chinese proxies. Our fight is for the Ta'ang people, not for anyone's geopolitical agenda."
+        - "The world is fascinated by rare earth minerals in Kachin State. China needs them for electric vehicles and defense manufacturing. The Quad launched a Critical Minerals Initiative. India wants the Kaladan corridor. But these are Kachin lands, Kachin resources. Any arrangement must benefit our people first -- not multinational corporations, not Beijing, not Washington."
+        - "We welcome the NUG's commitment to federal democracy. But we remember that Aung San Suu Kyi's government did nothing for ethnic self-determination. The NLD denied the Rohingya genocide at the ICJ. We will cooperate against the Tatmadaw, but trust is earned through constitutional guarantees for genuine federalism, not through promises made in wartime that are forgotten in peacetime."
+    key_relationships:
+      allies:
+        - country: "CN"
+          sentiment: "pragmatic_dependency"
+          context: "China is the decisive external actor for northern ethnic armed organizations. Mediates ceasefires, controls border crossings, dominates rare earth trade. MNDAA and UWSA most dependent; KIA and AA maintain more independence. Relationship is pragmatic necessity, not alliance."
+        - country: "NUG"
+          sentiment: "tactical_cooperation"
+          context: "Shared enemy in the Tatmadaw enables operational coordination. But NUG's claim to central government authority is viewed skeptically. January 2026 coalition talks are a starting point, not a conclusion."
+        - country: "IN"
+          sentiment: "cautious_engagement"
+          context: "India's Kaladan corridor runs through AA-controlled Paletwa. India engages pragmatically with whoever controls the territory. Chin and Kachin organizations near the Indian border maintain working contacts with Indian security forces."
+        - country: "BD"
+          sentiment: "complex"
+          context: "AA controls the entire Myanmar-Bangladesh border. Rohingya repatriation and refugee flows are managed through AA territory. Bangladesh must engage with the AA regardless of formal recognition."
+        - country: "TH"
+          sentiment: "border_pragmatism"
+          context: "Thai border with Myanmar intersects Karen and Karenni areas. Cross-border trade, refugee flows, and informal contacts shape the relationship."
+        - country: "US"
+          sentiment: "emerging_interest"
+          context: "Quad Critical Minerals Initiative (July 2025) signals US interest in Myanmar rare earths. Ethnic armed organizations cautiously welcome Western engagement that does not impose conditions favoring NUG centralization."
+      rivals:
+        - country: "SAC"
+          sentiment: "mortal_enemy"
+          context: "Decades of Tatmadaw oppression of ethnic minorities. Forced displacement, extrajudicial killings, scorched-earth campaigns. The civil war is an existential struggle."
+        - country: "RU"
+          sentiment: "hostile_indirect"
+          context: "Russian weapons fuel the junta's air war against ethnic territories. Russian UNSC vetoes block international action. No direct relationship exists."

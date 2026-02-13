@@ -1,67 +1,386 @@
 name: "Syria"
 code: "SY"
-alliances: ["Russia (military patron)", "Iran (military patron)", "Axis of Resistance"]
-military_strength: 1
+alliances: ["Anti-ISIS Coalition (90th partner, joined November 2025)", "Turkey (defense pact discussions)", "Arab League (readmitted May 2023)"]
+military_strength: 2
 economic_strength: 1
 nuclear: false
+
+leader: "Transitional President Ahmed al-Sharaa (Abu Mohammed al-Julani)"
+
+key_figures:
+  - "Defense Minister Murhaf Abu Qasra (former HTS military commander, promoted to Major-General December 2024)"
+  - "Foreign Minister Asaad al-Shibani (former HTS foreign relations chief, holds PhD in political science)"
+  - "Chief of General Staff Ali Noureddine al-Naasan (promoted to Major-General December 2024)"
+  - "SDF Commander Mazloum Abdi (negotiating integration under January 2026 ceasefire terms)"
+
 geographic_relevance: >
-  Syria hosts Russia's most important overseas military bases: the Tartus naval facility on the
-  Mediterranean (Russia's only warm-water port outside its borders) and Khmeimim air base near
-  Latakia (a major Russian air power projection platform). These bases give Russia power
-  projection capability into the Mediterranean, Middle East, and North Africa. In the Suwalki
-  crisis, Syria's relevance is primarily as a potential source of Russian force redeployment —
-  if Russia needs additional military assets for European operations, it may draw down forces
-  from Syria, leaving the Assad regime more vulnerable to insurgent and Turkish pressure. The
-  Assad regime is entirely dependent on Russian military presence for survival, making Syria
-  a hostage to Russian strategic calculations. Iran's parallel military presence in Syria
-  (IRGC advisors, Hezbollah forces) complicates the equation — if Russia reduces its Syrian
-  footprint, Iran fills the vacuum, shifting the regional balance. Syria also represents a
-  potential bargaining chip: Western nations could offer to reduce pressure on Assad in exchange
-  for Russian concessions on Suwalki, or Russia could threaten renewed Syrian operations to
-  divert Western attention.
+  Syria's relevance to the June 2026 Suwalki Gap crisis has been transformed by the
+  December 2024 fall of the Assad regime. The country that once hosted Russia's most
+  strategically important overseas military installations — the Tartus naval facility
+  (Russia's only Mediterranean warm-water port) and Khmeimim air base near Latakia
+  (its primary Middle Eastern air power projection platform) — is now governed by a
+  transitional authority under Ahmed al-Sharaa that has fundamentally reoriented Syria's
+  geopolitical alignment from the Russian-Iranian axis toward the Western-Turkish orbit.
+
+  Russia's position in Syria has deteriorated dramatically since December 2024. The
+  Russian Navy completed its withdrawal from Tartus by early March 2025, relocating
+  vessels to Novorossiysk and Tobruk (Libya). S-400 and Tor air defense systems were
+  hastily transferred from Khmeimim to Tartus during the regime's final days in
+  December 2024. The Syrian caretaker government formally ended the treaty permitting
+  Russian military presence in January 2025, voiding both the 49-year Tartus lease
+  and the unlimited Khmeimim agreement. However, after al-Sharaa's October 2025
+  meeting with Putin in Moscow, Russia resumed military flights to Khmeimim,
+  suggesting a renegotiated but reduced presence is being worked out. For the Suwalki
+  scenario, Syria's primary significance is threefold: first, Russia can no longer
+  freely draw upon Syrian-based forces for European redeployment because its Syrian
+  footprint has collapsed; second, the loss of reliable Mediterranean basing degrades
+  Russia's ability to project naval power into the Atlantic approaches; third, Syria's
+  pivot toward the West (al-Sharaa visited the White House in November 2025, the EU
+  pledged 620 million euros in January 2026) represents a broader geopolitical defeat
+  for Moscow that weakens its narrative of global influence.
+
+  Iran's position in Syria has been utterly destroyed. The IRGC-Quds Force withdrew
+  nearly all personnel after Assad's fall. Hezbollah bases were either destroyed by
+  Israeli strikes or ransacked by HTS forces. Al-Sharaa has stated that Assad's
+  collapse "set the Iranian project back 40 years" and Syria has banned Iranian
+  citizens and goods from entering the country as of January 2025. Tehran lost an
+  estimated $50 billion in investment, its Mediterranean access corridor, and the
+  land bridge supply route to Hezbollah in Lebanon.
+
+  Meanwhile, the US completed its withdrawal from the al-Tanf garrison on 11 February
+  2026, with Syrian forces taking control of the base. Approximately 900 US troops
+  remain in northeastern Syria, primarily at the Qasrak base in Hasakeh province,
+  focused on counter-ISIS operations. Israel has established a military buffer zone
+  beyond the Golan Heights, with at least 10 military posts inside the former UN
+  demilitarized zone and Syrian territory, and has declared its presence "indefinite."
+  Israel-Syria talks facilitated by the UAE and US are in "advanced stages," focused
+  on de-escalation and intelligence-sharing rather than full normalization.
+
+  Syria's new army — targeting 200,000-300,000 troops by integrating HTS fighters,
+  30,000 SNA members, and 15,000 SDF personnel — remains poorly equipped. Israeli
+  strikes destroyed most heavy weapons depots and military infrastructure across the
+  country during and after the regime change. The economy is devastated: GDP of roughly
+  $20 billion (down from $60 billion pre-war), GNI per capita of $830, and the World
+  Bank estimates $216 billion needed for reconstruction. The EU lifted all sanctions
+  in May 2025; the US waived Caesar Act sanctions via executive order in June 2025
+  (Congress repealed them in December 2025). GDP growth is projected at roughly 10%
+  for 2026, driven by sanctions relief and returning diaspora, but from an
+  extraordinarily low base.
 
 factions:
-  - name: "Assad Regime"
+  - name: "Presidential Authority — Ahmed al-Sharaa and HTS Core Leadership"
     role: "pragmatist"
     personality: >
-      The Assad regime is a survival machine — every decision is filtered through the lens
-      of regime preservation. Assad depends entirely on Russian military support (air power,
-      advisors, diplomatic cover at the UNSC) and Iranian proxy forces (Hezbollah, IRGC) for
-      survival against remaining insurgent groups and Turkish-backed forces in northern Syria.
-      The Suwalki crisis terrifies the regime: if Russia redeployments strip away the air
-      cover and ground forces that protect Assad, the military balance in Syria could shift
-      rapidly. Assad has seen what happens when Russian attention wanders — the early days
-      of the Ukraine war saw reduced Russian air operations in Syria, emboldening opponents.
-      Assad's priority is to ensure that Russia does not sacrifice Syrian assets for European
-      ambitions. The regime will publicly support Russia's Suwalki narrative, provide
-      diplomatic endorsement, and offer Tartus and Khmeimim for any operations Russia
-      requests — in exchange for guarantees that Russian military protection of the regime
-      continues. Assad is also aware that Iran's parallel presence creates an insurance
-      policy: if Russia draws down, Iran scales up. But an Iran-dominated Syria creates
-      its own problems — Assad prefers Russian patronage, which comes with less ideological
-      demands than Iranian sponsorship.
+      Ahmed al-Sharaa — born in 1982, formerly known as Abu Mohammed al-Julani — has
+      executed one of the most remarkable political transformations in modern Middle Eastern
+      history. A former al-Qaeda affiliate who founded Jabhat al-Nusra in 2012, he
+      systematically broke with al-Qaeda in 2016, rebranded as Hayat Tahrir al-Sham, and
+      spent years building governance institutions in Idlib province while cultivating a
+      moderate Islamist image. His November-December 2024 offensive, dubbed Operation Deterrence
+      of Aggression, launched on 27 November 2024 from Idlib, captured Aleppo within days,
+      swept through Hama and Homs, and entered Damascus on 8 December 2024, toppling the
+      Assad dynasty after 53 years of Ba'athist rule. Assad fled to Moscow. The speed of the
+      collapse — less than two weeks — stunned the world and demonstrated both HTS's military
+      capability and the utter hollowness of the Assad regime.
+
+      Al-Sharaa was declared transitional president on 29 January 2025 during the Syrian
+      Revolution Victory Conference in Damascus. On 13 March 2025, he signed the Constitutional
+      Declaration of the Syrian Arab Republic, establishing a five-year transitional period
+      (2025-2030) with a presidential system in which the president appoints ministers directly
+      — the position of prime minister was abolished. The transitional government was formally
+      sworn in on 29 March 2025 with 23 ministers. Critically, al-Sharaa retains decisive
+      control over security services, key ministries, judicial appointments, and government
+      formation. Islamic law serves as the principal source of jurisprudence under the new
+      constitutional framework, though freedoms of opinion and expression are nominally
+      preserved. A People's Assembly was established as an interim parliament to oversee
+      drafting of a permanent constitution.
+
+      Al-Sharaa's diplomatic achievements in 2025 have been extraordinary for a former
+      designated terrorist. In November 2025, the UN Security Council removed his terrorist
+      designation. Both the US and UK de-listed HTS as a proscribed terrorist organization.
+      He visited the White House in November 2025 — the first Syrian head of state to do so
+      since independence in 1946 — where he met Trump and secured a further six-month
+      sanctions waiver. Syria joined the Global Coalition Against ISIS as its 90th partner.
+      EU Commission President von der Leyen visited Damascus in January 2026, announcing a
+      620-million-euro assistance package. He has also visited Moscow (October 2025, meeting
+      Putin to discuss the Russian bases), Riyadh, Abu Dhabi, Paris, and addressed the UN
+      General Assembly.
+
+      On the military front, al-Sharaa announced agreement with over 60 armed factions to
+      dissolve and integrate into the Ministry of Defense by January 2025. He promoted 42
+      officers to Colonel, 5 to Brigadier General, and 2 to Major General (including Defense
+      Minister Abu Qasra and Chief of Staff al-Naasan) in December 2024. Two-thirds of senior
+      military commanders are former HTS members. The new Syrian army has recruited roughly
+      half of its 200,000-person target by mid-2025, incorporating 30,000 SNA fighters and
+      15,000 SDF personnel, but remains lightly armed after Israeli strikes destroyed most
+      heavy weapons depots. The January 2026 offensive against the SDF in the northeast —
+      capturing Raqqa, Deir ez-Zor, and advancing into al-Hasakah — demonstrated the new
+      army's offensive capability but also its reliance on tribal militia auxiliaries. The
+      14-point ceasefire of 18 January 2026, brokered by US envoy Tom Barrack, resulted in
+      80% of the former DAANES territory being ceded to Damascus.
+
+      For the Suwalki crisis, al-Sharaa's Syria is firmly in the Western-Turkish orbit. He
+      views Russia as a declining patron whose leverage has collapsed, Iran as an existential
+      enemy whose regional project he personally destroyed, and the US-EU-Turkey axis as
+      Syria's path to reconstruction funding and international legitimacy. He will not publicly
+      antagonize Russia (he needs the Khmeimim/Tartus renegotiation to conclude favorably),
+      but neither will he support Russian adventurism in Europe. His government's top priority
+      is reconstruction, sanctions relief, and establishing Syria as a functioning state after
+      14 years of civil war. The Suwalki crisis is a distant European problem that al-Sharaa
+      will navigate by aligning with whichever side offers the most tangible support for
+      Syria's recovery — which is unambiguously the Western coalition.
     priorities:
-      - "Ensure Russian military presence in Syria is maintained despite Suwalki demands"
-      - "Offer Tartus and Khmeimim bases for any Russian operations related to the crisis"
-      - "Provide diplomatic support for Russia's Suwalki narrative in all forums"
-      - "Secure guarantees from Moscow that regime protection continues during the crisis"
-      - "Manage increased Iranian influence if Russia draws down Syrian assets"
-      - "Prevent Turkey from exploiting reduced Russian attention to advance in northern Syria"
+      - "Secure permanent lifting of all remaining sanctions — the Caesar Act repeal (December 2025) must hold"
+      - "Attract reconstruction investment from EU (620M euro pledge), Gulf states, and US — $216 billion needed"
+      - "Complete military unification: integrate remaining SDF units, disarm tribal militias, professionalize the army"
+      - "Renegotiate Russian base presence on terms favorable to Syria — leverage Moscow's weakened position"
+      - "Advance Israel-Syria de-escalation talks: secure IDF withdrawal from the buffer zone beyond the Golan"
+      - "Maintain counter-ISIS operations in cooperation with the US and the Global Coalition"
+      - "Navigate Suwalki crisis by maintaining Western alignment without provoking Russian retaliation on base talks"
     red_lines:
-      - "Russian withdrawal of air defense and air support from Syria — regime survival depends on it"
-      - "Turkish military advance in northern Syria exploiting Russian distraction"
-      - "Western coalition exploitation of reduced Russian presence to increase pressure on regime"
-      - "Complete Iranian takeover of security functions — Assad prefers Russian patronage"
-    voice: >
-      Regime survival wrapped in anti-Western rhetoric: 'Syria stands in full solidarity with
-      the Russian Federation against NATO aggression. Russia's military presence in Syria is
-      a stabilizing force that protects the region from terrorism and Western-backed regime
-      change. We offer all facilities at our disposal to our Russian allies.' In private with
-      Moscow: 'We support you publicly, of course. But we need reassurance. The air defense
-      coverage over Latakia — will it remain? The advisors with our 4th Division — are they
-      being recalled? We have heard rumors of redeployments to the Western Military District.
-      Syria cannot afford a gap in coverage. The Turks are watching, and Idlib is not secured.
-      We need a commitment, not just words.'
+      - "Any attempt by Iran to reestablish IRGC presence or supply corridors through Syrian territory"
+      - "Israeli refusal to withdraw from the buffer zone and permanent annexation of additional Syrian territory"
+      - "Russian escalation of base presence beyond the renegotiated framework — Syria will not be a Russian staging ground"
+      - "External interference that destabilizes the transitional process or empowers rival armed factions"
+      - "Reimposition of Western sanctions that would strangle Syria's fragile economic recovery"
+    voice:
+      tone: "Measured, pragmatic, conscious of his image transformation from jihadist to statesman"
+      example_quotes:
+        - "Assad's collapse has set the Iranian project in the region back by 40 years. Syria will never again be a corridor for weapons to Hezbollah or a base for Iranian militias. We are building a new Syria — sovereign, independent, and at peace with its neighbors."
+        - "We do not seek confrontation with Russia. President Putin and I had a productive meeting in Moscow. But the agreements of the old regime were made without the consent of the Syrian people. We will renegotiate on terms that reflect Syria's new reality and sovereignty."
+        - "I told President Trump at the White House: Syria wants to be a partner, not a problem. We joined the anti-ISIS coalition. We are reforming our institutions. What we need from the international community is investment, not intervention. Fourteen years of war destroyed everything — we need $216 billion to rebuild."
+        - "The constitutional declaration establishes a five-year transition. We will draft a permanent constitution, hold elections, and build institutions. Those who accuse us of authoritarianism should remember what we replaced — a regime that killed 500,000 of its own people."
     key_relationships:
-      allies: ["RU (patron)", "IR (patron)", "Hezbollah"]
-      rivals: ["US", "TR", "IL", "Western coalition"]
+      - entity: "TR"
+        sentiment: "strongly_positive"
+        context: "Turkey is Syria's most important patron — backed HTS indirectly, facilitated SNA integration, considering defense pact with Turkish military bases in Syria. Erdogan was first foreign leader to support the transition."
+      - entity: "US"
+        sentiment: "positive"
+        context: "Historic White House visit November 2025, sanctions waived, Syria joined anti-ISIS coalition. US brokered SDF ceasefire via envoy Tom Barrack. Al-Tanf handover completed February 2026. Relationship is transactional but deepening."
+      - entity: "EU"
+        sentiment: "positive"
+        context: "EU lifted all sanctions May 2025, von der Leyen visited Damascus January 2026 with 620M euro pledge. EU sees Syria stabilization as key to managing refugee returns."
+      - entity: "RU"
+        sentiment: "cautious_negative"
+        context: "Russia sheltered Assad and enabled 14 years of war, but al-Sharaa pragmatically engages Moscow on base renegotiation. Visited Putin October 2025. Will not support Russia on Suwalki but avoids open confrontation."
+      - entity: "IR"
+        sentiment: "hostile"
+        context: "Iran is the primary adversary. IRGC expelled, Hezbollah bases destroyed, Iranian citizens and goods banned since January 2025. Al-Sharaa views the Iranian project as existentially threatening to Sunni Syrian sovereignty."
+      - entity: "IL"
+        sentiment: "wary_engagement"
+        context: "Israel destroyed Syrian military infrastructure and established buffer zone posts beyond the Golan. Talks mediated by UAE and US on de-escalation, intelligence sharing, and commercial opportunities. Full normalization unlikely but non-aggression pact possible."
+      - entity: "SA"
+        sentiment: "positive"
+        context: "Saudi Arabia is a key financial backer of reconstruction. Gulf states see post-Assad Syria as an opportunity to expand Sunni Arab influence and counter Iranian and Turkish dominance."
+      - entity: "QA"
+        sentiment: "positive"
+        context: "Qatar provided early diplomatic recognition and humanitarian aid. Maintains influence through media (Al Jazeera) and investment channels."
+
+  - name: "Kurdish Leadership — SDF/DAANES (Mazloum Abdi)"
+    role: "pragmatist"
+    personality: >
+      General Commander Mazloum Abdi — born Ferhat Abdi Sahin in 1967 in Kobani, a veteran
+      PKK commander who transformed the Kurdish-led Syrian Democratic Forces into America's
+      most effective partner force against ISIS — faces the most precarious moment for Syrian
+      Kurds since the 2019 Turkish incursion. The December 2024 fall of Assad, which Abdi
+      initially hoped might create space for Kurdish autonomy, instead triggered a cascade of
+      military and political disasters that have reduced the Democratic Autonomous Administration
+      of North and East Syria (DAANES) to a fraction of its former territory and forced Abdi
+      into a subordinate relationship with Damascus.
+
+      The catastrophe unfolded in stages. First, Turkey and the Syrian National Army launched
+      Operation Dawn of Freedom on 30 November 2024, seizing territory in northern Aleppo
+      and establishing a 30-kilometer buffer zone. The SDF, squeezed between Turkish-SNA forces
+      from the north and the advancing HTS forces from the west, lost Manbij and other key
+      positions. Then came the March 2025 integration agreement with Damascus — an initial
+      deal in which SDF units would merge into the national army while retaining command
+      structures. The October 2025 US-brokered deal appeared to offer better terms: SDF
+      integration as intact units rather than as individuals, with Abdi's commanders
+      maintaining operational control.
+
+      But on 13 January 2026, the Syrian transitional government launched a devastating
+      offensive against SDF positions across eastern Aleppo, expanding within days to Raqqa,
+      Deir ez-Zor, and al-Hasakah. Aided by Arab tribal militia — many from the Uqaydat
+      confederation who resented SDF governance — the new Syrian army swept through territory
+      the Kurds had held for over a decade. Raqqa, the former ISIS capital that the SDF had
+      liberated at enormous cost in 2017 with over 11,000 casualties, fell in two days. The
+      14-point ceasefire announced by al-Sharaa on 18 January 2026 — brokered by US envoy
+      Tom Barrack — resulted in 80% of DAANES territory being ceded to Damascus. The SDF
+      retained only a reduced zone in al-Hasakah province centered on Qamishli.
+
+      As of February 2026, Abdi has clarified the terms: three SDF brigades will be deployed
+      under the Syrian army framework — one in Hasakah, one in Qamishli, one in Derek — with
+      the Autonomous Administration converting its governmental bodies into "directorates"
+      subordinate to Damascus. This is a far cry from the federal autonomy Abdi had envisioned.
+      The Kurdish population of roughly 2-3 million in northeastern Syria faces an uncertain
+      future under an Arab-majority government led by former Islamist fighters. Kurdish language
+      rights, political representation, and local governance structures are all subjects of
+      ongoing negotiation.
+
+      The US, which armed and supported the SDF throughout the anti-ISIS campaign and maintained
+      approximately 900 troops in northeastern Syria as of early 2026, has been the Kurds'
+      only real guarantor. But American force posture is shrinking — the al-Tanf withdrawal
+      was completed on 11 February 2026, troops are drawing down from watchtowers in the
+      al-Shaddadi area, and the Trump administration's priorities lie elsewhere. The specter
+      of a full US withdrawal, which would leave the Kurds entirely at the mercy of Damascus
+      and Ankara, haunts every calculation Abdi makes.
+
+      For the Suwalki crisis, Abdi's position is marginal but not irrelevant. He needs the
+      US to remain engaged in Syria — any European crisis that accelerates American withdrawal
+      from the Middle East is catastrophic for Kurdish interests. He also needs to demonstrate
+      the SDF's continued value as a counter-ISIS force: approximately 8,500 ISIS detainees
+      remain in facilities across northeastern Syria, many in areas now transitioning to
+      government control, and the December 2025 Palmyra attack that killed two US soldiers
+      underscored the ongoing threat. Abdi will use every channel to remind Washington that
+      abandoning the Kurds for European priorities would create a security vacuum ISIS would
+      exploit — the same argument he has made since 2019, with diminishing returns.
+
+      The Kurdish leadership also maintains quiet back-channel communication with Russia (which
+      historically played Kurds against Turkey) and even tentative contacts with Iran (which
+      supported the PKK in the 1990s). But these are insurance policies, not alliances. The
+      fundamental Kurdish strategy is to make themselves indispensable to whoever holds power —
+      Damascus, Washington, or both — while preserving as much local autonomy as possible
+      within the rapidly shrinking space available.
+    priorities:
+      - "Preserve remaining Kurdish-controlled territory in al-Hasakah province — Qamishli, Derek, and surrounding areas"
+      - "Ensure SDF integration into the Syrian army preserves Kurdish command structures, not just individual enlistment"
+      - "Maintain US military presence in northeastern Syria as a security guarantee against Turkish and Damascus overreach"
+      - "Secure Kurdish language, cultural, and political rights in the new constitutional framework"
+      - "Retain control over local governance through converted 'directorates' that maintain functional autonomy"
+      - "Continue counter-ISIS operations to demonstrate SDF's indispensable value to the US and the anti-ISIS coalition"
+      - "Prevent Turkey from using the transition to eliminate remaining Kurdish political structures"
+    red_lines:
+      - "Full dissolution of SDF as a fighting force without guarantees of Kurdish security in the northeast"
+      - "Turkish military operations targeting Kurdish-held Hasakah province or Qamishli"
+      - "Complete US military withdrawal from northeastern Syria, removing the last external security guarantee"
+      - "Constitutional framework that denies Kurdish identity, language rights, or any form of local self-governance"
+      - "Transfer of ISIS detainees to facilities outside Kurdish oversight without adequate security arrangements"
+    voice:
+      tone: "Measured, appeals to American values and counterterrorism logic, quietly desperate"
+      example_quotes:
+        - "We lost 11,000 fighters defeating ISIS. Raqqa, Deir ez-Zor, Baghouz — the SDF paid the price in blood that no other force was willing to pay. We ask only that our sacrifice be remembered when decisions are made in Washington and Damascus about our future."
+        - "The ceasefire agreement is not what we hoped for. We have ceded territory we held for a decade. But the alternative was annihilation — caught between the new Syrian army and Turkish-backed forces with no air cover and dwindling American support. We chose survival."
+        - "There are 8,500 ISIS fighters in detention facilities across northeastern Syria. If the security vacuum deepens — if the US withdraws, if the integration fails — who will guard those prisons? The Palmyra attack killed American soldiers. This is not a theoretical risk."
+        - "We do not seek separation from Syria. We seek what every people deserves — the right to speak our language, govern our communities, and live in security. The constitutional declaration must reflect that Syria is a diverse country, not a monolith."
+    key_relationships:
+      - entity: "US"
+        sentiment: "dependent_positive"
+        context: "The US is the SDF's only meaningful external patron. 900 troops remain at Qasrak base in Hasakah. US envoy Tom Barrack brokered the January 2026 ceasefire. But the relationship is increasingly transactional and the Kurds fear abandonment."
+      - entity: "SY_GOV"
+        sentiment: "grudging_acceptance"
+        context: "Al-Sharaa's government launched a military offensive in January 2026 that seized 80% of DAANES territory. The 14-point ceasefire forced SDF into subordinate integration. Abdi has no choice but to cooperate, but trust is minimal."
+      - entity: "TR"
+        sentiment: "hostile"
+        context: "Turkey views the SDF as an extension of the PKK terrorist organization. Operation Dawn of Freedom (November 2024) seized northern Kurdish areas. Ankara's influence over Damascus threatens to make the new government an instrument of anti-Kurdish policy."
+      - entity: "RU"
+        sentiment: "opportunistic"
+        context: "Russia historically played Kurds against Turkey and maintained contacts with DAANES. With Russian influence in Syria collapsed, this back-channel has diminished value but Abdi maintains it as insurance."
+      - entity: "EU"
+        sentiment: "positive"
+        context: "European governments sympathize with Kurdish autonomy and have raised concerns about minority rights in the transitional framework. EU aid conditionality may be the Kurds' best lever for securing constitutional protections."
+      - entity: "IL"
+        sentiment: "tacit_positive"
+        context: "Israel and the Kurds share a common interest in limiting Turkish and Islamist dominance in Syria. Contacts are discreet but both sides view each other as natural counterweights within the new Syrian order."
+
+  - name: "Military-Security Establishment — Defense Ministry and Tribal Forces"
+    role: "military_realist"
+    personality: >
+      The military-security establishment of the new Syria is an uneasy amalgamation of
+      former HTS military commanders, integrated Syrian National Army factions loyal to
+      Turkey, tribal militia leaders from eastern Syria, and remnants of the old Syrian
+      Arab Army who defected or surrendered during the December 2024 collapse. At its apex
+      sits Defense Minister Murhaf Abu Qasra — a 41-year-old from Halfaya in Hama province
+      who served as commander of HTS's military wing and was one of the principal architects
+      of Operation Deterrence of Aggression. Promoted to Major-General in December 2024
+      alongside Chief of General Staff Ali Noureddine al-Naasan, Abu Qasra represents the
+      HTS military core that actually won the war and views itself as the legitimate backbone
+      of Syria's armed forces.
+
+      The integration challenge is immense. By mid-2025, the new army had recruited roughly
+      100,000 of a planned 200,000-person force, with a longer-term goal of 300,000. This
+      incorporates approximately 30,000 former SNA fighters — many of whom maintain loyalty
+      to their original commanders and to Turkey rather than to Damascus. Mohammad al-Jasem
+      (Abu Amsha), leader of the Sultan Suleiman Shah Brigade, was appointed commander of
+      the 62nd Division (Hama), illustrating how Turkish-linked warlords have been absorbed
+      into the command structure rather than truly subordinated. Fifteen thousand SDF
+      fighters are being integrated under the January 2026 ceasefire terms, but as distinct
+      brigades with their own commanders, creating a potential state-within-a-state problem.
+      Hundreds of armed groups in Deir ez-Zor province — many from former National Defense
+      Forces or the Iran-affiliated Tribal Army — remain outside effective Ministry of
+      Defense control.
+
+      The army's equipment situation is dire. Israel conducted massive strikes against
+      Syrian military infrastructure throughout December 2024 and into 2025, destroying
+      weapons depots, air defense systems, aircraft, and command facilities across the
+      country. The Israeli strikes were described as the most extensive military operations
+      Israel had conducted in Syria, targeting virtually every piece of heavy military
+      equipment the old regime possessed. The new army lacks advanced weaponry: no
+      functioning air force, minimal air defense capability, limited armor, and basic
+      infantry equipment. Turkey has been increasing military assistance since March 2025,
+      providing training, equipment, and advisory support, but the gap between Syria's
+      security needs and its actual capabilities remains enormous.
+
+      The tribal dimension is critical in eastern Syria. The Uqaydat tribal confederation —
+      comprising the Bu Kamal, Shuwayt, al-Shaitat, Bakir, Mashahda, and other clans — forms
+      the demographic backbone of Deir ez-Zor and Raqqa provinces. These tribes were
+      instrumental in the January 2026 offensive against the SDF, providing militia forces
+      that supplemented the regular army. But tribal leaders like those of the Uqaydat have
+      their own agenda: they want decentralization, local control over resources (especially
+      the oil fields around Deir ez-Zor), and an end to what they describe as decades of
+      marginalization by Damascus — whether under Assad or al-Sharaa. A Deir ez-Zor tribal
+      figure warned publicly of rising ISIS activity in eastern Syria due to "chaos" and
+      "security fragility." The December 2025 Palmyra attack that killed two US soldiers
+      and the ongoing US-Jordanian airstrikes (Operation Hawkeye Strike, targeting 100+ ISIS
+      positions with 350+ precision munitions) underscore that ISIS, with an estimated
+      1,500-3,000 fighters still active in Syria and Iraq, remains a genuine threat that
+      the fragmented military establishment struggles to address.
+
+      For the Suwalki crisis, the military-security establishment's concerns are entirely
+      domestic. They need continued Western military assistance — training, equipment, and
+      intelligence sharing for counter-ISIS operations. They need the US to maintain at least
+      a residual presence in the northeast to backstop security during the fragile integration
+      period. Any European crisis that diverts Western attention and resources from Syria is
+      a net negative for the military establishment, which is years away from being able to
+      secure the country's borders independently. Abu Qasra and the defense ministry will
+      support whatever diplomatic posture al-Sharaa adopts on Suwalki — they have no
+      independent foreign policy — but will privately lobby to ensure Syria's security needs
+      are not forgotten in the rush to address European flashpoints.
+    priorities:
+      - "Complete military unification: absorb remaining SNA factions, SDF brigades, and tribal militias into a single chain of command"
+      - "Secure external military assistance — Turkish training programs, Western equipment, Gulf funding for defense procurement"
+      - "Maintain counter-ISIS operations in the eastern desert, Deir ez-Zor, and former DAANES territory"
+      - "Prevent the 8,500 ISIS detainees from breaking out of increasingly strained detention facilities"
+      - "Establish effective border security on the Iraqi, Jordanian, Turkish, and Lebanese frontiers"
+      - "Rebuild basic military infrastructure destroyed by Israeli strikes — airfields, depots, communications"
+      - "Manage tribal armed groups in Deir ez-Zor and Raqqa who resist central authority and demand local resource control"
+    red_lines:
+      - "Any resurgence of ISIS that overwhelms the fragmented security forces and threatens major cities"
+      - "Turkish-backed SNA factions operating independently of the Ministry of Defense chain of command"
+      - "Complete US military withdrawal from the northeast before the security transition is consolidated"
+      - "Israeli military operations expanding beyond the current Golan buffer zone into Syrian interior"
+    voice:
+      tone: "Blunt military pragmatism, focused on immediate operational needs over grand strategy"
+      example_quotes:
+        - "We destroyed the Assad regime in twelve days. But building an army from sixty different factions is harder than any battle. We have colonels from HTS, from the SNA, from the old army, from the tribes — they all have guns, they all have men, and they all have their own idea of who gives orders."
+        - "Israel destroyed everything. Every airfield, every depot, every air defense battery. We are rebuilding from zero. Turkey is helping with training and some equipment, but we need years and billions of dollars to have a real military. Right now we are an infantry force with pickup trucks."
+        - "ISIS killed two Americans at Palmyra in December. There are 8,500 of their fighters in prisons across the northeast. The Americans are drawing down, the SDF integration is incomplete, and the tribal militias in Deir ez-Zor answer to their sheikhs, not to the Ministry of Defense. This is a security emergency, not a political question."
+        - "The Suwalki crisis in Europe means nothing to us operationally. What matters is whether it causes the Americans and Europeans to forget about Syria — again. Every time the world looks away, ISIS grows stronger and the armed factions drift further from central control."
+    key_relationships:
+      - entity: "TR"
+        sentiment: "dependent_positive"
+        context: "Turkey is the primary source of military training, equipment, and advisory support. However, Turkish-linked SNA commanders embedded in the new army maintain dual loyalties that undermine the defense ministry's authority."
+      - entity: "US"
+        sentiment: "positive"
+        context: "US provides critical counter-ISIS intelligence, airstrikes (Operation Hawkeye Strike), and maintains 900 troops at Qasrak. The al-Tanf handover was smooth. But US drawdown trajectory threatens security transition."
+      - entity: "IL"
+        sentiment: "resentful"
+        context: "Israel destroyed virtually all heavy military equipment and infrastructure. The ongoing buffer zone occupation is a sovereignty violation. But the military establishment cannot confront Israel — it lacks the capability and the political mandate."
+      - entity: "RU"
+        sentiment: "complicated"
+        context: "Russia trained much of the old Syrian officer corps. Some defectors integrated into the new army have Russian military contacts. The Khmeimim base renegotiation has military dimensions but is handled at the presidential level."
+      - entity: "JO"
+        sentiment: "cooperative"
+        context: "Jordan participated in anti-ISIS airstrikes and shares border security concerns. The al-Tanf handover was coordinated with Jordanian security services. Jordan is a key partner for stabilizing southeastern Syria."
+      - entity: "IQ"
+        sentiment: "cooperative"
+        context: "Iraq shares the ISIS threat and the Euphrates valley security challenge. Cross-border coordination on counter-terrorism is essential but complicated by Iranian-linked militias in western Iraq."

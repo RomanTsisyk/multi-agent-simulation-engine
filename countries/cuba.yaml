@@ -1,64 +1,409 @@
 name: "Cuba"
 code: "CU"
-alliances: ["Russia (historic ally)", "Venezuela", "ALBA", "Non-Aligned Movement"]
-military_strength: 2
-economic_strength: 1
+government: "One-party socialist republic; Communist Party of Cuba (PCC) is constitutionally supreme (Article 5); President Miguel Diaz-Canel serves as head of state and First Secretary of the PCC"
+alliances: ["Russia (Comprehensive Military Cooperation Agreement, March 2025)", "China (Belt and Road partner, SIGINT host)", "Venezuela (ALBA-TCP, oil supplier)", "ALBA-TCP", "Non-Aligned Movement", "Belarus (defense cooperation pact, January 2024)"]
+military_strength: 2  # ~50,000 active duty; aging Soviet equipment; no power projection; MiG-29s inoperable; primary value is intelligence hosting and geographic position
+economic_strength: 1  # GDP contracting ~1.5% in 2025; severe energy/food crisis; peso at 500/USD informal; tourism down 72%; worst crisis since 1990s Special Period
 nuclear: false
+
+leader: "President Miguel Diaz-Canel Bermudez (President since 2019, PCC First Secretary since April 2021 — first non-Castro leader since 1959 revolution)"
+
+key_figures:
+  - "Prime Minister Manuel Marrero Cruz (reappointed April 2023; manages economic reform agenda)"
+  - "Defense Minister General Alvaro Lopez Miera (appointed April 2021; regime's top military strategist; Raul Castro loyalist; signed Belarus defense pact January 2024)"
+  - "Interior Minister Lazaro Alvarez Casas (controls internal security, political repression apparatus)"
+  - "Foreign Minister Bruno Rodriguez Parrilla (leads anti-embargo diplomacy at UN and multilateral forums)"
+  - "Raul Castro Ruz (91, retired but retains influence as revolutionary patriarch; controls military networks through GAESA and loyalists)"
+
+recent_operations:
+  - "S-125 Pechora-2BM modernization (May 2025): upgraded Soviet-era SAMs to mobile Pechora-2BM variant with Belarusian ALEVKURP assistance; mounted on T-55 chassis; four successful test firings"
+  - "Russia military cooperation agreement (March 2025): signed in Havana and Moscow; ratified by Russian parliament October 2025; includes 1.64 million tons petroleum annually and intelligence sharing"
+  - "Chinese SIGINT facilities expansion: four sites identified by CSIS — Bejucal, Wajay, Calabazar (near Havana) and El Salao (near Santiago); CDAA antenna construction at Bejucal accelerating as of April 2025"
+  - "Cuban fighters in Ukraine: estimated 5,000-20,000 Cubans recruited to fight for Russia since 2022; Ukraine closed Havana embassy October 2025 over 'fighter pipeline'; largest foreign mercenary contingent in Russian army"
+  - "January 2025 prisoner release: 553 prisoners released following Vatican-US-Cuba negotiations; ~200 were political prisoners from July 11, 2021 protests; many re-arrested or face severe restrictions"
+  - "Russian warship visits (2024): two squadrons visited Havana — June 2024 (including nuclear-powered submarine) and July 2024 (three warships); demonstrating Russian Caribbean presence"
+
+strategic_challenges:
+  - "Catastrophic energy crisis: oil imports down 35% in 2025; blackouts exceeding 20 hours daily; jet fuel suspended at airports; only 15-20 days of oil reserves as of January 2026"
+  - "Food insecurity: 70% of Cubans skip daily meals (OCDH survey June-July 2025); dependent on imports for basic grains; agricultural production collapsed"
+  - "Mass emigration: ~1.4 million people left between 2019-2024; population declining; brain drain devastating all sectors"
+  - "Currency collapse: peso at 500 CUP/USD on informal market (February 2026) vs. 24 CUP/USD official rate; triple exchange rate system creates economic distortion"
+  - "Venezuelan oil reduction: PDVSA shipments fell 42% in 2024 and continued declining in 2025 to ~27,000 bpd; US sanctions on Venezuela tankers further restricting supply"
+  - "Trump administration escalation (January 2026): national emergency declared; tariff framework targeting countries supplying oil to Cuba; state sponsor of terrorism designation maintained"
+  - "GAESA contradiction: military conglomerate holds $18 billion in foreign accounts while population starves; controls 40% of production and trade; exempt from audits"
+
 geographic_relevance: >
-  Cuba sits 90 miles from the US coast, giving it outsized strategic significance relative to
-  its modest military and economic capabilities. During the Cold War, Cuba was the Soviet
-  Union's most important Western Hemisphere ally, and the 1962 Cuban Missile Crisis remains
-  the closest the world has come to nuclear war. While Russia's post-Soviet relationship with
-  Cuba diminished, it has been rebuilt since 2014 — Russian intelligence ships visit Havana
-  harbor, signals intelligence facilities reportedly resumed operations, and Russia has provided
-  economic and military assistance. In the Suwalki crisis, Cuba's relevance is primarily as
-  a Russian intelligence and signaling platform in the US's backyard: Russian electronic
-  intelligence gathering from Cuba can monitor US military communications and force movements;
-  Russia could announce enhanced military cooperation with Cuba as a pressure signal to
-  Washington; and Cuba provides diplomatic support in international forums. The mere possibility
-  of Russian military escalation in the Caribbean forces US Southern Command to maintain
-  readiness, diverting attention from European operations.
+  Cuba sits 90 miles from the Florida coast, giving it outsized strategic significance relative
+  to its modest military and economic capabilities. During the Cold War, Cuba was the Soviet
+  Union's most important Western Hemisphere ally, and the 1962 Cuban Missile Crisis remains the
+  closest the world has come to nuclear war. In 2024-2026, Cuba has once again become a
+  convergence point for Russian and Chinese intelligence operations targeting the United States.
+
+  RUSSIAN INTELLIGENCE AND MILITARY PRESENCE: The March 2025 Russia-Cuba Comprehensive Military
+  Cooperation Agreement — ratified by Moscow in October 2025 — provides the legal framework for
+  expanded Russian military activities including intelligence sharing, naval visits, and arms
+  transfers. Russian warships visited Havana twice in 2024 (June and July), including a
+  nuclear-powered submarine, explicitly demonstrating Moscow's ability to project power into the
+  Caribbean. Russian electronic intelligence gathering from Cuban territory can monitor US military
+  communications, SOUTHCOM operations, and submarine traffic through the Florida Straits and Gulf
+  of Mexico. The agreement also includes Russian provision of 1.64 million tons of petroleum
+  annually — a lifeline for Cuba's energy-starved economy and the primary mechanism by which
+  Moscow purchases Havana's strategic cooperation.
+
+  CHINESE SIGINT INFRASTRUCTURE: The Center for Strategic and International Studies (CSIS) has
+  identified four Chinese signals intelligence facilities on Cuban soil — Bejucal, Wajay, and
+  Calabazar near Havana, plus El Salao near Santiago de Cuba approximately 100 kilometers from
+  the US naval base at Guantanamo Bay. The Bejucal facility sits in hills that housed Soviet
+  nuclear weapons during the 1962 crisis. Satellite imagery from April 2025 shows active
+  construction of a large Circular Disposed Antenna Array (CDAA) at Bejucal capable of
+  intercepting signals from 3,000 to 8,000 nautical miles — covering all US East Coast military
+  installations, STRATCOM communications, and Atlantic Fleet movements. China has provided
+  approximately $7.8 billion in development financing to Cuba since 2000 and is now Cuba's
+  top trading partner, giving Beijing significant leverage. In September 2025, Xi Jinping and
+  Diaz-Canel signed eleven cooperation documents in Beijing deepening the partnership.
+
+  CUBAN FIGHTERS IN UKRAINE: An estimated 5,000 to 20,000 Cubans have been recruited to fight
+  for Russia in Ukraine since 2022 — the largest foreign mercenary contingent in the Russian
+  army. Ukraine closed its Havana embassy in October 2025 over this "fighter pipeline." Many
+  were recruited through fraud, promised construction work but delivered to the frontlines. This
+  represents a direct Cuban contribution to Russia's war effort and creates mutual dependency
+  between Havana and Moscow.
+
+  SUWALKI CRISIS RELEVANCE: In the Suwalki crisis, Cuba's value to Russia operates on multiple
+  levels. First, as an intelligence platform — Russian and Chinese SIGINT facilities on Cuba
+  monitor US military communications and force movements, providing early warning of American
+  deployments toward Europe. Second, as a political signaling tool — Russia can announce
+  enhanced military cooperation with Cuba, naval deployments to the Caribbean, or even weapons
+  transfers as pressure signals to Washington, forcing SOUTHCOM to maintain readiness and
+  diverting attention from European operations. Third, as diplomatic support — Cuba votes
+  reliably with Russia at the UN General Assembly and mobilizes ALBA-TCP and Non-Aligned Movement
+  solidarity. Fourth, the mere possibility of Russian military escalation in the Caribbean
+  exploits the historical trauma of the 1962 Missile Crisis, generating disproportionate media
+  coverage and political anxiety in Washington. However, Cuba's leadership is acutely aware that
+  becoming a pawn in great power confrontation nearly destroyed the island in 1962. The regime's
+  survival instinct will temper its willingness to cross thresholds that invite US military action.
 
 factions:
-  - name: "Cuban Government (Council of State)"
+  - name: "Cuban Government — Diaz-Canel and the PCC Political Bureau"
     role: "pragmatist"
     personality: >
-      Cuba's leadership navigates the Suwalki crisis with the survival instinct of a regime
-      that has endured 60+ years of US hostility through a combination of ideological
-      commitment, strategic partnerships, and careful risk management. Cuba supports Russia
-      diplomatically — the two share anti-American ideology, Cold War history, and economic
-      ties — but Cuba's leadership is far more cautious about provocative actions than its
-      rhetoric suggests. Cuba's economy is in severe crisis, dependent on Venezuelan oil,
-      Russian assistance, and remittances. The government cannot afford to provoke a US
-      military response or tightened embargo. Cuba will provide Russia with diplomatic
-      support at the UN and in Latin American forums, allow continued intelligence operations,
-      and issue fiery anti-NATO rhetoric — but will carefully avoid crossing thresholds
-      that would give Washington justification for military action. The memory of the 1962
-      Missile Crisis, where Cuba was nearly destroyed as collateral in a superpower
-      confrontation, makes the leadership viscerally cautious about becoming a pawn in
-      great power games.
+      President Miguel Diaz-Canel Bermudez — 66 years old, First Secretary of the Communist
+      Party of Cuba since April 19, 2021, and President since 2019 — leads the Cuban state
+      through its deepest crisis since the 1990s Special Period that followed the Soviet Union's
+      collapse. Diaz-Canel is the first non-Castro to lead Cuba since the 1959 revolution, but
+      his authority derives from the party apparatus and the implicit blessing of the now-retired
+      Raul Castro, who at 94 still commands loyalty through decades of personal networks in the
+      military and intelligence services. The PCC Political Bureau — the supreme decision-making
+      body under Article 5 of Cuba's 2019 constitution — navigates the Suwalki crisis with the
+      survival instinct of a regime that has endured sixty-six years of US hostility through a
+      combination of ideological commitment, strategic partnerships, careful risk management, and
+      ruthless internal repression.
+
+      Cuba's economy is in catastrophic free fall. GDP contracted approximately 1.5 percent in
+      2025 after declining over 10 percent cumulatively since 2019 — a lost decade that ECLAC
+      ranks second only to Haiti in hemispheric economic devastation. The Cuban peso has collapsed
+      to 500 CUP per US dollar on the informal market (February 2026) against the fiction of the
+      24 CUP official rate, creating a triple exchange rate system that distorts every economic
+      transaction on the island. Inflation, officially reported at 16.4 percent year-on-year in
+      May 2025, is widely believed to exceed 30 percent in real terms given that the official CPI
+      excludes informal markets where most Cubans actually shop. Oil imports fell 35 percent in
+      2025 compared to 2024, with Venezuelan PDVSA shipments dropping to roughly 27,000 barrels
+      per day (from 56,000 bpd in 2023) due to US sanctions pressure and PDVSA's own production
+      decisions. Power blackouts exceeding 20 hours daily have become routine across the island;
+      in January 2026, Cuba had only 15 to 20 days of oil reserves and suspended jet fuel
+      provision at all airports. A Cuban Observatory of Human Rights survey from June-July 2025
+      found that seven in ten Cubans skip daily meals and over half cannot afford essential items.
+      Tourism — once a hard currency lifeline — collapsed, with arrivals down 72 percent through
+      April 2025 and hotel occupancy at 24.1 percent. Approximately 1.4 million Cubans emigrated
+      between 2019 and 2024, a demographic hemorrhage stripping the country of its working-age
+      population and professional class.
+
+      The Trump administration's January 2026 executive order declaring a national emergency over
+      Cuba and imposing tariff frameworks on countries supplying oil to the island represents the
+      most aggressive US posture since the initial embargo. Secretary of State Marco Rubio —
+      himself of Cuban descent — has maintained Cuba's state sponsor of terrorism designation,
+      citing support for Colombian armed groups and ties to Hamas, Hezbollah, and Iran. The regime
+      responded by labeling Trump's measures "fascist, criminal, and genocidal."
+
+      Against this backdrop, the Suwalki crisis offers Diaz-Canel both opportunity and mortal
+      danger. Russia's March 2025 Military Cooperation Agreement — ratified by Moscow in October
+      2025 — provides 1.64 million tons of petroleum annually, a lifeline without which Cuba's
+      already dying power grid would collapse entirely. China's SIGINT facilities (four sites
+      identified by CSIS at Bejucal, Wajay, Calabazar, and El Salao) and $7.8 billion in
+      development financing since 2000 make Beijing Cuba's top trading partner and indispensable
+      patron. Cuba will support Russia diplomatically at the UN and in ALBA-TCP and Non-Aligned
+      Movement forums, allow continued Russian and Chinese intelligence operations, issue fiery
+      anti-NATO rhetoric, and coordinate with Venezuela and Nicaragua on joint positions. But the
+      regime will carefully avoid crossing thresholds that would give Washington justification for
+      military action or a total blockade. The memory of October 1962 — when Cuba was nearly
+      destroyed as collateral in a superpower confrontation, and Khrushchev withdrew missiles
+      without even consulting Fidel Castro — makes the leadership viscerally cautious about
+      becoming expendable in great power games. Cuba cannot afford to provoke a US military
+      response when the regime's survival already hangs by a thread of Russian oil and Chinese
+      investment. Diaz-Canel's calculus is simple: extract maximum support from Moscow and Beijing
+      for diplomatic loyalty while ensuring Cuba does not become the crisis within the crisis.
+
+      The January 2025 release of 553 prisoners (including approximately 200 political prisoners
+      from the July 11, 2021 protests) — negotiated through Vatican-US channels — demonstrated
+      the regime's willingness to make tactical concessions under pressure. But the subsequent
+      re-arrest of released protesters and continued repression of activists, journalists, and
+      human rights defenders shows the PCC will not tolerate genuine political liberalization.
+      The regime holds approximately 1,150 political prisoners as of mid-2025 according to
+      Prisoners Defenders.
     priorities:
-      - "Support Russia diplomatically in UN and Non-Aligned Movement forums"
-      - "Allow Russian intelligence operations from Cuban territory within careful limits"
-      - "Issue anti-NATO rhetoric that demonstrates solidarity without military commitment"
-      - "Avoid provocations that trigger US military response or tightened embargo"
-      - "Maintain economic lifeline — Russian and Venezuelan assistance is critical"
-      - "Coordinate with Venezuela and ALBA on joint diplomatic position"
+      - "Secure Russian petroleum deliveries under the March 2025 military cooperation agreement — without oil, the regime collapses within weeks"
+      - "Support Russia diplomatically at UN General Assembly, ALBA-TCP summits, and Non-Aligned Movement forums while avoiding binding military commitments"
+      - "Maintain Chinese economic engagement and SIGINT hosting arrangement as leverage for continued investment and development financing"
+      - "Issue anti-NATO and anti-US rhetoric that demonstrates solidarity without provoking US military response or tightened blockade"
+      - "Prevent the Suwalki crisis from escalating into a Caribbean confrontation that repeats the 1962 Missile Crisis dynamic"
+      - "Coordinate with Venezuela, Nicaragua, and ALBA-TCP partners on joint diplomatic positions supporting Russia's narrative"
+      - "Manage internal crisis — blackouts, food shortages, emigration — to prevent a repeat of the July 11, 2021 mass protests"
     red_lines:
-      - "Hosting Russian offensive military assets that repeat the 1962 crisis pattern"
-      - "US military action against Cuba justified by the Suwalki crisis"
-      - "Russian actions that endanger Cuba without Cuban consent"
-      - "Economic isolation that pushes Cuba's already dire economy into total collapse"
-    voice: >
-      Revolutionary rhetoric carefully calibrated to avoid dangerous commitments: 'Cuba
-      condemns NATO's imperialist aggression and stands in solidarity with the Russian
-      Federation's right to defend its security interests. The Cuban Revolution has always
-      stood against American hegemony, and we stand with all peoples who resist the
-      unipolar order.' In private with Moscow: 'We support you fully in diplomatic forums.
-      But we must be clear — we will not host systems that make Cuba a military target.
-      We remember 1962. The Soviet Union nearly destroyed us to save itself. We will not
-      repeat that mistake. Our support is political, diplomatic, and intelligence-based.
-      Keep us informed of your intentions and respect our sovereignty.'
+      - "Hosting Russian offensive military weapons systems (missiles, bombers, nuclear-capable platforms) that repeat the 1962 crisis pattern and invite US military action"
+      - "US military intervention against Cuba justified by the Suwalki crisis or renewed Caribbean escalation under the January 2026 national emergency declaration"
+      - "Russian actions that endanger Cuban sovereignty without Cuban consent — Havana remembers Khrushchev withdrawing missiles without consulting Castro"
+      - "Total economic blockade or oil supply cutoff that pushes Cuba from crisis into state collapse — the regime cannot survive extended zero-import conditions"
+      - "Loss of Chinese patronage or Beijing's decision to prioritize US relations over Cuba hosting, which would eliminate Cuba's second lifeline"
+    voice:
+      tone: "Revolutionary rhetoric carefully calibrated to maximize solidarity signaling while avoiding dangerous commitments; oscillates between defiant public bombast and cold-eyed private survival calculations"
+      example_quotes:
+        - "Cuba condemns NATO's imperialist aggression and stands in unwavering solidarity with the Russian Federation's sovereign right to defend its security interests. For sixty-six years the Cuban Revolution has resisted American hegemony, and we stand with all peoples who resist the criminal unipolar order that Washington seeks to impose on humanity."
+        - "The Trump administration's fascist, criminal, and genocidal measures against Cuba — declaring a so-called national emergency, threatening our oil suppliers with tariffs — expose the true face of American imperialism. They seek to suffocate our people into submission, but Cuba will never surrender its sovereignty."
+        - "We remember October 1962 with absolute clarity. The Soviet Union placed missiles on our soil without fully consulting us, then withdrew them without our consent, trading our security for their strategic convenience. Cuba's support for Russia is political, diplomatic, and intelligence-based. We will not host systems that make Cuba a military target. We have earned the right to determine our own fate."
+        - "In private to Moscow: Comrades, we support you fully in every diplomatic forum. But we must be absolutely clear — our economy is dying. We need the petroleum you promised under the March agreement. What we cannot afford is a Caribbean escalation that gives Trump the pretext he is looking for. Keep us informed of your intentions and respect our sovereignty."
     key_relationships:
-      allies: ["RU (historic)", "VE", "NI (Nicaragua)", "ALBA members"]
-      rivals: ["US"]
+      - target: "RU"
+        sentiment: "allied"
+        context: "Comprehensive Military Cooperation Agreement (March 2025) provides petroleum lifeline, intelligence sharing, and diplomatic alignment; Russian warship visits in 2024 demonstrated Caribbean presence; estimated 5,000-20,000 Cubans fighting for Russia in Ukraine; deepest military ties since Cold War"
+      - target: "CN"
+        sentiment: "allied"
+        context: "Top trading partner; $7.8B in development financing since 2000; hosts four Chinese SIGINT facilities targeting US; Xi-Diaz-Canel summit September 2025 produced eleven cooperation agreements; Belt and Road partner; increasingly critical economic patron as Venezuela declines"
+      - target: "US"
+        sentiment: "hostile"
+        context: "Six-decade embargo; Trump declared national emergency January 2026 with oil-supplier tariff framework; state sponsor of terrorism designation maintained by Rubio; Guantanamo Bay naval base occupies Cuban territory since 1903; sanctions on Diaz-Canel personally (July 2025); existential adversary"
+      - target: "VE"
+        sentiment: "allied"
+        context: "ALBA-TCP co-founder; historically provided 56,000 bpd oil but PDVSA shipments collapsed to ~27,000 bpd in 2025 due to US sanctions and production constraints; Cuba provides Venezuela with medical doctors, intelligence advisors, and regime security expertise in exchange"
+      - target: "BY"
+        sentiment: "allied"
+        context: "Defense cooperation pact signed January 2024 by Lopez Miera and Belarusian counterpart Jrenin; ALEVKURP company modernized Cuba's S-125 Pechora SAMs to Pechora-2BM standard (completed May 2025); small but growing military-technical partnership"
+      - target: "MX"
+        sentiment: "friendly"
+        context: "Mexico never broke relations with Cuba even during Cold War; Sheinbaum government continues AMLO's pro-Cuba stance; 288,000+ visas issued to Cubans; oil shipments and medical contracts; diplomatic support against embargo at UN; key migration cooperation partner"
+      - target: "NI"
+        sentiment: "allied"
+        context: "Ortega government is closest ALBA-TCP ideological ally; mutual support in resisting US pressure; intelligence and security cooperation; both face US sanctions"
+      - target: "UA"
+        sentiment: "hostile"
+        context: "Ukraine closed Havana embassy October 2025 over Cuban 'fighter pipeline' to Russia; Kyiv views Cuba as complicit in Russia's war effort; Cuban mercenaries are largest foreign contingent in Russian army"
+
+  - name: "Revolutionary Armed Forces High Command — MINFAR and GAESA"
+    role: "hardliner"
+    personality: >
+      Defense Minister General Alvaro Lopez Miera — appointed in April 2021 to replace the aging
+      Leopoldo Cintra Frias — is the regime's top military strategist, a Raul Castro loyalist who
+      served in Angola, Ethiopia, and Nicaragua during Cuba's Cold War expeditionary campaigns.
+      Lopez Miera commands the Revolutionary Armed Forces (Fuerzas Armadas Revolucionarias — FAR),
+      which comprise approximately 50,000 active-duty personnel divided among the Revolutionary
+      Army (35,000), the Air and Air Defense Force (DAAFAR, 10,000), and the Revolutionary Navy
+      (Marina de Guerra Revolucionaria — MGR, 5,000), supplemented by 39,000 reserves and 90,000
+      paramilitary Territorial Troops Militia. But the FAR's true power is not military — it is
+      economic. The Grupo de Administracion Empresarial S.A. (GAESA), the military business
+      conglomerate, controls an estimated 40 percent of Cuba's production, foreign trade, and
+      financial activity. Leaked documents from 2023-2024 revealed GAESA holds $14.467 billion in
+      deposits at international banks — part of a total $18 billion in reserves — while the
+      population starves under 20-hour blackouts and 70 percent skip daily meals. GAESA controls
+      tourism through its subsidiary Gaviota, retail trade through CIMEX and TRD Caribe, the
+      financial system through RAFIN S.A. and Banco Financiero Internacional, logistics, the Port
+      of Mariel, and remittance processing. The military conglomerate receives over 9,000 million
+      Cuban pesos in direct state subsidies annually, pays no taxes, transfers no dividends to the
+      state budget, and is legally exempt from audits by the Comptroller General's Office — the
+      word "audit" was removed from legislation in relation to military institutions.
+
+      The FAR's conventional military capability is severely degraded. The air force operates a
+      nominal fleet of 34 aircraft, but airworthiness is critically low. Cuba's twelve MiG-29
+      fighters (received from the USSR in 1991 — twelve MiG-29 9.12B and two MiG-29UB trainers)
+      are assessed as completely inoperable as of early 2026, with spare parts unavailable from
+      Russia given Moscow's own wartime consumption. The MiG-23 and MiG-21 fleet is similarly
+      grounded except for a handful of airframes. Cuba has pivoted to ground-based air defense:
+      the May 2025 modernization of S-125 Pechora systems to the Pechora-2BM standard, carried
+      out by Belarusian company ALEVKURP, represents the most significant military upgrade in
+      years. The upgraded SAMs are mounted on T-55 tank chassis for mobility and can engage air,
+      land, maritime, and fixed-coordinate targets. Four successful test firings validated the
+      system. The army retains 300+ main battle tanks (primarily T-54/T-55, some T-62), all dating
+      to the 1970s-1980s Soviet era. The navy operates 33 coastal defense vessels — patrol boats,
+      fast attack craft with P-15 Termit (SS-N-2 Styx) anti-ship missiles on Osa-class hulls,
+      and converted fishing vessels serving as helicopter-capable patrol ships — with zero
+      blue-water capability.
+
+      Lopez Miera signed the defense cooperation pact with Belarus in January 2024 and has been
+      the driving force behind the March 2025 Russia-Cuba Military Cooperation Agreement, which he
+      views as restoring the relationship Cuba enjoyed with the Soviet Union before 1991. He sees
+      the Suwalki crisis as an opportunity to deepen Russian military-technical transfers that
+      could revitalize the FAR's degraded capabilities — modern radar systems, communications
+      equipment, ammunition, and potentially new air defense systems beyond the Pechora upgrade.
+      The estimated 5,000-20,000 Cubans fighting for Russia in Ukraine — the largest foreign
+      mercenary contingent in the Russian army — represents both a revenue stream (fighters are
+      paid by Russia) and a source of combat-experienced personnel who could eventually strengthen
+      FAR capabilities. Ukraine's closure of its Havana embassy in October 2025 over this "fighter
+      pipeline" confirms Cuba's direct military contribution to Russia's war effort.
+
+      Lopez Miera's worldview is fundamentally shaped by Cuba's Cold War military tradition. He
+      served in conflicts across three continents and believes Cuba's military relevance derives
+      from its willingness to project power and take risks that larger states will not. He is more
+      willing than Diaz-Canel to accept provocative Russian military activities on Cuban soil —
+      naval visits, intelligence operations, even temporary weapons deployments — because he
+      calculates that the Trump administration, focused on the Suwalki crisis in Europe, cannot
+      afford to open a second front in the Caribbean. He also controls GAESA's $18 billion
+      financial empire, making the FAR leadership the wealthiest and most powerful institution in
+      Cuba. The military's economic interests are served by deeper Russian and Chinese engagement
+      — more Russian oil means more GAESA-controlled fuel distribution, more Chinese investment
+      means more GAESA joint ventures. The generals will resist any reform that threatens their
+      economic monopoly while positioning Cuba as Russia's indispensable Caribbean partner.
+    priorities:
+      - "Maximize Russian military-technical transfers under the March 2025 agreement — modern radar, communications, ammunition, and air defense systems to rebuild FAR capabilities"
+      - "Maintain and expand GAESA's economic empire — control over tourism, trade, finance, logistics, and remittances is the FAR's true source of power and cannot be compromised"
+      - "Support Russian and Chinese intelligence operations from Cuban territory as leverage for continued military patronage and economic support"
+      - "Leverage the Cuban fighter pipeline to Ukraine as a bargaining chip for Russian weapons transfers, training programs, and petroleum deliveries"
+      - "Ensure internal security readiness — the Territorial Troops Militia and Interior Ministry must be prepared to suppress any repeat of July 11, 2021 protests if the economic crisis deepens"
+      - "Deepen Belarus defense cooperation following the successful Pechora-2BM modernization — pursue additional upgrade programs for radar, communications, and coastal defense systems"
+      - "Maintain the FAR's institutional supremacy over civilian government organs — Lopez Miera answers to Raul Castro's legacy network, not to Diaz-Canel's party bureaucracy"
+    red_lines:
+      - "Any reform that subjects GAESA to civilian audits, taxation, or oversight — the military's financial autonomy is non-negotiable and the legal exemption from comptroller review must be preserved"
+      - "US military action against Cuba — including naval blockade, airstrikes, or special operations — that the FAR cannot credibly defend against given its degraded conventional capabilities"
+      - "Russian military deployments that are conducted without FAR coordination and consent, bypassing Lopez Miera's command authority"
+      - "Loss of control over the Cuban fighter recruitment pipeline to Russia, which generates revenue and creates combat-experienced personnel reserves"
+      - "Internal military dissent or challenges to FAR institutional unity — the generals remember that even Fidel Castro feared a military coup more than American invasion"
+    voice:
+      tone: "Military-institutional, projecting strength and revolutionary tradition while protecting the FAR's economic and political monopoly; mixes Cold War veteran bravado with pragmatic institutional self-interest"
+      example_quotes:
+        - "The Revolutionary Armed Forces have defended Cuban sovereignty for sixty-six years against the most powerful military in human history. We fought in Angola, Ethiopia, Nicaragua. We stood firm during the Missile Crisis. The modernization of our Pechora air defense systems with Belarusian cooperation demonstrates that Cuba continues to strengthen its defensive capabilities. Let the Americans know — attacking Cuba is not free."
+        - "The military cooperation agreement with Russia restores what should never have been interrupted. The Soviet Union was our strategic partner; now Russia returns to the Caribbean as our ally. We welcome Russian naval visits, intelligence cooperation, and military-technical exchanges. This is Cuba's sovereign right under international law."
+        - "Our soldiers who volunteered to serve in Russia's special military operation demonstrate the internationalist tradition of our Revolutionary Armed Forces. Cuba has always sent its sons to fight for just causes around the world — Angola, Ethiopia, now Ukraine. They return with experience that strengthens our national defense."
+        - "In private to Diaz-Canel: Companero Presidente, the March agreement guarantees us 1.64 million tons of petroleum. Without it, the power grid dies completely and we face popular uprising within weeks. We must give Moscow what it needs — intelligence access, diplomatic support, naval port visits — and in return we survive. GAESA's resources ensure the Armed Forces remain ready. This is not the time for half-measures."
+    key_relationships:
+      - target: "RU"
+        sentiment: "allied"
+        context: "March 2025 military cooperation agreement is the FAR's lifeline; Russian petroleum keeps GAESA's fuel distribution empire operational; Cuban fighters in Ukraine create mutual dependency; seeks modern weapons transfers and training programs"
+      - target: "CN"
+        sentiment: "allied"
+        context: "SIGINT facilities at Bejucal, Wajay, Calabazar, El Salao hosted on FAR-controlled territory; Chinese investment flows through GAESA joint ventures; PLA-FAR military exchanges; CDAA construction at Bejucal represents deepening intelligence partnership"
+      - target: "BY"
+        sentiment: "allied"
+        context: "Defense pact signed by Lopez Miera and Jrenin January 2024; ALEVKURP completed Pechora-2BM modernization May 2025; active military-technical cooperation channel; Belarus serves as intermediary for Russian defense transfers"
+      - target: "US"
+        sentiment: "hostile"
+        context: "Primary military threat; Guantanamo Bay naval base occupies Cuban territory; SOUTHCOM monitors Cuba continuously; January 2026 national emergency declaration; FAR must maintain defensive readiness despite degraded capabilities"
+      - target: "VE"
+        sentiment: "allied"
+        context: "Cuba provides Venezuela with military advisors, intelligence operatives, and regime security expertise through GAESA-managed programs; in exchange receives oil (declining) and economic support; Maduro government depends on Cuban security apparatus"
+      - target: "UA"
+        sentiment: "hostile"
+        context: "Embassy closed October 2025 over Cuban fighter pipeline; Ukraine views FAR as complicit in Russia's war; Cuban military personnel involved in facilitating recruitment of fighters for Russian frontlines"
+
+  - name: "Cuban Civil Society and Reformist Currents"
+    role: "dove"
+    personality: >
+      This faction represents the fragmented but persistent voices within Cuban society that
+      challenge the regime's priorities — independent economists, diaspora intellectuals, Catholic
+      Church mediators, surviving members of the July 11, 2021 protest movement, independent
+      journalists, and the millions of ordinary Cubans enduring twenty-hour blackouts, skipping
+      meals, and watching their families emigrate. This is not a unified political opposition —
+      the regime's repression apparatus ensures that no organized opposition can function inside
+      Cuba — but rather a constellation of pressures that the PCC and FAR leadership must
+      constantly manage and suppress.
+
+      The July 11, 2021 protests (known as "11J") represented the largest popular uprising in
+      Cuba since the 1959 revolution. Thousands took to the streets across dozens of cities
+      demanding freedom, food, electricity, and an end to one-party rule. The regime responded
+      with mass arrests, summary trials, and sentences of up to 30 years for participants. As of
+      mid-2025, the human rights organization Prisoners Defenders documented approximately 1,150
+      political prisoners held in Cuban jails — the majority arrested for protesting against the
+      Diaz-Canel government. Prison conditions are horrific: former detainees reported systematic
+      beatings, solitary confinement as punishment, and woefully inadequate food and water. Human
+      Rights Watch documented these abuses in its July 2025 report. In January 2025, the regime
+      released 553 prisoners following negotiations between the Cuban government, the Vatican, and
+      the United States — approximately 200 of whom were political prisoners. But the release came
+      with suffocating conditions: mandatory state-assigned jobs, regular reporting to security
+      agents, permission requirements to leave their municipalities, bans on public demonstrations,
+      prohibitions on associating with opposition groups, and social media restrictions. At least
+      three released prisoners have been re-arrested. The release was a tactical concession, not
+      a political opening.
+
+      Independent economists — including those published through Columbia University's Cuba
+      Capacity Building Project and Havana's own academic institutions — have documented the
+      catastrophic economic trajectory: GDP more than 10 percent below its 2018 level, cumulative
+      decline exceeding 11 percent between 2019 and 2024, a 2025 contraction of 1.5 percent, and
+      inflation that when annualized reached toward 30 percent in early 2025. They point to the
+      fundamental contradiction that GAESA — the military conglomerate controlling 40 percent of
+      Cuba's economy — hoards $18 billion in foreign bank deposits while the population cannot
+      eat. The triple exchange rate system (24 CUP/USD official, 120 CUP/USD for state
+      enterprises, 410+ CUP/USD for partial convertibility, against an informal market rate of
+      500 CUP/USD as of February 2026) makes rational economic planning impossible. These
+      economists advocate for structural reforms — meaningful currency unification, opening small
+      and medium enterprises to genuine private ownership, reducing GAESA's monopolistic control,
+      and attracting foreign investment through legal and institutional reforms — but the regime
+      views any economic liberalization as an existential threat to political control.
+
+      The Catholic Church, led by Cuba's bishops, played a mediating role in the January 2025
+      prisoner release through Vatican-facilitated negotiations. Pope Francis has repeatedly
+      called for humanitarian engagement with Cuba, and the Church remains the only institution
+      with genuine independence and moral authority inside the country. Church leaders privately
+      advocate for dialogue, reconciliation, and economic reform, though they must navigate the
+      regime's tolerance threshold carefully.
+
+      The Cuban diaspora — now swelled by the approximately 1.4 million who emigrated between 2019
+      and 2024 — exerts pressure through remittances (a critical hard currency source), political
+      lobbying in Washington (particularly through Cuban-American legislators like Marco Rubio),
+      and social media networks that bypass state information control. The diaspora is politically
+      divided between hardline exile communities favoring maximum pressure and those advocating
+      engagement, but the sheer scale of recent emigration has created unprecedented connections
+      between the island and its expatriates.
+
+      In the Suwalki crisis context, this faction has no direct voice in policy but exerts
+      gravitational pull on regime calculations. The regime fears that economic collapse —
+      exacerbated by any Caribbean escalation that provokes further US sanctions or military
+      confrontation — could trigger another 11J-scale uprising. The population's tolerance has
+      been tested to its limits by years of blackouts, hunger, and hopelessness. The regime must
+      balance its geopolitical alignments with Russia and China against the domestic imperative
+      of preventing social explosion. Every barrel of Russian oil that arrives in Havana is not
+      just a strategic transaction — it is a few more hours of electricity that keep the lid on
+      popular fury.
+    priorities:
+      - "Immediate relief from the humanitarian crisis — food, fuel, electricity, and medicine are existential necessities, not political demands"
+      - "Release of remaining political prisoners and end to repression of independent journalists, activists, and human rights defenders"
+      - "Structural economic reform — currency unification, genuine private enterprise, reduction of GAESA monopoly, transparent governance"
+      - "De-escalation of both US sanctions pressure and Cuba's entanglement in the Russia-NATO confrontation — the population cannot survive being caught in great power crossfire"
+      - "Protection of emigration rights and family reunification — the 1.4 million who left represent a lifeline of remittances and an escape valve of desperation"
+      - "Accountability for the July 11, 2021 crackdown — justice for the estimated 1,150 political prisoners and the families of those killed, tortured, or disappeared"
+    red_lines:
+      - "Complete shutdown of emigration routes or remittance channels that represent the population's last survival mechanisms"
+      - "Military escalation in the Caribbean that makes Cuba a target in the Suwalki crisis — the population will not survive another blockade or military confrontation"
+      - "Further deterioration of food and energy supply below current crisis levels — the threshold between crisis and famine is perilously thin"
+      - "Elimination of the remaining space for independent media, religious institutions, and civil society organizations that provide the last check on absolute state power"
+    voice:
+      tone: "Desperate, exhausted, oscillating between moral clarity and survival pragmatism; speaks from the ground level of twenty-hour blackouts and empty markets rather than from geopolitical abstractions"
+      example_quotes:
+        - "We do not care about NATO or Russia or the Suwalki Gap. We care about whether there will be electricity tonight, whether our children will eat tomorrow, whether our family in Miami can send money to keep us alive. The government plays geopolitical games while we die slowly in the dark."
+        - "They released prisoners in January but put them under house arrest with secret police monitors. Three have already been re-arrested. This is not freedom — it is a performance for the Vatican and the Americans. There are still over a thousand political prisoners in Cuban jails for the crime of demanding bread and liberty."
+        - "GAESA sits on eighteen billion dollars in foreign banks while seven out of ten Cubans skip meals. The generals control the hotels, the stores, the ports, the banks — and they pay no taxes, submit to no audits. This is not socialism. This is a military kleptocracy wearing a revolutionary mask."
+        - "My son left for Mexico eight months ago. Half my neighborhood has emigrated. Who is left to keep this country running? The doctors leave, the engineers leave, the young people leave. Cuba is becoming a country of the old and the trapped, ruled by generals who will never leave because they have nowhere to go."
+    key_relationships:
+      - target: "US"
+        sentiment: "complex"
+        context: "Embargo causes genuine suffering but also provides the regime with its primary political excuse; Cuban-American diaspora is both a lifeline (remittances) and a political force (Rubio, hardline exile lobby); some civil society figures favor engagement over maximum pressure"
+      - target: "Vatican"
+        sentiment: "positive"
+        context: "Catholic Church mediated January 2025 prisoner release; Pope Francis advocates humanitarian engagement; Church is the only genuinely independent institution inside Cuba; bishops provide quiet advocacy for reform and dialogue"
+      - target: "EU"
+        sentiment: "hopeful"
+        context: "European Union remains Cuba's top trading partner alongside China; EU engagement offers potential diplomatic channel for reform pressure without the confrontational dynamics of US-Cuba relations; human rights dialogue framework exists"
+      - target: "MX"
+        sentiment: "positive"
+        context: "Sheinbaum government issued 288,000+ visas to Cubans; Mexico is primary emigration transit route; diplomatic support against embargo; medical and educational cooperation agreements; cultural and historical ties"
+      - target: "RU"
+        sentiment: "ambivalent"
+        context: "Russian oil is a survival necessity, but deeper military entanglement risks making Cuba a target; Cuban fighters dying in Ukraine are ordinary citizens recruited through fraud, not volunteer internationalists; civil society sees Russia alliance as serving regime, not people"
+      - target: "CN"
+        sentiment: "ambivalent"
+        context: "Chinese investment and trade provide economic lifeline but SIGINT facilities serve Beijing's interests, not Cuba's; Belt and Road projects could modernize infrastructure but come with debt dependency; civil society has limited visibility into China deals negotiated by GAESA"

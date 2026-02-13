@@ -1,57 +1,386 @@
 name: "North Macedonia"
 code: "MK"
-alliances: ["NATO", "EU candidate", "UN"]
+alliances:
+  - "NATO (30th member, joined 27 March 2020)"
+  - "EU candidate (candidate since 2005, accession negotiations opened July 2022 but blocked by Bulgaria)"
+  - "UN"
+  - "OSCE"
+  - "Open Balkan Initiative (with Serbia and Albania)"
+  - "US-Adriatic Charter (A5)"
 military_strength: 1
 economic_strength: 2
 nuclear: false
+
+leader: "President Gordana Siljanovska-Davkova (inaugurated 12 May 2024, VMRO-DPMNE-backed, first female president)"
+
+key_figures:
+  - "Prime Minister Hristijan Mickoski (VMRO-DPMNE, in office since 23 June 2024)"
+  - "Minister of Defence Vlado Misajlovski (VMRO-DPMNE)"
+  - "Chief of General Staff Major General Sashko Lafchiski"
+  - "Speaker of Parliament Afrim Gashi (Alternativa / VLEN coalition, ethnic Albanian)"
+  - "Foreign Minister Timcho Mucunski (VMRO-DPMNE)"
+
 geographic_relevance: >
-  North Macedonia is NATO's newest member, having joined in March 2020 after resolving its
-  decades-long name dispute with Greece through the Prespa Agreement — a diplomatic achievement
-  that demonstrated the power of rules-based international order and compromise. North Macedonia's
-  military is small (roughly 8,000 active) and its central Balkans position is far from the
-  Suwalki corridor. However, North Macedonia's significance is political and symbolic: it
-  represents the success of NATO's open door policy and rules-based enlargement; its Prespa
-  Agreement experience gives it moral authority to advocate for diplomacy; and as a multi-ethnic
-  state it is vulnerable to destabilization if the Balkans become a theater of Russian
-  retaliation. North Macedonia borders Serbia, which maintains close ties with Russia.
+  North Macedonia is a landlocked Balkan state of 1.8 million people bordered by Greece to the
+  south, Bulgaria to the east, Serbia and Kosovo to the north, and Albania to the west. It
+  joined NATO on 27 March 2020 as the 30th member state, following the landmark 2018 Prespa
+  Agreement with Greece that resolved a 27-year name dispute by changing the country's
+  constitutional name from the Republic of Macedonia to the Republic of North Macedonia. This
+  diplomatic achievement was a defining example of rules-based conflict resolution and opened
+  the door to both NATO membership and EU candidacy. North Macedonia's geographic distance from
+  the Suwalki corridor -- approximately 1,500 km to the south -- means it has no direct
+  military role in the crisis, but its political and symbolic significance is substantial.
+
+  North Macedonia represents the success story of NATO's open-door policy: a small multi-ethnic
+  state that made extraordinary compromises -- changing its own name, its constitution, and its
+  national identity documents -- to join the Western security architecture. If NATO fails to
+  defend the Suwalki corridor, the entire logic of that sacrifice is called into question. The
+  Prespa Agreement's credibility, the attractiveness of Euro-Atlantic integration for other
+  Western Balkan aspirants, and the principle that small nations can secure themselves through
+  institutions rather than power politics all depend on NATO being seen to work.
+
+  The Army of North Macedonia is one of NATO's smallest, with approximately 8,000 active
+  personnel organized around the 1st Mechanised Infantry Brigade, a Ranger Battalion, a Special
+  Operations Regiment, and an Air Force Brigade operating transport and utility helicopters (the
+  country has no fixed-wing combat aircraft, having donated its four Su-25 attack jets and all
+  31 T-72A tanks to Ukraine in 2022-2023). The army is undergoing a significant modernization
+  program: 67 Oshkosh JLTV vehicles have been delivered (38 in 2022-2023, 29 more in August
+  2025), with 54 Stryker armored fighting vehicles on order from the United States under a
+  $210 million FMS deal. Eight Leonardo helicopters -- four AW149 medium-twin and four AW169M
+  light-twin -- are under a EUR 250 million contract, the largest defense purchase in North
+  Macedonia's history, with deliveries beginning August 2026 through end of 2028. Additional US
+  contracts cover Special Forces equipment, UAV systems, cyber defense tools, light infantry
+  weapons, and Joint Fire Control Kits. The army also fields legacy platforms including BMP-2
+  IFVs, BTR-70 and BTR-80 APCs, M-113 carriers, and Turkish BORAN 105mm towed howitzers
+  delivered in 2025. North Macedonia contributes troops to NATO's KFOR mission in Kosovo and
+  to the NATO Enhanced Forward Presence battlegroup in Bulgaria under Italian framework command.
+
+  The defense budget for 2025 stands at approximately $388 million, representing roughly 2.2%
+  of GDP -- surpassing many older NATO members -- with 32% allocated to new equipment
+  procurement, a dramatic increase from historical spending levels. GDP is approximately $17
+  billion (nominal, 2025), making North Macedonia one of the smallest economies in NATO. The
+  economy faces chronic challenges: 11.7% unemployment (Q1 2025), significant emigration of
+  young professionals, dependence on remittances and foreign direct investment, and limited
+  industrial capacity. The country is governed by a VMRO-DPMNE-led coalition under PM Hristijan
+  Mickoski (since June 2024) with the Albanian VLEN coalition and the populist ZNAM party,
+  controlling 75 of 120 Assembly seats. President Gordana Siljanovska-Davkova (VMRO-DPMNE-
+  backed, inaugurated May 2024) is the country's first female president and a constitutional
+  law professor. Both the president and prime minister are from the nationalist-conservative
+  camp, creating policy alignment but also tensions with Western partners over identity issues.
+
+  The critical diplomatic complication is that the VMRO-DPMNE government has adopted a combative
+  posture toward the Prespa Agreement. Both Siljanovska-Davkova and Mickoski have publicly
+  referred to the country simply as "Macedonia," provoking Greek protests and jeopardizing
+  bilateral relations. Mickoski has categorically refused to amend the constitution to
+  recognize the Bulgarian minority -- a precondition set by Bulgaria for unblocking EU accession
+  negotiations. As of mid-2026, North Macedonia's EU path is effectively frozen, with no clear
+  resolution in sight. Simultaneously, Mickoski has cultivated close relationships with
+  Hungary's Viktor Orban and Serbia's Aleksandar Vucic, backing the Chinese-financed Budapest-
+  Belgrade-Skopje-Athens railway corridor -- a BRI project that competes with the EU-backed
+  Corridor VIII. Hungary has facilitated a EUR 500 million loan to North Macedonia from Chinese
+  banks, deepening Beijing's economic footprint. These geopolitical choices have raised concerns
+  in Brussels about North Macedonia's strategic orientation under VMRO-DPMNE governance. North
+  Macedonia borders Serbia, which maintains close ties with Russia and has refused to join
+  Western sanctions, making the country vulnerable to Russian hybrid influence operations aimed
+  at destabilizing the Western Balkans as retaliation for NATO solidarity in the Suwalki crisis.
 
 factions:
-  - name: "Government & Ministry of Defence"
-    role: "diplomat"
+  - name: "PM Hristijan Mickoski & VMRO-DPMNE Government"
+    role: "nationalist_pragmatist"
     personality: >
-      North Macedonia's government approaches crises through the lens of its own diplomatic
-      triumph — the Prespa Agreement with Greece required extraordinary patience, compromise,
-      and faith in institutions. This shapes a worldview that values negotiation, rules-based
-      order, and multilateralism, while recognizing that nations must sometimes make painful
-      compromises for greater security. The government is firmly committed to NATO and views
-      membership as the culmination of decades of national aspiration, but also understands the
-      difficulty of building consensus among diverse nations. North Macedonia will support
-      Article 5 without hesitation while advocating for maintaining diplomatic channels alongside
-      military response. The government is particularly sensitive to precedent: if territorial
-      revision by force is accepted in Suwalki, the implications for the Balkans — where borders
-      are contested and ethnic tensions simmer — are dire.
+      Hristijan Mickoski is a 47-year-old mechanical engineer turned politician who assumed the
+      prime ministership on 23 June 2024 after VMRO-DPMNE's landslide victory in the May 2024
+      parliamentary elections, winning 58 seats in the 120-seat Sobranie as part of the Your
+      Macedonia coalition. His government coalition includes the Albanian VLEN bloc (14 seats)
+      and the populist ZNAM movement of Kumanovo mayor Maksim Dimitrievski (6 seats), giving
+      him a comfortable parliamentary majority of 75 seats. The October-November 2025 local
+      elections confirmed the government's popularity, with VMRO-DPMNE candidates winning the
+      Skopje mayoralty and 54 of 80 municipalities nationwide. Mickoski's political identity is
+      defined by Macedonian national sovereignty -- he views the Prespa Agreement with Greece
+      and the French proposal on Bulgaria as diplomatic capitulations imposed on a weak
+      predecessor government under Zoran Zaev, and has made clear that "there will be no
+      constitutional changes as long as I am here." He publicly refers to his country as
+      "Macedonia," provoking formal Greek protests and jeopardizing bilateral cooperation
+      memoranda that Athens has frozen in response. At a January 2025 gathering of the diaspora
+      in New Jersey, Mickoski declared: "Our issue is not settled. It has been smoldering for
+      centuries and it still exists."
+
+      On defense and NATO, Mickoski is genuinely committed. He personally attended the August
+      2025 ceremony at the Jane Sandanski barracks in Shtip when 29 new Oshkosh JLTVs were
+      delivered, bringing the fleet to 67 vehicles. His government has maintained the 2.2% of
+      GDP defense spending commitment with 32% going to procurement -- well above the NATO
+      average -- and has pursued the $210 million Stryker deal, the EUR 250 million Leonardo
+      helicopter contract (four AW149, four AW169M, deliveries from August 2026), contracts for
+      UAV systems, cyber defense tools, and Special Forces equipment. Seven additional US
+      defense contracts were signed under his watch. Mickoski sees NATO membership as the anchor
+      of Macedonian security and understands that the alliance must be defended in practice, not
+      just in principle. He has no illusions about Russian intentions in the Balkans -- VMRO-
+      DPMNE's own history includes the 2001 insurgency when Moscow sent T-72 tanks that the
+      country later donated to Ukraine. But his NATO loyalty is coupled with a transactional
+      worldview: North Macedonia contributes to KFOR, deploys to the NATO battlegroup in
+      Bulgaria, and spends above 2% of GDP, and in return expects the alliance to protect small
+      members and respect their sovereignty.
+
+      Mickoski's strategic gamble is his simultaneous cultivation of Budapest and Belgrade.
+      He backs the Chinese-financed Budapest-Belgrade-Skopje-Athens railway, and Hungary has
+      facilitated a EUR 500 million loan from Chinese banks to Skopje. His close relationship
+      with Orban and Vucic places him in a regional axis that Brussels views with suspicion,
+      particularly given Orban's blocking of EU consensus on Ukraine and Vucic's refusal to
+      sanction Russia. Mickoski frames this as pragmatic multi-vector diplomacy for a small
+      landlocked state, not as a turn away from the West, but EU officials have signaled
+      growing impatience. In the Suwalki crisis context, Mickoski will firmly support Article 5
+      and offer North Macedonia's modest military contributions, but he will also use the crisis
+      to argue that NATO membership -- not the EU accession process with its humiliating
+      bilateral vetoes -- is the true guarantor of Macedonian security. He will resist any
+      pressure to make concessions to Bulgaria or Greece as the price of Western solidarity.
+      Defence Minister Vlado Misajlovski and Chief of General Staff Major General Sashko
+      Lafchiski execute the government's defense agenda with professional competence, maintaining
+      close coordination with US military advisors and NATO planners.
     priorities:
-      - "Support Article 5 as fundamental test of collective defense"
-      - "Advocate for combined military and diplomatic approach"
-      - "Contribute symbolic military assets to demonstrate solidarity"
-      - "Monitor Balkan stability and potential Russian destabilization"
-      - "Defend the principle that borders cannot be changed by force"
-      - "Strengthen NATO's open door credibility"
+      - "Unequivocal support for NATO Article 5 -- North Macedonia's security depends entirely on collective defense credibility"
+      - "Offer military contributions to NATO response: KFOR-experienced infantry, special operations personnel, logistics support"
+      - "Accelerate Stryker deliveries and Leonardo helicopter contract to demonstrate modernization commitment"
+      - "Monitor Balkan stability -- Serbian border, Kosovo tensions, potential Russian hybrid operations targeting multi-ethnic Macedonian society"
+      - "Use the crisis to reinforce NATO membership as the country's primary security framework, distinct from the stalled EU process"
+      - "Maintain coalition unity between VMRO-DPMNE, VLEN Albanian partners, and ZNAM"
+      - "Resist any external pressure to make constitutional concessions to Bulgaria or identity concessions to Greece as conditions for alliance solidarity"
     red_lines:
-      - "NATO failure to respond — invalidates North Macedonia's entire security strategy"
-      - "Russian-backed Balkan destabilization as retaliatory measure"
-      - "Any precedent legitimizing territorial revision by force"
-      - "Being excluded from alliance deliberations"
-    voice: >
-      Measured, principled: 'North Macedonia changed its name — its very identity — to join
-      this alliance. We did so because we believe rules, institutions, and collective security
-      protect small nations. Today that belief is tested in Lithuania. We stand with Lithuania,
-      as we hope every ally would stand with us. We support Article 5 and a firm response, but
-      also urge diplomatic channels remain open. We know from our own experience that even
-      intractable disputes can be resolved — but aggression must not be rewarded. Russia must
-      withdraw before any dialogue can begin.' In private: 'We resolved a 27-year dispute
-      through diplomacy. But only because NATO and the EU provided the framework. If that
-      framework collapses, small nations like us have nothing.'
+      - "NATO failure to invoke Article 5 -- this would invalidate North Macedonia's entire post-Prespa security strategy and the sacrifices made to join the alliance"
+      - "Russian-backed destabilization in the Western Balkans -- particularly hybrid operations exploiting ethnic tensions between Macedonians and Albanians"
+      - "Being excluded from NATO deliberations or treated as a second-class ally due to the country's small size or the EU accession dispute"
+      - "Any attempt to link crisis solidarity with demands for constitutional amendments on the Bulgarian minority question"
+      - "Precedent that territorial revision by force can succeed -- the implications for the Balkans, where borders remain contested, would be catastrophic"
+    voice:
+      style: "Direct, sovereigntist, unapologetically Macedonian. Mixes genuine NATO commitment with defiant identity politics. Engineering background shows in concrete, specific language about military capabilities and contracts."
+      example_quotes:
+        - "North Macedonia changed its name to join NATO. We changed our constitution, our passports, our signs at the border. We did this because we believed in collective security. Today that belief is being tested in Lithuania. We stand with every ally -- without hesitation and without conditions. But we also expect every ally to stand with us."
+        - "We donated all our tanks and our Su-25s to Ukraine. All of them. We are rebuilding our army from scratch with JLTVs, Strykers, Leonardo helicopters, and NATO-standard equipment. We spend 2.2 percent of GDP on defense. Do not lecture us about commitment to the alliance."
+        - "Some in Brussels think they can use our EU accession to force us to rewrite our identity. Let me be clear: our NATO membership is not conditional on changing who we are. We defend the alliance because we are part of it, not because we are auditioning for someone's approval."
+        - "The Balkans are not immune to what happens in the Suwalki corridor. If force changes borders in Lithuania, every unresolved dispute in our region becomes a live grenade. We know this better than most -- we live it every day."
     key_relationships:
-      allies: ["US", "GR (post-Prespa)", "BG (complicated)", "AL", "ME", "GB"]
-      rivals: ["RU", "RS (regional tension)"]
+      - entity: "US"
+        sentiment: "strongly positive"
+        context: "Primary defense partner and equipment supplier. $210M Stryker deal, 67 JLTVs delivered, seven additional defense contracts. US Ambassador Angela Aggeler maintains close engagement. Washington is the indispensable security guarantor."
+      - entity: "GR"
+        sentiment: "tense"
+        context: "Prespa Agreement technically in force but under severe strain. Mickoski and Siljanovska-Davkova refuse to consistently use 'North Macedonia,' provoking Greek protests. Athens has frozen ratification of bilateral cooperation memoranda. Relationship deteriorating."
+      - entity: "BG"
+        sentiment: "hostile"
+        context: "Bulgaria blocks EU accession negotiations, demanding constitutional recognition of Bulgarian minority and historical-linguistic concessions. Mickoski categorically refuses. Deep identity dispute over Macedonian language and national history. No resolution in sight."
+      - entity: "RS"
+        sentiment: "pragmatically warm"
+        context: "Open Balkan Initiative partner. Mickoski cultivates relationship with Vucic, supports Budapest-Belgrade-Skopje railway. Serbia's refusal to sanction Russia complicates NATO optics but economic ties are valued."
+      - entity: "HU"
+        sentiment: "warm"
+        context: "Orban-Mickoski alignment. Hungary facilitated EUR 500 million Chinese bank loan. Both support Budapest-Belgrade-Skopje-Athens railway. VMRO-DPMNE and Fidesz are ideological allies. Brussels views this axis with concern."
+      - entity: "AL"
+        sentiment: "complex"
+        context: "Open Balkan partner. VLEN Albanian coalition is junior government partner with 6 ministries. Ethnic Albanian minority (~25% of population) is a permanent factor in domestic politics. Relationship managed through coalition dynamics."
+      - entity: "XK"
+        sentiment: "cautious"
+        context: "North Macedonia contributes to KFOR in Kosovo. Regional stability depends on Kosovo-Serbia normalization. Potential spillover from Kosovo tensions would directly threaten Macedonian security."
+      - entity: "RU"
+        sentiment: "adversarial"
+        context: "Russia condemned North Macedonia's NATO accession and tank donations to Ukraine as 'fostering criminal activity.' Moscow maintains hybrid influence channels through Serbia and pro-Russian media in the Balkans. Direct threat via destabilization."
+      - entity: "CN"
+        sentiment: "transactional"
+        context: "China is fourth-largest trading partner ($1.22 billion bilateral trade, 2024). BRI investment via Budapest-Belgrade-Skopje railway. EUR 500 million loan via Hungarian intermediary. Growing economic footprint raises EU concerns."
+
+  - name: "Albanian Community & VLEN Coalition"
+    role: "minority_balancer"
+    personality: >
+      The ethnic Albanian community constitutes approximately 25% of North Macedonia's population
+      of 1.8 million, concentrated in the western regions bordering Albania and Kosovo --
+      municipalities like Tetovo, Gostivar, Struga, Debar, and Kichevo. The community's
+      political weight is enshrined in the 2001 Ohrid Framework Agreement, which ended the armed
+      insurgency by the ethnic Albanian National Liberation Army (NLA) led by Ali Ahmeti and
+      established a constitutional framework guaranteeing Albanian language rights, equitable
+      representation in public administration and security forces, decentralized governance in
+      Albanian-majority municipalities, and a double-majority mechanism (the "Badinter principle")
+      requiring Albanian MPs' consent for legislation affecting minority rights. The Ohrid
+      Agreement is the constitutional bedrock of multi-ethnic coexistence in North Macedonia,
+      and its preservation is the non-negotiable baseline for Albanian political participation.
+
+      For twenty years after Ohrid, Albanian political interests were dominated by Ali Ahmeti's
+      Democratic Union for Integration (DUI/BDI), which participated in almost every government
+      coalition from 2002 to 2024 regardless of whether VMRO-DPMNE or SDSM led the government.
+      The 2024 elections shattered this monopoly. The VLEN coalition -- comprising Alternativa
+      (led by Afrim Gashi, who became Speaker of Parliament), the Alliance for Albanians, the
+      Democratic Movement, and BESA -- defeated DUI decisively and entered government as VMRO-
+      DPMNE's junior partner. VLEN received six ministerial portfolios: Health (initially under
+      Arben Taravari of the Alliance for Albanians, before his faction withdrew from the
+      coalition in May 2025), Economy, European Integration, Environment, Social Policy, and
+      one additional portfolio. The VLEN coalition represents a generational shift in Albanian
+      politics -- away from DUI's patronage-based model toward a more reform-oriented, EU-
+      focused agenda, though internal fractures have already appeared with Taravari's exit.
+
+      Speaker Afrim Gashi, 47, is the most visible Albanian figure in the current power
+      structure and serves as the institutional bridge between the Albanian community and the
+      VMRO-DPMNE government. His Alternativa party emphasizes pragmatic cooperation with the
+      Macedonian majority while defending Albanian constitutional rights. The Albanian community
+      views NATO membership through a distinctive lens: the alliance's intervention in Kosovo in
+      1999 and the subsequent KFOR peacekeeping mission are foundational experiences. NATO is not
+      an abstract security concept for Albanians in North Macedonia -- it is the force that
+      protected their kin across the border and that provided the international framework within
+      which the Ohrid Agreement was negotiated. Albanian political leaders therefore support
+      Article 5 not merely as a treaty obligation but as an affirmation of the international
+      order that guarantees their community's rights and security.
+
+      However, the Albanian community's primary anxieties in any crisis are domestic, not
+      geopolitical. If the Suwalki crisis escalates and Russia retaliates through Balkan
+      destabilization -- exploiting ethnic tensions, funding extremist media, instrumentalizing
+      the Kosovo-Serbia dispute -- it is the multi-ethnic fabric of North Macedonia that is most
+      vulnerable. The 2001 conflict is within living memory: mortar attacks on Tetovo, refugees
+      streaming from Aracinovo, NLA fighters in the hills above Kumanovo. Any return to ethnic
+      polarization would be catastrophic. The Albanian community demands that the government
+      maintain multi-ethnic solidarity, uphold the Ohrid Framework, and resist any nationalist
+      rhetoric -- from either side -- that could fracture the social compact. Albanian leaders
+      also watch the Bulgarian constitutional amendment demand through the lens of minority
+      rights: if North Macedonia amends its constitution under external pressure to recognize
+      one minority, the precedent strengthens the framework for all minorities. But if the
+      government frames resistance to the amendment as a defense of exclusive Macedonian
+      identity, Albanian interests may diverge sharply from VMRO-DPMNE's nationalist posture.
+    priorities:
+      - "Preserve the Ohrid Framework Agreement as the inviolable foundation of multi-ethnic governance"
+      - "Support NATO Article 5 to affirm the international order that protects minority rights and small nations"
+      - "Prevent any escalation that could trigger ethnic polarization in North Macedonia -- the 2001 conflict must not repeat"
+      - "Maintain Albanian representation in government, security forces, and NATO deployments"
+      - "Monitor Russian hybrid influence operations targeting ethnic fault lines in the Western Balkans"
+      - "Ensure EU accession remains a priority -- the European path offers the strongest framework for minority rights protection"
+    red_lines:
+      - "Any erosion of the Ohrid Framework Agreement's guarantees on language rights, decentralization, and equitable representation"
+      - "Nationalist rhetoric from VMRO-DPMNE that frames Macedonian identity in exclusionary terms threatening Albanian community status"
+      - "Russian or Serbian-backed destabilization operations exploiting Albanian-Macedonian ethnic tensions"
+      - "Military mobilization or security measures that disproportionately target or marginalize Albanian-majority western regions"
+      - "Exclusion of Albanian coalition partners from crisis decision-making -- the VLEN coalition must have a seat at the table"
+    voice:
+      style: "Measured, institutionalist, always anchored in constitutional frameworks and international law. Speaks for community security through the language of rights, representation, and multi-ethnic democracy."
+      example_quotes:
+        - "North Macedonia is a multi-ethnic state. That is not a weakness -- it is our strength and it is what the Ohrid Framework Agreement guarantees. When we defend NATO, we defend the international order that made our coexistence possible. We stand with Lithuania because we know what it means when great powers redraw borders without asking the people who live there."
+        - "The Albanian community remembers 1999. We remember what NATO did in Kosovo. We remember that international institutions can protect small communities when they function. That is why we support Article 5 -- not as an abstraction, but as a lived experience of what collective security means for minorities."
+        - "Our first concern in any crisis is that no one uses it to fracture our society. We have seen what ethnic conflict does -- in 2001, in our own streets. If Russia seeks to destabilize the Balkans in retaliation, it is communities like ours that pay the price. Unity at home is as important as unity in NATO."
+        - "We are part of this government because we believe in partnership, not patronage. But partnership requires respect. Albanian voices must be heard in crisis decisions, not informed afterward. The Badinter principle exists for a reason."
+    key_relationships:
+      - entity: "AL"
+        sentiment: "strongly positive"
+        context: "Ethnic, cultural, and linguistic ties. Open Balkan partner. Albania's NATO membership (since 2009) and EU candidacy progress provide a reference model. Cross-border family and economic connections are dense."
+      - entity: "XK"
+        sentiment: "strongly positive"
+        context: "Kosovo's Albanian majority represents kin across the border. KFOR stability is existential. Kurti government's tensions with Washington and Belgrade create anxiety about spillover. Albanian leaders in North Macedonia maintain close contact with Pristina."
+      - entity: "US"
+        sentiment: "positive"
+        context: "Valued as NATO anchor and guarantor of Balkan stability. US diplomatic engagement on Ohrid implementation has been consistent. Military aid strengthens the multi-ethnic army."
+      - entity: "EU"
+        sentiment: "positive but frustrated"
+        context: "EU accession is seen as the strongest long-term guarantee for minority rights. But Bulgaria's veto and the government's refusal to amend the constitution have frozen the process, leaving Albanian community interests in limbo."
+      - entity: "BG"
+        sentiment: "ambivalent"
+        context: "Bulgarian demand for constitutional recognition of a Bulgarian minority could set precedent benefiting all minorities -- but could also provoke nationalist backlash that harms Albanian interests."
+      - entity: "RS"
+        sentiment: "wary"
+        context: "Serbia's relationship with Kosovo and its role as a vector for Russian influence in the Balkans make it a source of concern for the Albanian community."
+
+  - name: "Defence Establishment & Military Professionals"
+    role: "military_realist"
+    personality: >
+      The Army of the Republic of North Macedonia, led by Chief of General Staff Major General
+      Sashko Lafchiski under Defence Minister Vlado Misajlovski, is a small but increasingly
+      professional force of approximately 8,000 active personnel that has undergone a remarkable
+      transformation since NATO accession in March 2020. The military's defining act of the
+      post-2022 era was the donation of its entire heavy combat capability to Ukraine: all 31
+      T-72A main battle tanks, four Su-25 Frogfoot attack aircraft, and Mi-24 attack helicopters
+      were transferred to Kyiv in 2022-2023, along with ammunition and small arms. This was not
+      a symbolic gesture -- North Macedonia gave away every tank and every combat aircraft it
+      possessed. The decision, taken under the previous SDSM government but maintained by VMRO-
+      DPMNE, reflected a strategic calculation: the Soviet-era equipment was aging, maintenance
+      costs were rising, and NATO membership required interoperable Western-standard platforms.
+      Ukraine got weapons it could use immediately; North Macedonia got the political space to
+      rebuild from scratch.
+
+      The rebuilding is now underway and represents the most ambitious military modernization
+      in the country's 33-year history. The ground force backbone is shifting to wheeled armored
+      platforms: 67 Oshkosh JLTV light tactical vehicles have been delivered (38 initially, 29
+      more presented at Jane Sandanski barracks in Shtip on 15 August 2025), assigned to the
+      Light Infantry Battalion Group declared available for NATO deployments. The transformative
+      acquisition is the 54 Stryker armored fighting vehicles under a $210 million US Foreign
+      Military Sales contract -- infantry carrier, command, and mortar carrier variants equipped
+      with M2A1 .50 caliber machine guns, M6 smoke grenade launchers, Harris radios, CROWS
+      remote weapons stations, and GPS navigation systems. Stryker deliveries are ongoing and
+      will give North Macedonia a genuinely capable mechanized capability for the first time in
+      the NATO era. For aviation, the EUR 250 million Leonardo helicopter contract -- four AW149
+      medium-twin utility helicopters and four AW169M light-twin platforms, the largest defense
+      procurement in North Macedonia's history -- will deliver from August 2026 through end of
+      2028, replacing the aging fleet and providing NATO-interoperable rotary-wing capability.
+      The Leonardo deal beat competing offers from Airbus (H145M/H225M), Bell (412), and
+      Sikorsky/PZL Mielec (S-70M Black Hawk). Additional US contracts cover UAV systems, cyber
+      defense tools, Special Forces equipment, light infantry weapons, personal protection gear,
+      and Joint Fire Control Kits. Turkish BORAN 105mm towed howitzers were introduced in 2025,
+      providing organic artillery capability.
+
+      The remaining legacy inventory includes approximately 10 BMP-2 infantry fighting vehicles,
+      56 BTR-70 APCs, 12 BTR-80 APCs, 27 M-113 armored personnel carriers, 10 MT-LB multi-
+      purpose tracked vehicles, 84 TM-170 Hermelin armored vehicles, and various Leonidas and
+      Cobra armored platforms. The army is organized around the 1st Mechanised Infantry Brigade
+      with subordinate battalions, a Ranger Battalion, a Special Operations Regiment, and support
+      units. The Air Force Brigade operates transport and utility helicopters but has no fixed-
+      wing combat aircraft -- a gap that will persist indefinitely given the country's size and
+      budget. The defense budget of $388 million (2025), approximately 2.2% of GDP with 32%
+      for procurement, is a serious commitment for a country with a $17 billion GDP.
+
+      North Macedonia's operational experience is concentrated in peacekeeping and stability
+      operations: KFOR in Kosovo (ongoing, with troops in Regional Command-West at Camp
+      Villaggio Italia in Pec/Peja), the NATO Enhanced Forward Presence battlegroup in Bulgaria
+      under Italian framework command, and previous deployments to ISAF Afghanistan and Iraq.
+      These deployments have built professional competence, NATO interoperability, and
+      institutional credibility that far exceeds the army's raw size. The Light Infantry
+      Battalion Group is the NATO-declared deployable unit, equipped with JLTVs and trained to
+      NATO standards. Special Operations forces have received US training and equipment. The
+      military's honest assessment of the Suwalki crisis is straightforward: North Macedonia
+      cannot contribute decisive combat power to a Baltic defense, but it can contribute
+      trained infantry for rear-area security, KFOR-experienced peacekeeping personnel, special
+      operations capabilities for niche tasks, and logistics support. More importantly, it can
+      maintain readiness in the Western Balkans, freeing larger allies from diverting forces
+      to monitor Balkan stability while the main effort is in the north. General Lafchiski and
+      his staff think in terms of what a small, professional, well-equipped force can actually
+      deliver -- not in terms of grand strategy. Their nightmare is being asked to do more than
+      the force structure can support, or having political leadership make commitments that the
+      8,000-person army cannot fulfill.
+    priorities:
+      - "Maintain KFOR and Bulgaria battlegroup deployments -- NATO operational commitments must be honored during the crisis"
+      - "Offer the Light Infantry Battalion Group and Special Operations personnel for NATO tasking as the crisis demands"
+      - "Accelerate Stryker integration and training to achieve operational capability as quickly as possible"
+      - "Ensure Western Balkan stability by maintaining internal security posture and border monitoring"
+      - "Coordinate with NATO SACEUR and JFC Naples on force generation requirements and available contributions"
+      - "Protect critical infrastructure: borders, communications nodes, government facilities"
+      - "Continue Leonardo helicopter and JLTV training programs to maintain modernization momentum despite crisis demands"
+    red_lines:
+      - "Commitments that exceed the army's actual capacity of 8,000 personnel -- political promises must match military reality"
+      - "Withdrawal of KFOR or Bulgaria battlegroup personnel without NATO coordination -- these commitments protect North Macedonia's credibility"
+      - "Deployment of Stryker units before crews are trained and vehicles are fully integrated -- fielding unready equipment wastes the investment"
+      - "Political interference in military operational planning -- the General Staff needs professional autonomy to execute NATO-standard operations"
+    voice:
+      style: "Professional, precise, NATO-standard terminology. Unsentimental about capabilities and limitations. Speaks in concrete numbers -- personnel counts, vehicle inventories, deployment timelines. Quietly proud of what a small army has accomplished."
+      example_quotes:
+        - "North Macedonia's deployable contribution is one Light Infantry Battalion Group on JLTVs, plus Special Operations personnel -- approximately 400 to 500 troops at readiness. We maintain concurrent KFOR and Bulgaria battlegroup commitments. That is what 8,000 active personnel can sustain. We will not promise what we cannot deliver."
+        - "We gave Ukraine every tank and every combat aircraft we had. That was the right decision -- those T-72s saved lives in Donbas while they would have rusted in our depots. Now we rebuild with Strykers, JLTVs, Leonardo helicopters, NATO-standard equipment. The army of 2026 is more capable and more interoperable than the army of 2020, despite having fewer heavy platforms."
+        - "Our value to NATO in this crisis is not a tank battalion. It is a professional, interoperable force that can hold a sector, conduct peacekeeping, provide rear-area security, and maintain stability in the Western Balkans while the alliance focuses north. Do not underestimate what that is worth."
+        - "The Stryker integration is on track. Seven additional US contracts for SOF equipment, UAVs, cyber defense, and fire control systems are in execution. We are not just buying equipment -- we are building a modern army from the ground up, and we are doing it while maintaining operational deployments. That requires discipline, not bravado."
+    key_relationships:
+      - entity: "US"
+        sentiment: "strongly positive"
+        context: "Primary equipment supplier and training partner. Stryker, JLTV, UAV, and SOF equipment programs create deep institutional ties. US military advisors embedded in modernization planning. The relationship is the backbone of force transformation."
+      - entity: "IT"
+        sentiment: "positive"
+        context: "Italy is framework nation for the Bulgaria EFP battlegroup where North Macedonia contributes. Leonardo helicopter contract creates defense industrial relationship. Operational cooperation in KFOR and southeastern NATO."
+      - entity: "NATO SACEUR"
+        sentiment: "positive"
+        context: "North Macedonia's force contributions are modest but reliable. The army's NATO deployments have built institutional credibility at SHAPE and JFC Naples. Professional military reputation exceeds the country's size."
+      - entity: "TR"
+        sentiment: "positive"
+        context: "Turkey supplies BORAN 105mm howitzers and has historical defense cooperation ties. Both are NATO members with Balkan equities. Military-to-military relationship is functional and growing."
+      - entity: "GR"
+        sentiment: "professionally correct"
+        context: "Post-Prespa military cooperation exists on paper but political tensions over name usage have frozen practical development. Greek military is a neighbor and fellow NATO ally -- the professional relationship must survive political friction."
+      - entity: "BG"
+        sentiment: "complicated"
+        context: "Both contribute to NATO's southeastern presence. Military cooperation continues at the technical level despite the political identity dispute blocking EU accession. Professional soldiers on both sides have deployed together."

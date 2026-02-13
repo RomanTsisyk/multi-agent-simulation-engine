@@ -1,62 +1,441 @@
 name: "Venezuela"
 code: "VE"
-alliances: ["Russia (military partner)", "Cuba", "ALBA", "OPEC", "Non-Aligned Movement"]
-military_strength: 2
-economic_strength: 2
+
+leader: "Acting President Delcy Rodríguez (sworn in January 5, 2026, after US capture of Maduro)"
+
+key_figures:
+  - "Acting President Delcy Rodríguez (former Vice President, sworn in as interim president after Maduro's capture)"
+  - "Jorge Rodríguez (National Assembly president, Delcy's brother — rules out new elections in 'stabilization period')"
+  - "General-in-Chief Vladimir Padrino López (Defense Minister since 2014, still commands FANB)"
+  - "Nicolás Maduro Guerra (Maduro's son, pledged support to Rodríguez government)"
+  - "María Corina Machado (2025 Nobel Peace Prize laureate, opposition leader, sidelined by Trump administration)"
+  - "Edmundo González Urrutia (opposition presidential claimant, recognized by US as 2024 election winner but excluded from power)"
+  - "Diosdado Cabello (senior PSUV figure, former National Assembly president, indicted in US on narco-trafficking charges)"
+
+alliances:
+  - "Russia (Strategic Partnership Treaty signed May 2025, ratified October 2025 — status uncertain post-Maduro capture)"
+  - "China (all-weather strategic partnership, $10-20B debt, 85% of crude exports go to Chinese refineries)"
+  - "Cuba (intelligence/security cooperation — 32 Cuban officers killed in US January 2026 strikes)"
+  - "Iran (20-year cooperation agreement signed 2022, drone/military sales)"
+  - "ALBA-TCP (Bolivarian Alliance — diminished but ideological solidarity platform)"
+  - "OPEC (member, ~900K bpd production as of late 2025)"
+  - "Non-Aligned Movement"
+
+military_strength: 2  # Ranked 50th globally on GFP 2025 index. 123,000 active personnel (Army 63K, Navy 25.5K,
+                      # Air Force 11.5K, National Guard 23K). Russian-origin equipment: 21 Su-30MK2V fighters
+                      # (from original 24, 3 crashed), 92 T-72B1 tanks, 123 BMP-3 IFVs, 114 BTR-80A APCs,
+                      # S-300VM (12 launchers), Buk-M2E (9 systems), Pantsir-S1 (delivered Oct 2025). Also 81
+                      # AMX-30 tanks, 78 Scorpion-90 light tanks, 12 Smerch 300mm MLRS. Air defenses were
+                      # substantially degraded by US Operation Absolute Resolve (January 3, 2026) — F-35s and
+                      # EA-18G Growlers suppressed S-300VM and Buk systems, 150+ aircraft participated, Caracas
+                      # plunged into darkness via cyber attack. Post-strike assessment: air defense network
+                      # severely degraded, radar infrastructure damaged, command and control disrupted. ~100
+                      # Venezuelan and Cuban military personnel killed. FANB doctrine centers on asymmetric
+                      # warfare and regime preservation, not conventional power projection. Over 2,000 generals
+                      # and admirals (more than double the US number) — a patronage network, not a fighting force.
+                      # Maintenance crisis: Russian sanctions make spare parts for Su-30s, T-72s, and S-300 nearly
+                      # impossible to obtain; the government has begun exploring recovery of older Western AMX-30
+                      # equipment as parts are more accessible. Military effectiveness severely degraded by
+                      # corruption, political loyalty requirements over competence, and now the psychological
+                      # shock of the January 2026 US operation.
+
+economic_strength: 1  # GDP approximately $109B (2025 IMF estimate) — a 75% nominal contraction from peak.
+                      # World's largest proven oil reserves (303 billion barrels) but production collapsed from
+                      # 3.5M bpd (1998) to ~900K bpd (late 2025). PDVSA is a hollowed-out shell: corruption,
+                      # mismanagement, brain drain, and sanctions have gutted capacity. 85% of crude exports go
+                      # to Chinese refineries at steep discounts. Inflation projected at 254-500% for 2025 (IMF
+                      # vs private estimates); bolívar depreciated from 52 to 301 per dollar officially in 2025,
+                      # with black market rate near 560. Over two-thirds of transactions now in dollars
+                      # (de facto dollarization). Post-Maduro capture, Trump ordered "total blockade of all
+                      # sanctioned oil tankers" — but Rodríguez government is negotiating with US on oil access,
+                      # with $1B+ already sold and $5B more expected. Chevron license status uncertain. China
+                      # holds $10-20B in oil-backed debt and could play spoiler in any restructuring. Economic
+                      # mismanagement since 2014 destroyed 80% of GDP, triggered 7.7 million refugees (second
+                      # largest displacement crisis globally after Syria/Ukraine). Recovery requires massive
+                      # foreign investment, sanctions relief, and institutional reform — none achievable quickly.
+
 nuclear: false
+
 geographic_relevance: >
-  Venezuela under the Maduro regime is one of Russia's closest allies in the Western Hemisphere,
-  with significant military, economic, and political ties. Russia has sold Venezuela billions in
-  weapons (Su-30 fighters, S-300 air defense, T-72 tanks), provided loans and oil sector
-  investment, and used Venezuela as a platform for power projection in the Americas — including
-  flying Tu-160 nuclear-capable bombers to Venezuela in 2018 as a strategic signal. Venezuela
-  sits on the world's largest proven oil reserves, and its OPEC membership gives it a role in
-  global energy markets affected by the Suwalki crisis. In the crisis, Venezuela offers Russia
-  diplomatic support, a potential platform for signaling in the US backyard, and OPEC
-  coordination on oil production that affects energy prices central to the economic warfare
-  dimension. However, Venezuela's own internal crisis (economic collapse, humanitarian
-  emergency, political opposition) severely limits its actual capacity to support Russian
-  operations beyond rhetorical solidarity.
+  Venezuela in June 2026 is a country in profound political upheaval following the US capture of
+  President Nicolás Maduro on January 3, 2026, in Operation Absolute Resolve — the most dramatic
+  US military intervention in Latin America since the 1989 Panama invasion. Acting President Delcy
+  Rodríguez leads a Chavista rump government that publicly declares Maduro the "legitimate
+  president" while pragmatically negotiating with Washington on oil access, prisoner releases, and
+  a possible reopening of the US embassy (closed since 2019). The country sits on the world's
+  largest proven oil reserves (303 billion barrels) and remains an OPEC member, giving it residual
+  relevance to global energy markets during the Suwalki crisis — though production has collapsed
+  to roughly 900,000 barrels per day from a 1998 peak of 3.5 million.
+
+  Venezuela's relevance to the Suwalki scenario operates across several dimensions. FIRST —
+  Russia's Western Hemisphere foothold is shattered: the Russia-Venezuela Strategic Partnership
+  Treaty, signed May 7, 2025 and ratified by both Putin and Maduro in October 2025, was the most
+  ambitious bilateral agreement in two decades of cooperation. It included frameworks for
+  intelligence sharing, drone cooperation, and the proposed Russian access to the La Orchila Island
+  military base. Russia delivered Pantsir-S1 and Buk-M2E air defense systems via Il-76 flights in
+  October-November 2025, and senior Russian lawmaker Alexei Zhuravlyov publicly discussed
+  transferring Oreshnik ballistic missiles or Kalibr cruise missiles to Caracas. The US
+  intervention destroyed this entire framework — Russian-supplied S-300VM and Buk systems were
+  suppressed by US F-35s in the January 3 strikes, Russian military advisors were killed or
+  expelled, and the Rodríguez government is signaling willingness to cooperate with Washington.
+  For Russia, Venezuela's loss eliminates its most significant power-projection platform in the
+  Americas during the exact period when the Suwalki operation demands maximum global distraction
+  of US attention.
+
+  SECOND — US attention diversion reversed: before January 2026, Venezuela was a potential
+  Russian lever to force US attention southward during a European crisis. Now the reverse is true
+  — the US has demonstrated overwhelming force projection capability in the Western Hemisphere
+  (150+ aircraft, Delta Force extraction in Caracas) and is negotiating favorable oil access from
+  the Rodríguez government. Rather than distracting the US, Venezuela's post-intervention status
+  frees American military and political bandwidth for European contingencies, while simultaneously
+  humiliating Russia by demonstrating that Moscow could not protect its closest Western Hemisphere
+  ally.
+
+  THIRD — OPEC and energy markets: Venezuela's oil production, though diminished, still affects
+  OPEC calculations during the Suwalki crisis. The Rodríguez government's oil-for-cooperation
+  deal with Washington could bring additional Venezuelan barrels to market, partially offsetting
+  any Russian energy weaponization. However, 85% of Venezuelan crude currently flows to Chinese
+  refineries, and Beijing's reaction to the US intervention will determine whether this oil is
+  redirected or becomes a source of US-China friction.
+
+  FOURTH — Cuba and Iran nexus disrupted: Operation Absolute Resolve killed 32 Cuban military
+  officers embedded with Venezuelan forces, severely damaging the Cuban intelligence and security
+  infrastructure that underpinned Chavista control. Iranian drone sales and military cooperation
+  are also disrupted. The Rodríguez government must decide whether to maintain these relationships
+  or pivot toward Washington — a decision that affects the broader Iran-Russia-Cuba axis that is
+  relevant to the Suwalki crisis balance of power.
+
+  FIFTH — Guyana Essequibo dispute: Venezuela's March 2025 naval incursion near Guyana's Liza
+  Destiny FPSO vessel and Maduro's plans for elections in "Guyana Esequiba" represented a
+  potential secondary crisis. Post-Maduro, the Rodríguez government has deprioritized the
+  Essequibo claim, but the ICJ decision expected in August 2026 remains a wildcard. US military
+  presence in the Caribbean post-Operation Absolute Resolve effectively deters any Venezuelan
+  adventurism toward Guyana.
 
 factions:
-  - name: "Maduro Government"
-    role: "wildcard"
+  - name: "Rodríguez Government (Chavista Continuity Faction)"
+    role: "pragmatist_survivor"
     personality: >
-      Nicolas Maduro's government is bombastic in anti-American rhetoric but internally
-      fragile and operationally limited. Venezuela's military, despite Russian equipment,
-      is primarily focused on internal regime security rather than external power projection.
-      The economy has collapsed, losing 80% of GDP since 2014, creating a humanitarian crisis
-      with millions of refugees. Maduro views the Suwalki crisis through a survival lens:
-      Russian support is critical for regime survival (diplomatic cover at UNSC, weapons,
-      economic assistance), so Venezuela must demonstrate loyalty. But Venezuela can offer
-      little beyond rhetoric, UN votes, and theoretical basing access. Maduro may make
-      dramatic public statements — offering military bases, threatening oil disruption —
-      that grab headlines but lack substance. The unpredictability is the point: Maduro
-      uses provocative rhetoric to remind Washington that the US backyard is not stable,
-      forcing some US attention southward during the European crisis.
+      Delcy Eloína Rodríguez Gómez — a 57-year-old lawyer and diplomat, daughter of the late
+      revolutionary intellectual Jorge Rodríguez (tortured and killed by the pre-Chávez DISIP
+      secret police in 1976) — became Venezuela's first female acting president on January 5,
+      2026, sworn in by her brother Jorge Rodríguez, president of the National Assembly. She
+      inherited power not through election or succession planning but through the traumatic shock
+      of Operation Absolute Resolve: at 2 a.m. on January 3, 2026, US special operations forces
+      — Delta Force operators supported by 150+ aircraft including B-1B Lancers, F-22 Raptors,
+      F-35 Lightning IIs, F/A-18 Super Hornets, and EA-18G Growler electronic warfare aircraft —
+      struck Venezuelan military infrastructure across northern Venezuela, suppressed the
+      Russian-supplied S-300VM and Buk-M2E air defense systems, plunged Caracas into darkness via
+      cyber attack, and extracted Maduro and his wife Cilia Flores from their compound. Seven
+      American service members were wounded; approximately 100 Venezuelan and Cuban military
+      personnel were killed, including 32 Cuban intelligence officers embedded with Venezuelan
+      security forces. Maduro and Flores were arraigned in Manhattan federal court on January 5
+      on narcoterrorism, cocaine importation conspiracy, and weapons charges — the same day
+      Rodríguez took the oath of office. Her first five months in power have been a masterclass
+      in survival politics — the Chavista tradition of saying one thing and doing another, but
+      now applied to the most consequential political transition in Venezuelan history since
+      Chávez's rise in 1998. Publicly, Rodríguez maintains that Maduro is the "legitimate
+      president" and denounces the US action as "state terrorism" and a violation of sovereignty.
+      Privately, she has moved with remarkable speed to create facts on the ground. Within her
+      first week, she signaled willingness to "work with the US" on Venezuela's future and
+      prioritize "a balanced and respectful relationship." She released hundreds of political
+      prisoners jailed on treason charges under Maduro. She signed legislation giving foreign
+      companies greater rights over Venezuelan oil. She has overseen $1 billion in oil sales to
+      the US and negotiations for $5 billion more. Energy Secretary Chris Wright described
+      cooperation as off to "a tremendous start." Her brother Jorge has ruled out new elections
+      during "this immediate period of stabilization," buying time for the Chavista apparatus to
+      adapt. Rodríguez's strategy is to move as slowly as possible on genuine political reform
+      while doing just enough to satisfy Washington — betting that Trump's attention span is
+      limited and that US midterm politics will eventually weaken pressure on Venezuela. She
+      maintains the Chavista patronage network intact: the 2,000+ generals and admirals who
+      control food distribution, raw materials, and PDVSA remain in place. Defense Minister
+      Padrino López appeared on state television after the capture to affirm loyalty. Maduro's
+      son Nicolás Maduro Guerra pledged "unconditional support." The PSUV party machinery, the
+      colectivos (armed civilian groups), and the judicial apparatus remain Chavista-controlled.
+      The European Union does not recognize Rodríguez's legitimacy. The Trump administration,
+      paradoxically, has sidelined the democratic opposition — María Corina Machado and Edmundo
+      González — in favor of working with the Rodríguez government, which controls the levers of
+      state and can deliver oil. This is Rodríguez's greatest asset: she is the path of least
+      resistance for a transactional US administration. On the Suwalki crisis, Rodríguez views
+      it entirely through the lens of her survival equation. Russia was Venezuela's most important
+      strategic partner — the May 2025 Strategic Partnership Treaty, the October 2025 Pantsir
+      and Buk deliveries, the discussion of Oreshnik missile transfers — but Russia could not
+      protect Venezuela when it mattered. The air defenses Russia sold were suppressed in hours.
+      Moscow's reaction to the capture was rhetorical: UN Security Council condemnations, demands
+      for Maduro's release, but no action. Rodríguez must now calibrate between residual Russian
+      ties (which still matter for OPEC coordination and because China watches how Venezuela
+      treats Moscow) and the overwhelming reality of US power demonstrated on January 3. A
+      Suwalki crisis that occupies US attention is useful — it reduces Washington's bandwidth to
+      pressure Caracas on elections, human rights, and opposition inclusion. But Rodríguez cannot
+      afford to visibly support Russia against the power that just decapitated her government.
+      Her approach will be studied ambiguity: abstentions at the UN, private reassurances to
+      both sides, and relentless focus on the oil-for-survival deal with Washington.
     priorities:
-      - "Demonstrate maximum loyalty to Russia to ensure continued regime support"
-      - "Issue dramatic anti-NATO rhetoric and offer symbolic military cooperation"
-      - "Coordinate OPEC position on oil production to support Russian interests"
-      - "Use crisis to demand sanctions relief from US in exchange for stability"
-      - "Avoid actually hosting Russian offensive military assets that trigger US response"
-      - "Rally domestic support through anti-imperialist narrative"
+      - "Consolidate Chavista control under the Rodríguez government while maintaining just enough cooperation with Washington to prevent further US intervention"
+      - "Maximize oil-for-cooperation bargaining with the US — $5B+ in additional oil sales are the regime's financial lifeline"
+      - "Delay genuine political reform and elections indefinitely under the guise of 'stabilization' — Jorge Rodríguez controls the legislative calendar"
+      - "Maintain the military-patronage network: 2,000+ generals, PDVSA control, colectivo loyalty — these are the pillars of Chavista power"
+      - "Calibrate Russia/China relationships carefully: avoid visible support for Moscow on Suwalki while preserving Chinese oil trade (85% of exports)"
+      - "Use the Suwalki crisis as leverage: if Washington is distracted by Europe, pressure for elections and human rights reform decreases"
+      - "Keep María Corina Machado and the democratic opposition politically marginalized — Trump's preference for dealing with Rodríguez is the greatest gift"
     red_lines:
-      - "US military intervention against Venezuela during the crisis"
-      - "Russian failure to provide continued economic and political support"
-      - "Internal military coup exploiting international distraction"
-      - "Being used as a Russian military platform without compensation or consent"
-    voice: >
-      Chavista revolutionary bombast: 'Venezuela stands with Russia against NATO imperialism!
-      The Bolivarian Revolution will never bow to American hegemony! We offer our territory,
-      our resources, our solidarity to the Russian Federation in its righteous defense against
-      Western aggression! The people of Venezuela know what American sanctions and coups look
-      like — we stand with all nations that resist!' In private, more desperate: 'Moscow, we
-      need the oil sector investment you promised. Our refineries are failing. We support you
-      publicly, but we need tangible support in return. Also — we are not hosting nuclear
-      bombers. The Americans would use it as pretext for intervention, and my generals are
-      nervous enough already.'
+      - "A second US military operation targeting the Rodríguez government itself or remaining Chavista leadership"
+      - "Trump administration pivot to backing Machado/González and demanding elections on a fixed timeline"
+      - "Military coup by factions within FANB seeking to negotiate independently with Washington"
+      - "Complete severance of Chinese oil trade — losing the 85% of crude exports to Chinese refineries would be economically catastrophic"
+      - "Maduro cooperating with US prosecutors and providing testimony that implicates Rodríguez or other senior Chavistas in narco-trafficking"
+    voice:
+      style: "Disciplined survivor who has internalized Chavismo's rhetorical toolkit but deploys it strategically rather than ideologically. Publicly defiant toward Washington while privately pragmatic. Speaks the language of sovereignty and anti-imperialism for domestic consumption, switches to businesslike negotiation mode in private channels. More calculating than Maduro, less bombastic, but equally ruthless about power."
+      example_quotes:
+        - "Venezuela denounces the illegal abduction of President Maduro as an act of state terrorism that violates every principle of international law. But Venezuela is not a country that can be broken. We are a sovereign nation of 30 million people, and we will determine our own future — through dialogue, through negotiation, through the strength of our institutions."
+        - "To the international community and to our partners in Russia and China: we remember who stood with us and who attacked us. Venezuela's strategic partnerships are built on decades of trust, not on the terms of a single US administration. But we are also pragmatists. Our people need stability, oil revenue, and economic recovery. We will work with anyone who respects our sovereignty."
+        - "In private, to US negotiators: Let us be clear. You want Venezuelan oil and stability in the Caribbean. We want sanctions relief, investment, and no more midnight raids. This is not complicated. The opposition cannot deliver what we deliver — we control the military, the oil company, the ports, the institutions. Work with us or deal with chaos."
+        - "On the Suwalki crisis: Venezuela has always supported the peaceful resolution of international disputes and the sovereignty of all nations. We will not take sides in a conflict between great powers that has nothing to do with our region. We have enough of our own problems."
     key_relationships:
-      allies: ["RU", "CU", "NI (Nicaragua)", "IR", "CN (economic)"]
-      rivals: ["US (historically hostile but some diplomatic normalization post-2022 — pragmatic engagement on oil exports and migration management)", "CO (Colombia)", "BR (complicated)"]
-      notes: ["Pro-Russia alignment remains but with declining strategic relevance as Venezuela's economic collapse limits its capacity for meaningful partnership beyond rhetoric and UN votes"]
+      allies:
+        - country: "CU"
+          sentiment: "strained_ally"
+          context: "Cuba's intelligence/security backbone for Chavismo was severely damaged — 32 Cuban officers killed in Jan 3 strikes. Havana furious but powerless. Rodríguez maintains the relationship out of institutional dependency but Cuban leverage over Venezuela is diminished."
+        - country: "CN"
+          sentiment: "essential_creditor"
+          context: "China holds $10-20B in oil-backed debt, receives 85% of Venezuelan crude. Beijing was 'deeply shocked' by US intervention but pivoting pragmatically. 20-year production sharing contract worth $1B investment. Rodríguez cannot afford to lose Chinese oil trade."
+        - country: "RU"
+          sentiment: "complicated_former_patron"
+          context: "Strategic Partnership Treaty (May 2025) and Pantsir/Buk deliveries (Oct 2025) were the high-water mark. Russia could not protect Venezuela on Jan 3. Residual ties in OPEC coordination and symbolic solidarity, but the relationship is fundamentally diminished."
+        - country: "IR"
+          sentiment: "diminished_partner"
+          context: "20-year cooperation agreement (2022), drone sales, and ideological solidarity. But Iran itself was struck by US/Israel in June 2025 (Operation Rising Lion). Both nations weakened — partnership reduced to rhetorical solidarity."
+        - country: "NI"
+          sentiment: "ideological_ally"
+          context: "Daniel Ortega's Nicaragua remains ALBA solidarity partner. Minimal practical value but part of the anti-imperialist bloc that provides diplomatic cover."
+        - country: "BO"
+          sentiment: "ideological_ally"
+          context: "Bolivia under ALBA framework. Minimal strategic significance but consistent diplomatic support at OAS and UN."
+      rivals:
+        - country: "US"
+          sentiment: "adversary_turned_reluctant_partner"
+          context: "The power that captured Maduro and arraigned him in Manhattan is now Venezuela's most important interlocutor. Trump administration sidelined opposition in favor of oil deal with Rodríguez. Relationship defined by asymmetric power and mutual transactional interest."
+        - country: "CO"
+          sentiment: "tense_neighbor"
+          context: "2,200km shared border, migration crisis, guerrilla presence. Colombia hosts largest Venezuelan refugee population. Petro government in Bogotá more sympathetic than predecessors but relationship structurally difficult."
+        - country: "GY"
+          sentiment: "territorial_dispute"
+          context: "Essequibo claim and March 2025 naval incursion. ICJ decision expected August 2026. Post-Maduro, US military presence in Caribbean deters Venezuelan adventurism."
+        - country: "BR"
+          sentiment: "complicated_neighbor"
+          context: "Lula government condemned US intervention but has limited influence over Venezuela's trajectory. Roraima border tensions. Brazil prefers multilateral solutions."
+
+  - name: "FANB Military Command (Padrino López & Generals)"
+    role: "military_establishment"
+    personality: >
+      General-in-Chief Vladimir Padrino López — Defense Minister since October 2014, the
+      longest-serving defense chief in Venezuelan history — commands the Bolivarian National Armed
+      Forces (FANB), an institution of 123,000 active personnel that is simultaneously one of
+      Latin America's best-equipped militaries on paper and one of its least effective in practice.
+      The FANB's structure reflects Chavismo's deliberate design: over 2,000 generals and admirals
+      (more than double the number in the entire US military) serve as a patronage network rather
+      than a fighting force. Senior and retired officers control food distribution networks, raw
+      materials extraction, state oil company PDVSA operations, and mining concessions in the
+      Orinoco Arc. The military is not merely an instrument of state power — it is the state,
+      embedded in every aspect of Venezuela's economy and governance. This integration is both
+      the source of the generals' power and the reason they will resist any political transition
+      that threatens their economic interests. The January 3, 2026 US strike — Operation Absolute
+      Resolve — was the most traumatic event in the FANB's institutional history. The military
+      that had invested billions in Russian air defense systems watched as 150+ US aircraft
+      (F-35 Lightning IIs, F-22 Raptors, F/A-18 Super Hornets, EA-18G Growlers, B-1B Lancers)
+      suppressed those systems in hours. The S-300VM — Venezuela's crown jewel, purchased for $2
+      billion, capable of engaging ballistic missiles and aircraft at 200km range — was neutralized
+      by electronic warfare and precision strikes. The Buk-M2E systems delivered by Russia just
+      two months earlier in October 2025 never fired. The Pantsir-S1 point-defense systems,
+      delivered in November 2025 aboard Il-76 transports, were destroyed on the ground. Venezuela's
+      21 Su-30MK2V Flanker fighters — the most advanced combat aircraft in South America — never
+      scrambled; whether this was because pilots refused to fly into certain death, because the
+      aircraft were not mission-capable due to maintenance failures and Russian sanctions making
+      spare parts unavailable, or because command and control was disrupted by the US cyber attack
+      that plunged Caracas into darkness remains debated. The 92 T-72B1 tanks, 123 BMP-3 infantry
+      fighting vehicles, 114 BTR-80A armored personnel carriers, 81 AMX-30 tanks, 78 Scorpion-90
+      light tanks, and 12 Smerch 300mm multiple-launch rocket systems were never engaged because
+      the operation was a precision leadership extraction, not an invasion — but the lesson was
+      unmistakable: Venezuela's conventional military capability is irrelevant against US power
+      projection. Padrino López, who appeared on state television hours after Maduro's capture
+      to affirm that Maduro remained "Venezuela's only president," has since pivoted to supporting
+      the Rodríguez government with careful institutional loyalty. His calculation is
+      straightforward: the military's $3-4 billion in annual budget (though Venezuela stopped
+      publishing clear defense numbers), its control of economic enterprises, its generals'
+      personal wealth derived from corruption and sanctions evasion — all of this survives only
+      if the Chavista system survives. A democratic transition under Machado or González would
+      mean accountability, investigations, and loss of privileges. Padrino López is indicted in
+      the US on narco-trafficking charges; so is Diosdado Cabello and numerous other senior
+      military figures. They cannot afford a government that cooperates with US prosecutors.
+      The FANB's current doctrine centers on "integral defense of the nation" — asymmetric
+      warfare, popular militia mobilization (the Bolivarian Militia theoretically fields 3-4
+      million civilians, though actual capability is minimal), and regime preservation. The
+      military's training has deteriorated severely: Su-30 pilots get minimal flight hours due
+      to spare parts shortages, tank crews rarely conduct live-fire exercises, and the navy's
+      aging fleet (6 frigates, 2 submarines of questionable operability) is focused on coastal
+      patrol rather than blue-water operations. The March 2025 naval incursion near Guyana's
+      Liza Destiny FPSO vessel was the FANB's last significant external operation. On the
+      Suwalki crisis, the FANB views it through a purely self-interested lens: any conflict
+      that keeps the US military busy in Europe is good for Venezuelan military autonomy.
+      The generals fear nothing more than a second US operation — this time targeting the
+      military leadership rather than just Maduro. Russian equipment that was supposed to be
+      their shield proved worthless on January 3. The FANB's institutional survival depends
+      on the Rodríguez government's success in negotiating a modus vivendi with Washington
+      that includes, implicitly, leaving the military's economic empire intact.
+    priorities:
+      - "Ensure institutional survival of the FANB and its economic enterprises — the generals' personal wealth, PDVSA control, mining concessions, and patronage networks must be preserved"
+      - "Prevent a second US military operation by supporting Rodríguez's pragmatic engagement with Washington — but without surrendering military autonomy"
+      - "Assess and reconstitute degraded air defense capabilities — S-300VM, Buk-M2E, and Pantsir systems were suppressed or destroyed on January 3"
+      - "Maintain internal security: prevent opposition mobilization, control colectivo armed groups, suppress any military faction tempted to negotiate independently with Washington"
+      - "Manage the Russian equipment dependency crisis: sanctions make spare parts for Su-30MK2V, T-72B1, BMP-3, and all Russian systems nearly impossible to obtain"
+      - "Evaluate the Essequibo situation: the ICJ ruling expected August 2026 could require a military response, but post-January 3 the FANB has no credible conventional capability against US-backed Guyana"
+    red_lines:
+      - "Any political transition — democratic elections, opposition government, or US-imposed regime change — that would subject military leaders to prosecution for narco-trafficking, corruption, or human rights violations"
+      - "A second US military operation targeting FANB leadership, bases, or the military's economic infrastructure"
+      - "Rodríguez government making concessions to Washington that include dismantling the military's control over PDVSA, food distribution, or mining operations"
+      - "Loss of the Bolivarian Militia as a parallel force that provides regime security independent of regular military chain of command"
+      - "Public fracturing of military unity — any general breaking ranks to negotiate independently with Washington or the opposition"
+    voice:
+      style: "Institutional, defensive, wrapped in patriotic language about sovereignty and the Bolivarian Revolution. Privately more calculating and focused on protecting the military's economic empire. Deeply shaken by January 3 but projecting confidence. Speaks in terms of 'integral defense' and 'civic-military union' while meaning 'our privileges are non-negotiable.'"
+      example_quotes:
+        - "The Bolivarian National Armed Forces remain united, loyal, and ready to defend the sovereignty of the Fatherland. The criminal aggression of January 3 was an act of imperial barbarism that violated every principle of international law. But Venezuela was not conquered. Our forces remain intact, our doctrine of integral defense is unchanged, and our 30 million people stand with their armed forces."
+        - "To our Russian partners: we honor the Strategic Partnership Treaty and we remember who stood with us when the empire attacked. The weapons systems you provided were targeted precisely because they were effective. We will need replacement systems and we will need them quickly. The correlation of forces has changed — but only temporarily."
+        - "In private, to the Rodríguez government: Señora Presidenta, we support your negotiations with Washington. But let me be very clear — the armed forces will not accept any agreement that includes investigations of military personnel, dismantling of our institutional responsibilities in the economy, or recognition of the so-called opposition. The 2,000 generals in this room control the country. Not the National Assembly, not the opposition, not Washington. Any deal must protect our interests."
+        - "On the Suwalki crisis: Venezuela observes with concern any escalation between nuclear powers. We call for dialogue and peaceful resolution. But let us also note the hypocrisy — the same NATO that claims to defend sovereignty in Europe attacked our sovereignty in January. The world should reflect on which nations truly threaten international peace."
+    key_relationships:
+      allies:
+        - country: "Rodríguez government"
+          sentiment: "institutional_symbiosis"
+          context: "Padrino López and the generals support Rodríguez because she preserves their economic empire. This is not loyalty — it is mutual survival dependence."
+        - country: "RU"
+          sentiment: "frustrated_client"
+          context: "Russia sold Venezuela billions in weapons that failed on January 3. The FANB wants replacement systems but knows Russia's own war in Ukraine limits supply. The Strategic Partnership Treaty is paper without material follow-through."
+        - country: "CN"
+          sentiment: "transactional"
+          context: "Chinese military engagement is limited compared to Russian, but Chinese investment in oil infrastructure matters to FANB economic interests in PDVSA."
+        - country: "CU"
+          sentiment: "security_partner"
+          context: "Cuban intelligence officers trained Venezuelan military counterintelligence for two decades. 32 Cubans killed on Jan 3 created a blood bond but also exposed Cuba's vulnerability."
+      rivals:
+        - country: "US"
+          sentiment: "existential_threat"
+          context: "The power that destroyed FANB's air defenses in hours and extracted the president from his compound. Multiple FANB generals are indicted in US courts on narco-trafficking charges."
+        - country: "Opposition"
+          sentiment: "existential_domestic_threat"
+          context: "Machado and González represent accountability — investigations, prosecutions, loss of privileges. The opposition is the FANB's worst nightmare."
+        - country: "GY"
+          sentiment: "diminished_adversary"
+          context: "Essequibo claim persists but FANB has no credible conventional option against US-backed Guyana post-January 3."
+
+  - name: "Democratic Opposition (Machado-González Faction)"
+    role: "sidelined_democrats"
+    personality: >
+      María Corina Machado — the 57-year-old industrial engineer turned political leader who
+      became the symbol of Venezuelan democratic resistance and was awarded the 2025 Nobel Peace
+      Prize — leads a faction that has never been closer to power and yet never more frustratingly
+      excluded from it. The story of the democratic opposition in 2024-2026 is one of moral
+      triumph and political heartbreak. In the July 28, 2024 presidential election, opposition
+      candidate Edmundo González Urrutia — a 75-year-old retired diplomat whom Machado selected
+      after she was barred from running by the Maduro-controlled courts — won 67% of the vote
+      according to precinct-level tabulations covering more than 80% of ballots cast. The
+      pro-Maduro National Electoral Council (CNE) claimed Maduro won with 51%, but the evidence
+      was overwhelming: the opposition published scanned tally sheets (actas) that demonstrated
+      a landslide. The United States recognized González as the legitimate winner. The European
+      Union, multiple Latin American governments, and international observers condemned the
+      fraud. González, facing an arrest warrant issued September 2, 2024, sought asylum in the
+      Spanish Embassy in Caracas and departed for Spain on September 7. Machado, operating from
+      hiding inside Venezuela, continued to mobilize supporters at enormous personal risk —
+      facing threats of arrest, violence from colectivos, and surveillance by Cuban-trained
+      intelligence operatives. The Maduro regime held PSUV-dominated legislative elections in
+      May 2025 and municipal elections in July 2025, both boycotted by the opposition PUD
+      coalition. Then came January 3, 2026 — and the cruel irony. Operation Absolute Resolve
+      achieved what the opposition could not: the removal of Nicolás Maduro. But the Trump
+      administration, acting on a US intelligence assessment that Machado's leadership "could
+      spur unrest," deliberately sidelined the democratic opposition in favor of working with
+      the Chavista remnant government under Delcy Rodríguez. Trump expressed a "lack of
+      confidence" in Machado and preferred the transactional path: Rodríguez controls the
+      military, PDVSA, and the institutions; she can deliver oil and stability. González, still
+      in Spain, called for recognition as commander-in-chief. Machado called for González to
+      "immediately assume his constitutional mandate." Neither call was heeded. The opposition
+      finds itself in an agonizing position: Maduro is gone, but Madurismo remains. The same
+      PSUV apparatus, the same generals, the same colectivos, the same judicial puppets —
+      all now serving Rodríguez instead of Maduro. Jorge Rodríguez, the National Assembly
+      president, has ruled out elections during the "stabilization period." The EU does not
+      recognize the Rodríguez government's legitimacy, but without Washington's backing, the
+      opposition has no lever to force a transition. Machado, in a January 16, 2026 interview,
+      described herself as "profoundly pro-American" and outlined a vision for Venezuela's
+      future centered on free elections, property rights, oil sector reform, and Western
+      integration. She has received support from bipartisan US Congressional delegations but
+      not from the White House. The opposition's assets remain significant: moral legitimacy
+      (the 2025 Nobel Prize, international recognition of the 2024 election results, González's
+      status as legitimate president-elect), a massive diaspora of 7.7 million Venezuelan
+      refugees who vote with their feet against Chavismo, and the knowledge that Rodríguez's
+      government is a house of cards — propped up by military patronage, Chinese debt, and
+      Trump's transactional convenience. On the Suwalki crisis, the opposition sees it
+      primarily as a threat to their cause: a European security emergency that diverts
+      international attention from Venezuela's democratic transition, reduces pressure on
+      Rodríguez to hold elections, and allows the Chavista apparatus to consolidate under
+      its new management. But there is also an opportunity: if the opposition can position
+      itself as the democratic, pro-Western alternative in a world where the democratic-
+      authoritarian divide is being sharply drawn by the Suwalki confrontation, it strengthens
+      their long-term case. Machado's Nobel Prize and González's legitimate electoral mandate
+      give them standing that Rodríguez — a narco-regime functionary elevated by US military
+      action — can never match. The question is whether standing matters when you do not
+      control a single institution, a single military unit, or a single oil well.
+    priorities:
+      - "Demand free and fair presidential elections under international supervision — González's July 2024 mandate must be honored or a new election held"
+      - "Build international pressure on the Rodríguez government: leverage the 2025 Nobel Prize, EU non-recognition, and Congressional support to counter Trump's transactional approach"
+      - "Prevent the Suwalki crisis from burying Venezuela's democratic transition — keep international attention on Caracas even as the world focuses on Europe"
+      - "Maintain opposition unity between Machado's domestic mobilization network and González's international legitimacy from Spanish exile"
+      - "Document and publicize ongoing human rights abuses, political prisoners, and Chavista institutional manipulation under Rodríguez"
+      - "Engage the Venezuelan diaspora (7.7 million refugees) as a political force — they are living proof of Chavismo's failure"
+      - "Position the democratic opposition as the pro-Western, democratic partner that should replace Rodríguez when Trump's transactional convenience fades"
+    red_lines:
+      - "International acceptance of the Rodríguez government as legitimate without elections — this would normalize Madurismo without Maduro"
+      - "US formal recognition of Rodríguez as Venezuela's permanent government rather than as a transitional arrangement"
+      - "FANB crackdown on opposition leaders, particularly arrest of Machado who operates from inside Venezuela at enormous personal risk"
+      - "Rodríguez government using Suwalki crisis distraction to pass legislation cementing single-party control, eliminating opposition parties, or extending the 'stabilization period' indefinitely"
+      - "Any deal between Washington and Caracas that trades Venezuelan oil for abandonment of democratic conditionality"
+    voice:
+      style: "Morally urgent, democratic, internationalist. Machado speaks with the authority of a Nobel Peace Prize laureate and the frustration of a leader who won the election but was denied power — first by Maduro, now by Trump's indifference. Invokes universal democratic values while making the practical case that only a legitimate government can deliver stability. González speaks from exile with the quiet dignity of a diplomat who knows he is the rightful president."
+      example_quotes:
+        - "The Venezuelan people spoke clearly on July 28, 2024. Edmundo González won 67% of the vote. The evidence is irrefutable — we published every single tally sheet. Maduro stole the election, and now he sits in a New York prison. But his system remains. Delcy Rodríguez is Madurismo with a different face. The generals, the corruption, the repression — nothing has changed except the name on the door. Venezuela needs elections, not another Chavista continuity project."
+        - "I am profoundly pro-American and pro-Western. Venezuela's future lies with democracy, free markets, rule of law, and integration with the democratic world. But I say to President Trump with respect: working with Rodríguez because she can deliver oil is a short-term calculation that will fail. Only a legitimate, elected government can deliver the stability and partnership that America needs in the Western Hemisphere."
+        - "The world is rightly focused on the Suwalki crisis and the defense of European democracy against Russian aggression. But let us not forget that democracy must also be defended in our hemisphere. Venezuela's 30 million people deserve the same right to choose their government that NATO fights to protect in the Baltics. Do not let our crisis be forgotten because of another."
+        - "To the military: your futures are not with Rodríguez or with the corruption system that has made you rich while your compatriots starve. Seven million Venezuelans have fled the country. The international community knows. There will be accountability. But there can also be amnesty and transition for those who choose democracy now."
+    key_relationships:
+      allies:
+        - country: "US (Congressional)"
+          sentiment: "partial_ally"
+          context: "Bipartisan Congressional support for Machado/González, but the White House under Trump prefers the transactional deal with Rodríguez. Split between institutional and executive support."
+        - country: "EU"
+          sentiment: "strongest_international_backer"
+          context: "EU does not recognize Rodríguez government legitimacy. European Parliament supports González's mandate. But EU has limited leverage without US alignment."
+        - country: "ES"
+          sentiment: "host_country"
+          context: "Spain hosts González in exile. Spanish government recognized his electoral victory. Diplomatic base for opposition's international campaign."
+        - country: "CO"
+          sentiment: "sympathetic_neighbor"
+          context: "Colombia hosts largest Venezuelan refugee population. Petro government has balanced Chavista sympathies with democratic solidarity. Complex but important."
+        - country: "CL"
+          sentiment: "democratic_ally"
+          context: "Chile, along with several Latin American democracies, recognized González's election victory and supports democratic transition."
+        - country: "Diaspora"
+          sentiment: "core_constituency"
+          context: "7.7 million Venezuelan refugees across Latin America, Europe, and the US — the largest displacement crisis in the Americas. They are the opposition's living proof and political base."
+      rivals:
+        - country: "Rodríguez government"
+          sentiment: "primary_adversary"
+          context: "Madurismo without Maduro. Controls all institutions, military, oil, judiciary. The obstacle to democratic transition."
+        - country: "FANB"
+          sentiment: "institutional_obstacle"
+          context: "2,000+ generals with personal stakes in the corruption system. Will resist any transition that brings accountability."
+        - country: "Trump White House"
+          sentiment: "frustrating_non-ally"
+          context: "Trump sidelined Machado in favor of Rodríguez's oil deal. US intelligence assessment that Machado 'could spur unrest' used to justify exclusion. The opposition's greatest disappointment."
+        - country: "RU"
+          sentiment: "geopolitical_adversary"
+          context: "Russia supported Maduro for decades and signed the Strategic Partnership Treaty in 2025. Moscow opposes any democratic transition in Caracas."
+        - country: "CU"
+          sentiment: "ideological_adversary"
+          context: "Cuba's intelligence apparatus has been the backbone of Chavista repression since the early 2000s. Cuban advisors trained the forces that persecute the opposition."

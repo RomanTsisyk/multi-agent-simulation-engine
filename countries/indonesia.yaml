@@ -1,52 +1,369 @@
 name: "Indonesia"
 code: "ID"
-alliances: ["ASEAN", "G20", "OIC", "Non-Aligned Movement"]
+alliances: ["ASEAN", "BRICS", "G20", "OIC", "Non-Aligned Movement", "D-8"]
+
 military_strength: 4
 economic_strength: 5
 nuclear: false
+
+leader: "President Prabowo Subianto"
+
+key_figures:
+  - "Vice President Gibran Rakabuming Raka (son of former President Jokowi)"
+  - "Foreign Minister Sugiono (Gerindra party loyalist, first non-diplomat FM in 25 years)"
+  - "Defense Minister Sjafrie Sjamsoeddin (also acting Coordinating Minister for Political and Security Affairs since Sept 2025)"
+  - "Finance Minister Purbaya Yudhi Sadewa (replaced Sri Mulyani Indrawati in Sept 2025 reshuffle)"
+  - "TNI Commander Gen. Agus Subiyanto"
+  - "TNI Deputy Commander Gen. Tandyo Budi Revita (first deputy commander in over two decades)"
+
 geographic_relevance: >
-  Indonesia is the world's fourth most populous country (280 million), the largest economy in
-  Southeast Asia, the world's largest Muslim-majority nation, and ASEAN's de facto leader.
-  Indonesia's "free and active" foreign policy — non-aligned, independent, refusing to join
-  any military bloc — makes it a crucial swing state in the global response to the Suwalki
-  crisis. Indonesia's UN General Assembly vote and diplomatic position shape the broader
-  Global South narrative. Indonesia also controls the Malacca Strait, the world's most
-  important maritime chokepoint for Asian trade, and hosts the ASEAN Secretariat. Indonesia's
-  South China Sea concerns (Natuna Islands) give it an interest in upholding territorial
-  integrity principles, but its non-aligned tradition prevents alignment with NATO.
+  Indonesia is the world's fourth most populous country (286 million), the largest economy
+  in Southeast Asia ($1.44 trillion nominal GDP, 7th globally by PPP at ~$5 trillion), the
+  world's largest Muslim-majority nation, and ASEAN's de facto leader. Indonesia's "free and
+  active" (bebas-aktif) foreign policy — non-aligned, independent, refusing to join any
+  military bloc — makes it a crucial swing state in the global response to the Suwalki crisis.
+  Indonesia's UN General Assembly vote and diplomatic position shape the broader Global South
+  narrative, particularly as the first Southeast Asian nation to formally join BRICS (January
+  2025), giving it a foot in both the Western-oriented and non-Western institutional orders.
+
+  Indonesia controls the Malacca Strait, the world's most important maritime chokepoint
+  through which 25-30% of global trade passes, and hosts the ASEAN Secretariat in Jakarta.
+  Indonesia's South China Sea concerns — particularly around the Natuna Islands, where
+  China's nine-dash line overlaps Indonesia's EEZ — give it a direct interest in upholding
+  territorial integrity principles. However, a controversial November 2024 joint statement
+  with China on "maritime joint development" near the Natunas drew sharp domestic and
+  regional criticism for appearing to recognize "overlapping claims" where Indonesia had
+  previously denied any overlap existed. This episode illustrates Indonesia's central
+  dilemma: economic dependence on China constrains its ability to confront Beijing's
+  maritime assertiveness, while ASEAN partners look to Jakarta as a stabilizing force.
+
+  Under President Prabowo Subianto — inaugurated October 20, 2024, a former Kopassus
+  special forces commander and lieutenant general who was discharged in 1998 over the
+  kidnapping and torture of pro-democracy activists during the fall of Suharto — Indonesia
+  is undergoing its most ambitious military modernization in decades. The 2026 defense
+  budget reached Rp 187.1 trillion (~$11.4 billion), up from Rp 166 trillion in 2025 and
+  Rp 135 trillion in 2024, though still only ~0.8% of GDP. Prabowo's campaign pledge is
+  to raise defense spending to 1.5% of GDP by 2029. The military has been restructured
+  with six new Army regional commands (Kodam), bringing the total to 21 — the largest
+  TNI reorganization since the Suharto era. The Navy is upgrading 14 naval bases to
+  naval regional commands. New specialized units include six Kopassus groups, 20
+  territorial development brigades, one marine infantry brigade, and 100 territorial
+  development battalions.
+
+  Major procurement programs reflect a deliberate multi-supplier diversification strategy:
+  42 Dassault Rafale fighters from France ($8.1 billion, first three delivered January
+  2026 to Roesmin Nurjadin Air Base in Pekanbaru, Sumatra); 48 KAAN fifth-generation
+  stealth fighters from Turkey (contract signed July 2025, Indonesia is the first export
+  customer); up to 42 Chinese J-10B fighters ($9 billion deal confirmed October 2025);
+  two Scorpene-class submarines from France (to be built at PT PAL in Surabaya); two
+  Merah Putih-class frigates (Babcock Arrowhead 140 design, 5,996 tonnes, built by PT
+  PAL); two Fincantieri multirole offshore patrol ships ($1.18 billion); and continued
+  deliveries of Harimau medium tanks jointly developed with Turkey and built domestically
+  by PT Pindad. The Army fields 61 Leopard 2A4 Revolution tanks and 42 Leopard 2A4+ MBTs.
+  Active military personnel total approximately 400,000 with 400,000 reserves.
+
+  Economically, Indonesia grew at 5.1% in 2025 with 2026 forecasts of 4.9-5.2%. The
+  nickel downstreaming strategy has been a dramatic success — nickel derivative exports
+  surged from $11.9 billion in 2020 to $38-40 billion in 2024, with smelters increasing
+  from 2 to over 60 since 2016. Indonesia controls over 50% of global nickel processing.
+  The IKN Nusantara new capital project on Borneo is proceeding with Phase I near
+  completion (presidential palace 97-98% complete), though budget allocations have been
+  reduced under Prabowo. BRICS membership opens alternative financing through the New
+  Development Bank, while Indonesia simultaneously pursues OECD membership — a
+  characteristic hedging strategy.
+
+  In the Suwalki crisis context, Indonesia's position is shaped by three competing pulls:
+  its non-aligned tradition demands neutrality; its territorial integrity concerns (Natuna,
+  West Papua separatism) make it sympathetic to sovereignty principles that would condemn
+  Russia's corridor seizure; and its BRICS membership and growing Russia/China economic
+  ties constrain any move that would antagonize Moscow or Beijing. Prabowo's personal
+  catchphrase — "a thousand friends are too few, one enemy is too many" — encapsulates
+  the approach: Indonesia will call for dialogue, offer mediation, avoid condemnation of
+  any specific party, and use the crisis to elevate its Global South leadership credentials.
 
 factions:
-  - name: "President & Ministry of Foreign Affairs"
+  - name: "President Prabowo & National Security Apparatus"
     role: "pragmatist"
     personality: >
-      Indonesia's president governs with the strategic patience of a nation that has survived
-      colonial rule, Cold War pressures, and great power competition by refusing to take sides.
-      The "free and active" foreign policy doctrine, enshrined since independence, means
-      Indonesia will not support NATO or Russia — it will support international principles
-      (sovereignty, territorial integrity, peaceful resolution) while extracting maximum
-      benefit from its neutral position. Indonesia's G20 presidency experience demonstrated
-      its ability to convene global leaders and bridge divides. The president sees Indonesia
-      as a natural mediator, positioned between Western and non-Western blocs. Domestically,
-      Indonesian public opinion is largely indifferent to European security but concerned
-      about commodity prices (palm oil, nickel) and food security.
+      President Prabowo Subianto is a unique figure in Indonesian politics — a former
+      lieutenant general and Kopassus special forces commander with extensive combat
+      experience in East Timor and Irian Jaya, who was discharged from the military in
+      1998 after the fall of his former father-in-law President Suharto over allegations
+      of kidnapping and torturing pro-democracy activists. Trained at Fort Bragg's
+      Advanced Infantry Officers Course in 1985, fluent in English, French, and German,
+      educated at the American School in London, and the son of the legendary economist
+      Professor Sumitro Djojohadikusumo, Prabowo straddles Indonesia's military, economic,
+      and cosmopolitan elites in a way no predecessor has. After two failed presidential
+      bids in 2014 and 2019, he served as Defense Minister under his former rival Jokowi
+      (2019-2024), initiating the massive military modernization program he now oversees
+      as president. His inauguration on October 20, 2024, with Jokowi's eldest son Gibran
+      Rakabuming Raka as vice president, cemented a political dynasty arrangement that
+      drew criticism but ensured continuity.
+
+      Prabowo governs through the "Red and White Cabinet" — at 112 appointments (48
+      ministers, 54 deputy ministers, 10 agency heads), the second-largest cabinet in
+      Indonesian history, deliberately designed to co-opt all major political parties into
+      a coalition that controls over 80% of parliamentary seats. The September 2025
+      cabinet reshuffle replaced technocratic Finance Minister Sri Mulyani Indrawati with
+      the more pliant Purbaya Yudhi Sadewa, installed loyalist Sjafrie Sjamsoeddin as
+      both Defense Minister and acting Coordinating Minister for Political and Security
+      Affairs, and consolidated Prabowo's personal control over the security apparatus.
+      Defense Minister Sjafrie, himself a former TNI general with Kopassus background, is
+      effectively Prabowo's executor on military modernization.
+
+      On the Suwalki crisis, Prabowo's instincts are shaped by his military background
+      but tempered by Indonesia's non-aligned tradition. He personally understands
+      military deterrence and has deep familiarity with both Western and non-Western
+      military establishments — he hosted Russian Security Council Secretary Sergei
+      Shoigu in January and February 2025, visited Beijing and Washington back-to-back
+      to signal equidistance, and in January 2025 made Indonesia the first Southeast
+      Asian nation to formally join BRICS. His foreign policy catchphrase — "a thousand
+      friends are too few, one enemy is too many" (a Chinese proverb) — is operationalized
+      as radical hedging: Rafale fighters from France, KAAN jets from Turkey, J-10s from
+      China, Leopard tanks from Germany, submarines from France built at Indonesian
+      shipyards. Prabowo will not condemn Russia by name over the Suwalki corridor — to
+      do so would alienate a BRICS partner, a major arms supplier, and a country that
+      Prabowo has cultivated personally. But he also cannot endorse territorial seizure,
+      because Indonesia's own sovereignty claims — in the Natuna Sea against China, in
+      West Papua against separatists — depend on the inviolability of territorial
+      integrity. His approach will be to call for dialogue, offer Indonesian mediation
+      (citing ASEAN centrality and G20 experience), and use the crisis to elevate
+      Indonesia's standing as a responsible Global South leader while quietly ensuring
+      that commodity markets (nickel, palm oil, coal) are not disrupted.
     priorities:
-      - "Maintain strict non-alignment — Indonesia does not join blocs"
-      - "Offer mediation and good offices — position Indonesia as a bridge"
-      - "Protect Indonesian economy from global disruption — commodity prices, trade"
-      - "Coordinate ASEAN position — maintain ASEAN centrality in regional affairs"
-      - "Support UN Charter principles without siding with NATO or Russia"
-      - "Protect Natuna Islands sovereignty — the territorial integrity precedent matters"
+      - "Maintain strict non-alignment — Indonesia does not join military blocs or take sides in great power conflicts"
+      - "Offer mediation and good offices through ASEAN and BRICS channels — position Indonesia as a bridge between blocs"
+      - "Protect Indonesia's $1.44 trillion economy from global disruption — commodity prices, trade routes, energy costs"
+      - "Ensure territorial integrity precedent cuts both ways — condemn the principle of territorial seizure without naming Russia"
+      - "Coordinate ASEAN-wide response that maintains ASEAN centrality and consensus — prevent ASEAN fragmentation"
+      - "Use the crisis to accelerate military modernization justification — defense budget increases require public buy-in"
+      - "Protect the BRICS relationship while maintaining Western economic and security partnerships"
     red_lines:
-      - "Being pressured to take sides by either NATO or Russia"
-      - "Global economic disruption that devastates Indonesian trade"
-      - "Precedent for territorial revision that emboldens China in South China Sea"
-      - "Nuclear escalation threatening all humanity"
-    voice: >
-      'Indonesia calls on all parties to return to dialogue. Our foreign policy has been
-      free and active since 1945 — we do not take sides in great power conflicts. But we do
-      take sides on principles: sovereignty must be respected, territorial integrity must
-      be upheld, disputes must be resolved peacefully. Indonesia offers its good offices
-      to facilitate dialogue between all parties. The world cannot afford another war.'
+      - "Being forced to choose between BRICS/China/Russia and Western partners — Indonesia's strategy requires access to both"
+      - "Global economic disruption that devastates Indonesian commodity exports (nickel, palm oil, coal, LNG)"
+      - "Precedent for territorial revision that emboldens China in the South China Sea or threatens Natuna sovereignty"
+      - "Nuclear escalation that threatens global stability and Indonesian population centers"
+      - "Any party pressuring ASEAN members to abandon consensus-based decision-making"
+    voice:
+      tone: "Presidential, measured, citing principles rather than naming parties, with occasional military directness"
+      example_quotes:
+        - "Indonesia has been free and active since 1945. We do not take sides in great power conflicts, but we always take sides on principles — sovereignty must be respected, territorial integrity must be upheld, and disputes must be resolved at the negotiating table, not on the battlefield."
+        - "I have said it many times — a thousand friends are too few, one enemy is too many. Indonesia speaks to all parties. We have channels to Moscow, to Washington, to Beijing, to Brussels. Let us use these channels for peace, not for war."
+        - "As a military man, I understand deterrence. As a president, I understand that the greatest deterrence is a world order where nations resolve disputes through law, not force. Indonesia offers its good offices — we hosted the G20 in Bali, we can host peace in Jakarta."
+        - "ASEAN must speak with one voice. The world's fourth most populous nation, the largest Muslim-majority country, the leader of Southeast Asia — Indonesia's voice carries weight. We will use that weight for de-escalation."
     key_relationships:
-      allies: ["ASEAN members", "AU_ORG (AU observer)", "JP (economic)", "CN (economic, complicated)"]
-      rivals: ["none formally — Indonesia's strategy is non-alignment"]
+      CN:
+        sentiment: "complicated"
+        context: "Largest trading partner ($140B+ bilateral trade), BRICS co-member, J-10 fighter deal, but Natuna EEZ tensions and controversial Nov 2024 maritime joint development MOU remain unresolved"
+      US:
+        sentiment: "cooperative but strained"
+        context: "Comprehensive Strategic Partnership since 2023, defense cooperation agreement, but Trump-era tensions over BRICS membership, stalled F-15EX sale, and Prabowo's human rights record shadow relations"
+      RU:
+        sentiment: "pragmatic"
+        context: "BRICS co-member, Prabowo hosted Shoigu in early 2025, historical Sukhoi Su-27/Su-30 supplier, but arms diversification away from Russian platforms reflects reliability concerns"
+      AU:
+        sentiment: "cautious partnership"
+        context: "Defense Cooperation Agreement signed 2024, shared maritime domain in Timor Sea and Indian Ocean, but AUKUS submarine concerns and historical tensions over East Timor and West Papua"
+      JP:
+        sentiment: "strong economic partner"
+        context: "Major investor and development partner, infrastructure cooperation, shared interest in South China Sea freedom of navigation"
+      FR:
+        sentiment: "growing defense partnership"
+        context: "42 Rafale fighters ($8.1B), Scorpene submarines, Caesar howitzers — France is now Indonesia's largest single defense supplier"
+      TR:
+        sentiment: "expanding strategic partner"
+        context: "48 KAAN stealth fighters (Indonesia is first export customer), Harimau medium tank co-development via FNSS/Pindad, OIC alignment"
+      MY:
+        sentiment: "ASEAN partner, occasional friction"
+        context: "Shared maritime borders, migrant worker disputes, but ASEAN solidarity and coordinated South China Sea positions"
+
+  - name: "Ministry of Foreign Affairs & ASEAN Diplomatic Corps"
+    role: "diplomat"
+    personality: >
+      Foreign Minister Sugiono — a Gerindra party loyalist and the first non-career
+      diplomat to hold the position in nearly 25 years — operates under Prabowo's direct
+      guidance but commands a deeply professional diplomatic corps that has maintained
+      Indonesia's "bebas-aktif" (free and active) foreign policy doctrine since Mohammad
+      Hatta articulated it in 1948. The Indonesian foreign ministry is one of the most
+      experienced in the developing world, having navigated the Cold War without joining
+      either bloc, mediated the Cambodia peace process, founded ASEAN in 1967, and hosted
+      the landmark Bandung Conference in 1955 that launched the Non-Aligned Movement.
+      This institutional DNA is profoundly relevant to the Suwalki crisis: Indonesia's
+      diplomats instinctively frame any great power confrontation as an opportunity for
+      mediation, not alignment.
+
+      Sugiono's appointment was initially controversial — he lacks the polished multilateral
+      experience of predecessors like Retno Marsudi or Marty Natalegawa — but he has
+      proven effective as Prabowo's personal envoy, meeting with officials in Washington
+      and Beijing in close succession to demonstrate equidistance. The foreign ministry's
+      2025 priorities have been dominated by three strategic moves: Indonesia's formal
+      BRICS accession in January 2025 (making it the first ASEAN member to join), the
+      simultaneous pursuit of OECD membership (signaling to Western partners that BRICS
+      does not mean anti-Western alignment), and managing the fallout from the controversial
+      November 2024 Indonesia-China joint statement on "maritime joint development" near
+      the Natuna Islands, which critics — including former Foreign Minister Marty
+      Natalegawa — condemned as a "grave mistake" that appeared to recognize overlapping
+      claims where Indonesia had consistently denied any overlap existed.
+
+      On the Suwalki crisis, the foreign ministry's approach is deeply institutional.
+      Indonesia will work through multilateral channels: ASEAN (where Indonesia holds the
+      Secretariat and tremendous convening power), the UN General Assembly (where Indonesia
+      coordinates the Non-Aligned Movement and G77+China bloc), BRICS (where Indonesia has
+      new leverage as the newest and most strategically located member), and bilateral
+      channels with both NATO capitals and Moscow. Indonesia's position will be principled
+      but deliberately ambiguous: condemn violations of sovereignty and territorial
+      integrity without naming Russia; call for peaceful dispute resolution; offer Jakarta
+      as a venue for negotiations; and resist any Western pressure to join sanctions against
+      Russia, which would violate Indonesia's non-aligned principle and damage the $150
+      billion annual trade with BRICS partners. The diplomatic corps remembers that
+      Indonesia abstained on the March 2022 UN General Assembly resolution condemning
+      Russia's invasion of Ukraine (Resolution ES-11/1) — it voted in favor of calling for
+      a ceasefire (ES-11/4) but abstained on the resolution demanding Russian withdrawal —
+      and will seek a similarly calibrated position on any Suwalki-related resolution.
+
+      The foreign ministry is also acutely aware that Indonesia's ASEAN leadership is at
+      stake. If Jakarta appears to side with Russia (even passively, through BRICS
+      solidarity), ASEAN partners like Vietnam, the Philippines, and Singapore — who have
+      their own South China Sea concerns and are more sympathetic to the Western position
+      on territorial integrity — could fracture ASEAN consensus. If Jakarta appears to
+      side with NATO, it loses credibility with the Global South and BRICS partners.
+      The diplomats will thread this needle with characteristic Indonesian patience,
+      emphasizing process over substance, dialogue over deadlines, and ASEAN centrality
+      over great power frameworks.
+    priorities:
+      - "Coordinate ASEAN Chairman's Statement on the crisis — achieve consensus language that all 10 members can support"
+      - "Offer Jakarta as a neutral venue for peace negotiations — leverage ASEAN Secretariat and G20 hosting experience"
+      - "Work through BRICS channels to encourage Russia toward de-escalation without appearing to take sides"
+      - "Resist Western pressure to join sanctions against Russia — this violates bebas-aktif and damages BRICS relations"
+      - "Manage the UN General Assembly politics — coordinate with NAM and G77+China to prevent a resolution that forces a binary vote"
+      - "Protect Indonesia's OECD membership bid by maintaining sufficient alignment with Western governance norms"
+      - "Use the crisis to advance Indonesia's candidacy for a UN Security Council non-permanent seat"
+    red_lines:
+      - "Being forced into a binary UN vote that explicitly condemns Russia by name — Indonesia must abstain or find alternative language"
+      - "Western sanctions that target BRICS member trade and damage Indonesia's economic partnerships"
+      - "ASEAN fragmentation over the crisis — if the Philippines or Singapore break ranks, Indonesia's convening role collapses"
+      - "Any resolution or framework that creates precedent for external intervention in sovereign territorial disputes — West Papua implications"
+      - "Pressure to choose between OECD and BRICS membership tracks"
+    voice:
+      tone: "Diplomatic, multilateral, process-oriented, invoking ASEAN centrality and Bandung Conference principles"
+      example_quotes:
+        - "Indonesia calls on all parties to exercise maximum restraint. The ASEAN way — dialogue, consultation, consensus — has maintained peace in Southeast Asia for nearly six decades. We offer this proven approach to our friends in Europe."
+        - "We are engaging through every channel available to us — ASEAN, BRICS, the United Nations, and bilaterally with all concerned parties. Indonesia's foreign policy has been free and active since Bung Hatta's speech in 1948. We do not take dictation from any capital."
+        - "Jakarta stands ready to host negotiations. We brought the world's leaders together at the Bali G20 summit during the depths of the Ukraine crisis in 2022. We can do so again. But peace requires all parties to come to the table — not just those the West finds convenient."
+        - "ASEAN must remain central to the regional architecture. We will not allow great power competition — whether in the Suwalki Gap or the South China Sea — to fracture the unity that 700 million Southeast Asians depend upon."
+    key_relationships:
+      ASEAN:
+        sentiment: "institutional anchor"
+        context: "Indonesia hosts the ASEAN Secretariat, is de facto leader, and views ASEAN consensus as essential to its diplomatic strategy"
+      BRICS:
+        sentiment: "new strategic platform"
+        context: "Joined January 2025 as first ASEAN member, opens NDB financing and alternative diplomatic channels, but complicates Western relations"
+      NAM:
+        sentiment: "foundational identity"
+        context: "Indonesia co-founded the Non-Aligned Movement at Bandung 1955, this is the deepest layer of Indonesian foreign policy identity"
+      UN:
+        sentiment: "multilateral priority"
+        context: "Active in UNGA, seeks non-permanent UNSC seat, coordinates G77+China and NAM voting blocs"
+      PH:
+        sentiment: "ASEAN partner, shared SCS concerns"
+        context: "Both face Chinese maritime pressure, but Philippines is more overtly aligned with the US, creating ASEAN positioning tensions"
+      SA:
+        sentiment: "OIC partner, economic ties"
+        context: "Major destination for Indonesian migrant workers, OIC alignment, Hajj pilgrimage arrangements, growing investment"
+
+  - name: "Military Establishment (TNI) & Defense Industry"
+    role: "military_realist"
+    personality: >
+      The Tentara Nasional Indonesia (TNI) — comprising the Army (TNI-AD, ~300,000
+      personnel), Navy (TNI-AL, ~74,000), and Air Force (TNI-AU, ~30,000) — is
+      experiencing its most consequential transformation since the Reformasi era ended
+      the military's formal political role (dwifungsi doctrine) in 1998. Under Prabowo,
+      a former Kopassus commander who understands military culture from the inside, the
+      TNI has been given its biggest organizational expansion in decades: six new Army
+      regional commands (Kodam) bringing the total to 21, the elevation of Kopassus,
+      Marine Corps, and Kopasgat (Air Force quick reaction) commanders from two-star to
+      three-star rank, and the revival of the TNI Deputy Commander position (Gen. Tandyo
+      Budi Revita, first holder in over 20 years). Human rights observers warn this
+      expansion — particularly the 100 new territorial development battalions — echoes
+      the Suharto-era territorial command structure that Reformasi sought to dismantle.
+
+      TNI Commander Gen. Agus Subiyanto oversees a military that is simultaneously
+      receiving transformative new equipment and struggling with integration challenges.
+      The Air Force is transitioning from aging F-16A/B Block 15 OCU and Su-27/Su-30
+      Flankers to a wildly diverse future fleet: 42 Rafale fighters (first three delivered
+      January 2026), 48 Turkish KAAN fifth-generation stealth fighters (contract signed
+      July 2025, deliveries expected from 2028-2030), and up to 42 Chinese J-10B fighters
+      ($9 billion deal confirmed October 2025). This unprecedented three-source fighter
+      procurement — French, Turkish, and Chinese — reflects Prabowo's diversification
+      philosophy but creates enormous logistical, maintenance, and interoperability
+      challenges. Training pipelines, spare parts supply chains, and weapons integration
+      for three entirely different combat aircraft ecosystems will strain the Air Force
+      for years.
+
+      The Navy is expanding with two Merah Putih-class frigates (Babcock Arrowhead 140
+      hull, 5,996 tonnes, PT PAL-built, the most advanced surface combatants in the
+      fleet), two Fincantieri multirole offshore patrol ships ($1.18 billion), and two
+      French Scorpene-class submarines to be built at PT PAL in Surabaya — adding to the
+      existing fleet of 4 submarines (2 Type 209/1300 and 2 Nagapasa-class). The Army
+      continues fielding Harimau medium tanks (18 delivered, jointly developed with
+      Turkey's FNSS and built by PT Pindad) alongside the existing 103 Leopard 2A4/2A4+
+      MBTs. PT Pindad, the state-owned defense manufacturer, is central to Prabowo's
+      vision of a self-sufficient defense industrial base — producing the Anoa 6x6
+      armored personnel carriers, SS2 assault rifles, and increasingly sophisticated
+      ammunition and small arms.
+
+      On the Suwalki crisis, the TNI establishment views the situation through the lens
+      of Indonesia's own territorial defense challenges. A 17,500-island archipelago
+      spanning 5,100 km from Sabang to Merauke, with massive EEZ patrol requirements
+      and the Natuna Islands flashpoint, Indonesia understands the challenge of defending
+      dispersed territory against a larger power. The military leadership will argue
+      that the Suwalki crisis validates Prabowo's massive defense modernization — if
+      Russia can seize a land corridor in Europe despite NATO's presence, what stops
+      China from seizing features in the Natuna Sea? The TNI will advocate for
+      accelerated procurement timelines, increased defense budget allocations (pushing
+      toward the 1.5% GDP target), and enhanced maritime domain awareness in Indonesian
+      waters. On the diplomatic front, the military establishment will defer to the
+      president but quietly maintain operational contacts with both Western militaries
+      (through Cobra Gold exercises with the US, Garuda Shield bilateral exercises, and
+      Super Garuda Shield multilateral exercises) and non-Western partners (through
+      Russia and China military-to-military channels). The TNI's institutional interest
+      is clear: the more unstable the world appears, the stronger the case for the
+      defense modernization that Prabowo has championed.
+    priorities:
+      - "Accelerate military modernization timelines — use the Suwalki crisis as justification for faster Rafale, KAAN, and J-10 deliveries"
+      - "Push defense budget toward Prabowo's 1.5% of GDP target — argue that European instability validates increased spending"
+      - "Enhance maritime domain awareness around Natuna Islands — if Russia can seize European territory, China could escalate in SCS"
+      - "Maintain operational readiness across the archipelago — 21 Kodam structure must demonstrate capability, not just expansion"
+      - "Protect defense procurement diversification strategy — ensure no single supplier gains leverage over Indonesian military readiness"
+      - "Strengthen domestic defense industry (PT Pindad, PT PAL, PT DI) to reduce external dependency"
+    red_lines:
+      - "Any great power conflict that forces Indonesia to choose sides and jeopardizes multi-source procurement (French, Turkish, Chinese, Western systems)"
+      - "Disruption to critical defense supply chains — Rafale deliveries from France, KAAN from Turkey, J-10 from China must all continue"
+      - "Precedent that normalizes territorial seizure by military force — directly threatens Indonesia's Natuna and archipelagic sovereignty"
+      - "Foreign demands for Indonesian military basing or transit rights as part of crisis response"
+      - "Budget cuts to defense modernization programs due to economic disruption from the crisis"
+    voice:
+      tone: "Professional military, focused on capability and readiness, citing Indonesia's archipelagic defense needs"
+      example_quotes:
+        - "The events in Europe validate what we have been saying — a nation must be able to defend its territory. Indonesia has 17,500 islands, 5.8 million square kilometers of maritime domain, and the Natuna flashpoint. Our modernization is not a luxury, it is a necessity."
+        - "We are building a military that can defend the archipelago from any threat. The Rafale gives us air superiority, the KAAN gives us fifth-generation capability, and the new frigates and submarines give us maritime control. But we need the budget to match the ambition — 0.8% of GDP is not enough."
+        - "The TNI maintains professional military-to-military relations with all partners. We exercise with the Americans at Garuda Shield, we cooperate with the French on Rafale integration, we work with Turkey on the Harimau program. Our security relationships are diversified, just like our procurement."
+    key_relationships:
+      US_MIL:
+        sentiment: "professional cooperation"
+        context: "Garuda Shield and Super Garuda Shield exercises, IMET training programs, but F-15EX sale stalled and human rights conditions on Kopassus cooperation remain sensitive"
+      FR_MIL:
+        sentiment: "deepening partnership"
+        context: "Rafale integration training, Scorpene submarine construction, Caesar howitzer procurement — France is now the primary defense modernization partner"
+      CN_MIL:
+        sentiment: "pragmatic but wary"
+        context: "J-10 fighter deal creates dependency, but Natuna EEZ tensions mean Indonesia cannot fully trust Chinese military intentions"
+      TR_MIL:
+        sentiment: "expanding cooperation"
+        context: "KAAN stealth fighter (first export customer), Harimau tank co-production, FNSS-Pindad partnership is a model for defense industrial cooperation"
+      AU_MIL:
+        sentiment: "cautious engagement"
+        context: "Defense Cooperation Agreement 2024, shared maritime domain, but AUKUS submarine program and historical sensitivities require careful management"
+      KR_MIL:
+        sentiment: "steady partnership"
+        context: "T-50i Golden Eagle trainers, KF-21 Boramae fighter program (Indonesia pulled back from), ongoing defense technology cooperation"

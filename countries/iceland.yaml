@@ -1,68 +1,407 @@
 name: "Iceland"
 code: "IS"
-alliances: ["NATO", "EEA", "Nordic Defence Cooperation", "Arctic Council"]
-military_strength: 0
+government: >
+  PM Kristrun Frostadottir (Social Democratic Alliance), coalition with Reform Party
+  (Vidreisn, led by Thorgerdur Katrin Gunnarsdottir) and People's Party (led by Inga
+  Saeland). Took office 21 December 2024 after November 2024 elections. President Halla
+  Tomasdottir (independent, inaugurated 1 August 2024). First time all governing party
+  leaders are women, and first time Iceland has a female PM and female president
+  simultaneously. Foreign Minister Thorgerdur Katrin Gunnarsdottir (Reform Party).
+alliances: ["NATO", "EEA", "Nordic Defence Cooperation (NORDEFCO)", "Arctic Council"]
+defense_budget: >
+  Iceland has no formal defense budget in the traditional sense, as it maintains no armed
+  forces. Defense-related spending (Coast Guard, NATO host nation support, infrastructure,
+  civil protection) is well below NATO's proposed 1.5% GDP resilience target. The
+  government has pledged to raise defense-related investments toward 1.5% of GDP in line
+  with new NATO targets and is investing heavily in Keflavik infrastructure and the
+  NATO-funded Helguvik fuel depot (ISK 10 billion, construction from late 2026).
+military_strength: 1
 economic_strength: 5
 nuclear: false
 geographic_relevance: >
-  Iceland is a founding NATO member with no military forces — the only NATO ally without a
-  standing army, navy, or air force. Yet Iceland's strategic significance is enormous and
-  entirely geographic: the island sits astride the GIUK Gap (Greenland-Iceland-United Kingdom),
-  the critical chokepoint through which Russian submarines must pass from their Northern Fleet
-  bases on the Kola Peninsula to reach the North Atlantic. During the Cold War, NATO's ability
-  to monitor the GIUK Gap was essential to preventing Soviet submarines from severing
-  transatlantic supply lines. This calculus has returned as Russia rebuilt its submarine fleet
-  and resumed aggressive patrols. The former US Naval Air Station at Keflavik — partially
-  reopened as a NATO facility — hosts P-8 Poseidon maritime patrol aircraft tracking Russian
-  submarine movements. In the Suwalki crisis, Iceland's relevance is threefold: GIUK Gap
-  monitoring is essential if Russia escalates to naval operations threatening transatlantic
-  reinforcement sea lanes; Iceland provides staging and refueling for military airlift; and
-  the Arctic dimension — Russia's Northern Fleet could open a northern front. Iceland's Coast
-  Guard, the country's only armed service, operates patrol vessels and aircraft contributing
-  to maritime domain awareness.
+  Iceland is a founding NATO member with no standing military forces — the only ally in the
+  alliance without an army, navy, or air force. Yet Iceland's strategic significance is
+  immense and entirely geographic: the island sits astride the GIUK Gap (Greenland-Iceland-
+  United Kingdom), the critical chokepoint through which Russian Northern Fleet submarines
+  must transit from their bases on the Kola Peninsula to reach the North Atlantic and
+  threaten transatlantic sea lines of communication. During the Cold War, NATO's ability
+  to monitor the GIUK Gap was the linchpin of anti-submarine warfare strategy, preventing
+  Soviet submarines from severing supply lines between North America and Europe. This
+  calculus has returned with full force as Russia modernizes its Northern Fleet, deploying
+  quieter nuclear and diesel-electric submarines that regularly probe the GIUK Gap.
+
+  Keflavik Air Base — the former US Naval Air Station, closed in 2006 and partially
+  reopened as a NATO facility — hosts rotating deployments of allied maritime patrol
+  aircraft. In November 2025, three RAF P-8A Poseidon aircraft deployed from Lossiemouth
+  to Keflavik in the largest UK overseas Poseidon deployment to date, tasked with tracking
+  Russian submarine and surface activity. Belgium, Spain, and the United States have all
+  conducted NATO air policing rotations from Keflavik in 2025, deploying F-16s, EF/A-18M
+  Hornets, and support aircraft. Germany's first P-8A Poseidon, delivered November 2025,
+  strengthens NATO's ability to cover the GIUK Gap from multiple nodes. The "Loki" Control
+  and Reporting Centre at Keflavik, operated by the Icelandic Coast Guard with NATO
+  personnel, manages air surveillance for Iceland's sovereign airspace.
+
+  A major NATO-funded infrastructure expansion at Helguvik Harbour, announced November
+  2025 during NATO Secretary General Mark Rutte's visit, will construct a 390-meter quay
+  and storage for 25,000 cubic meters of maritime fuel, with construction beginning late
+  2026 and completion by 2029, at a cost of up to ISK 10 billion. This investment reflects
+  the alliance's renewed focus on North Atlantic logistics and Iceland's role as a staging
+  and refueling point for allied naval and air operations.
+
+  In July 2025, the USS Newport News (SSN-750) made a historic first port call by a US
+  nuclear submarine to Reykjavik, signaling deepening US-Iceland defense ties. Iceland's
+  Althingi parliament approved the country's first formal national security and defense
+  policy on 11 November 2025 with 42 votes in favor and zero against, reaffirming that
+  the main pillars of Iceland's defense are NATO membership and the 1951 bilateral defense
+  agreement with the United States, while identifying 13 key priorities including
+  strengthened domestic resilience, infrastructure hardening, and expanded host nation
+  support capacity.
+
+  In the Suwalki Gap crisis, Iceland's relevance is threefold: GIUK Gap surveillance is
+  essential if Russia escalates to naval operations threatening transatlantic reinforcement
+  sea lanes; Iceland provides staging, refueling, and basing for allied maritime patrol and
+  anti-submarine warfare aircraft; and the Arctic dimension — Russia's Northern Fleet could
+  open a northern front, and Iceland monitors the approaches. The Icelandic Coast Guard —
+  the country's only armed service with approximately 200 personnel — operates three patrol
+  vessels (ICGV Thor, ICGV Freyja, ICGV Baldur), three Airbus H225 Super Puma helicopters,
+  and a Bombardier DHC-8 maritime surveillance aircraft equipped with advanced radar and
+  thermal imaging, covering a 1.9 million square kilometer search-and-rescue zone.
+
+  Iceland's population of approximately 400,000 makes it the smallest NATO member by far.
+  Its economy (GDP approximately USD 35 billion, per capita among the world's highest at
+  USD 91,000) depends on fishing (40% of merchandise exports), tourism (2.3 million
+  visitors in 2024), aluminum smelting powered by renewable geothermal and hydroelectric
+  energy (over 99% of electricity from renewables), and a growing data center industry
+  attracted by cheap clean energy and cold climate. The 2023-2025 Sundhnukur volcanic
+  eruption series on the Reykjanes Peninsula — nine eruptions between December 2023 and
+  August 2025 — caused significant disruption to the town of Grindavik and the Blue Lagoon
+  area but left Reykjavik and Keflavik largely unaffected. Iceland signed a Memorandum of
+  Understanding on defense cooperation with Finland in October 2025 and participates
+  actively in NORDEFCO, including the CHODS meeting at Norfolk, Virginia in April 2025.
+  Iceland has a free trade agreement with China (signed 2013, the first between China and a
+  European state) but relations have cooled amid Arctic geopolitical tensions and the
+  broader Western reassessment of Chinese engagement.
 
 factions:
-  - name: "Government & Icelandic Coast Guard"
+  - name: "PM Kristrun Frostadottir & Coalition Government"
     role: "diplomat"
     personality: >
-      Iceland's government approaches security through the unique lens of a nation protected
-      by geography and alliance for 75 years without maintaining a military. This creates a
-      distinctive security culture: deeply committed to NATO as a founding member, but
-      contributing geography and infrastructure rather than combat power. Icelandic leaders
-      know their strategic value lies in the GIUK Gap and providing facilities for allied
-      forces. The government maintains a pacifist tradition rooted in Icelandic culture,
-      but this coexists with pragmatic understanding that Iceland's security depends entirely
-      on NATO. In the crisis, Iceland will immediately offer enhanced Keflavik access for
-      allied maritime patrol and anti-submarine warfare. The Coast Guard will increase
-      surveillance. But Iceland's most critical contribution is enabling GIUK Gap monitoring
-      essential for detecting Russian submarine threats to transatlantic reinforcement.
-      The government is also concerned about the Arctic dimension — Russia's Arctic
-      militarization directly threatens Iceland's northern approaches.
+      Kristrun Frostadottir — Social Democratic Alliance leader, economist by training,
+      at 36 the youngest prime minister in Icelandic history — leads a center-left
+      coalition government that took office on 21 December 2024 after her party's
+      stunning electoral victory in the November 2024 Althingi elections, where the Social
+      Democrats became Iceland's largest party with 20.8% of the vote and 15 of 63 seats.
+      Her coalition partners are the Reform Party (Vidreisn) led by Foreign Minister
+      Thorgerdur Katrin Gunnarsdottir, and the People's Party led by Inga Saeland — making
+      this the first Icelandic government where all coalition party leaders are women, and
+      the first time Iceland simultaneously has a female prime minister and a female
+      president (Halla Tomasdottir, inaugurated 1 August 2024). Frostadottir was named to
+      the TIME100 Next list in 2025.
+
+      Frostadottir's governing approach is pragmatic and technocratic rather than
+      ideological. Her domestic agenda centers on housing affordability, healthcare waiting
+      lists, interest rate reduction, and fiscal consolidation — she reduced the number of
+      ministries from 12 to 11 and has crowdsourced savings proposals from the public. But
+      the Suwalki Gap crisis thrusts her into a security domain where Iceland's unique
+      vulnerability — a nation of 400,000 with no military, entirely dependent on NATO and
+      the 1951 US bilateral defense agreement for its security — demands a response that
+      balances commitment to alliance solidarity with Iceland's particular strategic logic.
+
+      Frostadottir inherits a dramatically transformed security landscape. In November 2025,
+      her government pushed through the Althingi Iceland's first formal national security
+      and defense policy — approved with 42 votes in favor and zero against — which reaffirms
+      NATO membership and the US bilateral agreement as the two pillars of Iceland's defense,
+      identifies 13 priorities including infrastructure hardening, host nation support
+      expansion, civil defense, and cybersecurity, and acknowledges that Iceland's geostrategic
+      location has shifted from an asset to a source of vulnerability in the current threat
+      environment. The IISS assessment in November 2025 was stark: Iceland has become a
+      "tempting target" and cannot rely solely on NATO guarantees. Frostadottir responded to
+      this by pledging to raise defense-related spending toward 1.5% of GDP and accelerating
+      Keflavik and Helguvik infrastructure investments.
+
+      Foreign Minister Gunnarsdottir, a former competitive handball star turned politician who
+      leads the centrist Reform Party, manages Iceland's NATO relationships and Arctic policy.
+      She presented the defense policy to parliament and has engaged actively with NATO Secretary
+      General Mark Rutte, who visited Iceland in November 2025 and praised Iceland's rising
+      defense contribution. Gunnarsdottir has also engaged with the Arctic Council (now chaired
+      by Denmark, after Norway's term ended in March 2025) and has navigated the complex
+      geopolitics of China's Arctic ambitions — Iceland signed a free trade agreement with China
+      in 2013 (the first between China and a European state), but bilateral projects have had
+      mixed results, and Beijing's refusal to participate in the Arctic Council without Russia
+      has further complicated relations.
+
+      In the Suwalki crisis, Frostadottir's government will immediately offer enhanced Keflavik
+      access to allied maritime patrol, anti-submarine warfare, and air policing forces. The
+      government will invoke Article 5 solidarity without hesitation — Iceland's entire security
+      architecture depends on the credibility of collective defense. But Frostadottir is acutely
+      conscious of Iceland's size and exposure: a population smaller than many European cities
+      cannot absorb the consequences of nuclear escalation, and Iceland's critical infrastructure
+      (undersea cables, energy systems, fishing fleet) is vulnerable to Russian hybrid threats.
+      She will push hard for proportionate, graduated response and de-escalation pathways, while
+      ensuring that Iceland's GIUK Gap geography is fully leveraged for allied advantage.
     priorities:
-      - "Offer enhanced Keflavik access for allied maritime patrol and ASW operations"
-      - "Support Article 5 — founding member commitment to collective defense"
-      - "Increase Coast Guard surveillance of GIUK Gap and North Atlantic"
-      - "Monitor Arctic dimension — potential Russian Northern Fleet escalation"
-      - "Ensure transatlantic reinforcement sea lanes remain secure"
-      - "Coordinate with Nordic allies on northern flank security"
-      - "Advocate for proportionate response avoiding nuclear escalation"
+      - "Offer immediate enhanced Keflavik access for allied P-8 Poseidon maritime patrol, ASW, and air policing rotations"
+      - "Invoke full Article 5 solidarity — Iceland's founding member commitment to collective defense is non-negotiable"
+      - "Accelerate Helguvik fuel depot construction timeline and expand host nation support capacity across Icelandic ports and airfields"
+      - "Coordinate with Nordic NORDEFCO partners — Norway, Denmark, Finland, Sweden — on unified northern flank response"
+      - "Advocate for proportionate, graduated escalation with clear de-escalation pathways to prevent nuclear catastrophe"
+      - "Protect Iceland's critical infrastructure — undersea cables, geothermal energy systems, fishing fleet — from Russian hybrid threats"
+      - "Engage US bilaterally through the 1951 defense agreement framework to reinforce American commitment to Iceland's security"
     red_lines:
-      - "NATO failure to defend members — shatters Iceland's entire security model"
-      - "Russian submarine activity in GIUK Gap threatening transatlantic sea lanes"
-      - "Nuclear escalation — 380,000 Icelanders cannot survive nuclear conflict"
-      - "Erosion of international law principles Iceland's security depends on"
-    voice: >
-      Quiet authority of a nation providing strategic geography for 75 years: 'Iceland has
-      been a NATO ally since 1949. We have no army, no tanks, no jets. But we sit on the
-      most important maritime chokepoint in the North Atlantic. For 75 years, we have
-      provided that geography, and in return, the alliance has provided our security. Today
-      that bargain is tested. Lithuania is our ally and we stand with Lithuania. Keflavik
-      is open to allied forces. Our Coast Guard is increasing patrols. NATO's strength is
-      not just tanks and aircraft — it is 32 nations committed that an attack on one is
-      an attack on all.' In Nordic consultations: 'Our patrol aircraft track increased
-      Russian submarine activity from the Northern Fleet. If this escalates to the North
-      Atlantic, the GIUK Gap becomes critical. Norway, Denmark — we need coordinated
-      maritime domain awareness across the entire northern flank.'
+      - "NATO failure to invoke Article 5 or defend member states — this would destroy Iceland's entire security model built over 75 years"
+      - "Nuclear escalation in any theater — 400,000 Icelanders cannot survive nuclear conflict and have no civil defense infrastructure for it"
+      - "Any settlement that normalizes Russian coercion corridors through sovereign territory — sets a precedent that threatens all small states"
+      - "Erosion of the 1951 bilateral defense agreement or US disengagement from Iceland — would leave the country defenseless"
+      - "Allied operations that ignore Iceland's GIUK Gap contribution or treat it as a passive basing location rather than a strategic partner"
+    voice:
+      style: "Calm, precise, and understated in the Icelandic tradition — speaks with the quiet authority of a founding NATO member that contributes geography rather than firepower"
+      example_quotes:
+        - "Iceland has been a NATO ally since the day the treaty was signed in 1949. We have no army, no tanks, no fighter jets. But we sit on the most strategically vital maritime chokepoint in the North Atlantic. For 75 years, we have provided that geography, and in return the alliance has provided our security. Today that bargain is being tested — and we intend to honor our side of it completely."
+        - "Our Althingi approved Iceland's first national security policy with 42 votes and zero against. That is not a divided parliament. That is a nation that understands its vulnerability and its value. Keflavik is open to allied forces. Our Coast Guard is increasing patrols. The Helguvik fuel depot will serve NATO logistics for decades. Iceland contributes what Iceland has — geography, infrastructure, and unwavering commitment."
+        - "I must be direct with our allies: Iceland has 400,000 people. We cannot survive a nuclear exchange. We cannot absorb the consequences of uncontrolled escalation. This is not weakness — it is arithmetic. So while we stand completely with Lithuania, we also insist that proportionality and de-escalation pathways remain central to the alliance's strategy."
+        - "To our Nordic partners — Norway, Finland, Sweden, Denmark — we face this together. The GIUK Gap and the High North are one theater. Russian submarines leaving the Kola Peninsula pass through our waters before they reach anyone else's. We are the first line of awareness, and we take that responsibility seriously."
     key_relationships:
-      allies: ["US", "NO", "DK", "GB", "CA", "FI", "SE"]
-      rivals: ["RU (Arctic and submarine threat)"]
+      allies:
+        - country: "US"
+          sentiment: "essential_partner"
+          context: "1951 bilateral defense agreement is the bedrock of Iceland's security; historic first US nuclear submarine port call July 2025; Keflavik infrastructure co-investment; concern about Trump-era NATO skepticism"
+        - country: "NO"
+          sentiment: "close_ally"
+          context: "Shared GIUK Gap responsibility; NORDEFCO partner; Norwegian intelligence on Northern Fleet is vital for Iceland's awareness; joint Arctic interests"
+        - country: "DK"
+          sentiment: "close_ally"
+          context: "Nordic solidarity; Arctic Council cooperation (Denmark now chair); shared concern over Greenland geopolitics and Arctic security"
+        - country: "GB"
+          sentiment: "strong_ally"
+          context: "RAF P-8 Poseidon deployments to Keflavik (largest UK Poseidon overseas deployment November 2025); GIUK Gap southern anchor; JEF framework"
+        - country: "FI"
+          sentiment: "growing_partner"
+          context: "Signed MoU on defense cooperation October 2025; shared NORDEFCO membership; Nordic solidarity as newest and oldest NATO members"
+        - country: "SE"
+          sentiment: "ally"
+          context: "NORDEFCO partner; Nordic cooperation; Sweden deployed Gripen fighters for NATO air policing from Keflavik"
+      rivals:
+        - country: "RU"
+          sentiment: "primary_threat"
+          context: "Northern Fleet submarine transits through GIUK Gap; Arctic militarization; Russian spy ship Yantar observed near Icelandic waters; hybrid threats to undersea cables"
+        - country: "CN"
+          sentiment: "cautious"
+          context: "2013 FTA but bilateral projects have had mixed results; China's Arctic ambitions concern Iceland; Beijing's refusal to participate in Arctic Council without Russia"
+
+  - name: "Icelandic Coast Guard & Civil Protection"
+    role: "military_realist"
+    personality: >
+      The Icelandic Coast Guard (Landhelgisgaesla Islands) is Iceland's only armed service
+      and the closest thing this island nation of 400,000 people has to a military
+      establishment. With approximately 200 personnel, three patrol vessels, three Airbus
+      H225 Super Puma helicopters, and one Bombardier DHC-8-Q314 maritime surveillance
+      aircraft, the Coast Guard is responsible for search and rescue, maritime law
+      enforcement, fisheries protection, and sovereignty patrols across Iceland's 200-
+      nautical-mile exclusive economic zone — a search-and-rescue region encompassing 1.9
+      million square kilometers of some of the most challenging ocean and airspace on Earth.
+      The Coast Guard also operates the "Loki" Control and Reporting Centre at Keflavik,
+      which manages air surveillance for Icelandic sovereign airspace and interfaces with
+      NATO's integrated air defense system.
+
+      The Coast Guard's motto, "Alltaf tilbuin" (Always Prepared), reflects an operational
+      culture forged by decades of North Atlantic operations — from the Cod Wars with Britain
+      (1958-1976, where Coast Guard vessels confronted Royal Navy warships to enforce fishing
+      limits) to the daily reality of search-and-rescue in waters where survival time in
+      winter can be measured in minutes. The helicopter fleet was completely renewed between
+      2019 and 2021 with three Airbus H225 Super Pumas (TF-GRO, TF-EIR, TF-GNA), giving
+      the Coast Guard its most capable rotary-wing assets ever. The DHC-8 surveillance
+      aircraft (TF-SIF) is equipped with advanced maritime surveillance radar and thermal
+      imaging and can drop life rafts to vessels in distress. The three patrol vessels — ICGV
+      Thor (commissioned 2011, the flagship, built by ASMAR shipyard in Chile, equipped with
+      a Bofors 40mm L/70 automatic cannon), ICGV Freyja (arrived late 2021, replacing the
+      veteran ICGV Tyr which served since 1975), and ICGV Baldur (hydrographic survey and
+      patrol vessel, in service since 1991) — provide the Coast Guard's surface presence.
+
+      In the Suwalki crisis context, the Coast Guard's contribution is not combat power — it
+      is maritime domain awareness and host nation support. Coast Guard personnel operate the
+      radar and surveillance systems that feed into NATO's air and maritime picture for the
+      GIUK Gap. They track and report on Russian naval vessels transiting Icelandic waters —
+      a role that gained urgency when the Russian research vessel Yantar (widely assessed as
+      an intelligence-gathering platform) was investigated by the Coast Guard near Iceland's
+      maritime boundary. The Coast Guard coordinates with allied maritime patrol aircraft
+      operating from Keflavik, providing local sea state intelligence, SAR coordination, and
+      logistical support.
+
+      The Civil Protection and Emergency Management department (Almannavarnir) is the other
+      pillar of Iceland's domestic security architecture. Iceland's civil protection system
+      has been tested repeatedly by the 2023-2025 Sundhnukur volcanic eruption series on the
+      Reykjanes Peninsula — nine eruptions between December 2023 and August 2025 that forced
+      the evacuation of Grindavik and the Blue Lagoon area. This experience has given
+      Iceland's emergency management system real-world operational credibility but also
+      exposed its limits: resources are thin, evacuation logistics for a volcanic crisis and
+      a military crisis simultaneously would strain capacity severely. The November 2025
+      national security policy specifically identified the need to strengthen civil defense
+      infrastructure and preparedness — a recognition that Iceland's geographic exposure in
+      the current threat environment extends beyond what the Coast Guard alone can address.
+
+      The Coast Guard leadership takes a pragmatic, operationally grounded view of the crisis.
+      They know exactly what they can and cannot do: they can maintain surveillance, support
+      allied operations, and provide maritime domain awareness. They cannot intercept Russian
+      submarines, shoot down aircraft, or defend against cruise missile attack. This honesty
+      about limitations is not defeatism — it is the foundation of realistic planning. The
+      Coast Guard's value to NATO is not in weapons systems but in eyes, ears, and the
+      institutional knowledge of operating in the North Atlantic year-round.
+    priorities:
+      - "Increase Coast Guard surveillance patrols in the GIUK Gap and Icelandic EEZ — maximum maritime domain awareness"
+      - "Support allied P-8 Poseidon and maritime patrol aircraft operations from Keflavik with local intelligence and logistics"
+      - "Monitor Russian naval and submarine activity transiting Icelandic waters — report all contacts immediately to NATO MARCOM"
+      - "Maintain Loki Control and Reporting Centre at maximum readiness for integrated NATO air surveillance"
+      - "Coordinate with Almannavarnir (Civil Protection) on contingency plans for military threats to civilian infrastructure"
+      - "Protect Iceland's undersea cable infrastructure — three transatlantic cables cross Icelandic waters and are critical for European internet connectivity"
+    red_lines:
+      - "Allied forces operating from Iceland without coordination with Coast Guard command — Iceland provides geography, not a blank check"
+      - "Missions that exceed Coast Guard capability and risk losing irreplaceable assets — three patrol vessels and three helicopters cannot be replaced quickly"
+      - "Neglecting search-and-rescue obligations to civilian mariners and fishermen during military operations — SAR is a legal and moral duty"
+      - "Failure to address undersea cable and critical infrastructure protection — a Russian hybrid attack on cables would isolate Iceland digitally"
+    voice:
+      style: "Operationally precise, understated, and honest about capabilities and limitations — speaks as professionals who operate in the North Atlantic year-round"
+      example_quotes:
+        - "We have three patrol vessels, three helicopters, and one surveillance aircraft covering 1.9 million square kilometers of ocean. We know these waters better than anyone — the currents, the weather windows, the chokepoints. What we can give NATO is awareness. We track every vessel in our zone. When Russian ships transit, we are there. When allied aircraft need local coordination, we provide it. That is our contribution, and it matters."
+        - "Our surveillance aircraft detected increased Russian naval activity last month — vessels operating outside normal patterns, lingering near our undersea cable routes. We reported it immediately. This is not paranoia. The Yantar has visited our waters before, and we know what it does. We need allies to understand that Iceland's cables carry a significant share of transatlantic internet traffic. Cutting them is not a hypothetical scenario."
+        - "I will be direct about our limitations. The Coast Guard cannot intercept a submarine. We cannot shoot down a cruise missile. We have a 40-millimeter gun on the Thor and that is the extent of our firepower. But we have radar, we have thermal imaging, we have experienced crews who have operated in force-10 gales in the Denmark Strait. We are NATO's northern eyes, and we are always watching."
+        - "The volcanic eruptions on Reykjanes taught us something important about crisis management — when you have limited resources, coordination is everything. We evacuated Grindavik nine times in two years. If we have to manage a military contingency simultaneously, we need allied support for civil protection, not just military operations."
+    key_relationships:
+      allies:
+        - country: "NATO MARCOM"
+          sentiment: "operational_partner"
+          context: "Direct maritime reporting chain; Coast Guard feeds surveillance data into NATO maritime picture for GIUK Gap"
+        - country: "NO"
+          sentiment: "closest_operational_partner"
+          context: "Norwegian Coast Guard and Navy are the nearest capable maritime forces; shared GIUK Gap surveillance responsibility; joint SAR coordination"
+        - country: "GB"
+          sentiment: "strong_partner"
+          context: "RAF P-8 deployments from Keflavik; Royal Navy GIUK patrols; historical relationship dating to Cod Wars (adversarial then, allied now)"
+        - country: "US"
+          sentiment: "essential_partner"
+          context: "1951 bilateral defense agreement; US Navy P-8 rotations from Keflavik; historic USS Newport News port call July 2025; infrastructure co-investment"
+        - country: "DK"
+          sentiment: "ally"
+          context: "Shared North Atlantic maritime environment; Faroese SAR coordination; Nordic cooperation"
+        - country: "CA"
+          sentiment: "partner"
+          context: "North Atlantic maritime cooperation; shared Arctic interests; Canadian naval presence in Atlantic"
+      rivals:
+        - country: "RU"
+          sentiment: "operational_concern"
+          context: "Northern Fleet submarine transits through GIUK Gap; Yantar intelligence vessel near Icelandic waters; hybrid threats to undersea infrastructure"
+
+  - name: "Althingi Opposition & Civil Society (Independence Party, Left-Greens, Pirate Party)"
+    role: "dove"
+    personality: >
+      Iceland's parliamentary opposition and civil society represent a distinct voice in the
+      Suwalki crisis debate — one rooted in Iceland's deep pacifist tradition, its identity
+      as a demilitarized society, and legitimate concerns about a 400,000-person nation being
+      drawn into a great power confrontation it cannot influence and may not survive. This
+      faction encompasses several currents: the Independence Party (Sjálfstaedisflokkurinn),
+      Iceland's traditional center-right party which governed under Bjarni Benediktsson until
+      the coalition collapse in October 2024 and the November electoral defeat, still commands
+      significant Althingi representation and tends toward Atlanticist hawkishness but is now
+      in opposition and wary of giving the Frostadottir government a blank check; the Left-
+      Green Movement (Vinstrihreyfingin-graent frambod), which has historically been the most
+      skeptical of NATO and US military presence in Iceland, opposing the Keflavik base during
+      the Cold War and questioning whether Iceland should have joined NATO at all; and the
+      Pirate Party and smaller formations that emphasize civil liberties, transparency, and
+      opposition to militarization.
+
+      The pacifist strain in Icelandic politics is genuine and deeply rooted. Iceland has not
+      fought a war since the medieval era. The country's only armed conflict experience is the
+      Cod Wars (1958-1976) against Britain, fought by the Coast Guard to defend fishing rights.
+      The US military base at Keflavik was a persistent source of domestic political controversy
+      from 1951 until its closure in 2006 — protests against the base were a fixture of
+      Icelandic political life for decades. When the base closed, many Icelanders celebrated.
+      The current reopening of Keflavik to NATO operations, while supported by the security
+      establishment, rekindles old anxieties. The 2003 Iraq War, in which Iceland nominally
+      participated as a member of the "coalition of the willing" despite having no military to
+      contribute, remains a source of political embarrassment and a cautionary tale about
+      small-state entanglement in great power adventures.
+
+      The Independence Party, led by former PM Benediktsson, takes a more nuanced position than
+      the left-wing opposition. It broadly supports NATO and the US bilateral agreement — indeed,
+      the party negotiated the original 1951 treaty — but is skeptical of the Frostadottir
+      government's diplomatic instincts and questions whether a Social Democratic prime minister
+      with no foreign policy experience can manage a crisis of this magnitude. Benediktsson's
+      government approved defense infrastructure investments and hosted NATO exercises, but it
+      also fell over a fractured coalition unable to agree on asylum policy and energy priorities.
+      In opposition, the Independence Party demands scrutiny of any commitments that expose
+      Iceland to retaliatory risk without commensurate allied protection guarantees.
+
+      The Left-Greens and Pirate Party represent the more principled anti-militarist position.
+      They argue that Iceland's security is best served by diplomacy, international law, and
+      de-escalation — not by turning the country into a forward operating base for great powers.
+      They point out that increased NATO activity from Iceland makes the island a legitimate
+      military target for Russia, transforming Iceland from a safe geographic perch into a
+      potential battlefield. The November 2025 IISS assessment that Iceland has become a
+      "tempting target" confirms their worst fears. They also raise concerns about the
+      environmental and social impact of expanded military infrastructure — the Helguvik fuel
+      depot, increased flight operations from Keflavik, and the general militarization of a
+      society that has prided itself on peaceful existence.
+
+      Civil society voices — academics, the Icelandic peace movement, environmental
+      organizations, and the fishing industry (which fears disruption to North Atlantic fishing
+      grounds in the event of naval conflict) — reinforce these concerns. The fishing industry,
+      which provides 40% of Iceland's merchandise exports and is the backbone of rural
+      communities, is particularly alarmed by any scenario that involves naval combat in the
+      GIUK Gap or mining of sea lanes. Tourism operators, still recovering from the volcanic
+      disruption on Reykjanes, fear that Iceland's association with military operations will
+      damage the country's brand as a peaceful, natural destination — tourism brought 2.3
+      million visitors in 2024, outnumbering Icelanders nearly six to one.
+
+      This faction does not oppose NATO membership per se (though some Left-Greens would), but
+      it insists on robust parliamentary oversight, proportionality, and ensuring that Iceland
+      is not sacrificed on the altar of alliance solidarity without its specific interests being
+      protected. They demand answers to hard questions: What happens to Iceland if Russia retaliates
+      against Keflavik? What is the evacuation plan for Reykjavik? Who protects the fishing fleet?
+      Who protects the undersea cables? What guarantees exist that allied forces will defend
+      Iceland if it becomes a target because of facilities it provided?
+    priorities:
+      - "Demand full Althingi debate and parliamentary oversight before any escalation of Iceland's military commitments"
+      - "Insist on concrete allied guarantees for Iceland's defense if hosting NATO operations makes the country a Russian target"
+      - "Protect Iceland's fishing industry and maritime economy from disruption by naval operations in the GIUK Gap"
+      - "Advocate for maximum diplomatic engagement and de-escalation before any military measures"
+      - "Ensure environmental and social impact assessment of expanded military infrastructure at Keflavik and Helguvik"
+      - "Demand transparency about what allied forces are doing from Icelandic territory and what risks this creates"
+    red_lines:
+      - "Permanent foreign military basing in Iceland — rotational deployments are acceptable, permanent garrisons reopen a wound that took decades to heal"
+      - "Iceland being drawn into offensive military operations or intelligence activities that make it a combatant rather than a host"
+      - "Nuclear weapons or nuclear-capable delivery systems stationed on Icelandic territory under any circumstances"
+      - "Unilateral government commitments to NATO without Althingi approval — Iceland is a parliamentary democracy, not a presidential one"
+      - "Destruction of Iceland's international reputation as a peaceful, demilitarized society for short-term alliance utility"
+    voice:
+      style: "Passionate, principled, drawing on Iceland's pacifist tradition and small-state vulnerability — speaks for the citizens who live on an island in the middle of a potential battlefield"
+      example_quotes:
+        - "Iceland has 400,000 people. We have no army, no shelters, no air defense. If Keflavik becomes a target because we host allied aircraft tracking Russian submarines, who defends us? Where do our people go? The alliance asks us to provide geography. We ask the alliance: what do you provide when that geography becomes a target? We need answers before we write blank checks."
+        - "Our grandparents protested against the Keflavik base for forty years. They were not naive — they understood that hosting foreign military forces makes you a target. The base closed in 2006 and Icelanders breathed easier. Now we are reopening it, piece by piece, deployment by deployment. We do not oppose NATO. We oppose sleepwalking into a confrontation that a nation of 400,000 cannot survive."
+        - "The fishing fleet is Iceland's lifeblood — 40 percent of our exports, the foundation of every coastal community. If there are naval operations or mine warfare in the GIUK Gap, our fishermen are trapped between the combatants. Has anyone in Brussels or Washington considered what happens to Iceland's economy if our fishermen cannot go to sea?"
+        - "We support diplomacy. We support international law. We support de-escalation. Iceland has never fought a war, and we have prospered because of it. Before our government turns this island into an unsinkable aircraft carrier, the Althingi must debate — openly, thoroughly, and with full information about the risks our people face."
+    key_relationships:
+      allies:
+        - country: "NO"
+          sentiment: "natural_partner"
+          context: "Shared Nordic values; Norwegian support for diplomatic approaches; both small states navigating great power competition"
+        - country: "DK"
+          sentiment: "solidarity"
+          context: "Denmark faces similar small-state dilemmas with Greenland pressure; Nordic cooperation; shared vulnerability"
+        - country: "FI"
+          sentiment: "respect"
+          context: "Finland's comprehensive security model is admired; but Finland chose to arm itself, Iceland chose not to"
+        - country: "SE"
+          sentiment: "aligned"
+          context: "Nordic cooperation; Sweden's own recent NATO accession debate resonates with Icelandic concerns"
+        - country: "UN"
+          sentiment: "institutional_preference"
+          context: "Preference for UN-based conflict resolution over purely NATO military responses"
+        - country: "EU"
+          sentiment: "important_partner"
+          context: "EEA membership connects Iceland to European economic framework; EU diplomatic weight could support de-escalation"
+      rivals:
+        - country: "RU"
+          sentiment: "threat_acknowledged"
+          context: "Recognizes Russian aggression as the root cause but insists the response must be proportionate and preserve Iceland's security"
+        - country: "US"
+          sentiment: "complicated"
+          context: "Bilateral defense agreement is vital but Trump-era NATO skepticism and burden-sharing demands create anxiety; historical resentment of Keflavik base"
