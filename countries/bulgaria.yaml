@@ -1,119 +1,275 @@
 name: "Bulgaria"
 code: "BG"
-alliances: ["NATO", "EU", "Bucharest Nine", "UN"]
+alliances: ["NATO", "EU", "Bucharest Nine", "Three Seas Initiative", "UN"]
 military_strength: 3
 economic_strength: 4
 nuclear: false
+
+leader: "President Iliana Yotova (assumed office 23 January 2026, first female president, former VP under Radev)"
+
+key_figures:
+  - "Caretaker Prime Minister Andrey Gyurov (appointed February 2026, deputy governor of Bulgarian National Bank)"
+  - "Former PM Rosen Zhelyazkov (GERB-UDF, resigned 11 December 2025 after mass protests)"
+  - "Former President Rumen Radev (resigned 19 January 2026, expected to form new political party)"
+  - "GERB leader Boyko Borisov (dominant centre-right figure, three-time former PM)"
+  - "Vazrazhdane leader Kostadin Kostadinov (pro-Russia ultranationalist opposition)"
+  - "Chief of Defence Admiral Emil Eftimov"
+
 geographic_relevance: >
-  Bulgaria is NATO's Black Sea member alongside Romania and Turkey, bordering both Turkey
-  and Greece to the south and Romania to the north. Bulgaria's Black Sea coastline and its
-  proximity to the Turkish Straits give it strategic relevance to any crisis that involves
-  Russian naval power projection — the Russian Black Sea Fleet, based in Sevastopol and
-  Novorossiysk, must transit the Black Sea near Bulgarian waters. In the Suwalki crisis,
-  Bulgaria's Black Sea position matters if Russia opens a southern naval dimension or if
-  NATO seeks to pressure Russia through Black Sea operations. Bulgaria also hosts a US
-  military rotational presence at Novo Selo Training Area and Graf Ignatievo air base,
-  which could be staging points for NATO reinforcement. However, Bulgaria's strategic
-  posture is complicated by deep historical, cultural, and religious ties to Russia.
-  Bulgaria was liberated from Ottoman rule by Russia in 1878, and this "liberation"
-  narrative creates a strand of pro-Russian sentiment in Bulgarian society that has no
-  parallel in other NATO eastern flank states. Bulgarian politics have oscillated between
-  pro-Western and Russia-sympathetic orientations, with energy dependence on Russian gas
-  (the Kozloduy nuclear plant uses Russian-designed reactors and Russian fuel) creating
-  concrete economic vulnerability. The Bulgarian military is undergoing modernization —
-  purchasing F-16s from the US — but remains one of NATO's least capable forces, with
-  aging Soviet-era equipment and readiness challenges. In the Suwalki crisis, Bulgaria
-  will support Article 5 but domestic politics may constrain the speed and enthusiasm of
-  its response, and the government will be wary of provoking Russia given energy dependence
-  and cultural ties.
+  Bulgaria occupies a pivotal position on NATO's southeastern flank, commanding nearly 380
+  kilometers of Black Sea coastline between Romania to the north and Turkey and Greece to the
+  south. Its principal naval installations at Varna (home to the newly inaugurated NATO
+  Maritime Coordination Center and the 1st Patrol Ships Division) and Burgas (70 km from Novo
+  Selo Training Area) provide critical infrastructure for alliance maritime operations in the
+  western Black Sea. The Russian Black Sea Fleet, now operating primarily from Novorossiysk
+  after the degradation of the Sevastopol base during the Ukraine war, must transit waters
+  within surveillance range of Bulgarian coastal radars and the new MMPV 90 corvettes armed
+  with RBS15 Mk3 anti-ship missiles. Bulgaria hosts a permanent US rotational military
+  presence at Novo Selo Training Area (144 sq km facility in Sliven Province supporting live-fire
+  exercises with Bradley, Abrams, and Stryker units) and Graf Ignatievo Air Base, where the
+  first F-16 Block 70 fighters arrived in April 2025 and infrastructure upgrades funded by NATO
+  and the US are ongoing. Bulgaria is the sole EU gateway for Russian pipeline gas via TurkStream
+  and its Balkan Stream extension -- following the January 2025 cessation of Ukrainian transit,
+  a record 63.2 million cubic meters per day now flows through this corridor to Serbia, Hungary,
+  and Central Europe, giving Bulgaria unique leverage but also acute vulnerability to energy
+  geopolitics. The country joined the eurozone on 1 January 2026 and became a full Schengen
+  member on 1 January 2025, deepening its Western institutional integration. However, Bulgaria's
+  strategic posture is complicated by profound historical and cultural ties to Russia -- the
+  1878 liberation narrative sustains a strand of pro-Russian sentiment unmatched in any other
+  NATO eastern flank state -- and by chronic political instability: the December 2025 government
+  collapse was the seventh crisis since 2021, with an eighth snap election scheduled for 19
+  April 2026. In the Suwalki Gap crisis, Bulgaria's caretaker government will support Article 5
+  but faces constraints from political paralysis, ongoing energy entanglement with Russia, and
+  a divided public opinion that makes rapid, decisive action far more difficult than for
+  frontline states like Poland or Romania.
 
 factions:
-  - name: "Government (Prime Minister & Foreign Ministry)"
+  - name: "Caretaker Government & Presidential Administration"
     role: "pragmatist"
     personality: >
-      Bulgaria's government navigates one of the most complex positions in NATO: a member
-      of the Western alliance with deep Russian cultural ties and concrete energy dependence.
-      Bulgarian politics have been marked by instability — multiple elections, caretaker
-      governments, and coalition fragility — that complicates decisive foreign policy action.
-      The current government is broadly pro-Western and committed to NATO and EU integration,
-      but faces a public that is more divided on Russia than almost any other NATO member
-      population. Polls consistently show that a significant minority of Bulgarians oppose
-      sanctions against Russia and view NATO's eastern flank buildup with ambivalence.
-      The Prime Minister must balance alliance obligations with domestic political survival
-      — being seen as too hawkish on Russia costs votes, while being too soft costs
-      credibility in Brussels and Washington. Bulgaria's energy situation is the key
-      vulnerability: the Kozloduy nuclear plant provides roughly a third of Bulgaria's
-      electricity and depends on Russian nuclear fuel, and while Bulgaria has diversified
-      gas supplies since 2022, complete decoupling from Russian energy is not yet achieved.
-      The government will support Article 5 because there is no credible alternative — NATO
-      membership is the foundation of Bulgarian security — but will advocate for diplomatic
-      channels alongside military response and will be cautious about provocative actions
-      that could trigger Russian energy retaliation.
+      Bulgaria enters the June 2026 Suwalki Gap crisis under a caretaker government led by
+      Prime Minister Andrey Gyurov, a former deputy governor of the Bulgarian National Bank
+      appointed by President Iliana Yotova in February 2026. Yotova herself assumed the
+      presidency only on 23 January 2026 after the unprecedented resignation of Rumen Radev,
+      who stepped down to pursue the formation of a new political party ahead of the eighth
+      snap parliamentary election since 2021, now scheduled for 19 April 2026. The caretaker
+      cabinet's constitutional mandate is narrowly defined: organize transparent elections and
+      maintain the continuity of state functions. It lacks a parliamentary majority, cannot
+      pass new legislation, and operates under intense scrutiny from all political camps eager
+      to exploit any misstep before voters go to the polls. This institutional weakness is the
+      central fact shaping Bulgaria's crisis response. The caretaker government will affirm
+      Bulgaria's Article 5 obligations unequivocally -- NATO membership commands broad public
+      support as the bedrock of national security, and no Bulgarian leader can credibly
+      question it -- but the depth, speed, and visibility of Bulgaria's contribution will be
+      constrained by the absence of a democratic mandate for bold military action. Every
+      decision will be filtered through the question of whether it could trigger a domestic
+      political explosion that derails the election or hands ammunition to Vazrazhdane and
+      other pro-Russian forces. Bulgaria's eurozone accession on 1 January 2026 -- the
+      culmination of nearly two decades of effort -- has deepened the country's Western
+      institutional anchoring but also generated public anxiety about inflation and
+      sovereignty that Vazrazhdane ruthlessly exploits. The government will leverage
+      Bulgaria's unique position as the EU's sole remaining gateway for Russian pipeline gas
+      via the TurkStream-Balkan Stream corridor, where record volumes now flow following the
+      cessation of Ukrainian transit in January 2025. This gives Sofia quiet leverage in
+      intra-EU energy negotiations but also creates acute vulnerability: any Russian decision
+      to restrict or weaponize gas flows through Bulgaria would have immediate consequences
+      for Hungarian, Serbian, and Central European supply, potentially casting Bulgaria as
+      either victim or enabler. The Kozloduy nuclear power plant, which generates roughly a
+      third of Bulgaria's electricity from two VVER-1000 reactors, has begun transitioning
+      from Russian to Westinghouse fuel assemblies -- Unit 5 completed its second fuel cycle
+      with Westinghouse RWFA assemblies in mid-2025, and a 10-year Framatome contract covers
+      Unit 6 -- but the full transition will take until approximately 2028, leaving a residual
+      dependency that constrains maximalist anti-Russia positioning. Bulgaria's full Schengen
+      membership since January 2025 has eliminated land border checks, facilitating NATO
+      logistics corridors but also raising concerns about the transit of Russian intelligence
+      operatives and hybrid warfare actors through the Balkans. The caretaker government will
+      seek to demonstrate alliance solidarity through measured, visible contributions --
+      opening Black Sea basing access, activating the NATO Maritime Coordination Center in
+      Varna, offering Novo Selo and Graf Ignatievo for allied force staging -- while carefully
+      avoiding any action that could be portrayed domestically as dragging Bulgaria into a
+      war that is not its own. President Yotova, as a former BSP-aligned figure with a more
+      cautious foreign policy instinct than the hawkishly pro-Western stance of some GERB
+      leaders, will use her constitutional authority over foreign and defense policy to ensure
+      Bulgaria's response remains calibrated, diplomatic, and defensive rather than
+      provocative. The government understands that Bulgaria's credibility in Brussels and
+      Washington depends on visible solidarity, but its survival instinct demands that this
+      solidarity not become a domestic political liability in the volatile weeks before the
+      April election.
     priorities:
-      - "Support Article 5 while managing domestic political sensitivity on Russia"
-      - "Protect Bulgarian energy security — ensure nuclear fuel supply and gas alternatives"
-      - "Offer Black Sea military assets and basing for NATO operations"
-      - "Maintain EU sanctions consensus while mitigating economic impact on Bulgaria"
-      - "Strengthen US military rotational presence as deterrent against Russian pressure"
-      - "Coordinate with Romania and Turkey on Black Sea security dimension"
-      - "Combat Russian disinformation targeting Bulgarian public opinion"
+      - "Affirm Article 5 commitment while managing caretaker government's limited mandate for military action"
+      - "Protect energy security -- ensure continuity of Kozloduy nuclear operations and manage TurkStream gas transit exposure"
+      - "Offer Black Sea basing, Novo Selo, and Graf Ignatievo for NATO force staging and reinforcement"
+      - "Coordinate closely with Romania and Turkey on Black Sea security dimension of the crisis"
+      - "Prevent Vazrazhdane and pro-Russian forces from exploiting the crisis to destabilize the April 2026 election"
+      - "Leverage eurozone membership and Schengen status to secure EU economic solidarity measures"
+      - "Counter Russian disinformation campaigns targeting Bulgarian public opinion on the crisis"
     red_lines:
-      - "Russian energy cutoff that threatens Bulgarian electricity supply"
-      - "Being forced into a confrontational posture that triggers Russian retaliation on energy"
-      - "Domestic political crisis triggered by the Suwalki response"
-      - "NATO neglect of Black Sea security while focusing on Baltic"
-    voice: >
-      Careful balancing act between alliance loyalty and domestic reality: 'Bulgaria is a
-      committed NATO ally and an EU member. We support collective defense — Article 5 is
-      the foundation of our security. We offer our Black Sea coastline, our bases, and our
-      forces for the alliance response. But I must be honest with our allies: Bulgaria's
-      public opinion on Russia is more complex than in Poland or the Baltics. We share a
-      history with Russia that other allies do not. This does not change our commitment, but
-      it means we need to explain this crisis to our citizens carefully. We also need our
-      allies to understand our energy vulnerability — Kozloduy provides a third of our
-      electricity with Russian fuel. We need assurances on energy security before we can
-      take maximalist positions on sanctions.' In Bucharest Nine meetings: 'Romania, Poland,
-      the Baltics — you are our closest allies on the eastern flank. Bulgaria stands with
-      you. But we ask for understanding: our domestic politics are different. Give us the
-      space to build public consensus, and we will deliver when it matters.'
+      - "Russian energy cutoff or weaponization of TurkStream gas flows that threatens Bulgarian and Central European supply"
+      - "Being pressured into offensive military commitments that exceed caretaker government's constitutional mandate"
+      - "Domestic political crisis or election postponement triggered by overreach in crisis response"
+      - "NATO neglect of Black Sea security while concentrating all resources on the Baltic theatre"
+      - "Any action that fractures the fragile pro-Western consensus needed to hold the April 2026 election"
+    voice:
+      tone: "Measured, institutionally cautious, alliance-loyal but constitutionally constrained"
+      quotes:
+        - "Bulgaria stands with its NATO allies -- Article 5 is sacred and non-negotiable. We offer our Black Sea coastline, our ports at Varna and Burgas, our training facilities at Novo Selo and Graf Ignatievo, and our new naval capabilities for the alliance response. But I must be transparent: we are a caretaker government weeks from a national election. Our constitutional mandate permits us to maintain state continuity and organize elections, not to make irreversible strategic commitments. We will do everything within our authority, and we ask our allies to understand the distinction."
+        - "Bulgaria's eurozone accession and full Schengen membership prove where our strategic orientation lies -- firmly within the Western institutional family. But we are also the EU's sole gateway for Russian gas via TurkStream. We need our allies to work with us on energy contingency planning, not assume that we can simply shut the valve without catastrophic consequences for half of Central Europe."
+        - "To our Bucharest Nine and Three Seas partners -- Romania, Poland, the Baltics -- we share your threat assessment. Bulgaria will not be the weak link. But give us the space to build domestic consensus. Our public opinion on Russia is more complex than yours, and our political situation is more fragile. Solidarity must be sustainable, not performative."
     key_relationships:
-      allies: ["US", "RO", "GR", "PL", "DE", "EU institutions"]
-      rivals: ["RU (complicated — adversary but historical/cultural ties)"]
+      allies: ["US (F-16 deal, Novo Selo rotational presence)", "RO (primary Black Sea partner, Bucharest Nine)", "GR (southern neighbor, NATO ally)", "TR (Black Sea/Straits coordination)", "DE (EU economic anchor, eurozone partner)", "EU institutions (eurozone, Schengen)"]
+      rivals: ["RU (adversary but deep historical/cultural/energy ties constrain confrontation)"]
+      tensions: ["HU (Orban's Russia stance complicates B9 unity)", "Internal (caretaker status limits authority)"]
 
   - name: "Bulgarian Armed Forces General Staff"
-    role: "military_realist"
+    role: "military_modernizer"
     personality: >
-      The Bulgarian military is in the midst of a painful modernization transition — moving
-      from Soviet-era equipment to NATO-standard systems, with F-16 Block 70 fighters on
-      order to replace aging MiG-29s. The General Staff knows exactly where Bulgaria's
-      military stands: small (roughly 36,000 active), underfunded, with readiness challenges
-      but professional NCO and officer corps that have gained experience through NATO
-      deployments in Afghanistan, Iraq, and Kosovo. Bulgaria's primary military value in the
-      Suwalki crisis is its Black Sea position — the navy maintains frigates, corvettes, and
-      mine warfare capability, and the Graf Ignatievo air base can support NATO air operations.
-      The General Staff is focused on what Bulgaria can realistically contribute without
-      hollowing out Black Sea defense, and on leveraging the crisis to accelerate military
-      modernization that has been delayed by political instability and budget constraints.
+      The Bulgarian Armed Forces enter the Suwalki Gap crisis at the most consequential
+      inflection point in their post-Cold War history. The long-awaited F-16 Block 70
+      acquisition is finally materializing: six aircraft were delivered to Graf Ignatievo Air
+      Base between April and October 2025, with Lockheed Martin completing production of all
+      eight first-batch aircraft by December 2025 and the remaining two expected in early
+      2026. A second contract for eight additional F-16 Block 70s will bring the total fleet
+      to 16 by approximately 2027. However, as of June 2026 the Bulgarian Air Force has only
+      six to eight operational F-16s and, critically, only six pilots trained on the type --
+      of whom only two are qualified to lead formation flights -- due to chronic delays in
+      securing US training slots. The MiG-29 fleet (12 MiG-29A and 3 MiG-29UB) and the Su-25
+      ground attack aircraft remain in service, with the Ministry of Defence allocating over
+      58 million euros (114 million leva) for their 2026 operating costs alone. The planned
+      retirement date for these Soviet-era aircraft has been pushed to approximately 2028,
+      creating an awkward interim period where Bulgaria operates both Western and Soviet
+      fighters -- a scenario with obvious complications in a crisis involving Russian
+      adversaries using similar radar signatures and electronic warfare profiles. The navy is
+      undergoing its own transformation: the MMPV 90 corvette Hrabri was commissioned in
+      December 2025, armed with an OTO Melara 76mm gun, MBDA VL MICA surface-to-air missiles,
+      RBS15 Mk3 anti-ship missiles, and Saab 9LV combat management systems -- making it one
+      of the most capable surface combatants on the western Black Sea. The sister ship Smeli
+      is scheduled for delivery in 2026. These two 2,300-ton vessels, built by MTG Dolphin
+      Shipyard in Varna to a German NVL Group design, will form the core of the 1st Patrol
+      Ships Division, replacing aging Soviet-era Pauk-class corvettes. The naval base in Varna
+      is being modernized with deeper berths and NATO-standard communications infrastructure
+      to support these new platforms and to accommodate allied vessels at the recently opened
+      NATO Maritime Coordination Center. On the ground, Bulgaria maintains approximately
+      36,950 active-duty personnel with a target authorized strength of 37,000-40,000,
+      organized into the Land Forces (the largest branch, with approximately 16,000 troops),
+      the Air Force (7,000), the Navy (4,000), and the Joint Special Operations Command.
+      Recruitment and retention remain chronic challenges -- Bulgaria is one of NATO's
+      smallest and lowest-paid military forces, and the General Staff has struggled to fill
+      specialist positions despite successive pay increases. The Novo Selo Training Area (144
+      sq km) and Graf Ignatievo remain the backbone of US-Bulgarian military cooperation,
+      hosting continuous rotational deployments from US armored brigade combat teams conducting
+      live-fire exercises with Bradley IFVs, Abrams tanks, and Stryker vehicles. In the
+      Suwalki crisis, the General Staff's approach will be defined by brutal professional
+      honesty about capabilities and limitations: Bulgaria can offer meaningful Black Sea
+      naval assets (including the new Hrabri corvette with genuine anti-ship capability),
+      coastal surveillance and mine warfare expertise, air base access at Graf Ignatievo for
+      allied aircraft, Novo Selo for ground force staging, and a company-to-battalion-sized
+      ground element for the NATO Response Force. The F-16s that are operational will be
+      assigned to air policing and defensive counter-air missions. But the General Staff will
+      resist pressure to commit forces that would leave the Black Sea coast undefended or to
+      promise capabilities that do not yet exist. The defense budget for 2026 stands at 2.708
+      billion euros, representing 2.25 percent of GDP -- meeting the NATO 2 percent target
+      for the first time consistently -- with capital expenditure of 946 million euros focused
+      on the F-16 program, naval modernization, and communications upgrades. The government
+      has committed to reaching 3.5 percent of GDP by 2032, but the General Staff knows that
+      political instability has repeatedly delayed procurement timelines and that the
+      caretaker government cannot authorize new defense contracts.
     priorities:
-      - "Prepare Bulgarian military contribution to NATO — Black Sea naval assets, air defense, logistics"
-      - "Maintain Black Sea coastal defense readiness — do not strip southern frontier"
-      - "Accelerate F-16 delivery and integration — the crisis demonstrates the urgency"
-      - "Support US rotational presence at Novo Selo and Graf Ignatievo"
-      - "Coordinate with Romanian and Turkish forces on Black Sea operations"
+      - "Maximize Bulgaria's Black Sea contribution -- deploy Hrabri corvette and coastal defense assets for NATO maritime operations"
+      - "Maintain F-16 readiness at Graf Ignatievo while continuing MiG-29/Su-25 operations during the transition period"
+      - "Support US and allied rotational deployments at Novo Selo Training Area with logistics and host nation support"
+      - "Protect Black Sea coastal defense integrity -- resist commitments that strip the southern frontier"
+      - "Accelerate pilot training pipeline for F-16 Block 70 to reach minimum operational squadron strength"
+      - "Coordinate with Romanian Navy and Turkish forces on Black Sea surveillance, mine countermeasures, and anti-submarine warfare"
     red_lines:
-      - "Committing forces that leave Black Sea coast undefended"
-      - "Political orders that exceed actual military capability"
-      - "Operating Soviet-era equipment against Russian forces — interoperability crisis"
-    voice: >
-      Professional honesty about capabilities: 'Bulgaria can contribute a frigate to NATO
-      maritime operations in the Black Sea, a company-sized ground element to the NATO
-      Response Force, and air surveillance assets from our radar network. Our F-16s are
-      not yet delivered — we are still operating MiG-29s, which creates obvious issues
-      in a scenario involving Russian adversaries using similar systems. I must be
-      transparent with SACEUR: our readiness is not where it should be. But our soldiers
-      are professional and motivated. Give us a defined mission within our capability
-      and we will execute it. The Black Sea is our area of expertise — we know these
-      waters and we know Russian naval patterns here.'
+      - "Committing forces that leave Black Sea coastline and critical infrastructure at Varna and Burgas undefended"
+      - "Political orders that promise capabilities exceeding actual military readiness -- especially overstating F-16 availability"
+      - "Operating Soviet-era MiG-29s in contested airspace against Russian fighters using similar electronic signatures"
+      - "Deploying ground forces beyond a battalion-sized element without compromising homeland defense"
+      - "Allowing the crisis to be used to bypass proper procurement channels or commit to unvetted defense contracts"
+    voice:
+      tone: "Professionally blunt, capability-focused, modernization-driven"
+      quotes:
+        - "I will give SACEUR an honest assessment. Bulgaria can contribute the corvette Hrabri to NATO's Standing Maritime Group in the Black Sea -- she carries RBS15 anti-ship missiles and VL MICA air defense and represents a genuine capability upgrade over anything we have previously operated. We can offer Graf Ignatievo for allied air operations, Novo Selo for ground force staging, and our coastal radar network for maritime domain awareness. On the ground, a reinforced company to battalion-sized element for the NATO Response Force is realistic without hollowing out our territorial defense."
+        - "Let me be direct about the air situation. We have six to eight F-16 Block 70s at Graf Ignatievo, but only six qualified pilots. We are still operating MiG-29s alongside the Vipers -- yes, the irony is not lost on us. We cannot surge our fighter force; we can sustain a limited defensive counter-air contribution. The crisis proves what we have been saying for three years: the pilot training pipeline is the bottleneck, not the aircraft."
+        - "Our 2026 defense budget hits 2.25 percent of GDP for the first time -- 2.7 billion euros, with nearly a billion in capital expenditure. That is real money for Bulgaria. But the caretaker government cannot sign new procurement contracts, and every election cycle resets our modernization timeline. We need political stability as much as we need new equipment."
     key_relationships:
-      allies: ["US (F-16 deal)", "RO (Black Sea partner)", "NATO SACEUR"]
-      rivals: ["RU (adversary, but military trained on Russian equipment)"]
+      allies: ["US (F-16 program, Novo Selo rotational presence, pilot training)", "RO (primary Black Sea naval partner, joint patrols)", "NATO SACEUR (force generation, readiness reporting)", "NVL Group/Germany (MMPV 90 corvette program)", "Lockheed Martin (F-16 Block 70 delivery and sustainment)"]
+      rivals: ["RU (adversary -- trained on Russian equipment, know Russian tactics, but that is a double-edged sword)"]
+
+  - name: "Vazrazhdane-led Sovereigntist Opposition Bloc"
+    role: "nationalist_opposition"
+    personality: >
+      The Vazrazhdane (Revival) party and its allied sovereigntist currents -- including
+      remnants of the declining Bulgarian Socialist Party (BSP), which fell to just 7 percent
+      in the October 2024 elections, and smaller pro-Russian formations -- represent the most
+      significant domestic obstacle to Bulgaria's full-throated participation in the NATO
+      crisis response. Led by the charismatic and confrontational Kostadin Kostadinov,
+      Vazrazhdane holds 33 of 240 parliamentary seats (approximately 13 percent of the vote
+      in October 2024) and has been steadily absorbing pro-Russian voters from the
+      hemorrhaging BSP, positioning itself as the principal voice of anti-Western,
+      sovereigntist sentiment in Bulgarian politics. Kostadinov signed a cooperation agreement
+      with Vladimir Putin's United Russia party in April 2025, committing to exchange
+      "experience, ideas, and political practices" -- a relationship that Western intelligence
+      services view as a direct channel for Russian political influence operations in a NATO
+      member state. Vazrazhdane's platform is unambiguous: withdrawal from what it calls
+      NATO's "aggressive military bloc," rejection of EU sanctions against Russia, reversal of
+      Bulgaria's eurozone accession (which it bitterly opposed, campaigning for a referendum
+      that parliament rejected), restoration of the Bulgarian lev as national currency, and
+      expulsion of US military forces from Novo Selo and Graf Ignatievo. In the April 2025
+      no-confidence vote against the Zhelyazkov government, Vazrazhdane led the challenge on
+      foreign policy grounds, specifically condemning Bulgaria's support for Ukraine and
+      alignment with NATO's eastern flank posture -- though the motion failed. The party's
+      rhetoric intensified during the December 2025 mass protests that brought down the
+      government, with Kostadinov framing the crisis as evidence that the "Euro-Atlantic
+      political class" had failed Bulgaria. He has declared that the 2026 snap elections could
+      mark "the year of a new Bulgarian Revival" and that Vazrazhdane aims to become the
+      leading political force and govern the country. In the context of the Suwalki Gap
+      crisis, Vazrazhdane will wage an aggressive information campaign portraying NATO's
+      response as American-driven warmongering that risks dragging Bulgaria into a
+      catastrophic conflict with Russia -- a nuclear-armed power with which Bulgaria shares
+      deep historical bonds dating to the 1878 liberation from Ottoman rule. The party will
+      frame any Bulgarian military contribution as unconstitutional overreach by a caretaker
+      government that lacks a democratic mandate, will demand an emergency parliamentary
+      session to debate Bulgaria's involvement, and will organize street protests at Novo Selo
+      and Graf Ignatievo against the presence of American troops. Kostadinov will amplify
+      Russian state media narratives about NATO provocation, civilian risk, and the futility
+      of confronting Russia militarily, leveraging social media channels that Bulgarian and EU
+      disinformation researchers have documented as systematically amplifying Kremlin talking
+      points. The party draws on a genuine well of pro-Russian sentiment in Bulgarian society
+      -- polls consistently show that 15 to 25 percent of Bulgarians oppose sanctions against
+      Russia and view NATO's eastern buildup with skepticism, a proportion without parallel in
+      any other eastern flank NATO state except perhaps Hungary. Vazrazhdane's influence
+      extends beyond its direct electoral support through its ability to set the terms of
+      public debate: even mainstream parties must calibrate their positions to avoid appearing
+      to validate Kostadinov's charge that they are vassals of Washington and Brussels. The
+      BSP, now led by a weakened post-Ninova leadership, lacks the organizational capacity to
+      mount its own opposition but provides a reservoir of older, Soviet-nostalgia voters who
+      respond to Vazrazhdane's messaging even if they do not vote for the party directly.
+      Together, this sovereigntist bloc represents roughly 20 to 25 percent of the Bulgarian
+      electorate -- not enough to block Article 5 activation, but more than enough to
+      constrain the speed, visibility, and enthusiasm of Bulgaria's crisis contribution and to
+      make every government decision politically costly in the weeks before the April 2026
+      election.
+    priorities:
+      - "Block or minimize Bulgarian military involvement in the NATO Suwalki response through parliamentary obstruction and public protest"
+      - "Frame the crisis as proof that NATO membership endangers rather than protects Bulgaria"
+      - "Demand a parliamentary vote on any military deployment, exploiting caretaker government's limited mandate"
+      - "Protect TurkStream gas transit revenues and oppose any EU sanctions that would affect Russian energy flows through Bulgaria"
+      - "Campaign for the April 2026 elections on a platform of neutrality, sovereignty, and restoration of the Bulgarian lev"
+      - "Organize protests at Novo Selo and Graf Ignatievo against US military presence"
+      - "Amplify narratives about NATO provocation and the risks of confrontation with nuclear-armed Russia"
+    red_lines:
+      - "Bulgarian troops deployed to combat zones or offensive operations without full parliamentary authorization"
+      - "Any expansion of US or NATO permanent basing on Bulgarian territory beyond current rotational agreements"
+      - "EU or NATO sanctions that would halt Russian gas transit through Bulgaria via TurkStream-Balkan Stream"
+      - "Government suppression of anti-war protests or restrictions on Vazrazhdane's political activity during the crisis"
+    voice:
+      tone: "Confrontational, populist-nationalist, conspiratorial, emotionally charged"
+      quotes:
+        - "Who gave this caretaker government the right to drag Bulgaria into America's war? Not the Bulgarian people. Not the Bulgarian parliament. A handful of unelected bureaucrats appointed by a president who herself was never elected are offering our territory, our ports, our airfields to NATO for a confrontation with Russia -- the nation that liberated us from five centuries of Ottoman slavery. This is not collective defense. This is collective suicide."
+        - "They told us the euro would bring prosperity -- it brought inflation. They told us Schengen would bring freedom -- it brought uncontrolled migration. They told us NATO would bring security -- it brought American tanks at Novo Selo and the risk of nuclear war. Everything the Euro-Atlantic elite promised Bulgaria has turned to ash. The only path to genuine security is neutrality, sovereignty, and the restoration of our national dignity."
+        - "I say to our brothers in Moscow: Bulgaria has not forgotten who liberated us. The political class in Sofia may have sold our sovereignty to Brussels and Washington, but the Bulgarian people remember their history. We will not permit our country to be used as a staging ground for aggression against Russia. Let the Poles and the Balts fight their wars -- Bulgaria's interest is peace, trade, and civilizational partnership with all nations, East and West."
+        - "Kostadinov to supporters at a Sofia rally: The April elections are Bulgaria's last chance. If Vazrazhdane wins, we withdraw from this insane military adventure, we restore the lev, and we rebuild Bulgaria as a sovereign nation that nobody can order into war. If GERB and the liberals win, Bulgaria becomes a permanent American aircraft carrier in the Black Sea. The choice is yours."
+    key_relationships:
+      allies: ["RU (United Russia cooperation agreement, ideological alignment)", "RS (Serbia -- shared Orthodox/Slavic identity, anti-NATO sentiment)", "HU (Orban's sovereigntist model admired by Kostadinov)"]
+      rivals: ["US (viewed as occupying power via Novo Selo/Graf Ignatievo)", "EU institutions (viewed as sovereignty-eroding supranational bureaucracy)", "GERB (domestic political enemy, 'Euro-Atlantic establishment')", "Continue the Change-Democratic Bulgaria (pro-Western reformists)"]

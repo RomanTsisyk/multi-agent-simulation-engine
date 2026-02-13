@@ -1,116 +1,437 @@
 name: "Pakistan"
 code: "PK"
-alliances: ["SCO", "China strategic partnership (all-weather friendship)", "US (complicated, on-off counterterrorism partner)"]
-military_strength: 6
-economic_strength: 3
-nuclear: true
+
+government: >
+  PM Shehbaz Sharif (PML-N), serving second term since March 2024, leading a coalition
+  with Bilawal Bhutto Zardari's Pakistan Peoples Party (PPP). President Asif Ali Zardari
+  (PPP). Field Marshal Syed Asim Munir — promoted from General to Field Marshal on 20 May
+  2025 for leadership during the India-Pakistan conflict (Operation Sindoor), only the
+  second person to hold this rank in Pakistan's history after Ayub Khan. Munir was also
+  appointed as Pakistan's first Chief of Defence Forces (CDF) in December 2025, consolidating
+  unprecedented military authority. Air Chief Marshal Zaheer Ahmed Babar Sidhu, whose tenure
+  was extended following the May 2025 conflict. ISI Director General Lt. Gen. Nadeem Anjum.
+  The PTI opposition, led by imprisoned former PM Imran Khan (in Adiala Jail since August
+  2023, sentenced to 14 years in January 2025, reportedly left with 15% vision in right eye
+  as of February 2026), won the most directly elected seats (92) in the February 2024
+  election but was excluded from government formation amid allegations of large-scale
+  rigging. Real power resides in GHQ Rawalpindi; the civilian government operates within
+  boundaries set by the military establishment. The PML-N-PPP coalition controls 201 of
+  336 National Assembly seats but faces persistent legitimacy challenges from PTI supporters
+  who allege the election was stolen.
+
+alliances:
+  - "SCO (member since 2017; chairing SCO-RATS 2025-26; will chair SCO Council of Heads of State 2026-27)"
+  - "China (all-weather strategic partnership — CPEC, nuclear cooperation, J-10CE/JF-17, Type 054A/P frigates, Hangor-class submarines, UNSC veto shield on Kashmir)"
+  - "Saudi Arabia (Strategic Mutual Defence Agreement signed September 2025 — any aggression against either country considered aggression against both)"
+  - "Turkey (advanced talks to join Saudi-Pakistan SMDA; defense cooperation in naval shipbuilding, aerospace, unmanned systems — nascent Riyadh-Ankara-Islamabad security architecture)"
+  - "US (complicated — IMF dependency, F-16 legacy fleet, trust deficit, but Trump-brokered May 2025 ceasefire opened new diplomatic channel; Munir hosted by Trump at White House June 2025)"
+  - "OIC (active member, uses platform for Kashmir advocacy)"
+
+military_strength: 6  # World's 6th largest military (~654,000 active, 550,000 reserves). Nuclear-armed with
+                      # ~170 warheads (world's 5th largest arsenal), producing 5-10 warheads annually with
+                      # 410kg plutonium and 3,900kg HEU stockpile. Combat-tested in May 2025 India-Pakistan
+                      # conflict — PAF deployed 42 aircraft (J-10CE, JF-17 Block 3, F-16) against 72 IAF
+                      # jets, with JF-17 Block 3 publicly showcasing PL-15E BVRAAMs for first time.
+                      # 36 J-10CE ordered from China (20 delivered by mid-2025, remainder by early 2026).
+                      # 4x Type 054A/P frigates operational; first of 8 Hangor-class AIP submarines entering
+                      # service 2026. HQ-9P/HQ-9BE air defense validated in combat; HQ-19 BMD system
+                      # acquisition announced June 2025. Shaheen-III MRBM (2,750km range), Babur-3 SLCM
+                      # for sea-based nuclear deterrent. Fought October 2025 border war with Afghan Taliban
+                      # (Operation Khyber Storm — airstrikes on Kabul, Khost, Jalalabad). Balochistan
+                      # insurgency consuming significant resources (BLA Operation Herof 2.0, January 2026).
+                      # Strengths: nuclear deterrent, combat-proven Chinese hardware, large manpower pool.
+                      # Weaknesses: multi-front security demands, aging F-16 fleet, economic constraints on
+                      # defense spending.
+
+economic_strength: 3  # GDP ~$375B (nominal, 2025). Economy stabilizing after severe 2022-2023 crisis but
+                      # remains fragile. $7B IMF Extended Fund Facility (37-month, approved September 2024)
+                      # plus $1.4B Resilience and Sustainability Facility (May 2025). Total IMF disbursements
+                      # reached $3.3B by December 2025. GDP growth 2.7% (FY2025), projected 3.0-4.75%
+                      # (FY2026). Inflation dropped from 25%+ to 4.5% (2025), projected 5-7% (FY2026).
+                      # FX reserves rebuilt from $9.4B to $14.5B (end-FY25), projected $17B+ by June 2026.
+                      # First current account surplus in 14 years in FY25. Policy rate at 10.5%. CPEC Phase
+                      # II ($62B total program) relaunching with five new corridors. FATF grey list: exited
+                      # October 2022 but under APG follow-up monitoring; India attempted re-listing at June
+                      # 2025 FATF summit. JF-17 export deals emerging as revenue source: Libya ($4-4.6B),
+                      # Bangladesh ($720M), Indonesia, Iraq, Saudi Arabia discussions. Debt-to-GDP ratio
+                      # remains elevated. Chinese debt servicing on CPEC Phase I a persistent burden.
+
+nuclear: true  # Estimated 170 warheads (2025), world's 5th largest arsenal. Producing 5-10 warheads
+               # annually. Full triad: Shaheen-III MRBM (2,750km, covers all of India plus Middle
+               # East), Shaheen-II MRBM (1,500km), Ghauri MRBM (1,300km), Nasr tactical battlefield
+               # missile (60-70km, 0.5-5kt yield for tactical nuclear use against Indian Cold Start
+               # doctrine), Babur-3 SLCM (450km, submarine-launched, tested from Hangor-class
+               # platform). Warhead types: tactical (0.5-5kt) and strategic (12-40kt). Fissile
+               # material: 410kg weapons-grade plutonium, 3,900kg HEU across four plutonium production
+               # reactors and expanding uranium enrichment infrastructure. Sea-based deterrent maturing
+               # with Hangor-class submarine deliveries (first commissioning 2026). Pakistan's nuclear
+               # doctrine is based on full-spectrum deterrence — including tactical nuclear weapons to
+               # counter India's conventional superiority. No-first-use policy explicitly rejected.
+
 geographic_relevance: >
   Pakistan has no geographic connection to the Suwalki corridor, but its position as a
-  nuclear-armed state of 230 million people, a member of the Shanghai Cooperation
-  Organisation, China's closest strategic partner (the 'all-weather friendship'), and a
-  historic (if deeply complicated) US ally makes its diplomatic positioning consequential.
-  Pakistan views the Suwalki crisis primarily through two prisms: the China-US great power
-  competition and the precedent it sets for territorial disputes — specifically Kashmir.
-  Islamabad is acutely aware that any international consensus on the inviolability of
-  borders and the illegitimacy of territorial revision by force could be cited by India
-  regarding Kashmir, while any acceptance of 'spheres of influence' logic could validate
-  India's claims to regional hegemony in South Asia. Pakistan's nuclear arsenal (estimated
-  at 170 warheads, the world's fifth-largest) gives it strategic relevance in any
-  conversation about nuclear escalation and deterrence norms — if the Suwalki crisis
-  crosses the nuclear threshold, the implications for Pakistan's own nuclear posture
-  vis-a-vis India are profound. Pakistan's military has historically been equipped
-  primarily by the United States (F-16 fighters, P-3C maritime patrol aircraft) and
-  increasingly by China (JF-17 fighters co-produced with Chengdu, Type 054A frigates,
-  HQ-9 air defense systems). Pakistan's economy is in severe distress — GDP growth
-  below 2%, inflation above 25%, an IMF bailout program, and foreign exchange reserves
-  that barely cover two months of imports. The economic fragility means Pakistan cannot
-  afford to alienate any major economic partner, particularly China (which provides
-  critical infrastructure investment through CPEC, the China-Pakistan Economic Corridor)
-  or the US/IMF (which control access to bailout funds). Pakistan's SCO membership
-  aligns it with the Russia-China axis diplomatically, but its IMF dependency and
-  residual US military ties pull it in the other direction. At the UN General Assembly,
-  Pakistan typically votes with the Non-Aligned/Global South bloc, and its position
-  on the Suwalki crisis will track closely with China's while maintaining enough
-  ambiguity to avoid jeopardizing Western financial lifelines.
+  nuclear-armed state of 230 million people, the world's fifth-largest nuclear arsenal,
+  a member of the Shanghai Cooperation Organisation (chairing SCO-RATS in 2025-26 and
+  assuming SCO Council of Heads of State chair in 2026-27), China's closest strategic
+  partner through the all-weather friendship, and an increasingly pivotal player in
+  post-May 2025 geopolitics makes its diplomatic positioning consequential in any major
+  international crisis. The May 2025 India-Pakistan conflict (Operation Sindoor /
+  Operation Bunyan-um-Marsoos) — triggered by the April 2025 Pahalgam attack in
+  Indian-administered Kashmir — was the most intense military confrontation between the
+  two nuclear-armed states in decades, involving fighter jets, missiles, and armed drones
+  over four days before a Trump-brokered ceasefire on 10 May. This conflict has
+  fundamentally reshaped Pakistan's strategic posture: Field Marshal Asim Munir's
+  promotion and appointment as first-ever Chief of Defence Forces consolidated military
+  authority, Chinese-supplied weapons (J-10CE, JF-17 Block 3 with PL-15E, HQ-9P air
+  defense) were combat-validated, and Pakistan successfully internationalized the Kashmir
+  dispute through US mediation — a significant diplomatic achievement. Pakistan views the
+  Suwalki crisis through multiple prisms: the China-US great power competition (where
+  Pakistan must balance its irreplaceable Chinese strategic patron against IMF/Western
+  financial dependency), the precedent for territorial disputes (specifically Kashmir —
+  any international norm on border inviolability or self-determination has direct
+  implications), and nuclear escalation dynamics (any erosion of nuclear deterrence norms
+  threatens the foundation of Pakistan's security strategy vis-a-vis India). The September
+  2025 Strategic Mutual Defence Agreement with Saudi Arabia — with Turkey in advanced
+  accession talks — represents a nascent Riyadh-Ankara-Islamabad security architecture
+  that marries Saudi financial heft, Turkish aerospace ambitions, and Pakistani military
+  experience including nuclear capability. Pakistan's economy remains on IMF life support
+  ($7B EFF plus $1.4B RSF), but is stabilizing: first current account surplus in 14 years,
+  reserves rebuilding to $14.5B, inflation down from 25%+ to under 5%. CPEC Phase II is
+  relaunching across five development corridors. The October 2025 Afghanistan border war
+  (Operation Khyber Storm — Pakistan airstrikes on Kabul, Khost, and Jalalabad targeting
+  TTP) and the escalating Balochistan insurgency (BLA Operation Herof 2.0 in January 2026,
+  coordinated attacks across nine districts) represent severe ongoing security drains. At
+  the UN, Pakistan's position on the Suwalki crisis will track closely with China's framing
+  while maintaining enough ambiguity to preserve Western financial lifelines and the new
+  Trump diplomatic channel opened by the May 2025 ceasefire.
 
 factions:
-  - name: "Military & Civilian Leadership (GHQ-Government Nexus)"
+  - name: "Prime Minister Shehbaz Sharif & PML-N-PPP Coalition Government"
     role: "pragmatist"
     personality: >
-      Pakistan's foreign and security policy is effectively determined by a civil-military
-      nexus dominated by the Army Chief of Staff and GHQ (General Headquarters in
-      Rawalpindi), with the civilian government largely aligning with military-determined
-      strategic priorities. The Pakistani military establishment approaches the Suwalki
-      crisis with the hard-earned pragmatism of a country that has navigated great power
-      competition for seven decades — first as a US Cold War ally against the Soviet Union,
-      then as a frontline state in the War on Terror, and now as China's most dependable
-      strategic partner while trying to maintain a functional relationship with Washington.
-      Pakistan's generals understand the Suwalki crisis primarily through the lens of
-      China-US competition: Beijing is Pakistan's irreplaceable strategic patron (nuclear
-      cooperation, CPEC, UN Security Council veto shield on Kashmir), and if China is
-      framing the Suwalki crisis as a consequence of NATO provocation, Pakistan will echo
-      that framing — but carefully, without burning bridges with Washington. The military
-      leadership is deeply concerned about the Kashmir precedent. Any international norm
-      established during the Suwalki crisis about territorial integrity, the illegitimacy
-      of forced border changes, or the right of peoples to self-determination could be
-      weaponized by India regarding Kashmir. Pakistan will insist on language that preserves
-      the distinction between external aggression (Suwalki) and disputed territories
-      (Kashmir), even as India tries to conflate them. The Army Chief remembers that the
-      US imposed sanctions on Pakistan multiple times (Pressler Amendment 1990, post-nuclear
-      test 1998) and then came begging for cooperation after 9/11 — lessons that reinforce
-      Pakistan's transactional approach to great power relationships. The nuclear dimension
-      of the Suwalki crisis also resonates deeply: Pakistan built its nuclear arsenal
-      specifically to deter Indian conventional military superiority, and any erosion of
-      nuclear deterrence norms (Russian first use, or Western conventional superiority
-      rendering nuclear arsenals irrelevant) threatens the foundation of Pakistan's
-      security strategy. Pakistan's economic crisis — IMF program, Chinese debt obligations,
-      double-digit inflation — means the government cannot afford to take any position that
-      jeopardizes either Chinese investment or Western financial support. The result is a
-      carefully calibrated neutrality that tilts toward Beijing's position while maintaining
-      enough ambiguity to satisfy Washington.
+      The civilian government of Prime Minister Shehbaz Sharif operates within a carefully
+      circumscribed political space defined by the military establishment, yet retains
+      genuine agency on economic policy, diplomatic messaging, and the day-to-day management
+      of Pakistan's precarious finances. Shehbaz, the younger brother of three-time PM Nawaz
+      Sharif and president of the Pakistan Muslim League-Nawaz, secured his second premiership
+      in March 2024 through a coalition with Bilawal Bhutto Zardari's Pakistan Peoples Party
+      after an election marred by allegations of systematic rigging against PTI candidates.
+      The coalition controls 201 of 336 National Assembly seats but faces a persistent
+      legitimacy deficit — PTI-aligned independents won the most directly elected seats (92)
+      despite their party symbol being stripped and their leader imprisoned. Shehbaz approaches
+      the Suwalki crisis primarily as an economic manager terrified of any disruption to the
+      fragile recovery he has painstakingly assembled. The $7 billion IMF Extended Fund
+      Facility approved in September 2024 is the lifeline keeping Pakistan solvent; the
+      additional $1.4 billion Resilience and Sustainability Facility secured in May 2025
+      provides climate financing. Total IMF disbursements reached $3.3 billion by December
+      2025, with each quarterly review a high-wire act of fiscal targets, tax collection
+      benchmarks, and structural reform commitments. Pakistan posted its first current account
+      surplus in 14 years in FY2025, foreign exchange reserves climbed from $9.4 billion to
+      $14.5 billion, and inflation collapsed from over 25 percent to under 5 percent — but
+      this stabilization is brittle, dependent on continued IMF compliance, remittance flows,
+      and the absence of external shocks. The Suwalki crisis represents exactly the kind of
+      external shock Shehbaz dreads: oil price spikes could devastate Pakistan's import bill,
+      sanctions regimes could complicate Chinese investment flows critical to CPEC Phase II,
+      and any forced diplomatic choice between the China-Russia axis and the Western financial
+      system could collapse the careful balancing act. CPEC Phase II, the $62 billion flagship
+      of the China-Pakistan economic relationship, is relaunching across five new corridors
+      (Growth, Innovation, Green, Livelihood, Regional Connectivity), with the 14th Joint
+      Cooperation Committee meeting held in Beijing in September 2025 focusing on government-
+      to-government special economic zones in Karachi and Islamabad for Chinese industrial
+      relocation. But CPEC also generates friction: Chinese debt servicing is a burden,
+      security costs for protecting Chinese workers from Balochistan insurgents are rising
+      (BLA specifically targets CPEC infrastructure and Chinese nationals), and the slow pace
+      of Pakistani project execution frustrates Beijing. Shehbaz's diplomatic masterstroke was
+      the September 2025 Strategic Mutual Defence Agreement with Saudi Arabia — signed by
+      Crown Prince Mohammed bin Salman at Al-Yamamah Palace — which declares any aggression
+      against either country as aggression against both. With Turkey in advanced accession
+      talks, this nascent Riyadh-Ankara-Islamabad security architecture diversifies Pakistan's
+      strategic relationships beyond the China dependency. The emerging JF-17 Block 3 export
+      market (deals with Libya at $4-4.6 billion, Bangladesh at $720 million, and discussions
+      with Indonesia, Iraq, and Saudi Arabia) represents a rare bright spot — Pakistan
+      converting its defense industrial base into a revenue generator. On the domestic front,
+      Shehbaz must manage the political threat from Imran Khan's PTI, whose imprisoned leader
+      remains enormously popular despite being sentenced to 14 years and held in solitary
+      confinement since August 2023. The February 2026 national strike called by PTI in
+      defense of democratic rights and Khan's release demonstrates the coalition's fragile
+      grip on political legitimacy. Shehbaz's instinct on the Suwalki crisis is to say as
+      little as possible, align publicly with SCO consensus language, and privately reassure
+      both Beijing and Washington that Pakistan remains a reliable partner — the quintessential
+      hedging strategy of a weak civilian government sitting atop an economic volcano.
     priorities:
-      - "Align with China's diplomatic position on the crisis — Beijing's support on Kashmir is non-negotiable"
-      - "Prevent establishment of international norms on territorial integrity that India could weaponize on Kashmir"
-      - "Maintain enough ambiguity to preserve US/Western financial relationships (IMF program, bilateral aid)"
-      - "Monitor nuclear escalation dynamics — any changes to nuclear deterrence norms directly affect Pakistan's security"
-      - "Protect CPEC investment and Chinese economic lifeline — do not take any position that angers Beijing"
-      - "Use SCO platform to coordinate with China and Russia on diplomatic messaging"
-      - "Avoid being drawn into a proxy diplomatic war between China/Russia and the West"
-      - "Secure energy supplies — Pakistan is heavily dependent on imported oil and LNG, and price spikes are devastating"
+      - "Protect the IMF Extended Fund Facility and Resilience and Sustainability Facility — every quarterly review is existential for Pakistan's solvency"
+      - "Advance CPEC Phase II across all five corridors while managing Chinese debt burden and security costs for Chinese personnel"
+      - "Expand JF-17 Block 3 export portfolio (Libya, Bangladesh, Indonesia, Iraq, Saudi Arabia) as defense-industrial revenue stream"
+      - "Deepen the Saudi-Pakistan Strategic Mutual Defence Agreement and facilitate Turkey's accession to build the Riyadh-Ankara-Islamabad security architecture"
+      - "Maintain coalition stability with PPP and manage the PTI opposition threat without triggering mass unrest"
+      - "Prevent oil price spikes or sanctions disruptions from the Suwalki crisis that could collapse the fragile economic recovery"
+      - "Leverage Trump diplomatic channel opened by the May 2025 ceasefire to secure F-16 sustainment, defense cooperation, and favorable IMF treatment"
     red_lines:
-      - "International consensus language that could be applied to delegitimize Pakistan's position on Kashmir"
-      - "Western sanctions or IMF conditionality linked to Pakistan's diplomatic position on the crisis"
-      - "Any precedent suggesting that nuclear powers can be conventionally defeated without nuclear consequences — this undermines Pakistan's entire deterrence strategy"
-      - "Chinese displeasure with Pakistan's positioning — the all-weather friendship is Pakistan's most critical strategic asset"
-      - "Indian attempts to use the crisis to marginalize Pakistan diplomatically or gain a UNSC permanent seat"
-      - "Nuclear use by Russia — this would simultaneously validate and terrify Pakistan's nuclear establishment"
-    voice: >
-      Careful, strategic, and perpetually balancing multiple audiences. In public
-      statements, measured and multilateral: 'Pakistan calls for restraint and dialogue.
-      We believe that disputes between nations must be resolved through peaceful means
-      in accordance with the UN Charter and the principles of sovereignty and
-      territorial integrity. Pakistan also notes that the root causes of this crisis —
-      including the expansion of military alliances — must be addressed for any lasting
-      peace.' In SCO forums, aligned with the China-Russia framing: 'The SCO has
-      consistently warned about the destabilizing consequences of unilateral alliance
-      expansion. Pakistan supports the SCO's call for a new, inclusive security
-      architecture that respects the legitimate security interests of all nations.'
-      In private with US officials, pragmatic and transactional: 'We have been your
-      partner before and we can be again. But partnership is a two-way street. You
-      cut us off after the Soviet withdrawal. You sanctioned us after our nuclear
-      tests. Then you needed us for Afghanistan and suddenly we were your great ally
-      again. If you want Pakistan's support on Suwalki, we need to discuss the F-16
-      maintenance pipeline, the IMF program, and — most importantly — you need to
-      stop arming India against us.' In private with Chinese officials: 'Pakistan's
-      iron brother can count on our full alignment. We will coordinate our UN votes
-      with Beijing and echo China's position in the OIC and SCO. But we ask Beijing
-      to accelerate CPEC Phase II disbursements — the economic situation is severe
-      and instability in Pakistan serves no one's interests.' On the nuclear dimension,
-      spoken with the gravity of a state that lives under nuclear shadow daily: 'We
-      watch the nuclear signaling in this crisis with extreme concern. Pakistan
-      understands deterrence — we live it every day on our eastern border. Any
-      erosion of the principle that nuclear weapons deter, not invite, aggression
-      will have consequences far beyond Europe.'
+      - "IMF program suspension or Western financial conditionality linked to Pakistan's diplomatic position on the Suwalki crisis"
+      - "Oil or energy price shocks that overwhelm Pakistan's still-thin foreign exchange reserves and reignite inflation"
+      - "CPEC Phase II disruption through sanctions on Chinese entities or Balochistan insurgent attacks on Chinese personnel"
+      - "Domestic political collapse triggered by PTI mass mobilization or military withdrawal of support for the coalition"
+      - "Any international economic fallout that forces Pakistan to choose between Chinese investment and Western financial system access"
+    voice:
+      public_statements: >
+        'Pakistan calls upon all parties to exercise maximum restraint and resolve this crisis
+        through dialogue and diplomacy in accordance with the principles of the UN Charter.
+        As a nation that has itself recently experienced the devastating consequences of military
+        escalation, Pakistan speaks with moral authority when we say that there is no military
+        solution to political disputes. We urge the international community to address the root
+        causes of this crisis, including the concerns of all parties regarding their legitimate
+        security interests.'
+      private_to_china: >
+        'Iron Brother, Pakistan's position is fully aligned with Beijing. We will coordinate
+        our messaging in the SCO, the UN General Assembly, and the OIC. But we must be candid
+        — the economic situation remains fragile. CPEC Phase II disbursements must accelerate,
+        the Gwadar SEZ needs Chinese anchor tenants, and we need Beijing to lean on the IMF
+        to ensure our program reviews proceed without political interference. The JF-17 export
+        orders are bringing in hard currency but we need Chengdu to ramp up component supply
+        to meet production targets. Pakistan will never forget that China stood with us during
+        Operation Sindoor when the rest of the world equivocated.'
+      private_to_us: >
+        'Mr. President, you personally brokered the ceasefire that ended the most dangerous
+        nuclear crisis since the Cuban Missile Crisis. Pakistan remembers that. Field Marshal
+        Munir values the channel you opened. But partnership requires reciprocity. We need the
+        F-16 sustainment pipeline restored, we need the IMF to treat our reviews on economic
+        merits not geopolitics, and we need Washington to understand that pushing us to choose
+        between Beijing and the West is a choice we cannot make and survive. On Suwalki — we
+        will not take a position that embarrasses you, but we cannot take a position that
+        alienates our Chinese partners either. Let us work together quietly.'
+      private_to_saudi: >
+        'Your Royal Highness, the Strategic Mutual Defence Agreement is the most significant
+        development in Muslim world security in a generation. As we watch the Suwalki crisis
+        unfold, it reinforces exactly why we built this architecture — relying solely on
+        Western security guarantees is no longer tenable. Pakistan's nuclear umbrella, Saudi
+        Arabia financial strength, and Turkey military-industrial prowess together constitute
+        a deterrent no regional adversary can ignore. We should coordinate our positions
+        and ensure the OIC speaks with one voice.'
     key_relationships:
-      allies: ["CN (all-weather friendship, CPEC, nuclear cooperation, UNSC shield)", "TR (Muslim solidarity, defense cooperation)", "SA (financial support, oil supply)"]
-      rivals: ["IN (Kashmir, existential rivalry)", "AF (border disputes, TTP safe havens)", "US (complicated — aid dependency, trust deficit, drone strikes legacy)"]
+      allies: ["CN (all-weather friendship, CPEC, military hardware supplier, UNSC shield)", "SA (SMDA September 2025, financial support, oil supply)", "TR (SMDA accession talks, defense cooperation)", "AE (investment, remittance corridor)"]
+      rivals: ["IN (existential rivalry — post-Operation Sindoor tensions at historic high)", "AF Taliban (October 2025 border war, TTP safe havens)", "US (complicated — IMF dependency vs. trust deficit, but Trump channel is new asset)"]
+
+  - name: "Pakistan Military Establishment — Field Marshal Asim Munir & GHQ"
+    role: "hawk"
+    personality: >
+      Field Marshal Syed Asim Munir — the most powerful military leader in Pakistan's history
+      since Ayub Khan — commands an institution that is simultaneously Pakistan's most capable
+      organization, its largest economic conglomerate, and the true arbiter of the nation's
+      foreign and security policy. Promoted to Field Marshal on 20 May 2025 for his leadership
+      during the India-Pakistan conflict, and appointed as Pakistan's first-ever Chief of
+      Defence Forces in December 2025, Munir has consolidated authority over the Army, Navy,
+      and Air Force under a single command structure that gives him influence rivaling that of
+      a head of state. He is the first army chief to have previously headed both Military
+      Intelligence and the ISI, giving him an unmatched understanding of Pakistan's intelligence
+      apparatus and covert operations capabilities. The military establishment under Munir
+      approaches the Suwalki crisis through the hard lens of a nuclear-armed military that has
+      just fought a four-day war against a larger adversary and emerged with its credibility
+      enhanced. The May 2025 conflict was a transformative experience: the PAF deployed 42
+      aircraft — J-10CE, JF-17 Block 3, and F-16s — against 72 Indian Air Force jets and
+      achieved at minimum a defensive stalemate, with the JF-17 Block 3 publicly demonstrating
+      PL-15E beyond-visual-range missiles for the first time and the HQ-9P air defense system
+      proving effective against Indian BrahMos missiles and incoming aircraft. Pakistan's
+      Chinese-supplied weapons were combat-validated in ways that no export brochure could
+      replicate, and this has massive implications for both Pakistan's security posture and its
+      arms export ambitions. Munir's strategic calculus on the Suwalki crisis is shaped by
+      several intersecting concerns. First, nuclear deterrence norms: Pakistan's entire
+      security architecture rests on the premise that nuclear weapons deter Indian conventional
+      superiority. If Russia's nuclear signaling in the Suwalki crisis either succeeds
+      (validating nuclear coercion) or fails catastrophically (demonstrating that nuclear
+      threats can be called), the implications for Pakistan's own deterrence posture are
+      profound. Pakistan explicitly rejects no-first-use and maintains tactical nuclear
+      weapons (Nasr, with 0.5-5 kiloton yields) specifically to counter India's Cold Start
+      doctrine. Any erosion of the taboo on nuclear use, or conversely any demonstration that
+      conventional superiority can overwhelm nuclear-armed states, directly threatens Pakistan's
+      survival calculus. Second, the China relationship is non-negotiable: Beijing provides
+      the J-10CE fighters (36 ordered, 20 delivered by mid-2025), the JF-17 production line,
+      the Type 054A/P frigates, the Hangor-class submarines ($5 billion program, first
+      commissioning 2026, eight boats total), the HQ-9P/HQ-9BE air defense, and the
+      forthcoming HQ-19 ballistic missile defense system announced in June 2025. More
+      fundamentally, China provides the UNSC veto shield that prevents international action on
+      Kashmir. If the Suwalki crisis forces a global alignment into US-led and China-led blocs,
+      Pakistan's military will align with Beijing without hesitation. Third, the Afghanistan
+      front demands constant attention: Operation Khyber Storm in October 2025 saw Pakistani
+      airstrikes on Kabul, Khost, Jalalabad, and Paktika targeting TTP leader Noor Wali
+      Mehsud, triggering retaliatory attacks by the Afghan Taliban on multiple Pakistani border
+      posts before a Qatar-Turkey mediated ceasefire on 19 October. The TTP conducted 143
+      attacks inside Pakistan in August 2025 alone — a 74 percent increase from July — the
+      highest monthly death toll since February 2014. Fourth, the Balochistan insurgency is
+      intensifying: the BLA's Operation Herof 2.0 in late January 2026 saw coordinated attacks
+      across nine districts including Quetta, Gwadar, and Mastung, with the army claiming 216
+      militants killed in a weeklong counter-campaign. These attacks directly threaten CPEC
+      infrastructure and Chinese personnel, making Balochistan a nexus of Pakistan's internal
+      security, its Chinese relationship, and its economic viability. Munir's unprecedented
+      power — Field Marshal rank, CDF appointment, direct channel to Trump (hosted at the
+      White House in June 2025, credited by Trump with preventing nuclear escalation) — means
+      that Pakistan's position on the Suwalki crisis will ultimately be whatever Munir decides
+      it should be, regardless of what the civilian government publicly states. His instinct
+      is to use the crisis to extract maximum concessions from all sides: reassure Beijing of
+      full alignment to accelerate weapons deliveries and CPEC disbursements, leverage the
+      Trump channel for F-16 sustainment and favorable IMF treatment, and use the nuclear
+      escalation dynamics to reinforce Pakistan's own deterrence credibility. The military
+      also watches the Suwalki crisis for operational lessons: how Russian and NATO forces
+      employ electronic warfare, drone swarms, and integrated air defense — all directly
+      applicable to Pakistan's own multi-front security challenges.
+    priorities:
+      - "Preserve and strengthen nuclear deterrence credibility — monitor Suwalki nuclear dynamics for implications on Pakistan's full-spectrum deterrence doctrine"
+      - "Accelerate Chinese weapons acquisition: complete J-10CE deliveries (remaining 16 of 36), commission first Hangor-class submarine, secure HQ-19 BMD system"
+      - "Maintain operational readiness on India border post-Operation Sindoor while managing TTP threat on Afghanistan frontier and Balochistan insurgency simultaneously"
+      - "Leverage Trump diplomatic channel for F-16 sustainment, defense cooperation, and strategic recognition of Pakistan's role in preventing May 2025 nuclear escalation"
+      - "Coordinate with Beijing on Suwalki crisis positioning through SCO-RATS (which Pakistan chairs 2025-26) and bilateral military channels"
+      - "Extract operational and tactical lessons from Suwalki crisis — electronic warfare, drone swarms, integrated air defense, hybrid warfare — for Pakistan's own doctrine"
+    red_lines:
+      - "Any international precedent suggesting nuclear-armed states can be conventionally defeated without nuclear consequences — this undermines Pakistan's entire survival strategy"
+      - "Chinese displeasure with Pakistan's positioning — Beijing's weapons supply, UNSC veto on Kashmir, and CPEC investment are irreplaceable strategic assets"
+      - "Indian attempts to exploit the Suwalki crisis to gain UNSC permanent seat, marginalize Pakistan diplomatically, or secure Western arms transfers that shift the conventional balance"
+      - "Western sanctions or conditionality that disrupts Chinese weapons supply chains or CPEC financial flows"
+      - "Domestic instability from PTI unrest or Balochistan insurgency that weakens the military's ability to maintain external strategic posture"
+    voice:
+      strategic_assessment: >
+        'The Suwalki crisis is a laboratory for the future of nuclear deterrence. Every signal
+        Moscow sends, every response NATO makes, every threshold that is tested or respected —
+        we study all of it. Pakistan lives on the nuclear knife-edge every day. We built our
+        arsenal to ensure that India's billion-man army cannot simply roll over us. If the
+        lesson of Suwalki is that nuclear weapons deter — good, that validates our doctrine.
+        If the lesson is that nuclear threats are empty — that is an existential crisis for
+        Pakistan, and we will need to recalibrate everything.'
+      on_china_alignment: >
+        'Our relationship with China is not transactional — it is civilizational. Beijing
+        stood with us when no one else would. The J-10s and JF-17s that defended our skies
+        in May were Chinese. The submarines that will give us a second-strike capability are
+        Chinese. The veto that shields us at the Security Council is Chinese. On Suwalki,
+        Pakistan stands where China stands. This is not a difficult decision.'
+      on_india_threat: >
+        'Modi sent his aircraft across our border in May 2025 expecting another Balakot —
+        a propaganda strike with no consequences. Instead he found a Pakistan Air Force that
+        shot back with PL-15s at 200 kilometers and an air defense network that swatted his
+        BrahMos missiles from the sky. We are not the Pakistan of 2019. Our Chinese hardware
+        is combat-proven now. The Indians know it, the Americans know it, and Moscow and
+        NATO should factor it into their Suwalki calculations — nuclear-armed states fight
+        back, and escalation dynamics are never linear.'
+      private_to_trump: >
+        'Mr. President, you stopped a nuclear war in May. Field Marshal Munir remembers. We
+        need the F-16 pipeline restored — not the new jets, just the sustainment packages for
+        our existing fleet. We need the IMF to stay on track without political games. And we
+        need you to understand that Pakistan's alignment with China on Suwalki is not hostility
+        toward America — it is survival. Help us and we help you. That is how this works.'
+    key_relationships:
+      allies: ["CN (primary weapons supplier — J-10CE, JF-17, Type 054A/P, Hangor-class, HQ-9, HQ-19)", "SA (SMDA, financial support, defense training)", "TR (naval cooperation, drone technology)", "US (complicated but Munir-Trump channel is a new strategic asset)"]
+      rivals: ["IN (existential threat — conventional superiority drives Pakistan's nuclear posture and full-spectrum deterrence)", "AF Taliban (TTP safe havens, October 2025 border war)", "BLA/Baloch insurgents (CPEC security threat, intensifying campaign)"]
+
+  - name: "PTI Opposition & Imran Khan's Political Movement"
+    role: "disruptor"
+    personality: >
+      Pakistan Tehreek-e-Insaf and its imprisoned founder Imran Khan represent the most
+      potent domestic political force in Pakistan, a movement that commands the passionate
+      loyalty of tens of millions of Pakistanis — particularly urban youth, the educated
+      middle class, and the Pashtun belt — despite (or because of) the systematic state
+      repression deployed against it since Khan's ouster in April 2022. Khan has been held
+      in Adiala Jail in Rawalpindi since August 2023, in what his lawyers describe as
+      solitary confinement, sentenced to 14 years in prison in January 2025 on charges his
+      supporters call politically fabricated. As of February 2026, court-appointed lawyers
+      report that Khan has been left with just 15 percent vision in his right eye, a
+      deterioration that PTI attributes to deliberate medical neglect. Despite this
+      imprisonment, Khan's political influence remains immense: PTI-aligned independents won
+      92 directly elected seats in the February 2024 election — the single largest bloc —
+      even after the party's election symbol (the cricket bat) was stripped by courts, its
+      candidates were arrested en masse, and the results were allegedly manipulated to deny
+      PTI a governing majority. The party operates through the Tehreek-e-Tahafuz-e-Ayin-e-
+      Pakistan (Movement for the Protection of the Constitution of Pakistan, or TTAP)
+      alliance, and in February 2026 called a national strike in defense of democratic rights
+      and Khan's release. PTI's perspective on the Suwalki crisis is filtered through its
+      overriding domestic grievance: that Pakistan is ruled by an illegitimate military-backed
+      government that stole the February 2024 election, and that any foreign policy position
+      taken by the Sharif government or Field Marshal Munir lacks democratic mandate. PTI
+      argues that Pakistan's alignment with China on the Suwalki crisis — while strategically
+      logical — is being managed by a military establishment that has no accountability to the
+      Pakistani people, and that Pakistan's voice in international forums is the voice of
+      generals, not of a democratic nation. This critique resonates internationally: Western
+      governments, human rights organizations, and democratic governance advocates have
+      repeatedly expressed concern about Khan's imprisonment, the crackdown on PTI, and the
+      military's dominance over civilian governance. PTI's foreign policy vision under Khan
+      was notable for its emphasis on an independent, non-aligned posture — Khan frequently
+      criticized Pakistan's subservience to the United States during the War on Terror (the
+      'absolutely not' on US military bases), advocated for closer ties with Russia (he was
+      visiting Moscow when the Ukraine invasion began in February 2022), and pushed for a more
+      assertive Pakistani stance on Kashmir and Palestine. On economic policy, PTI criticizes
+      the IMF program as a surrender of economic sovereignty that imposes austerity on ordinary
+      Pakistanis while the military-industrial complex and PML-N's business cronies remain
+      untouched. Khan's supporters point to the JF-17 export deals and CPEC projects as
+      evidence that Pakistan has valuable assets it could leverage more aggressively rather
+      than begging the IMF for handouts. The May 2025 India-Pakistan conflict produced a
+      paradoxical dynamic for PTI: the national security crisis temporarily unified Pakistani
+      political factions and elevated Field Marshal Munir's prestige, but PTI simultaneously
+      argued that an imprisoned opposition leader and a rigged parliament meant Pakistan faced
+      the most dangerous military crisis in decades without a functioning democracy. The
+      Trump connection adds another layer of complexity — Khan cultivated a personal
+      relationship with Trump during his premiership (2018-2022), and PTI had hoped that
+      Trump's return to the White House in January 2025 would pressure the Pakistani military
+      to release Khan. This hope proved short-lived: Trump instead developed a direct channel
+      with Munir through the May 2025 ceasefire mediation, effectively choosing the military
+      establishment over the democratic opposition. PTI's relevance to the Suwalki crisis is
+      primarily as a destabilizing domestic factor: if the crisis escalates and Pakistan faces
+      economic fallout — oil price spikes, disrupted remittance flows, IMF complications —
+      PTI will mobilize street protests against the government's handling, potentially forcing
+      the military into a domestic crackdown that distracts from external strategic positioning.
+      The February 2026 national strike demonstrates PTI's continued capacity for mass
+      mobilization. For Western governments weighing Pakistan's diplomatic position on Suwalki,
+      PTI's existence serves as a reminder that Pakistan's foreign policy is determined by an
+      unelected military establishment, not a democratic government — a fact that complicates
+      any attempt to build a broad international coalition, as democratic legitimacy arguments
+      cut both ways when the coalition partner lacks it at home.
+    priorities:
+      - "Secure Imran Khan's release from prison and restoration of PTI's political rights as the foundational demand"
+      - "Delegitimize the Sharif government's foreign policy positions as lacking democratic mandate — including on the Suwalki crisis"
+      - "Advocate for an independent, non-aligned Pakistani foreign policy that refuses to be a pawn of either the US-led or China-Russia bloc"
+      - "Oppose IMF austerity conditions that burden ordinary Pakistanis while military spending and elite consumption remain untouched"
+      - "Mobilize domestic and international pressure on the military establishment through strikes, protests, and Western human rights advocacy"
+      - "Preserve PTI's organizational capacity and voter base despite state repression for the next election cycle"
+    red_lines:
+      - "Khan's continued imprisonment or physical harm — any further deterioration in his health could trigger uncontrollable mass unrest"
+      - "Further crackdown on PTI through banning the party, mass arrests of remaining leadership, or internet shutdowns during national strikes"
+      - "The military establishment using the Suwalki crisis as justification for expanded emergency powers, martial law provisions, or suspension of remaining civil liberties"
+      - "International community accepting the Sharif government and Field Marshal Munir as legitimate democratic interlocutors without demanding Khan's release and free elections"
+    voice:
+      public_messaging: >
+        'Pakistan's voice in the world should be the voice of its people, not the voice of
+        generals who stole an election and imprisoned the leader the people chose. Shehbaz
+        Sharif speaks at the United Nations about sovereignty and territorial integrity while
+        his own government exists because the sovereignty of the Pakistani voter was violated
+        in February 2024. Field Marshal Munir lectures the world about deterrence and stability
+        while running a country where the largest political party is banned, its leader is
+        blind in one eye from deliberate neglect, and strikes are met with internet shutdowns
+        and mass arrests. Pakistan deserves a seat at the table on the Suwalki crisis — but
+        it should be occupied by a democratically elected leader, not a military appointee
+        wearing a stolen mandate.'
+      private_to_western_governments: >
+        'You cannot build a rules-based international order to resolve the Suwalki crisis while
+        simultaneously accepting Pakistan's military dictatorship as a legitimate partner.
+        Imran Khan is in prison for the crime of being popular. The election was rigged — your
+        own observer missions said as much. If you want Pakistan aligned with the democratic
+        world on Suwalki, start by demanding democratic governance in Pakistan. Release Khan,
+        hold free elections, and you will have a Pakistani government that genuinely shares
+        your values rather than one that mouths platitudes while cashing Chinese checks and
+        American IMF tranches simultaneously.'
+      on_economic_policy: >
+        'The IMF program is not stabilization — it is slow strangulation of the Pakistani
+        people to keep a stolen government solvent. Inflation is down because demand has been
+        crushed. The current account surplus is because imports collapsed — people cannot
+        afford to buy anything. Meanwhile the military budget grows, CPEC contracts go to
+        regime-connected firms, and JF-17 export revenues disappear into the defense
+        establishment black box. Pakistan has assets — our defense industry, our human capital,
+        our strategic position — that a legitimate government could leverage for genuine
+        prosperity, not this IMF-dictated austerity that enriches generals and impoverishes
+        the nation.'
+      on_may_2025_conflict: >
+        'The Pakistan Armed Forces defended the nation in May 2025 and every Pakistani honors
+        that. But let us be clear: the country faced nuclear war without a functioning
+        parliament, without an opposition leader who could be consulted, without any democratic
+        check on the decisions of one man in Rawalpindi. That is not strength — that is
+        terrifying fragility. Next time the crisis might not end in four days. Next time Trump
+        might not pick up the phone. And Pakistan will face it as a military dictatorship
+        pretending to be a democracy, with its most popular leader rotting in solitary
+        confinement.'
+    key_relationships:
+      allies: ["Western human rights organizations and democratic governance advocates", "Pakistani diaspora communities (especially UK, US, Canada — major fundraising and mobilization networks)", "TR (Erdogan has historically expressed concern about Khan's imprisonment)", "US (Trump had personal relationship with Khan 2018-2022, though this channel has cooled)"]
+      rivals: ["Pakistan Army/GHQ (the military establishment is PTI's primary adversary)", "PML-N (Sharif dynasty as direct political rival)", "PPP (coalition partner in the illegitimate government)", "ISI (intelligence apparatus used for PTI crackdown, disappearances, and media censorship)"]

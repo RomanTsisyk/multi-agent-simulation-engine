@@ -1,69 +1,276 @@
 name: "Azerbaijan"
 code: "AZ"
-alliances: ["Turkey (strategic ally)", "Israel (defense partner)", "non-aligned"]
+alliances:
+  - "Organization of Turkic States"
+  - "Non-Aligned Movement"
+  - "GUAM (Georgia, Ukraine, Azerbaijan, Moldova)"
+  - "Turkey (Shusha Declaration strategic alliance)"
+  - "Israel (strategic defense partnership)"
 military_strength: 4
 economic_strength: 5
 nuclear: false
+
+leader: "President Ilham Aliyev"
+
+key_figures:
+  - "Mehriban Aliyeva (First Vice President)"
+  - "Ali Asadov (Prime Minister)"
+  - "Rovshan Najaf (SOCAR President)"
+  - "Zakir Hasanov (Minister of Defense)"
+  - "Jeyhun Bayramov (Minister of Foreign Affairs)"
+  - "Kerim Veliyev (Minister of Defense Industry)"
+
 geographic_relevance: >
-  Azerbaijan is geographically distant from the Suwalki Gap but strategically
-  important as an alternative energy supplier to Europe and a Turkish ally. The
-  country controls significant oil and gas reserves (Shah Deniz gas field) and
-  supplies Europe via the Southern Gas Corridor (Trans-Anatolian Pipeline and
-  Trans-Adriatic Pipeline), which became critical after Europe began reducing Russian
-  gas dependence in 2022. Azerbaijan's military is battle-tested and confident after
-  decisively defeating Armenia in the 2020 Second Nagorno-Karabakh War and the 2023
-  offensive that recaptured Nagorno-Karabakh entirely. The country maintains a
-  delicate balance between Turkey (NATO member and ethnic ally), Russia (regional
-  power and security factor), and Iran (tense neighbor). Azerbaijan is a secular,
-  authoritarian petrostate with little ideological investment in Western democracy
-  but strong interest in European energy markets. The Suwalki crisis presents an
-  opportunity: Europe desperate for energy alternatives gives Azerbaijan leverage
-  to expand energy exports and strengthen political relationships while maintaining
-  strategic ambiguity about the Russia-NATO confrontation.
+  Azerbaijan is geographically distant from the Suwalki Gap but occupies an outsized
+  strategic role in any NATO-Russia confrontation due to its position as Europe's critical
+  alternative energy supplier. Situated on the western shore of the Caspian Sea at the
+  crossroads of Eastern Europe, Central Asia, and the Middle East, Azerbaijan controls the
+  Southern Gas Corridor — the only major non-Russian gas pipeline system reaching Europe —
+  comprising the South Caucasus Pipeline, the Trans-Anatolian Pipeline (TANAP, 16 bcm/year
+  capacity), and the Trans-Adriatic Pipeline (TAP, which completed a 1.2 bcm expansion in
+  early 2026). Azerbaijan supplies approximately 10 bcm of gas annually to European
+  consumers, with a 2022 EU memorandum targeting 20 bcm by 2027. The Baku-Tbilisi-Ceyhan
+  (BTC) oil pipeline, operational since 2006, has transported over 4.6 billion barrels of
+  crude oil to Mediterranean markets. Equally important, Azerbaijan sits at the heart of
+  the Middle Corridor (Trans-Caspian International Transport Route), the China-to-Europe
+  trade route bypassing Russia via Kazakhstan, the Caspian Sea, Azerbaijan, Georgia, and
+  Turkey. In 2025, over 380 block trains transited from China through Azerbaijan, a 35%
+  increase over 2024, with plans for 600 container trains annually in 2025-2026. Azerbaijan
+  is the only South Caucasus state with no Russian military presence on its soil — Russian
+  peacekeepers completed their full withdrawal from Karabakh in June 2024, eighteen months
+  ahead of schedule. The country is battle-tested after its decisive 2020 Second Karabakh
+  War victory and 2023 full recapture of Nagorno-Karabakh, and maintains a $5.1 billion
+  defense budget for 2026. The August 2025 U.S.-brokered initialing of the Armenia-Azerbaijan
+  peace agreement, including the TRIPP (Trump Route for International Peace and Prosperity)
+  corridor through Armenian territory connecting Azerbaijan to Nakhchivan, represents a
+  potential historic breakthrough, though final signature awaits Armenian constitutional
+  reforms expected in late 2026 or 2027. Azerbaijan's Shusha Declaration alliance with
+  Turkey (a NATO member) gives it indirect NATO connectivity, while its deep defense
+  partnership with Israel (including the $1.2 billion Barak MX missile defense system
+  purchase) provides advanced military technology. In the Suwalki crisis, Europe's
+  desperation for energy alternatives gives Azerbaijan extraordinary leverage to expand
+  exports, deepen political relationships, and consolidate its post-Karabakh territorial
+  gains while maintaining calculated ambiguity about the NATO-Russia confrontation.
 
 factions:
-  - name: "Presidential Administration"
+  - name: "President Aliyev & Ruling YAP Establishment"
     role: "pragmatist"
     personality: >
-      A confident, energy-rich leadership that views the Suwalki crisis primarily
-      through the lens of economic opportunity and strategic positioning. Azerbaijan's
-      2020 and 2023 military victories over Armenia have given the government a swagger
-      that contrasts sharply with the anxious smaller states of Eastern Europe. The
-      President sees European energy desperation as a chance to position Azerbaijan
-      as the indispensable alternative to Russian gas, securing both revenue and
-      political capital. However, Azerbaijan cannot afford to openly antagonize Russia —
-      Moscow still has influence over regional security dynamics and has tacitly
-      accepted Azerbaijani control over Nagorno-Karabakh. The government will offer
-      Europe increased energy supplies and rhetorical support for territorial integrity,
-      but will not take sides in the NATO-Russia confrontation. Turkey's backing gives
-      Azerbaijan confidence, but the leadership is also wary of being dragged into
-      conflicts that do not serve Azerbaijani interests. The government constantly
-      emphasizes Azerbaijan's reliability as an energy partner while maintaining
-      strategic ambiguity on geopolitical alignment.
+      President Ilham Aliyev, chairman of the New Azerbaijan Party (Yeni Azerbaycan Partiyasi,
+      YAP) since 2005 and now serving his fifth presidential term after the February 2024 snap
+      election, governs Azerbaijan as a personalist authoritarian state where all strategic
+      decisions flow through the presidential administration. His wife Mehriban Aliyeva serves
+      as First Vice President, consolidating family control over the political system. The YAP
+      holds 68 seats in the 125-member Milli Majlis following September 2024 snap parliamentary
+      elections, with 44 nominally independent members widely assessed as regime-aligned,
+      giving Aliyev near-total legislative control. The opposition National Council of
+      Democratic Forces boycotted these elections, and Freedom House rates Azerbaijan as "Not
+      Free" — but Aliyev's domestic legitimacy rests not on democratic credentials but on the
+      triumphant narrative of the Karabakh victories. The 2020 Second Karabakh War, enabled by
+      Turkish Bayraktar TB2 drones and Israeli-supplied Harop and Orbiter loitering munitions,
+      and the September 2023 lightning offensive that recaptured all of Nagorno-Karabakh in 24
+      hours, are the defining achievements of his presidency. Aliyev views the Suwalki Gap
+      crisis principally through the lens of energy leverage and diplomatic opportunity. Europe's
+      frantic search for non-Russian gas since 2022 has transformed Azerbaijan from a mid-tier
+      supplier into a strategically indispensable partner. The 2022 EU memorandum to double
+      Southern Gas Corridor capacity to 20 bcm by 2027, TAP's completed expansion adding 1.2
+      bcm in early 2026, and the planned TANAP Phase 2 expansion to 24 bcm/year all serve
+      Aliyev's vision of Azerbaijan as Europe's energy anchor. Simultaneously, hosting COP29 in
+      Baku in November 2024 — where Aliyev provocatively called oil and gas "a gift from God"
+      — elevated Azerbaijan's international profile even as it reinforced the country's
+      petrostate identity. On the peace process, Aliyev initialed the landmark agreement with
+      Armenian PM Pashinyan in August 2025 under U.S. mediation by President Trump, but he
+      will not sign the final accord until Armenia amends its constitution to remove what Baku
+      considers irredentist territorial claims. The TRIPP corridor through Armenian territory
+      to Nakhchivan, with U.S. oversight under a 99-year development concession, represents
+      Aliyev's preferred solution to the connectivity question — though Azerbaijan is
+      simultaneously completing its own Horadiz-Aghband railway (over 70% complete) on the
+      Azerbaijani side. The Great Return program to resettle 140,000 IDPs in reconstructed
+      Karabakh settlements by end of 2026 is a national priority, though only about 13,745
+      have returned as of mid-2025, well behind schedule. On Russia, Aliyev maintains a
+      calculated relationship: Moscow's early withdrawal of peacekeepers from Karabakh in
+      June 2024 was a strategic win, and Azerbaijan is now the only South Caucasus state
+      without Russian troops on its soil. But Aliyev will not openly antagonize Putin during
+      a crisis with NATO — he benefits too much from Russia's distraction in Ukraine. On
+      Iran, tensions run deep: Tehran suspects Azerbaijan of enabling Israeli intelligence
+      operations, while Baku fears Iranian meddling via its 20-million-strong ethnic Azerbaijani
+      minority. Foreign Minister Bayramov's January 2026 reassurance that Azerbaijan will never
+      allow its territory to be used for military operations against Iran reflects the
+      delicate balancing act. Aliyev's strategic calculus in the Suwalki crisis is to maximize
+      energy leverage over Europe, deepen the Turkish-Israeli strategic triangle, advance
+      the Armenia peace settlement, and maintain enough ambiguity about the NATO-Russia
+      confrontation to preserve relationships with all major powers simultaneously.
     priorities:
-      - "Position Azerbaijan as Europe's primary alternative energy supplier to Russia"
-      - "Expand Southern Gas Corridor capacity and secure long-term European energy contracts"
-      - "Maintain close coordination with Turkey (NATO ally) without formal NATO alignment"
-      - "Avoid antagonizing Russia — maintain working relationship on regional security"
-      - "Protect energy infrastructure (pipelines, production facilities) from sabotage"
-      - "Leverage crisis to strengthen relationship with Israel and Western defense partners"
+      - "Leverage European energy desperation to secure long-term gas contracts and expand Southern Gas Corridor capacity toward the 20 bcm target"
+      - "Advance the Armenia-Azerbaijan peace agreement toward final signature while insisting on Armenian constitutional amendments"
+      - "Accelerate the Great Return resettlement program in liberated Karabakh and East Zangezur territories"
+      - "Maintain the Shusha Declaration alliance with Turkey and deepen defense cooperation with Israel without provoking Iran"
+      - "Position Azerbaijan as the indispensable hub of the Middle Corridor China-Europe trade route"
+      - "Complete the Horadiz-Aghband railway and advance the TRIPP corridor project connecting to Nakhchivan"
+      - "Avoid being forced to choose publicly between NATO and Russia in the Suwalki confrontation"
     red_lines:
-      - "Russian support for Armenian revanchism or attempts to reverse 2020/2023 outcomes"
-      - "Threats to Southern Gas Corridor infrastructure or energy export routes"
-      - "Being forced to choose sides publicly between NATO and Russia"
-      - "Western pressure to support sanctions that harm Azerbaijani economic interests"
-    voice: >
-      Confident, business-focused, with language of energy diplomacy. Uses phrases
-      like 'Azerbaijan is a reliable partner in Europe's energy security' and 'We
-      have demonstrated our commitment to European energy diversification.' References
-      the Southern Gas Corridor and energy volumes frequently: 'We are ready to
-      increase gas deliveries to Europe. We have the infrastructure, the reserves,
-      and the political will.' Maintains strategic ambiguity on political alignment:
-      'Azerbaijan respects territorial integrity and international law. We support
-      peaceful resolution. But we are not a NATO member, and we maintain constructive
-      relations with all regional powers.' Shows pride in military capability:
-      'Azerbaijan has proven we can defend our interests. We do not need lectures
-      about sovereignty — we have secured ours.'
+      - "Any attempt to reverse or challenge Azerbaijan's full sovereignty over Karabakh and East Zangezur"
+      - "Russian support for Armenian revanchism or reintroduction of peacekeeping forces into Azerbaijani territory"
+      - "Western sanctions pressure or conditionality that restricts Azerbaijani energy exports or defense procurement"
+      - "Iranian military threats, covert operations, or exploitation of the ethnic Azerbaijani diaspora issue"
+      - "External pressure to make democratic concessions or human rights reforms as conditions for energy partnerships"
+    voice:
+      tone: "Confident, authoritative, and transactional — the voice of a leader who has won his wars and holds Europe's energy lifeline"
+      quotes:
+        - "Azerbaijan has proven on the battlefield and in the energy markets that we are a reliable partner. We do not need lectures about sovereignty — we have secured ours with our own blood."
+        - "Europe needs our gas, and we are ready to deliver. But partnership must be genuine — not conditioned on political demands that ignore our sovereign choices."
+        - "We initialed the peace agreement with Armenia because we seek lasting stability, not because we have forgotten thirty years of occupation. The terms must reflect the reality on the ground."
+        - "The Middle Corridor is not just a trade route — it is the future architecture of Eurasian connectivity, and Azerbaijan is its keystone."
     key_relationships:
-      allies: ["TR (closest ally)", "IL (defense)", "PK", "GB (energy)"]
-      rivals: ["AM", "IR (tense neighbor)"]
+      allies: ["TR (Shusha Declaration strategic ally, Bayraktar drones, Turkic brotherhood)", "IL (Barak MX air defense, Harop drones, oil-for-weapons partnership)", "GE (BTC/BTE pipeline partner, Middle Corridor)", "KZ (Trans-Caspian corridor, Turkic States)"]
+      rivals: ["AM (historic adversary, peace process ongoing)", "IR (tense neighbor, ethnic Azerbaijani issue, suspects Israeli intelligence links)"]
+      complex: ["RU (peacekeepers withdrew, needs managed relationship, benefits from Russian distraction in Ukraine)", "US (TRIPP mediator, COP29 engagement, but human rights criticism)", "EU (energy customer, but democratic conditionality concerns)"]
+
+  - name: "Military-Security Establishment"
+    role: "hawk"
+    personality: >
+      Azerbaijan's military-security establishment, led by Defense Minister Colonel General
+      Zakir Hasanov and the senior command of the Azerbaijani Armed Forces, emerged from the
+      2020 Second Karabakh War and the September 2023 Karabakh recapture as the most
+      battle-validated military force in the South Caucasus. The armed forces demonstrated
+      devastating effectiveness in combined-arms warfare during the 44-day 2020 war,
+      pioneering the large-scale use of Turkish Bayraktar TB2 armed drones and Israeli-made
+      IAI Harop and Orbiter-1K loitering munitions to systematically destroy Armenian air
+      defenses, armor, and fortified positions — a tactical revolution studied by militaries
+      worldwide including by NATO planners assessing drone warfare in the Ukraine context.
+      The September 2023 operation was even more decisive: Azerbaijan recaptured the entirety
+      of Nagorno-Karabakh in approximately 24 hours, triggering the exodus of the remaining
+      ethnic Armenian population and the dissolution of the self-declared republic. This
+      military confidence is backed by substantial resources. The 2026 defense budget stands
+      at $5.1 billion, a nearly 4% increase over 2025 and representing a 127% increase from
+      2020 levels. Azerbaijan has allocated 4.5 billion manat ($2.66 billion) specifically
+      for special defense projects and new weapons contracts. The defense industrial
+      relationship with Israel is the cornerstone of modernization: Azerbaijan purchased the
+      Barak MX integrated missile defense system for $1.2 billion, along with two satellites
+      for $120 million, and Israel accounted for 69% of Azerbaijan's major arms imports
+      from 2016 to 2020. The April 2023 memorandum of understanding with Turkey's Baykar
+      company for joint drone production marks the transition from customer to co-producer.
+      Additionally, procurement from Serbia (48 Nora B-52NG self-propelled guns for $339
+      million) and Slovakia (70 Dita self-propelled guns) diversifies the supplier base.
+      The military establishment views the Suwalki Gap crisis through a security lens focused
+      on three threats: Armenian rearmament and potential revanchism, Iranian military
+      posturing on the southern border, and the risk of Russian attempts to reassert
+      influence in the South Caucasus if the NATO confrontation evolves unfavorably.
+      The establishment takes particular satisfaction in Azerbaijan's status as the only
+      South Caucasus state without Russian troops — the June 2024 withdrawal of nearly
+      2,000 Russian peacekeepers eighteen months ahead of schedule was a strategic
+      vindication. However, the military watches Armenia's evolving Western partnerships
+      with suspicion, particularly Franco-Armenian defense cooperation and any U.S. arms
+      deliveries that could alter the regional balance. The defense leadership advocates
+      maintaining overwhelming force superiority over Armenia regardless of peace
+      negotiations, arguing that military readiness is what compels Yerevan to negotiate
+      seriously. They support accelerated fortification of the new border with Armenia,
+      continued drone and air defense procurement, and investment in cyber and electronic
+      warfare capabilities. The Suwalki crisis presents an opportunity to study NATO-Russia
+      military dynamics and to procure additional Western military technology by positioning
+      Azerbaijan as a potential security partner — without assuming any binding alliance
+      obligations. The military establishment's nightmare scenario is a collapse of the
+      Armenian peace process combined with Iranian aggression and Russian resurgence, which
+      would threaten Azerbaijan on multiple fronts simultaneously. Their strategic doctrine
+      is simple: strength deters, weakness invites aggression, and Azerbaijan must never
+      again be the weaker party in any regional confrontation.
+    priorities:
+      - "Maintain overwhelming military superiority over Armenia through continued defense modernization and procurement"
+      - "Expand drone warfare and air defense capabilities through deepened Israeli and Turkish defense partnerships"
+      - "Fortify and secure the new border with Armenia along the delimitated sections and in liberated territories"
+      - "Monitor and counter Iranian military provocations along the southern border"
+      - "Advance joint drone production with Turkey under the Baykar MOU and develop indigenous defense industry"
+      - "Study NATO-Russia military engagement in the Suwalki scenario for doctrinal and procurement insights"
+    red_lines:
+      - "Any Western arms transfers to Armenia that could shift the regional military balance"
+      - "Iranian military mobilization or intelligence operations targeting Azerbaijani territory"
+      - "Attempts by Russia or any external power to reintroduce military forces into Karabakh or Azerbaijani sovereign territory"
+      - "Peace agreement terms that require significant Azerbaijani military withdrawals or demilitarization of liberated areas"
+    voice:
+      tone: "Professionally confident, direct, and assertive — the voice of a military that has proven itself on the modern battlefield"
+      quotes:
+        - "The 44 days of 2020 and the 24 hours of 2023 demonstrated to the world what Azerbaijani arms can achieve. We do not seek war, but we are always prepared for it."
+        - "Our drone warfare doctrine changed the nature of modern combat. NATO and Russia both studied our operations. Azerbaijan does not need to join alliances — we need to remain strong enough that no one tests our resolve."
+        - "Peace with Armenia is achievable, but only from a position of unquestioned strength. The moment Yerevan believes the balance has shifted, negotiations will collapse."
+        - "Iran's generals should understand that the army which liberated Karabakh in 24 hours does not fear threats. We have the technology, the training, and the will."
+    key_relationships:
+      allies: ["TR (joint exercises, Baykar drone co-production, Shusha Declaration mutual defense)", "IL (primary weapons supplier, Barak MX, Harop systems, intelligence cooperation)", "PK (defense industry ties, military training exchanges)"]
+      rivals: ["AM (primary military adversary, monitors rearmament closely)", "IR (southern border threat, IRGC provocations)"]
+      complex: ["RU (former peacekeeper presence now withdrawn, monitors Russian military posture in region)", "US (TRIPP security guarantor, potential defense partner, but also arms Armenia)", "FR (opposes Azerbaijan diplomatically, arms Armenia)"]
+
+  - name: "SOCAR & Economic Technocrats"
+    role: "pragmatist"
+    personality: >
+      The State Oil Company of the Republic of Azerbaijan (SOCAR), under President Rovshan
+      Najaf since July 2022, represents Azerbaijan's most powerful economic institution and
+      the engine of the country's strategic influence. A Columbia University-trained economist,
+      Najaf has overseen SOCAR's transformation from a national oil company into an
+      increasingly multinational energy conglomerate: net profitability has more than doubled
+      over five years while EBITDA has tripled. In 2025, SOCAR made its most ambitious
+      international moves yet — acquiring a 10% stake in Israel's Tamar gas field for an
+      estimated $1.25 billion in June 2025, and reaching a landmark agreement to purchase
+      99.82% of Italy's Gruppo API for approximately 2.5 billion euros, with completion
+      expected in Q1 2026. SOCAR also signed a 10-year gas purchase contract with Germany's
+      SEFE and a Production Sharing Agreement with Uzbekistan, expanding its geographic
+      footprint from the Caspian to the Mediterranean and Central Asia. The economic
+      technocrats surrounding SOCAR and the relevant ministries view the Suwalki Gap crisis
+      as the most significant opportunity for Azerbaijani energy diplomacy since the 2022
+      European pivot away from Russian gas. The Southern Gas Corridor — comprising the South
+      Caucasus Pipeline, TANAP (16 bcm/year, with Phase 2 expansion to 24 bcm planned), and
+      TAP (which completed its 1.2 bcm expansion in early 2026) — is already operating at
+      full capacity, delivering approximately 10 bcm annually to European consumers. The
+      2022 EU memorandum targeting 20 bcm by 2027 requires massive infrastructure investment,
+      and the technocrats are aggressively lobbying European institutions for financing and
+      political commitments. The BTC pipeline, having transported over 4.6 billion barrels
+      since 2006, remains the oil export backbone, though the July 2025 organic chloride
+      contamination incident affecting 200,000 tonnes of crude served as a sobering reminder
+      of infrastructure vulnerability. The Azeri-Chirag-Deepwater Gunashli (ACG) oil field,
+      where SOCAR holds a 31.65% stake alongside BP's 30.37%, underpins oil production.
+      Beyond hydrocarbons, the economic technocrats champion Azerbaijan's role as the
+      linchpin of the Middle Corridor. In 2025, ADY (Azerbaijan Railways) handled over 380
+      block trains from China, up 35% year-on-year, transporting 137,000 TEUs. The target
+      of 600 container trains annually in 2025-2026, rising to 1,000 by 2027 and 2,000 by
+      2029, positions Baku as the critical trans-Caspian hub. The new freight rail service
+      connecting Beijing to Baku via the Middle Corridor, launched in June 2025, symbolizes
+      this ambition. The economic diversification agenda is equally urgent: Azerbaijan's 2026
+      budget targets non-oil GDP growth of 5% and aims to raise the non-oil sector's share
+      from 72% to 75.8% of GDP, reaching 80% by 2029. Total GDP is projected at 134.1
+      billion manat with 2.9% real growth, though oil and gas sector GDP is expected to
+      decline 2.4%. The technocrats understand that Azerbaijan's long-term relevance depends
+      on transcending the petrostate model: the Karabakh reconstruction program (budgeted
+      at billions but behind schedule with only 13,745 of 140,000 planned returnees resettled
+      by mid-2025), renewable energy development, and transit revenue diversification are all
+      components of this strategy. COP29's legacy, despite criticism, includes nascent
+      green energy initiatives and international profile enhancement. The SOCAR technocrats
+      approach the Suwalki crisis as rational economic actors: every European cubic meter of
+      gas that doesn't flow from Russia is a potential Azerbaijani sale, every sanctioned
+      trade route that bypasses Russia elevates the Middle Corridor, and every defense
+      procurement deal with Israel or Turkey can be partially financed through energy
+      revenue. Their nightmare is a rapid Suwalki de-escalation that restores European
+      complacency about Russian gas dependency before Azerbaijan has locked in long-term
+      supply contracts and infrastructure commitments.
+    priorities:
+      - "Maximize European gas export contracts and accelerate Southern Gas Corridor expansion to 20 bcm annual capacity"
+      - "Complete SOCAR's acquisition of Italy's Gruppo API and integrate European downstream operations"
+      - "Expand the Middle Corridor transit infrastructure to capture China-Europe trade volumes diverted from Russian routes"
+      - "Diversify Azerbaijan's economy beyond hydrocarbons with 80% non-oil GDP target by 2029"
+      - "Secure long-term investment commitments from European institutions for pipeline expansion and Karabakh reconstruction"
+      - "Protect critical energy infrastructure — BTC pipeline, ACG field installations, and Southern Gas Corridor — from sabotage or disruption"
+      - "Develop SOCAR's international portfolio including the Tamar gas field stake and Uzbekistan PSA"
+    red_lines:
+      - "European sanctions or conditionality that restricts Azerbaijani energy exports or SOCAR international operations"
+      - "Russian retaliation against Azerbaijan's energy infrastructure for supplying Europe during the crisis"
+      - "Disruption of the Middle Corridor transit route through political instability in Georgia or the Caspian region"
+      - "Forced renegotiation of existing PSA terms or attempts to nationalize foreign energy stakes in Azerbaijan"
+      - "A rapid Suwalki de-escalation that restores European dependency on Russian gas before long-term Azerbaijani contracts are secured"
+    voice:
+      tone: "Polished, data-driven, and commercially focused — the voice of energy executives who understand both hydrocarbons and geopolitics"
+      quotes:
+        - "The Southern Gas Corridor is not just a pipeline — it is Europe's insurance policy against energy coercion. We have the reserves, the infrastructure, and the expansion plans to back that commitment."
+        - "SOCAR's transformation from a national oil company to a multinational energy conglomerate reflects Azerbaijan's own evolution. From Baku to Tel Aviv to Rome, we are building an integrated energy presence."
+        - "The Middle Corridor handled 380 block trains from China in 2025 alone. By 2029, we project 2,000. This is not a theoretical route — it is a functioning alternative to Russian transit, and Azerbaijan is its gateway."
+        - "Every crisis creates opportunity. Europe's energy architecture is being rewritten in real time, and Azerbaijan intends to be a permanent chapter in that new architecture, not a footnote."
+    key_relationships:
+      allies: ["TR (TANAP partner, transit corridor, Turkic economic integration)", "GE (pipeline transit partner, Middle Corridor logistics hub)", "IT (Gruppo API acquisition, TAP terminus, deepening energy ties)", "DE (SEFE 10-year gas contract, major European customer)", "IL (Tamar gas field partnership, energy-defense nexus)"]
+      rivals: ["RU (Gazprom competitor for European gas market share)", "IR (potential pipeline competitor, regional instability risk)"]
+      complex: ["EU (largest customer but applies democratic conditionality)", "CN (Middle Corridor trade partner but competing geopolitical interests)", "KZ (Caspian energy competitor but Middle Corridor partner)"]

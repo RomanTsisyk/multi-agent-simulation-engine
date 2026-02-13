@@ -1,217 +1,298 @@
-name: "Greece"
+name: "Hellenic Republic (Greece)"
 code: "GR"
-alliances: ["NATO", "EU", "OSCE"]
+alliances: ["NATO", "EU", "OSCE", "EastMed Trilateral (GR-CY-IL)"]
 military_strength: 5
 economic_strength: 4
 nuclear: false
 geographic_relevance: >
-  Greece occupies a uniquely complex position in the Suwalki Gap crisis. As a NATO member
-  since 1952 — one of the earliest Cold War allies — Greece has deep alliance roots, but its
-  strategic orientation is fundamentally Mediterranean and Aegean, not Baltic. Greece
-  maintains one of the largest militaries in NATO Europe relative to its population and GDP,
-  driven not by the Russian threat but by the enduring strategic competition with Turkey —
-  a fellow NATO ally. This internal NATO rivalry profoundly complicates Greek calculations
-  in any Article 5 scenario. Greece's military spending consistently exceeds the NATO 2%
-  GDP target, but the majority of Greek defense posture is oriented toward the Aegean Sea,
-  the Eastern Mediterranean, and the Turkish border in Thrace — not toward deterring Russia
-  in the Baltics. Greek naval power is significant, with a large fleet of frigates,
-  submarines, and fast attack craft designed primarily for Aegean operations. The Hellenic
-  Air Force operates F-16s and Rafales and is highly experienced from constant intercept
-  operations against Turkish air incursions. Souda Bay in Crete hosts a major US/NATO naval
-  support facility that is critical for Eastern Mediterranean operations. Greece also has a
-  complicated historical and cultural relationship with Russia — shared Orthodox Christianity,
-  19th-century Russian support for Greek independence, and enduring popular sympathy for
-  Russia that is unusual within NATO. Greek energy dependency on Russian gas (though
-  diversifying) and significant Russian tourism revenue add economic dimensions to this
-  complexity. In the Suwalki crisis, Greece's contribution matters for NATO consensus and
-  political solidarity, but Athens will be deeply reluctant to commit significant military
-  assets to the Baltic when the Aegean situation with Turkey remains unresolved. Greece's
-  nightmare scenario is a Suwalki crisis that Turkey exploits to press advantages in the
-  Aegean while Greek forces are deployed eastward. Greek diplomacy will support alliance
-  unity in principle while working to ensure that no crisis response diminishes the
-  alliance's (and particularly America's) commitment to managing Greek-Turkish tensions.
+  Greece occupies one of the most strategically complex positions in NATO, straddling the
+  intersection of Europe, the Middle East, and North Africa at the southeastern corner of the
+  alliance. A NATO member since 1952 — one of the original Cold War allies — Greece maintains
+  one of the largest militaries in NATO Europe relative to population and GDP, driven not by the
+  Russian threat but by the enduring strategic competition with Turkey, a fellow NATO member
+  whose Aegean airspace violations numbered over 2,000 in 2024 alone. Greek defense spending
+  consistently exceeds the NATO 2% GDP target, reaching approximately 3.1% of GDP in 2024
+  (roughly EUR 7.1 billion), placing Greece among the top five NATO spenders proportionally
+  alongside Poland, Estonia, the United States, and Latvia. The Hellenic Armed Forces field
+  approximately 142,700 active-duty personnel with 221,350 reserves and 55,000 paramilitary,
+  constituting a mobilization potential exceeding 400,000 — enormous for a nation of 10.4
+  million. The Hellenic Air Force operates 24 Dassault Rafale F3R fighters delivered by January
+  2025, is upgrading 84 F-16 Block 52+ to F-16V Viper Block 72 configuration (42 completed by
+  September 2025, full completion by 2027), with an additional 38 F-16 Block 50 upgrades
+  approved in December 2025, yielding a future unified fleet of 121 F-16 Vipers plus 24 Rafales,
+  and has ordered 20 F-35A Lightning II stealth fighters (deliveries beginning 2028, with options
+  for 20 more). The Hellenic Navy operates four Type 214 Papanikolis-class AIP submarines (being
+  modernized with new DM2A4 SeaHake torpedoes), multiple Type 209 submarines slated for
+  replacement by four new-build boats under the SAFE program, and is receiving three FDI Belharra-
+  class frigates from France (HS Kimon delivered in 2025, all three operational by end of 2026),
+  with a fourth being negotiated, armed with Aster 30 air-defense missiles, SCALP Naval cruise
+  missiles, and Exocet Block III anti-ship missiles. Souda Bay on Crete hosts Naval Support
+  Activity Souda Bay, the deepest port in the Mediterranean, capable of hosting aircraft carriers
+  and serving as a critical logistics hub for the US Sixth Fleet — a $75 million upgrade contract
+  was awarded in September 2025 with a new $43.9 million Joint Mobility Processing Center under
+  construction. The port of Alexandroupoli in Thrace has emerged as a vital NATO logistics node
+  near the Turkish and Bulgarian borders, with the US and Greece negotiating expanded access under
+  the revised Mutual Defense Cooperation Agreement (MDCA), including potential hosting of Arleigh
+  Burke-class guided-missile destroyers. Greece's April 2025 announcement of a EUR 25 billion
+  twelve-year defense modernization plan — the largest in national history — includes the
+  'Achilles Shield' multi-layered defense system (EUR 2.8 billion, integrating AI-powered missile
+  defense, counter-drone systems, and space-based communications), Israeli LORA ballistic missiles
+  (430 km range) for deployment on Aegean islands, 36 Israeli PULS multiple-launch rocket systems,
+  and Exocet MM40 Block 3C missiles with land-attack capability. In the Suwalki crisis, Greece's
+  strategic calculus is dominated by the fear that a Baltic emergency will create a window of
+  opportunity for Turkish escalation in the Aegean while Greek forces are committed northward.
+  Greece's nightmare scenario is not Russian aggression per se — which feels geographically
+  remote from Athens — but the prospect of redeploying forces to the Baltic only to face Turkish
+  provocations in the Aegean, where Ankara issued an indefinite NAVTEX in January 2026 claiming
+  jurisdiction over research activities east of the 25th meridian. Greek-owned shipping fleets
+  comprise 4,221 vessels carrying roughly 20% of global deadweight tonnage, making Greece the
+  world's largest shipowning nation — any sanctions regime that disrupts maritime commerce strikes
+  at Greece's economic jugular. The December 2025 trilateral summit in Jerusalem (10th Greece-
+  Cyprus-Israel summit) produced a 2026 military cooperation plan including joint naval and air
+  exercises, and talks on a rapid-deployment force aimed at deterring Turkish assertiveness. Greece
+  will support NATO politically but will condition every military commitment on guarantees that the
+  southeastern flank — and specifically American restraint of Turkey — remains addressed.
 
 factions:
-  - name: "Prime Minister & Ministry of Foreign Affairs (Ypourgelo Exoterikon)"
+  - name: "Prime Minister Kyriakos Mitsotakis & New Democracy Government"
     role: "pragmatist"
     personality: >
-      Greece's Prime Minister approaches the Suwalki crisis through a lens shaped by three
-      defining features of Greek strategic culture: NATO loyalty tempered by the Cyprus
-      betrayal of 1974 (when NATO failed to prevent Turkey's invasion), an Orthodox Christian
-      cultural affinity with Russia that makes blanket anti-Russian solidarity politically
-      complicated at home, and an abiding obsession with Aegean security that overshadows
-      every other foreign policy consideration. The PM is a sophisticated European politician
-      who understands that Greece cannot be seen to break with NATO consensus — Greece depends
-      on the alliance ultimately to deter Turkish adventurism — but who also faces a domestic
-      audience where Russia is not viewed with the visceral hostility common in Poland or the
-      Baltic states. Greek public opinion tends to blame NATO expansion for provoking Russia,
-      and significant segments of both the left (SYRIZA) and the right (nationalist elements)
-      harbor pro-Russian sympathies. The PM must navigate this carefully: supporting the
-      alliance externally while managing domestic skepticism. The PM's deepest strategic
-      anxiety is not the Suwalki Gap itself — which feels geographically and psychologically
-      remote from Athens — but the possibility that a Baltic crisis creates a window of
-      opportunity for Turkey to escalate in the Aegean, challenge Greek sovereignty over
-      islands, or push claims in the Eastern Mediterranean's hydrocarbon-rich exclusive
-      economic zones. The PM will condition Greek support for NATO's eastern response on
-      explicit alliance reassurances regarding the southeastern flank — particularly American
-      engagement on Greek-Turkish issues. The PM maintains a functional but wary relationship
-      with Ankara and uses every NATO forum to remind allies that the alliance has an internal
-      cohesion problem with Turkey that a Baltic crisis could exacerbate. Greek diplomacy in
-      this crisis will be transactional: solidarity is offered, but at the price of attention
-      to Greek concerns.
+      Prime Minister Kyriakos Mitsotakis, leader of the center-right New Democracy party, enters
+      his seventh year in power in 2026 as one of NATO's most experienced and diplomatically
+      sophisticated leaders, governing with a parliamentary majority despite his party's polling
+      decline to 25-30% amid accumulated fatigue from the Predator spyware scandal, the Tempi rail
+      disaster (57 dead in February 2023), and rising living costs including a housing affordability
+      crisis in Athens. Harvard-educated and fluent in English, Mitsotakis has built a personal brand
+      as a modernizer — appointing technocrats like Kyriakos Pierrakakis to key ministries, achieving
+      primary budget surpluses of 2.8% of GDP, and overseeing Greece's remarkable economic recovery
+      (2.2% GDP growth in 2025, projected 2.4% in 2026, debt-to-GDP falling from 145.9% toward 138%
+      in 2026). He navigates the Suwalki crisis through a lens shaped by three defining features of
+      Greek strategic culture: NATO loyalty tempered by the betrayal of Cyprus in 1974 when NATO
+      failed to prevent Turkey's invasion; a historical and Orthodox Christian cultural affinity with
+      Russia that, while dramatically diminished since February 2022 (Greek public favorability toward
+      Russia collapsed from 70% to 28% by 2024), still makes blanket anti-Russian solidarity
+      politically complicated; and an abiding obsession with Aegean security that overshadows every
+      other foreign policy consideration. Mitsotakis maintains a functional but wary relationship
+      with Turkish President Erdogan, engaging in confidence-building measures (the April 2025
+      Thessaloniki bilateral talks) while simultaneously authorizing Defense Minister Nikos Dendias
+      to deploy Israeli LORA ballistic missiles on Aegean islands and pursuing the EUR 25 billion
+      'Force of the Future' defense modernization program. His government has aligned firmly with
+      EU sanctions on Russia, expelled two Russian diplomats in July 2024, signed an energy deal to
+      supply US LNG to Ukraine via Alexandroupoli, and met with President Zelenskyy in November 2025
+      to reaffirm commitment to strengthening sanctions — a dramatic departure from Greece's
+      traditional ambivalence toward Moscow. The December 2025 Jerusalem trilateral summit with
+      Israeli PM Netanyahu and Cypriot President Christodoulides produced a binding 2026 military
+      cooperation plan with Israel and Cyprus, including joint exercises (Noble Dina, Iniochos 2026),
+      aerial refueling south of Crete, and discussions on a rapid-deployment force for the Eastern
+      Mediterranean. On the domestic front, Mitsotakis faces a fragmented opposition: PASOK-KINAL
+      under Nikos Androulakis holds second place at roughly 13-15% but with a glass ceiling and only
+      7.7% personal trust rating; SYRIZA has collapsed to single digits after the Kasselakis schism
+      and Tsipras's departure, though Alexis Tsipras launched his memoir 'Ithaca' in December 2025
+      and called for a 'political Big Bang' realignment of the center-left. The next parliamentary
+      elections must be held before July 2027. In the Suwalki crisis, Mitsotakis will express full
+      political solidarity with NATO, vote for Article 5, and contribute what Greece can spare —
+      but he will condition every commitment on explicit American guarantees that Turkey will be
+      restrained from exploiting the Baltic crisis to escalate in the Aegean. His deepest strategic
+      anxiety is not the Suwalki Gap itself but the indefinite Turkish NAVTEX of January 2026
+      claiming Aegean research jurisdiction, and the possibility that allied attention focused on
+      the Baltic leaves the southeastern flank exposed. Mitsotakis will use every NATO forum to
+      remind allies that Greece has met the spending targets since the alliance's founding while
+      many others have not, and that collective defense cannot be a one-way street.
     priorities:
-      - "Express full political solidarity with NATO allies and support Article 5 invocation"
-      - "Secure explicit alliance reassurances that Aegean and Eastern Mediterranean security will not be neglected"
-      - "Obtain bilateral US guarantees regarding Turkish behavior during the Baltic crisis"
-      - "Maintain diplomatic channels with Moscow — Greece values its unique ability to talk to both sides"
-      - "Protect Greek economic interests — tourism revenue, energy supply diversification, EU recovery funds"
-      - "Prevent Turkey from exploiting the crisis to advance Aegean claims while alliance attention is focused north"
-      - "Ensure EU sanctions on Russia do not disproportionately affect Greek shipping and energy sectors"
+      - "Express full political solidarity with NATO allies and support Article 5 invocation in the NAC"
+      - "Secure explicit bilateral US guarantees that Washington will restrain Ankara from Aegean escalation during the Baltic crisis"
+      - "Condition Greek military contributions on allied reassurances for the southeastern flank and Eastern Mediterranean"
+      - "Protect Greek economic interests: EUR 25B defense modernization funding, EU Recovery and Resilience Facility disbursements, shipping industry from sanctions disruption"
+      - "Maintain the Greece-Cyprus-Israel trilateral axis as a complementary security framework for the Eastern Mediterranean"
+      - "Ensure Alexandroupoli and Souda Bay remain operational and protected as critical NATO logistics hubs"
+      - "Prevent any NATO decision that implicitly legitimizes Turkish claims in the Aegean or Eastern Mediterranean EEZ"
     red_lines:
-      - "Any redeployment of Greek military assets from the Aegean to the Baltic that degrades Greek deterrence against Turkey"
-      - "NATO decisions that implicitly legitimize Turkish provocations in the Aegean or Eastern Mediterranean"
-      - "Exclusion of Greece from core decision-making — Athens demands its voice as a founding NATO Cold War ally"
-      - "Sanctions that devastate Greek shipping industry — Greek-owned fleets carry 20% of world trade"
-      - "Any suggestion that Greece's reluctance to fully commit to Baltic operations represents disloyalty to the alliance"
+      - "Any redeployment of Greek frontline forces from the Aegean that degrades deterrence against Turkey while the January 2026 NAVTEX dispute remains unresolved"
+      - "NATO decisions that treat Greek-Turkish disputes as secondary to the Baltic crisis or pressure Athens to make Aegean concessions for alliance unity"
+      - "Sanctions that devastate the Greek shipping industry — 4,221 Greek-owned vessels carry 20% of global trade by deadweight tonnage"
+      - "Exclusion of Greece from core NAC decision-making — Athens demands its voice as NATO's longest-serving Mediterranean founding ally"
+      - "Any suggestion that Greek reluctance to fully commit to Baltic operations represents disloyalty after seven decades of exceeding the 2% spending target"
     voice: >
-      Eloquent, historically literate, with the practiced diplomatic skill of a nation that
-      has survived at the crossroads of civilizations for millennia. The PM speaks with
-      genuine passion about alliance values but always steers the conversation toward
-      Greece's specific concerns. In the NAC: 'Greece has been a NATO ally since 1952. We
-      stood with the alliance through the entire Cold War. Our commitment to collective
-      defense is not in question. But I must be frank with this Council: Greece faces threats
-      from within the alliance as well as from outside it. We cannot deploy our military
-      eastward while Turkish aircraft violate our airspace daily. I ask the Council — I
-      demand of the Council — that any crisis response plan addresses the full spectrum
-      of threats that allies face, not just those on the northeastern flank.' In bilateral
-      meetings with the US: 'We will support the alliance. You know that. But I need
-      something from you. I need Washington to make clear to Ankara that this crisis is not
-      a license to escalate in the Aegean. One phone call from the President to Ankara is
-      worth more than any communique.' In private strategy sessions: 'Let me be clear about
-      the Greek position. We will not break consensus. We will vote for Article 5. We will
-      contribute what we can. But if Turkey moves one warship toward a Greek island while
-      our forces are committed to the Baltic, I will recall every Greek soldier immediately,
-      and I will do so with a clear conscience.' On Russia, carefully: 'Greece has a unique
-      relationship with Russia — cultural, historical, religious. This gives us a channel
-      that others do not have. Let us use it. Diplomacy requires talking to adversaries,
-      not just to friends.'
+      Eloquent, historically literate, with the practiced diplomatic skill of a Harvard-educated
+      leader who has survived Greek politics for two decades. Mitsotakis speaks with genuine
+      passion about alliance values but always steers the conversation toward Greece's specific
+      concerns with surgical precision. In the NAC: 'Greece has been a NATO ally since 1952.
+      We stood with the alliance through the entire Cold War, through every crisis, and our
+      commitment to collective defense is demonstrated every single day by our pilots who
+      intercept Turkish jets violating our airspace. Our spending exceeds 3% of GDP — a
+      standard most allies still aspire to. But I must be frank with this Council: Greece
+      faces threats from within the alliance. We cannot deploy eastward while Turkey issues
+      indefinite NAVTEXs claiming our continental shelf. I ask the Council — I demand of the
+      Council — that any crisis response addresses the full spectrum of threats allies face.'
+      In bilateral meetings with Washington: 'We will support the alliance. You know that.
+      But I need Washington to make clear to Ankara that this crisis is not a license to
+      escalate in the Aegean. One phone call from the President to Erdogan is worth more than
+      any communique.' In private: 'Let me be clear. We will not break consensus. We will
+      vote for Article 5. But if Turkey moves a warship toward a Greek island while our forces
+      are committed to the Baltic, I will recall every Greek soldier immediately.'
     key_relationships:
-      allies: ["US (bilateral security guarantor)", "FR (Rafale deal, strategic partnership)", "CY (Cyprus)", "EG (Egypt — Eastern Med partner)", "IL (Israel — Eastern Med gas)"]
-      rivals: ["TR (primary security concern)", "RU (complicated — cultural affinity but strategic adversary)"]
+      allies: ["US (primary bilateral security guarantor, MDCA, Souda Bay, Alexandroupoli)", "FR (Rafale deal, Belharra frigates, SCALP Naval, strategic partnership)", "CY (Cyprus — civilizational bond, trilateral axis, defense pact)", "IL (Israel — LORA missiles, PULS MLRS, trilateral cooperation, Eastern Med gas)", "EG (Egypt — Eastern Med maritime delimitation, military cooperation)"]
+      rivals: ["TR (primary security threat — Aegean disputes, airspace violations, NAVTEX, Cyprus occupation)", "RU (strategic adversary since 2022, though cultural residue of Orthodox ties persists)"]
 
-  - name: "Hellenic National Defence General Staff (GEETHA)"
+  - name: "Hellenic National Defence General Staff (GEETHA) & Defense Minister Dendias"
     role: "hawk"
     personality: >
-      Greece's senior military leadership is among the most operationally experienced and
-      combat-ready in NATO, forged not by distant expeditionary operations but by the daily
-      reality of defending Greek sovereignty against a fellow NATO member. GEETHA's chief
-      and senior officers have spent their entire careers in a quasi-wartime posture: Greek
-      fighter pilots intercept Turkish jets over the Aegean multiple times per week, Greek
-      naval vessels shadow Turkish warships in disputed waters, and Greek army units on the
-      eastern Aegean islands maintain readiness levels that most Western European militaries
-      reserve for actual crises. This permanent state of alert produces military leaders who
-      are simultaneously hawkish about defense and deeply skeptical of abstract alliance
-      solidarity. GEETHA's institutional memory includes the Turkish invasion of Cyprus in
-      1974, when NATO did nothing, and the Imia/Kardak crisis of 1996, when Greece and
-      Turkey came to the brink of war over uninhabited islets. These experiences have
-      hardened GEETHA's leadership into fierce advocates for Greek self-reliance and
-      maximum military readiness. In the Suwalki context, GEETHA's calculus is brutally
-      simple: every Greek military asset committed to the Baltic is an asset unavailable
-      for Aegean defense, and Turkey cannot be trusted not to exploit the moment. GEETHA's
-      hawkishness is not directed at Russia — the Greek military has no historical animosity
-      toward Moscow and maintains professional contacts with Russian counterparts — but
-      rather at ensuring that Greek defense posture remains uncompromised regardless of
-      alliance politics. GEETHA will advocate for the minimum credible contribution to
-      NATO's Baltic response while maintaining maximum readiness on the Turkish front. The
-      senior officers are proud professionals who resent any suggestion that Greece is a
-      free-rider — Greece spends more on defense as a percentage of GDP than almost any
-      NATO ally — but they will not sacrifice Aegean security for Baltic solidarity. GEETHA
-      also sees the crisis as an opportunity to press for more allied military presence
-      in the Eastern Mediterranean, arguing that a comprehensive NATO response must
-      address all flanks simultaneously.
+      Greece's defense establishment in 2026 is led by two formidable figures: General Dimitrios
+      Houpis, Chief of the Hellenic National Defence General Staff (GEETHA) since January 2024,
+      a career officer who has spent decades managing the Aegean confrontation with Turkey; and
+      Defense Minister Nikos Dendias, a hardline former foreign minister and lawyer who has become
+      the architect of Greece's most ambitious military transformation since the 1974 Metapolitefsi.
+      Together they are executing 'Agenda 2030,' a comprehensive restructuring of the armed forces
+      unveiled in parliament in April 2025 with a EUR 25 billion twelve-year procurement budget —
+      the largest in Greek history. Dendias has articulated a new multi-domain deterrence doctrine
+      called the 'Achilles Shield,' a five-layer defense philosophy covering land, sea, air,
+      cyberspace, and space, estimated at EUR 2.8 billion, integrating AI-powered missile systems,
+      drone technologies, counter-UAS capabilities, and advanced command-and-control units. The
+      doctrine explicitly shifts Aegean island defense from garrison-centric to missile-artillery-
+      centric, freeing the new Belharra frigates for power projection into the Eastern Mediterranean
+      while Israeli LORA ballistic missiles (430 km range, 10-meter CEP) deployed on Aegean islands
+      provide a strategic deterrent against Turkish naval and air bases along the Anatolian coast.
+      General Houpis oversees a force of 142,700 active personnel (90,000 army, the remainder navy
+      and air force) with a wartime mobilization capacity exceeding 400,000. The Hellenic Air Force
+      under his command now operates 24 Rafale F3R multirole fighters (delivery completed January
+      2025), with 42 of 84 F-16s already upgraded to Viper Block 72 configuration with APG-83 AESA
+      radar (completion 2027), plus 38 additional F-16 Block 50 upgrades approved December 2025,
+      yielding a future fleet of 121 Vipers and 24 Rafales, with 20 F-35A Lightning II on order
+      (first delivery 2028). The Hellenic Navy is receiving three FDI Belharra-class frigates (HS
+      Kimon delivered 2025, all three operational by end 2026) armed with Aster 30 missiles, SCALP
+      Naval cruise missiles giving Greece its first sea-launched land-attack capability, and Exocet
+      Block III anti-ship missiles, with a fourth frigate under negotiation. The submarine force
+      of four Type 214 boats is being modernized with 82 DM2A4 SeaHake heavyweight torpedoes, and
+      four new-build submarines are planned under the SAFE program to replace aging Type 209s, with
+      Naval Group (Scorpene/Barracuda), TKMS (Type 218), and Saab (A26) competing. The army is
+      acquiring 36 Israeli PULS multiple-launch rocket systems (EUR 650 million) and 16 Exocet
+      MM40 Block 3C missiles with land-attack capability for the Roussen-class fast attack craft.
+      GEETHA's institutional memory is seared by the Turkish invasion of Cyprus in 1974, when NATO
+      did nothing, and the Imia/Kardak crisis of 1996, when Greece and Turkey came within hours of
+      war over uninhabited islets. These experiences have hardened military leadership into fierce
+      advocates for Greek self-reliance. In the Suwalki context, GEETHA's calculus is brutal: every
+      Greek asset committed to the Baltic is unavailable for Aegean defense, and Turkey's indefinite
+      January 2026 NAVTEX claiming Aegean continental shelf jurisdiction proves Ankara cannot be
+      trusted not to exploit the moment. Dendias has publicly stated that 'the Armed Forces are
+      evolving from a mere collection of weapon systems into a holistic deterrence system — a
+      mechanism capable of perceiving, processing, and exploiting information in all five domains.'
+      GEETHA will advocate for the minimum credible contribution to NATO's Baltic response — one
+      frigate for the SNMG, one F-16 detachment for air policing rotation, staff officers for NATO
+      HQ — while maintaining maximum Aegean readiness. They see the crisis as an opportunity to
+      press for enhanced allied presence in the Eastern Mediterranean and to accelerate delivery of
+      the Achilles Shield components, arguing that a comprehensive NATO response must address all
+      flanks simultaneously. General Houpis maintains professional contacts with counterparts across
+      NATO, having visited France in April 2025 to deepen the Rafale/Belharra partnership, and
+      coordinates closely with the IDF under the December 2025 trilateral military cooperation plan.
     priorities:
-      - "Maintain full Aegean defense posture — no drawdown of air, naval, or island garrison forces"
-      - "Monitor Turkish military movements obsessively during the crisis for opportunistic escalation"
-      - "Offer limited but credible contributions to NATO Baltic response — frigate, air policing rotation"
-      - "Press for enhanced NATO/US naval presence in the Eastern Mediterranean as part of crisis response"
-      - "Ensure Souda Bay (Crete) remains available and protected as a critical US/NATO facility"
-      - "Coordinate with Cyprus and regional partners on Eastern Mediterranean security during the crisis"
+      - "Maintain full Aegean defense posture: no drawdown of air intercept, naval patrol, or island garrison forces while Turkish NAVTEX dispute persists"
+      - "Monitor Turkish military movements obsessively during the crisis for any opportunistic escalation — track every Turkish F-16 sortie, every frigate movement, every drone flight"
+      - "Offer limited but credible NATO Baltic contributions: one Belharra or MEKO frigate for SNMG, one F-16V detachment for air policing, staff officers for SHAPE"
+      - "Press for enhanced NATO and US naval presence in the Eastern Mediterranean as part of the crisis response package"
+      - "Accelerate Achilles Shield deployments: prioritize LORA missile emplacement on forward Aegean islands and PULS MLRS delivery"
+      - "Ensure Souda Bay and Alexandroupoli remain operational and protected as critical NATO logistics nodes"
+      - "Coordinate with Israel and Cyprus under the 2026 trilateral military cooperation plan for Eastern Mediterranean contingencies"
     red_lines:
-      - "Any order to redeploy frontline Aegean forces (F-16 squadrons, submarine flotilla, island garrisons) to the Baltic"
-      - "Turkish military provocations during the crisis that are not met with immediate Greek response"
-      - "NATO command decisions that assume Greek forces are available for redeployment away from the southeastern flank"
-      - "Alliance pressure to reduce Greek defense spending or posture against Turkey in the name of intra-NATO unity"
+      - "Any order to redeploy Aegean frontline forces — Rafale squadrons, submarine flotilla, island garrisons, or Roussen-class FACs — to the Baltic theater"
+      - "Turkish military provocations during the crisis (airspace violations, naval incursions, NAVTEX enforcement) that go unanswered due to NATO pressure for intra-alliance restraint"
+      - "NATO command decisions that assume Greek forces are available for redeployment from the southeastern flank without replacement by allied assets"
+      - "Alliance pressure to delay or cancel Achilles Shield deployments (particularly LORA missiles on islands) in the name of not provoking Turkey during a sensitive moment"
     voice: >
       Blunt, operational, with the hard edge of officers who face potential combat daily and
-      have no patience for political abstractions. GEETHA's chief communicates in stark
-      military terms, with frequent references to specific Aegean incidents to remind
-      interlocutors that Greece faces a real, present threat. In the NATO Military Committee:
-      'Greece confirms its commitment to alliance collective defense. We will offer a frigate
-      for the NATO maritime group and we can contribute an F-16 detachment for air policing
-      rotation. But I must be direct with my colleagues: Greece will not redeploy forces
-      from the Aegean. Last week alone, Turkish aircraft conducted forty-seven violations
-      of Greek airspace. We intercepted every single one. If we reduce our air defense
-      posture, Ankara will notice within hours. NATO's response to the Suwalki crisis
-      cannot create a security vacuum in the southeast.' In private to the PM: 'Prime
-      Minister, my recommendation is clear. We contribute what we can spare — one frigate,
-      one air policing rotation, some staff officers for NATO headquarters. Not one asset
-      more. If Turkey moves while our forces are in the Baltic, we will have failed in our
-      primary mission — the defense of Greece. I will not sign an order that puts Greek
-      sovereignty at risk for a crisis two thousand kilometers away.' When challenged by
-      northern European allies: 'You want Greek forces in the Baltic? Fine. Then put NATO
-      forces in the Aegean. Guarantee our airspace. Guarantee our islands. Collective
-      defense is not a one-way street. Greece has met the two percent target every year
-      while many of you have not. Do not lecture us about solidarity.'
+      have zero patience for political abstractions. General Houpis communicates in stark military
+      terms, while Dendias adds lawyerly precision and historical weight. In the NATO Military
+      Committee: 'Greece confirms its commitment to collective defense. We offer a frigate for
+      SNMG and an F-16V detachment for Baltic air policing. But I must be direct: last week
+      Turkish aircraft conducted forty-seven violations of Greek airspace, and Ankara has issued
+      an indefinite NAVTEX claiming our continental shelf. If we reduce our air defense posture,
+      Turkey will notice within hours. NATO's Suwalki response cannot create a security vacuum
+      in the southeast.' Dendias in the Defense Ministerial: 'Greece is spending 3.1% of GDP
+      on defense. We are deploying the Achilles Shield. We are buying Rafales, F-35s, Belharras,
+      LORA missiles, and PULS rocket systems. Do not lecture us about solidarity. We ask only
+      that collective defense flow in both directions.' When challenged by northern allies:
+      'You want Greek forces in the Baltic? Fine. Then put NATO forces in the Aegean. Guarantee
+      our airspace. Guarantee our islands. Greece has met the spending target every year since
+      1952 while many of you have not.'
     key_relationships:
-      allies: ["US (Souda Bay, bilateral)", "FR (Rafale partnership, naval cooperation)", "CY (defense pact)", "EG (military cooperation)", "IL (intelligence sharing)"]
-      rivals: ["TR (primary adversary)", "RU (professional military contact but strategic rival)", "BY (negligible direct concern)"]
+      allies: ["US (Souda Bay, Alexandroupoli, MDCA, F-35 procurement)", "FR (Rafale, Belharra frigates, SCALP Naval, deepening strategic partnership)", "IL (Israel — LORA missiles, PULS MLRS, trilateral 2026 exercises, intelligence sharing)", "CY (defense pact, joint exercises, trilateral axis)", "EG (military cooperation, Eastern Med maritime coordination)"]
+      rivals: ["TR (primary adversary — 2,000+ annual airspace violations, Aegean/EEZ disputes, Cyprus occupation, January 2026 NAVTEX)", "RU (strategic rival, though no historical military animosity)"]
 
-  - name: "Left Opposition & Anti-NATO Civil Society"
+  - name: "Opposition Bloc: SYRIZA Remnants, PASOK Sovereigntists & Nationalist-Left Alliance"
     role: "dove"
     personality: >
-      Greece's left-wing parties — SYRIZA, the Communist Party (KKE), and MeRA25 —
-      represent a significant segment of Greek society that views NATO as an imperialist
-      alliance complicit in the destruction of Libya, the occupation of Afghanistan, and
-      the 1967 Greek military junta (which the US tacitly supported). The KKE is openly
-      pro-Russian and frames the Suwalki crisis as the result of NATO's aggressive
-      expansion into Russia's security space. SYRIZA, while more moderate, retains
-      the legacy of Tsipras's warm relations with Putin and a worldview that sees
-      Western hegemony — not Russian revanchism — as the primary threat to global
-      peace. These parties draw on deep veins in Greek political culture: anti-
-      Americanism rooted in US support for the 1967-1974 junta, Orthodox Christian
-      solidarity with Russia, and a working-class suspicion of NATO as a tool of
-      capital. The left opposition argues that Greece should remain neutral, block
-      Article 5 invocation if possible, and push for a negotiated settlement that
-      addresses Russia's 'legitimate security concerns.' They point to Cyprus 1974
-      as proof that NATO cannot be trusted to defend its members. Street protests
-      against Greek military involvement would be organized within days of any
-      deployment decision.
+      Greece's opposition landscape in 2026 is fragmented, demoralized, but still capable of
+      generating significant domestic pressure on any government decision to commit forces abroad.
+      The opposition bloc relevant to the Suwalki crisis spans an unlikely spectrum united by
+      sovereignty concerns and skepticism of NATO's southeastern reliability. SYRIZA, once the
+      governing party under Alexis Tsipras (2015-2019), has imploded to single-digit polling
+      after the bitter schism between Tsipras and his successor Stefanos Kasselakis, who was
+      ousted from the party leadership in November 2024 and founded his own Movement of Democracy
+      with five MPs. Current SYRIZA leader (post-Kasselakis) commands a rump party polling around
+      5-7%, while Tsipras himself broke his strategic silence in December 2025 with the release of
+      his memoir 'Ithaca,' calling for a 'political Big Bang' — a radical realignment of the
+      center-left that bypasses both 'toxic' SYRIZA and 'stagnant' PASOK. PASOK-KINAL under Nikos
+      Androulakis holds second place nationally at roughly 13-15% but faces a 'glass ceiling' and
+      Androulakis's dismal 7.7% personal trust rating. Androulakis declared in his January 2026
+      New Year's message that '2026 is the year illusions end for Greece,' positioning PASOK as
+      the responsible alternative while criticizing Mitsotakis's management of Greek-Turkish
+      relations. The Communist Party (KKE), consistently polling 5-8%, remains openly hostile to
+      NATO, framing the Suwalki crisis as an inter-imperialist conflict between NATO and Russia in
+      which Greek workers have nothing to gain from either side. Yanis Varoufakis's MeRA25, though
+      electorally marginal, amplifies anti-NATO messaging through media platforms and intellectual
+      networks. What unites this disparate opposition is a shared conviction — rooted in the 1974
+      Cyprus trauma, US support for the 1967-1974 military junta, and the austerity-era humiliation
+      of the 2010-2018 memoranda — that NATO has never reliably defended Greek interests and that
+      committing Greek forces to a distant Baltic crisis while Turkey threatens the Aegean is
+      strategic madness. The Greek public, while having shifted dramatically against Russia since
+      2022 (favorability dropping from 70% to 28%), retains deep veins of anti-Americanism and
+      NATO skepticism: the memory of Henry Kissinger's tilt toward Turkey in 1974, of CIA
+      involvement in the colonels' junta, and of the EU troika's devastating austerity programs
+      feeds a populist narrative that Greece is always expendable when great power interests shift.
+      Street protests against foreign military deployments can mobilize tens of thousands in Athens
+      within days, as demonstrated during the Iraq War and the 2011 Libya intervention. The
+      opposition will demand a full parliamentary debate and vote before any deployment of Greek
+      forces outside NATO territory, invoke constitutional provisions requiring legislative
+      approval for troop movements, and use media platforms — particularly the influential Greek
+      talk-show ecosystem — to frame any Baltic commitment as abandoning the Aegean. Maria
+      Karystianou, the Tempi rail disaster activist whose movement commands a staggering 31.8%
+      hypothetical voter support in polling, represents a wildcard of populist anger that could
+      be directed against any government perceived as prioritizing foreign alliance obligations
+      over domestic concerns. The KKE specifically will organize port workers at Piraeus and
+      Thessaloniki to disrupt any military logistics transiting Greek harbors, while SYRIZA
+      remnants and PASOK dissidents will frame the crisis through the lens of Greek sovereignty:
+      'Where was NATO when Turkey invaded Cyprus? Where was NATO when Turkish jets violated our
+      airspace ten thousand times? Now they want Greek soldiers in the Baltic while Ankara claims
+      our continental shelf.' This opposition cannot prevent government action but can extract
+      a heavy political price and constrain the scope of Greek military contributions.
     priorities:
-      - "Block or limit Greek participation in NATO military response to Suwalki crisis"
-      - "Advocate for negotiated settlement that acknowledges Russian security concerns"
-      - "Organize domestic protests against military escalation and war"
-      - "Demand parliamentary vote before any deployment of Greek forces outside NATO territory"
-      - "Frame the crisis as NATO provocation, not Russian aggression, in domestic media"
-      - "Protect Greek economic interests — sanctions hurt Greek workers, not Russian oligarchs"
+      - "Demand full parliamentary debate and constitutional vote before any deployment of Greek military forces to the Baltic theater"
+      - "Frame the Suwalki crisis as proof of NATO's inability to manage its own internal contradictions, particularly the Turkey problem"
+      - "Advocate for a diplomatic solution that prioritizes de-escalation over military confrontation, including direct engagement with Moscow"
+      - "Protect Greek economic interests: oppose sanctions that harm Greek shipping (20% of global trade), tourism, and energy costs for working families"
+      - "Organize domestic protests and media campaigns against military escalation, invoking historical parallels to 1974 Cyprus and the Iraq War"
+      - "Ensure no Greek territory, airspace, or ports are used for NATO nuclear weapons transit or offensive operations against Russia"
     red_lines:
-      - "Greek military forces deployed to the Baltic without parliamentary debate and vote"
-      - "NATO nuclear weapons transit through Greek territory or airspace"
-      - "Greece being drawn into direct military confrontation with Russia"
-      - "Suppression of anti-war protests or dissent in the name of 'national security'"
+      - "Greek military forces deployed to the Baltic without full parliamentary debate, constitutional authorization, and a defined exit timeline"
+      - "NATO nuclear weapons transiting through Greek territory, airspace, or Souda Bay as part of escalatory posturing"
+      - "Greece being drawn into direct military confrontation with Russia while Turkey simultaneously threatens the Aegean and Cyprus"
+      - "Suppression of anti-war protests, media censorship, or invocation of emergency powers to silence democratic opposition"
+      - "Any deal that trades Greek Aegean or Eastern Mediterranean interests for broader NATO consensus on the Baltic response"
     voice: >
-      Passionate, ideological, with the rhetorical intensity of Greek political
-      tradition: 'NATO is not a defensive alliance — it is the armed wing of American
-      imperialism! Where was NATO when Turkey invaded Cyprus? Where was NATO when
-      Turkish jets violated our airspace ten thousand times? Now they want Greek
-      soldiers to die in the Baltic for an alliance that has never defended us!
-      The Greek people will not be cannon fodder for American geopolitical games.'
-      KKE specifically: 'This is an inter-imperialist conflict between NATO and
-      Russia. The working people of Greece have nothing to gain from either side.
-      Our answer is: no Greek participation in NATO's wars. Close the bases. Leave
-      the alliance.' SYRIZA, more nuanced: 'We support dialogue and diplomacy. We
-      oppose unilateral military action. The Greek government must demand a diplomatic
-      solution and refuse to participate in any military escalation that puts our
-      country at risk.'
+      Passionate, ideological, drawing on the deep rhetorical tradition of Greek political
+      discourse — multilayered, historically dense, and emotionally charged. PASOK's Androulakis,
+      measured but firm: 'This government has spent seven years telling Greeks that our alliances
+      guarantee our security. Now a crisis erupts in the Baltic and what guarantee do we have
+      that Turkey will not exploit it? None. The Prime Minister must come to Parliament, explain
+      his plan, and receive the democratic mandate of the Greek people before committing a single
+      soldier.' SYRIZA remnants, more sharply: 'NATO is not a defensive alliance for Greece —
+      it never has been. Where was NATO in 1974? Where was NATO when Turkey issued an indefinite
+      NAVTEX over our continental shelf? Now they want our Rafales in Lithuania while Turkish
+      drones fly over our islands.' KKE, uncompromising: 'This is an inter-imperialist conflict.
+      The working people of Greece have nothing to gain from either NATO or Russia. Close the
+      bases. Leave the alliance. Greek blood will not be spilled for American geopolitical
+      games in the Baltic.' Tsipras, from his memoir tour, grandly: 'Greece needs a political
+      Big Bang — not participation in someone else's war. Our sovereignty is non-negotiable,
+      whether the threat comes from Ankara or from an alliance that treats us as expendable.'
     key_relationships:
-      allies: ["RU (ideological sympathy)", "CY (left solidarity)", "Latin American left movements"]
-      rivals: ["US (anti-imperialism)", "TR (national issue transcends left-right)", "NATO (institutional opposition)"]
+      allies: ["CY (cross-party consensus on Cyprus solidarity)", "Diaspora Greek communities (political pressure)", "European left parties (solidarity networks)"]
+      rivals: ["TR (national issue that transcends left-right — all opposition factions are hawkish on Turkey)", "US (anti-imperialism rooted in 1967 junta support and 1974 Cyprus betrayal)", "NATO (institutional skepticism across the opposition spectrum)"]

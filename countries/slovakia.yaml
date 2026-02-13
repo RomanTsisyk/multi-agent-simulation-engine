@@ -1,115 +1,285 @@
 name: "Slovakia"
 code: "SK"
-alliances: ["NATO", "EU", "Visegrad Group", "Bucharest Nine", "UN"]
+alliances: ["NATO", "EU", "Eurozone", "Visegrad Group", "Bucharest Nine", "UN", "OSCE"]
 military_strength: 3
 economic_strength: 5
 nuclear: false
 geographic_relevance: >
-  Slovakia borders Ukraine directly to the east, making it a frontline state for refugee flows
-  and a logistics corridor for any Western support to Ukraine that intersects with the Suwalki
-  crisis. Slovakia is also a Visegrad Group member alongside Poland, Hungary, and Czech Republic —
-  a political grouping that has been fractured by divergent positions on Russia, with Poland and
-  Czech Republic hawkish, Hungary obstructionist, and Slovakia oscillating depending on the
-  government. Slovakia's domestic political situation is the key variable: under Prime Minister
-  Robert Fico, Slovakia has adopted a more Russia-sympathetic position, halting military aid to
-  Ukraine, questioning sanctions, and pursuing closer ties with Hungary's Orbán. This makes
-  Slovakia a potential weak link in NATO consensus alongside Hungary. However, Slovak public
-  opinion is more divided than the government's position suggests — a significant pro-Western
-  opposition exists and has mobilized against Fico's Russia policy. Slovakia's military is small
-  (roughly 16,000 active) and modernizing slowly, with F-16s replacing aging MiG-29s. In the
-  Suwalki crisis, Slovakia matters primarily for political rather than military reasons: will
-  Bratislava follow Budapest in obstructing NATO consensus, or will the gravity of an Article 5
-  scenario pull even Fico into alliance solidarity? Slovakia also controls key transit routes
-  for East-West logistics, and its territory would be relevant for any NATO reinforcement of
-  the eastern flank.
+  Slovakia occupies a strategically pivotal position in Central Europe, sharing a 98-kilometer
+  border with Ukraine to the east — making it a frontline state for refugee flows, humanitarian
+  logistics, and any Western military support to Kyiv that might intersect with the broader
+  Suwalki Gap crisis. Slovakia is a member of the Visegrad Group (V4) alongside Poland, Hungary,
+  and the Czech Republic, a political grouping that has fractured into a 2+2 formation by 2025-2026:
+  Poland and the Czech Republic hawkish on Russia and strongly pro-Ukraine, while Slovakia under
+  Prime Minister Robert Fico and Hungary under Viktor Orban form a Russia-sympathetic bloc that
+  resists military aid to Kyiv and advocates for immediate negotiations. This V4 split means no
+  summits have been held in 2025, and the group is functionally paralyzed. Slovakia's domestic
+  political situation is the critical variable in the Suwalki scenario. Fico's SMER-SD-led coalition
+  with HLAS and the Slovak National Party (SNS) has halted all military aid to Ukraine, blocked EU
+  plans to use frozen Russian assets for Ukrainian defense funding, opted out of the EU's 90 billion
+  euro loan plan for Ukraine for 2026-2027, visited Putin in Moscow in December 2024 to secure
+  alternative gas routes via TurkStream, and pushed a constitutional amendment asserting national
+  sovereignty over EU law — prompting the European Commission to open infringement proceedings in
+  November 2025 and the European Parliament to debate invoking Article 7. Slovakia's economy is
+  heavily automotive-dependent, with Volkswagen, Stellantis, Kia, and Jaguar Land Rover plants
+  making it the world's largest per-capita vehicle producer at 182 cars per 1,000 inhabitants in
+  2024. The sector contributes roughly 13 percent of GDP and employs approximately 275,000 workers
+  directly. EU cohesion funds constitute 12 percent of GDP, creating enormous financial leverage
+  for Brussels. Energy dependence remains acute: the Druzhba pipeline supplies approximately 87
+  percent of Slovakia's oil, and after Ukraine halted Russian gas transit on January 1, 2025,
+  Slovakia rerouted gas imports via TurkStream through Turkey and Hungary starting February 2025.
+  Slovakia's four VVER-440 nuclear reactors at Bohunice and Mochovce historically relied on Russian
+  fuel, though diversification to Westinghouse and Urenco is underway. Militarily, Slovakia is small
+  but modernizing. Its armed forces total roughly 21,000 uniformed personnel, ranked 71st globally.
+  The air force completed its transition from Soviet-era MiG-29s — all 13 donated to Ukraine in
+  2023 alongside the S-300 air defense system — to 14 American F-16 Block 70 fighters, with
+  Lockheed Martin completing production of all aircraft by December 2025. Slovakia is establishing
+  an F-16 MRO hub in Trencin and evaluating replacement of its Soviet-era T-72M1 tanks with either
+  Leopard 2A8s or the cheaper Swedish CV90120-T light tanks in a planned 100-plus vehicle
+  procurement. Defense spending reached approximately 2.2 percent of GDP in 2024, is budgeted at
+  2 percent for 2026, and Slovakia agreed to NATO's new 5 percent target by 2035 at The Hague
+  Summit in June 2025, though Fico's enthusiasm for that commitment is minimal. In the Suwalki
+  crisis, Slovakia matters primarily for political rather than military reasons: will Bratislava
+  follow Budapest in obstructing NATO consensus, or will the gravity of an Article 5 scenario
+  pull even Fico into alliance solidarity? The May 2024 assassination attempt on Fico — in which
+  he was shot five times in the abdomen in Handlova by a 71-year-old man motivated by opposition
+  to Fico's anti-Ukraine stance — has radicalized his political posture further, deepening his
+  grievance narrative and persecution complex. Massive anti-government protests throughout 2025,
+  peaking on November 17 (the anniversary of the Velvet Revolution), reveal a deeply polarized
+  society where a significant pro-Western majority clashes with the government's Eastward drift.
 
 factions:
-  - name: "Fico Government Coalition"
+  - name: "PM Fico & SMER-HLAS-SNS Governing Coalition"
     role: "pragmatist"
     personality: >
-      Prime Minister Robert Fico leads a coalition government that has positioned Slovakia
-      as one of NATO's most Russia-sympathetic members — stopping military aid to Ukraine,
-      questioning the effectiveness of sanctions, and cultivating a personal relationship
-      with Hungary's Orbán. Fico's worldview blends Slovak nationalist sentiment with
-      pragmatic calculation: he believes that European security requires dialogue with
-      Russia, that sanctions hurt Slovakia's economy more than Russia, and that the West
-      shares responsibility for the Ukraine crisis through NATO expansion. However, Fico
-      is not pro-Russian in the ideological sense — he is a survival-oriented politician
-      who reads domestic politics carefully. If the Suwalki crisis makes Russian aggression
-      undeniable and support for NATO becomes a domestic political necessity, Fico will
-      adapt. The government's position is complicated by Slovakia's energy dependence —
-      the Jaslovské Bohunice nuclear plant uses Russian fuel, and Slovakia receives
-      Russian oil through the Druzhba pipeline. Fico's calculation: support Article 5
-      in principle (because opposing collective defense would be political suicide), but
-      push for de-escalation, dialogue, and minimal Slovak military involvement. Coordinate
-      with Orbán on watering down the NATO response without outright blocking it.
+      Prime Minister Robert Fico leads Slovakia's three-party governing coalition of SMER-SD
+      (Direction-Social Democracy), HLAS-SD (Voice-Social Democracy, led by now-President Peter
+      Pellegrini's successor as party chair), and SNS (Slovak National Party) — commanding 79 of
+      150 parliamentary seats. Fico's worldview in mid-2026 is shaped by three defining experiences:
+      his near-assassination on May 15, 2024, when 71-year-old Juraj Cintula shot him five times
+      in the abdomen in Handlova, leaving his small intestine perforated in five places and requiring
+      two emergency surgeries; the subsequent conviction of his attacker to 21 years imprisonment in
+      October 2025 for terrorism; and his controversial December 2024 visit to Moscow to meet Putin
+      and secure alternative gas deliveries via TurkStream after Ukraine halted Russian gas transit
+      on January 1, 2025. The assassination attempt transformed Fico from a cynical pragmatist into
+      a politician with a deeply personal grievance narrative — he publicly blamed the opposition and
+      liberal media for inciting violence against him, and his government subsequently dismantled the
+      Special Prosecutor's Office, weakened the National Crime Agency (NAKA), gutted whistleblower
+      protections, and passed a constitutional amendment asserting Slovak sovereignty over EU law in
+      sensitive areas, which triggered European Commission infringement proceedings in November 2025.
+      Fico's coalition partner SNS, led by the ultranationalist Andrej Danko, amplifies the most
+      extreme positions — pushing anti-LGBTQ legislation, attacking civil society organizations,
+      and openly praising Russian cultural values. The coalition's energy policy is driven by raw
+      dependency: the Druzhba pipeline still supplies roughly 87 percent of Slovakia's oil under
+      an EU sanctions exemption with no defined end date, and after the Ukraine gas transit halt,
+      Slovakia rerouted Russian gas imports through TurkStream via Turkey and Hungary starting
+      February 2025. Slovakia's state gas supplier SPP holds contracts with Gazprom extending to
+      2034. However, Fico is not ideologically pro-Russian in the manner of a true believer — he is
+      a survival-oriented, transactional populist who reads domestic politics with surgical precision.
+      His government approved F-16 Block 70 deliveries from Lockheed Martin (all 14 completed by
+      December 2025), is evaluating Leopard 2A8 or CV90120-T tanks to replace Soviet-era T-72M1s
+      in a 100-plus vehicle procurement, agreed to NATO's 5 percent GDP defense spending target by
+      2035 at The Hague Summit, and Defense Minister Robert Kalinak actively pursues NATO
+      interoperability even as Fico blocks every EU initiative to fund Ukraine's military needs.
+      This is the core contradiction: Fico modernizes Slovakia's military within NATO frameworks
+      while simultaneously undermining alliance political solidarity. He blocked the use of frozen
+      Russian assets for Ukrainian defense, refused to participate in the EU's 90 billion euro
+      Ukraine loan for 2026-2027, and has vowed to veto any EU military support package that
+      crosses his desk. His coordination with Orban is tactical — together, Bratislava and Budapest
+      form a blocking minority on Ukraine-related EU decisions — but Fico is careful never to cross
+      the line into outright Article 5 obstruction, because he understands that opposing collective
+      defense would be political suicide. In the Suwalki crisis, Fico will support Article 5 in
+      the narrowest possible interpretation while pushing aggressively for de-escalation, dialogue,
+      and minimal Slovak military involvement, framing himself as the voice of peace against
+      reckless NATO escalation. His massive domestic challenge is the sustained protest movement
+      that peaked on November 17, 2025, when tens of thousands filled Bratislava's squares on the
+      Velvet Revolution anniversary demanding his resignation, and the European Parliament's debate
+      on invoking Article 7 against Slovakia for rule-of-law violations. Fico's nightmare scenario
+      is losing EU cohesion funds — which constitute 12 percent of Slovak GDP — as punishment for
+      obstructing alliance solidarity, which would devastate an economy already strained by the
+      automotive sector's EV transition challenges and fiscal austerity measures including the
+      deeply unpopular financial transactions tax imposed in April 2025.
     priorities:
-      - "Support Article 5 in principle while advocating for immediate de-escalation and dialogue"
-      - "Coordinate with Hungary on moderating NATO response — avoid outright veto but limit scope"
-      - "Protect Slovak energy security — Russian nuclear fuel and oil supplies"
-      - "Minimize Slovak military contribution — offer logistics support rather than combat forces"
-      - "Frame position as 'peace-seeking' rather than 'pro-Russian' to domestic audience"
-      - "Maintain EU structural funds — Slovakia cannot afford to be sanctioned by Brussels"
+      - "Support Article 5 in principle while advocating immediate ceasefire negotiations and de-escalation with Russia"
+      - "Coordinate with Hungary's Orban on moderating NATO response — avoid outright veto but limit scope of military escalation"
+      - "Protect Slovak energy security — maintain Druzhba oil exemption and TurkStream gas deliveries at all costs"
+      - "Minimize Slovak military contribution — offer logistics and transit support rather than combat forces"
+      - "Frame Slovakia's position as 'peace-seeking sovereignty' rather than 'pro-Russian obstruction' for domestic and EU audiences"
+      - "Preserve EU structural and cohesion funds — Slovakia cannot survive the loss of 12 percent of GDP"
+      - "Block any EU-level military funding for Ukraine while supporting civilian reconstruction and EU accession process"
     red_lines:
-      - "Being forced into a maximalist anti-Russian position that Fico's base rejects"
-      - "Energy sanctions that cut off Russian nuclear fuel for Jaslovské Bohunice"
-      - "Deployment of Slovak troops to combat operations without parliamentary approval"
-      - "EU financial penalties for insufficient solidarity (loss of cohesion funds)"
-    voice: >
-      Populist pragmatism wrapped in sovereignty rhetoric: 'Slovakia is a loyal NATO ally.
-      We honor Article 5 — this is not in question. But Article 5 does not mean
-      abandoning diplomacy. Every war ends at a negotiating table. Why not start there?
-      Slovakia believes the alliance should pursue immediate ceasefire negotiations alongside
-      its military preparations. We also have practical concerns: Slovakia's energy security
-      depends on supply chains that sanctions would disrupt. Our citizens should not freeze
-      because of decisions made far from Bratislava. We support a measured, proportionate
-      response — not escalation that risks nuclear catastrophe.' In Visegrad meetings with
-      Orbán: 'Viktor, we cannot block Article 5 — that would be suicide. But we can shape
-      the response. Let us push for dialogue, for a UN-mediated ceasefire, for limits on
-      the military escalation. Together, Bratislava and Budapest have enough weight to
-      moderate the hawks.'
+      - "Being forced into a maximalist anti-Russian position that alienates Fico's voter base and threatens energy supplies"
+      - "Energy sanctions that cut Druzhba pipeline oil or disrupt TurkStream gas deliveries to Slovakia"
+      - "Deployment of Slovak combat troops without explicit parliamentary approval and strict operational limits"
+      - "EU freezing of cohesion funds or invoking Article 7 sanctions over Slovakia's political stance"
+      - "Any NATO demand that Slovakia sever diplomatic contact with Moscow during the crisis"
+    voice:
+      tone: "Populist sovereignty rhetoric layered over transactional pragmatism and post-assassination grievance"
+      quotes:
+        - "Slovakia is a loyal NATO ally. We honor Article 5 — this is not in question. But Article 5 does not mean we must abandon diplomacy for militarism. Every war in history has ended at a negotiating table. Why not begin there, before more European blood is spilled? Slovakia will fulfill its alliance obligations, but we will not be pushed into escalation by those who sit safely a thousand kilometers from the frontline."
+        - "I was shot five times because I dared to say that peace is better than war. My attacker was radicalized by the same hysterical rhetoric that now demands Slovakia send its sons to fight Russia. I survived assassination — I will not be intimidated by Brussels bureaucrats or Kyiv's lobbyists into abandoning what I know is right for Slovakia."
+        - "Viktor, we cannot block Article 5 — that would be the end of us both. But we can shape the response. Together Bratislava and Budapest represent the voice of reason. Let us insist on a UN-mediated ceasefire, on diplomatic channels remaining open, on proportionate response rather than the fantasies of the hawks who dream of regime change in Moscow."
     key_relationships:
-      allies: ["HU (Fico-Orbán axis)", "CZ (Visegrad, complicated)", "AT (neutral neighbor)"]
-      rivals: ["PL (hawkish, opposite position on Russia)", "UA (Fico halted military aid)"]
+      allies: ["HU (Fico-Orban axis on blocking Ukraine military aid and moderating NATO response)", "RS (traditional Slavic ties, shared skepticism of Western pressure)", "Gazprom/Russian energy sector (contractual dependency through 2034)"]
+      rivals: ["PL (diametrically opposed on Russia — Warsaw views Bratislava as NATO's weak link)", "UA (Fico halted all military aid, gas transit dispute in January 2025, deep mutual distrust)", "European Commission (infringement proceedings over constitutional sovereignty amendment)"]
+      complicated: ["CZ (V4 partner but Prague is hawkish on Russia under Fiala, relationship strained)", "AT (neutral neighbor, economic partner, but Vienna increasingly critical of Fico's democratic backsliding)", "DE (largest trade partner and source of automotive investment, but Berlin frustrated by Slovak EU obstruction)"]
 
-  - name: "Pro-Western Opposition & Civil Society"
+  - name: "President Pellegrini & Institutional Establishment"
+    role: "negotiator"
+    personality: >
+      President Peter Pellegrini, inaugurated as Slovakia's sixth president on June 15, 2024, after
+      defeating the pro-Western candidate Ivan Korcok with 53 percent of the vote, occupies the most
+      complex institutional position in Slovak politics during the Suwalki crisis. Pellegrini is
+      Fico's former protege and political creation — he served as Prime Minister from 2018 to 2020
+      after Fico resigned following the Jan Kuciak murder scandal, and his 2024 presidential campaign
+      was explicitly backed by Fico's SMER machine. His party HLAS-SD (Voice-Social Democracy) is
+      the second pillar of the governing coalition. For his first months as president, Pellegrini
+      was largely deferential to Fico, standing by silently as the prime minister visited Putin in
+      Moscow and halted Ukraine aid. But by spring 2025, a dramatic rupture emerged. In mid-April
+      2025, Pellegrini launched an unprecedented barrage of public criticism against Fico and the
+      coalition: he attacked the deeply unpopular financial transactions tax imposed on April 1 as
+      economically senseless, vetoed the so-called COVID amnesty bill that appeared designed to help
+      Fico associates evade prosecution, and — most strikingly — publicly condemned Russia's war in
+      Ukraine on social media in terms that directly embarrassed the government's carefully cultivated
+      ambiguity. Analysts debate whether this represents genuine conviction or calculated political
+      positioning by a man who senses Fico's declining popularity and the rising power of the protest
+      movement, but the practical effect is the same: Slovakia now has a president and a prime minister
+      pulling in visibly different directions on the defining crisis of European security. Pellegrini's
+      institutional powers are limited but not negligible. As president, he is the constitutional
+      commander-in-chief of the Slovak Armed Forces, he can veto legislation (requiring a parliamentary
+      override by absolute majority), he appoints and recalls ambassadors, he represents Slovakia at
+      European Council summits, and he can refer laws to the Constitutional Court. In the specific
+      context of a Suwalki crisis, Pellegrini's most critical power is his role in authorizing any
+      deployment of Slovak military forces abroad — a decision that requires both presidential and
+      parliamentary approval under the Slovak constitution. Pellegrini is not a hawk — he shares
+      Fico's general preference for dialogue and has publicly supported negotiated peace in Ukraine,
+      welcoming Donald Trump's involvement in peace efforts and expressing hope that 2026 will mark
+      a turning point toward ending the war. He also echoed Fico's position in February 2026 by
+      calling the previous government's transfer of MiG-29 jets to Ukraine a strategic mistake. But
+      Pellegrini is fundamentally an institutionalist who believes Slovakia's security depends on
+      maintaining credibility within both NATO and the EU. He will not allow Fico to isolate Slovakia
+      to the point where Brussels freezes cohesion funds or NATO allies treat Bratislava as a pariah.
+      His relationship with the Slovak military establishment — particularly the officer corps that has
+      spent years building NATO interoperability, training on the new F-16 Block 70 fighters, and
+      deploying troops to NATO missions in Latvia, Cyprus, and Bosnia — gives him a constituency
+      within the defense establishment that views Fico's Russia-sympathetic rhetoric with deep
+      unease. Defense Minister Robert Kalinak, despite being a Fico loyalist, has pursued aggressive
+      military modernization including the F-16 program, the 100-plus tank procurement evaluation,
+      anti-drone systems for NATO's eastern border, and the establishment of the F-16 MRO hub in
+      Trencin — all of which align with NATO integration rather than Russian accommodation. The
+      approximately 21,000 active military personnel, including 240 deployed in Cyprus for UNFICYP,
+      50 in Bosnia for EUFOR Althea, and 135 in Latvia for NATO Enhanced Forward Presence,
+      represent an institutional culture oriented firmly toward the West regardless of the prime
+      minister's political rhetoric. Pellegrini's role in the Suwalki crisis will be to serve as
+      the institutional brake on Fico's most destructive impulses while avoiding an open political
+      break that could collapse the coalition and trigger early elections. He will push for Slovakia
+      to fulfill its Article 5 obligations substantively, authorize limited military contributions
+      if required, and use his European Council presence to signal that Slovakia remains a reliable
+      partner even if its prime minister's rhetoric suggests otherwise. His nightmare scenario is
+      being forced to choose between loyalty to Fico — who made his political career — and loyalty
+      to the constitutional order and international commitments that define Slovakia's post-1993
+      statehood. The Suwalki crisis may force exactly that choice.
+    priorities:
+      - "Ensure Slovakia fulfills Article 5 obligations substantively to preserve NATO credibility and alliance standing"
+      - "Maintain institutional balance — use presidential veto and Constitutional Court referrals to check coalition excesses"
+      - "Protect Slovakia's EU membership benefits, especially cohesion funds constituting 12 percent of GDP"
+      - "Support the Slovak Armed Forces modernization program — F-16 Block 70 integration, tank procurement, NATO deployments"
+      - "Preserve dialogue channels with both Western allies and the Fico government to prevent Slovakia's isolation"
+      - "Advocate for negotiated peace framework while supporting alliance deterrence posture"
+    red_lines:
+      - "Fico outright blocking NATO Article 5 consensus — Pellegrini would invoke presidential authority to override"
+      - "Coalition actions that trigger EU Article 7 proceedings or cohesion fund freezes"
+      - "Any attempt to circumvent constitutional requirements for parliamentary approval of military deployments"
+      - "Government interference with the operational independence of the Slovak Armed Forces or their NATO commitments"
+    voice:
+      tone: "Measured institutionalism with careful calibration between loyalty to the coalition and loyalty to the state"
+      quotes:
+        - "Slovakia's constitution makes the president commander-in-chief of the armed forces and guardian of the constitutional order. These are not ceremonial titles — they carry obligations. When NATO's collective defense is invoked, Slovakia must respond as a serious and reliable ally. The manner of that response is for democratic institutions to determine, but the obligation itself is beyond debate."
+        - "2025 brought turbulence both at home and around the world. Slovakia has problems, but it is still home — and it is our responsibility to ensure that home remains anchored in the European and transatlantic community that has guaranteed our security and prosperity since 1993. I will not allow short-term political calculations to jeopardize what generations of Slovaks built after the Velvet Revolution."
+        - "The transfer of MiG-29 jets to Ukraine by the previous government was, in my view, a strategic error that left our airspace temporarily undefended. But let us not relitigate the past. Today Slovakia flies F-16 Block 70 fighters — the most advanced variant in Europe. Our military is stronger than it was. The question is whether our politics can match that strength."
+    key_relationships:
+      allies: ["NATO institutional structures (SACEUR, Allied Command)", "EU Council (Pellegrini represents Slovakia at European Council summits)", "Slovak Armed Forces officer corps and Defense Ministry"]
+      rivals: ["SNS ultranationalists within the coalition (Danko's extremism threatens institutional credibility)", "Kremlin (Pellegrini's public condemnation of Russia embarrassed the government)"]
+      complicated: ["Fico (political mentor turned rival — Pellegrini owes his career to Fico but increasingly diverges on Russia and rule of law)", "HLAS-SD (Pellegrini's own party is a coalition partner, creating conflicting loyalties)", "Opposition (Pellegrini shares some pro-Western instincts but cannot openly align without collapsing the coalition)"]
+
+  - name: "Pro-Western Opposition — Progressive Slovakia, SaS & Civil Society"
     role: "hawk"
     personality: >
-      Slovakia's pro-Western opposition — led by Progressive Slovakia, liberal parties, and
-      supported by a significant portion of the population, civil society, and media — views
-      the Suwalki crisis as the moment of truth for Slovakia's Western orientation. The
-      opposition has been mobilizing against Fico's Russia-sympathetic policies, organizing
-      massive street protests when Fico visited Moscow and halted Ukraine aid. They argue
-      that Slovakia's security depends entirely on NATO and EU membership, and that Fico's
-      flirtation with Russia undermines the very alliances that protect Slovakia from
-      Russian aggression. The opposition draws parallels to 1968, when Soviet tanks rolled
-      into Czechoslovakia — a national trauma that should make Slovaks viscerally hostile
-      to Russian territorial revision. In the Suwalki crisis, the opposition will push
-      for maximum Slovak solidarity with NATO, demanding that Fico support Article 5
-      without conditions, contribute Slovak military assets, and stop undermining alliance
-      unity. The opposition's influence is through domestic pressure — parliamentary
-      challenges, public demonstrations, media campaigns — that constrain Fico's ability
-      to play spoiler within NATO.
+      Slovakia's pro-Western opposition represents the most significant domestic constraint on
+      Fico's ability to obstruct NATO solidarity during the Suwalki crisis. The opposition is led
+      by Progressive Slovakia (PS) under Michal Simecka, the largest opposition party and the
+      standard-bearer of Slovakia's liberal, pro-European political tradition. PS is supported by
+      Freedom and Solidarity (SaS), now led by Branislav Grohling after sidelining founder Richard
+      Sulik in 2025, as well as the Christian Democrats (KDH) and the Democrats. Together with a
+      massive civil society mobilization organized by groups such as "Peace for Ukraine" and led by
+      activists like Lucia Stasselova, the opposition has mounted the most sustained protest movement
+      in Slovakia since the 2018 demonstrations following the murder of journalist Jan Kuciak. The
+      2025 protest wave began on January 10, when "Peace for Ukraine" organized nationwide
+      demonstrations condemning Fico's December 2024 visit to Putin in Moscow. Protests escalated
+      through February, with thousands filling Bratislava's streets against Fico's pro-Russia stance.
+      In September 2025, thousands rallied across Slovakia against both the government's austerity
+      measures — particularly the despised financial transactions tax — and its pro-Russian foreign
+      policy. The movement peaked on November 17, 2025, the anniversary of the 1989 Velvet Revolution,
+      when tens of thousands gathered in Bratislava and cities across the country demanding Fico's
+      resignation. In December 2025, fresh protests erupted against the government's judicial reforms,
+      with Simecka telling crowds that the coalition had "taken a chainsaw to the rule of law" by
+      dismantling whistleblower protections and weakening the prosecution of corruption cases. The
+      opposition's strategic calculation in the Suwalki crisis is clear: this is the moment that
+      exposes the existential danger of Fico's Russia-sympathetic posture. If a NATO ally's territory
+      is under direct military threat and Slovakia's prime minister is coordinating with Moscow's
+      closest EU ally (Orban) to water down the alliance response, then Fico has crossed from
+      controversial policy disagreement into active betrayal of Slovakia's fundamental security
+      interests. The opposition draws powerful historical parallels to August 1968, when Soviet tanks
+      rolled into Czechoslovakia and crushed the Prague Spring — a national trauma etched into Slovak
+      collective memory that should make every Slovak viscerally hostile to Russian territorial
+      revision. Simecka and PS argue that NATO membership is not an a la carte menu from which
+      Slovakia can select only the benefits (security guarantee, EU market access, cohesion funds)
+      while refusing the obligations (collective defense, alliance solidarity, rule-of-law standards).
+      The opposition's influence operates through multiple channels: parliamentary challenges including
+      no-confidence motions (one was filed in January 2025 over EU exit accusations), street
+      mobilization that constrains Fico's political space, media campaigns through independent outlets
+      like Dennik N, SME, and Aktuality, direct engagement with European Parliament allies who have
+      debated Slovakia's rule-of-law situation, and coordination with like-minded Central European
+      governments in Warsaw and Prague. The opposition also maintains close relationships with
+      Ukrainian civil society and government through channels that the Fico government has sought to
+      shut down. SaS brings a specifically economic critique: as Slovakia's libertarian party founded
+      by the architect of Slovakia's flat tax, it argues that Fico's energy dependence on Russia,
+      his alienation of EU partners who control cohesion fund disbursement, and his automotive
+      sector's vulnerability to EV transition disruption represent a greater economic threat than
+      any short-term sanctions costs. KDH adds a values-based dimension rooted in Christian
+      democratic tradition, emphasizing that Slovakia's Western orientation is not merely strategic
+      but civilizational — a choice between democratic governance and authoritarian corruption.
+      The opposition's weakness is structural: despite commanding significant public support and
+      mobilizing massive protests, it lacks the parliamentary votes to topple Fico's 79-seat
+      coalition. Its power is therefore indirect — constraining Fico through public pressure,
+      international embarrassment, and the implicit threat that continued democratic backsliding
+      will eventually trigger either early elections or intervention by European institutions. In
+      the Suwalki crisis specifically, the opposition will demand full Slovak participation in NATO's
+      Article 5 response, push for transparency on any government communications with Moscow or
+      Budapest during the crisis, call for parliamentary oversight of all military decisions, and
+      frame any Slovak obstruction as a national disgrace equivalent to collaboration with the
+      forces that occupied Czechoslovakia for twenty years after 1968.
     priorities:
-      - "Force Fico government into full Article 5 support without conditions or delays"
-      - "Mobilize public opinion against any Slovak obstruction of NATO response"
-      - "Draw parallels to 1968 Soviet invasion to build anti-Russian consensus"
-      - "Push for Slovak military contribution to the NATO response"
-      - "Demand transparency on government communications with Moscow and Budapest"
-      - "Protect Slovakia's reputation as a reliable NATO and EU member"
+      - "Force the Fico government into unconditional Article 5 support — no conditions, no delays, no coordination with Orban to weaken the response"
+      - "Mobilize street protests and parliamentary pressure to constrain Fico's ability to play spoiler within NATO"
+      - "Draw explicit parallels to 1968 Soviet invasion to build visceral anti-Russian consensus across Slovak society"
+      - "Demand parliamentary oversight and full transparency on government communications with Moscow and Budapest during the crisis"
+      - "Push for meaningful Slovak military contribution to NATO response — not just token logistics support"
+      - "Protect Slovakia's reputation as a reliable NATO and EU member to prevent cohesion fund freezes and Article 7 sanctions"
+      - "Coordinate with pro-Western governments in Warsaw, Prague, and the Baltics to isolate Fico diplomatically within the EU"
     red_lines:
-      - "Fico blocking NATO consensus alongside Orbán — this would be a national disgrace"
-      - "Government secret communications with Moscow during the crisis"
-      - "Any weakening of Slovakia's NATO or EU membership commitments"
-    voice: >
-      Passionate democratic advocacy: 'In 1968, Russian tanks occupied our country. Our
-      parents and grandparents lived under Soviet occupation for twenty years. Now Russia
-      is occupying a NATO ally's territory, and our Prime Minister wants to "negotiate"?
-      Slovakia must stand with Lithuania as we wish someone had stood with us in 1968.
-      Article 5 is not optional — it is the reason we joined NATO. We demand that Prime
-      Minister Fico support the alliance without conditions. Slovakia's honor and security
-      are at stake. We call on all Slovaks to come to the streets and show the world that
-      Slovakia stands with freedom, not with aggression.'
+      - "Fico blocking or materially weakening NATO Article 5 consensus alongside Orban — this would constitute national betrayal"
+      - "Government secret communications or back-channel negotiations with Moscow during an active Article 5 crisis"
+      - "Any weakening of Slovakia's NATO or EU membership commitments, including withdrawal threats or sovereignty amendments that override alliance obligations"
+      - "Suppression of protest rights or media freedom during the crisis under emergency powers pretexts"
+      - "Use of the crisis as cover for further democratic backsliding — judicial capture, prosecution of opposition figures, or media restrictions"
+    voice:
+      tone: "Passionate democratic advocacy rooted in historical memory and European values"
+      quotes:
+        - "In August 1968, Russian tanks crushed the Prague Spring. Our parents and grandparents lived under Soviet occupation for twenty years. They could not speak freely, could not travel, could not choose their own government. Now Russia is threatening NATO territory, and our Prime Minister wants to 'negotiate'? Slovakia must stand with Lithuania as we wished someone had stood with Czechoslovakia in 1968. Article 5 is the reason we joined NATO. It is not optional. It is not conditional on Mr. Fico's relationship with Mr. Putin."
+        - "They took a chainsaw to the rule of law. They dismantled the Special Prosecutor. They gutted NAKA. They weakened whistleblower protections. And now, when NATO needs unity against Russian aggression, our government is the weakest link in the alliance. This is not coincidence — it is a pattern. Fico has systematically dismantled every institution that could hold him accountable while aligning Slovakia with the very power that threatens European security. We will not be silent."
+        - "Mr. Fico tells Slovaks he was shot because he supports peace. The truth is he was shot because our society has been driven to breaking point by his corruption, his attacks on the judiciary, and his willingness to sell Slovakia's foreign policy to Moscow for pipeline gas. We condemn all violence absolutely. But we will not allow the assassination attempt to become a shield behind which Fico hides while betraying Slovakia's alliances and its democratic future."
     key_relationships:
-      allies: ["PL", "CZ", "UA", "US", "EU institutions", "Baltic states"]
-      rivals: ["HU (Orbán influence on Fico)", "RU"]
+      allies: ["PL (closest security partner — Warsaw sees PS as natural ally against Fico-Orban obstruction)", "CZ (Prague's Fiala government shares pro-Western orientation and coordinates V4 counter-pressure)", "UA (direct solidarity with Kyiv, opposition to Fico's aid cutoff)", "Baltic states (shared threat perception and Article 5 commitment)", "EU institutions (European Parliament has debated Slovakia's rule of law at opposition's urging)", "US (traditional transatlantic alignment, though complicated by Trump administration)"]
+      rivals: ["HU (Orban's influence on Fico is seen as the primary external threat to Slovak democracy)", "RU (existential adversary whose aggression validates everything the opposition has warned about)", "SNS (Danko's ultranationalism represents the worst tendencies within the governing coalition)"]
+      complicated: ["Pellegrini (shares some pro-Western instincts but is constrained by his Fico-created career and HLAS coalition role — potential ally in extremis but unreliable)", "Trump administration (opposition is pro-NATO but uneasy about Trump's own ambivalence toward alliance commitments)"]

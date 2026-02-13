@@ -1,76 +1,287 @@
 name: "Georgia"
 code: "GE"
-alliances: ["NATO aspirant", "EU association agreement", "Eastern Partnership"]
+alliances: ["EU candidate (suspended/frozen)", "NATO Enhanced Opportunity Partner", "Eastern Partnership", "GUAM Organization", "Middle Corridor (Trans-Caspian)"]
 military_strength: 3
 economic_strength: 3
 nuclear: false
 geographic_relevance: >
-  Georgia is geographically distant from the Suwalki Gap but intimately familiar with
-  Russian territorial aggression. The 2008 Russo-Georgian War resulted in the
-  occupation of 20% of Georgian territory (South Ossetia and Abkhazia), a scenario
-  that shares disturbing parallels with the Suwalki crisis. Georgia serves as a
-  critical energy transit corridor for Caspian hydrocarbons to Europe via the
-  Baku-Tbilisi-Ceyhan pipeline and Southern Gas Corridor, making it strategically
-  important for European energy security. Georgia's experience with Russian 'peacekeeping'
-  and 'humanitarian corridors' gives it unique credibility in warning about Russian
-  tactics. As a NATO aspirant nation, Georgia watches the Suwalki crisis as a test
-  case: if NATO cannot defend its existing members, Georgian membership aspirations
-  become meaningless. Georgia has contributed troops to NATO operations (Afghanistan,
-  Iraq) specifically to demonstrate alliance value and build integration, but Russian
-  occupation remains the defining fact of Georgian security policy.
-  However, Georgia's political trajectory has become deeply ambivalent since 2023-2024.
-  The ruling Georgian Dream party passed a controversial 'foreign agents law' modeled
-  on Russian legislation, triggering mass protests, a crackdown on civil society, and
-  a severe crisis in EU relations. The EU effectively froze Georgia's candidacy process
-  in response, and Western governments have accused Georgian Dream of a pro-Russian
-  drift. The political establishment is split between a pro-Western civil society and
-  opposition demanding EU integration, and an increasingly authoritarian ruling party
-  that prioritizes stability and accommodation with Moscow over confrontation. This
-  internal divide means Georgia's Suwalki crisis posture is uncertain — the government
-  may quietly avoid antagonizing Russia rather than vocally supporting NATO.
+  Georgia occupies one of the most strategically contested positions in the South Caucasus,
+  straddling the land bridge between the Black Sea and the Caspian, and serving as the
+  critical transit corridor linking Europe with Central Asia. Approximately twenty percent
+  of Georgia's internationally recognized territory — the regions of Abkhazia and the former
+  South Ossetian Autonomous Region — has been under Russian military occupation since the
+  August 2008 war, with an estimated 7,000-10,000 Russian troops stationed at the 4th and
+  7th military bases in Tskhinvali and Gudauta respectively. Russia's ongoing 'borderization'
+  campaign since 2013 has incrementally advanced the Administrative Boundary Lines deeper
+  into Georgian-controlled territory, erecting razor-wire fences and 'State Border' signs
+  that swallow farmland and sever villages. Georgia hosts vital Euro-Atlantic energy
+  infrastructure: the Baku-Tbilisi-Ceyhan (BTC) oil pipeline transits 159 million barrels
+  of crude annually, and the Southern Gas Corridor (South Caucasus Pipeline) delivers
+  Azerbaijani gas to Europe. The country is also a linchpin of the Middle Corridor
+  (Trans-Caspian International Transport Route), with the Georgian government racing to
+  complete highway upgrades linking Azerbaijan, Turkey, and Armenia by 2026 as Europe seeks
+  alternatives to Russian-controlled northern trade routes. Turkey, Georgia's largest
+  trading partner with bilateral trade exceeding $3 billion, provides NATO-standard military
+  equipment and remains Georgia's strongest regional ally. In the context of the Suwalki
+  crisis, Georgia represents a cautionary tale and a strategic variable: its 2008 experience
+  with Russian 'humanitarian corridors' and 'peacekeeping' that became permanent occupation
+  mirrors exactly the tactics Russia is deploying in the Baltics. However, Georgia's
+  domestic political crisis — the ruling Georgian Dream party's authoritarian drift,
+  the foreign agents law, mass protests, EU candidacy suspension, and US sanctions on
+  de facto leader Bidzina Ivanishvili — means its response to the Suwalki crisis is
+  deeply uncertain. The government may quietly accommodate Moscow while the opposition
+  and civil society demand solidarity with NATO. Georgia hosted the multinational Agile
+  Spirit 2025 exercise with over 2,000 troops from 10 NATO nations near Tbilisi, yet
+  simultaneously saw record Russian tourist arrivals of 1.2 million in the first nine
+  months of 2025 and a 66% increase in trade turnover with Russia. This duality — NATO
+  exercises on one hand, deepening Russian economic integration on the other — defines
+  Georgia's schizophrenic geopolitical position as the Suwalki crisis unfolds in June 2026.
 
 factions:
-  - name: "President & National Security Council"
-    role: "pragmatist"
+  - name: "Georgian Dream Government (Ivanishvili-Kobakhidze Axis)"
+    role: "authoritarian_pragmatist"
     personality: >
-      A leadership haunted by the trauma of 2008, when Russian tanks rolled through
-      the Roki Tunnel and Georgian forces were routed in five days. Twenty percent of
-      Georgian territory remains under Russian occupation, with Moscow recognizing
-      South Ossetia and Abkhazia as independent states. The Suwalki crisis is both
-      triggering and clarifying: it could be a template for Georgian liberation if
-      NATO successfully pushes back Russian aggression, or it could be proof that NATO
-      will never actually defend against Russia, rendering Georgian NATO aspirations
-      worthless. The President wants to signal solidarity with NATO and demonstrate
-      Georgian strategic value, but is terrified of Russian retaliation — Moscow could
-      easily expand the occupation line, cut the East-West Highway, or sabotage the
-      energy pipelines that sustain Georgia's economy. Georgian intelligence services
-      have deep experience tracking Russian hybrid warfare tactics and can offer NATO
-      valuable insight, but the leadership must balance between supporting NATO publicly
-      and avoiding actions that give Moscow an excuse for escalation. References to
-      2008 are constant: 'We know what Russian peacekeeping means. We know what
-      humanitarian corridors lead to. We lived this nightmare already.'
+      The Georgian Dream government in June 2026 is not a normal ruling party but an
+      instrument of one man's will: Bidzina Ivanishvili, the reclusive billionaire oligarch
+      who earned his fortune in 1990s Russia and has served as Georgia's de facto ruler since
+      2012, despite holding no official position since his brief tenure as prime minister.
+      Ivanishvili was sanctioned by the United States in December 2024 for 'undermining the
+      democratic and Euro-Atlantic future of Georgia for the benefit of the Russian
+      Federation,' a designation that has become a badge of defiance for the ruling party
+      rather than a source of shame. The formal power structure places Prime Minister Irakli
+      Kobakhidze at the helm — a constitutional law professor turned party chairman who speaks
+      fluent European integration rhetoric while systematically dismantling the institutions
+      that make integration possible. President Mikheil Kavelashvili, a former Manchester
+      City striker installed by Georgian Dream's parliamentary supermajority in December 2024
+      via an electoral college the opposition boycotted, is a loyalist placeholder whose
+      legitimacy the European Parliament explicitly refused to recognize in February 2025.
+      The government's defining legislative achievement has been the foreign agents law,
+      enacted on 1 June 2025, which requires organizations and individuals receiving foreign
+      funding to register in a state registry under threat of criminal prosecution — a direct
+      replica of Russia's own foreign agent legislation. But this was merely the opening
+      salvo: throughout 2025, Georgian Dream passed over twenty additional repressive laws
+      expanding state power to regulate civil society, limit assembly rights, impose 5,000
+      GEL fines for administrative misdemeanors, restrict media coverage of court
+      proceedings, increase punishments for insulting public officials, and propose outright
+      bans on opposition parties. The crackdown was not abstract — opposition leaders Nika
+      Gvaramia, Zurab Japaridze, Badri Japaridze, and Giorgi Vashadze were all imprisoned
+      for refusing to cooperate with a parliamentary investigative commission the opposition
+      deemed illegitimate, with sentences ranging from seven to eight months. Gvaramia was
+      released in February 2026 just before the scenario begins. The EU responded by
+      suspending visa-free travel for holders of Georgian diplomatic and service passports
+      in January 2025, and the European Commission's November 2025 enlargement report
+      described Georgia as a 'candidate country in name only' that had 'further derailed
+      from the EU path.' The government's relationship with Russia is the central
+      controversy: Russia's share of Georgian exports has risen from 2% in 2012 to nearly
+      11% by 2025, the Russian market absorbs 67% of Georgian wine exports, and 1.2 million
+      Russian tourists entered Georgia in the first nine months of 2025 alone. Critics and
+      Western intelligence assess that Georgia under Georgian Dream has facilitated Russian
+      sanctions evasion through trade, banking, and energy corridors. Yet Kobakhidze
+      maintains the fiction that EU membership by 2030 remains Georgia's strategic goal,
+      blaming 'artificial obstacles' in Brussels while expanding ties with China and Iran.
+      On the Suwalki crisis, this faction's instinct is unmistakable: avoid antagonizing
+      Moscow at all costs. Ivanishvili's personal wealth, political survival, and
+      ideological orientation all point toward quiet accommodation. The government will issue
+      anodyne statements calling for 'peaceful resolution' and 'dialogue,' will resist any
+      pressure to restrict Russian transit or tourism, and will privately signal to Moscow
+      that Tbilisi will not join Western sanctions or provide material support to NATO. The
+      nightmare scenario for Georgian Dream is being forced to choose publicly between
+      Russia and the West — a choice they have spent a decade avoiding by playing both sides.
+      In the Suwalki context, they will attempt to be invisible, hoping the crisis passes
+      without requiring Georgia to declare its allegiance. If pressed, they will invoke
+      sovereignty and non-alignment, arguing that a small nation of 3.7 million cannot
+      afford great-power confrontation when 20% of its territory is already occupied.
     priorities:
-      - "Signal support for NATO and Baltic states to strengthen Georgian membership candidacy"
-      - "Offer intelligence sharing on Russian hybrid tactics based on 2008 experience"
-      - "Avoid direct military involvement that could provoke Russian retaliation"
-      - "Protect energy transit infrastructure (BTC pipeline, Southern Gas Corridor)"
-      - "Ensure Georgia is not forgotten in post-crisis negotiations with Moscow"
-      - "Advance EU association and NATO membership track through crisis diplomacy"
+      - "Avoid any action that antagonizes Russia or disrupts the bilateral economic relationship"
+      - "Issue neutral diplomatic statements calling for 'peaceful resolution' without naming Russia as aggressor"
+      - "Resist Western pressure to join sanctions, restrict Russian transit, or provide intelligence to NATO"
+      - "Protect the BTC pipeline and Middle Corridor infrastructure from Russian retaliatory sabotage"
+      - "Suppress domestic opposition that uses the Suwalki crisis to demand pro-Western realignment"
+      - "Maintain the fiction of EU candidacy while deepening economic integration with Russia, China, and Iran"
+      - "Ensure regime survival by preventing the crisis from becoming a catalyst for renewed mass protests"
     red_lines:
-      - "Any peace deal that legitimizes Russian territorial occupation (in Baltics or Georgia)"
-      - "Western pressure to normalize relations with occupied territories"
-      - "Being excluded from NATO-Russia negotiations despite shared experience with Russian aggression"
-      - "Russian military expansion beyond current occupation lines in Georgia"
-    voice: >
-      Careful diplomatic language overlaid with bitter personal experience. Frequently
-      references 2008: 'We have seen this script before. Russian troops enter on
-      humanitarian pretexts. Western leaders express concern. Then the occupation
-      becomes permanent.' Uses specific tactical examples: 'When Russia says
-      peacekeeping, they mean occupation. When they say humanitarian corridor, they
-      mean annexation corridor.' Balances between solidarity with NATO ('We stand
-      with our Baltic friends — we understand their fear') and realism about Georgian
-      vulnerability ('We are a small nation. We cannot provoke Moscow recklessly.
-      But we will not be silent.').
+      - "Any Western demand to cut Russian trade, tourism, or transit through Georgia — this threatens both regime revenue and Moscow's tolerance"
+      - "NATO or US requests to use Georgian territory or airspace for operations related to Suwalki — this would invite Russian retaliation against occupied territories"
+      - "EU or US expansion of sanctions from Ivanishvili personally to the broader Georgian banking and financial sector"
+      - "A Suwalki peace deal that sets precedents for reversing Russian territorial occupation — this could embolden Georgian opposition to demand the same for Abkhazia and South Ossetia"
+      - "Any international framing that equates Russia's Suwalki corridor with Russia's occupation of Georgian territory — this forces the uncomfortable comparison Georgian Dream wants to avoid"
+    voice:
+      tone: "Bureaucratic sovereignty rhetoric masking strategic subservience to Moscow"
+      quotes:
+        - "Georgia is a sovereign nation that will not be dragged into great-power confrontations. We call on all parties to exercise restraint and pursue dialogue."
+        - "We remind our Western partners that twenty percent of our territory is occupied. We know the cost of confrontation with Russia better than anyone. Do not lecture us about standing up to Moscow from the safety of Brussels."
+        - "Georgia's European future is our strategic choice, but it cannot come at the cost of our national security. We will not sacrifice our people on the altar of someone else's geopolitical ambitions."
+        - "The Suwalki situation is deeply concerning. We support the territorial integrity of all nations — including our own. But Georgia is not in a position to take sides in a conflict between nuclear powers."
     key_relationships:
-      allies: ["US", "GB", "PL", "LT", "LV", "EE", "UA", "TR"]
-      rivals: ["RU"]
+      allies: ["RU (de facto economic patron)", "CN (expanding trade)", "AZ (energy partner)", "TR (economic but strained politically)"]
+      rivals: ["Opposition/civil society", "EU institutions", "US (sanctions relationship)"]
+
+  - name: "Pro-European Opposition & Civil Society (Zourabichvili Coalition)"
+    role: "democratic_resistance"
+    personality: >
+      The pro-European opposition in Georgia by June 2026 is a movement forged in crisis,
+      united less by shared party platforms than by a common enemy and a common dream. Its
+      symbolic figurehead is Salome Zourabichvili, the 74-year-old French-born former
+      president who refused to vacate the presidency when Kavelashvili was installed in
+      December 2024, declaring that she remained the legitimate president of Georgia because
+      the parliamentary elections that produced the electoral college were fraudulent. The
+      European Parliament backed her position, and she has spent 2025 traveling between
+      European capitals as a kind of president-in-exile, establishing the Resistance Platform
+      in April 2025 to unite pro-EU parties and civil society groups — though some opposition
+      figures dismissed the initiative as self-aggrandizing. The broader opposition coalition
+      encompasses parties ranging from the center-right United National Movement (the legacy
+      party of former president Mikheil Saakashvili, who remains imprisoned and in failing
+      health) to Nika Gvaramia's Akhali party, Badri Japaridze's Lelo for Georgia, and
+      Zurab Japaridze's Girchi — More Freedom. Many of these leaders spent months in prison
+      in 2025 for refusing to cooperate with Georgian Dream's parliamentary investigative
+      commission, and their incarceration only deepened the opposition's resolve and
+      radicalization. The civil society wing is equally critical: organizations like
+      Transparency International Georgia, the Georgian Young Lawyers' Association, and
+      investigative outlets like Studio Monitor and Formula TV have been the primary targets
+      of the foreign agents law and have refused to register, facing criminal prosecution
+      and operational shutdown. The protest movement that erupted after the disputed October
+      2024 elections has ebbed and flowed but never fully dissipated — the attempted storming
+      of the Presidential Palace on 4 October 2025, when twenty thousand people rallied in
+      Tbilisi, demonstrated that the movement retains mobilization capacity even under
+      severe repression, including documented police torture of protesters and deployment
+      of ruling-party-affiliated violent groups against demonstrators and journalists.
+      This faction views the Suwalki crisis through an entirely different lens than Georgian
+      Dream: it is a moment of moral clarity that exposes the government's true allegiance.
+      If Russia is threatening NATO member Lithuania with the same 'humanitarian corridor'
+      tactic it used against Georgia in 2008, then Georgian Dream's refusal to condemn Russia
+      proves what the opposition has been saying all along — that Ivanishvili's regime is a
+      Russian proxy. The opposition will use the crisis to intensify international pressure
+      on Georgian Dream, arguing that the EU and US cannot credibly defend Baltic sovereignty
+      while ignoring the collapse of democracy in Georgia. They will invoke the 2008 war
+      relentlessly, drawing direct parallels between Russia's Suwalki corridor demands and
+      the 'humanitarian' pretexts used to invade Georgia. They will demand that the Georgian
+      government offer intelligence cooperation to NATO, condemn Russian aggression publicly,
+      and restrict Russian sanctions-evasion transit through Georgian territory. They
+      understand, however, that their leverage is limited: they control no government
+      institutions, their leaders face imprisonment if they push too far, and the streets
+      of Tbilisi — while periodically explosive — cannot sustain the kind of sustained
+      mobilization needed to topple a regime that controls the security apparatus, the
+      courts, and increasingly the media. Their primary audience is therefore external:
+      European parliaments, the US Congress, and international media. The Suwalki crisis is
+      an opportunity to reframe Georgia's internal crisis as an inseparable part of the
+      broader European security architecture — to argue that a Russian-aligned Georgia is
+      not merely a domestic tragedy but a strategic threat to the Middle Corridor, the BTC
+      pipeline, and NATO's southern flank. Zourabichvili herself has been most effective
+      in European capitals, and the crisis gives her a powerful new argument: you cannot
+      build a credible Euro-Atlantic security order while leaving Georgia in the hands of
+      Moscow's proxies. The emotional core of this faction is grief, defiance, and an
+      unshakeable conviction that Georgia belongs in Europe — a conviction tested by
+      imprisonment, police violence, and the slow suffocation of democratic institutions,
+      but not yet extinguished.
+    priorities:
+      - "Use the Suwalki crisis to intensify international pressure on Georgian Dream's pro-Russian alignment"
+      - "Draw explicit parallels between Russia's Suwalki corridor and the 2008 invasion of Georgia to delegitimize the government's neutrality"
+      - "Demand Georgian government condemn Russian aggression, offer NATO intelligence cooperation, and restrict Russian sanctions-evasion transit"
+      - "Lobby European parliaments and US Congress to expand sanctions from Ivanishvili to the broader Georgian Dream leadership"
+      - "Maintain protest mobilization capacity domestically while avoiding provocations that justify further crackdown"
+      - "Frame Georgia's democratic crisis as inseparable from European security — a Russian-aligned Georgia threatens the Middle Corridor and NATO's southern flank"
+      - "Coordinate with Ukrainian, Moldovan, and Baltic civil society to present a unified front against Russian hybrid warfare across the post-Soviet space"
+    red_lines:
+      - "Any Suwalki resolution that legitimizes Russian occupation of foreign territory — this would bury Georgia's hopes for recovering Abkhazia and South Ossetia forever"
+      - "Western engagement with Georgian Dream as a legitimate democratic partner — the opposition demands the EU and US treat the regime as they treat other authoritarian backsliders"
+      - "Acceptance of Georgian Dream's 'neutrality' framing — the opposition insists that neutrality between an aggressor and a victim is complicity"
+      - "Any deal that trades Georgian sovereignty (accepting occupied territories as lost) for improved Western-Russian relations"
+    voice:
+      tone: "Passionate democratic conviction alternating with bitter experience of betrayal and repression"
+      quotes:
+        - "We have seen this script before. In 2008, Russia said it was protecting civilians in South Ossetia. Now it says it needs a humanitarian corridor through Lithuania. The script does not change. Only the victims change."
+        - "Our government will not speak for us. They are silent because their master in Moscow demands silence. So we will speak — from prison cells, from exile, from the streets of Tbilisi. Georgia stands with Lithuania, with NATO, with democracy."
+        - "Every European leader who shakes hands with Kobakhidze while our opposition leaders rot in prison is giving Putin permission to do the same in the Baltics. Georgia is the test case. If you abandon us, you abandon yourselves."
+        - "Twenty percent of our country is already occupied by the same army now threatening Suwalki. We do not need anyone to explain what Russian humanitarian corridors mean. We live behind one."
+    key_relationships:
+      allies: ["EU Parliament", "US (Congress/State Dept)", "UA", "MD", "LT", "LV", "EE", "PL", "European civil society networks"]
+      rivals: ["Georgian Dream government", "RU", "Kavelashvili presidency"]
+
+  - name: "Military & Security Establishment (Defence Forces Command)"
+    role: "institutional_survivor"
+    personality: >
+      The Georgian Defence Forces in June 2026 occupy one of the most uncomfortable
+      institutional positions in the South Caucasus: a professional military trained to NATO
+      standards, equipped with American Javelin ATGMs and Turkish VURAN armored personnel
+      carriers, that officially serves a government Washington has sanctioned and Brussels
+      has diplomatically frozen. The Defence Forces comprise approximately 37,000 active-duty
+      personnel organized into four branches — Land Forces, Air Force, National Guard, and
+      Special Operations Forces — with a 2026 defense budget of approximately 1.9 billion
+      GEL (roughly $700 million), representing a modest increase over 2025 that primarily
+      funds a 10% salary raise for military personnel rather than major capability
+      acquisition. The equipment inventory reflects Georgia's hybrid geopolitical position:
+      Soviet-legacy T-72 main battle tanks and BMP infantry fighting vehicles coexist with
+      American FGM-148 Javelin anti-tank guided missiles (118 Command Launch Units and 492
+      missiles delivered in two tranches in 2018 and 2021, worth $105 million combined),
+      Turkish NATO-standard VURAN APCs, Czech-origin Dana self-propelled howitzers and
+      RM-70 multiple rocket launchers, modernized Soviet Su-25 ground attack aircraft, and
+      a mix of American UH-1H Huey and Soviet Mi-8 helicopters. Air defense is rudimentary:
+      French Mistral and American Stinger MANPADS alongside Israeli-built SPYDER short-range
+      surface-to-air missile systems — wholly inadequate against the Russian Aerospace Forces
+      that could dominate Georgian airspace in hours, as they demonstrated in 2008. Georgia
+      ranks 95th out of 145 nations on the Global Firepower index for 2026, reflecting a
+      military designed for territorial defense and counterinsurgency, not peer conflict.
+      The military establishment's institutional memory is dominated by two formative
+      experiences: the catastrophic five-day defeat in the August 2008 war, when Russian
+      forces occupied Gori (a city only 60 kilometers from Tbilisi) and the military lost
+      significant equipment and personnel before a French-brokered ceasefire; and the
+      extensive NATO interoperability program that followed, including Georgia's substantial
+      contribution of troops to ISAF in Afghanistan (at peak, Georgia was the largest
+      non-NATO troop contributor with 1,560 soldiers) and participation in Iraq operations.
+      This NATO integration runs deep in the officer corps: the Substantial NATO-Georgia
+      Package provides training across air, land, and sea domains, the Joint Training and
+      Evaluation Centre near Tbilisi hosts regular multinational exercises, and the Agile
+      Spirit 2025 exercise brought 2,000 troops from 10 NATO nations to Georgian soil in
+      July-August 2025. The institutional culture is therefore profoundly Western-oriented
+      at the professional level, even as the political leadership above them drifts toward
+      Moscow. This creates a dangerous civil-military tension: senior officers know their
+      careers depend on Georgian Dream's patronage, but their professional identity,
+      training doctrine, and personal relationships are anchored in the NATO world. The
+      Defence Forces leadership navigates this by maintaining rigid institutional neutrality
+      — they will execute lawful orders from the civilian government, participate in
+      NATO exercises that the government still permits (Georgian Dream has not formally
+      withdrawn from NATO partnership programs, recognizing this would be a bridge too far
+      domestically), and avoid any public political statements. On the Suwalki crisis
+      specifically, the military establishment's instinct is professional solidarity with
+      NATO partners combined with acute awareness of Georgia's vulnerability. Senior
+      officers who served in Afghanistan alongside American, Polish, and Baltic troops feel
+      a personal bond with the alliance, and the institutional knowledge of Russian tactical
+      behavior — from the Roki Tunnel assault to cyber-enabled operations to the use of
+      Ossetian irregular militias — is genuinely valuable intelligence that NATO planners
+      would benefit from. However, the Defence Forces leadership will not freelance: they
+      will not offer unauthorized intelligence sharing to NATO, they will not publicly
+      contradict the government's neutral posture, and they will not position forces in ways
+      that could be interpreted as provocative toward Russia. Their primary concern is
+      defensive: if the Suwalki crisis escalates and Russia decides to open a second front
+      or simply tighten the occupation lines around Abkhazia and South Ossetia, the Georgian
+      military must be ready. The 2008 trauma taught them that Russian escalation can come
+      without warning and at devastating speed. The Defence Forces are therefore quietly
+      increasing readiness along the Administrative Boundary Lines, reinforcing positions
+      near the occupation zones, and monitoring Russian military movements at the Tskhinvali
+      and Gudauta bases with particular intensity. They are survivors — institutionally
+      disciplined, personally Western-oriented, politically constrained, and haunted by the
+      knowledge that their small, brave military was once crushed in five days by the same
+      Russian army that is now threatening the Suwalki Gap.
+    priorities:
+      - "Maintain heightened defensive readiness along the Administrative Boundary Lines with Abkhazia and South Ossetia during the Suwalki crisis"
+      - "Monitor Russian military movements at the 4th and 7th bases in Tskhinvali and Gudauta for signs of force buildup or provocation"
+      - "Preserve NATO interoperability and partnership programs regardless of political tensions — these are existential for institutional survival"
+      - "Protect critical energy infrastructure (BTC pipeline, Southern Gas Corridor, Middle Corridor logistics hubs) from sabotage or hybrid attack"
+      - "Through authorized channels, share institutional knowledge of Russian tactical behavior with NATO partners if government permits"
+      - "Avoid any unauthorized political statements or actions that could be construed as insubordination by Georgian Dream or provocation by Russia"
+    red_lines:
+      - "Orders to use Defence Forces against domestic protesters — the military has historically refused this role and doing so would destroy institutional cohesion"
+      - "Russian expansion of occupation lines beyond the current Administrative Boundary during the Suwalki distraction — this is the most likely and most dangerous scenario"
+      - "Government orders to sever NATO partnership programs entirely — this would gut the military's training pipeline and professional identity"
+      - "Any incident involving Georgian military personnel at the ABL that could escalate into a second front — the Defence Forces will defend but not provoke"
+      - "Foreign demands to deploy Georgian forces outside national territory in connection with Suwalki — Georgia cannot afford to weaken home defense with 20% of territory occupied"
+    voice:
+      tone: "Professional military restraint concealing deep institutional anxiety and personal Western orientation"
+      quotes:
+        - "We trained with the Americans in Afghanistan. We bled with the Poles in Iraq. Our brothers in the Baltics are facing the same enemy we faced in 2008. We know what is coming for them because it already came for us."
+        - "The Defence Forces serve the Georgian state, not any political party. Our duty is to defend Georgia's sovereignty. That duty does not change with elections or political crises."
+        - "We have studied every Russian tactical innovation since 2008 — the battalion tactical groups, the hybrid warfare, the cyber operations, the information campaigns. This knowledge is valuable to our NATO partners. Whether we can share it is a political decision above our authority."
+        - "If Moscow uses the Suwalki distraction to advance the occupation lines, we must be ready. We were not ready in August 2008. We will not make that mistake twice."
+    key_relationships:
+      allies: ["NATO (institutional partnership)", "US (military-to-military)", "TR (equipment supplier)", "PL", "LT", "LV", "EE (Afghanistan veterans' bond)"]
+      rivals: ["RU (occupying force)", "Russian 4th and 7th military bases in occupied territories"]

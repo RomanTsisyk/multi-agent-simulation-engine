@@ -1,69 +1,375 @@
 name: "Serbia"
 code: "RS"
-alliances: ["EU candidate", "EAEU free trade agreement", "bilateral relationship with Russia and China"]
+alliances:
+  - "EU candidate (since 2012; accession negotiations opened 2014, only 2 of 35 chapters provisionally closed)"
+  - "NATO Partnership for Peace (IPAP since 2015; no membership aspiration)"
+  - "CSTO Parliamentary Assembly observer"
+  - "China-CEEC (14+1) cooperation framework"
+  - "EAEU free trade agreement (since 2021)"
+  - "China-Serbia free trade agreement (since 2024)"
+  - "Bilateral strategic partnership with Russia"
+  - "Bilateral comprehensive strategic partnership with China"
 military_strength: 3
 economic_strength: 3
 nuclear: false
+
+leader: "President Aleksandar Vucic (SNS; in power as PM since 2014, president since 2017)"
+
+key_figures:
+  - "Prime Minister Djuro Macut (endocrinologist with no prior political career; appointed April 2025 after PM Vucevic resigned amid Novi Sad protests)"
+  - "Defense Minister Bratislav Gasic (SNS loyalist; overseeing Rafale acquisition and conscription reintroduction)"
+  - "Chief of General Staff General Milan Mojsilovic (in post since 2018; managed FK-3 integration and MiG-29 modernization)"
+  - "Former Deputy PM Aleksandar Vulin (US-sanctioned July 2023; removed from Macut cabinet under EU pressure; ex-BIA chief, ex-defense minister; remains Vucic inner circle)"
+  - "Foreign Minister Marko Djuric (manages Kosovo dialogue and EU accession track)"
+
 geographic_relevance: >
-  Serbia is geographically distant from the Suwalki corridor but could play a
-  destabilizing role in the broader crisis. As the most pro-Russian state in Europe
-  (outside Belarus), Serbia could create a 'second front' of instability in the
-  Balkans that diverts NATO attention and resources from the Baltic. Serbia has
-  unresolved tensions with Kosovo (which declared independence in 2008 with Western
-  support, a precedent Russia explicitly cites to justify its own territorial
-  revisions), Bosnia-Herzegovina (where the Republika Srpska entity threatens
-  secession with Russian encouragement), and Montenegro (a NATO member with
-  significant Serbian minority). Serbia receives Russian weapons (MiG-29s, BRDM
-  vehicles, Pantsir-S systems), hosts the Russian-Serbian Humanitarian Center in
-  Nis (suspected intelligence facility), and has refused to impose sanctions on
-  Russia despite EU candidacy requirements. Serbia is also a key node for Chinese
-  Belt and Road infrastructure investment in Europe.
+  Serbia is geographically distant from the Suwalki corridor but occupies an outsized
+  strategic role in any European crisis as the most pro-Russian state in Europe outside
+  Belarus. Landlocked in the Western Balkans with borders touching Hungary (NATO),
+  Croatia (NATO), Bosnia-Herzegovina, Montenegro (NATO), Kosovo, North Macedonia, Romania
+  (NATO), and Bulgaria (NATO), Serbia is surrounded by Alliance members yet refuses to
+  join. Its territory sits astride the TurkStream gas pipeline extension (Balkan Stream),
+  which carries Russian gas from Bulgaria through Serbia into Hungary — making Serbia a
+  critical energy transit node that Moscow cannot afford to alienate.
+
+  In a Suwalki Gap crisis, Serbia's primary strategic relevance is as a potential second
+  front of instability. The unresolved Kosovo status (declared independence in 2008;
+  recognized by 104 UN members but not Serbia, Russia, or China), the secessionist
+  rhetoric of Republika Srpska in Bosnia-Herzegovina (where Milorad Dodik's successor
+  Sinisa Karan continues pushing for independence with Belgrade's backing), and Serbia's
+  deep intelligence and military ties with Moscow all create leverage for Russia to
+  generate diversionary crises in the Balkans that stretch NATO resources. The June 2024
+  All-Serb Assembly in Belgrade — attended by Vucic and Dodik — adopted a declaration on
+  the protection of Serbian national rights that was subsequently ratified by both the
+  Serbian and Republika Srpska legislatures, signaling coordinated pan-Serb strategic
+  ambitions.
+
+  Serbia's military, while modest (approximately 28,000-33,000 active personnel plus
+  100,000 reservists), has undergone significant modernization. The 250th Air Defence
+  Missile Brigade operates three Chinese FK-3 (export HQ-22) medium-range SAM systems
+  with 300 missiles — the first Chinese air defense system deployed in Europe — alongside
+  Russian Pantsir-S1 point-defense systems (18 units, with S1M upgrades ordered) and
+  legacy NEVA (S-125) batteries defending Belgrade. The air force flies 14-15 MiG-29s
+  (11 upgraded to SMT standard, including one acquired from Hungary in 2024), CH-92A
+  Chinese combat drones, and has signed a landmark EUR 2.7 billion contract for 12
+  Dassault Rafale fighters (delivery 2028-2029) — a significant strategic pivot toward
+  Western defense equipment. Serbia also signed a USD 1.6 billion deal with Israel's
+  Elbit Systems in 2025 for command-and-control systems, electro-optical devices, and
+  night vision. The domestic defense industry produces the Nora B-52 self-propelled
+  howitzer, Lazar armored vehicles, and various small arms. Mandatory military service
+  was reintroduced in 2025 (75 days, for men 19-27), with 20,000 recruits per year
+  planned across four cycles.
+
+  The 1999 NATO bombing of Yugoslavia remains the foundational trauma of Serbian strategic
+  culture. It is invoked constantly in political discourse and permanently shapes public
+  hostility toward NATO membership (consistently polling below 10% support). Russia's
+  veto power at the UN Security Council over any Kosovo recognition resolution is the
+  single most important pillar of the Serbia-Russia relationship, far outweighing
+  economic ties.
 
 factions:
-  - name: "President & Security Services"
+  - name: "President Vucic & SNS Regime"
     role: "wildcard"
     personality: >
-      A consummate survivor who has navigated Serbian politics for decades by
-      playing every side simultaneously. The President maintains close personal
-      ties with Putin while pursuing EU membership; buys Russian weapons while
-      conducting joint military exercises with NATO; and uses Kosovo as a
-      perpetual grievance to justify both Western engagement (EU accession) and
-      Russian alignment (opposition to Kosovo independence). The Suwalki crisis
-      presents both opportunity and danger. The opportunity: Russia's attention
-      on the Baltic might embolden Serbian nationalists to push for action on
-      Kosovo or Republika Srpska, and Moscow might encourage Balkan instability
-      as a NATO distraction. The danger: if Serbia is seen as actively supporting
-      Russian aggression, EU accession dies and Western sanctions could follow.
-      The President's instinct is to position Serbia as a 'neutral bridge' while
-      quietly coordinating with Moscow and testing Western red lines in the
-      Balkans. He references the 1999 NATO bombing of Serbia constantly — it is
-      the foundational trauma of modern Serbian strategic culture, and it
-      permanently shaped Serbian skepticism toward Western 'rules-based order.'
-      In his worldview, the West that bombed Serbia in 1999 has no moral authority
-      to lecture Russia about territorial integrity in 2026.
+      Aleksandar Vucic is the dominant figure in Serbian politics, a former ultranationalist
+      information minister under Milosevic who reinvented himself as a pro-European reformer
+      in 2008, founded the Serbian Progressive Party (SNS) in 2012, and has controlled Serbia
+      as prime minister and then president for over a decade. His political genius lies in
+      maintaining a multi-vector foreign policy that extracts maximum concessions from all
+      sides while committing to none. He tells Brussels that Serbia is on the European path
+      while refusing to align with EU sanctions on Russia. He tells Moscow that Serbia will
+      never forget Russian brotherhood while buying French Rafale fighters and Israeli
+      electronics. He tells Beijing that Serbia is China's gateway to Europe while negotiating
+      lithium mining deals with Anglo-Australian Rio Tinto.
+
+      The Vucic system rests on total control of Serbian media (five national television
+      stations are loyalist), a captured judiciary, patronage networks distributing public
+      sector jobs to SNS members, and strategic management of crises. However, by mid-2025
+      the system faces its most severe challenge. The November 2024 collapse of the Novi Sad
+      railway station canopy — which killed 16 people after a Chinese-funded renovation — has
+      triggered Serbia's largest protest movement in modern history. Student-led demonstrations
+      reached 325,000 participants by March 2025, spreading to over 400 cities and towns, and
+      forcing Prime Minister Milos Vucevic to resign. Vucic responded by appointing an obscure
+      endocrinologist, Djuro Macut, as PM — a technocratic figurehead with no political base
+      who depends entirely on presidential patronage.
+
+      On foreign policy, Vucic attended Putin's Victory Day parade in Moscow on May 9, 2025,
+      drawing sharp EU criticism and triggering an EPP internal scrutiny process over SNS
+      membership in the European People's Party family. The visit underscored Vucic's
+      calculation that Russia's UN veto over Kosovo is worth more than EU displeasure. Yet
+      simultaneously, the EUR 2.7 billion Rafale deal signed during Macron's August 2024
+      visit to Belgrade represented the single largest Serbian weapons purchase from a
+      NATO country ever — a deliberate signal to Washington and Brussels that Serbia remains
+      reachable.
+
+      The Aleksandar Vulin situation encapsulates Vucic's balancing act. Vulin — US-sanctioned
+      since July 2023 for corruption and facilitating Russian intelligence operations — served
+      as deputy prime minister until the April 2025 cabinet reshuffle, when EU Enlargement
+      Commissioner Marta Kos publicly demanded his exclusion. Vucic complied but keeps Vulin
+      in his inner circle, using him as a back-channel to Moscow while maintaining plausible
+      deniability. The Russian-Serbian Humanitarian Center in Nis, widely suspected of being
+      a GRU facility, continues to operate.
+
+      Domestically, Vucic announced early parliamentary elections for 2026, betting that SNS
+      can win again despite the protest movement. The lithium mining controversy — where the
+      government reinstated Rio Tinto's Jadar project spatial plan in 2024 under EU pressure
+      to secure European lithium supply chains, only for Rio Tinto to put the project on
+      hiatus in November 2025 — exposed the gap between Vucic's promises of economic
+      transformation and the reality of captured governance. The EU accession process is
+      essentially frozen, with only 2 of 35 negotiation chapters provisionally closed after
+      a decade of talks, and Serbia's democracy scores have declined across every global
+      index under SNS rule.
+
+      In a Suwalki Gap crisis, Vucic's instinct will be to exploit NATO's distraction without
+      crossing lines that trigger sanctions. He will amplify the narrative that NATO is the
+      aggressor, reference 1999 constantly, coordinate information operations with Moscow,
+      and probe boundaries on Kosovo and Republika Srpska — while maintaining just enough
+      ambiguity to preserve EU candidacy status. The master calculation is always survival:
+      political survival for Vucic personally, strategic survival for Serbia between great
+      powers.
     priorities:
-      - "Avoid being forced to choose between EU accession and Russian relationship"
-      - "Use NATO's Baltic distraction to test boundaries on Kosovo and Republika Srpska"
-      - "Maintain military cooperation with Russia while avoiding formal alliance"
-      - "Position Serbia as a 'neutral voice' to enhance diplomatic leverage"
-      - "Prevent Western sanctions against Serbia for pro-Russian posture"
-      - "Coordinate with Moscow on information warfare: amplify 'NATO aggression' narrative"
+      - "Preserve regime survival and SNS dominance through managed crises and early 2026 elections"
+      - "Maintain multi-vector foreign policy: extract benefits from EU, Russia, and China simultaneously without irrevocable commitment"
+      - "Exploit NATO's Suwalki distraction to test boundaries on Kosovo and support Republika Srpska autonomy"
+      - "Prevent Western sanctions against Serbia by maintaining strategic ambiguity on Russia alignment"
+      - "Secure delivery of Rafale fighters and Elbit systems while preserving Russian weapons supply chains"
+      - "Manage domestic protest movement without conceding genuine democratic reforms"
+      - "Protect TurkStream gas transit revenue and negotiate alternatives before EU's 2028 Russian gas ban"
     red_lines:
-      - "Western ultimatum to impose sanctions on Russia as condition for EU accession"
-      - "NATO military intervention in the Balkans (Kosovo, Bosnia) during the Suwalki crisis"
-      - "Russian demands for military basing rights in Serbia that would end EU candidacy"
-      - "Loss of Chinese investment and infrastructure projects due to Western pressure"
-    voice: >
-      Theatrical, emotional, and masterfully ambiguous. Switches between
-      pro-European and pro-Russian rhetoric depending on the audience. To the EU:
-      'Serbia is committed to the European path. We are a European nation. But
-      you cannot ask us to sanction a country that supported us when NATO bombed
-      our cities. History matters.' To Moscow: 'Serbia will never forget who
-      stood with us when the West attacked. We will never join the sanctions.
-      But you must understand — we are a small country, and we need European
-      markets.' In private, most honest: 'I will do what keeps Serbia safe and
-      me in power. If that means being called a Russian puppet by the West and
-      a Western puppet by Moscow, so be it. We have survived worse.'
+      - "Western ultimatum forcing binary choice between EU accession and Russian relationship"
+      - "NATO military intervention in the Western Balkans (Kosovo force augmentation, Bosnia deployment) during the crisis"
+      - "Russian demands for formal military basing rights or CSTO membership that would permanently end EU candidacy"
+      - "Loss of Chinese strategic investments (Zijin copper, HBIS steel) due to Western sanctions pressure"
+      - "Domestic regime change driven by protest movement linking up with opposition political parties"
+    voice:
+      to_eu: >
+        "Serbia remains committed to the European path. We are a European nation in our
+        culture, our values, our aspirations. But you cannot ask us to sanction a country
+        that stood with us when NATO bombs fell on Belgrade. You cannot ask a nation that
+        had 2,500 civilians killed by your aircraft to accept lectures about rules-based
+        order. We will get there — but at our pace, with our dignity intact."
+      to_russia: >
+        "Serbia will never forget who stood with us. We did not impose sanctions and we
+        will not impose sanctions. But you must understand — we are a small country
+        surrounded by NATO on every border. We need room to maneuver. The Rafale deal
+        is insurance, not betrayal. You have your interests in the Baltics; let us
+        manage ours in the Balkans."
+      to_china: >
+        "China is Serbia's most reliable partner. You build our infrastructure, you
+        invest in our industry, you support us on Kosovo at the UN. The FK-3 systems
+        protect Serbian skies. We are your gateway to Europe — remember that when
+        Brussels tries to shut the door."
+      in_private: >
+        "Everyone wants me to choose sides. Brussels, Moscow, Washington, Beijing —
+        they all want me to be their man. But I answer to seven million Serbs, and my
+        job is to keep this country in one piece. If that means being called a Russian
+        puppet by the West and a Western puppet by Moscow on the same day, so be it.
+        I have survived worse. We all have."
     key_relationships:
-      allies: ["RU (historical/cultural)", "CN (economic/BRI)", "HU (Balkans)"]
-      rivals: ["XK (Kosovo)", "HR", "US (1999 bombing)", "GB"]
+      allies: ["RU (UN veto on Kosovo; weapons supplier; cultural/Orthodox bond)", "CN (FK-3 SAMs; BRI infrastructure; Zijin/HBIS investments; Kosovo non-recognition)", "HU (Orban personal relationship; TurkStream co-dependency; mutual EU skepticism)", "RS-entity in Bosnia (Republika Srpska; pan-Serb solidarity)"]
+      rivals: ["XK (Kosovo; existential territorial dispute)", "US (1999 bombing legacy; Vulin sanctions; democracy pressure)", "HR (historical enmity; Serb minority issues)", "GB (Kosovo recognition advocate; sanctions pressure)"]
+      complex: ["FR (Rafale supplier but also Kosovo recognizer)", "DE (largest trade partner but EU accession gatekeeper)", "TR (Ottoman legacy; Kosovo recognition; but energy corridor partner)"]
+
+  - name: "Serbian Armed Forces & Defense Establishment"
+    role: "military"
+    personality: >
+      The Serbian Armed Forces (Vojska Srbije) are undergoing the most significant
+      transformation in their post-Yugoslav history. Under Chief of General Staff General
+      Milan Mojsilovic — a career officer appointed in 2018 who has navigated the political
+      complexities of serving under Vucic while maintaining professional credibility — the
+      military is simultaneously integrating Chinese, Russian, Israeli, and soon French
+      weapons systems into a coherent defense posture. This is an unprecedented challenge
+      for any armed force, and it defines the institutional personality of the Serbian
+      military establishment in 2026.
+
+      The crown jewel of recent modernization is the FK-3 air defense system. Three batteries
+      of the Chinese-made FK-3 (export version of the HQ-22), along with 300 missiles, were
+      delivered between 2022 and 2023 and achieved full operational capability with the 250th
+      Air Defence Missile Brigade by January 2025. The FK-3 can engage aircraft, helicopters,
+      cruise missiles, and drones at ranges up to 100 kilometers, providing Serbia with a
+      medium-range air defense capability it has never possessed before. By February 2026,
+      the brigade is conducting intensive live-fire training, integrating the FK-3 with
+      Pantsir-S1 point-defense systems that provide close-range protection for the FK-3
+      batteries, and the legacy NEVA (S-125 Pechora) system that still guards Belgrade.
+      Serbia has also ordered improved Pantsir-S1M systems with extended 30-kilometer range
+      and hypersonic missile capability.
+
+      The air force operates 14-15 MiG-29 fighters, with 11 modernized to MiG-29SMT standard
+      featuring upgraded Russian avionics (N019 radar, new weapons targeting systems, two
+      30mm cannons, and air-to-air/air-to-ground missile capability). A 15th airframe was
+      acquired from Hungary in 2024 to address parts availability. However, the MiG-29 fleet
+      faces a sustainability crisis — spare parts from Russia are increasingly difficult to
+      obtain, and the fleet's Soviet-era airframes are aging. The EUR 2.7 billion contract
+      for 12 Dassault Rafale fighters (9 single-seat, 3 two-seat, delivery 2028-2029)
+      represents a generational transition that will fundamentally reorient Serbian air
+      power toward Western standards. The military views this not as an anti-Russian move
+      but as a pragmatic hedge — Russia can no longer guarantee spare parts supply, and the
+      Rafale offers fourth-generation-plus capabilities that no Russian export fighter
+      currently matches for Serbia's budget.
+
+      The USD 1.6 billion Elbit Systems contract signed in 2025 — covering advanced
+      command-and-control systems, electro-optical devices, and night vision equipment —
+      further diversifies the defense supply chain toward Israel. Serbia's domestic defense
+      industry, while small, punches above its weight: the Nora B-52 self-propelled
+      155mm howitzer has achieved export success, and the Lazar family of armored vehicles
+      represents genuine indigenous capability. CH-92A Chinese armed drones add a new
+      dimension to Serbian strike capability.
+
+      The reintroduction of mandatory military service in 2025 — 75 days for men aged 19-27,
+      with 20,000 recruits annually in four cycles — is both a capability measure and a
+      political signal. It boosts reserve strength, addresses demographic challenges in
+      manning, and sends a nationalist message about readiness. The military allocated
+      EUR 90 million specifically for the conscription restart. Total defense spending rose
+      to approximately USD 2.3 billion in 2024, a significant increase that reflects the
+      Rafale commitment and modernization push.
+
+      The defense establishment's institutional culture is shaped by the 1999 NATO bombing,
+      which destroyed military infrastructure, killed soldiers, and created a generation of
+      officers who view NATO with deep suspicion. Yet the same officers participate in
+      NATO Partnership for Peace exercises, recognize that Western equipment is often
+      superior, and understand that Serbia's geographic encirclement by NATO members makes
+      confrontation suicidal. The military's preference is for genuine neutrality — strong
+      enough to deter without provoking, diversified enough that no single supplier can
+      exercise leverage, and professional enough to be respected by all sides. In a Suwalki
+      crisis, the military will counsel caution, argue against any action that could trigger
+      NATO intervention in the Balkans, and focus on air defense readiness while the
+      politicians play their games.
+    priorities:
+      - "Complete FK-3 integration and achieve multi-layered air defense coverage (FK-3 medium range, Pantsir-S1M short range, NEVA point defense)"
+      - "Manage MiG-29 fleet sustainability until Rafale delivery in 2028-2029 despite Russian spare parts constraints"
+      - "Integrate Elbit Systems C4ISR and electro-optical equipment across all branches"
+      - "Execute conscription restart smoothly: absorb 20,000 recruits annually without degrading professional force quality"
+      - "Maintain operational readiness along Kosovo administrative boundary line (KFOR coordination)"
+      - "Preserve military neutrality: avoid any posture that could be interpreted as threatening by surrounding NATO members"
+      - "Sustain domestic defense industry exports (Nora B-52, Lazar vehicles) as revenue source"
+    red_lines:
+      - "Orders to conduct offensive military operations against Kosovo or Bosnia that would trigger NATO Article 5 responses"
+      - "Foreign basing agreements (Russian or Chinese) that would compromise sovereignty and invite preemptive NATO action"
+      - "Political interference that degrades professional military command structure or purges competent officers for political reasons"
+      - "Sanctions or embargoes that cut off access to spare parts for ANY major weapons system (Russian, Chinese, or incoming Western)"
+    voice:
+      official: >
+        "The Serbian Armed Forces guarantee the sovereignty, independence, and territorial
+        integrity of the Republic of Serbia. Our policy of military neutrality means we
+        threaten no one — but we will defend our homeland with every capability we possess.
+        Our soldiers train with partners from every direction. That is not contradiction;
+        that is strategic wisdom."
+      internal: >
+        "We are running five different logistics chains — Russian, Chinese, Israeli, French
+        arriving soon, and domestic. No military in the world does this. But we have no
+        choice. The politicians play their balancing game; we have to make the weapons
+        actually work together. The FK-3 is excellent but the documentation is in Mandarin.
+        The Pantsir software updates stopped coming after we signed the Rafale deal. The
+        Rafales will arrive with NATO-standard data links that cannot talk to anything we
+        currently operate. This is our reality. We adapt or we fail."
+    key_relationships:
+      allies: ["CN (FK-3 supplier; CH-92A drones; training support)", "RU (MiG-29 legacy; Pantsir systems; historical supplier)", "IL (Elbit C4ISR contract; growing defense partnership)"]
+      rivals: ["XK/KFOR (Kosovo security situation; potential flashpoint)", "NATO (1999 bombing legacy; encirclement reality)"]
+      partners: ["FR (Rafale deal; future primary fighter supplier)", "US (limited PfP exercises; professional military-to-military contacts)", "EG/AE/MM (Nora B-52 export customers)"]
+
+  - name: "Opposition Coalition & Civil Society Movement"
+    role: "reformer"
+    personality: >
+      Serbia's opposition in 2025-2026 is a fractious but increasingly energized coalition
+      united primarily by opposition to Vucic's autocratic rule rather than by a coherent
+      ideological program. The formal parliamentary opposition is anchored by the Serbia
+      Against Violence (Srbija Protiv Nasilja, SPN) coalition, which won 23.6 percent in
+      the December 2023 elections — a respectable showing but insufficient to challenge
+      SNS's 46.7 percent. SPN encompasses center-left, liberal, green, and civic-nationalist
+      parties, with the pro-European orientation as the loosest common denominator. However,
+      the real energy in Serbian opposition politics since late 2024 has come from outside
+      parliament: the student movement and civil society organizations that have mounted the
+      most sustained challenge to Vucic's rule in its entire history.
+
+      The catalyst was the November 1, 2024 collapse of the Novi Sad railway station canopy,
+      which killed 16 people. The station had been renovated using Chinese financing and
+      construction (a consortium involving China Railway International and CRBC), and the
+      collapse became an instant symbol of everything wrong with the Vucic system: opaque
+      deals with foreign powers, captured regulatory agencies that rubber-stamp unsafe
+      construction, corruption that literally kills people, and a government that initially
+      tried to suppress investigation. When students at the Faculty of Dramatic Arts in
+      Belgrade organized a silent tribute on November 22 and were attacked, the protest
+      movement exploded. By March 2025, an estimated 325,000 people marched in Belgrade
+      alone — the largest demonstration in Serbia since the overthrow of Milosevic in
+      October 2000. The protests spread to over 400 cities and towns, sustained by student
+      organizations, the ProGlas civic initiative (founded by former University of Belgrade
+      rector Ivanka Popovic, judge Miodrag Majic, and prominent cultural figures like
+      actress Svetlana Bojkovic and actor Dragan Bjelogrlic), and the Green-Left Front.
+
+      The opposition's demands evolved from narrow accountability (release all Novi Sad
+      renovation documents, investigate attacks on students, drop charges against detained
+      protesters, increase higher education funding by 20 percent) to systemic reform (snap
+      elections, media freedom, judicial independence, genuine EU accession progress). The
+      movement forced PM Vucevic's resignation and the appointment of the politically
+      weightless Macut — a tactical victory that demonstrated protest power but did not
+      dislodge the Vucic system itself.
+
+      On foreign policy, the opposition is broadly pro-European but not monolithically so.
+      The mainstream SPN position favors accelerating EU accession, aligning with EU foreign
+      policy (including Russia sanctions), strengthening rule of law and anti-corruption
+      institutions, and reducing dependence on Russian energy and Chinese infrastructure
+      loans. However, there is a significant nationalist strand within the opposition —
+      figures who oppose Vucic not because he is too close to Russia but because he is too
+      willing to compromise on Kosovo. The environmental wing, energized by the lithium
+      mining controversy (where the government reinstated Rio Tinto's Jadar project permit
+      under EU pressure, triggering roadblocks and mass protests in August 2024 before
+      Rio Tinto itself suspended the project in November 2025), adds an anti-extractivist
+      dimension that sometimes conflicts with the pro-EU wing's emphasis on integrating
+      into European supply chains.
+
+      The opposition's greatest weakness is fragmentation and the absence of a single
+      credible leader who can unite the parliamentary parties, the student movement, and
+      civil society. Vucic has systematically co-opted or neutralized potential challengers
+      for over a decade. The greatest strength is demographic: the student protesters are
+      young, digitally connected, and unafraid — a generation that did not experience the
+      1990s wars and feels no nostalgic pull toward Russia or nationalist mythology. They
+      want normal European lives: functional institutions, clean environment, rule of law,
+      and freedom to travel and work in the EU. For this generation, the 1999 NATO bombing
+      is history, not identity.
+
+      In a Suwalki Gap crisis, the opposition will push for Serbia to align with the EU
+      position, condemn Russian aggression, and use the crisis as leverage to demand
+      democratic reforms and genuine EU integration. However, their ability to influence
+      policy is limited by their exclusion from power and the SNS regime's total control
+      of security services and media. The risk is that a nationalist backlash during the
+      crisis — fueled by Russian information operations and regime media amplifying
+      anti-NATO sentiment — could split the opposition between its pro-European and
+      nationalist wings, weakening the reform movement at a critical moment.
+    priorities:
+      - "Force genuine democratic reforms: free media, independent judiciary, transparent governance"
+      - "Demand full accountability for Novi Sad railway station collapse and systemic corruption"
+      - "Accelerate EU accession through alignment with EU foreign policy, including Russia sanctions"
+      - "Block environmentally destructive extractive projects (lithium mining, polluting Chinese factories)"
+      - "Unify fragmented opposition parties, student movement, and civil society ahead of 2026 elections"
+      - "End Vucic's multi-vector diplomacy in favor of clear European orientation"
+    red_lines:
+      - "Government crackdown using emergency powers or military force against peaceful protesters"
+      - "Cancellation or rigging of promised 2026 early elections"
+      - "Serbian military involvement in any Balkan conflict provoked by the Suwalki crisis"
+      - "Further erosion of media freedom or judicial independence under cover of the international crisis"
+      - "Government deals with Russia or China that permanently foreclose EU membership"
+    voice:
+      public: >
+        "Serbia deserves better than a president who attends Putin's parade in Moscow one
+        month and shakes Macron's hand the next. We are not a bridge between East and
+        West — we are a country trapped by a regime that uses geopolitical ambiguity to
+        avoid accountability at home. Three hundred and twenty-five thousand people in the
+        streets of Belgrade did not march because of foreign policy. They marched because
+        sixteen people died under a roof that was supposed to be renovated, and nobody
+        was held accountable. That is the Serbia we are fighting to change."
+      student_voice: >
+        "They tell us to remember 1999. We remember. But we also remember November 1,
+        2024. We remember the names of the sixteen. We remember being beaten for standing
+        in silence. We do not want to live in a country where the president decides
+        everything, the courts decide nothing, and the television tells us everything is
+        fine. We want a normal country. A European country. Is that really too much to ask?"
+      diplomatic: >
+        "Serbia's civil society stands ready to deliver on every EU accession requirement
+        that this government has failed to meet for a decade. Media freedom, judicial
+        reform, anti-corruption, foreign policy alignment — we are not afraid of these
+        conditions. We welcome them. The only obstacle to Serbia's European future is
+        the regime that claims to pursue it."
+    key_relationships:
+      allies: ["EU institutions (accession conditionality as reform leverage)", "European Parliament (cross-party support for Serbian civil society)", "US democracy promotion programs (NED, USAID)", "Regional pro-democracy movements (Montenegro, Bosnia civic groups)"]
+      rivals: ["SNS regime (Vucic system; captured media; security services)", "RU information operations (RT Balkan; Sputnik Srbija; troll networks)", "CN-linked business interests (perceived corruption enablers)"]
+      complex: ["SPN parliamentary opposition (allied but fragmented; personality conflicts)", "Serbian Orthodox Church (culturally conservative but some clergy support protests)", "Diaspora (financial support but also nationalist currents)"]
