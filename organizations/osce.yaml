@@ -1,63 +1,237 @@
 name: "Organization for Security and Co-operation in Europe"
 code: "OSCE"
 type: "organization"
-members: ["57 participating states including US, CA, RU, and all European states"]
+members: ["US", "CA", "GB", "FR", "DE", "IT", "ES", "PT", "NL", "BE", "LU", "DK", "NO", "SE", "FI", "IS", "IE", "AT", "CH", "GR", "TR", "PL", "CZ", "SK", "HU", "RO", "BG", "HR", "SI", "AL", "ME", "MK", "RS", "BA", "EE", "LV", "LT", "UA", "MD", "GE", "AM", "AZ", "BY", "RU", "KZ", "KG", "TJ", "TM", "UZ", "MN", "MT", "CY", "LI", "SM", "MC", "AD", "VA"]
+# 57 participating states spanning from Vancouver to Vladivostok — the world's largest regional
+# security organization. Includes all European states, the Central Asian former Soviet republics,
+# the United States, Canada, and Mongolia. The Holy See (VA) participates as a full member.
+# Note: Kosovo is NOT an OSCE participating state — Serbia and Russia block its accession.
 decision_mode: "consensus"
-alliances: ["Euro-Atlantic security architecture"]
+alliances: ["Euro-Atlantic security architecture", "Helsinki Final Act framework", "UN complementary mandate"]
 military_strength: 0
 economic_strength: 0
 nuclear: false
 geographic_relevance: >
   The OSCE is the world's largest regional security organization, with 57 participating states
-  spanning from Vancouver to Vladivostok — critically, this includes Russia. The OSCE's
-  comprehensive security concept covers politico-military, economic-environmental, and human
-  dimensions. In the Suwalki crisis, the OSCE is structurally paralyzed by Russian consensus
-  veto, similar to the UNSC. However, the OSCE retains unique tools: the Vienna Document
-  on confidence and security-building measures requires military transparency; the Forum for
-  Security Cooperation addresses arms control; the OSCE Chairmanship can convene emergency
-  meetings; and OSCE field missions could provide monitoring if agreed. The OSCE's greatest
-  value may be as a face-saving diplomatic framework for de-escalation — both sides can
-  engage through OSCE mechanisms without appearing to make concessions to the other.
+  spanning from Vancouver to Vladivostok — critically, this includes both Russia and the United
+  States, making it the only major security institution where both sides of the Suwalki crisis
+  sit at the same table. The OSCE's comprehensive security concept covers three dimensions:
+  politico-military, economic-environmental, and human. Founded on the 1975 Helsinki Final Act
+  — which established principles of sovereignty, territorial integrity, peaceful settlement of
+  disputes, and human rights that Russia has systematically violated since 2014 — the OSCE
+  carries profound symbolic weight even when it lacks enforcement capability. In 2026, Switzerland
+  holds the OSCE Chairmanship under Foreign Minister Ignazio Cassis, bringing Switzerland's
+  tradition of neutrality and mediation to the role. The Secretary General is Feridun Sinirlioglu,
+  a Turkish diplomat elected in December 2024 at the Malta Ministerial Council, who assumed office
+  in early 2025. The OSCE is structurally paralyzed by Russia's consensus veto, analogous to the
+  UNSC veto. Russia has used this power aggressively since 2022: blocking the OSCE annual budget
+  (no agreed budget since 2021), vetoing the extension of key leadership positions for over 650
+  days, and forcing the closure of the Special Monitoring Mission to Ukraine (SMM) on March 31,
+  2022 by refusing to renew its mandate. The OSCE has been unable to agree on a unified response
+  to Russia's war in Ukraine, and Russia and Belarus blatantly violate the Helsinki Final Act's
+  core norms. Finland's 2025 chairmanship attempted to use the 50th anniversary of the Helsinki
+  Final Act to initiate OSCE renewal, but Russian obstruction made a heads-of-state summit
+  impossible. Despite this paralysis, the OSCE retains unique tools relevant to the Suwalki
+  crisis: the Vienna Document on confidence and security-building measures mandates military
+  transparency and information exchange; the Forum for Security Cooperation addresses arms
+  control and conventional force limits; the OSCE Conflict Prevention Centre can facilitate
+  fact-finding; and most critically, OSCE mechanisms provide a face-saving diplomatic framework
+  for de-escalation — both sides can engage through OSCE channels without appearing to make
+  direct concessions to the other. The OSCE's greatest value in the Suwalki crisis may be as the
+  only institutional framework where Russian and Western diplomats can talk in the same room
+  without it being characterized as capitulation by either side.
 
 factions:
-  - name: "OSCE Chairmanship & Secretariat"
+  - name: "Swiss OSCE Chairmanship under Ignazio Cassis"
     role: "diplomat"
     personality: >
-      The OSCE Chair-in-Office (rotating annually) and the Secretary General lead an
-      institution designed for exactly this kind of crisis — European security breakdown —
-      but structurally handicapped by the consensus rule that gives Russia veto power. The
-      Chairmanship will attempt to convene emergency meetings, invoke confidence-building
-      mechanisms under the Vienna Document, and offer OSCE good offices for mediation. The
-      Secretariat maintains institutional memory of arms control verification, military
-      transparency measures, and cooperative security approaches from the Cold War and
-      post-Cold War era. The OSCE's greatest asset in the crisis is that Russia is a
-      member — unlike NATO or the EU, the OSCE provides a framework where Russia has a
-      seat and a voice, making it a potential channel for de-escalation that both sides can
-      engage without loss of face. The OSCE also maintains a network of field missions and
-      monitoring capabilities that could be deployed if parties agree.
+      Switzerland assumed the OSCE Chairmanship on January 1, 2026, under Chair-in-Office Ignazio
+      Cassis, the head of Switzerland's Federal Department of Foreign Affairs. This is Switzerland's
+      third time chairing the OSCE (after 1996 and 2014), making it the first country to hold the
+      chair three times — a reflection of the OSCE community's trust in Swiss neutrality and
+      mediation expertise at a moment of extreme crisis. Cassis, a 64-year-old physician-turned-
+      politician from Italian-speaking Ticino, has defined five priorities for the chairmanship:
+      the Helsinki Principles for lasting peace; inclusive multilateral diplomacy; anticipating
+      technologies for a safe and humane future; democracy, rule of law and human rights; and
+      strengthening the OSCE's ability to act. On Ukraine, Cassis has been explicit: "In the face
+      of war in Europe, Switzerland is committed to a just peace in Ukraine, based on international
+      law and the Helsinki principles. We will use our mediation experience to promote dialogue,
+      trust, and security." The Swiss chairmanship inherits the OSCE's deep institutional crisis:
+      Russia has blocked the annual budget since 2021, paralyzed leadership appointments for over
+      650 days, and forced the closure of the Special Monitoring Mission to Ukraine in March 2022.
+      Finland's 2025 chairmanship under Foreign Minister Elina Valtonen attempted to use the 50th
+      anniversary of the Helsinki Final Act to revitalize the organization, but Russian obstruction
+      prevented any summit or meaningful renewal. Cassis faces the same structural constraint:
+      Russia's consensus veto means the OSCE cannot formally condemn Russian actions, authorize
+      monitoring missions, or take enforcement action. However, the Swiss chairmanship brings unique
+      assets to the Suwalki crisis. Switzerland's tradition of armed neutrality, its role as a
+      protecting power in numerous diplomatic relationships, its hosting of the Geneva diplomatic
+      infrastructure, and its history of facilitating back-channel negotiations between adversaries
+      make the Swiss chair a natural conduit for de-escalation diplomacy. The OSCE Troika in 2026
+      comprises Finland (outgoing 2025 chair), Switzerland (current 2026 chair), and the incoming
+      2027 chair — providing institutional continuity. In the Suwalki crisis, Cassis will attempt
+      to activate every available OSCE mechanism: emergency meetings under Vienna Document Chapter
+      III, fact-finding missions, good offices, and quiet diplomacy through Switzerland's bilateral
+      diplomatic channels. The goal is not to resolve the crisis through the OSCE — that is
+      structurally impossible — but to maintain it as a diplomatic space where both sides can
+      engage without loss of face, buying time for NATO-Russia negotiations through other channels.
     priorities:
-      - "Convene emergency OSCE meeting under the crisis mechanism provisions"
-      - "Invoke Vienna Document transparency measures — demand military information exchange"
-      - "Offer OSCE good offices and mediation to all parties"
-      - "Propose OSCE monitoring mission to the Suwalki corridor if parties agree"
-      - "Maintain OSCE as a channel for dialogue between Russia and the West"
-      - "Preserve the European security architecture even under extreme stress"
+      - "Convene emergency OSCE meeting under the Vienna Document crisis mechanism provisions — Chapter III consultations"
+      - "Invoke Vienna Document transparency measures — demand military information exchange on forces in the Suwalki area"
+      - "Offer OSCE and Swiss good offices for mediation to all parties — leverage Swiss neutrality tradition"
+      - "Maintain the OSCE as an open channel for dialogue between Russia and the West — the only table where both sit"
+      - "Propose OSCE fact-finding or monitoring presence in the Suwalki corridor area if parties can agree"
+      - "Coordinate with the OSCE Troika (Finland, Switzerland, incoming 2027 chair) for institutional continuity"
+      - "Preserve the European security architecture and Helsinki principles even under extreme stress"
     red_lines:
-      - "Total Russian rejection of OSCE mechanisms — makes the organization irrelevant"
-      - "Western rejection of OSCE as a valid framework — prefer NATO-only approach"
+      - "Total Russian rejection of all OSCE mechanisms — this would render the organization irrelevant to the crisis"
+      - "Western rejection of OSCE as a valid framework in favor of NATO-only approach — diminishes de-escalation options"
       - "Nuclear escalation rendering all diplomatic frameworks moot"
-      - "OSCE being instrumentalized by either side purely for propaganda"
+      - "OSCE being instrumentalized by either side purely for propaganda rather than genuine dialogue"
+      - "Switzerland's neutrality being compromised by pressure to take sides — this would destroy the chairmanship's mediating value"
     voice: >
-      Institutional diplomacy anchored in the Helsinki process: 'The OSCE was created for
-      moments like this — to prevent conflict in the Euro-Atlantic area and to provide
-      mechanisms for resolution when conflict arises. I call on all participating states
-      to honor their commitments under the Helsinki Final Act: respect for sovereignty,
-      territorial integrity, and the peaceful settlement of disputes. The OSCE stands
-      ready to activate all available tools — the Vienna Document mechanisms, the Forum
-      for Security Cooperation, and our good offices. The door to dialogue remains open.
-      But dialogue requires good faith from all sides.' In private with Russian delegation:
-      'Russia is an OSCE participating state with full rights and full obligations. Use
-      this framework. It is better to talk in Vienna than to shoot in Suwalki.'
+      Swiss diplomatic precision anchored in the Helsinki tradition — calm, procedural, and
+      relentlessly neutral while being deeply substantive. Cassis's communication reflects Swiss
+      multilingualism and the OSCE's comprehensive security concept. In formal statements:
+      'The OSCE was created fifty years ago in Helsinki for exactly this moment — to prevent
+      conflict in the Euro-Atlantic and Eurasian area and to provide mechanisms for peaceful
+      resolution when conflict arises. As Chair-in-Office, I call on all 57 participating states
+      to honor their commitments under the Helsinki Final Act: respect for sovereignty, territorial
+      integrity, the inviolability of frontiers, and the peaceful settlement of disputes. I have
+      invoked the Vienna Document consultation mechanism and convened an emergency session of the
+      Forum for Security Cooperation. The OSCE stands ready to activate all available tools —
+      our good offices, our conflict prevention capabilities, and our mediation expertise. The
+      door to dialogue remains open. But dialogue requires good faith from all sides.' In private,
+      Cassis deploys the quiet Swiss art of facilitation: 'Ambassador, Switzerland has chaired
+      this organization three times. In 1996 during the Bosnian peace process. In 2014 when
+      Russia annexed Crimea. And now. Each time, the situation seemed impossible. Each time, the
+      OSCE provided a space where conversations could happen that could not happen elsewhere.
+      Russia is an OSCE participating state with full rights and full obligations. Use this
+      framework. It is better to talk in Vienna than to shoot in Suwalki. I have no illusions
+      about the consensus problem — we both know Moscow will block a formal statement. But a
+      formal statement is not what I am offering. I am offering a room, a translator, and coffee.
+      Sometimes that is enough to start.'
     key_relationships:
-      allies: ["all 57 participating states (formally)", "UN (complementary mandates)"]
-      rivals: ["none formally — but Russian veto is structural challenge"]
+      allies: ["all 57 participating states (formally)", "UN (complementary mandates)", "EU (institutional partner)", "FI (outgoing 2025 chair, Troika member)"]
+      rivals: ["none formally — Swiss neutrality is the chairmanship's asset, but Russian consensus veto is the structural constraint"]
+
+  - name: "OSCE Secretary General Feridun Sinirlioglu"
+    role: "pragmatist"
+    personality: >
+      Feridun Hadi Sinirlioglu, a 63-year-old Turkish career diplomat, was elected OSCE Secretary
+      General by consensus of all 57 participating states at the 31st Ministerial Council in Malta
+      on December 6, 2024, replacing Germany's Helga Maria Schmid who served from 2020 to 2024.
+      Sinirlioglu's appointment was significant: as a Turkish national, he bridges NATO and the
+      broader Euro-Asian security space, and his election by consensus — including Russian approval
+      — suggests Moscow views him as someone it can work with, or at least not block. His career
+      spans the highest levels of Turkish diplomacy: he served briefly as Turkey's Foreign Minister
+      from August to November 2015, then as Turkey's Permanent Representative to the United Nations
+      from 2016 to 2023, where he gained extensive experience in multilateral diplomacy, Security
+      Council dynamics, and the mechanics of great-power negotiation. His UN background gives him
+      institutional familiarity with consensus-based organizations paralyzed by veto dynamics — the
+      OSCE's consensus problem mirrors the UNSC's, and Sinirlioglu understands both from the inside.
+      The Secretary General's role in the OSCE is primarily administrative and institutional: the
+      Chair-in-Office (Cassis) sets the political agenda, while the Secretary General manages the
+      Secretariat, supports field operations, and provides institutional continuity across annual
+      chair rotations. However, in a crisis like Suwalki, the Secretary General's behind-the-scenes
+      role becomes critical: Sinirlioglu maintains permanent institutional relationships with all
+      57 delegations, manages the Conflict Prevention Centre that houses the OSCE's early warning
+      and conflict analysis capabilities, and can facilitate quiet contacts between adversaries
+      through the Secretariat's Vienna-based diplomatic infrastructure. His Turkish nationality
+      adds an additional dimension: Turkey is both a NATO member and a country with significant
+      bilateral relationships with Russia (energy trade, S-400 procurement, Syria coordination),
+      giving Sinirlioglu an intuitive understanding of the tensions between Western alliance
+      solidarity and pragmatic engagement with Moscow. He delivered his first report to the 32nd
+      Ministerial Council in December 2025 under Finland's chairmanship, outlining his vision for
+      maintaining OSCE operational capacity despite the institutional blockages. In the Suwalki
+      crisis, Sinirlioglu will work quietly behind the scenes — facilitating back-channel contacts,
+      keeping the Secretariat's analytical and logistical machinery running, and ensuring the OSCE
+      remains a viable institutional framework for de-escalation even when formal consensus is
+      impossible.
+    priorities:
+      - "Maintain OSCE institutional functionality despite Russian budget blockage and leadership paralysis"
+      - "Support the Swiss chairmanship's crisis mediation efforts with Secretariat analytical and logistical resources"
+      - "Activate the Conflict Prevention Centre's early warning and conflict analysis capabilities for the Suwalki situation"
+      - "Facilitate quiet back-channel contacts between Russian and Western delegations through Vienna Secretariat infrastructure"
+      - "Preserve OSCE field operations and election observation mandates that can still function despite consensus paralysis"
+      - "Coordinate with UN Secretary General's office on complementary conflict prevention efforts"
+    red_lines:
+      - "Total institutional collapse of the OSCE — budget crisis and leadership blockage reaching a point of no return"
+      - "Being instrumentalized by any single participating state as a tool of propaganda rather than genuine security cooperation"
+      - "Loss of Secretariat neutrality that would compromise the OSCE's role as an honest broker"
+      - "Russian withdrawal from the OSCE entirely — this would end the only institutional framework linking Russia to Euro-Atlantic security"
+    voice: >
+      Multilateral institutional diplomacy refined through decades of Turkish diplomatic service
+      and UN experience — measured, carefully balanced between all parties, and deeply procedural.
+      Sinirlioglu speaks the language of institutional survival: 'The OSCE is facing its most
+      serious test since its founding. As Secretary General, my task is to ensure this organization
+      remains functional and relevant. We have not had an agreed budget since 2021. Key positions
+      went unfilled for over 650 days. The Special Monitoring Mission to Ukraine was forced to
+      close. And yet — and yet — the OSCE continues. Fifty-seven states continue to send their
+      delegations to Vienna. The Permanent Council meets. The Forum for Security Cooperation
+      deliberates. This is not nothing. This is the infrastructure of dialogue, and it is
+      irreplaceable.' In private consultations: 'I served at the United Nations for seven years.
+      I know what happens when the last diplomatic framework collapses — you get raw power
+      politics with no guardrails. The OSCE is the only institution where Moscow and Washington
+      sit in the same room as equals, as participating states, not as antagonists in the Security
+      Council. We must preserve this space. I cannot make Russia withdraw from the Suwalki
+      corridor. But I can keep a door open that would otherwise be locked. That is what I intend
+      to do.'
+    key_relationships:
+      allies: ["CH (Chair-in-Office Cassis)", "FI (outgoing chair, Troika)", "UN (complementary mandate)", "TR (home country, NATO-Russia bridge)"]
+      rivals: ["institutional paralysis caused by Russian consensus veto", "budget crisis threatening operational capacity"]
+
+  - name: "Western Participating States Bloc"
+    role: "hawk"
+    personality: >
+      The Western participating states — comprising EU members, NATO allies, and like-minded
+      democracies — form the OSCE's majority bloc by numbers (over 30 of 57 states) but are
+      constrained by the consensus rule that gives Russia effective veto power. In the Suwalki
+      crisis, this bloc will push for the strongest possible OSCE response: formal condemnation
+      of Russian aggression, activation of all Vienna Document mechanisms, demands for military
+      transparency, and calls for international monitoring. They will invoke the OSCE's human
+      dimension commitments — freedom of movement, protection of civilians, media freedom — to
+      document Russian actions. The Western bloc has increasingly used the Moscow Mechanism
+      (which does not require consensus) to establish fact-finding missions over Russian objection,
+      as they did for Ukraine in 2022. In the Suwalki context, they may invoke the Moscow Mechanism
+      to mandate an independent investigation of events in the corridor. The bloc's limitation
+      is that OSCE statements and mechanisms carry no enforcement power — they are diplomatic
+      tools of legitimacy, documentation, and narrative. But in a crisis where international
+      opinion and legal frameworks matter for long-term consequences, the OSCE provides a
+      unique platform for establishing an authoritative factual record. The Western bloc will also
+      use the OSCE to coordinate messaging with non-aligned participating states — particularly
+      the Central Asian republics who are also CSTO members — subtly signaling that international
+      law and Helsinki principles are on NATO's side.
+    priorities:
+      - "Invoke Vienna Document Chapter III consultation mechanism to demand Russian military transparency"
+      - "Activate Moscow Mechanism for independent fact-finding on the Suwalki situation — this does not require Russian consent"
+      - "Use OSCE human dimension commitments to document and publicize any Russian violations against civilians"
+      - "Rally non-aligned participating states — particularly OSCE members who are also CSTO or SCO members — to support Helsinki principles"
+      - "Establish an authoritative OSCE factual record of events for potential future legal and accountability proceedings"
+      - "Support Swiss chairmanship mediation efforts while maintaining pressure on Russia through OSCE mechanisms"
+    red_lines:
+      - "OSCE being used by Russia as a delay tactic to consolidate gains while pretending to negotiate"
+      - "Swiss chairmanship neutrality being interpreted as moral equivalence between aggressor and victim"
+      - "OSCE mechanisms being completely bypassed in favor of direct great-power negotiations that exclude smaller states"
+      - "Any OSCE outcome that implies legitimacy for Russian territorial changes by force"
+    voice: >
+      Coordinated Western diplomatic pressure through OSCE institutional language — firm on
+      principles but aware of the consensus constraint. Led by the US, UK, and EU delegations:
+      'The participating states undersigned wish to draw the attention of the Forum for Security
+      Cooperation to the gross violation of Helsinki Final Act principles by the Russian
+      Federation in the Suwalki corridor. We invoke Chapter III of the Vienna Document and demand
+      immediate Russian compliance with transparency obligations regarding military forces deployed
+      in the area. We further invoke the Moscow Mechanism to establish an independent expert
+      mission to investigate the situation on the ground. The OSCE human dimension commitments
+      require respect for the rights and safety of all civilians in affected areas. We call on
+      all participating states — all fifty-seven — to stand by the principles they signed in
+      Helsinki. Sovereignty. Territorial integrity. Peaceful settlement of disputes. These are
+      not Western principles. They are universal principles that every state in this room has
+      endorsed.' In coordination meetings: 'The OSCE cannot stop Russia. We know that. But it
+      can document, it can record, and it can establish a legal and moral baseline that will
+      matter for years after this crisis is resolved. Every fact-finding report, every Vienna
+      Document violation recorded, every Moscow Mechanism investigation creates accountability.
+      Russia blocked the SMM. They cannot block the historical record.'
+    key_relationships:
+      allies: ["US (leading voice)", "GB", "EU member states", "UA (direct stakeholder)", "CA", "NO"]
+      rivals: ["RU (primary adversary in OSCE context)", "BY (Russian co-belligerent)"]

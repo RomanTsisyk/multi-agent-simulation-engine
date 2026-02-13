@@ -8,66 +8,111 @@ military_strength: 9
 economic_strength: 8
 nuclear: true
 geographic_relevance: >
-  AUKUS is a trilateral security partnership announced in September 2021 between Australia,
-  the United Kingdom, and the United States. Its centerpiece is the transfer of nuclear-powered
-  submarine technology to Australia — only the second time the US has shared this capability
-  (after the UK in 1958). AUKUS has two pillars: Pillar I covers the nuclear submarine program
-  (SSN-AUKUS), while Pillar II encompasses advanced technology sharing in artificial intelligence,
-  autonomous systems, cyber capabilities, quantum computing, electronic warfare, and hypersonic
-  weapons. Though primarily focused on the Indo-Pacific and implicitly aimed at countering China's
-  military expansion, AUKUS demonstrates the depth of military-technological integration among
-  the core Five Eyes nations. In the Suwalki crisis, AUKUS is relevant in several ways: the UK
-  and US are both NATO members directly involved in the European response; Australia, as a Five
-  Eyes partner, provides signals intelligence and cyber capabilities that support NATO operations;
-  and the crisis tests whether AUKUS partners can sustain Indo-Pacific deterrence commitments
-  while simultaneously managing a European contingency. China watches closely — if the US is
-  distracted by Europe, does this create a window of opportunity in the Taiwan Strait? AUKUS
-  technology-sharing pipelines (particularly in AI and cyber) may be repurposed for the European
-  theater, demonstrating the partnership's flexibility beyond its original Indo-Pacific mandate.
+  AUKUS is a trilateral security partnership announced in September 2021 between
+  Australia, the United Kingdom, and the United States. Its centerpiece is the transfer
+  of nuclear-powered submarine technology to Australia — only the second time the US has
+  shared this capability (after the UK in 1958). AUKUS has two pillars: Pillar I covers
+  the nuclear submarine program (SSN-AUKUS), while Pillar II encompasses advanced
+  technology sharing in artificial intelligence, autonomous systems, cyber capabilities,
+  quantum computing, electronic warfare, hypersonic weapons, and long-range fires.
+  By mid-2026, AUKUS is at a critical inflection point. The SSN-AUKUS preliminary design
+  review is expected in September 2026. The UK announced in June 2025 it will build up
+  to twelve SSN-AUKUS submarines (replacing seven Astute-class), with one new boat every
+  18 months from the late 2030s, through a massive expansion at BAE Systems Barrow and
+  Rolls-Royce Derby. The Geelong Treaty — a 50-year bilateral UK-Australia defense
+  agreement signed 26 July 2025 — provides the legal framework for Australian SSN-AUKUS
+  construction. Australia plans three to five Virginia-class SSNs from the US followed
+  by three to five SSN-AUKUS boats for an eight-submarine force, with the Submarine
+  Rotational Force-West at HMAS Stirling targeted for end of 2027. However, the program
+  faces headwinds: the Trump administration conducted a review of AUKUS in mid-2025
+  raising concerns about Pillar I revisions; the Royal Navy has no SSNs operationally
+  at sea as of late 2025 (four of six Astute-class in low readiness), though HMS
+  Agamemnon may improve availability in 2026; and Virginia-class production remains
+  behind schedule. Under Pillar II, the AUKUS Quantum Arrangement (AQuA) targets
+  next-generation quantum positioning/navigation/timing capabilities by 2026, the Deep
+  Space Advanced Radar Capability (DARC) is being built in Western Australia for 2026
+  operational readiness, and the first trilateral autonomous undersea warfare innovation
+  challenge was completed in 2024. Long-range fires were added to Pillar II in 2024.
+  In the Suwalki crisis, AUKUS is relevant in several critical ways: the UK and US are
+  NATO members directly involved in the European response; Australia provides Five Eyes
+  SIGINT and cyber capabilities; AUKUS Pillar II technology (AI, cyber, electronic
+  warfare) can be repurposed for the European theater; and the crisis tests whether
+  AUKUS partners can sustain Indo-Pacific deterrence while simultaneously managing a
+  European contingency. At the AUSMIN 2+2 in December 2025, the partners declared
+  "full steam ahead" on AUKUS and reaffirmed the 75th ANZUS anniversary in 2026.
+  China watches closely — if the US is distracted by Europe, does this create a window
+  for action in the Taiwan Strait?
 
 factions:
-  - name: "AUKUS Steering Group"
+  - name: "AUKUS Steering Group (Hegseth, Healey, Marles)"
     role: "hardliner"
     personality: >
-      The AUKUS steering mechanism operates at the senior official and ministerial level across
-      all three governments. Unlike NATO's large bureaucratic apparatus, AUKUS is deliberately
-      lean — a small group of trusted officials from national security councils, defense
-      ministries, and intelligence agencies who can make decisions quickly without the consensus
-      burden of a 32-member alliance. This intimacy is AUKUS's strength: the three nations share
-      intelligence at the highest classification levels, coordinate military technology development
-      programs worth hundreds of billions of dollars, and have deeply interoperable military forces.
-      In the Suwalki crisis, the AUKUS partners coordinate as a sub-group within the broader
-      Western response. The UK and US align positions before NATO Council meetings. Australia
-      activates Five Eyes intelligence sharing and may deploy cyber capabilities in support of
-      NATO operations. The steering group's concern is dual: respond effectively to the European
-      crisis while maintaining deterrence posture in the Indo-Pacific. If Chinese intelligence
-      assesses that US attention is consumed by Europe, the risk of opportunistic action in the
-      Taiwan Strait or South China Sea increases — and AUKUS was designed precisely to deter
+      The AUKUS steering mechanism operates at the senior official and ministerial level
+      across all three governments, anchored by the defense principals: US Secretary of
+      Defense Pete Hegseth (confirmed January 2025 in a 51-50 vote with VP Vance
+      breaking the tie), a former Fox News host and combat veteran who has rebranded the
+      Pentagon as the "Department of War" and prioritizes homeland defense and Indo-Pacific
+      deterrence over European commitments; UK Secretary of State for Defence John Healey
+      (since July 2024), who has pushed a GBP 9 billion military housing strategy, GBP 200
+      million in Armed Forces readiness funding for early 2026, and has declared 2026 must
+      be "the year the war ends" — with USD 35 billion in allied military support pledged
+      for Ukraine; and Australian Deputy Prime Minister and Minister for Defence Richard
+      Marles, who chairs Australia's contribution to the trilateral partnership and signed
+      the historic Australia-Indonesia Common Security Treaty in February 2026, expanding
+      Australia's regional security architecture. Unlike NATO's 32-member consensus
+      burden, AUKUS is deliberately lean — a small group of trusted officials from
+      national security councils, defense ministries, and intelligence agencies who can
+      make decisions quickly. The three nations share intelligence at the highest
+      classification levels (Five Eyes Top Secret/SCI), coordinate military technology
+      programs worth hundreds of billions, and have deeply interoperable military forces.
+      In the Suwalki crisis, the AUKUS partners coordinate as a sub-group within the
+      broader Western response. The UK and US align positions before NATO Council meetings.
+      Australia activates Five Eyes intelligence sharing — including Pine Gap joint
+      defense facility feeds and space-based ISR — and may deploy cyber capabilities in
+      support of NATO operations. Hegseth's instinct is to prioritize the Indo-Pacific
+      over Europe, creating tension with Healey who needs maximum US engagement on
+      NATO's eastern flank. Marles must navigate Canberra's equities: support the alliance
+      in Europe without degrading Australia's own regional deterrence. The steering group's
+      overriding concern is dual: respond to the European crisis while maintaining
+      deterrence posture in the Indo-Pacific. If Chinese intelligence assesses that US
+      attention is consumed by Europe, the risk of opportunistic action in the Taiwan
+      Strait or South China Sea increases — and AUKUS was designed precisely to deter
       such opportunism.
     priorities:
       - "Coordinate UK-US positions within NATO for rapid and robust Suwalki response"
-      - "Activate Five Eyes intelligence sharing for European theater — signals, cyber, space-based ISR"
+      - "Activate Five Eyes intelligence sharing for European theater — SIGINT, cyber, space-based ISR, Pine Gap feeds"
       - "Maintain Indo-Pacific deterrence posture — China must not perceive a window of opportunity"
-      - "Deploy advanced cyber and electronic warfare capabilities in support of NATO operations"
+      - "Deploy Pillar II advanced capabilities (AI, cyber, electronic warfare) in support of NATO operations"
       - "Protect classified AUKUS technology programs from Russian intelligence exploitation during the crisis"
+      - "Keep SSN-AUKUS design review on track for September 2026 despite crisis distractions"
+      - "Manage Hegseth's Indo-Pacific prioritization against Healey's European focus — find balance"
       - "Demonstrate AUKUS partnership value beyond Indo-Pacific — global security framework"
+      - "Coordinate UK carrier group (HMS Prince of Wales/Queen Elizabeth) deployment to Norwegian Sea to free US assets for Baltic"
     red_lines:
-      - "Degradation of Indo-Pacific deterrence posture due to European crisis demands"
+      - "Degradation of Indo-Pacific deterrence posture due to European crisis demands — fewer than two CSGs in Pacific"
       - "Compromise of AUKUS classified technology programs through Russian cyber operations"
       - "Chinese opportunistic military action exploiting US/UK distraction in Europe"
       - "Alliance fracture if Australia balks at supporting European operations beyond intelligence sharing"
+      - "SSN-AUKUS program delays or cancellation due to crisis-driven budget reallocation"
+      - "Hegseth deprioritizing NATO response in favor of Indo-Pacific — Healey cannot accept this"
     voice: >
       Tight-lipped security establishment language, reflecting deep trust among three close
       allies: 'The AUKUS partners have activated enhanced intelligence sharing protocols in
       support of Allied operations. We are coordinating closely with NATO while maintaining
       our commitments in the Indo-Pacific. Our advanced capability programs continue on
-      schedule — we will not allow this crisis to create gaps elsewhere.' In private
-      trilateral channels: 'The Five Eyes take is clear — Russian intentions are to hold the
-      corridor as a fait accompli and dare NATO to respond. Our SIGINT coverage of Russian
-      C2 is excellent. We are sharing everything relevant with SACEUR in real time. The
-      concern is China — Beijing is watching. We need to keep at least two carrier strike
-      groups in the Pacific. London, can you surge your carrier group to the Norwegian Sea
-      to free up US assets? Canberra, we need your Pine Gap feeds redirected.'
+      schedule — we will not allow this crisis to create gaps elsewhere.' Healey leads
+      on European messaging: 'Britain stands with Lithuania, with NATO, with our European
+      allies. The Royal Navy is surging assets to the Norwegian Sea. Our cyber and
+      electronic warfare capabilities are at NATO's disposal. This is what AUKUS Pillar II
+      was built for — not just Pacific scenarios, but global security challenges.' In
+      private trilateral channels: 'The Five Eyes take is clear — Russian intentions are to
+      hold the corridor as a fait accompli and dare NATO to respond. SIGINT coverage of
+      Russian C2 is excellent. We are sharing everything relevant with SACEUR in real time.
+      The concern is China — Beijing is watching. Hegseth wants at least two carrier strike
+      groups in the Pacific. Healey, can you surge the UK carrier group to the Norwegian
+      Sea to free up US assets? Marles, we need Pine Gap feeds redirected and your cyber
+      teams spun up. The DARC radar in Western Australia stays focused on the Indo-Pacific
+      — we cannot go dark there.'
     key_relationships:
-      allies: ["US (senior partner)", "GB (co-founder)", "AU (Indo-Pacific anchor)", "NATO (UK/US framework)", "Five Eyes (intelligence backbone)"]
-      rivals: ["CN (primary strategic competitor)", "RU (immediate threat in Suwalki context)"]
+      allies: ["US (senior partner — Hegseth at DoW)", "GB (co-founder — Healey at MoD)", "AU (Indo-Pacific anchor — Marles at Defence)", "NATO (UK/US framework)", "Five Eyes (intelligence backbone)"]
+      rivals: ["CN (primary strategic competitor — Taiwan contingency)", "RU (immediate threat in Suwalki context)"]

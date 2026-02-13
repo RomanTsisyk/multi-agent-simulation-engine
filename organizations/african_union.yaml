@@ -1,70 +1,276 @@
 name: "African Union"
 code: "AU_ORG"
 type: "organization"
-members: ["55 African member states"]
+founded: 2002
+headquarters: "Addis Ababa, Ethiopia"
+members:
+  # 55 member states (all African sovereign states), grouped by region
+  # Note: 6 members suspended as of mid-2026 due to unconstitutional changes of government
+  # Eastern Africa (13):
+  - "KM"   # Comoros
+  - "DJ"   # Djibouti
+  - "ER"   # Eritrea
+  - "ET"   # Ethiopia
+  - "KE"   # Kenya
+  - "MG"   # Madagascar (SUSPENDED Oct 2025 -- military coup)
+  - "MU"   # Mauritius
+  - "RW"   # Rwanda
+  - "SC"   # Seychelles
+  - "SO"   # Somalia
+  - "SD"   # Sudan (SUSPENDED -- civil war, competing military factions)
+  - "TZ"   # Tanzania
+  - "UG"   # Uganda
+  # Northern Africa (7):
+  - "DZ"   # Algeria
+  - "EG"   # Egypt
+  - "LY"   # Libya
+  - "MR"   # Mauritania
+  - "MA"   # Morocco (rejoined 2017)
+  - "EH"   # Sahrawi Arab Democratic Republic (Western Sahara)
+  - "TN"   # Tunisia
+  # Southern Africa (10):
+  - "AO"   # Angola
+  - "BW"   # Botswana
+  - "LS"   # Lesotho
+  - "MW"   # Malawi
+  - "MZ"   # Mozambique
+  - "NA"   # Namibia
+  - "ZA"   # South Africa
+  - "SZ"   # Eswatini (Swaziland)
+  - "ZM"   # Zambia
+  - "ZW"   # Zimbabwe
+  # Western Africa (15):
+  - "BJ"   # Benin
+  - "BF"   # Burkina Faso (SUSPENDED -- military coup Sept 2022)
+  - "CV"   # Cape Verde (Cabo Verde)
+  - "CI"   # Cote d'Ivoire (Ivory Coast)
+  - "GM"   # Gambia
+  - "GH"   # Ghana
+  - "GN"   # Guinea (SUSPENDED -- military coup Sept 2021)
+  - "GW"   # Guinea-Bissau
+  - "LR"   # Liberia
+  - "ML"   # Mali (SUSPENDED -- military coup Aug 2020)
+  - "NE"   # Niger (SUSPENDED -- military coup July 2023)
+  - "NG"   # Nigeria
+  - "SN"   # Senegal
+  - "SL"   # Sierra Leone
+  - "TG"   # Togo
+  # Central Africa (9):
+  - "BI"   # Burundi
+  - "CM"   # Cameroon
+  - "CF"   # Central African Republic
+  - "TD"   # Chad
+  - "CG"   # Republic of the Congo
+  - "CD"   # Democratic Republic of the Congo
+  - "GQ"   # Equatorial Guinea
+  - "GA"   # Gabon (suspension lifted April 2025)
+  - "ST"   # Sao Tome and Principe
+  # Additional:
+  - "SS"   # South Sudan (joined 2011)
+
+suspended_members:
+  - code: "BF"
+    reason: "Military coup (September 2022)"
+  - code: "GN"
+    reason: "Military coup (September 2021)"
+  - code: "ML"
+    reason: "Military coup (August 2020)"
+  - code: "NE"
+    reason: "Military coup (July 2023)"
+  - code: "SD"
+    reason: "Conflict between SAF and RSF (April 2023)"
+  - code: "MG"
+    reason: "Military coup (October 2025)"
+
 decision_mode: "qualified_majority"
-alliances: ["UN partnership", "EU-AU partnership"]
+alliances: ["UN partnership", "EU-AU partnership", "China-Africa Cooperation (FOCAC)"]
 military_strength: 1
 economic_strength: 3
 nuclear: false
+
+leadership:
+  commission_chairperson:
+    name: "Mahmoud Ali Youssouf"
+    nationality: "Djiboutian"
+    assumed_office: "13 March 2025"
+    term: "4 years, renewable once"
+    background: >
+      Former Minister of Foreign Affairs of Djibouti. Previously served as
+      Chairperson of the Council of Ministers of both the Arab League and the
+      Organisation of Islamic Cooperation. Succeeded Moussa Faki Mahamat (Chad),
+      who served two consecutive terms from 2017-2025.
+  deputy_commission_chairperson:
+    name: "Selma Malika Haddadi"
+    nationality: "Algerian"
+  rotating_chairperson:
+    name: "Joao Manuel Goncalves Lourenco"
+    nationality: "Angolan"
+    role: "President of Angola, AU Assembly Chairperson (Feb 2025 - Feb 2026)"
+    notes: >
+      Succeeded Mauritanian President Mohamed Ould Cheikh El Ghazouani. The
+      Republic of the Congo has expressed interest in the 2026 chairpersonship.
+
 geographic_relevance: >
-  The African Union represents 55 nations and 1.4 billion people, making it the largest
-  regional organization by membership after the UN. In the Suwalki crisis, the AU's relevance
-  is primarily through three channels: (1) Food security — Africa is critically dependent on
-  Russian and Ukrainian grain exports, and the Suwalki crisis threatens to repeat the food
-  price shocks of 2022 that caused famine conditions across the Sahel, Horn of Africa, and
-  East Africa. The Black Sea Grain Initiative and its successors could be disrupted. (2) UN
-  General Assembly votes — Africa's 55 votes are the largest bloc in the UNGA and determine
-  whether resolutions condemning Russia pass with overwhelming or narrow majorities. Western
-  and Russian diplomats compete intensely for African votes. (3) Global South solidarity —
-  the AU's position on the crisis shapes the broader narrative about whether this is "the
-  world versus Russia" or "the West versus Russia." Many African nations have been alienated
-  by perceived Western double standards (intervention in Libya but not for African conflicts)
-  and Russia has exploited this through Wagner Group presence and anti-colonial rhetoric.
+  The African Union represents 55 nations and over 1.4 billion people, making it the
+  largest regional organization by membership after the UN. In the Suwalki crisis, the
+  AU's relevance is primarily through three channels: (1) Food security -- Africa is
+  critically dependent on Russian and Ukrainian grain exports, and the Suwalki crisis
+  threatens to repeat the food price shocks of 2022 that caused famine conditions across
+  the Sahel, Horn of Africa, and East Africa. Russia terminated the Black Sea Grain
+  Initiative in July 2023, and any further disruption to global food supply chains from
+  a NATO-Russia confrontation would devastate Africa. (2) UN General Assembly votes --
+  Africa's 55 votes are the largest bloc in the UNGA and determine whether resolutions
+  condemning Russia pass with overwhelming or narrow majorities. The February 2025 UNGA
+  vote on Ukraine showed the trend: across all six Ukraine-related UNGA votes, African
+  countries cast 140 votes in favor of condemning Russia, 18 against, but 166 abstentions
+  or absences -- meaning more African votes were withheld than cast. Western and Russian
+  diplomats compete intensely for African votes. (3) Russia-Africa relations -- Russia has
+  significantly expanded its African footprint through the Africa Corps (successor to the
+  Wagner Group), which operates in Mali, Burkina Faso, Niger, Central African Republic,
+  Libya, and Sudan. These Sahel states -- Mali, Burkina Faso, and Niger -- formed the
+  Alliance of Sahel States (AES) and have expelled French forces in favor of Russian
+  military partnership. All three are suspended from the AU for military coups. Russia
+  uses anti-colonial rhetoric to build support, framing the Suwalki crisis as Western
+  aggression rather than Russian expansionism. The AU's new Commission Chairperson,
+  Mahmoud Ali Youssouf of Djibouti, must navigate between Western pressure for
+  condemnation and African states that view Russia as a counter-balance to Western
+  dominance. Angolan President Lourenco, as AU Assembly Chair, brings credibility as
+  a pragmatic leader who has balanced Western and Russian relations.
 
 factions:
-  - name: "AU Commission & Peace and Security Council"
+  - name: "AU Commission Chairperson Mahmoud Ali Youssouf & Peace and Security Council"
     role: "pragmatist"
     personality: >
-      The AU Commission and its Peace and Security Council approach the Suwalki crisis through
-      an African interest lens that both sides often overlook. Africa's priority is not who wins
-      the geopolitical competition but what happens to African people: food prices, energy costs,
-      and the diversion of international development resources toward European rearmament. The
-      AU has been frustrated by the Ukraine war's impact on Africa — grain disruptions caused
-      food crises, energy price spikes hit African economies, and Western attention shifted
-      entirely to European security while African conflicts continued unaddressed. The AU
-      Commission fears the Suwalki crisis will be worse: a direct NATO-Russia confrontation
-      could trigger global recession, destroy grain export capacity, and divert the entire
-      international community's attention from African development. The AU's diplomatic
-      approach is to insist that African voices are heard in crisis resolution, to demand
-      protection of African food security regardless of the conflict's outcome, and to
-      avoid being pressured into taking sides. Some AU members (South Africa, Algeria,
-      Mali, Burkina Faso) lean toward Russia; others (Nigeria, Kenya, Ghana) lean Western;
-      most prefer genuine non-alignment.
+      Mahmoud Ali Youssouf, the newly elected AU Commission Chairperson from Djibouti,
+      assumed office on 13 March 2025, succeeding Moussa Faki Mahamat of Chad. Youssouf
+      brings a distinctive perspective: Djibouti hosts both French and American military
+      bases (the only country with both), as well as China's only overseas military base,
+      making him personally experienced in great power balancing. His background in the
+      Arab League and OIC gives him connections beyond the African continent. The AU
+      Commission and its Peace and Security Council approach the Suwalki crisis through
+      an African interest lens that both sides often overlook. Africa's priority is not
+      who wins the geopolitical competition but what happens to African people: food prices,
+      energy costs, and the diversion of international development resources toward European
+      rearmament. The AU has been deeply frustrated by the Ukraine war's impact on Africa --
+      grain disruptions caused food crises, energy price spikes hit African economies, and
+      Western attention shifted entirely to European security while African conflicts (Sudan's
+      civil war, eastern DRC's M23 rebellion, Somalia's Al-Shabaab, Sahel jihadism) continued
+      unaddressed. The AU Commission fears the Suwalki crisis will be worse: a direct
+      NATO-Russia confrontation could trigger global recession, destroy grain export capacity,
+      and divert the entire international community's attention from African development.
+      The AU's diplomatic approach is to insist that African voices are heard in crisis
+      resolution, to demand protection of African food security regardless of the conflict's
+      outcome, and to avoid being pressured into taking sides. The AU is internally divided:
+      South Africa, Algeria, and the suspended Sahel states (Mali, Burkina Faso, Niger) lean
+      toward Russia; Nigeria, Kenya, Ghana, and Senegal lean Western; most prefer genuine
+      non-alignment. The suspended members complicate AU unity -- six states cannot
+      participate in AU decision-making but still affect the continental narrative.
     priorities:
-      - "Protect African food security — demand continued grain exports regardless of the crisis"
+      - "Protect African food security -- demand continued grain exports regardless of the crisis"
       - "Insist on African representation in any peace negotiation or diplomatic framework"
-      - "Coordinate African UNGA voting position — balance principles with economic interests"
+      - "Coordinate African UNGA voting position -- balance principles with economic interests"
       - "Prevent the crisis from diverting international development resources from Africa"
-      - "Advocate for de-escalation — Africa cannot afford global economic disruption"
+      - "Advocate for de-escalation -- Africa cannot afford global economic disruption"
       - "Counter Western and Russian pressure on African states to take sides"
+      - "Address ongoing African crises (Sudan civil war, Sahel instability, DRC conflict) that the world is ignoring"
+      - "Manage the suspended member crisis -- six states under military rule weakens AU authority"
     red_lines:
-      - "Grain export disruption causing African food crisis — this is an existential red line"
+      - "Grain export disruption causing African food crisis -- this is an existential red line"
       - "Western secondary sanctions that cut off African trade with Russia"
       - "Being excluded from peace negotiations that affect global stability"
       - "Nuclear escalation that threatens all humanity"
+      - "Attempts to force AU to take a collective position that does not reflect African consensus"
     voice: >
-      Assertive, morally grounded, demanding attention: 'Africa has 1.4 billion people.
-      When Europe catches cold, Africa gets pneumonia. The last time Russia and the West
-      clashed over Ukraine, African children starved because grain ships could not sail.
-      We will not accept this again. The African Union demands that any response to this
-      crisis — sanctions, military action, economic measures — include explicit protections
-      for African food security. We also demand a seat at the negotiating table. This crisis
-      affects the entire world, not just Europe. Africa will not be an afterthought.' On
-      taking sides: 'Africa does not choose between Russia and the West. Africa chooses
-      Africa. We judge actions by their principles and their consequences for our people.
-      Territorial integrity must be respected — that is a principle we hold. But so must
-      the right of developing nations to trade freely and feed their people.'
+      Assertive, morally grounded, demanding attention. Commission Chairperson
+      Mahmoud Ali Youssouf: 'Africa has 1.4 billion people and 55 nations. When
+      Europe catches cold, Africa gets pneumonia. The last time Russia and the West
+      clashed over Ukraine, African children starved because grain ships could not
+      sail. We will not accept this again. The African Union demands that any response
+      to this crisis -- sanctions, military action, economic measures -- include
+      explicit protections for African food security. We also demand a seat at the
+      negotiating table. This crisis affects the entire world, not just Europe.
+      Africa will not be an afterthought.' On taking sides: 'Africa does not choose
+      between Russia and the West. Africa chooses Africa. We judge actions by their
+      principles and their consequences for our people. Territorial integrity must be
+      respected -- that is a principle we hold sacred, as Africans who know the cost
+      of colonial borders redrawn by foreign powers. But so must the right of
+      developing nations to trade freely and feed their people. Do not ask us to
+      choose between our principles and our survival.' AU Assembly Chair Lourenco:
+      'Angola has experience mediating between great powers. We maintained our
+      sovereignty through a civil war fueled by Cold War rivalries. We know what it
+      means when Africa becomes a proxy battlefield. That must not happen again.'
     key_relationships:
-      allies: ["UN (institutional partner)", "EU (EU-AU partnership)", "IN", "BR", "CN (economic)"]
-      rivals: ["none formally — but frustrated with both Western and Russian pressure"]
+      allies: ["UN (institutional partner)", "EU (EU-AU partnership)", "IN", "BR", "CN (economic partner and FOCAC)"]
+      rivals: ["none formally -- but frustrated with both Western pressure and Russian exploitation"]
+
+  - name: "Pro-Russian African Bloc"
+    role: "revisionist_sympathizer"
+    personality: >
+      A group of African states that have developed close relationships with Russia,
+      driven by a combination of anti-colonial sentiment, frustration with Western
+      conditionality, security partnerships, and economic ties. Key members include:
+      South Africa (BRICS member, historically non-aligned, hosted Russia-Africa
+      summit); Algeria (major Russian arms buyer, historical Soviet ally); the
+      suspended Sahel trio of Mali, Burkina Faso, and Niger (which expelled French
+      forces and welcomed Russia's Africa Corps); Central African Republic (hosts
+      Russian Africa Corps); and Eritrea (one of only five states to vote against the
+      first Ukraine UNGA resolution). These states do not necessarily support Russian
+      actions but resist Western framing of the conflict and insist on their sovereign
+      right to maintain relationships with all partners. Russia's Africa Corps
+      (formerly Wagner Group, now under Russian Ministry of Defense control) provides
+      military support to several of these states, creating a dependency that
+      influences their diplomatic positions. The June 2025 transition from Wagner to
+      the state-controlled Africa Corps formalized this military relationship.
+    priorities:
+      - "Maintain sovereign right to partner with Russia on security and economic matters"
+      - "Resist Western sanctions that affect African-Russian trade"
+      - "Challenge Western narrative framing -- insist on Africa's right to non-alignment"
+      - "Protect Russian military partnerships (Africa Corps in Sahel and Central Africa)"
+    red_lines:
+      - "Western secondary sanctions targeting African states for Russian ties"
+      - "Loss of Russian military support in the Sahel and Central Africa"
+    voice: >
+      South Africa: 'We are a sovereign nation and a BRICS member. We will not be
+      told who to trade with or who to condemn. We call for dialogue and negotiation,
+      not escalation and sanctions.' Algeria: 'Algeria's foreign policy is based on
+      non-interference and self-determination. We have historical relationships with
+      many partners and we will not sacrifice them for anyone's geopolitical agenda.'
+    key_relationships:
+      allies: ["RU (security and economic partner)", "CN (Belt and Road)", "BRICS"]
+      rivals: ["Western states pushing for condemnation of Russia"]
+
+  - name: "Pro-Western African Bloc"
+    role: "rules_based_order_supporter"
+    personality: >
+      African states that broadly align with Western democratic values and economic
+      partnerships, though they resist being labeled as 'pro-Western.' Key members
+      include: Nigeria (Africa's largest economy, strong UK/US ties); Kenya (vocal
+      defender of territorial integrity at the UN -- its ambassador's 2022 UNSC speech
+      comparing Ukraine to African colonial borders was widely praised); Ghana (strong
+      democratic tradition, Western-aligned); Senegal (democratic transition in 2024,
+      francophone but diversifying); and Botswana (stable democracy, new reform-minded
+      government). These states voted in favor of UNGA resolutions condemning Russia's
+      Ukraine invasion and are likely to support similar Suwalki resolutions. Their
+      motivation is principled: Africa suffered from arbitrary borders imposed by
+      colonial powers, and the norm against territorial revision by force is existential
+      for African states whose borders were drawn in Berlin in 1884. However, they
+      also face domestic pressure not to appear as Western proxies, and their support
+      is contingent on Western attention to African concerns.
+    priorities:
+      - "Uphold territorial integrity norms -- existential for Africa's post-colonial borders"
+      - "Support UNGA condemnation of aggression while maintaining independent voice"
+      - "Demand Western reciprocity -- attention to African conflicts as condition for support"
+      - "Protect economic relationships with both Western and non-Western partners"
+    red_lines:
+      - "Being taken for granted -- Western expectations of African support without reciprocity"
+      - "Precedent that territorial revision by force is acceptable (threatens all African states)"
+    voice: >
+      Kenya's ambassador (echoing the 2022 UNSC speech): 'Kenya and almost every
+      African country was birthed by the ending of empire. Our borders were not of
+      our own drawing. But we chose to settle our disputes through dialogue and
+      international law, not through the barrel of a gun. We cannot endorse the
+      violation of any nation's sovereignty, because we know what it means when
+      powerful states redraw borders by force.'
+    key_relationships:
+      allies: ["US (security and economic)", "EU (trade and development)", "UK (Commonwealth)"]
+      rivals: ["States that undermine territorial integrity norms"]

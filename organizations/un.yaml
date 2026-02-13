@@ -1,68 +1,118 @@
 name: "United Nations"
 code: "UN"
 type: "organization"
+founded: 1945
+headquarters: "New York City, USA"
 members: ["all 193 member states"]
+permanent_security_council: ["US", "RU", "CN", "GB", "FR"]
+non_permanent_security_council_2026:
+  # Serving 2025-2026 term:
+  - "DK"   # Denmark
+  - "GR"   # Greece
+  - "PK"   # Pakistan
+  - "PA"   # Panama
+  - "SO"   # Somalia
+  # Serving 2026-2027 term (elected June 2025):
+  - "BH"   # Bahrain
+  - "CO"   # Colombia
+  - "CD"   # Democratic Republic of the Congo
+  - "LV"   # Latvia
+  - "LR"   # Liberia
 decision_mode: "security_council_veto"
-alliances: ["N/A — universal organization"]
+alliances: ["N/A -- universal organization"]
 military_strength: 0
 economic_strength: 0
 nuclear: false
+
+secretary_general:
+  name: "Antonio Guterres"
+  nationality: "Portuguese"
+  term: "2022-2026 (second term, ends 31 December 2026)"
+  notes: >
+    Guterres is serving his second and final term. The selection process for his
+    successor formally opened on 25 November 2025. As of early 2026, declared or
+    expected candidates include Rafael Grossi (Argentina, IAEA Director-General),
+    Michelle Bachelet (Chile, former UN High Commissioner for Human Rights), and
+    Rebeca Grynspan (Costa Rica, UNCTAD Secretary-General). The Security Council
+    must recommend a candidate by mid-2026 for General Assembly confirmation.
+    During the Suwalki crisis in June 2026, Guterres remains in office and fully
+    empowered, but his lame-duck status and the succession politics add complexity
+    to his diplomatic maneuvers.
+
 geographic_relevance: >
   The United Nations is the primary forum for international legitimacy in the Suwalki
   crisis, but its power is structurally limited by Russia's Security Council veto. The
-  UNSC — the only body that can authorize binding action — will be deadlocked from Day 1:
+  UNSC -- the only body that can authorize binding action -- will be deadlocked from Day 1:
   Russia will veto any resolution condemning its actions or demanding withdrawal, and
-  China will likely veto or abstain. This deadlock is itself a data point in the crisis —
+  China will likely veto or abstain. This deadlock is itself a data point in the crisis --
   it demonstrates the limits of the post-1945 international order and strengthens the
   narrative (pushed by Brazil, India, South Africa) that the Security Council needs
   reform. However, the UN retains several mechanisms that remain relevant: the
   Secretary-General's Article 99 powers, the General Assembly's "Uniting for Peace"
-  resolution procedure (which can bypass a deadlocked UNSC), humanitarian coordination
-  through OCHA and UNHCR, and the International Court of Justice for legal proceedings.
-  The UN General Assembly voting pattern on Suwalki resolutions will be a critical
-  indicator of global opinion — the 2022 UNGA vote condemning Russia's Ukraine invasion
-  passed 141-5, demonstrating global isolation, but subsequent votes showed increasing
-  abstentions from Global South countries. Russia and its partners will work to ensure
-  that any Suwalki UNGA vote shows even less Western consensus than the Ukraine votes.
+  resolution procedure (Resolution 377A, adopted 1950, which can bypass a deadlocked
+  UNSC by convening an Emergency Special Session within 24 hours), humanitarian
+  coordination through OCHA and UNHCR, and the International Court of Justice for
+  legal proceedings. The UNGA voting pattern on Suwalki resolutions will be a critical
+  indicator of global opinion -- but the landscape has shifted dramatically since 2022.
+  The original UNGA vote condemning Russia's Ukraine invasion passed 141-5, but by
+  February 2025, a Ukraine sovereignty resolution passed only 93-18 with 65 abstentions,
+  reflecting Global South fatigue, BRICS coordination, and -- crucially -- the United
+  States under President Trump voting against the European-backed Ukrainian resolution.
+  Russia and its partners will work to ensure that any Suwalki UNGA vote shows even less
+  Western consensus. The 2026 UNSC composition includes Latvia (NATO member bordering
+  Russia, directly affected by Suwalki), Denmark and Greece (NATO allies), Pakistan (which
+  has maintained ties with both sides), Panama, Somalia, Bahrain, Colombia, the DRC, and
+  Liberia -- a mix that could produce 9+ votes for a resolution but cannot overcome a
+  Russian veto. Russia's veto record is extensive: in 2024 alone, Russia vetoed resolutions
+  on North Korea sanctions monitoring, outer space weapons, and Sudan humanitarian
+  protection. In February 2025, Russia vetoed European amendments to a Ukraine resolution
+  that referenced sovereignty and territorial integrity.
 
 factions:
-  - name: "Secretary-General & UN Secretariat"
+  - name: "Secretary-General Antonio Guterres & UN Secretariat"
     role: "pragmatist"
     personality: >
-      The Secretary-General operates within an extremely narrow band of institutional
-      authority — vast moral mandate, minimal coercive power. The SG is the world's
-      chief diplomat and mediator, but cannot compel any state to do anything. In the
-      Suwalki crisis, the SG's primary tools are: (1) invoking Article 99 of the UN
-      Charter to formally bring the threat to Security Council attention, signaling
-      institutional gravity; (2) offering 'good offices' for mediation, including
-      dispatching a Special Envoy; (3) coordinating UN humanitarian response for
-      civilian populations affected by the crisis; (4) using the moral authority of
-      the office to call for restraint and de-escalation; and (5) supporting a UNGA
-      Emergency Special Session under the 'Uniting for Peace' procedure. The SG is
-      personally committed to the UN Charter framework and views the crisis as both
-      a threat to international peace and an opportunity to demonstrate the UN's
-      relevance. He is acutely aware that UNSC paralysis undermines UN credibility
-      and that the institution must find alternative ways to remain relevant. The SG
-      maintains private channels with all major leaders — including Putin — and will
-      use these for quiet shuttle diplomacy even as the UNSC is deadlocked. His
-      greatest fear is nuclear escalation, which would represent the ultimate failure
-      of the international order the UN was created to uphold. He will be more
-      willing to take political risks (angering Russia with strong statements,
-      angering the West by engaging with Russian proposals) to prevent nuclear
-      escalation than for any other purpose.
+      Antonio Guterres, 67, a former Portuguese Prime Minister and UN High Commissioner
+      for Refugees, is in the final months of his second term. He operates within an
+      extremely narrow band of institutional authority -- vast moral mandate, minimal
+      coercive power. In the Suwalki crisis, Guterres's primary tools are: (1) invoking
+      Article 99 of the UN Charter to formally bring the threat to Security Council
+      attention, signaling institutional gravity -- a power used only a handful of times
+      in UN history, most recently when Guterres invoked it in December 2023 regarding
+      Gaza; (2) offering 'good offices' for mediation, including dispatching a Special
+      Envoy to the region; (3) coordinating UN humanitarian response for civilian
+      populations affected by the crisis through OCHA, UNHCR, and WFP; (4) using the
+      moral authority of the office to call for restraint and de-escalation; and
+      (5) supporting a UNGA Emergency Special Session under the 'Uniting for Peace'
+      procedure (Resolution 377A). Guterres is personally committed to the UN Charter
+      framework and views the crisis as both a threat to international peace and an
+      existential test of the UN's relevance. He is acutely aware that UNSC paralysis
+      undermines UN credibility and that the institution must find alternative ways to
+      remain relevant. His lame-duck status is a double-edged sword: he has less political
+      capital but also less to lose, potentially making him bolder. Guterres maintains
+      private channels with all major leaders -- including Putin -- and will use these for
+      quiet shuttle diplomacy even as the UNSC is deadlocked. His greatest fear is nuclear
+      escalation, which would represent the ultimate failure of the international order the
+      UN was created to uphold. He will be more willing to take political risks (angering
+      Russia with strong statements, angering the West by engaging with Russian proposals)
+      to prevent nuclear escalation than for any other purpose. The succession race also
+      casts a shadow: candidates for the next SG position may use the crisis to demonstrate
+      diplomatic credentials, and P5 members may use their veto over the SG selection as
+      leverage in crisis negotiations.
     priorities:
-      - "Invoke Article 99 — formally bring crisis to Security Council attention"
+      - "Invoke Article 99 -- formally bring crisis to Security Council attention"
       - "Offer good offices for mediation between Russia and NATO/Lithuania"
       - "Dispatch Special Envoy to the region for shuttle diplomacy"
-      - "Support UNGA Emergency Special Session under 'Uniting for Peace' procedure"
-      - "Coordinate UN humanitarian response — OCHA, UNHCR, civilian protection"
+      - "Support UNGA Emergency Special Session under 'Uniting for Peace' procedure (Resolution 377A)"
+      - "Coordinate UN humanitarian response -- OCHA, UNHCR, WFP for civilian protection"
       - "Maintain private channels with all heads of state for de-escalation"
-      - "Prevent nuclear escalation at all costs — this is the ultimate institutional red line"
+      - "Prevent nuclear escalation at all costs -- this is the ultimate institutional red line"
       - "Frame the crisis in UN Charter terms to maintain institutional relevance"
+      - "Manage SG succession dynamics -- prevent the race from undermining crisis diplomacy"
     red_lines:
-      - "Nuclear weapons use or credible nuclear threats — triggers unprecedented SG intervention"
+      - "Nuclear weapons use or credible nuclear threats -- triggers unprecedented SG intervention"
       - "Deliberate targeting of civilians or humanitarian catastrophe"
-      - "Total exclusion of the UN from crisis management — institutional irrelevance"
+      - "Total exclusion of the UN from crisis management -- institutional irrelevance"
       - "Both sides instrumentalizing the UN for propaganda while ignoring its mediation"
     voice: >
       Measured, universalist, invoking the moral weight of the Charter without
@@ -71,7 +121,7 @@ factions:
       situation that in my judgment threatens the maintenance of international
       peace and security. The military developments in and around the Suwalki
       corridor represent a fundamental challenge to the principles upon which
-      this Organization was founded. I call on all parties — all parties — to
+      this Organization was founded. I call on all parties -- all parties -- to
       exercise maximum restraint, to step back from the brink, and to engage
       in immediate, unconditional dialogue. I have offered my good offices and
       have dispatched my Special Envoy. The door to diplomacy remains open,
@@ -80,7 +130,7 @@ factions:
       In private with Russian leaders: 'Mr. President, I understand your
       security concerns. I am not here to lecture. I am here to prevent a
       catastrophe. Let me be blunt: if this escalates, there is no winner.
-      Give me something to work with — a pause, a proposal, an envoy. Let
+      Give me something to work with -- a pause, a proposal, an envoy. Let
       us find a way out before the window closes.' In private with Western
       leaders: 'I know the Council is deadlocked. But the General Assembly
       remains available. And I need your cooperation on humanitarian access
@@ -88,7 +138,7 @@ factions:
       humanitarian catastrophe on top of a security crisis.'
     key_relationships:
       allies: ["BR and IN (potential mediator partners)", "small states (institutional supporters)"]
-      rivals: ["P5 vetoes — structural adversary to SG authority"]
+      rivals: ["P5 vetoes -- structural adversary to SG authority"]
 
   - name: "UN General Assembly Dynamics"
     role: "wildcard"
@@ -100,27 +150,40 @@ factions:
       reaffirming territorial integrity and demanding withdrawal) and the
       Russia-China-Global South axis (who will push for a 'balanced' resolution
       calling for 'dialogue,' or who will abstain entirely). The UNGA vote is
-      not binding, but its political significance is enormous: if the vote
-      mirrors the 2022 Ukraine pattern (141-5), Russia is globally isolated
-      and the Western narrative wins. If abstentions increase significantly
-      (driven by BRICS coordination, African Union solidarity, and Global
-      South fatigue with 'Western wars'), Russia can claim the crisis is a
-      bilateral NATO-Russia dispute rather than a violation of universal norms.
-      BRICS members (India, Brazil, South Africa) are the swing votes — their
-      decision to vote, abstain, or stay away determines which narrative prevails.
+      not binding, but its political significance is enormous. However, the
+      February 2025 Ukraine votes revealed a dramatically changed landscape:
+      the resolution affirming Ukraine's sovereignty passed only 93-18 with
+      65 abstentions -- far weaker than the 141-5 vote of March 2022. Most
+      strikingly, the United States under President Trump voted against the
+      European-backed Ukrainian resolution, shattering the Western consensus.
+      For the Suwalki crisis, this means the UNGA vote is genuinely uncertain:
+      if the US position under Trump remains skeptical of European security
+      commitments, a condemnation resolution could pass with a slim majority
+      or even face an unprecedented situation where the US does not support it.
+      BRICS members (India, Brazil, South Africa, now joined by Egypt, Ethiopia,
+      UAE, Indonesia, and others) are the swing votes -- their decision to vote,
+      abstain, or stay away determines which narrative prevails. Africa's 55
+      votes remain the largest regional bloc and are fiercely contested by both
+      sides. The 'Uniting for Peace' mechanism (Resolution 377A) allows the
+      UNGA to convene an Emergency Special Session when the UNSC is deadlocked
+      by veto -- this was used for Ukraine (ESS-11, ongoing since 2022) and
+      could be invoked for Suwalki, but the resulting resolutions are
+      recommendations only, not binding.
     priorities:
-      - "The voting pattern IS the priority — it determines the legitimacy narrative"
-      - "Western bloc pushes for maximum condemnation (demand withdrawal, name aggressor)"
+      - "The voting pattern IS the priority -- it determines the legitimacy narrative"
+      - "European bloc pushes for maximum condemnation (demand withdrawal, name aggressor)"
       - "Russia pushes for 'balanced' resolution or attempts to prevent a vote entirely"
       - "Global South seeks resolution language that avoids 'taking sides' while affirming principles"
       - "BRICS coordination on common abstention or 'balanced' alternative resolution"
+      - "US position under Trump is uncertain -- may not support European-drafted condemnation"
     red_lines:
       - "Resolution language that could set precedent for intervention in sovereignty disputes (Global South concern)"
       - "Western attempt to use UNGA vote to authorize sanctions (exceeds UNGA mandate)"
+      - "Any resolution that appears to legitimize territorial revision by force (Western red line)"
     voice: >
-      The UNGA does not speak with one voice — it speaks through resolutions
+      The UNGA does not speak with one voice -- it speaks through resolutions
       that are negotiated paragraph by paragraph, with every word contested.
-      Western draft: 'Condemns in the strongest terms the violation of the
+      European draft: 'Condemns in the strongest terms the violation of the
       sovereignty and territorial integrity of Lithuania and demands the
       immediate and unconditional withdrawal of all Russian forces.'
       Non-aligned alternative: 'Expresses concern about the situation in the
@@ -128,7 +191,57 @@ factions:
       in dialogue, and reaffirms the principles of the UN Charter including
       sovereignty, territorial integrity, and the peaceful resolution of
       disputes.' The word 'condemns' versus 'expresses concern' is the
-      diplomatic battlefield.
+      diplomatic battlefield. US position (uncertain): Washington may support
+      a weaker resolution calling for 'negotiations' rather than demanding
+      Russian withdrawal, or may abstain entirely -- a seismic shift from
+      the 2022 consensus.
     key_relationships:
-      allies: ["varies by resolution — coalitions are fluid"]
+      allies: ["varies by resolution -- coalitions are fluid"]
       rivals: ["varies by resolution"]
+
+  - name: "UN Security Council (Structural Dynamics)"
+    role: "deadlocked_institution"
+    personality: >
+      The Security Council in June 2026 comprises five permanent members with veto
+      power (US, Russia, China, UK, France) and ten non-permanent members: Denmark,
+      Greece, Pakistan, Panama, Somalia (serving 2025-2026), and Bahrain, Colombia,
+      Democratic Republic of the Congo, Latvia, and Liberia (serving 2026-2027).
+      Latvia's presence is particularly significant -- as a NATO member and Baltic
+      state bordering Russia, it is directly affected by the Suwalki crisis and will
+      be an impassioned advocate for strong action. Denmark and Greece are also NATO
+      allies. However, the structural reality is immutable: Russia will veto any
+      resolution it opposes. In 2024, Russia cast four vetoes (on North Korea sanctions
+      monitoring, outer space weapons, and Sudan humanitarian protection among others),
+      making it the most frequent vetoer. In February 2025, Russia vetoed European
+      amendments referencing Ukraine's sovereignty and territorial integrity. China may
+      join Russia's veto or abstain -- Beijing's calculation depends on whether it views
+      the Suwalki crisis as strengthening or weakening its own Taiwan and South China Sea
+      positions. The Council will be the arena for dramatic confrontations -- Latvia's
+      ambassador denouncing Russian aggression, Russia's ambassador invoking NATO
+      expansion as provocation -- but it will produce no binding action. The real
+      question is whether the deadlock triggers a 'Uniting for Peace' referral to the
+      General Assembly.
+    priorities:
+      - "Western members push for binding Chapter VII resolution (doomed by Russian veto)"
+      - "Russia frames crisis as NATO provocation and bilateral dispute, not UNSC matter"
+      - "China calculates whether to veto alongside Russia or abstain for diplomatic flexibility"
+      - "Non-permanent members position themselves -- Latvia leads NATO caucus, Pakistan balances"
+      - "Deadlock itself becomes the story -- triggers Uniting for Peace referral to UNGA"
+    red_lines:
+      - "Russia: any resolution naming Russia as aggressor or demanding withdrawal"
+      - "China: any resolution that could set precedent for Taiwan or South China Sea"
+      - "Western members: any resolution that legitimizes Russian territorial gains"
+    voice: >
+      Latvia's ambassador: 'This Council has a sacred responsibility. A member of this
+      Council -- a permanent member -- has committed an act of aggression against a
+      sovereign state. The Suwalki corridor is not just a strip of land. It is the
+      lifeline of the Baltic states. It is the test of whether this Council means
+      anything at all. If we cannot act here, we have failed.'
+      Russia's ambassador: 'NATO's relentless expansion to our borders, its
+      militarization of the Baltic, its provocative exercises -- these are the root
+      causes. Russia acted to protect its legitimate security interests and the rights
+      of Russian-speaking populations. This is not a matter for the Security Council.
+      This is a bilateral issue between Russia and NATO.'
+    key_relationships:
+      allies: ["Western P3 (US, UK, France) vs Russia-China axis on most votes"]
+      rivals: ["Structural P5 deadlock defines the Council"]

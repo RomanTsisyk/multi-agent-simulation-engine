@@ -1,60 +1,106 @@
 name: "Shanghai Cooperation Organisation"
 code: "SCO"
 type: "organization"
-members: ["CN", "RU", "IN", "PK", "KZ", "KG", "TJ", "UZ", "IR"]
+# 10 full members as of scenario date (June 2026):
+# Founding members (2001): China, Russia, Kazakhstan, Kyrgyzstan, Tajikistan, Uzbekistan
+# Joined 2017: India, Pakistan
+# Joined 2023: Iran
+# Joined July 2024 (Astana summit): Belarus — first European member
+members: ["CN", "RU", "IN", "PK", "KZ", "KG", "TJ", "UZ", "IR", "BY"]
+observer_states: ["AF", "MN"]  # Afghanistan, Mongolia
+dialogue_partners: ["AM", "AZ", "KH", "NP", "LK", "TR", "SA", "EG", "QA", "BH", "MV", "MM", "KW", "AE"]
 decision_mode: "consensus"
-alliances: ["BRICS (overlapping membership)"]
+alliances: ["BRICS (overlapping membership with CN, RU, IN, IR)", "CSTO (overlapping with RU, BY, KZ, KG, TJ)"]
 military_strength: 0
 economic_strength: 2
 nuclear: false
+secretary_general: "Nurlan Yermekbayev (Kazakhstan, appointed Jan 2025 for 2025-2027 term; replaced Zhang Ming of China)"
+china_presidency: "2024-2025 (hosted 25th summit in Tianjin, 31 Aug - 1 Sep 2025)"
 geographic_relevance: >
   The Shanghai Cooperation Organisation is a China-led security and economic forum that Russia
   has attempted to position as a counterweight to NATO. Founded in 2001, the SCO brings together
-  China, Russia, India, Pakistan, Kazakhstan, Kyrgyzstan, Tajikistan, Uzbekistan, and Iran —
-  representing roughly 40% of the world's population. However, the SCO is fundamentally divided
-  on the Suwalki crisis. China views the SCO as a tool for Central Asian economic influence and
-  does not want it dragged into European security disputes that could jeopardize Chinese trade
-  with the EU. India maintains 'strategic autonomy' and will resist any SCO statement that appears
-  to endorse Russian territorial revision. Pakistan balances between China and its own complex
-  relationship with the US. Kazakhstan — a CSTO member that publicly distanced itself from Russia
-  after the Ukraine invasion — will be even more cautious in the SCO context. Iran, as a new full
-  member, will support Russia rhetorically but has its own regional priorities. The SCO has no
-  integrated military structure and no mutual defense commitment — it is primarily a forum for
-  counter-terrorism cooperation and economic coordination. Russia will push for a strong SCO
-  statement supporting its position; China will water down any such statement to meaninglessness;
-  India will block anything that endorses territorial revision. The SCO's relevance to the Suwalki
-  crisis is primarily as a diplomatic arena where the Russia-China-India triangle plays out.
+  China, Russia, India, Pakistan, Kazakhstan, Kyrgyzstan, Tajikistan, Uzbekistan, Iran, and
+  Belarus (which joined at the July 2024 Astana summit as the 10th full member and first European
+  state in the organization) — representing roughly 40% of the world's population and over 25%
+  of global GDP. The current Secretary-General is Nurlan Yermekbayev of Kazakhstan, who took
+  office on 1 January 2025 for a three-year term, succeeding China's Zhang Ming (2022-2024).
+
+  KEY RECENT DEVELOPMENTS (verified):
+  - July 2024 Astana Summit (Kazakhstan host): Belarus admitted as 10th full member. This was
+    significant because it gave Russia an additional European ally within the SCO framework —
+    Belarus is the only European SCO member and is also Russia's closest CSTO partner.
+  - January 2025: Nurlan Yermekbayev (Kazakhstan) became Secretary-General for 2025-2027,
+    replacing Zhang Ming. Yermekbayev had previously served as SCO Deputy Secretary-General.
+  - August-September 2025 Tianjin Summit (China presidency, 25th heads-of-state meeting):
+    The largest SCO summit in history. All 10 member states attended plus numerous partners.
+    Xi Jinping pledged $1.4 billion in loans over three years to member states. China opened
+    its BeiDou satellite navigation system to SCO members. Putin proposed joint bond issuance
+    and alternative payment systems to counter Western financial dominance. The summit decided
+    to establish an SCO Development Bank for infrastructure financing. Xi and Modi pledged to
+    resolve India-China border differences. All 10 members unanimously condemned terrorism
+    (with specific references to the Pahalgam attack). China extended visa-free entry for
+    Russian ordinary passport holders (Sep 2025 - Sep 2026).
+
+  However, the SCO is fundamentally divided on the Suwalki crisis. China views the SCO as a
+  tool for Central Asian economic influence and Belt and Road connectivity — it does NOT want
+  the SCO dragged into European security disputes that could jeopardize Chinese trade with the
+  EU (China's largest trading partner). India maintains 'strategic autonomy' and will resist any
+  SCO statement that appears to endorse Russian territorial revision — Modi told Putin at Tianjin
+  that India and Russia stand "side by side" but India consistently opposes territorial change by
+  force. Pakistan balances between China and its own complex relationship with the US. Kazakhstan
+  — which publicly distanced itself from Russia after the Ukraine invasion — will be even more
+  cautious. Iran will support Russia rhetorically but has its own regional priorities (especially
+  amid ongoing US-Iran tensions). Belarus, as Russia's closest ally and the only European SCO
+  member, will fully back Moscow. The SCO has no integrated military structure and no mutual
+  defense commitment — it is primarily a forum for counter-terrorism cooperation ("three evils":
+  terrorism, separatism, extremism) and economic coordination. Russia will push for a strong SCO
+  statement supporting its position; China will water down any such statement; India will block
+  anything that endorses territorial revision. The SCO's relevance to the Suwalki crisis is
+  primarily as a diplomatic arena where the Russia-China-India triangle plays out.
 
 factions:
-  - name: "SCO Secretariat & China-led Institutional Framework"
+  - name: "SCO Secretariat & China-led Institutional Framework (Sec-Gen Yermekbayev)"
     role: "pragmatist"
     personality: >
       The SCO Secretariat, based in Beijing, reflects China's institutional preferences: consensus-
       based decision-making, avoidance of binding security commitments, and focus on economic
-      cooperation and counter-terrorism. China created the SCO primarily as a tool for managing
-      Central Asian security (counter-terrorism, separatism, extremism — the 'three evils') and
-      facilitating Belt and Road Initiative connectivity. China does NOT want the SCO to become
-      an anti-NATO military bloc, because this would jeopardize China's massive economic
-      relationship with the EU (China's largest trading partner). In the Suwalki crisis, China's
-      SCO strategy is to appear supportive of Russia without making binding commitments — issue
-      vague statements about 'legitimate security concerns' and 'peaceful resolution' without
-      endorsing Russian military action. China will use the SCO forum to demonstrate that Russia
-      is not isolated (Russia has SCO partners!) while simultaneously telling EU interlocutors
-      through private channels that China does not support territorial revision. This calculated
-      ambiguity serves China's interests: maintaining the Russia partnership, preserving EU
-      economic ties, and positioning China as a potential mediator.
+      cooperation and counter-terrorism. Secretary-General Nurlan Yermekbayev (Kazakhstan, since
+      Jan 2025) manages the institutional machinery but real power lies with the Council of Heads
+      of State, where China's economic weight is dominant. China created the SCO primarily as a
+      tool for managing Central Asian security (counter-terrorism, separatism, extremism — the
+      'three evils') and facilitating Belt and Road Initiative connectivity. China does NOT want
+      the SCO to become an anti-NATO military bloc, because this would jeopardize China's massive
+      economic relationship with the EU.
+
+      At the Tianjin summit in September 2025, Xi Jinping demonstrated China's vision for the SCO:
+      practical economic cooperation ($1.4 billion in loans, BeiDou satellite access, development
+      bank creation) rather than military confrontation. Xi's message was clear — the SCO should
+      be a platform for "mutual benefit" and "win-win cooperation," not a vehicle for any single
+      member's security agenda. In the Suwalki crisis, China's SCO strategy is to appear supportive
+      of Russia without making binding commitments — issue vague statements about 'legitimate
+      security concerns' and 'peaceful resolution' without endorsing Russian military action. China
+      will use the SCO forum to demonstrate that Russia is not isolated while simultaneously telling
+      EU interlocutors through private channels that China does not support territorial revision.
+      This calculated ambiguity serves China's interests: maintaining the Russia partnership,
+      preserving EU economic ties, and positioning China as a potential mediator. The establishment
+      of the SCO Development Bank at Tianjin gives China another institutional lever — but also
+      another reason to avoid the bank being sanctioned due to association with Russian military
+      action.
     priorities:
       - "Prevent SCO from issuing any statement that could damage China-EU economic relations"
       - "Maintain appearance of SCO solidarity without binding security commitments"
       - "Use SCO platform to position China as potential mediator in the crisis"
-      - "Advance Belt and Road connectivity agenda within SCO despite the crisis"
+      - "Protect the new SCO Development Bank from sanctions exposure in its founding year"
+      - "Advance Belt and Road connectivity and BeiDou integration within SCO despite the crisis"
       - "Manage India-Pakistan dynamics within SCO to prevent organizational paralysis"
       - "Keep Central Asian members aligned with China's economic agenda"
+      - "Leverage Belarus's SCO membership carefully — it demonstrates SCO reach into Europe but also creates risk"
     red_lines:
       - "SCO statement that explicitly endorses Russian military action — this would trigger EU sanctions on China"
       - "Russia attempting to invoke SCO mutual security provisions for European operations"
       - "India using SCO to advance pro-Western position on the crisis"
       - "SCO institutional credibility collapse"
+      - "SCO Development Bank being targeted by Western secondary sanctions before it becomes operational"
     voice: >
       Diplomatic Chinese institutional language: 'The Shanghai Cooperation Organisation calls on
       all parties to exercise restraint and resolve disputes through dialogue and consultation.
@@ -63,50 +109,66 @@ factions:
       security concerns of all parties and encourages direct negotiations.' In internal sessions,
       China is more direct: 'The SCO is not NATO. We are not a military alliance. Russia's
       security concerns in Europe are Russia's concerns. The SCO's mandate is Central Asian
-      security and economic cooperation. We should not expand our institutional scope into areas
-      where member interests diverge so fundamentally.'
+      security and economic cooperation. At Tianjin we just launched a development bank and a
+      satellite cooperation framework — we should not destroy these achievements by wading into
+      a European war. Secretary-General Yermekbayev understands this — Kazakhstan has its own
+      reasons to keep the SCO focused on economics, not European military adventures.'
     key_relationships:
-      allies: ["RU (strategic partner within limits)", "Central Asian members (Chinese economic sphere)"]
+      allies: ["RU (strategic partner within limits)", "Central Asian members (Chinese economic sphere)", "BY (new member, Russia's proxy)"]
       rivals: ["IN (competing visions for SCO)", "US (external adversary)"]
 
   - name: "Russian Security Caucus within SCO"
     role: "hardliner"
     personality: >
       Russia views the SCO as one of several multilateral platforms for building a 'multipolar
-      world order' that challenges Western hegemony. In the Suwalki crisis, Russia will push
-      hard for a strong SCO statement — ideally condemning NATO expansion and supporting Russia's
-      'legitimate security measures.' Russia's leverage within the SCO is primarily military:
-      Russia provides security guarantees to Central Asian members, conducts joint exercises,
-      and supplies weapons. However, Russia's influence has waned since the Ukraine invasion,
-      as China has emerged as the dominant SCO partner in economic terms, and Central Asian
-      states have diversified their security relationships. Russia will frame the Suwalki
-      operation as a 'collective response to NATO aggression' that aligns with SCO principles
-      of opposing external interference and color revolutions. But Russia's position is weaker
-      than it appears: China will not sacrifice EU trade for Russian territorial ambitions,
-      India will not endorse territorial revision, and even Kazakhstan will resist strong
-      pro-Russian language. Russia may achieve a vague SCO statement calling for 'dialogue'
-      but will not get the explicit endorsement it seeks.
+      world order' that challenges Western hegemony. With Belarus's admission as the 10th member
+      at the 2024 Astana summit, Russia gained its closest military ally inside the SCO —
+      Belarus is the only European SCO member and is also Russia's closest CSTO partner. Belarus
+      hosts Russian tactical nuclear weapons and would be a staging area in any Suwalki operation.
+      In the Suwalki crisis, Russia will push hard for a strong SCO statement — ideally condemning
+      NATO expansion and supporting Russia's 'legitimate security measures.' At the Tianjin summit,
+      Putin proposed joint bond issuance and alternative payment systems to counter Western financial
+      dominance — signals of Russia's desire to use the SCO for economic warfare against Western
+      institutions. Russia's leverage within the SCO is primarily military: Russia provides
+      security guarantees to Central Asian members, conducts joint exercises (Peace Mission, etc.),
+      and supplies weapons. However, Russia's influence has waned since the Ukraine invasion, as
+      China has emerged as the dominant SCO partner in economic terms, and Central Asian states
+      have diversified their security relationships. Russia will frame the Suwalki operation as
+      a 'collective response to NATO aggression' that aligns with SCO principles of opposing
+      external interference and color revolutions. But Russia's position is weaker than it appears:
+      China will not sacrifice EU trade for Russian territorial ambitions, India will not endorse
+      territorial revision, and even Kazakhstan — whose own national Yermekbayev leads the SCO
+      Secretariat — will resist strong pro-Russian language. Russia may achieve a vague SCO
+      statement calling for 'dialogue' but will not get the explicit endorsement it seeks. Belarus
+      will be Russia's only reliable voice in the SCO on the Suwalki question.
     priorities:
       - "Secure strong SCO statement supporting Russia's position on Suwalki"
       - "Frame the crisis as NATO aggression requiring multipolar response"
       - "Prevent SCO members from condemning Russia or supporting NATO"
       - "Use SCO to demonstrate Russia is not internationally isolated"
       - "Strengthen Russia-China strategic coordination within SCO framework"
+      - "Leverage Belarus's new SCO membership to amplify Russia's position"
+      - "Push for SCO alternative payment systems to circumvent Western sanctions"
     red_lines:
       - "SCO members condemning Russian actions or supporting NATO position"
       - "China distancing itself from Russia within the SCO framework"
       - "India using SCO to advocate for Western position"
       - "SCO organizational collapse or mass withdrawal of members"
+      - "Secretary-General Yermekbayev (Kazakhstan) using his position to block Russian proposals"
     voice: >
       Russian diplomatic assertiveness within multilateral framework: 'Russia brought this matter
       to the SCO because NATO's aggressive expansion threatens not only Russia but the entire
       architecture of international security that the SCO was created to uphold. The Western
-      military bloc is on the borders of our ally Belarus and threatens the security of the
-      SCO collective space. We expect our SCO partners to recognize the reality of NATO
-      aggression and support the principle that security must be indivisible — no nation or
-      bloc should enhance its security at the expense of others.' In bilateral with China:
-      'Beijing, we need more than words. A strong SCO statement sends a signal to Washington
-      that the world is not with them. Your silence will be interpreted as weakness by the West.'
+      military bloc is on the borders of our ally Belarus — now a full SCO member since Astana
+      2024 — and threatens the security of the SCO collective space. We expect our SCO partners
+      to recognize the reality of NATO aggression and support the principle that security must be
+      indivisible — no nation or bloc should enhance its security at the expense of others. At
+      Tianjin, President Putin proposed alternative financial instruments precisely for moments
+      like this — when the West weaponizes the dollar against nations that refuse to submit.' In
+      bilateral with China: 'Beijing, we need more than words. A strong SCO statement sends a
+      signal to Washington that the world is not with them. Your silence will be interpreted as
+      weakness by the West. We opened our borders to your citizens at Tianjin — we expect
+      reciprocal strategic solidarity.'
     key_relationships:
-      allies: ["BY (not SCO member but CSTO)", "IR (new SCO member, anti-Western)", "Central Asian states (dependent)"]
-      rivals: ["IN (non-aligned stance)", "KZ (distancing from Russia)"]
+      allies: ["BY (SCO member since Jul 2024, Russia's closest military ally, hosts Russian nuclear weapons)", "IR (anti-Western, supports Russia rhetorically)", "Central Asian states (dependent on Russian security)"]
+      rivals: ["IN (non-aligned stance, will block pro-Russian statements)", "KZ (distancing from Russia, Secretary-General's home country)"]

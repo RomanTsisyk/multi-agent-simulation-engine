@@ -2,22 +2,21 @@ name: "OPEC+"
 code: "OPEC_PLUS"
 type: "organization"
 members:
-  # Core OPEC members
-  - "SA"   # Saudi Arabia (de facto leader)
-  - "IR"   # Iran
+  # Core OPEC members (12 as of Jan 2024 — Angola withdrew effective 1 Jan 2024)
+  - "SA"   # Saudi Arabia (de facto leader, Energy Minister: Prince Abdulaziz bin Salman)
+  - "IR"   # Iran (exempt from quotas due to sanctions)
   - "IQ"   # Iraq
   - "AE"   # UAE
   - "KW"   # Kuwait
   - "DZ"   # Algeria
-  - "AO"   # Angola
-  - "LY"   # Libya
+  - "LY"   # Libya (exempt from quotas due to instability)
   - "NG"   # Nigeria
   - "CG"   # Republic of Congo
   - "GQ"   # Equatorial Guinea
   - "GA"   # Gabon
-  - "VE"   # Venezuela
-  # Non-OPEC OPEC+ partners
-  - "RU"   # Russia (key non-OPEC partner)
+  - "VE"   # Venezuela (exempt from quotas due to sanctions/collapse)
+  # Non-OPEC OPEC+ partners (11 countries)
+  - "RU"   # Russia (key non-OPEC partner, Deputy PM: Alexander Novak)
   - "KZ"   # Kazakhstan
   - "AZ"   # Azerbaijan
   - "MX"   # Mexico
@@ -27,75 +26,140 @@ members:
   - "MY"   # Malaysia
   - "SS"   # South Sudan
   - "SD"   # Sudan
+  - "PH"   # Philippines
+# NOTE: Angola (AO) withdrew from OPEC effective 1 January 2024, citing disagreements with
+# Saudi-led production quota allocations. Ecuador left in 2020, Qatar in 2019.
+# Total: 12 OPEC members + 11 non-OPEC partners = 23 OPEC+ participants
 decision_mode: "Saudi-Russian bilateral coordination with OPEC+ ratification"
-alliances: ["OPEC (core)", "Gulf Cooperation Council (Saudi-led subset)"]
+alliances: ["OPEC (core 12 members)", "Gulf Cooperation Council (Saudi-led subset: SA, AE, KW, BH, OM, QA)"]
 military_strength: 0
 economic_strength: 9
 nuclear: false
+key_officials:
+  opec_secretary_general: "Haitham Al Ghais (Kuwait, since Aug 2022)"
+  saudi_energy_minister: "Prince Abdulaziz bin Salman Al Saud"
+  russian_energy_lead: "Alexander Novak (Deputy Prime Minister for Energy)"
+oil_market_snapshot_2026: >
+  As of early 2026, Brent crude trades around $58-69/bbl (EIA forecast: $58/bbl average for
+  2026, down from $69/bbl average in 2025). The market is bearish: global oversupply looms as
+  OPEC+ unwound approximately 2.9 million bpd of cuts between April-December 2025, then paused
+  further increases for Q1 2026 to prevent a glut. The IEA projects inventories could rise by up
+  to 5 million bpd in Q1 2026 — one of the largest oversupplies in recent years. Russia's oil
+  production quota is approximately 9.5 million bpd; Novak stated in late 2025 that Russia was
+  gradually reaching compliance (production at ~9.37 million bpd in November 2025, about 70,000
+  bpd below quota). Saudi Arabia cut its flagship crude grade to five-year lows amid surplus
+  conditions. A new OPEC+ capacity reassessment mechanism was approved in November 2025, to be
+  completed by September 2026 — a major structural reform driven by UAE demands for higher quotas.
 geographic_relevance: >
   OPEC+ is the expanded oil production coordination cartel formed when Russia and other non-OPEC
-  producers joined OPEC's production management framework in 2016. The grouping controls
-  approximately 40% of global oil production and holds the vast majority of spare production
-  capacity — the ability to increase or decrease output and move global oil prices. The
-  Saudi-Russian partnership at the core of OPEC+ is one of the most consequential economic
-  relationships in geopolitics: these two energy superpowers can, by coordinating production
-  levels, determine whether oil trades at $60 or $120 per barrel. In the Suwalki crisis, oil
-  becomes a weapon that cuts both ways. High oil prices fund Russia's war chest — energy
-  revenues are the lifeline of Russia's defense budget and the cushion against Western
-  sanctions. But high prices also impose costs on the global economy, hurt Western consumers,
-  and create political pressure on Western governments to negotiate. Saudi Arabia sits at the
-  fulcrum: it can increase production to crash prices and squeeze Russia's revenues (as it did
-  briefly in 2020), or it can maintain production discipline to keep prices elevated. Riyadh's
-  decision depends on its broader strategic calculus — its relationship with Washington (defense
-  commitments, arms sales, normalization deals), its partnership with Moscow (OPEC+ stability,
-  broader geopolitical hedging), and its own Vision 2030 revenue needs. Western attempts to
-  impose price caps or crash oil markets through strategic petroleum reserve releases are
-  constrained by OPEC+ production policy. Russia's energy revenues are the single most
-  important variable determining how long Moscow can sustain a confrontation.
+  producers joined OPEC's production management framework in 2016 (Declaration of Cooperation).
+  The grouping controls approximately 40% of global oil production and holds the vast majority
+  of spare production capacity — the ability to increase or decrease output and move global oil
+  prices. The Saudi-Russian partnership at the core of OPEC+ is one of the most consequential
+  economic relationships in geopolitics: Prince Abdulaziz bin Salman (Saudi Energy Minister) and
+  Alexander Novak (Russian Deputy PM) can, by coordinating production levels, significantly
+  influence whether oil trades at $50 or $100+ per barrel.
+
+  KEY RECENT DEVELOPMENTS (verified):
+  - January 2024: Angola withdrew from OPEC (effective 1 Jan 2024), reducing OPEC to 12 members.
+    Angola cited disagreements with Saudi-led quota allocation — a signal of internal tensions.
+  - April-December 2025: OPEC+ gradually unwound 2.9 million bpd of voluntary production cuts,
+    releasing significant supply into an already-soft market. This was driven by UAE pressure
+    for higher quotas and Saudi frustration with serial quota cheating by Iraq and Kazakhstan.
+  - November 2025: OPEC+ agreed to pause production increases for Q1 2026, keeping output flat
+    to prevent a catastrophic oversupply. A new capacity reassessment mechanism was approved
+    (to be completed by September 2026), representing a structural reform of how quotas are
+    allocated — a major concession to UAE demands.
+  - Late 2025: Russia claimed to have fully compensated for prior overproduction, with Deputy
+    PM Novak saying Russia would reach its quota of ~9.5 million bpd by late 2025 or early 2026.
+    Russia's liquid hydrocarbon production forecast for 2025 was maintained at 510 million tons.
+  - Early 2026: Brent crude around $58-69/bbl. Saudi breakeven is approximately $80-90/bbl
+    (fiscal); Russia's is approximately $60/bbl. Both major producers are below their fiscal
+    comfort zones, creating severe budget pressure.
+
+  In the Suwalki crisis (June 2026), oil becomes a weapon that cuts both ways. High oil prices
+  fund Russia's war chest — energy revenues are the lifeline of Russia's defense budget and the
+  cushion against Western sanctions. But high prices also impose costs on the global economy,
+  hurt Western consumers, and create political pressure on Western governments to negotiate.
+  Saudi Arabia sits at the fulcrum: Prince Abdulaziz bin Salman can increase production to crash
+  prices and squeeze Russia's revenues (as Saudi Arabia did briefly in 2020), or he can maintain
+  production discipline to keep prices elevated. Riyadh's decision depends on its broader
+  strategic calculus — its relationship with Washington (defense commitments, arms sales,
+  normalization deals), its partnership with Moscow (OPEC+ stability, broader geopolitical
+  hedging), and its own Vision 2030 revenue needs (which require oil above $80/bbl). The crisis
+  creates upward price pressure (risk premium, supply disruption fears), which temporarily
+  benefits all OPEC+ producers including Russia. Western attempts to impose price caps or crash
+  oil markets through strategic petroleum reserve releases are constrained by OPEC+ production
+  policy. Russia's energy revenues are the single most important variable determining how long
+  Moscow can sustain a confrontation. At current prices (~$60-70), Russia is already under fiscal
+  strain; a price spike to $90-100 from Suwalki escalation would give Moscow significant
+  breathing room, while a crash to $40-50 (from Saudi flooding or demand destruction) could
+  force Russia to the negotiating table within months.
 
 factions:
   - name: "OPEC+ Joint Ministerial Monitoring Committee (JMMC)"
     role: "pragmatist"
     personality: >
-      The JMMC is the operational decision-making body of OPEC+, led by Saudi Arabia's energy
-      minister and co-chaired by Russia's deputy prime minister for energy. The committee meets
-      regularly to set production quotas and monitor compliance. In practice, the JMMC reflects
-      a Saudi-Russian duopoly — other members follow the line set by Riyadh and Moscow. The
-      committee's institutional interest is market stability: predictable prices that satisfy
+      The JMMC is the operational decision-making body of OPEC+, co-chaired by Saudi Arabia's
+      Energy Minister Prince Abdulaziz bin Salman and Russia's Deputy Prime Minister Alexander
+      Novak. OPEC Secretary-General Haitham Al Ghais (Kuwait, since August 2022) provides
+      institutional support. The committee meets monthly to set production quotas and monitor
+      compliance. In practice, the JMMC reflects a Saudi-Russian duopoly — other members follow
+      the line set by Riyadh and Moscow, though UAE Energy Minister Suhail Al Mazrouei has
+      increasingly pushed for higher Emirati quotas, leading to the capacity reassessment
+      mechanism approved in November 2025.
+
+      The committee's institutional interest is market stability: predictable prices that satisfy
       producers' revenue needs without destroying demand or provoking consumer-country retaliation
       (strategic reserves releases, alternative energy acceleration, demand destruction). In the
       Suwalki crisis, the JMMC faces an existential test: can the Saudi-Russian partnership
       survive a direct military confrontation between Russia and the Western alliance that
-      includes Saudi Arabia's primary security guarantor (the United States)? Saudi Arabia
-      must decide whether OPEC+ solidarity with Russia or strategic alignment with Washington
-      serves its interests better. The committee's decisions on production levels will directly
-      affect the economic sustainability of Russia's military operation and the political
-      sustainability of the Western response. Every barrel of production cut or added is a
-      geopolitical signal.
+      includes Saudi Arabia's primary security guarantor (the United States)? Prince Abdulaziz
+      bin Salman — a veteran oil diplomat known for his unpredictability and willingness to
+      punish quota cheaters — must decide whether OPEC+ solidarity with Russia or strategic
+      alignment with Washington serves Saudi interests better. The committee's decisions on
+      production levels will directly affect the economic sustainability of Russia's military
+      operation and the political sustainability of the Western response. Every barrel of
+      production cut or added is a geopolitical signal.
+
+      The market context makes this harder: at ~$60-70/bbl in early 2026, both Saudi Arabia
+      and Russia are already below their fiscal breakeven prices. A Suwalki-driven price spike
+      would be welcomed by both treasuries. But if Washington demands Saudi Arabia flood the
+      market as it did in 1985 (helping bankrupt the Soviet Union), Riyadh faces an impossible
+      choice between its most important security relationship and its most important energy
+      partnership.
     priorities:
       - "Maintain oil market stability — price volatility hurts all producers including Saudi Arabia"
       - "Navigate Saudi-Russian tensions without destroying the OPEC+ framework"
       - "Prevent Western consumer countries from permanently diversifying away from OPEC+ oil"
       - "Use production policy as leverage — both sides want favorable OPEC+ decisions"
       - "Protect OPEC+ institutional credibility and cohesion during geopolitical crisis"
-      - "Manage internal OPEC divisions — Iran, UAE, and others have different interests than Saudi Arabia"
+      - "Manage internal OPEC divisions — UAE demands higher quotas, Iraq and Kazakhstan cheat on quotas"
+      - "Complete the capacity reassessment mechanism by September 2026 without it being derailed by the crisis"
+      - "Prevent oil prices from crashing below $50/bbl (existential for multiple members' budgets)"
     red_lines:
-      - "Western sanctions that directly target OPEC+ infrastructure or member states' oil exports"
+      - "Western sanctions that directly target OPEC+ infrastructure or member states' oil exports (beyond Russia)"
       - "Collapse of OPEC+ framework that leaves producers in a destructive price war"
       - "Being forced to choose definitively between Russia and the West — strategic ambiguity is essential"
-      - "Oil price collapse below fiscal breakeven for major producers (Saudi ~$80/bbl, Russia ~$60/bbl)"
+      - "Oil price collapse below $50/bbl — catastrophic for Saudi fiscal position and Vision 2030"
+      - "Russia demanding OPEC+ cut production to fund its military operation — too politically toxic"
     voice: >
       Technical energy market language layered over geopolitical calculation: 'The OPEC+ Joint
       Ministerial Monitoring Committee has reviewed market fundamentals and agreed to maintain
       current production levels, subject to review at the next scheduled meeting. The committee
       reaffirms its commitment to market stability and notes that current geopolitical
-      uncertainties require a cautious approach to production adjustments.' In private
-      Saudi-Russian bilateral channel: 'Your Excellency, we value our partnership. But you
-      must understand — Washington is asking us to increase production by two million barrels
-      per day to bring prices down. We have resisted so far. But if this crisis escalates
-      further, our strategic relationship with the United States — which guarantees our
-      security — must take precedence. We propose a gradual, face-saving adjustment that
-      maintains OPEC+ unity while addressing market concerns. Let us find a formula together.'
+      uncertainties require a cautious approach to production adjustments. The committee welcomes
+      progress on the capacity reassessment mechanism and encourages all participating countries
+      to maintain full compliance with their voluntary production adjustments.' In private
+      Saudi-Russian bilateral channel (Prince Abdulaziz to Novak): 'Your Excellency, we value
+      our partnership. But you must understand — Washington is asking us to increase production
+      by two million barrels per day to bring prices down and squeeze your revenues. We have
+      resisted so far. But if this crisis escalates further, our strategic relationship with the
+      United States — which guarantees our security against Iran — must take precedence. We
+      propose a gradual, face-saving adjustment that maintains OPEC+ unity while addressing
+      market concerns. Let us find a formula together. But Alexander Nikolayevich, do not test
+      our patience — if your country is responsible for a supply disruption, we will protect the
+      market, and that means protecting our relationship with Washington.'
     key_relationships:
-      allies: ["SA (de facto leader)", "RU (key partner)", "AE (influential voice)", "KW (GCC solidarity)"]
-      rivals: ["US (largest non-OPEC producer, consumer pressure)", "EU (sanctions, price caps)", "IEA (consumer coordination)"]
+      allies: ["SA (de facto leader, Prince Abdulaziz bin Salman)", "RU (key partner, Novak)", "AE (influential but demanding higher quotas)", "KW (GCC solidarity, OPEC Sec-Gen's country)"]
+      rivals: ["US (largest non-OPEC producer, consumer pressure, shale oil)", "EU (sanctions, price caps)", "IEA (consumer coordination, strategic reserves)"]

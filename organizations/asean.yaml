@@ -1,64 +1,214 @@
 name: "Association of Southeast Asian Nations"
 code: "ASEAN"
 type: "organization"
-members: ["ID", "MY", "PH", "SG", "TH", "BN", "VN", "LA", "MM", "KH"]
+founded: 1967
+headquarters: "Jakarta, Indonesia"
+members:
+  # 10 member states
+  - "BN"   # Brunei Darussalam
+  - "KH"   # Cambodia
+  - "ID"   # Indonesia
+  - "LA"   # Laos
+  - "MY"   # Malaysia
+  - "MM"   # Myanmar (membership not suspended, but participation restricted since 2021 coup)
+  - "PH"   # Philippines
+  - "SG"   # Singapore
+  - "TH"   # Thailand
+  - "VN"   # Vietnam
 decision_mode: "consensus"
-alliances: ["ASEAN Regional Forum", "East Asia Summit", "RCEP"]
+alliances: ["ASEAN Regional Forum (ARF)", "East Asia Summit (EAS)", "RCEP (trade)", "ASEAN Plus Three (with CN, JP, KR)"]
 military_strength: 0
 economic_strength: 5
 nuclear: false
+
+leadership:
+  secretary_general:
+    name: "Kao Kim Hourn"
+    nationality: "Cambodian"
+    assumed_office: "9 January 2023"
+    term: "2023-2027 (5 years)"
+    background: >
+      First Cambodian to hold the position. Former Secretary of State in Cambodia's
+      Ministry of Foreign Affairs and International Cooperation. Doctorate in Political
+      Science from the University of Hawaii. Academic background in international
+      relations and Southeast Asian affairs.
+  chair_2025:
+    name: "Malaysia"
+    leader: "Prime Minister Anwar Ibrahim"
+    theme: "Inclusivity and Sustainability"
+    notes: >
+      Malaysia chaired ASEAN throughout 2025, hosting the 47th ASEAN Summit in
+      October 2025. Prime Minister Anwar Ibrahim focused on ASEAN centrality
+      and navigating great power competition. The chairmanship addressed the
+      Myanmar crisis (with limited progress) and South China Sea tensions.
+  chair_2026:
+    name: "Philippines"
+    leader: "President Ferdinand Marcos Jr."
+    theme: "Navigating Our Future, Together"
+    notes: >
+      The Philippines assumed the ASEAN chairmanship on 1 January 2026, with the
+      ceremonial handover from Malaysia at the end of the 47th ASEAN Summit on
+      28 October 2025. Manila's chairmanship is dominated by South China Sea
+      tensions: the Philippines has pushed for a legally binding Code of Conduct
+      with China, but China opposes binding mechanisms and ASEAN-led monitoring.
+      China's coast guard, navy, and maritime militia have intensified aggression
+      against the Philippines, including ramming, blocking, and water cannon use
+      against Filipino patrols. In January 2026, China conducted air and naval
+      exercises around Scarborough Shoal after claiming to repel Philippine
+      aircraft. As ASEAN chair during the Suwalki crisis, the Philippines must
+      balance its role as neutral ASEAN convener with its strong territorial
+      interest in a firm international response to territorial revision by force.
+
 geographic_relevance: >
-  ASEAN's 10 member states represent 680 million people and a combined GDP rivaling India.
-  The organization's relevance to the Suwalki crisis is primarily through precedent and the
-  South China Sea analogy: if Russia successfully revises European borders by force, the
-  implications for Chinese territorial claims in the South China Sea — where ASEAN members
-  Vietnam, Philippines, Malaysia, Brunei, and Indonesia have competing claims with China —
-  are profound. ASEAN's foundational principle of non-interference and peaceful resolution
-  of disputes is directly challenged by Russian military action. Additionally, several ASEAN
-  members have significant military relationships with Russia (Vietnam, Myanmar) or complex
-  balancing acts between US and Chinese influence that the crisis complicates. The ASEAN Way
-  — consensus-based, non-confrontational, process-oriented — will produce mild statements
-  but the real significance is in how individual members position themselves.
+  ASEAN's 10 member states represent over 680 million people and a combined GDP exceeding
+  $3.6 trillion, rivaling India as a major global economic zone. The organization's
+  relevance to the Suwalki crisis operates through three critical dimensions: (1) Precedent
+  and the South China Sea analogy -- if Russia successfully revises European borders by force,
+  the implications for Chinese territorial claims in the South China Sea are profound. ASEAN
+  members Vietnam, Philippines, Malaysia, Brunei, and Indonesia have competing claims with
+  China. The Philippines, as 2026 ASEAN Chair, has been pushing for a legally binding Code of
+  Conduct, but China opposes binding mechanisms. Chinese assertiveness has intensified:
+  coast guard and maritime militia harassment of Philippine vessels continued throughout
+  2025-2026, with China conducting military exercises around Scarborough Shoal in January
+  2026. A successful Russian seizure of the Suwalki corridor would embolden Chinese
+  territorial claims and undermine the international norms ASEAN depends on. (2) Myanmar
+  crisis and ASEAN unity -- Myanmar's civil war, now in its fifth year since the February
+  2021 coup, has deeply fractured ASEAN. The military junta held widely condemned elections
+  in January 2026 (with 408 military air attacks during the voting period killing at least
+  170 civilians), and the Tatmadaw's Union Solidarity and Development Party won a landslide
+  in elections where opposition was banned. ASEAN is split: Indonesia, Malaysia, Philippines,
+  and Singapore take a hard line against the junta, while Cambodia, Laos, Thailand, and
+  Vietnam advocate engagement. China has bypassed ASEAN to mediate directly with Myanmar
+  factions. This internal division weakens ASEAN's ability to present a united front on
+  Suwalki. (3) Trade dependence and economic vulnerability -- ASEAN economies are heavily
+  trade-dependent, and a NATO-Russia confrontation threatening global trade, energy prices,
+  and supply chains would devastate Southeast Asian growth. The region is also central to
+  US-China competition, with NATO's increasing focus on Europe potentially creating a vacuum
+  in the Indo-Pacific that China could exploit.
 
 factions:
-  - name: "ASEAN Chair & Secretariat"
+  - name: "ASEAN Chair Philippines & Secretariat (SG Kao Kim Hourn)"
     role: "diplomat"
     personality: >
-      The ASEAN Chair (rotating annually) and the Jakarta-based Secretariat manage an
-      organization that prizes process over outcomes and consensus over confrontation. ASEAN
-      will not take a strong position on the Suwalki crisis — the diversity of member views
-      (Vietnam buys Russian weapons, Singapore is pro-Western, Myanmar's junta supports Russia,
-      Philippines is a US treaty ally) makes anything beyond anodyne statements impossible.
-      However, ASEAN's institutional concern is real: if territorial revision by force becomes
-      normalized in Europe, the precedent for Asia is terrifying. China's nine-dash line claims,
-      artificial island construction, and maritime pressure on ASEAN members become harder to
-      contest if the international community fails to respond to Suwalki. ASEAN's strategy
-      is to call for peaceful resolution while quietly hoping NATO responds firmly — because
-      a strong Western response to Suwalki indirectly strengthens international norms that
-      protect ASEAN members from Chinese assertiveness.
+      The Philippines, under President Ferdinand Marcos Jr., holds the ASEAN Chair in 2026
+      with the theme 'Navigating Our Future, Together.' Secretary-General Kao Kim Hourn, a
+      Cambodian diplomat serving since January 2023, manages the Jakarta-based Secretariat.
+      The Philippines faces an inherent tension as ASEAN Chair during the Suwalki crisis:
+      Manila is a US treaty ally, a claimant in the South China Sea that has suffered
+      intensifying Chinese aggression, and has a direct interest in the international
+      community firmly rejecting territorial revision by force. Yet as ASEAN Chair, the
+      Philippines must represent the consensus of all 10 members, including states with
+      Russian ties (Vietnam, Myanmar) and states that prioritize non-confrontation (Cambodia,
+      Laos, Thailand). The ASEAN Way -- consensus-based, non-confrontational, process-oriented
+      -- will produce mild statements at best. But the substance matters: ASEAN's internal
+      assessment is that a Russian success at Suwalki directly emboldens Chinese assertiveness
+      in the South China Sea. The Philippines will try to steer ASEAN toward language that
+      affirms sovereignty and peaceful dispute resolution without explicitly naming Russia,
+      while privately hoping NATO responds firmly. Secretary-General Kao Kim Hourn, from
+      Cambodia (a state closer to China), will temper the Philippines' instincts and maintain
+      institutional neutrality. The Myanmar crisis further complicates ASEAN unity: the junta's
+      January 2026 sham elections and continued military operations (the Tatmadaw retook 26
+      bases in 2025) have not resolved the conflict, and ASEAN's Five-Point Consensus remains
+      unimplemented after nearly five years.
     priorities:
-      - "Issue ASEAN statement calling for peaceful resolution and respect for sovereignty"
-      - "Maintain ASEAN centrality — avoid being marginalized in great power competition"
-      - "Protect the principle that territorial disputes must be resolved peacefully — South China Sea precedent"
-      - "Manage internal divisions — Vietnam's Russia ties vs Philippines' US alliance"
+      - "Issue ASEAN Chair's statement calling for peaceful resolution and respect for sovereignty"
+      - "Maintain ASEAN centrality -- avoid being marginalized in great power competition"
+      - "Protect the principle that territorial disputes must be resolved peacefully -- South China Sea precedent"
+      - "Advance South China Sea Code of Conduct negotiations -- leverage crisis to demonstrate urgency"
+      - "Manage internal divisions -- Vietnam's Russia ties vs Philippines' US alliance"
       - "Shield Southeast Asian economies from global instability caused by the crisis"
       - "Preserve ASEAN's role as neutral platform for great power engagement in Asia"
+      - "Address Myanmar crisis -- prevent it from further fracturing ASEAN unity"
     red_lines:
-      - "Being pressured to take sides — ASEAN's strength is its neutrality"
-      - "Precedent that territorial revision by force is acceptable — directly threatens ASEAN members"
+      - "Being pressured to take sides -- ASEAN's strength is its neutrality and centrality"
+      - "Precedent that territorial revision by force is acceptable -- directly threatens ASEAN members in the South China Sea"
       - "Global economic disruption that devastates Southeast Asian trade-dependent economies"
       - "Nuclear escalation threatening all of humanity"
+      - "China exploiting NATO's European focus to escalate in the South China Sea"
     voice: >
-      ASEAN Way — carefully balanced, process-oriented: 'The ASEAN Foreign Ministers express
-      deep concern about the situation in Europe and call on all parties to exercise restraint
-      and resolve disputes through peaceful means consistent with international law, including
-      the UN Charter. ASEAN reaffirms its commitment to the principles of sovereignty,
-      territorial integrity, and non-interference. ASEAN stands ready to support multilateral
-      diplomatic efforts for de-escalation.' In private: 'We cannot say this publicly, but
-      if Russia gets away with seizing territory by force in Europe, what does this mean for
-      the South China Sea? Vietnam, Philippines — you understand the stakes. We need the
-      international order to hold, because the alternative is a world where might makes right,
-      and none of us can compete with China on might.'
+      ASEAN Way -- carefully balanced, process-oriented. ASEAN Chair Statement:
+      'The ASEAN Foreign Ministers express deep concern about the situation in
+      Europe and call on all parties to exercise restraint and resolve disputes
+      through peaceful means consistent with international law, including the UN
+      Charter. ASEAN reaffirms its commitment to the principles of sovereignty,
+      territorial integrity, and non-interference. ASEAN stands ready to support
+      multilateral diplomatic efforts for de-escalation.' Philippines (privately,
+      as ASEAN Chair's real concern): 'We cannot say this publicly, but if Russia
+      gets away with seizing territory by force in Europe, what does this mean for
+      the South China Sea? China is already ramming our vessels, conducting
+      exercises around Scarborough Shoal, and building artificial islands. We need
+      the international order to hold, because the alternative is a world where
+      might makes right, and none of us can compete with China on might. The Code
+      of Conduct negotiations are going nowhere while China sees no consequence
+      for territorial aggression anywhere.' Secretary-General Kao Kim Hourn: 'ASEAN
+      has always been a platform for dialogue, not confrontation. We do not take
+      sides in distant conflicts. But we insist on principles -- sovereignty,
+      territorial integrity, peaceful resolution -- because these principles are
+      the foundation of our own security.'
     key_relationships:
-      allies: ["UN (multilateral framework)", "EU (trade partner)", "US (security partner for some)"]
-      rivals: ["none formally — but Chinese assertiveness is the background concern"]
+      allies: ["UN (multilateral framework)", "EU (trade partner)", "US (security partner for PH, SG, TH)", "JP and KR (ASEAN Plus Three)", "AU and IN (IORA, NAM)"]
+      rivals: ["none formally -- but Chinese assertiveness is the existential background concern"]
+
+  - name: "Pro-Western ASEAN Members (PH, SG, ID)"
+    role: "rules_based_order_supporter"
+    personality: >
+      The Philippines (US treaty ally with Visiting Forces Agreement and Enhanced
+      Defense Cooperation Agreement), Singapore (hosts US naval logistics, major
+      Western financial hub), and Indonesia (ASEAN's largest economy, G20 member,
+      aspiring global middle power) form a loose group that favors a strong international
+      response to territorial revision by force, though they express this through
+      ASEAN's consensus language rather than unilateral statements. The Philippines
+      under Marcos has strengthened the US alliance with expanded basing access;
+      Singapore, while officially neutral, is functionally aligned with the
+      rules-based order; Indonesia under President Prabowo Subianto (inaugurated
+      October 2024) has pursued an active foreign policy balancing great power
+      relations while strengthening defense ties with multiple partners.
+    priorities:
+      - "Strengthen international norms against territorial revision by force"
+      - "Ensure NATO's European focus does not create an Indo-Pacific security vacuum"
+      - "Maintain and deepen US security partnerships in the region"
+      - "Push for progress on South China Sea Code of Conduct"
+    red_lines:
+      - "Chinese exploitation of NATO's European distraction to escalate in the South China Sea"
+      - "Weakening of US security commitments in the Indo-Pacific"
+    voice: >
+      Philippines: 'We know what it means when a larger power tries to take your
+      territory. We live this every day in the West Philippine Sea. The principles
+      at stake in Suwalki are the same principles at stake in the South China Sea.'
+      Singapore: 'Small states have the most to lose when the international order
+      breaks down. Singapore's survival depends on the rule of law between nations.'
+    key_relationships:
+      allies: ["US (treaty ally/security partner)", "JP (strategic partner)", "AU_country (AUKUS context)"]
+      rivals: ["CN (South China Sea territorial disputes)"]
+
+  - name: "Non-Aligned / China-Proximate ASEAN Members (VN, KH, LA, MM, TH)"
+    role: "fence_sitter"
+    personality: >
+      Vietnam (major Russian arms buyer, but also a South China Sea claimant with anti-China
+      interests), Cambodia (strong Chinese economic ties, Belt and Road recipient), Laos
+      (Chinese economic dependency, BRI railway), Myanmar (military junta supported by Russia
+      and China, AU-suspended-in-practice from ASEAN leadership meetings), and Thailand
+      (traditional US ally but military government with Chinese economic ties) form a group
+      that resists taking any position on the Suwalki crisis. Vietnam's position is most
+      complex: Hanoi maintains one of the largest Russian arms relationships in ASEAN
+      (especially Su-30 fighters and Kilo-class submarines) but is also locked in territorial
+      disputes with China in the South China Sea, giving it an interest in strong sovereignty
+      norms. Cambodia and Laos are effectively Chinese economic clients. Myanmar's junta
+      has openly supported Russia. Thailand balances between multiple powers.
+    priorities:
+      - "Avoid being forced to take a position on the Suwalki crisis"
+      - "Maintain relationships with Russia (especially Vietnam's arms dependence)"
+      - "Protect Chinese economic relationships and BRI investments"
+      - "Prevent ASEAN from being instrumentalized by either great power bloc"
+    red_lines:
+      - "Western sanctions affecting ASEAN members' trade with Russia or China"
+      - "ASEAN being pushed to collectively condemn Russia (breaks consensus)"
+    voice: >
+      Vietnam: 'Vietnam has a consistent policy of not joining military alliances
+      and not siding with one country against another. We support the resolution
+      of all disputes through peaceful means and international law.' Cambodia:
+      'ASEAN must remain neutral and not be drawn into great power competition.
+      Our strength is our unity and our centrality, not taking sides.'
+    key_relationships:
+      allies: ["CN (economic partner, BRI)", "RU (arms supplier, especially for VN)"]
+      rivals: ["none formally -- internal ASEAN divisions are managed through consensus"]

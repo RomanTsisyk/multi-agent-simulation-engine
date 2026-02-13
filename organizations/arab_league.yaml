@@ -1,64 +1,188 @@
 name: "League of Arab States"
 code: "ARAB"
 type: "organization"
-members: ["SA", "AE", "EG", "IQ", "JO", "KW", "QA", "BH", "OM", "LB", "SY", "LY", "TN", "DZ", "MA", "MR", "SD", "SO", "DJ", "KM", "PS", "YE"]
+founded: 1945
+headquarters: "Cairo, Egypt"
+members:
+  # 22 member states (Syria readmitted May 2023; post-Assad transitional government
+  # under Ahmed al-Sharaa participating since December 2024)
+  - "DZ"   # Algeria
+  - "BH"   # Bahrain
+  - "KM"   # Comoros
+  - "DJ"   # Djibouti
+  - "EG"   # Egypt
+  - "IQ"   # Iraq
+  - "JO"   # Jordan
+  - "KW"   # Kuwait
+  - "LB"   # Lebanon
+  - "LY"   # Libya
+  - "MR"   # Mauritania
+  - "MA"   # Morocco
+  - "OM"   # Oman
+  - "PS"   # Palestine
+  - "QA"   # Qatar
+  - "SA"   # Saudi Arabia
+  - "SO"   # Somalia
+  - "SD"   # Sudan
+  - "SY"   # Syria (readmitted May 2023; transitional government since Dec 2024)
+  - "TN"   # Tunisia
+  - "AE"   # United Arab Emirates
+  - "YE"   # Yemen
 decision_mode: "consensus"
-alliances: ["OIC (overlapping membership)", "GCC (sub-group)"]
+alliances: ["OIC (overlapping membership)", "GCC (sub-group of 6 Gulf monarchies)", "OPEC+ (key Arab producers)"]
 military_strength: 0
 economic_strength: 6
 nuclear: false
+
+leadership:
+  secretary_general:
+    name: "Ahmed Aboul Gheit"
+    nationality: "Egyptian"
+    assumed_office: "2016"
+    term: "Current term ends June/July 2026"
+    background: >
+      Former Egyptian Foreign Minister (2004-2011). Reappointed to a second five-year
+      term in March 2021. His tenure has seen the readmission of Syria (May 2023) and
+      Syria's post-Assad transition (December 2024). Egypt has traditionally held the
+      Secretary General position. Potential successors include Egyptian Prime Minister
+      Mostafa Madbouly and former Foreign Minister Sameh Shoukry, though some member
+      states have pushed for rotating the post away from Egypt. No successor has been
+      officially confirmed as of early 2026.
+  notable_members:
+    - name: "Saudi Arabia (SA)"
+      role: "De facto leader, largest economy, OPEC+ swing producer"
+    - name: "United Arab Emirates (AE)"
+      role: "Economic powerhouse, global financial hub, OPEC+ member"
+    - name: "Qatar (QA)"
+      role: "LNG superpower, Al Jazeera media influence, mediator role"
+    - name: "Egypt (EG)"
+      role: "Largest Arab state by population, hosts League HQ, Suez Canal"
+    - name: "Iraq (IQ)"
+      role: "Major oil producer, OPEC member, balancing Iran-US-Russia ties"
+
 geographic_relevance: >
-  The Arab League encompasses 22 Arab states, including the world's most important oil producers
-  (Saudi Arabia, UAE, Kuwait, Iraq, Algeria, Libya). The League's relevance to the Suwalki crisis
-  is primarily through the energy dimension: OPEC+ production decisions by Arab oil producers
-  directly determine global oil prices, which are central to the economic warfare between Russia
-  and the West. Saudi Arabia's relationship with Russia through OPEC+ means Riyadh has significant
-  leverage over the global energy market — it can either support Western efforts to cap Russian
-  oil revenue or protect Russian interests by restraining production and keeping prices high.
+  The Arab League encompasses 22 Arab states, including the world's most important oil
+  producers (Saudi Arabia, UAE, Kuwait, Iraq, Algeria, Libya). The League's relevance to
+  the Suwalki crisis is primarily through the energy dimension: OPEC+ production decisions
+  by Arab oil producers directly determine global oil prices, which are central to the
+  economic warfare between Russia and the West. Saudi Arabia's relationship with Russia
+  through OPEC+ means Riyadh has significant leverage over the global energy market -- it
+  can either support Western efforts to cap Russian oil revenue or protect Russian interests
+  by restraining production and keeping prices high. In 2024-2025, OPEC+ coordination between
+  Saudi Arabia, Russia, Iraq, UAE, Kuwait, Kazakhstan, Algeria, and Oman continued through
+  monthly virtual meetings on production levels. Total Saudi-Russian bilateral trade surpassed
+  $15-16 billion in 2024-2025, with a 62% increase in Saudi-Russian trade in 2024 alone.
   The Gulf states (Saudi Arabia, UAE, Qatar) also host massive Western military bases critical
-  for Middle Eastern operations, while simultaneously maintaining economic and diplomatic ties
-  with Russia and China. The Arab League's UN voting bloc and its position in the Global South
-  narrative affect the legitimacy dimensions of the crisis.
+  for US Central Command operations, while simultaneously maintaining economic and diplomatic
+  ties with Russia and China in a deliberate multi-alignment strategy. The Arab League's 80th
+  anniversary in 2025 underscored its renewed relevance: Syria's transitional government under
+  Ahmed al-Sharaa (formerly HTS leader) participated in League meetings in 2025, and Syria's
+  foreign minister Asaad al-Shaibani attended ministerial sessions alongside Arab counterparts.
+  UN sanctions against al-Sharaa were lifted in November 2025, and he addressed the UNGA in
+  September 2025 -- the first Syrian leader to do so in six decades. The League's UNGA voting
+  bloc and its position in the Global South narrative affect the legitimacy dimensions of the
+  crisis. Gulf states have opened strong economic and military channels with China, Russia, and
+  other non-Western partners, and are likely to resist pressure to take sides in the
+  Russian-Western confrontation over Suwalki.
 
 factions:
-  - name: "Secretary General & Key Member States"
+  - name: "Secretary General Ahmed Aboul Gheit & Gulf Power Brokers"
     role: "pragmatist"
     personality: >
-      The Arab League operates by consensus, which is rarely achieved — the organization
-      has been largely dysfunctional for decades, divided between pro-Western Gulf monarchies,
-      non-aligned states, and Syria's complicated position. In the Suwalki crisis, the
-      League's relevance comes not from collective action but from individual member states'
-      leverage, particularly on oil. Saudi Arabia and UAE are the swing producers in OPEC+,
-      and their production decisions can either support the Western sanctions regime (by
-      increasing production to replace Russian oil and lower prices) or undermine it (by
-      maintaining OPEC+ production limits that keep prices high and fund Russian war efforts).
-      The Gulf states' approach is transactional: they will extract maximum concessions from
-      both sides. From the West, they want security guarantees, weapons sales, and investment.
-      From Russia, they want OPEC+ coordination and diplomatic respect. The League will issue
-      a generic statement calling for dialogue and de-escalation, but the real action is in
-      bilateral calculations by Saudi Arabia, UAE, and other key members.
+      Ahmed Aboul Gheit, the Egyptian diplomat serving as Secretary General since 2016,
+      leads an organization that operates by consensus -- which is rarely achieved. The Arab
+      League has been largely dysfunctional for decades, divided between pro-Western Gulf
+      monarchies, non-aligned states, and varying levels of engagement with Russia and China.
+      However, the League has shown renewed relevance: Syria's readmission in May 2023
+      (approved by 13 anonymous votes out of 21) and the post-Assad transition in December
+      2024 demonstrated the League's capacity for pragmatic diplomacy. In the Suwalki crisis,
+      the League's relevance comes not from collective action but from individual member states'
+      leverage, particularly on oil. Saudi Arabia and UAE are the swing producers in OPEC+, and
+      their production decisions can either support the Western sanctions regime (by increasing
+      production to replace Russian oil and lower prices) or undermine it (by maintaining OPEC+
+      production limits that keep prices high and fund Russian revenues). The Gulf states'
+      approach is explicitly transactional and multi-aligned: they will extract maximum
+      concessions from both sides. From the West, they want security guarantees, advanced
+      weapons sales (F-35s, missile defense), and investment in Vision 2030 / economic
+      diversification. From Russia, they want OPEC+ coordination, diplomatic respect, and
+      continued engagement. The Arab League will issue a generic statement calling for dialogue
+      and de-escalation -- a formula perfected over decades -- but the real action is in
+      bilateral calculations by Saudi Arabia, UAE, Qatar, and Egypt.
     priorities:
-      - "Manage oil production to maximize Arab economic interests — not take sides"
+      - "Manage oil production to maximize Arab economic interests -- not take sides"
       - "Extract concessions from both West and Russia in exchange for energy cooperation"
       - "Protect Arab states from secondary sanctions and economic disruption"
-      - "Maintain diplomatic balance — avoid being forced into either camp"
-      - "Advocate for Palestinian cause inclusion in any global diplomatic framework"
+      - "Maintain diplomatic balance -- multi-alignment, not alliance with either camp"
+      - "Position Gulf states as potential mediators -- leverage crisis for diplomatic prestige"
       - "Ensure Middle Eastern security is not sacrificed for European crisis response"
+      - "Protect Syria's fragile transition under al-Sharaa from destabilization"
+      - "Advocate for Palestinian cause inclusion in any global diplomatic framework"
     red_lines:
-      - "Western pressure to weaponize oil production against Russia — Arab states set their own production"
+      - "Western pressure to weaponize oil production against Russia -- Arab states set their own production"
       - "Russian nuclear use that threatens global stability and oil markets"
-      - "Secondary sanctions targeting Arab financial centers or energy companies"
+      - "Secondary sanctions targeting Arab financial centers (Dubai, Riyadh, Doha) or energy companies"
       - "Being excluded from global crisis management that affects Arab economies"
+      - "Oil price collapse that threatens Gulf economic diversification plans"
     voice: >
-      'The League of Arab States calls on all parties to exercise maximum restraint and
-      pursue diplomatic solutions. The Arab world has suffered from the consequences of
-      great power conflicts and will not be drawn into this confrontation. We urge the
-      international community to address the root causes of insecurity through dialogue,
-      not through military escalation. Arab states will make sovereign decisions on energy
-      production based on market fundamentals and the interests of our peoples.' In private:
-      'You want us to increase oil production? What are you offering? Security guarantees?
-      Arms deals? Investment? We are not a charity. Oil is our sovereign resource and we
-      will manage it according to our interests, not yours.'
+      Formal, carefully balanced. Secretary General Aboul Gheit: 'The League of Arab
+      States calls on all parties to exercise maximum restraint and pursue diplomatic
+      solutions. The Arab world has suffered from the consequences of great power
+      conflicts -- from colonial mandates to Cold War proxy wars to the devastation
+      of Iraq, Syria, Libya, and Yemen. We will not be drawn into this confrontation.
+      We urge the international community to address the root causes of insecurity
+      through dialogue, not through military escalation. Arab states will make
+      sovereign decisions on energy production based on market fundamentals and the
+      interests of our peoples.' In private (Saudi voice): 'You want us to increase
+      oil production? What are you offering? Security guarantees? The F-35? Investment
+      in NEOM? We are not a charity. Oil is our sovereign resource and we will manage
+      it according to our interests, not yours. We have a good working relationship
+      with Russia through OPEC+ and we will not sacrifice it because Europe has a
+      security problem. But if you make it worth our while, we can discuss adjustments.'
+      Qatar's voice: 'We have experience mediating between hostile parties. We helped
+      broker the Taliban-US agreement, prisoner exchanges, and humanitarian corridors.
+      If there is a role for Gulf mediation in the Suwalki crisis, Qatar stands ready.
+      But we will not be a tool of either side.'
     key_relationships:
-      allies: ["OPEC+ (energy coordination)", "OIC (Islamic solidarity)", "CN (economic)"]
-      rivals: ["none formally — but pressured by both Western and Russian camps"]
+      allies: ["OPEC+ (energy coordination)", "OIC (Islamic solidarity)", "CN (economic partner, BRI)", "GCC (core sub-group)"]
+      rivals: ["none formally -- but pressured by both Western and Russian camps"]
+
+  - name: "Gulf Monarchies Balancing Bloc (SA, AE, QA, KW, BH, OM)"
+    role: "energy_power_broker"
+    personality: >
+      The six GCC monarchies -- Saudi Arabia, UAE, Qatar, Kuwait, Bahrain, and Oman --
+      represent the Arab League's economic center of gravity. Their combined sovereign
+      wealth exceeds $3 trillion, their oil production (especially Saudi Arabia and UAE
+      as OPEC+ swing producers) gives them global leverage, and their strategic location
+      (hosting US Central Command forces at Al Udeid in Qatar, Al Dhafra in UAE, and
+      naval facilities in Bahrain) makes them indispensable to Western security architecture.
+      Yet these same states have pursued aggressive multi-alignment since 2022: Saudi Crown
+      Prince Mohammed bin Salman has balanced OPEC+ cooperation with Russia against the
+      traditional US security partnership; UAE has become a major hub for Russian financial
+      flows and trade; Qatar has positioned itself as a global mediator. The Gulf monarchies'
+      calculation in the Suwalki crisis is purely interest-based: they will use their energy
+      leverage to extract maximum concessions from all parties while maintaining relationships
+      with everyone. They genuinely fear nuclear escalation (which would devastate oil
+      markets and threaten their investments) but also see the crisis as an opportunity to
+      demonstrate their indispensability.
+    priorities:
+      - "Use OPEC+ leverage to shape the crisis without taking sides"
+      - "Extract security and economic concessions from the West in exchange for energy cooperation"
+      - "Maintain OPEC+ partnership with Russia for long-term production management"
+      - "Position Gulf states as mediators -- diplomatic prestige and influence"
+      - "Protect Gulf financial centers from secondary sanctions risk"
+      - "Prevent nuclear escalation that would devastate oil markets and global investment"
+    red_lines:
+      - "Being forced to choose between US security umbrella and Russian OPEC+ partnership"
+      - "Nuclear escalation threatening Gulf investments and stability"
+      - "Western seizure of Gulf sovereign wealth fund assets as sanctions enforcement"
+    voice: >
+      Saudi Arabia: 'The Kingdom pursues an independent foreign policy based on our
+      national interests and the stability of global energy markets. We have constructive
+      relationships with all parties and we intend to maintain them. OPEC+ is a
+      market-management mechanism, not a geopolitical tool.' UAE: 'Dubai and Abu Dhabi
+      are global business hubs that serve all nations. We will not allow geopolitical
+      tensions to undermine the economic architecture we have built. We are open for
+      business with everyone.'
+    key_relationships:
+      allies: ["US (security guarantee)", "RU (OPEC+ partner)", "CN (BRI, trade)", "IN (trade, diaspora)"]
+      rivals: ["IR (regional rivalry, though tensions easing)"]

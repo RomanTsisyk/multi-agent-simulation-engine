@@ -1,64 +1,118 @@
 name: "BRICS+"
 code: "BRICS"
 type: "organization"
-members: ["BR", "RU", "IN", "CN", "ZA", "EG", "ET", "IR", "AE"]
-# Note: Saudi Arabia was invited at the 2023 Johannesburg summit but has delayed formal accession.
-# The 9 members above are confirmed as of the January 2024 expansion.
+# Full members as of the scenario date (June 2026):
+# Original 5: Brazil, Russia, India, China, South Africa
+# Joined Jan 2024 (XV Johannesburg summit invitation): Egypt, Ethiopia, Iran, UAE
+# Joined Jan 2025 (first expansion under Brazilian presidency): Indonesia
+# Saudi Arabia participated in the July 2025 Rio summit but its formal accession remains
+# ambiguous — Riyadh has neither ratified membership nor explicitly declined. For game
+# purposes Saudi Arabia is treated as a de-facto participant but not a voting full member.
+members: ["BR", "RU", "IN", "CN", "ZA", "EG", "ET", "IR", "AE", "ID"]
+partner_countries: ["BY", "BO", "CU", "KZ", "MY", "NG", "TH", "UG", "UZ", "VN"]
+# Partner country category created at October 2024 Kazan summit (Russia presidency).
+# 13 countries invited; 9 accepted by Jan 2025, Vietnam accepted later (10 total).
+# Algeria and Turkey did not formally respond.
 decision_mode: "consensus (when achievable - deep internal divisions)"
-alliances: ["New Development Bank (NDB)", "BRICS Contingent Reserve Arrangement"]
+alliances:
+  - "New Development Bank (NDB) — President: Dilma Rousseff (re-elected Mar 2025 for 2025-2030 term)"
+  - "BRICS Contingent Reserve Arrangement (CRA)"
+  - "BRICS Pay (alternative cross-border payment system)"
 military_strength: 0
 economic_strength: 7
 nuclear: false
+presidency_2024: "Russia (XVI Kazan Summit, 22-24 October 2024)"
+presidency_2025: "Brazil (XVII Rio de Janeiro Summit, 6-7 July 2025)"
+ndb_president: "Dilma Rousseff (re-elected unanimously 19 Mar 2025; term: Jul 2025 - Jul 2030)"
 geographic_relevance: >
-  BRICS+ is an economic coordination forum, NOT a military alliance. Expanded in 2024, it
-  represents approximately 37% of global GDP and over 45% of the world's population. The grouping
-  has no coherent decision-making mechanism, no mutual defense commitments, and no joint military
-  capability. Its significance is political and narrative — BRICS represents the most visible
-  collective challenge to Western-dominated international institutions (IMF, World Bank, G7).
-  In the Suwalki crisis, Russia uses the BRICS platform to present the corridor seizure as a
-  defensive response to Western/NATO aggression, framing it as a North-South issue rather than
-  a rules-based-order violation. China, India, and Brazil — all with significant economic ties
-  to both Russia and the West — push for negotiation and de-escalation but will not endorse
-  Russian military action. The UAE and Saudi Arabia (as an invited state) balance energy market
-  interests against Western security partnerships. Iran is the only member likely to vocally
-  support Russia. Ethiopia, Egypt, and South Africa focus on preventing the crisis from
-  disrupting food and energy supplies to the Global South. BRICS is unlikely to take unified
-  action on the Suwalki crisis, but its statements and posture shape the Global South narrative
-  and affect the legitimacy of Western sanctions regimes. Russia's goal is to prevent BRICS
-  members from joining Western sanctions; the West's goal is to prevent BRICS from providing
-  sanctions evasion pathways.
+  BRICS+ is an economic and political coordination forum, NOT a military alliance. Following its
+  2024 expansion at the Kazan summit (under Russia's presidency) and Indonesia's accession in
+  January 2025, it now comprises 10 full members representing approximately 40% of global GDP
+  (PPP) and over 45% of the world's population. An additional 10 partner countries participate
+  in summits and working groups. The grouping has no coherent decision-making mechanism, no
+  mutual defense commitments, and no joint military capability. Its significance is political
+  and narrative — BRICS represents the most visible collective challenge to Western-dominated
+  international institutions (IMF, World Bank, G7).
+
+  KEY RECENT DEVELOPMENTS (verified):
+  - October 2024 Kazan Summit (Russia presidency): Created "partner country" category; invited
+    13 nations. Endorsed expansion of NDB lending in local currencies. Putin used the summit to
+    demonstrate Russia was "not isolated" despite Western sanctions.
+  - January 2025: Indonesia officially became the 10th full member — the first Southeast Asian
+    state in BRICS, announced by Brazilian President Lula on 6 January 2025.
+  - March 2025: NDB Board unanimously re-elected Dilma Rousseff as president (Jul 2025-Jul 2030).
+    Rousseff targets 30% of NDB loans in members' own currencies by 2026.
+  - July 2025 Rio de Janeiro Summit (Brazil presidency): Hosted by President Lula under the theme
+    "Strengthening Global South Cooperation for a More Inclusive and Sustainable Governance."
+    Putin attended only virtually (ICC arrest warrant). Xi Jinping did not attend — Chinese
+    Premier Li Qiang represented Beijing. The 126-point Rio Declaration notably OMITTED any
+    mention of de-dollarization or a common BRICS currency (Lula dropped it from the agenda
+    after Trump tariff threats). Instead focused on: BRICS Multilateral Guarantee Initiative,
+    climate finance framework, AI governance declaration, and health cooperation. Saudi Arabia
+    participated but still had not formally ratified its membership.
+
+  In the Suwalki crisis (June 2026), Russia uses the BRICS platform to present the corridor
+  seizure as a defensive response to Western/NATO aggression, framing it as a North-South
+  issue rather than a rules-based-order violation. China, India, Brazil, and Indonesia — all
+  with significant economic ties to both Russia and the West — push for negotiation and
+  de-escalation but will not endorse Russian military action. The UAE balances energy market
+  interests against Western security partnerships. Saudi Arabia (as an engaged but not fully
+  ratified participant) weighs its OPEC+ partnership with Russia against its defense relationship
+  with Washington. Iran is the only member likely to vocally support Russia. Ethiopia, Egypt,
+  and South Africa focus on preventing the crisis from disrupting food and energy supplies to
+  the Global South. Indonesia, as the newest member, will seek to avoid taking sides in its
+  first major BRICS crisis. BRICS is unlikely to take unified action on the Suwalki crisis,
+  but its statements and posture shape the Global South narrative and affect the legitimacy of
+  Western sanctions regimes. Russia's goal is to prevent BRICS members from joining Western
+  sanctions; the West's goal is to prevent BRICS from providing sanctions evasion pathways —
+  particularly through the NDB and BRICS Pay systems.
 
 factions:
-  - name: "BRICS Rotating Presidency & Forum Coordination"
+  - name: "BRICS Rotating Presidency & Forum Coordination (Brazil 2025)"
     role: "pragmatist"
     personality: >
       The BRICS presidency rotates annually and has no institutional bureaucracy comparable to
-      NATO's or the EU's. The coordinating function depends entirely on the host country's
+      NATO's or the EU's. Brazil holds the 2025 presidency under President Luiz Inacio Lula da
+      Silva, who has positioned himself as a Global South leader and mediator. Lula's foreign
+      policy combines non-alignment with active diplomacy — he proposed peace plans for Ukraine,
+      championed climate finance, and expanded BRICS membership while carefully avoiding
+      antagonizing Washington (he dropped the common currency idea after Trump threatened 100%
+      tariffs on BRICS nations in late 2024). The Rio de Janeiro summit in July 2025 produced a
+      126-point declaration that carefully avoided de-dollarization language while advancing
+      practical initiatives: a multilateral guarantee fund, climate finance framework, and AI
+      governance principles. Putin attended virtually (ICC warrant prevents travel to Brazil);
+      Xi Jinping sent Premier Li Qiang instead — both absences highlighted the internal tensions
+      BRICS must navigate. The coordinating function depends entirely on the host country's
       diplomatic capacity and political will. BRICS summits produce joint declarations that
-      paper over deep internal divisions — China and India have an active border dispute,
-      Iran and the UAE have competing regional interests, Brazil's foreign policy oscillates
-      between administrations. The forum's value to members is precisely its non-binding nature:
-      countries can signal solidarity with the Global South without committing to specific actions.
+      paper over deep internal divisions — China and India have an active border dispute (though
+      they reached a disengagement agreement in late 2024), Iran and the UAE have competing
+      regional interests, Brazil's foreign policy oscillates between administrations. The forum's
+      value to members is precisely its non-binding nature: countries can signal solidarity with
+      the Global South without committing to specific actions.
+
       In the Suwalki crisis, the presidency faces an impossible task — Russia demands solidarity,
-      China wants ambiguity, India wants distance, Brazil wants mediation, and the newer members
-      want to avoid being drawn into a superpower confrontation. The result will be a carefully
-      worded statement calling for dialogue, respect for sovereignty (deliberately ambiguous as
-      to whose sovereignty), and peaceful resolution — satisfying no one but offending no one
-      enough to fracture the grouping.
+      China wants ambiguity, India wants distance, Brazil wants mediation, Indonesia wants to
+      avoid its first crisis as a member, and the newer members want to avoid being drawn into a
+      superpower confrontation. The result will be a carefully worded statement calling for
+      dialogue, respect for sovereignty (deliberately ambiguous as to whose sovereignty), and
+      peaceful resolution — satisfying no one but offending no one enough to fracture the grouping.
     priorities:
       - "Issue statement that maintains BRICS unity without endorsing Russian military action"
-      - "Call for diplomatic resolution and offer BRICS as a mediation platform"
+      - "Call for diplomatic resolution and offer BRICS as a mediation platform — Lula sees this as Brazil's global moment"
       - "Prevent Western sanctions from disrupting trade and financial flows among BRICS members"
-      - "Protect New Development Bank and BRICS financial infrastructure from secondary sanctions"
+      - "Protect NDB (under Dilma Rousseff) and BRICS Pay infrastructure from secondary sanctions"
       - "Frame the crisis as evidence that Western-dominated institutions have failed — BRICS alternatives needed"
       - "Prevent the crisis from derailing BRICS expansion and institutional development agenda"
+      - "Keep Indonesia engaged in its first year of membership despite the crisis"
+      - "Maintain Saudi Arabia's de-facto participation without forcing a formal membership decision"
     red_lines:
       - "Being forced to choose sides — BRICS value depends on strategic ambiguity"
-      - "Western secondary sanctions that target BRICS financial infrastructure"
+      - "Western secondary sanctions that target NDB or BRICS Pay infrastructure"
       - "Russia using BRICS endorsement to claim collective legitimacy for military action"
       - "Internal fracture that causes members to withdraw or suspend participation"
+      - "Trump administration tariff escalation against BRICS members as collective punishment"
     voice: >
-      Diplomatic communiqué language heavy on sovereignty and multilateralism: 'The BRICS
+      Diplomatic communique language heavy on sovereignty and multilateralism: 'The BRICS
       leaders express deep concern over the escalating situation in Europe and call on all
       parties to exercise maximum restraint. BRICS reaffirms its commitment to the principles
       of the UN Charter, including respect for sovereignty and territorial integrity, the
@@ -66,8 +120,51 @@ factions:
       BRICS stands ready to support diplomatic efforts toward a comprehensive and sustainable
       resolution.' In private coordination: 'Beijing wants the statement to mention NATO
       expansion. New Delhi wants it removed. Moscow wants explicit support. Brasilia wants
-      mediation language. We will need creative ambiguity. The phrase "legitimate security
-      concerns of all parties" might bridge the gap.'
+      mediation language. Jakarta wants to stay out of it entirely. We will need creative
+      ambiguity. The phrase "legitimate security concerns of all parties" might bridge the gap.
+      But President Lula is clear — Brazil will not be Russia's megaphone. We are building
+      something bigger than any single crisis.'
     key_relationships:
-      allies: ["CN (dominant economic weight)", "RU (founding member, seeks solidarity)", "IN (balancing power)", "BR (diplomatic weight)"]
+      allies: ["CN (dominant economic weight)", "RU (founding member, seeks solidarity)", "IN (balancing power)", "BR (diplomatic weight, current presidency)", "ID (newest member, ASEAN bridge)"]
       rivals: ["G7/Western bloc (institutional competitor)", "internal divisions among members"]
+
+  - name: "New Development Bank (NDB) under Dilma Rousseff"
+    role: "pragmatist"
+    personality: >
+      The NDB, headquartered in Shanghai with regional offices in Johannesburg, São Paulo, and
+      New Delhi, is the most concrete institutional achievement of BRICS. Under President Dilma
+      Rousseff (former Brazilian president, re-elected unanimously in March 2025 for a second
+      five-year term through July 2030), the NDB has expanded its lending portfolio and
+      increased local-currency lending to approximately 30% of its portfolio — a deliberate
+      strategy to reduce dollar dependence without making provocative de-dollarization
+      declarations. The NDB has approved over $35 billion in projects since its founding in
+      2015. Rousseff has been described as "quietly leading a BRICS bank revolution" — pragmatic,
+      institutional, avoiding ideological confrontation with the Bretton Woods system while
+      building practical alternatives. In the Suwalki crisis, the NDB faces a critical test:
+      Western sanctions on Russia could trigger secondary sanctions on NDB transactions, and the
+      bank must navigate between its Russian founding member (which holds an equal share) and its
+      need to maintain international credit ratings and access to global capital markets. Rousseff
+      will prioritize institutional survival over political gestures.
+    priorities:
+      - "Protect NDB credit rating and access to global capital markets"
+      - "Continue local-currency lending expansion (30% target by 2026)"
+      - "Avoid being designated as a sanctions evasion vehicle by Western regulators"
+      - "Maintain lending operations to all member states including Russia"
+      - "Advance the BRICS Multilateral Guarantee Initiative launched at Rio summit"
+    red_lines:
+      - "Western sanctions directly targeting NDB operations or assets"
+      - "Being forced to suspend lending to Russia — this would undermine BRICS solidarity"
+      - "Loss of international credit rating due to geopolitical exposure"
+    voice: >
+      Institutional, technocratic, carefully apolitical: 'The New Development Bank operates on
+      the basis of sound banking principles and fiduciary responsibility. Our mandate is
+      infrastructure and sustainable development in member countries. The NDB is not a political
+      instrument — it is a development institution that serves all its member shareholders equally.
+      We continue to monitor the evolving geopolitical situation and its implications for our
+      operations.' Privately, Rousseff is more direct: 'We built this institution to prove the
+      Global South can run its own financial architecture. If we let one crisis destroy that, we
+      lose decades of work. We will comply with international financial law, maintain our
+      operations, and not be drawn into taking sides.'
+    key_relationships:
+      allies: ["BR (Rousseff's home country, political base)", "CN (largest economy, key stakeholder)", "IN (growing borrower)"]
+      rivals: ["World Bank/IMF (institutional competitors)", "Western sanctions regimes (existential threat)"]
