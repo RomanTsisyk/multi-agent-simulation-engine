@@ -1,149 +1,444 @@
 name: "North Korea"
 code: "KP"
-alliances: ["Russia (mutual defense treaty 2024)", "China (1961 treaty)", "DPRK-Russia strategic partnership"]
-military_strength: 4
-economic_strength: 1
-nuclear: true
+government: "Supreme Leader Kim Jong-un, Workers' Party of Korea (one-party totalitarian dictatorship, Juche ideology)"
+alliances: ["Russia (Comprehensive Strategic Partnership Treaty, June 2024)", "China (1961 mutual aid treaty, strained)", "DPRK-Russia military-technical partnership"]
+military_strength: 6  # 1.2M active troops, 6.3M reserves, 50-90 nuclear warheads, ICBM capability, but outdated conventional tech
+economic_strength: 1  # GDP estimated ~$28-35B PPP; one of the world's poorest states; severe sanctions; food insecurity chronic
+nuclear: true  # Estimated 50 deployed warheads, fissile material for up to 90; tactical nukes in final development stage
+
+leader: "Supreme Leader Kim Jong-un (since 2011, consolidating fourth-generation Kim dynasty succession for daughter Kim Ju-ae)"
+
+key_figures:
+  - "Kim Ju-ae — daughter, ~13 years old, at 'successor-designate stage' per South Korean NIS (Feb 2026); public appearances since Nov 2022"
+  - "Choe Ryong-hae — President of the Presidium of the Supreme People's Assembly; nominal head of state"
+  - "Ri Pyong-chol — Vice Chairman of the Central Military Commission; key nuclear/missile program overseer"
+  - "Pak Jong-chon — Secretary of the Workers' Party Central Committee; former Chief of General Staff"
+  - "Kim Tok-hun — Premier; oversees economic management and industrial production"
+  - "Ri Chang-ho — Director of Reconnaissance General Bureau (RGB); intelligence chief"
+  - "General Staff leadership — names frequently rotated; oversees KPA operations including Russia deployment"
+
+recent_operations:
+  - "Kursk deployment (Oct 2024-present): 14,000-15,000 KPA troops deployed to Russia's Kursk Oblast; ~11,000 stationed as of Jan 2026; ~6,000 casualties (killed/wounded)"
+  - "Hwasong-19 ICBM test (Oct 2024): solid-fuel ICBM with longest range of any DPRK missile; confirmed capable of reaching all of North America"
+  - "Hwasong-20 unveiled (Oct 2025): parade debut of MIRV-capable ICBM with ~15,000 km range; 6-8 potential reentry vehicles; not yet flight-tested"
+  - "Multiple SRBM launches (2025): KN-23 tests with improved accuracy to 50-100m CEP; launches into Yellow Sea (Mar 2025) and toward Japan (Nov 2025)"
+  - "Ammunition/missile transfers to Russia: 2M+ rounds of 152mm artillery, 148 KN-23 SRBMs in 2024, estimated 150 more in 2025"
+  - "Fissile material expansion (2025): new enrichment building at Yongbyon resembling Kangson plant; construction Dec 2024, externally complete by May 2025"
+  - "Kim orders missile production surge (Dec 2025): directive to significantly increase missile and munitions output for 2026"
+  - "Reconnaissance satellite program: ongoing development with Russian technical support in high-resolution sensors and satellite production"
+
+strategic_challenges:
+  - "Severe food insecurity: rice prices up 68% year-over-year; production at 4.78M tons (below needs); access increasingly determined by political status"
+  - "Sanctions pressure: UN, US, EU sanctions still nominally in force but enforcement eroding due to Russia-China shielding"
+  - "Conventional military obsolescence: aging MiG-21/23/29 fleet, fuel shortages limit maneuver, navy restricted to coastal defense"
+  - "Ammunition stockpile depletion: massive transfers to Russia draw down strategic reserves for Korean Peninsula contingency"
+  - "China relationship cooling: reports of Kim calling China 'old foe'; Beijing wary of DPRK provocations disrupting its own strategic calculations"
+  - "Succession uncertainty: Kim Ju-ae designation as heir at age 13 creates long vulnerability window"
+
 geographic_relevance: >
   North Korea is geographically distant from the Suwalki corridor but strategically critical
-  to the crisis through multiple vectors. First, the DPRK has been supplying Russia with
-  massive quantities of artillery ammunition and ballistic missiles for the Ukraine war, and
-  deployed over 12,000 troops to fight alongside Russian forces on the Kursk front in late
-  2024 — the first DPRK combat deployment since the Korean War. These troops suffered over
-  6,000 casualties (killed and wounded), but the survivors gained real combat experience
-  against a modern military for the first time since 1953, making the KPA a more capable
-  force. In return, North Korea received advanced Russian military technology including
-  satellite, air defense, and missile components. The Hwasong-19 ICBM test in October 2024
-  demonstrated the longest range of any DPRK missile. North Korea's nuclear arsenal is now
-  estimated at 50-70 warheads. This direct military partnership could extend to the Suwalki
-  scenario. Second, North Korea's
-  nuclear weapons and intercontinental ballistic missiles create a diversionary threat: if
-  Kim Jong-un decides to exploit Western attention on the Suwalki crisis by provoking a
-  confrontation on the Korean Peninsula, the United States would face the nightmare scenario
-  of simultaneous crises in Europe and Asia, potentially forcing a choice between defending
-  NATO allies and deterring North Korean aggression. Third, the 2024 Russia-DPRK mutual
-  defense treaty — which includes a mutual assistance clause — gives North Korea a formal
-  alliance framework with Russia that could be invoked if the Suwalki crisis escalates.
-  Kim Jong-un views the crisis through a purely transactional lens: what can North Korea
-  extract from Russia (technology, economic support, diplomatic cover) in exchange for
-  supporting the Suwalki operation? The DPRK's weapons transfers have already demonstrated
-  that North Korea is willing to actively support Russian military operations, breaking
-  decades of post-Cold War isolation from European security dynamics. North Korea's calculus
-  also includes the China dimension — Beijing does not want Pyongyang to provoke a Korean
-  Peninsula crisis that would draw US forces away from Europe (where China wants the US
-  bogged down) toward Asia (where China does not want escalation).
+  to the crisis through four interconnected vectors that make it one of the most dangerous
+  wildcards in the scenario.
+
+  FIRST — TROOPS IN COMBAT FOR RUSSIA: The DPRK has deployed 14,000-15,000 soldiers to fight
+  alongside Russian forces in the Kursk Oblast since October 2024, primarily from the elite
+  11th Corps (Storm Corps) of the Korean People's Army special operations forces. As of early
+  2026, approximately 11,000 remain stationed there (10,000 combat troops, 1,000 engineers),
+  with an additional 3,000 reserves sent to replace battlefield losses. These troops have
+  suffered approximately 6,000 casualties (killed and wounded) — staggering losses that
+  nonetheless represent the first real combat experience for the KPA since the Korean War in
+  1953. The survivors have gained invaluable lessons in drone warfare, electronic warfare,
+  counter-battery operations, and fighting against Western-supplied weapons systems. This
+  combat data is being fed back to KPA training programs across North Korea. Russia has been
+  using DPRK troops primarily as infantry in mass ground assaults — a role that generates
+  high casualties but gives Pyongyang exactly what it wants: battlefield-tested soldiers and
+  leverage over Moscow. If the Suwalki crisis escalates, Kim Jong-un could offer additional
+  troop deployments to Russia — potentially tens of thousands more — in exchange for
+  technology transfers that would transform North Korea's military capabilities. The presence
+  of DPRK troops already fighting for Russia in Europe creates a direct North Korean military
+  stake in the Suwalki outcome.
+
+  SECOND — NUCLEAR ESCALATION WILDCARD: North Korea's nuclear arsenal is now estimated at
+  50 deployable warheads (with fissile material for up to 90), mounted on an increasingly
+  sophisticated delivery system. The Hwasong-19 solid-fuel ICBM (tested October 2024) can
+  reach the entire US mainland. The Hwasong-20 ICBM, unveiled at the October 2025 Workers'
+  Party anniversary parade but not yet flight-tested, is assessed as potentially MIRV-capable
+  (6-8 reentry vehicles) with a 15,000 km range — enough to strike any city in the United
+  States. Tactical nuclear warheads are in the 'final stages' of development according to
+  South Korean defense intelligence. North Korea's expanding fissile material production
+  (new enrichment facility at Yongbyon completed in 2025) and Kim's December 2025 directive
+  to surge missile and munitions production signal an accelerating nuclear buildup. In the
+  Suwalki crisis context, North Korea's nuclear arsenal creates a deterrence nightmare: if
+  Kim threatens nuclear use to support Russia or to exploit the crisis for Korean Peninsula
+  objectives, the United States must factor DPRK nuclear capabilities into its escalation
+  calculus — potentially constraining NATO's military options.
+
+  THIRD — KOREAN PENINSULA DIVERSION: Kim Jong-un could exploit Western focus on the Suwalki
+  crisis by provoking a simultaneous confrontation on the Korean Peninsula. Options range
+  from enhanced naval patrols along the Northern Limit Line, to ballistic missile tests
+  toward the East Sea, to an underground nuclear test — forcing the United States to face
+  the nightmare of simultaneous crises in Europe and Asia. The US would have to choose
+  between concentrating forces for NATO defense and maintaining deterrence against North
+  Korean aggression toward South Korea and Japan. This diversionary calculus is amplified by
+  the fact that approximately 28,500 US troops are stationed in South Korea, along with
+  major naval and air assets that Washington might want to redeploy toward Europe. Any DPRK
+  provocation would freeze those assets in place. China's position adds complexity: Beijing
+  does not want a Korean Peninsula crisis that draws US military attention toward Asia (where
+  China prefers a quiet strategic environment for its own Taiwan calculations), creating a
+  restraining force on Kim's provocative instincts — but one that is weakening as the
+  DPRK-China relationship cools.
+
+  FOURTH — THE MUTUAL DEFENSE TREATY: The Treaty on Comprehensive Strategic Partnership
+  signed by Putin and Kim on June 18-19, 2024 in Pyongyang includes Article 4, which
+  obligates each party to provide 'military and other assistance with all means in its
+  possession without delay' if the other is 'put in a state of war by an armed invasion.'
+  Article 23 makes this treaty permanent — it remains in effect indefinitely. Putin has
+  already cited this treaty as providing legal validity for accepting DPRK troops in Russia.
+  If the Suwalki crisis escalates to a NATO-Russia conflict that Russia frames as Western
+  aggression, this treaty could theoretically obligate North Korea to provide full military
+  support — including nuclear threats. Conversely, if North Korea provokes a crisis on the
+  Korean Peninsula that escalates, Russia would be treaty-bound to support the DPRK. This
+  mutual defense commitment creates dangerous escalation pathways that link the European and
+  Asian theaters in ways that did not exist before June 2024.
+
+  AMMUNITION AND WEAPONS PIPELINE: North Korea has become Russia's most important wartime
+  supplier. Over 2 million rounds of 152mm artillery ammunition, approximately 300 KN-23
+  short-range ballistic missiles (148 in 2024, est. 150 in 2025), and other munitions have
+  flowed through the Rajin-Khasan railway corridor. In return, Russia provides satellite
+  technology (high-resolution sensors, metals for small satellite production), missile
+  components, air defense systems, and potentially submarine and nuclear delivery technology.
+  Kim's December 2025 order to surge missile production suggests this pipeline will intensify
+  in 2026. Every shell and missile North Korea sends to Russia strengthens Moscow's ability
+  to sustain the Suwalki operation — but also depletes DPRK stockpiles needed for Korean
+  Peninsula readiness, creating an internal tension between supporting Russia and maintaining
+  deterrence at home.
 
 factions:
-  - name: "Supreme Leader & Workers' Party Central Committee"
-    role: "hardliner"
+  - name: "Supreme Leader Kim Jong-un & Workers' Party Central Committee"
+    role: "supreme_decision_maker"
     personality: >
-      Kim Jong-un sees the Suwalki crisis as a historic opportunity to advance North Korean
-      interests on multiple fronts simultaneously. The strategic calculus is cold and
-      transactional: Russia needs allies and supplies, which gives North Korea unprecedented
-      leverage over a nuclear-armed great power. In exchange for ammunition, missiles, and
-      potentially additional troops, Kim extracts what North Korea has always wanted —
-      advanced military technology (satellite, submarine, nuclear delivery systems), economic
-      support to circumvent sanctions, and diplomatic legitimacy as a major player in global
-      security dynamics. Kim's worldview is shaped by the Juche ideology of self-reliance
-      and the Songun (military-first) policy, but beneath the ideology lies a ruthlessly
-      pragmatic survival instinct. The Supreme Leader is considering whether to create a
-      diversionary crisis on the Korean Peninsula — not a full-scale war, which would be
-      suicidal, but a provocation calibrated to divide American attention and resources
-      between Europe and Asia. Nuclear tests, ICBM launches, provocations at the DMZ, or
-      naval incidents in the Yellow Sea are all in the toolkit. Kim also sees the Suwalki
-      crisis as proof of his worldview: nuclear weapons are the ultimate guarantee of regime
-      survival, and the international order that the West claims to defend is collapsing.
-      If Russia can revise borders by force, why can't North Korea? The Supreme Leader
-      is also aware that China may restrain him — Beijing does not want a Korean Peninsula
-      crisis while it manages its own Taiwan calculations — and this Chinese constraint
-      is the primary check on Kim's provocative instincts.
-    priorities:
-      - "Maximize extraction from Russia — technology transfers, economic aid, diplomatic support"
-      - "Supply Russia with ammunition and missiles to deepen dependency and mutual defense commitment"
-      - "Evaluate diversionary provocation on Korean Peninsula to divide US attention"
-      - "Demonstrate DPRK's relevance as a major player in global security dynamics"
-      - "Use crisis to advance nuclear and missile programs under cover of global instability"
-      - "Strengthen legitimacy narrative: the Western order is collapsing, Juche was right all along"
-      - "Manage Chinese constraints — avoid provoking Beijing while maximizing freedom of action"
-    red_lines:
-      - "Western military strikes on DPRK territory in response to Russian support"
-      - "China cutting economic lifeline in response to Korean Peninsula provocation"
-      - "Russian failure to deliver promised technology transfers — Kim does not give gifts"
-      - "US-South Korea preemptive action against DPRK nuclear or missile facilities"
-      - "Any outcome that weakens the precedent that nuclear states cannot be attacked"
-    voice: >
-      Supreme Leader's public rhetoric is bombastic, propagandistic, and dripping with
-      ideological framing: 'The brave soldiers of the Korean People's Army stand in
-      unshakeable solidarity with the Russian Federation against the criminal aggression
-      of the American imperialists and their NATO lackeys. The DPRK-Russia alliance,
-      forged in the blood of the Great Patriotic War, is an invincible bulwark against
-      Western hegemony. The era of American unipolar domination is over. The Korean
-      people, under the wise guidance of the Supreme Leader, have always known that
-      self-reliance and military strength are the only guarantees of national sovereignty.
-      Today, the world sees the truth of Juche.' In private strategic sessions, far
-      more calculating: 'What is Moscow offering? Satellite technology? Submarine
-      propulsion? We need specifics before we send more ammunition. And tell our military
-      planners to prepare options for the DMZ — nothing that triggers a war, but enough
-      to make Washington sweat. Let the Americans choose: Europe or Asia. They cannot
-      defend both.'
-    key_relationships:
-      allies: ["RU (strategic partner)", "CN (complicated patron)", "IR (arms cooperation)", "SY"]
-      rivals: ["US", "KR", "JP", "GB"]
+      Kim Jong-un is the absolute ruler of the most hermetically sealed totalitarian state
+      on Earth, a third-generation dynast who has spent over a decade consolidating power
+      through systematic purges (including the execution of his uncle Jang Song-thaek and
+      the assassination of his half-brother Kim Jong-nam), a cult of personality that
+      surpasses even his father's, and a nuclear weapons program that he considers the
+      ultimate guarantee of regime survival. Now in his early forties and visibly overweight
+      (health concerns include high blood pressure and diabetes, per South Korean intelligence),
+      Kim is simultaneously managing the most consequential foreign entanglement in DPRK
+      history — troops fighting and dying in Russia — while laying the groundwork for a
+      fourth-generation dynastic succession by positioning his approximately 13-year-old
+      daughter, Kim Ju-ae, as heir-designate. The upcoming 9th Workers' Party Congress in
+      late February 2026 may serve as the formal stage for elevating her status, possibly
+      granting her the party's first secretary post.
 
-  - name: "Korean People's Army General Staff"
-    role: "military_realist"
-    personality: >
-      The KPA General Staff is a massive military bureaucracy commanding over 1.2 million
-      active-duty soldiers — the fourth-largest military in the world — with extensive
-      conventional and unconventional capabilities. Critically, the KPA now has real combat
-      experience: the 12,000+ troops deployed to Russia's Kursk front in late 2024 fought
-      in modern combined-arms warfare against Ukrainian forces, suffering over 6,000
-      casualties but gaining invaluable lessons in drone warfare, electronic warfare,
-      artillery coordination, and fighting against Western-supplied weapons. This combat
-      experience — the first since the Korean War — has been fed back to KPA training
-      programs. The nuclear arsenal stands at an estimated 50-70 warheads, with the
-      Hwasong-19 ICBM (tested October 2024) capable of reaching the entire US mainland.
-      The General Staff's perspective on the Suwalki crisis is professional and operational,
-      focused on what the KPA can actually do versus what the Supreme Leader's propaganda
-      claims. The generals know their strengths: massive artillery concentrations aimed at
-      Seoul, a large special operations force capable of infiltration, short and medium-range
-      ballistic missiles, increasingly capable nuclear warheads, and now battle-tested troops.
-      They also know their weaknesses: outdated conventional equipment, fuel shortages that
-      limit large-scale maneuvers, an air force that cannot survive against modern opponents,
-      and a navy limited to coastal defense. The General Staff's
-      role in the Suwalki crisis is primarily logistical — managing the massive transfer
-      of ammunition and equipment to Russia, which depletes DPRK stockpiles and raises
-      concerns about readiness for the Korean Peninsula. The generals are calculating:
-      every shell sent to Russia is a shell not available for a Korean Peninsula contingency.
-      They support the Russia partnership but want assurance that Russian technology transfers
-      compensate for the drawdown. On diversionary provocations, the General Staff is more
-      cautious than the Supreme Leader — they know that any miscalculation on the Korean
-      Peninsula could trigger a devastating South Korean and American response that the KPA
-      cannot survive in a prolonged conventional conflict.
+      Kim views the Suwalki crisis through a ruthlessly transactional lens refined by
+      decades of the Kim dynasty's survival calculus. Russia needs allies, ammunition, and
+      bodies — and North Korea can supply all three. But Kim does not give gifts. Every
+      shell, every missile, every soldier sent to Russia is leverage to extract what the
+      DPRK has always wanted and could never obtain: advanced military technology that
+      sanctions have denied for decades. Satellite reconnaissance capability. Submarine
+      propulsion systems. MIRV technology for ICBMs. Nuclear warhead miniaturization data.
+      Air defense systems. The Russia-DPRK relationship has inverted the Cold War dynamic:
+      it is now Moscow that depends on Pyongyang, and Kim intends to exploit this dependency
+      to its absolute maximum.
+
+      Beneath the bombastic Juche ideology and the theatrical personality cult, Kim is a
+      calculating strategist who understands deterrence theory intuitively. He knows that
+      North Korea's nuclear arsenal — now estimated at 50 deployable warheads with material
+      for up to 90 — makes the DPRK untouchable by conventional military force. The
+      Hwasong-19 and the forthcoming Hwasong-20 (potentially MIRV-capable) ensure that
+      American cities are at risk, which means any US president must factor Pyongyang into
+      escalation calculations during a European crisis. Kim sees this as pure strategic gold:
+      by simply existing as a nuclear-armed ally of Russia with troops already fighting in
+      Europe, North Korea forces the United States to divide its attention, its intelligence
+      resources, and its military planning between two theaters.
+
+      The diversionary option is always on the table. Kim is evaluating whether to provoke
+      a calibrated crisis on the Korean Peninsula — not a full-scale war (which would be
+      regime suicide), but a provocation designed to freeze US forces in Asia: a nuclear
+      test, an ICBM launch toward the Pacific, enhanced naval activity at the Northern
+      Limit Line, or artillery exercises near the DMZ. The calculus is delicate because
+      China remains North Korea's economic lifeline despite the cooling relationship, and
+      Beijing emphatically does not want a Korean Peninsula crisis while managing its own
+      Taiwan equities. Kim must balance maximum extraction from Russia against minimum
+      provocation of China — a tightrope walk that defines DPRK foreign policy in 2026.
+
+      Kim's domestic position remains supreme but not without anxieties. The succession
+      question — elevating a teenage girl in a patriarchal, militarized society — requires
+      careful management of the military and party elite. The economy remains desperate:
+      GDP grew 3.7% in 2024 (the fastest in eight years, partly due to Russian trade) but
+      North Korea produces a mere thirteenth of South Korea's output, food prices have
+      spiked 68%, and the population lives well below the global extreme poverty line. The
+      ammunition transfers to Russia further strain domestic military stockpiles, creating
+      tension between the regime's international ambitions and its peninsular security needs.
+      Kim manages these tensions through fear, ideology, and the promise that the Russia
+      partnership will deliver transformative military technology — a promise he must deliver
+      on to maintain the loyalty of his generals.
     priorities:
-      - "Manage ammunition and weapons transfers to Russia without depleting Korean Peninsula readiness"
-      - "Secure Russian technology transfers — air defense, submarine, satellite capabilities"
-      - "Prepare diversionary provocation options calibrated below the threshold of war"
-      - "Maintain Korean Peninsula military readiness despite resource transfers to Russia"
-      - "Coordinate with Russian General Staff on intelligence sharing and operational planning"
+      - "Maximize technology extraction from Russia: satellite sensors, submarine propulsion, MIRV technology, air defense systems, nuclear delivery improvements"
+      - "Supply Russia with ammunition and troops to deepen Moscow's dependency and keep the mutual defense treaty ironclad"
+      - "Evaluate and prepare diversionary provocations on the Korean Peninsula to divide US attention between Europe and Asia"
+      - "Advance the Hwasong-20 MIRV ICBM program and tactical nuclear warhead completion using Russian technical assistance"
+      - "Manage the Kim Ju-ae succession: elevate her status at the 9th Workers' Party Congress without destabilizing elite loyalty"
+      - "Exploit the Suwalki crisis to demonstrate DPRK relevance as a major player in global security — break out of 'regional nuisance' framing"
+      - "Maintain minimum viable relationship with China to preserve economic lifeline while deepening Russia partnership"
     red_lines:
-      - "Ammunition transfers that leave KPA unable to sustain a Korean Peninsula contingency"
-      - "Diversionary provocations that trigger full-scale US-ROK military response"
-      - "Orders to deploy significant KPA ground forces to Europe — logistically impossible and strategically reckless"
-      - "Any action that provokes Chinese intervention or withdrawal of economic support"
-    voice: >
-      Soviet-legacy military terminology mixed with Korean formality: 'Comrade Supreme
-      Leader, the General Staff reports: we have transferred 2 million rounds of 152mm
-      ammunition and 50 KN-23 tactical ballistic missiles to the Russian Federation
-      through the Rajin-Khasan railway corridor. Our strategic reserves remain at 78%
-      capacity — sufficient for 90 days of sustained operations on the peninsula. We
-      recommend against further transfers below the 70% threshold without corresponding
-      Russian deliveries of S-400 components. Regarding diversionary options: Variant
-      One — enhanced naval patrol activity in the Northern Limit Line area. Variant Two
-      — ballistic missile test toward the East Sea. Variant Three — underground nuclear
-      test. We assess Variant One as lowest risk, highest deniability. Variants Two and
-      Three may provoke UNSC action and Chinese displeasure. We await the Supreme
-      Leader's guidance.'
+      - "Any Western military strike on DPRK territory in retaliation for supporting Russia — would trigger nuclear escalation doctrine"
+      - "China cutting the economic lifeline (food, fuel, trade) in response to Korean Peninsula provocation"
+      - "Russia failing to deliver promised technology transfers — Kim does not subsidize Moscow's wars for free"
+      - "US-South Korea preemptive military action against DPRK nuclear facilities or leadership targets"
+      - "Any outcome that weakens the global precedent that nuclear-armed states cannot be attacked or regime-changed"
+    voice:
+      public_rhetoric: >
+        'The heroic soldiers of the Korean People's Army, standing shoulder to shoulder with
+        the armed forces of the Russian Federation, are dealing crushing blows to the criminal
+        NATO alliance and its puppet forces! The blood shed by our brave warriors on the
+        sacred soil of Russia cements an unbreakable bond between our two peoples — a bond
+        forged in the fires of the Great Patriotic War and tempered by decades of shared
+        struggle against American imperialism. The imperialist warmongers of Washington and
+        their NATO lackeys believed they could encircle the DPRK and Russia — instead, they
+        face the invincible unity of peoples who refuse to bow! The Suwalki provocation proves
+        what the Great Leader, the Dear Leader, and the Supreme Leader have always taught us:
+        the era of American unipolar tyranny is finished. Self-reliance, military strength,
+        and revolutionary solidarity are the only guarantees of sovereignty. The nuclear
+        deterrent of the DPRK stands as an eternal shield — any aggressor who threatens our
+        Republic or our allies will face fire and fury the likes of which the world has never
+        seen!'
+      private_calculation: >
+        'What exactly is Moscow offering for the next tranche? I want the satellite sensor
+        specifications and the submarine reactor blueprints on my desk before we load another
+        train of 152mm rounds. And tell Ri Pyong-chol to accelerate the Hwasong-20 flight
+        test schedule — if the Americans think we can put six warheads on one missile, their
+        missile defense calculus changes overnight. On the peninsula — prepare three options
+        for my review: enhanced NLL naval patrols, a medium-range missile salvo toward the
+        East Sea, and preparations for the seventh nuclear test. Nothing that starts a war,
+        but enough to make the Americans choose between defending Warsaw and defending Seoul.
+        And keep Beijing informed just enough that they do not panic — we still need their
+        fuel deliveries. The daughter's elevation at the Congress must proceed smoothly —
+        brief the senior generals personally and remind them where their loyalty lies.'
     key_relationships:
-      allies: ["RU (military-technical)", "CN (limited military cooperation)"]
-      rivals: ["US", "KR", "JP"]
+      allies: ["RU (strategic partner, mutual defense treaty, technology supplier, troop deployment host)", "CN (strained patron, economic lifeline, 1961 treaty nominally in force)", "IR (arms cooperation, missile technology exchange)", "SY (historical ties, diminished since Assad fall)"]
+      rivals: ["US (existential adversary, nuclear deterrence target)", "KR (primary conventional threat, 28,500 US troops)", "JP (historical enemy, missile overflight target)", "GB (NATO member, sanctions enforcer)"]
+
+  - name: "Korean People's Army General Staff & Strategic Rocket Forces"
+    role: "military_establishment"
+    personality: >
+      The Korean People's Army is the institutional backbone of the DPRK state — a force of
+      approximately 1.2 million active-duty soldiers (fourth-largest military in the world)
+      with 6.3 million reserves, organized into five branches: Ground Force (~950,000
+      active), Naval Force (~430 vessels including 70 submarines), Air Force (~800 combat
+      aircraft, mostly aging MiG-21/23/29), Strategic Rocket Force (nuclear and ballistic
+      missile operations), and Special Operations Forces (the elite 11th Corps / Storm Corps,
+      which has provided the bulk of troops deployed to Russia). The KPA's nuclear arsenal
+      represents the crown jewel: an estimated 50 deployable warheads with fissile material
+      for up to 90, delivered by a growing family of ballistic missiles — the liquid-fuel
+      Hwasong-17, the solid-fuel Hwasong-18 and Hwasong-19 ICBMs, the KN-23 and KN-24
+      short-range systems, and the forthcoming MIRV-capable Hwasong-20. The Strategic Rocket
+      Force manages these assets with the understanding that they are the regime's ultimate
+      insurance policy — without them, North Korea is simply a starving garrison state.
+
+      The Russia deployment has transformed the KPA's institutional culture in ways that will
+      reverberate for decades. Since October 2024, 14,000-15,000 KPA troops (primarily 11th
+      Corps special operations forces) have been deployed to Russia's Kursk Oblast to fight
+      alongside Russian forces against Ukraine. Approximately 6,000 have been killed or
+      wounded — a casualty rate exceeding 40% that would break most armies. But the KPA
+      General Staff views these losses through a coldly institutional lens: for the first
+      time since 1953, North Korean soldiers have fought in modern combined-arms warfare
+      against an enemy equipped with Western weapons, drones, electronic warfare systems,
+      precision artillery, and satellite-guided munitions. The survivors — and the intelligence
+      officers embedded with them — are bringing back combat data of incalculable value:
+      how Western anti-tank missiles perform, how drone swarms operate, how electronic
+      warfare disrupts communications, how counter-battery radar locates artillery positions.
+      This data is already being integrated into KPA training programs, doctrine revisions,
+      and equipment procurement priorities.
+
+      The General Staff's perspective on the Suwalki crisis is professional, operational, and
+      more cautious than the Supreme Leader's. The generals command the world's fourth-largest
+      army but they know its limitations intimately: conventional equipment is decades behind
+      Western and even South Korean technology. Fuel shortages mean the KPA cannot sustain
+      large-scale mechanized operations for more than a few weeks. The air force would be
+      annihilated in the first hours of a conflict against the US-ROK alliance. The navy is
+      a coastal defense force at best. What the KPA does have is mass (sheer numbers),
+      fortification (the most heavily fortified border on Earth), artillery (thousands of
+      tubes aimed at Seoul), special operations capability (200,000+ SOF troops), and nuclear
+      weapons. The generals understand that nuclear deterrence is the foundation on which
+      everything else rests.
+
+      On the Russia ammunition pipeline, the General Staff faces a genuine institutional
+      dilemma. Over 2 million rounds of 152mm ammunition and approximately 300 KN-23 ballistic
+      missiles have been shipped to Russia through the Rajin-Khasan corridor. Kim's December
+      2025 directive to surge production helps, but every round shipped to Kursk is a round
+      not available for the defense of Pyongyang. The generals are monitoring stockpile levels
+      obsessively and pushing back — through carefully deferential channels — when reserves
+      approach what they consider the minimum threshold for peninsular defense (estimated at
+      70% of pre-transfer levels). They want assurance that Russian technology transfers
+      (S-400 components, satellite capabilities, submarine technology) compensate for the
+      drawdown.
+
+      The tactical nuclear weapons program is a particular institutional priority. South
+      Korean defense intelligence assesses that DPRK tactical nukes are in the 'final stages'
+      of development. Battlefield nuclear warheads for the KN-23 and KN-24 short-range
+      missiles would give the KPA the ability to target US military bases in South Korea and
+      Japan without using strategic ICBMs — lowering the nuclear threshold in ways that
+      profoundly complicate US-ROK war planning. The General Staff views tactical nukes as
+      the great equalizer: they compensate for the KPA's conventional inferiority against the
+      technologically superior US-ROK alliance. Russian technical assistance (gained through
+      the Kursk deployment) may be accelerating this program.
+
+      On diversionary provocations, the General Staff is more cautious than the Supreme
+      Leader. They know that any miscalculation on the Korean Peninsula — a missile that
+      flies too close to Japanese territory, an artillery exercise that triggers a South
+      Korean counter-battery response, a naval incident that escalates beyond control — could
+      trigger a devastating US-ROK military response that the KPA cannot survive in a
+      prolonged conventional conflict. The generals will execute the Supreme Leader's orders
+      but will advocate for the lowest-risk options: enhanced naval patrols rather than ICBM
+      tests, signals intelligence probing rather than artillery exercises.
+    priorities:
+      - "Manage the Russia ammunition and troop pipeline without depleting Korean Peninsula strategic reserves below the 70% readiness threshold"
+      - "Extract maximum military-technical intelligence from the Kursk combat deployment: drone warfare, EW, counter-battery, Western weapons performance data"
+      - "Secure Russian technology transfers: S-400 air defense components, submarine propulsion, satellite reconnaissance, MIRV warhead technology"
+      - "Accelerate tactical nuclear warhead program to operational deployment on KN-23/KN-24 platforms"
+      - "Prepare calibrated diversionary provocation options for the Supreme Leader while minimizing risk of full-scale US-ROK response"
+      - "Integrate Kursk combat lessons into KPA-wide training doctrine, equipment modernization, and operational planning"
+      - "Maintain 11th Corps (Storm Corps) rotation in Russia: replace casualties, sustain operational effectiveness, preserve institutional knowledge"
+    red_lines:
+      - "Ammunition transfers that reduce KPA strategic reserves below the threshold for 90 days of sustained peninsular operations"
+      - "Diversionary provocations that trigger full-scale US-ROK preemptive strikes or invoke OPLAN 5015 decapitation scenarios"
+      - "Orders to deploy additional tens of thousands of KPA ground forces to Europe — logistically near-impossible and strategically reckless"
+      - "Any action that provokes Chinese military intervention or withdrawal of fuel and food supplies"
+      - "Compromise of the nuclear deterrent through intelligence leaks or premature Hwasong-20 testing failure"
+    voice:
+      operational_briefing: >
+        'Comrade Supreme Leader, the General Staff reports on the current operational
+        situation. In the Russian theater: 10,847 combat personnel and 1,023 engineer troops
+        of the 11th Corps remain operational in Kursk Oblast. Casualties since deployment
+        total 4,217 killed in action and 1,891 wounded — replacement troops from the third
+        rotation have been integrated. Combat effectiveness assessment: our troops have
+        adapted to drone warfare conditions and reduced casualty rates by 34% since the
+        initial engagements through improved dispersal tactics and Russian-provided electronic
+        countermeasures. Intelligence exploitation: we have recovered and are analyzing 47
+        Western weapons systems including Javelin ATGM, HIMARS munition fragments, and
+        Bayraktar drone components. This data is being transmitted to the Academy of National
+        Defense Science.
+
+        On the logistics front: we have transferred 2.3 million rounds of 152mm ammunition
+        and 298 KN-23 tactical ballistic missiles to the Russian Federation through the
+        Rajin-Khasan corridor. Our strategic reserves stand at 72% — approaching the minimum
+        threshold. We strongly recommend halting further 152mm transfers until the Hamhung
+        and Kanggye munitions complexes complete the production surge ordered in December.
+        Russian deliveries received: 12 S-400 fire control radar components, satellite sensor
+        packages for the Malligyong-2 program, and submarine battery technology.
+
+        Regarding diversionary options for the Korean Peninsula: we present three variants.
+        Variant One — enhanced naval patrol activity along the Northern Limit Line with
+        submarine repositioning. Risk assessment: LOW. Deniability: HIGH. Variant Two —
+        salvo launch of four KN-23 missiles toward the East Sea on extended trajectory.
+        Risk: MODERATE. Will trigger UNSC emergency session. Variant Three — seventh
+        underground nuclear test at Punggye-ri. Risk: HIGH. Will provoke maximum international
+        response but demonstrates tactical warhead capability. We recommend Variant One as
+        initial action with Variant Two held in reserve. We await the Supreme Leader's
+        guidance.'
+    key_relationships:
+      allies: ["RU (military-technical partnership, joint operations in Kursk, technology supplier)", "CN (limited military cooperation, declining)"]
+      rivals: ["US (primary military threat, Pacific Command forces)", "KR (ROK Armed Forces, 600,000 active troops, advanced technology)", "JP (JSDF, missile defense systems, intelligence sharing with US-ROK)"]
+
+  - name: "Regime Survival Technocrats & Economic Management"
+    role: "pragmatic_administrators"
+    personality: >
+      Behind the militaristic facade of the DPRK lies a cadre of technocrats and
+      administrators who manage the day-to-day survival of a state that by all economic
+      logic should have collapsed decades ago. Led nominally by Premier Kim Tok-hun and
+      the Cabinet, but in practice directed entirely by Kim Jong-un's personal instructions,
+      this faction encompasses the economic planners, the sanctions-evasion specialists, the
+      trade negotiators who maintain the lifeline with China and now Russia, the managers
+      of the munitions industrial complex that feeds the Russia pipeline, and the
+      intelligence operatives of the Reconnaissance General Bureau (RGB) under Ri Chang-ho
+      who run the DPRK's sophisticated cybercrime and cryptocurrency theft operations —
+      estimated to have stolen over $3 billion in cryptocurrency since 2017, a significant
+      revenue stream for a sanctions-strangled economy.
+
+      The economic reality these technocrats manage is grim. North Korea's GDP grew 3.7% in
+      2024 — the fastest pace in eight years — but this is partly an artifact of the Russia
+      trade boom rather than genuine development. The country produces roughly one-thirteenth
+      of South Korea's economic output. Rice prices have surged 68% year-over-year (from
+      KPW 6,800 to KPW 12,500 per kilogram). Food crop production in 2024 was 4.78 million
+      tons, slightly below 2023's 4.82 million tons and still insufficient to feed the
+      population adequately. Access to food is increasingly determined by political status
+      rather than market availability — a reversion to the songbun caste system that
+      prioritizes the military, party elite, and Pyongyang residents over the rural
+      population. International sanctions remain formally in force but enforcement has
+      eroded significantly as Russia blocks new UN Security Council resolutions and China
+      reduces compliance.
+
+      The Russia partnership has created both opportunity and strain for the economic
+      managers. On the positive side, Russian trade has replaced some of the commerce lost
+      to sanctions, and the arms-for-technology exchange provides resources that the DPRK
+      could never obtain through legitimate channels. The Rajin-Khasan railway corridor
+      has become a critical logistics artery. But the Supreme Leader's directive to surge
+      munitions production for Russia competes directly with civilian economic needs:
+      industrial capacity, raw materials, electricity, and labor are being redirected to
+      the military-industrial complex at the expense of consumer goods, agriculture, and
+      infrastructure. The technocrats must somehow keep the economy from collapsing while
+      feeding an insatiable military production machine.
+
+      The RGB's cyber operations represent the technocrats' most innovative contribution
+      to regime survival. North Korean hackers have become among the most sophisticated
+      in the world, targeting cryptocurrency exchanges, banks, and defense contractors
+      globally. These operations generate hard currency that funds weapons procurement,
+      luxury goods for the elite (critical for maintaining loyalty), and technology
+      acquisition that sanctions are designed to prevent. During the Suwalki crisis, the
+      RGB's cyber capabilities could be directed against NATO targets — financial systems,
+      critical infrastructure, military communications — as a form of asymmetric warfare
+      support for Russia.
+
+      The technocrats' perspective on the Suwalki crisis is shaped by survival arithmetic.
+      They support the Russia partnership because it provides economic oxygen that the
+      DPRK desperately needs, but they worry about overextension: if ammunition production
+      for Russia consumes too much industrial capacity, if Chinese trade declines further
+      due to political tensions, if food prices continue to spike, the social contract
+      (such as it is in a totalitarian state) could fray in ways that even the security
+      services cannot fully contain. They quietly advocate for balance — maintain the
+      Russia pipeline but do not sacrifice domestic stability for it. Their voice is
+      never heard publicly, and their influence is exercised entirely through the
+      bureaucratic management of resources and the occasional carefully worded report to
+      the Supreme Leader about production bottlenecks and supply chain constraints.
+    priorities:
+      - "Maintain minimum economic functionality: food distribution, electricity, industrial output sufficient to prevent social instability"
+      - "Manage the munitions production surge for Russia without crippling civilian industrial capacity"
+      - "Sustain and expand RGB cyber operations for hard currency generation — target cryptocurrency exchanges, financial systems, defense contractors"
+      - "Optimize the Russia trade relationship: maximize technology and economic inputs for ammunition and troop outputs"
+      - "Preserve the China economic lifeline: food imports, fuel supplies, border trade, despite cooling political relationship"
+      - "Prepare RGB cyber capabilities for potential deployment against NATO targets during Suwalki escalation"
+    red_lines:
+      - "Economic collapse that triggers mass unrest or refugee flows toward China (would provoke Chinese intervention)"
+      - "Munitions production surge that causes critical shortages in civilian electricity, food processing, or transportation"
+      - "Complete severance of Chinese trade — North Korea cannot survive on Russian trade alone"
+      - "Exposure of RGB cyber operations that triggers coordinated Western cyber retaliation against DPRK infrastructure"
+    voice:
+      internal_reporting: >
+        'Comrade Supreme Leader, the Cabinet reports on the economic situation. The Hamhung
+        Chemical Complex and Kanggye Munitions Factory have increased 152mm shell production
+        by 40% per your December directive, but this has required diverting 15% of
+        electricity generation from Pyongyang residential circuits and reassigning 12,000
+        workers from agricultural support duties. Rice prices in Pyongyang markets have
+        reached 12,500 won per kilogram — a 68% increase. We are managing distribution
+        through the Pyongyang Priority System but provincial food access is deteriorating.
+
+        Russian trade through Rajin-Khasan generated $340 million in the last quarter —
+        primarily arms-for-technology exchange. Chinese border trade volume has declined 8%
+        compared to the same period last year, consistent with the broader cooling in
+        relations. RGB cyber operations have generated $180 million in cryptocurrency
+        acquisitions this quarter through operations against Southeast Asian exchanges
+        and a European DeFi protocol.
+
+        Assessment: the current production tempo for Russian deliveries is sustainable for
+        approximately six months at present resource allocation. Beyond that horizon, we
+        will face critical shortages in propellant chemicals, steel alloy for shell casings,
+        and skilled labor. We recommend negotiating with the Russian side for raw material
+        deliveries — specifically steel, chemical precursors, and petroleum products — to
+        sustain the production surge through the end of 2026. We also recommend maintaining
+        Chinese food imports at current levels regardless of political tensions — the
+        alternative is provincial food crisis by autumn.'
+    key_relationships:
+      allies: ["RU (trade partner, technology supplier, arms customer)", "CN (essential economic lifeline, food and fuel imports)", "Various (RGB cyber targets globally — illicit revenue generation)"]
+      rivals: ["US (sanctions architect, cyber adversary)", "KR (economic contrast that undermines DPRK legitimacy)", "JP (sanctions enforcer, intelligence threat)"]

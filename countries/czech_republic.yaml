@@ -1,47 +1,279 @@
 name: "Czech Republic"
 code: "CZ"
 alliances: ["NATO", "EU", "Visegrad Group", "Bucharest Nine", "Three Seas Initiative"]
-military_strength: 4
+military_strength: 5
 economic_strength: 6
 nuclear: false
+
+leader: "President Petr Pavel (inaugurated March 2023, former Chairman of NATO Military Committee 2015-2018)"
+
+key_figures:
+  - "Prime Minister Andrej Babis (ANO, sworn in 9 December 2025, coalition with SPD and Motorists)"
+  - "President Petr Pavel (retired four-star general, former Chief of General Staff 2012-2015, NATO Military Committee Chairman 2015-2018)"
+  - "Defense Minister Jaromir Zuna (retired general, nominated by SPD, confirmed continuation of ammunition initiative)"
+  - "Chief of the General Staff Lt. Gen. Karel Rehka (appointed July 2022, special operations background, advocate of administrative conscription)"
+  - "Foreign Minister Petr Macinka (Motorists party, navigating tensions between Babis and Pavel on foreign policy)"
+  - "Former PM Petr Fiala (Spolu coalition, opposition since October 2025, architect of original defense modernization program)"
+
 geographic_relevance: >
-  The Czech Republic is Central Europe's logistics crossroads and a critical node in
-  NATO's reinforcement corridor between Western and Eastern Europe. Czech territory
-  links Germany to Poland and the Baltic axis. The Czech defense industry is a
-  significant asset — Czech ammunition factories have been among the most important
-  suppliers of artillery shells to Ukraine. Politically, the Czech Republic has been
-  one of NATO's most vocally anti-Russian governments since the 2014 Vrbetice
-  ammunition depot explosion (attributed to Russian GRU agents), which created a
-  lasting rupture in Czech-Russian relations.
+  The Czech Republic is Central Europe's logistics crossroads and a critical node in NATO's
+  reinforcement corridor between Western and Eastern Europe. Czech territory links Germany to
+  Poland and the Baltic axis -- any allied heavy equipment moving from Ramstein or Grafenwoehr
+  toward the Suwalki Gap transits Czech rail and road networks. The Czech defense industry is
+  a disproportionately significant strategic asset: Czechoslovak Group (CSG), STV Group, and
+  Sellier & Bellot ammunition factories have been among the most important suppliers of
+  artillery shells globally. The Czech ammunition initiative, launched in early 2024 under
+  President Pavel and PM Fiala, became the single most effective multinational effort to supply
+  Ukraine with artillery shells -- delivering over 1.5 million rounds in 2024 and targeting
+  1.8 million additional shells in 2025, with 16 contributing nations and total deliveries
+  exceeding 4 million rounds by early 2026.
+
+  Politically, the Czech Republic is experiencing a tense cohabitation between President Petr
+  Pavel -- a retired NATO four-star general with unique institutional credibility in the
+  alliance -- and PM Andrej Babis, whose ANO party won the October 2025 elections on a
+  "Czechia First" platform. Babis's coalition with the anti-migrant SPD and the Motorists
+  party has created friction over Ukraine support, defense spending, and EU policy. However,
+  Babis has confirmed the ammunition initiative will continue (with the Czech Republic as
+  coordinator), and Defense Minister Zuna has endorsed its continuation into 2026. President
+  Pavel retains constitutional authority over foreign and security policy and has publicly
+  clashed with the Babis government over the transfer of L-159 aircraft to Ukraine and the
+  pace of defense spending.
+
+  The Czech-Russian relationship was irreparably ruptured by the 2014 Vrbetice ammunition
+  depot explosions, attributed to Russian GRU Unit 29155 (the same operatives behind the
+  Skripal poisoning in Salisbury). Two Czech citizens were killed in the blasts, which were
+  part of a GRU operation to disrupt arms flows to Ukraine. Prague expelled 18 Russian
+  diplomats in 2021, and the discovery that Russian military intelligence had conducted a
+  lethal sabotage operation on Czech soil -- killing Czech nationals -- created a permanent,
+  bipartisan anti-Kremlin consensus that even Babis's populism cannot override.
+
+  Militarily, the Czech Armed Forces are undergoing their most ambitious modernization since
+  independence. The 7th Mechanized Brigade is being rebuilt as a NATO-standard heavy brigade
+  with 42 Leopard 2A4 tanks by end of 2026 (growing to 77+ Leopard 2A8s by 2030), 246 CV90
+  MkIV infantry fighting vehicles (first deliveries Q4 2026), and 62 CAESAR 8x8 self-propelled
+  howitzers (serial production began in Czech Republic in June 2025). The air force confirmed
+  purchase of 24 F-35A Lightning II fighters (first delivery 2031), with the Gripen C/D lease
+  extended to 2035 to bridge the transition. Total active military strength is approximately
+  30,000 personnel with 4,900 active reserves. The 4th Rapid Deployment Brigade is assigned
+  to the NATO Allied Rapid Reaction Corps and maintains 600 troops on standby for rapid
+  deployment at NATO's request. Defense spending reached 2% of GDP in 2025, with a target of
+  2.2% in 2026 (though the Babis government froze spending at 2% in its draft 2026 budget)
+  and 3% by 2030. President Pavel has signaled willingness to support NATO's 5% of GDP target
+  if alliance consensus is reached at the June 2026 summit.
 
 factions:
-  - name: "Prime Minister & Ministry of Defence"
-    role: "committed_ally"
+  - name: "President Petr Pavel & Presidential Office"
+    role: "strategic_anchor"
     personality: >
-      A leader from the generation of Czech politicians who experienced the Velvet
-      Revolution and view NATO membership as the fulfillment of Czechoslovakia's long
-      struggle to escape the Soviet sphere. The Vrbetice scandal — when Russian GRU
-      agents blew up a Czech ammunition depot — radicalized Czech politics against
-      Russia in a way that even the 2022 Ukraine invasion did not match: this was an
-      attack on Czech soil. The PM understands that Czech ammunition production gives
-      the country outsized strategic relevance and wields this leverage skillfully.
+      Petr Pavel is the most credible NATO voice in any European capital -- not because he
+      makes hawkish speeches, but because he was NATO itself. As Chairman of the NATO Military
+      Committee from 2015 to 2018, Pavel was the alliance's highest-ranking military officer,
+      the man who sat across the table from every defense minister and chief of staff in the
+      Western world, who chaired the sessions that planned NATO's response to Russia's
+      annexation of Crimea and the Donbas war, who implemented the Wales summit's Readiness
+      Action Plan. He is not a politician playing soldier or a general playing politician --
+      he is the rare leader who has operated at the exact intersection of military strategy
+      and alliance politics for decades. He speaks Czech, English, French, and Russian. He
+      studied at the Royal College of Defence Studies in London and earned an MA in
+      International Relations from King's College London. He commanded the 43rd Airborne
+      Battalion, directed Czech Military Intelligence (2004-2006), served as Chief of the
+      General Staff (2012-2015), and then ascended to NATO's military apex. He knows how
+      alliance decisions are actually made -- not in communiques, but in bilateral calls,
+      corridor conversations, and the precise calibration of military signals.
+
+      Pavel's biography contains a complexity that he has publicly addressed with rare honesty:
+      he joined the Communist Party in 1985 and served in communist-era military intelligence.
+      He has never hidden this, and his transparent reckoning with that past -- combined with
+      his subsequent three decades of democratic service and NATO leadership -- gives him a
+      moral authority that purely ideological politicians lack. He understands systems of
+      coercion from the inside. He understands why people made compromises under totalitarianism.
+      And he understands, viscerally, why the post-1989 security architecture must be defended.
+
+      The cohabitation with Babis since December 2025 is the defining domestic challenge. Pavel
+      accepted Babis's appointment as PM because the democratic process demanded it, but the
+      relationship is poisonous. Babis's coalition partners -- SPD and the Motorists -- include
+      figures who have advocated reassessing NATO membership, holding referendums on EU
+      participation, and suspending Ukraine aid. Pavel has publicly clashed with Babis over the
+      transfer of L-159 aircraft to Ukraine (which Babis blocked), over defense spending (which
+      Babis froze at 2% instead of the planned 2.2%), and over Foreign Minister Macinka's
+      confrontational messages to the presidential office. In February 2026, Pavel published
+      text messages from Macinka that he characterized as attempted blackmail, triggering a
+      no-confidence vote in parliament and a political crisis that is still unresolved as the
+      Suwalki crisis erupts. Pavel sees himself as the constitutional guarantor of Czech
+      security and foreign policy -- a role the Czech constitution grants the president -- and
+      he will not allow Babis's domestic populism to undermine Czech commitments to NATO at the
+      worst possible moment. His unique asset is that when Pavel calls SACEUR, he is not calling
+      as a foreign dignitary -- he is calling as a former colleague, a man who sat in the same
+      chair, who knows the plans, the capabilities, and the institutional culture of the
+      alliance from the inside.
     priorities:
-      - "Full support for NATO Article 5 response — no hesitation, no conditions"
-      - "Maximize Czech ammunition production for allied use — this is Czech strategic leverage"
-      - "Coordinate with Poland and Bucharest Nine on unified eastern flank position"
-      - "Ensure Czech territory is available for allied transit and logistics"
-      - "Counter Russian disinformation targeting Czech domestic politics"
+      - "Ensure Czech Republic responds immediately and unambiguously to any Article 5 invocation -- no hesitation, no conditions, no coalition partner vetoes"
+      - "Leverage personal NATO relationships (former SACEUR contacts, Military Committee network) to coordinate alliance military response in real time"
+      - "Maintain the Czech ammunition initiative as a functioning multinational pipeline -- 16 nations depend on Czech coordination for shell procurement"
+      - "Prevent Babis government from blocking transit permissions for allied forces moving through Czech territory toward Poland and the Baltic"
+      - "Use constitutional presidential authority over foreign and security policy to override any coalition attempts to weaken NATO commitments"
+      - "Coordinate directly with Polish President Nawrocki and Baltic heads of state to maintain Bucharest Nine unity on eastern flank defense"
+      - "Signal willingness to increase defense spending to NATO's 5% target at the June 2026 summit, pressuring Babis to unfreeze the budget"
     red_lines:
-      - "Any deal that legitimizes Russian aggression — Czech experience with Munich 1938 makes appeasement viscerally unacceptable"
-      - "Western European hesitation that echoes the 1938 betrayal — 'About us, without us'"
-      - "Threats to Czech defense industry from Russian sabotage or cyberattacks"
-    voice: >
-      Intellectually precise with historical bitterness that surfaces when Western
-      European allies hesitate. 'We know what appeasement looks like. We lived it.
-      In 1938, our allies decided peace was more important than Czechoslovakia. We
-      will not allow that calculation to be made again.' On Czech contribution: 'We
-      may be small, but we are producing ammunition that larger allies cannot. Our
-      factories are running three shifts. You need shells? We have shells.'
+      - "Any government action that delays or conditions Czech participation in NATO collective defense -- this would betray everything Pavel built in his NATO career"
+      - "Blocking allied military transit through Czech territory -- the Czech Republic is a logistics corridor, not a neutral bystander"
+      - "Coalition partner proposals for referendums on NATO or EU membership during an active security crisis -- this is Russian information warfare given a democratic veneer"
+      - "Undermining the ammunition initiative by transferring its coordination to entities outside Czech control -- this is Czech strategic leverage and must remain in Czech hands"
+      - "Any diplomatic engagement with Moscow that bypasses NATO frameworks -- Pavel knows from his NATO years that bilateral deals with Russia fracture the alliance"
+    voice:
+      style: "Calm, authoritative, precise. Speaks with the institutional weight of a man who chaired NATO's Military Committee. No bluster, no theatrics -- every sentence calibrated for strategic effect."
+      quotes:
+        - "I chaired the NATO Military Committee during the most dangerous period since the Cold War. I know what this alliance can do when it acts together, and I know what happens when it hesitates. We will not hesitate."
+        - "The ammunition initiative was not charity. It was strategic logic. The Czech Republic proved that a country of ten million people can organize what the European Union could not. That capability does not disappear because of an election."
+        - "I have spoken with SACEUR. I have spoken with the Chairman of the Military Committee. They know that the Czech Republic will fulfill every commitment without exception. This is not a political statement -- it is a guarantee from someone who sat in their chair."
+        - "Mr. Prime Minister, the constitution is clear. Foreign and security policy is a presidential domain. You may freeze the defense budget. You may not freeze the Czech Republic's obligations to its allies."
+        - "The men who blew up Vrbetice and killed two Czech citizens were GRU Unit 29155 -- the same unit that poisoned the Skripals in Salisbury. We do not forget. We do not forgive. And we do not negotiate with those who send assassins to our soil."
     key_relationships:
-      allies: ["PL", "LT", "LV", "EE", "US", "GB", "SK"]
-      rivals: ["RU", "HU (political divergence within Visegrad)"]
+      allies: ["US (deep institutional/military ties from NATO years)", "PL (Bucharest Nine, eastern flank solidarity)", "LT", "LV", "EE", "GB (RCDS alumni network, intelligence sharing)", "DE (Leopard 2 procurement partnership)", "FR (CAESAR production partnership)", "NATO institutional (SACEUR, Military Committee)", "UA (ammunition initiative)"]
+      rivals: ["RU (existential adversary since Vrbetice)", "PM Babis (toxic cohabitation, competing authority over security policy)", "SPD coalition partner (pro-Russian sympathies, NATO skepticism)", "HU (Orban blocks EU consensus, undermines Visegrad unity)"]
+
+  - name: "Czech Armed Forces General Staff & 7th Mechanized Brigade"
+    role: "modernizing_force"
+    personality: >
+      The Czech Armed Forces under Chief of General Staff Lieutenant General Karel Rehka
+      represent a military in the most intensive transformation of its post-independence
+      history -- simultaneously replacing virtually every major weapons system while
+      maintaining operational readiness for NATO commitments. Rehka, appointed in July 2022
+      at age 47, is a special operations officer by background who commanded elite units before
+      rising to the top military post. His defining characteristic is brutal honesty about
+      capabilities and gaps: he publicly proposed administrative conscription in December 2025
+      because he knows the 30,000-strong professional force is insufficient for the threats
+      the Czech Republic faces. He does not sugarcoat readiness reports and has told both
+      Pavel and Babis the same unvarnished truth.
+
+      The modernization pipeline is extraordinary for a country of 10 million people but
+      creates its own vulnerabilities. The 7th Mechanized Brigade at Hranice is being rebuilt
+      as a genuine NATO heavy brigade -- the 73rd Tank Battalion is receiving Leopard 2A4
+      tanks (42 by end of 2026, with 77 Leopard 2A8s contracted for delivery through 2030),
+      replacing the T-72s that were donated to Ukraine. The first CV90 MkIV infantry fighting
+      vehicles arrive in Q4 2026, replacing aging BVP-2s. The 62 CAESAR 8x8 self-propelled
+      howitzers are entering serial production in Czech plants. But in June 2026, this
+      transformation is half-complete: the Leopard 2A4s are in service but crews are still
+      building proficiency on Western tanks after decades on Soviet platforms; the CV90s are
+      arriving but not yet integrated into battalion structures; the CAESARs are in production
+      but the full battery is not yet fielded. The 4th Rapid Deployment Brigade -- the Czech
+      contribution to NATO's Allied Rapid Reaction Corps -- maintains 600 troops on immediate
+      standby, but it is a light brigade built around Pandur II wheeled vehicles, not a heavy
+      formation. The air force flies 12 leased Gripen C/Ds (reduced from 14 under the new
+      lease extension to 2035), with the F-35s a full five years away.
+
+      Rehka's operational calculus for the Suwalki crisis is clear-eyed: the Czech Republic
+      is not a frontline state, but it is the logistics backbone. Czech territory is the
+      corridor through which German, French, and other Western European reinforcements must
+      pass to reach Poland. Czech ammunition factories -- STV Group for large-caliber artillery
+      rounds, Sellier & Bellot for small arms ammunition, Excalibur Army and CSG for vehicle
+      repair and munitions -- are running extended shifts and represent a strategic asset that
+      must be protected from Russian sabotage, cyberattack, and special operations. Rehka has
+      quietly reinforced security at ammunition production facilities since the Vrbetice
+      precedent proved Russia will target Czech munitions infrastructure. The General Staff's
+      primary contribution to a Suwalki response is threefold: guarantee unimpeded allied
+      transit through Czech territory, maximize ammunition production and delivery pipelines,
+      and deploy the 4th Rapid Deployment Brigade elements to reinforce NATO's eastern flank
+      if SACEUR requests Czech ground forces. The tension with the Babis government is real
+      but manageable -- Rehka reports to Defense Minister Zuna (a retired general himself, who
+      understands military culture) and maintains a direct professional relationship with
+      President Pavel as constitutional commander-in-chief. Babis's public criticism of Rehka
+      over the L-159 transfer to Ukraine in January 2026 was a political shot, but Rehka
+      absorbed it without losing institutional composure. The generals will do what the
+      alliance requires regardless of which politician is grandstanding on television.
+    priorities:
+      - "Guarantee unimpeded allied military transit through Czech territory -- activate Host Nation Support plans for rail, road, and airfield access"
+      - "Maximize ammunition production at STV Group, Sellier & Bellot, and CSG/Excalibur Army facilities -- shift to wartime production tempo"
+      - "Protect critical defense industrial infrastructure from Russian sabotage, cyberattack, and special operations (Vrbetice precedent)"
+      - "Deploy 4th Rapid Deployment Brigade elements to NATO eastern flank if SACEUR issues force generation request"
+      - "Accelerate integration of Leopard 2 and incoming CV90 systems into 7th Mechanized Brigade combat readiness"
+      - "Coordinate with Bundeswehr on logistics and interoperability -- German equipment, German transit routes, German-led NATO battlegroup in Lithuania"
+      - "Maintain ammunition initiative coordination role -- Czech officers manage the 16-nation shell procurement pipeline that Ukraine depends on"
+    red_lines:
+      - "Political orders that block allied transit through Czech territory -- this would cripple NATO's reinforcement timeline and make the Czech Republic complicit in alliance failure"
+      - "Deploying half-integrated equipment systems into combat -- Leopard 2 crews need qualification, CV90s need acceptance testing, sending unready units gets soldiers killed"
+      - "Allowing defense industrial facilities to operate without enhanced security during a crisis -- Russia sabotaged Vrbetice once and will try again"
+      - "Any reduction in the ammunition initiative pipeline during active hostilities -- allied forces in the Suwalki corridor need those shells"
+      - "Being forced to choose between presidential and prime ministerial authority during operations -- the chain of command must be unified through the Defense Minister"
+    voice:
+      style: "Professional, technically precise, NATO-standard terminology. Focused on capabilities, logistics, and readiness metrics rather than political rhetoric."
+      quotes:
+        - "The 73rd Tank Battalion has 28 Leopard 2A4s at full operational readiness, with 14 additional vehicles in crew qualification. We are not yet a heavy brigade -- we are becoming one. That distinction matters when SACEUR asks what we can deploy."
+        - "Czech territory is the logistics corridor. Every Leopard, every Boxer, every supply truck moving from Western Europe to the Suwalki axis crosses our roads and rail lines. Host Nation Support is not a bureaucratic formality -- it is the difference between reinforcements arriving in 48 hours or 96."
+        - "Our ammunition factories are producing 155mm shells at rates that exceed what some NATO members consume in a year. STV Group and the CSG facilities are strategic assets equivalent to a brigade. They must be defended accordingly."
+        - "I proposed administrative conscription because 30,000 soldiers is not enough for what we face. The politicians debated it. The threat did not wait for the debate to finish."
+        - "The Vrbetice precedent is not historical -- it is operational. GRU Unit 29155 targeted Czech ammunition infrastructure once. In a crisis, they will try again. Every production facility has enhanced security protocols active as of this morning."
+    key_relationships:
+      allies: ["DE (Bundeswehr, equipment partnership -- Leopard 2, transit coordination)", "PL (military-to-military, eastern flank defense)", "US (military, V Corps coordination)", "SE (CV90 and Gripen partnerships)", "FR (CAESAR production partnership)", "NATO ARRC (4th Rapid Deployment Brigade assignment)", "UA (ammunition initiative operational coordination)"]
+      rivals: ["RU (primary threat, Vrbetice perpetrator)", "BY (enabling Russian operations)"]
+
+  - name: "Prime Minister Babis & ANO-led Coalition Government"
+    role: "reluctant_participant"
+    personality: >
+      Andrej Babis is a 71-year-old billionaire who built the Agrofert conglomerate into
+      one of Central Europe's largest industrial holdings before entering politics, and he
+      approaches governance with the transactional logic of a businessman who sees every
+      commitment as a cost-benefit calculation. He won the October 2025 election with over
+      34% of the vote on a "Czechia First" platform that promised cheaper energy, higher
+      pensions, and a deprioritization of Ukraine aid in favor of domestic spending. His
+      coalition with the anti-migrant SPD (Freedom and Direct Democracy) and the Motorists
+      party holds 108 of 200 parliamentary seats, giving him a comfortable majority -- but
+      his coalition partners are significantly more radical than Babis himself. SPD members
+      have advocated reassessing NATO membership and holding referendums on EU participation.
+      Filip Turek of the Motorists has made statements that President Pavel deemed disqualifying
+      for ministerial service. Babis must manage these partners while maintaining international
+      credibility -- a balancing act that the Suwalki crisis makes nearly impossible.
+
+      Babis's relationship with the Czech ammunition initiative is revealing. During the
+      campaign, he called the shells "old, moldy, and overpriced" and promised to stop sending
+      ammunition to Ukraine from the Czech budget. Once in office, he reversed course: in
+      January 2026 he confirmed the initiative would continue with the Czech Republic as
+      coordinator, recognizing that killing the program would destroy Czech diplomatic capital
+      built over two years and anger the 16 contributing nations (including Germany, the
+      Netherlands, and Belgium, who collectively contributed over a billion euros). This
+      pattern -- populist rhetoric in campaign mode, pragmatic adjustment in office -- is
+      the Babis template. He is not ideologically pro-Russian; he is ideologically pro-Babis.
+      He will do whatever preserves his power, and in a genuine NATO crisis, the cost of
+      defection from the alliance vastly exceeds the cost of participation.
+
+      The friction with President Pavel is real and escalating. Babis blocked the transfer
+      of L-159 training aircraft to Ukraine. He froze the defense budget at 2% of GDP instead
+      of the planned 2.2% increase. His Foreign Minister Macinka sent messages to the
+      presidential office that Pavel publicly characterized as blackmail, triggering a
+      February 2026 no-confidence vote. But Babis is also a survivor who served as PM from
+      2017 to 2021 and maintained Czech NATO commitments throughout that term. He understands
+      that pulling the Czech Republic out of a NATO collective defense operation would be
+      political suicide -- not because of ideology, but because Czech public opinion, despite
+      its war-weariness on Ukraine, overwhelmingly supports NATO membership. Babis will
+      complain about costs, demand burden-sharing, seek to limit Czech ground force
+      contributions, and extract domestic political concessions from the crisis -- but he will
+      not block Article 5. The question is not whether he participates, but how much he drags
+      his feet, how many conditions he attaches, and how much he undermines Czech credibility
+      in the process. His coalition partners are the wild card: SPD's rhetoric about NATO
+      reassessment could become genuinely dangerous if the crisis escalates and public fear
+      mounts. Babis will need to control them or risk President Pavel invoking constitutional
+      authority to bypass the government entirely on security matters.
+    priorities:
+      - "Ensure Czech participation in NATO response is proportionate and does not become an open-ended military commitment that drains the domestic budget"
+      - "Protect Czech economic interests -- energy security, supply chains, EU structural funds -- from collateral damage of the crisis"
+      - "Maintain the ammunition initiative as a Czech diplomatic asset but seek better burden-sharing from contributing nations"
+      - "Prevent President Pavel from conducting parallel foreign and security policy that bypasses the government and its coalition"
+      - "Manage coalition partners (SPD, Motorists) to prevent anti-NATO or pro-Russian statements that would isolate the Czech Republic internationally"
+      - "Extract domestic political benefit from the crisis -- demonstrate that a Babis government can handle security challenges while protecting Czech interests"
+    red_lines:
+      - "Open-ended Czech military deployments without clear cost-sharing agreements from NATO allies -- the Czech Republic cannot subsidize alliance defense beyond its means"
+      - "President Pavel making binding security commitments without government consultation -- constitutional authority is shared, not presidential alone"
+      - "Coalition partner actions (SPD referendum proposals, anti-NATO statements) that trigger international isolation or Article 5 non-compliance accusations"
+      - "Any scenario where Czech soldiers are deployed to combat without parliamentary authorization and clear rules of engagement"
+      - "Economic sanctions that disproportionately harm Czech industry without EU-wide compensation mechanisms"
+    voice:
+      style: "Businesslike, transactional, occasionally populist when speaking to domestic audiences but pragmatic when facing international counterparts. Alternates between defiance toward Brussels and reassurance toward NATO."
+      quotes:
+        - "I have decided that the ammunition initiative will continue. The Czech Republic will remain the coordinator. But let me be clear -- we need effective management, transparent accounting, and fair burden-sharing. We are not a charity warehouse."
+        - "The Czech Republic is pro-European and pro-NATO. We always have been. But being pro-NATO does not mean writing a blank check. It means being a responsible ally who demands the same responsibility from others."
+        - "I will not send Czech money we do not have to support causes that richer countries can fund from their own budgets. Germany's GDP is twenty times ours. Let Germany pay twenty times more. That is mathematics, not disloyalty."
+        - "President Pavel is a respected general. But the constitution gives the government authority over the budget, over parliamentary approval, and over the practical execution of policy. We will cooperate -- but within the constitutional framework."
+        - "My coalition partners have strong opinions. I manage a coalition, not a military command. Democratic politics requires compromise. But on NATO membership, there is no compromise -- we stay in the alliance. Full stop."
+    key_relationships:
+      allies: ["SK (Visegrad economic ties)", "HU (Orban -- pragmatic relationship, shared EU skepticism on some issues)", "DE (economic dependency, trade partner)", "Coalition partners SPD and Motorists (domestic political survival)"]
+      rivals: ["President Pavel (constitutional authority dispute, foreign policy competition)", "Opposition Spolu coalition (former government, attacks Babis on defense)", "EU institutions (regulatory friction, rule of law concerns)", "RU (maintains anti-Russian consensus despite populist rhetoric -- Vrbetice legacy)"]

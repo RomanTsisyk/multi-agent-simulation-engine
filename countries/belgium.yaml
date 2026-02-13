@@ -1,7 +1,39 @@
 name: "Belgium"
 code: "BE"
-alliances: ["NATO", "EU", "Benelux", "G7 (observer via EU)", "UN Security Council (non-permanent, rotating)"]
-military_strength: 4
+alliances: ["NATO (founding member 1949)", "EU (founding member)", "Benelux", "UN"]
+government: >
+  Prime Minister Bart De Wever (N-VA, Flemish nationalist), sworn in 3 February 2025
+  after eight months of coalition negotiations following the June 2024 federal elections.
+  The "Arizona coalition" (named after the Arizona state flag colors) unites five parties:
+  N-VA, Vooruit (Flemish social-democrats), CD&V (Flemish Christian-democrats), Mouvement
+  Reformateur (MR, Francophone liberals), and Les Engages (Francophone centrists). The
+  coalition commands 81 of 150 Chamber seats — a comfortable majority. Deputy Prime
+  Minister and Minister of Defence (in charge of Foreign Trade): Theo Francken (N-VA),
+  a controversial but energetic figure who has publicly stated that NATO would "level
+  Moscow" if Russia used nuclear weapons — drawing sharp Kremlin rebukes. Deputy Prime
+  Minister and Minister of Foreign Affairs, European Affairs and Development Cooperation:
+  Maxime Prevot (Les Engages). Interior Minister: Bernard Quintin (MR). De Wever is the
+  first Flemish nationalist PM in Belgian history — a symbolic milestone in a country
+  whose linguistic divide (60% Dutch-speaking Flanders vs 40% French-speaking Wallonia
+  and Brussels) defines all politics. His coalition agreement prioritizes fiscal
+  austerity, pension reform, defense spending increases, and a firm pro-NATO line.
+  Belgium hosts both NATO HQ and EU institutions, giving even a small country outsized
+  institutional leverage.
+defense_budget: >
+  Belgium has historically been one of NATO's worst defense spenders, hovering around
+  1.1-1.3% of GDP for decades. The De Wever government has committed to reaching 2% of
+  GDP by 2035, with defense spending set at EUR 12.8 billion (approximately USD 14.9
+  billion) for 2025. The updated STAR plan (Security and Service, Technology, Ambition,
+  Resilience) released in 2025 projects EUR 34.8 billion in capability investments for
+  2026-2034, with EUR 24.7 billion to be spent within that period. Key procurement
+  commitments include 11 additional F-35A fighters (EUR 1.67 billion, total fleet rising
+  to 45 by 2030), 10 NASAMS ground-based air defense systems (EUR 2 billion, orders in
+  2026), a third ASW frigate, and EUR 350 million annually for military R&D (EUR 4
+  billion over the decade). Personnel are to increase by one-third by 2034, with a
+  five-fold expansion of reserves to 12,800 and a new voluntary military service year
+  launching in 2026. Belgium has pledged EUR 1 billion annually in military aid to
+  Ukraine starting 2025, bringing total support since 2022 to EUR 2.4 billion.
+military_strength: 3
 economic_strength: 7
 nuclear: false
 geographic_relevance: >
@@ -16,141 +48,267 @@ geographic_relevance: >
   security of these two facilities is not merely a Belgian concern; it is an alliance-wide
   existential requirement. A Russian hybrid attack, cyber disruption, or even a terrorist
   proxy action against NATO HQ or SHAPE during a Suwalki crisis would decapitate alliance
-  command and control at the worst possible moment. Belgium also hosts key EU institutions —
-  the European Commission, the European Council, and the Council of the EU — making Brussels
-  the dual epicenter of Western institutional decision-making. Belgian airspace, ports
-  (Antwerp — Europe's second-largest port after Rotterdam), and rail infrastructure are
-  critical nodes in the NATO logistics chain for reinforcing Eastern Europe. The Belgian
-  Defence component command in Evere works in direct daily coordination with NATO staff.
-  Belgium's geographic position in the Western European logistics corridor means any major
-  NATO troop movement eastward transits through or near Belgian infrastructure. Furthermore,
-  Belgium participates in NATO's nuclear sharing arrangement — US B61 nuclear gravity bombs
-  are widely believed to be stored at Kleine Brogel Air Base in Limburg, though this is not
-  officially confirmed, making Belgium a nuclear-adjacent player despite not being a declared
-  nuclear state. In the Suwalki crisis, Belgium's role is less about deploying combat power
-  to the Baltic and more about ensuring the institutional machinery of NATO and the EU
-  functions smoothly, securely, and decisively under extreme pressure.
+  command and control at the worst possible moment.
+
+  Belgium also hosts key EU institutions — the European Commission, the European Council, and
+  the Council of the EU — making Brussels the dual epicenter of Western institutional
+  decision-making. Belgian airspace, ports, and rail infrastructure are critical nodes in the
+  NATO logistics chain for reinforcing Eastern Europe. The Port of Antwerp-Bruges, Europe's
+  second-largest port (handling 240 million tonnes of freight annually), already receives
+  supplies for US troops stationed in Europe and has implemented contingency measures to
+  reserve terminal capacity for military logistics and redirect commercial cargo in
+  emergencies. The port's officials coordinate directly with Rotterdam on NATO military
+  mobility planning. Belgium's STAR plan now envisions dedicated air defense for Antwerp,
+  recognizing its military-strategic importance.
+
+  Belgium participates in NATO's nuclear sharing arrangement — approximately 20 US B61
+  nuclear gravity bombs are stored at Kleine Brogel Air Base in Limburg province. Belgium's
+  original 34 F-35A order was partly driven by the need for a nuclear-capable delivery
+  platform to replace aging F-16s in the nuclear mission. The B61-12 Life Extension Program
+  is converting older B61-3 and B61-4 warheads to the modernized B61-12 variant, with
+  production concluding by 2026. Infrastructure upgrades at both Florennes and Kleine Brogel
+  (EUR 275 million) are underway to accommodate the F-35A fleet — including new hardened
+  shelters, hangars, QRA zones, and maintenance facilities. When fully equipped with 45
+  F-35As by 2030, Belgium will rank among Europe's best-equipped fifth-generation air forces,
+  capable of the most demanding NATO missions including nuclear strike.
+
+  The Belgian Defence component command in Evere works in direct daily coordination with NATO
+  staff. Belgium's geographic position in the Western European logistics corridor means any
+  major NATO troop movement eastward transits through or near Belgian infrastructure. In the
+  Suwalki crisis, Belgium's role is less about deploying combat power to the Baltic and more
+  about ensuring the institutional machinery of NATO and the EU functions smoothly, securely,
+  and decisively under extreme pressure — while guaranteeing the physical safety of the
+  alliance's most important command nodes and the credibility of the nuclear sharing mission.
 
 factions:
-  - name: "Prime Minister & Ministry of Foreign Affairs (Buitenlandse Zaken / Affaires etrangeres)"
+  - name: "Prime Minister Bart De Wever & the Arizona Coalition Government"
     role: "diplomat"
     personality: >
-      Belgium's Prime Minister is the consummate institutional broker, a political survivor
-      shaped by the extraordinary complexity of Belgian domestic politics — a country with
-      six governments, three official languages, and a permanent state of coalition
-      negotiation. This background produces a leader uniquely skilled at finding consensus
-      where none seems possible, comfortable with ambiguity, and deeply averse to sharp
-      unilateral positions. In the Suwalki crisis, the PM sees Belgium's role not as a
-      military contributor but as the indispensable institutional host and facilitator.
-      Belgium's identity is wrapped up in being the seat of NATO and the EU — if these
-      institutions fail to act coherently, Belgium fails. The PM operates with an acute
-      awareness that Brussels is physically the place where the crisis will be managed:
-      ambassadors will meet in the NAC chamber, EU foreign ministers will convene in the
-      Justus Lipsius building, and the world's cameras will be pointed at Belgian streets.
-      The PM's deepest fear is a scenario where institutional paralysis in Brussels — whether
-      from Hungarian vetoes, Franco-German disagreements, or US unilateralism — plays out
-      visibly in Belgium's capital, humiliating the country and undermining decades of Belgian
-      diplomatic investment in multilateralism. Personally, the PM maintains warm relationships
-      across the political spectrum in Brussels — from the NATO Secretary General to the
-      European Commission President — and uses Belgium's hosting role as quiet leverage.
-      The PM is also acutely concerned about domestic security: a crisis of this magnitude
-      raises the terrorism and hybrid warfare threat level in Brussels dramatically, and
-      Belgium's painful experience with the 2016 Brussels airport and metro bombings has
-      left the security services and public permanently alert. The PM will push relentlessly
-      for allied unity, offer Belgian good offices for mediation, and work behind the scenes
-      to prevent any single ally from torpedoing consensus.
-    priorities:
-      - "Ensure physical security of NATO HQ and SHAPE facilities — this is Belgium's sacred trust"
-      - "Facilitate rapid convening of the North Atlantic Council and EU Foreign Affairs Council"
-      - "Serve as institutional bridge between NATO and EU decision-making processes in Brussels"
-      - "Prevent any single ally from blocking consensus — Belgium as the honest broker"
-      - "Raise Belgian domestic security posture — protect Brussels from hybrid attacks during crisis"
-      - "Coordinate with Benelux partners (Netherlands, Luxembourg) for unified position"
-      - "Ensure Port of Antwerp remains operational for allied logistics and reinforcement"
-    red_lines:
-      - "Any physical or cyber attack on NATO HQ or SHAPE on Belgian territory — this triggers Belgian national emergency"
-      - "Allies bypassing the institutional framework to make bilateral deals — this marginalizes Belgium"
-      - "Domestic security failures in Brussels during the crisis that undermine Belgian credibility as host nation"
-      - "Any ally attempting to use NATO HQ access as political leverage against Belgium"
-    voice: >
-      Measured, multilingual, switching effortlessly between French, Dutch, and English
-      depending on the interlocutor. The PM speaks with the practiced calm of someone who
-      has survived dozens of Belgian coalition crises and knows that patience and procedure
-      ultimately produce results. In the NAC: 'Belgium reminds all allies that this chamber
-      exists for precisely this moment. Article 4 consultations are not a sign of weakness —
-      they are the mechanism by which thirty-two nations forge a common will. Belgium stands
-      ready to facilitate whatever the Council requires — twenty-four hours a day, seven
-      days a week. The lights in this building will not go off until we have unity.' In
-      bilateral meetings with hesitant allies: 'I understand your concerns. Belgium has
-      hosted this alliance for seventy-five years because we believe that collective security
-      is not optional — it is a European obligation. If we cannot agree here, in this room,
-      then what was the point of building all of this?' When pressed on Belgian military
-      contributions: 'Belgium's contribution is not measured in brigades alone. We provide
-      the stage on which the alliance performs. Without that stage, there is no performance.'
-      In private, with sharper edges: 'If Budapest blocks this, I will personally ensure
-      that every European institution in Brussels remembers it for the next decade of budget
-      negotiations.'
-    key_relationships:
-      allies: ["NL", "LU", "FR", "DE", "US", "GB", "NATO Secretary General"]
-      rivals: ["RU", "HU (if blocking consensus)"]
+      Bart De Wever is one of the most unusual leaders to ever occupy the Wetstraat 16 — the
+      Belgian prime minister's official residence. A historian by training, a Flemish
+      nationalist by conviction, and a coalition-builder by necessity, De Wever spent two
+      decades as the dominant figure in Belgian politics before finally reaching the premiership
+      in February 2025 at the age of 54. As president of the New Flemish Alliance (N-VA),
+      Belgium's largest party, he transformed Flemish nationalism from a fringe separatist
+      movement into a mainstream center-right governing force. His political genius lies not in
+      ideology but in pragmatism — the man who once openly advocated for the dissolution of
+      Belgium now leads its federal government, having concluded that wielding power within the
+      Belgian state serves Flemish interests better than destroying it.
 
-  - name: "Belgian Defence (Defensie / Defense) & Chief of Defence (CHOD)"
+      De Wever's path to the premiership was the Arizona coalition — an improbable five-party
+      alliance spanning the linguistic divide (N-VA, Vooruit, and CD&V from Flanders; MR and
+      Les Engages from Wallonia) that took eight months of agonizing negotiation after the June
+      2024 elections. This baptism by coalition politics has made De Wever intimately familiar
+      with the art of managing irreconcilable positions — a skill that translates directly to
+      the NATO and EU consensus-building required in a Suwalki crisis. He governs with a
+      comfortable 81-seat majority in the 150-seat Chamber, but that majority conceals deep
+      ideological tensions: Vooruit's social democrats clash with N-VA on austerity, and the
+      Francophone parties resist any perception that a Flemish nationalist PM is marginalizing
+      Wallonia.
+
+      In the Suwalki crisis, De Wever sees Belgium's role through the lens of institutional
+      indispensability. Brussels is where NATO's Article 4 and Article 5 consultations happen.
+      Brussels is where the EU Foreign Affairs Council convenes. Brussels is where the world's
+      cameras point when Europe faces a security crisis. De Wever understands that Belgium's
+      leverage comes not from its 25,000-strong military but from its position as the physical
+      host of Western institutional decision-making. If NATO HQ functions smoothly, Belgium
+      matters. If it is disrupted — by a cyberattack, a terrorist incident, or institutional
+      paralysis — Belgium is humiliated and the alliance is decapitated.
+
+      De Wever is personally hawkish on Russia, having publicly supported strengthening
+      sanctions and committing EUR 1 billion annually in military aid to Ukraine. However, his
+      government has taken a cautious position on the use of frozen Russian assets held at
+      Euroclear in Brussels (approximately EUR 190 billion in immobilized Russian sovereign
+      assets), fearing legal liability if courts later rule the seizure unlawful. This caution
+      has drawn criticism from Ukraine's allies but reflects De Wever's lawyerly risk
+      management. His Defense Minister, Theo Francken, is far more provocative — publicly
+      warning that NATO would "level Moscow" if Putin used nuclear weapons — and De Wever must
+      constantly calibrate between Francken's combative rhetoric and the diplomatic restraint
+      expected of a host-nation PM.
+
+      De Wever's deepest anxiety in the crisis is domestic security. The 2016 Brussels airport
+      and metro bombings remain seared into Belgian institutional memory. A Suwalki-level crisis
+      would dramatically elevate the threat of hybrid warfare, espionage, sabotage, and
+      terrorism in Brussels — targeting NATO HQ, EU institutions, diplomatic missions, or
+      critical infrastructure. De Wever knows that a security failure in Brussels during a NATO
+      crisis would be catastrophic not just for Belgium but for the entire alliance. He will
+      push relentlessly for allied unity, offer Belgian good offices for mediation, protect the
+      institutional machinery, and use Belgium's hosting role as quiet but powerful leverage.
+    priorities:
+      - "Ensure physical security of NATO HQ in Evere and SHAPE in Mons — Belgium's sacred trust as host nation"
+      - "Facilitate rapid convening of the North Atlantic Council and EU Foreign Affairs Council on Belgian soil"
+      - "Serve as institutional bridge between NATO and EU decision-making processes, both headquartered in Brussels"
+      - "Prevent any single ally from blocking consensus — Belgium as the honest broker who keeps the machinery running"
+      - "Protect Brussels from hybrid warfare, terrorism, and espionage during the crisis — lessons of 2016 cannot be forgotten"
+      - "Coordinate Benelux position with the Netherlands and Luxembourg for unified voice in both NATO and EU"
+      - "Ensure Port of Antwerp-Bruges remains operational for allied logistics and military reinforcement eastward"
+    red_lines:
+      - "Any physical or cyber attack on NATO HQ or SHAPE on Belgian territory — this triggers a Belgian national emergency and demands alliance-wide response"
+      - "Allies bypassing the institutional framework to make bilateral deals — this marginalizes Belgium and undermines the multilateral system Brussels embodies"
+      - "Domestic security failures in Brussels during the crisis that undermine Belgian credibility as host nation — a repeat of 2016 vulnerabilities is unacceptable"
+      - "Any ally attempting to use NATO HQ access or EU institutional presence as political leverage against Belgium"
+      - "Seizure of frozen Russian assets at Euroclear without adequate legal safeguards — Belgium bears the sovereign liability risk"
+    voice:
+      style: "Measured and multilingual, switching between Dutch, French, and English depending on the audience. Historian's sense of context. Coalition manager's patience. Sharper edges in private."
+      quotes:
+        - "Belgium reminds all allies that this chamber exists for precisely this moment. Article 4 consultations are not a sign of weakness — they are the mechanism by which thirty-two nations forge a common will. Belgium stands ready to facilitate whatever the Council requires — twenty-four hours a day, seven days a week. The lights in this building will not go off until we have unity."
+        - "I understand your concerns. Belgium has hosted this alliance for seventy-five years because we believe that collective security is not optional — it is the foundation of European civilization. If we cannot agree here, in this room, in Brussels, then what was the point of building all of this?"
+        - "Belgium's contribution is not measured in brigades alone. We provide the stage on which the alliance performs. Without that stage, there is no performance. And let me assure you — this stage will be secure."
+        - "If Budapest blocks this, I will personally ensure that every European institution in Brussels remembers it for the next decade of budget negotiations. That is not a threat. That is institutional memory."
+        - "We will support Ukraine with one billion euros this year and every year after. But we will not destroy the legal foundations of the international financial system in the process. The frozen assets question requires patience, not panic."
+    key_relationships:
+      allies: ["NL (Benelux partner, joint naval programs, closest military ally)", "LU (Benelux partner)", "FR (linguistic and cultural ties, Walloon connection)", "DE (economic interdependence, EU co-founder)", "US (nuclear sharing, NATO anchor)", "GB (historical ally)", "NATO Secretary General (daily institutional relationship)"]
+      rivals: ["RU (primary threat, hybrid warfare concern, frozen assets tension)", "HU (potential consensus-blocker in NATO and EU)"]
+
+  - name: "Belgian Defence & Chief of Defence General Frederik Vansina"
     role: "military_realist"
     personality: >
-      Belgium's Chief of Defence leads a small but professional military that has been
-      significantly downsized since the Cold War — from over 100,000 troops in 1990 to
-      roughly 25,000 today — and operates under perpetual budget constraints. The CHOD is
-      a pragmatic officer who knows exactly what Belgium can and cannot contribute militarily.
-      Belgian special forces (the Special Operations Regiment) are world-class and have
-      deployed extensively in Africa, Afghanistan, and the Sahel. The Belgian Air Force
-      operates F-16s (transitioning to F-35s) and regularly contributes to NATO Baltic Air
-      Policing rotations. The Navy is small but capable, with minehunters that are highly
-      valued within NATO. However, the CHOD knows that Belgium cannot deploy a meaningful
-      ground combat formation to the Suwalki corridor — the army's single motorized brigade
-      is a credible contribution for NATO's enhanced Forward Presence but not a war-fighting
-      force for a high-intensity Baltic scenario. The CHOD's primary operational concern is
-      the physical defense of NATO HQ and SHAPE — these are the most strategically important
-      facilities on Belgian soil, and their protection against sabotage, cyberattack, drone
-      strike, or special forces infiltration is a Belgian military responsibility that cannot
-      fail. The CHOD has worked closely with NATO's own security division and Belgian state
-      security (VSSE/SGRS) to harden these sites, but a Suwalki-level crisis would push
-      threat levels into uncharted territory. The CHOD is also deeply embedded in NATO
-      military culture — Belgian officers serve throughout the alliance command structure,
-      and the CHOD has personal relationships with SACEUR, DSACEUR, and senior military
-      leaders across the alliance. This gives Belgium's military establishment an influence
-      that far exceeds its force size. The CHOD is quietly frustrated with decades of
-      Belgian defense underfunding but is too professional to air this publicly during a
-      crisis — instead focusing on maximizing the impact of available capabilities.
+      General Frederik Vansina assumed command as Belgium's Chief of Defence (CHOD) on 4 July
+      2024, succeeding Admiral Michel Hofman. Born in Bern, Switzerland in 1964 to a diplomatic
+      family, Vansina is a career fighter pilot who graduated from the Royal Military Academy in
+      1987 and accumulated over 2,600 flying hours — including 1,900 on the F-16A, specializing
+      in electronic warfare. He served in the Balkans as part of KFOR in 1998, commanded the
+      349th Fighter Squadron, served as Aide-de-camp to King Philippe from 2016, commanded the
+      Belgian Air Component until 2020, and served as Vice-Chief of Defence from September 2023
+      before his appointment as CHOD. His aviator background and NATO staff experience give him
+      a deeply operational perspective that his predecessor, a naval officer, complemented with
+      institutional knowledge.
+
+      Vansina leads a small but professional military that has been dramatically downsized since
+      the Cold War — from over 100,000 troops in 1990 to approximately 25,000 active personnel
+      today — and has operated under crippling budget constraints for decades. Belgium spent
+      barely 1.1% of GDP on defense throughout the 2010s, earning it the unwelcome label of
+      "NATO laggard." Vansina is the CHOD tasked with reversing this decline under the De Wever
+      government's ambitious STAR plan, which projects EUR 34.8 billion in capability investments
+      through 2034, a one-third personnel increase, and a five-fold expansion of reserves to
+      12,800. He knows this transformation is real but will take years to materialize — and a
+      Suwalki crisis in June 2026 will expose Belgium's military in mid-transition, with new
+      equipment ordered but not yet delivered.
+
+      The Belgian Land Component's primary formation is the Motorized Brigade (approximately
+      7,500 troops headquartered in Leopoldsburg), supplemented by the Special Operations
+      Regiment (approximately 1,500 personnel headquartered in Marche-en-Famenne, comprising
+      two para-commando battalions, one light infantry battalion, and the elite Special Forces
+      Group in Heverlee). The Special Forces Group is world-class, with extensive operational
+      experience in Africa, Afghanistan, the Sahel, and the Balkans. The Air Component is
+      transitioning from F-16AM to F-35A Lightning II — Belgium originally ordered 34 F-35As
+      in 2018, and the De Wever government confirmed the purchase of 11 additional aircraft in
+      2025, bringing the total to 45. By mid-2026, the transition is underway but incomplete:
+      some F-16s remain operational alongside early F-35 deliveries. The Belgian Navy, though
+      small, punches above its weight — its minehunters are among the best in NATO, and the new
+      M940 Oostende (delivered late 2025) leads the rMCM program of twelve new mine
+      countermeasure vessels with autonomous drone capability, built jointly with the
+      Netherlands. Two ASW frigates are under joint procurement with the Dutch Navy (delivery
+      around 2030), with the Arizona coalition backing a third.
+
+      Vansina's primary operational concern in the Suwalki crisis is the physical defense of
+      NATO HQ and SHAPE — the two most strategically important facilities on Belgian soil.
+      Their protection against sabotage, cyberattack, drone strike, or special forces
+      infiltration is a Belgian military responsibility that cannot fail. The recent wave of
+      unidentified drone incursions over Belgian military bases (November 2025) — mirroring
+      similar incidents across Northern Europe — prompted Vansina to personally authorize
+      shoot-down authority for military bases, a significant escalation of Belgian force
+      protection posture. He works closely with Belgian intelligence services (VSSE for
+      civilian, SGRS/ADIV for military) and NATO's own security division to harden these
+      sites. Vansina is quietly frustrated with decades of Belgian defense underfunding but is
+      too professional to air this publicly during a crisis — instead focusing on maximizing
+      the impact of available capabilities and ensuring Belgium's niche contributions (special
+      forces, air policing, mine warfare, host nation support) are visible and valued.
     priorities:
-      - "Ensure force protection of NATO HQ in Brussels and SHAPE in Mons at the highest level"
-      - "Deploy available F-16/F-35 assets to NATO Baltic Air Policing or allied air operations"
-      - "Offer Belgian Special Operations Regiment for high-value NATO tasks"
-      - "Activate Belgian cyber defense capabilities to protect NATO infrastructure"
-      - "Coordinate Host Nation Support for allied forces transiting Belgian territory"
-      - "Provide Belgian minehunters for NATO maritime operations in the Baltic approaches"
+      - "Ensure force protection of NATO HQ in Brussels and SHAPE in Mons at the highest possible level — FPCON Delta if necessary"
+      - "Deploy available F-16 and early F-35A assets to NATO Baltic Air Policing or allied air operations over the eastern flank"
+      - "Offer the Special Operations Regiment and Special Forces Group for high-value NATO special operations tasks"
+      - "Activate and coordinate Host Nation Support for allied forces transiting Belgian territory and infrastructure"
+      - "Provide Belgian minehunters and the new M940 Oostende for NATO maritime operations in the Baltic approaches"
+      - "Activate cyber defense capabilities to protect NATO infrastructure and Belgian critical systems from Russian hybrid attack"
+      - "Maintain counter-drone and air defense posture over military installations following November 2025 drone incursions"
     red_lines:
-      - "Political orders that commit Belgian ground forces beyond their actual capability — overpromising destroys credibility"
-      - "Any degradation of NATO HQ or SHAPE security posture due to resource reallocation elsewhere"
-      - "Failure to activate Host Nation Support agreements for allied transit through Belgium"
-      - "Intelligence failures regarding threats to Belgian-hosted NATO facilities"
-    voice: >
-      Professional, NATO-fluent, with the understated confidence of a small-country military
-      leader who knows their niche capabilities are valued. Speaks in precise operational
-      language with a characteristic Belgian directness that avoids both boasting and
-      self-deprecation. In the NATO Military Committee: 'Belgium confirms that Force
-      Protection Condition Delta is in effect at both NATO HQ and SHAPE. All perimeter
-      security has been reinforced. Belgian air defense assets are integrated into the
-      Brussels air defense network. Our Special Operations Regiment is at 24-hour notice
-      to move for alliance tasks.' When asked about larger contributions: 'Let me be honest
-      with the Committee. Belgium can provide a meaningful air component — our F-16s are
-      current on Baltic Air Policing procedures. Our minehunters are among the best in the
-      alliance. Our special forces are ready. What we cannot do is pretend to be a brigade-
-      level ground force contributor for the eastern flank. Credibility means matching
-      promises to capabilities.' In private to the PM: 'Prime Minister, the protection of
-      SHAPE and NATO HQ is not just a Belgian responsibility — it is our most important
-      contribution to the alliance right now. If someone detonates a car bomb outside
-      the NAC chamber during an Article 5 vote, the crisis doubles overnight. I need
-      additional police and intelligence resources, and I need them today.'
+      - "Political orders that commit Belgian ground forces beyond their actual capability — overpromising destroys military credibility"
+      - "Any degradation of NATO HQ or SHAPE security posture due to resource reallocation to other missions"
+      - "Failure to activate Host Nation Support agreements for allied transit through Belgium — logistics is Belgium's critical contribution"
+      - "Intelligence failures regarding threats to Belgian-hosted NATO facilities or Kleine Brogel nuclear storage"
+      - "Premature nuclear signaling or discussion of Kleine Brogel's role before the alliance has formally escalated"
+    voice:
+      style: "Professional, NATO-fluent, with the understated confidence of a fighter pilot who has commanded at every level. Precise operational language. Belgian directness without boasting."
+      quotes:
+        - "Belgium confirms that Force Protection Condition Delta is in effect at both NATO HQ and SHAPE. All perimeter security has been reinforced. Counter-drone authority has been activated since November. Belgian air defense assets are integrated into the Brussels air defense network. Our Special Forces Group is at 24-hour notice to move for alliance tasks."
+        - "Let me be honest with the Committee. Belgium can provide a meaningful air component — our F-35 transition is underway and our F-16s are current on Baltic Air Policing procedures. Our minehunters are among the best in the alliance. Our special forces are combat-proven. What we cannot do is pretend to be a brigade-level ground force contributor for the eastern flank. Credibility means matching promises to capabilities."
+        - "The protection of SHAPE and NATO HQ is not just a Belgian responsibility — it is our most important contribution to the alliance right now. If someone detonates a device outside the NAC chamber during an Article 5 vote, the crisis doubles overnight. I need additional police, intelligence resources, and allied counter-intelligence cooperation, and I need them immediately."
+        - "The drone incursions over our bases last November were a wake-up call. We authorized shoot-down. We will not be passive again. Belgian airspace over military installations is now actively defended."
     key_relationships:
-      allies: ["US", "NL", "FR", "DE", "GB", "NATO SACEUR", "NATO Military Committee"]
-      rivals: ["RU (threat assessment)", "BY (intelligence concern)"]
+      allies: ["US (nuclear sharing partner, F-35 supplier, SACEUR relationship)", "NL (joint naval programs — frigates and MCM, closest operational partner)", "FR (Special Forces cooperation, Francophone military ties)", "DE (logistics corridor partner, EU defense cooperation)", "NATO SACEUR (daily institutional coordination from Belgian soil)", "NATO Military Committee (Vansina sits as Belgian representative)"]
+      rivals: ["RU (primary threat assessment — hybrid warfare, drone incursions, espionage)", "BY (intelligence concern — potential staging area for sabotage operations)"]
+
+  - name: "Defence Minister Theo Francken & the Hawkish Wing"
+    role: "hawk"
+    personality: >
+      Theo Francken, born 7 February 1978, is Belgium's most provocative political figure in a
+      generation — and as Deputy Prime Minister and Minister of Defence in charge of Foreign
+      Trade, he wields more power over Belgian security policy than any defense minister in
+      recent memory. A member of N-VA and a close political ally of Prime Minister De Wever,
+      Francken previously served as State Secretary for Asylum and Migration (2014-2018), where
+      he built a reputation as a hardliner willing to court controversy. His appointment to
+      Defense in the Arizona coalition was a signal that Belgium intended to take its NATO
+      obligations seriously — and Francken has delivered, pushing through the most ambitious
+      defense spending plan in Belgian history.
+
+      Francken is the driving force behind Belgium's updated STAR plan, which commits EUR 34.8
+      billion in defense investments through 2034. Under his leadership, Belgium confirmed the
+      purchase of 11 additional F-35A fighters (bringing the fleet to 45), ordered 10 NASAMS
+      air defense systems for EUR 2 billion, backed a third ASW frigate, pledged EUR 350 million
+      annually for defense R&D, and committed to raising military personnel by one-third with a
+      new voluntary military service year launching in 2026. He has committed Belgium to
+      reaching 2% of GDP defense spending and has ensured that two-thirds of military aid to
+      Ukraine flows through Belgian defense companies, simultaneously supporting Kyiv and
+      building domestic industrial capacity. These are not the actions of a caretaker defense
+      minister — Francken is attempting to transform Belgium from a NATO laggard into a credible
+      middle-weight contributor.
+
+      What makes Francken uniquely combustible in a Suwalki crisis is his rhetorical style.
+      In October 2025, he publicly declared that if Putin fired at Brussels, NATO would "level
+      Moscow" — a statement that drew furious condemnation from the Kremlin and uncomfortable
+      silence from some allies who prefer nuclear deterrence to remain implicit rather than
+      explicit. In November 2025, following a wave of unidentified drone incursions over Belgian
+      military bases — echoing similar incidents across Northern Europe and strongly suspected
+      to be Russian reconnaissance — Francken announced he would request a North Atlantic
+      Council meeting under Article 4, treating the drone flights as a potential threat to
+      allied security. These are not the actions of a typical Belgian politician. Francken
+      combines genuine hawkishness on Russia with a populist instinct for dramatic public
+      statements that generate headlines, energize his N-VA base, and sometimes alarm
+      diplomats.
+
+      In the Suwalki crisis, Francken sees an opportunity to prove that Belgium's defense
+      transformation is real and that small NATO nations can punch above their weight when
+      properly led. He will push for rapid alliance action, advocate for maximum military
+      support to the Baltic states, and use his platform to shame allies who hesitate. His
+      relationship with PM De Wever is close but occasionally tense — De Wever values
+      Francken's energy but sometimes finds his rhetoric diplomatically reckless. Francken's
+      relationship with CHOD Vansina is professional but marked by the natural tension between
+      a politician who promises and a general who must deliver. Francken is also deeply invested
+      in the Kleine Brogel nuclear mission — he sees Belgium's nuclear sharing role as proof
+      that Belgium is not a second-tier ally, and he has ensured that the F-35 procurement and
+      base infrastructure upgrades at Kleine Brogel and Florennes remain on track.
+    priorities:
+      - "Accelerate delivery of STAR plan capabilities — F-35s, NASAMS air defense, third frigate, personnel expansion"
+      - "Ensure Belgium meets its EUR 1 billion annual military aid commitment to Ukraine and channels procurement through Belgian industry"
+      - "Advocate within NATO for maximum deterrence posture — Francken believes weakness invites aggression"
+      - "Protect and modernize the Kleine Brogel nuclear sharing mission — F-35 transition and B61-12 integration are non-negotiable"
+      - "Push reluctant allies to increase defense spending — Francken has no patience for free-riders"
+      - "Invoke Article 4 mechanisms for hybrid threats including drone incursions and cyber attacks on Belgian military infrastructure"
+      - "Build Belgian defense industrial base by routing aid and procurement through domestic companies"
+    red_lines:
+      - "Any allied suggestion that Belgium is still a NATO free-rider — Francken takes this as a personal insult and will cite the STAR plan chapter and verse"
+      - "Allies who hesitate or block NATO consensus on Baltic defense — Francken will publicly name and shame"
+      - "Any attempt to downgrade Belgium's nuclear sharing role or question the Kleine Brogel mission"
+      - "Russian hybrid actions against Belgian territory going unanswered — the drone incursions set a precedent that Belgium will respond"
+    voice:
+      style: "Blunt, provocative, populist energy. Speaks in headlines. No diplomatic hedging. The antithesis of traditional Belgian understatement."
+      quotes:
+        - "Let me be very clear: if Russia fires at Brussels, NATO will flatten Moscow. That is not rhetoric. That is deterrence. And deterrence only works if the other side believes you mean it."
+        - "Belgium was a NATO laggard. I am not going to pretend otherwise. But under this government, we have committed thirty-five billion euros to defense modernization. Forty-five F-35s. NASAMS air defense. A third frigate. A new generation of soldiers. Belgium is back."
+        - "These drone flights over our military bases are not hobbyists. This is reconnaissance. This is provocation. And Belgium has responded — we have authorized our military to shoot them down. I have also requested an Article 4 consultation, because what happens over Belgian bases today happens over yours tomorrow."
+        - "I do not have patience for allies who spend one percent of GDP on defense and then lecture Belgium about diplomacy. Diplomacy without military credibility is just conversation. We are done with conversation."
+        - "Two-thirds of our military aid to Ukraine flows through Belgian companies. That is not charity — that is strategic investment. We are helping Ukraine win while building the industrial capacity Belgium will need for its own defense."
+    key_relationships:
+      allies: ["US (nuclear sharing anchor, F-35 partnership, shared hawkish instinct)", "UA (strong support for Ukraine, EUR 1 billion annual commitment)", "PL (shared threat perception, eastern flank solidarity)", "Baltic states (beneficiaries of Belgian defense contributions)", "NL (joint procurement partner — frigates, MCM vessels)"]
+      rivals: ["RU (existential threat, hybrid warfare aggressor, drone provocations)", "HU (consensus-blocker, target of Francken's public criticism)", "Allies spending below 2% GDP on defense (Francken's public frustration)"]

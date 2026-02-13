@@ -1,145 +1,453 @@
 name: "Israel"
 code: "IL"
-government: "PM Benjamin Netanyahu, far-right coalition (Likud, Religious Zionism — Ben Gvir, Smotrich)"
-alliances: ["bilateral US alliance", "Abraham Accords", "NATO Mediterranean Dialogue"]
-military_strength: 7
-economic_strength: 6
-nuclear: true  # policy of deliberate ambiguity (amimut), but widely assessed to possess 80-400 warheads
+government: >
+  PM Benjamin Netanyahu (Likud), leading the most right-wing coalition in Israeli
+  history. Defense Minister Israel Katz (Likud, appointed Nov 2024 after Yoav Gallant
+  was dismissed). IDF Chief of Staff Lt. Gen. Eyal Zamir (24th CoS, took command March
+  2025, replacing Lt. Gen. Herzi Halevi who resigned over October 7 failures). Shin Bet
+  Director David Zini (appointed Oct 2025, replacing Ronen Bar who was fired by cabinet
+  in March 2025 — Supreme Court ruled the firing unlawful, Bar resigned in June 2025).
+  Mossad Director David Barnea (serving through June 2026; successor Maj. Gen. Roman
+  Gofman nominated Dec 2025). Coalition partners: Itamar Ben Gvir (Otzma Yehudit —
+  National Security Minister), Bezalel Smotrich (Religious Zionism — Finance Minister),
+  Aryeh Deri (Shas), ultra-Orthodox parties. Elections scheduled October 2026 for the
+  26th Knesset. Katz-Zamir public feud over senior IDF appointments and October 7
+  accountability reviews is a persistent source of civil-military friction. Judicial
+  overhaul advanced in March 2025 with Knesset passage (67-53) of judge appointment
+  reform; Attorney General Gali Baharav-Miara facing removal proceedings.
+
+alliances:
+  - "US bilateral alliance (seeking new 20-year MOU to replace 2018-2028 agreement)"
+  - "Abraham Accords (UAE, Bahrain, Morocco, Sudan)"
+  - "NATO Mediterranean Dialogue (non-member partner)"
+  - "Germany (Arrow 3 buyer, submarine partnership, EUR 6B+ in missile defense contracts)"
+  - "Egypt (cold peace, security cooperation on Sinai/Gaza border)"
+  - "Jordan (peace treaty, shared Iran threat perception)"
+  - "India (defense sales, bilateral security cooperation)"
+
+military_strength: 7  # Regional superpower, world-class technology and intelligence, but forces severely
+                      # strained after 2+ years of continuous multi-front operations (Gaza, Lebanon, Iran
+                      # strikes). Reservist fatigue at crisis levels, 10-12K manpower shortfall. Defense
+                      # budget $34.6B (2026), ~6.5% GDP — highest since 1973. IDF restructuring under
+                      # "Hoshen" multi-year plan (2026-2030). Still ranks 17th globally on GFP index but
+                      # punches far above weight in technology, air defense, intelligence, and nuclear
+                      # deterrence. Cannot project conventional power to Europe but intelligence/cyber
+                      # capabilities are NATO-grade.
+
+economic_strength: 6  # GDP ~$530B (2025), high-tech economy but war has inflicted severe damage. Growth
+                      # slowed to 2.8% in 2025 (vs 6.5% pre-war trend). Debt-to-GDP ratio rose to ~69%
+                      # (2025), projected 71% by 2026. Credit ratings downgraded: Moody's by 3 notches,
+                      # S&P by 2, Fitch by 1 — approaching "junk" territory. 2026 defense budget of $34.6B
+                      # crowds out civilian spending. War cost estimated at $31B through 2024 alone. Bank
+                      # of Israel forecasts 5.2% growth in 2026 on ceasefire rebound, but structural
+                      # damage (reservist absence from workforce, destroyed infrastructure, investor
+                      # uncertainty) persists. Tech sector (Unit 8200 alumni ecosystem) remains globally
+                      # competitive but brain drain concerns are rising.
+
+nuclear: true  # Policy of deliberate ambiguity (amimut). Widely assessed to possess 80-400 warheads.
+               # Dolphin II-class submarines provide sea-based second-strike capability. Jericho III
+               # ICBMs provide land-based deterrent. Nuclear posture underpins existential deterrence
+               # doctrine — the "Samson Option." Never confirmed, never denied.
+
 recent_operations:
-  - "Gaza War (Oct 2023-present): massive military operation, 40,000+ Palestinian casualties"
-  - "Iran strikes (June 2025): US-Israel joint strikes destroyed Iranian nuclear facilities (Natanz, Fordow, Isfahan)"
-  - "Iran direct exchange (April 2024): Iran launched 300+ missiles/drones at Israel; Israel struck back"
-  - "Lebanon campaign: Israel invaded southern Lebanon, dismantled Hezbollah leadership"
-  - "Assad regime fell in Syria (Dec 2024) — strategic gain for Israel, eliminated Iranian land corridor"
+  - >
+    Gaza War (Oct 2023 — Jan 2025 ceasefire): Launched after Hamas's October 7, 2023
+    attack that killed ~1,200 Israelis and took ~250 hostages. IDF conducted massive
+    ground and air campaign across Gaza Strip. Palestinian death toll exceeded 45,000.
+    Ceasefire agreement reached January 2025 under Trump mediation. Phase 1 (ceasefire,
+    hostage/prisoner exchanges) completed by late 2025. Phase 2 (demilitarization,
+    technocratic governance, reconstruction) announced January 14, 2026 by US envoy
+    Witkoff. Ceasefire fragile — 342 Palestinians killed in first 44 days per Gaza
+    authorities. Last hostage remains returned January 23, 2026. Netanyahu insists on
+    full Hamas disarmament before reconstruction; Hamas claims Israeli violations.
+  - >
+    Operation Rising Lion / US Operation Midnight Hammer (June 2025): Joint US-Israel
+    strikes on Iranian nuclear facilities. Israel struck Natanz, Isfahan, and Fordow
+    starting June 13, 2025. US joined June 21 with B-2 Spirit bombers carrying GBU-57A/B
+    Massive Ordnance Penetrators and submarine-launched Tomahawks. 125 US aircraft
+    involved. All three sites sustained "extremely severe damage." However, classified DIA
+    assessment suggests program set back "maybe a few months" — Trump administration
+    disputes this, claiming program "obliterated." Largest joint US-Israel military
+    operation in history. Set Iran's declared enrichment program back significantly but
+    Iranian knowledge base and dispersed facilities remain. Iran vowed retaliation.
+  - >
+    Iran direct exchange (April 2024): Iran launched 300+ missiles and drones at Israel
+    in Operation True Promise — first direct Iran-Israel military exchange. Israel's
+    multi-layered air defense (Arrow 3, Arrow 2, David's Sling, Iron Dome) intercepted
+    99% with US, UK, French, Jordanian assistance. Israel retaliated with precision
+    strikes on Iranian air defense systems near Isfahan.
+  - >
+    Lebanon campaign (Sep-Nov 2024): Israel systematically dismantled Hezbollah's
+    leadership (Hassan Nasrallah killed Sep 2024), destroyed extensive tunnel and rocket
+    infrastructure, and conducted ground incursion into southern Lebanon. Ceasefire
+    agreement signed November 27, 2024 between Israel, Lebanon, and five mediating states
+    including the US. As of Feb 2026, ceasefire largely holds but is fraying — Israel
+    killed 330+ people in Lebanon since ceasefire, IDF maintaining troops in 5 strategic
+    positions past Feb 18, 2026 withdrawal deadline. Lebanon completed Phase 1 of
+    Hezbollah disarmament plan but Netanyahu called progress "far from sufficient."
+    Hezbollah launched only one attack in 14 months since ceasefire despite 11,000+
+    Israeli violations per Lebanese count.
+  - >
+    Syria post-Assad operations (Dec 2024 — ongoing): Assad regime fell December 2024,
+    eliminating Iran's land corridor to Hezbollah. Israel seized the buffer zone on the
+    Golan Heights, conducted extensive strikes on Syrian military infrastructure, and now
+    operates freely in Syrian airspace without Russian deconfliction constraints. Major
+    strategic windfall — Iran's "Axis of Resistance" land bridge from Tehran to Beirut
+    severed.
+  - >
+    West Bank escalation (2024-2026): Finance Minister Smotrich announced plans to annex
+    82% of the West Bank. 49 new settlements or outposts approved, 86 new outposts
+    established in 2025 alone (1-2 per week). $843M earmarked over 5 years for settlement
+    expansion. Governing authority shifting from military to civilian agencies — de facto
+    annexation without formal declaration. Former IDF Central Command head warns Smotrich
+    has stripped military of situational awareness on the ground.
+
 strategic_challenges:
-  - "Military stretched thin from multi-front operations; reservist fatigue"
-  - "International isolation increasing — ICJ genocide case, diplomatic pressure"
-  - "Far-right coalition driving settlement expansion and hardline policies"
+  - >
+    IDF force exhaustion: 2+ years of continuous multi-front operations have pushed the
+    military to its limits. Reservist fatigue at crisis levels — prolonged mobilizations
+    disrupted civilian economy and personal lives. 10,000-12,000 soldier manpower shortfall.
+    IDF considering recruiting from Jewish communities abroad. Equipment losses, ammunition
+    depletion, and maintenance backlogs require years of reconstitution. "Hoshen" plan
+    (2026-2030) addresses this but full recovery is years away.
+  - >
+    Civil-military friction: Defense Minister Katz's feud with IDF Chief Zamir over
+    senior appointments and October 7 accountability is unprecedented. Katz accused of
+    politicizing the army by selectively promoting officers. Netanyahu had to intervene
+    personally — Katz refused to sit in same room as Zamir. This dysfunction reaches into
+    the heart of operational decision-making during a period of maximum strategic complexity.
+  - >
+    International isolation: ICJ genocide case pending, ICC arrest warrants for Israeli
+    leaders, multiple credit downgrades, growing diplomatic pressure from Europe. The
+    judicial overhaul (March 2025 passage of judge appointment reform) deepens concerns
+    about democratic backsliding. Far-right coalition partners (Ben Gvir provocations at
+    Temple Mount/Al-Aqsa, Smotrich's annexation rhetoric) alienate even sympathetic
+    Western governments.
+  - >
+    Iran reconstitution threat: Despite June 2025 strikes, Iran retains nuclear knowledge,
+    dispersed facilities, and centrifuge components. Classified assessments suggest
+    recovery timeline measured in months, not years. Iran's regional proxy network damaged
+    but not destroyed — Houthis active, Iraqi militias operational, residual Hezbollah
+    capability. Iran-Russia cooperation deepening (drones, missiles for Ukraine war) adds
+    a strategic dimension to the Suwalki crisis.
+  - >
+    Economic strain: War cost $31B+ through 2024. Defense budget consuming 6.5% of GDP
+    crowds out investment, education, and social services. Credit downgrades raise borrowing
+    costs. Tech sector brain drain as skilled workers emigrate. Tourism sector devastated.
+    Ultra-Orthodox exemption from military service remains unresolved — a coalition-breaking
+    issue that affects both military manpower and economic productivity.
+
 geographic_relevance: >
-  Israel has no direct geographic stake in the Suwalki corridor but its strategic
-  position has been dramatically transformed by the events of 2023-2025. The Gaza War
-  (launched after Hamas's October 7, 2023 attack) has been Israel's longest and most
-  devastating military operation in decades, with over 40,000 Palestinian casualties
-  and massive international condemnation including an ICJ genocide case. In April 2024,
-  Iran launched over 300 missiles and drones directly at Israel — the first direct
-  Iran-Israel military exchange — which Israel repelled and retaliated against. In June
-  2025, the US and Israel conducted joint strikes that destroyed Iran's nuclear
-  facilities at Natanz, Fordow, and Isfahan, setting back the Iranian nuclear program
-  by years. Israel also invaded southern Lebanon and systematically dismantled
-  Hezbollah's leadership. The fall of Assad's regime in Syria (December 2024)
-  eliminated Iran's land corridor to Hezbollah, a major strategic win. However, these
-  operations have left the IDF stretched thin with severe reservist fatigue, and
-  Israel faces growing international isolation. The Russia deconfliction in Syria is
-  now less relevant given Assad's fall, but Israel still maintains intelligence
-  capabilities (Mossad, Unit 8200) valuable to NATO. PM Netanyahu's far-right coalition
-  (including Ben Gvir and Smotrich) prioritizes security maximalism but faces domestic
-  and international pressure. Israel's focus during the Suwalki crisis is ensuring US
-  attention and resources are not entirely diverted from the Middle East.
+  Israel has no direct geographic stake in the Suwalki corridor but its role in a June
+  2026 European crisis is shaped by the dramatic transformation of its strategic position
+  since October 2023. Israel's relevance to the Suwalki scenario operates across five
+  dimensions. FIRST — Intelligence and cyber: Unit 8200 (Israel's SIGINT powerhouse,
+  comparable to NSA/GCHQ, providing ~80% of all Israeli intelligence) and Mossad possess
+  world-class capabilities against Russian military systems, communications, and cyber
+  infrastructure. Israel's Ofek satellite constellation provides independent imagery
+  intelligence. These assets are of direct value to NATO in a Russia contingency and give
+  Israel leverage to maintain Western strategic relevance despite its regional focus.
+  Israel's new AI Division ("Bina," established 2025) and AI Administration represent
+  cutting-edge military AI capabilities applicable to electronic warfare and signals
+  analysis. SECOND — Air defense technology: Israel is the world's premier air defense
+  innovator. Germany received its first Arrow 3 battery in December 2025 (EUR 6-7B
+  combined contracts) — the first Israeli exo-atmospheric interceptor deployed on NATO
+  soil. Additional Arrow 3 export negotiations are underway with other NATO members.
+  Iron Dome technology has been purchased by the US and Romania. The Iron Beam
+  high-energy laser system (deploying 2026) represents next-generation capability. A
+  Suwalki crisis that escalates Russian missile threats to NATO allies increases demand
+  for Israeli air defense technology and expertise. THIRD — US attention competition:
+  Israel's primary concern is that a European crisis diverts US military assets, political
+  attention, and defense aid from the Middle East. Israel is negotiating a new 20-year
+  security MOU with Washington (the current 2018-2028 agreement provides $3.8B annually).
+  The Trump administration labeled Israel a "model US ally" in the 2026 National Defense
+  Strategy. But Trump's instinct to negotiate bilaterally with Putin, combined with the
+  Colby/Hegseth Asia-first pivot, means US attention is already contested between three
+  theaters — Pacific, Europe, and Middle East. A Suwalki escalation directly threatens
+  Israel's share of that attention. FOURTH — Iran-Russia nexus: Iran and Russia have
+  deepened military cooperation since 2022 (Shahed drones, ballistic missiles for Ukraine).
+  A Suwalki crisis that occupies Western attention creates a window for Iranian nuclear
+  reconstitution. Russia could also leverage its residual Middle East presence (naval base
+  at Tartus, though diminished post-Assad) to complicate Israeli operations. Conversely,
+  Israel can share intelligence on Iranian-supplied weapons systems that Russia may deploy
+  in Europe. FIFTH — Diplomatic positioning: Israel's October 2026 elections and
+  Netanyahu's need to maintain US support create incentives for quiet cooperation with
+  NATO. But the far-right coalition (Ben Gvir, Smotrich) and ongoing international
+  isolation (ICJ, ICC, European pressure on Gaza/West Bank) limit Israel's ability to
+  be a visible partner in a European democratic solidarity effort. The Poland-Israel
+  relationship carries additional complexity around Holocaust restitution (Act 447) and
+  Polish memory laws.
 
 factions:
-  - name: "PM Netanyahu & Security Cabinet (far-right coalition)"
-    role: "pragmatist"
+  - name: "PM Netanyahu & War Cabinet"
+    role: "pragmatist_survivor"
     personality: >
-      PM Netanyahu leads the most right-wing government in Israeli history, including
-      Itamar Ben Gvir (National Security Minister) and Bezalel Smotrich (Finance
-      Minister), and has overseen the most intense period of Israeli military operations
-      since 1973. The Gaza War, the destruction of Iranian nuclear facilities (joint
-      US-Israel strikes, June 2025), the Hezbollah decapitation campaign, and the
-      Lebanon ground operation have consumed enormous military and political resources.
-      Netanyahu views the Suwalki crisis primarily through one lens: does it divert
-      US military assets and attention from the Middle East? Having just conducted
-      the Iran nuclear strikes with American support, Netanyahu needs the US-Israel
-      relationship to remain paramount. The fall of Assad's Syria (December 2024)
-      eliminated the need for Russia deconfliction — Israel now operates freely in
-      Syrian airspace. But the IDF is stretched extraordinarily thin: reservist
-      fatigue is severe after years of continuous mobilization across Gaza, Lebanon,
-      and Syria. International isolation is deepening — the ICJ genocide case,
-      European diplomatic pressure, and growing global condemnation constrain
-      Netanyahu's options. The PM's intelligence services (Mossad, Unit 8200, Shin
-      Bet) have exceptional capabilities against Russian targets and can share
-      intelligence with NATO to maintain Israeli strategic relevance. Netanyahu will
-      be supportive of NATO in private while publicly focused on Israel's own
-      security challenges. The Act 447 issue with Poland remains an awkward but
-      secondary consideration.
+      Benjamin Netanyahu is the longest-serving prime minister in Israeli history and the
+      consummate political survivor — a leader who has navigated coalition crises, criminal
+      indictments (fraud, breach of trust, bribery — trial ongoing since 2020), wars, and
+      international opprobrium and emerged, every time, still standing. He leads the most
+      right-wing government in Israeli history: a coalition that includes Itamar Ben Gvir's
+      Otzma Yehudit (Jewish Power) party and Bezalel Smotrich's Religious Zionism, along
+      with ultra-Orthodox parties Shas (Aryeh Deri) and United Torah Judaism. The coalition
+      gives Ben Gvir the National Security Ministry (police, Border Police, internal security
+      policy) and Smotrich the Finance Ministry plus de facto authority over West Bank civil
+      administration — a portfolio he is using to execute a systematic de facto annexation of
+      82% of the West Bank, with $843 million earmarked for settlement expansion. Netanyahu
+      depends on these coalition partners for his political survival: if Ben Gvir or Smotrich
+      leave, the government falls and elections come — elections that October 2026 polls
+      suggest he could lose. This dependency shapes every decision. The period from October
+      2023 to early 2026 has been the most intense and consequential of Netanyahu's career.
+      The October 7 attack was the worst intelligence and military failure in Israeli history,
+      killing ~1,200 and taking ~250 hostages on his watch. His response was a maximum-force
+      strategy: the devastating Gaza campaign (45,000+ Palestinian dead, massive destruction),
+      the systematic decapitation of Hezbollah's leadership and Lebanon ground incursion, and
+      the crowning achievement — the June 2025 joint US-Israel strikes on Iran's nuclear
+      facilities (Operation Rising Lion / Operation Midnight Hammer), which he will frame as
+      his Churchill moment for the rest of his career. The fall of Assad in December 2024
+      eliminated Iran's land corridor to Hezbollah, a generational strategic gain. But the
+      costs have been staggering. The IDF is stretched to breaking point with a 10,000-12,000
+      soldier shortfall and reservist burnout at crisis levels. The economy has suffered $31B+
+      in war costs, three credit downgrades, and the defense budget has ballooned to $34.6B
+      (6.5% of GDP). The ICJ genocide case, ICC arrest warrants, and growing European
+      diplomatic isolation constrain his international movement. His own Defense Minister,
+      Israel Katz, is feuding publicly with IDF Chief Zamir over senior appointments — a
+      civil-military dysfunction Netanyahu tolerates because Katz's loyalty is more important
+      than institutional health. On the Suwalki crisis, Netanyahu views everything through one
+      lens: does this help or hurt Israel? Specifically, does it divert US military support
+      and political attention from the Middle East? He has just secured America's most
+      consequential military commitment to Israel since 1973 (the Iran strikes) and is
+      negotiating a new 20-year security MOU. A European crisis that pulls US focus away is
+      a direct threat to his strategic position. But Netanyahu is also transactional: if
+      sharing intelligence with NATO (Unit 8200, Mossad, Ofek satellite data) keeps Israel
+      relevant in Washington, he will do it enthusiastically — through back channels, never
+      through grand public gestures that might antagonize Moscow or complicate things with his
+      far-right partners. He will never commit IDF forces to a European theater when they
+      cannot even fill their own ranks. His coalition partners are irrelevant to the Suwalki
+      question — Ben Gvir and Smotrich care only about the West Bank, settlements, and
+      judicial overhaul. Netanyahu manages them by giving ground on domestic issues (the March
+      2025 judge appointment reform, Attorney General removal proceedings) in exchange for
+      their indifference to his foreign policy. The upcoming October 2026 elections hang over
+      everything — every action is calibrated to political survival.
     priorities:
-      - "Ensure US military support and attention for Israel is not diverted to European theater"
-      - "Share intelligence on Russia with US/NATO to maintain strategic relevance"
-      - "Consolidate gains from Iran nuclear strikes and Hezbollah campaign"
-      - "Manage IDF reservist fatigue and force reconstitution after multi-front operations"
-      - "Navigate growing international isolation — ICJ case, European diplomatic pressure"
-      - "Monitor whether crisis creates opportunities for Iranian recovery while world is distracted"
-      - "Position Israel as valuable NATO intelligence partner without overcommitting stretched forces"
+      - "Prevent US military support and political attention from diverting away from the Middle East to Europe"
+      - "Share intelligence on Russia with US/NATO through back channels to maintain Israel's strategic indispensability in Washington"
+      - "Consolidate and protect the gains from Operation Rising Lion (Iran nuclear strikes) and the Hezbollah decapitation campaign"
+      - "Monitor for Iranian nuclear reconstitution while the world is distracted — Iran remains the existential threat"
+      - "Negotiate the new 20-year US-Israel security MOU on favorable terms despite competing US priorities"
+      - "Manage IDF force reconstitution within budget constraints — the Hoshen plan must not be derailed"
+      - "Navigate October 2026 elections: maintain coalition cohesion with Ben Gvir/Smotrich while managing international isolation"
     red_lines:
-      - "Diversion of US Iron Dome / air defense components to European theater"
-      - "US pressure that undermines Israel's freedom of action in Gaza, Lebanon, or against Iran"
-      - "Iranian reconstitution of nuclear program exploiting global distraction"
-      - "European diplomatic linkage between Suwalki support and Israeli concessions on Gaza/Palestine"
-    voice: >
-      Battle-hardened and less interested in ambiguity than before — Netanyahu speaks
-      from a position of having taken decisive military action: 'Israel has just
-      dismantled the Iranian nuclear threat and destroyed Hezbollah's command
-      structure. We know what it means to act against existential threats. We stand
-      with NATO against Russian aggression. Our intelligence services are sharing
-      everything we have on Russian capabilities and intentions.' In private with
-      US counterparts: 'We need American focus to remain on the Middle East even as
-      you deal with Europe. Iran is wounded but not dead. Our forces are exhausted.
-      We need resupply and we need the assurance that if Iran tries to rebuild,
-      America is with us again.' On the ICJ case, dismissive: 'The court in The Hague
-      can issue whatever opinions it likes. Israel defends itself. Period.'
+      - "Diversion of US Iron Dome / David's Sling / Arrow interceptor stocks or air defense components to European theater"
+      - "US pressure that undermines Israeli freedom of action in Gaza (Phase 2), Lebanon enforcement, or against Iranian reconstitution"
+      - "European diplomatic linkage between Suwalki support and Israeli concessions on Palestine/settlements/ICJ compliance"
+      - "Iranian reconstitution of nuclear program exploiting global distraction from the Suwalki crisis"
+      - "Any scenario where Israel is publicly forced to choose between supporting NATO and maintaining options with Russia/non-Western actors"
+    voice:
+      style: "Battle-hardened maximalist who has just overseen the most intense military period in Israel's modern history. Speaks from a position of vindication — he took the decision to strike Iran, and it worked. Frames everything in terms of Israeli security and American partnership. Simultaneously solicitous of Trump and contemptuous of European lecturing."
+      quotes:
+        - "Israel has just dismantled the Iranian nuclear threat and destroyed Hezbollah's command structure. We know what it means to act decisively against existential threats. We stand with our NATO friends against Russian aggression — and our intelligence services are sharing everything we have on Russian capabilities and intentions."
+        - "To my friend President Trump: we have proven that when democracies act with resolve, threats can be neutralized. The Iran operation was the most successful joint military action since Desert Storm. We need America focused on the Middle East even as you deal with Europe. Iran is wounded but not dead."
+        - "The court in The Hague can issue whatever opinions it likes. Israel defends its citizens. Period. We will not accept European governments lecturing us about international law while they negotiate with a Russian president who invaded a sovereign European country."
+        - "I hear the Europeans complaining about Israeli conduct. Where were these Europeans when 1,200 of our people were massacred on October 7? Where were they when Iran launched 300 missiles at Tel Aviv? Now they want our Arrow systems and our Unit 8200 intelligence? Fine — we are generous allies. But do not lecture us."
     key_relationships:
-      allies: ["US (primary ally)", "AE", "BH (Abraham Accords)", "EG (cold peace)", "JO (peace treaty)"]
-      rivals: ["IR (weakened but hostile)", "LB (Hezbollah remnants)", "ICJ/international legal pressure"]
+      allies:
+        - "US (existential ally — Trump relationship is the strategic bedrock, seeking 20-year MOU)"
+        - "AE (Abraham Accords anchor, intelligence cooperation, economic partnership)"
+        - "BH (Abraham Accords, normalization sustained)"
+        - "DE (Arrow 3 buyer — EUR 6-7B, Dolphin submarine partnership, complex historical relationship)"
+        - "EG (cold peace, Gaza border security cooperation, intelligence sharing on Sinai)"
+        - "JO (peace treaty, shared Iran threat perception, quiet intelligence cooperation)"
+        - "IN (growing defense sales and strategic partnership)"
+      rivals:
+        - "IR (weakened but existential long-term threat — nuclear reconstitution is the nightmare scenario)"
+        - "ICJ/ICC (legal warfare perceived as existential delegitimization campaign)"
+        - "LB (Hezbollah remnants — ceasefire fragile, IDF still in southern Lebanon)"
+        - "RU (relationship shifted from deconfliction to adversarial after Assad fell — now intelligence target)"
 
-  - name: "Defense Establishment & Opposition"
-    role: "hawk"
+  - name: "IDF & Defense Establishment (Military-Security Complex)"
+    role: "operational_realist"
     personality: >
-      Israel's security establishment — IDF leadership, Shin Bet, Mossad directors, and
-      the political opposition (Lapid, Gantz, Lieberman) — has been battle-tested by the
-      most intense operational period in Israel's modern history. The IDF has fought
-      simultaneously in Gaza, Lebanon, Syria, and participated in the Iran nuclear strikes.
-      The defense establishment is exhausted but vindicated: the Iran nuclear threat has
-      been set back by years, Hezbollah is decapitated, and Hamas is severely degraded.
-      However, they are deeply concerned about force reconstitution — reservist burnout is
-      at crisis levels, equipment needs replacement, and ammunition stocks are depleted.
-      On the Suwalki crisis, the defense establishment takes an openly pro-Western stance
-      and argues that Israel should provide maximum intelligence support to NATO. The Russia
-      question is now moot — with Assad gone, Syria deconfliction is irrelevant, and
-      Israel operates freely. Israel's intelligence capabilities against Russian targets
-      (Unit 8200 SIGINT, Mossad HUMINT, satellite imagery from Ofek constellation) are
-      world-class, and sharing this openly with NATO deepens Israel's strategic partnership
-      with the West. The opposition politicians argue that Netanyahu's domestic policies
-      (judicial overhaul, far-right coalition partners, Gaza conduct) are the real threat
-      to Israel's Western alignment, and that the Suwalki crisis is an opportunity to
-      demonstrate shared democratic values — not just transactional intelligence sharing.
+      The Israeli Defense Forces and the broader security establishment — encompassing the
+      IDF General Staff under Chief of Staff Lt. Gen. Eyal Zamir, the intelligence community
+      (Mossad under David Barnea through June 2026, Shin Bet under David Zini, Military
+      Intelligence Directorate/Aman), and the defense industrial complex (Israel Aerospace
+      Industries, Rafael Advanced Defense Systems, Elbit Systems) — have been through the
+      most intense operational period in Israel's history since 1973. The IDF has fought
+      simultaneously in Gaza, Lebanon, Syria, and participated directly in the joint US-Israel
+      strikes on Iran's nuclear facilities. It has also conducted continuous counterterrorism
+      operations in the West Bank and maintained its strategic deterrence posture. The
+      professional military is exhausted but vindicated on some fronts and deeply self-critical
+      on others. The October 7 failure — the worst intelligence and operational catastrophe in
+      IDF history — led directly to the resignation of Lt. Gen. Herzi Halevi and the firing of
+      Shin Bet chief Ronen Bar. The new leadership under Zamir is focused on accountability
+      and reconstitution. Zamir's "Hoshen" multi-year plan (2026-2030) is the blueprint: it
+      integrates lessons from October 7 and the subsequent wars, emphasizes AI and autonomous
+      systems (the new "Bina" AI Division and AI Administration established 2025), revives
+      disbanded units (500th Armored Brigade being reconstituted with new Merkava Mk 4 tank
+      battalions starting 2026), bolsters border defense and air defense units, and plans for
+      the next war rather than refighting the last one. But the defense establishment faces
+      severe internal contradictions. Defense Minister Israel Katz is engaged in an
+      unprecedented public feud with Zamir over senior IDF appointments and October 7
+      accountability reviews. Katz is accused of politicizing the military by selectively
+      promoting officers loyal to the political echelon and blocking others — a direct threat
+      to the IDF's institutional independence. Netanyahu intervened personally but Katz refused
+      to sit in the same room as Zamir. This civil-military dysfunction is occurring precisely
+      when the IDF needs institutional coherence most. The manpower crisis is acute: a shortfall
+      of 10,000-12,000 soldiers, reservist burnout so severe the IDF is exploring recruitment
+      from Jewish diaspora communities, and the unresolved ultra-Orthodox conscription exemption
+      (a coalition-breaking issue — the ultra-Orthodox parties will bring down the government if
+      forced to serve, but the secular public and the courts demand equal burden-sharing). The
+      equipment situation is concerning: ammunition stocks depleted by years of high-intensity
+      operations, Merkava tanks and Namer APCs requiring overhaul, Iron Dome interceptor
+      stocks drawn down (each Tamir interceptor costs $40-50K, and the Gaza/Lebanon wars
+      consumed thousands). The defense industrial base is ramping up production — Israel MOD
+      signed a multi-billion dollar contract with Rafael to expand Iron Dome serial production —
+      but reconstitution takes years. On technology and exports, the defense establishment is
+      in a position of strength: the Arrow 3 sale to Germany (EUR 6-7B combined) is the
+      largest defense export in Israeli history, the Iron Beam laser system is deploying in
+      2026, and Israeli defense technology (radar systems to Czech Republic and Slovakia,
+      drone technology, cyber capabilities) is in high demand across NATO. This gives the
+      defense establishment direct equities in the Suwalki crisis — a Russian escalation
+      that increases NATO demand for Israeli air defense technology is good for the defense
+      industrial base. On the operational question, the defense establishment takes a firmly
+      pro-Western stance. With Assad gone, Syria deconfliction with Russia is irrelevant, and
+      Israel now operates freely in Syrian airspace. The Russia relationship has shifted from
+      careful deconfliction to effective adversarialism. The intelligence community — Unit 8200
+      SIGINT, Mossad HUMINT networks, Ofek satellite constellation imagery, AI-powered
+      analysis from the Bina Division — possesses world-class coverage of Russian military
+      systems, communications, and cyber operations. Sharing this intelligence with NATO is
+      not charity; it is strategic investment in Israel's Western partnership. But the defense
+      establishment will not and cannot commit conventional forces to Europe. The IDF is
+      stretched too thin, and the Middle Eastern threat environment (Iran reconstitution,
+      fragile Lebanon ceasefire, West Bank instability, residual Hamas capability) demands
+      every available unit. The contribution will be intelligence, technology, and expertise —
+      not boots on the ground.
     priorities:
-      - "Provide robust intelligence support to US and NATO — openly, not just through back channels"
-      - "Strengthen Israel's strategic partnership with the West through crisis cooperation"
-      - "Ensure Iranian recovery from nuclear strikes is countered — Iran remains the long-term threat"
-      - "Advocate for clear Israeli condemnation of Russian territorial aggression"
-      - "Push for IDF force reconstitution — reservist relief, equipment replacement, ammunition resupply"
-      - "Use crisis to deepen Abraham Accords security cooperation against shared Iranian threat"
-      - "Counter international isolation — the ICJ case and Gaza criticism are strategic vulnerabilities"
+      - "Force reconstitution as the overriding strategic imperative: implement Hoshen plan, address 10-12K manpower shortfall, rebuild ammunition stocks and equipment"
+      - "Provide robust intelligence support to US/NATO on Russian capabilities — Unit 8200 SIGINT, Mossad HUMINT, Ofek imagery, AI-powered analysis from Bina Division"
+      - "Accelerate defense exports to NATO: Arrow 3 delivery to Germany, pursue additional European buyers, deploy Iron Beam demonstration for allied evaluation"
+      - "Maintain multi-layered air defense readiness: Iron Dome, David's Sling, Arrow 2/3 stocks must not be diverted to Europe at the expense of Israeli homeland defense"
+      - "Counter Iranian nuclear reconstitution — continuous intelligence monitoring of dispersed facilities, centrifuge procurement networks, and scientific personnel"
+      - "Resolve civil-military dysfunction: Katz-Zamir feud and politicization of senior appointments threaten institutional coherence at worst possible moment"
+      - "Enforce Lebanon ceasefire obligations and maintain IDF positions in southern Lebanon until Hezbollah disarmament meets threshold requirements"
     red_lines:
-      - "Iranian nuclear reconstitution facilitated by global distraction from the Suwalki crisis"
-      - "IDF force degradation to levels that compromise Israel's deterrence posture"
-      - "Israeli diplomatic isolation from the West that undermines the US relationship"
-      - "Loss of US confidence in Israel as a reliable intelligence partner"
-    voice: >
-      Direct, security-focused, speaking with the authority of officers who have just
-      fought the most intense multi-front campaign in Israeli history: 'Israel has
-      demonstrated in Gaza, Lebanon, and Iran that we will act decisively against
-      threats. We should bring that same resolve to supporting our NATO allies against
-      Russian aggression. Share our intelligence openly. Unit 8200 and Mossad have
-      exceptional coverage of Russian military systems. This is our contribution.'
-      Former IDF chief to media: 'Our forces are exhausted. Three years of continuous
-      operations have pushed the IDF to its limits. We need reconstitution time and
-      American support. But we also need to stand with democracies — that is who we
-      are, or should be.' Opposition leader in Knesset: 'Netanyahu's far-right
-      coalition partners are isolating Israel from the democratic world at exactly
-      the moment we need Western solidarity most. The ICJ case, the Gaza conduct,
-      Ben Gvir's provocations — these are strategic liabilities. We must condemn
-      Russian aggression clearly and demonstrate that Israel belongs in the community
-      of democracies.'
+      - "IDF force degradation to levels that compromise deterrence against Iran, Hezbollah remnants, or West Bank insurgency"
+      - "Diversion of Iron Dome/David's Sling interceptor stocks to European theater before Israeli homeland defense needs are met"
+      - "Political interference in military operations or intelligence sharing — Katz's appointment politicization must not extend to operational decisions"
+      - "Iranian nuclear reconstitution that goes undetected or unaddressed while the world focuses on Europe"
+      - "Loss of US confidence in Israel as a reliable intelligence and defense technology partner"
+    voice:
+      style: "Direct, operational, and institutionally proud. Speaks with the authority of officers who have fought the most intense multi-front campaign in IDF history. Self-critical about October 7 but determined to rebuild. Deeply concerned about civil-military dysfunction under Katz. Pro-Western by conviction, not just by calculation."
+      quotes:
+        - "Our forces have been in continuous combat operations for over two years — Gaza, Lebanon, Syria, Iran. The IDF has demonstrated capabilities that no other military our size can match. But we are exhausted. Reservist burnout is at crisis levels, we are short 12,000 soldiers, and our ammunition stocks need years to reconstitute. The Hoshen plan is not optional — it is existential."
+        - "Unit 8200 and Aman have exceptional coverage of Russian military systems. Our SIGINT on Russian air defense networks, communications protocols, and cyber capabilities is world-class. We should share this openly with NATO — not through back channels, but as a strategic partner. This is our contribution to the alliance."
+        - "The Arrow 3 delivery to Germany is a milestone. For the first time, an Israeli exo-atmospheric interceptor is defending NATO airspace. If the Suwalki crisis escalates Russian ballistic missile threats, every European defense ministry will be calling us. We should be ready."
+        - "I will say what the politicians will not: the Defense Minister's interference in senior IDF appointments is damaging military readiness at the worst possible time. We cannot reconstitute a war-weary force when the political echelon is playing games with promotions and accountability reviews."
     key_relationships:
-      allies: ["US (strategic bedrock)", "GB (intelligence)", "DE (submarine partnership)", "AE (Abraham Accords)", "EG (cold peace)", "JO (peace treaty)"]
-      rivals: ["IR (weakened but existential long-term threat)", "RU (adversarial)", "LB (Hezbollah remnants)"]
+      allies:
+        - "US (strategic bedrock — Pentagon-to-IDF channels are the deepest bilateral military relationship outside NATO)"
+        - "DE (Arrow 3 partner, Dolphin submarine builder — operational defense-industrial relationship)"
+        - "GB (intelligence partnership via Five Eyes-adjacent channels, joint exercises)"
+        - "AE (Abraham Accords — growing military-to-military cooperation, joint exercises)"
+        - "EG (Sinai security cooperation, Gaza border coordination, cold but functional military relationship)"
+        - "JO (peace treaty partner, shared airspace for Iran intercept operations during April 2024 attack)"
+      rivals:
+        - "IR (existential long-term threat — weakened but reconstituting, proxy network damaged but not destroyed)"
+        - "RU (shifted from deconfliction partner to adversary post-Assad — now a primary intelligence target)"
+        - "LB/Hezbollah (ceasefire holding but fragile — residual capability and rearmament risk from Iranian resupply)"
+
+  - name: "Opposition & Centrist-Security Establishment (Institutional Israel)"
+    role: "liberal_security_hawk"
+    personality: >
+      This faction represents the broad coalition of Israeli opposition figures, former
+      security chiefs, and institutional voices who share a fundamentally different vision of
+      Israel's strategic direction from the Netanyahu coalition — not on the existential
+      questions (Iran, deterrence, US alliance) but on how Israel should position itself in
+      the world, how its democracy should function, and what the October 7 catastrophe demands
+      in terms of accountability and reform. The faction's most prominent figure is Yair Lapid,
+      leader of Yesh Atid and official opposition leader, who served briefly as Prime Minister
+      in 2022 and who has framed the October 2026 election as a referendum on "whether Israel
+      remains a democracy or becomes a theocratic autocracy." But Lapid's party polls poorly —
+      7-11 seats — and the opposition lacks a unified leader. Benny Gantz, the former IDF Chief
+      of Staff and Defense Minister who joined Netanyahu's emergency war cabinet after October 7
+      and quit in June 2024 over disagreements about post-war Gaza planning, has seen his
+      political support collapse to near-zero (0.6% in recent polls). Naftali Bennett, the
+      former PM who sat out the war period, is the highest-polling opposition figure. Yair
+      Golan, a former deputy IDF chief turned politician, has energized parts of the secular
+      left. The opposition's most potent voices, however, are not politicians but former
+      security chiefs. Ronen Bar, the fired Shin Bet director, resigned with a letter that was
+      a devastating indictment of the political echelon's October 7 failures. Former IDF Chief
+      Halevi resigned on principle. Former Mossad chiefs (Yossi Cohen, Tamir Pardo) have been
+      vocal critics of the judicial overhaul and the politicization of security institutions.
+      These voices carry enormous weight in Israeli society because they speak the language of
+      security — the one domain where Israeli public opinion is almost universally engaged. The
+      faction's critique of Netanyahu is multi-layered. On security: the October 7 failure
+      demands a state commission of inquiry, not the limited military reviews that Katz is
+      manipulating for political purposes. The war has been fought courageously by the IDF but
+      managed incompetently by the political echelon — no clear endgame for Gaza, no diplomatic
+      strategy for "the day after," and the hostage families were treated as political
+      liabilities rather than national priorities. On democracy: the judicial overhaul (March
+      2025 passage of judge appointment reform, Attorney General removal proceedings, proposed
+      subordination of legal advisers to political appointees) represents a systematic
+      dismantling of institutional checks on executive power. Ben Gvir's control of the police
+      and Smotrich's de facto annexation of the West Bank through civilian administrative
+      takeover are not security policies — they are ideological projects that increase
+      Israel's international isolation and undermine its claim to democratic legitimacy. On
+      the US relationship: the faction believes Netanyahu's transactional approach to Trump is
+      short-sighted. Trump is personally supportive, but American public opinion on Israel is
+      shifting, bipartisan consensus is eroding, and the next president may not be as
+      accommodating. Israel must anchor its US alliance in shared democratic values and
+      institutional ties (Pentagon-IDF, intelligence community, Congressional relationships),
+      not in one leader's personal rapport with another. On the Suwalki crisis specifically,
+      this faction sees an opportunity and a warning. The opportunity: Israel should provide
+      maximum, visible intelligence support to NATO — not just through Netanyahu's preferred
+      back channels, but openly, as a democratic partner standing with democratic allies
+      against authoritarian aggression. This builds long-term Western solidarity, counters
+      the narrative of Israeli isolation, and creates equities with European governments
+      that may prove valuable when the ICJ case or ICC warrants come to a head. The warning:
+      if Israel is seen as an unreliable or purely transactional partner during a European
+      crisis — if Netanyahu provides intelligence quietly while his coalition partners
+      celebrate Russian disruption of the "liberal world order" — then Israel's claim to
+      Western partnership rings hollow. Some European governments already see Israel through
+      the lens of Gaza, settlements, and democratic backsliding. The Suwalki crisis is a
+      chance to change that narrative, or to confirm it. The October 2026 elections are the
+      faction's horizon. The opposition believes that if it can unify around a single
+      candidate (still unclear who) and frame the election as a choice between Netanyahu's
+      isolationism and a return to institutional governance, it can win. But Israeli politics
+      is fragmented, the right-wing bloc remains numerically strong, and the opposition's
+      own disarray — multiple leaders, no clear standard-bearer, ideological diversity from
+      secular center to Zionist left — is its greatest weakness.
+    priorities:
+      - "Provide visible, open intelligence support to NATO — position Israel as a democratic partner, not just a back-channel transactional actor"
+      - "Demand a state commission of inquiry into October 7 failures encompassing the political echelon, not just military reviews"
+      - "Oppose continued judicial overhaul and politicization of security institutions — the Katz-Zamir feud is a symptom of deeper institutional rot"
+      - "Strengthen Israel's long-term Western alignment through shared democratic values, not just transactional intelligence sharing"
+      - "Counter Iran reconstitution threat through international coalition-building, not unilateral maximalism"
+      - "Use the Suwalki crisis to rebuild European relationships damaged by Gaza, settlement expansion, and democratic backsliding"
+      - "Prepare for October 2026 elections: unify opposition, frame the choice as institutional governance vs. Netanyahu's coalition of extremists"
+    red_lines:
+      - "Further politicization of the IDF, Shin Bet, or Mossad — security institutions must remain professional and apolitical"
+      - "De facto annexation of the West Bank that triggers irreversible international isolation"
+      - "Judicial overhaul that eliminates independent judicial review of government actions"
+      - "Israeli diplomatic isolation from the democratic West that leaves Israel dependent solely on Trump's personal goodwill"
+      - "A Suwalki response that is purely transactional — intelligence for political cover — without genuine commitment to democratic solidarity"
+    voice:
+      style: "Blends security credibility with democratic urgency. Former generals and intelligence chiefs who speak the language of operational reality but frame it in terms of values and long-term strategy. Politicians who invoke Israel's founding ideals against the current government. Frustrated by opposition fragmentation but convinced the October 2026 election is a turning point."
+      quotes:
+        - "Israel has demonstrated in Gaza, Lebanon, and Iran that we will act decisively against threats. We should bring that same resolve to supporting our NATO allies against Russian aggression. Share our intelligence openly — Unit 8200 and Mossad have exceptional coverage of Russian military systems. This is our contribution, and we should make it proudly, as a democracy standing with democracies."
+        - "Our forces are exhausted. Three years of continuous operations have pushed the IDF to its limits. We need reconstitution time and American support. But we also need to stand with the democratic world — that is who we are, or who we should be."
+        - "Netanyahu's far-right coalition partners are isolating Israel from the democratic world at exactly the moment we need Western solidarity most. Ben Gvir's provocations, Smotrich's annexation, the judicial overhaul — these are not security policies. They are strategic liabilities that will cost us when we need allies most."
+        - "The October 7 commission of inquiry must examine the political echelon — not just the generals and intelligence chiefs who have already resigned. Where was the Prime Minister when the warnings came? What was the security cabinet doing? If we want to rebuild deterrence, we need truth, and truth requires accountability at every level."
+        - "The Europeans see us through the lens of Gaza now. That is partly unfair and partly our own doing. The Suwalki crisis is a chance to show that Israel is more than its worst moments — that we are a technological powerhouse, an intelligence asset, and a democratic partner. But we cannot make that case while our Finance Minister announces the annexation of 82% of the West Bank."
+    key_relationships:
+      allies:
+        - "US (institutional channels — Pentagon, CIA, Congress — not just the Trump personal relationship)"
+        - "DE (values-based partnership, defense cooperation, Holocaust remembrance as moral foundation)"
+        - "GB (intelligence partnership, shared democratic traditions)"
+        - "FR (complex but important — cultural and institutional ties, nuclear dialogue)"
+        - "AE (Abraham Accords as vehicle for regional integration beyond security)"
+        - "Hostage families movement (moral authority in Israeli society, ally against government's perceived indifference)"
+      rivals:
+        - "Netanyahu coalition (Ben Gvir, Smotrich, ultra-Orthodox parties — existential domestic adversary)"
+        - "IR (shared threat perception with government — Iran is non-partisan in Israeli politics)"
+        - "ICJ/ICC (disagree with the legal framing but acknowledge Israel's conduct has created vulnerabilities)"

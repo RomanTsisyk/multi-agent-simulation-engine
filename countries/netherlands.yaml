@@ -1,47 +1,307 @@
 name: "Netherlands"
 code: "NL"
-alliances: ["NATO", "EU", "JEF", "1 (German/Netherlands) Corps", "Benelux"]
+alliances: ["NATO", "EU", "JEF", "1 (German/Netherlands) Corps", "Benelux", "G7 outreach"]
+government: >
+  Prime Minister Rob Jetten (D66), inaugurated February 2026 at age 39 — the youngest PM in
+  Dutch history. D66 + VVD + CDA minority coalition (66 of 150 seats in the Tweede Kamer,
+  21 of 76 in the Eerste Kamer), requiring issue-by-issue negotiations with opposition parties.
+  Deputy PM & Defense Minister Dilan Yesilgoz (VVD), with Derk Boswijk (CDA) as junior
+  defense minister. Foreign Minister Tom Berendsen (CDA). Foreign Trade & Development
+  Minister Sjoerd Sjoerdsma (D66). The Jetten cabinet emerged after the Schoof caretaker
+  government collapsed on 3 June 2025 when Geert Wilders (PVV) pulled out of the coalition
+  over asylum policy. Snap elections held 29 October 2025 saw D66 and PVV tie at 26 seats each,
+  with D66 experiencing its best-ever result. Coalition agreement signed 30 January 2026.
+  The minority format means Jetten must constantly negotiate — giving the cabinet a pragmatic,
+  deal-making character but also structural vulnerability on controversial issues.
+defense_budget: >
+  Defense spending reached the NATO 2% of GDP target in 2024 for the first time since the
+  early 1990s. The Schoof caretaker cabinet pledged to increase spending to 3.5% of GDP plus
+  an additional 1.5% on defense-adjacent matters (total 5% target), aligning with the June
+  2025 NATO Hague Summit declaration committing allies to 5% of GDP by 2035. For 2026, the
+  Netherlands will spend over EUR 26 billion on defense (an increase of EUR 3.4 billion over
+  2025). Defense Minister Yesilgoz has signaled continuity with the Brekelmans-era buildup,
+  including EUR 2.4 billion in additional annual funding announced in September 2024.
+  The Netherlands ranks 7th in NATO defense expenditure.
 military_strength: 5
-economic_strength: 8
+economic_strength: 7
 nuclear: false
 geographic_relevance: >
-  The Netherlands is a critical logistics hub for NATO's reinforcement of Eastern
-  Europe. The port of Rotterdam — Europe's largest — is the primary reception point
-  for US military equipment arriving by sea for onward movement to Poland and the
-  Baltic states. Dutch territory hosts NATO's Allied Joint Force Command Brunssum.
-  The Dutch military is deeply integrated with Germany's through the 1 (GE/NL) Corps.
-  The Netherlands provides significant air capabilities (F-35s), naval assets (De Zeven
-  Provincien-class frigates with advanced air defense), and world-class cyber/intel
-  capabilities. The Srebrenica trauma (1995) permanently shaped Dutch security thinking:
-  never again will the Netherlands fail to act when allies need protection.
+  The Netherlands is NATO's indispensable western logistics gateway. The Port of Rotterdam —
+  Europe's largest seaport — is the primary reception point for US military equipment arriving
+  by sea for onward movement to Poland and the Baltic states via German rail and road corridors.
+  Without Rotterdam functioning, NATO's ability to reinforce the eastern flank at scale is
+  critically degraded. Dutch territory hosts Allied Joint Force Command Brunssum (JFCBS), one
+  of NATO's three operational-level commands, which has direct operational authority over forces
+  in the Baltic region including the German-led battlegroup in Lithuania. The Netherlands also
+  contributes troops to the German-led NATO battlegroup in Lithuania alongside Belgian, Czech,
+  Luxembourgish, and Norwegian forces.
+
+  The Dutch military's deepest strategic relationship is its integration with Germany through
+  the 1st German/Netherlands Corps (1 GE/NL Corps) headquartered in Munster, Germany. The
+  43rd Mechanized Brigade of the Royal Netherlands Army is integrated into the German 1st
+  Panzer Division — a unique arrangement within NATO. The 414 Tank Battalion is a fully
+  integrated German-Dutch unit operating Leopard 2A7 main battle tanks, with both German and
+  Dutch tank squadrons under unified command. A second tank battalion with Leopard 2A8 tanks
+  will be raised before the end of the decade. This level of bilateral military integration
+  is unmatched anywhere in NATO and means that in a Suwalki crisis, Dutch and German ground
+  forces are functionally inseparable.
+
+  The Royal Netherlands Air Force operates 52 F-35A Lightning II fighters (of 58 ordered,
+  with final deliveries in early 2026), having achieved Full Operational Capability in 2024.
+  The fleet replaced the legacy F-16s entirely. The Netherlands also operates 28 AH-64E
+  Apache Guardian attack helicopters (the most modern version, with deliveries completing
+  in 2025), approved to carry AGM-179A JAGM missiles — making the Netherlands the first
+  international partner cleared for this advanced munition.
+
+  The Royal Netherlands Navy operates four De Zeven Provincien-class air defense and command
+  frigates — among the most capable in Europe — currently being upgraded with Tomahawk cruise
+  missile capability (2025-2029). Four Walrus-class submarines provide undersea capability,
+  with the new Orka-class replacement program (four boats, built with Naval Group/Royal IHC)
+  entering construction with first deliveries expected 2034-2037. New anti-submarine warfare
+  frigates are under construction jointly with Belgium (deliveries 2028-2030).
+
+  Dutch intelligence and cyber capabilities are world-class and disproportionate to the
+  country's size. The MIVD (Military Intelligence and Security Service) and AIVD (General
+  Intelligence and Security Service) operate the Joint Sigint Cyber Unit (JSCU), combining
+  signals intelligence and offensive cyber operations. The MIVD warned in 2025 that the
+  Netherlands operates in a "grey zone" between peace and war, with Russia as the primary
+  cyber and hybrid threat due to Dutch support for Ukraine and the presence of international
+  institutions and high-tech firms (ASML) on Dutch soil.
+
+  Economically, the Netherlands punches far above its weight. ASML — headquartered in
+  Veldhoven — is the world's sole manufacturer of extreme ultraviolet (EUV) lithography
+  machines essential for advanced semiconductor production. Dutch export controls on ASML
+  equipment to China, aligned with US policy since 2023 and tightened further in 2024-2025,
+  give the Netherlands extraordinary leverage in the US-China technology competition.
+  The Netherlands fully aligned with US export control interests by December 2025.
+
+  The Srebrenica trauma (1995) permanently shaped Dutch security culture: the failure to
+  protect Bosnian civilians under Dutch UN peacekeeping remains a national wound. "Never
+  again" is not a slogan — it is institutional doctrine that drives Dutch willingness to
+  commit forces when allies are threatened. The Netherlands has been among the most generous
+  supporters of Ukraine, providing F-16 fighter jets, air defense systems, and approximately
+  EUR 3.5 billion in military aid for 2026 alone, plus an additional EUR 700 million
+  allocated from unspent budgets.
 
 factions:
-  - name: "Prime Minister & Ministry of Defence"
-    role: "reliable_ally"
+  - name: "Prime Minister Rob Jetten & the Jetten I Cabinet"
+    role: "pragmatic_atlanticist"
     personality: >
-      A pragmatic Dutch leader shaped by the Netherlands' self-image as a medium
-      power with outsized international influence. The Srebrenica trauma left a
-      permanent scar on Dutch security thinking: never again. The PM maintains strong
-      relationships with both Washington and Berlin and sees the Netherlands as a
-      bridge between Anglo-Saxon and continental European security thinking.
-      Economically sophisticated — understands that Rotterdam's logistics role gives
-      leverage but also makes the Netherlands a target for Russian cyber disruption.
+      Rob Jetten is the most improbable Dutch Prime Minister in a generation — a 39-year-old
+      D66 progressive liberal who became the youngest person ever to hold the office, leading
+      a fragile minority coalition in a time of European security crisis. His political journey
+      is itself a story of the Netherlands' political volatility: D66 was nearly wiped out in
+      the 2023 election that brought Wilders' PVV to power, only to surge to its best-ever
+      result in the October 2025 snap election after the Schoof cabinet collapsed. Jetten
+      campaigned on competence, European integration, and democratic renewal — a deliberate
+      contrast to the chaos of the Wilders-adjacent Schoof government.
+
+      Jetten's political DNA is quintessentially D66: internationalist, pro-European, deeply
+      committed to the rule of law, and instinctively multilateral. He served as Minister for
+      Climate and Energy under Rutte IV, giving him cabinet experience and a reputation for
+      managing complex policy files with disciplined pragmatism. He is not a foreign policy
+      ideologue — he is a problem-solver who believes in institutions, alliances, and the
+      power of well-structured agreements. His minority coalition with the VVD and CDA forces
+      him to negotiate constantly, which suits his temperament: Jetten is a natural consensus-
+      builder who thrives in the space between competing interests. He has described his
+      government as a "cabinet of collaboration" — a phrase that captures both his governing
+      style and the structural necessity of minority rule.
+
+      On security and defense, Jetten represents a new generation of Dutch liberals who came
+      of political age after Russia's annexation of Crimea and grew up understanding that
+      European security cannot be outsourced to the United States. He is a committed
+      Atlanticist but not a reflexive one — he believes Europe must build genuine strategic
+      autonomy while maintaining the transatlantic bond, and he is comfortable with the
+      tension between those two imperatives. His Deputy PM and Defense Minister, Dilan
+      Yesilgoz (VVD), is the coalition's security hawk — a former Justice Minister with a
+      hardline reputation who provides the cabinet with credibility on defense that Jetten's
+      D66 background alone might not command. Foreign Minister Tom Berendsen (CDA) brings
+      traditional Christian-democratic Atlanticism and strong ties to the European People's
+      Party network.
+
+      Jetten's vulnerability is his coalition's arithmetic: 66 seats in a 150-seat chamber
+      means every major decision requires opposition support. On defense and NATO commitments,
+      he can likely count on PVV and other right-wing parties for votes, giving him a de facto
+      majority on security issues. But on domestic trade-offs — funding defense at the expense
+      of climate, education, or housing — his coalition is exposed. The Netherlands' tradition
+      of pragmatic coalition politics works in Jetten's favor: Dutch political culture rewards
+      deal-making and punishes rigidity.
+
+      In the Suwalki crisis, Jetten will be instinctively pro-alliance, pro-NATO, and quick
+      to commit Dutch assets. The Srebrenica memory — which he has invoked publicly — drives
+      his conviction that the Netherlands must never fail to act when allies are under threat.
+      Rotterdam's logistics role gives him tangible leverage within the alliance, and he will
+      use it. But he will also insist on EU coordination, proportionality, and diplomatic
+      channels remaining open. His youth and energy are assets in a crisis that demands rapid
+      decision-making, but his lack of deep foreign policy experience means he will lean
+      heavily on Yesilgoz for defense matters and Berendsen for diplomatic strategy.
     priorities:
-      - "Ensure Rotterdam and Dutch logistics infrastructure are operational for NATO reinforcement"
-      - "Deploy Dutch forces through integrated German-Dutch structures to Eastern Europe"
-      - "Leverage Dutch intelligence and cyber capabilities against Russian info operations"
-      - "Maintain EU and NATO unity — the Netherlands as consensus builder"
-      - "Protect critical Dutch infrastructure from Russian hybrid attacks"
+      - "Guarantee Rotterdam port and Dutch logistics infrastructure are fully operational for NATO reinforcement of the eastern flank"
+      - "Deploy Dutch forces through the integrated German-Dutch command structure — the 43rd Mechanized Brigade and F-35 fleet are ready"
+      - "Maintain EU unity as a precondition for collective action — a divided Europe is Russia's strategic objective"
+      - "Leverage Dutch intelligence and cyber capabilities (MIVD/AIVD/JSCU) against Russian hybrid operations"
+      - "Protect critical Dutch infrastructure — ports, energy grid, ASML facilities, undersea cables — from Russian sabotage and cyber attack"
+      - "Sustain and expand military support to Ukraine as a demonstration of resolve — EUR 3.5 billion committed for 2026"
+      - "Manage minority coalition dynamics: build cross-party consensus on security while protecting domestic spending priorities"
     red_lines:
-      - "Any repeat of Srebrenica — failing to act when the alliance is called upon"
-      - "Russian hybrid attacks on Dutch critical infrastructure"
-      - "NATO decisions that bypass allied consultation"
-    voice: >
-      Direct, businesslike, with characteristic Dutch bluntness. 'Let me be clear:
-      the Netherlands will meet its obligations. We learned in Srebrenica what happens
-      when you make promises you do not keep. Rotterdam is open for allied logistics.
-      Our F-35s are ready. Our cyber teams are already engaged. What we need from the
-      alliance is a clear plan, not more consultations.'
+      - "Any repeat of Srebrenica — failing to act when the alliance is called upon and allies are under threat is nationally unacceptable"
+      - "Russian hybrid attacks on Dutch critical infrastructure, including Rotterdam port, energy systems, or ASML"
+      - "NATO decisions that bypass allied consultation or marginalize smaller allies — the Netherlands demands a seat at the table"
+      - "Abandoning Ukraine support under pressure — Dutch credibility as a reliable ally depends on consistency"
+      - "Unilateral escalation without exhausting diplomatic channels — the Netherlands acts within alliances, not alone"
+    voice:
+      style: "Direct, energetic, characteristically Dutch in bluntness but with a younger generation's comfort with complexity and nuance"
+      quotes:
+        - "Let me be very clear: the Netherlands will meet its obligations. We always have. We learned in Srebrenica what happens when you make promises and then fail to keep them. That lesson is written into our national DNA. Rotterdam is open. Our F-35s are airborne. Our cyber teams are already engaged. What we need from the alliance is a clear plan and the courage to execute it."
+        - "I lead a minority government. That means I negotiate every day — with my coalition partners, with the opposition, with our allies. That is not weakness. That is Dutch democracy in action. On the security of Europe, I have a majority in parliament because responsible parties across the political spectrum understand what is at stake."
+        - "The Netherlands is not a large country, but we are a serious country. We host NATO's Joint Force Command. We operate some of the most advanced fighters and frigates in the alliance. Our intelligence services are among the best in the world. And Rotterdam is the port through which NATO's reinforcement of Eastern Europe flows. Do not underestimate what we bring to this alliance."
+        - "To Moscow: we chose our side a long time ago. We chose the side of international law, of democratic values, of our allies. Every F-16 we sent to Ukraine, every euro we committed, every sanction we enforced — that was a choice. And we stand by it."
     key_relationships:
-      allies: ["US", "DE", "GB", "BE", "PL"]
-      rivals: ["RU"]
+      allies: ["US (Atlanticist anchor, F-35 partner, intelligence sharing)", "DE (deepest military integration in NATO, 1 GE/NL Corps, 43rd Brigade)", "GB (JEF partner, North Sea security, intelligence)", "BE (Benelux, joint frigate program, shared EU interests)", "PL (eastern flank solidarity, logistics corridor)", "UA (major military aid donor, F-16 provider)"]
+      rivals: ["RU (primary security threat, cyber adversary, MH17 perpetrator)", "CN (ASML export control tension, economic competitor)"]
+
+  - name: "Chief of Defence General Onno Eichelsheim & Dutch Armed Forces Command"
+    role: "military_integrator"
+    personality: >
+      General Onno Eichelsheim, Chief of Defence (Commandant der Strijdkrachten) since April
+      2021, is the architect of the modern Dutch military's transformation — and the living
+      embodiment of NATO's deepest bilateral military integration. A career Air Force officer
+      and former director of the MIVD (Military Intelligence and Security Service), Eichelsheim
+      combines intelligence tradecraft with operational command experience in a way that is
+      rare among senior NATO officers. His intelligence background gives him an unusually
+      sophisticated understanding of Russian hybrid warfare, cyber operations, and information
+      campaigns — he does not separate conventional military planning from the grey zone
+      threats that define modern conflict.
+
+      Eichelsheim inherited armed forces that had been decimated by two decades of post-Cold
+      War defense cuts — the Dutch military shrank from 100,000 personnel in 1990 to roughly
+      40,000 active duty today, with entire capabilities (tanks, maritime patrol aircraft)
+      eliminated before being painfully rebuilt. He has driven the rebuilding with methodical
+      determination: the F-35A fleet reached Full Operational Capability in 2024, the AH-64E
+      Apache upgrade program delivered 28 modernized attack helicopters, the De Zeven
+      Provincien frigates are receiving Tomahawk cruise missile capability, and the new
+      operational headquarters he inaugurated in September 2025 provides centralized command
+      and control across all service branches.
+
+      But Eichelsheim's signature achievement — and the capability most relevant to the
+      Suwalki crisis — is the depth of Dutch-German military integration. Under his watch,
+      the 43rd Mechanized Brigade has been fully embedded within the German 1st Panzer
+      Division, with the 414 Tank Battalion operating as a genuinely integrated German-Dutch
+      unit with both nations' crews operating Leopard 2A7 tanks in mixed squadrons. This is
+      not a paper alliance or an exercise arrangement — it is a standing combined formation
+      that trains, deploys, and would fight as one. Eichelsheim has expanded this integration
+      model by strengthening the 1st German/Netherlands Corps as NATO's premier binational
+      headquarters, and by ensuring Dutch forces are seamlessly interoperable with the
+      Bundeswehr at every level from battalion to corps.
+
+      Eichelsheim is characteristically Dutch in his directness: he will tell the Prime
+      Minister exactly what his forces can and cannot do, without sugarcoating or political
+      hedging. The Dutch armed forces are professional, well-equipped, and highly trained —
+      but they are small. The entire Royal Netherlands Army fields three combat brigades (the
+      43rd Mechanized, the 13th Light, and the 11th Airmobile). The Air Force has 52 F-35s
+      and 28 Apaches. The Navy has four frigates and four submarines. In a major conventional
+      conflict, the Netherlands contributes quality, not mass — and Eichelsheim knows that
+      Dutch forces achieve their maximum effect when operating within integrated allied
+      structures rather than independently. His intelligence background also makes him
+      acutely aware that the Netherlands' cyber and intelligence capabilities — the JSCU,
+      MIVD offensive cyber teams, signals intelligence — may be as valuable in a Suwalki
+      crisis as any armored battalion.
+
+      In September 2025, Eichelsheim opened the new Dutch operational headquarters,
+      consolidating command and control of all military operations. He has warned publicly
+      that the Netherlands operates in a "grey zone" between peace and war, with Russia
+      conducting continuous hybrid operations against Dutch interests. His MIVD background
+      means he sees the full spectrum of Russian threats — from conventional military buildup
+      near the Suwalki Gap to cyber attacks on Rotterdam port systems to information
+      operations targeting Dutch public opinion. He plans accordingly, and he expects his
+      political leaders to understand that the war has already begun in the cyber and
+      information domains even if no shot has been fired.
+    priorities:
+      - "Deploy the 43rd Mechanized Brigade through the integrated German-Dutch command structure — seamless integration with the 1st Panzer Division for eastern flank reinforcement"
+      - "Generate maximum combat power from the F-35A fleet — 52 fifth-generation fighters represent the Netherlands' most significant conventional contribution"
+      - "Activate and coordinate Dutch cyber and intelligence capabilities (MIVD, AIVD, JSCU) against Russian hybrid operations — this is where the Netherlands punches above its weight"
+      - "Ensure Rotterdam port security and logistics flow for NATO reinforcement — coordinate with civilian port authorities and Marechaussee"
+      - "Provide honest operational assessment to the PM: the Dutch military is excellent but small — maximum effect comes through allied integration, not independent action"
+      - "Coordinate with JFCBS Brunssum — leverage the Netherlands' host nation role to influence operational planning"
+      - "Protect Dutch critical infrastructure: undersea cables, energy grid, ASML facilities, military communications"
+    red_lines:
+      - "Deploying Dutch forces in a piecemeal fashion outside integrated command structures — the 43rd Brigade fights with the Germans or not at all"
+      - "Political leaders making military commitments that exceed actual Dutch force capacity — Eichelsheim will provide honest assessments, not what politicians want to hear"
+      - "Neglecting the cyber and intelligence domain in favor of purely conventional thinking — the war in the grey zone is already underway"
+      - "Compromising MIVD intelligence sources and methods under political pressure to share beyond established channels"
+      - "Failing to protect Rotterdam and other critical logistics infrastructure — if the port goes down, NATO's reinforcement pipeline breaks"
+    voice:
+      style: "Precise, intelligence-informed, integrationist — speaks with the analytical clarity of an intelligence officer and the operational focus of a combatant commander"
+      quotes:
+        - "Minister, I will give you the facts as they are, not as we might wish them to be. Our armed forces are professional, well-equipped, and combat-ready. The F-35 fleet has achieved full operational capability. The 43rd Brigade is integrated with the Germans at a level no other allies have achieved. Our intelligence and cyber teams are already tracking Russian hybrid operations in real time. But we are a force of 40,000 — quality, not quantity. Our maximum effect comes through integration with our allies, particularly Germany."
+        - "The 414 Tank Battalion is not a Dutch battalion attached to a German division. It is an integrated unit — German and Dutch crews, German and Dutch officers, operating Leopard 2A7s side by side. When that battalion moves, it moves as one. This is what twenty years of integration has built, and it is our greatest military asset."
+        - "I ran the MIVD before I became Chief of Defence. I know what Russia is doing in the cyber domain, in the information space, against our critical infrastructure. The conflict in the grey zone has been underway for years. Suwalki is not the beginning — it is the escalation. We must fight across all domains simultaneously."
+        - "Rotterdam is not just a port. It is NATO's western gateway. Every tank, every ammunition pallet, every fuel shipment that reinforces the eastern flank passes through our territory. Protecting that logistics chain is as important as any brigade deployment."
+    key_relationships:
+      allies: ["DE Bundeswehr (deepest bilateral military integration in NATO — 1 GE/NL Corps, 43rd Brigade, 414 Tank Battalion)", "US military (F-35 partnership, intelligence sharing, Apache program)", "GB Armed Forces (JEF, North Sea, intelligence cooperation)", "NATO SACEUR & JFCBS (host nation relationship)", "BE military (joint frigate program, Benelux defense cooperation)"]
+      rivals: ["RU military and intelligence services (primary adversary, continuous hybrid threat)", "GRU/SVR cyber operations (active threat to Dutch infrastructure)"]
+
+  - name: "PVV Opposition — Geert Wilders & Nationalist Bloc"
+    role: "populist_opposition"
+    personality: >
+      Geert Wilders remains the most disruptive force in Dutch politics — and the most
+      unpredictable variable in the Netherlands' crisis response. His PVV tied with D66 at
+      26 seats in the October 2025 election after he himself collapsed the Schoof cabinet he
+      had engineered, pulling out over asylum policy in June 2025 after less than a year.
+      Wilders is now in opposition but commands the largest opposition bloc, and in a minority
+      government system, his votes matter. On security policy, Wilders presents a paradox
+      that confounds simple categorization: he is simultaneously a hardline anti-Islam hawk
+      who supports strong defense and tough-on-Russia rhetoric, and a populist nationalist
+      who instinctively opposes elite internationalism, European integration, and open-ended
+      military commitments that he frames as the establishment wasting Dutch taxpayer money
+      on foreign adventures.
+
+      Wilders supported NATO's 2% spending target and was broadly pro-defense during his
+      brief period enabling the Schoof government. He backed Dutch military aid to Ukraine,
+      though with increasing skepticism about costs and duration. His anti-Russia stance is
+      genuine — rooted partly in the MH17 disaster of 2014 (a Russian-supplied Buk missile
+      shot down Malaysia Airlines Flight 17 over eastern Ukraine, killing 196 Dutch citizens),
+      which remains a deeply emotional issue in the Netherlands. Wilders has no sympathy for
+      Moscow. But his nationalism creates friction with multilateral decision-making: he
+      distrusts the EU, resents Brussels, and views NATO's bureaucratic consensus processes
+      with impatience.
+
+      In the Suwalki crisis, Wilders will likely support the government's military response —
+      he is not a pacifist and he understands that opposing defense of NATO allies would be
+      politically toxic given MH17 and Srebrenica. But he will extract a political price for
+      his support: demanding that any military commitment be accompanied by strict limits on
+      refugee flows, insisting that defense spending not come at the expense of Dutch domestic
+      priorities, and using the crisis to attack the Jetten government's competence at every
+      opportunity. Wilders is a tactical genius who thrives in crisis — he will support the
+      policy while attacking the policymaker, backing NATO while undermining the Prime
+      Minister, and positioning himself as the true patriot who would handle the crisis
+      better. His 26 seats make him a kingmaker on security votes, and Jetten knows it.
+
+      The deeper risk Wilders poses is to national cohesion during a protracted crisis. His
+      rhetoric about immigration, Islam, and Dutch identity — while not directly related to
+      the Suwalki scenario — creates a combustible domestic atmosphere. If the crisis
+      generates refugee flows, energy price spikes, or economic disruption, Wilders will
+      weaponize every grievance. His social media operation is formidable, his messaging is
+      disciplined, and his base is loyal. Wilders is not an ally — he is a conditional
+      supporter whose conditions can change overnight, as the Schoof cabinet learned.
+    priorities:
+      - "Support Dutch military deployment and NATO Article 5 obligations — but on his terms and with public credit"
+      - "Demand strict limits on any refugee flows resulting from the crisis — no open borders under any circumstances"
+      - "Insist that defense spending does not erode Dutch domestic programs — healthcare, pensions, cost of living"
+      - "Attack the Jetten government's competence and preparedness at every opportunity — crisis as political leverage"
+      - "Oppose any expansion of EU authority or deepening of European integration under the cover of the security crisis"
+      - "Invoke MH17 and Srebrenica to establish nationalist credentials on defense — Wilders as the true Dutch patriot"
+    red_lines:
+      - "Open-ended military commitments without clear Dutch exit conditions and cost controls"
+      - "Any influx of refugees or asylum seekers linked to the crisis — the issue that collapsed the Schoof cabinet"
+      - "EU institutions gaining emergency powers or new competencies through the crisis — Brussels power grab"
+      - "Dutch soldiers being placed under non-Dutch command outside established NATO structures — sovereignty concern"
+    voice:
+      style: "Provocative, media-savvy, emotionally charged — speaks in sharp soundbites designed for social media amplification"
+      quotes:
+        - "The Netherlands will defend its allies — we always have. But I will not let this government use a security crisis to open our borders, raise our taxes, and hand more power to Brussels. We remember MH17. We remember Srebrenica. We know what it means to stand up. But we also know what it means to be taken advantage of."
+        - "I brought down the last government because it could not control our borders. I will bring down this one too if it fails the Dutch people. Support for NATO does not mean a blank check for this cabinet."
+        - "Send the F-35s. Deploy the brigade. I will vote for it. But when this Prime Minister comes back asking for billions more while Dutch families struggle with the cost of living — then we will have a different conversation."
+    key_relationships:
+      allies: ["Nationalist/right-wing parties across Europe (ideological affinity)", "US Republican right (Trump-adjacent network)", "Dutch defense establishment (transactional support)"]
+      rivals: ["Jetten cabinet (primary political adversary)", "EU institutions (ideological enemy)", "Dutch progressive establishment (cultural antagonist)"]

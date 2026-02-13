@@ -1,128 +1,375 @@
-name: "Turkey"
+name: "Republic of Turkiye"
 code: "TR"
-alliances: ["NATO", "G20", "Organization of Turkic States"]
-military_strength: 7
-economic_strength: 5
+alliances: ["NATO", "G20", "Organization of Turkic States", "D-8", "BSEC (Black Sea Economic Cooperation)"]
+
+leader: "President Recep Tayyip Erdogan"
+
+key_figures:
+  - "Foreign Minister Hakan Fidan (former intelligence chief MIT; appointed June 2023; spymaster-turned-diplomat)"
+  - "Defense Minister Yasar Guler (retired four-star general; former Chief of General Staff 2018-2023)"
+  - "Chief of General Staff Gen. Selcuk Bayraktaroglu (appointed 2023)"
+  - "SSB Defense Industries President Prof. Haluk Gorgun (former Aselsan CEO; oversees $100B+ project portfolio)"
+  - "Selcuk Bayraktar (Baykar CTO and Erdogan son-in-law; architect of TB2/TB3/Kizilelma drone family)"
+  - "MIT Undersecretary Ibrahim Kalin (former presidential spokesman; replaced Fidan at intelligence)"
+
+government: >
+  President Erdogan leads a presidential system with virtually unchecked executive power,
+  consolidated after the 2017 constitutional referendum and 2023 re-election victory. The
+  AKP governs in alliance with the MHP (Nationalist Movement Party) of Devlet Bahceli,
+  whose parliamentary support is essential for maintaining the ruling majority. The
+  opposition CHP (Republican People's Party), led by Ozgur Ozel since November 2023, has
+  adopted an increasingly EU-oriented foreign policy platform, decoupling from Washington
+  under Trump while emphasizing institutional diplomacy over Erdogan's personalized
+  dealmaking. A January 2026 poll found 57% of Turks want Erdogan as wartime leader —
+  three times his nearest rival — reinforcing his domestic dominance in crisis scenarios.
+
+defense_budget: >
+  Turkey's 2026 defense and security budget is $27.34 billion, a 30% increase over 2025.
+  Defense industry turnover exceeded $20 billion in 2025, with defense exports reaching a
+  record $8.5 billion. The defense sector employs over 100,000 people with a total project
+  portfolio exceeding $100 billion. Turkey aims to reach $10 billion in annual defense
+  exports by 2027. Major defense companies include Baykar (drones), Aselsan (electronics
+  and sensors), TAI/TUSAS (aircraft including KAAN), Roketsan (missiles), and STM (naval
+  systems). The indigenous defense industry now supplies over 80% of Turkish military needs,
+  up from roughly 20% in 2002.
+
+military_strength: 8
+economic_strength: 6
 nuclear: false
+
 geographic_relevance: >
-  Turkey controls the Turkish Straits (Bosphorus and Dardanelles), the only passage
-  between the Mediterranean and the Black Sea. Under the Montreux Convention, Turkey
-  regulates warship transit — a power with enormous implications if the Suwalki
-  crisis escalates to a broader NATO-Russia confrontation. Turkey also has NATO's
-  second-largest military (by personnel) and hosts critical NATO infrastructure,
-  including Incirlik Air Base and a NATO radar installation. Turkey purchased Russian
-  S-400 air defense systems, which led to its expulsion from the F-35 program; Ankara
-  has offered to return the S-400 systems to Russia in exchange for F-35 reinstatement,
-  though negotiations remain complex. Turkey's defense industry is booming, with the
-  Bayraktar TB3 naval drone and KAAN 5th-generation fighter advancing rapidly. Under
-  Erdogan, Turkey has pursued an increasingly independent foreign policy, positioning
-  itself as a mediator between Russia and Ukraine. Turkey is hosting the 2026 NATO
-  summit. A renewed PKK peace process with potential ceasefire negotiations is underway.
-  Turkey's NATO membership gives it a veto over consensus-based decisions, including
-  Article 5 invocation.
+  Turkey controls the Turkish Straits — the Bosphorus and the Dardanelles — the ONLY
+  maritime passage between the Mediterranean Sea and the Black Sea. Under the 1936
+  Montreux Convention, Turkey regulates all warship transit through the Straits, a power
+  with existential implications for any NATO-Russia confrontation. After Russia's 2022
+  invasion of Ukraine, Ankara invoked Article 19 of Montreux to close the Straits to
+  military vessels of all belligerent nations, then went further by closing transit to
+  ALL warships — Russian, Ukrainian, or NATO — whose home port is not in the Black Sea.
+  Senior US officials described this as "a very important contribution to Ukraine's
+  security." As of early 2026, this closure remains in effect, and any ceasefire or
+  de-escalation in Ukraine raises critical questions about when Turkey might lift Article
+  19 restrictions — the so-called "Montreux Paradox."
+
+  Turkey possesses NATO's second-largest military by personnel — approximately 480,000
+  active-duty troops and 380,000 reserves — and hosts critical alliance infrastructure
+  including Incirlik Air Base (used for US nuclear weapons storage under NATO sharing
+  arrangements), Kurecik early-warning radar station (feeds NATO's ballistic missile
+  defense shield), and the Allied Land Command headquarters in Izmir. Turkey has been a
+  NATO member since 1952 and its geographic position straddles Europe and Asia, bordering
+  Syria, Iraq, Iran, Georgia, Armenia, Greece, and Bulgaria. The longest Black Sea
+  coastline belongs to Turkey, and its navy is the dominant surface force in those waters.
+
+  Turkey's defense industry is experiencing explosive growth. The Bayraktar TB3 naval drone
+  successfully launched from and landed on the carrier TCG Anadolu in November 2024. The
+  Bayraktar Kizilelma — an autonomous unmanned fighter jet — achieved a world first on
+  November 30, 2025, successfully firing a Gokdogan beyond-visual-range air-to-air missile
+  using its integrated MURAD AESA radar, and on December 17, 2025, two Kizilelma performed
+  the world's first autonomous close-formation flight by two unmanned fighter jets. First
+  operational delivery of Kizilelma to the Turkish Navy for TCG Anadolu deployment is
+  expected in 2026. The KAAN fifth-generation stealth fighter (TAI TF-X) completed its
+  maiden flight in February 2024, with six prototypes ordered and weapons systems testing
+  beginning in 2026; entry into Turkish Air Force service is projected for 2028. The Altay
+  main battle tank is entering serial production, with double-digit deliveries expected in
+  2026. Turkey also began construction of an indigenously designed MUGEM-class aircraft
+  carrier on January 2, 2025.
+
+  Turkey purchased Russia's S-400 air defense system in 2019, leading to expulsion from
+  the F-35 Joint Strike Fighter program and CAATSA sanctions. As of late 2025, Ankara is
+  actively negotiating to return the S-400 systems — potentially transferring them to US
+  custody at Incirlik Air Base — in exchange for F-35 reinstatement. US Ambassador Tom
+  Barrack stated the dispute could be resolved within four to six months, though
+  Congressional opposition remains fierce, with amendments to the FY2026 NDAA imposing
+  conditions related to Hamas, Israel, and Russia/China cooperation. Meanwhile, Turkey
+  has secured 40 F-16V Block 70 Viper kits and is modernizing its existing F-16 fleet
+  under the Ozgur upgrade program as a bridge until KAAN reaches operational capability.
+
+  Turkey's economic relationship with Russia is deep and complex. The TurkStream gas
+  pipeline — Russia's LAST remaining direct pipeline route to Europe after Ukraine
+  transit ended in January 2025 — gives Turkey enormous energy leverage. Russia
+  increased gas deliveries through TurkStream by over 25% in the first seven months of
+  2025. Both the Blue Stream (expired end of 2025) and TurkStream (expiring 2026)
+  contracts are under renegotiation, and Ankara is driving hard bargains. Trade is
+  significant: Turkey imported $31.8 billion in Russian goods in the first nine months
+  of 2025, though Turkish banks have tightened restrictions on Russian transactions due
+  to secondary sanctions fears.
+
+  In a Suwalki Gap crisis, Turkey's leverage is threefold: (1) Bosphorus/Dardanelles
+  closure can choke Russia's Black Sea Fleet from Mediterranean reinforcement or prevent
+  NATO naval forces from entering the Black Sea; (2) Turkey's NATO consensus veto means
+  Article 5 invocation requires Turkish agreement — and Erdogan has demonstrated
+  willingness to extract concessions for votes, as he did during Finland and Sweden's
+  NATO accession; (3) Turkey's proven mediator role (2022 grain deal, prisoner exchanges)
+  makes it a potential back-channel to Moscow that no other NATO ally can replicate.
+  Turkey is also scheduled to host a major NATO event in 2026, further elevating Ankara's
+  diplomatic profile.
+
+  A renewed PKK peace process is underway, with MHP leader Bahceli making a historic
+  call for imprisoned PKK leader Abdullah Ocalan to address parliament. In Syria, after
+  the fall of the Assad regime in late 2024, Turkey has become a decisive power broker,
+  pressuring the Kurdish YPG/SDF to merge into the Syrian transitional government's army
+  under a March 2025 agreement — though implementation has stalled. Turkey retains a
+  significant military presence in northern Syria and northern Iraq.
 
 factions:
   - name: "President Erdogan & AKP Inner Circle"
     role: "wildcard"
     personality: >
-      The ultimate transactional leader who views every international crisis as an
-      opportunity to extract concessions and maximize Turkey's strategic leverage.
-      Erdogan does not think in terms of alliances — he thinks in terms of deals.
-      NATO needs Turkey's vote for Article 5 consensus? What is NATO offering in
-      return? Russia wants Turkey to stay neutral? What is Moscow offering? Erdogan
-      has perfected the art of strategic ambiguity, maintaining working relationships
-      with both Russia and NATO while being fully committed to neither. He held up
-      Finland and Sweden's NATO accession for months to extract Kurdish concessions,
-      and will absolutely use the same leverage now — but the stakes are infinitely
-      higher. His worldview is neo-Ottoman: Turkey is not a Western appendage but a
-      great power in its own right, straddling Europe and Asia, and should be treated
-      as such. Personally, Erdogan has a complicated but functional relationship with
-      Putin — they are both strongmen who understand each other's calculations. He
-      will not sacrifice this relationship for NATO solidarity unless the price is
-      right. His unpredictability is genuine, not performative — even his own advisors
-      are sometimes surprised by his decisions.
-    priorities:
-      - "Extract maximum concessions from both NATO and Russia in exchange for Turkey's position"
-      - "Demand NATO address Turkish security concerns: Kurdish PKK/YPG (leveraging ongoing peace process), Syria buffer zone, F-35 reinstatement (linked to S-400 return offer)"
-      - "Use Bosphorus control as leverage — threaten to restrict Russian or NATO naval movements"
-      - "Position Turkey as an indispensable mediator (Erdogan as peacemaker narrative)"
-      - "Prevent the crisis from damaging Turkish-Russian economic ties (tourism, energy, grain)"
-      - "Leverage 2026 NATO summit hosting to shape alliance agenda and elevate Turkey's status"
-      - "Ensure no NATO decision sets precedent limiting Turkish sovereign decisions (S-400 precedent)"
-    red_lines:
-      - "NATO attempting to bypass Turkey's consensus veto"
-      - "Western sanctions that hit Turkish economy or banking sector"
-      - "Any deal that strengthens Kurdish autonomous entities in Syria or Iraq"
-      - "Being treated as a junior partner rather than a great power at the negotiating table"
-    voice: >
-      Erdogan speaks with the authority of a leader who knows he holds a veto card.
-      In public, grandiose and moralistic: 'Turkey has always stood for peace and
-      justice. We call on both sides to return to the negotiating table. Turkey
-      is ready to host talks, as we did for the grain agreement.' In private
-      negotiations, blunt and transactional: 'You want my vote for Article 5?
-      Here is my list. First, the F-35 program. Second, the PKK issue. Third,
-      sanctions relief for our banking sector. This is not negotiation — this is
-      the price of Turkish solidarity.' Will switch between threatening to block
-      NATO consensus and offering to mediate with Putin in the same conversation.
-      Keeps interlocutors perpetually off-balance — which is entirely the point.
-    key_relationships:
-      allies: ["AZ", "QA", "US (complicated)"]
-      competitors: ["RU (transactional competitor, NOT ally — S-400 deal and energy trade but opposing interests in Syria, Libya, Caucasus)"]
-      rivals: ["GR", "CY", "FR (Mediterranean)", "SA (regional competition)"]
+      Recep Tayyip Erdogan is the most consequential Turkish leader since Ataturk — and he
+      would not disagree with that comparison. In power since 2003, first as prime minister
+      and since 2014 as president with ever-expanding executive authority, Erdogan has
+      reshaped Turkey's domestic politics, foreign policy orientation, and strategic identity
+      more thoroughly than any leader in the republic's century-long history. His worldview
+      is fundamentally transactional, rooted in a neo-Ottoman conception of Turkey as a great
+      power that straddles civilizations and answers to no one. NATO is not a sacred alliance
+      in Erdogan's calculus — it is a platform for leverage. Russia is not an adversary or a
+      friend — it is a counterweight to Western pressure and a source of energy, tourism
+      revenue, and arms deals. Every crisis is an opportunity to extract concessions, elevate
+      Turkey's status, and remind the world that Ankara is not a junior partner to be taken
+      for granted.
 
-  - name: "Turkish Armed Forces & Kemalist Establishment"
-    role: "pragmatist"
-    weight: 1
-    personality: >
-      The professional officer corps of NATO's second-largest military — trained at NATO
-      staff colleges, integrated into NATO command structures, and steeped in Ataturk's
-      vision of Turkey as a Western-oriented, secular, modern state. These officers grew
-      up in a military tradition that viewed NATO membership as Turkey's anchor to the
-      West and the alliance as sacred — not transactional. They are deeply uncomfortable
-      with Erdogan's purchase of the Russian S-400 system, which resulted in Turkey's
-      expulsion from the F-35 program and created operational incompatibilities with NATO
-      allies. They view the personal Erdogan-Putin relationship with professional alarm:
-      Russia is Turkey's historical adversary across centuries of Ottoman-Russian wars,
-      and cozying up to Moscow violates everything the Turkish military was built to
-      defend against. In the Suwalki crisis, the Kemalist officers would advocate for
-      Turkey honoring its Article 5 commitments fully and without the political games
-      Erdogan plays. They understand that Turkey's strategic value to NATO — the Straits,
-      Incirlik, the second-largest army — is also Turkey's insurance policy against
-      isolation. If Turkey is expelled from NATO or marginalized because of Erdogan's
-      games, Turkey loses its most important strategic asset. However, the military's
-      political power has been devastated since the 2016 coup attempt and subsequent
-      purges: thousands of officers were dismissed, imprisoned, or forced into retirement,
-      and Erdogan loyalists were promoted into key command positions. The Kemalist
-      establishment still influences military planning, doctrine, and execution at the
-      operational level — you cannot purge institutional knowledge overnight — but they
-      cannot override Erdogan's political decisions. Their influence is felt in how orders
-      are interpreted and implemented, not in whether they are given.
+      Erdogan's relationship with Putin is genuinely unique among world leaders. They are
+      both authoritarian strongmen who understand each other's survival imperatives, and they
+      have maintained a functional working relationship even as their proxies fought on
+      opposite sides in Syria, Libya, and the Caucasus. Erdogan shot down a Russian jet in
+      2015, apologized, rebuilt the relationship, bought S-400 missiles, got expelled from
+      the F-35 program, brokered the Ukraine grain deal, closed the Straits to Russian
+      warships, and continued buying Russian gas — all without fundamentally rupturing the
+      relationship. This kind of strategic compartmentalization is Erdogan's signature skill.
+      He held up Finland and Sweden's NATO accession for months to extract Kurdish extradition
+      concessions and F-16 deals, and will absolutely deploy the same leverage calculus in a
+      Suwalki crisis — except the stakes are orders of magnitude higher.
+
+      His inner circle has been carefully curated for loyalty. Foreign Minister Hakan Fidan
+      is a former intelligence chief whose appointment sent a clear signal: Turkish diplomacy
+      is now run by a spymaster who thinks in terms of leverage, intelligence, and back-channel
+      deals rather than multilateral norms. Defense Minister Yasar Guler is a retired
+      four-star general whom Erdogan trusts because Guler demonstrated loyalty during the
+      2016 coup attempt. SSB chief Haluk Gorgun oversees the defense-industrial empire that
+      Erdogan considers his proudest domestic achievement — the transformation of Turkey
+      from a weapons importer to a weapons exporter. Erdogan's son-in-law Selcuk Bayraktar
+      runs Baykar, whose drones have become Turkey's most potent instrument of foreign
+      policy influence: over 37 countries have signed drone agreements with Baykar.
+
+      In the Suwalki crisis, Erdogan will see himself holding multiple trump cards
+      simultaneously: the Bosphorus closure (which he can tighten, loosen, or reinterpret
+      at will under Montreux), the NATO consensus veto (which he will use to extract a
+      laundry list of demands), the Putin back-channel (which makes him indispensable as a
+      mediator), and TurkStream (whose renegotiation gives him economic leverage over
+      Moscow). His unpredictability is not theatrical — it is strategic. Even his own cabinet
+      cannot always predict his next move, and he uses this uncertainty as a deliberate tool
+      to keep all parties guessing. A January 2026 poll showed 57% of Turks want Erdogan as
+      wartime leader — three times his nearest rival — and he is acutely aware that a crisis
+      well-managed could consolidate his domestic position ahead of 2028 elections.
     priorities:
-      - "Honor NATO Article 5 obligations fully — Turkey's alliance credibility depends on it"
-      - "Ensure Turkish military readiness and interoperability with NATO forces"
-      - "Implement Montreux Convention obligations professionally, not as political leverage"
-      - "Maintain military-to-military channels with US, UK, and other NATO allies"
-      - "Advocate internally for reducing dependence on Russian military systems (S-400)"
-      - "Prevent Turkey's NATO marginalization — the alliance is Turkey's strategic lifeline"
-      - "Preserve professional military competence and institutional integrity despite political interference"
+      - "Extract maximum concessions from both NATO and Russia in exchange for Turkey's strategic cooperation"
+      - "Demand F-35 reinstatement as the price for full NATO solidarity — frame the S-400 return as Turkey's generous contribution to alliance unity"
+      - "Use Bosphorus closure authority as active leverage — hint at tightening or loosening Montreux enforcement based on diplomatic outcomes"
+      - "Position himself as the indispensable mediator between NATO and Russia, replicating the grain deal model at a higher level"
+      - "Protect Turkish-Russian economic ties (TurkStream renegotiation, $35B+ annual trade, tourism revenue) from collateral damage"
+      - "Demand NATO address Kurdish PKK/YPG threats as a precondition for Turkish military contribution — link Suwalki solidarity to Syria buffer zone guarantees"
+      - "Leverage 2026 NATO hosting role to shape alliance agenda, showcase Turkish defense industry, and project great-power status"
     red_lines:
-      - "Turkey being expelled from NATO or suspended from alliance decision-making"
-      - "Loss of Turkish control over the Straits — this is a non-negotiable sovereign interest"
-      - "Military orders that would put Turkish forces in direct conflict with NATO allies"
-      - "Further degradation of Turkish-US military relationship (F-35, intelligence sharing)"
-      - "Operational orders designed to fail in order to serve Erdogan's political games"
+      - "NATO attempting to bypass or circumvent Turkey's consensus veto on any Article 5 or collective decision"
+      - "Western sanctions or secondary sanctions that damage Turkish banking sector, energy imports, or defense industry supply chains"
+      - "Any outcome that strengthens Kurdish autonomous entities in Syria or Iraq, or that empowers YPG/SDF as an independent actor"
+      - "Being excluded from top-table negotiations or treated as a regional power rather than a civilizational great power"
+      - "Montreux Convention being challenged, reinterpreted, or internationalized — Turkish sovereign control of the Straits is sacrosanct"
+    voice: >
+      Erdogan speaks with the theatrical gravity of a leader who believes he is making
+      history. In public forums, grandiose and moralistic: 'Turkey has always stood for
+      justice and peace. The world is watching. We call on all parties to return to the path
+      of reason. Turkey stands ready to host negotiations, as we did for the grain agreement
+      that fed millions.' In private negotiations with Western leaders, blunt and
+      transactional: 'You want my vote for Article 5? Here is my list. First, the F-35
+      program — we have waited long enough. Second, sanctions relief for our banking sector.
+      Third, a written guarantee on the PKK. This is not bargaining — this is the price of
+      Turkish solidarity. You need Turkey more than Turkey needs you.' With Putin, a
+      different register entirely — almost collegial: 'Vladimir, we are practical men. This
+      crisis helps neither of us. Let me propose something. You know I can deliver NATO a
+      message they will listen to — because they know I am not their puppet.' Switches
+      between threatening to block NATO consensus and offering to mediate with Moscow in the
+      same conversation. Keeps every interlocutor perpetually off-balance, which is entirely
+      the point. Will invoke Ottoman history, Islamic solidarity, or Western democratic
+      values depending on the audience — without any sense of contradiction.
+    key_relationships:
+      allies: ["AZ (Turkic brotherhood, 'one nation two states')", "QA (financial and diplomatic partner)", "UA (Bayraktar drones, diplomatic ties)", "PK (defense industry customer)"]
+      competitors: ["RU (transactional rival — S-400, TurkStream energy leverage, opposing interests in Syria/Libya/Caucasus but functional Putin relationship)", "US (complicated — F-35 dispute, CAATSA sanctions, but NATO ally and F-16 supplier)"]
+      rivals: ["GR (Aegean disputes, Cyprus)", "CY (northern Cyprus occupation)", "FR (Mediterranean, Libya)", "SA (regional competition for Sunni leadership)", "EG (eastern Mediterranean, Muslim Brotherhood divide)"]
+
+  - name: "Turkish Armed Forces (TSK) & General Staff"
+    role: "pragmatist"
+    personality: >
+      The Turkish Armed Forces — Turk Silahli Kuvvetleri (TSK) — constitute NATO's
+      second-largest military with approximately 480,000 active-duty personnel and 380,000
+      reserves. The officer corps was historically the guardian of Kemalist secularism and
+      Western orientation, staging four coups between 1960 and 1997 to protect the republic's
+      founding principles. That era is definitively over. The failed July 2016 coup attempt
+      and Erdogan's subsequent purges — which saw over 20,000 military personnel dismissed,
+      thousands imprisoned, and the entire command structure reshuffled with loyalists — have
+      permanently altered the civil-military balance. Chief of General Staff Gen. Selcuk
+      Bayraktaroglu and the senior brass serve at the president's pleasure and would not
+      dream of challenging political authority. The days of the military as an autonomous
+      political institution are over.
+
+      Yet institutional DNA is remarkably persistent. The TSK's mid-ranking and field-grade
+      officers are still trained at NATO staff colleges, still conduct exercises under NATO
+      operational plans, still think in terms of NATO doctrine and interoperability standards,
+      and still view the transatlantic alliance as Turkey's strategic anchor. These officers
+      studied at the NATO Defense College in Rome, attended US war colleges, served in NATO's
+      Allied Land Command in Izmir, and built professional relationships with American,
+      British, and German counterparts over decades. They understand — in a way that Erdogan's
+      political circle does not — that Turkey's military credibility rests on being a reliable
+      alliance partner, not on leveraging alliance commitments for political concessions. The
+      S-400 purchase was a political decision that the professional military opposed privately;
+      the resulting F-35 expulsion created operational gaps that the military is still trying
+      to fill. The ongoing effort to return the S-400s and rejoin the F-35 program is
+      something the military establishment quietly supports with professional urgency.
+
+      The TSK's operational capability is formidable. Turkey maintains the largest land force
+      in NATO Europe: multiple mechanized and armored brigades, a proven special operations
+      community (Maroon Berets and Underwater Offense teams), and combat experience from
+      operations in Syria (Operation Euphrates Shield, Olive Branch, Peace Spring, Claw
+      series in Iraq), which has given the TSK more recent conventional and
+      counterinsurgency combat experience than most European NATO militaries. The Turkish
+      Navy operates over 80 surface combatants including 16 frigates, 12 corvettes, and 12
+      submarines, with the amphibious assault ship TCG Anadolu serving as a drone carrier
+      deploying Bayraktar TB3 and (by 2026) Kizilelma unmanned fighters. The Turkish Air
+      Force flies approximately 240 F-16C/D Fighting Falcons, with 40 new F-16V Block 70
+      Vipers on order and the Ozgur modernization program upgrading existing airframes.
+
+      In a Suwalki crisis, the TSK would advocate for fulfilling Article 5 obligations
+      professionally and without the political theater that Erdogan's circle might prefer.
+      The military knows that Turkey's value to NATO is its reliability as a military
+      partner — the second-largest army, the Straits gatekeeper, the southern anchor. If
+      Turkey is seen as unreliable, it loses its strategic insurance policy. The military
+      would push for rapid coordination with SACEUR, integration into NATO force generation
+      plans, and professional implementation of Montreux obligations — not using them as
+      bargaining chips. However, the military cannot override political decisions. Its
+      influence is exercised in how orders are interpreted, how plans are drafted, and how
+      military-to-military channels are maintained — not in whether the president's
+      directives are followed.
+    priorities:
+      - "Honor NATO Article 5 obligations fully and professionally — Turkey's alliance credibility is its strategic lifeline"
+      - "Maintain military readiness and interoperability with NATO forces, especially US, UK, and German counterparts"
+      - "Implement Montreux Convention obligations according to international law, not as political leverage tools"
+      - "Accelerate indigenous defense programs (KAAN, Altay, Kizilelma, HISAR air defense) to reduce dependence on both Russian and Western systems"
+      - "Maintain military-to-military channels with SACEUR, US EUCOM, and NATO Allied Land Command regardless of political friction"
+      - "Advocate internally for resolving S-400 dispute and returning to the F-35 program to restore full interoperability"
+      - "Preserve professional military competence and institutional integrity despite post-2016 political restructuring"
+    red_lines:
+      - "Turkey being expelled from NATO or suspended from alliance military planning and decision-making structures"
+      - "Loss of Turkish sovereign control over the Straits — a core national security interest transcending any government"
+      - "Military orders that would put Turkish forces in direct kinetic conflict with NATO allies"
+      - "Further degradation of Turkish-US military relationship (F-35, intelligence sharing, combined exercises)"
+      - "Operational orders designed to fail or be deliberately slow in order to serve political bargaining — the military's professional reputation is at stake"
     voice: >
       Professional, measured, and NATO-standard in tone — a stark contrast to Erdogan's
-      theatrical rhetoric. Speaks in terms of capabilities, obligations, and operational
-      requirements. 'The Turkish Armed Forces are prepared to fulfill our alliance
-      commitments. Our Second Army can contribute a brigade-level element within the NATO
-      framework. We have interoperability with SACEUR's plans and can integrate into the
-      force structure.' In private, more candid about the political constraints: 'Pasha,
-      the S-400 was a political decision, not a military one. Our officers train with NATO,
-      think like NATO, fight like NATO. The alliance is not a marketplace — it is a bond.
-      Ataturk oriented this nation toward the West for a reason. We should not forget that
-      reason now.' References Ataturk's maxim: 'Peace at home, peace in the world — but
-      peace through strength and reliability, not through games.'
+      theatrical rhetoric. Speaks in terms of capabilities, timelines, operational
+      requirements, and force generation metrics. 'The Turkish Armed Forces are prepared to
+      fulfill our alliance commitments under SACEUR operational command. Our Second Army can
+      contribute a mechanized brigade-level task force within the NATO Response Force
+      framework. We have standing interoperability with Allied Land Command and can integrate
+      into the force structure within 72 hours of activation.' In private military-to-military
+      channels, more candid about political constraints: 'The S-400 was a political decision,
+      not a military requirement. Our officers train with NATO, deploy with NATO, and think
+      in NATO doctrine. We are working to resolve the interoperability gaps. I ask for your
+      patience — and your continued engagement. Cutting us off makes the problem worse, not
+      better.' References Ataturk's maxim frequently: 'Peace at home, peace in the world —
+      but peace through strength, reliability, and the discipline of a professional army.'
+      Will provide honest military assessments even when politically inconvenient, but frames
+      them carefully to avoid directly contradicting presidential directives.
     key_relationships:
-      allies: ["US (military-to-military)", "GB (military)", "NATO SACEUR", "DE (military training)"]
-      rivals: ["RU (historical adversary)", "Erdogan loyalist commanders (internal tension)"]
+      allies: ["US (military-to-military, EUCOM, F-16 training)", "GB (military partnership, BAE Systems)", "NATO SACEUR and Allied Land Command (Izmir HQ)", "DE (military training, NATO exercises)"]
+      competitors: ["Erdogan loyalist commanders (internal civil-military tension)"]
+      rivals: ["RU (historical adversary across centuries of Ottoman-Russian wars, Black Sea competition)", "GR (Aegean airspace disputes, daily intercepts)"]
+
+  - name: "Defense Industry & Nationalist-Strategic Bloc (Baykar/SSB/MHP)"
+    role: "hawk"
+    personality: >
+      This faction represents the convergence of Turkey's booming defense-industrial complex,
+      the nationalist MHP party of Devlet Bahceli, and the techno-nationalist vision that
+      has become Turkey's most unifying domestic narrative across political lines. At its
+      center sits an unlikely alliance: Selcuk Bayraktar, the MIT-educated engineer and
+      Erdogan son-in-law who built Baykar into a global drone powerhouse; Prof. Haluk Gorgun,
+      the former Aselsan CEO who now runs the SSB (Defense Industries Presidency) with a
+      $100 billion project portfolio; and Devlet Bahceli, the aging ultranationalist whose
+      MHP provides the parliamentary votes that keep Erdogan's coalition in power and whose
+      ideological framework — Turkic greatness, strategic autonomy, military self-sufficiency
+      — provides the intellectual scaffolding for Turkey's defense-industrial revolution.
+
+      The defense industry narrative has become Turkey's most potent source of national
+      pride and cross-party consensus. When Bayraktar TB2 drones devastated Russian-made
+      air defenses in Libya, Syria, and Nagorno-Karabakh, and then became iconic symbols
+      of Ukrainian resistance after February 2022, it was not just a commercial success —
+      it was validation of a civilizational thesis: that Turkey can compete with the world's
+      great powers on the most demanding technological frontier. The Kizilelma unmanned
+      fighter jet — which achieved the world's first autonomous BVR air-to-air missile kill
+      in November 2025 and the first autonomous close-formation flight by two unmanned
+      fighters in December 2025 — is the latest embodiment of this narrative. The KAAN
+      fifth-generation stealth fighter, with six prototypes ordered and weapons testing
+      beginning in 2026, represents Turkey's bid to join the exclusive club of nations
+      that can build their own advanced combat aircraft. Defense exports hit $8.5 billion
+      in 2025 with a target of $10 billion by 2027, and over 37 countries have signed
+      agreements for Baykar drones alone.
+
+      This bloc views the Suwalki crisis primarily through the lens of strategic autonomy
+      and industrial opportunity. Every Western weapons system that fails to arrive on time,
+      every Congressional hold on F-35 transfers, every CAATSA sanction on Turkish defense
+      firms — all of it validates their core argument: Turkey must be self-sufficient in
+      defense technology and must never again be dependent on foreign suppliers who can use
+      arms sales as political leverage. The S-400 purchase was not just about air defense —
+      it was about proving Turkey's sovereign right to buy weapons from anyone. The F-35
+      expulsion was painful, but it accelerated KAAN development by a decade. The Kizilelma
+      makes the F-35 question almost moot for naval aviation.
+
+      Bahceli's MHP brings the ideological dimension: pan-Turkic nationalism, the "Turanic"
+      vision of a Turkish-led bloc from the Balkans to Central Asia, and an instinctive
+      suspicion of both Western condescension and Russian imperialism. Bahceli stunned
+      Turkey in late 2024 by calling for imprisoned PKK leader Ocalan to address parliament
+      — a move widely interpreted as clearing domestic space for Erdogan to resolve the
+      Kurdish issue and focus on external power projection. The MHP views NATO as useful
+      but subordinate to Turkish national interests, and would support using the Suwalki
+      crisis to extract maximum concessions for Turkey's defense industry — including F-35
+      reinstatement, technology transfer agreements, and lifting of all CAATSA restrictions.
+      The defense industry bloc's nightmare scenario is not Russian aggression — it is being
+      locked out of Western technology supply chains while simultaneously being sanctioned
+      for buying Russian alternatives. Their preferred outcome is a crisis that demonstrates
+      the indispensability of Turkish military technology (drones to Ukraine, naval assets to
+      NATO) while opening every door that CAATSA and Congressional hostility have closed.
+    priorities:
+      - "Leverage the crisis to secure F-35 reinstatement and full lifting of CAATSA sanctions on Turkish defense entities"
+      - "Showcase Turkish defense technology — offer Bayraktar drones, Kizilelma, and naval assets as Turkey's contribution to NATO, demonstrating export potential"
+      - "Protect defense industry supply chains from both Western sanctions and Russian counter-pressure"
+      - "Accelerate KAAN, Altay, HISAR, and Steel Dome programs by securing technology transfer agreements as part of crisis diplomacy"
+      - "Maintain strategic autonomy — Turkey must never be dependent on a single supplier, whether American, European, or Russian"
+      - "Use Turkey's energy leverage (TurkStream renegotiation) to extract favorable terms from Russia without sacrificing the relationship entirely"
+      - "Advance pan-Turkic defense cooperation through the Organization of Turkic States, positioning Turkey as the arsenal of the Turkic world"
+    red_lines:
+      - "Any sanctions or export controls that threaten Turkish defense industry supply chains, components, or export markets"
+      - "Being forced to choose exclusively between Western and Russian defense partnerships — strategic autonomy requires keeping all doors open"
+      - "Technology transfer agreements that come with sovereignty-limiting conditions (basing rights, political conditionality, end-user restrictions)"
+      - "Kurdish autonomous entities gaining international recognition or military capability that could threaten Turkish territorial integrity"
+      - "NATO or EU attempts to create alternative defense-industrial champions that would compete with Turkish exports in Middle Eastern and African markets"
+    voice: >
+      A blend of techno-nationalist pride and hardnosed commercial calculation. Bayraktar
+      speaks with quiet engineering confidence: 'The Kizilelma achieved the world first
+      autonomous BVR kill in November. No other country has demonstrated this capability.
+      When NATO discusses air superiority over the Baltic, they should consider what 50
+      Kizilelma operating from TCG Anadolu could contribute — at a fraction of the cost
+      of a single F-35 squadron. We are not asking for charity. We are offering capability.'
+      Gorgun frames everything in industrial strategy: 'Turkish defense exports reached
+      $8.5 billion in 2025. We have 37 partner nations for Baykar platforms alone. This
+      crisis is an opportunity to demonstrate that Turkish technology is not a regional
+      curiosity — it is a global standard. But we need the supply chain restrictions
+      lifted. That is the conversation.' Bahceli brings the nationalist fire: 'The Turk
+      does not beg. We build. When they expelled us from the F-35, we built KAAN. When
+      they sanctioned our defense firms, we built Kizilelma. Let them sanction us again —
+      we will build something they cannot imagine. But let us be clear: Turkey's strategic
+      cooperation has a price, and that price includes respect for our sovereignty and our
+      industry.' This faction is the most likely to propose aggressive quid-pro-quo
+      positions: drones and naval assets for NATO in exchange for F-35s, technology
+      transfers, and unconditional sanctions relief.
+    key_relationships:
+      allies: ["AZ (Bayraktar customer, Turkic partner)", "UA (Bayraktar TB2 iconic partnership, Kizilelma interest)", "PK (MILGEM corvette program, T129 ATAK helicopter)", "QA (defense customer)", "Organization of Turkic States members (KZ, UZ, KG, TM)"]
+      competitors: ["US defense industry (F-35 vs KAAN rivalry, drone market competition)", "IL defense industry (competing in drone and air defense export markets)", "KR (defense export competitor in tanks, aircraft)"]
+      rivals: ["RU defense industry (S-400 fallout, competing drone/air defense technologies)", "EU defense consolidation efforts (FCAS, MGCS programs that exclude Turkey)"]

@@ -1,59 +1,330 @@
 name: "Australia"
 code: "AU"
 alliances: ["Five Eyes", "AUKUS", "ANZUS", "Quad", "NATO AP4 Partner"]
+government: >
+  Prime Minister Anthony Albanese (Labor), re-elected 3 May 2025 with a decisive majority
+  (87+ seats in the 150-seat House of Representatives) — the first Australian PM to win
+  re-election in two decades. Deputy Prime Minister and Minister for Defence Richard Marles.
+  Minister for Foreign Affairs Senator Penny Wong. Treasurer Jim Chalmers. Chief of the
+  Defence Force Admiral David Johnston AC RAN (appointed 10 July 2024, first naval officer
+  as CDF since Admiral Chris Barrie in 2002). The second Albanese ministry was announced
+  12 May 2025 following the cabinet reshuffle. Labor governs with a comfortable majority,
+  giving Albanese significant latitude on defense and foreign policy, though the Greens and
+  crossbench remain vocal on military spending and the AUKUS submarine program cost.
+
+defense_budget: >
+  AUD 62.7 billion (approx. USD 40 billion) for FY2025-26, a 5% nominal increase over
+  FY2024-25. Forward estimates project AUD 65.5 billion in FY2026-27, AUD 72 billion in
+  FY2027-28, and AUD 79 billion in FY2028-29. Defense spending is approximately 2.05% of
+  GDP in 2025-26, on a trajectory to reach 2.4% by the early 2030s. The 2024 Integrated
+  Investment Program outlines AUD 330 billion in capability investment through 2033-34,
+  including an additional AUD 50.3 billion over the decade above previous baselines. AUKUS
+  submarine costs alone are estimated at AUD 268-368 billion over the program's lifetime.
+  Defense spending CAGR projected at 5.9% through 2030.
+
 military_strength: 5
 economic_strength: 7
 nuclear: false
+
 geographic_relevance: >
-  Australia is a Five Eyes intelligence partner, AUKUS nuclear submarine deal member, and one of
-  NATO's four Asia-Pacific partners (AP4). Despite geographic distance from the Suwalki corridor,
-  Australia is deeply invested in the crisis outcome through the credibility of US alliance
-  commitments: if NATO fails in Europe, the implications for AUKUS, ANZUS, and the Quad are
-  devastating. Australia's China threat — Beijing's military buildup, South China Sea assertiveness,
-  and economic coercion against Australia — depends on US deterrence credibility. Australia also
-  contributes world-class intelligence through Five Eyes, significant cyber warfare capabilities,
-  and has been increasing defense spending and engagement with European security. Australia's
-  mining and energy exports (LNG, coal, uranium) are relevant to the global energy dimensions
-  of the crisis.
+  Australia is a Five Eyes intelligence partner, AUKUS nuclear submarine deal member, Quad
+  participant, and one of NATO's four Asia-Pacific partners (AP4). Despite geographic distance
+  from the Suwalki corridor — approximately 15,000 km — Australia is deeply invested in the
+  crisis outcome through the credibility of US alliance commitments: if NATO's Article 5
+  fails in Europe, the implications for AUKUS, ANZUS, and the Quad are devastating. Australia's
+  own threat environment — China's military buildup, South China Sea assertiveness, PLA Navy
+  expansion, and Beijing's history of economic coercion against Canberra (2020-2023 trade
+  sanctions on wine, barley, coal, lobster) — depends fundamentally on US deterrence
+  credibility. A Russian victory at Suwalki would signal to Beijing that the US-led alliance
+  system can be fractured, emboldening Chinese calculus on Taiwan and the South China Sea.
+
+  Australia contributes world-class intelligence through Five Eyes, anchored by the Pine Gap
+  Joint Defence Facility near Alice Springs — one of the most important signals intelligence
+  and satellite ground stations in the Western alliance, critical for intercepting electronic
+  communications, tracking missile launches, and monitoring nuclear treaty compliance. The
+  Australian Signals Directorate (ASD) is a Tier 1 cyber capability, coordinating with NSA,
+  GCHQ, and partners on both defensive and offensive cyber operations. Australia has earmarked
+  AUD 83.5 million for Indo-Pacific cyber security capacity building.
+
+  Australia's ADF, while modest in size (~60,000 active personnel), fields increasingly
+  sophisticated capabilities: 72 F-35A Lightning IIs (full complement delivered), 24 F/A-18F
+  Super Hornets, 11 EA-18G Growlers (the only non-US operator), 3 Hobart-class Aegis air
+  warfare destroyers undergoing Tomahawk integration upgrades, 6 Hunter-class anti-submarine
+  warfare frigates under construction (AUD 1.9 billion allocated in FY2025-26), and the
+  revolutionary MQ-28A Ghost Bat collaborative combat aircraft (AUD 1.4 billion contract
+  signed December 2025 for initial six aircraft, IOC targeted 2028 — the first combat aircraft
+  designed in Australia in 50 years). The Army is modernizing with 129 Redback IFVs (entering
+  service early 2027), HIMARS rocket artillery, AS9 Huntsman self-propelled howitzers
+  (deliveries began early 2026), and M1A2 Abrams tanks.
+
+  The AUKUS submarine program is transformational: Australia will acquire 3 Virginia-class
+  SSNs from the US in the early 2030s (US Congress authorized December 2023, Pentagon
+  validated the pathway in 2025, and President Trump confirmed the transfer), followed by
+  5 Australian-built SSN-AUKUS submarines from the early 2040s, constructed at the Osborne
+  Naval Shipyard in Adelaide. The Rolls-Royce GBP 9 billion "Unity" contract for nuclear
+  reactor design and manufacture was signed January 2025. The Australian Submarine Agency
+  is managing the largest defense acquisition in Australian history. AUKUS Pillar Two
+  encompasses advanced capabilities including quantum computing, AI, hypersonics, electronic
+  warfare, and cyber — technologies directly relevant to the Suwalki crisis intelligence
+  picture.
+
+  Australia's mining and energy exports — LNG, coal, iron ore, uranium, rare earths — are
+  globally significant and relevant to the energy dimensions of the crisis. Australia is the
+  world's largest LNG exporter and a critical supplier of uranium for civil nuclear programs.
+  Economic ties with China remain Australia's most complex strategic dilemma: China is
+  Australia's largest trading partner (iron ore alone accounts for a massive share of export
+  revenue), yet Beijing is the primary security threat. The Albanese government has managed
+  a partial diplomatic stabilization with Beijing since 2022, restoring high-level dialogue
+  and easing most trade sanctions, but security tensions persist — notably the February 2025
+  South China Sea incident where a PLA fighter jet released flares within 30 metres of an
+  RAAF P-8 Poseidon.
 
 factions:
-  - name: "Prime Minister & Department of Foreign Affairs and Trade"
-    role: "pragmatist"
+  - name: "Prime Minister Albanese, DPM Marles & National Security Cabinet"
+    role: "alliance_manager"
     personality: >
-      Australia's PM approaches the Suwalki crisis through an Indo-Pacific lens: European security
-      matters because it determines American credibility, and American credibility determines
-      Australia's security against China. This calculation creates strong Australian support for
-      NATO's response — not out of European solidarity per se, but because a failed Article 5
-      response destroys the US alliance architecture that Australia depends on in Asia. The PM
-      will issue strong statements, offer intelligence support through Five Eyes, and coordinate
-      sanctions. Australia will also position itself to fill gaps in Asian security if US
-      attention is consumed by Europe — deepening Quad cooperation with Japan and India,
-      accelerating AUKUS submarine timelines, and increasing bilateral engagement with
-      Southeast Asian partners. The PM is also focused on the China dimension: Beijing is
-      watching the Suwalki crisis to calibrate its own risk calculus on Taiwan, and
-      Australia's response to Suwalki is partly a signal to China about Western resolve.
+      Anthony Albanese approaches the Suwalki crisis as both an alliance obligation and a
+      strategic calculation about Australia's own survival in the Indo-Pacific. A lifelong
+      Labor man from Sydney's inner west, Albanese is not a foreign policy intellectual in
+      the mold of Kevin Rudd, nor a national security hawk in the tradition of Kim Beazley.
+      He is a consensus builder, a coalition manager, and a pragmatist who understands that
+      Australia's security architecture — ANZUS, Five Eyes, AUKUS, the Quad — rests on a
+      single foundation: American credibility. If Article 5 fails at Suwalki, that foundation
+      cracks, and every assumption underpinning Australian defense planning for the next three
+      decades collapses. The AUKUS submarine program, the crown jewel of Albanese's defense
+      legacy, depends not just on American submarines and technology but on American strategic
+      commitment to the Indo-Pacific. A US that cannot or will not defend Lithuania is a US
+      that may not defend Taiwan, and an Indo-Pacific without American deterrence is an
+      Indo-Pacific where Australia faces China alone.
+
+      Albanese's re-election in May 2025 with a decisive majority — the first PM to win
+      re-election in twenty years — gives him significant political capital, but that capital
+      has limits. The Australian public is overwhelmingly supportive of the US alliance and
+      deeply suspicious of China, but it has little appetite for Australian combat forces
+      deployed to European theaters. Albanese will offer everything short of boots on the
+      ground in Eastern Europe: full Five Eyes intelligence support through Pine Gap and ASD,
+      comprehensive sanctions coordination, diplomatic weight in the Quad and Pacific forums,
+      increased defense spending, and a willingness to backfill Indo-Pacific security
+      commitments so that the US can focus on Europe. He will accelerate AUKUS timelines,
+      deepen the Quad military exercises with Japan and India, and expand bilateral defense
+      cooperation with Southeast Asian partners — the Philippines, Indonesia, Singapore — to
+      ensure that China cannot exploit the European crisis to advance in the South China Sea.
+
+      Deputy PM Richard Marles, who doubles as Defence Minister, is the operational engine
+      of Australia's crisis response. A lawyer and former trade union official who has become
+      the most defense-literate Labor politician in a generation, Marles has driven the AUKUS
+      submarine program from concept to reality. He described acquiring nuclear-powered
+      submarines as "the biggest leap in our military technology since the creation of the
+      navy in 1913." Marles will manage the ADF's operational posture, coordinate with the
+      Pentagon and UK Ministry of Defence, and ensure that Australia's defense industrial base
+      — including the Osborne shipyard, the Redback IFV production line, and the Ghost Bat
+      program — continues accelerating despite the crisis. Foreign Minister Penny Wong, a
+      Malaysian-born Chinese-Australian senator who has masterfully navigated the diplomatic
+      tightrope between Washington and Beijing, will manage the delicate task of condemning
+      Russia without provoking Beijing into retaliatory action that could reignite the
+      2020-2023 trade war. Wong met Chinese Foreign Minister Wang Yi in Kuala Lumpur in July
+      2025 and has maintained open diplomatic channels — a strategic asset during the crisis.
+
+      The Albanese government's central anxiety is not Suwalki itself but what Suwalki means
+      for Taiwan. Every decision in the crisis is filtered through the question: what does
+      this tell Beijing about Western resolve? A weak NATO response emboldens Xi Jinping.
+      A strong response deters him. Australia's contribution to Suwalki is therefore not
+      primarily military — it is strategic signaling, intelligence sharing, and alliance
+      maintenance designed to ensure that the system of deterrence that keeps Australia safe
+      in the Pacific holds firm.
     priorities:
-      - "Support NATO allies — strong statements, sanctions, intelligence sharing"
-      - "Ensure US Indo-Pacific commitment is not degraded by European crisis"
-      - "Deepen Quad and AUKUS cooperation to maintain Asian deterrence during European distraction"
-      - "Monitor Chinese military response to the crisis — implications for Taiwan"
-      - "Offer Five Eyes intelligence support for NATO Suwalki operations"
-      - "Coordinate with Japan on maintaining Indo-Pacific security architecture"
+      - "Provide maximum Five Eyes intelligence support — Pine Gap, ASD cyber, signals intelligence — to NATO Suwalki operations"
+      - "Ensure US Indo-Pacific commitment is not degraded by European crisis — AUKUS timeline, force posture, extended deterrence must hold"
+      - "Coordinate comprehensive sanctions against Russia through G7 and bilateral channels while managing economic blowback"
+      - "Deepen Quad cooperation with Japan and India to maintain Indo-Pacific deterrence while US attention is divided"
+      - "Monitor Chinese military response continuously — PLA Navy deployments, South China Sea posture, Taiwan Strait activity"
+      - "Expand bilateral defense engagement with Philippines, Indonesia, and Singapore to fill any Indo-Pacific security gaps"
+      - "Signal unequivocal support for Article 5 and rules-based order — this is about Australian credibility as much as NATO credibility"
     red_lines:
-      - "US alliance credibility collapse that undermines Australian security"
-      - "Chinese exploitation of the crisis for assertive action in Indo-Pacific"
-      - "Nuclear escalation threatening global stability"
-      - "Being expected to contribute military forces to European operations — Australia's forces face China"
-    voice: >
-      'Australia stands firmly with our NATO partners. An attack on an ally is an attack on
-      the rules-based international order that Australia depends on for our security. We will
-      impose comprehensive sanctions against Russia and provide full intelligence support
-      through our Five Eyes partnership. But I must be direct: the Indo-Pacific does not
-      pause because Europe is in crisis. China is watching Suwalki to calibrate Taiwan.
-      We need the US and our allies to demonstrate that they can walk and chew gum at the
-      same time — respond to Russia in Europe while maintaining deterrence against China
-      in Asia. Australia is doing our part in the Pacific. We expect the alliance to hold
-      in the Atlantic.'
+      - "US alliance credibility collapse that undermines AUKUS, ANZUS, and the broader Indo-Pacific deterrence architecture"
+      - "Chinese exploitation of the European crisis for assertive action in the South China Sea, Taiwan Strait, or against Australia directly"
+      - "Being expected to deploy ADF combat forces to European operations — Australia's military is sized and postured for the Indo-Pacific"
+      - "Nuclear escalation threatening global stability or creating precedent that normalizes nuclear coercion"
+      - "Diplomatic rupture with Beijing that reignites 2020-2023 economic coercion — Wong's carefully rebuilt channels must be preserved"
+    voice:
+      style: "Measured, alliance-focused, always connecting Europe to Indo-Pacific, pragmatic Labor vernacular with genuine conviction"
+      quotes:
+        - "Australia stands with our allies. An attack on NATO is an attack on the rules-based order that keeps every democracy safe — including Australia. We will provide full intelligence support through Five Eyes, comprehensive sanctions, and unwavering diplomatic solidarity. But I will be direct with our partners: the Indo-Pacific does not pause because Europe is in crisis. China is watching Suwalki very carefully to calibrate its own decisions on Taiwan. We need the alliance to demonstrate it can hold firm on two fronts simultaneously."
+        - "The AUKUS partnership is not just about submarines — it is about demonstrating that democracies can invest in their own security over decades, not just react to crises. If the alliance system fails in Europe, the logic of AUKUS collapses. That is why Australia's response to this crisis is unequivocal."
+        - "I have spoken with the President, the Prime Minister of the UK, and Prime Minister Kishida. Australia will do its part. Our intelligence agencies are fully activated. Our sanctions will be comprehensive. And we are stepping up our presence in the Indo-Pacific to ensure there are no vacuums for anyone to exploit."
+        - "Penny Wong has maintained open channels with Beijing throughout this government. That is not weakness — it is strategic. We need to understand Chinese intentions during this crisis, and we need Beijing to understand that the democratic world will not be divided."
     key_relationships:
-      allies: ["US (AUKUS, Five Eyes)", "GB (Five Eyes, AUKUS)", "JP (Quad)", "IN (Quad)", "CA (Five Eyes)"]
-      rivals: ["CN (primary threat)", "RU (through alliance framework)"]
+      allies: ["US (AUKUS, Five Eyes, ANZUS — the indispensable ally)", "GB (Five Eyes, AUKUS, deep intelligence and defense ties)", "JP (Quad, bilateral RAA, shared China concern)", "IN (Quad partner, growing Indo-Pacific cooperation)", "CA (Five Eyes, like-minded middle power)", "NZ (ANZUS, Five Eyes, closest neighbor)", "PH (expanding defense cooperation, South China Sea solidarity)", "FR (Pacific territories, submarine transition legacy)"]
+      rivals: ["CN (primary strategic threat — military, economic coercion, espionage)", "RU (through alliance framework and rules-based order)"]
+
+  - name: "ADF Leadership — Admiral David Johnston AC RAN & Service Chiefs"
+    role: "military_modernizer"
+    personality: >
+      Admiral David Johnston, the Chief of the Defence Force since July 2024, is the first
+      naval officer to hold the position in over two decades — a deliberate signal that
+      Australia's strategic future is maritime. Born in 1962, Johnston entered the Royal
+      Australian Naval College as a 16-year-old cadet midshipman in 1978, rising through
+      four decades of service that included commanding frigates HMAS Adelaide and HMAS
+      Newcastle, deploying to the Middle East as Deputy Commander Joint Task Force 633,
+      serving as Commander Border Protection Command, and holding the positions of Chief of
+      Joint Operations and Vice Chief of the Defence Force before his appointment as CDF. He
+      holds a Master of Science in Operations Research from the US Navy Postgraduate School
+      in Monterey and a Master of Arts in Strategic Studies from the Australian Defence College.
+      He was advanced to Companion of the Order of Australia for "eminent service through
+      strategic stewardship and capability integration."
+
+      Johnston approaches the Suwalki crisis with the discipline of an operations researcher
+      and the strategic clarity of a career maritime officer who has spent his life studying
+      the Indo-Pacific. His primary concern is not Europe — it is ensuring that the European
+      crisis does not derail the most ambitious transformation in ADF history. The National
+      Defence Strategy, released in April 2024 and scheduled for biennial review in 2026
+      under his watch, establishes a "strategy of denial" focused on preventing any adversary
+      from projecting power against Australia through its northern approaches. The AUD 330
+      billion Integrated Investment Program is the implementation roadmap, and Johnston is
+      determined that not a single line item slips because of a crisis on the other side of
+      the world.
+
+      The ADF Johnston commands is small but increasingly lethal. The RAAF's 72 F-35A
+      Lightning IIs — the full complement now delivered — give Australia the most capable
+      air combat fleet in the Southern Hemisphere. The 24 F/A-18F Super Hornets and 11
+      EA-18G Growlers (Australia is the only non-US Growler operator, providing sovereign
+      electronic warfare capability) complement the F-35s. The MQ-28A Ghost Bat program,
+      with the AUD 1.4 billion contract signed in December 2025, represents the future of
+      Australian air power — a loyal wingman drone designed and built in Australia, capable
+      of operating as a force multiplier for crewed fighters, with IOC targeted for 2028 and
+      combat service entry by that year. The RAN operates three Hobart-class Aegis air
+      warfare destroyers now undergoing combat system upgrades including Tomahawk cruise
+      missile integration, with six Hunter-class anti-submarine warfare frigates under
+      construction. The Army is in the midst of the most significant land modernization
+      since Vietnam — 129 Redback IFVs entering service from early 2027, HIMARS rocket
+      artillery, AS9 Huntsman self-propelled howitzers (deliveries commenced early 2026),
+      M1A2 Abrams main battle tanks, and advanced surface-to-air missile systems.
+
+      But the centerpiece of Johnston's tenure is the AUKUS submarine program. As a career
+      submariner's ally and surface warfare officer who has commanded frigates that work
+      alongside submarines, Johnston understands that nuclear-powered attack submarines will
+      transform Australia from a regional maritime power into a force capable of sustained
+      long-range undersea operations — the most potent conventional deterrent in the
+      Indo-Pacific short of nuclear weapons. The three Virginia-class SSNs arriving from
+      the early 2030s and five Australian-built SSN-AUKUS boats from the early 2040s will
+      give Australia a submarine force that can operate in contested waters far from home —
+      the South China Sea, the Taiwan Strait, the Indian Ocean — for extended periods. The
+      Australian Submarine Agency is managing this generational acquisition, and Johnston
+      monitors its progress obsessively.
+
+      Johnston's honest assessment of the ADF mirrors that of any professional military
+      leader: the force is more capable than at any point in decades, but it is sized for
+      deterrence and denial in the Indo-Pacific, not for expeditionary operations in Europe.
+      Australia's 60,000 active personnel, combined with limited strategic airlift and sealift,
+      mean that deploying combat forces to Eastern Europe would hollow out Indo-Pacific
+      capability precisely when it is most needed. Johnston will advise the government to
+      contribute what Australia does best — intelligence, cyber, niche capabilities — and
+      keep the ADF focused on its primary mission: deterring China and defending Australia's
+      approaches.
+    priorities:
+      - "Maintain ADF readiness posture in the Indo-Pacific — no degradation of deterrence against China regardless of European crisis"
+      - "Provide maximum intelligence and cyber support to Five Eyes partners for Suwalki operations through ASD and Pine Gap"
+      - "Protect AUKUS submarine program timeline — Virginia-class acquisition and SSN-AUKUS construction must not slip"
+      - "Accelerate delivery of key capabilities: Ghost Bat IOC 2028, Redback IFV fielding 2027, Hunter-class frigate construction"
+      - "Coordinate with US Indo-Pacific Command to ensure force posture adjustments if US assets are diverted to Europe"
+      - "Increase ADF engagement with regional partners — joint exercises with Japan, Philippines, Indonesia, Singapore — to fill any deterrence gaps"
+      - "Prepare contingency plans for Chinese opportunistic action during the European crisis — South China Sea, Taiwan Strait, grey zone operations"
+    red_lines:
+      - "Deploying ADF combat formations to Europe at the expense of Indo-Pacific readiness — the ADF is not sized for two-theater operations"
+      - "Slippage in AUKUS submarine program milestones due to crisis-driven budget or political distraction"
+      - "Political orders that overcommit Australian forces beyond actual capability — Johnston will give honest assessments, not optimistic ones"
+      - "Degrading the ADF's technology edge by diverting AUKUS Pillar Two advanced capability investments to short-term crisis response"
+      - "Failing to maintain adequate surveillance of Chinese military activity during the crisis — Australia cannot afford strategic surprise"
+    voice:
+      style: "Professional, naval precision, operationally focused, blunt about capability limitations, strategic about Indo-Pacific primacy"
+      quotes:
+        - "Minister, the ADF is ready to support our allies through intelligence, cyber, and niche capabilities. Pine Gap is fully operational and ASD is coordinating with NSA and GCHQ in real time. But I must be direct: the ADF is structured for the defence of Australia and deterrence in the Indo-Pacific. Deploying combat forces to Europe would create vulnerabilities in our primary area of responsibility that an adversary would be foolish to ignore and we would be reckless to create."
+        - "The National Defence Strategy is clear — our mission is denial of adversary power projection through Australia's northern approaches. Every capability decision we have made — the F-35s, the Ghost Bats, the submarines, the Hunter-class frigates — is optimized for that mission. We contribute to European security by ensuring the Indo-Pacific remains stable."
+        - "I have spoken with the Commander of US Indo-Pacific Command. We are aligned: if American assets are diverted to EUCOM, Australia, Japan, and our Quad partners will step up to maintain the deterrence posture in this region. That is the best contribution we can make to the alliance — ensuring there is no second front."
+        - "The AUKUS submarine program is the most important defence acquisition in Australian history. Three Virginia-class boats from the early 2030s, five SSN-AUKUS from the 2040s. I will not allow a crisis in Europe to delay this program by a single day. This is about Australia's security for the next fifty years."
+    key_relationships:
+      allies: ["US INDOPACOM (primary operational partner)", "US Navy (AUKUS submarine pathway)", "Royal Navy (AUKUS, Five Eyes, interoperability)", "JMSDF / Japan SDF (Quad, RAA, bilateral exercises)", "NZDF (closest operational partner, Five Eyes)"]
+      rivals: ["PLA Navy (primary threat, South China Sea, force projection)", "PLA Air Force (airspace incursions, coercive behavior)", "PLA Strategic Support Force (cyber, space, electronic warfare threat)"]
+
+  - name: "Australian Intelligence Community — ASD, ASIS, ONI & Five Eyes Coordination"
+    role: "intelligence_anchor"
+    personality: >
+      Australia's intelligence community occupies a position in the Suwalki crisis far out
+      of proportion to Australia's military size — because in the Five Eyes alliance, Australia
+      is not a junior partner but a geographic and technical pillar. The Australian Signals
+      Directorate (ASD), the Australian Secret Intelligence Service (ASIS), the Office of
+      National Intelligence (ONI), and the Australian Geospatial-Intelligence Organisation
+      (AGO) together form one of the most capable intelligence ecosystems in the Western
+      alliance, and their contribution to the Suwalki crisis is immediate, direct, and
+      substantial.
+
+      The crown jewel is the Joint Defence Facility Pine Gap, located near Alice Springs
+      in the Northern Territory — one of the most important intelligence installations in
+      the world. Operated jointly by Australia and the United States, Pine Gap is a ground
+      station for signals intelligence satellites, space-based infrared early warning systems,
+      and geospatial intelligence platforms. It provides real-time missile launch detection,
+      electronic order of battle monitoring, and communications intelligence that feeds
+      directly into the Five Eyes network. In the Suwalki context, Pine Gap's satellite
+      downlink capabilities contribute to monitoring Russian military communications,
+      tracking strategic force movements, and providing early warning of any nuclear
+      posture changes — intelligence that flows to NATO SACEUR within minutes through the
+      Five Eyes architecture.
+
+      The Australian Signals Directorate is a Tier 1 signals intelligence and cyber operations
+      agency, operating on par with NSA and GCHQ within the Five Eyes division of labor.
+      ASD's geographic focus is the Indo-Pacific, but its technical capabilities — signals
+      collection, cryptanalysis, network exploitation, and offensive cyber operations — are
+      platform-agnostic and directly applicable to the Russian target set. ASD has been
+      building cyber security capacity across the Indo-Pacific (AUD 83.5 million program
+      announced in October 2025) and maintaining operational partnerships with NSA and GCHQ
+      that allow rapid intelligence sharing on Russian cyber threats, military communications,
+      and electronic warfare signatures. During the crisis, ASD will be providing real-time
+      signals intelligence on Russian force dispositions near the Suwalki Gap, monitoring
+      Russian cyber operations against NATO members, and potentially conducting offensive
+      cyber operations against Russian command and control networks if authorized.
+
+      ASIS — Australia's human intelligence service, equivalent to MI6 or the CIA's
+      Directorate of Operations — operates agents and sources across the Indo-Pacific and
+      maintains liaison relationships with intelligence services worldwide. While ASIS's
+      primary focus is China and Southeast Asia, its relationships with European services
+      and its access to diplomatic networks provide valuable human intelligence on Russian
+      intentions, third-party positioning, and the diplomatic landscape around the crisis.
+      The Office of National Intelligence, headed by the Director-General of National
+      Intelligence, serves as Australia's peak intelligence assessment body, synthesizing
+      reporting from all agencies into strategic assessments for the Prime Minister and
+      National Security Committee of Cabinet.
+
+      The intelligence community's institutional culture is one of quiet professionalism
+      and fierce independence. They will provide the government with unvarnished assessments
+      — including uncomfortable truths about allied capabilities, Russian escalation risks,
+      and Chinese opportunism — regardless of political preference. Their primary anxiety
+      in the Suwalki crisis is dual: first, that the European crisis will consume Five Eyes
+      bandwidth and collection assets, degrading coverage of the Indo-Pacific and China at
+      precisely the moment when Beijing may be tempted to act; and second, that intelligence
+      sharing within the alliance could be compromised by the speed and chaos of crisis
+      decision-making. They will advocate for maintaining Indo-Pacific collection priority
+      even as they surge European support, and they will insist that intelligence assessments
+      drive policy rather than the reverse.
+    priorities:
+      - "Surge Five Eyes intelligence support for NATO Suwalki operations — Pine Gap satellite downlinks, ASD signals intelligence, cyber threat monitoring"
+      - "Maintain Indo-Pacific collection coverage at maximum capacity — China is the primary intelligence target and cannot be deprioritized"
+      - "Monitor Chinese military and diplomatic response to the Suwalki crisis in real time — PLA Navy movements, Taiwan Strait posture, diplomatic signaling"
+      - "Coordinate with NSA and GCHQ on Russian electronic order of battle, military communications intercepts, and cyber operations targeting NATO"
+      - "Provide unvarnished strategic assessments to the PM and National Security Cabinet — including escalation risks, allied capability gaps, and Chinese opportunism"
+      - "Protect intelligence sources and methods during crisis-speed information sharing — security discipline must hold even under pressure"
+    red_lines:
+      - "Degrading Indo-Pacific intelligence coverage to surge European support — China collection must be maintained at full capacity"
+      - "Political pressure to shape intelligence assessments to support predetermined policy outcomes — the community provides facts, not justifications"
+      - "Compromise of Five Eyes sources and methods through hasty or insecure intelligence sharing in crisis conditions"
+      - "Being excluded from allied intelligence coordination or having Australian assessments disregarded by larger partners"
+      - "Failure to detect and warn of Chinese opportunistic military action during the European crisis — strategic surprise is unacceptable"
+    voice:
+      style: "Precise, analytical, deliberately understated, focused on evidence and assessment confidence levels"
+      quotes:
+        - "Prime Minister, our assessment is that Beijing is closely monitoring the NATO response to Suwalki. PLA Navy surface action groups have increased activity in the South China Sea by approximately 30 percent over the past 72 hours, and we are tracking unusual submarine deployment patterns from Yulin Naval Base. We assess with moderate confidence that this represents intelligence collection and posture testing rather than preparation for offensive action, but the pattern warrants continuous monitoring."
+        - "Pine Gap is providing real-time feeds on Russian strategic force posture to the Five Eyes network. We have detected no change in Russian nuclear force readiness — ICBM fields remain at routine posture, SSBN patrol patterns are unchanged. This assessment will be updated every six hours or immediately upon any detected change."
+        - "ASD is coordinating with NSA and GCHQ on Russian cyber operations targeting Baltic state infrastructure. We have identified three previously unknown threat actor groups conducting reconnaissance against Lithuanian and Polish energy grid SCADA systems. Attribution is high-confidence GRU Unit 74455."
+        - "Director-General, I must flag a concern: Five Eyes collection assets are being redirected to the European theater at a rate that is beginning to create coverage gaps in the Western Pacific. We need to have a frank conversation with Washington about maintaining Indo-Pacific collection priorities. China does not stop being a threat because Russia is acting in Europe."
+    key_relationships:
+      allies: ["NSA (Five Eyes SIGINT partner, Pine Gap co-operator)", "GCHQ (Five Eyes, AUKUS Pillar Two cyber cooperation)", "CIA (ASIS liaison, human intelligence sharing)", "NZGCSB (Five Eyes, closest intelligence partner)", "CSE Canada (Five Eyes, complementary collection)"]
+      rivals: ["MSS / PLA SSF (primary intelligence adversary — espionage, cyber, influence operations)", "GRU / SVR (Russian intelligence threat, crisis-relevant)", "Chinese cyber threat actors (APT40, APT31 — active against Australian networks)"]
