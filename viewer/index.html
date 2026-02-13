@@ -3,1720 +3,1603 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>WarGame Viewer - Suwalki Gap Crisis</title>
+<title>WarGame Production Viewer</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <style>
-/* ================================================================
-   CSS: Dark theme wargame viewer
-   ================================================================ */
-
+/* ============================================================
+   CSS VARIABLES & RESET
+   ============================================================ */
 :root {
-  --bg-primary: #0d1117;
-  --bg-secondary: #161b22;
-  --bg-tertiary: #21262d;
-  --bg-hover: #30363d;
-  --border: #30363d;
-  --border-light: #484f58;
-  --text-primary: #e6edf3;
-  --text-secondary: #8b949e;
-  --text-muted: #6e7681;
-  --accent-blue: #58a6ff;
-  --accent-green: #3fb950;
-  --accent-red: #f85149;
-  --accent-orange: #d29922;
-  --accent-purple: #bc8cff;
-  --accent-cyan: #39d2c0;
-  --accent-yellow: #e3b341;
-  --shadow: rgba(0, 0, 0, 0.4);
+  --bg-primary: #0a0e17;
+  --bg-secondary: #111827;
+  --bg-card: #1a2332;
+  --bg-card-hover: #1f2b3d;
+  --border: #2d3748;
+  --border-accent: #374151;
+  --text-primary: #e5e7eb;
+  --text-secondary: #9ca3af;
+  --text-muted: #6b7280;
+  --accent-blue: #3b82f6;
+  --accent-cyan: #06b6d4;
+  --accent-red: #ef4444;
+  --accent-orange: #f59e0b;
+  --accent-green: #10b981;
+  --accent-purple: #8b5cf6;
+  --sidebar-width: 260px;
+  --topbar-height: 56px;
+  --radius: 8px;
+  --shadow: 0 4px 24px rgba(0,0,0,0.3);
 }
 
-* {
+*, *::before, *::after {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-  background-color: var(--bg-primary);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  background: var(--bg-primary);
   color: var(--text-primary);
   line-height: 1.6;
-  min-height: 100vh;
+  overflow: hidden;
+  height: 100vh;
 }
 
-/* ---- Header ---- */
-
-.header {
-  background: linear-gradient(135deg, #1a1e2e 0%, #0d1117 100%);
-  border-bottom: 1px solid var(--border);
-  padding: 20px 24px;
+/* ============================================================
+   LAYOUT
+   ============================================================ */
+.app {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 16px;
+  height: 100vh;
 }
 
-.header-title {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-.header-title h1 {
-  font-size: 22px;
-  font-weight: 700;
-  color: var(--text-primary);
-  letter-spacing: 0.5px;
-}
-
-.header-title .subtitle {
-  font-size: 13px;
-  color: var(--text-secondary);
-  margin-top: 2px;
-}
-
-.header-badge {
-  background: var(--accent-red);
-  color: #fff;
-  font-size: 11px;
-  font-weight: 600;
-  padding: 3px 8px;
-  border-radius: 10px;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-}
-
-/* ---- Load Controls ---- */
-
-.load-controls {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 8px 16px;
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  background: var(--bg-tertiary);
-  color: var(--text-primary);
-  font-size: 13px;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.15s ease;
-}
-
-.btn:hover {
-  background: var(--bg-hover);
-  border-color: var(--border-light);
-}
-
-.btn-primary {
-  background: #1f6feb;
-  border-color: #1f6feb;
-  color: #fff;
-}
-
-.btn-primary:hover {
-  background: #388bfd;
-}
-
-.file-input-hidden {
-  display: none;
-}
-
-.loaded-info {
-  font-size: 12px;
-  color: var(--text-secondary);
-}
-
-/* ---- Layout ---- */
-
-.main-container {
-  display: flex;
-  min-height: calc(100vh - 80px);
-}
-
-/* ---- Round sidebar ---- */
-
-.round-sidebar {
-  width: 220px;
-  min-width: 220px;
+/* ============================================================
+   SIDEBAR
+   ============================================================ */
+.sidebar {
+  width: var(--sidebar-width);
   background: var(--bg-secondary);
   border-right: 1px solid var(--border);
-  padding: 16px 0;
-  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
 }
 
 .sidebar-header {
-  padding: 0 16px 12px;
-  font-size: 12px;
-  font-weight: 600;
-  color: var(--text-secondary);
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.round-tab {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 10px 16px;
-  cursor: pointer;
-  border-left: 3px solid transparent;
-  transition: all 0.15s ease;
-  font-size: 14px;
-}
-
-.round-tab:hover {
-  background: var(--bg-tertiary);
-}
-
-.round-tab.active {
-  background: var(--bg-tertiary);
-  border-left-color: var(--accent-blue);
-  color: var(--accent-blue);
-}
-
-.round-tab .round-num {
-  font-weight: 600;
-  min-width: 32px;
-}
-
-.round-tab .round-time {
-  font-size: 11px;
-  color: var(--text-muted);
-}
-
-/* ---- Content area ---- */
-
-.content-area {
-  flex: 1;
-  padding: 24px 32px;
-  overflow-y: auto;
-}
-
-/* ---- Empty state ---- */
-
-.empty-state {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 60vh;
-  text-align: center;
-  gap: 16px;
-}
-
-.empty-state .icon {
-  font-size: 64px;
-  opacity: 0.6;
-}
-
-.empty-state h2 {
-  font-size: 20px;
-  color: var(--text-secondary);
-}
-
-.empty-state p {
-  font-size: 14px;
-  color: var(--text-muted);
-  max-width: 400px;
-}
-
-/* ---- Sections ---- */
-
-.section {
-  margin-bottom: 24px;
-}
-
-.section-header {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 12px 16px;
-  background: var(--bg-secondary);
-  border: 1px solid var(--border);
-  border-radius: 8px 8px 0 0;
-  cursor: pointer;
-  user-select: none;
-  transition: background 0.15s;
-}
-
-.section-header:hover {
-  background: var(--bg-tertiary);
-}
-
-.section-header .toggle-icon {
-  font-size: 12px;
-  color: var(--text-muted);
-  transition: transform 0.2s;
-}
-
-.section-header.collapsed .toggle-icon {
-  transform: rotate(-90deg);
-}
-
-.section-header h3 {
-  font-size: 15px;
-  font-weight: 600;
-  flex: 1;
-}
-
-.section-header .badge {
-  font-size: 11px;
-  padding: 2px 8px;
-  border-radius: 10px;
-  background: var(--bg-tertiary);
-  color: var(--text-secondary);
-}
-
-.section-body {
-  border: 1px solid var(--border);
-  border-top: none;
-  border-radius: 0 0 8px 8px;
-  padding: 16px;
-  background: var(--bg-primary);
-  overflow: hidden;
-  transition: max-height 0.3s ease;
-}
-
-.section-body.hidden {
-  display: none;
-}
-
-/* ---- Situation Briefing ---- */
-
-.briefing-text {
-  font-size: 14px;
-  line-height: 1.7;
-  color: var(--text-primary);
-}
-
-.briefing-text strong,
-.narrative-text strong {
-  color: var(--accent-cyan);
-  font-weight: 600;
-}
-
-/* ---- Country Debates ---- */
-
-.country-group {
-  margin-bottom: 20px;
-}
-
-.country-group-header {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 8px 14px;
-  margin-bottom: 12px;
-  background: var(--bg-secondary);
-  border-radius: 6px;
-}
-
-.country-group-header .badge {
-  font-size: 11px;
-  padding: 2px 8px;
-  border-radius: 10px;
-  background: var(--bg-tertiary);
-  color: var(--text-secondary);
-}
-
-.country-decisions-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 16px;
-}
-
-.country-block {
-  margin-bottom: 0;
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  overflow: hidden;
-}
-
-.country-header {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 12px 16px;
-  background: var(--bg-secondary);
-  cursor: pointer;
-  user-select: none;
-}
-
-.country-header:hover {
-  background: var(--bg-tertiary);
-}
-
-.country-flag {
-  font-size: 22px;
-}
-
-.country-name {
-  font-weight: 600;
-  font-size: 15px;
-  flex: 1;
-}
-
-.country-code {
-  font-size: 12px;
-  color: var(--text-muted);
-  font-family: monospace;
-}
-
-.country-body {
-  padding: 16px;
-}
-
-.country-body.hidden {
-  display: none;
-}
-
-/* ---- Debate entries ---- */
-
-.debate-round-label {
-  font-size: 12px;
-  font-weight: 600;
-  color: var(--accent-blue);
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  margin: 16px 0 8px;
-  padding-bottom: 4px;
+  padding: 20px;
   border-bottom: 1px solid var(--border);
 }
 
-.debate-round-label:first-child {
-  margin-top: 0;
-}
-
-.debate-entry {
-  margin-bottom: 12px;
-  padding: 12px;
-  background: var(--bg-secondary);
-  border-radius: 6px;
-  border-left: 3px solid var(--accent-purple);
-}
-
-.debate-entry .faction-name {
-  font-weight: 600;
-  font-size: 13px;
+.sidebar-header h1 {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 2px;
   color: var(--accent-cyan);
-  margin-bottom: 2px;
 }
 
-.debate-entry .faction-role {
+.sidebar-header .subtitle {
   font-size: 11px;
   color: var(--text-muted);
-  margin-bottom: 8px;
-}
-
-.debate-entry .faction-content {
-  font-size: 13px;
-  line-height: 1.6;
-  color: var(--text-primary);
-}
-
-.debate-entry .faction-content strong {
-  color: var(--accent-cyan);
-  font-weight: 600;
-}
-
-/* Role-specific border colors */
-.debate-entry.role-hawk { border-left-color: var(--accent-red); }
-.debate-entry.role-diplomat { border-left-color: var(--accent-blue); }
-.debate-entry.role-military_realist { border-left-color: var(--accent-orange); }
-.debate-entry.role-economic { border-left-color: var(--accent-green); }
-.debate-entry.role-intelligence { border-left-color: var(--accent-purple); }
-.debate-entry.role-dove { border-left-color: var(--accent-cyan); }
-
-/* ---- Decision block ---- */
-
-.decision-block {
-  margin-top: 12px;
-  padding: 12px;
-  background: rgba(31, 111, 235, 0.08);
-  border: 1px solid rgba(31, 111, 235, 0.2);
-  border-radius: 6px;
-}
-
-.decision-block h4 {
-  font-size: 13px;
-  color: var(--accent-blue);
-  margin-bottom: 6px;
-}
-
-.decision-block .decision-text {
-  font-size: 13px;
-  line-height: 1.6;
-  margin-bottom: 8px;
-}
-
-.decision-block .action-list {
-  list-style: none;
-  padding: 0;
-}
-
-.decision-block .action-list li {
-  padding: 4px 0 4px 16px;
-  position: relative;
-  font-size: 13px;
-}
-
-.decision-block .action-list li::before {
-  content: "\25B8";
-  position: absolute;
-  left: 0;
-  color: var(--accent-blue);
-}
-
-.dissent-text {
-  margin-top: 8px;
-  font-size: 12px;
-  color: var(--accent-orange);
-  font-style: italic;
-}
-
-/* ---- GM Resolution ---- */
-
-.narrative-text {
-  font-size: 14px;
-  line-height: 1.7;
-  color: var(--text-primary);
-  padding: 16px;
-  background: var(--bg-secondary);
-  border-radius: 6px;
-}
-
-.narrative-text strong {
-  color: var(--accent-cyan);
-}
-
-.decision-text strong {
-  color: var(--accent-blue);
-}
-
-/* ---- Headlines ---- */
-
-.headline-list {
-  list-style: none;
-  padding: 0;
-}
-
-.headline-list li {
-  padding: 8px 12px;
-  margin-bottom: 4px;
-  background: var(--bg-secondary);
-  border-radius: 4px;
-  font-size: 14px;
-  font-weight: 500;
-  border-left: 3px solid var(--accent-yellow);
-}
-
-/* ---- World State Table ---- */
-
-.state-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 13px;
-}
-
-.state-table th {
-  text-align: left;
-  padding: 8px 12px;
-  background: var(--bg-secondary);
-  border: 1px solid var(--border);
-  color: var(--text-secondary);
-  font-weight: 600;
-  font-size: 12px;
-  text-transform: uppercase;
+  margin-top: 4px;
   letter-spacing: 0.5px;
 }
 
-.state-table td {
-  padding: 8px 12px;
-  border: 1px solid var(--border);
-  vertical-align: top;
+.sidebar-header .classified {
+  display: inline-block;
+  background: var(--accent-red);
+  color: #fff;
+  font-size: 9px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 3px;
+  letter-spacing: 1.5px;
+  margin-top: 8px;
 }
 
-.state-table tr:hover td {
-  background: var(--bg-secondary);
+.sidebar-nav {
+  flex: 1;
+  padding: 12px 0;
+  overflow-y: auto;
 }
 
-.metric-label {
+.nav-section {
+  padding: 8px 20px 4px;
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--text-muted);
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
   color: var(--text-secondary);
+  font-size: 13px;
   font-weight: 500;
+  transition: all 0.15s ease;
+  border-left: 3px solid transparent;
 }
 
-.metric-value {
+.nav-item:hover {
+  background: var(--bg-card);
   color: var(--text-primary);
 }
 
-.metric-value.positive { color: var(--accent-green); }
-.metric-value.negative { color: var(--accent-red); }
-
-/* ---- Public Opinion Bar ---- */
-
-.opinion-bar-container {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin: 4px 0;
+.nav-item.active {
+  background: rgba(59, 130, 246, 0.1);
+  color: var(--accent-blue);
+  border-left-color: var(--accent-blue);
 }
 
-.opinion-bar-label {
-  font-size: 12px;
-  color: var(--text-secondary);
-  min-width: 40px;
+.nav-item .icon {
+  font-size: 16px;
+  width: 20px;
+  text-align: center;
 }
 
-.opinion-bar-track {
+.sidebar-footer {
+  padding: 16px 20px;
+  border-top: 1px solid var(--border);
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+/* ============================================================
+   MAIN CONTENT
+   ============================================================ */
+.main {
   flex: 1;
-  height: 8px;
-  background: var(--bg-tertiary);
-  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
 }
 
-.opinion-bar-fill {
-  height: 100%;
-  border-radius: 4px;
-  transition: width 0.3s ease;
+/* TOP BAR */
+.topbar {
+  height: var(--topbar-height);
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  gap: 24px;
+  flex-shrink: 0;
 }
 
-.opinion-bar-value {
+.topbar-scenario {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.topbar-round {
+  font-size: 12px;
+  color: var(--text-secondary);
+  background: var(--bg-card);
+  padding: 4px 12px;
+  border-radius: 4px;
+}
+
+.game-picker {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.game-picker label {
+  font-size: 11px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.game-picker select {
+  background: var(--bg-card);
+  color: var(--text-primary);
+  border: 1px solid var(--border);
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  min-width: 200px;
+  cursor: pointer;
+}
+
+.game-picker select:hover {
+  border-color: var(--border-accent);
+}
+
+.topbar-nuclear {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
   font-size: 12px;
   font-weight: 600;
-  min-width: 30px;
-  text-align: right;
 }
 
-/* ---- Dashboard ---- */
+.nuclear-indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  animation: pulse 2s infinite;
+}
 
+.nuclear-green { background: var(--accent-green); }
+.nuclear-yellow { background: var(--accent-orange); animation: pulse 1.5s infinite; }
+.nuclear-red { background: var(--accent-red); animation: pulse 0.8s infinite; }
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; box-shadow: 0 0 4px currentColor; }
+  50% { opacity: 0.5; box-shadow: 0 0 12px currentColor; }
+}
+
+/* CONTENT AREA */
+.content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 24px;
+}
+
+/* ============================================================
+   VIEWS (shown/hidden)
+   ============================================================ */
+.view { display: none; }
+.view.active { display: block; }
+
+/* ============================================================
+   CARDS
+   ============================================================ */
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  margin-bottom: 16px;
+  transition: border-color 0.15s;
+}
+
+.card:hover { border-color: var(--border-accent); }
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.card-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.card-subtitle {
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+/* ============================================================
+   DASHBOARD GRID
+   ============================================================ */
 .dashboard-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 16px;
   margin-bottom: 24px;
 }
 
-.dash-card {
-  background: var(--bg-secondary);
+.stat-card {
+  background: var(--bg-card);
   border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 16px;
+  border-radius: var(--radius);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
-.dash-card h3 {
-  font-size: 13px;
-  color: var(--text-secondary);
+.stat-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-muted);
+  letter-spacing: 1px;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
-  margin-bottom: 12px;
 }
 
-.dash-card.full-width {
+.stat-value {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.stat-change {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.stat-change.up { color: var(--accent-red); }
+.stat-change.down { color: var(--accent-green); }
+
+.chart-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.chart-full {
   grid-column: 1 / -1;
 }
 
 .chart-container {
   position: relative;
-  height: 180px;
+  height: 260px;
 }
 
-.chart-svg {
-  width: 100%;
-  height: 100%;
-}
-
-.chart-legend {
+/* ============================================================
+   ESCALATION BAR
+   ============================================================ */
+.escalation-bar {
   display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
+  gap: 3px;
   margin-top: 8px;
+}
+
+.escalation-segment {
+  flex: 1;
+  height: 24px;
+  border-radius: 3px;
+  background: var(--border);
+  transition: background 0.3s;
+}
+
+.escalation-segment.active-low { background: var(--accent-green); }
+.escalation-segment.active-mid { background: var(--accent-orange); }
+.escalation-segment.active-high { background: var(--accent-red); }
+
+/* ============================================================
+   TIMELINE
+   ============================================================ */
+.timeline {
+  position: relative;
+  padding-left: 24px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 8px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--border);
+}
+
+.timeline-item {
+  position: relative;
+  padding: 12px 0;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -20px;
+  top: 16px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--accent-blue);
+  border: 2px solid var(--bg-card);
+}
+
+.timeline-dot.critical { background: var(--accent-red); }
+.timeline-dot.warning { background: var(--accent-orange); }
+
+.timeline-round {
   font-size: 11px;
+  font-weight: 600;
+  color: var(--accent-cyan);
+  margin-bottom: 4px;
 }
 
-.chart-legend-item {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  color: var(--text-secondary);
-}
-
-.chart-legend-dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-}
-
-.dash-stat {
-  display: flex;
-  justify-content: space-between;
-  padding: 8px 0;
-  border-bottom: 1px solid var(--border);
+.timeline-text {
   font-size: 13px;
-}
-
-.dash-stat:last-child {
-  border-bottom: none;
-}
-
-.dash-stat-label {
   color: var(--text-secondary);
 }
 
-.dash-stat-value {
-  font-weight: 600;
+/* ============================================================
+   ROUND VIEW
+   ============================================================ */
+.round-nav {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
 }
 
-.game-status-live {
-  display: inline-flex;
+.round-btn {
+  padding: 8px 16px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg-card);
+  color: var(--text-secondary);
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  transition: all 0.15s;
+}
+
+.round-btn:hover {
+  border-color: var(--accent-blue);
+  color: var(--text-primary);
+}
+
+.round-btn.active {
+  background: var(--accent-blue);
+  border-color: var(--accent-blue);
+  color: #fff;
+}
+
+.briefing-text {
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  white-space: pre-wrap;
+}
+
+.narrative-text {
+  font-size: 14px;
+  color: var(--text-primary);
+  line-height: 1.8;
+  padding: 16px;
+  background: rgba(59, 130, 246, 0.05);
+  border-left: 3px solid var(--accent-blue);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+/* Collapsible */
+.collapsible {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: 8px;
+  overflow: hidden;
+}
+
+.collapsible-header {
+  display: flex;
   align-items: center;
-  gap: 6px;
-  font-size: 12px;
-  color: var(--accent-green);
+  justify-content: space-between;
+  padding: 12px 16px;
+  background: var(--bg-card);
+  cursor: pointer;
+  font-size: 13px;
   font-weight: 600;
+  color: var(--text-primary);
+  transition: background 0.15s;
 }
 
-.game-status-live::before {
-  content: "";
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--accent-green);
-  animation: pulse 1.5s infinite;
+.collapsible-header:hover {
+  background: var(--bg-card-hover);
 }
 
-@keyframes pulse {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.3; }
-}
-
-.game-status-done {
-  font-size: 12px;
+.collapsible-arrow {
+  transition: transform 0.2s;
   color: var(--text-muted);
 }
 
-/* ---- Responsive ---- */
-
-@media (max-width: 768px) {
-  .main-container {
-    flex-direction: column;
-  }
-  .round-sidebar {
-    width: 100%;
-    min-width: unset;
-    max-height: 200px;
-    border-right: none;
-    border-bottom: 1px solid var(--border);
-    display: flex;
-    flex-wrap: wrap;
-    padding: 8px;
-    gap: 4px;
-  }
-  .sidebar-header {
-    width: 100%;
-    padding: 4px 8px;
-  }
-  .round-tab {
-    padding: 6px 12px;
-    border-left: none;
-    border-bottom: 2px solid transparent;
-    border-radius: 4px;
-  }
-  .round-tab.active {
-    border-left: none;
-    border-bottom-color: var(--accent-blue);
-  }
-  .content-area {
-    padding: 16px;
-  }
-  .header {
-    flex-direction: column;
-    align-items: flex-start;
-  }
+.collapsible.open .collapsible-arrow {
+  transform: rotate(90deg);
 }
 
-/* ---- Wide screens (1600px+) ---- */
-@media (min-width: 1600px) {
-  .dashboard-grid {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  .content-area {
-    padding: 28px 48px;
-  }
-  .briefing-text,
-  .narrative-text {
-    font-size: 15px;
-    line-height: 1.8;
-  }
-  .chart-container {
-    height: 220px;
-  }
+.collapsible-body {
+  display: none;
+  padding: 16px;
+  border-top: 1px solid var(--border);
+  background: var(--bg-secondary);
 }
 
-/* ---- Ultra-wide screens (2400px+) ---- */
-@media (min-width: 2400px) {
-  .content-area {
-    padding: 32px 64px;
-  }
-  .dashboard-grid {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 24px;
-  }
-  .dash-card.full-width {
-    grid-column: 1 / -1;
-  }
-  .section-body {
-    padding: 24px;
-  }
-  .briefing-text,
-  .narrative-text {
-    font-size: 16px;
-    line-height: 1.85;
-    column-count: 2;
-    column-gap: 48px;
-    column-rule: 1px solid var(--border);
-  }
-  .country-decisions-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-  }
-  .chart-container {
-    height: 260px;
-  }
-  .header-title h1 {
-    font-size: 26px;
-  }
-  .debate-entry .faction-content {
-    font-size: 14px;
-  }
+.collapsible.open .collapsible-body {
+  display: block;
 }
 
-/* ---- Super-wide screens (3200px+) ---- */
-@media (min-width: 3200px) {
-  .content-area {
-    padding: 40px 80px;
-  }
-  .dashboard-grid {
-    gap: 28px;
-  }
-  .briefing-text,
-  .narrative-text {
-    font-size: 17px;
-    column-count: 3;
-    column-gap: 56px;
-  }
-  .country-decisions-grid {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  .chart-container {
-    height: 300px;
-  }
-  .round-sidebar {
-    width: 260px;
-    min-width: 260px;
-  }
-  .round-tab {
-    font-size: 15px;
-    padding: 12px 20px;
-  }
-  .section-header h3 {
-    font-size: 17px;
-  }
-  .country-name {
-    font-size: 17px;
-  }
-  .country-flag {
-    font-size: 26px;
-  }
+.action-item {
+  padding: 6px 0;
+  font-size: 13px;
+  color: var(--text-secondary);
+  border-bottom: 1px solid var(--border);
+}
+
+.action-item:last-child { border-bottom: none; }
+
+.reasoning-text {
+  font-size: 13px;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+}
+
+.diplo-msg {
+  display: flex;
+  gap: 8px;
+  padding: 8px 12px;
+  background: var(--bg-card);
+  border-radius: 6px;
+  margin-top: 8px;
+  font-size: 12px;
+}
+
+.diplo-to {
+  font-weight: 700;
+  color: var(--accent-cyan);
+  min-width: 28px;
+}
+
+.diplo-channel {
+  padding: 1px 6px;
+  border-radius: 3px;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.channel-public { background: rgba(16, 185, 129, 0.2); color: var(--accent-green); }
+.channel-private { background: rgba(245, 158, 11, 0.2); color: var(--accent-orange); }
+.channel-backchannel { background: rgba(139, 92, 246, 0.2); color: var(--accent-purple); }
+
+/* ============================================================
+   COUNTRY LIST
+   ============================================================ */
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+}
+
+.country-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.country-card:hover {
+  border-color: var(--accent-blue);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow);
+}
+
+.country-code {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--accent-cyan);
+}
+
+.country-name {
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-top: 4px;
+}
+
+.country-rounds {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-top: 8px;
+}
+
+/* Country detail */
+.country-detail-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.country-detail-code {
+  font-size: 36px;
+  font-weight: 800;
+  color: var(--accent-cyan);
+}
+
+.country-back {
+  font-size: 12px;
+  color: var(--accent-blue);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* ============================================================
+   WORLD STATE
+   ============================================================ */
+.json-viewer {
+  background: var(--bg-primary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  font-family: 'JetBrains Mono', 'SF Mono', 'Fira Code', monospace;
+  font-size: 12px;
+  line-height: 1.7;
+  overflow-x: auto;
+  max-height: 600px;
+  overflow-y: auto;
+  white-space: pre;
+  color: var(--text-secondary);
+}
+
+.json-key { color: var(--accent-cyan); }
+.json-string { color: var(--accent-green); }
+.json-number { color: var(--accent-orange); }
+.json-bool { color: var(--accent-purple); }
+.json-null { color: var(--text-muted); }
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.metric-item {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 12px;
+}
+
+.metric-label {
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--text-muted);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.metric-value {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 4px;
+}
+
+/* ============================================================
+   DEBATE LOG
+   ============================================================ */
+.debate-entry {
+  padding: 12px;
+  margin-bottom: 8px;
+  background: var(--bg-primary);
+  border-radius: var(--radius);
+  border-left: 3px solid var(--accent-purple);
+}
+
+.debate-faction {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--accent-purple);
+  margin-bottom: 4px;
+}
+
+.debate-role {
+  font-size: 10px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.debate-content {
+  font-size: 12px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  white-space: pre-wrap;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+/* ============================================================
+   HEADLINES & EVENTS
+   ============================================================ */
+.headline-item {
+  padding: 8px 12px;
+  background: var(--bg-primary);
+  border-radius: 6px;
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-bottom: 6px;
+  border-left: 3px solid var(--accent-orange);
+}
+
+.event-item {
+  padding: 6px 0;
+  font-size: 13px;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.event-bullet {
+  color: var(--accent-red);
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+/* ============================================================
+   SURPRISE
+   ============================================================ */
+.surprise-item {
+  padding: 10px 14px;
+  background: rgba(239, 68, 68, 0.08);
+  border: 1px solid rgba(239, 68, 68, 0.2);
+  border-radius: 6px;
+  font-size: 13px;
+  color: var(--accent-orange);
+  margin-bottom: 6px;
+}
+
+/* ============================================================
+   LOADING & ANIMATIONS
+   ============================================================ */
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  color: var(--text-muted);
+}
+
+.fade-in {
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ============================================================
+   SCROLLBAR
+   ============================================================ */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--border-accent);
+}
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media (max-width: 900px) {
+  .sidebar { width: 200px; }
+  .chart-row { grid-template-columns: 1fr; }
 }
 </style>
 </head>
 <body>
 
-<!-- ================================================================
-     HTML Structure
-     ================================================================ -->
-
-<div class="header">
-  <div class="header-title">
-    <div>
-      <h1>WarGame Viewer</h1>
-      <div class="subtitle">Suwalki Gap Crisis Simulation - Round Timeline</div>
+<div class="app">
+  <!-- ========== SIDEBAR ========== -->
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <h1>WARGAME</h1>
+      <div class="subtitle">AI Geopolitical Simulation</div>
+      <div class="classified">CLASSIFIED</div>
     </div>
-    <span class="header-badge">CLASSIFIED</span>
-    <a href="/docs.html" style="font-size:12px; color:var(--accent-blue); margin-left:8px; text-decoration:none; opacity:0.7;">Docs</a>
-  </div>
-  <div class="load-controls">
-    <select class="btn" id="gameSelect" style="min-width: 200px;">
-      <option value="">-- Select Game --</option>
-    </select>
-    <button class="btn btn-primary" id="loadFilesBtn">Load Round Files</button>
-    <button class="btn" id="loadFolderBtn">Load Game Folder</button>
-    <input type="file" id="fileInput" class="file-input-hidden" accept=".json" multiple>
-    <input type="file" id="folderInput" class="file-input-hidden" webkitdirectory multiple>
-    <label class="btn" id="autoRefreshLabel" style="cursor: pointer; font-size: 12px;">
-      <input type="checkbox" id="autoRefreshToggle" checked style="margin-right: 4px;"> Auto-refresh
-    </label>
-    <span class="loaded-info" id="loadedInfo"></span>
+    <nav class="sidebar-nav">
+      <div class="nav-section">Overview</div>
+      <div class="nav-item active" data-view="dashboard">
+        <span class="icon">&#9635;</span> Dashboard
+      </div>
+      <div class="nav-section">Analysis</div>
+      <div class="nav-item" data-view="rounds">
+        <span class="icon">&#9201;</span> Rounds
+      </div>
+      <div class="nav-item" data-view="countries">
+        <span class="icon">&#9873;</span> Countries
+      </div>
+      <div class="nav-item" data-view="worldstate">
+        <span class="icon">&#9741;</span> World State
+      </div>
+    </nav>
+    <div class="sidebar-footer">
+      Production Viewer v2.0<br>
+      <a href="/docs.html" style="color: var(--accent-blue); text-decoration: none; font-size: 10px;">Documentation</a>
+    </div>
+  </aside>
+
+  <!-- ========== MAIN ========== -->
+  <div class="main">
+    <!-- TOP BAR -->
+    <header class="topbar">
+      <div class="game-picker">
+        <label for="gameSelect">Game:</label>
+        <select id="gameSelect">
+          <option value="">Loading...</option>
+        </select>
+      </div>
+      <span class="topbar-scenario" id="topbar-scenario">WarGame</span>
+      <span class="topbar-round" id="topbar-round">Loading...</span>
+      <div class="topbar-nuclear" id="topbar-nuclear">
+        <span class="nuclear-indicator nuclear-green"></span>
+        <span>NUCLEAR: PEACETIME</span>
+      </div>
+    </header>
+
+    <!-- CONTENT -->
+    <div class="content">
+
+      <!-- ===== DASHBOARD VIEW ===== -->
+      <div class="view active" id="view-dashboard">
+        <div class="dashboard-grid" id="dashboard-stats"></div>
+        <div class="chart-row">
+          <div class="card">
+            <div class="card-header">
+              <span class="card-title">Oil Price ($/barrel)</span>
+            </div>
+            <div class="chart-container"><canvas id="chart-oil"></canvas></div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <span class="card-title">Nuclear Posture</span>
+            </div>
+            <div class="chart-container"><canvas id="chart-nuclear"></canvas></div>
+          </div>
+        </div>
+        <div class="chart-row">
+          <div class="card">
+            <div class="card-header">
+              <span class="card-title">War Support by Country (%)</span>
+            </div>
+            <div class="chart-container"><canvas id="chart-warsupport"></canvas></div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <span class="card-title">Military Balance</span>
+            </div>
+            <div class="chart-container"><canvas id="chart-military"></canvas></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="card-title">Escalation Level</span>
+          </div>
+          <div class="escalation-bar" id="escalation-bar"></div>
+          <div style="display:flex;justify-content:space-between;margin-top:6px;">
+            <span style="font-size:10px;color:var(--accent-green)">NORMAL</span>
+            <span style="font-size:10px;color:var(--accent-orange)">HIGH</span>
+            <span style="font-size:10px;color:var(--accent-red)">NUCLEAR</span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="card-title">Event Timeline</span>
+          </div>
+          <div class="timeline" id="timeline"></div>
+        </div>
+      </div>
+
+      <!-- ===== ROUNDS VIEW ===== -->
+      <div class="view" id="view-rounds">
+        <div class="round-nav" id="round-nav"></div>
+        <div id="round-detail">
+          <div class="loading">Select a round to view details</div>
+        </div>
+      </div>
+
+      <!-- ===== COUNTRIES VIEW ===== -->
+      <div class="view" id="view-countries">
+        <div id="countries-list"></div>
+        <div id="country-detail" style="display:none;"></div>
+      </div>
+
+      <!-- ===== WORLD STATE VIEW ===== -->
+      <div class="view" id="view-worldstate">
+        <div class="round-nav" id="ws-round-nav"></div>
+        <div class="metrics-grid" id="ws-metrics"></div>
+        <div class="card">
+          <div class="card-header">
+            <span class="card-title">Full World State (JSON)</span>
+          </div>
+          <div class="json-viewer" id="ws-json"></div>
+        </div>
+      </div>
+
+    </div>
   </div>
 </div>
 
-<div class="main-container">
-  <div class="round-sidebar" id="roundSidebar">
-    <div class="sidebar-header">Rounds</div>
-    <div class="round-tab" id="dashboardTab" style="border-left-color: var(--accent-purple); font-weight: 600;">
-      <span class="round-num">Dashboard</span>
-    </div>
-    <div id="roundTabs"></div>
-  </div>
-  <div class="content-area" id="contentArea">
-    <div class="empty-state" id="emptyState">
-      <div class="icon">&#127758;</div>
-      <h2>No Game Data Loaded</h2>
-      <p>If running via <code>python3 serve.py</code>, games load automatically. Otherwise click "Load Round Files" to select JSON files manually.</p>
-    </div>
-    <div id="dashboardContent" style="display: none;"></div>
-    <div id="roundContent" style="display: none;"></div>
-  </div>
-</div>
-
-<!-- ================================================================
-     JavaScript
-     ================================================================ -->
 <script>
-(function() {
-  "use strict";
+// ============================================================
+// STATE
+// ============================================================
+let state = {
+  games: [],
+  currentGame: null,
+  status: null,
+  rounds: [],
+  currentRound: null,
+  countries: [],
+  charts: {},
+};
 
-  // ---- Country flag mapping ----
-  var FLAGS = {
-    PL: "\uD83C\uDDF5\uD83C\uDDF1", RU: "\uD83C\uDDF7\uD83C\uDDFA",
-    US: "\uD83C\uDDFA\uD83C\uDDF8", DE: "\uD83C\uDDE9\uD83C\uDDEA",
-    FR: "\uD83C\uDDEB\uD83C\uDDF7", CN: "\uD83C\uDDE8\uD83C\uDDF3",
-    UA: "\uD83C\uDDFA\uD83C\uDDE6", GB: "\uD83C\uDDEC\uD83C\uDDE7",
-    TR: "\uD83C\uDDF9\uD83C\uDDF7", JP: "\uD83C\uDDEF\uD83C\uDDF5",
-    FI: "\uD83C\uDDEB\uD83C\uDDEE", LT: "\uD83C\uDDF1\uD83C\uDDF9",
-    LV: "\uD83C\uDDF1\uD83C\uDDFB", EE: "\uD83C\uDDEA\uD83C\uDDEA",
-    SE: "\uD83C\uDDF8\uD83C\uDDEA", BY: "\uD83C\uDDE7\uD83C\uDDFE",
-    IN: "\uD83C\uDDEE\uD83C\uDDF3", SA: "\uD83C\uDDF8\uD83C\uDDE6",
-    IL: "\uD83C\uDDEE\uD83C\uDDF1", RS: "\uD83C\uDDF7\uD83C\uDDF8",
-    CA: "\uD83C\uDDE8\uD83C\uDDE6", NO: "\uD83C\uDDF3\uD83C\uDDF4",
-    HU: "\uD83C\uDDED\uD83C\uDDFA", IT: "\uD83C\uDDEE\uD83C\uDDF9",
-    RO: "\uD83C\uDDF7\uD83C\uDDF4", BR: "\uD83C\uDDE7\uD83C\uDDF7",
-    ZA: "\uD83C\uDDFF\uD83C\uDDE6", CZ: "\uD83C\uDDE8\uD83C\uDDFF",
-    DK: "\uD83C\uDDE9\uD83C\uDDF0", NL: "\uD83C\uDDF3\uD83C\uDDF1",
-    EU: "\uD83C\uDDEA\uD83C\uDDFA", UN: "\uD83C\uDDFA\uD83C\uDDF3",
-    // NATO members batch 2
-    BE: "\uD83C\uDDE7\uD83C\uDDEA", ES: "\uD83C\uDDEA\uD83C\uDDF8",
-    GR: "\uD83C\uDDEC\uD83C\uDDF7", PT: "\uD83C\uDDF5\uD83C\uDDF9",
-    LU: "\uD83C\uDDF1\uD83C\uDDFA", BG: "\uD83C\uDDE7\uD83C\uDDEC",
-    SK: "\uD83C\uDDF8\uD83C\uDDF0", HR: "\uD83C\uDDED\uD83C\uDDF7",
-    SI: "\uD83C\uDDF8\uD83C\uDDEE", AL: "\uD83C\uDDE6\uD83C\uDDF1",
-    ME: "\uD83C\uDDF2\uD83C\uDDEA", MK: "\uD83C\uDDF2\uD83C\uDDF0",
-    IS: "\uD83C\uDDEE\uD83C\uDDF8",
-    // Russian allies
-    KP: "\uD83C\uDDF0\uD83C\uDDF5", IR: "\uD83C\uDDEE\uD83C\uDDF7",
-    SY: "\uD83C\uDDF8\uD83C\uDDFE", CU: "\uD83C\uDDE8\uD83C\uDDFA",
-    VE: "\uD83C\uDDFB\uD83C\uDDEA", MM: "\uD83C\uDDF2\uD83C\uDDF2",
-    // Global South + key economies
-    KR: "\uD83C\uDDF0\uD83C\uDDF7", AU: "\uD83C\uDDE6\uD83C\uDDFA",
-    ID: "\uD83C\uDDEE\uD83C\uDDE9", EG: "\uD83C\uDDEA\uD83C\uDDEC",
-    PK: "\uD83C\uDDF5\uD83C\uDDF0", NG: "\uD83C\uDDF3\uD83C\uDDEC",
-    MX: "\uD83C\uDDF2\uD83C\uDDFD", PH: "\uD83C\uDDF5\uD83C\uDDED",
-    VN: "\uD83C\uDDFB\uD83C\uDDF3", AE: "\uD83C\uDDE6\uD83C\uDDEA",
-    AR: "\uD83C\uDDE6\uD83C\uDDF7", CO: "\uD83C\uDDE8\uD83C\uDDF4",
-  };
-  // Organization labels (not flag emoji — use symbols)
-  var ORG_ICONS = {
-    NATO: "\u{1F6E1}\uFE0F", CSTO: "\u2694\uFE0F", SCO: "\u{1F310}",
-    G7: "\u{1F4B0}", OSCE: "\u{1F54A}\uFE0F", ASEAN: "\u{1F30F}",
-    AFC: "\u{1F30D}", AU_ORG: "\u{1F30D}", ARAB: "\u{1F54C}",
-  };
-  function getFlag(code) {
-    return FLAGS[code] || ORG_ICONS[code] || "\uD83C\uDFF4";
-  }
+const COUNTRY_COLORS = {
+  PL: '#dc2626', DE: '#f59e0b', FR: '#3b82f6', US: '#10b981',
+  GB: '#8b5cf6', RU: '#ef4444', LT: '#06b6d4', BY: '#9b2226',
+  UA: '#fcd116', FI: '#003580', LV: '#9e1b32', EE: '#0072ce',
+  SE: '#006aa7', NO: '#ba0c2f', CN: '#de2910', TR: '#e30a17',
+};
 
-  var COUNTRY_COLORS = {
-    PL: "#dc3545", RU: "#6f42c1", US: "#0d6efd", DE: "#ffc107",
-    FR: "#0dcaf0", CN: "#e35d6a", UA: "#198754", GB: "#6610f2",
-    TR: "#fd7e14", JP: "#d63384", FI: "#20c997", LT: "#adb5bd",
-    LV: "#87603e", EE: "#0aa2c0", SE: "#4f9d69", BY: "#7c5a2e",
-    IN: "#ff6b35", SA: "#2d6a4f", IL: "#4361ee", RS: "#9b2226",
-    CA: "#e63946", NO: "#457b9d", HU: "#c1440e", IT: "#008c45",
-    RO: "#fcd116", BR: "#009c3b", ZA: "#e03c31", CZ: "#11457e",
-    DK: "#c8102e", NL: "#ff6f00", EU: "#003399", UN: "#5b92e5",
-    // NATO batch 2
-    BE: "#fdda24", ES: "#aa151b", GR: "#0d5eaf", PT: "#006600",
-    LU: "#00a1de", BG: "#00966e", SK: "#0b4ea2", HR: "#171796",
-    SI: "#005da4", AL: "#cc0000", ME: "#d4af37", MK: "#ce2028",
-    IS: "#003897",
-    // Russian allies
-    KP: "#ed1c27", IR: "#239f40", SY: "#ce1126", CU: "#002a8f",
-    VE: "#cf142b", MM: "#fecb00",
-    // Global South
-    KR: "#003478", AU: "#00843d", ID: "#ff0000", EG: "#c8102e",
-    PK: "#01411c", NG: "#008751", MX: "#006847", PH: "#0038a8",
-    VN: "#da251d", AE: "#00732f", AR: "#75aadb", CO: "#fcd116",
-    // Orgs
-    NATO: "#004990", CSTO: "#8b0000", SCO: "#1a5276", G7: "#daa520",
-    OSCE: "#006cb4", ASEAN: "#003580", AFC: "#009639", AU_ORG: "#009639", ARAB: "#006233",
-  };
+// ============================================================
+// API
+// ============================================================
+async function api(path) {
+  const r = await fetch(path);
+  if (!r.ok) throw new Error(`API error: ${r.status}`);
+  return r.json();
+}
 
-  function getColor(code) { return COUNTRY_COLORS[code] || "#8b949e"; }
+// ============================================================
+// GAME SELECTION
+// ============================================================
+async function loadGameList() {
+  try {
+    const games = await api('/api/games');
+    state.games = games;
 
-  // ---- State ----
-  var rounds = {};
-  var gameSummary = null;
-  var activeRound = null;
-  var activeView = null; // "dashboard" or round number
-  var currentGameName = null;
-  var serverMode = false;
-  var autoRefreshTimer = null;
+    const select = document.getElementById('gameSelect');
+    select.innerHTML = '<option value="">-- Select a game --</option>';
 
-  // ---- DOM refs ----
-  var fileInput = document.getElementById("fileInput");
-  var folderInput = document.getElementById("folderInput");
-  var loadFilesBtn = document.getElementById("loadFilesBtn");
-  var loadFolderBtn = document.getElementById("loadFolderBtn");
-  var loadedInfo = document.getElementById("loadedInfo");
-  var roundTabsEl = document.getElementById("roundTabs");
-  var emptyState = document.getElementById("emptyState");
-  var roundContent = document.getElementById("roundContent");
-  var dashboardContent = document.getElementById("dashboardContent");
-  var gameSelect = document.getElementById("gameSelect");
-  var dashboardTab = document.getElementById("dashboardTab");
-  var autoRefreshToggle = document.getElementById("autoRefreshToggle");
+    games.forEach(game => {
+      const option = document.createElement('option');
+      option.value = game;
+      option.textContent = game;
+      select.appendChild(option);
+    });
 
-  // ---- Event listeners ----
-  loadFilesBtn.addEventListener("click", function() { fileInput.click(); });
-  loadFolderBtn.addEventListener("click", function() { folderInput.click(); });
-  dashboardTab.addEventListener("click", function() { showDashboard(); });
-
-  fileInput.addEventListener("change", function(e) { handleFiles(Array.from(e.target.files)); });
-  folderInput.addEventListener("change", function(e) {
-    var all = Array.from(e.target.files);
-    handleFiles(all.filter(function(f) { return f.name.endsWith(".json"); }));
-  });
-
-  gameSelect.addEventListener("change", function() {
-    var name = gameSelect.value;
-    if (name) loadGameFromServer(name);
-  });
-
-  autoRefreshToggle.addEventListener("change", function() {
-    if (autoRefreshToggle.checked && serverMode && currentGameName) {
-      startAutoRefresh();
-    } else {
-      stopAutoRefresh();
+    // Auto-select first game
+    if (games.length > 0) {
+      select.value = games[0];
+      await selectGame(games[0]);
     }
+  } catch (e) {
+    console.error('Failed to load games:', e);
+  }
+}
+
+async function selectGame(gameName) {
+  if (!gameName) return;
+
+  try {
+    // Select the game on the backend
+    await api(`/api/select-game/${gameName}`);
+    state.currentGame = gameName;
+
+    // Load all data for this game
+    await init();
+  } catch (e) {
+    console.error('Failed to select game:', e);
+  }
+}
+
+document.getElementById('gameSelect').addEventListener('change', (e) => {
+  selectGame(e.target.value);
+});
+
+// ============================================================
+// NAVIGATION
+// ============================================================
+document.querySelectorAll('.nav-item').forEach(item => {
+  item.addEventListener('click', () => {
+    const view = item.dataset.view;
+    document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+    item.classList.add('active');
+    document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
+    document.getElementById(`view-${view}`).classList.add('active');
   });
+});
 
-  // ---- File loading (manual) ----
-  function handleFiles(files) {
-    if (!files.length) return;
-    var promises = files.map(function(file) {
-      return file.text().then(function(text) {
-        try {
-          var data = JSON.parse(text);
-          if (file.name === "game_summary.json") { gameSummary = data; return; }
-          var num = data.round || extractRoundNum(file.name);
-          if (num) rounds[num] = data;
-        } catch (err) { console.warn("Parse error: " + file.name, err); }
-      });
-    });
-    Promise.all(promises).then(function() { onDataLoaded(); });
-  }
+// ============================================================
+// INIT
+// ============================================================
+async function init() {
+  try {
+    const [status, rounds, countries] = await Promise.all([
+      api('/api/status'),
+      api('/api/rounds'),
+      api('/api/countries'),
+    ]);
+    state.status = status;
+    state.rounds = rounds;
+    state.countries = countries;
 
-  function extractRoundNum(fn) {
-    var m = fn.match(/round[_\-]?(\d+)/i);
-    return m ? parseInt(m[1], 10) : null;
-  }
-
-  // ---- Server loading (auto) ----
-  function tryServerConnect() {
-    fetch("/api/games").then(function(r) { return r.json(); }).then(function(games) {
-      serverMode = true;
-      gameSelect.innerHTML = '<option value="">-- Select Game --</option>';
-      games.forEach(function(g) {
-        var opt = document.createElement("option");
-        opt.value = g.name;
-        opt.textContent = g.name + " (" + g.round_count + " rounds)";
-        gameSelect.appendChild(opt);
-      });
-      // Auto-select latest game
-      if (games.length > 0) {
-        var latest = games[0].name;
-        gameSelect.value = latest;
-        loadGameFromServer(latest);
-      }
-    }).catch(function() {
-      // Not running via serve.py — file:// mode
-      serverMode = false;
-    });
-  }
-
-  function loadGameFromServer(name) {
-    currentGameName = name;
-    fetch("/api/game/" + name).then(function(r) { return r.json(); }).then(function(data) {
-      rounds = {};
-      gameSummary = data.summary;
-      data.rounds.forEach(function(rd) {
-        var num = rd.round;
-        if (num) rounds[num] = rd;
-      });
-      onDataLoaded();
-      if (autoRefreshToggle.checked) startAutoRefresh();
-    }).catch(function(err) { console.error("Load game error:", err); });
-  }
-
-  function startAutoRefresh() {
-    stopAutoRefresh();
-    autoRefreshTimer = setInterval(function() {
-      if (!currentGameName) return;
-      fetch("/api/games").then(function(r) { return r.json(); }).then(function(games) {
-        var g = games.find(function(x) { return x.name === currentGameName; });
-        if (!g) return;
-        // Update game selector round counts
-        var opts = gameSelect.options;
-        for (var i = 0; i < opts.length; i++) {
-          var gm = games.find(function(x) { return x.name === opts[i].value; });
-          if (gm) opts[i].textContent = gm.name + " (" + gm.round_count + " rounds)";
-        }
-        var currentCount = Object.keys(rounds).length;
-        if (g.round_count > currentCount) {
-          loadGameFromServer(currentGameName);
-        } else if (g.has_summary && !gameSummary) {
-          fetch("/api/summary/" + currentGameName).then(function(r) { return r.json(); })
-            .then(function(s) { gameSummary = s; if (activeView === "dashboard") showDashboard(); });
-        }
-      });
-    }, 15000);
-  }
-
-  function stopAutoRefresh() {
-    if (autoRefreshTimer) { clearInterval(autoRefreshTimer); autoRefreshTimer = null; }
-  }
-
-  // ---- Data loaded callback ----
-  function onDataLoaded() {
-    var count = Object.keys(rounds).length;
-    var status = gameSummary
-      ? '<span class="game-status-done">Complete</span>'
-      : '<span class="game-status-live">LIVE</span>';
-    loadedInfo.innerHTML = count + " round" + (count !== 1 ? "s" : "") + " " + status;
-    buildRoundTabs();
-    if (count > 0 && !activeView) {
-      showDashboard();
-    } else if (activeView === "dashboard") {
-      showDashboard();
-    }
-  }
-
-  // ---- Build sidebar ----
-  function buildRoundTabs() {
-    roundTabsEl.innerHTML = "";
-    var sorted = Object.keys(rounds).map(Number).sort(function(a, b) { return a - b; });
-    sorted.forEach(function(num) {
-      var data = rounds[num];
-      var tab = document.createElement("div");
-      tab.className = "round-tab" + (activeView === num ? " active" : "");
-      tab.innerHTML = '<span class="round-num">R' + num + '</span>' +
-        '<span class="round-time">' + escapeHtml(data.game_time || "") + '</span>';
-      tab.addEventListener("click", function() { selectRound(num); });
-      roundTabsEl.appendChild(tab);
-    });
-    // Update dashboard tab active state
-    dashboardTab.className = "round-tab" + (activeView === "dashboard" ? " active" : "");
-  }
-
-  // ---- Show dashboard ----
-  function showDashboard() {
-    activeView = "dashboard";
-    activeRound = null;
-    buildRoundTabs();
-    emptyState.style.display = "none";
-    roundContent.style.display = "none";
-    dashboardContent.style.display = "block";
+    updateTopbar();
     renderDashboard();
+    renderRoundsNav();
+    renderCountries();
+    renderWorldStateNav();
+
+    // Auto-select last round
+    if (rounds.length > 0) {
+      loadRound(rounds[rounds.length - 1].round);
+      loadWorldState(rounds[rounds.length - 1].round);
+    }
+  } catch (e) {
+    console.error('Init error:', e);
   }
+}
 
-  // ---- Select round ----
-  function selectRound(num) {
-    activeView = num;
-    activeRound = num;
-    buildRoundTabs();
-    emptyState.style.display = "none";
-    dashboardContent.style.display = "none";
-    roundContent.style.display = "block";
-    renderRound(rounds[num]);
+// ============================================================
+// TOPBAR
+// ============================================================
+function updateTopbar() {
+  const s = state.status;
+  if (!s) return;
+  document.getElementById('topbar-scenario').textContent = s.scenario_name || 'WarGame';
+  document.getElementById('topbar-round').textContent = `Round ${s.current_round}/${s.total_rounds} | ${s.phase.toUpperCase()}`;
+
+  // Nuclear indicator
+  const lastRound = state.rounds[state.rounds.length - 1];
+  if (lastRound) {
+    const np = lastRound.nuclear_posture || {};
+    let maxLevel = 'peacetime';
+    const levels = ['peacetime', 'elevated', 'dispersal', 'launch_ready'];
+    for (const p of Object.values(np)) {
+      if (levels.indexOf(p) > levels.indexOf(maxLevel)) maxLevel = p;
+    }
+    const nucEl = document.getElementById('topbar-nuclear');
+    const ind = nucEl.querySelector('.nuclear-indicator');
+    ind.className = 'nuclear-indicator';
+    if (maxLevel === 'peacetime') {
+      ind.classList.add('nuclear-green');
+      nucEl.querySelector('span:last-child').textContent = 'NUCLEAR: PEACETIME';
+    } else if (maxLevel === 'elevated') {
+      ind.classList.add('nuclear-yellow');
+      nucEl.querySelector('span:last-child').textContent = 'NUCLEAR: ELEVATED';
+    } else {
+      ind.classList.add('nuclear-red');
+      nucEl.querySelector('span:last-child').textContent = `NUCLEAR: ${maxLevel.toUpperCase().replace('_', ' ')}`;
+    }
   }
+}
 
-  // ======================================================================
-  // Dashboard rendering
-  // ======================================================================
-  function renderDashboard() {
-    var sorted = Object.keys(rounds).map(Number).sort(function(a, b) { return a - b; });
-    if (sorted.length === 0) {
-      dashboardContent.innerHTML = '<div class="empty-state"><h2>Waiting for first round...</h2></div>';
-      return;
+// ============================================================
+// DASHBOARD
+// ============================================================
+async function renderDashboard() {
+  const rounds = state.rounds;
+  if (rounds.length === 0) return;
+
+  const last = rounds[rounds.length - 1];
+  const prev = rounds.length > 1 ? rounds[rounds.length - 2] : null;
+
+  // Stat cards
+  const statsHtml = `
+    <div class="stat-card">
+      <span class="stat-label">Oil Price</span>
+      <span class="stat-value" style="color:var(--accent-orange)">$${last.oil_price?.toFixed(1) || '—'}</span>
+      ${prev ? `<span class="stat-change ${last.oil_price > prev.oil_price ? 'up' : 'down'}">${last.oil_price > prev.oil_price ? '&#9650;' : '&#9660;'} $${Math.abs(last.oil_price - prev.oil_price).toFixed(1)}</span>` : ''}
+    </div>
+    <div class="stat-card">
+      <span class="stat-label">Escalation Level</span>
+      <span class="stat-value" style="color:${last.escalation <= 3 ? 'var(--accent-green)' : last.escalation <= 6 ? 'var(--accent-orange)' : 'var(--accent-red)'}">${last.escalation}/10</span>
+      <span class="stat-change">${last.nato_alert?.toUpperCase() || ''}</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-label">Corridor Control</span>
+      <span class="stat-value" style="font-size:22px;color:${last.corridor_control === 'russian' ? 'var(--accent-red)' : 'var(--accent-orange)'}">${(last.corridor_control || 'Unknown').toUpperCase()}</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-label">Countries Active</span>
+      <span class="stat-value" style="color:var(--accent-cyan)">${last.num_countries}</span>
+      <span class="stat-change">across ${rounds.length} rounds</span>
+    </div>
+  `;
+  document.getElementById('dashboard-stats').innerHTML = statsHtml;
+
+  // Escalation bar
+  let escHtml = '';
+  for (let i = 1; i <= 10; i++) {
+    let cls = '';
+    if (i <= last.escalation) {
+      cls = i <= 3 ? 'active-low' : i <= 6 ? 'active-mid' : 'active-high';
     }
-    var html = '<h2 style="margin-bottom: 20px; color: var(--accent-blue);">Game Dashboard</h2>';
-
-    // Summary stats row
-    var lastRound = rounds[sorted[sorted.length - 1]];
-    var lastWs = lastRound.world_state || lastRound.world_state_after || {};
-    html += '<div class="dashboard-grid">';
-
-    // Card: game info
-    html += '<div class="dash-card">';
-    html += '<h3>Game Status</h3>';
-    html += '<div class="dash-stat"><span class="dash-stat-label">Rounds</span><span class="dash-stat-value">' + sorted.length + (gameSummary ? ' / ' + (gameSummary.total_rounds || '?') : ' (in progress)') + '</span></div>';
-    html += '<div class="dash-stat"><span class="dash-stat-label">Game Time</span><span class="dash-stat-value">' + escapeHtml(lastWs.game_time || "?") + '</span></div>';
-    html += '<div class="dash-stat"><span class="dash-stat-label">NATO Alert</span><span class="dash-stat-value" style="color:' + alertColor(lastWs.nato_alert_level) + '">' + escapeHtml((lastWs.nato_alert_level || "?").toUpperCase()) + '</span></div>';
-    if (gameSummary && gameSummary.total_time_seconds) {
-      var mins = Math.round(gameSummary.total_time_seconds / 60);
-      html += '<div class="dash-stat"><span class="dash-stat-label">Total Time</span><span class="dash-stat-value">' + mins + ' min</span></div>';
-    }
-    html += '</div>';
-
-    // Card: markets
-    html += '<div class="dash-card">';
-    html += '<h3>Markets (Latest)</h3>';
-    var mkts = lastWs.markets || {};
-    for (var mk in mkts) {
-      if (mkts.hasOwnProperty(mk)) {
-        html += '<div class="dash-stat"><span class="dash-stat-label">' + escapeHtml(mk) + '</span><span class="dash-stat-value">' + escapeHtml(String(mkts[mk])) + '</span></div>';
-      }
-    }
-    html += '</div>';
-
-    // Card: War Support chart (full width)
-    html += '<div class="dash-card full-width">';
-    html += '<h3>War Support by Country (across rounds)</h3>';
-    html += renderLineChart(sorted, "war_support");
-    html += '</div>';
-
-    // Card: Oil price chart
-    html += '<div class="dash-card">';
-    html += '<h3>Oil Price Trend</h3>';
-    html += renderSingleLineChart(sorted, function(ws) {
-      return (ws.markets || {}).oil_price;
-    }, "var(--accent-orange)", "$");
-    html += '</div>';
-
-    // Card: Total actions per round
-    html += '<div class="dash-card">';
-    html += '<h3>Actions per Round</h3>';
-    html += renderBarChart(sorted);
-    html += '</div>';
-
-    // Card: Latest headlines (full width)
-    var allHeadlines = [];
-    sorted.forEach(function(num) {
-      var rd = rounds[num];
-      var gm = rd.game_master || rd.resolution || {};
-      var hls = gm.headlines || rd.headlines || [];
-      hls.forEach(function(h) { allHeadlines.push({ round: num, text: h }); });
-    });
-    if (allHeadlines.length > 0) {
-      html += '<div class="dash-card full-width">';
-      html += '<h3>All Headlines</h3>';
-      html += '<ul class="headline-list">';
-      allHeadlines.slice(-10).reverse().forEach(function(h) {
-        html += '<li><span style="color: var(--text-muted); font-size: 11px;">R' + h.round + '</span> ' + escapeHtml(h.text) + '</li>';
-      });
-      html += '</ul></div>';
-    }
-
-    html += '</div>'; // end grid
-    dashboardContent.innerHTML = html;
+    escHtml += `<div class="escalation-segment ${cls}"></div>`;
   }
+  document.getElementById('escalation-bar').innerHTML = escHtml;
 
-  // ---- SVG Line Chart for war_support ----
-  function renderLineChart(sortedRounds, field) {
-    // Collect all countries that have data
-    var countryData = {};
-    sortedRounds.forEach(function(num) {
-      var ws = rounds[num].world_state || rounds[num].world_state_after || {};
-      var po = ws.public_opinion || {};
-      for (var c in po) {
-        if (po.hasOwnProperty(c) && po[c][field] !== undefined) {
-          if (!countryData[c]) countryData[c] = [];
-          countryData[c].push({ round: num, value: po[c][field] });
-        }
-      }
-    });
-    var countries = Object.keys(countryData).sort();
-    if (countries.length === 0) return '<div style="color: var(--text-muted);">No data yet</div>';
-
-    var W = 900, H = 200, PAD = 36;
-    var xMin = sortedRounds[0], xMax = sortedRounds[sortedRounds.length - 1];
-    if (xMin === xMax) xMax = xMin + 1;
-    var yMin = 0, yMax = 100;
-
-    function sx(v) { return PAD + (v - xMin) / (xMax - xMin) * (W - PAD * 2); }
-    function sy(v) { return H - PAD - (v - yMin) / (yMax - yMin) * (H - PAD * 2); }
-
-    var svg = '<svg class="chart-svg" viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="xMidYMid meet">';
-    // Grid lines
-    for (var g = 0; g <= 100; g += 25) {
-      var gy = sy(g);
-      svg += '<line x1="' + PAD + '" y1="' + gy + '" x2="' + (W - PAD) + '" y2="' + gy + '" stroke="#30363d" stroke-width="0.5"/>';
-      svg += '<text x="' + (PAD - 4) + '" y="' + (gy + 3) + '" fill="#6e7681" font-size="9" text-anchor="end">' + g + '%</text>';
+  // Timeline
+  const escalationData = await api('/api/charts/escalation');
+  let timelineHtml = '';
+  for (const rd of escalationData) {
+    for (const ev of (rd.events || [])) {
+      const dotCls = rd.escalation >= 7 ? 'critical' : rd.escalation >= 4 ? 'warning' : '';
+      timelineHtml += `
+        <div class="timeline-item fade-in">
+          <div class="timeline-dot ${dotCls}"></div>
+          <div class="timeline-round">Round ${rd.round} — ${rd.game_time}</div>
+          <div class="timeline-text">${escapeHtml(ev)}</div>
+        </div>
+      `;
     }
-    // X axis labels
-    sortedRounds.forEach(function(num) {
-      svg += '<text x="' + sx(num) + '" y="' + (H - 5) + '" fill="#6e7681" font-size="9" text-anchor="middle">R' + num + '</text>';
-    });
-    // Lines
-    countries.forEach(function(c) {
-      var pts = countryData[c];
-      var color = getColor(c);
-      var d = pts.map(function(p, i) { return (i === 0 ? "M" : "L") + sx(p.round) + "," + sy(p.value); }).join(" ");
-      svg += '<path d="' + d + '" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>';
-      // Dots
-      pts.forEach(function(p) {
-        svg += '<circle cx="' + sx(p.round) + '" cy="' + sy(p.value) + '" r="3" fill="' + color + '"/>';
-      });
-    });
-    svg += '</svg>';
-    // Legend
-    svg += '<div class="chart-legend">';
-    countries.forEach(function(c) {
-      svg += '<div class="chart-legend-item"><span class="chart-legend-dot" style="background:' + getColor(c) + '"></span>' + getFlag(c) + ' ' + c + '</div>';
-    });
-    svg += '</div>';
-    return '<div class="chart-container">' + svg + '</div>';
   }
+  document.getElementById('timeline').innerHTML = timelineHtml;
 
-  // ---- Single value line chart ----
-  function renderSingleLineChart(sortedRounds, valueFn, color, prefix) {
-    var pts = [];
-    sortedRounds.forEach(function(num) {
-      var ws = rounds[num].world_state || rounds[num].world_state_after || {};
-      var v = valueFn(ws);
-      if (v !== undefined && v !== null && typeof v === "number") pts.push({ round: num, value: v });
-    });
-    if (pts.length === 0) return '<div style="color: var(--text-muted);">No data yet</div>';
+  // Charts
+  await Promise.all([
+    renderOilChart(),
+    renderNuclearChart(),
+    renderWarSupportChart(),
+    renderMilitaryChart(),
+  ]);
+}
 
-    var W = 400, H = 160, PAD = 40;
-    var xMin = sortedRounds[0], xMax = sortedRounds[sortedRounds.length - 1];
-    if (xMin === xMax) xMax = xMin + 1;
-    var vals = pts.map(function(p) { return p.value; });
-    var yMin = Math.floor(Math.min.apply(null, vals) * 0.95);
-    var yMax = Math.ceil(Math.max.apply(null, vals) * 1.05);
-    if (yMin === yMax) yMax = yMin + 10;
+async function renderOilChart() {
+  const data = await api('/api/charts/oil-price');
+  const ctx = document.getElementById('chart-oil').getContext('2d');
+  if (state.charts.oil) state.charts.oil.destroy();
+  state.charts.oil = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: data.map(d => d.game_time),
+      datasets: [{
+        label: 'Oil Price ($/barrel)',
+        data: data.map(d => d.oil_price),
+        borderColor: '#f59e0b',
+        backgroundColor: 'rgba(245,158,11,0.1)',
+        fill: true,
+        tension: 0.3,
+        pointRadius: 5,
+        pointBackgroundColor: '#f59e0b',
+      }],
+    },
+    options: chartOptions('$'),
+  });
+}
 
-    function sx(v) { return PAD + (v - xMin) / (xMax - xMin) * (W - PAD * 2); }
-    function sy(v) { return H - PAD - (v - yMin) / (yMax - yMin) * (H - PAD * 2); }
+async function renderNuclearChart() {
+  const data = await api('/api/charts/nuclear');
+  const ctx = document.getElementById('chart-nuclear').getContext('2d');
+  if (state.charts.nuclear) state.charts.nuclear.destroy();
 
-    var svg = '<svg class="chart-svg" viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="xMidYMid meet">';
-    // Y axis
-    var steps = 4;
-    for (var i = 0; i <= steps; i++) {
-      var yv = yMin + (yMax - yMin) * i / steps;
-      var yp = sy(yv);
-      svg += '<line x1="' + PAD + '" y1="' + yp + '" x2="' + (W - 5) + '" y2="' + yp + '" stroke="#30363d" stroke-width="0.5"/>';
-      svg += '<text x="' + (PAD - 3) + '" y="' + (yp + 3) + '" fill="#6e7681" font-size="8" text-anchor="end">' + (prefix || "") + Math.round(yv) + '</text>';
-    }
-    // Line
-    var d = pts.map(function(p, j) { return (j === 0 ? "M" : "L") + sx(p.round) + "," + sy(p.value); }).join(" ");
-    svg += '<path d="' + d + '" fill="none" stroke="' + color + '" stroke-width="2"/>';
-    pts.forEach(function(p) {
-      svg += '<circle cx="' + sx(p.round) + '" cy="' + sy(p.value) + '" r="3" fill="' + color + '"/>';
-    });
-    svg += '</svg>';
-    return '<div class="chart-container" style="height: 160px;">' + svg + '</div>';
-  }
+  const countries = ['RU', 'US', 'GB', 'FR'];
+  const colors = { RU: '#ef4444', US: '#10b981', GB: '#8b5cf6', FR: '#3b82f6' };
 
-  // ---- Bar chart: actions per round ----
-  function renderBarChart(sortedRounds) {
-    var data = [];
-    sortedRounds.forEach(function(num) {
-      var rd = rounds[num];
-      var total = 0;
-      (rd.country_decisions || []).forEach(function(cd) { total += (cd.actions || []).length; });
-      data.push({ round: num, value: total });
-    });
-    if (data.length === 0) return '<div style="color: var(--text-muted);">No data</div>';
+  state.charts.nuclear = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: data.map(d => d.game_time),
+      datasets: countries.filter(c => data[0][c] !== undefined).map(c => ({
+        label: c,
+        data: data.map(d => d[c] || 0),
+        borderColor: colors[c],
+        backgroundColor: 'transparent',
+        tension: 0.3,
+        pointRadius: 4,
+        pointBackgroundColor: colors[c],
+      })),
+    },
+    options: {
+      ...chartOptions(),
+      scales: {
+        y: {
+          min: 0, max: 4,
+          ticks: {
+            color: '#9ca3af',
+            callback: v => ['Peacetime','Elevated','Dispersal','','Launch Ready'][v] || '',
+          },
+          grid: { color: 'rgba(55,65,81,0.3)' },
+        },
+        x: { ticks: { color: '#9ca3af', maxRotation: 0 }, grid: { display: false } },
+      },
+    },
+  });
+}
 
-    var W = 400, H = 160, PAD = 35;
-    var maxVal = Math.max.apply(null, data.map(function(d) { return d.value; })) || 1;
-    var barW = Math.min(30, (W - PAD * 2) / data.length - 4);
+async function renderWarSupportChart() {
+  const data = await api('/api/charts/war-support');
+  const ctx = document.getElementById('chart-warsupport').getContext('2d');
+  if (state.charts.warSupport) state.charts.warSupport.destroy();
 
-    var svg = '<svg class="chart-svg" viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="xMidYMid meet">';
-    data.forEach(function(d, i) {
-      var x = PAD + i * ((W - PAD * 2) / data.length) + 2;
-      var bh = (d.value / maxVal) * (H - PAD * 2);
-      var y = H - PAD - bh;
-      svg += '<rect x="' + x + '" y="' + y + '" width="' + barW + '" height="' + bh + '" rx="2" fill="var(--accent-blue)" opacity="0.8"/>';
-      svg += '<text x="' + (x + barW / 2) + '" y="' + (y - 4) + '" fill="var(--text-secondary)" font-size="9" text-anchor="middle">' + d.value + '</text>';
-      svg += '<text x="' + (x + barW / 2) + '" y="' + (H - 8) + '" fill="#6e7681" font-size="8" text-anchor="middle">R' + d.round + '</text>';
-    });
-    svg += '</svg>';
-    return '<div class="chart-container" style="height: 160px;">' + svg + '</div>';
-  }
+  const displayCountries = ['PL', 'US', 'DE', 'GB', 'FR', 'RU', 'LT'];
+  const colors = COUNTRY_COLORS;
+  const maxRounds = Math.max(...Object.values(data).map(arr => arr.length));
+  const labels = Array.from({length: maxRounds}, (_, i) => `Round ${i + 1}`);
 
-  // ======================================================================
-  // Round rendering (kept from original, with minor fixes)
-  // ======================================================================
-  function renderRound(data) {
-    var html = "";
-    html += '<h2 style="margin-bottom: 20px; color: var(--accent-blue);">Round ' +
-      (data.round || "?") + ' &mdash; ' + escapeHtml(data.game_time || "") + '</h2>';
+  state.charts.warSupport = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels,
+      datasets: displayCountries.filter(c => data[c]).map(c => ({
+        label: c,
+        data: data[c].map(d => d.war_support),
+        borderColor: colors[c] || '#6b7280',
+        backgroundColor: 'transparent',
+        tension: 0.3,
+        pointRadius: 3,
+        borderWidth: 2,
+      })),
+    },
+    options: {
+      ...chartOptions('%'),
+      scales: {
+        y: { min: 0, max: 100, ticks: { color: '#9ca3af' }, grid: { color: 'rgba(55,65,81,0.3)' } },
+        x: { ticks: { color: '#9ca3af' }, grid: { display: false } },
+      },
+    },
+  });
+}
 
-    var briefing = data.situation || data.briefing || "";
-    if (briefing) {
-      html += buildSection("Situation Briefing", "situation",
-        '<div class="briefing-text">' + renderMarkdown(briefing) + '</div>');
-    }
+async function renderMilitaryChart() {
+  const data = await api('/api/charts/military');
+  const ctx = document.getElementById('chart-military').getContext('2d');
+  if (state.charts.military) state.charts.military.destroy();
 
-    var decisions = data.country_decisions || [];
-    if (decisions.length > 0) {
-      var collapseByDefault = decisions.length > 4;
-      var countriesHtml = "";
-      if (decisions.length > 6) {
-        // Group by bloc when many countries
-        var groups = groupDecisionsByBloc(decisions);
-        var groupOrder = ["frontline", "nato_core", "nato_other", "russian_bloc", "global_south", "organizations", "other"];
-        var groupLabels = {
-          frontline: "\u{1F6A8} Frontline States",
-          nato_core: "\u{1F6E1}\uFE0F NATO Core",
-          nato_other: "\u{1F6E1}\uFE0F NATO Members",
-          russian_bloc: "\u2694\uFE0F Russian Bloc",
-          global_south: "\u{1F30D} Global South & Neutral",
-          organizations: "\u{1F3DB}\uFE0F Organizations",
-          other: "\u{1F30F} Other Actors"
-        };
-        var groupColors = {
-          frontline: "var(--accent-red)",
-          nato_core: "var(--accent-blue)",
-          nato_other: "var(--accent-cyan)",
-          russian_bloc: "var(--accent-purple)",
-          global_south: "var(--accent-green)",
-          organizations: "var(--accent-orange)",
-          other: "var(--text-secondary)"
-        };
-        groupOrder.forEach(function(gk) {
-          var items = groups[gk];
-          if (!items || items.length === 0) return;
-          var label = groupLabels[gk] || gk;
-          var color = groupColors[gk] || "var(--text-secondary)";
-          countriesHtml += '<div class="country-group">';
-          countriesHtml += '<div class="country-group-header" style="border-left: 3px solid ' + color + ';">';
-          countriesHtml += '<span style="font-size:14px; font-weight:600; color:' + color + ';">' + label + '</span>';
-          countriesHtml += '<span class="badge">' + items.length + '</span>';
-          countriesHtml += '</div>';
-          countriesHtml += '<div class="country-decisions-grid">';
-          items.forEach(function(cd) { countriesHtml += renderCountryDecision(cd, collapseByDefault); });
-          countriesHtml += '</div></div>';
-        });
-      } else {
-        countriesHtml = '<div class="country-decisions-grid">';
-        decisions.forEach(function(cd) { countriesHtml += renderCountryDecision(cd, collapseByDefault); });
-        countriesHtml += '</div>';
-      }
-      html += buildSection("Country Debates & Decisions", "debates", countriesHtml, decisions.length + " actors");
-    }
+  state.charts.military = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: data.map(d => `Round ${d.round}`),
+      datasets: [
+        {
+          label: 'NATO Strength',
+          data: data.map(d => d.nato_strength),
+          backgroundColor: 'rgba(59,130,246,0.7)',
+        },
+        {
+          label: 'Russia/Belarus Strength',
+          data: data.map(d => d.ru_strength),
+          backgroundColor: 'rgba(239,68,68,0.7)',
+        },
+        {
+          label: 'NATO Casualties',
+          data: data.map(d => -d.nato_casualties),
+          backgroundColor: 'rgba(59,130,246,0.3)',
+        },
+        {
+          label: 'Russia Casualties',
+          data: data.map(d => -d.ru_casualties),
+          backgroundColor: 'rgba(239,68,68,0.3)',
+        },
+      ],
+    },
+    options: {
+      ...chartOptions(),
+      scales: {
+        y: { ticks: { color: '#9ca3af' }, grid: { color: 'rgba(55,65,81,0.3)' } },
+        x: { ticks: { color: '#9ca3af' }, grid: { display: false } },
+      },
+    },
+  });
+}
 
-    var gm = data.game_master || data.resolution || {};
-    var narrative = gm.narrative || "";
-    if (narrative) {
-      html += buildSection("Game Master Resolution", "gm",
-        '<div class="narrative-text">' + renderMarkdown(narrative) + '</div>');
-    }
-
-    var headlines = gm.headlines || data.headlines || [];
-    if (headlines.length > 0) {
-      var hlHtml = '<ul class="headline-list">';
-      headlines.forEach(function(hl) { hlHtml += '<li>' + escapeHtml(hl) + '</li>'; });
-      hlHtml += '</ul>';
-      html += buildSection("Headlines", "headlines", hlHtml, headlines.length + " stories");
-    }
-
-    var surprises = gm.surprises || [];
-    if (surprises.length > 0) {
-      var sHtml = '<ul class="headline-list">';
-      surprises.forEach(function(s) { sHtml += '<li style="border-left-color: var(--accent-red);">' + escapeHtml(s) + '</li>'; });
-      sHtml += '</ul>';
-      html += buildSection("Surprise Developments", "surprises", sHtml, surprises.length);
-    }
-
-    var ws = data.world_state || data.world_state_after || {};
-    if (Object.keys(ws).length > 0) {
-      html += buildSection("World State", "worldstate", renderWorldState(ws));
-    }
-
-    roundContent.innerHTML = html;
-    attachToggles(roundContent);
-  }
-
-  function attachToggles(container) {
-    container.querySelectorAll(".section-header").forEach(function(h) {
-      h.addEventListener("click", function() {
-        var body = h.nextElementSibling;
-        body.classList.toggle("hidden");
-        h.classList.toggle("collapsed");
-      });
-    });
-    container.querySelectorAll(".country-header").forEach(function(h) {
-      h.addEventListener("click", function() {
-        h.nextElementSibling.classList.toggle("hidden");
-      });
-    });
-  }
-
-  function buildSection(title, id, bodyHtml, badgeText) {
-    var badge = badgeText ? '<span class="badge">' + escapeHtml(String(badgeText)) + '</span>' : '';
-    return '<div class="section"><div class="section-header" data-section="' + id + '">' +
-      '<span class="toggle-icon">&#9660;</span><h3>' + escapeHtml(title) + '</h3>' + badge +
-      '</div><div class="section-body">' + bodyHtml + '</div></div>';
-  }
-
-  // ---- Bloc grouping for country decisions ----
-  var BLOC_MAP = {
-    // Frontline states (directly involved in Suwalki)
-    frontline: ["PL", "LT", "LV", "EE", "BY", "RU"],
-    // NATO core (P5 + major contributors)
-    nato_core: ["US", "GB", "FR", "DE", "CA", "TR"],
-    // Other NATO members
-    nato_other: [
-      "NO", "DK", "NL", "BE", "LU", "IT", "ES", "PT", "GR",
-      "CZ", "SK", "HU", "RO", "BG", "HR", "SI", "AL", "ME",
-      "MK", "IS", "FI", "SE"
-    ],
-    // Russian bloc / allies
-    russian_bloc: ["RU", "BY", "RS", "KP", "IR", "SY", "CU", "VE", "MM"],
-    // Global South & neutral
-    global_south: ["CN", "IN", "BR", "ZA", "SA", "JP", "KR", "AU", "ID",
-      "EG", "PK", "NG", "MX", "PH", "VN", "AE", "AR", "CO", "UA", "IL"],
-    // Organizations
-    organizations: ["EU", "UN", "NATO", "CSTO", "SCO", "G7", "OSCE",
-      "ASEAN", "AFC", "AU_ORG", "ARAB"]
+function chartOptions(suffix = '') {
+  return {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { labels: { color: '#9ca3af', font: { size: 11 } } },
+      tooltip: {
+        backgroundColor: '#1a2332',
+        titleColor: '#e5e7eb',
+        bodyColor: '#9ca3af',
+        borderColor: '#2d3748',
+        borderWidth: 1,
+        callbacks: suffix ? { label: ctx => `${ctx.dataset.label}: ${suffix}${ctx.parsed.y}` } : {},
+      },
+    },
+    scales: {
+      y: { ticks: { color: '#9ca3af' }, grid: { color: 'rgba(55,65,81,0.3)' } },
+      x: { ticks: { color: '#9ca3af', maxRotation: 0 }, grid: { display: false } },
+    },
   };
+}
 
-  function getBloc(code) {
-    // Check organizations first (exact matches)
-    if (BLOC_MAP.organizations.indexOf(code) !== -1) return "organizations";
-    if (BLOC_MAP.frontline.indexOf(code) !== -1) {
-      // RU and BY are also in russian_bloc — classify by role in crisis
-      if (code === "RU" || code === "BY") return "russian_bloc";
-      return "frontline";
+// ============================================================
+// ROUNDS VIEW
+// ============================================================
+function renderRoundsNav() {
+  const nav = document.getElementById('round-nav');
+  nav.innerHTML = state.rounds.map(r => `
+    <button class="round-btn" data-round="${r.round}" onclick="loadRound(${r.round})">
+      Round ${r.round}
+      <span style="font-size:10px;display:block;color:var(--text-muted)">${r.game_time}</span>
+    </button>
+  `).join('');
+}
+
+async function loadRound(num) {
+  // Update nav
+  document.querySelectorAll('#round-nav .round-btn').forEach(b => {
+    b.classList.toggle('active', parseInt(b.dataset.round) === num);
+  });
+
+  state.currentRound = num;
+  const data = await api(`/api/rounds/${num}`);
+
+  const detail = document.getElementById('round-detail');
+  let html = '<div class="fade-in">';
+
+  // Briefing
+  html += `
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">Situation Briefing</span>
+        <span class="card-subtitle">Round ${data.round} — ${data.world_state_after?.game_time || ''}</span>
+      </div>
+      <div class="briefing-text">${escapeHtml(data.briefing || '')}</div>
+    </div>
+  `;
+
+  // Headlines
+  const headlines = data.resolution?.headlines || data.world_state_after?.media_headlines || [];
+  if (headlines.length > 0) {
+    html += `<div class="card"><div class="card-header"><span class="card-title">Media Headlines</span></div>`;
+    for (const hl of headlines) {
+      html += `<div class="headline-item">${escapeHtml(hl)}</div>`;
     }
-    if (BLOC_MAP.nato_core.indexOf(code) !== -1) return "nato_core";
-    if (BLOC_MAP.nato_other.indexOf(code) !== -1) return "nato_other";
-    if (BLOC_MAP.russian_bloc.indexOf(code) !== -1) return "russian_bloc";
-    if (BLOC_MAP.global_south.indexOf(code) !== -1) return "global_south";
-    return "other";
+    html += `</div>`;
   }
 
-  function groupDecisionsByBloc(decisions) {
-    var groups = {};
-    decisions.forEach(function(cd) {
-      var code = cd.country_code || cd.country || "??";
-      var bloc = getBloc(code);
-      if (!groups[bloc]) groups[bloc] = [];
-      groups[bloc].push(cd);
-    });
-    return groups;
+  // Country Decisions (collapsible)
+  html += `<div class="card"><div class="card-header"><span class="card-title">Country Decisions (${data.country_decisions?.length || 0})</span></div>`;
+  for (const dec of (data.country_decisions || [])) {
+    html += buildCountryDecisionCollapsible(dec);
   }
+  html += `</div>`;
 
-  function renderCountryDecision(cd, collapsed) {
-    var code = cd.country_code || cd.country || "??";
-    var name = cd.country_name || cd.country || code;
-    if (cd.country && cd.country.length > 3) name = cd.country;
-    var flag = getFlag(code);
-    var bodyHtml = "";
-
-    var debateLog = cd.debate_log || [];
-    if (debateLog.length > 0) {
-      var curRound = 0;
-      debateLog.forEach(function(entry) {
-        if (entry.round !== curRound) {
-          curRound = entry.round;
-          bodyHtml += '<div class="debate-round-label">Debate Round ' + curRound + '</div>';
-        }
-        var roleClass = "role-" + (entry.role || "").replace(/\s+/g, "_");
-        bodyHtml += '<div class="debate-entry ' + roleClass + '">' +
-          '<div class="faction-name">' + escapeHtml(entry.faction || "Unknown") + '</div>' +
-          '<div class="faction-role">' + escapeHtml(entry.role || "") + '</div>' +
-          '<div class="faction-content">' + renderMarkdown(entry.content || "") + '</div></div>';
-      });
-    }
-
-    var decision = cd.decision || "";
-    var actions = cd.actions || [];
-    if (decision || actions.length > 0) {
-      bodyHtml += '<div class="decision-block"><h4>Final Decision</h4>';
-      if (decision) bodyHtml += '<div class="decision-text">' + renderMarkdown(decision) + '</div>';
-      if (actions.length > 0) {
-        bodyHtml += '<ul class="action-list">';
-        actions.forEach(function(a) { bodyHtml += '<li>' + escapeHtml(a) + '</li>'; });
-        bodyHtml += '</ul>';
+  // GM Resolution
+  if (data.resolution) {
+    html += `
+      <div class="card">
+        <div class="card-header"><span class="card-title">Game Master Resolution</span></div>
+        <div class="narrative-text">${escapeHtml(data.resolution.narrative || '')}</div>
+    `;
+    // Events
+    if (data.resolution.events?.length > 0) {
+      html += `<div style="margin-top:16px;"><strong style="font-size:12px;color:var(--text-muted)">EVENTS</strong>`;
+      for (const ev of data.resolution.events) {
+        html += `<div class="event-item"><span class="event-bullet">&#9679;</span> ${escapeHtml(ev)}</div>`;
       }
-      if (cd.dissent) bodyHtml += '<div class="dissent-text">Dissent: ' + escapeHtml(cd.dissent) + '</div>';
-      bodyHtml += '</div>';
+      html += `</div>`;
     }
-
-    var reasoning = cd.reasoning || "";
-    if (reasoning && !debateLog.length) {
-      bodyHtml += '<div class="debate-entry"><div class="faction-name">Internal Reasoning</div>' +
-        '<div class="faction-content">' + renderMarkdown(reasoning) + '</div></div>';
-    }
-
-    // Show action count summary in header
-    var actionCount = (cd.actions || []).length;
-    var actionBadge = actionCount > 0 ? '<span class="badge" style="margin-left:auto;">' + actionCount + ' action' + (actionCount !== 1 ? 's' : '') + '</span>' : '';
-
-    return '<div class="country-block"><div class="country-header" style="border-left: 3px solid ' + getColor(code) + '">' +
-      '<span class="country-flag">' + flag + '</span>' +
-      '<span class="country-name">' + escapeHtml(name) + '</span>' +
-      '<span class="country-code">' + escapeHtml(code) + '</span>' + actionBadge + '</div>' +
-      '<div class="country-body' + (collapsed ? ' hidden' : '') + '">' + bodyHtml + '</div></div>';
-  }
-
-  function renderWorldState(ws) {
-    var html = '<table class="state-table">';
-    html += tableRow("NATO Alert Level",
-      '<span style="color:' + alertColor(ws.nato_alert_level) + '; font-weight: 600;">' +
-      escapeHtml((ws.nato_alert_level || "unknown").toUpperCase()) + '</span>');
-    html += tableRow("Game Time", escapeHtml(ws.game_time || "N/A"));
-
-    var markets = ws.markets || {};
-    if (Object.keys(markets).length > 0) {
-      var ml = "";
-      for (var k in markets) { if (markets.hasOwnProperty(k)) ml += '<div><span class="metric-label">' + escapeHtml(k) + ':</span> <span class="metric-value">' + escapeHtml(String(markets[k])) + '</span></div>'; }
-      html += tableRow("Markets", ml);
-    }
-
-    var po = ws.public_opinion || {};
-    if (Object.keys(po).length > 0) {
-      var poH = "";
-      for (var co in po) {
-        if (po.hasOwnProperty(co)) {
-          poH += '<div style="margin-bottom: 8px;"><strong>' + getFlag(co) + ' ' + escapeHtml(co) + '</strong>';
-          if (po[co].war_support !== undefined) poH += renderOpinionBar("War Support", po[co].war_support, warSupportColor);
-          if (po[co].government_approval !== undefined) poH += renderOpinionBar("Gov Approval", po[co].government_approval, approvalColor);
-          poH += '</div>';
-        }
+    // Surprises
+    if (data.resolution.surprises?.length > 0) {
+      html += `<div style="margin-top:16px;"><strong style="font-size:12px;color:var(--accent-orange)">SURPRISES</strong>`;
+      for (const s of data.resolution.surprises) {
+        html += `<div class="surprise-item">${escapeHtml(s)}</div>`;
       }
-      html += tableRow("Public Opinion", poH);
+      html += `</div>`;
     }
-
-    var cons = ws.nato_consensus || {};
-    if (Object.keys(cons).length > 0) {
-      var cH = "";
-      for (var cc in cons) { if (cons.hasOwnProperty(cc)) cH += '<div>' + getFlag(cc) + ' <strong>' + escapeHtml(cc) + '</strong>: ' + escapeHtml(cons[cc]) + '</div>'; }
-      html += tableRow("NATO Consensus", cH);
-    }
-
-    var sanctions = ws.sanctions || [];
-    if (sanctions.length > 0) {
-      var sH = '<ul style="margin:0; padding-left:16px;">';
-      sanctions.forEach(function(s) {
-        var txt = (typeof s === "string") ? s : (s.from || "?") + " -> " + (s.target || "?") + ": " + (s.type || "");
-        sH += '<li style="margin:2px 0;">' + escapeHtml(txt) + '</li>';
-      });
-      sH += '</ul>';
-      html += tableRow("Sanctions", sH);
-    }
-
-    var treaties = ws.treaties_invoked || [];
-    if (treaties.length > 0) {
-      var tH = '<ul style="margin:0; padding-left:16px;">';
-      treaties.forEach(function(t) { tH += '<li style="margin:2px 0; color: var(--accent-red);">' + escapeHtml(t) + '</li>'; });
-      tH += '</ul>';
-      html += tableRow("Treaties Invoked", tH);
-    }
-
-    var events = ws.recent_events || [];
-    if (events.length > 0) {
-      var eH = '<ul style="margin:0; padding-left:16px;">';
-      events.forEach(function(ev) { eH += '<li style="margin:2px 0;">' + escapeHtml(ev) + '</li>'; });
-      eH += '</ul>';
-      html += tableRow("Recent Events", eH);
-    }
-
-    var units = ws.military_units || [];
-    if (units.length > 0) {
-      var uH = '<div style="max-height: 250px; overflow-y: auto;">';
-      units.forEach(function(u) {
-        uH += '<div style="margin:4px 0; font-size:12px;">' +
-          getFlag(u.country || "") + ' <strong>' + escapeHtml(u.name || "") + '</strong> @ ' +
-          escapeHtml(u.location || "?") + ' [R:' + (u.readiness || "?") + ' S:' + (u.strength || "?") + ']</div>';
-      });
-      uH += '</div>';
-      html += tableRow("Military Units (" + units.length + ")", uH);
-    }
-
-    html += '</table>';
-    return html;
+    html += `</div>`;
   }
 
-  // ---- Helpers ----
-  function tableRow(l, v) {
-    return '<tr><td class="metric-label" style="width:160px; white-space:nowrap;">' + l + '</td><td>' + v + '</td></tr>';
-  }
-  function renderOpinionBar(label, value, colorFn) {
-    var pct = Math.max(0, Math.min(100, value));
-    var c = colorFn(pct);
-    return '<div class="opinion-bar-container"><span class="opinion-bar-label">' + escapeHtml(label) + '</span>' +
-      '<div class="opinion-bar-track"><div class="opinion-bar-fill" style="width:' + pct + '%; background:' + c + ';"></div></div>' +
-      '<span class="opinion-bar-value" style="color:' + c + ';">' + pct + '%</span></div>';
-  }
-  function warSupportColor(p) { return p >= 60 ? "var(--accent-red)" : p >= 40 ? "var(--accent-orange)" : "var(--accent-green)"; }
-  function approvalColor(p) { return p >= 60 ? "var(--accent-green)" : p >= 40 ? "var(--accent-orange)" : "var(--accent-red)"; }
-  function alertColor(l) {
-    if (!l) return "var(--text-secondary)";
-    switch (l.toLowerCase()) {
-      case "article5": return "var(--accent-red)";
-      case "high": return "var(--accent-orange)";
-      case "elevated": return "var(--accent-yellow)";
-      case "normal": return "var(--accent-green)";
-      default: return "var(--text-secondary)";
+  html += '</div>';
+  detail.innerHTML = html;
+}
+
+function buildCountryDecisionCollapsible(dec) {
+  const code = dec.country;
+  const name = dec.country_name || code;
+
+  let body = '';
+
+  // Actions
+  if (dec.actions?.length > 0) {
+    body += `<div style="margin-bottom:12px"><strong style="font-size:11px;color:var(--text-muted)">ACTIONS</strong>`;
+    for (const a of dec.actions) {
+      body += `<div class="action-item">${escapeHtml(a)}</div>`;
     }
-  }
-  function escapeHtml(t) {
-    if (!t) return "";
-    var d = document.createElement("div");
-    d.appendChild(document.createTextNode(String(t)));
-    return d.innerHTML;
+    body += `</div>`;
   }
 
-  /** Light markdown renderer: **bold**, *italic*, ### headers, - lists, numbered lists */
-  function renderMarkdown(t) {
-    if (!t) return "";
-    var safe = escapeHtml(t);
-    // Headers: ### text -> <h4>, ## -> <h3> (only at line start)
-    safe = safe.replace(/^####\s+(.+)$/gm, '<h5 style="color:var(--accent-cyan);margin:12px 0 4px;font-size:13px;">$1</h5>');
-    safe = safe.replace(/^###\s+(.+)$/gm, '<h4 style="color:var(--accent-blue);margin:14px 0 6px;font-size:14px;">$1</h4>');
-    safe = safe.replace(/^##\s+(.+)$/gm, '<h3 style="color:var(--accent-blue);margin:16px 0 8px;font-size:15px;">$1</h3>');
-    // Bold: **text** or __text__
-    safe = safe.replace(/\*\*([^*]+)\*\*/g, '<strong style="color:var(--accent-cyan);">$1</strong>');
-    safe = safe.replace(/__([^_]+)__/g, '<strong style="color:var(--accent-cyan);">$1</strong>');
-    // Italic: *text* or _text_ (but not inside **)
-    safe = safe.replace(/(?<!\*)\*([^*]+)\*(?!\*)/g, '<em>$1</em>');
-    // Unordered lists: - item or * item at line start
-    safe = safe.replace(/^[\-\*]\s+(.+)$/gm, '<div style="padding-left:16px;position:relative;"><span style="color:var(--accent-blue);position:absolute;left:0;">\u25B8</span>$1</div>');
-    // Numbered lists: 1. item, 2. item
-    safe = safe.replace(/^(\d+)\.\s+(.+)$/gm, '<div style="padding-left:24px;position:relative;"><span style="color:var(--accent-orange);position:absolute;left:0;font-weight:600;font-size:12px;">$1.</span>$2</div>');
-    // Line breaks
-    safe = safe.replace(/\n/g, '<br>');
-    return safe;
+  // Diplomatic Messages
+  if (dec.diplomatic_messages?.length > 0) {
+    body += `<div style="margin-bottom:12px"><strong style="font-size:11px;color:var(--text-muted)">DIPLOMATIC MESSAGES</strong>`;
+    for (const m of dec.diplomatic_messages) {
+      const channelCls = `channel-${m.channel || 'public'}`;
+      body += `
+        <div class="diplo-msg">
+          <span class="diplo-to">${escapeHtml(m.to)}</span>
+          <span class="diplo-channel ${channelCls}">${m.channel || 'public'}</span>
+          <span style="color:var(--text-secondary)">${escapeHtml(m.message || '')}</span>
+        </div>
+      `;
+    }
+    body += `</div>`;
   }
 
-  // ---- Init: try server, fallback to manual ----
-  tryServerConnect();
+  // Reasoning
+  if (dec.reasoning) {
+    body += `<div class="reasoning-text">${escapeHtml(dec.reasoning)}</div>`;
+  }
 
-})();
+  // Debate log (faction transcripts)
+  if (dec.debate_log?.length > 0) {
+    body += `<div style="margin-top:16px"><strong style="font-size:11px;color:var(--text-muted)">INTERNAL DEBATE</strong>`;
+    for (const entry of dec.debate_log) {
+      body += `
+        <div class="debate-entry">
+          <div class="debate-faction">${escapeHtml(entry.faction || '')}</div>
+          <div class="debate-role">Round ${entry.round} — ${entry.role || ''}</div>
+          <div class="debate-content">${escapeHtml(entry.content || '')}</div>
+        </div>
+      `;
+    }
+    body += `</div>`;
+  }
+
+  // Dissent
+  if (dec.dissent) {
+    body += `<div style="margin-top:12px;padding:10px;background:rgba(245,158,11,0.05);border-radius:6px;font-size:12px;color:var(--accent-orange)"><strong>DISSENT:</strong> ${escapeHtml(dec.dissent)}</div>`;
+  }
+
+  return `
+    <div class="collapsible" onclick="this.classList.toggle('open')">
+      <div class="collapsible-header">
+        <span><strong style="color:var(--accent-cyan);margin-right:8px">${escapeHtml(code)}</strong> ${escapeHtml(name)}</span>
+        <span class="collapsible-arrow">&#9654;</span>
+      </div>
+      <div class="collapsible-body" onclick="event.stopPropagation()">${body}</div>
+    </div>
+  `;
+}
+
+// ============================================================
+// COUNTRIES VIEW
+// ============================================================
+function renderCountries() {
+  const list = document.getElementById('countries-list');
+  let html = '<div class="country-grid">';
+  for (const c of state.countries) {
+    html += `
+      <div class="country-card" onclick="loadCountryDetail('${c.code}')">
+        <div class="country-code">${escapeHtml(c.code)}</div>
+        <div class="country-name">${escapeHtml(c.name)}</div>
+        <div class="country-rounds">${c.rounds_present.length} rounds</div>
+      </div>
+    `;
+  }
+  html += '</div>';
+  list.innerHTML = html;
+}
+
+async function loadCountryDetail(code) {
+  document.getElementById('countries-list').style.display = 'none';
+  const detail = document.getElementById('country-detail');
+  detail.style.display = 'block';
+
+  const data = await api(`/api/countries/${code}`);
+
+  let html = `<div class="fade-in">`;
+  html += `
+    <div class="country-detail-header">
+      <div class="country-detail-code">${escapeHtml(code)}</div>
+      <div>
+        <div style="font-size:20px;font-weight:600">${escapeHtml(data.name)}</div>
+        <div class="country-back" onclick="closeCountryDetail()">&#8592; Back to all countries</div>
+      </div>
+    </div>
+  `;
+
+  for (const dec of data.decisions) {
+    html += `<div style="margin-bottom:4px;font-size:12px;font-weight:600;color:var(--accent-cyan)">Round ${dec.round}</div>`;
+    html += buildCountryDecisionCollapsible(dec);
+  }
+
+  html += '</div>';
+  detail.innerHTML = html;
+}
+
+function closeCountryDetail() {
+  document.getElementById('countries-list').style.display = 'block';
+  document.getElementById('country-detail').style.display = 'none';
+}
+
+// ============================================================
+// WORLD STATE VIEW
+// ============================================================
+function renderWorldStateNav() {
+  const nav = document.getElementById('ws-round-nav');
+  nav.innerHTML = state.rounds.map(r => `
+    <button class="round-btn" data-round="${r.round}" onclick="loadWorldState(${r.round})">
+      Round ${r.round}
+    </button>
+  `).join('');
+}
+
+async function loadWorldState(num) {
+  // Update nav
+  document.querySelectorAll('#ws-round-nav .round-btn').forEach(b => {
+    b.classList.toggle('active', parseInt(b.dataset.round) === num);
+  });
+
+  const ws = await api(`/api/world-state/${num}`);
+
+  // Metrics
+  const metrics = document.getElementById('ws-metrics');
+  const np = ws.nuclear_posture || {};
+  const maxNuke = Object.values(np).reduce((max, p) => {
+    const order = ['peacetime', 'elevated', 'dispersal', 'launch_ready'];
+    return order.indexOf(p) > order.indexOf(max) ? p : max;
+  }, 'peacetime');
+
+  metrics.innerHTML = `
+    <div class="metric-item">
+      <div class="metric-label">Game Time</div>
+      <div class="metric-value" style="font-size:16px;color:var(--accent-cyan)">${ws.game_time || '—'}</div>
+    </div>
+    <div class="metric-item">
+      <div class="metric-label">Oil Price</div>
+      <div class="metric-value" style="color:var(--accent-orange)">$${ws.markets?.oil_price || '—'}</div>
+    </div>
+    <div class="metric-item">
+      <div class="metric-label">NATO Alert</div>
+      <div class="metric-value" style="font-size:16px;color:${ws.nato_alert_level === 'article5' ? 'var(--accent-red)' : 'var(--accent-orange)'}">${(ws.nato_alert_level || '—').toUpperCase()}</div>
+    </div>
+    <div class="metric-item">
+      <div class="metric-label">Corridor</div>
+      <div class="metric-value" style="font-size:16px;color:${ws.corridor_control === 'russian' ? 'var(--accent-red)' : 'var(--accent-orange)'}">${(ws.corridor_control || '—').toUpperCase()}</div>
+    </div>
+    <div class="metric-item">
+      <div class="metric-label">Nuclear Posture</div>
+      <div class="metric-value" style="font-size:16px;color:${maxNuke !== 'peacetime' ? 'var(--accent-red)' : 'var(--accent-green)'}">${maxNuke.toUpperCase().replace('_', ' ')}</div>
+    </div>
+    <div class="metric-item">
+      <div class="metric-label">Military Units</div>
+      <div class="metric-value" style="color:var(--accent-cyan)">${(ws.military_units || []).length}</div>
+    </div>
+  `;
+
+  // JSON
+  document.getElementById('ws-json').innerHTML = syntaxHighlight(JSON.stringify(ws, null, 2));
+}
+
+// ============================================================
+// UTILITIES
+// ============================================================
+function escapeHtml(text) {
+  const div = document.createElement('div');
+  div.textContent = text;
+  return div.innerHTML;
+}
+
+function syntaxHighlight(json) {
+  return json.replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g, function (match) {
+    let cls = 'json-number';
+    if (/^"/.test(match)) {
+      if (/:$/.test(match)) {
+        cls = 'json-key';
+      } else {
+        cls = 'json-string';
+      }
+    } else if (/true|false/.test(match)) {
+      cls = 'json-bool';
+    } else if (/null/.test(match)) {
+      cls = 'json-null';
+    }
+    return '<span class="' + cls + '">' + match + '</span>';
+  });
+}
+
+// ============================================================
+// BOOT
+// ============================================================
+loadGameList();
 </script>
 </body>
 </html>

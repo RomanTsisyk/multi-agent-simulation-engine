@@ -153,6 +153,8 @@ class TestWorldStateMutations:
         ws.military_units.append(MilitaryUnit(
             name="test_unit",
             country="PL",
+            type="ground",
+            location="Warsaw",
             strength=5,
             readiness=5
         ))

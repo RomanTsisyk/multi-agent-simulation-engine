@@ -213,7 +213,7 @@ def _escalation_timeline(rounds: list[dict]) -> list[dict]:
         nuc = ws.get("nuclear_posture", {})
         max_nuc = 0
         for posture in nuc.values():
-            levels = ["peacetime", "elevated", "dispersal", "launch_ready", "tactical_use", "strategic"]
+            levels = ["peacetime", "elevated", "dispersal", "launch_ready"]
             idx = levels.index(posture) if posture in levels else 0
             max_nuc = max(max_nuc, idx)
         if max_nuc >= 3:
@@ -283,8 +283,10 @@ def _pivotal_moments(rounds: list[dict]) -> list[dict]:
     pivotal = []
     pivot_keywords = {
         "nuclear", "article 5", "ceasefire", "invasion", "retreat",
-        "surrender", "breakthrough", "collapse", "escalat",
+        "surrender", "breakthrough", "collapse",
     }
+    # Match escalation but not de-escalation
+    escalation_patterns = [" escalat", "escalat ", "escalation", "escalate", "escalating"]
 
     for rd in rounds:
         rnum = rd.get("round", 0)
@@ -293,7 +295,16 @@ def _pivotal_moments(rounds: list[dict]) -> list[dict]:
         # Check surprises
         for surprise in resolution.get("surprises", []):
             sl = surprise.lower()
+            # Check keywords
             if any(kw in sl for kw in pivot_keywords):
+                pivotal.append({
+                    "round": rnum,
+                    "country": "GM",
+                    "description": surprise,
+                    "type": "surprise",
+                })
+            # Check escalation patterns (but not de-escalation)
+            elif any(pattern in sl for pattern in escalation_patterns) and "de-escalat" not in sl and "deescalat" not in sl:
                 pivotal.append({
                     "round": rnum,
                     "country": "GM",
@@ -306,7 +317,16 @@ def _pivotal_moments(rounds: list[dict]) -> list[dict]:
             code = dec.get("country", "?")
             for action in dec.get("actions", []):
                 al = action.lower()
+                # Check keywords
                 if any(kw in al for kw in pivot_keywords):
+                    pivotal.append({
+                        "round": rnum,
+                        "country": code,
+                        "description": action,
+                        "type": "action",
+                    })
+                # Check escalation patterns (but not de-escalation)
+                elif any(pattern in al for pattern in escalation_patterns) and "de-escalat" not in al and "deescalat" not in al:
                     pivotal.append({
                         "round": rnum,
                         "country": code,

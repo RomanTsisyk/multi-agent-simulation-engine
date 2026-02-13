@@ -244,6 +244,7 @@ details .details-body { padding: 0 16px 16px; }
   <a href="#orgs">Organizations</a>
   <a href="#viewer">Viewer</a>
   <a href="#dev">Developer Guide</a>
+  <a href="#audit">Opus Audit</a>
 </nav>
 
 <div class="container">
@@ -1045,6 +1046,231 @@ python3 serve.py --port 9090         # Custom port</code></pre>
   <li>Lower <code>max_tokens_per_response</code> for faster but shorter faction responses</li>
   <li>Set <code>num_ctx: 8192</code> for smaller models with limited context</li>
 </ul>
+</section>
+
+<!-- ============================================================ -->
+<!-- OPUS AGENT AUDIT -->
+<!-- ============================================================ -->
+<section id="audit">
+<h2>Opus Agent Audit &mdash; February 2026</h2>
+<p>Four Claude Opus agents independently evaluated the WarGame project across code architecture, documentation quality, test coverage, and game design. This section summarizes their findings for contributors and developers.</p>
+
+<div class="stat-row">
+  <div class="stat-box"><div class="num" style="color:var(--accent-green)">578</div><div class="label">Tests Passing</div></div>
+  <div class="stat-box"><div class="num" style="color:var(--accent-red)">5</div><div class="label">Tests Failing</div></div>
+  <div class="stat-box"><div class="num" style="color:var(--accent-orange)">10</div><div class="label">Bugs Found</div></div>
+  <div class="stat-box"><div class="num" style="color:var(--accent-blue)">66</div><div class="label">Country Configs</div></div>
+  <div class="stat-box"><div class="num" style="color:var(--accent-purple)">1</div><div class="label">Playable Scenario</div></div>
+</div>
+
+<!-- What Works Well -->
+<h3>What Works Well</h3>
+<div class="card-grid">
+<div class="card" style="border-left: 3px solid var(--accent-green);">
+  <h4>Faction Debate System</h4>
+  <p>The 3-round internal debate with mandatory disagreement, red-line defense, and forced risk identification is the project's standout feature. It produces genuinely nuanced policy decisions with realistic internal tensions. Anti-groupthink mechanisms prevent echo chambers effectively.</p>
+  <p><strong>Files:</strong> <code>agents/faction.py</code>, <code>agents/country.py</code></p>
+</div>
+<div class="card" style="border-left: 3px solid var(--accent-green);">
+  <h4>Country Config Quality</h4>
+  <p>All 66 countries follow an identical schema (9/10 consistency) with authentic geopolitical modeling. State behavior, alliance dynamics, and economic positions score 8/10 for realism. The faction personality writing is detailed and historically grounded.</p>
+  <p><strong>Files:</strong> <code>countries/*.yaml</code></p>
+</div>
+<div class="card" style="border-left: 3px solid var(--accent-green);">
+  <h4>World State Tracking</h4>
+  <p>Comprehensive cascading effects engine covers military, economic, diplomatic, nuclear, public opinion, and cyber/infrastructure domains. Delta-based morale tracking and auto-deduplication of sanctions and treaties prevent runaway values.</p>
+  <p><strong>Files:</strong> <code>engine/world_state.py</code></p>
+</div>
+<div class="card" style="border-left: 3px solid var(--accent-green);">
+  <h4>Educational Value</h4>
+  <p>Rated excellent for IR students and geopolitical analysis. The simulation surfaces realistic alliance dilemmas, escalation dynamics, and domestic political constraints that mirror real-world decision-making.</p>
+</div>
+</div>
+
+<!-- Critical Bugs -->
+<h3>Critical Bugs</h3>
+
+<details>
+<summary style="color: var(--accent-red);">BUG: Strength reduction compounds every round (CRITICAL)</summary>
+<div class="details-body">
+<p><strong>File:</strong> <code>engine/world_state.py</code>, lines 543&ndash;548</p>
+<p><strong>Problem:</strong> In <code>_apply_cascading_effects()</code>, the strength reduction formula <code>strength_reduction = unit.casualties // 2</code> reapplies the full reduction every round rather than tracking what has already been applied. A unit with 4 casualties loses 2 strength per round indefinitely, rapidly dropping all units to strength 1.</p>
+<pre><code># Current (buggy) - runs EVERY round, compounds
+for unit in self.military_units:
+    if unit.casualties >= 2:
+        strength_reduction = unit.casualties // 2
+        unit.strength = max(1, unit.strength - strength_reduction)
+
+# Fix: track applied reduction like morale does
+strength_reduction = unit.casualties // 2
+already_applied = getattr(unit, '_last_casualty_strength_applied', 0)
+new_penalty = strength_reduction - already_applied
+if new_penalty > 0:
+    unit.strength = max(1, unit.strength - new_penalty)
+    unit._last_casualty_strength_applied = strength_reduction</code></pre>
+<p><strong>Impact:</strong> All combat units become ineffective within 2&ndash;3 rounds regardless of actual damage. This is the highest-priority bug to fix.</p>
+</div>
+</details>
+
+<details>
+<summary style="color: var(--accent-red);">BUG: Corridor control keyword matching is unreliable (CRITICAL)</summary>
+<div class="details-body">
+<p><strong>File:</strong> <code>engine/game.py</code>, lines 821&ndash;875</p>
+<p><strong>Problem:</strong> Substring matching for terms like "seized" and "liberated" can match inside other words or in the wrong context. This directly affects game-ending conditions.</p>
+<p><strong>Fix:</strong> Use regex word-boundary matching (<code>\bseized\b</code>) with confidence scoring instead of <code>in</code> substring checks.</p>
+</div>
+</details>
+
+<details>
+<summary style="color: var(--accent-orange);">BUG: Nuclear escalation conflates posture with detonation (HIGH)</summary>
+<div class="details-body">
+<p><strong>Files:</strong> <code>engine/game.py</code> lines 581&ndash;584, <code>engine/world_state.py</code> lines 645&ndash;648</p>
+<p><strong>Problem:</strong> The <code>tactical_use</code> posture level triggers game end, but posture is not the same as actual detonation. Countries cannot escalate to <code>launch_ready</code> without approaching an automatic game-over state.</p>
+<p><strong>Fix:</strong> Restructure to separate posture from action: <code>peacetime &rarr; elevated &rarr; launch_ready &rarr; detonation_occurred</code>. Only actual detonation should end the game.</p>
+</div>
+</details>
+
+<details>
+<summary style="color: var(--accent-orange);">BUG: Nuclear auto-escalation yo-yos (HIGH)</summary>
+<div class="details-body">
+<p><strong>File:</strong> <code>engine/world_state.py</code>, lines 551&ndash;564</p>
+<p><strong>Problem:</strong> De-escalation and auto-escalation rules can conflict, causing nuclear posture to oscillate between rounds.</p>
+</div>
+</details>
+
+<details>
+<summary style="color: var(--accent-orange);">BUG: Silent unit update failures in GM resolution (HIGH)</summary>
+<div class="details-body">
+<p><strong>File:</strong> <code>engine/game_master.py</code>, lines 373&ndash;386</p>
+<p><strong>Problem:</strong> When the Game Master references a unit that does not exist, the update is silently dropped with no warning or log entry. This can cause GM decisions to have no effect.</p>
+</div>
+</details>
+
+<p style="margin-top: 16px;">See <a href="https://github.com/user/WarGame/blob/main/IMPROVEMENT_PROPOSALS.md"><code>IMPROVEMENT_PROPOSALS.md</code></a> for the full list of 10 engine bugs ranked by severity.</p>
+
+<!-- Test Coverage -->
+<h3>Test Coverage</h3>
+<p>The test suite has grown significantly from zero to <strong>578 passing tests</strong> across 11 test files. However, <strong>5 tests are currently failing</strong> and integration-level test gaps remain.</p>
+
+<div class="table-wrap">
+<table>
+<tr><th>Test File</th><th>Coverage Area</th><th>Status</th></tr>
+<tr><td><code>tests/test_world_state.py</code></td><td>WorldState mutations, cascading effects</td><td style="color:var(--accent-green)">Passing</td></tr>
+<tr><td><code>tests/test_json_parser.py</code></td><td>LLM output parsing, edge cases</td><td style="color:var(--accent-green)">Passing</td></tr>
+<tr><td><code>tests/test_agents.py</code></td><td>Agent base class, LLM interaction</td><td style="color:var(--accent-green)">Passing</td></tr>
+<tr><td><code>tests/test_country.py</code></td><td>Country debate orchestration</td><td style="color:var(--accent-green)">Passing</td></tr>
+<tr><td><code>tests/test_game_master.py</code></td><td>GM resolution, validation</td><td style="color:var(--accent-green)">Passing</td></tr>
+<tr><td><code>tests/test_analytics.py</code></td><td>Post-game analytics module</td><td style="color:var(--accent-green)">Passing</td></tr>
+<tr><td><code>tests/test_round_logger.py</code></td><td>Log file I/O</td><td style="color:var(--accent-green)">Passing</td></tr>
+<tr><td><code>tests/test_fixes.py</code></td><td>Regression tests for engine bug fixes</td><td style="color:var(--accent-orange)">Partial</td></tr>
+<tr><td><code>tests/test_checkpoint_and_game.py</code></td><td>Checkpoint, game loop</td><td style="color:var(--accent-green)">Passing</td></tr>
+<tr><td><code>tests/test_preflight.py</code></td><td>Pre-game validation checks</td><td style="color:var(--accent-green)">Passing</td></tr>
+<tr><td><code>tests/test_dashboard.py</code></td><td>Dashboard data generation</td><td style="color:var(--accent-green)">Passing</td></tr>
+</table>
+</div>
+
+<h4>Key Test Gaps</h4>
+<ul>
+  <li><strong>No end-to-end integration tests</strong> &mdash; the full game loop (briefing &rarr; debate &rarr; resolution &rarr; world update) has no automated test</li>
+  <li><strong>No multi-round regression tests</strong> &mdash; compounding bugs like the strength reduction issue only surface across multiple rounds</li>
+  <li><strong>No backend integration tests</strong> &mdash; Ollama and DeepSeek backends are untested beyond unit mocks</li>
+  <li><strong>5 failing tests</strong> need investigation and fixes in <code>tests/test_fixes.py</code></li>
+</ul>
+
+<!-- Scenario Status -->
+<h3>Scenario Status</h3>
+<div class="table-wrap">
+<table>
+<tr><th>Scenario</th><th>File</th><th>Status</th><th>Notes</th></tr>
+<tr>
+  <td><strong>Suwalki Gap Crisis 2026</strong></td>
+  <td><code>scenarios/suwalki_gap.yaml</code></td>
+  <td><span class="badge badge-green" style="font-size:10px;">PLAYABLE</span></td>
+  <td>Full scenario with initial world state, end conditions, military units. The only scenario that can actually run.</td>
+</tr>
+<tr>
+  <td><strong>Taiwan Strait Crisis 2027</strong></td>
+  <td><code>scenarios/taiwan_strait_2027.yaml</code></td>
+  <td><span class="badge badge-orange" style="font-size:10px;">DESIGN ONLY</span></td>
+  <td>Participant list and description defined, but missing <code>initial_world_state</code>, <code>end_conditions</code>, and military units. Cannot run without completing the scenario file.</td>
+</tr>
+<tr>
+  <td><strong>Arctic Sovereignty 2026</strong></td>
+  <td><code>scenarios/arctic_sovereignty_2026.yaml</code></td>
+  <td><span class="badge badge-orange" style="font-size:10px;">DESIGN ONLY</span></td>
+  <td>Participant list and description defined, but missing <code>initial_world_state</code>, <code>end_conditions</code>, and military units. Cannot run without completing the scenario file.</td>
+</tr>
+</table>
+</div>
+<p>Contributors interested in making Taiwan Strait or Arctic scenarios playable should use <code>scenarios/suwalki_gap.yaml</code> as a reference template. Each scenario needs: <code>initial_world_state</code> (military units, markets, diplomatic status, public opinion), <code>end_conditions</code>, and <code>game_time_per_round</code>.</p>
+
+<!-- Design Limitations -->
+<h3>Fundamental Design Limitations</h3>
+<div class="card-grid">
+<div class="card" style="border-left: 3px solid var(--accent-red);">
+  <h4>No Combat Resolution Model</h4>
+  <p>There is no deterministic or probabilistic combat resolution system. Military outcomes depend entirely on LLM narrative judgment. There are no force ratios, terrain modifiers, or air superiority mechanics. The GM decides who wins engagements based on prose, not math.</p>
+  <p><strong>Impact:</strong> Military outcomes can be inconsistent across runs. A weaker force may defeat a stronger one without explanation.</p>
+  <p><strong>Recommended fix:</strong> Implement a force-ratio calculator with terrain, supply, air control, and morale modifiers that constrains GM resolution.</p>
+</div>
+<div class="card" style="border-left: 3px solid var(--accent-orange);">
+  <h4>Diplomacy Is Narrative-Only</h4>
+  <p>Countries state diplomatic positions in free text. Ceasefires and treaties are detected via keyword matching in GM output, not through a structured proposal/counteroffer system. This means diplomatic convergence is hard to track or verify.</p>
+  <p><strong>Files:</strong> <code>engine/game.py</code> (corridor control detection), <code>engine/game_master.py</code> (resolution prompts)</p>
+</div>
+<div class="card" style="border-left: 3px solid var(--accent-orange);">
+  <h4>Military Mechanics Dominate</h4>
+  <p>The world state has detailed military tracking (units, supply, casualties, readiness) but economic and cyber mechanics are shallow. Sanctions are one-directional (no cost to the sanctioner). Cyber operations are purely narrative.</p>
+</div>
+</div>
+
+<!-- Code Health -->
+<h3>Code Health Summary</h3>
+<div class="table-wrap">
+<table>
+<tr><th>Area</th><th>Grade</th><th>Key Issue</th><th>Action Required</th></tr>
+<tr><td>Project Structure</td><td style="color:var(--accent-green)"><strong>B+</strong></td><td>Well-organized, clear module boundaries</td><td>Add pyproject.toml, Dockerfile, CI/CD</td></tr>
+<tr><td>Engine Code</td><td style="color:var(--accent-orange)"><strong>C+</strong></td><td>Cyclomatic complexity 54 in key methods</td><td>Refactor <code>world_state.py</code> and <code>game_master.py</code></td></tr>
+<tr><td>Agent Code</td><td style="color:var(--accent-green)"><strong>B</strong></td><td>Country class has 16+ methods (SRP violation)</td><td>Extract DebateManager, SynthesisEngine</td></tr>
+<tr><td>Country Configs</td><td style="color:var(--accent-green)"><strong>A&minus;</strong></td><td>66 countries, consistent schema</td><td>Rebalance military_strength values</td></tr>
+<tr><td>Test Coverage</td><td style="color:var(--accent-orange)"><strong>C+</strong></td><td>578 passing but no integration tests</td><td>Add E2E game loop tests, fix 5 failures</td></tr>
+<tr><td>Security</td><td style="color:var(--accent-green)"><strong>B</strong></td><td>Good API key handling, safe YAML loading</td><td>Add <code>.env</code> to .gitignore, input validation</td></tr>
+<tr><td>Game Balance</td><td style="color:var(--accent-orange)"><strong>B</strong></td><td>Military over-indexed, asymmetric win conditions</td><td>Add combat model, diplomatic proposal system</td></tr>
+</table>
+</div>
+
+<!-- Action Items -->
+<h3>Recommended Action Plan</h3>
+<div class="flow-step" style="border-left-color: var(--accent-red);">
+  <div class="step-num" style="background: var(--accent-red);">1</div>
+  <div class="step-body">
+    <strong>Week 1: Fix Critical Bugs</strong>
+    <p>Fix the compounding strength reduction bug in <code>engine/world_state.py</code>. Fix corridor control keyword matching in <code>engine/game.py</code>. Investigate and fix 5 failing tests. Separate nuclear posture from detonation in game-end logic.</p>
+  </div>
+</div>
+<div class="flow-step" style="border-left-color: var(--accent-orange);">
+  <div class="step-num" style="background: var(--accent-orange);">2</div>
+  <div class="step-body">
+    <strong>Week 2: Close Content Gaps</strong>
+    <p>Complete Taiwan Strait and Arctic scenario files with initial world state and end conditions. Add integration tests for the full game loop. Rebalance military_strength values (Germany 6&rarr;5, Russia 7&rarr;8).</p>
+  </div>
+</div>
+<div class="flow-step" style="border-left-color: var(--accent-blue);">
+  <div class="step-num" style="background: var(--accent-blue);">3</div>
+  <div class="step-body">
+    <strong>Week 3: Add Core Mechanics</strong>
+    <p>Implement a force-ratio combat resolver to constrain GM decisions. Add structured diplomatic proposal/counteroffer system. Add air control as a prerequisite for ground advances.</p>
+  </div>
+</div>
+<div class="flow-step">
+  <div class="step-num">4</div>
+  <div class="step-body">
+    <strong>Week 4: Code Quality &amp; Infrastructure</strong>
+    <p>Refactor CC=54 methods in <code>world_state.py</code>. Set up CI/CD pipeline. Add pyproject.toml and Dockerfile. Extract duplicated retry logic from backends into shared mixin.</p>
+  </div>
+</div>
+
+<p style="margin-top: 20px; color: var(--text-muted); font-size: 13px;">Audit conducted February 2026 by 4 Claude Opus agents across code architecture, documentation quality, test coverage, and game design evaluation. Full findings available in <code>IMPROVEMENT_PROPOSALS.md</code>.</p>
 </section>
 
 </div>

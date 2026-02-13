@@ -137,7 +137,8 @@ Respond with a single JSON object (no markdown, no commentary):
         "un_resolutions_add": [],
         "nato_alert_level": "<normal|elevated|high|article5>",
         "nato_consensus": {{"<country>": "<position>"}},
-        "nuclear_posture": {{"<nuclear_country>": "<peacetime|elevated|dispersal|launch_ready|tactical_use|strategic>"}},
+        "nuclear_posture": {{"<nuclear_country>": "<peacetime|elevated|dispersal|launch_ready>"}},
+        "nuclear_detonations_add": [{{"attacker": "<country>", "target": "<country|coordinates>", "yield_kt": <int>, "type": "<tactical|strategic>", "timestamp": "<game time>"}}],
         "public_opinion": {{"<country>": {{"war_support": <int 0-100>, "government_approval": <int 0-100>}}}},
         "refugee_flows_add": [{{"from": "<country>", "to": "<country>", "count": <int>, "status": "<fleeing|in_transit|settled|blocked>"}}],
         "humanitarian_crisis_level": {{"<country>": <int 1-10>}},
@@ -603,7 +604,8 @@ class GameMaster:
             '        "un_resolutions_add": [],\n'
             '        "nato_alert_level": "<normal|elevated|high|article5>",\n'
             '        "nato_consensus": {"<country>": "<position>"},\n'
-            '        "nuclear_posture": {"<nuclear_country>": "<peacetime|elevated|dispersal|launch_ready|tactical_use|strategic>"},\n'
+            '        "nuclear_posture": {"<nuclear_country>": "<peacetime|elevated|dispersal|launch_ready>"},\n'
+            '        "nuclear_detonations_add": [{"attacker": "<country>", "target": "<country|coordinates>", "yield_kt": <int>, "type": "<tactical|strategic>", "timestamp": "<game time>"}],\n'
             '        "public_opinion": {"<country>": {"war_support": <int 0-100>, "government_approval": <int 0-100>}},\n'
             '        "refugee_flows_add": [{"from": "<country>", "to": "<country>", "count": <int>, "status": "<fleeing|in_transit|settled|blocked>"}],\n'
             '        "humanitarian_crisis_level": {"<country>": <int 1-10>},\n'

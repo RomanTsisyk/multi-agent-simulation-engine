@@ -321,7 +321,7 @@ def compute_escalation_level(world_state_dict: dict) -> int:
     nuclear = world_state_dict.get("nuclear_posture", {})
     nuke_scores = {
         "peacetime": 0, "elevated": 1, "dispersal": 2,
-        "launch_ready": 4, "tactical_use": 8, "strategic": 10,
+        "launch_ready": 4,
     }
     max_nuke = 0
     for posture in nuclear.values():

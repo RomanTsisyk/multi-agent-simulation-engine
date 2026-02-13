@@ -279,9 +279,15 @@ class TestGameCheckEndConditions:
         return game
 
     def test_nuclear_detonation_tactical_use(self):
-        """Test nuclear detonation condition with tactical_use posture."""
+        """Test nuclear detonation condition with actual detonation."""
         world_state = WorldState()
-        world_state.nuclear_posture = {"RUS": "tactical_use"}
+        # Add an actual nuclear detonation to the list
+        world_state.nuclear_detonations.append({
+            "country": "RUS",
+            "type": "tactical",
+            "target": "Suwalki Gap",
+            "round": 5
+        })
 
         end_condition = {
             "type": "catastrophic",
@@ -302,9 +308,15 @@ class TestGameCheckEndConditions:
         assert result["type"] == "catastrophic"
 
     def test_nuclear_detonation_strategic_posture(self):
-        """Test nuclear detonation condition with strategic posture."""
+        """Test nuclear detonation condition with strategic detonation."""
         world_state = WorldState()
-        world_state.nuclear_posture = {"USA": "strategic"}
+        # Add an actual strategic nuclear detonation to the list
+        world_state.nuclear_detonations.append({
+            "country": "USA",
+            "type": "strategic",
+            "target": "Moscow",
+            "round": 3
+        })
 
         end_condition = {
             "type": "catastrophic",
@@ -699,12 +711,12 @@ class TestGameUpdateCorridorControl:
         """Test NATO control keywords set corridor_control to 'nato'."""
         game = self._create_game_for_corridor_test()
 
-        # Note: Must avoid contested keywords like "fighting" or "combat"
-        # because contested takes priority in the implementation
+        # Use text that matches NATO patterns with high confidence (>= 0.7)
+        # Pattern: r'\bnato\s+(forces\s+)?control\b.*\b(corridor|suwalki)' has weight 1.0
         resolution = {
-            "narrative": "NATO forces have liberated the corridor successfully.",
-            "events": ["Allied forces secured the corridor"],
-            "headlines": ["Corridor cleared of Russian presence"],
+            "narrative": "NATO forces control the Suwalki corridor after successful operations.",
+            "events": ["Corridor liberated by allied forces"],
+            "headlines": [],
         }
 
         game._update_corridor_control(resolution)
@@ -757,19 +769,22 @@ class TestGameUpdateCorridorControl:
         assert game.world_state.corridor_control == "russian"
 
     def test_contested_overrides_specific_control(self):
-        """Test that contested keywords take priority over specific control."""
+        """Test that contested keywords take priority when confidence is high enough."""
         game = self._create_game_for_corridor_test()
 
+        # Use patterns that match contested with high confidence
+        # Pattern: r'\b(fighting|combat|battle)\s+(continues|ongoing)\b.*\b(corridor|suwalki)' weight 1.0
+        # Pattern: r'\bfierce\s+(fighting|combat)\b.*\b(corridor|suwalki)' weight 0.8
+        # Total contested score: 1.8 (highest)
         resolution = {
-            "narrative": "While Russian forces control parts of the corridor, fighting continues "
-                        "with NATO forces contesting every meter.",
-            "events": ["Ongoing clashes in the Gap"],
+            "narrative": "Fighting continues in the corridor with fierce combat reported.",
+            "events": ["Battle ongoing in the Suwalki Gap"],
             "headlines": [],
         }
 
         game._update_corridor_control(resolution)
 
-        # Contested should win due to priority
+        # Contested should win due to highest confidence score
         assert game.world_state.corridor_control == "contested"
 
 

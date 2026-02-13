@@ -91,29 +91,29 @@ class TestComputeEscalationLevel:
         result = compute_escalation_level(world_state)
         assert result == 5  # 4 (launch_ready) + 1 (default contested corridor)
 
-    def test_nuclear_posture_tactical_use(self):
-        """Test nuclear posture: tactical_use."""
+    def test_nuclear_posture_launch_ready(self):
+        """Test nuclear posture: launch_ready (highest valid level)."""
+        world_state = {"nuclear_posture": {"Russia": "launch_ready"}}
+        result = compute_escalation_level(world_state)
+        assert result == 5  # 4 (launch_ready) + 1 (default contested corridor)
+
+    def test_nuclear_posture_invalid_ignored(self):
+        """Test invalid nuclear posture values are ignored (default to 0)."""
         world_state = {"nuclear_posture": {"Russia": "tactical_use"}}
         result = compute_escalation_level(world_state)
-        assert result == 9  # 8 (tactical_use) + 1 (default contested corridor)
-
-    def test_nuclear_posture_strategic(self):
-        """Test nuclear posture: strategic."""
-        world_state = {"nuclear_posture": {"Russia": "strategic"}}
-        result = compute_escalation_level(world_state)
-        assert result == 10
+        assert result == 1  # 0 (invalid) + 1 (default contested corridor)
 
     def test_nuclear_posture_multiple_powers_uses_max(self):
         """Test multiple nuclear powers - uses maximum posture score."""
         world_state = {
             "nuclear_posture": {
-                "Russia": "tactical_use",  # 8
+                "Russia": "elevated",  # 1
                 "USA": "dispersal",  # 2
                 "China": "launch_ready",  # 4
             }
         }
         result = compute_escalation_level(world_state)
-        assert result == 9  # 8 (max tactical_use) + 1 (default contested corridor)
+        assert result == 5  # 4 (max launch_ready) + 1 (default contested corridor)
 
     def test_nuclear_posture_unknown_defaults_to_zero(self):
         """Test unknown nuclear posture defaults to 0."""
@@ -171,10 +171,10 @@ class TestComputeEscalationLevel:
         """Test escalation level is clamped to max of 10."""
         world_state = {
             "nato_alert_level": "article5",  # +5
-            "nuclear_posture": {"Russia": "strategic"},  # +10
+            "nuclear_posture": {"Russia": "launch_ready"},  # +4
             "corridor_control": "russian",  # +1
         }
-        # Total would be 16, but should be clamped to 10
+        # Total is exactly 10
         result = compute_escalation_level(world_state)
         assert result == 10
 

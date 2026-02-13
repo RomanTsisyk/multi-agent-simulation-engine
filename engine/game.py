@@ -649,6 +649,8 @@ class Game:
                 # BUG FIX 2: Improved NATO collapse detection with positive/negative indicator analysis
                 refusals = 0
                 for pos in self.world_state.nato_consensus.values():
+                    if not isinstance(pos, str):
+                        pos = str(pos)
                     pos_lower = pos.lower()
 
                     # Check for positive indicators (support for Article 5)

@@ -28,6 +28,7 @@ class MilitaryUnit:
     supply_level: int = 10  # 1-10 (ammo, fuel, spare parts)
     morale: int = 7  # 1-10
     _last_casualty_morale_applied: int = 0  # internal: casualties already penalised
+    _last_casualty_strength_applied: int = 0  # internal: strength reduction already applied
 
     def summary(self) -> str:
         return (
@@ -115,6 +116,12 @@ class WorldState:
     recent_events: list[str] = field(default_factory=list)
     media_headlines: list[str] = field(default_factory=list)
 
+    # ------------------------------------------------------------------
+    # Internal tracking (excluded from briefings and serialization)
+    # ------------------------------------------------------------------
+    _nuclear_penalty_applied: set = field(default_factory=set)  # countries already penalised for nuclear posture
+    _oil_penalty_last_threshold: float = 0  # last oil price threshold that triggered a penalty
+
     # ==================================================================
     # Serialisation helpers
     # ==================================================================
@@ -122,10 +129,12 @@ class WorldState:
     def to_dict(self) -> dict:
         """Serialise the entire world state to a JSON-safe dictionary."""
         data = asdict(self)
-        # Convert sets to lists for JSON serialization
-        if "_nuclear_penalty_applied" in data.get("markets", {}):
-            if isinstance(data["markets"]["_nuclear_penalty_applied"], set):
-                data["markets"]["_nuclear_penalty_applied"] = list(data["markets"]["_nuclear_penalty_applied"])
+        # Convert internal tracking set to list for JSON serialization
+        if isinstance(data.get("_nuclear_penalty_applied"), set):
+            data["_nuclear_penalty_applied"] = list(data["_nuclear_penalty_applied"])
+        # Remove stale internal tracking keys from markets (migration from old format)
+        data.get("markets", {}).pop("_nuclear_penalty_applied", None)
+        data.get("markets", {}).pop("_oil_penalty_last_threshold", None)
         return data
 
     @classmethod
@@ -135,10 +144,33 @@ class WorldState:
         # Reconstitute MilitaryUnit objects
         raw_units = data.pop("military_units", [])
         units = [MilitaryUnit(**u) for u in raw_units]
-        # Convert lists back to sets for internal tracking
-        if "markets" in data and "_nuclear_penalty_applied" in data["markets"]:
-            if isinstance(data["markets"]["_nuclear_penalty_applied"], list):
-                data["markets"]["_nuclear_penalty_applied"] = set(data["markets"]["_nuclear_penalty_applied"])
+
+        # Migrate internal tracking from old markets-based format if needed
+        markets = data.get("markets", {})
+        if "_nuclear_penalty_applied" in markets:
+            old_val = markets.pop("_nuclear_penalty_applied")
+            if "_nuclear_penalty_applied" not in data:
+                data["_nuclear_penalty_applied"] = old_val
+        if "_oil_penalty_last_threshold" in markets:
+            old_val = markets.pop("_oil_penalty_last_threshold")
+            if "_oil_penalty_last_threshold" not in data:
+                data["_oil_penalty_last_threshold"] = old_val
+
+        # Convert list back to set for internal tracking
+        if "_nuclear_penalty_applied" in data:
+            val = data["_nuclear_penalty_applied"]
+            if isinstance(val, list):
+                data["_nuclear_penalty_applied"] = set(val)
+            elif not isinstance(val, set):
+                data["_nuclear_penalty_applied"] = set(val)
+
+        # Coerce _oil_penalty_last_threshold to float
+        if "_oil_penalty_last_threshold" in data:
+            try:
+                data["_oil_penalty_last_threshold"] = float(data["_oil_penalty_last_threshold"])
+            except (ValueError, TypeError):
+                data["_oil_penalty_last_threshold"] = 0
+
         state = cls(**data)
         state.military_units = units
         return state
@@ -405,6 +437,8 @@ class WorldState:
 
         # Nuclear posture -- update and auto-escalate peers
         for country, posture in updates.get("nuclear_posture", {}).items():
+            if not isinstance(posture, str):
+                continue
             posture_lower = posture.lower()
             if posture_lower in _NUCLEAR_LEVELS:
                 self.nuclear_posture[country] = posture_lower
@@ -497,12 +531,7 @@ class WorldState:
                 oil_f = 0.0
 
             # Track last threshold crossed to apply penalty only once per new threshold
-            last_threshold = self.markets.get("_oil_penalty_last_threshold", 0)
-            if isinstance(last_threshold, str):
-                try:
-                    last_threshold = float(last_threshold)
-                except (ValueError, TypeError):
-                    last_threshold = 0
+            last_threshold = self._oil_penalty_last_threshold
 
             # Apply penalty only when crossing a new $20 threshold above $120
             new_threshold = 0
@@ -514,7 +543,7 @@ class WorldState:
                     ws = opinion.get("war_support", 50)
                     # High oil = economic pain = less support for war
                     opinion["war_support"] = max(0, ws - 3)
-                self.markets["_oil_penalty_last_threshold"] = new_threshold
+                self._oil_penalty_last_threshold = new_threshold
 
         # 2. Active sanctions on Russia increase EU gas prices (BUG FIX: add cap at 200)
         ru_sanctions = [s for s in self.sanctions if s.get("target") == "RU"]
@@ -540,12 +569,14 @@ class WorldState:
                     unit.morale = max(1, unit.morale - new_penalty)
                     unit._last_casualty_morale_applied = total_penalty
 
-        # 4b. Casualties affect strength (BUG FIX #5: reduce strength based on casualties)
+        # 4b. Casualties affect strength (delta-based, like morale above)
         for unit in self.military_units:
             if unit.casualties >= 2:
-                # For every 2 casualty points, reduce strength by 1 (minimum 1)
-                strength_reduction = unit.casualties // 2
-                unit.strength = max(1, unit.strength - strength_reduction)
+                total_reduction = unit.casualties // 2
+                new_reduction = total_reduction - unit._last_casualty_strength_applied
+                if new_reduction > 0:
+                    unit.strength = max(1, unit.strength - new_reduction)
+                    unit._last_casualty_strength_applied = total_reduction
 
         # 5. Degraded infrastructure affects public opinion
         for country, infra in self.infrastructure_status.items():
@@ -582,27 +613,18 @@ class WorldState:
                     self.nuclear_posture[country] = _NUCLEAR_LEVELS[min_idx]
                     countries_escalated_nuclear.add(country)
 
-        # 7b. Nuclear posture affects public opinion (BUG FIX #4: one-time penalty)
-        # Track countries that already received nuclear penalty
-        if "_nuclear_penalty_applied" not in self.markets:
-            self.markets["_nuclear_penalty_applied"] = set()
-        elif not isinstance(self.markets["_nuclear_penalty_applied"], set):
-            # In case it was serialized/deserialized, reconstruct the set
-            self.markets["_nuclear_penalty_applied"] = set(self.markets["_nuclear_penalty_applied"])
-
-        nuclear_penalty_applied = self.markets["_nuclear_penalty_applied"]
-
+        # 7b. Nuclear posture affects public opinion (one-time penalty per escalation)
         for country, posture in self.nuclear_posture.items():
             idx = _NUCLEAR_LEVELS.index(posture) if posture in _NUCLEAR_LEVELS else 0
             if idx >= 3 and country in self.public_opinion:  # launch_ready+
                 # Only apply penalty if not already applied
-                if country not in nuclear_penalty_applied:
+                if country not in self._nuclear_penalty_applied:
                     ws = self.public_opinion[country].get("war_support", 50)
                     self.public_opinion[country]["war_support"] = max(0, ws - 5)
-                    nuclear_penalty_applied.add(country)
-            elif idx < 3 and country in nuclear_penalty_applied:
+                    self._nuclear_penalty_applied.add(country)
+            elif idx < 3 and country in self._nuclear_penalty_applied:
                 # If posture drops below launch_ready, remove from penalty set
-                nuclear_penalty_applied.discard(country)
+                self._nuclear_penalty_applied.discard(country)
 
         # 8. Auto-escalate NATO alert based on Article 5 invocations
         _ALERT_ORDER = ["normal", "elevated", "high", "article5"]
@@ -674,13 +696,27 @@ _NUCLEAR_LEVELS = [
 # ======================================================================
 
 def _dedup_strings(existing: list[str], new_items: list[str]) -> list[str]:
-    """Append new strings only if they're not already present (case-insensitive)."""
-    seen = {s.lower().strip() for s in existing}
-    result = list(existing)
+    """Append new strings only if they're not already present (case-insensitive).
+
+    Gracefully handles non-string items (e.g. dicts returned by LLM) by
+    coercing them to ``str``.
+    """
+    def _to_str(item: object) -> str:
+        if isinstance(item, str):
+            return item
+        if isinstance(item, dict):
+            # Common LLM mistake: {"description": "..."} instead of "..."
+            return item.get("description", "") or item.get("name", "") or str(item)
+        return str(item)
+
+    normalised_existing = [_to_str(s) for s in existing]
+    seen = {s.lower().strip() for s in normalised_existing}
+    result = list(normalised_existing)
     for item in new_items:
-        key = item.lower().strip() if isinstance(item, str) else str(item).lower()
-        if key not in seen:
-            result.append(item)
+        s = _to_str(item)
+        key = s.lower().strip()
+        if key and key not in seen:
+            result.append(s)
             seen.add(key)
     return result
 

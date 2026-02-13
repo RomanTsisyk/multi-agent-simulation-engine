@@ -227,7 +227,7 @@ class TestFormatAnalyticsText:
                 {"round": 2, "country": "RU", "description": "Nuclear escalation"},
             ],
             "nuclear_evolution": [
-                {"round": 2, "postures": {"RU": "tactical_use", "US": "launch_ready"}},
+                {"round": 2, "postures": {"RU": "launch_ready", "US": "launch_ready"}},
             ],
             "casualty_summary": {
                 "1st Guards": {
@@ -262,7 +262,7 @@ class TestFormatAnalyticsText:
         assert "PIVOTAL MOMENTS:" in text
         assert "Nuclear escalation" in text
         assert "NUCLEAR POSTURE EVOLUTION:" in text
-        assert "RU=tactical_use" in text
+        assert "RU=launch_ready" in text
         assert "CASUALTY SUMMARY" in text
         assert "1st Guards (RU): casualties=500" in text
         assert "HUMANITARIAN SUMMARY:" in text
@@ -403,15 +403,15 @@ class TestEscalationTimeline:
         assert timeline[0]["tension"] >= 2
         assert "combat" in timeline[0]["note"]
 
-    def test_nuclear_posture_scoring_tactical_use(self):
-        """Test nuclear tactical_use adds significant tension."""
+    def test_nuclear_posture_scoring_invalid_level_ignored(self):
+        """Test invalid nuclear levels (like tactical_use) are ignored."""
         rounds = [create_nuclear_round(1, "tactical_use")]
 
         timeline = _escalation_timeline(rounds)
 
-        # tactical_use is index 4 in levels, max_nuc >= 3 adds +3
-        assert timeline[0]["tension"] >= 3
-        assert "nuclear:tactical_use" in timeline[0]["note"]
+        # tactical_use is not in valid levels, so max_nuc stays 0, tension is minimal
+        assert timeline[0]["tension"] >= 1  # Base tension
+        assert "nuclear:" not in timeline[0]["note"]
 
     def test_nuclear_posture_scoring_launch_ready(self):
         """Test nuclear launch_ready adds significant tension."""
@@ -471,7 +471,7 @@ class TestEscalationTimeline:
         rd = create_minimal_round(1)
         rd["world_state_after"]["nato_alert_level"] = "article5"  # +3
         rd["resolution"]["events"] = ["Attack with heavy casualties"]  # +2
-        rd["world_state_after"]["nuclear_posture"] = {"RU": "tactical_use"}  # +3
+        rd["world_state_after"]["nuclear_posture"] = {"RU": "launch_ready"}  # +3
         rd["world_state_after"]["sanctions"] = [{"t": "a"}] * 5  # +1
         # Total: 3 + 2 + 3 + 1 = 9, but could go higher with more factors
         rounds = [rd]

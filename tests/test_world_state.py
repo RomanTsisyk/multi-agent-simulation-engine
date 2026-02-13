@@ -166,18 +166,20 @@ class TestWorldStateSerialization:
     def test_world_state_serialization_with_nuclear_penalty_set(self):
         """Test serialization preserves _nuclear_penalty_applied set."""
         ws = WorldState()
-        ws.markets["_nuclear_penalty_applied"] = {"US", "RU"}
+        ws._nuclear_penalty_applied = {"US", "RU"}
 
         # Serialize
         data = ws.to_dict()
         # Set should be converted to list for JSON
-        assert isinstance(data["markets"]["_nuclear_penalty_applied"], list)
+        assert isinstance(data["_nuclear_penalty_applied"], list)
+        # Should NOT leak into markets dict
+        assert "_nuclear_penalty_applied" not in data.get("markets", {})
 
         # Deserialize
         ws2 = WorldState.from_dict(data)
         # Should be converted back to set
-        assert isinstance(ws2.markets["_nuclear_penalty_applied"], set)
-        assert ws2.markets["_nuclear_penalty_applied"] == {"US", "RU"}
+        assert isinstance(ws2._nuclear_penalty_applied, set)
+        assert ws2._nuclear_penalty_applied == {"US", "RU"}
 
     def test_to_json_produces_valid_json(self):
         """Test that to_json() produces valid JSON string."""
@@ -1442,7 +1444,6 @@ class TestIntegration:
         data = ws.to_dict()
         ws2 = WorldState.from_dict(data)
 
-        # Verify penalty tracking is preserved
-        assert "_nuclear_penalty_applied" in ws2.markets
-        assert "US" in ws2.markets["_nuclear_penalty_applied"]
+        # Verify penalty tracking is preserved (now a proper field, not in markets)
+        assert "US" in ws2._nuclear_penalty_applied
         assert ws2.public_opinion["US"]["war_support"] == 65
