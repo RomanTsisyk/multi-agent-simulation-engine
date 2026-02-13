@@ -209,17 +209,22 @@ def _escalation_timeline(rounds: list[dict]) -> list[dict]:
             score += 2
             note_parts.append("combat")
 
-        # Nuclear posture
+        # Nuclear posture (7-level system with backwards compatibility)
         nuc = ws.get("nuclear_posture", {})
         max_nuc = 0
+        levels = [
+            "peacetime", "increased_readiness", "elevated", "dispersal",
+            "armed_ready", "launch_authority_delegated", "launch_ready",
+        ]
         for posture in nuc.values():
-            levels = ["peacetime", "elevated", "dispersal", "launch_ready"]
             idx = levels.index(posture) if posture in levels else 0
             max_nuc = max(max_nuc, idx)
-        if max_nuc >= 3:
+        if max_nuc >= 4:       # armed_ready or higher
             score += 3
             note_parts.append(f"nuclear:{levels[max_nuc]}")
-        elif max_nuc >= 2:
+        elif max_nuc >= 3:     # dispersal
+            score += 2
+        elif max_nuc >= 2:     # elevated
             score += 1
 
         # Sanctions
@@ -396,11 +401,13 @@ def _diplomatic_network(rounds: list[dict]) -> dict:
     pair_counts: dict[str, int] = {}
 
     for rd in rounds:
-        for msg in rd.get("diplomatic_messages", []):
-            total += 1
-            sender = msg.get("from", "?")
-            receiver = msg.get("to", "?")
-            pair = f"{sender} -> {receiver}"
-            pair_counts[pair] = pair_counts.get(pair, 0) + 1
+        # Diplomatic messages are stored inside each country decision
+        for dec in rd.get("country_decisions", []):
+            for msg in dec.get("diplomatic_messages", []):
+                total += 1
+                sender = msg.get("from", "?")
+                receiver = msg.get("to", "?")
+                pair = f"{sender} -> {receiver}"
+                pair_counts[pair] = pair_counts.get(pair, 0) + 1
 
     return {"total_messages": total, "pair_counts": pair_counts}

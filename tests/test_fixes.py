@@ -27,8 +27,24 @@ class TestNuclearPostureFix:
         ws.nuclear_posture["US"] = "launch_ready"
         ws.nuclear_posture["RU"] = "launch_ready"
 
+        # Create a Game object with the world state and verify no end condition
+        config = {
+            "scenario": {
+                "end_conditions": [
+                    {
+                        "type": "catastrophic",
+                        "id": "nuclear_detonation",
+                        "description": "Nuclear weapons used"
+                    }
+                ]
+            }
+        }
+        game = Game(config)
+        game.world_state = ws
+
         # Game should NOT end just because of launch_ready posture
-        assert len(ws.nuclear_detonations) == 0
+        result = game.check_end_conditions()
+        assert result is None
 
     def test_game_ends_only_on_actual_detonation(self):
         """Game should end only when nuclear_detonations list is non-empty."""
@@ -41,8 +57,26 @@ class TestNuclearPostureFix:
             "round": 5
         })
 
+        # Create a Game object with the world state and verify end condition triggers
+        config = {
+            "scenario": {
+                "end_conditions": [
+                    {
+                        "type": "catastrophic",
+                        "id": "nuclear_detonation",
+                        "description": "Nuclear weapons used"
+                    }
+                ]
+            }
+        }
+        game = Game(config)
+        game.world_state = ws
+
         # Now game should recognize this as catastrophic
-        assert len(ws.nuclear_detonations) > 0
+        result = game.check_end_conditions()
+        assert result is not None
+        assert result["type"] == "catastrophic"
+        assert result["id"] == "nuclear_detonation"
 
     def test_apply_updates_handles_nuclear_detonations(self):
         """WorldState.apply_updates should handle nuclear_detonations_add."""
@@ -166,13 +200,13 @@ class TestWorldStateMutations:
             ]
         }
 
-        # Note: Current implementation may not clamp in apply_updates
-        # This test documents expected behavior
         ws.apply_updates(updates)
 
         unit = next(u for u in ws.military_units if u.name == "test_unit")
-        # Ideally should be clamped, but this depends on implementation
-        # This is a documentation test
+        # Verify strength is clamped to 1-10 range
+        assert 1 <= unit.strength <= 10, f"Strength {unit.strength} not in range 1-10"
+        # Verify readiness is clamped to 1-10 range
+        assert 1 <= unit.readiness <= 10, f"Readiness {unit.readiness} not in range 1-10"
 
     def test_cascading_effects_oil_price_impact(self):
         """High oil prices should reduce public opinion."""
@@ -180,12 +214,16 @@ class TestWorldStateMutations:
         ws.markets["oil_price"] = 150.0  # High price
         ws.public_opinion["US"] = {"war_support": 70, "government_approval": 60}
 
+        # Record initial war_support value
+        initial_war_support = ws.public_opinion["US"]["war_support"]
+
         # Trigger cascading effects
         ws._apply_cascading_effects()
 
-        # War support should decrease (exact values depend on implementation)
-        # This test documents that the mechanism exists
-        assert "war_support" in ws.public_opinion.get("US", {})
+        # Verify war_support decreased due to high oil prices
+        current_war_support = ws.public_opinion.get("US", {}).get("war_support", initial_war_support)
+        assert current_war_support < initial_war_support, \
+            f"War support should decrease from {initial_war_support}, got {current_war_support}"
 
 
 # Run with: pytest tests/test_fixes.py -v

@@ -26,12 +26,9 @@ logger = logging.getLogger(__name__)
 # System prompts
 # ======================================================================
 
-_GM_SYSTEM_PROMPT = """\
+_GM_SYSTEM_PROMPT_TEMPLATE = """\
 You are the Game Master of a realistic, multi-agent geopolitical wargame \
-simulating a crisis centred on the Suwalki Gap -- the narrow land corridor \
-between Poland and Lithuania that separates the Russian exclave of Kaliningrad \
-from Belarus.  Russia has seized this corridor, cutting off the Baltic states \
-from the rest of NATO by land.
+simulating the following scenario: {scenario_description}
 
 YOUR ROLE AND RESPONSIBILITIES:
 - You are a fair, impartial referee.  You do NOT favour any side.
@@ -72,6 +69,27 @@ LOGISTICS AND ATTRITION RULES:
 - Morale below 3 risks unit refusing orders or retreating without authorisation.
 - Supply lines can be interdicted by air power, special forces, or cyber attacks.
 - Resupply requires a secure logistics corridor and takes 1-2 rounds.
+
+COMBAT RESOLUTION FORMULA (use this for any military engagements):
+- Attacker effective = strength x (readiness/10) x air_support_mult x supply_mult
+- Defender effective = strength x (readiness/10) x terrain_mult x supply_mult
+- Where: air_support_mult = 1.3 if attacker has air superiority, else 1.0
+         terrain_mult = 1.2 if defender in forest/urban/mountains, else 1.0
+         supply_mult = 0.7 if supply_level < 3, else 1.0
+- If attacker > defender by 20%+: attacker wins, defender loses 2 strength, attacker loses 1
+- If roughly equal (within 20%): stalemate, both lose 1 strength, 1-2 supply
+- If defender > attacker by 20%+: attack fails, attacker loses 2 strength, defender loses 1
+- ALL combat causes casualties on BOTH sides (1-3 per engagement)
+- Morale drops faster for the losing side (-2 loser, -1 winner per engagement)
+
+PUBLIC OPINION CONSTRAINTS (enforce these strictly):
+- If a country's war_support < 30%: that country CANNOT conduct offensive operations (domestic opposition too strong)
+- If war_support < 50%: only defensive operations possible, no new deployments abroad
+- If government_approval < 25%: country faces domestic crisis, must allocate resources to internal stability
+- Casualties reduce war_support: -5% per significant casualty event
+- Economic sanctions on own economy: -3% government_approval per round
+
+OIL PRICE REALITY: In a NATO-Russia military crisis, oil prices should spike $15-30 in the first 2 rounds, then stabilize. A $4 increase over 4 rounds is unrealistically low.
 
 You must ALWAYS respond with valid JSON and nothing else.
 """
@@ -137,8 +155,8 @@ Respond with a single JSON object (no markdown, no commentary):
         "un_resolutions_add": [],
         "nato_alert_level": "<normal|elevated|high|article5>",
         "nato_consensus": {{"<country>": "<position>"}},
-        "nuclear_posture": {{"<nuclear_country>": "<peacetime|elevated|dispersal|launch_ready>"}},
-        "nuclear_detonations_add": [{{"attacker": "<country>", "target": "<country|coordinates>", "yield_kt": <int>, "type": "<tactical|strategic>", "timestamp": "<game time>"}}],
+        "nuclear_posture": {{"<nuclear_country>": "<peacetime|increased_readiness|elevated|dispersal|armed_ready|launch_authority_delegated|launch_ready>"}},
+        "nuclear_detonations_add": [{{"country": "<code>", "type": "tactical|strategic", "target": "<location>", "round": <current_round_number>}}],
         "public_opinion": {{"<country>": {{"war_support": <int 0-100>, "government_approval": <int 0-100>}}}},
         "refugee_flows_add": [{{"from": "<country>", "to": "<country>", "count": <int>, "status": "<fleeing|in_transit|settled|blocked>"}}],
         "humanitarian_crisis_level": {{"<country>": <int 1-10>}},
@@ -207,6 +225,14 @@ Respond with JSON:
 """
 
 
+_DEFAULT_SCENARIO_DESCRIPTION = (
+    "a crisis centred on the Suwalki Gap -- the narrow land corridor "
+    "between Poland and Lithuania that separates the Russian exclave of Kaliningrad "
+    "from Belarus.  Russia has seized this corridor, cutting off the Baltic states "
+    "from the rest of NATO by land."
+)
+
+
 class GameMaster:
     """The impartial Game Master agent that adjudicates each round.
 
@@ -227,6 +253,21 @@ class GameMaster:
         self.scenario = scenario_config
         self.max_tokens = max_tokens
         self._round_history: list[dict] = []
+
+        # Build the GM system prompt dynamically from the scenario config
+        scenario_desc = self.scenario.get(
+            "description",
+            self.scenario.get("name", _DEFAULT_SCENARIO_DESCRIPTION),
+        )
+        # If only a short name was provided (no description), use it as-is
+        if scenario_desc == _DEFAULT_SCENARIO_DESCRIPTION or len(scenario_desc) > 30:
+            self._gm_system_prompt = _GM_SYSTEM_PROMPT_TEMPLATE.format(
+                scenario_description=scenario_desc
+            )
+        else:
+            self._gm_system_prompt = _GM_SYSTEM_PROMPT_TEMPLATE.format(
+                scenario_description=f"'{scenario_desc}'"
+            )
 
     # ------------------------------------------------------------------
     # Validation helpers
@@ -485,6 +526,16 @@ class GameMaster:
                 "Show how the situation is evolving, not just the current snapshot."
             )
 
+        # Anti-repetition guidance (always included)
+        prompt_parts.append(
+            "\nCRITICAL ANTI-REPETITION RULES:\n"
+            "- Track which actions each country has taken in previous rounds\n"
+            "- If a country proposes the same action 3 rounds in a row, it should face diminishing returns or consequences\n"
+            "- Diplomatic demands repeated without follow-through should lose credibility\n"
+            '- "Enhance readiness" and "strengthen cyber defenses" are NOT specific actions - require concrete details\n'
+            "- Each round must show PROGRESSION: new developments, changed positions, escalation OR de-escalation"
+        )
+
         prompt_parts.append(
             "\nRespond with JSON:\n"
             "{\n"
@@ -505,7 +556,7 @@ class GameMaster:
             )
 
         raw = await self.backend.generate(
-            system_prompt=_GM_SYSTEM_PROMPT,
+            system_prompt=self._gm_system_prompt,
             messages=[{"role": "user", "content": prompt}],
             temperature=0.7,
             max_tokens=self.max_tokens,
@@ -604,8 +655,8 @@ class GameMaster:
             '        "un_resolutions_add": [],\n'
             '        "nato_alert_level": "<normal|elevated|high|article5>",\n'
             '        "nato_consensus": {"<country>": "<position>"},\n'
-            '        "nuclear_posture": {"<nuclear_country>": "<peacetime|elevated|dispersal|launch_ready>"},\n'
-            '        "nuclear_detonations_add": [{"attacker": "<country>", "target": "<country|coordinates>", "yield_kt": <int>, "type": "<tactical|strategic>", "timestamp": "<game time>"}],\n'
+            '        "nuclear_posture": {"<nuclear_country>": "<peacetime|increased_readiness|elevated|dispersal|armed_ready|launch_authority_delegated|launch_ready>"},\n'
+            '        "nuclear_detonations_add": [{"country": "<code>", "type": "tactical|strategic", "target": "<location>", "round": <current_round_number>}],\n'
             '        "public_opinion": {"<country>": {"war_support": <int 0-100>, "government_approval": <int 0-100>}},\n'
             '        "refugee_flows_add": [{"from": "<country>", "to": "<country>", "count": <int>, "status": "<fleeing|in_transit|settled|blocked>"}],\n'
             '        "humanitarian_crisis_level": {"<country>": <int 1-10>},\n'
@@ -623,7 +674,7 @@ class GameMaster:
         prompt = "\n".join(prompt_parts)
 
         raw = await self.backend.generate(
-            system_prompt=_GM_SYSTEM_PROMPT,
+            system_prompt=self._gm_system_prompt,
             messages=[{"role": "user", "content": prompt}],
             temperature=0.5,
             max_tokens=self.max_tokens,
@@ -651,7 +702,7 @@ class GameMaster:
             )
 
             raw_retry = await self.backend.generate(
-                system_prompt=_GM_SYSTEM_PROMPT,
+                system_prompt=self._gm_system_prompt,
                 messages=[{"role": "user", "content": retry_prompt}],
                 temperature=0.5,
                 max_tokens=self.max_tokens,
@@ -755,7 +806,7 @@ class GameMaster:
         prompt = "\n".join(prompt_parts)
 
         raw = await self.backend.generate(
-            system_prompt=_GM_SYSTEM_PROMPT,
+            system_prompt=self._gm_system_prompt,
             messages=[{"role": "user", "content": prompt}],
             temperature=0.7,
             max_tokens=self.max_tokens,

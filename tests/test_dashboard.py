@@ -91,7 +91,7 @@ class TestComputeEscalationLevel:
         result = compute_escalation_level(world_state)
         assert result == 5  # 4 (launch_ready) + 1 (default contested corridor)
 
-    def test_nuclear_posture_launch_ready(self):
+    def test_nuclear_posture_launch_ready_highest_level(self):
         """Test nuclear posture: launch_ready (highest valid level)."""
         world_state = {"nuclear_posture": {"Russia": "launch_ready"}}
         result = compute_escalation_level(world_state)

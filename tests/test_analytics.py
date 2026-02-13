@@ -87,9 +87,15 @@ def create_round_with_actions(round_num: int, country: str, actions: list[str]) 
 
 
 def create_round_with_messages(round_num: int, messages: list[dict]) -> dict:
-    """Create a round with diplomatic messages."""
+    """Create a round with diplomatic messages inside country_decisions."""
     rd = create_minimal_round(round_num)
-    rd["diplomatic_messages"] = messages
+    rd["country_decisions"] = [
+        {
+            "country": "messages",
+            "actions": [],
+            "diplomatic_messages": messages,
+        }
+    ]
     return rd
 
 
@@ -769,6 +775,39 @@ class TestPivotalMoments:
 
         assert len(pivotal) == 1
 
+    def test_excludes_deescalation_from_pivotal_moments(self):
+        """Test that 'escalation' IS detected but 'de-escalation' and 'deescalation' are NOT."""
+        # Test that escalation IS detected
+        rounds_escalation = [
+            create_round_with_actions(1, "US", ["Military escalation begins"]),
+        ]
+        pivotal_escalation = _pivotal_moments(rounds_escalation)
+        assert len(pivotal_escalation) == 1, "escalation should be detected"
+        assert "escalation" in pivotal_escalation[0]["description"].lower()
+
+        # Test that de-escalation is NOT detected
+        rounds_deescalation = [
+            create_round_with_actions(1, "US", ["Pursuing de-escalation strategy"]),
+        ]
+        pivotal_deescalation = _pivotal_moments(rounds_deescalation)
+        assert len(pivotal_deescalation) == 0, "de-escalation should NOT be detected"
+
+        # Test that deescalation (no hyphen) is NOT detected
+        rounds_deescalation_no_hyphen = [
+            create_round_with_actions(1, "RU", ["Deescalation efforts underway"]),
+        ]
+        pivotal_deescalation_no_hyphen = _pivotal_moments(rounds_deescalation_no_hyphen)
+        assert len(pivotal_deescalation_no_hyphen) == 0, "deescalation should NOT be detected"
+
+        # Test mixed case: one escalation, one de-escalation
+        rounds_mixed = [
+            create_round_with_actions(1, "US", ["Military escalation begins"]),
+            create_round_with_actions(2, "RU", ["Deescalation proposal made"]),
+        ]
+        pivotal_mixed = _pivotal_moments(rounds_mixed)
+        assert len(pivotal_mixed) == 1, "Only escalation should be detected, not deescalation"
+        assert pivotal_mixed[0]["round"] == 1
+
     def test_empty_rounds_returns_empty_list(self):
         """Test that empty rounds list returns empty pivotal moments."""
         pivotal = _pivotal_moments([])
@@ -1177,10 +1216,9 @@ class TestDiplomaticNetwork:
 
     def test_missing_from_or_to_fields(self):
         """Test that missing from/to fields default to '?'."""
-        rd = create_minimal_round(1)
-        rd["diplomatic_messages"] = [
+        rd = create_round_with_messages(1, [
             {"content": "Message without from/to"},
-        ]
+        ])
         rounds = [rd]
 
         network = _diplomatic_network(rounds)

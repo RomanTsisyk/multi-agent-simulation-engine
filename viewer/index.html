@@ -967,15 +967,15 @@ async function loadGameList() {
 
     games.forEach(game => {
       const option = document.createElement('option');
-      option.value = game;
-      option.textContent = game;
+      option.value = game.name;
+      option.textContent = `${game.name} (${game.round_count} rounds)`;
       select.appendChild(option);
     });
 
     // Auto-select first game
     if (games.length > 0) {
-      select.value = games[0];
-      await selectGame(games[0]);
+      select.value = games[0].name;
+      await selectGame(games[0].name);
     }
   } catch (e) {
     console.error('Failed to load games:', e);
@@ -1051,7 +1051,7 @@ function updateTopbar() {
   const s = state.status;
   if (!s) return;
   document.getElementById('topbar-scenario').textContent = s.scenario_name || 'WarGame';
-  document.getElementById('topbar-round').textContent = `Round ${s.current_round}/${s.total_rounds} | ${s.phase.toUpperCase()}`;
+  document.getElementById('topbar-round').textContent = `Round ${s.current_round || '?'}/${s.total_rounds || '?'} | ${(s.phase || 'unknown').toUpperCase()}`;
 
   // Nuclear indicator
   const lastRound = state.rounds[state.rounds.length - 1];
@@ -1198,10 +1198,11 @@ async function renderNuclearChart() {
       ...chartOptions(),
       scales: {
         y: {
-          min: 0, max: 4,
+          min: 0, max: 6,
           ticks: {
             color: '#9ca3af',
-            callback: v => ['Peacetime','Elevated','Dispersal','','Launch Ready'][v] || '',
+            stepSize: 2,
+            callback: v => ({0:'Peacetime', 2:'Elevated', 4:'Dispersal', 6:'Launch Ready'})[v] || '',
           },
           grid: { color: 'rgba(55,65,81,0.3)' },
         },

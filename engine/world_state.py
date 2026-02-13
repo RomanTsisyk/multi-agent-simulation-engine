@@ -85,7 +85,9 @@ class WorldState:
     # ------------------------------------------------------------------
     # Nuclear posture
     # ------------------------------------------------------------------
-    # Posture levels: peacetime -> elevated -> dispersal -> launch_ready
+    # Posture levels (7 stages):
+    #   peacetime -> increased_readiness -> elevated -> dispersal
+    #   -> armed_ready -> launch_authority_delegated -> launch_ready
     # (indicates readiness, NOT actual use)
     nuclear_posture: dict[str, str] = field(default_factory=dict)  # country -> posture level
 
@@ -121,6 +123,8 @@ class WorldState:
     # ------------------------------------------------------------------
     _nuclear_penalty_applied: set = field(default_factory=set)  # countries already penalised for nuclear posture
     _oil_penalty_last_threshold: float = 0  # last oil price threshold that triggered a penalty
+    _gas_sanction_count_applied: int = 0  # number of Russia sanctions that have already affected gas price
+    _gm_set_nuclear_this_round: set = field(default_factory=set)  # countries whose nuclear posture was explicitly set by GM
 
     # ==================================================================
     # Serialisation helpers
@@ -129,9 +133,11 @@ class WorldState:
     def to_dict(self) -> dict:
         """Serialise the entire world state to a JSON-safe dictionary."""
         data = asdict(self)
-        # Convert internal tracking set to list for JSON serialization
+        # Convert internal tracking sets to lists for JSON serialization
         if isinstance(data.get("_nuclear_penalty_applied"), set):
             data["_nuclear_penalty_applied"] = list(data["_nuclear_penalty_applied"])
+        if isinstance(data.get("_gm_set_nuclear_this_round"), set):
+            data["_gm_set_nuclear_this_round"] = list(data["_gm_set_nuclear_this_round"])
         # Remove stale internal tracking keys from markets (migration from old format)
         data.get("markets", {}).pop("_nuclear_penalty_applied", None)
         data.get("markets", {}).pop("_oil_penalty_last_threshold", None)
@@ -156,7 +162,7 @@ class WorldState:
             if "_oil_penalty_last_threshold" not in data:
                 data["_oil_penalty_last_threshold"] = old_val
 
-        # Convert list back to set for internal tracking
+        # Convert lists back to sets for internal tracking
         if "_nuclear_penalty_applied" in data:
             val = data["_nuclear_penalty_applied"]
             if isinstance(val, list):
@@ -164,14 +170,33 @@ class WorldState:
             elif not isinstance(val, set):
                 data["_nuclear_penalty_applied"] = set(val)
 
-        # Coerce _oil_penalty_last_threshold to float
+        if "_gm_set_nuclear_this_round" in data:
+            val = data["_gm_set_nuclear_this_round"]
+            if isinstance(val, list):
+                data["_gm_set_nuclear_this_round"] = set(val)
+            elif not isinstance(val, set):
+                data["_gm_set_nuclear_this_round"] = set(val)
+
+        # Coerce numeric fields
         if "_oil_penalty_last_threshold" in data:
             try:
                 data["_oil_penalty_last_threshold"] = float(data["_oil_penalty_last_threshold"])
             except (ValueError, TypeError):
                 data["_oil_penalty_last_threshold"] = 0
 
-        state = cls(**data)
+        if "_gas_sanction_count_applied" in data:
+            try:
+                data["_gas_sanction_count_applied"] = int(data["_gas_sanction_count_applied"])
+            except (ValueError, TypeError):
+                data["_gas_sanction_count_applied"] = 0
+
+        # Filter out unknown keys to prevent TypeError when calling cls(**data)
+        # Get valid field names from the dataclass
+        from dataclasses import fields
+        valid_fields = {f.name for f in fields(cls)}
+        filtered_data = {k: v for k, v in data.items() if k in valid_fields}
+
+        state = cls(**filtered_data)
         state.military_units = units
         return state
 
@@ -207,7 +232,7 @@ class WorldState:
         if self.nuclear_posture:
             lines.append("NUCLEAR POSTURE:")
             for country, posture in sorted(self.nuclear_posture.items()):
-                warning = " *** CRITICAL ***" if posture in ("launch_ready", "tactical_use", "strategic") else ""
+                warning = " *** CRITICAL ***" if posture in ("armed_ready", "launch_authority_delegated", "launch_ready", "tactical_use", "strategic") else ""
                 lines.append(f"  {country}: {posture.upper()}{warning}")
             lines.append("")
 
@@ -435,13 +460,18 @@ class WorldState:
         self.markets.update(updates.get("markets", {}))
         self.nato_consensus.update(updates.get("nato_consensus", {}))
 
-        # Nuclear posture -- update and auto-escalate peers
+        # Clear GM-set nuclear tracking at start of each round
+        self._gm_set_nuclear_this_round = set()
+
+        # Nuclear posture -- update and track GM-set countries
         for country, posture in updates.get("nuclear_posture", {}).items():
             if not isinstance(posture, str):
                 continue
             posture_lower = posture.lower()
-            if posture_lower in _NUCLEAR_LEVELS:
+            if posture_lower in _NUCLEAR_LEVELS_SET:
                 self.nuclear_posture[country] = posture_lower
+                # Track that GM explicitly set this country's posture
+                self._gm_set_nuclear_this_round.add(country)
 
         # Nuclear detonations (game-ending events)
         detonations_add = updates.get("nuclear_detonations_add", [])
@@ -545,13 +575,18 @@ class WorldState:
                     opinion["war_support"] = max(0, ws - 3)
                 self._oil_penalty_last_threshold = new_threshold
 
-        # 2. Active sanctions on Russia increase EU gas prices (BUG FIX: add cap at 200)
+        # 2. Active sanctions on Russia increase EU gas prices (BUG FIX: delta-based tracking)
         ru_sanctions = [s for s in self.sanctions if s.get("target") == "RU"]
-        if ru_sanctions:
+        current_sanction_count = len(ru_sanctions)
+        new_sanctions = current_sanction_count - self._gas_sanction_count_applied
+
+        if new_sanctions > 0 and current_sanction_count > 0:
             gas = self.markets.get("gas_price_eu")
             if isinstance(gas, (int, float)):
-                # Each new sanction round adds pressure, but cap at 200
-                self.markets["gas_price_eu"] = min(round(gas * 1.02, 2), 200)
+                # Apply 2% increase per NEW sanction, not per existing one
+                multiplier = 1.02 ** new_sanctions
+                self.markets["gas_price_eu"] = min(round(gas * multiplier, 2), 200)
+                self._gas_sanction_count_applied = current_sanction_count
 
         # 3. Units with low supply degrade
         for unit in self.military_units:
@@ -599,31 +634,35 @@ class WorldState:
                 self.public_opinion[country]["government_approval"] = max(0, ga - penalty)
 
         # 7. Nuclear auto-escalation: if any state escalates past dispersal,
-        #    all other nuclear states escalate at least to elevated
+        #    all other nuclear states escalate at least to elevated.
+        _DISPERSAL_IDX = _NUCLEAR_LEVELS.index("dispersal")     # 2
+        _ELEVATED_IDX = _NUCLEAR_LEVELS.index("elevated")       # 1
+        _LAUNCH_READY_IDX = _NUCLEAR_LEVELS.index("launch_ready") # 3
         max_posture_idx = 0
         for country, posture in self.nuclear_posture.items():
-            idx = _NUCLEAR_LEVELS.index(posture) if posture in _NUCLEAR_LEVELS else 0
+            idx = _NUCLEAR_LEVELS.index(posture) if posture in _NUCLEAR_LEVELS_SET else 0
             max_posture_idx = max(max_posture_idx, idx)
-        if max_posture_idx >= 2:  # dispersal or higher
+        if max_posture_idx >= _DISPERSAL_IDX:  # dispersal or higher
             for country, posture in self.nuclear_posture.items():
-                current_idx = _NUCLEAR_LEVELS.index(posture) if posture in _NUCLEAR_LEVELS else 0
+                current_idx = _NUCLEAR_LEVELS.index(posture) if posture in _NUCLEAR_LEVELS_SET else 0
                 # Others escalate to at least one step below the max
-                min_idx = max(1, max_posture_idx - 1)
+                min_idx = max(_ELEVATED_IDX, max_posture_idx - 1)
                 if current_idx < min_idx:
                     self.nuclear_posture[country] = _NUCLEAR_LEVELS[min_idx]
                     countries_escalated_nuclear.add(country)
 
         # 7b. Nuclear posture affects public opinion (one-time penalty per escalation)
+        #     Penalty kicks in at launch_ready (index 3).
         for country, posture in self.nuclear_posture.items():
-            idx = _NUCLEAR_LEVELS.index(posture) if posture in _NUCLEAR_LEVELS else 0
-            if idx >= 3 and country in self.public_opinion:  # launch_ready+
+            idx = _NUCLEAR_LEVELS.index(posture) if posture in _NUCLEAR_LEVELS_SET else 0
+            if idx >= _LAUNCH_READY_IDX and country in self.public_opinion:
                 # Only apply penalty if not already applied
                 if country not in self._nuclear_penalty_applied:
                     ws = self.public_opinion[country].get("war_support", 50)
                     self.public_opinion[country]["war_support"] = max(0, ws - 5)
                     self._nuclear_penalty_applied.add(country)
-            elif idx < 3 and country in self._nuclear_penalty_applied:
-                # If posture drops below launch_ready, remove from penalty set
+            elif idx < _LAUNCH_READY_IDX and country in self._nuclear_penalty_applied:
+                # If posture drops below armed_ready, remove from penalty set
                 self._nuclear_penalty_applied.discard(country)
 
         # 8. Auto-escalate NATO alert based on Article 5 invocations
@@ -649,7 +688,7 @@ class WorldState:
         elif article5_supporters >= 1 and current_idx < 2:
             self.nato_alert_level = "high"
 
-        # 9. Nuclear de-escalation mechanism (BUG FIX #6)
+        # 9. Nuclear de-escalation mechanism (BUG FIX: skip GM-set countries)
         # Check if recent events contain provocative keywords
         provocative_keywords = ["nuclear", "strike", "attack", "launch", "missile", "bomb"]
         has_provocative_events = any(
@@ -658,10 +697,12 @@ class WorldState:
         )
 
         # If no provocations and country hasn't escalated this round, allow de-escalation
+        # Skip countries whose posture was explicitly set by the GM via apply_updates
         if not has_provocative_events:
             for country, posture in list(self.nuclear_posture.items()):
-                if country not in countries_escalated_nuclear:
-                    current_idx = _NUCLEAR_LEVELS.index(posture) if posture in _NUCLEAR_LEVELS else 0
+                # Skip if auto-escalated this round OR explicitly set by GM this round
+                if country not in countries_escalated_nuclear and country not in self._gm_set_nuclear_this_round:
+                    current_idx = _NUCLEAR_LEVELS.index(posture) if posture in _NUCLEAR_LEVELS_SET else 0
                     if current_idx > 0:  # Can de-escalate from any level above peacetime
                         self.nuclear_posture[country] = _NUCLEAR_LEVELS[current_idx - 1]
 
@@ -684,11 +725,14 @@ class WorldState:
 # ======================================================================
 
 _NUCLEAR_LEVELS = [
-    "peacetime",  # Normal operations
-    "elevated",   # Increased monitoring
-    "dispersal",  # Forces dispersed
-    "launch_ready",  # Weapons armed, ready to use if ordered
+    "peacetime",     # Normal operations
+    "elevated",      # Forces on heightened alert
+    "dispersal",     # Mobile launchers disperse, bombers on alert
+    "launch_ready",  # Full authorization for use
 ]
+
+_NUCLEAR_LEVELS_SET = set(_NUCLEAR_LEVELS)
+
 # Note: Actual nuclear weapon use is tracked separately in nuclear_detonations list
 
 # ======================================================================
