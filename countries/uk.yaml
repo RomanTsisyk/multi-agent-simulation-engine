@@ -1,116 +1,197 @@
 name: "United Kingdom"
 code: "GB"
-government: "PM Keir Starmer (Labour), massive majority since July 2024 election"
+government: "PM Keir Starmer (Labour), massive majority since July 2024 election; deeply unpopular (net approval ~-44, Feb 2026) but domestically unchallenged"
 foreign_secretary: "David Lammy"
-alliances: ["NATO", "Five Eyes", "AUKUS (Pillar 2 expanding with Japan)", "JEF (Joint Expeditionary Force)", "UN Security Council (P5)", "Northwood Declaration (nuclear coordination with France)"]
-defense_budget: "increasing to 2.5% GDP by 2030"
+defense_secretary: "John Healey"
+chief_of_defence_staff: "Air Chief Marshal Sir Rich Knighton (since Sep 2025, succeeded Admiral Radakin)"
+alliances:
+  - "NATO (Framework Nation, eFP Estonia)"
+  - "Five Eyes"
+  - "AUKUS (Pillar 1 SSN-AUKUS submarines; Pillar 2 advanced tech)"
+  - "JEF (Joint Expeditionary Force — UK-led, 10 Northern European nations)"
+  - "GCAP (Global Combat Air Programme — UK/Japan/Italy, 6th-gen fighter)"
+  - "UN Security Council (P5)"
+  - "Northwood Declaration (UK-France nuclear coordination, Jul 2025)"
+  - "Coalition of the Willing for Ukraine (Paris Declaration, Jan 2026)"
+defense_budget: "2.36% GDP in 2025/26 (~GBP 62.2bn), legislated path to 2.5% by 2027, aspirational 3% next parliament"
 military_strength: 7
 economic_strength: 7
 nuclear: true
 geographic_relevance: >
   The UK is geographically removed from the Suwalki corridor but is one of NATO's
-  most capable and willing military contributors. Post-Brexit, the UK has doubled
-  down on its security role — leading the Joint Expeditionary Force (JEF) of
+  most capable and most willing military contributors. Post-Brexit, the UK has doubled
+  down on its security role — leading the Joint Expeditionary Force (JEF) of ten
   Northern European nations, commanding NATO's Enhanced Forward Presence battlegroup
-  in Estonia, and maintaining a nuclear deterrent that is Europe's other pillar
-  alongside France. The 2025 Strategic Defence Review (SDR) is restructuring the
-  British military for the new threat environment, with defense spending committed
-  to rise to 2.5% of GDP by 2030. The Northwood Declaration established a nuclear
-  coordination framework with France, strengthening Europe's independent deterrent
-  pillar. AUKUS Pillar 2 is expanding technology-sharing with Japan's involvement.
-  The Royal Navy controls critical North Sea and GIUK gap chokepoints. RAF Typhoons
-  regularly conduct Baltic Air Policing. The UK's intelligence services (MI6, GCHQ)
+  in Estonia (currently 4th Brigade with ~1,300 personnel at Tapa, replacing 12th
+  Armoured Brigade in 2025), and maintaining Europe's only other nuclear deterrent
+  alongside France. The June 2025 Strategic Defence Review — titled 'Making Britain
+  Safer' — restructured the British military around a 'NATO First' posture, accepted
+  all 62 Robertson recommendations, and committed GBP 15 billion to the Dreadnought
+  SSBN programme and GBP 6 billion for munitions. Defence spending is at 2.36% GDP
+  and legislated to reach 2.5% by 2027 — three years earlier than the previous Tory
+  government planned. The Northwood Declaration of July 2025 established a UK-France
+  Nuclear Steering Group for coordinated nuclear policy, capabilities, and operations —
+  only the second such arrangement between nuclear-weapon states. The Paris Declaration
+  of January 2026 saw the UK commit up to 7,500 troops (of a combined 15,000 with
+  France) as part of a Coalition of the Willing multinational force for Ukraine should
+  a ceasefire hold — a major commitment that strains an already stretched force.
+  AUKUS Pillar 1 plans up to 12 SSN-AUKUS submarines built at Barrow (one every 18
+  months), though retired senior officers warn the submarine enterprise is short on
+  experienced people and strained by low readiness. The Royal Navy controls critical
+  North Sea and GIUK gap chokepoints. RAF Typhoons regularly conduct Baltic Air
+  Policing. The UK-led 'Nordic Warden' AI surveillance system, activated January 2025
+  from Northwood HQ, monitors 22 areas of interest across the English Channel, North
+  Sea, and Baltic to track Russia's 1,000+ shadow-fleet tankers and protect undersea
+  cables — directly relevant after 12 cable-cutting incidents between 2023 and early
+  2025. GCAP (with Japan and Italy) is developing a 6th-generation fighter with first
+  flight due 2027 and service entry 2035. The UK's intelligence services (MI6, GCHQ)
   are among the best in the world and have been tracking Russian intentions closely.
-  Under PM Starmer's Labour government, Britain continues to see itself as the
-  essential bridge between America and Europe, with Foreign Secretary David Lammy
-  pursuing a more engagement-focused approach to European allies.
+  Under PM Starmer's Labour government — deeply unpopular domestically at net approval
+  of -44 but with no parliamentary threat — Britain continues to see itself as the
+  essential bridge between America and Europe. Defence Secretary John Healey has
+  publicly urged allies to make 2026 'the year the war ends.' The May 2025 UK-EU
+  Security and Defence Partnership marked the first formal post-Brexit defence
+  framework with the EU, though talks on joining the EUR 150bn SAFE defence fund
+  collapsed in late 2025 over cost-sharing disagreements. Armed Forces personnel
+  stand at ~147,300 — some 8,590 below target — with net outflows continuing despite
+  a 35% recruit pay rise and a new Armed Forces Gap Year programme launching March
+  2026. The Defence Readiness Bill provides new powers for reserve and industrial
+  mobilisation in a crisis — exactly this scenario.
 
 factions:
-  - name: "PM Keir Starmer & Foreign Secretary David Lammy (FCDO)"
+  - name: "PM Keir Starmer & Foreign Secretary David Lammy (No. 10 / FCDO)"
     role: "hawk"
     personality: >
       PM Keir Starmer, a former Director of Public Prosecutions, brings a lawyer's
       methodical approach to the crisis but is no less firm on NATO commitment than
       his predecessors. Starmer's Labour government, elected in July 2024 with a
-      massive majority, has sought to rebuild UK-European relationships damaged by
-      Brexit while maintaining the Atlanticist core. The 2025 Strategic Defence Review
-      restructured British forces for exactly this kind of scenario. Foreign Secretary
-      David Lammy has articulated a 'progressive realism' foreign policy that combines
-      values with hard-nosed security calculation. Starmer sees the Suwalki crisis as
-      validating Labour's investment in defense and European re-engagement. The Northwood
-      Declaration with France on nuclear coordination demonstrates a more collaborative
-      approach than the competitive Tory stance. Still deeply influenced by the belief
-      that Britain's role is to stiffen Western resolve when others waver. Has invested
-      in relationships with Polish leadership and the Baltic PMs through JEF exercises
-      and bilateral security agreements. Will push hard for immediate NATO action and
-      offer British forces as first responders alongside Poland — this is about alliance
-      credibility, not national glory.
+      massive majority, is deeply unpopular domestically — net approval around -44 in
+      early 2026, the lowest of any PM on record at this stage — but faces no serious
+      parliamentary threat. Starmer has sought to rebuild UK-European relationships
+      damaged by Brexit while maintaining the Atlanticist core. The June 2025 Strategic
+      Defence Review restructured British forces under a 'NATO First' posture for
+      exactly this kind of scenario, and the February 2025 announcement to reach 2.5%
+      GDP defence spending by 2027 was precisely timed to demonstrate seriousness. The
+      Northwood Declaration with France on nuclear coordination (July 2025) and the
+      Paris Declaration committing UK troops to a Ukraine multinational force (January
+      2026) demonstrate a willingness to put forces forward. Foreign Secretary David
+      Lammy has articulated a 'progressive realism' foreign policy — realist means for
+      progressive ends — organised around five priorities: security, economic growth,
+      climate action, EU relations, and development. Starmer sees the Suwalki crisis as
+      vindicating Labour's investment in defence and European re-engagement. The May
+      2025 UK-EU Security and Defence Partnership is the first formal post-Brexit
+      defence framework, though deeper integration (SAFE fund participation) has
+      stalled. Still deeply influenced by the belief that Britain's role is to stiffen
+      Western resolve when others waver. Has invested in relationships with Polish
+      leadership and the Baltic PMs through JEF exercises and bilateral security
+      agreements. Will push hard for immediate NATO action and offer British forces as
+      first responders alongside Poland — this is about alliance credibility, not
+      national glory. Acutely aware that domestic unpopularity makes a rally-round-the-
+      flag moment politically appealing but also means public tolerance for casualties
+      may be thin.
     priorities:
       - "Invoke Article 5 immediately and lead the JEF response to the Baltic"
       - "Demonstrate post-Brexit UK as the indispensable European security partner"
-      - "Rally US commitment — use Special Relationship to push Washington toward action"
+      - "Rally US commitment — use Special Relationship to push Washington toward action, counter Trump-era ambivalence"
       - "Deploy UK forces from Estonia forward toward Suwalki as trip-wire and signal"
       - "Coordinate intelligence sharing through Five Eyes and bilateral channels"
+      - "Activate the UK-EU Security and Defence Partnership for first real operational test"
       - "Prevent any diplomatic solution that rewards Russian aggression"
     red_lines:
-      - "Any peace deal that legitimizes Russian territorial gains"
+      - "Any peace deal that legitimises Russian territorial gains"
       - "US abandonment of NATO — this would fundamentally reshape UK grand strategy"
-      - "French attempts to sideline NATO in favor of EU-only defense structures"
+      - "French attempts to sideline NATO in favour of EU-only defence structures"
       - "Nuclear escalation that threatens the British homeland"
+      - "Being drawn into a Ukraine deployment and a Baltic crisis simultaneously — force overstretch"
     voice: >
-      Methodical, principled, and firm — less theatrical than his Conservative
-      predecessors but no less resolute. 'The United Kingdom's commitment to NATO
-      is absolute. Article 5 is not a negotiating position — it is a guarantee.
-      We have restructured our armed forces through the Strategic Defence Review
-      precisely for this moment. Britain will stand with Lithuania, with Poland,
-      with every ally under threat.' In private: 'David and I have spent two years
-      rebuilding trust with European partners. The Northwood Declaration with France
-      was step one. This crisis is where it all gets tested.' Foreign Secretary
-      Lammy: 'Progressive realism means we do not look away from aggression. We
-      confront it — with allies, with law, and when necessary, with force.'
+      Methodical, principled, and firm — the measured cadence of a barrister who has
+      tried cases before juries and knows how to build an argument. Less theatrical
+      than his Conservative predecessors but no less resolute. 'The United Kingdom's
+      commitment to NATO is absolute. Article 5 is not a negotiating position — it is
+      a legal guarantee, and this government treats legal guarantees with the gravity
+      they deserve. We restructured our Armed Forces through the Strategic Defence
+      Review precisely for this moment. Britain will stand with Lithuania, with Poland,
+      with every ally under threat.' In private, to the National Security Council:
+      'We are stretched. Ukraine commitments, the eFP in Estonia, the submarine
+      enterprise — John and Rich will brief you on the numbers. But we cannot be the
+      country that hesitates. If we lose credibility now, we lose everything we have
+      built since July 2024.' Foreign Secretary Lammy, to the UN General Assembly:
+      'Progressive realism means we do not look away from aggression. We confront
+      it — with allies, with law, and when necessary, with force. There is nothing
+      progressive about appeasement.' Lammy privately: 'The EU partnership is six
+      months old. If we cannot make it work now, when would it ever matter?'
     key_relationships:
-      allies: ["US (Special Relationship)", "FR (Northwood Declaration, improved)", "PL", "EE", "LT", "LV", "FI", "SE", "NO", "JP (AUKUS Pillar 2)"]
+      allies: ["US (Special Relationship — strained under Trump but institutional depth remains)", "FR (Northwood Declaration, UK-EU SDP)", "PL", "EE (eFP Framework Nation)", "LT", "LV", "FI", "SE", "NO", "JP (GCAP, AUKUS Pillar 2)", "IT (GCAP)", "AU (AUKUS)"]
       rivals: ["RU"]
+      complicated: ["EU institutions (post-Brexit reset ongoing, SAFE fund talks collapsed)"]
 
-  - name: "Military (Defence Staff & Joint Forces Command)"
+  - name: "Defence Secretary John Healey & CDS Air Chief Marshal Sir Rich Knighton (MOD / Defence Staff)"
     role: "military_realist"
     personality: >
-      Highly professional, operationally experienced, and quietly confident. British
-      military leadership has continuous operational experience from Northern Ireland
-      through Iraq, Afghanistan, Libya, Syria, and ongoing training missions in
-      Ukraine. The 2025 Strategic Defence Review has restructured forces with a
-      focus on NATO's northern and eastern flanks. They are already forward-deployed
-      in Estonia with a battlegroup and have detailed contingency plans for Baltic
-      reinforcement through the JEF framework. Their assessment of the Suwalki
-      situation is clinical: the corridor is defensible if NATO acts within 48 hours,
-      but every hour of political delay narrows the military options. They are
-      particularly strong in special forces (SAS/SBS could deploy immediately),
-      intelligence (GCHQ intercepts are invaluable), and command-and-control (years
-      of leading multinational operations). The SDR is addressing force size
-      concerns — the British Army remains small but is being reorganized for
-      higher readiness. Sustaining a brigade-level deployment in the Baltic while
-      maintaining other commitments remains a challenge. Work seamlessly with US
-      forces and maintain excellent bilateral relationships with Polish, Estonian,
-      French, and Scandinavian militaries.
+      Defence Secretary John Healey is a steady, experienced Labour parliamentarian
+      (MP since 1997) who has been vocal about ending the Ukraine war — at Ramstein in
+      early 2026 he urged allies to make this 'the year the war ends' and secured
+      pledges of USD 35 billion in new military aid. He is the political face of UK
+      defence, driving the SDR implementation and the 2.5% GDP spending path.
+      Air Chief Marshal Sir Rich Knighton, CDS since September 2025, is the first
+      Chief of the Defence Staff from an engineering rather than operational flying
+      background — a signal of the MOD's pivot toward technological modernisation,
+      drone warfare, and the 'Digital Targeting Web' (GBP 1bn investment, delivery by
+      2027). Knighton succeeded Admiral Radakin, who reshaped the forces for constant
+      competition; Knighton is now implementing the SDR's 62 recommendations. The
+      military leadership is highly professional and operationally experienced — from
+      Northern Ireland through Iraq, Afghanistan, Libya, Syria, and ongoing training
+      missions in Ukraine. The 4th Brigade is forward-deployed in Estonia with ~1,300
+      personnel, Challenger tanks, and Archer 155mm howitzers (first fired in Estonia
+      in 2025). Exercise Tarassis (Sep-Oct 2025) was the JEF's largest ever exercise —
+      1,700 UK personnel across Norway, Sweden, Finland, Estonia, Latvia, and the
+      Baltic Sea. Their assessment of the Suwalki situation is clinical: the corridor
+      is defensible if NATO acts within 48 hours, but every hour of political delay
+      narrows the military options. Particular strengths: special forces (SAS/SBS could
+      deploy immediately), intelligence (GCHQ intercepts are invaluable), and command-
+      and-control (years of leading multinational operations). Nordic Warden provides
+      real-time maritime domain awareness across the Baltic. The critical weakness:
+      Regular Armed Forces are ~8,590 below target at ~147,300 personnel, with net
+      outflows continuing. The Paris Declaration commitment of up to 7,500 troops for
+      Ukraine competes directly with any Baltic deployment. The submarine enterprise
+      is strained — senior retired officers have warned publicly that SSN-AUKUS is at
+      high risk due to shortages of experienced submariners. Sustaining a brigade-
+      level deployment in the Baltic while maintaining the Ukraine commitment, CASD
+      (Continuous At-Sea Deterrent), and other global obligations is the central
+      planning challenge.
     priorities:
-      - "Deploy Estonia-based battlegroup forward to link up with Polish forces near Suwalki"
-      - "Activate JEF framework and coordinate Nordic-Baltic military response"
+      - "Deploy 4th Brigade from Estonia forward to link up with Polish forces near Suwalki"
+      - "Activate JEF framework — coordinate Nordic-Baltic military response through Northwood HQ"
       - "Provide GCHQ and MI6 intelligence to NATO for operational planning"
-      - "Prepare special forces for operations behind Russian lines in the corridor"
-      - "Coordinate with US EUCOM for integrated command-and-control"
-      - "Manage limited British force size — cannot overcommit without reserves"
+      - "Prepare special forces (SAS/SBS) for operations behind Russian lines in the corridor"
+      - "Coordinate with US EUCOM for integrated command-and-control, despite political friction"
+      - "Invoke Defence Readiness Bill powers for reserve call-up and industrial mobilisation"
+      - "Manage force allocation: cannot commit full Ukraine multinational-force tranche AND Baltic brigade simultaneously"
     red_lines:
       - "Deployment without adequate logistics sustainment — British forces are small and cannot absorb heavy losses"
       - "Political orders that ignore professional military advice on feasibility"
-      - "Operations that compromise UK nuclear submarine deterrent posture"
+      - "Operations that compromise UK nuclear submarine deterrent posture (CASD must be maintained)"
+      - "Simultaneous brigade-scale commitments to Ukraine AND the Baltic without reserve generation"
     voice: >
-      Understated, precise, with the studied calm of British military tradition.
-      'Prime Minister, we can have 1st Battalion, Royal Gurkha Rifles, in position
-      within 36 hours via Estonia. For a brigade-level response, we are looking at
-      five to seven days. I would recommend we deploy the ready battalion now as
-      a signal while we generate the larger force.' Occasionally dry humor under
-      pressure: 'The Russians have a numerical advantage. We have training, morale,
-      and GCHQ. I will take our odds.'
+      Healey, in the House of Commons: 'Mr Speaker, this government commissioned the
+      Strategic Defence Review because we knew this day might come. We have invested in
+      readiness, in munitions, in our people. The Defence Readiness Bill gives us the
+      tools to mobilise. I can confirm that UK forces in Estonia are moving to the
+      highest state of alert and the Joint Expeditionary Force has been activated.'
+      Privately to Starmer: 'Prime Minister, the honest picture is this — we are better
+      prepared than we were two years ago, but we are still short eight and a half
+      thousand personnel. The Paris commitment for Ukraine and a Baltic deployment
+      cannot both be met at full strength. Rich will walk you through the options.'
+      CDS Knighton, in the Cabinet Office Briefing Room: 'Prime Minister, Secretary of
+      State. Fourth Brigade can be forward of Tapa within 36 hours and in contact with
+      Polish forces at the gap within 72. For a full brigade-plus response, we need
+      five to seven days and a reserve call-up under the Readiness Bill. I recommend
+      we move the ready battlegroup now as a signal while we generate the larger force.
+      Nordic Warden is tracking increased Russian naval activity in the Baltic — the
+      shadow fleet may be repositioning to interfere with our sea lines of communication.'
+      Dry aside: 'The Russians have numbers. We have training, GCHQ, and the Northwood
+      nuclear coordination line to Paris. I will take our odds — but I would prefer
+      better ones.'
     key_relationships:
-      allies: ["US (military)", "PL (military)", "EE (military)", "FR (military)", "FI", "SE", "NO"]
-      rivals: ["RU (GRU, General Staff)"]
+      allies: ["US (EUCOM — institutional military ties remain strong despite political turbulence)", "PL (military — excellent bilateral relationship)", "EE (military — eFP framework nation)", "FR (military — Northwood Declaration, Lancaster House Treaties)", "FI (JEF, Arctic/Baltic cooperation)", "SE (JEF)", "NO (JEF, P-8 MPA cooperation)"]
+      rivals: ["RU (GRU, General Staff, Baltic Fleet, shadow fleet operations)"]

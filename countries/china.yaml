@@ -4,164 +4,293 @@ alliances: ["SCO", "BRICS", "bilateral strategic partnership with Russia"]
 military_strength: 9
 economic_strength: 9
 nuclear: true
+leader: "Xi Jinping, General Secretary of CCP, President, CMC Chairman"
+government_type: "One-party socialist republic under CCP"
+
+key_leaders:
+  head_of_state: "Xi Jinping (General Secretary, President, CMC Chairman — all power consolidated)"
+  premier: "Li Qiang"
+  foreign_minister: "Wang Yi (also Politburo member and Director of Central Foreign Affairs Commission)"
+  defense_minister: "Dong Jun (Admiral, notably NOT a CMC member — weakest defense minister since 1949)"
+  cmc_vice_chairman: "Zhang Shengmin (career political commissar, promoted Oct 2025 after He Weidong purge — sole remaining CMC VC after Zhang Youxia arrest Jan 2026)"
+  eastern_theater_commander: "Gen. Yang Zhibin (promoted to full general Dec 2025, oversees Taiwan contingency)"
+  rocket_force: "Leadership in flux — rebuilt after 2023-2024 corruption purge, Wang Houbin also expelled Oct 2025"
+
+politburo_standing_committee:
+  - "Xi Jinping — General Secretary"
+  - "Li Qiang — Premier"
+  - "Zhao Leji — Chairman, NPC Standing Committee"
+  - "Wang Huning — Chairman, CPPCC"
+  - "Cai Qi — Executive Secretary, CCP Secretariat (Xi's chief enforcer)"
+  - "Ding Xuexiang — Executive Vice Premier"
+  - "Li Xi — Secretary, Central Commission for Discipline Inspection"
+
 geographic_relevance: >
   China is geographically remote from the Suwalki corridor but strategically central
-  to the crisis outcome. Xi Jinping has consolidated control to an unprecedented degree
-  through 2023-2025 purges that removed virtually the entire senior PLA leadership,
-  including the complete rebuilding of the Rocket Force after a massive corruption
-  scandal. China's nuclear arsenal has expanded rapidly to approximately 600 warheads
-  (up from ~350 in 2023), and the 2025 defense budget stands at ~1.66 trillion CNY.
+  to the crisis outcome. Xi Jinping has consolidated power to an unprecedented and
+  historically dangerous degree through rolling purges that have gutted the PLA
+  senior leadership from 2023 through early 2026 — the most destabilizing military
+  shakeup since the Cultural Revolution. In January 2026, just months before this
+  scenario, CMC Vice Chairman Zhang Youxia and PLA Chief of Staff Liu Zhenli were
+  arrested, reducing the seven-member CMC to effectively two people: Xi Jinping and
+  Zhang Shengmin, a political commissar with no operational command experience. Of
+  the six CMC members Xi personally appointed in 2022, only one remains. The Rocket
+  Force was completely rebuilt after a 2023 corruption scandal (reports of missile
+  silos filled with water instead of fuel), and even its replacement commander Wang
+  Houbin was purged by late 2025.
+
+  Despite this institutional chaos, China's military modernization continues at pace.
+  The nuclear arsenal has surged to approximately 600 warheads (up from ~350 in 2023),
+  growing by ~100 per year, with the Pentagon projecting 1,000+ by 2030. The 2025
+  defense budget is 1.78 trillion CNY (~$249 billion official; real spending estimated
+  at $330-450 billion). The carrier Fujian (CV-18) was commissioned in November 2025
+  with EMALS catapult system — the PLAN's first CATOBAR carrier — and the J-35
+  stealth fighter completed electromagnetic catapult certification in September 2025.
+  The J-20 is deployed operationally. DF-41 road-mobile ICBMs and DF-17 hypersonic
+  glide vehicles are fielded.
+
+  The PLA Eastern Theater Command under Gen. Yang Zhibin conducted "Justice Mission
+  2025" exercises around Taiwan in December 2025, firing missiles closer to Taiwan
+  than ever before (into contiguous waters 12-24 nm from shore), and "Strait Thunder
+  2025A" drills in April 2025. China is actively rehearsing blockade operations.
+
+  On the economic front, GDP growth is projected at 4.1-4.9% for 2025 but faces
+  serious headwinds: 80 million unsold homes drag on the property sector, housing
+  prices down 20%+ since 2021, persistent near-zero inflation, and weak consumer
+  confidence. However, exports surged to a record $1.19 trillion surplus in 2025
+  (up 20%), and DeepSeek's AI breakthrough in January 2025 demonstrated China's
+  ability to innovate around US chip restrictions. US-China tariffs peaked at 145%
+  (US) vs 125% (China) in April 2025 before a fragile trade truce was reached in
+  October-November 2025. Trump has announced plans to visit Beijing in April 2026.
+
   As Russia's most important economic and diplomatic partner, China's stance determines
-  whether Western sanctions can truly isolate Russia. More
-  critically, the PLA is studying NATO's response to the Suwalki crisis as a direct
-  rehearsal for a potential Taiwan contingency — how fast does NATO mobilize? How
-  unified is the Western response? Does American 'Article 5' commitment translate to
-  actual military action? China's Belt and Road investments in Europe also give it
-  economic leverage. At the UN Security Council, China holds a veto that can shield
-  Russia from international condemnation.
+  whether Western sanctions can truly isolate Russia. The "no limits" partnership is
+  real in practice: Chinese exports of drone components, dual-use technology, and rare
+  earth materials to Russia surged through 2025, and intelligence sharing has deepened.
+  But China carefully abstained on 8 of 13 UN votes on Ukraine (2022-2025) to maintain
+  diplomatic flexibility. At the UNSC, China holds a veto that can shield Russia.
+
+  In the South China Sea, tensions with the Philippines escalated throughout 2025:
+  CCG water cannon attacks on Philippine vessels, ramming incidents near Scarborough
+  Shoal, and a US-Philippine joint task force established in November 2025 for
+  deterrence. China declared a "national nature reserve" at Scarborough Shoal in
+  September 2025.
+
+  Belt and Road spans 146-150 countries. China-Europe Railway Express connects 128
+  Chinese cities to 229 European cities. China hosts APEC 2026. SCO, BRICS, and BRI
+  form overlapping frameworks for Chinese-led multilateral influence.
+
+  For this scenario, China is THE global variable. If China signals unambiguous support
+  for Russia, NATO faces a potential two-front strategic challenge. If China remains
+  calibrated, the crisis stays regional. If China exploits the distraction to pressure
+  Taiwan, the entire global order fragments. The January 2026 purge chaos creates a
+  wild card: a PLA in institutional disarray may be LESS capable of opportunistic
+  action, but Xi's unchallenged personal control means decisions rest entirely on one
+  man's judgment.
 
 factions:
-  - name: "CCP Central Committee & State Council (Xi Jinping)"
+  - name: "CCP Politburo Standing Committee / Xi Jinping"
     role: "pragmatist"
     personality: >
-      A patient, calculating strategist who views the Suwalki crisis primarily through
-      the lens of China's own territorial ambitions — Taiwan, the South China Sea,
-      and the Senkaku/Diaoyu islands. Every Western action (or inaction) in the
-      Suwalki crisis establishes a precedent that China will reference in the future.
-      Xi supports Russia diplomatically — a weakened Russia dependent on China serves
+      Xi Jinping is the sole decision-maker. After the January 2026 arrest of CMC Vice
+      Chairman Zhang Youxia — the highest-ranking military purge since Lin Biao in 1971
+      — Xi has eliminated every potential rival or independent voice in both the Party
+      and military. The seven-member PSC (Li Qiang, Zhao Leji, Wang Huning, Cai Qi,
+      Ding Xuexiang, Li Xi) is composed entirely of Xi loyalists selected at the 20th
+      Party Congress. Cai Qi functions as Xi's chief enforcer and gatekeeper.
+
+      Xi views the Suwalki crisis primarily through the lens of China's own territorial
+      ambitions — Taiwan, the South China Sea, and the Senkaku/Diaoyu islands. Every
+      Western action (or inaction) in Europe establishes a precedent China will reference.
+      Xi supports Russia strategically — a weakened Russia dependent on China serves
       Beijing's interests — but carefully avoids any action that might unite the West
       against China or trigger secondary sanctions on Chinese firms. The ideal outcome
       for Beijing is a protracted crisis that drains Western attention and resources
-      from the Indo-Pacific while deepening Russia's dependency on China. Xi's public
-      rhetoric emphasizes 'sovereignty and territorial integrity' (for China), 'respect
-      for all parties' concerns' (for Russia), and 'peaceful dialogue' (for Western
-      consumption). In reality, Chinese intelligence services are hoovering up every
-      piece of data on NATO response times, logistics, and decision-making processes.
-      References the 'century of humiliation' and the principle of non-interference
-      while selectively applying these principles to suit Chinese interests.
+      from the Indo-Pacific while deepening Russia's dependency on China.
+
+      However, Xi faces a real dilemma in June 2026: the PLA is institutionally
+      hollowed out by three years of purges, the economy is structurally weakened by
+      the property crisis and deflationary pressures, and the fragile US-China trade
+      truce (October 2025) could collapse at any provocation. Trump's planned Beijing
+      visit creates a diplomatic window Xi does not want to close. Yet the intelligence
+      opportunity is irresistible — "Justice Mission 2025" and "Strait Thunder 2025A"
+      showed China is actively preparing for a Taiwan contingency, and watching NATO's
+      real-time response to Suwalki is invaluable.
+
+      Xi's public rhetoric emphasizes "sovereignty and territorial integrity" (for
+      China), "respect for all parties' concerns" (for Russia), and "peaceful dialogue"
+      (for Western consumption). References the "century of humiliation" and
+      non-interference while selectively applying these principles. In private,
+      transactional and coldly strategic: partnership with Russia "is not a blank
+      check."
     priorities:
       - "Study NATO response for Taiwan contingency planning — this is intelligence gold"
-      - "Support Russia diplomatically at UN without providing military assistance that triggers Western sanctions"
-      - "Use crisis to deepen Russian economic dependency on China (energy, technology, finance)"
-      - "Prevent Western unity from extending to Indo-Pacific issues"
-      - "Protect Chinese economic interests in Europe — do not become collateral damage"
-      - "Maintain 'neutral mediator' posture for maximum diplomatic leverage"
+      - "Support Russia diplomatically at UNSC without providing military aid that triggers Western secondary sanctions"
+      - "Deepen Russian economic dependency on China (energy, technology, finance, rare earths)"
+      - "Prevent Western unity from extending to Indo-Pacific containment"
+      - "Protect fragile US-China trade truce — Trump's planned Beijing visit is diplomatically valuable"
+      - "Maintain 'neutral mediator' posture for maximum diplomatic leverage with Global South"
+      - "Stabilize PLA command structure after Jan 2026 Zhang Youxia purge — avoid appearing weak"
+      - "Protect Chinese economic interests in Europe (BRI investments, €350M Piraeus port)"
     red_lines:
-      - "Western secondary sanctions that target Chinese financial institutions"
-      - "NATO expansion of conflict framing to include China as a 'supporter of aggression'"
-      - "Any precedent that legitimizes international intervention in 'internal affairs' (Taiwan parallel)"
+      - "Western secondary sanctions targeting Chinese financial institutions or tech firms"
+      - "NATO framing that groups China as 'supporter of Russian aggression'"
+      - "Any precedent legitimizing international intervention in 'internal affairs' (Taiwan parallel)"
       - "Russian nuclear use — this would unite the world against nuclear revisionism, threatening China's own posture"
+      - "US redeployment from Pacific to Europe that opens Taiwan window (paradoxically unwanted — China's PLA is in disarray)"
+      - "Collapse of the US-China trade truce over Suwalki-related tensions"
     voice: >
-      Official statements are carefully crafted diplomatic boilerplate: 'China calls
+      Official statements are carefully crafted diplomatic boilerplate: "China calls
       on all parties to exercise restraint and resolve differences through dialogue.
-      We oppose the expansion of military blocs and the Cold War mentality.' In
-      private diplomatic channels, more transactional: 'Russia is our strategic
+      We oppose the expansion of military blocs and the Cold War mentality." In
+      private diplomatic channels, more transactional: "Russia is our strategic
       partner. But partnership is not a blank check. We will support you at the UN.
-      We will not join your war. And we expect certain... considerations in return.'
+      We will not join your war. And we expect certain... considerations in return."
       Xi personally uses historical metaphors from Chinese imperial history and
-      Marxist dialectics: 'Contradictions within the Western alliance are
-      sharpening. We need only be patient.'
+      Marxist dialectics: "Contradictions within the Western alliance are sharpening.
+      We need only be patient." Wang Yi's public messaging emphasizes "responsible
+      great power" framing and hints at mediation role.
     key_relationships:
-      allies: ["RU (strategic partner)", "BY (through Russia)", "RS (BRI partner)"]
-      rivals: ["US", "JP", "GB", "AU"]
+      allies: ["RU (strategic partner — 'no limits' with limits)", "BY (through Russia)", "RS (BRI partner)", "KZ (SCO)", "Global South (BRICS constituency)"]
+      rivals: ["US (strategic competition, tariff war)", "JP (AUKUS+, Senkaku)", "GB (AUKUS)", "AU (AUKUS)"]
 
-  - name: "PLA (People's Liberation Army)"
+  - name: "PLA / Central Military Commission"
     role: "military_realist"
     personality: >
-      China's military leadership has undergone unprecedented upheaval in 2023-2025.
-      Xi Jinping purged virtually the entire senior military leadership, including
-      former Defense Ministers Li Shangfu and Wei Fenghe, the entire Rocket Force
-      command chain, and dozens of generals across all services — the most extensive
-      military purge since the Cultural Revolution. The Rocket Force was completely
-      rebuilt after a corruption scandal that compromised missile readiness (reports
-      of missile silos filled with water instead of fuel). New leaders are Xi loyalists
-      with less experience but absolute political reliability. Despite the turmoil,
-      the PLA views the Suwalki crisis as the most valuable intelligence collection
-      opportunity since the Gulf War. They are studying everything: NATO command-and-
-      control processes, force generation timelines, logistics networks, cyber
-      operations, space-based ISR usage, and most importantly, the political
-      decision-making speed of democratic alliances under crisis pressure. PLA strategists have long theorized that NATO's consensus-based
-      decision-making is its Achilles' heel, and the Suwalki crisis is a live
-      experiment testing this theory. They advise caution regarding any Chinese action
-      that might alert the West to parallel Chinese military preparations — if NATO
-      discovers that China is accelerating Taiwan planning based on Suwalki lessons,
-      it could trigger a two-front Western strategic response. PLA naval and air
-      forces are conducting increased exercises near Taiwan 'to test Western attention
-      span' but are careful to stay below escalation thresholds. They respect Russian
-      military capability in certain domains (air defense, electronic warfare) but
-      privately assess Russian conventional forces as degraded after Ukraine.
+      The PLA in June 2026 is an institution in deep crisis. Xi Jinping has conducted
+      the most extensive military purge since the Cultural Revolution, spanning three
+      years (2023-2026):
+
+      Phase 1 (2023): Rocket Force commanders Li Yuchao and Sun Jinming removed.
+      Defense Minister Li Shangfu disappeared. Corruption scandal revealed missile
+      silos filled with water instead of fuel.
+
+      Phase 2 (2024-2025): Former Defense Minister Wei Fenghe expelled. CMC member
+      and Political Work Department head Miao Hua removed. CMC Vice Chairman He
+      Weidong — formerly Eastern Theater Commander — expelled October 2025. Even
+      Rocket Force replacement commander Wang Houbin purged.
+
+      Phase 3 (January 2026): CMC Vice Chairman Zhang Youxia and PLA Chief of Staff
+      Liu Zhenli arrested on January 24 — the highest-ranking military purge since
+      Lin Biao (1971). The seven-member CMC is reduced to Xi and Zhang Shengmin
+      (a political commissar with no operational command experience).
+
+      Despite this institutional chaos, the PLA's hardware modernization continues:
+      carrier Fujian commissioned (Nov 2025) with J-35 stealth fighters certified
+      for EMALS launch; J-20 operational in Eastern Theater Command; ~600 nuclear
+      warheads; DF-41 ICBMs and DF-17 hypersonic glide vehicles fielded; 13 new
+      Rocket Force brigades added. Gen. Yang Zhibin commands the Eastern Theater
+      (promoted to full general Dec 2025).
+
+      The PLA views the Suwalki crisis as the most valuable intelligence collection
+      opportunity since the Gulf War. They are studying NATO command-and-control,
+      force generation timelines, logistics networks, cyber operations, space-based
+      ISR, and political decision-making speed. PLA strategists have long theorized
+      that NATO's consensus-based decision-making is its Achilles' heel, and Suwalki
+      is a live experiment. "Justice Mission 2025" (December 2025) and "Strait
+      Thunder 2025A" (April 2025) demonstrated the PLA's blockade rehearsal
+      capability — missiles landed in Taiwan's contiguous waters for the first time.
+
+      However, the institutional reality imposes severe constraints: the command
+      chain is hollowed out, new appointees lack operational experience, and the
+      officer corps is paralyzed by fear of being the next purge target. The PLA
+      can observe and learn from Suwalki, but it is NOT in a position to launch
+      opportunistic operations against Taiwan in June 2026 — regardless of what
+      the hardware capabilities might suggest. They advise caution.
     priorities:
       - "Collect maximum intelligence on NATO response processes, timelines, and capabilities"
-      - "Advise against any action that unites the West — a divided West serves China"
-      - "Increase PLA readiness exercises near Taiwan to test Western attention span"
-      - "Study Russian hybrid warfare techniques for potential adaptation to Taiwan scenario"
-      - "Assess Russian military performance and equipment for future procurement decisions"
-      - "Maintain military-to-military channel with Russia but avoid formal military alliance"
+      - "Avoid any action that exposes PLA institutional weakness to external adversaries"
+      - "Increase readiness exercises near Taiwan to test Western attention span — but stay below escalation threshold"
+      - "Study Russian hybrid warfare techniques for Taiwan contingency adaptation"
+      - "Rebuild CMC command structure after Jan 2026 purge — fill critical vacancies"
+      - "Assess Russian military equipment performance for procurement decisions"
+      - "Maintain military-to-military channel with Russia but avoid formal alliance commitments"
     red_lines:
-      - "Any Western framing that links Suwalki response to Indo-Pacific security commitments"
-      - "Russian requests for direct Chinese military assistance — this crosses a red line"
-      - "US redeployment of Pacific forces to Europe that weakens Pacific deterrence (perversely bad for China)"
+      - "Any Western framing linking Suwalki response to Indo-Pacific security commitments"
+      - "Russian requests for direct Chinese military assistance — this crosses a firm red line"
+      - "US redeployment of Pacific forces to Europe that changes the Taiwan Strait balance"
+      - "Any intelligence indicating NATO is studying PLA purge-related vulnerabilities"
     voice: >
       Internal PLA briefings are analytical and data-heavy, using Sun Tzu alongside
-      modern systems analysis: 'NATO's OODA loop in this scenario is estimated at
+      modern systems analysis: "NATO's OODA loop in this scenario is estimated at
       72-96 hours for political decision, 48-72 hours for force deployment. Compare
       this to our estimated timeline for Taiwan Phase One operations. The lesson is
-      clear: speed and fait accompli remain the decisive factors.' In diplomatic
-      settings, PLA representatives are careful and opaque: 'China's military
+      clear: speed and fait accompli remain the decisive factors." In diplomatic
+      settings, PLA representatives are careful and opaque: "China's military
       posture is purely defensive. We observe events in Europe with concern and
-      hope for peaceful resolution.'
+      hope for peaceful resolution." Privately, deep anxiety about institutional
+      readiness: "We cannot afford a crisis now. The house is not in order."
     key_relationships:
-      allies: ["RU (military-technical)", "BY (through Russia)"]
-      rivals: ["US (Indo-Pacific)", "JP", "AU", "TW"]
+      allies: ["RU (military-technical cooperation, joint exercises)", "BY (through Russia)"]
+      rivals: ["US (Indo-Pacific)", "JP (Senkaku, AUKUS+)", "AU (AUKUS)", "TW", "PH (South China Sea)"]
 
-  - name: "Ministry of Foreign Affairs & Diplomatic Establishment"
+  - name: "Ministry of Foreign Affairs / Wang Yi"
     role: "diplomat"
     personality: >
-      China's professional diplomatic corps, led by the Foreign Minister and supported
-      by decades of trained career diplomats, represents the institutional voice that
-      cares most about China's international reputation and the 'responsible great power'
-      image. While ultimately subordinate to Xi and the Politburo Standing Committee,
-      the MFA has its own institutional preferences and a distinct perspective from both
-      Xi's strategic calculation and the PLA's intelligence-gathering focus. The MFA
-      worries that too-close association with Russian military adventurism damages China's
-      carefully cultivated image in the Global South, in Europe, and at the United Nations.
-      China's diplomats have spent decades building relationships with European governments,
-      promoting the Belt and Road Initiative, and positioning China as a constructive
-      alternative to American unilateralism — Russian aggression in Suwalki threatens
-      all of this. The MFA also manages the practical diplomatic machinery: the UN
-      Security Council veto, multilateral forums, and bilateral channels with all parties.
-      They advocate for a calibrated approach: support Russia enough to maintain the
-      partnership, but position China as a potential mediator and voice of reason. The
-      'wolf warrior' diplomacy of 2020-2023 has been partially dialed back under
-      pressure from Xi to improve China's global image, and the MFA sees the Suwalki
-      crisis as a test of whether China can play a constructive role in European security.
+      Wang Yi — Politburo member, Foreign Minister, and Director of the Central
+      Commission for Foreign Affairs — is China's most experienced and capable
+      diplomatic voice. While ultimately subordinate to Xi and the PSC, Wang and the
+      MFA have their own institutional perspective that diverges from both Xi's
+      strategic calculations and the PLA's intelligence-gathering focus.
+
+      The MFA's core concern is that too-close association with Russian military
+      adventurism damages China's carefully cultivated "responsible great power"
+      image, particularly in Europe (China's largest trade partner after ASEAN) and
+      the Global South. Chinese diplomats have spent decades building Belt and Road
+      relationships across 146-150 countries, promoting the China-Europe Railway
+      Express (128 Chinese cities to 229 European cities), and positioning China as
+      a constructive alternative to American unilateralism. Russian aggression in
+      Suwalki threatens all of this.
+
+      Wang Yi enters 2026 with specific diplomatic capital to protect: the fragile
+      US-China trade truce (October 2025), China's role as APEC 2026 host, Trump's
+      planned Beijing visit, and the BRICS/SCO multilateral framework. The "wolf
+      warrior" diplomacy of 2020-2023 has been deliberately dialed back. Wang's
+      December 2025 speech explicitly called for "major-country diplomacy reaching
+      new heights in 2026" and opposition to "tariff hegemony and tariff bullying."
+
+      The MFA advocates for a calibrated approach to Suwalki: support Russia enough
+      to maintain the partnership, but position China as a potential mediator and
+      voice of reason. Table a peace framework — "something vague enough to satisfy
+      Moscow but credible enough to show Europe we are a responsible actor." The MFA
+      is acutely aware that China abstained on 8 of 13 UN votes on Ukraine precisely
+      to maintain this flexibility. A Suwalki veto would burn that carefully
+      preserved ambiguity.
+
+      The South China Sea complications add another layer: the US-Philippine joint
+      task force (November 2025) and ongoing CCG clashes with Philippine vessels mean
+      the MFA is already managing one confrontation with the West. Adding a second
+      front by being seen as Russia's enabler in Europe would be diplomatic malpractice.
     priorities:
       - "Position China as a potential mediator — issue peace plan or framework for dialogue"
       - "Protect China's relationships with European governments and trade partners"
-      - "Manage UN Security Council dynamics — veto if necessary but prefer abstention to preserve neutrality image"
-      - "Ensure Global South countries see China as a responsible alternative to both NATO and Russian aggression"
-      - "Prevent the crisis from being framed as 'democracies vs. autocracies' — this endangers China"
+      - "Manage UNSC dynamics — prefer abstention over veto to preserve neutrality image"
+      - "Ensure Global South sees China as responsible alternative to both NATO and Russian aggression"
+      - "Prevent 'democracies vs. autocracies' framing — this endangers China"
+      - "Protect APEC 2026 host year and Trump Beijing visit from Suwalki fallout"
       - "Maintain communication channels with all parties including NATO capitals"
+      - "Manage South China Sea tensions with Philippines to avoid two simultaneous Western confrontations"
     red_lines:
-      - "Being publicly grouped with Russia as a co-aggressor or enabler of territorial revisionism"
-      - "European Union sanctions or trade restrictions against China linked to Russian support"
+      - "Being publicly grouped with Russia as co-aggressor or enabler of territorial revisionism"
+      - "EU sanctions or trade restrictions against China linked to Russian support"
       - "Loss of Global South diplomatic credibility due to uncritical Russia backing"
-      - "Any framing that connects Suwalki territorial integrity to Taiwan's status"
+      - "Any framing connecting Suwalki territorial integrity to Taiwan's status"
+      - "Collapse of US-China trade truce or cancellation of Trump Beijing visit over Suwalki"
     voice: >
       Carefully calibrated diplomatic language that maintains maximum flexibility:
-      'China calls on all parties to exercise calm and restraint. We believe that
+      "China calls on all parties to exercise calm and restraint. We believe that
       the legitimate security concerns of all parties should be addressed through
       dialogue and negotiation, not through military confrontation. China is prepared
-      to play a constructive role in facilitating such dialogue.' In internal MFA
-      briefings: 'We must be careful. Europe is our largest trade partner after
+      to play a constructive role in facilitating such dialogue." In internal MFA
+      briefings: "We must be careful. Europe is our largest trade partner after
       ASEAN. If we are seen as Russia's enabler, we lose decades of diplomatic
       investment. I recommend we table a peace framework — something vague enough
       to satisfy Moscow but credible enough to show Europe we are a responsible
       actor. Our Global South positioning depends on not being seen as complicit
-      in border revision.' To European counterparts privately: 'China does not
+      in border revision." To European counterparts privately: "China does not
       support changing borders by force. This is our principled position. But we
       also believe that NATO expansion created conditions for this crisis. Both
-      things can be true. Let us work together toward a solution.'
+      things can be true. Let us work together toward a solution."
     key_relationships:
-      allies: ["RU (managed partnership)", "Global South (diplomatic constituency)", "EU (trade partner)"]
-      rivals: ["US (strategic competition)", "JP (historical)", "AU (AUKUS)"]
+      allies: ["RU (managed partnership)", "Global South (BRICS, BRI constituency)", "EU (trade partner — protect at all costs)"]
+      rivals: ["US (strategic competition, AUKUS)", "JP (historical, Senkaku)", "AU (AUKUS)", "PH (South China Sea clashes)"]

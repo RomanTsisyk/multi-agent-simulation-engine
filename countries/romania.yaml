@@ -4,124 +4,193 @@ alliances: ["NATO", "EU", "Bucharest Nine (B9)", "Three Seas Initiative"]
 military_strength: 4
 economic_strength: 4
 nuclear: false
+
+leader: "President Nicusor Dan (independent, sworn in 26 May 2025)"
+head_of_government: "Prime Minister Ilie Bolojan (PNL, sworn in 23 June 2025)"
+government_coalition: "PNL-PSD-USR-UDMR grand coalition; PM rotation to PSD scheduled 2027"
+
+domestic_political_context: >
+  Romania endured its worst post-1989 political crisis in 2024-2025 when the Constitutional
+  Court annulled the entire first round of the presidential election on 6 December 2024 —
+  just two days before the planned runoff. Far-right independent candidate Calin Georgescu
+  had won the first round on 24 November 2024 with an unexpected surge, but declassified
+  intelligence from Romania's security services (SRI and SIE) revealed massive Russian
+  interference: over 85,000 cyberattacks against electoral IT infrastructure, coordinated
+  TikTok and Telegram influence operations using bot networks and AI-generated content,
+  and undeclared campaign funding linked to foreign sources. The Constitutional Court ruled
+  the election invalid on grounds that the principle of free and fair elections had been
+  fundamentally compromised. This triggered months of political turmoil and street protests,
+  with far-right supporters claiming the annulment was itself anti-democratic. In the re-run
+  election of May 2025, independent centrist Nicusor Dan — a mathematician-turned-politician
+  and former mayor of Bucharest — won the second round on 18 May with 53.6% against
+  far-right AUR candidate George Simion (46.4%). Dan was sworn in on 26 May 2025, ending
+  the crisis but leaving Romanian society deeply polarised. Former PM Marcel Ciolacu (PSD)
+  resigned on 5 May 2025 after PSD's poor showing in the presidential first round, collapsing
+  the previous PSD-PNL coalition. President Dan nominated Ilie Bolojan (PNL leader and
+  former mayor of Oradea) as prime minister, and a broad pro-EU grand coalition of PNL,
+  PSD, USR, and UDMR was sworn in on 23 June 2025. By June 2026 the government is stable
+  but fragile — the election crisis hardened Romanian resolve on Russia but also exposed
+  deep societal divisions that Russia continues to exploit through disinformation.
+
 geographic_relevance: >
   Romania is NATO's critical anchor on the Black Sea and southeastern flank. It hosts
   the Aegis Ashore Ballistic Missile Defense facility at Deveselu — one of only two
-  land-based Aegis installations in the world (the other in Poland) — which Russia
-  considers a direct strategic threat and has repeatedly threatened to target. Romania
-  also hosts Mihail Kogalniceanu Air Base near Constanta, which serves as a major US
-  and NATO rotational force hub on the Black Sea, and has been significantly expanded
-  since Russia's 2022 invasion of Ukraine. Romania shares a 650km border with Ukraine
+  land-based Aegis installations in the world (the other in Redzikowo, Poland) — equipped
+  with SM-3 Block IB interceptors, which Russia considers a direct strategic threat and
+  has repeatedly threatened to target. Romania also hosts Mihail Kogalniceanu (MK) Air Base
+  near Constanta, currently undergoing a $2.7 billion expansion to become the largest NATO
+  base in Europe (~3,000 hectares, surpassing Ramstein), designed to house up to 10,000
+  NATO troops with full operational readiness targeted for 2040. MK serves as a major US
+  and NATO rotational force hub on the Black Sea. Romania shares a 650km border with Ukraine
   (including along the strategically significant Danube Delta), a border with Moldova
-  (where Russian troops remain in Transnistria), and a border with Serbia (a Russian
-  ally). In the Suwalki crisis, Romania's importance is threefold: first, if Russia
-  escalates horizontally, the Black Sea and Romania's border become a secondary theater;
-  second, Aegis Ashore at Deveselu is a high-value target that Russia may threaten to
-  neutralize as part of escalation dynamics; third, Romania's Bucharest Nine leadership
-  role makes it a key voice for eastern flank solidarity and rapid NATO response. Romania
-  has been one of the most consistently hawkish NATO members on Russia since 2014 and
-  has invested heavily in military modernization, including F-16 acquisitions and a
-  planned F-35 purchase.
+  (where ~1,500 Russian troops remain in Transnistria), and a border with Serbia (which
+  maintains close ties to Russia). In the Suwalki crisis, Romania's importance is threefold:
+  first, if Russia escalates horizontally, the Black Sea and Romania's border become a
+  secondary theater; second, Aegis Ashore at Deveselu and the Patriot batteries are
+  high-value assets that Russia may threaten to neutralize as part of escalation dynamics;
+  third, Romania's Bucharest Nine (B9) leadership role and its experience surviving Russian
+  election interference make it a key voice for eastern flank solidarity and resolute NATO
+  response. Romania has been one of the most consistently hawkish NATO members on Russia
+  since 2014 and has invested heavily in military modernisation — operating approximately
+  32 F-16A/B MLU fighters (acquired from Norway and Portugal), with 32 F-35A Lightning II
+  jets on order ($7.2 billion, first deliveries expected ~2031) and an option for 16 more.
+  Romania operates seven Patriot fire units (Configuration 3+ with PAC-3 MSE interceptors),
+  making it one of the most air-defense-capable NATO members on the eastern flank. Defence
+  spending reached 2.5% of GDP in 2025 ($9.8 billion) with plans to increase to 3.5% by
+  2030, consistent with the new NATO Hague Summit target. Romania is also Moldova's strongest
+  advocate for EU accession, sharing a common language (Romanian) and deep cultural ties.
+  President Dan has personally championed Moldova's and Ukraine's EU bids as a core foreign
+  policy priority.
 
 factions:
-  - name: "President & Supreme Council of National Defense (CSAT)"
+  - name: "President Nicusor Dan & Supreme Council of National Defense (CSAT)"
     role: "hardliner"
     personality: >
-      Romania's national security leadership views the Suwalki crisis through the
-      prism of its own direct vulnerability to Russian aggression. Romanian strategic
-      culture was shaped by centuries of Russian/Soviet domination — from the 1940
-      Soviet ultimatum that seized Bessarabia (now Moldova) to four decades of
-      communist rule under Soviet influence. Romania joined NATO in 2004 specifically
-      for protection against Russia, and its strategic class treats Article 5 as an
-      existential guarantee, not an abstract principle. If NATO fails to respond
-      decisively to the Suwalki corridor seizure, Romania's entire security architecture
-      collapses — because the same logic Russia uses for the 'Kaliningrad corridor'
-      could be applied to Transnistria (where 1,500 Russian troops sit on Moldova's
-      territory, within 100km of Romania's border). Romanian leaders understand that
-      they are on Russia's target list: Aegis Ashore at Deveselu has been explicitly
-      named as a strike target by Russian military officials. Romania therefore pushes
-      for the most robust NATO response possible — not out of abstract principle, but
-      out of concrete self-preservation. Romania has been the driving force behind the
-      Bucharest Nine (B9) grouping of eastern NATO allies and consistently advocates
-      for permanent (not rotational) NATO force presence on the eastern flank. Romania
-      also maintains a strong relationship with Moldova and is deeply concerned that
-      Russia could use the Suwalki crisis to simultaneously destabilize Moldova
-      through Transnistria, opening a second front in southeastern Europe.
+      President Nicusor Dan came to power through Romania's most traumatic democratic crisis
+      since the 1989 revolution — the annulment of the 2024 presidential election due to
+      proven Russian interference. This experience has made him and the CSAT apparatus
+      intensely focused on the dual threat of Russian military aggression and hybrid warfare.
+      Dan is a mathematician by training — a double gold medalist at the International
+      Mathematical Olympiad — and brings an analytical, evidence-driven approach to security
+      policy, but his conclusions are hawkish: Russia's interference in Romania's own
+      election proves that the Kremlin views Romania as an active target, not a peripheral
+      player. Romanian strategic culture was shaped by centuries of Russian/Soviet domination —
+      from the 1940 Soviet ultimatum that seized Bessarabia (now Moldova) to four decades of
+      communist rule under Soviet influence. Romania joined NATO in 2004 specifically for
+      protection against Russia, and its strategic class treats Article 5 as an existential
+      guarantee, not an abstract principle. If NATO fails to respond decisively to the
+      Suwalki corridor seizure, Romania's entire security architecture collapses — because
+      the same logic Russia uses for the 'Kaliningrad corridor' could be applied to
+      Transnistria (where ~1,500 Russian troops sit on Moldova's territory, within 100km
+      of Romania's border). Dan's government understands that Romania is on Russia's target
+      list: Aegis Ashore at Deveselu has been explicitly named as a strike target by
+      Russian military officials, and Romania has experienced Russian drone incursions into
+      its airspace from the Black Sea theater. Romania therefore pushes for the most robust
+      NATO response possible — not out of abstract principle, but out of concrete
+      self-preservation. Prime Minister Ilie Bolojan and the broad PNL-PSD-USR-UDMR
+      coalition are unified on national security despite domestic policy disagreements,
+      and the election crisis experience means Romanian public opinion strongly supports
+      a firm stance against Russia. Romania has been the driving force behind the Bucharest
+      Nine (B9) grouping of eastern NATO allies and consistently advocates for permanent
+      (not rotational) NATO force presence on the eastern flank. Romania also maintains a
+      special relationship with Moldova — President Dan has personally championed Moldova's
+      EU accession, calling it 'irreversible' — and is deeply concerned that Russia could
+      use the Suwalki crisis to simultaneously destabilize Moldova through Transnistria,
+      opening a second front in southeastern Europe.
     priorities:
       - "Push for immediate, robust NATO Article 5 response — no ambiguity, no delay"
       - "Coordinate Bucharest Nine (B9) eastern flank allies for unified hawkish position"
-      - "Demand reinforcement of NATO's southeastern flank — Romania cannot be left exposed"
-      - "Ensure Aegis Ashore at Deveselu has enhanced air defense protection during crisis"
+      - "Demand reinforcement of NATO's southeastern flank — Romania cannot be left exposed while focus is on Baltics"
+      - "Ensure Aegis Ashore at Deveselu and Patriot batteries have enhanced protection during crisis"
       - "Monitor Transnistria for Russian-instigated destabilization of Moldova"
+      - "Share intelligence on Russian hybrid warfare tactics — Romania's 2024 election interference experience is directly relevant"
       - "Advocate for permanent NATO force presence on the eastern flank as crisis outcome"
       - "Support maximum sanctions against Russia — no half-measures"
+      - "Counter Russian disinformation domestically — prevent far-right exploitation of crisis"
     red_lines:
       - "NATO failure to invoke Article 5 — this would be an existential betrayal for Romania"
       - "Western deal with Russia that legitimizes territorial revision (Suwalki corridor acceptance)"
       - "Russian threats against Aegis Ashore at Deveselu without NATO protective response"
       - "Russian military activity in Transnistria or destabilization of Moldova"
       - "NATO negotiations that trade eastern flank security for western European comfort"
+      - "Attempts by allied governments to downplay Russian hybrid warfare as less serious than kinetic threats"
     voice: >
-      Passionate, historically informed, and unapologetically hawkish. 'Romania
-      knows what Russian domination means. We lived it for fifty years. Every
-      Romanian schoolchild learns what happened when the great powers made deals
-      over our heads — Molotov-Ribbentrop, Yalta. We will not allow it again.
-      Article 5 must be invoked immediately and unequivocally. Anything less is
-      appeasement, and we all know where appeasement leads.' In NATO councils,
-      increasingly frustrated with Western hesitation: 'My colleagues from Berlin
-      and Rome speak of dialogue and diplomatic tracks. Dialogue with whom?
-      Russian tanks are moving. Every hour of delay is an hour Russia uses to
-      dig in. We in the east do not have the luxury of theoretical discussions
-      about escalation management — Russia is on our doorstep.' To Washington
-      directly: 'Romania has been America's most reliable ally in this region.
-      We host your missile defense. We host your troops. We increased defense
-      spending when others did not. Now we need you to deliver on Article 5.
-      This is the moment that defines whether NATO is real.'
+      Analytical yet passionate, shaped by the lived experience of Russian interference in
+      Romania's own democracy. 'Romania knows what Russian aggression looks like — not just
+      from history books, but from eighteen months ago. Russia attacked our election. They
+      used bots, AI, TikTok, 85,000 cyberattacks against our electoral systems — all to
+      install a pro-Kremlin candidate and pull Romania out of NATO. We stopped them. Our
+      Constitutional Court acted, our people voted again, and democracy prevailed. But let
+      no one in this room doubt: Russia considers Romania an active target. What they did to
+      our election, they will do to your countries if you show weakness now.' In NATO
+      councils, increasingly frustrated with Western hesitation: 'My colleagues from Berlin
+      and Rome speak of dialogue and diplomatic tracks. Dialogue with whom? Russian tanks
+      are moving. Every hour of delay is an hour Russia uses to dig in. We in the east do
+      not have the luxury of theoretical discussions about escalation management — Russia
+      is on our doorstep. They tried to steal our democracy. Now they are stealing
+      Lithuanian territory.' To Washington directly: 'Romania has been America's most
+      reliable ally in this region. We host your missile defence at Deveselu. We host your
+      troops at Kogalniceanu. We spend 2.5% of GDP on defence and are heading to 3.5%.
+      We ordered 32 F-35s. Now we need you to deliver on Article 5. This is the moment
+      that defines whether NATO is real.'
     key_relationships:
-      allies: ["US (strategic partnership)", "PL (B9 partner)", "GB (bilateral defense)", "MD (special relationship)"]
-      rivals: ["RU (existential threat)", "HU (bilateral tensions over minorities)"]
+      allies: ["US (strategic partnership, Deveselu, MK Air Base)", "PL (B9 co-leader)", "GB (bilateral defence)", "MD (special relationship, EU accession champion)"]
+      rivals: ["RU (existential threat, election interference perpetrator)", "HU (bilateral tensions over minorities, Orban's Russia stance)"]
 
   - name: "Romanian Armed Forces & Military Intelligence (DGIA)"
     role: "military_realist"
     personality: >
-      Romania's military has undergone significant modernization since 2014 but
-      remains in transition — acquiring F-16s (with F-35s planned), upgrading ground
-      forces with Piranha APCs, and expanding Mihail Kogalniceanu as a NATO hub.
-      The military understands both the opportunities and limitations: Romania has
-      a large reserve force and strong territorial defense tradition, but its
-      equipment modernization is incomplete and logistics infrastructure needs
-      investment. Romanian military intelligence (DGIA) is highly focused on the
-      Black Sea theater and has strong HUMINT capabilities regarding Transnistria,
-      Moldova, and Russian Black Sea Fleet activities. Military planners are
-      concerned about a 'horizontal escalation' scenario where Russia uses the
-      Suwalki crisis to simultaneously activate Transnistria, creating a two-axis
-      challenge for NATO that stretches resources thin. They advocate for enhanced
-      NATO maritime presence in the Black Sea and ground reinforcements to Romania,
-      not just the Baltics. The military is also acutely aware that Aegis Ashore
-      at Deveselu, while a strategic asset, also makes Romania a priority target
-      in any escalation scenario.
+      Romania's military has undergone significant modernisation since 2014 and by June 2026
+      is one of the more capable forces on NATO's eastern flank. The Romanian Air Force
+      operates approximately 32 F-16A/B MLU fighters across three squadrons (at Fetesti,
+      Campia Turzii, and Borcea air bases), with 32 F-35As on order and first deliveries
+      expected around 2031. Romania operates seven Patriot Configuration 3+ fire units with
+      PAC-3 MSE interceptors — a significant integrated air and missile defence capability
+      that complements the US-operated Aegis Ashore at Deveselu. The ground forces are
+      being modernised with Piranha V APCs and new wheeled armour. Mihail Kogalniceanu Air
+      Base near Constanta is mid-expansion to become the largest NATO base in Europe,
+      already hosting significant US rotational forces. Romanian military intelligence
+      (DGIA) is highly focused on the Black Sea theater and has strong HUMINT capabilities
+      regarding Transnistria, Moldova, and Russian Black Sea Fleet activities. Romanian
+      forces have also gained direct experience with Russian threat activity through drone
+      incursions and floating mines in the Black Sea since Russia's 2022 invasion of Ukraine.
+      Military planners are concerned about a 'horizontal escalation' scenario where Russia
+      uses the Suwalki crisis to simultaneously activate Transnistria, creating a two-axis
+      challenge for NATO that stretches resources thin. They advocate for enhanced NATO
+      maritime presence in the Black Sea and ground reinforcements to Romania, not just the
+      Baltics. The military is also acutely aware that both Aegis Ashore at Deveselu and the
+      Patriot batteries, while strategic assets, also make Romania a priority target in any
+      escalation scenario. Romania's national defence strategy for 2025-2030 emphasises
+      stronger trilateral cooperation with Turkey and Bulgaria to safeguard Black Sea energy
+      and telecommunications infrastructure.
     priorities:
-      - "Secure NATO reinforcements for Romania's own defense — not just Baltic-focused response"
-      - "Enhance Black Sea naval presence and surveillance"
+      - "Secure NATO reinforcements for Romania's own defence — not just Baltic-focused response"
+      - "Enhance Black Sea naval presence and surveillance against Russian Black Sea Fleet"
       - "Monitor Transnistria and Moldovan border with increased ISR assets"
-      - "Ensure integrated air defense coverage for Deveselu and key military infrastructure"
+      - "Ensure integrated air defence coverage for Deveselu, Kogalniceanu, and key infrastructure"
       - "Coordinate with Ukrainian and Moldovan military on shared threat assessment"
-      - "Accelerate F-35 and ground force modernization timelines"
+      - "Maintain F-16 combat air patrols and readiness across all three squadrons"
+      - "Accelerate F-35 and ground force modernisation timelines"
+      - "Strengthen trilateral Black Sea cooperation with Turkey and Bulgaria"
     red_lines:
       - "NATO redeployment of Romania-based forces to Baltics without adequate replacement"
-      - "Russian naval escalation in Black Sea that threatens Romanian territorial waters"
+      - "Russian naval escalation in Black Sea that threatens Romanian territorial waters or energy infrastructure"
       - "Russian or proxy military activity in Transnistria"
+      - "Russian drone incursions or mine threats affecting Romanian sovereignty"
     voice: >
       Operationally focused with a distinctive Black Sea/southeastern perspective.
       'SACEUR, with respect, the alliance is focused on the Baltic. Understood.
       But our intelligence indicates Russian Black Sea Fleet has increased readiness,
       and we have detected unusual communications traffic from Transnistria. If
       Russia opens a southeastern axis while NATO's attention is fixed on Suwalki,
-      we have a serious problem. I request additional ISR assets for Black Sea
+      we have a serious problem. Romania operates seven Patriot batteries and 32
+      F-16s — we are not defenceless, but we need additional ISR assets for Black Sea
       coverage and acceleration of the multinational battlegroup deployment to
       Romania.' To allied military counterparts: 'Romania is NATO's Black Sea
-      anchor. If the anchor slips, the entire southeastern flank is exposed.
-      Ukraine, Moldova, Georgia — they are all watching how we respond.'
+      anchor. We are building the largest NATO base in Europe at Kogalniceanu. We
+      host America's missile defence at Deveselu. If the anchor slips, the entire
+      southeastern flank is exposed. Ukraine, Moldova, Georgia — they are all
+      watching how we respond.'
     key_relationships:
-      allies: ["US (Deveselu, MK Air Base)", "PL (military cooperation)", "FR (equipment supplier)", "UA (border security)"]
-      rivals: ["RU (direct threat)", "BY (through Russia)"]
+      allies: ["US (Deveselu, MK Air Base)", "PL (military cooperation, B9)", "FR (equipment supplier)", "UA (border security)", "TR (Black Sea trilateral)", "BG (Black Sea trilateral)"]
+      rivals: ["RU (direct threat, Black Sea Fleet)", "BY (through Russia)"]

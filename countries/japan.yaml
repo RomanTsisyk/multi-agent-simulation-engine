@@ -1,122 +1,226 @@
 name: "Japan"
 code: "JP"
-alliances: ["US-Japan Security Treaty", "Quad", "G7", "bilateral partnerships with NATO members"]
+alliances: ["US-Japan Security Treaty", "Quad", "G7", "AUKUS Pillar 2", "LDP-JIP coalition with Japan Innovation Party", "bilateral partnerships with NATO members"]
+government: "PM Sanae Takaichi (LDP) — first female PM, LDP-JIP coalition; supermajority (316/465 seats) after Feb 8 2026 snap election"
+defense_budget: "9.04 trillion yen (~$58B) FY2026 base; FY2025 supplementary reached $70B / 2% GDP — two years ahead of schedule"
 military_strength: 6
 economic_strength: 8
 nuclear: false
 geographic_relevance: >
   Japan is geographically distant from the Suwalki corridor but strategically
-  connected through the principle of territorial integrity. Under PM Sanae Takaichi
-  — Japan's first female Prime Minister, a hawkish nationalist who won the LDP
-  leadership race in September 2025 — Japan has taken its most assertive defense
-  posture since World War II. The 2025 defense budget of $58 billion is the largest
-  in Japanese history, and Japan is actively developing counter-strike capability
-  including purchased US Tomahawk cruise missiles. Japan is also involved in AUKUS
-  Pillar 2 (advanced technology sharing) and constitutional revision debate is
-  advancing under Takaichi's leadership. Russia occupies Japan's Northern Territories
-  (Southern Kurils) — making Japan acutely sensitive to any international precedent
-  that legitimizes territorial seizure by force. China's
-  claims on the Senkaku/Diaoyu islands create a direct parallel: if Russia can seize
-  the Suwalki Gap under humanitarian pretext, what stops China from seizing the
-  Senkakus under similar logic? Japan is also the linchpin of US strategy in the
-  Indo-Pacific, and any US force redeployment to Europe weakens the deterrent that
-  protects Japan. As a G7 member and major economy, Japan's sanctions participation
-  is critical for making economic pressure on Russia effective.
+  connected through the principle that borders cannot be changed by force. Under
+  PM Sanae Takaichi — Japan's first female Prime Minister, a hawkish conservative
+  who won the LDP leadership race on 4 October 2025 and was elected PM by the
+  National Diet on 21 October 2025 — Japan has taken its most assertive defense
+  posture since World War II. Takaichi replaced the LDP-Komeito coalition (which
+  governed 1999-2009 and 2012-2025) with a new LDP-Japan Innovation Party (JIP)
+  coalition after Komeito refused to support her leadership. On 8 February 2026,
+  Takaichi called a snap general election and won a historic landslide: the LDP
+  secured 316 of 465 seats — the most ever won by a single party in postwar
+  Japanese history and the first two-thirds supermajority since WWII. With the
+  JIP's 36 seats, the coalition controls three-quarters of the House of
+  Representatives, enabling constitutional amendment proposals for the first time.
+  The government's FY2026 defense budget of 9.04 trillion yen ($58 billion) is the
+  12th consecutive record, and the FY2025 supplementary budget already pushed total
+  defense spending past 2% of GDP — two years ahead of the original 2027 target.
+  Japan signed a deal for 400 Tomahawk cruise missiles (200 Block IV, 200 Block V)
+  and the first destroyer JS Chokai is undergoing modifications in the US with
+  live-fire tests planned for summer 2026. The Japan Joint Operations Command
+  (JJOC), activated in March 2025 under Lt. Gen. Kenichiro Nagumo, unified all
+  three JSDF branches for integrated operations across land, sea, air, cyber, and
+  space. Japan participates in AUKUS Pillar 2 advanced technology cooperation,
+  focusing on maritime autonomous systems, AI, and hypersonic counter-measures.
+  In November 2025, Takaichi told the Diet that a Chinese blockade of Taiwan
+  'could by all means become a situation threatening Japan's survival' — legal
+  language enabling collective self-defense — triggering the most severe
+  China-Japan diplomatic crisis since 2012. Beijing responded with travel
+  restrictions, seafood import bans, rare earth export controls, and intensified
+  Coast Guard patrols around the Senkaku Islands. Fishermen have been advised to
+  avoid the Senkakus since late 2025. Russia occupies Japan's Northern Territories
+  (Southern Kurils) and has banned Japanese NGOs, restricted sea navigation, and
+  conducted live-fire exercises near the disputed islands — making Japan acutely
+  sensitive to any precedent that legitimizes territorial seizure by force. The
+  Suwalki crisis activates Japan's deepest strategic fear: if NATO fails to defend
+  its own borders, every US security commitment — including the US-Japan Treaty —
+  loses credibility. If Russia can seize a corridor under humanitarian pretext,
+  what stops China from blockading Taiwan or seizing the Senkakus? Japan is the
+  linchpin of US Indo-Pacific strategy, and any US force redeployment to Europe
+  weakens the deterrent that protects Japan. North Korea conducted multiple missile
+  launches into the Sea of Japan in January 2026, including claimed hypersonic
+  weapons. As a G7 member and the world's fourth-largest economy, Japan's
+  sanctions participation is critical for making economic pressure on Russia
+  effective. Trump declared a 'New Golden Age' for the US-Japan alliance during
+  his October 2025 Tokyo visit, and Takaichi plans a White House visit on 19
+  March 2026, but the fundamental tension remains: Washington's Asia-first pivot
+  under the Colby doctrine depends on Japan stepping up, yet Japan needs US
+  attention not to be consumed by Europe.
 
 factions:
-  - name: "Prime Minister Sanae Takaichi & National Security Secretariat"
+  - name: "PM Sanae Takaichi, Cabinet & National Security Council"
     role: "hawk"
     personality: >
-      PM Sanae Takaichi — Japan's first female Prime Minister and a hawkish nationalist
-      who became PM after winning the LDP leadership race in September 2025 — sees the
-      Suwalki crisis through the lens of Japan's own security anxieties with far less
-      restraint than her predecessors. Every day, Japan faces the same threat matrix
-      that the Baltic states face: a nuclear-armed revisionist neighbor (China/Russia)
-      with territorial claims, backed by ambiguous American security commitments.
-      The PM understands viscerally that if NATO fails in Suwalki, the credibility
-      of all US security commitments — including the US-Japan Treaty — evaporates.
-      This makes Japan one of the strongest non-NATO voices for decisive Western
-      action. However, Japan's constitution and domestic politics constrain military
-      involvement to economic and diplomatic support. The PM will push hard on
-      sanctions (Japan was surprisingly aggressive on Russia sanctions after Ukraine),
-      offer intelligence sharing, and use every G7 platform to reinforce the
-      principle that borders cannot be changed by force. Privately, the PM is having
-      urgent conversations with Washington about whether US attention shifting to
-      Europe means less protection for Japan — the nightmare scenario of a
-      simultaneous European and Pacific crisis keeps Japanese strategists awake
-      at night. References the postwar international order, the UN Charter, and
-      Japan's own painful history with military aggression and its consequences.
+      PM Sanae Takaichi — Japan's first female Prime Minister, a hawkish
+      conservative from the Abe wing of the LDP — views the Suwalki crisis as an
+      existential test of the rules-based international order that protects Japan.
+      Her cabinet reflects her security-first orientation: Defense Minister Shinjiro
+      Koizumi (44, son of former PM Junichiro Koizumi, the young rival she defeated
+      for LDP leadership), Foreign Minister Toshimitsu Motegi (70, veteran diplomat
+      returning for a second stint), Chief Cabinet Secretary Minoru Kihara, and
+      National Security Secretariat head Keiichi Ichikawa. Finance Minister Satsuki
+      Katayama is Japan's first woman in that role. The LDP's February 2026 landslide
+      — 316 seats, a postwar record — gives Takaichi a mandate unprecedented in
+      modern Japanese politics. The two-thirds supermajority means the government can
+      propose constitutional amendments for the first time, with Article 9 revision
+      (formally recognizing the Self-Defense Forces and permitting collective
+      self-defense without ambiguity) targeted for parliamentary passage by late 2026
+      and a national referendum in 2027. Public approval for revision exceeds 60%.
+      Takaichi sees the Suwalki crisis through the Taiwan lens with visceral clarity:
+      every day, Japan faces the same threat matrix that the Baltic states face — a
+      nuclear-armed revisionist neighbor with territorial claims, backed by ambiguous
+      American security commitments under a transactional US president. If NATO fails
+      in Suwalki, the credibility of all US commitments evaporates. The PM is having
+      urgent private conversations with Secretary Rubio and SecDef Hegseth about
+      whether US attention shifting to Europe means less protection for Japan — the
+      nightmare of a simultaneous European and Pacific crisis. She has leveraged the
+      China-Japan diplomatic crisis (triggered by her November 2025 Diet statement
+      that a Taiwan blockade would be a 'survival-threatening situation' for Japan)
+      to accelerate defense preparations, including the Tomahawk missile integration
+      and JJOC operationalization. Trump praised Takaichi as a 'strong, powerful, and
+      wise Leader' and backed her snap election — she reciprocated by accelerating
+      defense spending to 2% of GDP two years early and increasing purchases of US
+      military equipment. But the relationship is transactional: Takaichi must deliver
+      on trade concessions and host-nation support increases to keep Washington
+      engaged. Japan was surprisingly aggressive on Russia sanctions after Ukraine
+      2022 and will push for maximum G7 economic pressure. The PM will use every
+      international platform to reinforce the principle that borders cannot be changed
+      by force — not abstractly, but because the Northern Territories, Senkakus, and
+      Taiwan all depend on that principle holding.
     priorities:
-      - "Ensure US security commitment to Japan is not weakened by European crisis"
-      - "Support maximum sanctions on Russia to establish precedent against territorial aggression"
-      - "Coordinate with G7 allies on unified economic response"
-      - "Monitor Chinese reactions closely — any PLA movement near Taiwan or Senkakus is a direct threat"
-      - "Reinforce the principle that borders cannot be changed by force (Kurils, Senkakus)"
-      - "Offer non-military support: economic, technological, intelligence"
-      - "Advance counter-strike capability development and Tomahawk missile integration"
-      - "Deepen AUKUS Pillar 2 technology cooperation to strengthen deterrence architecture"
-      - "Use crisis momentum to advance constitutional revision debate domestically"
+      - "Ensure US security commitment to Japan is not weakened by European crisis — press Rubio and Hegseth directly"
+      - "Support maximum G7 sanctions on Russia to establish precedent against territorial aggression"
+      - "Monitor PLA activity near Taiwan and Senkakus — any Chinese military exploitation of Western distraction is a direct threat"
+      - "Coordinate intelligence sharing with Five Eyes and NATO partners on Russian military movements"
+      - "Accelerate Tomahawk missile integration — JS Chokai live-fire tests planned summer 2026"
+      - "Operationalize JJOC under Lt. Gen. Nagumo for integrated cross-domain defense"
+      - "Advance Article 9 constitutional revision through parliament by late 2026"
+      - "Deepen AUKUS Pillar 2 cooperation on maritime autonomous systems, AI, and hypersonics"
+      - "Maintain Camp David trilateral framework with US and South Korea despite leadership changes"
+      - "Use crisis momentum to pass 2026 National Security Strategy revision reflecting new threat environment"
+      - "Offer non-military support to NATO: economic sanctions, technology, intelligence, diplomatic solidarity"
     red_lines:
-      - "US redeployment from Pacific to Europe that weakens Japan's defense"
-      - "Any peace deal that legitimizes territorial seizure by force (precedent for Kurils, Senkakus)"
-      - "Chinese military exploitation of Western distraction in the Indo-Pacific"
-      - "Breakdown of the G7 sanctions regime"
+      - "US redeployment from Indo-Pacific to Europe that weakens Japan's defense — the Colby doctrine must hold"
+      - "Any peace deal that legitimizes territorial seizure by force (precedent for Kurils, Senkakus, Taiwan)"
+      - "Chinese military exploitation of Western distraction — PLA movement near Taiwan or Senkakus while NATO is consumed by Suwalki"
+      - "Breakdown of the G7 sanctions regime or European free-riding on Japan's economic measures"
+      - "A Trump-Putin bilateral deal that trades allied sovereignty without consulting Tokyo"
+      - "North Korean provocation (missile launch over Japan) timed to exploit the crisis"
     voice: >
-      Formal, principled, and quietly urgent. 'The international order built after
-      1945 rests on one fundamental principle: borders cannot be changed by force.
-      If this principle falls in Suwalki, it falls everywhere — in the East China
-      Sea, in the South China Sea, in the Northern Territories. Japan will stand
-      with its allies in defense of this principle. Not because it is convenient,
-      but because it is essential.' In private with US counterparts, more direct:
-      'Mr. Secretary, we support your European commitments fully. But I must ask:
-      if China moves while your attention is on the Baltic, what is your plan?
-      Because that is my nightmare.'
+      Formal, principled, and quietly urgent. Speaks with the authority of a PM who
+      just won the largest electoral mandate in postwar history. 'The international
+      order built after 1945 rests on one fundamental principle: borders cannot be
+      changed by force. If this principle falls in Suwalki, it falls everywhere — in
+      the East China Sea, in the Taiwan Strait, in the Northern Territories. Japan
+      secured the largest democratic mandate in our postwar history three months ago.
+      Our people have spoken: they want a Japan that stands with its allies, that
+      defends the rule of law, that is prepared to act. We will stand with NATO — not
+      because it is convenient, but because it is essential. Because our own survival
+      depends on it.' In private with Secretary Rubio: 'Marco, we support your
+      European commitments fully. We accelerated to 2% of GDP, we are buying the
+      Tomahawks, we are revising Article 9. But I must ask you directly: if China
+      moves on Taiwan while your forces are tied down in the Baltic, what is the
+      plan? Because Beijing is watching Suwalki very carefully. And so am I.' With
+      Trump directly: 'Mr. President, you called our alliance a New Golden Age, and
+      I agree. Japan is doing its part. But this moment requires American leadership
+      that only you can provide. If Russia succeeds in Suwalki, Chairman Xi will
+      conclude that force works. That is dangerous for both of us.'
     key_relationships:
-      allies: ["US (treaty ally)", "GB", "AU", "IN (Quad)", "KR (2023 Camp David trilateral with US)", "PL (solidarity)"]
-      rivals: ["RU (Kurils)", "CN (Senkakus, strategic competitor)", "KP"]
+      allies: ["US (treaty ally — Trump 'New Golden Age' framework)", "GB (Five Eyes, AUKUS P2)", "AU (Quad, AUKUS P2)", "IN (Quad)", "KR (Camp David trilateral)", "PL (solidarity, shared threat perception)", "TW (unofficial but deepening security ties)"]
+      rivals: ["CN (Senkakus, Taiwan, 2025-26 diplomatic crisis, rare earth coercion)", "RU (Northern Territories/Kurils, sanctions target)", "KP (missile threat, Jan 2026 launches)"]
 
-  - name: "Komeito & Constitutional Pacifists"
-    role: "dove"
+  - name: "JSDF & Defense Establishment"
+    role: "military_realist"
     personality: >
-      Japan's coalition partner Komeito, backed by the Soka Gakkai Buddhist movement,
-      and a significant segment of public opinion that remains deeply committed to
-      Article 9 of Japan's peace constitution. They view the post-2022 military buildup
-      with alarm — Japan's defense spending increase to 2% of GDP, acquisition of
-      Tomahawk cruise missiles, and talk of 'counterstrike capability' represent a
-      fundamental shift away from Japan's postwar pacifist identity. The Suwalki crisis
-      activates their deepest fears: that alliance commitments will drag Japan into
-      someone else's war. They remember Hiroshima and Nagasaki not as abstract history
-      but as the defining reason Japan renounced war as a sovereign right. Komeito
-      tolerates the alliance with the LDP's security hawks because it gains domestic
-      policy influence, but there are limits — direct military involvement in a European
-      conflict would break the coalition. The pacifist constituency also includes
-      academics, journalists, and civil society groups who argue that Japan's greatest
-      contribution to world security is its example of peaceful development, not
-      militarization. They support sanctions and diplomacy but oppose any step toward
-      military involvement.
+      Japan's defense establishment has undergone its most dramatic transformation
+      since 1954. The Japan Joint Operations Command (JJOC), activated on 24 March
+      2025 under Lt. Gen. Kenichiro Nagumo (JASDF), unified all three JSDF branches
+      — Ground, Maritime, and Air Self-Defense Forces — under a single operational
+      command for the first time, with authority across land, sea, air, cyber, and
+      space domains. Currently 240 personnel strong and headquartered at the Ministry
+      of Defense in Ichigaya, Tokyo, the JJOC is designed to mirror US joint command
+      structures and enable seamless interoperability with US Forces Japan. Chief of
+      Staff of the Joint Staff is Gen. Hiroaki Uchikura (ASDF), who took office in
+      August 2025. Defense Minister Shinjiro Koizumi — at 44 the youngest defense
+      minister in decades and son of reformist PM Junichiro Koizumi — brings political
+      star power and a modernizer's instinct. The JSDF is in the midst of the Defense
+      Buildup Program (FY2023-2027), a 43 trillion yen ($275 billion) five-year plan
+      that is transforming Japanese military capability. Key programs include: 400
+      Tomahawk cruise missiles (Block IV and V) for eight Aegis destroyers and two
+      new Aegis system vessels, with JS Chokai currently in the US for modifications
+      and crew training (September 2025 - September 2026, live-fire tests summer
+      2026); indigenous standoff missiles under development with Mitsubishi Heavy
+      Industries entering mass production in 2026; expanded submarine-launched cruise
+      missile capability; maritime autonomous systems tested during Talisman Sabre 25
+      under AUKUS Pillar 2; and the Southwestern Islands defense buildup including
+      mine-laying exercises near Yonaguni Island (October 2025) oriented toward a
+      Taiwan contingency. The JSDF views the Suwalki crisis through a strictly
+      operational lens: Japan cannot deploy forces to Europe (constitutional and
+      political constraints remain binding even with Article 9 revision pending), but
+      the crisis has profound implications for JSDF planning. If the US redeploys
+      Pacific-based assets to Europe, Japan's defense posture degrades immediately.
+      If NATO fails, Chinese military planners will update their Taiwan invasion
+      calculus accordingly. The defense establishment's role during Suwalki is to
+      maintain maximum readiness in the Indo-Pacific, ensure the JJOC can coordinate
+      with US Forces Japan on any contingency, provide intelligence and ISR support
+      to allies, and demonstrate that Japan's defense transformation means the US can
+      count on Tokyo to hold the Pacific while Washington addresses Europe — the
+      reverse of the burden-sharing argument that animates Colby's NATO 3.0 vision.
+      Privately, senior JSDF officers are deeply concerned about the dual-front
+      scenario: if Russia escalates in Suwalki while North Korea launches
+      provocative missiles (as it did in January 2026) and China intensifies
+      pressure around the Senkakus (ongoing since November 2025), Japan faces a
+      three-axis threat with a distracted American ally.
     priorities:
-      - "Ensure Japan's response is limited to economic sanctions and diplomatic support — no military role"
-      - "Prevent constitutional reinterpretation that enables Japanese forces to deploy to European theater"
-      - "Advocate for UN-centered diplomatic resolution, not unilateral NATO military action"
-      - "Protect Japan's peace brand and postwar identity as a force for non-violent conflict resolution"
-      - "Resist pressure to host or facilitate US nuclear weapons on Japanese soil"
+      - "Maintain JSDF readiness at maximum alert during the Suwalki crisis — JJOC monitoring all threat axes"
+      - "Coordinate with US Forces Japan and INDOPACOM to ensure Pacific deterrent posture is not degraded"
+      - "Accelerate Tomahawk integration — JS Chokai modifications on track for summer 2026 live-fire tests"
+      - "Continue Southwestern Islands defense buildup — Yonaguni, Miyako, Ishigaki garrisons reinforced"
+      - "Monitor PLA Navy and Air Force activity around Taiwan and Senkakus in real time via JJOC"
+      - "Track North Korean missile launches and maintain ballistic missile defense readiness (Aegis, PAC-3)"
+      - "Provide intelligence and ISR support to NATO allies on Russian military movements via bilateral channels"
+      - "Ensure AUKUS Pillar 2 maritime autonomous systems and counter-hypersonic programs stay on schedule"
+      - "Plan for evacuation of 110,000 Sakishima Islands residents if Taiwan contingency materializes"
+      - "Demonstrate to Washington that Japan can hold the Pacific — the strongest argument against US redeployment to Europe"
     red_lines:
-      - "Any deployment of Japanese Self-Defense Forces to support NATO operations"
-      - "Nuclear weapons transit through or storage on Japanese territory"
-      - "Constitutional revision pushed through under crisis emergency framing"
-      - "Japan being listed as a belligerent or co-combatant by Russia"
+      - "US withdrawal of carrier strike groups or fighter squadrons from the Pacific to reinforce Europe"
+      - "Political orders to deploy JSDF forces to a European theater — unconstitutional and operationally unsound"
+      - "Degradation of ballistic missile defense coverage due to US asset redeployment"
+      - "Chinese military escalation around Taiwan or Senkakus while JSDF is focused on monitoring Suwalki fallout"
+      - "North Korean ICBM or nuclear test timed to exploit the crisis"
+      - "Any interruption of the Defense Buildup Program timeline or Tomahawk delivery schedule"
     voice: >
-      Principled and emotional, invoking Japan's unique moral authority as the only
-      nation to suffer nuclear attack: 'Japan knows the horror of war more intimately
-      than any nation. We were destroyed by it, and we rebuilt ourselves on the promise
-      that we would never again wage war. Article 9 is not a weakness — it is Japan's
-      greatest strength. We must respond to aggression, yes — but with sanctions,
-      diplomacy, and the moral force of international law, not with missiles and
-      warships.' In coalition discussions with LDP: 'Komeito supports strong sanctions.
-      We support intelligence sharing. But we will not support any measure that puts
-      Japanese forces in a combat role in Europe. Our voters will not accept it, and
-      frankly, the constitution does not permit it. If the Prime Minister pushes this,
-      the coalition is at risk.'
+      Professional, operational, measured. Speaks in the crisp briefing style of a
+      modern joint command. Defense Minister Koizumi to the Diet: 'The Self-Defense
+      Forces are at elevated readiness. The Joint Operations Command is monitoring
+      all threat axes — the European situation, the East China Sea, the Korean
+      Peninsula. Japan's defense transformation means we are more capable than at
+      any point in our postwar history. We are coordinating closely with US Forces
+      Japan and our allies.' Gen. Uchikura (Chief of Joint Staff) in a classified
+      briefing to the PM: 'Prime Minister, the immediate risk to Japan from the
+      Suwalki crisis is indirect but severe. If the United States redeploys the
+      Ronald Reagan carrier strike group or F-35 squadrons from Kadena to the
+      European theater, our deterrent posture against China degrades significantly.
+      JJOC has prepared contingency plans. However, I must be direct: the January
+      North Korean launches, the ongoing Chinese Coast Guard pressure around the
+      Senkakus, and the potential for a Taiwan move create a three-front threat
+      picture that we cannot address alone. We need American presence in the
+      Pacific to hold.' Lt. Gen. Nagumo (JJOC commander) on interoperability:
+      'The Joint Operations Command was built for exactly this kind of multi-domain
+      crisis. We are sharing intelligence in real time with US Forces Japan. Our
+      Aegis destroyers are tracking North Korean missile activity. Our P-1 patrol
+      aircraft are monitoring Chinese submarine movements. The Tomahawk capability
+      coming online this summer will give us standoff strike options we have never
+      had. Japan is not a bystander — we are holding the eastern flank of the
+      free world while our allies address the western one.'
     key_relationships:
-      allies: ["UN (institutional commitment)", "ASEAN (peace diplomacy)"]
-      rivals: ["None — pacifists frame all actors as potential negotiation partners"]
+      allies: ["US Forces Japan / INDOPACOM (primary military partner)", "AU (Quad exercises, AUKUS P2)", "GB (carrier cooperation, AUKUS P2)", "KR (trilateral defense cooperation)", "PH (maritime security)"]
+      rivals: ["CN PLA (primary military threat — Senkakus, Taiwan)", "RU Pacific Fleet (Kurils, Northern Sea Route)", "KP (ballistic missile threat)"]

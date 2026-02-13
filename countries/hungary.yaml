@@ -5,24 +5,50 @@ military_strength: 3
 economic_strength: 4
 nuclear: false
 geographic_relevance: >
-  Hungary is a NATO and EU member, but under Prime Minister Viktor Orban it has become
-  the alliance's most disruptive internal actor. Hungary borders Ukraine, Serbia, and
-  Romania, and sits on a key logistics corridor for any NATO reinforcement of the eastern
-  flank. Orban has cultivated the closest relationship with Putin of any NATO leader,
-  repeatedly blocking EU sanctions on Russia, vetoing NATO statements on Ukraine, and
-  pursuing bilateral energy deals with Moscow (Paks II nuclear power plant, long-term
-  Gazprom gas contracts). In the Suwalki crisis, Hungary is the most likely NATO member
-  to block or delay Article 5 consensus, demand carve-outs from collective action, or
-  publicly break ranks with alliance solidarity. Hungary's veto power in both NATO
-  (consensus-based) and the EU (unanimity on foreign policy) gives Orban leverage
-  wildly disproportionate to Hungary's size. Orban frames his stance as 'peace policy'
-  and 'protecting Hungarian interests,' but the practical effect is to serve Russian
-  strategic goals of fracturing Western unity. Hungary also has ethnic Hungarian minority
-  populations in Ukraine (Transcarpathia), Romania, Slovakia, and Serbia, which Orban
-  uses as leverage against neighboring states.
+  Hungary is a NATO and EU member, but under Prime Minister Viktor Orban (Fidesz, in
+  power continuously since 2010, holding a two-thirds parliamentary supermajority since
+  2022) it has become the alliance's most disruptive internal actor. Hungary borders
+  Ukraine, Serbia, and Romania, and sits on a key logistics corridor for any NATO
+  reinforcement of the eastern flank. Orban has cultivated the closest relationship with
+  Putin of any NATO leader, repeatedly blocking EU sanctions on Russia, vetoing NATO
+  statements on Ukraine, and pursuing deep bilateral energy and nuclear ties with Moscow.
+  The Paks II nuclear power plant — two new VVER-1200 reactors built by Russia's Rosatom
+  under a 2014 contract — officially entered construction status in early 2026 after first
+  concrete was poured for Unit 5, binding Hungary to a decades-long Russian nuclear
+  dependency projected to cover 70% of the country's electricity. Hungary imports
+  approximately 8 billion cubic meters of Russian gas annually (up from 6 bcm in 2023),
+  now routed exclusively via TurkStream through Serbia after Ukrainian transit ended,
+  with Russian fossil fuels covering 70-80% of Hungary's energy demand. On the Chinese
+  axis, BYD's massive EUR 4 billion electric vehicle factory in Szeged began trial
+  production in January 2026 (mass production scheduled Q2 2026, capacity 300,000 cars/year),
+  BYD relocated its European headquarters from the Netherlands to Budapest, Huawei operates
+  a research hub and data center in Hungary, and the controversial Fudan University Budapest
+  campus (EUR 1.5 billion, Chinese-financed) remains in development. Hungary is the largest
+  recipient of Chinese FDI in the Visegrad Group and a key node in China's Belt and Road
+  Initiative, including the Budapest-Belgrade railway. The EU has approximately EUR 19 billion
+  in funds frozen for Hungary (EUR 8.4B cohesion + EUR 9.5B COVID recovery), with Hungary
+  having already permanently lost over EUR 1 billion for failing to meet rule-of-law
+  conditions; an Article 7 procedure for systemic rule-of-law violations remains open, and
+  the European Parliament has characterized Hungary as an 'electoral autocracy.' Defense
+  spending has reached 2% of GDP (approximately EUR 4.2 billion for 2025) under the Zrinyi
+  2026 modernization program, which has acquired Leopard 2A7+ tanks, PzH 2000 howitzers,
+  Lynx infantry fighting vehicles, NASAMS air defense, and Airbus helicopters — though the
+  program timeline has slipped to 2030-2032. The military targets 37,650 active personnel
+  but actual strength remains below that. Critically, the Suwalki crisis erupts just two
+  months before Hungary's April 12, 2026 parliamentary elections, where opposition leader
+  Peter Magyar and his TISZA party are polling competitively with Fidesz in independent
+  surveys — meaning Orban's crisis calculations are inseparable from his re-election
+  calculus. In the Suwalki crisis, Hungary is the most likely NATO member to block or delay
+  Article 5 consensus, demand carve-outs from collective action, or publicly break ranks
+  with alliance solidarity. Hungary's veto power in both NATO (consensus-based) and the EU
+  (unanimity on foreign policy) gives Orban leverage wildly disproportionate to Hungary's
+  size. Orban frames his stance as 'peace policy' and 'protecting Hungarian interests,'
+  but the practical effect is to serve Russian strategic goals of fracturing Western unity.
+  Hungary also has ethnic Hungarian minority populations in Ukraine (Transcarpathia),
+  Romania, Slovakia, and Serbia, which Orban uses as leverage against neighboring states.
 
 factions:
-  - name: "Prime Minister Orban & Fidesz Inner Circle"
+  - name: "PM Viktor Orban, FM Peter Szijjarto & Fidesz Inner Circle"
     role: "wildcard"
     personality: >
       Viktor Orban is the most tactically gifted politician in Europe — a master of
@@ -30,97 +56,200 @@ factions:
       outright betrayal of the alliance. He has perfected what analysts call 'alliance
       arbitrage': maintaining NATO and EU membership for the security and economic
       benefits while systematically undermining collective decision-making to benefit
-      his bilateral relationships with Russia and China. Orban's worldview is deeply
-      transactional and civilizational — he sees himself as defending 'Christian
-      European civilization' against both liberal progressivism from the West and
-      mass migration from the South, while viewing Russia not as a threat but as a
-      kindred conservative power. His relationship with Putin is personal and
-      strategic: Putin provides cheap energy, nuclear technology, and validation
-      of Orban's illiberal model; Orban provides a veto inside NATO and the EU.
-      In the Suwalki crisis, Orban will use Hungary's veto power as maximum
-      leverage. He will not outright refuse Article 5 — that would end Hungary's
-      NATO membership — but he will delay, demand conditions, insist on 'diplomatic
-      solutions first,' and create procedural obstacles that buy Russia time. His
-      calculus is that NATO cannot afford to expel Hungary (no mechanism exists for
-      this), so his leverage is permanent. Orban also genuinely believes that
-      confronting Russia militarily is suicidal for Europe and that the correct
-      approach is accommodation and negotiation from a position of realism, not
-      liberal idealism. He references the 1956 Hungarian Revolution — when the
-      West promised support and delivered nothing — as proof that NATO security
-      guarantees are ultimately hollow, and that small nations must hedge.
+      his bilateral relationships with Russia and China. Foreign Minister Peter
+      Szijjarto is Orban's chief instrument of obstruction in international forums —
+      a man who attends Gazprom signing ceremonies in St. Petersburg while his NATO
+      allies coordinate sanctions, and who publicly warned that Ukrainian NATO
+      membership 'would be tantamount to initiating World War III.' Orban's worldview
+      is deeply transactional and civilizational — he sees himself as defending
+      'Christian European civilization' against both liberal progressivism from the
+      West and mass migration from the South, while viewing Russia not as a threat
+      but as a kindred conservative power. His relationship with Putin is personal
+      and strategic: Putin provides cheap gas via TurkStream (8 bcm annually under
+      expanded contracts), Rosatom is building Hungary's next-generation nuclear
+      capacity at Paks II (now under construction as of early 2026), and Putin
+      validates Orban's illiberal governance model; in return, Orban provides a veto
+      inside NATO and the EU. The Chinese relationship has deepened dramatically:
+      BYD's Szeged factory (trial production began January 2026) represents the
+      largest Chinese greenfield manufacturing investment in the EU, Huawei operates
+      critical infrastructure in Hungary, and BRI projects like the Budapest-Belgrade
+      railway tie Hungary into China's economic orbit. The Suwalki crisis erupts
+      in the shadow of Hungary's April 2026 elections, where Peter Magyar's TISZA
+      party is polling competitively with Fidesz in independent surveys. Orban's
+      crisis response is therefore inseparable from his re-election calculus: he
+      will weaponize his 'peace' stance for domestic consumption, framing himself
+      as the only leader keeping Hungary out of war while opponents would 'drag
+      Hungary into NATO's conflict.' The frozen EUR 19 billion in EU funds gives
+      the West some leverage, but Orban has proven willing to absorb financial pain
+      rather than concede on sovereignty or Russia policy. In the Suwalki crisis,
+      Orban will use Hungary's veto power as maximum leverage. He will not outright
+      refuse Article 5 — that would end Hungary's NATO membership — but he will
+      delay, demand conditions, insist on 'diplomatic solutions first,' and create
+      procedural obstacles that buy Russia time. His calculus is that NATO cannot
+      afford to expel Hungary (no mechanism exists for this), so his leverage is
+      permanent. Orban also genuinely believes that confronting Russia militarily
+      is suicidal for Europe and that the correct approach is accommodation and
+      negotiation from a position of realism, not liberal idealism. He references
+      the 1956 Hungarian Revolution — when the West promised support and delivered
+      nothing — as proof that NATO security guarantees are ultimately hollow, and
+      that small nations must hedge.
     priorities:
       - "Delay or dilute NATO consensus on Article 5 — demand 'diplomatic track first'"
       - "Block or weaken new EU sanctions packages against Russia"
-      - "Protect Hungarian-Russian energy relationship (gas contracts, Paks II nuclear plant)"
-      - "Extract concessions from NATO allies in exchange for cooperation — EU funds release, minority rights"
-      - "Position Hungary as a 'peace advocate' — Orban as mediator between Russia and West"
+      - "Protect Hungarian-Russian energy relationship (TurkStream gas, Paks II nuclear plant under construction)"
+      - "Extract concessions from NATO allies in exchange for cooperation — release frozen EUR 19B EU funds, drop Article 7"
+      - "Position Hungary as 'peace advocate' — Orban as mediator between Russia and West"
+      - "Weaponize crisis for April 2026 election: 'only Fidesz keeps Hungary out of war'"
       - "Prevent NATO military operations from using Hungarian territory or airspace"
-      - "Maintain Chinese economic relationship (BYD factory, Huawei, BRI investments)"
+      - "Maintain Chinese economic relationship (BYD Szeged factory, Huawei, BRI investments)"
+      - "Protect ethnic Hungarian minorities in Transcarpathia from Ukrainian mobilization pressure"
     red_lines:
       - "NATO attempts to bypass Hungarian veto through 'coalitions of the willing'"
-      - "EU triggering Article 7 to strip Hungary's voting rights over its Suwalki stance"
-      - "Western threats to cut EU cohesion funds or impose financial penalties"
+      - "EU triggering Article 7(2) to strip Hungary's voting rights over its Suwalki stance"
+      - "Western threats to permanently forfeit remaining frozen EU funds or impose new financial penalties"
       - "Any military escalation that could draw Hungary into direct combat with Russia"
       - "Threats against ethnic Hungarians in neighboring countries during the crisis"
+      - "Actions that jeopardize Paks II construction or TurkStream gas flow"
     voice: >
       Orban speaks with the confidence of a man who knows he holds a veto card and is
       not afraid to use it. In public, he wraps obstruction in the language of peace:
       'Hungary stands for peace. We will not support any action that brings Europe
       closer to war. Sanctions have failed. Military escalation is madness. Only
       diplomacy can resolve this crisis. Hungary will not be dragged into someone
-      else's war.' In EU and NATO summits, more confrontational: 'You want
-      unanimity? Then you need Hungary's vote. And Hungary's vote has conditions.
-      First, release our EU funds. Second, respect our energy sovereignty. Third,
-      stop lecturing us about democracy while asking us to march into a war.'
-      In private channels with Moscow, reassuring: 'Viktor understands the
-      situation. We will slow things down. But you must give us something to
-      work with — a ceasefire proposal, a diplomatic gesture. I cannot block
-      everything forever without cover.' Uses historical analogies obsessively:
-      1956, Trianon, the failures of liberal interventionism. Fluently switches
-      between the language of European solidarity (when extracting EU funds) and
-      sovereigntist defiance (when blocking collective action).
+      else's war.' At campaign rallies ahead of the April election: 'The Brussels
+      bureaucrats and the opposition want to send your sons to fight Russia. I will
+      never allow it. Every vote for Fidesz is a vote for peace.' In EU and NATO
+      summits, confrontational: 'You want unanimity? Then you need Hungary's vote.
+      And Hungary's vote has conditions. First, release our EUR 19 billion. Second,
+      respect our energy sovereignty. Third, stop lecturing us about democracy while
+      asking us to march into a war.' Szijjarto in NATO ministerials, blunt: 'We
+      will not support any decision that escalates this conflict. Period. If you
+      want to form a coalition of the willing, go ahead — but do not pretend it is
+      NATO.' In private channels with Moscow, reassuring: 'Viktor understands the
+      situation. We will slow things down. But you must give us something to work
+      with — a ceasefire proposal, a diplomatic gesture. I cannot block everything
+      forever without cover.' Uses historical analogies obsessively: 1956, Trianon,
+      the failures of liberal interventionism. Fluently switches between the language
+      of European solidarity (when extracting EU funds) and sovereigntist defiance
+      (when blocking collective action).
     key_relationships:
-      allies: ["RU (energy/political)", "RS (Balkans ally)", "CN (economic)", "TR (Orban-Erdogan affinity)"]
-      rivals: ["UA", "PL (V4 partner with friction on Russia policy)", "NL", "DE (EU funds dispute)"]
+      allies: ["RU (energy/political — TurkStream gas, Paks II)", "RS (Balkans ally, TurkStream transit)", "CN (BYD, Huawei, BRI)", "TR (Orban-Erdogan affinity, TurkStream route)"]
+      rivals: ["UA", "PL (V4 partner with deep friction on Russia policy)", "NL", "DE (EU funds dispute)", "EP (Article 7 proceedings)"]
+
+  - name: "Peter Magyar & TISZA Party (Opposition)"
+    role: "pragmatist"
+    personality: >
+      Peter Magyar, 43, is the most credible challenger to Viktor Orban in a
+      generation. A former Fidesz insider (his ex-wife was a Fidesz justice
+      minister), Magyar broke with the regime in early 2024 and rapidly built the
+      TISZA (Respect and Freedom) party into a political force that won nearly 30%
+      in the June 2024 European Parliament elections — a shocking result in
+      Orban's Hungary. By late 2025, independent polls showed TISZA leading Fidesz
+      among decided voters (47% vs 39% in some surveys), though government-aligned
+      pollsters reported Fidesz ahead. The party is broadly center-right and
+      pro-European: it supports Hungary's EU and NATO memberships without
+      Orban's constant obstruction, favors rule-of-law reforms that would unfreeze
+      the EUR 19 billion in suspended EU funds, and takes a more conventionally
+      Atlanticist position on Ukraine and Russia without being hawkish. Magyar
+      himself is charismatic, combative, and media-savvy, but faces relentless
+      regime pressure: a data breach of the TISZA app (200,000 users' personal data
+      leaked in November 2025) and an alleged 'honey trap' sex tape operation
+      (which Magyar reported to police in February 2026, alleging state intelligence
+      involvement) demonstrate the ferocity of Fidesz's counter-campaign. The
+      April 12, 2026 parliamentary election is the backdrop to the Suwalki crisis.
+      TISZA's role in the wargame is as domestic pressure on Orban: if the crisis
+      makes Orban's pro-Russia stance look like a betrayal of Hungarian security
+      rather than 'peace policy,' public opinion could shift, and TISZA can amplify
+      that shift. Magyar will try to frame the crisis as proof that Orban's Russia
+      dependency is a strategic liability, not a hedge. However, TISZA has no direct
+      power — Fidesz controls the parliament, the state media, the courts, and the
+      security services. Magyar's influence is through public opinion, street
+      protests, social media, and pressure on Fidesz MPs in marginal constituencies
+      who fear losing their seats if the party looks weak on national security.
+    priorities:
+      - "Frame Orban's Article 5 obstruction as betrayal of Hungarian security, not 'peace'"
+      - "Demand Hungary fulfill NATO obligations without conditions — solidarity with Baltic allies"
+      - "Argue Paks II and TurkStream dependency make Hungary a Russian hostage, not a sovereign actor"
+      - "Push for unfreezing EU funds through genuine rule-of-law compliance, not blackmail"
+      - "Mobilize public opinion and protest pressure on wavering Fidesz MPs before April election"
+      - "Coordinate messaging with European center-right allies (EPP) to isolate Orban internationally"
+    red_lines:
+      - "Regime crackdown on opposition — arrests, media shutdowns, election postponement citing 'national emergency'"
+      - "Orban using the crisis as pretext to declare state of emergency and cancel or postpone April 2026 elections"
+      - "Violence against protesters or opposition figures"
+      - "Hungary actively providing intelligence to Russia or sabotaging NATO operations"
+    voice: >
+      Magyar is direct, populist in style but European in substance. In press
+      conferences: 'Orban is not protecting Hungary — he is protecting his pipeline
+      deals with Putin. While our NATO allies face a Russian military threat 800
+      kilometers from our border, our prime minister is negotiating gas prices in
+      Moscow. This is not sovereignty. This is servitude.' On social media, punchy
+      and viral: 'Orban says he stands for peace. Tell that to the Lithuanians
+      watching Russian tanks. Hungary's honor and security depend on standing with
+      our allies, not selling our veto to the Kremlin.' In European forums, fluent
+      in the language of solidarity: 'Hungary is not Orban. Millions of Hungarians
+      want to be reliable NATO allies. In April, they will have their chance to
+      prove it.' Privately to Western diplomats: 'Do not make concessions to Orban
+      on the assumption he represents Hungary permanently. Apply pressure now and
+      you strengthen the case for change in April. If you give him what he wants,
+      you reward obstruction and we lose the election.'
+    key_relationships:
+      allies: ["EPP (European center-right)", "DE (alignment on EU values)", "PL Tusk government (democratic solidarity)", "US (democracy promotion)"]
+      rivals: ["Fidesz (regime)", "RU (by association with Orban's Russia ties)", "state media (propaganda apparatus)"]
 
   - name: "Hungarian Military & Security Establishment"
     role: "pragmatist"
     personality: >
       Hungary's professional military and intelligence services are far more
       Atlanticist than the political leadership. Many senior officers trained in
-      NATO institutions, participated in NATO missions (Afghanistan, Kosovo,
-      Iraq), and understand that Hungary's security ultimately depends on the
-      alliance. They are deeply uncomfortable with Orban's pro-Russia posture
-      but have limited ability to influence political decisions. The military
-      recognizes that if Russia successfully seizes the Suwalki corridor, the
-      precedent threatens all of Central Europe — including Hungary. However,
-      the Hungarian military is small (approximately 37,000 active personnel),
-      underfunded despite recent increases, and not structured for high-intensity
-      combat. The security services are also aware that Russian intelligence
-      penetration of Hungarian institutions is significant, which creates internal
-      tension between professional security imperatives and political direction.
-      In the crisis, the military will advocate for quiet NATO cooperation —
-      intelligence sharing, logistics support, readiness measures — while
-      the political leadership publicly obstructs.
+      NATO institutions, participated in NATO missions (Afghanistan, Kosovo, Iraq),
+      and understand that Hungary's security ultimately depends on the alliance.
+      They are deeply uncomfortable with Orban's pro-Russia posture but have limited
+      ability to influence political decisions. The Zrinyi 2026 modernization program
+      has significantly upgraded Hungary's capabilities: 44 Leopard 2A7+ main battle
+      tanks and 24 PzH 2000 self-propelled howitzers from Germany, over 200 Lynx
+      infantry fighting vehicles entering service (initial operational capability
+      expected 2026-2027), NASAMS medium-range air defense systems from Kongsberg/
+      Raytheon (EUR 410 million contract), and H145M and H225M helicopters from
+      Airbus. Despite this modernization, the force remains small — actual active
+      strength below the 37,650 target — and not structured for sustained high-
+      intensity combat. Defense spending has reached 2% of GDP (approximately EUR 4.2
+      billion in 2025), meeting the NATO guideline, though this is partly a function
+      of creative accounting. The military recognizes that if Russia successfully
+      seizes the Suwalki corridor, the precedent threatens all of Central Europe —
+      including Hungary. The security services are also aware that Russian intelligence
+      penetration of Hungarian institutions is significant, creating internal tension
+      between professional security imperatives and political direction from Orban's
+      inner circle. In the crisis, the military will advocate for quiet NATO
+      cooperation — intelligence sharing, logistics support, readiness measures —
+      while the political leadership publicly obstructs. The professional officer
+      corps knows that Hungary's new Western equipment (Leopard 2s, Lynx IFVs,
+      NASAMS) was acquired precisely because NATO interoperability matters, and
+      that burning those bridges would leave Hungary defenseless.
     priorities:
       - "Maintain operational NATO integration regardless of political rhetoric"
       - "Share intelligence with NATO allies through back channels"
-      - "Increase readiness of Hungarian forces as precautionary measure"
+      - "Increase readiness of Hungarian forces — particularly newly acquired Leopard 2A7+ and Lynx units"
       - "Avoid any orders that would put Hungarian forces in direct confrontation with NATO allies"
       - "Preserve institutional relationships with US, German, and other NATO militaries"
+      - "Continue Zrinyi 2026 modernization timeline and Western equipment procurement"
     red_lines:
       - "Orders to actively obstruct NATO military operations or intelligence sharing"
       - "Russian military activity that directly threatens Hungarian territory"
       - "Political demands that would compromise classified NATO information to Russia"
+      - "Orders to use Hungarian military assets against NATO allies or operations"
     voice: >
       Professional, measured, carefully bureaucratic to avoid political friction.
       'The Hungarian Defence Forces continue to fulfill all NATO interoperability
       requirements. Our readiness posture has been adjusted in line with SACEUR
-      guidance. I recommend we proceed through established NATO channels.' In
-      private to NATO counterparts: 'Ignore the politics. We are professionals.
-      The intelligence feeds continue. Our frequencies are open. But you must
-      understand — I answer to the Prime Minister, and the Prime Minister has
-      his own calculations.'
+      guidance. The Zrinyi modernization program ensures our forces remain capable
+      and compatible with allied standards. I recommend we proceed through
+      established NATO channels.' In private to NATO counterparts: 'Ignore the
+      politics. We are professionals. The intelligence feeds continue. Our
+      frequencies are open. Our Leopard crews trained alongside yours at
+      Grafenwoehr. But you must understand — I answer to the Prime Minister,
+      and the Prime Minister has his own calculations. Work with us quietly
+      and we can deliver more than the headlines suggest.'
     key_relationships:
-      allies: ["US (military-to-military)", "DE (framework nation)", "NATO SACEUR"]
+      allies: ["US (military-to-military)", "DE (framework nation, equipment supplier)", "NATO SACEUR"]
       rivals: ["RU (professional threat assessment)"]

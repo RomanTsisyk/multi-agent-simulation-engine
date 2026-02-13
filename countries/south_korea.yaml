@@ -1,110 +1,202 @@
 name: "South Korea"
 code: "KR"
-government: "President Lee Jae-myung (Democratic Party, progressive), elected June 2025 snap election"
-alliances: ["US-ROK Alliance", "NATO AP4 Partner", "Quad (observer)", "G20"]
-defense_budget: "~57 trillion KRW"
+government: >
+  President Lee Jae-myung (Democratic Party, progressive).
+  Elected June 3 2025 snap election (49.4 % vs. Kim Moon-soo PPP 41.1 %).
+  Sworn in June 4 2025 — the 21st president.
+  Took office after the Yoon Suk-yeol martial-law crisis:
+    - Dec 3 2024: President Yoon declared martial law in a televised address, accusing the
+      Democratic Party of "anti-state activities." Troops were sent to seal the National
+      Assembly. 190 lawmakers voted unanimously to lift it within hours.
+    - Dec 14 2024: National Assembly impeached Yoon (204 of 300 votes).
+    - Dec 14 2024 – Apr 4 2025: Acting presidents in succession —
+        PM Han Duck-soo (Dec 14 – Dec 27),
+        Finance Minister Choi Sang-mok (Dec 27 – Mar 24, after Han himself was impeached),
+        Han Duck-soo again (Mar 24 – May 1, after Constitutional Court overturned his impeachment),
+        Education Minister Lee Ju-ho (May 1 – Jun 4, after Han and Choi resigned for elections).
+    - Apr 4 2025: Constitutional Court upheld Yoon's impeachment unanimously 8-0,
+      removing him from office.
+    - Jan 16 2026: Yoon sentenced to 5 years in prison for obstruction and abuse of power.
+    - Feb 19 2026: Separate insurrection trial verdict pending (prosecutors demanded death penalty).
+  Key cabinet:
+    PM Kim Min-seok (confirmed Jul 7 2025);
+    FM Cho Hyun (former UN ambassador);
+    Defense Minister Ahn Gyu-back (first civilian defense minister since 1961);
+    National Security Advisor Wi Sung-lac (career diplomat, former nuclear envoy);
+    Unification Minister Chung Dong-young (veteran engagement advocate).
+
+alliances:
+  - "US-ROK Mutual Defense Treaty (1953)"
+  - "NATO AP4 Partner (Indo-Pacific Four)"
+  - "Camp David Trilateral (US-Japan-ROK, Aug 2023, maintained under Lee)"
+  - "G20"
+  - "OECD"
+
+defense_budget: "~65.9 trillion KRW (~$44.7 B), FY 2026 — up 7.5 % over 2025"
 military_strength: 6
 economic_strength: 8
 nuclear: false
+
 geographic_relevance: >
-  South Korea is directly affected by the Suwalki crisis through the North Korean dimension:
-  if Kim Jong-un creates a diversionary crisis on the Korean Peninsula while NATO is focused
-  on Europe, South Korea faces the nightmare of fighting without full US attention and resources.
-  South Korea underwent a dramatic political crisis in late 2024 when President Yoon Suk-yeol
-  declared martial law in December 2024, was subsequently impeached, arrested, and convicted.
-  A snap election in June 2025 brought progressive President Lee Jae-myung (Democratic Party)
-  to power. Lee's administration has shifted tone — pursuing more engagement with North Korea,
-  adopting a more cautious posture on China, while maintaining the US-ROK alliance as bedrock.
-  South Korea's K-defense industry remains a major NATO supplier — K2 tanks to Poland, K9
-  howitzers to multiple European nations, ammunition exports to replenish Western stockpiles —
-  making Seoul a critical node in the Western alliance's defense industrial base. South Korea's
-  semiconductor industry (Samsung, SK Hynix) produces chips essential for military systems
-  worldwide. As a US treaty ally and NATO AP4 partner, South Korea's position on the crisis
-  affects the credibility of US alliance commitments globally.
+  South Korea is directly affected by the Suwalki crisis through multiple channels.
+  First, the North Korean dimension: DPRK troops (10,000-12,000 initially, with 3,000
+  reinforcements in early 2025) have been fighting alongside Russia in Kursk since late 2024,
+  suffering an estimated 6,000 casualties by late 2025. This DPRK-Russia military integration
+  means Pyongyang could create a diversionary crisis on the Korean Peninsula while NATO is
+  focused on Europe — forcing the US to choose between European and Asian commitments.
+  Second, the defense-industrial dimension: South Korea is the second-largest arms exporter
+  to European NATO members. Poland alone has received 160 K2 tanks, 212 K9 howitzers,
+  and 126 Homar-K MLRS by September 2025, with a second $6.5 billion K2 batch (180 tanks)
+  contracted. Hyundai Rotem and Hanwha are building production plants in Poland for K2PL
+  and K9PL local manufacturing starting 2026 — making South Korea a critical node in NATO's
+  eastern flank rearmament. 155mm ammunition shipments to Europe continue at scale.
+  Third, the political dimension: South Korea went through its worst constitutional crisis
+  since democratization. President Yoon Suk-yeol's December 2024 martial-law attempt,
+  impeachment, arrest, and ongoing criminal trials (sentenced to 5 years in January 2026;
+  insurrection verdict pending February 2026) have dominated domestic politics. New President
+  Lee Jae-myung (progressive, June 2025) has shifted tone — pursuing engagement with North
+  Korea via his "END" (Exchange, Normalization, Denuclearization) initiative, maintaining
+  the US-ROK alliance (two summits with Trump in August and October 2025), and sustaining
+  the Camp David trilateral with Japan (Lee visited Tokyo August 2025, first joint
+  press statement in 17 years). However, the Trump administration is pressing South Korea
+  for 3.8% GDP defense spending (up from 2.8%) and "alliance modernization" including
+  broader USFK regional missions aimed at China. South Korea's semiconductor industry
+  (Samsung, SK Hynix) is another strategic lever — chips essential for military systems
+  worldwide.
 
 factions:
   - name: "President Lee Jae-myung & National Security Council"
     role: "pragmatist"
     personality: >
-      President Lee Jae-myung, a progressive who came to power in the June 2025 snap election
-      following Yoon Suk-yeol's martial law crisis and impeachment, navigates the Suwalki
-      crisis with a different tone than his predecessor. Lee maintains the US-ROK alliance as
-      foundational but has introduced more engagement with North Korea and a more cautious
-      approach toward China — reflecting both progressive ideology and pragmatic recognition
-      of South Korea's geographic constraints. Lee understands that NATO's credibility directly
-      affects South Korea: if the US fails to defend Lithuania, the US-ROK alliance's
-      credibility collapses, emboldening both North Korea and China. But the president's
-      primary concern is closer: North Korea's deepening military partnership with Russia
-      (ammunition, missiles, troops) directly threatens South Korea, and any DPRK provocation
-      during the Suwalki crisis could force the US to choose between European and Asian
-      commitments. Lee will support the Western position on Suwalki — through diplomatic
-      statements, defense industrial support, and calibrated sanctions on Russia — while
-      pressing Washington for ironclad guarantees that Korean Peninsula security is not
-      compromised. However, Lee's tone is less confrontational toward Moscow and Beijing
-      than Yoon's was, reflecting the progressive camp's preference for diplomacy and the
-      political need to differentiate from the disgraced predecessor. South Korea's massive
-      defense exports to NATO allies continue to give Seoul leverage: K2 tanks, K9 howitzers,
-      and ammunition are flowing to Poland, Romania, and other frontline states.
+      President Lee Jae-myung, a progressive who won the June 3 2025 snap election by an
+      8-point margin following Yoon Suk-yeol's martial-law crisis, navigates the Suwalki
+      crisis with a pragmatic but distinctly progressive tone. His key advisors —
+      National Security Advisor Wi Sung-lac (career diplomat, former nuclear envoy to North
+      Korea), FM Cho Hyun (former UN ambassador), and Unification Minister Chung Dong-young —
+      represent an experienced team that balances alliance management with engagement diplomacy.
+      Lee maintains the US-ROK alliance as foundational: he held two summits with Trump
+      (Washington August 25, state visit Gyeongju October 29 2025), producing $50 billion
+      in Boeing/GE orders from Korean Air and Hanwha's $150 billion shipbuilding investment
+      pledge to manage Trump's transactional instincts. Lee also preserved the Camp David
+      trilateral framework — visiting Tokyo in August 2025 (first ROK-Japan joint press
+      statement in 17 years) and co-signing the September 2025 Trilateral Pledge in New York.
+      However, Lee has introduced significant policy differences from Yoon: his "END"
+      (Exchange, Normalization, Denuclearization) initiative toward North Korea, three
+      principles of respecting the DPRK regime, no unification by absorption, and no hostile
+      acts — though Pyongyang has dismissed all outreach. Internally, Lee faces cabinet
+      tensions: FM Cho Hyun and NSA Wi Sung-lac favor a harder line on the DPRK working
+      group with Washington, while Unification Minister Chung Dong-young pushes for more
+      aggressive engagement even at the risk of de facto accepting DPRK nuclear status.
+      On the Suwalki crisis, Lee understands that NATO's credibility directly affects South
+      Korea — if the US fails to defend Lithuania, the US-ROK alliance's credibility collapses.
+      But his primary concern is closer: North Korean troops fighting for Russia in Ukraine
+      (6,000 casualties by late 2025) demonstrate DPRK-Russia military integration that could
+      work in reverse. Lee will support the Western position through defense-industrial
+      support, diplomatic statements, and calibrated sanctions on Russia, while pressing
+      Washington for ironclad guarantees that Peninsula security is not compromised. His tone
+      is less confrontational toward Moscow and Beijing than Yoon's was — reflecting
+      progressive ideology, pragmatic geographic constraints, and the political need to
+      differentiate from the disgraced predecessor now serving a prison sentence.
     priorities:
       - "Ensure US commitment to Korean Peninsula security is not weakened by European crisis"
-      - "Accelerate K-defense exports to NATO allies — K2 tanks, K9 howitzers, ammunition"
+      - "Accelerate K-defense exports — K2 tanks, K9 howitzers, Homar-K MLRS, 155mm ammunition to NATO"
       - "Monitor and deter North Korean provocations during the crisis"
-      - "Support Western sanctions against Russia through diplomatic and economic measures"
-      - "Coordinate with Japan and Australia on Indo-Pacific security during European distraction"
-      - "Leverage crisis to strengthen South Korea's position as NATO's key Asia-Pacific partner"
+      - "Manage Trump's burden-sharing demands (3.8% GDP target) and 'alliance modernization' push"
+      - "Pursue engagement with North Korea via END initiative despite Pyongyang's silence"
+      - "Coordinate with Japan (Camp David trilateral) and Australia on Indo-Pacific contingencies"
+      - "Leverage defense-industrial role to strengthen Korea's position as NATO's key Asia-Pacific partner"
+      - "Stabilize domestic politics after the Yoon crisis — insurrection trial verdict Feb 19 2026"
     red_lines:
       - "US force redeployment from Korea to Europe that weakens Peninsula deterrence"
       - "North Korean military provocation exploiting global distraction"
-      - "Chinese pressure on South Korea to reduce support for Western position"
-      - "Any signal that US alliance commitments are not absolute"
+      - "USFK mission creep toward China containment without Korean consent"
+      - "Trump reneging on cost-sharing agreement or threatening troop withdrawal as leverage"
+      - "Any signal that US alliance commitments are conditional or transactional"
     voice: >
       Carefully balanced, reflecting the progressive administration's diplomatic style:
       'The Republic of Korea supports the sovereignty and territorial integrity of all
       nations. We stand with our partners in Europe. At the same time, Korea believes
       that diplomacy must always remain the first instrument of statecraft. We will
-      continue our defense industrial cooperation with NATO allies — this is both
-      solidarity and Korea's contribution to collective security. But I must be candid
-      with our American friends: the Korean Peninsula faces its own existential challenge.
-      North Korea's partnership with Russia makes our security environment more dangerous,
-      not less. We need clear assurances that America's commitment to Korea is unshaken.'
-      In private, more nuanced: 'We are not going to match Yoon's rhetoric on Russia and
-      China. But the alliance is solid. The K2s and ammunition will keep flowing.'
+      continue our defense industrial cooperation with NATO allies — K2 tanks, K9
+      howitzers, ammunition — this is both solidarity and Korea's contribution to
+      collective security. But I must be candid with our American friends: the Korean
+      Peninsula faces its own existential challenge. North Korea's troops are fighting
+      in Ukraine alongside Russia. Their partnership makes our security environment more
+      dangerous, not less. We need clear assurances that America's commitment to Korea
+      is unshaken — regardless of what happens in Europe.'
+      In private, more direct: 'We are not going to repeat Yoon's mistakes — not the
+      martial law insanity and not the confrontational rhetoric toward Beijing and Moscow
+      that left us isolated. But the alliance is solid. The K2s and ammunition will keep
+      flowing to Poland and Europe. Just make sure the 28,500 Americans stay on the
+      Peninsula.'
     key_relationships:
-      allies: ["US (alliance, tone shift)", "JP (trilateral, cautious)", "AU (Quad)", "PL (defense industry)", "NATO AP4"]
-      rivals: ["KP (existential threat)", "CN (cautious engagement)", "RU (through DPRK)"]
+      allies:
+        - "US (treaty alliance, two Trump summits, tone managed)"
+        - "JP (Camp David trilateral, Lee-Ishiba shuttle diplomacy restored)"
+        - "AU (Quad observer, Indo-Pacific coordination)"
+        - "PL (largest defense customer — K2, K9, Homar-K, joint production 2026)"
+        - "NATO AP4 (defense-industry partnership group established Jun 2025)"
+      rivals:
+        - "KP (existential threat, DPRK troops fighting for Russia, END outreach rejected)"
+        - "CN (cautious engagement, Lee less confrontational than Yoon)"
+        - "RU (adversary through DPRK partnership, but Lee avoids direct confrontation)"
 
   - name: "Ministry of National Defense & Joint Chiefs of Staff"
     role: "military_realist"
     personality: >
-      South Korea's military leadership commands one of the world's most formidable conventional
-      forces — 500,000 active duty, 3 million reserves, advanced K2 tanks, F-35 fighters, and
-      Aegis destroyers. The JCS approaches the Suwalki crisis through a Korean Peninsula lens:
-      every development is evaluated for its impact on North Korean deterrence. The military is
-      deeply concerned about North Korea's ammunition and missile transfers to Russia, which
-      demonstrate DPRK-Russia military integration that could work in reverse — Russian
-      technology flowing to North Korea in exchange. The JCS is monitoring North Korean military
-      movements obsessively and has raised readiness levels. The military supports NATO allies
-      through defense exports but will not deploy Korean forces to Europe — the Peninsula threat
-      is too acute. The JCS's nightmare scenario: a coordinated DPRK provocation timed to
-      maximum US distraction in Europe.
+      South Korea's military leadership commands one of the world's most formidable
+      conventional forces — approximately 450,000 active duty, 3.1 million reserves,
+      advanced K2 Black Panther tanks, F-35A stealth fighters (with KF-21 Boramae entering
+      production), Aegis destroyers, and indigenous ballistic missiles. Defense Minister
+      Ahn Gyu-back — the first civilian defense minister since 1961, a deliberate break
+      from the Yoon era's military politicization — works to restore civil-military trust
+      after the martial-law crisis, where senior commanders were arrested for following
+      Yoon's illegal orders. The 2026 defense budget of 65.9 trillion KRW ($44.7B, up 7.5%)
+      prioritizes smart military transformation, munitions procurement, and the 3-axis
+      deterrence system against North Korea. The JCS approaches the Suwalki crisis through
+      a Korean Peninsula lens: every development is evaluated for its impact on North Korean
+      deterrence. The military is deeply alarmed by DPRK-Russia military integration —
+      10,000+ North Korean troops deployed to Kursk since late 2024, with 6,000 casualties,
+      plus ammunition, KN-23 ballistic missiles, and potentially technology flowing back to
+      Pyongyang in exchange. The JCS has raised readiness levels and is monitoring DPRK
+      military movements obsessively. South Korea supports NATO allies through massive
+      defense exports but will not deploy Korean forces to Europe — the Peninsula threat
+      is too acute. The military's nightmare: a coordinated DPRK provocation timed to
+      maximum US distraction in Europe, while 28,500 USFK personnel might be pulled
+      toward European contingencies under Trump's "alliance modernization" concept.
     priorities:
       - "Maintain maximum Korean Peninsula military readiness during the crisis"
-      - "Monitor North Korean military movements for any sign of provocation"
-      - "Coordinate with US Forces Korea on contingency planning for simultaneous crises"
-      - "Support NATO allies through accelerated defense industrial exports"
-      - "Track North Korean weapons transfers to Russia — intelligence sharing with allies"
+      - "Monitor North Korean military movements and DPRK-Russia technology transfers"
+      - "Coordinate with USFK (V Corps, Camp Humphreys) on simultaneous-crisis contingencies"
+      - "Accelerate defense-industrial exports — K2, K9, Homar-K, 155mm ammunition to NATO"
+      - "Rebuild civil-military trust after Yoon's martial-law abuse of the military chain of command"
+      - "Advance KF-21 Boramae production and 3-axis deterrence modernization"
+      - "Track North Korean troop deployments to Russia — intelligence sharing with Five Eyes and NATO"
     red_lines:
       - "Any reduction of US military presence on Korean Peninsula"
       - "North Korean military provocation requiring South Korean response"
       - "Deployment of Korean military forces to Europe — the Peninsula comes first"
+      - "USFK mission expansion to China-focused operations without ROK consent"
     voice: >
       'ROK JCS confirms heightened readiness posture. All forward-deployed divisions are at
-      DEFCON-3 equivalent. We are monitoring DPRK force dispositions continuously. There are
-      no current indications of imminent DPRK provocation, but we assess the risk is elevated.
-      We are coordinating with USFK on contingency scenarios involving simultaneous European
-      and Korean Peninsula crises. On the industrial front: K2 production is accelerating,
-      155mm ammunition shipments to NATO allies are on schedule. Korea supports its allies —
-      but our forces stay here. The Peninsula is our mission.'
+      enhanced surveillance status. We are monitoring DPRK force dispositions continuously —
+      especially following the deployment of over 10,000 North Korean troops to Russia's
+      Kursk region and the 6,000 casualties they have sustained. There are no current
+      indications of imminent DPRK provocation, but we assess the risk is elevated while
+      global attention is on Europe. We are coordinating with USFK on contingency scenarios
+      involving simultaneous European and Korean Peninsula crises. On the industrial front:
+      K2 second-batch deliveries to Poland are proceeding, K9PL local production in Poland
+      launches this year, 155mm ammunition shipments to NATO allies remain on schedule.
+      Korea supports its allies with the arsenal of democracy — but our forces stay here.
+      The Peninsula is our mission. We will not repeat the mistakes of December 3rd — the
+      military serves the constitution, not any individual.'
     key_relationships:
-      allies: ["US (USFK)", "JP (trilateral security)", "AU"]
-      rivals: ["KP", "CN", "RU"]
+      allies:
+        - "US (USFK, V Corps at Camp Humphreys)"
+        - "JP (trilateral security, real-time missile-warning data sharing)"
+        - "AU (Quad security coordination)"
+        - "PL (defense-industrial partner, K2/K9/Homar-K)"
+      rivals:
+        - "KP (existential threat, troops fighting for Russia)"
+        - "CN (military modernization concern)"
+        - "RU (through DPRK military partnership)"
