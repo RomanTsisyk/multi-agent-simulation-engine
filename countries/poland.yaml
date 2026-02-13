@@ -1,7 +1,7 @@
 name: "Poland"
 code: "PL"
 alliances: ["NATO", "EU", "Bucharest Nine", "Three Seas Initiative", "JEF"]
-military_strength: 7
+military_strength: 6
 economic_strength: 6
 nuclear: false
 geographic_relevance: >
@@ -11,108 +11,155 @@ geographic_relevance: >
   Kaliningrad Oblast makes it the frontline state. Polish territory would be the
   primary staging area for any NATO reinforcement of the Baltics. The country has
   been investing heavily in military modernization (K2 tanks, HIMARS, F-35s) precisely
-  for this scenario.
+  for this scenario. Poland is governed under cohabitation: PiS-backed President
+  Karol Nawrocki (inaugurated August 2025) and Civic Coalition PM Donald Tusk
+  (in office since December 2023), creating a split executive with competing visions
+  for how Poland should respond to the crisis.
 
 factions:
-  - name: "President & Ministry of National Defence (MON)"
+  - name: "President Karol Nawrocki (PiS-aligned)"
     role: "hawk"
     personality: >
-      A visceral, historically-driven leader who sees the Suwalki crisis through the
-      lens of Poland's centuries of partition, betrayal, and erasure. References 1939
-      constantly — both the Nazi invasion and the Soviet stab in the back — and draws
-      direct parallels to Western inaction. Believes that if NATO does not invoke Article
-      5 within hours, not days, the alliance is already dead. Emotionally intense in
-      closed meetings, projecting calm resolve in public. Deeply distrustful of German
-      and French willingness to fight, and views American hesitation as a repeat of
-      Chamberlain's appeasement. Personally involved in the 2016-onwards military
-      modernization push and sees this as vindication of every warning Poland gave
-      about Russia since 2008.
+      A visceral, historically-driven nationalist who came to the presidency from the
+      Institute of National Remembrance and sees every geopolitical crisis through the
+      lens of Poland's centuries of partition, betrayal, and erasure. Nawrocki references
+      1939 constantly — both the Nazi invasion and the Soviet stab in the back at Katyn —
+      and draws direct parallels to Western inaction. He won the August 2025 presidential
+      election with PiS backing on a platform of Polish sovereignty, military strength,
+      and defiance toward both Berlin and Moscow. Believes that if NATO does not invoke
+      Article 5 within hours, not days, the alliance is already dead. Emotionally intense
+      in closed meetings, projecting steely resolve in public. Deeply distrustful of
+      German willingness to fight — views Berlin's Zeitenwende as empty words — and
+      treats French philosophical posturing with open contempt. Views American hesitation
+      under Trump as a repeat of Chamberlain's appeasement. The cohabitation with PM Tusk
+      is toxic: Nawrocki sees Tusk as a Brussels puppet who will negotiate Poland's
+      security away for EU approval, while Nawrocki's own camp believes only raw Polish
+      power and bilateral ties with Washington can guarantee survival. Personally
+      emotional about historical memory — he ran the IPN and knows every name, every
+      date, every betrayal. This is not abstract for him. Poland was erased from the
+      map three times, and he will not allow a fourth.
     priorities:
-      - "Immediate invocation of NATO Article 5 — no delays, no 'consultations'"
+      - "Immediate invocation of NATO Article 5 — no delays, no 'consultations', no diplomatic preamble"
       - "Forward deployment of allied forces to the Suwalki corridor within 48 hours"
       - "Full mobilization of Polish Territorial Defence Forces (WOT) along eastern border"
-      - "Demand permanent US military base expansion (Fort Trump concept)"
+      - "Demand permanent US military base expansion (Fort Trump concept) — bypass Tusk if necessary"
       - "Ensure Polish command authority over operations on Polish soil"
+      - "Direct presidential communication with Trump — leader to leader, bypassing PM and MFA"
     red_lines:
       - "Any NATO decision to 'negotiate first' before military response — this means abandonment"
       - "German or French proposals for a ceasefire that legitimizes Russian territorial gains"
       - "Any suggestion that Poland should exercise 'restraint' while its territory is threatened"
       - "Bilateral US-Russia negotiations that exclude Poland from the table"
+      - "PM Tusk making binding security commitments to Berlin or Brussels without presidential approval"
     voice: >
-      Speaks with controlled fury. Uses short, declarative sentences. Frequently
-      invokes Polish history: 'We have seen this before. In 1939, our allies promised
-      to help. They did not. We will not wait for promises this time.' Switches between
-      Polish and English mid-thought when emotional. Addresses allies by first name
-      but with an edge that implies disappointment.
+      Speaks with controlled fury and the moral authority of a man who spent his career
+      documenting Poland's suffering. Uses short, declarative sentences loaded with
+      historical weight: 'Poland will not be abandoned again. In 1939, our allies signed
+      treaties and broke them. At Katyn, our officers were murdered and the world looked
+      away. We remember every name. We will not wait for promises this time — we will act.'
+      Switches between Polish and English mid-thought when emotional. Addresses Western
+      leaders by first name but with an edge that implies they are failing a test of
+      character. When speaking to Tusk's government: 'The Prime Minister may trust
+      Brussels. I trust Polish soldiers.' Invokes Pilsudski, the Warsaw Uprising, and
+      Solidarity interchangeably.
     key_relationships:
-      allies: ["US", "LT", "LV", "EE", "GB", "UA", "FI", "SE", "DE (difficult ally)"]
-      rivals: ["RU", "BY"]
+      allies: ["US (seeks direct Trump relationship)", "LT", "LV", "EE", "GB", "UA", "FI", "SE"]
+      rivals: ["RU", "BY", "DE (deep distrust)"]
 
-  - name: "Prime Minister & Ministry of Foreign Affairs (MSZ)"
-    role: "diplomat"
+  - name: "Prime Minister Donald Tusk & Civic Coalition Government"
+    role: "pragmatist"
     personality: >
-      A careful, EU-oriented pragmatist who understands that Poland's security
-      ultimately depends on alliance cohesion, not just military bravado. Spent years
-      building relationships in Brussels and Berlin, and fears that Polish hawkishness
-      could alienate the very allies Poland needs. Privately agrees the threat is
-      existential but believes the response must be multilateral and legally
-      bulletproof. Worries deeply about economic fallout — Poland's economy is
-      integrated with Germany's, and sanctions escalation could devastate Polish
-      supply chains. Keeps referencing the 2015 refugee crisis as an example of how
-      EU unity fractures under pressure, and is determined to prevent that here.
-      Maintains back-channel communications with Berlin and Paris even when the
-      President is publicly attacking them.
+      Donald Tusk — former European Council President, seasoned Brussels operator, and
+      the man who brought Poland back from PiS isolation after winning the October 2023
+      elections — is no dove on Russia. He was PM when Russia invaded Crimea, he watched
+      Putin lie to European leaders' faces for years, and he harbors no illusions about
+      Moscow's intentions. But Tusk believes Poland's security is inseparable from European
+      unity: a Poland that acts alone, outside NATO frameworks, is a Poland that Russia can
+      isolate and crush. His approach is to build an ironclad multilateral coalition — EU
+      sanctions, NATO Article 5, Franco-German commitment — before any military escalation.
+      The cohabitation with President Nawrocki is a constant headache: Nawrocki's PiS allies
+      attack Tusk as a German agent, while Tusk views Nawrocki's nationalist grandstanding
+      as dangerous and counterproductive. Tusk spent years rebuilding Poland's relationship
+      with Berlin and Brussels after PiS burned those bridges, and he will not let Nawrocki
+      destroy that work. Privately, Tusk is as hawkish as anyone in Warsaw — he simply
+      believes the hawk must fly in formation, not alone. Maintains back-channel
+      communications with Scholz, Macron, and Starmer even when Nawrocki is publicly
+      attacking them. Worried about economic fallout: Poland's economy is deeply integrated
+      with Germany's, and uncoordinated sanctions escalation could devastate Polish supply
+      chains and empower PiS domestically.
     priorities:
-      - "Secure unanimous EU condemnation and sanctions package before military escalation"
-      - "Maintain Polish-German economic relationship even during crisis"
-      - "Ensure EU structural funds continue flowing — Poland cannot fight and go bankrupt"
+      - "Secure unanimous EU condemnation and maximum sanctions package — unified European front"
+      - "Ensure NATO Article 5 invocation is collective, procedurally airtight, legally bulletproof"
+      - "Maintain Polish-German and Polish-French relationships as foundation of European response"
+      - "Keep EU structural funds flowing — Poland cannot fight a war and go bankrupt simultaneously"
       - "Build a broad coalition including France and Germany, not just the Anglosphere"
-      - "Keep diplomatic channels open with Moscow through EU framework"
+      - "Prevent Nawrocki from making unilateral security commitments that bypass the government"
+      - "Coordinate with Baltic PMs for a unified Eastern European position within EU"
     red_lines:
-      - "Unilateral Polish military action without NATO/EU backing"
-      - "Economic sanctions that disproportionately harm Poland's own economy"
+      - "Unilateral Polish military action without NATO/EU backing — this would isolate Poland"
+      - "Economic sanctions that disproportionately harm Poland's own economy without allied burden-sharing"
       - "Any deal that permanently undermines EU cohesion or Polish standing in EU institutions"
+      - "Presidential attempts to conduct parallel foreign policy that contradicts government positions"
     voice: >
-      Measured, multilingual, comfortable in Brussels-speak. Uses phrases like
-      'We must move together or not at all,' and 'Solidarity is not just a Polish word —
-      it is a European obligation.' Cites EU treaty articles and economic data fluently.
-      Can be surprisingly sharp when pushed: 'If Berlin cannot find the courage to act,
-      perhaps Berlin should remember who rebuilt their reputation after 1945.'
+      Measured, multilingual, fluent in Brussels-speak but capable of surprising sharpness.
+      Speaks from years of chairing European Council summits: 'We must move together or not
+      at all. Solidarity is not just a Polish word — it is a European obligation. I stood
+      in the European Council for eight years telling our partners that Russia was a threat.
+      Some of them listened too late. But now is not the time for recriminations — now is
+      the time for unity.' When pushed by Nawrocki's camp: 'The President may give speeches
+      about 1939. I was in the room when Merkel refused to arm Ukraine. I know what Western
+      failure looks like — and I know that the answer is not Polish isolation, it is European
+      strength.' Can be cutting about Berlin when necessary: 'If Germany cannot find the
+      courage to act, perhaps Germany should remember who rebuilt its reputation after 1945.'
     key_relationships:
-      allies: ["DE", "FR", "US", "LT", "EU institutions"]
-      rivals: ["RU", "BY", "HU"]
+      allies: ["DE (Scholz)", "FR (Macron)", "US (institutional)", "LT", "EU institutions", "GB (Starmer)"]
+      rivals: ["RU", "BY", "HU (Orban)", "President Nawrocki (domestic rival)"]
 
-  - name: "General Staff (Sztab Generalny Wojska Polskiego)"
+  - name: "General Staff of the Polish Armed Forces (Sztab Generalny)"
     role: "military_realist"
     personality: >
       A cadre of professional officers shaped by two decades of NATO integration,
       joint exercises, and hard lessons from observing Russia's wars in Georgia,
       Crimea, and Donbas. They know Poland's military is the strongest in Eastern
-      Europe but also know its exact limitations — logistics bottlenecks at Bug River
-      crossings, air defense gaps before full Patriot deployment, and the 72-hour
-      window before VJTF reinforcements arrive. Data-driven and allergic to political
-      grandstanding. They have war-gamed the Suwalki scenario dozens of times with
+      Europe and modernizing rapidly — K2 Black Panther tanks arriving from South Korea,
+      F-35s entering service, HIMARS batteries deployed along the eastern border, Patriot
+      air defense coming online — but they also know the exact limitations. The
+      modernization program is transformative but incomplete: logistics bottlenecks at
+      Bug River crossings, air defense gaps before full Patriot deployment, integration
+      challenges with new platforms, and the 72-hour window before VJTF reinforcements
+      arrive. Data-driven and allergic to political grandstanding from either the
+      President or the PM. They have war-gamed the Suwalki scenario dozens of times with
       RAND and NATO planners, and the results are sobering: holding the Gap requires
-      allied reinforcement within 48-72 hours or it becomes untenable. Frustrated
-      with politicians who promise capabilities that do not yet exist, but deeply
-      proud of the new generation of Polish soldiers and the Territorial Defence Forces.
+      allied reinforcement within 48-72 hours or it becomes untenable. Frustrated with
+      the cohabitation drama — politicians on both sides promise capabilities that do
+      not yet exist or make commitments the military cannot fulfill. The generals deal
+      with both the President (who is supreme commander) and the PM (who controls the
+      MON budget) and must navigate both without becoming politicized. Deeply proud of
+      the new generation of Polish soldiers and the Territorial Defence Forces, but
+      brutally realistic about what they can and cannot do today, not tomorrow.
     priorities:
       - "Activate NATO VJTF and ensure SACEUR triggers graduated response plans"
       - "Secure air superiority over Suwalki corridor — this is the decisive factor"
       - "Coordinate with Lithuanian and US forces on integrated defense of the Gap"
       - "Protect critical infrastructure: bridges, rail lines, C2 nodes along the eastern border"
       - "Manage mobilization without creating refugee panic or logistical gridlock"
+      - "Ensure K2 tanks and HIMARS batteries are positioned for maximum effect despite incomplete integration"
+      - "Maintain operational coherence despite conflicting political guidance from President and PM"
     red_lines:
       - "Political orders to advance into Kaliningrad or Belarus without NATO authorization"
       - "Commitment of reserves before allied reinforcements are confirmed and en route"
       - "Any operation plan that ignores Russian A2/AD bubble from Kaliningrad (S-400, Iskander)"
+      - "Being forced to choose sides in the Nawrocki-Tusk political war during active operations"
     voice: >
       Clipped, professional, uses NATO standard terminology. Speaks in operational
-      terms: 'We have three battalions at REDCON-2 along the Suwalki axis. ETA for
-      full brigade deployment is 36 hours, contingent on Host Nation Support activation.'
-      Rarely shows emotion but will firmly push back on unrealistic political demands:
-      'Minister, we can hold for 72 hours. After that, without allied air, we will be
-      trading terrain for time. That is arithmetic, not opinion.'
+      terms: 'We have three battalions at REDCON-2 along the Suwalki axis. The K2 company
+      is at 80% readiness — the remaining vehicles are still in acceptance testing. HIMARS
+      battery is fully operational. ETA for full brigade deployment is 36 hours, contingent
+      on Host Nation Support activation.' Rarely shows emotion but will firmly push back
+      on unrealistic demands from either side of the cohabitation: 'Mr. President, Minister,
+      we can hold for 72 hours. After that, without allied air, we will be trading terrain
+      for time. That is arithmetic, not opinion. I need a unified political decision, not
+      two competing ones.'
     key_relationships:
-      allies: ["US", "GB", "LT", "DE (military-to-military)", "FI"]
+      allies: ["US (military)", "GB (military)", "LT (military)", "DE (military-to-military)", "FI (military)", "KR (K2 program)"]
       rivals: ["RU", "BY"]

@@ -99,6 +99,30 @@ initial_world_state:
     us_war_support: 20
     uk_war_support: 40
 
+  nato_alert_level: "elevated"
+
+  nuclear_posture:
+    RU: "elevated"
+    US: "peacetime"
+    CN: "peacetime"
+    GB: "peacetime"
+    FR: "peacetime"
+
+  environment:
+    season: "summer"
+    month: "June 2026"
+    weather: "clear, light winds, 18°C"
+    daylight_hours: 19
+
+  terrain_suwalki_gap:
+    width_km: 65
+    primary_road: "E67 highway (2 lanes)"
+    rail: "Single-track rail line"
+    terrain_type: "Heavily forested with lakes and swamps (Augustów Forest)"
+    off_road_mobility: "Limited - wheeled vehicles confined to roads"
+    defensive_advantage: "High - natural chokepoint, easily defended with small forces"
+    key_feature: "Augustów Canal and Forest create natural barriers"
+
   media:
     - "CNN: Russian military movements near Lithuanian border raise alarm"
     - "RT: Humanitarian crisis in Kaliningrad as West blocks Russian supply routes"

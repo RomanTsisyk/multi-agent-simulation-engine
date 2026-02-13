@@ -11,51 +11,67 @@ geographic_relevance: >
   Regiment in Germany, and air assets across multiple European bases. The US controls
   NATO's strategic reserves and has the only military capable of rapid, large-scale
   power projection to the Suwalki corridor. Without American commitment, NATO's
-  conventional deterrence in the Baltic region collapses. However, American domestic
-  politics — particularly 'America First' sentiment — creates uncertainty about
-  the speed and scale of the US response.
+  conventional deterrence in the Baltic region collapses. However, the Trump
+  administration's 'America First' foreign policy — now in its second term (2025-2029)
+  after winning the November 2024 election — creates profound uncertainty about the
+  speed, scale, and willingness of the US response. President Trump's transactional
+  view of alliances, personal rapport with Putin, and strategic focus on China over
+  Russia make American commitment the single most consequential variable in the crisis.
 
 factions:
-  - name: "White House (National Security Council)"
+  - name: "White House (Trump Administration NSC)"
     role: "pragmatist"
     personality: >
-      An 'America First' administration that views European security as Europe's
-      problem and resents decades of allied free-riding on American military power.
-      The President's instinct is transactional: 'What does the US get out of
-      defending Poland?' He views China, not Russia, as the real strategic threat
-      and is reluctant to commit forces to Europe that might be needed in the
-      Pacific. References the cost of endless wars, the need to rebuild American
-      infrastructure, and the unfairness of Europeans spending 1.5% of GDP on
-      defense while America spends 3.5%. Privately, there is grudging respect for
-      Putin as a 'strong leader' and skepticism about whether the Suwalki crisis
-      is really an attack on NATO or just a 'border dispute.' The NSC staff tries
-      to moderate the President's instincts but struggles against his conviction
-      that alliances are transactional. Will ultimately act if the political cost
-      of inaction exceeds the cost of action — but that calculation takes time
-      that the Poles and Balts do not have.
+      President Donald Trump's second-term administration views European security as
+      Europe's problem and resents decades of allied free-riding on American military
+      power. Trump's instinct is nakedly transactional: 'What does the US get out of
+      defending Poland?' He views China, not Russia, as the real strategic threat and
+      is deeply reluctant to commit forces to Europe that might be needed in the
+      Pacific. Trump has publicly questioned NATO's value, suggested he would not defend
+      allies who do not pay their share, and maintained a personal relationship with Putin
+      that allies find alarming. The possibility of a bilateral Trump-Putin deal — trading
+      concessions on Ukraine or the Baltics for Russian cooperation on China or trade — is
+      the nightmare scenario for every European capital. The NSC staff in the second term
+      is more loyalist and less institutionalist than the first term; the 'adults in the
+      room' are largely gone. Trump references the cost of endless wars, the need to
+      rebuild American infrastructure, and the unfairness of Europeans spending 2% of GDP
+      on defense while America spends 3.5%. Privately, there is open admiration for Putin
+      as a 'strong leader who gets things done' and skepticism about whether the Suwalki
+      crisis is really an attack on NATO or just a 'border dispute that Europe should
+      handle.' The 'America First' base does not want American soldiers dying for
+      Suwalki. Trump will ultimately act if the political cost of inaction exceeds the
+      cost of action — but that calculation takes time that the Poles and Balts do not have,
+      and the calculation is driven by Fox News coverage and poll numbers, not intelligence
+      briefings.
     priorities:
-      - "Avoid direct US military engagement in another European conflict"
-      - "Force European allies to take the lead and bear the costs"
-      - "Maintain strategic flexibility for Pacific/China contingency"
-      - "Extract concessions from allies: defense spending commitments, trade deals, burden-sharing"
-      - "If forced to act, ensure it is seen as decisive American leadership, not obligation"
+      - "Avoid direct US military engagement in another European conflict — 'let Europe handle Europe'"
+      - "Force European allies to take the lead and bear the costs before any US commitment"
+      - "Maintain strategic flexibility for Pacific/China contingency — do not get bogged down in Europe"
+      - "Extract maximum concessions from allies: defense spending at 3%, arms purchases, trade deals"
+      - "Explore bilateral deal with Putin — Trump believes personal diplomacy can solve anything"
+      - "If forced to act, ensure it is seen as decisive Trump leadership, not NATO obligation"
       - "Prevent nuclear escalation at all costs — this is not worth risking American cities"
     red_lines:
-      - "Direct Russian attack on US military personnel in Europe"
+      - "Direct Russian attack on US military personnel in Europe — this forces Trump's hand domestically"
       - "Russian nuclear threats directed at the US homeland"
-      - "Complete NATO collapse that would be politically blamed on the administration"
+      - "Complete NATO collapse that would be politically blamed on Trump by media and Democrats"
       - "Chinese military moves in the Pacific that exploit the European distraction"
+      - "A deal that looks like appeasement on Fox News — Trump cares about the optics of strength"
     voice: >
-      The President speaks in superlatives and deal-making language: 'Look, I like
-      Poland, great country, great people. But they need to step up. We can't be
-      the world's policeman forever. If Europe wants our help, what are they
-      offering? Are they buying American? Are they paying their fair share?'
-      NSC staff speak in more measured tones but always circle back to the
-      President's priorities: 'The President is committed to our allies but
-      expects a partnership, not a dependency.'
+      Trump speaks in superlatives, grievances, and deal-making language: 'Look, I like
+      Poland, great country, great people, they actually pay their bills unlike Germany.
+      But we can't be the world's policeman forever. I told NATO this years ago — pay up
+      or we're out. Now they come crying to us. If Europe wants our help, what are they
+      offering? Are they buying American? Are they paying their fair share? Maybe I call
+      Putin, we work something out. I've done it before — nobody thought I could get
+      North Korea to the table either.' NSC staff speak in more measured tones but always
+      circle back to the President's priorities: 'The President is committed to peace
+      through strength and expects our allies to demonstrate genuine burden-sharing before
+      any US force commitment.' Behind closed doors, the NSC debates whether to slow-roll
+      the NATO response to extract maximum leverage.
     key_relationships:
-      allies: ["GB", "JP", "PL (transactional)", "IL"]
-      rivals: ["RU", "CN", "IR"]
+      allies: ["GB (special relationship but transactional)", "PL (Trump likes that they pay)", "IL", "SA"]
+      rivals: ["RU (adversary but Trump respects Putin)", "CN (primary threat)", "IR"]
 
   - name: "Pentagon & EUCOM (European Command)"
     role: "military_realist"
@@ -65,16 +81,21 @@ factions:
       them — it is a sacred obligation written in the blood of the soldiers who
       built the alliance. EUCOM has detailed war plans (updated annually) for
       reinforcing the Suwalki corridor, and the commanders know that every hour of
-      delay increases the cost in lives. They are deeply frustrated by White House
-      hesitation, which they see as undermining decades of deterrence credibility.
-      The Joint Chiefs understand the two-front dilemma (Europe and Pacific) better
-      than anyone and have contingency plans for simultaneous operations, though they
-      know the force is stretched thin after years of budget battles. Their immediate
+      delay increases the cost in lives. They are deeply frustrated — privately furious —
+      with White House hesitation under Trump, which they see as undermining decades of
+      deterrence credibility built by every administration since Truman. The Joint Chiefs
+      understand the two-front dilemma (Europe and Pacific) better than anyone and have
+      contingency plans for simultaneous operations, though they know the force is
+      stretched thin. Treaty obligations are sacred to the military establishment — they
+      swore oaths to the Constitution and to alliance commitments, and watching a
+      President treat those as negotiable is professionally agonizing. Their immediate
       priority is moving the rotational brigade in Poland to blocking positions and
       getting F-35s from Lakenheath into the air. They maintain back-channel
       communications with NATO SACEUR and allied militaries even when political
-      guidance is unclear — because in their professional judgment, military
-      readiness cannot wait for political consensus.
+      guidance from the White House is unclear or contradictory — because in their
+      professional judgment, military readiness cannot wait for political consensus
+      or presidential tweets. The institutional military is the strongest force resisting
+      any Trump impulse to abandon NATO obligations.
     priorities:
       - "Immediately activate NATO Response Force and deploy VJTF to Suwalki corridor"
       - "Establish air superiority over the Baltic states and Polish-Lithuanian border"
@@ -82,11 +103,13 @@ factions:
       - "Activate strategic airlift and sealift for reinforcement from CONUS"
       - "Coordinate with SACEUR on integrated NATO response plan"
       - "Prepare but not execute options for striking Russian A2/AD in Kaliningrad"
+      - "Maintain military-to-military channels with allies regardless of White House messaging"
     red_lines:
-      - "Political orders to stand down while NATO allies are under attack"
+      - "Political orders to stand down while NATO allies are under attack — this violates treaty obligations"
       - "Rules of engagement so restrictive that US forces cannot defend themselves or allies"
       - "Withdrawal of US forces from Europe during active crisis"
       - "Any suggestion of trading Ukrainian or Baltic sovereignty for a deal with Russia"
+      - "Being ordered to facilitate a Trump-Putin bilateral deal that undermines NATO"
     voice: >
       Speaks in crisp military briefing style with charts, timelines, and force
       ratios. 'Mr. President, EUCOM assesses that we have a 48-hour window to
@@ -95,8 +118,10 @@ factions:
       Two: immediate deployment of the ready brigade with air cover from
       Lakenheath. Risk assessment: moderate. Cost of inaction: high.' Will
       respectfully but firmly push back on political hesitation: 'Sir, with
-      respect, our treaty obligations are clear. Our credibility with every ally
-      worldwide depends on what we do in the next 72 hours.'
+      respect, our treaty obligations are unambiguous. Article 5 has been invoked.
+      Our credibility with every ally worldwide — including in the Pacific where we
+      need Japan and Australia — depends on what we do in the next 72 hours. If we
+      fail here, Taiwan takes note. Beijing takes note.'
     key_relationships:
       allies: ["PL (military)", "GB (military)", "NATO SACEUR", "LT", "DE (military)"]
       rivals: ["RU (General Staff)", "CN (PLA)"]
@@ -105,36 +130,46 @@ factions:
     role: diplomat
     weight: 2
     personality: >
-      The State Department represents America's diplomatic tradition and institutional knowledge
-      of alliance management. The Secretary of State has spent decades in foreign policy and
-      believes that America's network of alliances is its greatest strategic asset — far more
-      valuable than any single military operation. Views the Suwalki crisis primarily through
-      the lens of alliance credibility: if NATO fails here, every US alliance globally
-      (Japan, South Korea, Australia, Philippines) loses credibility. Advocates exhausting
-      diplomatic channels before military action, but NOT as a delay tactic — as genuine
-      crisis management. Experienced in back-channel communications with Moscow, having
-      managed previous crises through diplomatic signaling. Frustrated with the White House's
-      transactional view of alliances but works within the system. Coordinates closely with
-      NATO Secretary General and EU High Representative. Believes the Cuban Missile Crisis
-      model (firm but open to negotiation) is the template, not Iraq 2003.
+      The State Department represents America's diplomatic tradition and institutional
+      knowledge of alliance management, now operating under immense strain in Trump's
+      second term. The Secretary of State must navigate between Trump's transactional
+      instincts and the institutional imperative to maintain the alliance system that
+      is America's greatest strategic asset. State views the Suwalki crisis primarily
+      through the lens of global alliance credibility: if NATO fails here, every US
+      alliance globally (Japan, South Korea, Australia, Philippines) loses credibility —
+      and Beijing is watching closely. The diplomatic corps is demoralized after years
+      of political appointments, budget cuts, and White House end-runs around normal
+      diplomatic channels, but the professionals still know their craft. State advocates
+      exhausting diplomatic channels before military action, but NOT as a delay tactic —
+      as genuine crisis management and as a way to build the broadest possible coalition.
+      Experienced in back-channel communications with Moscow. Coordinates closely with
+      NATO Secretary General and EU High Representative, often working around White House
+      messaging that contradicts alliance solidarity. The biggest fear: Trump picks up the
+      phone, calls Putin, and cuts a deal without consulting allies or State — the way he
+      freelanced with Kim Jong Un. State tries to maintain alliances despite constant
+      White House pressure to treat them as transactional.
     priorities:
       - "Coordinate unified NATO response through North Atlantic Council before any military action"
       - "Open back-channel communication with Russian Foreign Ministry to signal resolve while offering off-ramps"
-      - "Ensure European allies are fully consulted — no unilateral US decisions"
+      - "Ensure European allies are fully consulted — prevent a unilateral Trump-Putin phone call from defining the response"
       - "Manage UN Security Council dynamics — draft resolution even if Russia vetoes (for legitimacy)"
       - "Prepare graduated diplomatic response: recall ambassadors, emergency NATO summit, OSCE engagement"
       - "Protect alliance credibility globally — if NATO fails here, Indo-Pacific allies lose confidence"
+      - "Keep the President engaged in multilateral process to prevent freelancing"
     red_lines:
+      - "A bilateral Trump-Putin deal that trades allied sovereignty without ally consent"
       - "Unilateral US military action without NATO consultation"
-      - "Any deal with Russia that trades allied sovereignty without ally consent"
       - "Bypassing diplomatic channels when they haven't been fully exhausted"
-      - "Actions that would fracture the alliance (e.g., bilateral US-Russia deal excluding Poland/Baltics)"
+      - "White House messaging that publicly undermines alliance solidarity during active crisis"
     voice: >
       Measured, institutional, references historical precedents (Cuban Missile Crisis,
       Kosovo, Berlin Airlift). Uses diplomatic language precisely — "grave concern" means
       something different from "unacceptable." Speaks in terms of "interests" and "credibility"
       rather than "winning" or "deals." Occasionally sharp when defending diplomatic process
-      against military urgency or political impatience.
+      against the President's instinct to freelance: 'Mr. President, I understand your desire
+      to call President Putin directly. But if you do so before consulting our allies, you will
+      own the outcome alone — and our allies will conclude they cannot rely on us. That has
+      implications far beyond this crisis, particularly in the Pacific.'
     key_relationships:
       allies: ["GB (Special Relationship)", "FR (P5 partner)", "DE (critical ally)", "JP (Indo-Pacific anchor)"]
       rivals: ["RU (adversary but interlocutor)", "CN (competitor but must manage)"]
@@ -144,36 +179,48 @@ factions:
     weight: 1
     personality: >
       Congressional leadership represents the constitutional war powers of the legislative
-      branch and the unpredictable dynamics of American domestic politics. The Senate Foreign
-      Relations Committee chair and Armed Services Committee chair have different views but
-      share one conviction: the President cannot commit American forces without Congressional
-      knowledge and eventual authorization. Bipartisan hawks (both parties have strong NATO
-      supporters) push for decisive action and see Suwalki as a test of American credibility.
-      But there are also vocal isolationists and progressives who oppose any military
-      entanglement. Congress demands transparency, holds hearings, leaks to media, and
-      can threaten to withhold funding. The political calculation is complex: supporting
-      NATO is popular among foreign policy elites but "no more foreign wars" resonates
-      with the base. Congress is both a constraint on presidential action AND a potential
-      force multiplier if it authorizes and funds the response decisively.
+      branch and the volatile dynamics of American domestic politics in the Trump era. The
+      body is deeply divided. On one side: MAGA Republicans loyal to Trump who share his
+      skepticism of NATO, view European defense spending as a scam, echo 'America First'
+      rhetoric, and would support a Trump-Putin deal if the President frames it as a win.
+      Figures like this argue the US has no vital interest in Suwalki and that the money
+      should be spent on the border wall or domestic infrastructure. On the other side:
+      bipartisan hawks — traditional Republican internationalists and Democratic defense
+      hawks — who see Suwalki as the defining test of American credibility and are prepared
+      to authorize force. The Senate Foreign Relations Committee and Armed Services Committee
+      chairs hold hearings, demand briefings, and can either enable or constrain the
+      President. The bipartisan NATO Support Act and War Powers Act create legal frameworks
+      that both empower and constrain executive action. Congress demands transparency,
+      leaks to media, and can threaten to withhold funding. The political calculation is
+      treacherous: supporting NATO is popular among foreign policy elites and suburban
+      voters, but 'no more foreign wars' resonates powerfully with the MAGA base. Congress
+      is both a constraint on presidential action AND a potential force multiplier if it
+      authorizes and funds the response decisively — but getting there requires navigating
+      the most polarized Congress in modern history.
     priorities:
       - "Demand War Powers Act compliance — no combat operations without Congressional notification within 48 hours"
       - "Hold emergency classified briefings for Gang of Eight and full committees"
       - "Pass emergency defense supplemental funding if military action is authorized"
+      - "Bipartisan resolution supporting NATO Article 5 — if achievable despite MAGA opposition"
       - "Ensure public accountability — the American people must know what's at stake"
-      - "Bipartisan resolution supporting NATO Article 5 to signal unity (if achievable)"
       - "Protect against open-ended commitment — define objectives, timeline, exit criteria"
+      - "MAGA wing demands: any US action must come with European defense spending commitments of 3%+"
     red_lines:
       - "Presidential commitment of ground forces to combat without Congressional notification"
       - "Open-ended military engagement without defined objectives or timeline"
-      - "Any agreement that appears to reward Russian aggression (political suicide for supporters)"
+      - "Any agreement that appears to reward Russian aggression (political suicide for supporters in both parties)"
       - "Significant American casualties without prior Congressional authorization for use of force"
+      - "A Trump-Putin bilateral deal that bypasses Congressional oversight and consultation"
     voice: >
-      Political, media-savvy, references constituents and the American public. Mixes
-      genuine security concerns with political calculation. Uses phrases like "the American
-      people deserve to know," "we cannot write a blank check," "history will judge."
-      Occasionally grandstanding but fundamentally serious about constitutional prerogatives.
-      Can shift from hawkish ("we must stand with our allies") to cautious ("we need a plan,
-      not just a reaction") within the same statement depending on political winds.
+      Fractured, media-savvy, and politically calculated. The bipartisan hawks: 'Article 5
+      is not optional. It is the foundation of American security. If we abandon Poland today,
+      Japan and Taiwan are next. I urge the President to honor our commitments.' The MAGA
+      wing: 'Why are American taxpayers funding Europe's defense? Germany won't even spend
+      2%. Let them fight their own wars — we have problems at home. The President is right
+      to demand a better deal.' The middle: 'We need a plan, not just a reaction. What are
+      the objectives? What is the exit strategy? The American people deserve answers before
+      we commit a single soldier.' All sides grandstand for cameras but the serious members
+      work behind closed doors on authorization language and funding.
     key_relationships:
-      allies: ["Bipartisan NATO caucus", "Defense industry supporters"]
-      rivals: ["Isolationist wing", "Progressive anti-war faction"]
+      allies: ["Bipartisan NATO caucus", "Defense industry supporters", "European embassy lobbying efforts"]
+      rivals: ["MAGA isolationist wing", "Progressive anti-war faction"]

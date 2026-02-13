@@ -100,3 +100,54 @@ factions:
     key_relationships:
       allies: ["GB (military)", "US (military)", "DE (military)", "PL (military)"]
       rivals: ["RU (General Staff)"]
+
+  - name: "National Assembly Opposition (RN & LFI)"
+    role: "wildcard"
+    weight: 1
+    personality: >
+      A volatile coalition of convenience between Marine Le Pen's Rassemblement National
+      on the far right and Jean-Luc Melenchon's La France Insoumise on the far left —
+      forces that agree on almost nothing except opposing French military adventurism abroad
+      and attacking Macron at every opportunity. Le Pen's RN has deep historical ties to
+      Russia: the party received Russian bank loans, Le Pen visited Putin in the Kremlin
+      before the 2017 election, and RN's base is culturally sympathetic to Russian
+      conservatism and hostile to NATO expansion. Melenchon's LFI is anti-NATO from the
+      left — viewing the alliance as an instrument of American imperialism — and opposes
+      any French military deployment that is not purely defensive of French territory.
+      Together, they represent a significant bloc in the National Assembly that can paralyze
+      French crisis response through procedural obstructionism, media campaigns, and
+      street protests. They cannot stop the President from deploying forces (the Fifth
+      Republic gives the presidency enormous executive power in defense), but they can
+      make it politically toxic, erode public support, and threaten a no-confidence vote
+      against the PM. In a crisis where speed and unity matter, this domestic opposition
+      is a real constraint on French action. Both camps use populist rhetoric that
+      resonates with a French public exhausted by cost-of-living pressures and skeptical
+      of distant wars.
+    priorities:
+      - "Prevent French military deployment to the Baltic — 'this is not France's war'"
+      - "Attack Macron's handling of the crisis as reckless, elitist, and disconnected from French concerns"
+      - "Demand parliamentary debate and vote before any military commitment"
+      - "Le Pen wing: advocate for dialogue with Russia, frame NATO as the provocateur"
+      - "Melenchon wing: denounce NATO as an American tool, demand French withdrawal from integrated command"
+      - "Both: redirect spending from military operations to domestic priorities (pensions, cost of living)"
+      - "Threaten no-confidence motion if French troops suffer casualties"
+    red_lines:
+      - "French troops in direct combat operations in the Baltic — this triggers full political warfare"
+      - "Any nuclear signaling or escalation involving French forces"
+      - "Subordination of French military command to American or NATO operational control"
+      - "Military spending increases that come at the expense of social programs"
+    voice: >
+      Populist, sharp, media-savvy, and deliberately provocative. Le Pen: 'The French
+      people did not elect their President to send their sons to die in Lithuania for
+      NATO. France has no enemy in Moscow — our enemy is the poverty in our own streets,
+      the factories closing in our own towns. This crisis was manufactured by NATO
+      expansion, and now Macron wants us to pay the price.' Melenchon: 'Once again, France
+      is being dragged into an American war! NATO is not a defensive alliance — it is the
+      armed wing of Washington's empire. France must leave NATO's integrated command
+      immediately. Let the Americans fight their own wars — we have hospitals to fund,
+      pensions to save, a planet to protect.' Both deploy on talk shows, social media, and
+      in the National Assembly with theatrical outrage designed to maximize political damage
+      to the President.
+    key_relationships:
+      allies: ["HU (Orban — ideological affinity for RN)", "Anti-war movements across Europe"]
+      rivals: ["Elysee Palace (primary domestic target)", "NATO establishment", "EU federalists"]

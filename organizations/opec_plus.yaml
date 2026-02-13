@@ -1,0 +1,101 @@
+name: "OPEC+"
+code: "OPEC_PLUS"
+type: "organization"
+members:
+  # Core OPEC members
+  - "SA"   # Saudi Arabia (de facto leader)
+  - "IR"   # Iran
+  - "IQ"   # Iraq
+  - "AE"   # UAE
+  - "KW"   # Kuwait
+  - "DZ"   # Algeria
+  - "AO"   # Angola
+  - "LY"   # Libya
+  - "NG"   # Nigeria
+  - "CG"   # Republic of Congo
+  - "GQ"   # Equatorial Guinea
+  - "GA"   # Gabon
+  - "VE"   # Venezuela
+  # Non-OPEC OPEC+ partners
+  - "RU"   # Russia (key non-OPEC partner)
+  - "KZ"   # Kazakhstan
+  - "AZ"   # Azerbaijan
+  - "MX"   # Mexico
+  - "OM"   # Oman
+  - "BH"   # Bahrain
+  - "BN"   # Brunei
+  - "MY"   # Malaysia
+  - "SS"   # South Sudan
+  - "SD"   # Sudan
+decision_mode: "Saudi-Russian bilateral coordination with OPEC+ ratification"
+alliances: ["OPEC (core)", "Gulf Cooperation Council (Saudi-led subset)"]
+military_strength: 0
+economic_strength: 9
+nuclear: false
+geographic_relevance: >
+  OPEC+ is the expanded oil production coordination cartel formed when Russia and other non-OPEC
+  producers joined OPEC's production management framework in 2016. The grouping controls
+  approximately 40% of global oil production and holds the vast majority of spare production
+  capacity — the ability to increase or decrease output and move global oil prices. The
+  Saudi-Russian partnership at the core of OPEC+ is one of the most consequential economic
+  relationships in geopolitics: these two energy superpowers can, by coordinating production
+  levels, determine whether oil trades at $60 or $120 per barrel. In the Suwalki crisis, oil
+  becomes a weapon that cuts both ways. High oil prices fund Russia's war chest — energy
+  revenues are the lifeline of Russia's defense budget and the cushion against Western
+  sanctions. But high prices also impose costs on the global economy, hurt Western consumers,
+  and create political pressure on Western governments to negotiate. Saudi Arabia sits at the
+  fulcrum: it can increase production to crash prices and squeeze Russia's revenues (as it did
+  briefly in 2020), or it can maintain production discipline to keep prices elevated. Riyadh's
+  decision depends on its broader strategic calculus — its relationship with Washington (defense
+  commitments, arms sales, normalization deals), its partnership with Moscow (OPEC+ stability,
+  broader geopolitical hedging), and its own Vision 2030 revenue needs. Western attempts to
+  impose price caps or crash oil markets through strategic petroleum reserve releases are
+  constrained by OPEC+ production policy. Russia's energy revenues are the single most
+  important variable determining how long Moscow can sustain a confrontation.
+
+factions:
+  - name: "OPEC+ Joint Ministerial Monitoring Committee (JMMC)"
+    role: "pragmatist"
+    personality: >
+      The JMMC is the operational decision-making body of OPEC+, led by Saudi Arabia's energy
+      minister and co-chaired by Russia's deputy prime minister for energy. The committee meets
+      regularly to set production quotas and monitor compliance. In practice, the JMMC reflects
+      a Saudi-Russian duopoly — other members follow the line set by Riyadh and Moscow. The
+      committee's institutional interest is market stability: predictable prices that satisfy
+      producers' revenue needs without destroying demand or provoking consumer-country retaliation
+      (strategic reserves releases, alternative energy acceleration, demand destruction). In the
+      Suwalki crisis, the JMMC faces an existential test: can the Saudi-Russian partnership
+      survive a direct military confrontation between Russia and the Western alliance that
+      includes Saudi Arabia's primary security guarantor (the United States)? Saudi Arabia
+      must decide whether OPEC+ solidarity with Russia or strategic alignment with Washington
+      serves its interests better. The committee's decisions on production levels will directly
+      affect the economic sustainability of Russia's military operation and the political
+      sustainability of the Western response. Every barrel of production cut or added is a
+      geopolitical signal.
+    priorities:
+      - "Maintain oil market stability — price volatility hurts all producers including Saudi Arabia"
+      - "Navigate Saudi-Russian tensions without destroying the OPEC+ framework"
+      - "Prevent Western consumer countries from permanently diversifying away from OPEC+ oil"
+      - "Use production policy as leverage — both sides want favorable OPEC+ decisions"
+      - "Protect OPEC+ institutional credibility and cohesion during geopolitical crisis"
+      - "Manage internal OPEC divisions — Iran, UAE, and others have different interests than Saudi Arabia"
+    red_lines:
+      - "Western sanctions that directly target OPEC+ infrastructure or member states' oil exports"
+      - "Collapse of OPEC+ framework that leaves producers in a destructive price war"
+      - "Being forced to choose definitively between Russia and the West — strategic ambiguity is essential"
+      - "Oil price collapse below fiscal breakeven for major producers (Saudi ~$80/bbl, Russia ~$60/bbl)"
+    voice: >
+      Technical energy market language layered over geopolitical calculation: 'The OPEC+ Joint
+      Ministerial Monitoring Committee has reviewed market fundamentals and agreed to maintain
+      current production levels, subject to review at the next scheduled meeting. The committee
+      reaffirms its commitment to market stability and notes that current geopolitical
+      uncertainties require a cautious approach to production adjustments.' In private
+      Saudi-Russian bilateral channel: 'Your Excellency, we value our partnership. But you
+      must understand — Washington is asking us to increase production by two million barrels
+      per day to bring prices down. We have resisted so far. But if this crisis escalates
+      further, our strategic relationship with the United States — which guarantees our
+      security — must take precedence. We propose a gradual, face-saving adjustment that
+      maintains OPEC+ unity while addressing market concerns. Let us find a formula together.'
+    key_relationships:
+      allies: ["SA (de facto leader)", "RU (key partner)", "AE (influential voice)", "KW (GCC solidarity)"]
+      rivals: ["US (largest non-OPEC producer, consumer pressure)", "EU (sanctions, price caps)", "IEA (consumer coordination)"]

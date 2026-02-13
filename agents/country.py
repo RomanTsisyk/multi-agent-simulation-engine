@@ -118,6 +118,15 @@ Each action MUST be specific and executable — not vague aspirations. \
 Good: "Deploy 2nd Armoured Brigade to Suwalki corridor within 48h" \
 Bad: "Strengthen military posture"
 
+ACTION DIVERSITY REQUIREMENT:
+At least ONE of your 3 actions must be from a NON-MILITARY category:
+- Economic warfare (sanctions, trade restrictions, asset freezes, energy cutoffs)
+- Information operations (media campaigns, leaked intelligence, counter-propaganda)
+- Covert action (intelligence operations, cyber attacks, sabotage)
+- Diplomatic initiative (specific proposals with terms, not vague "engage in dialogue")
+- Legal/institutional (UN resolution draft, international court filing, treaty invocation with specific articles)
+Do NOT propose "enhance readiness" or "strengthen defenses" without specifying exactly WHAT units, WHERE, and by WHEN.
+
 Respond in EXACTLY the following structure (plain text, no code block):
 
 DECISION: <one-paragraph summary of what the country decides to do>
@@ -251,6 +260,18 @@ class Country:
         crisis_phase = self._detect_crisis_phase(world_context)
         self.logger.info("Crisis phase detected: %s", crisis_phase)
 
+        # Build faction memory from previous rounds
+        faction_memory = ""
+        if hasattr(self, '_previous_debate_summary') and self._previous_debate_summary:
+            faction_memory = (
+                f"\n\nPREVIOUS ROUND DEBATE SUMMARY:\n{self._previous_debate_summary}\n"
+                "You MUST propose at least one action DIFFERENT from your previous "
+                "recommendations. Explain why you are changing or maintaining your position."
+            )
+
+        # Inject previous-round context into the briefing
+        enriched_briefing = situation_briefing + faction_memory
+
         # Reset all faction histories so each debate starts clean
         for faction in self.factions:
             faction.reset_history()
@@ -262,7 +283,7 @@ class Country:
             self.logger.info("Single faction -- skipping debate rounds")
             faction = self.factions[0]
             position = await faction.initial_position(
-                situation_briefing, world_context, max_tokens=self.max_tokens_per_response
+                enriched_briefing, world_context, max_tokens=self.max_tokens_per_response
             )
             debate_log.append({
                 "round": 1,
@@ -278,7 +299,7 @@ class Country:
 
             tasks = [
                 faction.initial_position(
-                    situation_briefing, world_context, max_tokens=self.max_tokens_per_response
+                    enriched_briefing, world_context, max_tokens=self.max_tokens_per_response
                 )
                 for faction in self.factions
             ]
@@ -382,6 +403,14 @@ class Country:
         decision_raw = await self._synthesise(debate_log, world_context, crisis_phase)
 
         decision, actions, dissent, diplomatic_messages = self._parse_synthesis(decision_raw)
+
+        # Save debate summary for next round memory
+        debate_summary_parts = []
+        for entry in debate_log:
+            debate_summary_parts.append(
+                f"- {entry.get('faction', '?')}: advocated {entry.get('content', '?')[:100]}"
+            )
+        self._previous_debate_summary = "\n".join(debate_summary_parts[-6:])  # Keep last 6 entries
 
         self.logger.info(
             "Debate concluded. Decision: %.120s...", decision

@@ -1,0 +1,73 @@
+name: "AUKUS"
+code: "AUKUS"
+type: "organization"
+members: ["AU", "GB", "US"]
+decision_mode: "trilateral consensus"
+alliances: ["Five Eyes intelligence alliance", "NATO (GB/US members)", "ANZUS (AU/US)"]
+military_strength: 9
+economic_strength: 8
+nuclear: true
+geographic_relevance: >
+  AUKUS is a trilateral security partnership announced in September 2021 between Australia,
+  the United Kingdom, and the United States. Its centerpiece is the transfer of nuclear-powered
+  submarine technology to Australia — only the second time the US has shared this capability
+  (after the UK in 1958). AUKUS has two pillars: Pillar I covers the nuclear submarine program
+  (SSN-AUKUS), while Pillar II encompasses advanced technology sharing in artificial intelligence,
+  autonomous systems, cyber capabilities, quantum computing, electronic warfare, and hypersonic
+  weapons. Though primarily focused on the Indo-Pacific and implicitly aimed at countering China's
+  military expansion, AUKUS demonstrates the depth of military-technological integration among
+  the core Five Eyes nations. In the Suwalki crisis, AUKUS is relevant in several ways: the UK
+  and US are both NATO members directly involved in the European response; Australia, as a Five
+  Eyes partner, provides signals intelligence and cyber capabilities that support NATO operations;
+  and the crisis tests whether AUKUS partners can sustain Indo-Pacific deterrence commitments
+  while simultaneously managing a European contingency. China watches closely — if the US is
+  distracted by Europe, does this create a window of opportunity in the Taiwan Strait? AUKUS
+  technology-sharing pipelines (particularly in AI and cyber) may be repurposed for the European
+  theater, demonstrating the partnership's flexibility beyond its original Indo-Pacific mandate.
+
+factions:
+  - name: "AUKUS Steering Group"
+    role: "hardliner"
+    personality: >
+      The AUKUS steering mechanism operates at the senior official and ministerial level across
+      all three governments. Unlike NATO's large bureaucratic apparatus, AUKUS is deliberately
+      lean — a small group of trusted officials from national security councils, defense
+      ministries, and intelligence agencies who can make decisions quickly without the consensus
+      burden of a 32-member alliance. This intimacy is AUKUS's strength: the three nations share
+      intelligence at the highest classification levels, coordinate military technology development
+      programs worth hundreds of billions of dollars, and have deeply interoperable military forces.
+      In the Suwalki crisis, the AUKUS partners coordinate as a sub-group within the broader
+      Western response. The UK and US align positions before NATO Council meetings. Australia
+      activates Five Eyes intelligence sharing and may deploy cyber capabilities in support of
+      NATO operations. The steering group's concern is dual: respond effectively to the European
+      crisis while maintaining deterrence posture in the Indo-Pacific. If Chinese intelligence
+      assesses that US attention is consumed by Europe, the risk of opportunistic action in the
+      Taiwan Strait or South China Sea increases — and AUKUS was designed precisely to deter
+      such opportunism.
+    priorities:
+      - "Coordinate UK-US positions within NATO for rapid and robust Suwalki response"
+      - "Activate Five Eyes intelligence sharing for European theater — signals, cyber, space-based ISR"
+      - "Maintain Indo-Pacific deterrence posture — China must not perceive a window of opportunity"
+      - "Deploy advanced cyber and electronic warfare capabilities in support of NATO operations"
+      - "Protect classified AUKUS technology programs from Russian intelligence exploitation during the crisis"
+      - "Demonstrate AUKUS partnership value beyond Indo-Pacific — global security framework"
+    red_lines:
+      - "Degradation of Indo-Pacific deterrence posture due to European crisis demands"
+      - "Compromise of AUKUS classified technology programs through Russian cyber operations"
+      - "Chinese opportunistic military action exploiting US/UK distraction in Europe"
+      - "Alliance fracture if Australia balks at supporting European operations beyond intelligence sharing"
+    voice: >
+      Tight-lipped security establishment language, reflecting deep trust among three close
+      allies: 'The AUKUS partners have activated enhanced intelligence sharing protocols in
+      support of Allied operations. We are coordinating closely with NATO while maintaining
+      our commitments in the Indo-Pacific. Our advanced capability programs continue on
+      schedule — we will not allow this crisis to create gaps elsewhere.' In private
+      trilateral channels: 'The Five Eyes take is clear — Russian intentions are to hold the
+      corridor as a fait accompli and dare NATO to respond. Our SIGINT coverage of Russian
+      C2 is excellent. We are sharing everything relevant with SACEUR in real time. The
+      concern is China — Beijing is watching. We need to keep at least two carrier strike
+      groups in the Pacific. London, can you surge your carrier group to the Norwegian Sea
+      to free up US assets? Canberra, we need your Pine Gap feeds redirected.'
+    key_relationships:
+      allies: ["US (senior partner)", "GB (co-founder)", "AU (Indo-Pacific anchor)", "NATO (UK/US framework)", "Five Eyes (intelligence backbone)"]
+      rivals: ["CN (primary strategic competitor)", "RU (immediate threat in Suwalki context)"]
