@@ -1,89 +1,328 @@
 name: "Brazil"
 code: "BR"
-alliances: ["BRICS", "MERCOSUR", "G20", "CELAC", "UN General Assembly (Security Council aspirant)"]
+alliances: ["BRICS", "Mercosur", "G20", "CELAC", "UNASUR", "CPLP", "Zone of Peace and Cooperation of the South Atlantic (ZOPACAS)"]
 military_strength: 4
 economic_strength: 6
 nuclear: false
 geographic_relevance: >
-  Brazil is geographically the most distant major power from the Suwalki corridor, but
-  its diplomatic weight makes it relevant to the crisis outcome. As the largest country
-  in Latin America, a BRICS founding member, the world's ninth-largest economy, and a
-  perennial aspirant for a permanent UN Security Council seat, Brazil's stance shapes
-  the Global South narrative about the crisis. Brazil under President Lula has pursued
-  an assertive 'active non-alignment' foreign policy, refusing to supply weapons to
-  Ukraine, maintaining trade relations with Russia, and proposing a 'peace club' of
-  neutral nations to mediate the Ukraine conflict. Brazil's BRICS presidency and its
-  role in expanding BRICS membership give it significant convening power among
-  non-Western states. At the UN General Assembly, Brazil's vote (and its ability to
-  marshal Latin American votes) affects the legitimacy narrative — whether the Suwalki
-  crisis is framed as 'Russia versus the world' or 'Russia versus the West.' Brazil
-  also has significant trade relationships with both Russia (fertilizers, wheat) and
-  the West (manufactured goods, commodities, investment), giving it economic motivation
-  to avoid being drawn into either camp. Brazil's agricultural sector depends heavily
-  on Russian fertilizer imports (potash, urea, ammonia), creating a concrete economic
-  interest in maintaining relations with Moscow.
+  Brazil is the most geographically distant major power from the Suwalki corridor, situated
+  across the Atlantic in South America, but its diplomatic weight and economic leverage make
+  it a consequential actor in shaping the crisis narrative. As the world's fifth-largest
+  country by area, the largest economy in Latin America with a GDP exceeding $2.2 trillion,
+  a founding BRICS member, and a perennial aspirant for a permanent UN Security Council seat,
+  Brazil's position on the Suwalki crisis will heavily influence the Global South's framing
+  of the conflict — whether it is seen as 'Russia versus the world' or 'Russia versus the
+  West.' Under President Luiz Inacio Lula da Silva, Brazil has pursued an assertive 'active
+  non-alignment' foreign policy, refusing to supply weapons to Ukraine, maintaining trade
+  relations with Russia, and co-sponsoring with China a six-point peace plan for Ukraine that
+  calls for negotiations without preconditions — a plan Ukraine's Zelensky dismissed as
+  'destructive' for omitting territorial integrity. Brazil held the BRICS presidency in 2025,
+  hosting the 17th BRICS summit in Rio de Janeiro in July 2025, where it coordinated the
+  expanded eleven-member bloc (now including Saudi Arabia, UAE, Egypt, Ethiopia, Iran, and
+  Indonesia) and launched the 'Friends of Peace' initiative on Ukraine at the UN. Brazil also
+  held the G20 presidency in 2024, hosting the Rio de Janeiro summit in November 2024 and
+  launching the Global Alliance Against Hunger and Poverty with 148 founding members. In
+  November 2025, Brazil hosted COP30 in Belem, positioning itself as a global climate leader
+  while navigating domestic contradictions as Congress weakened Amazon safeguards days after
+  the conference closed. Brazil's trade relationships create powerful cross-pressures in any
+  Suwalki scenario. Russia supplies roughly one-third of Brazil's imported fertilizers —
+  potash, nitrogen, and phosphate compounds critical for its $140 billion agribusiness sector
+  — meaning secondary sanctions could devastate Brazilian soybean and corn production. China
+  is Brazil's largest trading partner at $188 billion in bilateral trade in 2024, with Brazil
+  supplying 70 percent of China's soybean imports. The United States under Trump imposed 40
+  percent IEEPA tariffs on Brazil in August 2025, later partially rolled back in November
+  2025, creating friction but also demonstrating Brazil's ability to redirect exports to
+  alternative markets, as 2025 saw record Brazilian exports despite the tariffs. The recently
+  signed EU-Mercosur Partnership Agreement in January 2026, after 25 years of negotiation,
+  gives Brazil a major stake in maintaining European economic ties. At the UN General Assembly,
+  Brazil's vote and its ability to marshal Latin American and Caribbean votes through CELAC
+  (33 member states) directly affects the legitimacy narrative surrounding any Russian
+  military action. Brazil's military, while not deployable to Europe, is the largest in Latin
+  America — ranked 11th globally by Global Firepower with over 360,000 active personnel —
+  and is undergoing significant modernization including the Gripen E/F fighter program, the
+  PROSUB nuclear submarine project, and the KC-390 Millennium transport aircraft, giving it
+  institutional interests in maintaining Western defense-industrial partnerships even as its
+  diplomacy tilts toward non-alignment.
 
 factions:
-  - name: "President Lula & Itamaraty (Ministry of Foreign Affairs)"
+  - name: "President Lula & PT Government (Planalto/Itamaraty)"
     role: "pragmatist"
     personality: >
-      Brazil's foreign policy establishment — anchored in the professional diplomatic
-      corps of Itamaraty and shaped by President Lula's personal worldview — approaches
-      the Suwalki crisis through a distinctive Global South lens. Lula genuinely
-      believes that the international order is unjustly dominated by Western powers
-      and that institutions like the UN Security Council, IMF, and World Bank reflect
-      a post-1945 power structure that no longer represents global reality. He sees
-      the Suwalki crisis not as a simple case of Russian aggression but as a symptom
-      of NATO expansion, Western hubris, and the failure to build an inclusive European
-      security architecture that addresses Russian concerns. This is not pro-Russian
-      sympathy — Lula has criticized Russia's actions — but rather a structural
-      critique of the Western-centric order that he believes provoked the crisis.
-      Lula's ambition is to position Brazil as a leader of the 'peace camp' — a
-      group of non-aligned nations that offers an alternative to both Western and
-      Russian/Chinese blocs. He proposed a similar initiative for Ukraine and will
-      attempt to replicate it for Suwalki. Itamaraty's professional diplomats are
-      more cautious and legalistic, emphasizing UN Charter principles (sovereignty,
-      territorial integrity, peaceful resolution) without taking sides. Brazil's
-      BRICS chairmanship gives it a platform to coordinate non-Western positions,
-      though Brazil is careful to avoid being seen as a Chinese or Russian proxy.
-      The fundamental Brazilian calculation: neutrality maximizes diplomatic prestige
-      and economic flexibility, while alignment with either side costs more than it
-      gains. Brazil also has a concrete interest in the crisis outcome — if Western
-      sanctions expand to include secondary sanctions, Brazilian trade with Russia
-      (particularly fertilizer imports critical for agribusiness) could be affected.
+      President Luiz Inacio Lula da Silva, now 80 years old and governing through his
+      historic third term despite health scares — emergency brain surgery in December 2024
+      following a fall at the Alvorada Palace, followed by cataract surgery in January 2026
+      — approaches the Suwalki crisis through a deeply held ideological conviction that the
+      international order is structurally unjust and that crises like this one are symptoms
+      of Western institutional failure. Lula's worldview was forged in decades of union
+      organizing, two previous presidential terms (2003-2010), a corruption conviction and
+      imprisonment that he regards as politically motivated, and his dramatic return to power
+      in 2022 after defeating Bolsonaro by the narrowest margin in Brazilian democratic
+      history. He genuinely believes that the UN Security Council's five permanent members
+      with veto power represent an obsolete post-1945 architecture, that NATO expansion
+      without dialogue with Russia contributed to the Ukraine crisis, and that the Global
+      South deserves institutional representation commensurate with its demographic and
+      economic weight. This is not pro-Russian sympathy — Lula has criticized Russia's
+      invasion of Ukraine — but rather a structural critique that sees both Russian
+      aggression and Western hubris as drivers of instability. His foreign policy apparatus
+      is anchored in Itamaraty, Brazil's prestigious Ministry of Foreign Affairs, staffed by
+      one of the world's most professional diplomatic corps with a tradition of legalistic
+      multilateralism dating to the Baron of Rio Branco. Itamaraty's diplomats emphasize UN
+      Charter principles — sovereignty, territorial integrity, peaceful dispute resolution —
+      without taking sides, a tradition that has served Brazil well since it last fought an
+      external war in 1870. Lula's 2025 BRICS presidency was a crowning achievement: he
+      hosted the 17th BRICS summit in Rio de Janeiro in July 2025 with the expanded
+      eleven-member bloc, coordinated the 'Friends of Peace' initiative on Ukraine at the
+      UN General Assembly alongside China, South Africa, Egypt, Indonesia, and Turkey, and
+      advanced Brazil's candidacy for a permanent UNSC seat — a goal endorsed by both France
+      and the BRICS Rio Declaration. The 2024 G20 presidency under Brazil launched the
+      Global Alliance Against Hunger and Poverty with 148 founding members and advanced
+      progressive taxation of ultra-high-net-worth individuals onto the global agenda. The
+      November 2025 COP30 in Belem cemented Brazil's climate leadership credentials, even as
+      the contradictions of domestic politics became apparent when Congress weakened Amazon
+      environmental safeguards days after the conference ended. Lula's Partido dos
+      Trabalhadores (Workers' Party, PT) governs through a fragile coalition in Congress that
+      includes centrist parties and the 'Centrao' bloc, meaning foreign policy decisions are
+      constrained by domestic agricultural interests heavily dependent on Russian fertilizer
+      imports and by an opposition movement that has rallied around Jair Bolsonaro's 27-year
+      prison sentence for the January 2023 coup plot. The Trump administration's August 2025
+      imposition of 40 percent tariffs on Brazil — partially rolled back in November after
+      Lula and Trump spoke in October — paradoxically strengthened Lula domestically by
+      vindicating his narrative of American unilateralism, while also pushing Brazil closer
+      to China, whose bilateral trade reached $188 billion in 2024. Lula's fundamental
+      calculation on Suwalki is that neutrality maximizes Brazil's diplomatic prestige,
+      economic flexibility, and institutional leverage: picking a side costs more than it
+      gains, and the crisis represents an opportunity to advance UNSC reform, demonstrate
+      Global South agency, and position Brazil as an indispensable mediator.
     priorities:
-      - "Position Brazil as a neutral mediator — propose 'peace group' of non-aligned nations"
-      - "Protect Brazilian trade with Russia, especially fertilizer imports for agribusiness"
-      - "Use BRICS platform to coordinate non-Western diplomatic response"
-      - "Advocate for UN General Assembly role — bypass Security Council gridlock"
-      - "Advance Brazil's permanent UNSC seat candidacy through diplomatic leadership"
-      - "Avoid Western secondary sanctions that could harm Brazilian economy"
-      - "Frame the crisis as evidence that the international order needs reform (UNSC expansion, etc.)"
+      - "Position Brazil as a neutral mediator — activate the 'Friends of Peace' mechanism and propose a non-aligned contact group on the Suwalki crisis"
+      - "Protect Brazilian agribusiness from secondary sanctions — fertilizer imports from Russia (one-third of total supply) are existential for soybean and corn production"
+      - "Use BRICS platform and India's 2026 BRICS presidency to coordinate non-Western diplomatic response and prevent the crisis from being framed as 'the world versus Russia'"
+      - "Advance Brazil's permanent UNSC seat candidacy by demonstrating diplomatic leadership and marshalling Latin American/CELAC votes at the UN General Assembly"
+      - "Safeguard the EU-Mercosur Partnership Agreement signed in January 2026 — European trade and investment ties must survive the crisis"
+      - "Prevent Western secondary sanctions that could replicate the Trump tariff episode and harm Brazilian economic sovereignty"
+      - "Frame the crisis as evidence that the international order requires structural reform — UNSC expansion, IMF voting reform, end of veto privilege"
     red_lines:
-      - "Western pressure to impose sanctions on Russia or restrict Brazilian-Russian trade"
-      - "Being labeled as a 'pro-Russian' actor by the West — Brazil insists on sovereign neutrality"
-      - "Any precedent that legitimizes great power territorial revision (Brazil has its own border sensitivities)"
-      - "Russian nuclear use — this would force Brazil to condemn and shatter the 'both sides' narrative"
-      - "Exclusion from great power peace negotiations — Brazil demands a seat at the table"
+      - "Western pressure to impose sanctions on Russia or restrict Brazilian-Russian trade, especially fertilizer imports critical for agribusiness"
+      - "Being labeled a 'pro-Russian' actor by the West — Brazil insists on sovereign neutrality as a matter of principle and national dignity"
+      - "Any precedent legitimizing great power territorial revision by force — Brazil has 16,885 km of land borders with eleven countries and an Amazon sovereignty narrative to protect"
+      - "Russian nuclear weapons use — this would shatter the 'both sides share responsibility' narrative and force Brazil to condemn unequivocally"
+      - "Exclusion from great power peace negotiations — Brazil demands a seat at any table that decides the outcome of major international crises"
     voice: >
-      Moralistic, multilateral, with the authority of a leader who represents the
-      Global South. Lula speaks with the conviction of a veteran politician who has
-      built an international reputation: 'This crisis proves what Brazil has been
-      saying for years — the international order is broken. The UN Security Council
-      is paralyzed. NATO expansion without dialogue created this situation. Russia's
-      military action is wrong — but so is the refusal to negotiate. Brazil offers
-      an alternative: a group of nations committed to peace, not to blocs. We call
-      on both sides to accept mediation. War benefits no one — not Russia, not
-      Europe, not the world.' In BRICS forums, more pointed about Western
-      responsibility: 'Our friends in Washington and Brussels lecture the world
-      about rules-based order. But whose rules? Whose order? An order where five
-      countries have veto power in the Security Council and one military alliance
-      claims the right to expand without limit? Brazil proposes a truly inclusive
-      international order — starting with this crisis.' In private to Western
-      diplomats: 'You want our vote at the General Assembly? You want Latin America
-      to stand with you? Then treat us as partners, not as followers. Give us a
-      permanent Security Council seat. Include us in the negotiations. Otherwise,
-      we will abstain — as is our sovereign right.'
+      Moralistic, multilateral, speaking with the conviction of a veteran leader who has
+      survived imprisonment, illness, and political near-death to represent the Global South
+      on the world stage. In public statements: 'This crisis in the Suwalki corridor proves
+      what Brazil has been saying for decades — the international order is broken. The UN
+      Security Council is paralyzed by veto. NATO expansion without dialogue created the
+      conditions for confrontation. Russia's military posture is unacceptable — but so is the
+      refusal to negotiate. Brazil, as BRICS chair emeritus and host of COP30, proposes what
+      we have always proposed: dialogue, not blocs. We call on both sides to accept mediation
+      from nations that have no armies in Europe and no axes to grind.' In BRICS forums, more
+      pointed about Western double standards: 'Our friends in Washington lecture the world
+      about a rules-based order while imposing 40 percent tariffs on Brazilian exports and
+      threatening secondary sanctions against countries that dare to trade with Russia. Whose
+      rules? Whose order? An order where five countries hold veto power and one military
+      alliance claims the right to expand without limit is not an order — it is a hierarchy.
+      Brazil and the Global South propose a truly inclusive international architecture —
+      starting with reform of the Security Council and starting with this crisis.' In private
+      to Western diplomats: 'You want our vote at the General Assembly? You want CELAC's 33
+      nations to stand with you? Then treat us as partners, not as followers. Give Brazil a
+      permanent Security Council seat. Include us in the negotiations. Lift the tariffs.
+      Otherwise, we will abstain — as is our sovereign right.' In private to Russian
+      diplomats: 'We have defended your right to be heard. We have maintained trade. We have
+      refused to send weapons to Ukraine. But do not mistake our neutrality for a blank
+      check. If you escalate to nuclear threats or seize sovereign territory, Brazil will
+      condemn you — and you will lose the Global South.'
     key_relationships:
-      allies: ["RU (BRICS partner, fertilizer trade, cautious alignment)", "IN (BRICS, strategic autonomy)", "ZA (BRICS, Global South)", "CN (BRICS, economic)", "AR (MERCOSUR)"]
-      rivals: ["US (complicated — largest trade partner but ideological friction)", "RU (complicated — trade partner but territorial revisionism is concerning)"]
+      allies: ["CN (BRICS partner, largest trade partner at $188B, six-point Ukraine peace plan co-sponsor)", "IN (BRICS, strategic autonomy, shared UNSC seat aspiration, India holds 2026 BRICS chair)", "ZA (BRICS, Global South solidarity, Friends of Peace co-sponsor)", "AR (Mercosur founding partner, ideological alignment under Kirchnerism legacy)", "ID (new BRICS member, Global South partner)"]
+      rivals: ["US (largest friction point — Trump tariffs, Bolsonaro extradition tensions, ideological clash, but also critical trade/investment partner)", "UA (diplomatic rift over six-point peace plan rejection, Zelensky's 'destructive' criticism)", "RU (complicated — fertilizer trade partner but territorial revisionism directly contradicts Brazilian principles)"]
+
+  - name: "Brazilian Armed Forces (Forcas Armadas)"
+    role: "hawk"
+    personality: >
+      The Brazilian Armed Forces — comprising the Army (Exercito Brasileiro), Navy (Marinha
+      do Brasil), and Air Force (Forca Aerea Brasileira) — operate under civilian control
+      through Defense Minister Jose Mucio Monteiro, a 79-year-old civilian politician from
+      Pernambuco who has served since January 2023 and whom Lula personally persuaded to
+      remain through 2025 and into 2026. The Joint Staff of the Armed Forces is led by
+      Admiral Renato Rodrigues de Aguiar Freire. The military's institutional posture in the
+      Suwalki crisis is shaped by three defining experiences: the trauma of the January 8,
+      2023 insurrection, when pro-Bolsonaro rioters stormed the Praca dos Tres Poderes and
+      the military's failure to intervene faster drew intense scrutiny; the subsequent
+      September 2025 Supreme Court conviction of former President Bolsonaro to 27 years in
+      prison for plotting a coup, with several senior military officers also convicted,
+      including the acquittal of only General Estevan Theophilo among military defendants;
+      and the ongoing institutional rehabilitation under Lula, where the armed forces are
+      working to rebuild their reputation as apolitical defenders of the constitution rather
+      than instruments of partisan power. The military's primary strategic concern is not
+      Europe but rather Brazil's own vast territory: 8.5 million square kilometers, 16,885
+      kilometers of land borders with eleven nations, 7,491 kilometers of coastline, the
+      Amazon basin covering 60 percent of the national territory, and the 'Blue Amazon' —
+      Brazil's 5.7 million square kilometer exclusive economic zone in the South Atlantic
+      containing massive pre-salt oil reserves. The armed forces are undergoing the most
+      significant modernization cycle in a generation. The Air Force's F-39E Gripen program
+      achieved Full Operational Capability in late 2025, with 11 aircraft delivered from
+      Sweden and the Embraer assembly line in Gaviao Peixoto producing its first domestically
+      assembled unit for delivery in early 2026; the full order of 36 Gripen E/F jets will
+      be completed by 2032, with Brazil considering an additional 12 Gripen C/D to replace
+      aging F-5 fighters. The Navy's PROSUB program has delivered three Scorpene-class
+      conventional submarines (Riachuelo S-40, Humaita S-41, and Tonelero S-42 in sea
+      trials), launched the fourth (Almirante Karam S-43, to be commissioned in 2026), and
+      begun cutting steel for the nuclear-powered attack submarine SN-10 Alvaro Alberto at
+      the Itaguai Naval Complex in June 2025, with Naval Group providing over 526 million
+      euros in engineering support and the LABGENE nuclear reactor program at the Aramar
+      Experimental Center advancing toward a projected 2034 delivery. The Embraer KC-390
+      Millennium multi-mission transport has seven units delivered to the Brazilian Air Force
+      out of a total order of 19, with deliveries extended to 2034, and has achieved major
+      export success with 46 total orders from the Netherlands, Austria, Portugal, Czech
+      Republic, Hungary, South Korea, and Uzbekistan. The SISFRON integrated border
+      monitoring system, tested extensively during Operation ATLAS in 2025 with live-fire
+      exercises involving Super Tucano, Astros MLRS, Leopard 1A5 tanks, and Guarani armored
+      vehicles near the Amazon border, represents the army's technological modernization
+      priority. The 2026 defense budget of BRL 141.9 billion (approximately $26.4 billion)
+      — a 6.3 percent increase over 2025 and the highest in eight years — allocates BRL 1.9
+      billion for the Gripen and KC-390, BRL 1.49 billion for naval programs including
+      PROSUB and the SisGAAz maritime surveillance system, and BRL 1.6 billion for army
+      modernization including air defense, cyber warfare, and SISFRON. The military views the
+      Suwalki crisis primarily through the lens of its own modernization dependencies: the
+      Gripen program depends on Swedish-Brazilian cooperation through Saab and Embraer, the
+      PROSUB relies on French Naval Group, and the KC-390's global competitiveness depends on
+      Western certification and export markets. Any breakdown in Western defense-industrial
+      relationships would be catastrophic for Brazilian military modernization. At the same
+      time, the armed forces have a deep institutional commitment to sovereignty and
+      non-intervention — Brazil has not fought an external war since the War of the Triple
+      Alliance ended in 1870, and its military doctrine emphasizes territorial defense,
+      border security, and UN peacekeeping rather than power projection.
+    priorities:
+      - "Protect defense-industrial partnerships with Sweden (Saab/Gripen), France (Naval Group/PROSUB), and broader Western arms suppliers from collateral damage of the crisis"
+      - "Advance the PROSUB nuclear submarine program and SN-10 Alvaro Alberto construction — the crown jewel of Brazilian military modernization and strategic deterrence in the South Atlantic"
+      - "Maintain the 2026 defense budget increase (BRL 141.9 billion) and prevent crisis-driven economic disruption from triggering austerity cuts to military modernization"
+      - "Ensure the Suwalki crisis does not create precedents that undermine Brazilian sovereignty claims — particularly over the Amazon and the Blue Amazon (South Atlantic EEZ)"
+      - "Rebuild institutional credibility after the January 8 insurrection and the Bolsonaro coup trial convictions — demonstrate that the armed forces serve the constitution, not partisan politics"
+      - "Monitor the crisis for lessons applicable to Brazilian territorial defense — particularly regarding hybrid warfare, A2/AD zones, and border security in the Amazon"
+    red_lines:
+      - "Any request to deploy Brazilian military forces or assets outside South America in connection with the Suwalki crisis — Brazil's military doctrine is strictly defensive and territorial"
+      - "Western sanctions or export controls that disrupt Gripen deliveries, PROSUB construction, or KC-390 component supply chains"
+      - "Crisis escalation that forces Brazil to choose between its Western defense-industrial partners and its BRICS diplomatic positioning — the military needs both"
+      - "Domestic politicization of the crisis that drags the armed forces into partisan debate — the military is determined to remain above politics after the Bolsonaro-era trauma"
+    voice: >
+      Professional, institutional, technically focused, with the measured tone of senior
+      officers who have been through the fire of the January 8 crisis and are determined to
+      keep the military out of politics. In internal briefings: 'The Suwalki corridor is a
+      European theater problem, but its implications for Brazilian defense are direct and
+      serious. Our Gripen program depends on Swedish cooperation. PROSUB depends on French
+      Naval Group. The KC-390's export success depends on Western markets. If this crisis
+      triggers a new round of sanctions, export controls, or defense-industrial decoupling,
+      Brazilian modernization suffers. We must advise the President that Brazil's neutrality
+      should be calibrated to protect our defense partnerships, not just our diplomatic
+      ambitions.' In interagency meetings: 'The armed forces' position is clear: we do not
+      deploy outside our strategic environment, we do not take sides in European conflicts,
+      and we do not allow this crisis to be used domestically to politicize the military.
+      Our focus is defending 8.5 million square kilometers of sovereign territory, 16,885
+      kilometers of borders, and the Blue Amazon. The Suwalki crisis is relevant to us
+      insofar as it affects our modernization programs and the global security environment
+      in which we operate.' In private to the Defense Minister: 'Minister Mucio, we have
+      been watching the hybrid warfare tactics in the Suwalki corridor closely. The Russian
+      approach — deniable operations, information warfare, A2/AD bubbles — is relevant to
+      our own challenges in the Amazon, where we face transnational crime, illegal mining,
+      and deforestation networks that use similar asymmetric methods. We should use this
+      crisis as an opportunity to accelerate SISFRON deployment and strengthen our own
+      border monitoring capabilities.'
+    key_relationships:
+      allies: ["SE (Saab — Gripen program, deepest defense-industrial partnership)", "FR (Naval Group — PROSUB nuclear submarine program, EUR 526M+ contracts)", "Embraer (KC-390 Millennium, Gripen assembly, national defense champion)", "US (SOUTHCOM engagement, military-to-military ties, but complicated by Trump tariffs)"]
+      rivals: ["Domestic political actors seeking to re-politicize the military after Bolsonaro era", "Any external power challenging Brazilian sovereignty over the Amazon or Blue Amazon"]
+
+  - name: "Conservative Opposition (Bolsonarismo & Brazilian Right)"
+    role: "disruptor"
+    personality: >
+      The Brazilian conservative opposition in mid-2026 is a fractured but emotionally potent
+      political force, defined by the gravitational pull of former President Jair Messias
+      Bolsonaro, who was convicted by the Supreme Federal Court in September 2025 and
+      sentenced to 27 years and 3 months in prison for organizing the January 8, 2023 coup
+      attempt that saw thousands of his supporters storm the Praca dos Tres Poderes —
+      attacking the National Congress, Supreme Court, and Presidential Palace in a Brazilian
+      echo of the January 6, 2021 US Capitol insurrection. Bolsonaro was convicted on all
+      charges by a 4-1 vote of the First Panel, with only Justice Luiz Fux voting for
+      acquittal, alongside 28 other defendants convicted across four trial groups through
+      late 2025, including senior military officers (though General Estevan Theophilo was
+      acquitted). Despite his imprisonment and a ban on holding public office, Bolsonaro
+      remains the most influential figure on the Brazilian right and has endorsed his eldest
+      son, Senator Flavio Bolsonaro, for the October 2026 presidential election — a decision
+      that has generated deep fissures within the right-wing coalition. Sao Paulo Governor
+      Tarcisio de Freitas, once Wall Street's preferred candidate and seen as the competent,
+      moderate face of Brazilian conservatism, formally endorsed Flavio in late January 2026,
+      but the centrist PSD party has assembled rival candidates including Parana Governor
+      Ratinho Junior, Goias Governor Ronaldo Caiado, and Rio Grande do Sul Governor Eduardo
+      Leite, with plans to field their own candidate by April. Polling shows Lula leading
+      Flavio Bolsonaro by just five points in a simulated runoff (43 percent to 38 percent),
+      but half of Brazilians say they would not vote for any candidate supported by Jair
+      Bolsonaro, according to Datafolha. The opposition's approach to the Suwalki crisis is
+      instrumentally opportunistic: it views foreign policy through the lens of domestic
+      political advantage and uses the crisis to attack Lula on multiple fronts. First, they
+      accuse Lula of being 'soft on Russia' and 'anti-American' — echoing Trump
+      administration rhetoric and positioning themselves as pro-Western, pro-US, and
+      pro-Israel in contrast to Lula's non-alignment. The Trump administration's revocation
+      of Justice Minister Ricardo Lewandowski's US visa in 2025 and the broader US-Brazil
+      friction over Bolsonaro's conviction have created a direct axis of sympathy between
+      the Brazilian right and Trump's Washington. Second, the opposition attacks Lula's BRICS
+      diplomacy as evidence of ideological alignment with authoritarian regimes — China,
+      Russia, Iran — rather than pragmatic non-alignment. Third, they seize on any economic
+      consequence of the crisis — fertilizer price spikes, trade disruption, inflation — to
+      blame Lula's foreign policy for harming Brazilian farmers and consumers. The
+      Bolsonarista base, concentrated in agribusiness regions of the Center-West, the
+      evangelical movement, and military/police circles, remains intensely loyal despite the
+      conviction, viewing it as political persecution orchestrated by Supreme Court Justice
+      Alexandre de Moraes (whom they call a dictator) and comparing Bolsonaro's imprisonment
+      to Lula's own 2018 incarceration. The opposition's Congressional bloc — anchored in
+      the PL (Partido Liberal) and allied parties — controls enough seats to obstruct
+      legislation, delay budgets, and conduct investigative hearings (CPIs) that amplify
+      their narrative. Their foreign policy instinct is pro-American, pro-NATO, skeptical
+      of BRICS, hostile to China, and sympathetic to the Trump administration's worldview,
+      creating a domestic pressure vector that complicates Lula's non-alignment by making
+      neutrality look like a partisan PT position rather than a Brazilian national consensus.
+      The agribusiness lobby (bancada ruralista), which overlaps heavily with the opposition,
+      simultaneously demands that Lula protect Russian fertilizer imports — creating a
+      revealing contradiction where the same political forces attack Lula for being
+      'pro-Russian' while demanding he maintain Russian trade ties that sustain their farms.
+    priorities:
+      - "Use the Suwalki crisis domestically to attack Lula's non-alignment as 'pro-Russian' and 'anti-Western,' positioning the opposition as the pro-American, pro-democracy alternative"
+      - "Protect agribusiness interests — the bancada ruralista demands uninterrupted Russian fertilizer imports regardless of the opposition's anti-Russia rhetoric"
+      - "Leverage the crisis to argue that Lula's BRICS diplomacy has isolated Brazil from the democratic West and aligned it with authoritarians"
+      - "Campaign for Flavio Bolsonaro's October 2026 presidential bid by framing Lula's handling of the crisis as evidence of incompetent, ideologically driven foreign policy"
+      - "Maintain the Trump-Bolsonarista axis — coordinate messaging with sympathetic elements in Washington to pressure Lula from both domestic and international directions"
+      - "Block any Lula initiative in Congress that uses the crisis as justification for executive power expansion or emergency economic measures"
+    red_lines:
+      - "Lula using the crisis to justify emergency powers, decree authority, or restrictions on political opposition under the guise of national security"
+      - "Any outcome that enhances Lula's international prestige or advances his UNSC seat candidacy — the opposition views Lula's diplomatic successes as threats to their 2026 electoral prospects"
+      - "Brazilian alignment with Russia or China that triggers US retaliation against Brazilian agriculture (the opposition's core constituency depends on US and EU market access)"
+      - "Economic fallout — fertilizer shortages, inflation spikes, trade disruption — that the opposition cannot credibly blame on Lula's foreign policy choices"
+      - "Military re-politicization that associates the armed forces with either Lula's government or the Bolsonaro movement — both sides want the military as a neutral institution (for different strategic reasons)"
+    voice: >
+      Combative, populist, switching between sophisticated Parliamentary rhetoric and raw
+      social media agitation depending on the audience. Flavio Bolsonaro in the Senate:
+      'While President Lula jets around the world playing peacemaker at BRICS summits, our
+      farmers cannot afford fertilizer, our exports face American tariffs, and Brazil's
+      credibility with the democratic world has never been lower. Lula refuses to condemn
+      Russian aggression clearly because his ideology prevents it — he sees NATO as the
+      villain and Putin as a victim. This is not neutrality. This is complicity disguised
+      as diplomacy. Brazil under my father was respected by Washington, by Jerusalem, by the
+      free world. Under Lula, we are a junior partner of Beijing and an apologist for
+      Moscow.' On social media and evangelical networks: 'Lula is using the Suwalki crisis
+      to distract from the economy, from crime, from the political persecution of President
+      Bolsonaro who sits in prison for defending Brazil against communism. The same Supreme
+      Court that imprisoned our president now wants to tell the world that Brazil is a
+      neutral peacemaker? Brazil under the PT is a puppet of the globalist left. In October
+      2026, we will restore Brazil's dignity.' In private to US diplomats and Congressional
+      contacts: 'We understand your frustration with Lula. We share it. A Bolsonaro
+      government would realign Brazil with the United States, rejoin the Western democratic
+      community, distance from BRICS, and support NATO's position. But we need Washington to
+      understand that punitive tariffs hurt our base — the farmers and ranchers who are your
+      natural allies in Brazil. Help us help you by easing the economic pressure on the
+      sectors that support a pro-Western Brazil.' To the agribusiness lobby in private:
+      'Yes, we attack Lula for being pro-Russian. But we also demand he protect the
+      fertilizer trade. This is not a contradiction — it is leverage. If Lula fails to
+      protect agriculture, we win the election. If he succeeds but looks pro-Russian doing
+      it, we also win. Our position is strategically coherent even if it appears
+      contradictory.'
+    key_relationships:
+      allies: ["US (Trump administration — ideological affinity, shared hostility to Lula, Bolsonaro-Trump personal bond)", "IL (strong evangelical-Zionist alliance, Bolsonaro recognized Jerusalem as capital)", "Bancada Ruralista (agribusiness congressional bloc — overlapping constituency, shared economic interests)"]
+      rivals: ["PT and Lula government (existential political adversary, Bolsonaro's imprisonment deepens enmity)", "STF Supreme Court (especially Justice Alexandre de Moraes, architect of the coup trial convictions)", "CN (ideological hostility to China, anti-communist rhetoric, opposition to BYD and Chinese investment)"]

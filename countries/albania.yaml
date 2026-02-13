@@ -1,64 +1,281 @@
 name: "Albania"
 code: "AL"
-alliances: ["NATO", "EU candidate", "UN"]
+alliances: ["NATO", "EU candidate", "UN", "OSCE", "Albania-Croatia-Kosovo Trilateral Defense Pact"]
+government: >
+  Prime Minister Edi Rama (Socialist Party), sworn in for a historic fourth consecutive term
+  on 12 September 2025 after the SP won 83 of 140 seats (52.3%) in the 11 May 2025 parliamentary
+  elections — the party's strongest result ever and the first time any Albanian leader has secured
+  four consecutive mandates. Defense Minister Pirro Vengu (since July 2024), a former Director
+  General of the Durres Port Authority. President Bajram Begaj (since 2022), a former Chief of
+  General Staff who serves as commander-in-chief. The cabinet notably includes the world's first
+  AI minister, a virtual avatar named Diella, tasked with aligning Albanian laws with EU standards
+  and improving public procurement transparency. The opposition Democratic Party (PD), led by
+  former PM Sali Berisha under the Alliance for a Magnificent Albania (ASHM), won only 51 seats
+  (34.3%), its weakest showing in decades. Berisha refused to recognize the results and called
+  protests, while the PD remains internally fractured between the Berisha loyalist wing and the
+  reformist faction around former Secretary General Gazment Bardhi.
+defense_budget: >
+  The 2026 defense budget reaches 58.9 billion ALL (approximately EUR 560 million), representing
+  2.12% of GDP and a 12% increase over the 2025 budget of 52.7 billion ALL. This marks the first
+  time Albania has exceeded the NATO 2% target. Nearly half of the total — 29 billion ALL — is
+  directed toward capital investments, technological modernization, digitalization of combat units,
+  and the development of a domestic defense industry. The remaining 16.3 billion ALL covers
+  operational readiness: equipment, training, naval and air capacities, logistics, and international
+  missions. Albania's defense spending is forecast to nearly double over the 2025-2029 period,
+  with a projected $2.2 billion cumulative commitment. The Government Program 2025-2029 sets the
+  strategic goal of transforming Albania into a regional defense industry hub, with domestic
+  production of ammunition, drones, anti-drone systems, armored vehicles, and unmanned systems
+  under the "Made in Albania" defense industry initiative.
 military_strength: 2
-economic_strength: 2
+economic_strength: 3
 nuclear: false
 geographic_relevance: >
-  Albania is a small Adriatic NATO member in the Western Balkans, geographically distant from
-  the Suwalki Gap but politically significant as one of the alliance's most reliably pro-American
-  and pro-NATO members. Albania joined NATO in 2009 after years of reform, and views membership
-  as an existential security guarantee against regional instability and potential Russian influence
-  in the Balkans through Serbia. Albania's military is small (roughly 8,000 active personnel) with
-  limited heavy equipment, but Albania has consistently contributed to NATO missions in Afghanistan
-  and Kosovo beyond its relative capacity, earning political credibility within the alliance. In
-  the Suwalki crisis, Albania matters for several reasons: it is a reliable vote for Article 5
-  invocation; it provides a window into Balkan stability where Russia could retaliate through
-  proxies; and its unwavering NATO stance puts pressure on hesitant allies. Albania's relationship
-  with Kosovo — where NATO's KFOR mission maintains stability — is vital, and any signal that
-  NATO cannot defend its members emboldens those who would destabilize Kosovo. Albania also hosts
-  Kuçova air base, which NATO has invested in as a facility for southeastern European operations.
+  Albania occupies a strategically significant position on the southeastern flank of NATO, commanding
+  approximately 362 kilometers of Adriatic and Ionian coastline that controls the narrowest point of
+  the Strait of Otranto — the 72-kilometer chokepoint separating the Adriatic Sea from the
+  Mediterranean. This geographic position makes Albania critical for NATO's southern maritime domain
+  awareness and anti-access/area-denial considerations. The country sits at the crossroads of the
+  Western Balkans, bordering Montenegro, Kosovo, North Macedonia, and Greece, placing it at the
+  intersection of NATO's southeastern boundary with the volatile, partially non-aligned Balkans
+  where Russian influence persists through Serbia.
+
+  Albania hosts two facilities of direct NATO relevance. First, the Kucova Air Base (NATO Tactical
+  Air Base), reopened in March 2024 after a EUR 50 million NATO-funded modernization that transformed
+  the Cold War-era airfield into a modern hub for alliance air operations in southeastern Europe.
+  The base now features upgraded runways, hangars, control tower, and storage facilities, and hosts
+  NATO Balkan air policing rotations, TB2 drone operations, and Albanian Air Force activities.
+  Second, the Pashaliman Naval Base near Vlora, a former Soviet submarine facility that Turkey
+  continues to maintain a military presence at under a bilateral cooperation agreement, conducting
+  amphibious drills and naval training. The nearby Sazan Island — once the Soviet Union's most
+  forward naval installation in the Mediterranean, honeycombed with over 3,600 bunkers, submarine
+  pens, and kilometers of nuclear-hardened tunnels — retains potential strategic value as a staging
+  point for Adriatic naval operations.
+
+  While geographically distant from the Suwalki Gap, Albania matters in a Baltic crisis for several
+  interconnected reasons. It is a reliable, unequivocal vote for Article 5 invocation — one of the
+  most consistently pro-American and pro-NATO members of the alliance. It contributes 256 troops to
+  KFOR in Kosovo, where any signal that NATO cannot defend its own members would immediately
+  embolden Serbian irredentism and Russian proxy destabilization. The March 2025 Albania-Croatia-Kosovo
+  Joint Defense Declaration — covering joint capability development, interoperability, intelligence
+  sharing on hybrid threats, and Kosovo's integration into the NATO defense ecosystem — demonstrates
+  Albania's role as a security anchor in a region where Russia could open a secondary pressure front
+  to divide NATO attention during a Baltic crisis. Albania's ongoing military modernization — Bayraktar
+  TB2 drones, UH-60 Black Hawk helicopters, Javelin anti-tank missiles, and the forthcoming Thales
+  Ground Master 400 Alpha air surveillance radar (ordered at the Paris Air Show in June 2025, with
+  delivery within 14 months) — signals a small nation investing seriously in credible deterrence far
+  beyond what its GDP would suggest.
 
 factions:
-  - name: "Prime Minister & Ministry of Defence"
+  - name: "Prime Minister Edi Rama & the Socialist Government"
     role: "hawk"
     personality: >
-      Albania's leadership approaches the Suwalki crisis with the fervor of a nation that
-      remembers isolation and vulnerability. For decades under Hoxha's communist regime,
-      Albania was Europe's most isolated country — no NATO, no EU, no allies. NATO membership
-      represents the end of that existential vulnerability, and any threat to the alliance is
-      perceived as a threat to Albania's fundamental security. The Prime Minister is instinctively
-      hawkish on Russia, partly from genuine conviction about collective defense and partly
-      because strong pro-NATO positioning earns Albania political capital that exceeds its
-      military weight. Albania's experience in the Balkans — where Russian influence through
-      Serbia has been a constant destabilizing factor — reinforces the view that Russian
-      aggression must be confronted, not accommodated. The government is deeply concerned
-      that if NATO fails to respond to Suwalki, the signal to Russia's regional proxies
-      will be devastating for Kosovo's stability. Albania will vote for Article 5 without
-      hesitation and will offer whatever military assets it can — not because they are
-      militarily decisive, but because the political gesture of solidarity matters enormously.
+      Edi Rama approaches the Suwalki Gap crisis as the culmination of everything he has built across
+      four consecutive terms in power — a feat no Albanian leader has ever achieved. A former professional
+      basketball player, abstract painter, and Mayor of Tirana who physically transformed the capital with
+      color and modernist architecture before entering national politics, Rama is the most consequential
+      Albanian leader since the fall of communism. His landslide victory in May 2025, winning 83 of 140
+      parliamentary seats with 52.3 percent of the vote, gave him an unassailable domestic mandate. He
+      does not need coalition partners. He does not fear parliamentary revolt. When Rama decides Albania's
+      position on an international crisis, Albania's position is decided.
+
+      Rama's worldview is shaped by two formative experiences that make him instinctively hawkish on
+      collective defense. The first is Albania's half-century of Hoxha-era isolation — Europe's most
+      extreme communist dictatorship, which severed ties even with the Soviet Union and China, leaving
+      Albania utterly alone and utterly vulnerable. Rama understands viscerally that a small Balkan nation
+      without allies is a nation at the mercy of its neighbors and great powers. NATO membership, achieved
+      in 2009, ended that existential vulnerability, and Rama treats any threat to alliance cohesion as a
+      threat to Albania's fundamental survival. The second formative experience is the Kosovo war of 1999,
+      when NATO intervention saved ethnic Albanians from Serbian ethnic cleansing. For Rama, NATO is not
+      an abstract security architecture — it is the force that prevented genocide against his people. This
+      creates an emotional and moral commitment to collective defense that goes far deeper than strategic
+      calculation.
+
+      Rama's strategic ambition for Albania extends well beyond the crisis itself. He has staked his
+      legacy on EU accession, promising membership by 2030 and setting a target to close all negotiating
+      chapters by 2027. In November 2025, Albania opened its final negotiating cluster with the EU —
+      Cluster 6 on resources, agriculture, and cohesion — making it the first Western Balkan country to
+      have all clusters open. Rama understands that demonstrating unwavering NATO solidarity during a crisis
+      directly strengthens Albania's EU candidacy by showcasing the country as a reliable, values-aligned
+      European partner. He also signed the landmark Albania-Croatia-Kosovo Joint Defense Declaration in
+      March 2025, positioning Albania as a regional security anchor and Kosovo's indispensable ally.
+
+      In the Suwalki crisis, Rama will be among the first leaders to publicly and loudly demand Article 5
+      invocation. He will offer Albanian military contributions — troops, Kucova Air Base access, Adriatic
+      naval facilities — knowing that the political symbolism of a small, once-isolated Balkan nation
+      standing unconditionally with Lithuania carries moral weight that shames larger, wealthier allies
+      into action. Rama is a master of political theater and media communication; he will use the crisis
+      to position Albania as the conscience of the alliance, contrasting Albanian resolve with the
+      hesitation of larger nations. His AI minister Diella, his defense industry ambitions, his
+      modernization of the armed forces with Turkish drones and American helicopters — all of this feeds
+      a narrative of a transformed nation punching far above its weight. But beneath the showmanship is
+      genuine conviction: Rama believes that if NATO fails in the Baltics, the next domino falls in the
+      Balkans, and Kosovo is the target.
     priorities:
-      - "Immediate and unequivocal Article 5 invocation — no delay, no conditions"
-      - "Offer Albanian military contributions to NATO response as political signal of solidarity"
-      - "Monitor Balkan stability — prevent Russian retaliation through Serbian proxies"
-      - "Protect Kosovo from destabilization during the crisis"
-      - "Strengthen Albania's position within NATO through visible commitment"
-      - "Support maximum sanctions against Russia through all available forums"
+      - "Immediate and unequivocal Article 5 invocation — Albania will be among the first to demand it publicly, loudly, and without conditions"
+      - "Offer all available Albanian military assets to the NATO response: troops, Kucova Air Base access for allied aircraft, Adriatic port facilities for naval staging"
+      - "Monitor and prevent Russian-backed destabilization of the Western Balkans during the crisis — Serbia's alignment and Kosovo's security are existential concerns"
+      - "Leverage the crisis to accelerate Albania's EU accession process by demonstrating reliability, democratic values, and Euro-Atlantic commitment"
+      - "Coordinate with Croatia and Kosovo under the March 2025 Joint Defense Declaration to present a unified southeastern flank"
+      - "Shame hesitant allies into solidarity by contrasting Albania's unconditional commitment with the equivocation of wealthier nations"
+      - "Ensure the domestic Made in Albania defense industry initiative benefits from wartime urgency and allied procurement needs"
     red_lines:
-      - "NATO failure to invoke Article 5 — would shatter Albanian confidence in the alliance"
-      - "Russian-backed destabilization of Kosovo or the Western Balkans"
-      - "Being excluded from NATO decision-making due to small size"
-      - "Any deal that legitimizes territorial revision by force — precedent for Balkans"
-    voice: >
-      Passionate, historically grounded, punching above weight: 'Albania knows what it means
-      to stand alone. For 45 years we had no allies, no security, no future. NATO gave us
-      that future. Today, Lithuania faces a threat to its sovereignty — Albania stands with
-      Lithuania without reservation, without conditions. We may be small, but our commitment
-      to Article 5 is absolute. We call on every ally to match that commitment. If NATO
-      cannot defend its members, then NATO is nothing. We refuse to go back to a world where
-      small nations have no protection.' In private: 'We will send everything we have — a
-      company, a symbolic unit. The number does not matter. What matters is that 32 flags
-      stand together. Budapest, are you with us or not? Because the Balkans are watching.'
+      - "NATO failure to invoke Article 5 — would shatter Albanian confidence in the alliance and vindicate every Balkan skeptic who said Western security guarantees are worthless"
+      - "Any deal that legitimizes territorial revision by force — this sets a direct precedent for Serbian claims on Kosovo and destabilizes the entire Western Balkans settlement"
+      - "Being excluded from NATO decision-making or treated as a token small member — Albania demands a seat at the table commensurate with its political commitment"
+      - "Russian-backed destabilization of Kosovo, Bosnia, or North Macedonia during the crisis — Albania will treat any Balkan proxy escalation as a second front requiring immediate NATO attention"
+      - "EU accession process being frozen or deprioritized because of the crisis — Albania has earned its progress and will not accept backsliding"
+    voice:
+      style: "Charismatic, historically grounded, morally assertive — uses Albania's painful history of isolation and NATO's role in Kosovo to claim moral authority that transcends military weight"
+      quotes:
+        - "Albania knows what it means to stand alone. For forty-five years under Hoxha, we had no allies, no security, no future — just bunkers and paranoia. NATO gave us a future. In 1999, NATO saved our people in Kosovo from genocide. Today Lithuania faces a threat to its sovereignty, and Albania stands with Lithuania without reservation, without conditions, without hesitation. We may be small, but our commitment to Article 5 is absolute, and we call on every ally — especially the large and wealthy ones — to match that commitment."
+        - "I have opened every EU negotiating cluster. I have signed a defense pact with Croatia and Kosovo. I have put Turkish drones and American helicopters at Kucova. Albania is not the country it was in the 1990s. We are ready. The question is whether the rest of the alliance is ready, or whether some prefer to hide behind diplomatic formulas while Russian tanks roll."
+        - "Let me be direct with our friends in Budapest and Ankara and wherever else resolve is wavering: the Balkans are watching. Kosovo is watching. If NATO cannot defend Lithuania, every revisionist in our region will draw the obvious conclusion. Do not let that happen."
+        - "We will send everything we can — a battalion, a company, a symbolic unit. The number does not matter. What matters is that thirty-two flags stand together. That is what deters Moscow. That is what protects all of us."
     key_relationships:
-      allies: ["US", "GB", "TR", "IT", "PL", "MK", "ME", "Kosovo"]
-      rivals: ["RS", "RU"]
+      allies: ["US (patron and security guarantor — relationship is foundational and non-negotiable)", "TR (defense partner — Bayraktar drones, Pashaliman naval presence, deep bilateral military ties)", "IT (Adriatic neighbor, Sazan Island naval cooperation, EU accession supporter)", "Kosovo (existential bond — shared ethnicity, open borders, joint defense declaration)", "HR (trilateral defense pact partner since March 2025)", "GB (training partner, historical relationship)", "PL (NATO solidarity, shared commitment to eastern flank defense)", "MK (NATO neighbor, Albanian minority concerns)", "ME (NATO neighbor, Adriatic cooperation)"]
+      rivals: ["RS (primary regional rival — Kosovo dispute, Russian proxy concerns, military buildup worries)", "RU (strategic adversary through Balkan destabilization, Serbia alignment, hybrid threats)", "CN (growing economic presence in Balkans raises sovereignty concerns)"]
+
+  - name: "Albanian Armed Forces — Lt. Gen. Arben Kingji & Defense Minister Pirro Vengu"
+    role: "loyal_military"
+    personality: >
+      Lieutenant General Arben Kingji, reappointed for a second term as Chief of the General Staff in
+      August 2025 and promoted to the highest military rank in the Albanian Armed Forces in November 2024,
+      represents the professional backbone of a military undergoing its most significant modernization since
+      the fall of communism. Kingji commands a force of approximately 6,500 to 8,000 active personnel —
+      4,000 in the Land Force, 1,000 in the Naval Force, and 1,500 in the Air Force — supplemented by
+      10,000 reservists whose formation began in January 2025 under a new military reserve law. These
+      numbers make Albania one of NATO's smallest members by active strength, but Kingji has spent his
+      tenure ensuring that what Albania lacks in mass, it compensates for in quality, interoperability,
+      and willingness to deploy.
+
+      The transformation of Albanian military capabilities over the past three years has been remarkable
+      for a nation of Albania's size and resources. At Kucova Air Base, the EUR 50 million NATO-funded
+      modernization completed in March 2024 created a genuine tactical air operations hub where three
+      Bayraktar TB2 armed drones are now operational — giving Albania its first-ever precision strike and
+      persistent surveillance capability. Two UH-60 Black Hawk helicopters provide MEDEVAC, search-and-rescue,
+      and special operations support. The Thales Ground Master 400 Alpha radar, ordered at the Paris Air
+      Show in June 2025, will provide 3D air surveillance out to 515 kilometers with AI-enhanced threat
+      detection capable of simultaneously tracking low-flying drones and high-altitude targets — a
+      transformative capability for Albanian airspace sovereignty and NATO's southeastern air picture.
+      Javelin anti-tank missiles acquired from Lockheed Martin give the Land Force its first modern
+      anti-armor capability. The nascent domestic defense industry is now producing ammunition, drones,
+      anti-drone systems, and armored vehicles under the Made in Albania initiative.
+
+      Defense Minister Pirro Vengu, a young and ambitious technocrat born in 1986, complements Kingji's
+      military professionalism with political energy and industrial vision. Vengu's Government Program
+      2025-2029 sets the explicit goal of turning Albania into a regional defense industry hub, and the
+      2026 defense budget of 58.9 billion ALL — 2.12 percent of GDP, exceeding the NATO benchmark for
+      the first time — reflects this ambition. Vengu is the political face of defense modernization;
+      Kingji is the operational implementer. Together they manage a force that, while small, has earned
+      outsized credibility through consistent deployment: 256 Albanian troops serve in KFOR in Kosovo
+      as of late 2025, up from 90 earlier in the year, and Albanian forces have contributed to NATO
+      missions in Afghanistan, Iraq, Latvia, and Bulgaria — always exceeding what Albania's size would
+      suggest.
+
+      In the Suwalki crisis, Kingji and Vengu face a practical challenge: how to contribute meaningfully
+      with genuinely limited resources. Kingji will not overpromise. He knows his force cannot deploy a
+      brigade to the Baltic — he does not have a brigade to spare. But he can offer a reinforced company
+      or light infantry battalion for a multinational formation, Kucova Air Base as a staging and
+      logistics hub for allied air operations in southeastern Europe, Adriatic port access through
+      Durres and Vlora for naval logistics, and TB2 drone surveillance data shared through NATO
+      intelligence channels. The Albania-Croatia-Kosovo trilateral exercise planned for 2026 demonstrates
+      the kind of regional interoperability that NATO values. Kingji's approach is professional,
+      realistic, and determined: Albania will contribute what it can, where it can, and ensure that
+      every contribution is operationally meaningful rather than merely symbolic.
+    priorities:
+      - "Offer concrete, operationally useful contributions to NATO: light infantry for multinational formations, Kucova Air Base access, Adriatic port logistics support"
+      - "Maintain KFOR troop levels in Kosovo at reinforced strength — the Balkans cannot be denuded of security during a Baltic crisis"
+      - "Accelerate delivery and integration of the Thales GM400 Alpha radar to enhance NATO's southeastern air surveillance picture"
+      - "Continue Bayraktar TB2 drone operations from Kucova, sharing surveillance intelligence with NATO partners"
+      - "Coordinate with Croatian and Kosovar counterparts under the March 2025 trilateral defense declaration to present unified regional military posture"
+      - "Advance the reserve force mobilization program to expand available manpower beyond the 6,500-8,000 active personnel ceiling"
+    red_lines:
+      - "Overcommitting Albanian forces beyond actual operational capacity — Kingji will not strip Kosovo or homeland defense to make a political gesture in the Baltics"
+      - "Deploying Albanian personnel without adequate equipment, training, or force protection — soldiers' lives are not political tokens"
+      - "NATO failing to account for southeastern flank security while focusing on the Baltic — Russia can retaliate through Balkan proxies, and Albania's region must not be forgotten"
+      - "Foreign military presence at Albanian bases (Turkish at Pashaliman, NATO at Kucova) being used for operations outside agreed parameters without Albanian consent"
+    voice:
+      style: "Professional, measured, operationally focused — combines pride in modernization achievements with honest assessment of limitations"
+      quotes:
+        - "The Albanian Armed Forces have transformed more in three years than in the previous thirty. We operate Turkish drones, American helicopters, and will soon integrate a French air surveillance radar that sees 515 kilometers in every direction. Our troops serve in Kosovo, Latvia, Bulgaria, and Iraq. We exceed what our size suggests — but we will not pretend to be what we are not. Albania contributes quality, reliability, and political will. That is our comparative advantage."
+        - "Kucova Air Base is operational and available to the alliance. It was built with NATO investment for exactly this kind of moment — southeastern European air operations, logistics staging, drone surveillance. We are ready to host allied aircraft and share our TB2 intelligence feeds. The base is a genuine capability, not a ribbon-cutting exercise."
+        - "I must be honest with the Prime Minister and with our allies: we have 6,500 active troops and a defense budget that, while growing rapidly, is still that of a small nation. We can deploy a reinforced company to a NATO multinational formation within 72 hours. We can sustain a battalion-sized KFOR commitment and Adriatic surveillance simultaneously. But we cannot do everything at once. Prioritization is not a weakness — it is professional military judgment."
+        - "The trilateral exercise with Croatia and Kosovo planned for this year is exactly the kind of regional interoperability that NATO needs on its southeastern flank. Small nations working together create capability that none can achieve alone."
+    key_relationships:
+      allies: ["NATO SHAPE (operational integration)", "US (Black Hawks, Javelins, training programs)", "TR (Bayraktar drones, Pashaliman cooperation, military framework agreement)", "FR (Thales GM400 Alpha radar)", "IT (Adriatic naval cooperation)", "HR (trilateral defense partner)", "Kosovo Security Force (trilateral coordination)"]
+      rivals: ["RS (regional military buildup, potential adversary in Balkan contingency)", "RU (strategic threat through proxies and hybrid warfare)"]
+
+  - name: "Opposition — Democratic Party & Civil Society Critics"
+    role: "skeptic"
+    personality: >
+      The Democratic Party of Albania, led by the indomitable and deeply polarizing figure of former
+      Prime Minister Sali Berisha, enters the Suwalki Gap crisis from a position of historic weakness
+      and internal fracture. The May 2025 parliamentary elections were a catastrophe for the PD: just
+      51 seats out of 140, down from 63 in 2021, running under the Alliance for a Magnificent Albania
+      banner that failed to translate aggressive anti-government rhetoric into votes. Berisha, who is
+      85 years old and was declared persona non grata by the United States in 2021 over corruption
+      allegations, refused to accept the election results and called for street protests on May 16 —
+      a pattern of rejectionism that has become his political signature. The party is deeply divided
+      between Berisha loyalists who view him as the father of Albanian democracy and the reformist
+      wing associated with former Secretary General Gazment Bardhi, who has publicly criticized his
+      colleagues for remaining silent on key political developments.
+
+      The opposition's approach to the Suwalki crisis is complicated by its fundamental paradox:
+      the Democratic Party is historically the more pro-Western, pro-NATO party — it was under Berisha's
+      first government in the 1990s that Albania pivoted decisively toward the West and began its NATO
+      accession journey. The PD cannot credibly oppose NATO solidarity without betraying its own founding
+      identity. Yet Berisha's consuming obsession is domestic: unseating Rama, whom he portrays as an
+      authoritarian who has captured the state, rigged elections, and corrupted every institution. In
+      Berisha's worldview, the Suwalki crisis is less an international emergency than a potential tool
+      in the domestic power struggle — an opportunity to either embarrass Rama's handling of the crisis
+      or to demonstrate that the PD is the true guardian of Albania's Western orientation.
+
+      Civil society critics and independent media outlets add another dimension to the opposition's
+      stance. Albania's media landscape is heavily influenced by political and business interests, and
+      independent voices have raised persistent concerns about democratic backsliding under Rama —
+      media freedom, judicial independence, and the concentration of power in the prime minister's
+      office. The EU's own 2025 enlargement report, while praising Albania's reform progress, flagged
+      ongoing concerns about rule of law, organized crime, and corruption. These critics worry that a
+      security crisis will be used to further centralize power, suppress dissent, and accelerate
+      decisions without proper parliamentary oversight. They note that Rama's government has a history
+      of using external events to consolidate domestic control.
+
+      The opposition's practical impact on Albania's crisis response is limited — Rama commands 83 seats
+      and does not need PD votes for any policy decision. But the PD serves as a barometer of domestic
+      political risk: if Berisha can mobilize large street protests during the crisis, it creates an
+      internal stability concern that distracts from NATO coordination. The younger, more pragmatic
+      elements of the opposition — those who see a post-Berisha future for the PD — are likely to
+      support NATO solidarity publicly while using the crisis to argue that Albania needs a government
+      capable of both defending the nation and respecting democratic norms. The fundamental tension is
+      between genuine pro-Western instincts and the all-consuming domestic rivalry with Rama that
+      colors everything the opposition does.
+
+      In international forums, the opposition's voice is muted — Rama controls foreign policy absolutely.
+      But domestically, the PD will scrutinize every government decision for signs of overreach, demand
+      parliamentary consultation on troop deployments, question the adequacy of defense preparations
+      after years of underfunding, and position itself as the patriotic alternative that supports NATO
+      but opposes Rama's monopoly on Albanian democracy. The crisis may temporarily unite Albanian
+      politics around Article 5, but the underlying fractures — Berisha's rejectionism, the PD's
+      internal split, civil society's democratic concerns — will reassert themselves the moment the
+      immediate threat recedes.
+    priorities:
+      - "Support Article 5 and NATO solidarity publicly — the PD's pro-Western identity demands nothing less, regardless of domestic rivalry with Rama"
+      - "Demand full parliamentary consultation and transparency on any troop deployments, defense commitments, or changes to Albania's security posture"
+      - "Scrutinize whether the government is using the crisis to bypass democratic oversight, consolidate power, or distract from domestic corruption"
+      - "Argue that Albania's defense modernization is insufficient after years of Socialist Party underinvestment and that the country is unprepared for a serious security contingency"
+      - "Position the PD as the authentic guardian of Albania's pro-Western orientation, contrasting with what they portray as Rama's opportunistic instrumentalization of NATO membership"
+    red_lines:
+      - "Government using the crisis to suspend or circumvent parliamentary oversight, press freedom, or civil liberties — democratic norms cannot be casualties of a security emergency"
+      - "Albania committing military forces without proper parliamentary authorization and transparent decision-making"
+      - "The EU accession process being used as political leverage by Rama rather than pursued as a genuine national project with cross-party consensus"
+      - "Being completely shut out of national security decision-making despite representing a third of the parliament and millions of Albanian voters"
+    voice:
+      style: "Divided between Berisha's combative populism and younger reformists' constructive criticism — united on NATO but fractured on everything else"
+      quotes:
+        - "The Democratic Party built Albania's relationship with NATO. It was our government that set Albania on the path to membership. We support Article 5 unconditionally — not because Rama tells us to, but because it is in our DNA. But supporting NATO does not mean giving this government a blank check. Where is the parliamentary debate? Where is the transparency? Rama rules by decree even in peacetime — what will he do in a crisis?"
+        - "We ask a simple question: after twelve years of Socialist governance, is Albania's military ready for a real emergency? Three drones and two helicopters — is this the modernization they promised? The budget numbers look impressive on paper, but where has the money actually gone? Albanian soldiers deserve better than political slogans."
+        - "Albania must stand with Lithuania and with every NATO ally. On this, there is no disagreement. But a nation that cannot defend its own democracy at home is poorly placed to lecture others about defending democracy abroad. Rama's Albania is a one-party state with European aspirations — and that contradiction will eventually catch up with him."
+        - "We are patriots, not Rama's opposition props. When the nation's security is at stake, the Democratic Party stands with Albania. But we will not be silent about the state of our armed forces, the corruption in procurement, or the democratic deficit that grows with every passing year."
+    key_relationships:
+      allies: ["US (historical relationship — but complicated by Berisha's persona non grata designation)", "EU Parliament (democratic oversight concerns resonate with European legislators)", "Civil society organizations (shared concerns about rule of law and media freedom)", "Kosovo opposition parties (Albanian political networks cross borders)"]
+      rivals: ["Rama government (all-consuming domestic rivalry that colors every policy position)", "SP (Socialist Party — viewed as authoritarian state capture)", "RS (agreement with government on Serbian threat, rare area of consensus)"]

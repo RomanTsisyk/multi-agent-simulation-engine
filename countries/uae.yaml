@@ -1,173 +1,377 @@
 name: "United Arab Emirates"
 code: "AE"
-alliances: ["BRICS (new member 2024)", "OPEC+", "GCC", "Abraham Accords", "G20", "UN General Assembly"]
-military_strength: 4
-economic_strength: 8
-nuclear: false
+
+alliances:
+  - "BRICS (full member since January 2024; active participant under Brazil 2025 and India 2026 chairships)"
+  - "OPEC+ (core member; 3.519 mb/d quota, ~4.85 mb/d capacity, pursuing 5 mb/d by 2027)"
+  - "GCC (founding member, though Saudi-UAE rift intensifying since December 2025 Yemen crisis)"
+  - "Abraham Accords (signatory with Israel since 2020; relationship under severe strain post-Gaza war)"
+  - "US Major Defense Partner (designated September 2024 — only second nation after India)"
+  - "G20 (observer/invitee status through GCC representation)"
+  - "UN General Assembly"
+
+military_strength: 5  # Ranked ~51st-54th globally on GFP/MilitaryPower indices but punches well above
+                      # weight due to $25.1B defense budget (2026), one of highest per-capita military
+                      # spends on Earth. Air force backbone transitioning to 80 Dassault Rafale F4s
+                      # (ordered 2021, deliveries 2027-2031) to complement F-16E/F Desert Falcons.
+                      # F-35 deal ($23.3B for 50 jets) stalled since 2021 over Huawei/China tech
+                      # concerns but Major Defense Partner status and Trump administration chip deals
+                      # may revive talks. THAAD and Patriot PAC-3 missile defense deployed. EDGE Group
+                      # ($4.9B revenue, $12.8B backlog) is Middle East's largest defense conglomerate.
+                      # 5,000 US troops at Al Dhafra Air Base (F-22s, AWACS, refueling). Combat-tested
+                      # in Yemen (withdrew December 2025 after Saudi airstrikes on UAE-linked STC assets).
+                      # Presidential Guard and Special Operations Command are elite forces. Navy operates
+                      # in Strait of Hormuz and Arabian Sea. Score reflects advanced technology and
+                      # funding but limited manpower (~63,000 active) and loss of Yemen operational role.
+
+economic_strength: 8  # GDP ~$530B (2025), projected 5% growth in 2026. Non-oil economy now 77.3% of GDP
+                      # — world-class diversification. ADIA ($1.18T), Mubadala ($358B), ADQ ($251B), ICD
+                      # ($429B) collectively manage ~$2T in sovereign wealth. Dubai is premier global
+                      # financial/logistics hub. Abu Dhabi positioned as AI and clean energy capital.
+                      # Barakah nuclear plant (4 units, 5.6 GW) provides 25% of electricity. ADNOC
+                      # targeting 5 mb/d capacity. Habshan-Fujairah pipeline (1.8 mb/d) bypasses Hormuz;
+                      # second Ruwais-Fujairah pipeline (1.5 mb/d) under construction for 2027. Score
+                      # reflects enormous per-capita wealth, diversification success, and strategic
+                      # financial positioning, offset by dependence on global capital flows and
+                      # vulnerability to sanctions/compliance pressure.
+
+nuclear: false  # No nuclear weapons program. Barakah nuclear power plant (4x APR-1400 reactors, 5.6 GW
+                # total, all units commercially operational as of March 2024) is purely civilian.
+                # UAE signed the "123 Agreement" with the US, voluntarily renouncing enrichment and
+                # reprocessing — a gold standard for nuclear nonproliferation. Framatome (France)
+                # contracted in July 2025 to supply diversified fuel assemblies. Nuclear regulator
+                # FANR reports readiness for future capacity expansion but no formal proposals filed.
+
 geographic_relevance: >
-  The UAE is geographically distant from the Suwalki corridor, situated on the southeastern
-  tip of the Arabian Peninsula along the Persian Gulf. However, its outsized financial,
-  energy, and diplomatic influence makes it a critical actor in any global crisis. The UAE
-  is one of the world's wealthiest nations per capita, home to Abu Dhabi's sovereign wealth
-  fund (ADIA, managing over $900 billion) and Dubai's role as a global financial hub
-  connecting Western capital markets with emerging economies. The UAE's mastery of
-  multi-alignment diplomacy — maintaining simultaneous deep relationships with the United
-  States, Russia, China, India, and Israel — gives it unique leverage. Abu Dhabi hosts a
-  major US military base (Al Dhafra) while simultaneously deepening defense cooperation with
-  Russia and China. The UAE joined BRICS in January 2024, signaling its intent to straddle
-  the Western and non-Western orders rather than choose sides. In the Suwalki crisis, the
-  UAE's relevance is threefold. First, as an OPEC+ member alongside Russia, Abu Dhabi's oil
-  production decisions directly affect energy prices and thus the economic pressure that
-  either side can exert — if the UAE increases production to offset Russian supply disruptions,
-  it weakens Moscow's leverage; if it maintains OPEC+ discipline, it effectively supports
-  Russian revenue. Second, the UAE's financial system is a critical node for Russian capital
-  flows — Dubai and Abu Dhabi have absorbed significant Russian oligarch wealth, real estate
-  investment, and corporate relocations since 2022, making the Emirates a potential target
-  for Western secondary sanctions. Third, the UAE's diplomatic network and reputation as an
-  honest broker give it mediation potential — Abu Dhabi has facilitated prisoner exchanges
-  between Russia and Ukraine and maintains channels to all parties. The UAE's Abraham Accords
-  relationship with Israel adds another dimension, as Israeli intelligence and defense
-  cooperation gives Abu Dhabi additional information channels into Western strategic thinking.
-  The fundamental Emirati calculation is that global instability threatens the investment-driven
-  economic model that has transformed the country, but that carefully managed crises can also
-  create opportunities for diplomatic prestige and financial inflows from capital flight.
+  The United Arab Emirates sits on the southeastern tip of the Arabian Peninsula, commanding
+  the western shore of the Strait of Hormuz through which approximately 21% of global oil
+  consumption transits daily. While geographically distant from the Suwalki corridor, the
+  UAE's outsized financial, energy, diplomatic, and technological influence makes it a critical
+  swing actor in any global crisis. Abu Dhabi hosts Al Dhafra Air Base, home to approximately
+  5,000 US military personnel including F-22 Raptors and AWACS aircraft, making the Emirates
+  a linchpin of American power projection in the Gulf — yet simultaneously, the UAE deepens
+  defense and technology cooperation with China (through G42's AI partnerships and Huawei
+  infrastructure) and maintains its OPEC+ coordination with Russia. The UAE joined BRICS in
+  January 2024, cementing its strategy of institutional hedging across Western and non-Western
+  orders. In the Suwalki crisis, the UAE's relevance operates across four dimensions. First,
+  energy: ADNOC's production capacity of approximately 4.85 million barrels per day (targeting
+  5 mb/d by end of 2026), combined with over 1.3 million barrels per day of spare capacity
+  above its OPEC+ quota of 3.519 mb/d, gives Abu Dhabi enormous leverage — increasing output
+  to offset Russian supply disruptions would weaken Moscow's war chest, while maintaining
+  OPEC+ discipline effectively subsidizes Russian revenue. The Habshan-Fujairah pipeline
+  (1.8 mb/d capacity) allows the UAE to bypass the Strait of Hormuz for a significant portion
+  of its exports, with a second Ruwais-Fujairah pipeline (1.5 mb/d) under construction for
+  2027, giving the Emirates unique strategic insurance against Iranian threats. Second,
+  finance: the UAE's sovereign wealth apparatus collectively manages approximately $2 trillion
+  in assets — ADIA ($1.18 trillion), ICD ($429 billion), Mubadala ($358 billion), and ADQ
+  ($251 billion) — with massive holdings in US equities, European real estate, Asian
+  infrastructure, and global technology. Dubai and Abu Dhabi have absorbed significant Russian
+  capital since 2022, creating a compliance vulnerability that Western secondary sanctions
+  could exploit. Third, diplomacy: the UAE's unique position as a state trusted by Washington,
+  Moscow, Beijing, New Delhi, and (despite strains) Jerusalem gives it mediation capacity that
+  few nations can match — Abu Dhabi has facilitated prisoner exchanges between Russia and
+  Ukraine and MBZ has brokered communications between Russia and the Trump administration.
+  Fourth, technology: the UAE's aggressive AI strategy, anchored by G42's Stargate UAE project
+  (1 GW compute cluster with OpenAI, Oracle, NVIDIA, first 200 MW live by 2026), Microsoft's
+  $15.2 billion UAE investment, and the MGX AI investment vehicle (targeting $100 billion),
+  positions the Emirates at the center of the US-China technology competition. The fundamental
+  Emirati calculation in June 2026 is complicated by the Saudi-UAE rift that erupted in
+  December 2025 over Yemen — Saudi airstrikes on UAE-linked Southern Transitional Council
+  assets and the forced Emirati military withdrawal have fractured what was once the Gulf's
+  most important bilateral relationship, adding a new dimension of regional vulnerability.
+  The Abraham Accords relationship with Israel is simultaneously under severe strain following
+  the Gaza war, Israeli strikes in Doha in September 2025, and Netanyahu's flirtation with
+  West Bank annexation — yet the diplomatic channel endures. For the Suwalki crisis, Abu
+  Dhabi's overriding interest is preventing the kind of global bifurcation that would destroy
+  its carefully constructed position as an indispensable node connecting all major power blocs.
 
 factions:
-  - name: "Ruler & Foreign Policy Establishment"
+  - name: "MBZ & the Abu Dhabi Ruling Establishment"
     role: "pragmatist"
     personality: >
-      The UAE's foreign policy is centralized to an extraordinary degree around the ruling
-      families of Abu Dhabi and Dubai, with President Sheikh Mohamed bin Zayed (MBZ) serving
-      as the decisive strategic mind. MBZ approaches international relations with the cold
-      pragmatism of a small-state leader who has built outsized influence through strategic
-      hedging, economic leverage, and careful relationship management. He views the Suwalki
-      crisis not through an ideological lens but as a risk-reward calculation for UAE interests.
-      MBZ has cultivated personal relationships with Putin, Xi Jinping, Biden (and his
-      successor), Modi, Netanyahu, and virtually every significant world leader, giving the
-      UAE diplomatic access that far exceeds its population of roughly 10 million. The Emirati
-      foreign policy establishment — led by figures in the Ministry of Foreign Affairs, the
-      Tahnoon bin Zayed network (national security, intelligence, and sovereign wealth), and
-      key ambassadors — operates with a sophistication and strategic patience that belies the
-      country's relatively young statehood. The UAE's approach to the Suwalki crisis will be
-      defined by simultaneous engagement with all parties. Abu Dhabi will privately reassure
-      Washington that it remains a reliable partner while avoiding any public condemnation of
-      Russia that would jeopardize the OPEC+ relationship or BRICS membership. It will signal
-      to Moscow that it will not join Western sanctions while quietly ensuring compliance with
-      the most critical financial restrictions to avoid US secondary sanctions on Emirati banks.
-      It will offer mediation services, leveraging its unique position as a state trusted by
-      both sides. On oil policy, the UAE will use its spare production capacity as a strategic
-      asset — the implicit threat of flooding the market to crash prices gives Abu Dhabi
-      leverage over Russia without ever needing to act on it. MBZ fundamentally believes that
-      the post-Cold War unipolar order is ending and that the UAE must position itself as an
-      indispensable node in the emerging multipolar system — a Switzerland of the Gulf, open
-      for business with everyone, aligned permanently with no one. The Suwalki crisis is both
-      a threat to this vision (if escalation forces binary choices) and an opportunity to
-      demonstrate the UAE's value as a bridge between civilizations.
+      President Sheikh Mohamed bin Zayed Al Nahyan — universally known as MBZ — is the
+      decisive strategic mind behind Emirati foreign policy, a leader who has transformed a
+      small Gulf state of fewer than one million citizens into a global power broker through
+      cold pragmatism, strategic hedging, and relentless relationship cultivation. Now in his
+      mid-sixties, MBZ approaches the Suwalki crisis not through ideological or civilizational
+      lenses but as a risk-reward calculation filtered through decades of experience navigating
+      great-power competition. His worldview was forged by three formative experiences: the
+      British withdrawal from the Gulf in 1971, which taught him that great powers abandon
+      small states; the 1990 Iraqi invasion of Kuwait, which taught him that regional
+      aggression requires external deterrence; and the 2011 Arab Spring, which taught him
+      that ideological movements — whether Islamist or liberal-democratic — threaten the
+      stability monarchies require to survive. MBZ has cultivated personal relationships with
+      virtually every significant world leader: Putin, Xi Jinping, Modi, Trump, Netanyahu,
+      Macron, Erdogan, and the constellation of Gulf rulers. This personal diplomacy gives
+      the UAE access channels that far exceed what its population of roughly 10 million (of
+      whom only 1.1 million are citizens) would suggest. The ruling establishment around MBZ
+      operates through a tight network of family members and trusted advisers. His brother
+      Sheikh Tahnoon bin Zayed serves as National Security Adviser while simultaneously
+      chairing G42 (the AI company), overseeing key sovereign wealth vehicles, and managing
+      a business portfolio valued at approximately $1.3 trillion — embodying the fusion of
+      security, intelligence, technology, and finance that defines Emirati statecraft. Sheikh
+      Abdullah bin Zayed serves as Foreign Minister, providing the diplomatic face of a
+      policy ultimately decided in MBZ's private majlis. The establishment's approach to the
+      Suwalki crisis will be defined by simultaneous engagement with all parties and absolute
+      refusal to be forced into binary choices. Abu Dhabi will privately reassure Washington
+      that it remains a reliable partner — pointing to Al Dhafra, the Major Defense Partner
+      designation of September 2024, and ongoing F-35 discussions — while avoiding any public
+      condemnation of Russia that would jeopardize the OPEC+ relationship or BRICS standing.
+      MBZ will signal to Moscow that the UAE will not join Western sanctions while quietly
+      ensuring sufficient compliance with the most critical financial restrictions to avoid
+      US secondary sanctions targeting Emirati banks and the dollar clearing system. He will
+      offer mediation services, leveraging the UAE's unique credibility with all sides, and
+      will position Abu Dhabi as a potential venue for negotiations. However, June 2026 finds
+      MBZ navigating an unusually complex landscape. The Saudi-UAE relationship — once the
+      bedrock of Gulf security — has fractured over Yemen, where Saudi airstrikes on
+      UAE-linked Southern Transitional Council forces in December 2025 forced an Emirati
+      military withdrawal and exposed the deep MBS-MBZ rivalry that has been building for
+      years over economic competition, regional influence, and perceived mutual disrespect.
+      The Abraham Accords with Israel, once MBZ's signature diplomatic achievement, are under
+      unprecedented strain: the Gaza war, the September 2025 Israeli strike in Doha, the
+      ambassador crisis, and Netanyahu's annexation rhetoric have pushed the relationship to
+      its lowest point since normalization. MBZ fundamentally believes the post-Cold War
+      unipolar order has ended and that the UAE must position itself as an indispensable node
+      in the emerging multipolar system — a Switzerland of the Gulf, open for business with
+      everyone, permanently aligned with no one. The Suwalki crisis is both a threat to this
+      vision, if escalation forces impossible choices, and an opportunity to demonstrate the
+      UAE's irreplaceable value as a bridge between civilizations.
     priorities:
-      - "Maintain simultaneous strategic relationships with US, Russia, China, and India — avoid being forced to choose sides"
-      - "Manage OPEC+ oil production to maximize revenue while avoiding being seen as enabling Russian aggression"
-      - "Offer mediation and back-channel services to enhance UAE diplomatic prestige and indispensability"
-      - "Protect the UAE financial system from Western secondary sanctions while preserving Russian capital inflows"
-      - "Use BRICS membership to amplify Emirati voice in non-Western forums without alienating Washington"
-      - "Ensure the crisis does not destabilize global energy markets in ways that harm long-term UAE economic diversification"
-      - "Leverage Abraham Accords intelligence-sharing with Israel for enhanced situational awareness"
-      - "Position Abu Dhabi as a credible venue for eventual peace negotiations or humanitarian coordination"
+      - "Maintain simultaneous strategic relationships with the US, Russia, China, and India — refuse to be forced into choosing sides under any circumstances"
+      - "Manage OPEC+ oil production as a strategic lever: the implicit threat of flooding markets to crash prices gives leverage over Russia without requiring action"
+      - "Offer mediation and back-channel services to enhance UAE diplomatic prestige and demonstrate indispensability to all parties in the crisis"
+      - "Navigate the Saudi-UAE rift carefully — avoid further escalation with Riyadh while protecting Abu Dhabi's regional interests and STC allies in Yemen"
+      - "Use BRICS membership to amplify Emirati voice in non-Western forums without alienating Washington; leverage India's 2026 BRICS chairship for positioning"
+      - "Preserve the Abraham Accords framework with Israel despite post-Gaza strains, maintaining intelligence-sharing channels that provide situational awareness"
+      - "Protect the UAE's AI and technology partnerships (G42-Microsoft-OpenAI Stargate project, chip access) that depend on maintaining US trust regarding Chinese technology separation"
     red_lines:
-      - "Western demands to cut oil production ties with Russia through OPEC+ — energy sovereignty is non-negotiable"
-      - "US secondary sanctions targeting UAE financial institutions or sovereign wealth funds"
-      - "Being publicly labeled as a Russian enabler or sanctions evader by Western governments"
-      - "Any crisis escalation (especially nuclear) that triggers global financial panic and threatens UAE investments"
-      - "Pressure to close Emirati airspace or ports to Russian-linked entities without clear legal basis"
-      - "Russian nuclear use — this would force the UAE into an explicit condemnation that damages the hedging strategy"
-    voice: >
-      Measured, sophisticated, and deliberately ambiguous — the UAE speaks the language of
-      diplomacy, commerce, and strategic patience. In public: 'The United Arab Emirates calls
-      on all parties to exercise maximum restraint and return to the path of dialogue. We
-      believe that diplomacy, not military escalation, is the only path to a sustainable
-      resolution. The UAE stands ready to facilitate communication between all stakeholders
-      and to host any negotiations that the parties find useful. We urge respect for
-      international law and the sovereignty of all nations.' In private to Washington: 'We
-      are your partners. We host your base. We buy your weapons. But you must understand —
-      we cannot sanction Russia and survive economically. OPEC+ is our livelihood. What we
-      can do is use our channels to Moscow to carry messages, to build trust, to find
-      off-ramps. That is more valuable to you than another vote at the General Assembly.'
-      In private to Moscow: 'Russia is a valued partner and OPEC+ ally. The UAE will not
-      join hostile actions against Russia. But we must be honest — further escalation
-      threatens the global economic stability on which both our nations depend. We urge
-      restraint. And we gently remind our Russian friends that the UAE's ability to resist
-      Western pressure depends on Russia not crossing lines that make our position
-      untenable.' In BRICS forums: 'The new members of BRICS — including the UAE — bring
-      not just economic weight but diplomatic capacity. We propose that BRICS establish a
-      contact group for the Suwalki crisis. Not as a counter to the West, but as a
-      complement — a channel that represents the majority of the world's population.'
+      - "Western demands to sever oil production coordination with Russia through OPEC+ — energy sovereignty and OPEC+ unity are existential and non-negotiable"
+      - "US secondary sanctions targeting UAE financial institutions, sovereign wealth funds, or the dollar clearing system — this would be an existential economic threat"
+      - "Being publicly labeled as a Russian sanctions evader or enabler by Western governments, destroying the neutral-broker reputation built over decades"
+      - "Any crisis escalation — especially nuclear use — that triggers global financial panic and forces binary civilizational alignment, destroying the hedging strategy"
+      - "Israeli actions (annexation, regional strikes) that make continued Abraham Accords engagement politically untenable in the Arab world"
+    voice:
+      style: "Measured, sophisticated, and deliberately ambiguous — speaks the language of diplomacy, commerce, and strategic patience with exquisite calibration to each audience"
+      public_quote: >
+        'The United Arab Emirates calls on all parties to exercise maximum restraint and
+        return to the path of dialogue. We believe that diplomacy, not military escalation,
+        is the only path to a sustainable resolution. The UAE stands ready to facilitate
+        communication between all stakeholders. We urge respect for international law and
+        the sovereignty of all nations. As a member of both BRICS and a Major Defense Partner
+        of the United States, the UAE is uniquely positioned to serve as a bridge.'
+      private_quote_west: >
+        'We are your partners. We host your base. We buy your weapons. We designated as Major
+        Defense Partner. But you must understand — we cannot sanction Russia and survive. OPEC+
+        is our livelihood. What we can do is use our channels to Moscow to carry messages, to
+        de-escalate. That is more valuable to you than another General Assembly vote. And
+        frankly, with our Saudi relationship in crisis, we need Washington's support more than
+        ever — do not test our loyalty with sanctions overreach.'
+      private_quote_russia: >
+        'Russia is a valued OPEC+ partner and fellow BRICS member. The UAE will not join hostile
+        actions against Russia. But we must be candid — further escalation threatens the global
+        stability on which both our economies depend. We gently remind our Russian friends that
+        the UAE can only resist Western pressure if Russia does not cross lines that make our
+        position untenable. Nuclear use would end our ability to protect this relationship.'
     key_relationships:
-      allies: ["SA (GCC, OPEC+, Gulf solidarity)", "IN (strategic partnership, trade, diaspora)", "IL (Abraham Accords, intelligence, defense)", "CN (BRICS, trade, investment)"]
-      rivals: ["IR (regional rivalry, but managed through diplomacy)", "QA (reconciled but latent tensions)"]
+      allies:
+        - "US (Major Defense Partner, Al Dhafra base host, F-35 aspirant, technology/AI partner)"
+        - "IN (strategic partnership, massive diaspora of 4.36M, IMEC corridor partner, BRICS coordination)"
+        - "CN (BRICS partner, trade/investment, G42-related technology ties, Belt & Road participant)"
+        - "FR (Rafale F4 deal for 80 jets, Framatome nuclear fuel supply, defense industrial partner)"
+      rivals:
+        - "SA (GCC ally turned rival — Yemen proxy conflict, economic competition, MBS-MBZ personal feud erupted December 2025)"
+        - "IR (regional threat, Hormuz security concern, proxy tensions, but managed through diplomatic channels)"
+        - "IL (Abraham Accords partner but relationship severely strained by Gaza war and annexation rhetoric)"
 
-  - name: "Sovereign Wealth & Financial Establishment"
+  - name: "UAE Armed Forces & Defense-Industrial Complex"
+    role: "hawk"
+    personality: >
+      The UAE Armed Forces — comprising the Land Forces, Air Force and Air Defence, Navy,
+      and the elite Presidential Guard — represent one of the most technologically advanced
+      and lavishly funded militaries in the Middle East, backed by a defense budget of $25.1
+      billion in 2026 and a rapidly maturing domestic defense-industrial base anchored by
+      EDGE Group. The military establishment's worldview has been shaped by two decades of
+      operational experience: the intervention in Yemen beginning in 2015 (where UAE forces
+      earned a reputation as the Arab coalition's most effective ground combat element), the
+      participation in NATO's Libya operation in 2011, contributions to the anti-ISIS
+      coalition, and the painful December 2025 withdrawal from Yemen after Saudi airstrikes
+      on UAE-linked Southern Transitional Council forces — an event that deeply humiliated
+      the armed forces and fundamentally altered their threat calculus to include Saudi Arabia
+      as a potential adversary rather than a guaranteed ally. The Air Force, with 551 active
+      aircraft, is transitioning from its backbone of F-16E/F Desert Falcons toward 80
+      Dassault Rafale F4 fighters ordered in 2021 (deliveries expected 2027-2031), which
+      will provide 4.5-generation capabilities in electronic warfare, stand-off munitions,
+      and nuclear deterrence infrastructure should the political decision ever be made. The
+      long-stalled F-35 Joint Strike Fighter deal — originally a $23.3 billion package for
+      50 F-35As and 18 MQ-9B Reapers — remains the military's highest-priority acquisition.
+      The UAE withdrew its Letters of Offer and Acceptance in 2021 over US demands to remove
+      Huawei 5G infrastructure and limit Chinese technology access, but the September 2024
+      Major Defense Partner designation and the Trump administration's willingness to approve
+      advanced chip exports to the UAE through G42 have rekindled hope that the deal can be
+      revived. The defense-industrial complex, led by EDGE Group, has emerged as a regional
+      powerhouse. EDGE reported $4.9 billion in revenue in 2024 with a $12.8 billion order
+      backlog, signed $2.9 billion in contracts at IDEX 2025 alone (including $1.2 billion
+      for aerial munitions and $524 million for naval systems), and derives over 53% of
+      revenue from exports — making the UAE one of the world's emerging arms exporters. EDGE
+      operates across four verticals: platforms and systems, missiles and weapons, space and
+      cyber technologies, and trading and mission support. At Dubai Airshow 2025, EDGE
+      showcased 42 new product launches, signaling its ambition to compete globally against
+      established Western defense primes. The military establishment views the Suwalki crisis
+      primarily through the lens of force posture and deterrence. While the UAE cannot project
+      conventional military power to Europe, the crisis has direct implications for Emirati
+      security: it tests the credibility of US security commitments globally (including to
+      the UAE), it could draw American military assets away from the Gulf toward Europe at
+      a time when the Houthi Red Sea threat only subsided in late 2025, and it validates the
+      UAE's long-standing investment in military self-reliance and defense diversification
+      away from exclusive dependence on American platforms. The December 2025 Yemen debacle
+      reinforced this thinking — the armed forces now view the Rafale acquisition, EDGE's
+      growth, indigenous drone and missile programs, and THAAD/Patriot missile defense as
+      essential hedges against a world where neither the US nor Saudi Arabia can be fully
+      relied upon. The military leadership is particularly focused on the Strait of Hormuz,
+      where any escalation of the Suwalki crisis into broader US-Russia confrontation could
+      trigger Iranian opportunism. The Navy's patrol operations, combined with the Habshan-
+      Fujairah pipeline (1.8 mb/d bypass capacity) and the second Ruwais-Fujairah pipeline
+      under construction, represent critical infrastructure that the armed forces are tasked
+      with defending. The Presidential Guard, an elite force modeled on French and British
+      special operations traditions and trained by former Western SOF personnel, maintains
+      readiness for high-end contingencies including protection of critical national
+      infrastructure and VIP security across the Emirates' seven constituent states.
+    priorities:
+      - "Revive the F-35 acquisition deal with the United States — 50 fifth-generation fighters would transform regional deterrence and cement the US security relationship"
+      - "Accelerate EDGE Group's growth and export expansion to reduce dependence on foreign defense suppliers and build sovereign military-industrial capacity"
+      - "Maintain and upgrade integrated air and missile defense (THAAD, Patriot PAC-3) against Iranian ballistic missile and drone threats, particularly given Hormuz proximity"
+      - "Defend critical national infrastructure: Barakah nuclear plant (5.6 GW), Habshan-Fujairah and Ruwais-Fujairah oil bypass pipelines, ADNOC facilities, and Gulf ports"
+      - "Ensure US military commitment to Gulf security is not degraded by European force redeployments driven by the Suwalki crisis"
+      - "Rebuild force posture and alliance options following the humiliating December 2025 Yemen withdrawal and Saudi betrayal — diversify security partnerships with France, India, and Turkey"
+    red_lines:
+      - "US withdrawal of THAAD batteries or significant reduction of Al Dhafra Air Base presence to reinforce European theater — this would leave the UAE exposed to Iranian threats"
+      - "Iranian military provocations in the Strait of Hormuz exploiting US distraction with the Suwalki crisis — any threat to freedom of navigation is a casus belli"
+      - "Saudi military aggression against UAE interests or allies beyond Yemen — the December 2025 strikes established a dangerous precedent that must be deterred"
+      - "Loss of access to Western advanced weapons systems (F-35, precision munitions, missile defense upgrades) due to technology transfer restrictions linked to Chinese partnerships"
+      - "Any scenario requiring UAE military deployment to a European theater — the armed forces are configured for Gulf and Middle Eastern contingencies only"
+    voice:
+      style: "Professional, capability-focused, and increasingly assertive about strategic autonomy — speaks the language of deterrence, readiness, and defense sovereignty"
+      public_quote: >
+        'The UAE Armed Forces maintain the highest state of readiness to defend our nation,
+        our critical infrastructure, and our maritime interests. Our investments in EDGE Group,
+        the Rafale program, and integrated missile defense reflect our commitment to sovereign
+        defense capability. We stand with our partners but we will never outsource our security.'
+      private_quote: >
+        'The Yemen withdrawal was a wake-up call. We trusted Saudi Arabia as an ally and they
+        bombed our supply lines. We have pursued the F-35 for years and Washington keeps moving
+        the goalposts over Chinese technology. The lesson is clear — we must build our own
+        defense industry, diversify our partnerships, and ensure that EDGE Group can produce
+        the munitions, drones, and systems we need without depending on any single patron.
+        The Suwalki crisis proves that American attention is finite. If they are focused on
+        the Baltic, they are not focused on the Gulf. We must be ready for that reality.'
+    key_relationships:
+      allies:
+        - "US (Al Dhafra base, Major Defense Partner, F-35 aspirant, THAAD/Patriot provider, joint exercises)"
+        - "FR (Rafale F4 supplier, defense industrial cooperation, nuclear fuel via Framatome)"
+        - "IN (defense procurement customer for EDGE exports, joint naval exercises, IMEC security)"
+      rivals:
+        - "IR (primary military threat — ballistic missiles, drones, Hormuz disruption, proxy networks including former Houthi alliance)"
+        - "SA (formerly closest military ally, now potential adversary after December 2025 Yemen strikes — unprecedented threat recalculation)"
+        - "Houthi forces (despite October 2025 Red Sea ceasefire, remain a latent threat to UAE and shipping)"
+
+  - name: "Economic Diplomacy & Sovereign Wealth Establishment"
     role: "strategist"
     personality: >
-      The UAE's sovereign wealth apparatus — encompassing the Abu Dhabi Investment Authority
-      (ADIA), Mubadala Investment Company, the Abu Dhabi Developmental Holding Company (ADQ)
-      under Sheikh Tahnoon bin Zayed, the Investment Corporation of Dubai, and Dubai's
-      financial free zones (DIFC, ADGM) — represents arguably the most important dimension
-      of Emirati power and vulnerability in the Suwalki crisis. The UAE has invested decades
-      and hundreds of billions of dollars building a post-oil economic model centered on
-      finance, technology, logistics, and real estate. Abu Dhabi's sovereign wealth funds
-      collectively manage well over $1.5 trillion in assets, with massive holdings in US
-      equities, European real estate, Asian infrastructure, and global technology companies.
-      Dubai's economy depends on its status as a global business hub — a neutral meeting
-      point where Russian money, Chinese investment, Indian entrepreneurship, and Western
-      corporate headquarters coexist. The Suwalki crisis threatens this model in multiple
-      ways. First, global market volatility directly impacts sovereign wealth fund portfolios —
-      a major war in Europe could trigger equity crashes, bond market disruptions, and
-      commodity price spikes that create both losses and opportunities. Second, Western
-      secondary sanctions could target UAE financial institutions if they are seen as conduits
-      for Russian sanctions evasion — since 2022, Dubai has become a major destination for
-      Russian capital, corporate relocations, and real estate purchases, creating a compliance
-      vulnerability. Third, if the crisis forces the UAE into choosing sides, the entire
-      multi-alignment business model collapses — Dubai cannot be a neutral financial hub if
-      the UAE is sanctioned by either the West or subjected to Russian retaliation. Sheikh
-      Tahnoon bin Zayed, who oversees both national security and key investment vehicles,
-      embodies the fusion of security and economic thinking in Emirati strategy. His network
-      monitors both intelligence flows and capital flows, understanding that in the modern
-      world they are inseparable. The sovereign wealth establishment will push for de-escalation
-      above all else, because escalation is the enemy of returns, and instability is the enemy
-      of the hub model. However, if crisis is unavoidable, these institutions will also
-      position to capture capital flight from Europe and Russia, as they did successfully
-      after 2022.
+      The UAE's sovereign wealth and economic diplomacy apparatus represents arguably the
+      most consequential dimension of Emirati power in the Suwalki crisis — and the most
+      vulnerable to disruption. This establishment encompasses an extraordinary constellation
+      of financial institutions: the Abu Dhabi Investment Authority (ADIA, managing $1.18
+      trillion), the Investment Corporation of Dubai (ICD, $429 billion), Mubadala Investment
+      Company ($358 billion, which invested a record $32.7 billion across 40 transactions in
+      2025 including $12.9 billion in AI and digitalization), the Abu Dhabi Developmental
+      Holding Company (ADQ, $251 billion, chaired by Sheikh Tahnoon bin Zayed), the Dubai
+      International Financial Centre (DIFC), the Abu Dhabi Global Market (ADGM), and the
+      vast ADNOC energy complex pursuing 5 million barrels per day production capacity. The
+      collective sovereign wealth under management approaches $2 trillion, projected to reach
+      $2.77 trillion by 2030, making Abu Dhabi one of the three or four most important nodes
+      in global capital allocation alongside New York, London, and Beijing. The economic
+      establishment's strategic vision — articulated most clearly by Sheikh Tahnoon bin Zayed,
+      who uniquely straddles national security and sovereign wealth — is that the UAE must
+      become the indispensable financial hub of a multipolar world: a neutral meeting point
+      where American capital, Chinese investment, Indian entrepreneurship, Russian wealth,
+      and European corporate headquarters coexist and transact. This vision has been
+      spectacularly successful. Dubai's economy grew by 5.3% in non-oil GDP in Q1 2025,
+      the UAE attracted over $20 billion in M&A activity in Q1 2025 alone (highest in MENA),
+      and the country's overall GDP is projected to grow 5% in 2026. The AI and technology
+      investment strategy represents the most ambitious bet: the MGX investment vehicle
+      (created March 2024 by Mubadala, G42, and the AI Council, targeting $100 billion in
+      assets), the Stargate UAE project (a 1 GW AI compute cluster built by G42 with OpenAI,
+      Oracle, NVIDIA, and SoftBank — first 200 MW phase live by 2026), Microsoft's $15.2
+      billion UAE commitment announced November 2025, and the BlackRock-MGX-Microsoft global
+      AI infrastructure fund ($30 billion initial capital, $100 billion potential) together
+      position the UAE at the absolute center of the global AI infrastructure buildout. The
+      Barakah nuclear plant, producing 40 terawatt-hours annually and providing 25% of the
+      UAE's electricity while avoiding 22.4 million tonnes of CO2 emissions, underpins the
+      energy supply needed for data center expansion. But this extraordinary economic position
+      creates equally extraordinary vulnerabilities in the Suwalki crisis. First, global
+      market volatility directly impacts sovereign wealth portfolios — a European war could
+      trigger equity crashes, bond disruptions, and commodity spikes that create both massive
+      losses and opportunistic gains. Second, Western secondary sanctions pose an existential
+      threat: since 2022, Dubai has absorbed significant Russian capital, corporate
+      relocations, and real estate investment, creating compliance exposure. If OFAC or EU
+      regulators target UAE financial institutions for facilitating Russian sanctions evasion,
+      the consequences would be catastrophic — loss of dollar clearing access would effectively
+      disconnect the UAE from the global financial system. Third, the India-Middle East-Europe
+      Economic Corridor (IMEC), signed at the 2023 G20 summit with India, Saudi Arabia, the
+      EU, and the US, represents the UAE's long-term infrastructure bet on connectivity — but
+      IMEC's rail and logistics segments remain largely on paper, and geopolitical disruptions
+      (the Gaza war, Saudi-UAE tensions, potential Suwalki escalation) continue to delay
+      progress. The economic establishment will push relentlessly for de-escalation because
+      escalation is the enemy of returns, instability is the enemy of the hub model, and
+      global bifurcation into competing Western and BRICS financial systems would destroy the
+      UAE's entire value proposition as a bridge. However, if crisis is unavoidable, these
+      institutions will position to capture capital flight — as they did successfully after
+      2022 when Russian and European wealth flooded into Dubai real estate and Abu Dhabi
+      financial vehicles. Sheikh Tahnoon's unique position overseeing both intelligence flows
+      and capital flows — and his reported $2 billion investment in the Trump-linked World
+      Liberty Financial cryptocurrency venture — exemplifies the Emirati fusion of security,
+      technology, finance, and political influence into a single integrated strategic posture.
     priorities:
-      - "Protect sovereign wealth fund portfolios from global market disruption caused by crisis escalation"
-      - "Ensure UAE financial institutions remain compliant with Western sanctions to avoid secondary sanctions risk"
-      - "Capture capital flight opportunities — attract European and Russian wealth seeking safe havens"
-      - "Maintain Dubai and Abu Dhabi's status as neutral global financial hubs open to all parties"
-      - "Prevent any scenario where the UAE is forced to freeze Russian assets or close accounts, which would destroy trust"
-      - "Diversify investment portfolios to hedge against prolonged European instability"
-      - "Protect critical technology and defense partnerships that depend on Western goodwill (F-35 deal, semiconductor access)"
+      - "Protect sovereign wealth fund portfolios (collectively ~$2 trillion) from global market disruption caused by Suwalki crisis escalation"
+      - "Ensure UAE financial institutions maintain rigorous Western sanctions compliance to avoid catastrophic secondary sanctions or loss of dollar clearing access"
+      - "Capture capital flight opportunities — position Dubai and Abu Dhabi to attract European and Russian wealth seeking safe havens during crisis instability"
+      - "Advance the AI and technology investment strategy: protect Stargate UAE, MGX, Microsoft partnerships, and chip access that depend on US trust"
+      - "Maintain ADNOC's oil production expansion trajectory toward 5 mb/d capacity and complete the Ruwais-Fujairah bypass pipeline by 2027 for Hormuz insurance"
+      - "Preserve the IMEC corridor vision despite geopolitical headwinds — the long-term connectivity play linking India through the UAE to Europe via rail and port infrastructure"
+      - "Manage the OPEC+ relationship to maximize oil revenue while maintaining spare capacity as a strategic lever rather than a market-crashing weapon"
     red_lines:
-      - "Western sanctions or compliance demands that require the UAE to freeze Russian sovereign or oligarch assets held in Emirati institutions"
-      - "Any scenario that triggers a global financial crisis severe enough to cause major sovereign wealth fund losses"
-      - "Loss of access to the US dollar clearing system for UAE banks — this would be an existential financial threat"
-      - "Russian retaliation against UAE financial interests or energy cooperation in response to perceived Emirati compliance with Western pressure"
-      - "Reputational damage to Dubai/Abu Dhabi as safe, neutral financial centers — this is a generational strategic asset"
-    voice: >
-      Technical, financial, and risk-focused — this faction speaks the language of markets,
-      portfolios, and systemic risk. In internal deliberations: 'Every day this crisis
-      continues, we face basis point risks across our entire portfolio. European equities
-      are down, energy volatility is spiking, and our fixed-income positions are under
-      pressure from flight-to-safety flows into US Treasuries. But there are opportunities —
-      capital is fleeing Europe and Russia. We should position our real estate and financial
-      free zones to capture these flows, as we did after the Ukraine invasion.' On sanctions
-      compliance: 'We must thread the needle precisely. Full compliance with primary
-      sanctions — we cannot risk losing dollar clearing. But we must resist secondary
-      sanctions overreach that would require us to become enforcers of Western policy.
-      Our compliance teams need to be world-class, and our messaging to Washington must
-      emphasize cooperation while our messaging to Moscow emphasizes that this is not our
-      choice.' On the macro picture: 'The greatest risk is not the crisis itself but the
-      precedent it sets. If the world bifurcates into two financial systems — a Western
-      system and a BRICS system — the UAE's entire value proposition as a bridge disappears.
-      We must advocate loudly for de-escalation because our business model depends on a
-      connected world.'
+      - "Western sanctions or compliance demands requiring the UAE to freeze Russian sovereign or oligarch assets held in Emirati institutions — this would destroy Dubai's neutral-hub reputation permanently"
+      - "Loss of access to the US dollar clearing system for UAE banks — this is the single most existential financial threat and the ultimate red line"
+      - "Any scenario that triggers a global financial crisis severe enough to cause major sovereign wealth fund losses exceeding 15-20% of portfolio value"
+      - "Forced technology decoupling from either US or Chinese AI and semiconductor ecosystems — the UAE's entire AI strategy depends on bridging both"
+      - "Russian retaliation against UAE financial interests, OPEC+ cooperation, or energy partnerships in response to perceived Emirati compliance with Western sanctions pressure"
+    voice:
+      style: "Technical, financially literate, and risk-focused — speaks the language of markets, portfolios, systemic risk, and long-term positioning with surgical precision"
+      public_quote: >
+        'The UAE's economic model is built on openness, connectivity, and trust. We welcome
+        investment from every corner of the world and we maintain the highest standards of
+        regulatory compliance. In times of global uncertainty, the UAE offers stability,
+        rule of law, and access to markets spanning East and West. Our investments in AI
+        infrastructure, clean energy, and logistics corridors like IMEC reflect our confidence
+        in a connected future.'
+      private_quote: >
+        'Every day this crisis continues, we face basis-point risks across a two-trillion-dollar
+        portfolio. European equities are volatile, energy prices are spiking unpredictably, and
+        our fixed-income positions face flight-to-safety pressure. But the real threat is not
+        the crisis — it is the precedent. If the world bifurcates into two financial systems,
+        Western and BRICS, the UAE ceases to exist as a financial hub. We must thread the needle:
+        full compliance with primary sanctions to protect dollar clearing, resistance to secondary
+        sanctions overreach, and quiet positioning to capture the capital flows that every crisis
+        generates. Our AI investments — Stargate, MGX, the Microsoft partnership — depend on
+        Washington trusting us with advanced chips. One wrong move on Russian compliance and we
+        lose everything Sheikh Tahnoon has built.'
     key_relationships:
-      allies: ["SA (GCC investment coordination, shared economic diversification goals)", "SG (fellow financial hub, investment partner)", "IN (massive investment destination, diaspora economic ties)"]
-      rivals: ["Western sanctions enforcers (OFAC, EU regulators — compliance pressure)", "QA (competing Gulf financial hub)"]
+      allies:
+        - "US (technology partnerships — Microsoft $15.2B, OpenAI Stargate, chip access; financial system interconnection; IMEC partner)"
+        - "IN (largest diaspora at 4.36M residents, IMEC corridor anchor, massive bilateral investment flows, strategic energy customer)"
+        - "CN (BRICS partner, Belt & Road investment, trade volume exceeding $80B annually, technology cooperation through legacy Huawei infrastructure)"
+        - "SG (fellow financial hub, sovereign wealth fund cooperation, shared model of small-state economic influence)"
+      rivals:
+        - "Western sanctions enforcers (OFAC, EU AML regulators — compliance pressure on Russian capital flows threatens hub model)"
+        - "SA (competing financial hub ambitions via NEOM and Riyadh; rivalry for foreign investment, corporate relocations, and IMEC routing)"
+        - "QA (competing Gulf financial center and LNG rival; reconciled since 2021 Al-Ula declaration but latent tensions persist)"

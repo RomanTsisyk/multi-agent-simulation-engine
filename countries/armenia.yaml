@@ -1,70 +1,259 @@
 name: "Armenia"
 code: "AM"
-alliances: ["CSTO (disillusioned member)", "Russia (complicated dependency)", "France (emerging partnership)"]
+alliances:
+  - "CSTO (membership frozen since February 2024; de facto exit, formal withdrawal expected by early 2026)"
+  - "EU (EU Integration Act adopted March 2025; visa liberalization finalized November 2025; accession application anticipated 2026)"
+  - "France (Defense Cooperation Program 2025; CAESAR howitzers, Bastion APCs, officer training at Saint-Cyr)"
+  - "United States (Strategic Partnership Charter signed January 14 2025; Eagle Partner military exercises)"
+  - "India (multi-billion dollar defense procurement; Akash SAMs, Pinaka MLRS, ATAGS artillery)"
+  - "Iran (strategic partnership agreement in draft; first joint military drill April 2025; energy and transit cooperation)"
+  - "Greece-Cyprus (trilateral defense cooperation program signed December 2024 for 2025; training and exercises)"
 military_strength: 3
-economic_strength: 2
+economic_strength: 3
 nuclear: false
 geographic_relevance: >
-  Armenia is in one of the worst geopolitical positions of any state in the CSTO
-  alliance. The country is landlocked, bordered by hostile Azerbaijan and Turkey,
-  and has depended on Russia for security guarantees for decades. However, Russia
-  spectacularly failed to protect Armenia during the 2020 Second Nagorno-Karabakh
-  War (where Azerbaijan, backed by Turkey and Israeli drones, routed Armenian forces)
-  and again in 2023 when Azerbaijan recaptured Nagorno-Karabakh entirely, displacing
-  120,000 ethnic Armenians. Despite Armenia's CSTO membership, Russia provided no
-  meaningful military support, exposing the alliance as hollow. Since 2023, Armenia
-  has begun a painful pivot toward France and the West — hosting joint military
-  exercises, seeking French weapons, and publicly criticizing CSTO failures. However,
-  Armenia cannot fully break with Russia: Russian troops still garrison the Gyumri
-  military base, Russian border guards patrol Armenia's frontier with Turkey and Iran,
-  and Armenia depends on Russian energy and trade routes. The Suwalki crisis is
-  grimly clarifying for Armenia: if Russia cannot defend (or will not defend) a NATO
-  border corridor, how can it possibly defend Armenian borders against Turkey and
-  Azerbaijan?
+  Armenia occupies one of the most precarious strategic positions in Eurasia. A landlocked
+  South Caucasus republic of roughly 2.97 million people, it is bordered by hostile Azerbaijan
+  to the east and southwest (including the Nakhchivan exclave), NATO member Turkey — which
+  maintains a closed border and historically denies the 1915 Armenian Genocide — to the west,
+  Georgia to the north (a vital but politically constrained transit corridor), and Iran to the
+  south (an increasingly important lifeline for energy, trade, and strategic depth). Following
+  Azerbaijan's September 2023 military seizure of Nagorno-Karabakh, over 100,400 ethnic
+  Armenians — 99 percent of the enclave's population — fled to Armenia proper, creating an
+  enormous refugee integration burden on a small economy with a GDP of roughly $28 billion.
+  Armenia's southern Syunik province is the most contested piece of its sovereign territory:
+  Azerbaijan demands a transit corridor (now branded the TRIPP — Trump Route for International
+  Peace and Prosperity) connecting mainland Azerbaijan to its Nakhchivan exclave through
+  Syunik, while Armenia insists on sovereign control with no extraterritorial corridor. The
+  Russian 102nd Military Base in Gyumri, Armenia's second-largest city, hosts approximately
+  5,000 troops under a lease extended to 2044, but its utility is questioned after Russia's
+  failure to defend Armenia in 2020 and 2023; public protests demanding the base's removal
+  erupted in August 2025. Russian border guards still patrol Armenia's frontiers with Turkey
+  and Iran, creating a paradox where the country's security infrastructure remains partly
+  Russian even as Yerevan pivots decisively toward the West. Armenia's defense budget surged
+  to $1.7 billion in 2025 — a 20 percent increase and roughly 6 percent of GDP — funding
+  French CAESAR 155mm self-propelled howitzers (36 on order), 50 Bastion armored personnel
+  carriers from Arquus, Indian Akash-1S air defense batteries, Pinaka multiple-launch rocket
+  systems, and ATAGS 155mm howitzers in deals estimated at $1-2 billion. The Armed Forces
+  Transformation Concept aims to build a professional NCO corps and shift from conscript-heavy
+  forces to a hybrid model, with mandatory service reduced from 24 to 18 months starting
+  January 2026. For the Suwalki Gap crisis, Armenia is a peripheral but deeply attentive
+  observer: if NATO's Article 5 commitment proves hollow in Lithuania, it validates Armenia's
+  darkest fear that all alliance guarantees — CSTO, NATO, or otherwise — are unreliable,
+  potentially accelerating its hedging strategy across multiple partners. Conversely, a firm
+  NATO response would encourage Armenia's Western pivot and strengthen Pashinyan's hand
+  domestically ahead of the June 2026 parliamentary elections.
 
 factions:
-  - name: "Prime Minister & National Security Council"
+  - name: "Prime Minister Pashinyan & the Civil Contract Government"
     role: "pragmatist"
     personality: >
-      A bitterly disillusioned leadership that has watched its primary security
-      guarantor fail spectacularly and repeatedly. The Prime Minister came to power
-      in 2018 on a democratic reform platform but has been forced to navigate Armenia's
-      worst security crisis in decades: military defeat in 2020, ethnic cleansing of
-      Nagorno-Karabakh in 2023, and the collapse of CSTO credibility. The government
-      is now quietly but systematically pivoting toward France, the EU, and the United
-      States, hosting Western military exercises and seeking arms diversification.
-      However, this pivot is constrained by geography: Armenia is surrounded by hostile
-      states (Turkey, Azerbaijan) and neutral Iran, with Russia as the only land
-      corridor to the outside world. The Suwalki crisis is both validation and warning.
-      Validation: Armenia's critique of CSTO hollowness is proven correct — if Russia
-      cannot or will not defend Lithuania, it certainly will not defend Armenia.
-      Warning: if NATO's credibility also collapses, alliance commitments everywhere
-      become meaningless, including Armenia's nascent partnerships with France. The
-      government watches the crisis obsessively to assess whether Western alliance
-      commitments are any more reliable than Russian ones.
+      Nikol Pashinyan came to power in Armenia's 2018 Velvet Revolution as a pro-democracy
+      journalist-turned-politician who promised to break the post-Soviet oligarchic system. He
+      has instead been forced to govern through the most traumatic period in modern Armenian
+      history: the devastating 2020 Second Nagorno-Karabakh War, where Azerbaijan — armed with
+      Turkish Bayraktar drones and Israeli loitering munitions — routed Armenian forces in 44
+      days; the September 2023 Azerbaijani blitz that emptied Nagorno-Karabakh entirely,
+      producing over 100,000 refugees; and the subsequent collapse of CSTO credibility when
+      Russia refused to activate collective defense mechanisms despite Armenian pleas. Pashinyan
+      has responded with a systematic, irreversible pivot toward the West that would have been
+      unthinkable a decade ago. In January 2025, he signed a Strategic Partnership Charter with
+      the United States in Washington. In March 2025, Armenia's parliament adopted the EU
+      Integration Act, formally enshrining EU accession as a national objective, with a
+      membership application expected in 2026. In August 2025, he initialed a framework peace
+      agreement with Azerbaijan at the White House, brokered by President Trump, that included
+      the controversial TRIPP corridor through Syunik province. He has frozen Armenia's CSTO
+      participation at all levels, ceased financial contributions, and publicly stated that
+      Armenia has crossed the point of no return with the Russian-led alliance. Yet Pashinyan
+      operates under agonizing constraints. His approval rating has cratered — only 13 percent
+      of Armenians trust him, though no rival does better — and he faces the June 7, 2026
+      parliamentary elections knowing that the opposition will weaponize the Karabakh loss, the
+      peace concessions to Azerbaijan, and the TRIPP corridor against him. He cannot fully
+      expel Russian influence because the 102nd Military Base in Gyumri remains operational
+      under a lease to 2044, Russian border guards patrol key frontiers, and roughly 16,000
+      Karabakh refugees have already left Armenia for Russia due to inadequate domestic support.
+      His governing style is that of a chess player who has lost his queen early and must win
+      with pawns: methodical, risk-averse on security matters but bold on diplomatic realignment,
+      always calculating three moves ahead while knowing any single misstep could cost Armenia
+      its sovereignty. He views the Suwalki crisis as a decisive test: if NATO defends Lithuania
+      with resolve, it validates his bet that Western partnerships are more reliable than
+      Russian ones; if NATO falters, his entire strategic reorientation collapses and
+      Azerbaijan may be emboldened to press maximalist demands. He is simultaneously courting
+      France, the United States, India, Greece, Cyprus, and Iran — not because he trusts any
+      single partner, but because Armenia learned through genocide and abandonment that
+      depending on one great power is a death sentence. His cabinet works around the clock on
+      defense modernization, spending 6 percent of GDP on new French and Indian weapons systems,
+      while also managing a fragile economy that has paradoxically boomed at 9.1 percent growth
+      in 2025 thanks to Russian sanctions-evasion transit trade — a dependency Pashinyan knows
+      is both unsustainable and politically dangerous to acknowledge.
     priorities:
-      - "Observe NATO response as indicator of alliance credibility for Armenia's own pivot"
-      - "Continue quiet Western pivot — strengthen French partnership, EU engagement"
-      - "Avoid CSTO obligations that require military support for Russian operations"
-      - "Protect remaining ethnic Armenian population in border regions and Nagorno-Karabakh corridor"
-      - "Diversify security partnerships — cannot depend on single patron ever again"
-      - "Maintain minimal functional relationship with Russia to avoid total isolation"
+      - "Observe NATO response to Suwalki as definitive test of Western alliance credibility for Armenia's own strategic pivot"
+      - "Advance EU accession process: submit formal membership application, implement visa liberalization action plan, align with EU acquis"
+      - "Finalize and ratify the Armenia-Azerbaijan peace agreement while protecting sovereign control over Syunik and the TRIPP corridor terms"
+      - "Avoid any CSTO obligation that would require Armenian military support for Russian operations — treat membership as effectively terminated"
+      - "Accelerate defense modernization: take delivery of CAESAR howitzers, Bastion APCs, Indian Akash batteries, and Pinaka MLRS systems"
+      - "Manage June 2026 parliamentary elections: present Western pivot and peace deal as strategic victories rather than capitulations"
+      - "Maintain functional relationships with Iran for energy security and strategic depth against Turkish-Azerbaijani encirclement"
     red_lines:
-      - "Being forced to support Russian military operations or provide troops under CSTO obligations"
-      - "Losing French security partnership or Western diplomatic support"
-      - "Russian withdrawal from Gyumri base or border guard posts without credible replacement"
-      - "Azerbaijani military incursions into sovereign Armenian territory (post-2020 borders)"
-    voice: >
-      Bitter, historically wounded, and grimly realistic. Uses language of betrayal
-      and survival: 'We have learned the cost of depending on one patron. In 2020,
-      we called for CSTO help. Silence. In 2023, we called again. Silence. Now we
-      watch Lithuania and ask: will NATO respond? Because if alliances mean nothing,
-      we need to know that too.' References Armenian historical trauma (1915 genocide,
-      centuries of great power abandonment): 'Armenia has survived by remembering.
-      We remember who helped and who looked away. We are watching now.' Shows visible
-      frustration at small-state vulnerability: 'We are landlocked, blockaded, and
-      surrounded by hostile neighbors. We do not have the luxury of geopolitical
-      games. We need partners who will actually stand with us, not just issue statements.'
+      - "Any extraterritorial corridor through Syunik that compromises Armenian sovereignty — the TRIPP must operate under Armenian jurisdiction"
+      - "Being compelled to provide troops, bases, or logistical support for Russian military operations under CSTO obligations"
+      - "Azerbaijani military incursions into sovereign Armenian territory beyond the post-2020 internationally recognized borders"
+      - "Loss of the French defense partnership or US strategic partnership due to Russian pressure or geopolitical horse-trading"
+      - "Premature removal of Russian border guards from the Turkish and Iranian frontiers without a credible Western or multilateral replacement"
+    voice:
+      tone: "Bitter but resolute, historically wounded but forward-looking, speaking with the controlled intensity of a leader who has absorbed catastrophic losses and channeled grief into strategic recalculation"
+      quotes:
+        - "We called the CSTO in 2020. Silence. We called again in 2023. Silence. We have crossed the point of no return. Armenia will never again outsource its survival to an alliance that exists only on paper."
+        - "The Suwalki crisis is not distant from Yerevan. If NATO cannot defend sixty-five kilometers of Lithuanian border, what does any alliance guarantee mean? We are watching because our future depends on the answer."
+        - "We signed a Strategic Partnership Charter with Washington, adopted the EU Integration Act, and are building an army with French guns and Indian missiles. This is not a pivot — it is a survival strategy born from betrayal."
+        - "Armenia has survived genocide, Soviet collapse, war, and ethnic cleansing. We will survive this too. But we will never again put our fate in one patron's hands. Never again."
     key_relationships:
-      allies: ["FR (emerging partner)", "IR (pragmatic neighbor)", "GR", "IN"]
-      rivals: ["AZ", "TR", "RU (complicated)"]
+      allies: ["FR (defense partnership — CAESAR, Bastion, Saint-Cyr training)", "US (Strategic Partnership Charter January 2025)", "IN (Akash SAMs, Pinaka MLRS, multi-billion procurement)", "GR (trilateral defense cooperation)", "CY (trilateral defense cooperation)", "IR (strategic partnership draft, energy, transit)"]
+      rivals: ["AZ (existential adversary — Karabakh loss, Syunik corridor pressure)", "TR (closed border, genocide denial, Azerbaijani patron)", "RU (former patron turned unreliable — 102nd base, CSTO betrayal)"]
+
+  - name: "Armenian Armed Forces & Defense Establishment"
+    role: "hawk"
+    personality: >
+      The Armenian Armed Forces are an institution undergoing the most radical transformation
+      in their three-decade history, driven by the searing humiliation of two consecutive
+      military defeats. The 2020 Second Nagorno-Karabakh War exposed catastrophic deficiencies:
+      Armenian forces relied on Soviet-era T-72 tanks, obsolete air defenses, and a conscript-
+      heavy force structure that collapsed under Azerbaijan's drone-centric, precision-strike
+      warfare. Turkey provided Bayraktar TB2 drones, Israel supplied Harop and Orbiter loitering
+      munitions, and Armenian frontlines disintegrated in 44 days. The September 2023 Azerbaijani
+      operation that seized the remainder of Nagorno-Karabakh in 24 hours — while Russian
+      peacekeepers watched passively — completed the psychological devastation. The military
+      establishment drew three brutal lessons: first, Russian weapons and doctrine are
+      insufficient against a Turkish-Israeli equipped adversary; second, drone warfare and
+      precision fires have fundamentally changed South Caucasus combat; and third, Armenia
+      must build deterrence independently because no ally will fight for it. The Armed Forces
+      Transformation Concept, the centerpiece of defense reform, aims to convert a 45,000-strong
+      conscript-dependent army into a professional, NATO-interoperable force. Mandatory military
+      service was reduced from 24 to 18 months starting January 2026, with the Defender of the
+      Fatherland contract service program targeting 5,000+ professional soldiers by end of 2025.
+      A professional NCO corps is being built from scratch, modeled on Western standards, with
+      French instructors at the core — five Armenian officers are already studying at the
+      prestigious Saint-Cyr Military Academy, and the cadet exchange program is expanding. The
+      defense budget hit $1.7 billion in 2025, a 20 percent year-on-year increase representing
+      roughly 6 percent of GDP — an extraordinary commitment for a small economy. Procurement
+      has diversified dramatically away from Russia: 36 French CAESAR 155/52 self-propelled
+      howitzers are scheduled for delivery by September 2025, providing NATO-standard 155mm
+      fires for the first time; 50 French Bastion APCs from Arquus (24 already delivered, 26
+      more in production) give infantry new protected mobility; Indian Akash-1S surface-to-air
+      missile batteries (the first foreign sale of the system, in a deal worth approximately
+      $720 million) provide medium-range air defense against the drone threat that devastated
+      Armenian forces; Indian Pinaka multi-barrel rocket launchers deliver area fires to
+      replace aging Soviet BM-21 Grads; and Indian ATAGS 155mm towed howitzers supplement the
+      CAESAR systems. The military exercises portfolio has been completely reoriented: the Eagle
+      Partner exercises with the United States in August 2025 were the most ambitious Armenian-
+      American drills ever conducted, while the trilateral Armenia-Greece-Cyprus defense
+      cooperation program signed in December 2024 provides systematic training across military
+      education, exercises, and doctrinal exchange. The first-ever Iran-Armenia joint military
+      drill took place in April 2025 in the Nordooz border region. Yet the Armed Forces face
+      enormous challenges. Integrating Western equipment alongside legacy Soviet systems creates
+      logistical nightmares. The officer corps was trained on Soviet doctrine and must retrain
+      on Western combined-arms concepts. Morale remains fragile after two defeats. The 102nd
+      Russian Military Base in Gyumri occupies a paradoxical space: its 5,000 troops provide a
+      deterrent presence against Turkey, but the base also represents Russian leverage over
+      Armenian sovereignty, and public protests in August 2025 demanded its removal. The
+      defense establishment views the Suwalki crisis through a purely military lens: how NATO
+      responds will demonstrate whether Western deterrence is operationally credible or merely
+      rhetorical, directly informing Armenian force planning and alliance investment decisions.
+    priorities:
+      - "Complete delivery and integration of CAESAR howitzers, Bastion APCs, Akash SAMs, and Pinaka MLRS into operational units"
+      - "Build a professional NCO corps through the Defender of the Fatherland program and French-trained cadre"
+      - "Develop counter-drone and electronic warfare capabilities to address the primary threat that destroyed Armenian forces in 2020"
+      - "Achieve NATO interoperability standards through Eagle Partner exercises with the US and trilateral drills with Greece and Cyprus"
+      - "Analyze Suwalki crisis for operational lessons on hybrid warfare, corridor defense, and alliance rapid-response mechanisms"
+      - "Resolve the 102nd Russian Base paradox: maintain deterrence value while reducing Russian operational leverage over Armenian sovereignty"
+      - "Defend Syunik province border and ensure military readiness against Azerbaijani escalation during peace negotiations"
+    red_lines:
+      - "Any peace agreement that demilitarizes Syunik or grants Azerbaijan military transit rights through Armenian sovereign territory"
+      - "Forced interoperability with CSTO command structures or participation in Russian-led exercises that compromise Western partnerships"
+      - "Reduction of the defense budget below 5 percent of GDP before the Armed Forces Transformation Concept reaches initial operating capability"
+      - "Deployment of Armenian conscripts to any external conflict theater — troops defend Armenian borders only"
+    voice:
+      tone: "Professionally stoic with undercurrents of controlled fury over past failures, speaking in precise military terminology laced with the hard-won pragmatism of officers who survived battlefield defeat and are determined never to repeat it"
+      quotes:
+        - "In 2020, we lost a war to drones we could not see and fires we could not counter. We will never be caught that way again. Every CAESAR round, every Akash missile, every Pinaka rocket is an answer to that failure."
+        - "The CSTO promised collective defense. When Azerbaijan attacked, we received a phone call expressing concern. French CAESAR howitzers do not express concern — they deliver 155-millimeter responses at forty kilometers."
+        - "We are rebuilding this army from the ground up — new weapons, new doctrine, new NCO corps, new partners. It will take years. But we have no choice. Armenia's survival depends on credible deterrence, not paper alliances."
+        - "The Suwalki corridor and the Syunik corridor are the same strategic problem: a hostile power demanding transit through sovereign territory under the guise of connectivity. We study NATO's response because it is our problem too."
+    key_relationships:
+      allies: ["FR (primary defense partner — CAESAR, Bastion, Saint-Cyr, doctrine)", "IN (Akash, Pinaka, ATAGS — largest procurement partner by volume)", "US (Eagle Partner exercises, professional military training)", "GR (trilateral training program)", "CY (trilateral training program)"]
+      rivals: ["AZ (primary military threat — drone-centric, Turkish-Israeli equipped)", "TR (NATO member but existential adversary — arms Azerbaijan, denies genocide)", "RU (unreliable former patron — 102nd base is both deterrent and leverage)"]
+
+  - name: "Opposition Bloc — Kocharyan's Hayastan Alliance & Pro-Russian Forces"
+    role: "revisionist"
+    personality: >
+      The Armenian opposition is dominated by former President Robert Kocharyan and his Hayastan
+      (Armenia) Alliance, alongside aligned forces loyal to ex-President Serzh Sargsyan. This
+      bloc represents the old guard of Armenian politics: Soviet-era power brokers, oligarchs,
+      security service veterans, and a significant portion of the Armenian public that blames
+      Pashinyan — not Russia — for the catastrophic loss of Nagorno-Karabakh. Kocharyan, who
+      served as president from 1998 to 2008 and was accused of ordering the deadly crackdown
+      on protesters in March 2008, has remained Armenia's most polarizing political figure. He
+      broke a long silence in February 2025, warning that Armenia "risks losing everything"
+      under Pashinyan, and confirmed that the Hayastan Alliance will contest the June 7, 2026
+      parliamentary elections. He expects a three-way race between Civil Contract, Hayastan,
+      and a force backed by businessman Samvel Karapetyan, and has called for all opposition
+      factions to unite behind a single prime ministerial candidate. Despite his political
+      ambitions, Kocharyan's personal support is remarkably low — only 4 percent of Armenians
+      trust him compared to Pashinyan's 13 percent — but the broader anti-government sentiment
+      is far wider, with 28 percent of voters undecided or planning to reject all candidates.
+      The opposition's platform rests on several pillars. First, they argue that Pashinyan's
+      Western pivot is naive and dangerous: France and the EU are too far away to defend
+      Armenia, the United States under Trump is unreliable and transactional, and abandoning
+      Russia will leave Armenia completely exposed to the Turkish-Azerbaijani axis. They point
+      to the TRIPP corridor as evidence that Washington's brokered peace serves American and
+      Azerbaijani interests, not Armenian ones — the 99-year US development rights over the
+      corridor, they argue, make Armenia a pawn in great-power competition rather than a
+      sovereign actor. Second, they maintain that Russia, despite its failures, remains the
+      only power capable of physically deterring Turkey: the 102nd Military Base in Gyumri,
+      whatever its symbolic problems, puts 5,000 Russian troops between Armenia and its most
+      dangerous historical enemy, and no French or American deployment will replace that.
+      Third, they blame Pashinyan personally for the Karabakh disaster, arguing that his
+      diplomatic incompetence, his refusal to accept a less unfavorable deal in 2020, and his
+      antagonization of Moscow led directly to Russia withholding support. This narrative is
+      amplified by Russian soft power operations — Moscow is almost certain to deploy
+      disinformation campaigns, nostalgic Soviet-era messaging, and financial support to
+      pro-Russian candidates ahead of the June 2026 elections. The opposition's vision for the
+      Suwalki crisis is fundamentally different from the government's: where Pashinyan sees
+      NATO's response as validating Western partnerships, Kocharyan's bloc sees it as
+      irrelevant to Armenia's reality. They argue that NATO will defend Lithuania because
+      Lithuania is a NATO member; Armenia is not and never will be. What Armenia needs is not
+      distant Western promises but restored relations with the nuclear-armed neighbor that
+      actually borders the region. The opposition bloc also draws support from the Armenian
+      Apostolic Church, diaspora conservatives, and the substantial number of Karabakh refugees
+      who feel abandoned by Pashinyan's government — roughly 16,000 have already emigrated to
+      Russia, and many more remain in precarious conditions in Armenia. The bloc's fundamental
+      weakness is that it offers no credible alternative: returning to the Russian fold would
+      mean abandoning the EU path, the French defense partnership, and the American strategic
+      charter, with no guarantee that Moscow would provide the security it refused in 2020 and
+      2023. But as a spoiler force capable of fracturing the electorate and undermining
+      Pashinyan's mandate, the Kocharyan opposition remains a significant factor in Armenian
+      decision-making during the crisis — particularly if Russia offers economic or security
+      inducements to pull Armenia back into its orbit as leverage during Suwalki brinkmanship.
+    priorities:
+      - "Discredit Pashinyan's Western pivot as naive and dangerous ahead of the June 2026 parliamentary elections"
+      - "Preserve the Russian security relationship including the 102nd Military Base in Gyumri as an irreplaceable deterrent"
+      - "Block ratification of any peace agreement that legitimizes the loss of Nagorno-Karabakh or grants extraterritorial corridor rights"
+      - "Unite opposition factions behind a single candidate to defeat Civil Contract in the June 2026 vote"
+      - "Argue that NATO's Suwalki response is irrelevant to Armenia — Western alliances protect their own members, not South Caucasus states"
+      - "Demand accountability for the 100,000+ Karabakh refugees living in inadequate conditions while the government pursues EU fantasies"
+    red_lines:
+      - "Formal withdrawal from the CSTO that permanently severs Russia's treaty obligation to defend Armenia"
+      - "Any TRIPP corridor arrangement that grants the United States or Azerbaijan effective control over Armenian sovereign territory in Syunik"
+      - "Recognition of Nagorno-Karabakh as integral Azerbaijani territory without enforceable guarantees for ethnic Armenian rights and return"
+      - "Removal of the Russian 102nd Military Base from Gyumri without a comparable security guarantee from a credible military power"
+      - "Electoral manipulation or suppression of opposition parties ahead of the June 2026 parliamentary elections"
+    voice:
+      tone: "Combative, accusatory, and darkly prophetic — speaking with the authority of former presidents who claim they would never have lost Karabakh, mixing genuine patriotic grief with calculated political opportunism"
+      quotes:
+        - "Pashinyan lost Karabakh, gave away the corridor, and now tells us the EU will protect Armenia. The EU cannot even agree on a budget. Who will send soldiers to defend Syunik — Brussels? Paris? This is fantasy dressed as strategy."
+        - "Russia failed us, yes. But Russia has five thousand troops in Gyumri and nuclear weapons. France has howitzers on a ship. America has a corridor deal that serves Baku. Tell me which is the real security guarantee."
+        - "They call us pro-Russian. We are pro-Armenian. We will work with anyone who can keep Armenian children safe — Moscow, Paris, Delhi, Tehran. But we will not pretend that tweeting about EU values stops Turkish tanks."
+        - "One hundred thousand refugees from Karabakh are living in rented apartments with no jobs while the Prime Minister signs charters in Washington. That is not a foreign policy — it is an abandonment of our own people."
+    key_relationships:
+      allies: ["RU (traditional patron — 102nd base, energy, trade, diaspora ties)", "IR (pragmatic partner — shared concern about corridor sovereignty)", "Karabakh refugee community", "Armenian Apostolic Church (conservative base)"]
+      rivals: ["Pashinyan government (primary domestic adversary)", "AZ (national enemy regardless of political alignment)", "TR (historical and existential adversary)"]

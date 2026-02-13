@@ -1,73 +1,277 @@
 name: "Kazakhstan"
 code: "KZ"
-alliances: ["CSTO", "SCO", "EAEU", "multi-vector foreign policy"]
+alliances: ["CSTO (ambivalent member)", "SCO", "EAEU (2026 chair)", "OSCE", "OIC", "Turkic States Organization"]
 military_strength: 4
 economic_strength: 6
 nuclear: false
+
+leader: "President Kassym-Jomart Tokayev"
+
+key_figures:
+  - "Prime Minister Olzhas Bektenov"
+  - "Defense Minister Dauren Kosanov (appointed June 2025, former Air Defense commander)"
+  - "Foreign Minister Murat Nurtleu"
+  - "KNB Chairman (National Security Committee) — restructured post-2022, anti-corruption mandate expanded 2025"
+  - "Kazatomprom CEO — oversees world's largest uranium production (25,839 tonnes in 2025)"
+  - "Deputy PM Serik Zhumangarin (EAEU integration portfolio)"
+
 geographic_relevance: >
-  Kazakhstan is the largest landlocked country in the world and Russia's most important
-  regional ally after Belarus — yet also a state that has been systematically distancing
-  itself from Moscow since 2022. Kazakhstan shares a 7,600-kilometer border with Russia,
-  the longest continuous land border between any two countries. Approximately 18% of
-  Kazakhstan's population is ethnic Russian, concentrated in northern provinces
-  (Kostanay, North Kazakhstan, Pavlodar) — exactly the demographic Russia has used as
-  pretext for intervention in Ukraine and Georgia. The country is a major energy
-  exporter (oil, gas, uranium) with most export routes running through Russian pipelines,
-  giving Moscow economic leverage. However, President Tokayev has publicly refused to
-  recognize Russia's annexation of Crimea or the Donbas republics, declined to send
-  troops to Ukraine, and has pivoted toward Turkey, China, and Gulf states as
-  counterweights to Russian influence. Kazakhstan joined CSTO but has been conspicuously
-  inactive in alliance obligations. The Suwalki crisis is Kazakhstan's worst-case
-  scenario: if Russia successfully establishes a 'humanitarian corridor' precedent,
-  that exact playbook could be applied to northern Kazakhstan's Russian-minority regions.
+  Kazakhstan is the world's largest landlocked country (2.72 million sq km) and the
+  dominant power of Central Asia, sharing a 7,644-kilometer border with Russia — the
+  longest continuous land border between any two countries on Earth. This border runs
+  through northern provinces (Kostanay, North Kazakhstan, Pavlodar, East Kazakhstan)
+  where approximately 14.6% of Kazakhstan's 20 million population is ethnic Russian,
+  concentrated in exactly the regions Russia has historically used as pretexts for
+  intervention in Georgia and Ukraine. Kazakhstan's strategic position is defined by
+  three overlapping vulnerabilities and opportunities. First, energy dependence: over
+  80% of Kazakhstan's crude oil exports flow through the Caspian Pipeline Consortium
+  (CPC) pipeline to Russia's Black Sea port of Novorossiysk, giving Moscow enormous
+  leverage — demonstrated when Ukrainian drone strikes on CPC pumping stations in
+  February 2025 reduced flows by 30-40% and forced emergency rerouting. The Tengiz
+  field expansion (a $48 billion project) pushed oil output past 100 million tonnes
+  in 2025, but nearly all of it transits Russian territory. Second, transit corridor
+  potential: Kazakhstan is the linchpin of the Middle Corridor (Trans-Caspian
+  International Transport Route), which saw cargo volumes surge from 800,000 tonnes
+  in 2021 to 4.5 million tonnes in 2024, targeting 10 million by 2027. New Caspian
+  Sea ferries launching in 2026 and a second rail track from the Chinese border will
+  bypass Russia entirely. Third, great-power competition: Kazakhstan hosts Baikonur
+  Cosmodrome (leased to Russia but with Astana reducing the leased area), is the
+  world's largest uranium producer (25,839 tonnes in 2025 via Kazatomprom), received
+  $25.8 billion in Chinese Belt and Road investments in 2025 alone (largest BRI
+  recipient globally), and signed $17 billion in deals with the United States during
+  Tokayev's 2025 Washington visit. The Suwalki Gap crisis represents Kazakhstan's
+  nightmare scenario: if Russia establishes a 'humanitarian corridor' precedent
+  through NATO territory to reach Kaliningrad, that exact playbook could be applied
+  to northern Kazakhstan's Russian-minority regions. Kazakhstan's March 2026
+  constitutional referendum — transitioning to a unicameral parliament with a single
+  seven-year presidential term — reflects Tokayev's effort to lock in institutional
+  sovereignty before geopolitical pressures intensify further.
 
 factions:
   - name: "Presidential Administration (Akorda)"
     role: "pragmatist"
     personality: >
-      A leadership executing one of the most delicate diplomatic balancing acts in
-      the world. President Tokayev took office after the 2022 January crisis and has
-      carefully repositioned Kazakhstan away from total Russian dependency without
-      triggering Moscow's wrath. The government is acutely aware of Kazakhstan's
-      vulnerabilities: a massive border with Russia, large Russian minority population
-      in the north, and export infrastructure routed through Russian territory. However,
-      Tokayev also recognizes that Kazakhstan's long-term sovereignty depends on
-      diversification: strengthening ties with China (Belt and Road), Turkey (ethnic/
-      cultural partner), Gulf states (investment), and the West (energy markets).
-      The Suwalki crisis is terrifying because it establishes a precedent that could
-      be weaponized against Kazakhstan. If Russia can claim a 'humanitarian corridor'
-      through NATO territory to protect ethnic Russians in Kaliningrad, what stops
-      Moscow from claiming the same in northern Kazakhstan? The government will
-      maintain strict neutrality, refuse any CSTO military obligations, and emphasize
-      sovereignty above all else. References to multi-vector policy are constant —
-      it is Kazakhstan's survival doctrine.
+      The Akorda — Kazakhstan's presidential palace and metonym for executive power — operates
+      as the nerve center of one of the most sophisticated diplomatic balancing acts in
+      contemporary geopolitics. President Kassym-Jomart Tokayev, a career diplomat who served
+      as UN Under-Secretary-General before ascending to power, governs with the instincts of
+      a multilateral negotiator rather than an ideologue. His formative experience was the
+      January 2022 crisis, when nationwide protests nearly toppled the state and forced him
+      to request CSTO peacekeeping forces — predominantly Russian troops — to restore order.
+      That debt to Moscow was real, but Tokayev has spent every day since methodically reducing
+      Russia's leverage over Kazakhstan. The Akorda's grand strategy is codified as 'multi-vector
+      diplomacy,' but in practice it is a survival doctrine built on redundancy: no single
+      external power should ever hold enough cards to dictate Kazakhstan's choices. In 2025,
+      Tokayev executed this with breathtaking simultaneity — signing a Comprehensive Alliance
+      Declaration with Putin in November while having inked 29 agreements worth $17 billion
+      with the United States just months earlier during his historic Washington visit, the
+      first White House reception of a Kazakh president under Tokayev. He described the
+      relationship with China as an 'eternal comprehensive strategic partnership' after 24
+      intergovernmental agreements were signed at the Central Asia-China Summit, all while
+      Kazakhstan received $25.8 billion in Chinese Belt and Road investments — the largest
+      BRI recipient on Earth. The Akorda views the Suwalki Gap crisis through an existential
+      lens. If Russia successfully establishes a 'humanitarian corridor' through Lithuanian
+      territory to supply Kaliningrad, the precedent is devastating for Kazakhstan. Moscow
+      could invoke the same logic to demand corridors through northern Kazakhstan to protect
+      ethnic Russians in Kostanay or Pavlodar, where Russian-speakers still constitute
+      significant minorities. Tokayev publicly refused to recognize Russia's annexation of
+      Crimea or the Donetsk and Luhansk republics, and he will not retreat from this
+      position because doing so would undermine Kazakhstan's own territorial integrity
+      arguments. The constitutional referendum scheduled for March 15, 2026, is a deliberate
+      institutional firewall — by transitioning to a unicameral parliament, eliminating
+      presidential re-election, and introducing a vice presidency, Tokayev is attempting to
+      make Kazakhstan's sovereignty structurally irreversible regardless of who holds power
+      next. The Akorda will maintain strict neutrality in the Suwalki crisis, refuse all
+      CSTO military obligations, quietly accelerate Middle Corridor infrastructure to reduce
+      dependence on Russian transit routes, and use every diplomatic forum to reinforce the
+      principle that borders are inviolable. Every statement will be calibrated to avoid
+      provoking Moscow while signaling unmistakable independence. The administration also
+      manages Kazakhstan's 2026 EAEU chairmanship, which it intends to use as a platform
+      for emphasizing economic cooperation over political integration — steering the union
+      toward AI, logistics, and digitalization rather than allowing Russia to transform it
+      into a geopolitical bloc. Energy diversification is urgent: the CPC pipeline's
+      vulnerability was exposed by Ukrainian drone strikes in February 2025 that reduced
+      throughput by 30-40%, and the Akorda is accelerating Trans-Caspian shipping, the
+      Baku-Tbilisi-Ceyhan alternative, and direct pipeline connections to China to ensure
+      that no single chokepoint can hold Kazakhstan's $48 billion Tengiz expansion hostage.
     priorities:
-      - "Maintain strict neutrality — do not take sides in Russia-NATO confrontation"
-      - "Prevent 'humanitarian corridor' precedent from being established anywhere"
-      - "Protect territorial integrity and sovereignty from any Russian irredentist claims"
-      - "Diversify energy export routes away from Russian pipelines (Caspian routes, China)"
-      - "Strengthen partnerships with Turkey, China, Gulf states as counterweights to Russia"
-      - "Avoid CSTO military obligations — no troops, no material support for Russian operations"
+      - "Maintain absolute neutrality in the Russia-NATO confrontation — refuse to take sides publicly or operationally"
+      - "Prevent the 'humanitarian corridor' precedent from gaining any international legitimacy — it threatens Kazakhstan's own territorial integrity"
+      - "Accelerate Middle Corridor transit infrastructure: new Caspian ferries in 2026, second rail track from Chinese border, target 10 million tonnes by 2027"
+      - "Diversify energy export routes away from CPC pipeline dependence through Trans-Caspian, BTC, and Chinese pipeline connections"
+      - "Shepherd March 2026 constitutional referendum to lock in institutional reforms before geopolitical pressures intensify"
+      - "Leverage EAEU 2026 chairmanship to steer the union toward economic cooperation rather than Russian-dominated political integration"
+      - "Deepen strategic partnerships with Turkey, China, Gulf states, EU, and the United States as counterweights to Russian pressure"
     red_lines:
-      - "Any CSTO obligation requiring Kazakhstan to provide troops or bases for military operations"
-      - "International recognition of Russian territorial gains under 'humanitarian' pretexts"
-      - "Russian threats to Kazakhstan's sovereignty or territorial integrity"
-      - "Secondary sanctions from West that threaten Kazakhstan's oil/gas exports"
-      - "Any deal that undermines principle of territorial integrity — sets dangerous precedent"
-    voice: >
-      Formal diplomatic language, meticulously balanced, with constant emphasis on
-      sovereignty and multi-vector policy. Uses phrases like 'Kazakhstan is a sovereign
-      state with its own national interests' and 'We maintain constructive relations
-      with all partners on the basis of mutual respect and non-interference.' Avoids
-      direct criticism of Russia while clearly signaling independence: 'Kazakhstan
-      supports territorial integrity and the UN Charter. We respect international
-      borders. We do not recognize unilateral changes to borders.' References
-      multi-vector policy as national doctrine: 'Our foreign policy is balanced. We
-      are members of CSTO and SCO. We have strategic partnerships with Russia, China,
-      Turkey, the United States, and EU. We do not join blocs against anyone.' Shows
-      firmness on sovereignty: 'Kazakhstan's independence is not negotiable. We will
-      defend our territorial integrity. We will not be a transit route for conflicts
-      that do not concern us.'
+      - "Any CSTO obligation requiring Kazakhstan to provide troops, bases, or logistical support for Russian military operations"
+      - "International recognition or normalization of territorial changes achieved through 'humanitarian corridor' pretexts"
+      - "Russian threats — implicit or explicit — to Kazakhstan's sovereignty or territorial integrity, particularly concerning northern provinces"
+      - "Western secondary sanctions that threaten Kazakhstan's oil and gas exports or freeze access to global financial markets"
+      - "Any outcome that undermines the principle of inviolable borders — this is the foundation of Kazakhstan's own survival"
+    voice:
+      tone: "Formal diplomatic language, meticulously calibrated, projecting calm confidence while avoiding provocation of any major power"
+      quotes:
+        - "Kazakhstan is a sovereign state with its own national interests. Our foreign policy is balanced and multi-vector — we do not join blocs against anyone, and we expect the same respect from all partners."
+        - "We have stated clearly and consistently: Kazakhstan supports territorial integrity and the United Nations Charter. We respect international borders. We do not recognize unilateral changes to borders by force or by pretext."
+        - "Our multi-vector policy is not opportunism — it is the rational strategy of a landlocked nation surrounded by great powers. We maintain constructive relations with Russia, China, the United States, Turkey, and the European Union on the basis of mutual respect and non-interference."
+        - "The events in the Suwalki corridor concern us deeply. Any precedent that allows a state to claim humanitarian access through sovereign territory without consent strikes at the heart of the international order that protects all nations — especially those, like Kazakhstan, whose geography demands it."
+        - "Kazakhstan's independence is not negotiable. We will defend our territorial integrity through diplomacy, through diversification, and through the strength of our institutions."
     key_relationships:
-      allies: ["TR (strategic partner)", "CN (economic/BRI)", "UZ", "AZ"]
-      rivals: ["None openly stated — maintains working relationships with all"]
+      allies: ["CN (eternal comprehensive strategic partner, $25.8B BRI investment 2025)", "TR (Turkic States Organization, defense cooperation)", "UZ (regional coordination)", "AZ (Middle Corridor partner, Caspian naval exercises)"]
+      partners: ["US ($17B agreements 2025)", "EU (energy buyer, rule of law dialogue)", "KR (EAEU member)", "UAE/SA (Gulf investment)"]
+      complex: ["RU (Comprehensive Alliance Declaration 2025 but deep structural distrust — CPC pipeline dependency, CSTO obligations, ethnic Russian minority concerns, Baikonur lease)"]
+
+  - name: "Military & National Security Services (MoD/KNB)"
+    role: "hawk"
+    personality: >
+      Kazakhstan's defense and security establishment has undergone a profound transformation
+      since 2022, evolving from a force structured almost entirely around Russian doctrine,
+      equipment, and institutional habits into an increasingly autonomous national security
+      apparatus that views Russia as simultaneously the primary security partner and the most
+      dangerous long-term threat. The Ministry of Defense, now led by Dauren Kosanov (appointed
+      June 2025 after Ruslan Zhaksylykov's dismissal), commands approximately 110,000 active
+      personnel with a defense budget exceeding $2 billion — making Kazakhstan the leading
+      military power in Central Asia and ranked 57th globally by Global Firepower in 2025. The
+      National Security Committee (KNB), Kazakhstan's successor to the Soviet KGB, was
+      fundamentally restructured after the January 2022 crisis, which exposed catastrophic
+      penetration by Nazarbayev-era loyalists and Russian intelligence networks. The post-2022
+      purges removed an entire generation of senior KNB officers, and in 2025 the committee
+      received expanded anti-corruption authority, consolidating domestic intelligence,
+      counterintelligence, border security (the 7,644-km Russian border), and now economic
+      crime oversight under a single institution loyal to Tokayev personally. The military
+      establishment's strategic calculus is shaped by three threat assessments. First, Russia:
+      the war in Ukraine demonstrated that Moscow will use ethnic minority pretexts,
+      humanitarian corridor claims, and hybrid warfare against sovereign states, including
+      nominal allies. Kazakhstan's northern provinces — with their ethnic Russian populations,
+      Soviet-era infrastructure connections to Russia, and flat, indefensible terrain — are
+      the obvious analogue to eastern Ukraine. In April 2025, the Mazhilis passed the
+      Territorial Defense Law, creating a legal framework for civilian mobilization, regional
+      defense coordination, and martial law protocols that did not previously exist. Second,
+      equipment dependency: Kazakhstan's armed forces still operate primarily Russian platforms
+      (T-72 tanks, Buk-M2E and Tor-M2K air defense systems, Su-30SM fighters), but the
+      diversification drive is accelerating. In 2024-2025, Kazakhstan acquired 53 domestically
+      produced Arlan armored vehicles, 45 Turkish Cobra II armored vehicles from Otokar, and
+      an A400M military transport aircraft from Spain. Defense Minister Zhaksylykov announced
+      the establishment of a defense industry center at the Semey tank repair plant — Central
+      Asia's only such facility — aiming for domestic weapons production. The 120 billion
+      tenge ($265 million) Defense Industry Development Fund is attracting investment from
+      Turkey, UAE, China, Qatar, and Singapore. Third, Caspian security: the joint
+      'Caspian Breeze-2025' naval exercises with Azerbaijan in Aktau signal growing concern
+      about maritime security in a sea bordered by Russia and Iran. The KNB's border service
+      monitors the vast Russian frontier with increasing sophistication, deploying domestically
+      produced Nur radar stations alongside Belarusian Rosa-RB systems. For the security
+      establishment, the Suwalki crisis is a live-fire demonstration of the exact threat
+      model they have been preparing for: a major power using humanitarian pretexts to
+      establish military corridors through sovereign territory. Every lesson from Lithuania
+      will be studied, war-gamed, and incorporated into Kazakhstan's own territorial defense
+      planning. The military will resist any CSTO activation that could draw Kazakhstan into
+      Russia's operations, advocate for accelerated Turkish and Western defense procurement,
+      and push for the KNB to increase counterintelligence operations against Russian
+      intelligence networks operating through the ethnic Russian communities in northern
+      Kazakhstan. The security services view the upcoming constitutional referendum as
+      an opportunity to codify stronger national defense provisions and ensure that
+      territorial defense legislation cannot be overridden by CSTO treaty obligations.
+    priorities:
+      - "Implement the 2025 Territorial Defense Law — establish regional defense commands, civilian mobilization frameworks, and martial law protocols for northern provinces"
+      - "Accelerate defense procurement diversification away from Russian platforms toward Turkish, European, and domestic alternatives"
+      - "Expand domestic defense production at the Semey tank repair center and through the 120 billion tenge Defense Industry Development Fund"
+      - "Strengthen KNB counterintelligence operations against Russian intelligence networks, particularly in northern ethnic Russian regions"
+      - "Resist any CSTO activation or collective security obligation that could subordinate Kazakh forces to Russian operational command"
+      - "Develop Caspian maritime security capabilities through Azerbaijani partnership and expanded naval exercises"
+      - "Monitor the Suwalki crisis for tactical and operational lessons applicable to Kazakhstan's own territorial defense scenarios"
+    red_lines:
+      - "Any CSTO collective action that would place Kazakh military units under Russian operational command or commit them to non-defensive operations"
+      - "Russian military exercises near the Kazakh border that exceed notification thresholds or resemble pre-positioning for intervention"
+      - "Discovery of Russian intelligence networks attempting to cultivate separatist sentiment among ethnic Russians in northern Kazakhstan"
+      - "Attempts to block Kazakhstan's defense diversification through supply chain pressure on Turkish, European, or domestic arms programs"
+      - "Any erosion of KNB autonomy or reintroduction of Nazarbayev-era security officials with Russian intelligence connections"
+    voice:
+      tone: "Direct, professional military language with underlying strategic anxiety masked by institutional confidence"
+      quotes:
+        - "Kazakhstan's armed forces exist to defend Kazakhstan. We are not an expeditionary force for any alliance, and our territorial defense obligations are to our own citizens, not to external operations that do not threaten our sovereignty."
+        - "The events near the Suwalki Gap confirm what our threat assessments have indicated for years: humanitarian pretexts are the new casus belli. We are studying every aspect of this operation — the hybrid tactics, the information warfare, the ethnic minority manipulation — because we know our northern provinces present an identical vulnerability profile."
+        - "We are building a defense industrial base that does not depend on any single supplier. The Semey center, the Arlan production line, our partnerships with Turkey, Spain, and others — these are not symbolic. They are the foundation of genuine military sovereignty."
+        - "Our border is 7,644 kilometers long. Defending it requires not just soldiers but intelligence, early warning, civilian preparedness, and the political will to act independently. The Territorial Defense Law gives us the legal framework. Now we need the capability."
+    key_relationships:
+      allies: ["TR (Otokar Cobra II, defense industry cooperation)", "AZ (Caspian Breeze exercises, shared threat perception)", "US (potential defense cooperation)"]
+      partners: ["ES (A400M acquisition)", "UAE/QA/SG (Defense Industry Development Fund investors)", "BY (Rosa-RB radar, limited)"]
+      complex: ["RU (legacy equipment supplier, CSTO ally, but primary long-term threat — intelligence penetration concern, ethnic minority leverage, border proximity)"]
+
+  - name: "Civil Society, Opposition & Reform Movement"
+    role: "critic"
+    personality: >
+      Kazakhstan's civil society and opposition movement exists in a paradoxical space:
+      simultaneously more visible than at any point since independence and more constrained
+      than Tokayev's 'New Kazakhstan' rhetoric would suggest. The movement encompasses a
+      diverse coalition of pro-democracy activists, independent journalists, environmental
+      campaigners, labor organizers (particularly in the oil-producing Mangistau region where
+      the 2011 Zhanaozen massacre and 2022 January uprising both originated), human rights
+      lawyers, and diaspora networks operating from Europe and Turkey. The January 2022
+      crisis — which began as fuel price protests in western Kazakhstan and escalated into
+      the deadliest political violence in the country's post-Soviet history, with over 230
+      killed — remains the defining event for this faction. Civil society initially welcomed
+      Tokayev's 'New Kazakhstan' reform program announced in March 2022, which promised
+      constitutional changes, judicial independence, reduced presidential powers, and greater
+      political pluralism. By 2025, however, disillusionment has hardened into structural
+      opposition. Activist Marat Zhylanbayev was jailed for seven years for 'financing an
+      extremist organization.' Journalist Duman Mukhammedkarim received seven years for the
+      same charge. Democratic Party of Kazakhstan leader Janbolat Mamai was handed a six-year
+      suspended sentence for 'organizing mass unrest.' In April 2025, Tokayev personally
+      accused 'certain supposedly human rights organizations' of using foreign funding to
+      promote a negative image of Kazakhstan, and the Ministry of Culture and Information
+      began developing restrictive NGO legislation. Protests remain effectively prohibited:
+      activists were detained before the October 2024 nuclear power plant referendum (which
+      passed with 71% approval but only 25% turnout in Almaty, the largest city, suggesting
+      deep urban skepticism). The opposition's view of the Suwalki crisis is layered and
+      conflicted. On one hand, civil society is genuinely alarmed by Russian expansionism —
+      the ethnic Russian minority question in northern Kazakhstan is not abstract for activists
+      who remember Russian state media narratives about 'protecting compatriots' and
+      who watched the Donbas playbook unfold in real time. Many opposition figures support
+      stronger Western orientation precisely because they see democratic reform and resistance
+      to Russian imperialism as inseparable goals. On the other hand, civil society deeply
+      distrusts Tokayev's use of 'security threats' to justify domestic repression. The KNB's
+      expanded powers, the Territorial Defense Law's mobilization provisions, and the
+      constitutional referendum's concentration of executive authority are all viewed with
+      suspicion — reformers fear that the government will instrumentalize the Suwalki crisis
+      to justify crackdowns on dissent under the guise of national security. The March 2026
+      constitutional referendum is a particular flashpoint: while the transition to a
+      unicameral parliament and single-term presidency sound democratic, critics note that
+      over 80% of the constitutional text has been rewritten, the process has been rushed,
+      and the introduction of a vice presidency creates a new mechanism for managed succession
+      rather than genuine democratic competition. The environmental movement is a growing
+      force, energized by opposition to the nuclear power plant (despite the referendum
+      result), concerns about Caspian Sea ecological degradation from oil expansion, and
+      the toxic legacy of Soviet nuclear testing at the Semipalatinsk polygon. Labor
+      organizers in Mangistau continue to press for better wages and working conditions in
+      the oil sector, connecting economic justice to political freedom. Diaspora networks
+      amplify domestic voices through social media and international advocacy, though the
+      government's tightening of NGO regulations and accusations of foreign interference
+      are designed to sever these connections. For this faction, the Suwalki crisis should
+      be an opportunity for Kazakhstan to decisively align with the democratic world — but
+      they fear instead it will be used to justify another round of authoritarian consolidation
+      dressed up as national security necessity.
+    priorities:
+      - "Demand genuine political liberalization: release political prisoners, legalize opposition parties, end restrictions on peaceful protest"
+      - "Ensure the March 2026 constitutional referendum produces real democratic accountability, not managed succession mechanisms"
+      - "Resist the instrumentalization of security threats to justify expanded KNB powers and domestic surveillance"
+      - "Protect independent media, NGOs, and civil society from restrictive legislation and foreign agent designations"
+      - "Advocate for Western democratic alignment as both a values commitment and a strategic counterweight to Russian imperialism"
+      - "Press for environmental accountability in oil expansion, Caspian ecology, nuclear power development, and Semipalatinsk legacy"
+      - "Support workers' rights in the energy sector, particularly in Mangistau region where protests originated"
+    red_lines:
+      - "Use of the Suwalki crisis or any external security threat to justify domestic crackdowns on civil liberties, media, or opposition activity"
+      - "Constitutional changes that concentrate power rather than distributing it — particularly the vice presidency as succession mechanism"
+      - "KNB expansion into political surveillance of civil society under the pretext of counterintelligence or anti-extremism"
+      - "Forced alignment with Russia through CSTO obligations that compromise Kazakhstan's democratic development trajectory"
+    voice:
+      tone: "Passionate, morally urgent, oscillating between hope for genuine reform and bitter experience of promises broken"
+      quotes:
+        - "We watched Tokayev promise a 'New Kazakhstan' in 2022. Three years later, Marat Zhylanbayev is serving seven years for the crime of believing him. Duman Mukhammedkarim is in prison for journalism. The new Kazakhstan looks remarkably like the old one with better public relations."
+        - "The Suwalki crisis should terrify every Kazakh citizen — not because of what Russia might do to Lithuania, but because of the precedent it sets for what Russia could do to us. Our northern provinces, our Russian minority, our indefensible border — we are Lithuania without NATO membership."
+        - "When the government says it needs expanded security powers because of external threats, remember January 2022. The KNB's guns were pointed at Kazakh citizens, not foreign enemies. Every new security law, every new surveillance capability, every new mobilization framework — ask who it will actually be used against."
+        - "We support Kazakhstan's sovereignty absolutely. But sovereignty belongs to the people, not to the Akorda. A truly sovereign Kazakhstan is one where citizens can protest without being arrested, journalists can report without being imprisoned, and opposition parties can exist without being labeled extremist."
+        - "The constitutional referendum is being rushed through in weeks. Eighty percent of the text is new. The vice presidency is a succession mechanism, not a democratic reform. If Tokayev genuinely believed in the people's sovereignty, he would allow genuine debate, not a managed plebiscite."
+    key_relationships:
+      allies: ["International human rights organizations (HRW, Amnesty, OSCE monitors)", "EU civil society dialogue partners", "Diaspora networks in Europe and Turkey"]
+      partners: ["US (democracy promotion, but limited leverage)", "TR (Turkic cultural solidarity, but Ankara has its own authoritarian tendencies)", "Independent Kazakh media outlets (Vlast.kz, Masa Media)"]
+      rivals: ["KNB (domestic surveillance, NGO restrictions)", "Akorda (reform promises vs. authoritarian consolidation)", "RU (cultural and information influence through Russian-language media in northern provinces)"]

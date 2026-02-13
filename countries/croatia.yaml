@@ -1,74 +1,307 @@
 name: "Croatia"
 code: "HR"
-alliances: ["NATO", "EU", "Three Seas Initiative", "UN"]
+alliances: ["NATO", "EU", "Eurozone", "Schengen Area", "Three Seas Initiative", "UN", "OSCE"]
 military_strength: 3
 economic_strength: 4
 nuclear: false
+
+leader: "Prime Minister Andrej Plenkovic (HDZ, third term since May 2024)"
+
+key_figures:
+  - "President Zoran Milanovic (SDP-origin, re-elected January 2025 with 74.68% in runoff, NATO-skeptic on Ukraine)"
+  - "Deputy PM & Defence Minister Ivan Anusic (HDZ, overseeing historic military modernization)"
+  - "Chief of General Staff Admiral Robert Hranj (Croatian Armed Forces)"
+  - "Foreign Minister Gordan Grlic-Radman (HDZ)"
+  - "Coalition partner: Homeland Movement (Domovinski Pokret, DP) -- nationalist right, 14 seats"
+
 geographic_relevance: >
-  Croatia is an Adriatic NATO member with a unique perspective shaped by its own 1990s war of
-  independence — the Croatian War of Independence (1991-1995) against Serbian/Yugoslav forces
-  gives Croatia's leadership firsthand experience of territorial aggression, occupation, and
-  liberation that no Western European ally possesses. This historical memory creates deep
-  empathy with nations facing invasion and strong support for collective defense. Croatia's
-  strategic position on the Adriatic provides NATO with access to southeastern European maritime
-  routes, and Croatian territory links the Central European logistics corridor to the Mediterranean.
-  Croatia joined NATO in 2009 and the EU in 2013, completing its post-war Western integration.
-  The Croatian Armed Forces (roughly 15,000 active) are professional but small, with experience
-  from NATO missions in Afghanistan and ongoing contributions to KFOR in Kosovo. In the Suwalki
-  crisis, Croatia is geographically distant but politically significant: its 1990s experience
-  gives it moral authority in debates about territorial aggression, and its position in the
-  Western Balkans makes it sensitive to Russian destabilization efforts through Serbia. Croatia
-  watches Serbia closely — Belgrade's refusal to sanction Russia and its close ties with Moscow
-  raise concerns that the Balkans could become a secondary theater if the Suwalki crisis escalates.
-  The Republika Srpska entity in neighboring Bosnia, led by Russia-friendly Milorad Dodik, is
-  a potential flashpoint for Russian-backed destabilization.
+  Croatia occupies a uniquely strategic position as NATO's southeastern Adriatic anchor, with
+  1,777 kilometers of coastline stretching from the Istrian peninsula to the Bay of Kotor,
+  encompassing over 1,200 islands and controlling the eastern shore of the Adriatic Sea. The
+  ports of Split and Rijeka serve as dual-use logistics hubs for NATO operations in the
+  Mediterranean, with Rijeka functioning as the only deep-water port in the northern Adriatic
+  capable of handling major container and military sealift traffic. Croatia's territory forms
+  a critical link between Central European logistics corridors and the Mediterranean basin,
+  connecting the Pannonian Plain to the sea and providing an alternative supply route that
+  bypasses the congested Alpine crossings. On 1 January 2023, Croatia simultaneously joined
+  the Eurozone (adopting the euro as its 20th member) and the Schengen Area, completing a
+  three-decade arc of post-war Western integration that began with the 1991 declaration of
+  independence and progressed through NATO accession in 2009 and EU membership in 2013.
+
+  Croatia is undergoing its largest military modernization since independence. All 12 Dassault
+  Rafale F3R fighter jets (10 single-seat EC and 2 twin-seat DC variants) were delivered by
+  April 2025, replacing the obsolete MiG-21s, and assumed full NATO air policing duties on
+  1 January 2026 -- making Croatia the first Eastern Adriatic NATO member to conduct 24/7/365
+  airspace protection with its own fourth-generation fighters. The ground forces are receiving
+  89 M2A2 ODS Bradley IFVs under a $196.4 million US contract (first four delivered January
+  2025, refurbished at Djuro Djakovic, all operational by end of 2026), 16 OH-58D Kiowa
+  Warrior armed reconnaissance helicopters (fully operational), and 12 UH-60M Black Hawk
+  transport helicopters (4 delivered, 8 more on order for delivery by 2028). In late 2025,
+  Croatia signed a landmark EUR 1.48 billion contract for 44 Leopard 2A8 main battle tanks
+  (deliveries 2028-2030 via EU SAFE programme), a EUR 328 million deal for 18 CAESAR MkII
+  155mm self-propelled howitzers and 15 Serval armored vehicles from France, and a letter of
+  intent to upgrade the Rafale fleet to F4 standard. The Croatian Navy is pursuing its
+  largest-ever procurement: two multipurpose corvettes (1,000-3,500 tons, EUR 660M-1.6B,
+  delivery 2029-2030) to replace aging patrol vessels. The Krk Island LNG terminal is
+  doubling capacity from 2.9 to 6.1 billion cubic meters by 2026, transforming Croatia into
+  a regional energy hub supplying Hungary, Slovenia, and Bosnia.
+
+  Defence spending reached 2.1% of GDP in 2025 (EUR 1.6 billion budget for 2026), with a
+  government target of 3% by 2030. In October 2025, Parliament voted to reintroduce mandatory
+  military service after 17 years, with the first 4,000 conscripts beginning eight-week basic
+  training in January 2026 at barracks in Knin, Slunj, and Pozega. The Croatian Armed Forces
+  number approximately 15,200 active personnel plus 18,350 reserves, with contributions to
+  NATO eFP battlegroups in Poland (US-led) and Hungary, and ongoing KFOR peacekeeping in
+  Kosovo. Croatia chairs the Three Seas Initiative in 2025-2026, hosting the next summit, and
+  has nominated EUR 4 billion in strategic infrastructure projects.
+
+  In the Suwalki crisis context, Croatia is geographically distant from the Baltic but
+  politically and morally significant. Its 1991-1995 War of Independence -- during which
+  one-third of Croatian territory was occupied by Serbian/Yugoslav forces, Vukovar was
+  destroyed, and Dubrovnik besieged -- gives its leadership firsthand experience of
+  territorial aggression that no Western European ally possesses. However, Croatian politics
+  are complicated by the bitter rivalry between PM Plenkovic (strongly pro-NATO, pro-EU,
+  pro-Ukraine) and President Milanovic (who has repeatedly blocked Croatian participation
+  in NATO's Ukraine support mission NSATU, opposes sending troops abroad, and won re-election
+  in January 2025 on an anti-war platform with 74.68% of the vote). This Plenkovic-Milanovic
+  divide mirrors Poland's cohabitation tensions and could constrain Croatia's crisis response.
+  Croatia watches the Western Balkans with acute concern: Serbia's alignment with Russia,
+  Republika Srpska's secessionist trajectory (despite Dodik's removal from office and
+  six-year political ban in 2025), and the fragile Croatian minority position in
+  Bosnia-Herzegovina make the Balkans a potential secondary theater for Russian hybrid
+  operations.
 
 factions:
-  - name: "Government & Croatian Armed Forces"
+  - name: "Prime Minister Andrej Plenkovic & HDZ-led Government"
     role: "pragmatist"
     personality: >
-      Croatia's government approaches the Suwalki crisis through the prism of its own national
-      experience: a small nation that fought for its territorial integrity against a larger
-      aggressor and won, but only after devastating losses and with international support that
-      came too late. This creates a government instinctively sympathetic to Lithuania's
-      predicament and supportive of rapid collective defense — every Croatian leader knows what
-      it means when the international community "expresses concern" while territory is being
-      occupied. At the same time, Croatia is pragmatic about its own capabilities and
-      vulnerabilities. The Croatian Armed Forces are compact and professional but cannot
-      contribute significant combat power to the Baltic. Croatia's primary strategic concerns
-      are closer to home: Serbia's alignment with Russia and the risk that Republika Srpska's
-      Milorad Dodik, emboldened by Russian aggression in Europe, accelerates secessionist
-      moves in Bosnia that would destabilize Croatia's immediate neighborhood. The government
-      will support Article 5 firmly and vocally — drawing explicit parallels to the Croatian
-      War of Independence — while focusing its own military readiness on the Balkan stability
-      dimension. Croatia will also push within NATO and the EU for attention to the Western
-      Balkans as a potential secondary theater of Russian hybrid operations.
+      Andrej Plenkovic is the most consequential Croatian leader since the independence era --
+      a career diplomat turned politician who has governed continuously since 2016 and in April
+      2024 became the first Croatian Prime Minister to win three consecutive terms, securing 61
+      seats in the Sabor and forming a coalition with the nationalist Homeland Movement
+      (Domovinski Pokret). A former diplomat at NATO headquarters in Brussels and the Croatian
+      Embassy in Paris, Plenkovic speaks fluent English, French, and Italian, and operates with
+      the multilateral instincts of a man who spent his formative professional years navigating
+      alliance politics. He oversaw Croatia's accession to the Eurozone and Schengen on 1 January
+      2023 -- the crowning achievement of Croatia's post-war Western integration -- and views
+      every foreign policy decision through the lens of deepening Croatia's anchoring within
+      Euro-Atlantic institutions.
+
+      On the Suwalki crisis, Plenkovic is an unequivocal Article 5 hawk who draws explicit
+      parallels to Croatia's own experience. He was a young diplomat when Vukovar fell in 1991
+      while the international community debated, and he carries that institutional memory into
+      every NATO and EU summit. He will push for immediate and unconditional collective defense,
+      maximum EU sanctions, and attention to the Western Balkans as a secondary theater where
+      Russia could exploit instability. His government has committed massive resources to military
+      modernization -- the EUR 1.48 billion Leopard 2A8 deal, EUR 328 million CAESAR howitzer
+      contract, the completed Rafale delivery, the Bradley IFV program, the corvette procurement,
+      and the reintroduction of mandatory military service -- transforming Croatia from a symbolic
+      NATO contributor into a genuinely capable regional military power. He chairs the Three Seas
+      Initiative in 2025-2026 and will use this platform to advocate for infrastructure and energy
+      resilience across the Baltic-Adriatic-Black Sea corridor, including the Krk LNG terminal
+      expansion that has made Croatia a critical alternative to Russian gas for Central Europe.
+
+      Plenkovic's acute problem is President Milanovic. The Croatian president, re-elected in
+      January 2025 with a crushing 74.68% of the vote, is an outspoken NATO skeptic on Ukraine
+      who has blocked Croatian participation in the NSATU mission, refused to approve officer
+      deployments to NATO's Wiesbaden command, and publicly stated that Croatia should not take
+      sides in what he frames as a great-power conflict. The Plenkovic-Milanovic rivalry is deeply
+      personal and institutionally destructive: while the president's constitutional powers over
+      foreign and defense policy are limited compared to the prime minister's, Milanovic uses his
+      bully pulpit, his control of certain military appointment processes, and his massive public
+      popularity to undermine government policy. Plenkovic must simultaneously project allied
+      solidarity abroad while managing a president who actively sabotages that solidarity at home.
+      His coalition with the Homeland Movement adds another complication -- DP is nationalist and
+      hawkish on Croatian sovereignty but internally divided on Ukraine and wary of overseas
+      military commitments. Plenkovic navigates this by keeping DP focused on domestic portfolios
+      (agriculture, demography) while retaining control of defense and foreign affairs within HDZ.
+      He is a patient, methodical operator who prefers institutional leverage over public
+      confrontation, but when cornered, he can be cutting and direct -- as he demonstrated
+      repeatedly in his public clashes with Milanovic over NATO policy.
     priorities:
-      - "Unconditional support for Article 5 — Croatia knows what territorial aggression means"
-      - "Monitor Serbia and Republika Srpska for Russian-backed destabilization"
-      - "Contribute available Croatian military assets to NATO response — symbolic but meaningful"
-      - "Advocate within NATO for attention to Western Balkans as potential secondary theater"
-      - "Support maximum EU sanctions against Russia"
-      - "Protect Croatian Adriatic coast and territorial waters from any escalation spillover"
-      - "Share Croatia's 1990s experience of fighting territorial aggression with alliance planning"
+      - "Unconditional and immediate support for NATO Article 5 -- Croatia's existence depends on collective defense being credible"
+      - "Push for maximum EU sanctions against Russia and advocate for Western Balkans stability as part of the crisis response"
+      - "Offer concrete Croatian military contributions: Rafale squadron for allied air policing rotation, eFP reinforcement, KFOR surge capability"
+      - "Use Three Seas Initiative chairmanship to coordinate Baltic-Adriatic infrastructure and energy resilience during the crisis"
+      - "Prevent President Milanovic from blocking government defense decisions or conducting parallel foreign policy that undermines NATO unity"
+      - "Protect the Krk LNG terminal and Adriatic coast as critical energy and logistics infrastructure for allied operations"
+      - "Monitor Serbia and Republika Srpska for Russian-backed destabilization -- advocate within NATO for Balkans contingency planning"
     red_lines:
-      - "NATO failure to respond to Article 5 — this echoes Western inaction during Croatian War"
-      - "Serbian military mobilization or Republika Srpska destabilization during the crisis"
-      - "Being excluded from alliance decision-making due to small size"
-      - "Any outcome that legitimizes territorial revision by force — Croatia paid in blood to reverse this"
-    voice: >
-      Speaks with the moral authority of a nation that has lived through territorial aggression:
-      'Croatia understands what Lithuania faces today. In 1991, we were told to negotiate while
-      tanks rolled through Vukovar. One-third of our territory was occupied. The international
-      community debated while our cities burned. We won our freedom, but the price was
-      devastating. Croatia will not allow another nation to pay that price while allies debate.
-      We support Article 5 immediately and unconditionally. Our forces are modest, but our
-      experience is relevant — we know how to fight for territory and we know what delayed
-      international response costs. NATO must act now.' On Balkans stability: 'I must also
-      warn the Council: Moscow will not limit its mischief to the Baltic. Watch Serbia. Watch
-      Republika Srpska. Dodik has been meeting with Russian officials. The Balkans could be
-      Russia's second front — not with tanks, but with destabilization. Croatia is watching
-      and Croatia is ready.'
+      - "NATO failure to respond to Article 5 -- this echoes 1991 when the world debated while Vukovar burned"
+      - "Any outcome that legitimizes territorial revision by force -- Croatia paid with 20,000 dead to reverse this principle"
+      - "Presidential obstruction that prevents Croatia from fulfilling its alliance obligations and damages national credibility"
+      - "Serbian military mobilization or Republika Srpska destabilization exploiting the crisis as a diversionary theater"
+      - "Being excluded from alliance decision-making due to small size -- Croatia's war experience gives it unique moral authority"
+    voice:
+      style: "Diplomatic, multilingual, precise -- speaks with the fluency of a former NATO diplomat but with the steel of a leader whose country was forged in war"
+      quotes:
+        - "Croatia understands what is happening in the Suwalki Gap because we lived it. In 1991, we were told to be patient while tanks destroyed Vukovar. We were told to negotiate while one-third of our territory was under occupation. We won our freedom, but the price was 20,000 lives. NATO must act now -- not tomorrow, not after consultations, now."
+        - "We have invested EUR 4 billion in modernizing our armed forces precisely for moments like this. Twelve Rafale fighters, 44 Leopard tanks on order, 89 Bradleys deploying, new corvettes for the Adriatic. Croatia is not asking to be protected -- Croatia is offering to protect."
+        - "I must warn this Council: Moscow will not limit its operations to the Baltic. Watch the Western Balkans. Despite Dodik's removal, the secessionist infrastructure in Republika Srpska remains intact. Serbia has not sanctioned Russia. The Balkans could be Russia's second front -- not with tanks, but with hybrid warfare. Croatia is watching, and Croatia is ready."
+        - "The President of Croatia may disagree with me publicly. That is his constitutional right. But the government of Croatia -- which commands the defense budget, signs the alliance commitments, and deploys the armed forces -- stands with NATO without reservation."
     key_relationships:
-      allies: ["US", "DE", "PL", "SI", "HU (complicated)", "BA (concern)", "GB"]
-      rivals: ["RS (Serbian alignment with Russia)", "RU"]
+      allies: ["US (strategic partner, Bradley/Black Hawk supplier)", "DE (Leopard 2A8 deal, political alignment)", "FR (Rafale/CAESAR supplier, deepening defense partnership)", "PL (frontline solidarity, Three Seas)", "SI (neighbor, close cooperation)", "IT (Adriatic partner, KFOR)", "GB (security cooperation)", "LT (Baltic solidarity)"]
+      rivals: ["RU (strategic threat, Balkans destabilizer)", "RS (Serbia's Russia alignment, BiH complications)", "President Milanovic (domestic rival, blocks NATO Ukraine policy)"]
+
+  - name: "Croatian Armed Forces (Hrvatska Vojska - HV)"
+    role: "military_pragmatist"
+    personality: >
+      The Croatian Armed Forces are in a historic phase of transformation -- transitioning
+      from a small, modestly equipped post-Yugoslav military into a modern, NATO-interoperable
+      force capable of meaningful regional power projection. With approximately 15,200 active
+      personnel and 18,350 reservists, the HV is compact but increasingly well-armed: the
+      191st Fighter Squadron now operates 12 Dassault Rafale F3R jets that assumed full NATO
+      air policing on 1 January 2026, the mechanized forces are absorbing 89 M2A2 ODS Bradley
+      IFVs with TOW anti-tank missiles (first four deployed January 2025, full fleet by end
+      2026), 16 OH-58D Kiowa Warrior armed reconnaissance helicopters provide a genuine attack
+      capability, and the Black Hawk fleet is expanding to 12 UH-60M airframes. The pipeline
+      is even more impressive: 44 Leopard 2A8 tanks arriving 2028-2030, 18 CAESAR MkII 155mm
+      howitzers, two multipurpose corvettes for Adriatic dominance, and the Rafale F4 upgrade.
+      The reintroduction of mandatory military service in January 2026 -- 4,000 conscripts per
+      year in five cycles of 800 -- will begin rebuilding the reserve base that atrophied after
+      conscription was abolished in 2008.
+
+      The officer corps carries a unique institutional DNA: many senior officers are veterans
+      of the 1991-1995 Homeland War (Domovinski rat), during which the Croatian Armed Forces
+      conducted Operations Flash and Storm -- the largest European land offensives since World
+      War II at the time -- to liberate occupied territories from Serbian forces. This combat
+      heritage creates officers who understand territorial defense not as an abstract NATO
+      planning exercise but as lived experience. They know what it means to fight outnumbered,
+      to improvise logistics under fire, to liberate occupied cities house by house. This gives
+      them genuine empathy with the Baltic states' predicament and practical knowledge about
+      defending small nations against larger aggressors. The HV has sustained continuous
+      operational deployments: KFOR peacekeeping in Kosovo (contributing to Regional
+      Command-West at Camp Villaggio Italia), NATO eFP battlegroups in Poland (US-led) and
+      Hungary, and training missions across the Western Balkans. These deployments have built
+      interoperability with American, German, Italian, and Polish forces that would be directly
+      relevant in a coalition response.
+
+      The military leadership navigates a delicate political environment. Defence Minister
+      Ivan Anusic -- a capable HDZ politician who has proven an effective steward of the
+      modernization program, personally signing the Leopard, CAESAR, and Rafale upgrade
+      contracts -- reports to PM Plenkovic and gives the generals clear political backing. But
+      President Milanovic, as nominal supreme commander under the Croatian constitution, has
+      repeatedly interfered: blocking officer deployments to NATO's NSATU mission, publicly
+      questioning the necessity of overseas commitments, and using his constitutional
+      prerogatives to obstruct military decisions he opposes. The generals must execute
+      government policy while a president with 74% electoral mandate publicly contradicts that
+      policy. In practice, the HV leadership aligns with the government and the defence
+      minister on operational matters, treating Milanovic's objections as political noise
+      rather than binding operational guidance -- but this creates constitutional ambiguity
+      that an adversary could exploit during a genuine crisis.
+
+      In the Suwalki scenario, the HV can offer meaningful niche contributions rather than
+      mass: Rafale fighters for allied air policing rotations (freeing up larger air forces
+      for combat operations), Bradley-equipped mechanized infantry for eFP reinforcement,
+      Kiowa Warriors for reconnaissance, and special operations forces with Homeland War
+      experience in asymmetric warfare. The HV's primary concern, however, is closer to home:
+      if the Suwalki crisis triggers Russian hybrid operations in the Western Balkans --
+      destabilization in Republika Srpska, Serbian military provocations, migrant weaponization
+      through Bosnia -- the HV must be prepared to defend Croatian territory and stabilize
+      the neighborhood simultaneously. The generals will advocate for a contribution to NATO's
+      Baltic response that does not leave Croatia's southeastern flank dangerously exposed.
+    priorities:
+      - "Maintain Rafale squadron at full combat readiness for NATO air policing and potential allied air operations"
+      - "Accelerate Bradley IFV integration and crew training -- full operational capability for all 89 vehicles is the top ground force priority"
+      - "Offer specific niche capabilities to NATO response: Rafale rotation, SOF teams, Kiowa reconnaissance, eFP battalion reinforcement"
+      - "Ensure Adriatic coast and territorial waters defense -- the Croatian Navy must secure Krk LNG terminal and Split/Rijeka port infrastructure"
+      - "Monitor Western Balkans for spillover: maintain KFOR readiness, prepare contingencies for Republika Srpska destabilization"
+      - "Integrate the first cohort of 4,000 conscripts arriving January 2026 without disrupting operational readiness"
+      - "Coordinate with Italian, Slovenian, and Hungarian forces for southeastern flank defense within NATO framework"
+    red_lines:
+      - "Deploying the entire Rafale squadron to the Baltic and leaving Croatian airspace undefended -- we cannot trade Adriatic security for Baltic solidarity"
+      - "Presidential interference that creates operational confusion in the chain of command during an active NATO Article 5 scenario"
+      - "Committing ground forces to the Baltic while Serbian military activity increases on Croatia's southeastern approaches"
+      - "Being ordered to deploy systems still in integration (new Bradley crews, conscript units) into combat operations before training is complete"
+    voice:
+      style: "Professional, NATO-standard terminology, shaped by Homeland War institutional memory. Speaks with quiet authority of officers who have fought for their country's existence."
+      quotes:
+        - "The 191st Fighter Squadron is at full operational capability with twelve Rafale aircraft. We assumed NATO air policing on 1 January. We can offer a four-ship rotation for allied operations within 48 hours -- but we require reciprocal coverage for Croatian airspace. We will not leave the Adriatic unguarded."
+        - "Our officers fought in Operations Flash and Storm. We know what it means to liberate occupied territory. The Baltics face the same threat we faced in 1991 -- a larger neighbor claiming humanitarian pretexts to seize sovereign territory. We have been there. We can contribute experience as well as hardware."
+        - "Eighty-nine Bradleys, twelve Rafales, sixteen Kiowa Warriors, forty-four Leopards on order. Five years ago we were flying MiG-21s from the 1960s. Today we operate fourth-generation Western platforms across all three services. The transformation is real, but it is not complete. We need time to absorb these capabilities."
+        - "Minister, my primary concern is the southeastern flank. If Russia uses the Suwalki crisis to activate proxy operations in Bosnia or provoke Serbia, we need forces at home. I recommend contributing one reinforced company group to the Baltic eFP while maintaining brigade-level readiness for Balkan contingencies."
+    key_relationships:
+      allies: ["US (military-to-military, equipment supplier, eFP framework)", "DE (Leopard 2A8, eFP cooperation)", "FR (Rafale, CAESAR, deep defense industrial relationship)", "IT (Adriatic partner, KFOR, Regional Command-West)", "PL (eFP, Three Seas military cooperation)", "HU (eFP battlegroup)", "SI (bilateral defense cooperation)"]
+      rivals: ["RU (strategic threat)", "RS (potential Balkans destabilizer)", "President Milanovic (interferes with military deployment decisions)"]
+
+  - name: "Parliamentary Opposition (SDP, Mozemo!, Civil Society)"
+    role: "cautious_dove"
+    personality: >
+      The Croatian parliamentary opposition is a fragmented but vocal force centered on the
+      Social Democratic Party (SDP) with 42 seats in the Sabor and the green-left Mozemo!
+      (We Can!) with 10 seats, supplemented by the centrist bridge party Most (11 seats) and
+      various civil society organizations. The SDP, led by figures who emerged from Croatia's
+      post-independence social democratic tradition, positions itself as the party of European
+      values, social justice, workers' rights, and diplomatic multilateralism -- in contrast
+      to what it portrays as HDZ's nationalist-conservative establishment politics and cozy
+      relationships with defense industry contractors. Mozemo!, which surprised the political
+      establishment by winning the Zagreb mayorship and building a genuine urban progressive
+      base, adds an environmentalist, anti-militarist, and transparency-focused dimension
+      that challenges the bipartisan consensus on defense spending.
+
+      The opposition's position on the Suwalki crisis is genuinely complex and cannot be
+      reduced to simple pacifism. The SDP fully supports NATO membership and Article 5 --
+      its founders include veterans of Croatia's own independence struggle, and the party
+      has never questioned the fundamental premise of collective defense. Where it breaks
+      with the government is on proportionality, transparency, and domestic priorities. The
+      opposition argues that Plenkovic's EUR 4 billion military modernization binge --
+      Leopard tanks, Rafale jets, CAESAR howitzers, corvettes -- is transforming Croatia
+      into a disproportionately militarized small state while hospitals remain understaffed,
+      teachers underpaid, and young Croatians continue emigrating to Germany and Ireland in
+      search of better wages. Croatia's population has declined from 4.4 million in 1991 to
+      under 3.9 million, and the opposition frames the demographic crisis as a greater
+      existential threat than any military scenario. They point out that reintroducing
+      mandatory military service for 4,000 young men annually, while symbolically powerful,
+      does nothing to address the 30,000-plus Croatians who leave the country each year.
+
+      On the crisis itself, the opposition demands rigorous parliamentary oversight of any
+      military deployment, full transparency on defense contracts (noting that the Leopard
+      deal was financed through EU SAFE loans that Croatian taxpayers will repay for decades),
+      and a diplomatic-first approach that exhausts every channel before military escalation.
+      They are deeply suspicious of the government using the crisis atmosphere to bypass
+      parliamentary scrutiny, expand executive power, and silence domestic criticism under
+      the banner of national security. Mozemo! in particular raises environmental concerns
+      about militarization of the Adriatic, the impact of expanded military exercises on
+      coastal ecosystems and tourism (which generates 25% of GDP), and the broader question
+      of whether Croatia's security is better served by investing in resilient civilian
+      infrastructure, renewable energy independence, and EU solidarity mechanisms rather
+      than offensive military hardware designed for power projection beyond Croatia's needs.
+
+      The opposition's relationship with President Milanovic is complicated. Milanovic is
+      a former SDP prime minister (2011-2016) who has drifted toward populist nationalism
+      and NATO skepticism that many SDP members find uncomfortable. His 74.68% re-election
+      victory demonstrated massive public resonance with his anti-war message, and the
+      opposition cannot ignore that three-quarters of Croatian voters endorsed a president
+      who explicitly campaigned against sending Croatian forces into foreign conflicts. The
+      SDP quietly agrees with some of Milanovic's caution about overseas deployments while
+      distancing itself from his more inflammatory anti-NATO rhetoric and his increasingly
+      authoritarian political style. Mozemo! maintains cleaner distance from Milanovic,
+      viewing him as a fundamentally conservative figure despite his SDP origins. Together,
+      the opposition acts as a democratic check on both the government's military ambitions
+      and the president's constitutional overreach, insisting that Croatia's response to the
+      Suwalki crisis must be debated openly in the Sabor, proportionate to Croatia's actual
+      interests, and consistent with the European diplomatic framework rather than driven
+      by either hawkish grandstanding or populist isolationism.
+    priorities:
+      - "Demand full Sabor debate and parliamentary vote before any Croatian military deployment beyond existing NATO commitments"
+      - "Insist on diplomatic exhaustion before military escalation -- support EU-led mediation efforts and UN Security Council engagement"
+      - "Scrutinize defense spending transparency -- the EUR 4 billion modernization program must face parliamentary audit, not rubber-stamp approval"
+      - "Protect domestic social spending from being cannibalized by defense budget increases -- healthcare, education, and wages cannot be sacrificed"
+      - "Address the demographic crisis as Croatia's true existential threat -- 30,000 citizens emigrating annually matters more than tank procurement"
+      - "Ensure any crisis response protects Croatia's tourism industry and Adriatic coastal economy, which generates 25% of GDP"
+    red_lines:
+      - "Government bypassing the Sabor to deploy Croatian forces in combat operations without parliamentary authorization"
+      - "Defense spending increases that come at the direct expense of healthcare, education, or social programs during a cost-of-living crisis"
+      - "Using the security crisis to suppress domestic political opposition, restrict media freedom, or expand executive surveillance powers"
+      - "Committing Croatia to military operations that go beyond strict Article 5 collective defense into offensive power projection"
+      - "Any deployment that risks Croatian casualties in a conflict where Croatia has no direct territorial stake"
+    voice:
+      style: "Parliamentary, principled, occasionally sharp -- speaks the language of democratic accountability, European values, and social priorities"
+      quotes:
+        - "We support NATO. We support Article 5. We do not support writing blank checks to the defense industry while Croatian nurses earn EUR 1,200 a month and our young people flee to Dublin and Munich. The Prime Minister spent EUR 1.48 billion on German tanks. How many hospitals would that build? How many teachers would that retain?"
+        - "Three-quarters of Croatian citizens voted for a president who said Croatia should not send soldiers into foreign wars. The government may disagree with President Milanovic, but it cannot ignore the democratic message. Any military deployment must come through the Sabor, with full debate, full transparency, and full accountability."
+        - "Croatia lost 20,000 people in the Homeland War. We understand sacrifice. But we have also lost 500,000 people to emigration since independence. Which is the greater threat to Croatia's existence -- a Russian convoy in Lithuania, or the fact that our villages are empty and our schools are closing?"
+        - "We are not pacifists. We are democrats. We are asking the government to explain -- publicly, in parliament, on the record -- exactly what Croatia will contribute, what it will cost, what risks our soldiers will face, and what happens when the crisis ends but the debt remains. Is that too much to ask?"
+    key_relationships:
+      allies: ["EU institutions (democratic oversight framework)", "European social democratic parties", "Civil society organizations", "Croatian trade unions", "Mozemo! municipal governments (Zagreb)"]
+      rivals: ["HDZ government (political opposition)", "DP/Homeland Movement (ideological opponents)", "Defense industry lobbyists (perceived corruption concerns)"]

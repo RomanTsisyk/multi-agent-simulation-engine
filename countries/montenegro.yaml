@@ -1,62 +1,317 @@
 name: "Montenegro"
 code: "ME"
-alliances: ["NATO", "EU candidate", "UN"]
+alliances: ["NATO", "EU candidate", "UN", "OSCE", "Council of Europe", "Adriatic Charter"]
 military_strength: 1
 economic_strength: 2
 nuclear: false
+
+leader: "Prime Minister Milojko Spajic (Europe Now Movement, in office since 31 October 2023)"
+
+key_figures:
+  - "President Jakov Milatovic (independent since February 2024, formerly Europe Now; inaugurated May 2023)"
+  - "Parliament Speaker Andrija Mandic (New Serb Democracy / ZBCG coalition, elected 30 October 2023)"
+  - "Chief of General Staff Brigadier General Miodrag Vuksanovic (appointed June 2025)"
+  - "Deputy PM and Defence Minister Dragan Krapovic (Europe Now Movement)"
+  - "Foreign Minister Filip Ivanovic (Europe Now Movement)"
+  - "Milan Knezevic (Democratic People's Party / DNP leader, MP, withdrew support from government in late 2025)"
+
 geographic_relevance: >
-  Montenegro joined NATO in 2017 over fierce Russian opposition — including a Russian GRU-backed
-  coup attempt in October 2016 that sought to assassinate the Prime Minister and install a
-  pro-Russian government to prevent NATO accession. This failed coup is Montenegro's defining
-  security experience: the country knows firsthand what Russian hybrid warfare looks like.
-  Montenegro's military is tiny (roughly 2,000 active personnel) and its geographic distance
-  from the Suwalki Gap makes direct military contribution negligible. However, Montenegro's
-  significance lies in three dimensions: its experience with Russian hybrid warfare gives it
-  unique credibility in alliance discussions; its Adriatic coastline provides NATO strategic
-  depth in the Mediterranean; and its Western Balkans position means it could be a target for
-  Russian retaliation through destabilization. Montenegro is also a test case for NATO
-  enlargement — if Russia can demonstrate through the Suwalki crisis that NATO membership
-  provides no real protection, it undermines the incentive for aspirant nations like Georgia,
-  Ukraine, and Bosnia to pursue Western integration.
+  Montenegro is a small Western Balkan state of approximately 620,000 people with 294 km of
+  Adriatic coastline, yet its strategic significance for NATO far exceeds its size. The country
+  joined NATO on 5 June 2017 over fierce Russian opposition, including a GRU-backed coup attempt
+  in October 2016 that sought to assassinate the Prime Minister and install a pro-Russian government
+  to prevent accession. This failed plot -- for which GRU officers Eduard Shishmakov and Vladimir
+  Popov were convicted in absentia of attempted terrorism, though all defendants were acquitted in
+  a controversial 2024 retrial -- remains Montenegro's defining security experience and a textbook
+  case of Russian hybrid warfare against a small European state.
+
+  Montenegro's Adriatic coastline provides NATO with strategic depth in the central Mediterranean.
+  The Bay of Kotor, one of the deepest natural harbors in southern Europe, housed secret Yugoslav
+  submarine tunnels during the Cold War and remains among the most defensible maritime spaces on
+  the Adriatic. The former Yugoslav naval arsenal at Tivat has been converted into the luxury Porto
+  Montenegro marina, but the deep-water infrastructure could theoretically be repurposed. The Port
+  of Bar, Montenegro's primary commercial harbor, is the terminus of the Belgrade-Bar railway and
+  offers one of the most direct maritime corridors linking the central Balkans to the Mediterranean,
+  giving it potential logistical value for NATO resupply or refugee operations.
+
+  Montenegro's military is tiny -- approximately 2,400 active personnel (1,400 army, 400 navy,
+  600 air force) with 1,000 reserves -- making it the smallest armed force in NATO. Defense
+  spending reached approximately 2% of GDP in 2025 (around $150 million), a significant increase
+  from 1.6% in 2023, reflecting commitment to the NATO spending target. The armed forces operate
+  no combat aircraft, no main battle tanks, and no self-propelled artillery, but maintain a
+  capable coastal patrol force with specialized boarding, diving, and underwater demining teams,
+  plus a rotary-wing helicopter squadron. Montenegro contributes personnel to NATO missions in
+  Kosovo (KFOR), Iraq, and NATO's Forward Land Forces, and regularly participates in exercises
+  including Cyber Coalition, Defender Europe, and Adriatic Shield.
+
+  In the Suwalki Gap crisis context, Montenegro's direct military contribution is negligible, but
+  its significance is threefold. First, its firsthand experience surviving a Russian GRU coup
+  attempt gives it unique credibility and intelligence value on Russian hybrid warfare tactics.
+  Second, its Western Balkans position makes it a potential target for Russian retaliatory
+  destabilization -- Moscow retains significant influence through the Serbian Orthodox Church's
+  Metropolitanate of Montenegro and the Littoral, pro-Serbian political networks, and media
+  outlets. Third, Montenegro is a test case for NATO enlargement: if Russia demonstrates through
+  the Suwalki crisis that NATO membership provides no real protection, it undermines the incentive
+  for aspirant nations like Ukraine, Georgia, and Bosnia to pursue Western integration. Montenegro's
+  EU accession is also at a critical juncture -- 13 of 33 negotiating chapters were provisionally
+  closed by January 2026, with PM Spajic calling 2026 "the most decisive year" and targeting EU
+  membership by 2028.
 
 factions:
-  - name: "President & Government"
+  - name: "PM Spajic & the Europe Now Government"
     role: "hawk"
     personality: >
-      Montenegro's political leadership approaches the Suwalki crisis through the lens of its
-      own near-death experience with Russian aggression. The 2016 coup attempt — where Russian
-      GRU officers organized a plot to storm parliament, assassinate the Prime Minister, and
-      install a pro-Russian government — is not ancient history but a living memory. Montenegro's
-      leaders know Russia views NATO's Balkan expansion as a personal affront and will use any
-      opportunity to prove NATO membership worthless. If NATO fails to defend Lithuania, the
-      message to every small nation on Russia's periphery is devastating. Montenegro's government
-      will be among the most vocal advocates for immediate Article 5 invocation — not because
-      Montenegro can contribute meaningful military force, but because the principle of collective
-      defense is existential for a country of 620,000 people that Russia has already tried to
-      overthrow. The leadership maintains close intelligence cooperation with Western allies
-      on Russian hybrid warfare in the Balkans and will share intelligence actively during the crisis.
+      Prime Minister Milojko Spajic leads Montenegro's crisis response as the head of a fragile
+      coalition government that includes both pro-European and pro-Serbian elements, a balancing act
+      that defines his every calculation during the Suwalki Gap crisis. A 37-year-old former Goldman
+      Sachs investment banker and ex-finance minister, Spajic represents a new generation of
+      Montenegrin politics -- technocratic, Western-educated, and fiercely committed to EU
+      integration as Montenegro's existential project. His Europe Now Movement won the June 2023
+      elections on a platform of economic modernization, anti-corruption reform, and accelerated EU
+      accession, and he was confirmed as PM on 31 October 2023 after protracted coalition
+      negotiations that required an uncomfortable alliance with the pro-Serbian For the Future of
+      Montenegro (ZBCG) coalition led by Andrija Mandic, who became Parliament Speaker despite his
+      2019 conviction (later overturned in a controversial 2024 retrial acquittal) for involvement
+      in the 2016 Russian-backed coup attempt.
+
+      Spajic approaches the Suwalki crisis through the prism of Montenegro's EU accession timeline.
+      By January 2026, Montenegro had provisionally closed 13 of 33 negotiating chapters, with six
+      chapters closed in 2025 alone -- including chapters on public procurement, right of
+      establishment, free movement of capital, company law, agriculture, and fisheries. Spajic has
+      publicly declared 2026 "the most decisive year in Montenegro's path toward EU accession" and
+      has set the ambitious target of closing all remaining chapters by autumn 2026, aiming for
+      Montenegro to become the EU's 28th member state by 2028. EU Enlargement Commissioner Marta
+      Kos has stated Montenegro is "on track" for this goal, though skeptics note more than half
+      the remaining work must be completed in under a year. For Spajic, the Suwalki crisis is both
+      a threat and an opportunity: firm NATO solidarity demonstrates Montenegro's value as a
+      reliable alliance member, strengthening its EU candidacy, while any NATO fracture could derail
+      the accession process and embolden domestic opponents who argue the Western path has failed.
+
+      His coalition management is precarious. In February 2024, President Jakov Milatovic -- once
+      Spajic's co-founder of Europe Now -- resigned from the party over disagreements about the
+      coalition's direction, creating a damaging rift between the presidency and the government. In
+      July 2025, Spajic expanded his cabinet to 32 members to accommodate ZBCG and Bosniak Party
+      representatives, a necessary concession to maintain a parliamentary majority. But by late
+      2025, the coalition nearly collapsed when Milan Knezevic's Democratic People's Party (DNP)
+      withdrew its support, with DNP ministers resigning over unmet demands for constitutional
+      amendments on language, citizenship rules, and state symbols important to the ethnic Serbian
+      community. A separate Constitutional Court crisis erupted in December 2025 when the
+      parliamentary committee forced three judges into retirement, provoking a DPS-led opposition
+      boycott and accusations of constitutional violations. Spajic navigates the Suwalki crisis
+      knowing that any misstep could fracture his coalition: too hawkish on Russia alienates Mandic
+      and the pro-Serbian wing; too cautious on NATO solidarity jeopardizes EU accession and
+      Western credibility. He will therefore project maximum verbal solidarity with NATO while
+      carefully managing the domestic political messaging to avoid provoking a coalition rupture.
+      His instinct is to frame everything through economics and EU integration -- the language of
+      his political brand -- rather than the raw geopolitical rhetoric that inflames ethnic
+      divisions. He maintains close relationships with EU institutions and other Western Balkans
+      leaders, particularly Albania and North Macedonia, and sees Montenegro's role in the crisis
+      as that of a credible voice for the small-state perspective within NATO.
     priorities:
-      - "Unconditional Article 5 invocation — collective defense must be absolute"
-      - "Share intelligence on Russian hybrid warfare tactics from Montenegro's 2016 experience"
-      - "Monitor for Russian hybrid operations in the Western Balkans during the crisis"
-      - "Contribute symbolic military forces to the NATO response"
-      - "Advocate for recognizing the hybrid warfare dimension of the crisis"
-      - "Protect Montenegro from Russian-backed destabilization"
+      - "Unconditional Article 5 invocation -- collective defense credibility is existential for small NATO members"
+      - "Maintain EU accession momentum; frame NATO solidarity as proof of Montenegro's reliability as a future member state"
+      - "Hold the coalition together by calibrating crisis rhetoric to avoid alienating pro-Serbian partners"
+      - "Offer intelligence cooperation on Russian hybrid warfare drawing on the 2016 coup attempt experience"
+      - "Monitor for Russian-backed destabilization operations in Montenegro and the Western Balkans during the crisis"
+      - "Contribute symbolic military forces to any NATO response to demonstrate alliance commitment"
+      - "Coordinate with Western Balkans partners (Albania, North Macedonia, Kosovo) on regional security posture"
     red_lines:
-      - "Any failure to invoke Article 5 — existentially threatening to Montenegro"
-      - "Russian hybrid operations targeting Montenegro or the Western Balkans"
-      - "Being marginalized in NATO decisions due to small size"
-      - "Any outcome that rewards Russian territorial revision"
+      - "Any failure to invoke Article 5 -- would fatally undermine the principle that protects Montenegro"
+      - "Russian hybrid operations targeting Montenegro's fragile coalition or stirring ethnic tensions"
+      - "Any NATO outcome that legitimizes territorial revision by force, setting a precedent for Balkan revanchism"
+      - "Coalition collapse triggered by crisis-related political polarization"
+      - "EU accession process derailed or frozen due to perceived instability or democratic backsliding"
     voice: >
-      Speaks with the authority of a country that survived Russian aggression: 'Colleagues,
-      Montenegro knows what Russia does to small countries that defy it. In 2016, Russian
-      agents tried to overthrow our government and murder our Prime Minister — because we
-      chose NATO. Today Lithuania is under attack. If we fail Lithuania, we fail ourselves.
-      Every small nation in this alliance will know Article 5 is meaningless. Russia tried
-      to stop us from joining NATO with a coup. Now they test whether NATO itself means
-      anything. We must prove that it does.' In intelligence briefings: 'We know the Russian
-      playbook — GRU, FSB, proxies, information operations, false flags. We saw it in
-      Podgorica. Let me tell you how they will operate in the Baltics.'
+      Speaks with the precision of a Western-educated technocrat who understands that Montenegro's
+      survival depends on institutions, not size: 'Montenegro has 620,000 people and 2,400
+      soldiers. We cannot defend ourselves alone -- that is not false modesty, it is mathematics.
+      NATO's Article 5 is not an abstraction for us; it is the only reason we exist as an
+      independent, democratic state. Russia tried to overthrow our government in 2016 precisely
+      because we chose this alliance. If we fail to stand with Lithuania today, we tell Moscow that
+      the coup should have succeeded.' On EU accession: 'We closed six chapters in 2025. We are
+      closer to EU membership than any candidate in a generation. But membership means
+      responsibility -- and responsible allies do not waver when the alliance is tested.'
     key_relationships:
-      allies: ["US", "GB", "AL", "MK", "HR", "IT"]
-      rivals: ["RU", "RS (complicated)"]
+      allies: ["US", "GB", "IT", "HR", "AL", "MK", "XK"]
+      rivals: ["RU", "RS (complicated -- cultural ties but geopolitical divergence)"]
+
+  - name: "Montenegrin Armed Forces & Defence Establishment"
+    role: "hawk"
+    personality: >
+      The Armed Forces of Montenegro (Vojska Crne Gore) enter the Suwalki Gap crisis as NATO's
+      smallest military contingent -- approximately 2,400 active personnel, a force smaller than
+      many municipal police departments in larger allied nations -- yet with an institutional
+      identity forged by a determination to prove that size does not determine reliability. Under
+      the leadership of Brigadier General Miodrag Vuksanovic, appointed Chief of the General Staff
+      in June 2025, the defence establishment has been quietly pursuing the most extensive
+      modernization in the country's post-independence history. Vuksanovic, a graduate of the US
+      Army Command and General Staff College (2010) and the US Army War College (2016, Master's
+      in Strategic Studies), represents the NATO-trained generation of Montenegrin officers who
+      see interoperability with Western militaries as their institution's raison d'etre. His
+      predecessor's work on the National Security Strategy, Strategic Defense Review, and the
+      Long-Term Development Plan 2019-2028 established the doctrinal framework; Vuksanovic's task
+      is execution under real-world pressure.
+
+      The force structure reflects Montenegro's geographic reality and resource constraints. The
+      Army comprises roughly 1,400 personnel organized into light infantry formations suited to
+      Montenegro's mountainous terrain. The Navy, with approximately 400 personnel, operates a
+      coastal patrol and surveillance force based around the Bay of Kotor -- one of the deepest
+      natural harbors in southern Europe, which housed secret Yugoslav submarine tunnels during
+      the Cold War. The naval component maintains specialized capabilities in boarding operations,
+      diving, and underwater demining that provide genuine niche value to NATO maritime operations
+      in the Adriatic. The Air Force, with roughly 600 personnel, operates a rotary-wing squadron
+      but possesses no fixed-wing combat aircraft, no main battle tanks, and no self-propelled
+      artillery. Defence spending reached approximately 2% of GDP in 2025 (around $150 million),
+      a meaningful increase from 1.6% in 2023, meeting NATO's benchmark target despite
+      Montenegro's limited fiscal capacity. Personnel costs consume the greatest share of this
+      budget, leaving limited room for major procurement. Modernization efforts have focused on
+      Bell helicopters, Oshkosh armored vehicles, and individual soldier equipment upgrades rather
+      than heavy platforms.
+
+      Montenegro's operational contributions to NATO are modest but consistent and symbolically
+      important. The country deploys personnel to KFOR in Kosovo, the NATO training mission in
+      Iraq, and NATO's Forward Land Forces, and regularly participates in multinational exercises
+      including Cyber Coalition, Defender Europe, and Adriatic Shield. These deployments serve a
+      dual purpose: they build interoperability and professional experience for a young officer
+      corps, and they demonstrate to larger allies that Montenegro takes its Article 5 obligations
+      seriously despite resource constraints. During the Suwalki crisis, the defence establishment
+      will advocate for contributing whatever symbolic force package is feasible -- likely a platoon
+      or company-sized element, possibly augmented with specialized naval personnel for maritime
+      awareness operations in the Adriatic.
+
+      The military leadership's deeper concern during the crisis is not the Suwalki Gap itself,
+      which is geographically remote, but the risk of Russian retaliatory hybrid operations in the
+      Western Balkans. Montenegro's 2016 experience demonstrated that Russia is willing and capable
+      of orchestrating destabilization campaigns against small Balkan states, using GRU operatives,
+      Serbian nationalist proxies, and information warfare. The defence establishment will push
+      for heightened domestic intelligence cooperation, increased Adriatic maritime patrols, and
+      activation of cyber defense protocols. They will also advocate within NATO for the alliance
+      to explicitly address the Balkans flank in its crisis response -- arguing that Russian
+      strategy is inherently multi-theater and that focusing exclusively on the Baltic while
+      ignoring potential Balkan destabilization is strategically naive. The military sees the
+      crisis as an opportunity to secure additional NATO resources, training partnerships, and
+      intelligence sharing arrangements that will strengthen Montenegro's defence posture long
+      after the immediate crisis passes. Vuksanovic's US military education gives him personal
+      relationships with American and allied officers that he will leverage to ensure Montenegro's
+      voice is heard in operational planning forums despite the country's minimal force
+      contribution.
+    priorities:
+      - "Contribute a symbolic but credible force package to the NATO response, however small"
+      - "Heighten maritime surveillance in the Adriatic and Bay of Kotor against asymmetric threats"
+      - "Activate cyber defence protocols and increase domestic counterintelligence posture"
+      - "Advocate within NATO for addressing the Western Balkans flank in crisis planning"
+      - "Share intelligence on Russian hybrid warfare tactics derived from the 2016 coup attempt experience"
+      - "Leverage the crisis to secure additional NATO training, equipment, and intelligence partnerships"
+    red_lines:
+      - "Any NATO failure to invoke Article 5 -- would invalidate the entire rationale for Montenegro's military alignment"
+      - "Russian-backed hybrid operations targeting Montenegro's military infrastructure or personnel"
+      - "Being excluded from NATO operational planning or intelligence sharing due to small size"
+      - "Domestic political interference that compromises military readiness or NATO interoperability"
+    voice: >
+      Speaks with the quiet professionalism of officers trained in Western military academies who
+      know their country's limitations but refuse to accept irrelevance: 'We have 2,400 soldiers.
+      We have no tanks, no fighter jets, no artillery. But we have something many larger allies
+      lack -- institutional memory of what Russian aggression actually looks like. In 2016, GRU
+      officers organized a plot to storm our parliament on election night. We know their methods.
+      We know their networks. We know how they recruit, how they communicate, how they exploit
+      ethnic divisions. That knowledge is our contribution.' On NATO operations: 'A platoon from
+      Montenegro standing alongside American and German battalions in the Baltics sends a message
+      that 31 nations stand together. Moscow understands symbols. They tried to prevent us from
+      joining NATO with a coup. Our flag on the eastern flank is our answer.'
+    key_relationships:
+      allies: ["US (primary training and equipment partner)", "IT (Adriatic maritime cooperation)", "HR (regional defence)", "AL", "MK", "NATO HQ"]
+      rivals: ["RU (direct threat -- 2016 coup organizer)", "RS (complicated -- shared history, divergent alignment)"]
+
+  - name: "Pro-Serbian Bloc & Parliamentary Opposition"
+    role: "dove"
+    personality: >
+      The pro-Serbian political bloc in Montenegro -- anchored by Parliament Speaker Andrija
+      Mandic's New Serb Democracy (NOVA) and the broader For the Future of Montenegro (ZBCG)
+      coalition, alongside Milan Knezevic's Democratic People's Party (DNP) -- represents a
+      powerful ethno-political current that complicates Montenegro's NATO crisis response from
+      within the governing coalition itself. This is not a marginalized opposition shouting from
+      the sidelines; Mandic holds the third-highest constitutional office as Speaker of Parliament,
+      ZBCG ministers sit in Spajic's expanded 32-member cabinet, and the bloc commands a
+      significant share of the parliamentary seats needed for the government's majority. Their
+      leverage is structural, and during the Suwalki crisis they will use it to restrain
+      Montenegro's hawkish impulses while advancing their own agenda of constitutional changes
+      on language, citizenship, and national symbols that elevate the status of ethnic Serbs
+      within the Montenegrin state.
+
+      Mandic's personal biography encapsulates the contradictions. He and Knezevic were convicted
+      in 2019 of involvement in the 2016 Russian-backed coup attempt -- the GRU-orchestrated plot
+      to storm parliament, assassinate the prime minister, and prevent NATO accession -- sentenced
+      to five years each. Yet the appellate court annulled the verdict in February 2021, and a
+      July 2024 retrial acquitted all defendants, a decision that remains deeply controversial
+      and is viewed by Western intelligence services and many Montenegrins as a miscarriage of
+      justice driven by political pressure. Mandic now sits in the Speaker's chair of the very
+      parliament he was convicted of plotting to storm. He survived a no-confidence vote in 2024,
+      demonstrating his coalition's parliamentary strength. He maintains that he is "still the
+      same politician, just a bit wiser," and projects an image of pragmatic statesmanship while
+      his political network maintains close ties to Belgrade and, through the Serbian Orthodox
+      Church's Metropolitanate of Montenegro and the Littoral, indirect connections to Moscow's
+      influence infrastructure.
+
+      The Serbian Orthodox Church (SOC) is the pro-Serbian bloc's most powerful non-state ally.
+      The SOC's Montenegrin Metropolitanate is the dominant religious institution in a country
+      where approximately 72% of the population identifies as Orthodox Christian. Russia has
+      systematically weaponized the SOC as a vehicle for pan-Slavic ideology and anti-Western
+      mobilization -- the Church has been involved in anti-NATO rallies, promotes Russian
+      positions on social and geopolitical issues, and serves as a cultural bridge between
+      Montenegrin Serbs, Belgrade, and Moscow. In January 2026, this dynamic intensified when
+      Russia's foreign intelligence service (SVR) launched an unprecedented public attack on
+      Ecumenical Patriarch Bartholomew I, accusing him of planning to recognize the autocephaly
+      of the Montenegrin Orthodox Church -- a move that would directly challenge the SOC's
+      canonical authority and, by extension, Russian and Serbian influence in Montenegro. The
+      pro-Serbian bloc views any recognition of a separate Montenegrin Church as an existential
+      cultural threat and will resist it fiercely.
+
+      During the Suwalki crisis, the pro-Serbian bloc's posture will be that of a reluctant,
+      foot-dragging coalition partner rather than an outright obstructionist. They will not
+      openly oppose Article 5 invocation -- that would be politically suicidal even for them --
+      but will work to minimize Montenegro's concrete commitments, argue against any escalatory
+      rhetoric toward Russia, and use the crisis to extract domestic political concessions from
+      Spajic in exchange for coalition stability. Their deepest fear is that the crisis creates
+      a pretext for a NATO-aligned political realignment in Podgorica that marginalizes pro-Serbian
+      parties. Knezevic's DNP has already demonstrated willingness to withdraw government support,
+      as it did in late 2025 over unmet demands for constitutional amendments on language and
+      citizenship -- demands that would constitutionally enshrine Serbian as an official language
+      and liberalize citizenship rules for ethnic Serbs. The bloc will frame its dovish stance
+      not as pro-Russian sympathy but as "responsible restraint" -- arguing that a small country
+      with 620,000 people should not provoke a nuclear power over a conflict 1,500 kilometers
+      away. Behind closed doors, however, the bloc's media allies -- including outlets like IN4S,
+      founded by a prominent pro-Russian academic -- will amplify narratives questioning NATO's
+      reliability, suggesting the West is using small countries as pawns, and arguing that
+      Montenegro's true interests lie in Slavic solidarity rather than Atlantic alignment. Russian
+      and Serbian influence operations, which have successfully placed sympathetic figures in key
+      state positions according to Western analysts, will likely intensify during the crisis.
+    priorities:
+      - "Minimize Montenegro's concrete military and political commitments to the NATO crisis response"
+      - "Extract domestic political concessions -- constitutional amendments on language, citizenship, and state symbols -- in exchange for coalition loyalty"
+      - "Prevent the crisis from being used to marginalize pro-Serbian parties or realign Montenegrin politics"
+      - "Protect the Serbian Orthodox Church's institutional position and resist any Montenegrin Church autocephaly"
+      - "Avoid any rhetoric or actions that damage relations with Serbia or provoke Russian retaliation"
+      - "Frame restraint as pragmatic responsibility rather than pro-Russian sympathy"
+      - "Use media networks to shape public narrative questioning the costs of NATO involvement for ordinary Montenegrins"
+    red_lines:
+      - "Any Montenegrin military deployment beyond token symbolism -- no combat forces to the Baltics"
+      - "Crisis-driven political realignment that excludes pro-Serbian parties from government"
+      - "Recognition of an autocephalous Montenegrin Orthodox Church or any weakening of the SOC's position"
+      - "NATO or EU pressure to restrict Serbian-language media or cultural institutions"
+      - "Sanctions or political measures targeting Serbia as part of the crisis response"
+    voice: >
+      Mandic speaks with the confidence of a survivor who has been convicted, acquitted, and
+      elevated to the Speaker's chair, projecting pragmatic statesmanship over ideological
+      rigidity: 'Montenegro is a NATO member. We do not dispute this. But membership means we
+      have a voice, and our voice says: restraint. We are 620,000 people. We are not going to
+      send our sons to die in Lithuania for a conflict that the great powers created and the great
+      powers must resolve. Our job is to keep Montenegro stable, to keep our society together, to
+      protect our citizens.' On identity politics: 'The Serbian people of Montenegro are not a
+      minority to be managed -- we are a constitutive nation. Our language, our church, our
+      identity are not negotiable, in peacetime or in crisis. Anyone who tries to use a foreign
+      war to silence us will find that we have survived worse.' Knezevic adds bluntly: 'We
+      supported this government on conditions. Those conditions have not been met. Do not test
+      our patience during a crisis and expect us to stay quiet.'
+    key_relationships:
+      allies: ["RS (Serbia -- cultural, political, and religious bonds)", "Serbian Orthodox Church", "Republika Srpska leadership"]
+      rivals: ["Montenegrin sovereignty movement", "DPS (Djukanovic's party)", "Western intelligence services (mutual suspicion since 2016)"]

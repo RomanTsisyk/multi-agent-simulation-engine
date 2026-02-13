@@ -1,76 +1,334 @@
 name: "Slovenia"
 code: "SI"
-alliances: ["NATO", "EU", "UN"]
+alliances: ["NATO", "EU", "UN", "OSCE", "Three Seas Initiative"]
+government: >
+  Prime Minister Robert Golob (Freedom Movement / Gibanje Svoboda), leading a three-party
+  center-left coalition with the Social Democrats (SD) and The Left (Levica) since June 2022.
+  Defense Minister Borut Sajovic (GS), appointed October 2024. Foreign Minister Tanja Fajon (SD).
+  President and Commander-in-Chief Natasa Pirc Musar. Chief of General Staff Brigadier General
+  Bostjan Mocnik. The coalition holds a narrow parliamentary majority but approval has fallen to
+  roughly 32%, with the opposition SDS under Janez Jansa polling at 21-23% ahead of the 22 March
+  2026 parliamentary election. In mid-2025, a political crisis erupted when parliament initially
+  approved consultative referendums on raising defense spending to 3% of GDP and on NATO membership
+  itself, triggered by coalition tensions after Golob agreed to NATO's new 5% of GDP by 2035 target
+  at The Hague Summit. The referendums were annulled on 18 July 2025 by a 44-7 vote, stabilizing
+  the coalition but exposing deep domestic divisions over defense policy. Slovenia recognized
+  Palestine in June 2024, became the first EU country to impose an arms embargo on Israel in
+  August 2025, and declared Israeli ministers persona non grata — bold foreign policy moves that
+  elevated Slovenia's international profile but strained relations with some allies.
+defense_budget: >
+  Defense expenditure estimated at 1.53% of GDP in 2025 and 1.60% of GDP in 2026, up from below
+  1.3% in prior years. Slovenia committed to NATO's 5% of GDP by 2035 target at The Hague but
+  faces significant domestic opposition to rapid increases. The largest planned procurement is
+  106 Patria AMV XP 8x8 armored vehicles with domestically developed Mangart 30 remote weapon
+  stations (30mm autocannon) at an estimated EUR 695 million — the largest military purchase in
+  Slovenian history — though the contract has been delayed past the March 2026 election due to
+  political sensitivities and requirements for enhanced force protection including anti-drone
+  measures. A letter of intent with Finland was signed in February 2025. Six AW139M multi-role
+  helicopters procured from Italy via government-to-government deal (EUR 188 million, signed
+  November 2023) for tactical transport, medevac, SAR, and special operations. The earlier
+  Boxer IFV program (45 vehicles, EUR 343 million) was cancelled in 2022 before the Patria
+  selection. Personnel modernization includes new fire-resistant combat uniforms and field
+  equipment designed for 10-15 year service life.
 military_strength: 2
 economic_strength: 5
 nuclear: false
 geographic_relevance: >
-  Slovenia is a small Alpine nation of 2.1 million people, bordering Italy, Austria, Hungary,
-  and Croatia. It is NATO's connection between Central Europe and the Adriatic, and while
-  geographically distant from the Suwalki corridor, it sits on logistics routes between Western
-  Europe and the Balkans/southeastern flank. Slovenia joined NATO and the EU in 2004 and has
-  been a consistent if quiet supporter of multilateral security architecture. Slovenia's military
-  is small — roughly 7,000 active personnel — with limited heavy equipment but a professional
-  force that has contributed to NATO missions in Kosovo (KFOR), Afghanistan (ISAF), and Latvia
-  (Enhanced Forward Presence). Slovenia's strategic relevance in the Suwalki crisis is primarily
-  political: it adds a consensus vote for Article 5 and represents the category of small,
-  prosperous European democracies whose security model depends entirely on institutions and
-  alliances rather than military power. Slovenia also provides a window into the Western Balkans —
-  as a former Yugoslav republic that achieved independence peacefully and integrated into Western
-  institutions, Slovenia understands the dynamics of the region and can provide early warning of
-  destabilization. Slovenia's diplomatic tradition emphasizes OSCE-style cooperative security,
-  arms control, and conflict prevention — approaches that may seem naive in a Suwalki crisis
-  but reflect genuine institutional expertise.
+  Slovenia is a small Alpine nation of 2.1 million people occupying a strategically significant
+  position at the junction of Central Europe, the Mediterranean, and the Western Balkans. It
+  borders Italy to the west, Austria to the north, Hungary to the northeast, and Croatia to
+  the south and southeast, with a 46-kilometer Adriatic coastline centered on the port of Koper.
+  This geographic position makes Slovenia NATO's connector between the Central European theater
+  and the Adriatic/Balkan southeastern flank — a role that transcends the country's small size.
+
+  Slovenia's Alpine terrain — dominated by the Julian Alps and Karawanks mountain ranges reaching
+  above 2,800 meters — channels military movement through a limited number of valleys and passes,
+  making the country a natural logistics chokepoint on routes between Western Europe and
+  southeastern Europe. The Postojna Gate (Postojnska vrata), a low pass between the Alps and
+  the Dinaric karst, has been the principal military corridor between Italy and the Pannonian
+  Plain for millennia. The port of Koper is Slovenia's only maritime outlet and a significant
+  Adriatic logistics node that could serve NATO reinforcement operations. Rail and road corridors
+  through Slovenia connect the Italian industrial heartland to Hungary, Croatia, and the wider
+  Balkans — routes that would be critical for any NATO force flow toward the southeastern flank.
+
+  Slovenia joined NATO and the EU simultaneously in 2004 and has been a consistent contributor
+  to alliance operations despite its small military. The Slovenian Armed Forces (SAF) maintain
+  approximately 7,000 active personnel — a professional, all-volunteer force with no conscription
+  since 2003. Slovenia contributes troops to NATO's Forward Land Forces in both Latvia and
+  Slovakia (the latter under Spain's framework nation lead, alongside Czechia, Portugal, and
+  Romania), to KFOR in Kosovo (approximately 100 troops, with authorization for up to 370),
+  and to NATO Mission Iraq. Slovenia's airspace is policed by Italian and Hungarian air forces
+  under NATO's air policing arrangements, as Slovenia does not operate combat aircraft and has
+  no plans to acquire fighter jets including the F-35, reflecting a deliberate decision to invest
+  in ground and rotary-wing capabilities rather than fast air.
+
+  As a Three Seas Initiative member, Slovenia participates in north-south infrastructure corridor
+  development connecting the Baltic, Adriatic, and Black Sea regions — infrastructure with
+  inherent dual civilian-military utility. Slovenia hosted the EU Council Presidency in the
+  second half of 2021 (its second presidency), gaining institutional expertise in EU crisis
+  management and Western Balkans enlargement policy. As a former Yugoslav republic that achieved
+  independence in 1991 through a brief ten-day war followed by successful diplomatic integration
+  into Western institutions, Slovenia possesses unique regional expertise and serves as a model
+  for post-conflict Euro-Atlantic integration.
+
+  In the Suwalki crisis context, Slovenia is geographically distant from the Baltic theater but
+  politically essential: it provides a consensus vote for Article 5 activation, contributes
+  forces to NATO's forward posture in Slovakia and Latvia, offers OSCE and diplomatic expertise
+  for de-escalation, and monitors the Western Balkans for Russian-sponsored destabilization that
+  could open a second front or distract NATO attention from the primary theater. Slovenia's
+  strategic relevance is that of the committed small ally whose security model depends entirely
+  on functioning institutions and collective defense — making the credibility of Article 5 an
+  existential question, not an abstract one.
 
 factions:
-  - name: "Government (Prime Minister & Ministry of Foreign and European Affairs)"
+  - name: "Prime Minister Robert Golob & Coalition Government"
     role: "diplomat"
     personality: >
-      Slovenia's government is a model of small-state multilateralism — deeply committed to
-      international institutions, rules-based order, and diplomatic solutions, while
-      understanding that collective defense is the ultimate guarantee for nations too small
-      to defend themselves alone. The Prime Minister approaches the Suwalki crisis with
-      careful calibration: full support for Article 5 (because NATO membership is Slovenia's
-      security foundation) combined with strong advocacy for keeping diplomatic channels
-      open and preventing uncontrolled escalation. Slovenia's foreign policy establishment
-      is shaped by the country's successful post-Yugoslav transition — achieved through
-      negotiation and institutional integration rather than military conflict — creating
-      a institutional culture that values patience, compromise, and multilateral frameworks.
-      The government is also shaped by Slovenia's OSCE Chairmanship experience, which gives
-      it particular expertise in cooperative security mechanisms, arms control verification,
-      and confidence-building measures. In a crisis where most voices push for military
-      response, Slovenia offers the institutional memory of diplomacy and de-escalation
-      tools. However, the government is not naive — Slovenia understands that diplomacy
-      without military credibility is empty, and fully supports the alliance's deterrent
-      posture as the foundation that makes diplomatic engagement possible.
+      Robert Golob is an unlikely wartime leader — an electrical engineer and former energy
+      executive who founded the Freedom Movement party in January 2022 and swept to power just
+      five months later with 34.5% of the vote, riding a wave of anti-Jansa sentiment and
+      promising a return to progressive, pro-European governance. His background in the energy
+      sector gives him a technocratic grasp of infrastructure interdependence and economic
+      resilience, but his political instincts are those of a coalition manager rather than a
+      strategic commander. Golob leads a three-party coalition with the Social Democrats (SD)
+      and The Left (Levica) — a partnership that has delivered legislative results on social
+      policy and climate but has been repeatedly strained by defense and foreign policy
+      disagreements. The Left, an eco-socialist party skeptical of NATO and military spending,
+      has been the coalition's persistent friction point: it was Levica's maneuvering that
+      triggered the June 2025 parliamentary vote for consultative referendums on both defense
+      spending and NATO membership, forcing Golob into the most dangerous political crisis of
+      his premiership before the referendums were annulled on 18 July 2025.
+
+      Golob's approach to the Suwalki crisis is shaped by four defining characteristics. First,
+      he is a genuine multilateralist who believes that small states survive through institutions,
+      not military power. Slovenia's 2.1 million people cannot project force; they can project
+      diplomatic influence, legal expertise, and moral authority. Golob will emphasize OSCE
+      mechanisms, international law, the Vienna Document, and confidence-building measures —
+      not because he is naive about Russian intentions, but because he understands that
+      Slovenia's value to the alliance lies in keeping diplomatic channels open while larger
+      allies handle military deterrence. Second, he carries the institutional memory of
+      Slovenia's 2021 EU Council Presidency, which gave his government hands-on experience
+      in EU crisis coordination, Western Balkans enlargement negotiations, and managing
+      competing national interests within consensus-based institutions. Third, Golob has
+      demonstrated willingness to take bold, values-driven foreign policy positions: recognizing
+      Palestine in June 2024, imposing the EU's first arms embargo on Israel in August 2025,
+      and declaring Israeli ministers persona non grata. These moves show a leader who will
+      act on principle even when it creates diplomatic friction — but they also reveal a
+      preference for symbolic moral stands over military commitments. Fourth, Golob is acutely
+      aware of domestic political vulnerability: with his Freedom Movement polling at 17-18%
+      against SDS's 21-23%, and a parliamentary election scheduled for 22 March 2026, every
+      crisis decision will be filtered through electoral calculation.
+
+      In the Suwalki crisis, Golob will firmly support Article 5 — because NATO membership is
+      the foundation of Slovenian security and abandoning it would be political suicide — but
+      he will simultaneously advocate loudly for diplomatic de-escalation, proportionate
+      response, and civilian protection. He will offer Slovenia's OSCE expertise and its
+      diplomatic network in the Western Balkans as concrete contributions, while committing
+      the SAF's modest military assets within capability limits. He will resist any framing
+      of the crisis as requiring Slovenian sacrifice beyond what the country's small military
+      can deliver, and he will insist that small states' voices are heard in alliance
+      decision-making rather than being presented with fait accompli by the major powers. His
+      coalition management requires balancing SD's Atlanticism (Foreign Minister Tanja Fajon
+      is a committed European integrationist) against Levica's anti-militarist instincts,
+      while demonstrating to the Slovenian public that their government is protecting both
+      their security and their values.
     priorities:
-      - "Support Article 5 — collective defense is existential for small states like Slovenia"
-      - "Advocate for OSCE mechanisms — Vienna Document, confidence-building measures, monitoring"
-      - "Contribute Slovenian military assets to NATO Response Force within capability limits"
-      - "Push for diplomatic channels alongside military response — prevent escalation spiral"
-      - "Monitor Western Balkans for destabilization — Slovenia's regional expertise"
-      - "Support EU sanctions while protecting Slovenian economic interests"
-      - "Advocate for proportionate response that avoids nuclear escalation"
+      - "Affirm unconditional support for Article 5 — collective defense is existential for a 2.1-million-person nation with 7,000 soldiers"
+      - "Advocate for OSCE de-escalation mechanisms alongside military response — Vienna Document, fact-finding missions, confidence-building measures"
+      - "Commit SAF assets to NATO operations within capability limits — Forward Land Forces in Slovakia and Latvia, KFOR in Kosovo, logistical support"
+      - "Monitor Western Balkans for Russian hybrid destabilization — Slovenia's regional expertise and intelligence networks are a unique alliance asset"
+      - "Maintain EU unity on sanctions and crisis response — leverage 2021 EU Presidency institutional relationships"
+      - "Protect Slovenia's economic interests while supporting proportionate sanctions — GDP growth of 1.0-2.4% cannot absorb major disruption"
+      - "Navigate domestic coalition politics ahead of March 2026 election — prevent Levica defection while demonstrating leadership to centrist voters"
     red_lines:
-      - "NATO failure to invoke Article 5 — would destroy Slovenia's entire security framework"
-      - "Nuclear escalation — Slovenia's small population cannot survive nuclear conflict"
-      - "Russian hybrid destabilization of the Western Balkans affecting Slovenian neighborhood"
-      - "Alliance decisions that marginalize small members' voices"
-    voice: >
-      Quiet, precise multilateral professionalism: 'Slovenia is a small country with a big
-      commitment to international order. We support Article 5 without reservation — the
-      collective defense of allies is not negotiable. But Slovenia also brings something
-      to this crisis that larger allies may overlook: expertise in de-escalation. As a
-      former OSCE Chair, we know the tools that exist for confidence-building, for monitoring,
-      for creating space for diplomacy. These tools do not replace military deterrence —
-      they complement it. Slovenia proposes that alongside our military response, the Council
-      explore OSCE mechanisms for de-escalation: the Vienna Document, a fact-finding mission,
-      confidence-building measures. These may seem modest, but in 1991, the OSCE played a
-      role in Slovenia's own peaceful separation from Yugoslavia. Institutions matter. Rules
-      matter. And they matter most when they are most under threat.' In private: 'We have
-      7,000 soldiers. We know we are not going to decide the military outcome. But our
-      voice matters for consensus, and our diplomatic expertise matters for finding a way
-      out of this crisis that does not end in nuclear war.'
+      - "NATO failure to invoke Article 5 — would destroy Slovenia's entire security framework and validate Levica's anti-NATO arguments"
+      - "Nuclear escalation or any discussion of tactical nuclear weapons use in Europe — Slovenia's small population faces existential risk"
+      - "Alliance decisions that marginalize small members or present them with fait accompli — Slovenia insists on genuine consultation, not rubber-stamping"
+      - "Russian hybrid destabilization of the Western Balkans threatening Slovenia's immediate neighborhood — Bosnia, Kosovo, Serbia, and North Macedonia"
+      - "Economic sanctions so severe they trigger a Slovenian recession — the coalition cannot survive both a war crisis and an economic crisis simultaneously"
+    voice:
+      style: "Measured multilateral professionalism with occasional moral conviction; technocratic precision tempered by progressive values"
+      quotes:
+        - "Slovenia is a small country, but our commitment to collective defense is not small. Article 5 is not negotiable — it is the foundation on which two million Slovenians build their security. We will meet our obligations fully. But I also ask our larger allies to remember: security is not only about military force. Slovenia brings something to this crisis that tanks cannot provide — expertise in de-escalation, in OSCE mechanisms, in confidence-building. We have used these tools before. In 1991, the OSCE helped Slovenia achieve independence peacefully. These instruments work. Let us use them."
+        - "We recognized Palestine because it was right. We imposed an arms embargo on Israel because international law demanded it. And we will stand with our NATO allies now because collective defense is the principle that keeps the rules-based order alive. Slovenia does not choose principles selectively."
+        - "My government will not be a silent vote in the North Atlantic Council. We are small, yes. But our voice matters — and we will use it to ensure that diplomacy is not abandoned in the rush to respond. Every hour we buy through dialogue is an hour that may prevent nuclear escalation."
+        - "I spoke with the presidents of Croatia, Austria, and the Western Balkans partners this morning. The risk of a second front — of Russian destabilization in Bosnia or Serbia — is real and it is being monitored. Slovenia will not let the southeastern flank be forgotten."
     key_relationships:
-      allies: ["DE", "AT", "IT", "HR", "EU institutions", "OSCE"]
-      rivals: ["RU"]
+      allies: ["EU institutions (deep institutional ties from 2021 Presidency)", "AT (neighbor, economic partner, Alpine security coordination)", "IT (defense procurement partner — AW139M helicopters, air policing)", "HR (fellow ex-Yugoslav state, close bilateral ties)", "DE (political alignment, economic anchor)", "FI (Patria AMV XP procurement partnership)"]
+      rivals: ["RU (primary threat to European security order)", "Domestic opposition SDS (electoral challenger exploiting defense policy divisions)"]
+
+  - name: "Slovenian Armed Forces (SAF) — Chief of General Staff BG Bostjan Mocnik"
+    role: "military_realist"
+    personality: >
+      Brigadier General Bostjan Mocnik leads the Slovenian Armed Forces at a moment of
+      unprecedented modernization ambition colliding with persistent structural constraints.
+      The SAF is a professional, all-volunteer force of approximately 7,000 active personnel —
+      making it one of NATO's smallest military establishments, roughly comparable to Luxembourg
+      or Iceland (which has no military at all). Yet within these severe limitations, Mocnik
+      commands a force that has deployed continuously to NATO operations for over two decades:
+      KFOR in Kosovo since 2000 (currently approximately 100 troops, with authorization for
+      up to 370), NATO Mission Iraq, and critically, contributions to NATO's Forward Land
+      Forces in both Latvia and Slovakia. The SAF contingent in Slovakia — an infantry
+      reconnaissance platoon, Tactical Air Control Party (TACP) team, battlegroup headquarters
+      staff, and support elements — operates under Spain's framework nation lead alongside
+      Czech, Portuguese, and Romanian forces. This forward deployment, modest as it is, means
+      that Slovenian soldiers are already positioned on NATO's eastern flank and would be
+      directly affected by any escalation of the Suwalki crisis.
+
+      Mocnik's most pressing operational challenge is the modernization pipeline. The SAF's
+      ground combat capability is being transformed by two major procurement programs, both
+      of which are incomplete. The Patria AMV XP program — 106 8x8 armored vehicles equipped
+      with domestically developed Mangart 30 remote weapon stations mounting 30mm autocannons,
+      at an estimated EUR 695 million — would give the SAF its first genuine mechanized
+      infantry capability and constitute the largest military procurement in Slovenian history.
+      A letter of intent was signed with Finland in February 2025, but the contract itself
+      has been delayed past the March 2026 election due to political sensitivities around
+      defense spending and requirements for enhanced force protection including anti-drone
+      measures. This follows the cancellation of the earlier Boxer IFV program in 2022. The
+      second major program, six AW139M multi-role helicopters from Leonardo via Italy
+      (EUR 188 million, signed November 2023), will provide tactical transport, medevac,
+      search and rescue, and special operations support — replacing aging rotary-wing assets
+      and dramatically improving the SAF's operational flexibility.
+
+      The SAF operates without combat aircraft. Slovenia's airspace is policed by Italian and
+      Hungarian air forces under NATO's air policing arrangements, and there are no plans to
+      acquire fighter jets. The F-35 or any comparable platform is simply beyond Slovenia's
+      budget and force structure — a realistic assessment that Mocnik accepts as allowing
+      concentration of limited resources on ground and rotary-wing capabilities where Slovenia
+      can make a genuine contribution. The SAF's training base at Cerklje ob Krki hosts the
+      annual Adriatic Strike exercise, which in 2025 drew international participation and
+      demonstrated Slovenia's role in NATO close air support and joint terminal attack
+      controller (JTAC) training — an outsized contribution relative to the country's size.
+
+      Personnel recruitment and retention remain chronic challenges. The SAF struggles to
+      compete with civilian sector wages in an economy with low unemployment, and demographic
+      decline in a country of 2.1 million people limits the recruitment pool. Defense spending
+      at 1.53% of GDP in 2025 and 1.60% in 2026 is rising but remains well below the NATO
+      average, and the political turbulence of mid-2025 — when parliament briefly entertained
+      referendums on defense spending and NATO membership — sent a demoralizing signal to
+      serving personnel about political commitment to the force they serve. Mocnik's honest
+      assessment is that the SAF can fulfill its current NATO commitments, contribute
+      meaningfully to Forward Land Forces rotations and KFOR, and provide niche capabilities
+      (mountain warfare, JTAC, reconnaissance), but it cannot sustain large-scale deployments
+      or absorb significant casualties without allied support.
+
+      In the Suwalki crisis, Mocnik will provide the prime minister with a blunt operational
+      picture: the SAF can reinforce its Forward Land Forces contingents, maintain KFOR
+      commitments, activate territorial defense measures, and contribute specialist
+      capabilities. It cannot deploy a brigade or operate independently. Mocnik will advocate
+      for clear NATO tasking that matches Slovenian capabilities, for acceleration of the
+      Patria AMV XP procurement (which the crisis may finally push through political
+      resistance), and for honest alliance burden-sharing that recognizes what small forces
+      can and cannot do. He will resist any commitment that would hollow out the SAF's ability
+      to maintain its existing rotations, and he will insist that the Western Balkans — where
+      Slovenian troops serve in KFOR — is not stripped of attention as NATO focuses on the
+      Baltic theater.
+    priorities:
+      - "Reinforce SAF contingents in NATO Forward Land Forces Slovakia and Latvia — ensure Slovenian troops on the eastern flank are supported and sustained"
+      - "Maintain KFOR Kosovo deployment and Western Balkans monitoring — prevent a security vacuum that Russia could exploit as a second front"
+      - "Accelerate Patria AMV XP procurement — the Suwalki crisis demonstrates exactly why Slovenia needs mechanized infantry capability"
+      - "Activate territorial defense measures and protect critical infrastructure — Koper port, rail corridors, communications networks"
+      - "Provide honest capability assessment to political leadership — the SAF has 7,000 troops, not 70,000, and planning must reflect reality"
+      - "Offer niche capabilities to NATO: mountain warfare expertise, JTAC/close air support coordination (Adriatic Strike), reconnaissance platoons"
+    red_lines:
+      - "Commitments that exceed SAF capacity and hollow out existing deployments — Slovenia cannot rob Kosovo to reinforce the Baltics"
+      - "Political interference that uses the crisis to cancel or further delay the Patria AMV XP procurement — modernization is a security imperative"
+      - "NATO tasking that treats small allies as afterthoughts — Slovenia's contributions must be integrated into coherent operational planning"
+      - "Any scenario where Slovenian troops are deployed without adequate allied support, logistics, and air cover"
+    voice:
+      style: "Operationally blunt, professionally precise, pragmatic about limitations but proud of contributions"
+      quotes:
+        - "The Slovenian Armed Forces have 7,000 professional soldiers. That is not an apology — it is a fact, and facts are what military planning requires. Within those 7,000, we have soldiers in Kosovo, in Slovakia, in Latvia, and in Iraq. We are deployed. We are contributing. But I will not promise capabilities we do not have. What I can promise is that every Slovenian soldier deployed is trained, equipped, and ready."
+        - "The Patria AMV XP program is not a luxury — it is the difference between a force that can contribute to mechanized operations and one that cannot. I have been waiting for these vehicles since 2018, through one cancelled Boxer program and years of political delay. This crisis should end the debate. Approve the procurement."
+        - "Slovenia does not have combat aircraft and we do not pretend to. Our Italian and Hungarian allies police our airspace, and we are grateful. What we do have is mountain warfare expertise, JTAC-qualified controllers who train with allied air forces every year at Adriatic Strike, and reconnaissance soldiers who know the Balkans. Use us where we add value."
+        - "I visited our troops in Slovakia last month. They serve alongside Spaniards, Czechs, Portuguese, and Romanians in the Forward Land Forces battlegroup. They are professionals. They understand what Article 5 means — not as a political concept, but as a promise to the soldier standing next to you."
+    key_relationships:
+      allies: ["NATO SHAPE and Allied Command Operations (operational chain)", "ES (framework nation for FLF Slovakia battlegroup)", "IT & HU (air policing partners)", "FI (Patria AMV XP procurement and industrial cooperation)", "KFOR contributing nations"]
+      rivals: ["RU (primary threat)", "Domestic political actors who treat defense as expendable budget line"]
+
+  - name: "Opposition — Slovenian Democratic Party (SDS) & Janez Jansa"
+    role: "hawk"
+    personality: >
+      Janez Jansa is the most consequential political figure in Slovenian post-independence
+      history — and the most polarizing. Born in 1958 in Ljubljana, Jansa was a key figure
+      in Slovenia's independence movement: as defense minister in 1990-1994, he organized the
+      Slovenian Territorial Defense that fought the Ten-Day War against the Yugoslav People's
+      Army in June 1991, personally overseeing the military operations that secured Slovenian
+      sovereignty. This foundational role gives Jansa an unassailable claim to national defense
+      credibility that no other Slovenian politician can match. He has served as prime minister
+      three times (2004-2008, 2012-2013, 2020-2022), led SDS for over 33 consecutive years,
+      and has survived corruption charges (acquitted by court in April 2025), political exile,
+      and repeated predictions of his demise to remain the dominant figure on the Slovenian
+      center-right. SDS currently polls at 21-23%, leading Golob's Freedom Movement by
+      approximately five percentage points ahead of the 22 March 2026 election.
+
+      Jansa's approach to the Suwalki crisis is fundamentally different from Golob's. Where
+      Golob emphasizes diplomacy, OSCE mechanisms, and proportionate response, Jansa sees the
+      crisis as vindication of everything he has argued for decades: that small nations must
+      invest seriously in defense, that NATO membership requires genuine military capability
+      rather than free-riding, that Russia understands only strength, and that Slovenia's
+      progressive government has dangerously neglected the armed forces while pursuing
+      symbolic foreign policy gestures like Palestine recognition and the Israel arms embargo.
+      Jansa's criticism is pointed: Slovenia spends 1.53% of GDP on defense while committing
+      to 5% at NATO summits, the Patria AMV XP procurement has been delayed past the election
+      for political convenience, the coalition nearly held a referendum on NATO membership
+      itself, and the government has alienated Israel — a democracy and intelligence partner —
+      while claiming to defend the rules-based order. For Jansa, the Suwalki crisis exposes
+      the gap between Golob's rhetoric and Slovenia's actual readiness.
+
+      Jansa's domestic political calculation is inseparable from his strategic position. The
+      Suwalki crisis, occurring weeks before the March 2026 election, is an opportunity to
+      demonstrate that SDS is the party of national security and that Golob's coalition —
+      which includes the anti-NATO Left party — cannot be trusted with Slovenia's defense.
+      Jansa will demand immediate acceleration of defense procurement, unconditional support
+      for NATO military operations without the caveats and diplomatic hedging that Golob
+      prefers, increased SAF deployments to the eastern flank, and a clear public statement
+      that Slovenia stands with its allies without reservation. He will use every parliamentary
+      tool available to pressure the government, including public criticism of coalition
+      divisions and direct communication with allied conservative leaders.
+
+      Jansa's international network is extensive and ideologically distinct from Golob's.
+      He maintains close relationships with conservative and right-of-center leaders across
+      Europe, particularly in the Visegrad countries (Hungary's Viktor Orban has been a
+      long-standing ally, though this relationship has become complicated by Orban's Russia
+      stance), as well as with center-right parties in the European People's Party (EPP)
+      family. His Atlanticism is robust: Jansa supported NATO membership from its inception,
+      championed Slovenia's accession, and has consistently argued for meeting spending
+      targets. However, his domestic critics accuse him of authoritarian tendencies, media
+      hostility, and democratic backsliding during his third premiership (2020-2022), creating
+      a complex political profile: the strongest defense hawk in Slovenian politics, but one
+      whose democratic credentials are questioned by the same progressive establishment that
+      leads the current government.
+
+      In the Suwalki crisis, Jansa operates as a shadow defense establishment — the opposition
+      leader with more defense policy credibility than the sitting government, whose public
+      statements carry weight both domestically and within NATO. He will support Article 5
+      unconditionally, demand that Slovenia exceed its current military commitments, use the
+      crisis to campaign for SDS in the March election, and position himself as the leader
+      who would have prepared Slovenia properly for exactly this scenario. His voice carries
+      the authority of the man who organized Slovenia's own military defense in 1991 — a
+      biographical fact that no amount of political controversy can erase.
+    priorities:
+      - "Demand unconditional, unambiguous Slovenian support for NATO military response — no diplomatic hedging, no Levica-imposed caveats"
+      - "Pressure government to immediately approve Patria AMV XP procurement and accelerate all defense modernization programs"
+      - "Call for increased SAF deployment to NATO's eastern flank beyond current Forward Land Forces contingents"
+      - "Expose coalition divisions on defense — particularly Levica's anti-NATO positions — as a national security liability"
+      - "Position SDS as the party of national defense and Atlantic solidarity ahead of the 22 March 2026 parliamentary election"
+      - "Advocate for defense spending increases toward NATO targets without the hedging and delays that have characterized the Golob government"
+      - "Maintain communication channels with allied conservative leaders and EPP partners to ensure Slovenia's voice is heard"
+    red_lines:
+      - "Any wavering on Article 5 or conditional support for NATO operations — Slovenia's alliance commitment must be absolute and public"
+      - "Further delay of defense procurement for political convenience — the Patria AMV XP contract must be signed regardless of election timing"
+      - "Coalition compromise with Levica that dilutes Slovenia's NATO commitments or inserts anti-military caveats into alliance decisions"
+      - "Government foreign policy decisions (Palestine, Israel embargo) that alienate allies or weaken Slovenia's position within NATO at a moment of crisis"
+      - "Any scenario where Slovenia is perceived as a free-rider or unreliable ally — national credibility built since 2004 must not be squandered"
+    voice:
+      style: "Direct, combative, historically grounded, alternating between statesmanlike authority and sharp partisan attack"
+      quotes:
+        - "I organized the defense of this country in 1991 when we had no army, no allies, and no guarantee that we would survive. I know what it means to face a larger power with inadequate means. That is why I have spent thirty years arguing that Slovenia must invest in defense, must honor its NATO commitments, and must never take its security for granted. This crisis proves I was right."
+        - "The prime minister goes to The Hague and commits to 5% of GDP on defense, then comes home and cannot even get his own coalition to agree on 3%. His partner Levica wanted a referendum on NATO membership — on NATO membership! — while Russian forces mass on the Baltic frontier. This is not governance. This is theater."
+        - "Slovenia will stand with its allies. That is not a question for SDS. The question is whether this government — a government that includes a party that questions our NATO membership — can be trusted to deliver on that commitment. In three weeks, the Slovenian people will have a chance to answer that question."
+        - "I support every Slovenian soldier deployed to Slovakia, to Latvia, to Kosovo. They serve with distinction. But they deserve a government that gives them the equipment they need — the Patria vehicles, the helicopters, the modern systems — not a government that delays procurement because it fears the political cost. Sign the contract. Today."
+    key_relationships:
+      allies: ["NATO (institutional commitment since accession)", "EPP family (European center-right network)", "US (Atlanticist orientation, regardless of administration)", "PL, CZ, Baltic states (shared threat perception and defense commitment)"]
+      rivals: ["Golob government (primary domestic opponent)", "Levica / The Left (ideological adversary on defense and NATO)", "RU (primary external threat)", "HU under Orban (complicated — personal ties but divergent Russia policy)"]
