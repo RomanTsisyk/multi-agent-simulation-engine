@@ -8,6 +8,7 @@ debate and synthesises a unified national decision.
 
 from __future__ import annotations
 
+import asyncio
 import logging
 import re
 from dataclasses import dataclass, field
@@ -23,6 +24,58 @@ if TYPE_CHECKING:
 # ======================================================================
 # Configuration
 # ======================================================================
+
+# Phase-specific weight modifiers for dynamic faction influence
+_PHASE_MODIFIERS = {
+    "diplomatic": {
+        "hawk": 0.7,      # Hawks less influential during diplomacy
+        "diplomat": 1.5,   # Diplomats dominate
+        "pragmatist": 1.3, # Pragmatists relevant
+        "military_realist": 0.8,
+        "military realist": 0.8,
+        "wildcard": 1.0,
+        "intelligence": 1.0,
+        "economic": 1.2,   # Economic leverage matters
+        "hardliner": 0.7,
+        "dove": 1.3,
+    },
+    "hybrid": {
+        "hawk": 1.0,
+        "diplomat": 1.0,
+        "pragmatist": 1.0,
+        "military_realist": 1.2,
+        "military realist": 1.2,
+        "wildcard": 1.5,   # Wildcards thrive in ambiguity
+        "intelligence": 1.5, # Intelligence drives hybrid warfare
+        "economic": 0.8,
+        "hardliner": 1.2,
+        "dove": 0.7,
+    },
+    "conventional": {
+        "hawk": 1.2,
+        "diplomat": 0.8,
+        "pragmatist": 1.0,
+        "military_realist": 1.5,  # Military realists dominate conventional war
+        "military realist": 1.5,
+        "wildcard": 0.8,
+        "intelligence": 1.0,
+        "economic": 0.7,
+        "hardliner": 1.2,
+        "dove": 0.5,
+    },
+    "nuclear": {
+        "hawk": 0.5,       # Even hawks are cautious near nuclear threshold
+        "diplomat": 1.3,   # Diplomacy becomes critical
+        "pragmatist": 1.5, # Pragmatic calculation dominates
+        "military_realist": 1.0,
+        "military realist": 1.0,
+        "wildcard": 0.3,   # Wildcards suppressed - too dangerous
+        "intelligence": 1.0,
+        "economic": 0.5,
+        "hardliner": 0.3,  # Hardliners marginalized
+        "dove": 1.5,       # Doves gain voice near extinction
+    },
+}
 
 @dataclass
 class CountryConfig:
@@ -137,10 +190,12 @@ class Country:
         config: CountryConfig,
         factions: list[Faction],
         backend: LLMBackend,
+        max_tokens_per_response: int | None = None,
     ) -> None:
         self.config = config
         self.factions = factions
         self.backend = backend
+        self.max_tokens_per_response = max_tokens_per_response
         self.logger = logging.getLogger(f"country.{config.code}")
 
         # Build a lightweight synthesis agent that has no faction bias
@@ -156,6 +211,7 @@ class Country:
             ),
             backend=backend,
             temperature=0.4,  # low temp for deterministic summaries
+            max_tokens=max_tokens_per_response,
         )
 
     # ------------------------------------------------------------------
@@ -191,6 +247,10 @@ class Country:
             situation_briefing,
         )
 
+        # Detect crisis phase from world context for dynamic faction weights
+        crisis_phase = self._detect_crisis_phase(world_context)
+        self.logger.info("Crisis phase detected: %s", crisis_phase)
+
         # Reset all faction histories so each debate starts clean
         for faction in self.factions:
             faction.reset_history()
@@ -202,7 +262,7 @@ class Country:
             self.logger.info("Single faction -- skipping debate rounds")
             faction = self.factions[0]
             position = await faction.initial_position(
-                situation_briefing, world_context
+                situation_briefing, world_context, max_tokens=self.max_tokens_per_response
             )
             debate_log.append({
                 "round": 1,
@@ -212,14 +272,27 @@ class Country:
             })
         else:
             # -- Round 1: Initial positions ------------------------------------
+            # PARALLEL: Each faction speaks independently without seeing others
             self.logger.info("Round 1: Initial positions")
             round1_positions: dict[str, str] = {}
 
-            for faction in self.factions:
-                self.logger.debug("  Faction %s speaking...", faction.config.name)
-                position = await faction.initial_position(
-                    situation_briefing, world_context
+            tasks = [
+                faction.initial_position(
+                    situation_briefing, world_context, max_tokens=self.max_tokens_per_response
                 )
+                for faction in self.factions
+            ]
+            results = await asyncio.gather(*tasks, return_exceptions=True)
+
+            for faction, result in zip(self.factions, results):
+                if isinstance(result, Exception):
+                    self.logger.warning(
+                        "Faction %s failed in Round 1: %s", faction.config.name, result
+                    )
+                    position = f"[{faction.config.name} was unable to respond]"
+                else:
+                    position = result
+
                 round1_positions[faction.config.name] = position
                 debate_log.append({
                     "round": 1,
@@ -229,9 +302,11 @@ class Country:
                 })
 
             # -- Round 2: Rebuttal / cross-faction response --------------------
+            # PARALLEL: Each faction sees all Round 1 positions (no dependency between Round 2 responses)
             self.logger.info("Round 2: Rebuttal")
             round2_positions: dict[str, str] = {}
 
+            tasks = []
             for faction in self.factions:
                 # Gather all *other* factions' Round-1 positions
                 other_positions = [
@@ -240,12 +315,26 @@ class Country:
                     if name != faction.config.name
                 ]
 
-                self.logger.debug("  Faction %s responding...", faction.config.name)
-                rebuttal = await faction.debate_respond(
-                    topic=situation_briefing,
-                    other_positions=other_positions,
-                    world_context=world_context,
+                tasks.append(
+                    faction.debate_respond(
+                        topic=situation_briefing,
+                        other_positions=other_positions,
+                        world_context=world_context,
+                        max_tokens=self.max_tokens_per_response,
+                    )
                 )
+
+            results = await asyncio.gather(*tasks, return_exceptions=True)
+
+            for faction, result in zip(self.factions, results):
+                if isinstance(result, Exception):
+                    self.logger.warning(
+                        "Faction %s failed in Round 2: %s", faction.config.name, result
+                    )
+                    rebuttal = f"[{faction.config.name} was unable to respond]"
+                else:
+                    rebuttal = result
+
                 round2_positions[faction.config.name] = rebuttal
                 debate_log.append({
                     "round": 2,
@@ -255,21 +344,32 @@ class Country:
                 })
 
             # -- Round 3: Final statements ------------------------------------
+            # PARALLEL: Each faction sees the same full transcript (no dependency between Round 3 responses)
             self.logger.info("Round 3: Final statements")
 
             # Build a readable transcript of rounds 1-2 for context
             transcript_so_far = self._format_transcript(debate_log)
 
-            for faction in self.factions:
-                self.logger.debug(
-                    "  Faction %s delivering final statement...",
-                    faction.config.name,
-                )
-                final = await faction.final_statement(
+            tasks = [
+                faction.final_statement(
                     topic=situation_briefing,
                     debate_history=transcript_so_far,
                     world_context=world_context,
+                    max_tokens=self.max_tokens_per_response,
                 )
+                for faction in self.factions
+            ]
+            results = await asyncio.gather(*tasks, return_exceptions=True)
+
+            for faction, result in zip(self.factions, results):
+                if isinstance(result, Exception):
+                    self.logger.warning(
+                        "Faction %s failed in Round 3: %s", faction.config.name, result
+                    )
+                    final = f"[{faction.config.name} was unable to respond]"
+                else:
+                    final = result
+
                 debate_log.append({
                     "round": 3,
                     "faction": faction.config.name,
@@ -279,7 +379,7 @@ class Country:
 
         # -- Synthesis: distil into a unified decision ---------------------
         self.logger.info("Synthesising debate into decision...")
-        decision_raw = await self._synthesise(debate_log, world_context)
+        decision_raw = await self._synthesise(debate_log, world_context, crisis_phase)
 
         decision, actions, dissent, diplomatic_messages = self._parse_synthesis(decision_raw)
 
@@ -375,6 +475,77 @@ class Country:
         raise KeyError(f"No faction named {name!r} in country {self.config.code}")
 
     @staticmethod
+    def _detect_crisis_phase(world_context: str) -> str:
+        """Detect the current crisis phase from world context keywords.
+
+        Phases are detected in priority order (most severe first):
+        1. nuclear: Nuclear threats, launch readiness, tactical weapons
+        2. conventional: Active combat, military operations, attacks
+        3. hybrid: Cyber warfare, disinformation, false flags
+        4. diplomatic: Default state, negotiations, talks
+
+        Args:
+            world_context: Current world state description.
+
+        Returns:
+            One of "nuclear", "conventional", "hybrid", "diplomatic".
+        """
+        context_lower = world_context.lower()
+
+        # Nuclear indicators (highest priority)
+        nuclear_keywords = [
+            "nuclear",
+            "launch_ready",
+            "launch ready",
+            "tactical_use",
+            "tactical use",
+            "strategic weapons",
+            "icbm",
+            "defcon",
+            "warhead",
+            "nuclear threshold",
+        ]
+        if any(keyword in context_lower for keyword in nuclear_keywords):
+            return "nuclear"
+
+        # Conventional warfare indicators
+        conventional_keywords = [
+            "combat",
+            "offensive",
+            "attack",
+            "military operation",
+            "invasion",
+            "troops deployed",
+            "air strike",
+            "ground forces",
+            "artillery",
+            "tank",
+            "bombing",
+            "casualties",
+        ]
+        if any(keyword in context_lower for keyword in conventional_keywords):
+            return "conventional"
+
+        # Hybrid warfare indicators
+        hybrid_keywords = [
+            "cyber",
+            "disinformation",
+            "hybrid",
+            "false flag",
+            "little green men",
+            "proxy",
+            "sabotage",
+            "covert",
+            "special operations",
+            "information warfare",
+        ]
+        if any(keyword in context_lower for keyword in hybrid_keywords):
+            return "hybrid"
+
+        # Default to diplomatic phase
+        return "diplomatic"
+
+    @staticmethod
     def _format_transcript(debate_log: list[dict[str, str]]) -> str:
         """Render a debate log into a human-readable transcript string."""
         lines: list[str] = []
@@ -392,14 +563,23 @@ class Country:
             )
         return "\n".join(lines)
 
-    def _compute_faction_weights(self) -> str:
-        """Compute influence weights for each faction based on role.
+    def _compute_faction_weights(self, crisis_phase: str = "conventional") -> str:
+        """Compute influence weights for each faction based on role and crisis phase.
 
-        During a military crisis, military and hawk factions gain influence.
-        During peacetime or diplomacy-heavy phases, diplomats gain influence.
-        This is a heuristic based on role archetypes.
+        Weights are dynamically adjusted based on the current crisis phase:
+        - diplomatic: Diplomats and economic advisors gain influence
+        - hybrid: Intelligence and wildcards thrive in ambiguity
+        - conventional: Military realists and hawks dominate
+        - nuclear: Pragmatists and doves gain voice, wildcards suppressed
+
+        Args:
+            crisis_phase: One of "diplomatic", "hybrid", "conventional", "nuclear".
+
+        Returns:
+            Formatted string describing faction weights for the synthesis prompt.
         """
-        role_weights = {
+        # Base weights by role
+        base_weights = {
             "hawk": 3,
             "military_realist": 3,
             "military realist": 3,
@@ -408,26 +588,47 @@ class Country:
             "wildcard": 1,
             "intelligence": 1,
             "economic": 1,
+            "hardliner": 2,
+            "dove": 1,
         }
+
+        # Get phase modifiers, default to conventional if phase unknown
+        phase_modifiers = _PHASE_MODIFIERS.get(crisis_phase, _PHASE_MODIFIERS["conventional"])
+
         lines = []
         for f in self.factions:
             role = f.config.role.lower()
-            weight = role_weights.get(role, 2)
-            lines.append(f"  - {f.config.name} ({f.config.role}): influence weight {weight}/3")
+            base_weight = base_weights.get(role, 2)
+            modifier = phase_modifiers.get(role, 1.0)
+            final_weight = base_weight * modifier
+
+            lines.append(
+                f"  - {f.config.name} ({f.config.role}): "
+                f"influence weight {final_weight:.1f} "
+                f"(base {base_weight} × phase modifier {modifier})"
+            )
+
         if lines:
             return (
-                "Faction influence weights (higher = more influence on final decision):\n"
+                f"Crisis phase: {crisis_phase.upper()}\n"
+                f"Faction influence weights (higher = more influence on final decision):\n"
                 + "\n".join(lines)
             )
         return ""
 
     async def _synthesise(
-        self, debate_log: list[dict[str, str]], world_context: str
+        self, debate_log: list[dict[str, str]], world_context: str, crisis_phase: str
     ) -> str:
-        """Ask the synthesis agent to distil the debate into a decision."""
+        """Ask the synthesis agent to distil the debate into a decision.
+
+        Args:
+            debate_log: Full debate transcript as list of dicts.
+            world_context: Current world state.
+            crisis_phase: Detected crisis phase (affects faction weights).
+        """
         self._synthesiser.reset_history()
 
-        faction_weights_text = self._compute_faction_weights()
+        faction_weights_text = self._compute_faction_weights(crisis_phase)
         system_prompt = _SYNTHESIS_SYSTEM_PROMPT.format(
             country_name=self.config.name,
             country_code=self.config.code,

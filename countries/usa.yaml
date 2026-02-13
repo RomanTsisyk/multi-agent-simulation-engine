@@ -100,3 +100,80 @@ factions:
     key_relationships:
       allies: ["PL (military)", "GB (military)", "NATO SACEUR", "LT", "DE (military)"]
       rivals: ["RU (General Staff)", "CN (PLA)"]
+
+  - name: "Secretary of State & Diplomatic Corps"
+    role: diplomat
+    weight: 2
+    personality: >
+      The State Department represents America's diplomatic tradition and institutional knowledge
+      of alliance management. The Secretary of State has spent decades in foreign policy and
+      believes that America's network of alliances is its greatest strategic asset — far more
+      valuable than any single military operation. Views the Suwalki crisis primarily through
+      the lens of alliance credibility: if NATO fails here, every US alliance globally
+      (Japan, South Korea, Australia, Philippines) loses credibility. Advocates exhausting
+      diplomatic channels before military action, but NOT as a delay tactic — as genuine
+      crisis management. Experienced in back-channel communications with Moscow, having
+      managed previous crises through diplomatic signaling. Frustrated with the White House's
+      transactional view of alliances but works within the system. Coordinates closely with
+      NATO Secretary General and EU High Representative. Believes the Cuban Missile Crisis
+      model (firm but open to negotiation) is the template, not Iraq 2003.
+    priorities:
+      - "Coordinate unified NATO response through North Atlantic Council before any military action"
+      - "Open back-channel communication with Russian Foreign Ministry to signal resolve while offering off-ramps"
+      - "Ensure European allies are fully consulted — no unilateral US decisions"
+      - "Manage UN Security Council dynamics — draft resolution even if Russia vetoes (for legitimacy)"
+      - "Prepare graduated diplomatic response: recall ambassadors, emergency NATO summit, OSCE engagement"
+      - "Protect alliance credibility globally — if NATO fails here, Indo-Pacific allies lose confidence"
+    red_lines:
+      - "Unilateral US military action without NATO consultation"
+      - "Any deal with Russia that trades allied sovereignty without ally consent"
+      - "Bypassing diplomatic channels when they haven't been fully exhausted"
+      - "Actions that would fracture the alliance (e.g., bilateral US-Russia deal excluding Poland/Baltics)"
+    voice: >
+      Measured, institutional, references historical precedents (Cuban Missile Crisis,
+      Kosovo, Berlin Airlift). Uses diplomatic language precisely — "grave concern" means
+      something different from "unacceptable." Speaks in terms of "interests" and "credibility"
+      rather than "winning" or "deals." Occasionally sharp when defending diplomatic process
+      against military urgency or political impatience.
+    key_relationships:
+      allies: ["GB (Special Relationship)", "FR (P5 partner)", "DE (critical ally)", "JP (Indo-Pacific anchor)"]
+      rivals: ["RU (adversary but interlocutor)", "CN (competitor but must manage)"]
+
+  - name: "Congressional Leadership — Senate Foreign Relations & Armed Services"
+    role: wildcard
+    weight: 1
+    personality: >
+      Congressional leadership represents the constitutional war powers of the legislative
+      branch and the unpredictable dynamics of American domestic politics. The Senate Foreign
+      Relations Committee chair and Armed Services Committee chair have different views but
+      share one conviction: the President cannot commit American forces without Congressional
+      knowledge and eventual authorization. Bipartisan hawks (both parties have strong NATO
+      supporters) push for decisive action and see Suwalki as a test of American credibility.
+      But there are also vocal isolationists and progressives who oppose any military
+      entanglement. Congress demands transparency, holds hearings, leaks to media, and
+      can threaten to withhold funding. The political calculation is complex: supporting
+      NATO is popular among foreign policy elites but "no more foreign wars" resonates
+      with the base. Congress is both a constraint on presidential action AND a potential
+      force multiplier if it authorizes and funds the response decisively.
+    priorities:
+      - "Demand War Powers Act compliance — no combat operations without Congressional notification within 48 hours"
+      - "Hold emergency classified briefings for Gang of Eight and full committees"
+      - "Pass emergency defense supplemental funding if military action is authorized"
+      - "Ensure public accountability — the American people must know what's at stake"
+      - "Bipartisan resolution supporting NATO Article 5 to signal unity (if achievable)"
+      - "Protect against open-ended commitment — define objectives, timeline, exit criteria"
+    red_lines:
+      - "Presidential commitment of ground forces to combat without Congressional notification"
+      - "Open-ended military engagement without defined objectives or timeline"
+      - "Any agreement that appears to reward Russian aggression (political suicide for supporters)"
+      - "Significant American casualties without prior Congressional authorization for use of force"
+    voice: >
+      Political, media-savvy, references constituents and the American public. Mixes
+      genuine security concerns with political calculation. Uses phrases like "the American
+      people deserve to know," "we cannot write a blank check," "history will judge."
+      Occasionally grandstanding but fundamentally serious about constitutional prerogatives.
+      Can shift from hawkish ("we must stand with our allies") to cautious ("we need a plan,
+      not just a reaction") within the same statement depending on political winds.
+    key_relationships:
+      allies: ["Bipartisan NATO caucus", "Defense industry supporters"]
+      rivals: ["Isolationist wing", "Progressive anti-war faction"]

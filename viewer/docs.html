@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WarGame — Documentation</title>
+<style>
+:root {
+  --bg-primary: #0d1117;
+  --bg-secondary: #161b22;
+  --bg-tertiary: #21262d;
+  --bg-hover: #30363d;
+  --border: #30363d;
+  --border-light: #484f58;
+  --text-primary: #e6edf3;
+  --text-secondary: #8b949e;
+  --text-muted: #6e7681;
+  --accent-blue: #58a6ff;
+  --accent-green: #3fb950;
+  --accent-red: #f85149;
+  --accent-orange: #d29922;
+  --accent-purple: #bc8cff;
+  --accent-cyan: #39d2c0;
+  --accent-yellow: #e3b341;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.7;
+}
+a { color: var(--accent-blue); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* ---- Header ---- */
+.hero {
+  background: linear-gradient(135deg, #1a1e2e 0%, #0d1117 60%, #111827 100%);
+  border-bottom: 1px solid var(--border);
+  padding: 48px 32px 40px;
+  text-align: center;
+}
+.hero h1 { font-size: 36px; font-weight: 800; letter-spacing: 1px; margin-bottom: 8px; }
+.hero .subtitle { font-size: 16px; color: var(--text-secondary); max-width: 700px; margin: 0 auto 20px; }
+.hero .badges { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+.badge {
+  font-size: 11px; font-weight: 600; padding: 4px 10px; border-radius: 12px;
+  text-transform: uppercase; letter-spacing: 0.5px;
+}
+.badge-red { background: var(--accent-red); color: #fff; }
+.badge-blue { background: #1f6feb; color: #fff; }
+.badge-green { background: #238636; color: #fff; }
+.badge-purple { background: #8957e5; color: #fff; }
+.badge-orange { background: #9e6a03; color: #fff; }
+.back-link {
+  position: absolute; top: 20px; left: 24px;
+  color: var(--text-secondary); font-size: 13px;
+}
+
+/* ---- Navigation ---- */
+.nav-bar {
+  position: sticky; top: 0; z-index: 100;
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border);
+  padding: 0 24px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.nav-bar a {
+  display: inline-block; padding: 12px 16px;
+  font-size: 13px; font-weight: 500;
+  color: var(--text-secondary);
+  border-bottom: 2px solid transparent;
+  transition: all 0.15s;
+}
+.nav-bar a:hover { color: var(--text-primary); text-decoration: none; }
+.nav-bar a.active { color: var(--accent-blue); border-bottom-color: var(--accent-blue); }
+
+/* ---- Content ---- */
+.container { max-width: 1100px; margin: 0 auto; padding: 32px 24px 80px; }
+section { margin-bottom: 48px; scroll-margin-top: 60px; }
+h2 {
+  font-size: 24px; font-weight: 700; margin-bottom: 16px;
+  padding-bottom: 8px; border-bottom: 1px solid var(--border);
+  color: var(--accent-blue);
+}
+h3 { font-size: 18px; font-weight: 600; margin: 24px 0 10px; color: var(--text-primary); }
+h4 { font-size: 15px; font-weight: 600; margin: 16px 0 8px; color: var(--accent-cyan); }
+p { margin-bottom: 12px; color: var(--text-secondary); }
+ul, ol { margin: 8px 0 16px 24px; color: var(--text-secondary); }
+li { margin-bottom: 4px; }
+strong { color: var(--text-primary); }
+
+/* ---- Code ---- */
+code {
+  font-family: "SF Mono", "Fira Code", Consolas, monospace;
+  background: var(--bg-tertiary); padding: 2px 6px; border-radius: 4px;
+  font-size: 13px; color: var(--accent-orange);
+}
+pre {
+  background: var(--bg-secondary); border: 1px solid var(--border);
+  border-radius: 8px; padding: 16px 20px; margin: 12px 0 20px;
+  overflow-x: auto; font-size: 13px; line-height: 1.5;
+}
+pre code { background: none; padding: 0; color: var(--text-primary); }
+
+/* ---- Tables ---- */
+.table-wrap { overflow-x: auto; margin: 12px 0 20px; }
+table {
+  width: 100%; border-collapse: collapse;
+  font-size: 13px;
+}
+th {
+  text-align: left; padding: 10px 12px;
+  background: var(--bg-tertiary); color: var(--text-primary);
+  font-weight: 600; border-bottom: 2px solid var(--border);
+  position: sticky; top: 48px;
+}
+td {
+  padding: 8px 12px; border-bottom: 1px solid var(--border);
+  color: var(--text-secondary);
+}
+tr:hover td { background: var(--bg-secondary); }
+.nuclear { color: var(--accent-red); font-weight: 600; }
+.strength-high { color: var(--accent-green); }
+.strength-mid { color: var(--accent-orange); }
+.strength-low { color: var(--text-muted); }
+
+/* ---- Cards ---- */
+.card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; margin: 16px 0; }
+.card {
+  background: var(--bg-secondary); border: 1px solid var(--border);
+  border-radius: 8px; padding: 16px 20px;
+}
+.card h4 { margin: 0 0 8px; color: var(--accent-cyan); }
+.card p { font-size: 13px; margin-bottom: 8px; }
+
+/* ---- Bloc sections ---- */
+.bloc-header {
+  display: flex; align-items: center; gap: 12px;
+  margin: 28px 0 12px; padding: 10px 16px;
+  background: var(--bg-secondary); border-left: 4px solid var(--accent-blue);
+  border-radius: 0 6px 6px 0;
+}
+.bloc-header.nato { border-left-color: var(--accent-blue); }
+.bloc-header.russian { border-left-color: var(--accent-red); }
+.bloc-header.global { border-left-color: var(--accent-green); }
+.bloc-header.org { border-left-color: var(--accent-purple); }
+.bloc-header h3 { margin: 0; font-size: 16px; }
+.bloc-header .bloc-desc { font-size: 12px; color: var(--text-muted); margin-left: auto; }
+
+/* ---- Diagram ---- */
+.diagram {
+  background: var(--bg-secondary); border: 1px solid var(--border);
+  border-radius: 8px; padding: 20px; margin: 16px 0;
+  font-family: "SF Mono", Consolas, monospace; font-size: 12px;
+  line-height: 1.4; overflow-x: auto; white-space: pre;
+  color: var(--text-secondary);
+}
+
+/* ---- Collapsible ---- */
+details {
+  background: var(--bg-secondary); border: 1px solid var(--border);
+  border-radius: 8px; margin: 8px 0;
+}
+details summary {
+  padding: 12px 16px; cursor: pointer; font-weight: 600;
+  color: var(--text-primary); font-size: 14px;
+  list-style: none;
+}
+details summary::before { content: "\25B6  "; font-size: 10px; color: var(--text-muted); }
+details[open] summary::before { content: "\25BC  "; }
+details .details-body { padding: 0 16px 16px; }
+
+/* ---- Responsive ---- */
+@media (max-width: 768px) {
+  .hero { padding: 32px 16px 28px; }
+  .hero h1 { font-size: 24px; }
+  .container { padding: 20px 16px 60px; }
+  .card-grid { grid-template-columns: 1fr; }
+  th, td { padding: 6px 8px; font-size: 12px; }
+}
+@media (min-width: 1400px) {
+  .card-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* ---- Stat boxes ---- */
+.stat-row { display: flex; gap: 16px; flex-wrap: wrap; margin: 16px 0; }
+.stat-box {
+  flex: 1; min-width: 140px;
+  background: var(--bg-secondary); border: 1px solid var(--border);
+  border-radius: 8px; padding: 16px; text-align: center;
+}
+.stat-box .num { font-size: 28px; font-weight: 700; color: var(--accent-blue); }
+.stat-box .label { font-size: 12px; color: var(--text-muted); margin-top: 4px; }
+
+/* ---- Flowchart ---- */
+.flow-step {
+  display: flex; align-items: flex-start; gap: 16px;
+  margin: 12px 0; padding: 12px 16px;
+  background: var(--bg-secondary); border-radius: 8px;
+  border-left: 3px solid var(--accent-blue);
+}
+.flow-step .step-num {
+  min-width: 28px; height: 28px; line-height: 28px;
+  text-align: center; border-radius: 50%;
+  background: var(--accent-blue); color: #fff;
+  font-size: 13px; font-weight: 700;
+}
+.flow-step .step-body { flex: 1; }
+.flow-step .step-body strong { display: block; margin-bottom: 2px; }
+.flow-step .step-body p { font-size: 13px; margin: 0; }
+</style>
+</head>
+<body>
+
+<!-- ============================================================ -->
+<!-- HERO -->
+<!-- ============================================================ -->
+<div class="hero" style="position:relative;">
+  <a href="/" class="back-link">&larr; Back to Viewer</a>
+  <h1>WarGame</h1>
+  <p class="subtitle">Multi-agent AI geopolitical wargame simulation. 66 countries, 10 organizations, faction-based debates, LLM-powered Game Master.</p>
+  <div class="badges">
+    <span class="badge badge-red">Suwalki Gap Crisis 2026</span>
+    <span class="badge badge-blue">66 Countries</span>
+    <span class="badge badge-green">10 Organizations</span>
+    <span class="badge badge-purple">~104 Factions</span>
+    <span class="badge badge-orange">Ollama / DeepSeek</span>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- NAV BAR -->
+<!-- ============================================================ -->
+<nav class="nav-bar" id="navBar">
+  <a href="#overview">Overview</a>
+  <a href="#quickstart">Quick Start</a>
+  <a href="#config">Configuration</a>
+  <a href="#engine">Engine</a>
+  <a href="#agents">Agents</a>
+  <a href="#scenario">Scenario</a>
+  <a href="#countries">Countries &amp; Blocs</a>
+  <a href="#orgs">Organizations</a>
+  <a href="#viewer">Viewer</a>
+  <a href="#dev">Developer Guide</a>
+</nav>
+
+<div class="container">
+
+<!-- ============================================================ -->
+<!-- OVERVIEW -->
+<!-- ============================================================ -->
+<section id="overview">
+<h2>Overview</h2>
+
+<p>WarGame is a multi-agent AI simulation of the <strong>Suwalki Gap Crisis</strong> &mdash; a geopolitical flashpoint where Russia attempts to open a land corridor from Belarus to Kaliningrad through Lithuanian territory. Each country is played by an LLM-powered agent with multiple internal factions that debate policy before producing unified decisions. An impartial Game Master adjudicates all actions simultaneously.</p>
+
+<div class="stat-row">
+  <div class="stat-box"><div class="num">66</div><div class="label">Countries</div></div>
+  <div class="stat-box"><div class="num">10</div><div class="label">Organizations</div></div>
+  <div class="stat-box"><div class="num">~104</div><div class="label">Factions</div></div>
+  <div class="stat-box"><div class="num">9</div><div class="label">Nuclear Powers</div></div>
+  <div class="stat-box"><div class="num">3</div><div class="label">Debate Rounds</div></div>
+</div>
+
+<h3>Key Features</h3>
+<ul>
+  <li><strong>Realistic faction debates</strong> &mdash; hawks, doves, diplomats, military realists argue before each country acts</li>
+  <li><strong>Anti-groupthink mechanisms</strong> &mdash; mandatory disagreement, red-line defense, forced risk identification</li>
+  <li><strong>Fog of war</strong> &mdash; intelligence briefings contain deliberate inaccuracies and gaps</li>
+  <li><strong>Cascading world effects</strong> &mdash; oil prices, NATO alert levels, morale, sanctions propagate automatically</li>
+  <li><strong>Nuclear escalation ladder</strong> &mdash; peacetime &rarr; elevated &rarr; dispersal &rarr; launch_ready &rarr; tactical_use</li>
+  <li><strong>Cross-round memory</strong> &mdash; each round references previous developments for narrative continuity</li>
+  <li><strong>Dark-themed web viewer</strong> with real-time auto-refresh, charts, and per-country debate logs</li>
+  <li><strong>Local or cloud LLMs</strong> &mdash; Ollama (free, local GPU) or DeepSeek API ($2-3/game)</li>
+</ul>
+
+<h3>System Requirements</h3>
+<ul>
+  <li>macOS or Linux (tested on Mac Studio M2 Ultra 64GB)</li>
+  <li>Python 3.12+</li>
+  <li><strong>Ollama</strong> (for local inference) or <strong>DeepSeek API key</strong> (for cloud)</li>
+  <li>~20GB disk for model download (Ollama)</li>
+  <li>Recommended: 64GB+ RAM for 32B parameter models</li>
+</ul>
+</section>
+
+<!-- ============================================================ -->
+<!-- QUICK START -->
+<!-- ============================================================ -->
+<section id="quickstart">
+<h2>Quick Start</h2>
+
+<h3>1. Install Dependencies</h3>
+<pre><code>pip install aiohttp pyyaml   # or: pip3 install aiohttp pyyaml</code></pre>
+
+<h3>2. Set Up LLM Backend</h3>
+
+<h4>Option A: Ollama (Local, Free)</h4>
+<pre><code># Install Ollama: https://ollama.ai
+ollama pull deepseek-r1:32b          # Download model (~20GB)
+ollama serve                          # Start server (default port 11434)
+
+# For parallel processing (recommended):
+OLLAMA_NUM_PARALLEL=4 ollama serve</code></pre>
+
+<h4>Option B: DeepSeek API (Cloud, Fast)</h4>
+<pre><code>export DEEPSEEK_API_KEY=your_key_here</code></pre>
+
+<h3>3. Run the Game</h3>
+<pre><code># Quick test (2 rounds, 4 countries)
+python3 run.py --rounds 2 --countries PL RU US DE
+
+# Key NATO vs Russia players (5 rounds)
+python3 run.py --rounds 5 --countries PL RU US DE FR GB LT
+
+# Full scenario (10 rounds, 20 countries)
+python3 run.py
+
+# Cloud backend
+python3 run.py --backend deepseek</code></pre>
+
+<h3>4. View Results</h3>
+<pre><code>python3 serve.py                     # Start viewer on port 8080
+open http://localhost:8080            # Open in browser</code></pre>
+
+<h3>CLI Arguments</h3>
+<div class="table-wrap">
+<table>
+<tr><th>Flag</th><th>Default</th><th>Description</th></tr>
+<tr><td><code>--config PATH</code></td><td>config.yaml</td><td>Custom config file path</td></tr>
+<tr><td><code>--rounds N</code></td><td>10</td><td>Number of game rounds</td></tr>
+<tr><td><code>--backend NAME</code></td><td>ollama</td><td>LLM backend: <code>ollama</code> or <code>deepseek</code></td></tr>
+<tr><td><code>--model NAME</code></td><td>deepseek-r1:32b</td><td>Model override (e.g. <code>qwen3:32b</code>, <code>llama3.3:70b</code>)</td></tr>
+<tr><td><code>--countries XX YY</code></td><td>(all)</td><td>Only include specific country codes</td></tr>
+</table>
+</div>
+</section>
+
+<!-- ============================================================ -->
+<!-- CONFIGURATION -->
+<!-- ============================================================ -->
+<section id="config">
+<h2>Configuration</h2>
+<p>All settings live in <code>config.yaml</code> at the project root.</p>
+
+<pre><code>game:
+  name: "Suwalki Gap Crisis"
+  scenario: "scenarios/suwalki_gap.yaml"
+  rounds: 10
+  countries_dir: "countries"
+  logs_dir: "logs"
+
+llm:
+  backend: "ollama"                     # "ollama" or "deepseek"
+
+  ollama:
+    base_url: "http://localhost:11434"
+    model: "deepseek-r1:32b"
+    temperature: 0.7                    # Higher = more creative
+    timeout: 300                        # Seconds per LLM call
+    num_ctx: 16384                      # Context window (tokens)
+    max_concurrent: 4                   # Parallel requests
+
+  deepseek:
+    base_url: "https://api.deepseek.com/v1"
+    model: "deepseek-chat"              # or "deepseek-reasoner"
+    temperature: 0.7
+    max_concurrent: 10
+    timeout: 120
+    # API key via DEEPSEEK_API_KEY env var
+
+debate:
+  rounds: 3                             # Internal faction debate rounds
+  max_tokens_per_response: 500          # Token limit per faction
+
+game_master:
+  max_tokens: 2000                      # GM gets more tokens for resolution</code></pre>
+
+<h3>Backend Comparison</h3>
+<div class="table-wrap">
+<table>
+<tr><th></th><th>Ollama (Local)</th><th>DeepSeek (Cloud)</th></tr>
+<tr><td><strong>Cost</strong></td><td>Free (GPU power only)</td><td>~$2-3 per full game</td></tr>
+<tr><td><strong>Speed</strong></td><td>15-22 tok/s (32B model)</td><td>Much faster (parallel)</td></tr>
+<tr><td><strong>Full game time</strong></td><td>~2-4 hours</td><td>~15 minutes</td></tr>
+<tr><td><strong>Privacy</strong></td><td>Fully local</td><td>Data sent to API</td></tr>
+<tr><td><strong>Parallel</strong></td><td>With OLLAMA_NUM_PARALLEL</td><td>Native (semaphore limited)</td></tr>
+<tr><td><strong>Models</strong></td><td>Any Ollama model</td><td>deepseek-chat, deepseek-reasoner</td></tr>
+</table>
+</div>
+
+<h3>Recommended Ollama Models</h3>
+<div class="table-wrap">
+<table>
+<tr><th>Model</th><th>Speed</th><th>RAM</th><th>Quality</th></tr>
+<tr><td><code>deepseek-r1:32b</code></td><td>15-22 tok/s</td><td>~24GB</td><td>Best reasoning</td></tr>
+<tr><td><code>qwen3:32b</code></td><td>15-22 tok/s</td><td>~24GB</td><td>Good general</td></tr>
+<tr><td><code>llama3.3:70b-q4</code></td><td>8-12 tok/s</td><td>~48GB</td><td>Great quality</td></tr>
+<tr><td><code>deepseek-r1:14b</code></td><td>25-35 tok/s</td><td>~12GB</td><td>Decent (budget)</td></tr>
+</table>
+</div>
+</section>
+
+<!-- ============================================================ -->
+<!-- ENGINE -->
+<!-- ============================================================ -->
+<section id="engine">
+<h2>Engine Architecture</h2>
+
+<h3>Game Loop</h3>
+<p>Each round represents <strong>12 hours of game time</strong>. The engine runs these steps sequentially:</p>
+
+<div class="flow-step"><div class="step-num">1</div><div class="step-body"><strong>Situation Briefing</strong><p>Game Master generates a narrative briefing based on current world state and previous round summary.</p></div></div>
+<div class="flow-step"><div class="step-num">2</div><div class="step-body"><strong>Private Intelligence</strong><p>Each country receives tailored intelligence with fog-of-war (deliberate inaccuracies, confidence levels, gaps).</p></div></div>
+<div class="flow-step"><div class="step-num">3</div><div class="step-body"><strong>Faction Debate (3 rounds)</strong><p>Round 1: Initial positions. Round 2: Rebuttals with mandatory disagreement. Round 3: Final synthesis with risk identification.</p></div></div>
+<div class="flow-step"><div class="step-num">4</div><div class="step-body"><strong>Unified Decision</strong><p>Country agent synthesizes the debate into 1-3 concrete actions + diplomatic messages.</p></div></div>
+<div class="flow-step"><div class="step-num">5</div><div class="step-body"><strong>GM Resolution</strong><p>Game Master simultaneously resolves all country actions, checking for conflicts, realism, force ratios.</p></div></div>
+<div class="flow-step"><div class="step-num">6</div><div class="step-body"><strong>World State Update</strong><p>Cascading effects: markets, morale, supply, NATO alert, nuclear posture, sanctions auto-propagate.</p></div></div>
+<div class="flow-step"><div class="step-num">7</div><div class="step-body"><strong>End Condition Check</strong><p>Check for Russian corridor hold, NATO liberation, ceasefire, nuclear detonation, or NATO collapse.</p></div></div>
+
+<h3>Architecture Diagram</h3>
+<div class="diagram">
+run.py (CLI)
+  |
+  +--&gt; config.yaml + scenario YAML + country YAMLs
+  |
+  +--&gt; Game (engine/game.py)
+        |
+        +--&gt; GameMaster (engine/game_master.py)
+        |     |-- generate_situation_briefing()
+        |     |-- generate_private_intel()
+        |     +-- resolve_round()
+        |
+        +--&gt; Country[] (agents/country.py)
+        |     |-- Faction[] (agents/faction.py)
+        |     |     |-- initial_position()
+        |     |     |-- debate_respond()
+        |     |     +-- final_statement()
+        |     +-- synthesize_decision()
+        |
+        +--&gt; WorldState (engine/world_state.py)
+        |     |-- apply_gm_updates()
+        |     +-- apply_cascading_effects()
+        |
+        +--&gt; RoundLogger (engine/round_logger.py)
+        |     +-- logs/game_YYYYMMDD_HHMMSS/round_NNN.json
+        |
+        +--&gt; LLMBackend (backends/)
+              |-- OllamaBackend (ollama_backend.py)
+              +-- DeepSeekBackend (deepseek_backend.py)
+</div>
+
+<h3>World State Fields</h3>
+<details>
+<summary>Military</summary>
+<div class="details-body">
+<ul>
+  <li><code>military_units</code> &mdash; List of all deployed units (name, country, type, location, readiness 1-10, strength 1-10, casualties, supply_level 1-10, morale 1-10)</li>
+  <li><code>military_alerts</code> &mdash; Per-country alert levels</li>
+  <li><code>corridor_control</code> &mdash; "russian", "nato", or "contested"</li>
+</ul>
+<h4>Logistics &amp; Attrition Rules</h4>
+<ul>
+  <li>Units in combat lose supply_level by 1-2 per round</li>
+  <li>Supply &le; 3 &rarr; -1 readiness per round</li>
+  <li>Supply &le; 1 &rarr; cannot conduct offensive operations</li>
+  <li>Casualties &ge; 2 &rarr; -1 morale per 2 casualty points (delta-based, not compounding)</li>
+  <li>Morale &lt; 3 &rarr; risk of unit refusing orders</li>
+</ul>
+</div>
+</details>
+
+<details>
+<summary>Economic</summary>
+<div class="details-body">
+<ul>
+  <li><code>markets</code> &mdash; oil_price, euro_usd, gas_price_eu, stock_indices</li>
+  <li><code>sanctions</code> &mdash; List of {from, target, type} (auto-deduplicated)</li>
+  <li><code>trade_disruptions</code> &mdash; List of disruption events</li>
+</ul>
+</div>
+</details>
+
+<details>
+<summary>Diplomatic</summary>
+<div class="details-body">
+<ul>
+  <li><code>diplomatic_relations</code> &mdash; Country &rarr; Country &rarr; -10..+10</li>
+  <li><code>treaties_invoked</code> &mdash; List of invoked treaties (e.g. "NATO Article 5")</li>
+  <li><code>un_resolutions</code> &mdash; List of UN resolutions</li>
+  <li><code>nato_alert_level</code> &mdash; normal / elevated / high / article5</li>
+  <li><code>nato_consensus</code> &mdash; Country &rarr; position text</li>
+</ul>
+</div>
+</details>
+
+<details>
+<summary>Nuclear</summary>
+<div class="details-body">
+<ul>
+  <li><code>nuclear_posture</code> &mdash; Per-country: peacetime &rarr; elevated &rarr; dispersal &rarr; launch_ready &rarr; tactical_use &rarr; strategic</li>
+</ul>
+<h4>Auto-Escalation Rules</h4>
+<ul>
+  <li>If any nuclear state escalates past <code>dispersal</code>, all nuclear states auto-escalate to at least <code>elevated</code></li>
+  <li>Nuclear posture at <code>launch_ready</code>+ causes -5% war support (one-time penalty)</li>
+  <li>De-escalation occurs when no provocative events detected</li>
+</ul>
+</div>
+</details>
+
+<details>
+<summary>Public Opinion &amp; Humanitarian</summary>
+<div class="details-body">
+<ul>
+  <li><code>public_opinion</code> &mdash; Per-country: war_support (0-100), government_approval (0-100)</li>
+  <li><code>refugee_flows</code> &mdash; List of {from, to, count, status}</li>
+  <li><code>humanitarian_crisis_level</code> &mdash; Per-country: 1-10</li>
+</ul>
+</div>
+</details>
+
+<details>
+<summary>Cyber &amp; Infrastructure</summary>
+<div class="details-body">
+<ul>
+  <li><code>cyber_operations</code> &mdash; List of {attacker, target, type, severity, infrastructure_affected}</li>
+  <li><code>infrastructure_status</code> &mdash; Per-country: power_grid, comms, financial, military_c2 (each 1-10)</li>
+</ul>
+</div>
+</details>
+
+<h3>Cascading Effects (Automatic)</h3>
+<div class="table-wrap">
+<table>
+<tr><th>#</th><th>Trigger</th><th>Effect</th></tr>
+<tr><td>1</td><td>Oil price &gt; $120</td><td>-3% war support globally (per $20 threshold)</td></tr>
+<tr><td>2</td><td>Active sanctions on Russia</td><td>EU gas price increases (capped at 200)</td></tr>
+<tr><td>3</td><td>Low supply level (&le;3)</td><td>Unit readiness degrades</td></tr>
+<tr><td>4</td><td>High casualties (&ge;2)</td><td>Morale reduces (delta-based)</td></tr>
+<tr><td>5</td><td>Degraded infrastructure</td><td>Public opinion drops</td></tr>
+<tr><td>6</td><td>Refugee inflows</td><td>Government approval decreases</td></tr>
+<tr><td>7</td><td>Nuclear escalation past dispersal</td><td>All nuclear states escalate to elevated</td></tr>
+<tr><td>8</td><td>Article 5 invocation / 3+ supporters</td><td>NATO alert auto-escalates to article5</td></tr>
+<tr><td>9</td><td>Nuclear posture at launch_ready+</td><td>-5% war support (one-time)</td></tr>
+<tr><td>10</td><td>No provocative events</td><td>Nuclear de-escalation</td></tr>
+</table>
+</div>
+</section>
+
+<!-- ============================================================ -->
+<!-- AGENTS -->
+<!-- ============================================================ -->
+<section id="agents">
+<h2>Agent System</h2>
+
+<h3>How Decisions Are Made</h3>
+<p>Each country has <strong>1-4 internal factions</strong> (e.g. hawks, doves, military realists, diplomats). Before a country acts, its factions hold a <strong>3-round internal debate</strong>. This produces realistic, nuanced policy decisions with genuine internal tensions.</p>
+
+<div class="card-grid">
+<div class="card">
+  <h4>Round 1: Initial Positions</h4>
+  <p>Each faction independently states its recommended course of action based on the current situation, its personality, priorities, and red lines.</p>
+</div>
+<div class="card">
+  <h4>Round 2: Rebuttals</h4>
+  <p>Each faction reads all Round 1 positions and responds. <strong>Anti-groupthink rules</strong>: must identify at least ONE disagreement, defend red lines explicitly, point out risks others ignore.</p>
+</div>
+<div class="card">
+  <h4>Round 3: Final Statements</h4>
+  <p>Closing positions with mandatory concessions AND remaining objections. Forced risk identification ensures minority views are preserved.</p>
+</div>
+</div>
+
+<h3>Synthesis</h3>
+<p>After the debate, a neutral synthesis agent distills all positions into a unified decision:</p>
+<ul>
+  <li><strong>DECISION</strong> &mdash; 1-2 sentence summary of the country's chosen course</li>
+  <li><strong>ACTIONS</strong> &mdash; 1-3 concrete, specific actions (military moves, diplomatic messages, economic measures)</li>
+  <li><strong>DISSENT</strong> &mdash; Notable minority positions that were overruled</li>
+  <li><strong>DIPLOMATIC_MESSAGES</strong> &mdash; At least 1 message to another country or organization</li>
+</ul>
+
+<h3>Faction Roles</h3>
+<div class="table-wrap">
+<table>
+<tr><th>Role</th><th>Archetype</th><th>Weight Modifier</th></tr>
+<tr><td><code>hawk</code></td><td>Advocates strong military response</td><td>1.2x in conventional phase</td></tr>
+<tr><td><code>dove</code></td><td>Advocates diplomacy, de-escalation</td><td>1.5x in nuclear phase, 0.5x in conventional</td></tr>
+<tr><td><code>diplomat</code></td><td>Alliance management, negotiations</td><td>1.5x in diplomatic phase</td></tr>
+<tr><td><code>military_realist</code></td><td>Professional military assessment</td><td>1.5x in conventional phase</td></tr>
+<tr><td><code>pragmatist</code></td><td>Balances all considerations</td><td>1.5x in nuclear phase</td></tr>
+<tr><td><code>hardliner</code></td><td>Uncompromising ideological stance</td><td>0.3x in nuclear phase</td></tr>
+<tr><td><code>wildcard</code></td><td>Unpredictable, creative strategies</td><td>1.5x in hybrid phase, 0.3x in nuclear</td></tr>
+<tr><td><code>intelligence</code></td><td>Covert operations, information warfare</td><td>1.5x in hybrid phase</td></tr>
+<tr><td><code>economic</code></td><td>Economic leverage, sanctions, trade</td><td>1.2x in diplomatic phase</td></tr>
+</table>
+</div>
+
+<h3>Crisis Phase Detection</h3>
+<p>The debate system automatically detects the current crisis phase and adjusts faction weights:</p>
+<ul>
+  <li><strong>Diplomatic</strong> (default) &mdash; diplomats and economic advisors get more weight</li>
+  <li><strong>Hybrid</strong> (cyber/disinformation keywords) &mdash; wildcards and intelligence get more weight</li>
+  <li><strong>Conventional</strong> (combat keywords) &mdash; military realists and hawks dominate</li>
+  <li><strong>Nuclear</strong> (nuclear keywords) &mdash; pragmatists and doves dominate, hardliners marginalized</li>
+</ul>
+
+<h3>Country YAML Schema</h3>
+<pre><code>name: "Country Full Name"
+code: "XX"                          # 2-3 letter ISO-style code
+alliances: ["NATO", "EU", ...]
+military_strength: 7                # 1-10 scale
+economic_strength: 6                # 1-10 scale
+nuclear: false                      # true/false
+geographic_relevance: |
+  Multi-line narrative about strategic position...
+
+factions:
+  - name: "Faction Display Name"
+    role: "hawk"                    # see roles table above
+    weight: 2                       # optional, default 1
+    personality: |
+      Multi-paragraph description of worldview, motivations...
+    priorities:
+      - "First priority"
+      - "Second priority"
+    red_lines:
+      - "Absolute limit this faction will never accept"
+    voice: |
+      Description of speaking style and language patterns...
+    key_relationships:
+      allies: ["US", "GB"]
+      rivals: ["RU", "CN"]</code></pre>
+</section>
+
+<!-- ============================================================ -->
+<!-- SCENARIO -->
+<!-- ============================================================ -->
+<section id="scenario">
+<h2>Scenario: Suwalki Gap Crisis 2026</h2>
+
+<div class="card-grid">
+<div class="card">
+  <h4>Trigger</h4>
+  <p>Russia announces a "humanitarian logistics corridor" from Belarus to Kaliningrad through Lithuanian territory, backed by military force.</p>
+</div>
+<div class="card">
+  <h4>Stakes</h4>
+  <p>If Russia seizes the Suwalki Gap, the Baltic states are cut off from NATO by land. Article 5 credibility is at stake.</p>
+</div>
+<div class="card">
+  <h4>Dilemma</h4>
+  <p>NATO must decide whether to risk war with a nuclear power to defend 65km of Lithuanian-Polish border, while allies are divided.</p>
+</div>
+</div>
+
+<h3>Initial Situation (Day 1, 06:00 CET)</h3>
+<ul>
+  <li>3 Russian BTGs in Kaliningrad moved to forward positions</li>
+  <li>Russian Navy Baltic Fleet conducting "exercises" near Lithuanian coast</li>
+  <li>Cyber activity detected against Lithuanian government networks</li>
+  <li>Russian state media running stories about "discrimination against Russians in Baltics"</li>
+  <li>Belarus moved troops to Lithuanian border "for exercises"</li>
+  <li>Russian diplomatic note demands Lithuanian response within 48 hours</li>
+  <li>NATO Enhanced Forward Presence battalions on heightened alert</li>
+</ul>
+
+<h3>End Conditions</h3>
+<div class="table-wrap">
+<table>
+<tr><th>Condition</th><th>Trigger</th><th>Winner</th></tr>
+<tr><td>Russian Corridor Hold</td><td>Russia holds Suwalki for 3+ consecutive days (6 rounds)</td><td class="nuclear">Russia</td></tr>
+<tr><td>NATO Corridor Liberated</td><td>NATO forces recapture full corridor</td><td style="color:var(--accent-blue)">NATO</td></tr>
+<tr><td>Ceasefire Agreement</td><td>All major parties agree to ceasefire</td><td style="color:var(--accent-green)">Diplomatic</td></tr>
+<tr><td>Nuclear Detonation</td><td>Any nuclear weapon detonated</td><td style="color:var(--accent-red)">No winner (catastrophe)</td></tr>
+<tr><td>NATO Collapse</td><td>3+ NATO members refuse Article 5</td><td class="nuclear">Russia</td></tr>
+</table>
+</div>
+
+<h3>Initial Public Opinion (War Support %)</h3>
+<div class="stat-row">
+  <div class="stat-box"><div class="num" style="color:var(--accent-green)">65%</div><div class="label">Poland</div></div>
+  <div class="stat-box"><div class="num" style="color:var(--accent-orange)">40%</div><div class="label">UK</div></div>
+  <div class="stat-box"><div class="num" style="color:var(--accent-orange)">35%</div><div class="label">France</div></div>
+  <div class="stat-box"><div class="num" style="color:var(--accent-red)">25%</div><div class="label">Germany</div></div>
+  <div class="stat-box"><div class="num" style="color:var(--accent-red)">20%</div><div class="label">USA</div></div>
+</div>
+</section>
+
+<!-- ============================================================ -->
+<!-- COUNTRIES & BLOCS -->
+<!-- ============================================================ -->
+<section id="countries">
+<h2>Countries &amp; Blocs</h2>
+<p>66 countries organized into geopolitical blocs. Each has unique faction structure, priorities, and red lines reflecting real-world policy positions.</p>
+
+<!-- NATO Frontline -->
+<div class="bloc-header nato">
+  <h3>NATO Frontline States</h3>
+  <div class="bloc-desc">Directly bordering Russia/Belarus, highest stakes in Suwalki crisis</div>
+</div>
+<div class="table-wrap">
+<table>
+<tr><th>Code</th><th>Country</th><th>Mil</th><th>Econ</th><th>Nuclear</th><th>Factions</th><th>Key Role</th></tr>
+<tr><td><strong>PL</strong></td><td>Poland</td><td class="strength-high">7</td><td>6</td><td>No</td><td>3</td><td>NATO's eastern anchor, largest EU military, directly borders Suwalki Gap</td></tr>
+<tr><td><strong>LT</strong></td><td>Lithuania</td><td class="strength-low">3</td><td>3</td><td>No</td><td>1</td><td>Suwalki corridor runs through its territory, immediate crisis zone</td></tr>
+<tr><td><strong>LV</strong></td><td>Latvia</td><td class="strength-low">2</td><td>3</td><td>No</td><td>1</td><td>Baltic state at risk of isolation if corridor is cut</td></tr>
+<tr><td><strong>EE</strong></td><td>Estonia</td><td class="strength-low">2</td><td>4</td><td>No</td><td>1</td><td>Northernmost Baltic state, Russian minority concerns</td></tr>
+<tr><td><strong>FI</strong></td><td>Finland</td><td class="strength-mid">5</td><td>7</td><td>No</td><td>1</td><td>New NATO member, 1,340km border with Russia</td></tr>
+<tr><td><strong>NO</strong></td><td>Norway</td><td class="strength-mid">5</td><td>7</td><td>No</td><td>1</td><td>NATO's Arctic flank, hosts early warning systems</td></tr>
+</table>
+</div>
+
+<!-- NATO Core -->
+<div class="bloc-header nato">
+  <h3>NATO Core Powers</h3>
+  <div class="bloc-desc">Major military and economic powers driving alliance decisions</div>
+</div>
+<div class="table-wrap">
+<table>
+<tr><th>Code</th><th>Country</th><th>Mil</th><th>Econ</th><th>Nuclear</th><th>Factions</th><th>Key Role</th></tr>
+<tr><td><strong>US</strong></td><td>United States</td><td class="strength-high">10</td><td class="strength-high">10</td><td class="nuclear">Yes</td><td>4</td><td>NATO backbone, nuclear umbrella, "America First" vs alliance obligations</td></tr>
+<tr><td><strong>GB</strong></td><td>United Kingdom</td><td class="strength-high">7</td><td class="strength-high">7</td><td class="nuclear">Yes</td><td>2</td><td>Most reliable US ally in Europe, submarine-based deterrent</td></tr>
+<tr><td><strong>FR</strong></td><td>France</td><td class="strength-high">7</td><td class="strength-high">7</td><td class="nuclear">Yes</td><td>2</td><td>Independent nuclear deterrent, EU defense leadership ambitions</td></tr>
+<tr><td><strong>DE</strong></td><td>Germany</td><td class="strength-mid">6</td><td class="strength-high">9</td><td>No</td><td>2</td><td>EU's largest economy, leads NATO EFP in Lithuania, pacifist culture</td></tr>
+<tr><td><strong>IT</strong></td><td>Italy</td><td class="strength-mid">6</td><td>6</td><td>No</td><td>3</td><td>Southern NATO anchor, Mediterranean focus, historically cautious</td></tr>
+<tr><td><strong>CA</strong></td><td>Canada</td><td class="strength-mid">5</td><td class="strength-high">7</td><td>No</td><td>2</td><td>Leads NATO EFP in Latvia, Five Eyes member</td></tr>
+<tr><td><strong>TR</strong></td><td>Turkey</td><td class="strength-high">7</td><td>5</td><td>No</td><td>1</td><td>Controls Black Sea access, complex relationship with both NATO and Russia</td></tr>
+</table>
+</div>
+
+<!-- NATO Other -->
+<div class="bloc-header nato">
+  <h3>Other NATO Members</h3>
+  <div class="bloc-desc">Central/Eastern, Southern, Benelux, Nordic allies</div>
+</div>
+<div class="table-wrap">
+<table>
+<tr><th>Code</th><th>Country</th><th>Mil</th><th>Econ</th><th>Nuclear</th><th>Factions</th><th>Key Role</th></tr>
+<tr><td><strong>NL</strong></td><td>Netherlands</td><td class="strength-mid">5</td><td class="strength-high">8</td><td>No</td><td>1</td><td>Key logistics hub, NATO hosts, strong naval power</td></tr>
+<tr><td><strong>BE</strong></td><td>Belgium</td><td class="strength-mid">4</td><td class="strength-high">7</td><td>No</td><td>2</td><td>NATO HQ in Brussels, hosts US nuclear weapons</td></tr>
+<tr><td><strong>DK</strong></td><td>Denmark</td><td class="strength-mid">4</td><td>6</td><td>No</td><td>1</td><td>Controls Baltic Sea access, Arctic claims</td></tr>
+<tr><td><strong>SE</strong></td><td>Sweden</td><td class="strength-mid">5</td><td class="strength-high">7</td><td>No</td><td>1</td><td>New NATO member, advanced submarine and air capabilities</td></tr>
+<tr><td><strong>CZ</strong></td><td>Czech Republic</td><td class="strength-mid">4</td><td>6</td><td>No</td><td>1</td><td>Central European logistics hub, Visegrad member</td></tr>
+<tr><td><strong>RO</strong></td><td>Romania</td><td class="strength-mid">4</td><td>4</td><td>No</td><td>2</td><td>Black Sea frontline, Aegis Ashore BMD site</td></tr>
+<tr><td><strong>BG</strong></td><td>Bulgaria</td><td class="strength-low">3</td><td>4</td><td>No</td><td>2</td><td>Black Sea access, historically complex Russia ties</td></tr>
+<tr><td><strong>GR</strong></td><td>Greece</td><td class="strength-mid">5</td><td>4</td><td>No</td><td>3</td><td>Eastern Mediterranean, Turkey tensions complicate NATO unity</td></tr>
+<tr><td><strong>ES</strong></td><td>Spain</td><td class="strength-mid">5</td><td class="strength-high">7</td><td>No</td><td>2</td><td>Western Mediterranean, Rota naval base hosts US destroyers</td></tr>
+<tr><td><strong>PT</strong></td><td>Portugal</td><td class="strength-low">3</td><td>5</td><td>No</td><td>1</td><td>Atlantic flank, Lajes Field air base</td></tr>
+<tr><td><strong>HU</strong></td><td>Hungary</td><td class="strength-low">3</td><td>4</td><td>No</td><td>2</td><td>Visegrad member, complex Russia policy, potential NATO spoiler</td></tr>
+<tr><td><strong>SK</strong></td><td>Slovakia</td><td class="strength-low">3</td><td>5</td><td>No</td><td>2</td><td>Central Europe, borders Ukraine, Visegrad member</td></tr>
+<tr><td><strong>HR</strong></td><td>Croatia</td><td class="strength-low">3</td><td>4</td><td>No</td><td>1</td><td>Adriatic access, post-conflict military modernization</td></tr>
+<tr><td><strong>SI</strong></td><td>Slovenia</td><td class="strength-low">2</td><td>5</td><td>No</td><td>1</td><td>Alps transit, small but professional military</td></tr>
+<tr><td><strong>AL</strong></td><td>Albania</td><td class="strength-low">2</td><td>2</td><td>No</td><td>1</td><td>Adriatic coast, NATO since 2009</td></tr>
+<tr><td><strong>ME</strong></td><td>Montenegro</td><td class="strength-low">1</td><td>2</td><td>No</td><td>1</td><td>Adriatic coast, newest NATO member</td></tr>
+<tr><td><strong>MK</strong></td><td>North Macedonia</td><td class="strength-low">1</td><td>2</td><td>No</td><td>1</td><td>Balkans stability, NATO since 2020</td></tr>
+<tr><td><strong>LU</strong></td><td>Luxembourg</td><td class="strength-low">1</td><td class="strength-high">8</td><td>No</td><td>1</td><td>EU institutions, financial center, token military</td></tr>
+<tr><td><strong>IS</strong></td><td>Iceland</td><td class="strength-low">0</td><td>5</td><td>No</td><td>1</td><td>GIUK gap monitoring, no military, NATO founding member</td></tr>
+</table>
+</div>
+
+<!-- Russian Bloc -->
+<div class="bloc-header russian">
+  <h3>Russian Bloc</h3>
+  <div class="bloc-desc">Russia, formal allies, and aligned states</div>
+</div>
+<div class="table-wrap">
+<table>
+<tr><th>Code</th><th>Country</th><th>Mil</th><th>Econ</th><th>Nuclear</th><th>Factions</th><th>Key Role</th></tr>
+<tr><td><strong>RU</strong></td><td>Russia</td><td class="strength-high">7</td><td>5</td><td class="nuclear">Yes</td><td>4</td><td>Crisis initiator, Kaliningrad exclave, full nuclear triad</td></tr>
+<tr><td><strong>BY</strong></td><td>Belarus</td><td class="strength-low">3</td><td>2</td><td>No</td><td>2</td><td>Staging ground for corridor operation, Union State with Russia</td></tr>
+<tr><td><strong>KP</strong></td><td>North Korea</td><td class="strength-mid">4</td><td>1</td><td class="nuclear">Yes</td><td>2</td><td>Nuclear wildcard, potential distraction in Pacific</td></tr>
+<tr><td><strong>IR</strong></td><td>Iran</td><td class="strength-mid">6</td><td>4</td><td>No</td><td>2</td><td>Drone/missile supplier, Middle East pressure point</td></tr>
+<tr><td><strong>SY</strong></td><td>Syria</td><td class="strength-low">1</td><td>1</td><td>No</td><td>1</td><td>Russian naval base at Tartus, Mediterranean presence</td></tr>
+<tr><td><strong>RS</strong></td><td>Serbia</td><td class="strength-low">3</td><td>3</td><td>No</td><td>1</td><td>Russia-sympathetic in Balkans, EU candidate</td></tr>
+<tr><td><strong>CU</strong></td><td>Cuba</td><td class="strength-low">2</td><td>1</td><td>No</td><td>1</td><td>Western hemisphere Russian ally, intelligence cooperation</td></tr>
+<tr><td><strong>VE</strong></td><td>Venezuela</td><td class="strength-low">2</td><td>2</td><td>No</td><td>1</td><td>Russian military cooperation, oil leverage</td></tr>
+<tr><td><strong>MM</strong></td><td>Myanmar</td><td class="strength-low">3</td><td>2</td><td>No</td><td>1</td><td>Russian arms buyer, ASEAN disruptor</td></tr>
+</table>
+</div>
+
+<!-- Global South -->
+<div class="bloc-header global">
+  <h3>Global South &amp; Non-Aligned</h3>
+  <div class="bloc-desc">Major powers and swing states balancing between blocs</div>
+</div>
+<div class="table-wrap">
+<table>
+<tr><th>Code</th><th>Country</th><th>Mil</th><th>Econ</th><th>Nuclear</th><th>Factions</th><th>Key Role</th></tr>
+<tr><td><strong>CN</strong></td><td>China</td><td class="strength-high">8</td><td class="strength-high">9</td><td class="nuclear">Yes</td><td>3</td><td>Strategic ambiguity, may exploit European distraction for Taiwan</td></tr>
+<tr><td><strong>IN</strong></td><td>India</td><td class="strength-high">7</td><td>6</td><td class="nuclear">Yes</td><td>2</td><td>Non-aligned tradition, buys Russian and Western weapons</td></tr>
+<tr><td><strong>JP</strong></td><td>Japan</td><td class="strength-high">7</td><td class="strength-high">8</td><td>No</td><td>2</td><td>US ally, watches China closely, indirect NATO partner</td></tr>
+<tr><td><strong>KR</strong></td><td>South Korea</td><td class="strength-mid">6</td><td class="strength-high">8</td><td>No</td><td>2</td><td>US ally, defense industry powerhouse, North Korea concern</td></tr>
+<tr><td><strong>AU</strong></td><td>Australia</td><td class="strength-mid">5</td><td class="strength-high">7</td><td>No</td><td>1</td><td>Five Eyes, AUKUS, Indo-Pacific focus</td></tr>
+<tr><td><strong>IL</strong></td><td>Israel</td><td class="strength-high">7</td><td>6</td><td class="nuclear">Yes</td><td>2</td><td>Undeclared nuclear power, US ally, Middle East focus</td></tr>
+<tr><td><strong>BR</strong></td><td>Brazil</td><td class="strength-mid">4</td><td>6</td><td>No</td><td>1</td><td>BRICS member, Global South voice, non-interventionist</td></tr>
+<tr><td><strong>SA</strong></td><td>Saudi Arabia</td><td class="strength-mid">5</td><td class="strength-high">8</td><td>No</td><td>1</td><td>Oil price lever, OPEC leader, balancing US and Russia</td></tr>
+<tr><td><strong>AE</strong></td><td>United Arab Emirates</td><td class="strength-mid">4</td><td class="strength-high">8</td><td>No</td><td>2</td><td>Financial hub, arms buyer, diplomatic mediator</td></tr>
+<tr><td><strong>EG</strong></td><td>Egypt</td><td class="strength-mid">5</td><td>4</td><td>No</td><td>2</td><td>Suez Canal, largest Arab military, BRICS member</td></tr>
+<tr><td><strong>PK</strong></td><td>Pakistan</td><td class="strength-mid">6</td><td>3</td><td class="nuclear">Yes</td><td>1</td><td>Nuclear power, China ally, SCO member</td></tr>
+<tr><td><strong>ID</strong></td><td>Indonesia</td><td class="strength-mid">4</td><td>5</td><td>No</td><td>1</td><td>Largest ASEAN economy, non-aligned tradition</td></tr>
+<tr><td><strong>MX</strong></td><td>Mexico</td><td class="strength-low">3</td><td>6</td><td>No</td><td>1</td><td>US neighbor, non-interventionist foreign policy</td></tr>
+<tr><td><strong>NG</strong></td><td>Nigeria</td><td class="strength-low">3</td><td>4</td><td>No</td><td>1</td><td>Africa's largest economy, ECOWAS leader</td></tr>
+<tr><td><strong>ZA</strong></td><td>South Africa</td><td class="strength-low">3</td><td>4</td><td>No</td><td>1</td><td>BRICS member, Africa's diplomatic voice</td></tr>
+<tr><td><strong>PH</strong></td><td>Philippines</td><td class="strength-low">3</td><td>3</td><td>No</td><td>1</td><td>US ally, South China Sea claimant</td></tr>
+<tr><td><strong>VN</strong></td><td>Vietnam</td><td class="strength-mid">4</td><td>4</td><td>No</td><td>1</td><td>Buys Russian weapons, resists Chinese expansion</td></tr>
+<tr><td><strong>AR</strong></td><td>Argentina</td><td class="strength-low">2</td><td>4</td><td>No</td><td>1</td><td>BRICS/MERCOSUR, Global South solidarity</td></tr>
+<tr><td><strong>CO</strong></td><td>Colombia</td><td class="strength-low">3</td><td>4</td><td>No</td><td>1</td><td>NATO global partner, US ally in Latin America</td></tr>
+</table>
+</div>
+
+<!-- Contested / Aspirant -->
+<div class="bloc-header global">
+  <h3>Contested &amp; Aspirant States</h3>
+  <div class="bloc-desc">Countries caught between blocs or seeking alliance membership</div>
+</div>
+<div class="table-wrap">
+<table>
+<tr><th>Code</th><th>Country</th><th>Mil</th><th>Econ</th><th>Nuclear</th><th>Factions</th><th>Key Role</th></tr>
+<tr><td><strong>UA</strong></td><td>Ukraine</td><td class="strength-mid">6</td><td>3</td><td>No</td><td>2</td><td>Frozen conflict with Russia, NATO aspirant, combat-experienced</td></tr>
+<tr><td><strong>GE</strong></td><td>Georgia</td><td class="strength-low">3</td><td>3</td><td>No</td><td>1</td><td>Russian-occupied territories, NATO aspirant</td></tr>
+<tr><td><strong>MD</strong></td><td>Moldova</td><td class="strength-low">1</td><td>2</td><td>No</td><td>1</td><td>Transnistria flashpoint, EU candidate</td></tr>
+<tr><td><strong>AM</strong></td><td>Armenia</td><td class="strength-low">3</td><td>2</td><td>No</td><td>1</td><td>Disillusioned CSTO member, pivoting toward West</td></tr>
+<tr><td><strong>AZ</strong></td><td>Azerbaijan</td><td class="strength-mid">4</td><td>5</td><td>No</td><td>1</td><td>Turkey ally, energy corridor, Nagorno-Karabakh winner</td></tr>
+<tr><td><strong>KZ</strong></td><td>Kazakhstan</td><td class="strength-mid">4</td><td>6</td><td>No</td><td>1</td><td>CSTO member, balancing Russia/China/West, oil exporter</td></tr>
+</table>
+</div>
+
+<h3>Nuclear Powers Summary</h3>
+<div class="table-wrap">
+<table>
+<tr><th>Country</th><th>Arsenal</th><th>Delivery</th><th>Policy</th></tr>
+<tr><td class="nuclear">US (10/10)</td><td>~5,500 warheads</td><td>Full triad (ICBM, SLBM, bombers)</td><td>Extended deterrence, NATO nuclear umbrella</td></tr>
+<tr><td class="nuclear">RU (7/5)</td><td>~6,250 warheads</td><td>Full triad</td><td>"Escalate to de-escalate" doctrine, tactical nukes</td></tr>
+<tr><td class="nuclear">CN (8/9)</td><td>~500 warheads (growing)</td><td>ICBM, SLBM, bombers</td><td>No first use (declared), rapid expansion</td></tr>
+<tr><td class="nuclear">FR (7/7)</td><td>~290 warheads</td><td>SLBM, air-launched</td><td>Independent deterrent, "vital interests"</td></tr>
+<tr><td class="nuclear">GB (7/7)</td><td>~225 warheads</td><td>Submarine-based (Trident)</td><td>Minimum credible deterrent, NATO-assigned</td></tr>
+<tr><td class="nuclear">IN (7/6)</td><td>~172 warheads</td><td>Triad (developing)</td><td>No first use, credible minimum deterrence</td></tr>
+<tr><td class="nuclear">PK (6/3)</td><td>~170 warheads</td><td>Road-mobile, air-launched</td><td>Full-spectrum deterrence (incl. tactical)</td></tr>
+<tr><td class="nuclear">IL (7/6)</td><td>~80-400 (est.)</td><td>Triad (suspected)</td><td>Policy of ambiguity ("nuclear opacity")</td></tr>
+<tr><td class="nuclear">KP (4/1)</td><td>~50 warheads</td><td>ICBM, MRBM, SLBM (developing)</td><td>Regime survival, first-use doctrine</td></tr>
+</table>
+</div>
+</section>
+
+<!-- ============================================================ -->
+<!-- ORGANIZATIONS -->
+<!-- ============================================================ -->
+<section id="orgs">
+<h2>International Organizations</h2>
+<p>10 organizations participate as actors, each with their own factions, priorities, and decision-making processes.</p>
+
+<div class="card-grid">
+<div class="card">
+  <h4>NATO</h4>
+  <p><strong>3 factions:</strong> Secretary General (diplomat), SACEUR (military_realist), North Atlantic Council (pragmatist)</p>
+  <p>32-member consensus-based alliance. Core dilemma: how fast to invoke Article 5 and deploy force.</p>
+</div>
+<div class="card">
+  <h4>UN</h4>
+  <p><strong>2 factions:</strong> Secretary-General (diplomat), Security Council P5 (pragmatist)</p>
+  <p>Russia vetoes any binding resolution. UN becomes a legitimacy battleground and humanitarian coordinator.</p>
+</div>
+<div class="card">
+  <h4>EU</h4>
+  <p><strong>2 factions:</strong> Commission President (pragmatist), High Representative (diplomat)</p>
+  <p>27-member bloc. Key lever: sanctions packages, energy policy, refugee coordination.</p>
+</div>
+<div class="card">
+  <h4>G7</h4>
+  <p><strong>2 factions:</strong> Rotating Presidency (diplomat), Finance Ministers (economic)</p>
+  <p>US, Canada, UK, France, Germany, Italy, Japan. Economic coordination and sanctions alignment.</p>
+</div>
+<div class="card">
+  <h4>CSTO</h4>
+  <p><strong>2 factions:</strong> Secretary General (pragmatist), Joint Staff (military_realist)</p>
+  <p>Russia-led security pact: Russia, Belarus, Armenia, Kazakhstan + others. Credibility tested by crisis.</p>
+</div>
+<div class="card">
+  <h4>SCO</h4>
+  <p><strong>2 factions:</strong> Secretary General (diplomat), Council of Heads of State (pragmatist)</p>
+  <p>China-Russia led. Balances member interests: China wants stability, Russia wants support.</p>
+</div>
+<div class="card">
+  <h4>OSCE</h4>
+  <p><strong>1 faction:</strong> Chairman-in-Office (diplomat)</p>
+  <p>57-member security dialogue forum. Offers monitoring, mediation, and confidence-building measures.</p>
+</div>
+<div class="card">
+  <h4>ASEAN</h4>
+  <p><strong>1 faction:</strong> Secretary-General (diplomat)</p>
+  <p>10 Southeast Asian nations. Non-interference principle, but economic interests at stake.</p>
+</div>
+<div class="card">
+  <h4>African Union</h4>
+  <p><strong>1 faction:</strong> Chairperson (diplomat)</p>
+  <p>55-member continental organization. Humanitarian concerns, food security affected by disrupted trade.</p>
+</div>
+<div class="card">
+  <h4>Arab League</h4>
+  <p><strong>1 faction:</strong> Secretary-General (diplomat)</p>
+  <p>22-member regional body. Oil price impact, energy security, diversified relationships.</p>
+</div>
+</div>
+</section>
+
+<!-- ============================================================ -->
+<!-- VIEWER -->
+<!-- ============================================================ -->
+<section id="viewer">
+<h2>Web Viewer</h2>
+<p>The game comes with a built-in dark-themed web viewer for exploring game logs.</p>
+
+<h3>Starting the Viewer</h3>
+<pre><code>python3 serve.py                     # http://localhost:8080
+python3 serve.py --port 9090         # Custom port</code></pre>
+
+<h3>Features</h3>
+<ul>
+  <li><strong>Dashboard</strong> &mdash; game status, market charts, war support trends, oil prices, headlines timeline</li>
+  <li><strong>Round-by-round view</strong> &mdash; situation briefing, country debates (collapsible), GM resolution, world state</li>
+  <li><strong>Bloc grouping</strong> &mdash; countries auto-grouped into Frontline, NATO Core, Russian Bloc, Global South, Organizations</li>
+  <li><strong>Auto-refresh</strong> &mdash; 15-second polling for live games (toggle in header)</li>
+  <li><strong>Manual file loading</strong> &mdash; drag &amp; drop or file picker for offline viewing</li>
+  <li><strong>Responsive design</strong> &mdash; mobile, desktop, ultra-wide layouts</li>
+  <li><strong>No external dependencies</strong> &mdash; pure HTML/CSS/JS, works offline</li>
+</ul>
+
+<h3>API Endpoints</h3>
+<div class="table-wrap">
+<table>
+<tr><th>Endpoint</th><th>Returns</th></tr>
+<tr><td><code>GET /api/games</code></td><td>List of all game sessions in logs/</td></tr>
+<tr><td><code>GET /api/game/&lt;name&gt;</code></td><td>All round data for a specific game</td></tr>
+<tr><td><code>GET /api/round/&lt;game&gt;/&lt;round&gt;</code></td><td>Single round JSON file</td></tr>
+<tr><td><code>GET /api/summary/&lt;game&gt;</code></td><td>Game summary (if available)</td></tr>
+<tr><td><code>GET /</code></td><td>Viewer UI (index.html)</td></tr>
+<tr><td><code>GET /docs.html</code></td><td>This documentation page</td></tr>
+</table>
+</div>
+
+<h3>Log Format</h3>
+<p>Each game creates a directory under <code>logs/</code>:</p>
+<pre><code>logs/
+  game_20260212_143000/
+    round_001.json        # Round 1 data
+    round_002.json        # Round 2 data
+    ...
+    game_summary.json     # End-of-game analytics
+    analytics.json        # Additional metrics</code></pre>
+
+<p>Each <code>round_NNN.json</code> contains:</p>
+<ul>
+  <li>Situation briefing (narrative text)</li>
+  <li>Country decisions (with full debate transcripts)</li>
+  <li>GM resolution (narrative, world state updates, events, headlines, surprises)</li>
+  <li>World state snapshot after all updates</li>
+  <li>Elapsed time for the round</li>
+</ul>
+</section>
+
+<!-- ============================================================ -->
+<!-- DEVELOPER GUIDE -->
+<!-- ============================================================ -->
+<section id="dev">
+<h2>Developer Guide</h2>
+
+<h3>Project Structure</h3>
+<pre><code>WarGame/
+  run.py                    # CLI entry point
+  serve.py                  # Viewer dev server
+  config.yaml               # Main configuration
+  engine/
+    __init__.py
+    game.py                 # Game loop orchestration
+    game_master.py          # GM agent, prompts, resolution
+    world_state.py          # WorldState dataclass, cascading effects
+    round_logger.py         # JSON log writer
+  agents/
+    __init__.py
+    base.py                 # Base Agent class (LLM wrapper)
+    country.py              # Country debate orchestration
+    faction.py              # Faction debate behavior
+  backends/
+    __init__.py
+    base.py                 # Abstract LLMBackend interface
+    ollama_backend.py       # Ollama local backend
+    deepseek_backend.py     # DeepSeek API backend
+  countries/
+    usa.yaml, russia.yaml, ...  # 66 country definitions
+    nato.yaml, un.yaml, ...     # 10 organization definitions
+  scenarios/
+    suwalki_gap.yaml        # Scenario definition
+  viewer/
+    index.html              # Web viewer SPA
+    docs.html               # This documentation
+  logs/                     # Game output (auto-created)</code></pre>
+
+<h3>Adding a New Country</h3>
+<ol>
+  <li>Create <code>countries/your_country.yaml</code> following the schema in the Agents section</li>
+  <li>Set <code>code</code> to a unique 2-3 letter identifier</li>
+  <li>Define 1-4 factions with realistic personalities, priorities, and red lines</li>
+  <li>Set <code>military_strength</code> and <code>economic_strength</code> on 1-10 scale relative to existing countries</li>
+  <li>The country will be auto-discovered at game start</li>
+</ol>
+
+<h3>Adding a New Backend</h3>
+<ol>
+  <li>Create <code>backends/your_backend.py</code></li>
+  <li>Implement <code>LLMBackend</code> abstract class from <code>backends/base.py</code></li>
+  <li>Required methods: <code>generate(system_prompt, messages, temperature, max_tokens) -&gt; str</code> and <code>close()</code></li>
+  <li>Register in <code>run.py</code> backend selection logic</li>
+</ol>
+
+<h3>Adding a New Scenario</h3>
+<ol>
+  <li>Create <code>scenarios/your_scenario.yaml</code> following <code>suwalki_gap.yaml</code> format</li>
+  <li>Define: name, description, background, initial_event, game_time_per_round, total_rounds</li>
+  <li>Define end_conditions with unique IDs, types, and check logic</li>
+  <li>Define initial_world_state with military units, markets, diplomatic status, public opinion</li>
+  <li>Update <code>config.yaml</code>: set <code>game.scenario</code> to your new file</li>
+</ol>
+
+<h3>Key Design Decisions</h3>
+<ul>
+  <li><strong>Delta-based morale</strong> &mdash; casualty penalties track what's already been applied, preventing compounding across rounds</li>
+  <li><strong>List deduplication</strong> &mdash; sanctions, treaties, cyber ops auto-deduplicate to prevent unbounded growth</li>
+  <li><strong>Cross-round memory</strong> &mdash; single summary string replaced each round (not growing context)</li>
+  <li><strong>Decision condensing</strong> &mdash; debate logs stripped before sending to GM to save context window</li>
+  <li><strong>Anti-groupthink</strong> &mdash; mandatory disagreement and forced risk identification prevent faction echo chambers</li>
+  <li><strong>Fog of war</strong> &mdash; intelligence briefings contain deliberate inaccuracies, contradictions, and gaps</li>
+  <li><strong>Dynamic faction weights</strong> &mdash; crisis phase auto-detected, faction influence adjusted accordingly</li>
+</ul>
+
+<h3>Performance Tips</h3>
+<ul>
+  <li>Start with 4 countries for testing (<code>--countries PL RU US DE</code>)</li>
+  <li>Use <code>OLLAMA_NUM_PARALLEL=4 ollama serve</code> for local parallel processing</li>
+  <li>DeepSeek API is significantly faster for full games (15 min vs 2-4 hours)</li>
+  <li>Reduce <code>debate.rounds</code> to 2 for faster but less nuanced results</li>
+  <li>Lower <code>max_tokens_per_response</code> for faster but shorter faction responses</li>
+  <li>Set <code>num_ctx: 8192</code> for smaller models with limited context</li>
+</ul>
+</section>
+
+</div>
+
+<!-- ============================================================ -->
+<!-- SCROLL SPY -->
+<!-- ============================================================ -->
+<script>
+(function() {
+  const nav = document.getElementById('navBar');
+  const links = nav.querySelectorAll('a');
+  const sections = [];
+  links.forEach(a => {
+    const id = a.getAttribute('href').slice(1);
+    const el = document.getElementById(id);
+    if (el) sections.push({ el, link: a });
+  });
+
+  function update() {
+    let current = sections[0];
+    const offset = window.scrollY + 80;
+    for (const s of sections) {
+      if (s.el.offsetTop <= offset) current = s;
+    }
+    links.forEach(a => a.classList.remove('active'));
+    if (current) current.link.classList.add('active');
+  }
+
+  window.addEventListener('scroll', update, { passive: true });
+  update();
+})();
+</script>
+</body>
+</html>

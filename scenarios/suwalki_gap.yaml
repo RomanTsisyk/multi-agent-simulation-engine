@@ -40,12 +40,17 @@ total_rounds: 10
 end_conditions:
   - id: "russian_corridor_hold"
     type: "territorial_control"
-    description: "Russia holds the Suwalki corridor for 7+ consecutive days"
+    description: "Russia holds the Suwalki corridor for 3+ consecutive days"
     winner: "RU"
+    check_field: "corridor_control"
+    check_value: "russian"
+    threshold_rounds: 6
   - id: "nato_corridor_liberated"
     type: "territorial_control"
     description: "NATO forces recapture the full Suwalki corridor"
     winner: "NATO"
+    check_field: "corridor_control"
+    check_value: "nato"
   - id: "ceasefire_agreement"
     type: "diplomatic"
     description: "All major parties agree to a ceasefire and negotiations"
@@ -60,6 +65,8 @@ end_conditions:
     winner: "RU"
 
 initial_world_state:
+  corridor_control: "contested"
+  corridor_hold_rounds: 0
   military:
     russian_kaliningrad_forces: "3 BTGs forward-deployed, Baltic Fleet active, S-400 systems operational"
     russian_western_district: "Additional forces on standby, 200km from border"

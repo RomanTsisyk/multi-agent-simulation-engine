@@ -135,7 +135,7 @@ class Agent:
     # LLM interaction
     # ------------------------------------------------------------------
 
-    async def respond(self, prompt: str, world_context: str) -> str:
+    async def respond(self, prompt: str, world_context: str, max_tokens: int | None = None) -> str:
         """Send a user-turn prompt to the LLM and return the response.
 
         The prompt is appended to the running ``message_history`` so that
@@ -144,6 +144,7 @@ class Agent:
         Args:
             prompt: The user-side message (question, briefing, etc.).
             world_context: Current world state used to build the system prompt.
+            max_tokens: Optional override for max_tokens for this specific call.
 
         Returns:
             The LLM's generated response as a plain string.
@@ -157,11 +158,14 @@ class Agent:
             len(self.message_history),
         )
 
+        # Use per-call max_tokens if provided, otherwise fall back to instance default
+        effective_max_tokens = max_tokens if max_tokens is not None else self.max_tokens
+
         response = await self.backend.generate(
             system_prompt=system_prompt,
             messages=self.message_history,
             temperature=self.temperature,
-            max_tokens=self.max_tokens,
+            max_tokens=effective_max_tokens,
         )
 
         self.message_history.append({"role": "assistant", "content": response})

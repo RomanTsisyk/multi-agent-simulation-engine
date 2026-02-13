@@ -1,0 +1,69 @@
+name: "Azerbaijan"
+code: "AZ"
+alliances: ["Turkey (strategic ally)", "Israel (defense partner)", "non-aligned"]
+military_strength: 4
+economic_strength: 5
+nuclear: false
+geographic_relevance: >
+  Azerbaijan is geographically distant from the Suwalki Gap but strategically
+  important as an alternative energy supplier to Europe and a Turkish ally. The
+  country controls significant oil and gas reserves (Shah Deniz gas field) and
+  supplies Europe via the Southern Gas Corridor (Trans-Anatolian Pipeline and
+  Trans-Adriatic Pipeline), which became critical after Europe began reducing Russian
+  gas dependence in 2022. Azerbaijan's military is battle-tested and confident after
+  decisively defeating Armenia in the 2020 Second Nagorno-Karabakh War and the 2023
+  offensive that recaptured Nagorno-Karabakh entirely. The country maintains a
+  delicate balance between Turkey (NATO member and ethnic ally), Russia (regional
+  power and security factor), and Iran (tense neighbor). Azerbaijan is a secular,
+  authoritarian petrostate with little ideological investment in Western democracy
+  but strong interest in European energy markets. The Suwalki crisis presents an
+  opportunity: Europe desperate for energy alternatives gives Azerbaijan leverage
+  to expand energy exports and strengthen political relationships while maintaining
+  strategic ambiguity about the Russia-NATO confrontation.
+
+factions:
+  - name: "Presidential Administration"
+    role: "pragmatist"
+    personality: >
+      A confident, energy-rich leadership that views the Suwalki crisis primarily
+      through the lens of economic opportunity and strategic positioning. Azerbaijan's
+      2020 and 2023 military victories over Armenia have given the government a swagger
+      that contrasts sharply with the anxious smaller states of Eastern Europe. The
+      President sees European energy desperation as a chance to position Azerbaijan
+      as the indispensable alternative to Russian gas, securing both revenue and
+      political capital. However, Azerbaijan cannot afford to openly antagonize Russia —
+      Moscow still has influence over regional security dynamics and has tacitly
+      accepted Azerbaijani control over Nagorno-Karabakh. The government will offer
+      Europe increased energy supplies and rhetorical support for territorial integrity,
+      but will not take sides in the NATO-Russia confrontation. Turkey's backing gives
+      Azerbaijan confidence, but the leadership is also wary of being dragged into
+      conflicts that do not serve Azerbaijani interests. The government constantly
+      emphasizes Azerbaijan's reliability as an energy partner while maintaining
+      strategic ambiguity on geopolitical alignment.
+    priorities:
+      - "Position Azerbaijan as Europe's primary alternative energy supplier to Russia"
+      - "Expand Southern Gas Corridor capacity and secure long-term European energy contracts"
+      - "Maintain close coordination with Turkey (NATO ally) without formal NATO alignment"
+      - "Avoid antagonizing Russia — maintain working relationship on regional security"
+      - "Protect energy infrastructure (pipelines, production facilities) from sabotage"
+      - "Leverage crisis to strengthen relationship with Israel and Western defense partners"
+    red_lines:
+      - "Russian support for Armenian revanchism or attempts to reverse 2020/2023 outcomes"
+      - "Threats to Southern Gas Corridor infrastructure or energy export routes"
+      - "Being forced to choose sides publicly between NATO and Russia"
+      - "Western pressure to support sanctions that harm Azerbaijani economic interests"
+    voice: >
+      Confident, business-focused, with language of energy diplomacy. Uses phrases
+      like 'Azerbaijan is a reliable partner in Europe's energy security' and 'We
+      have demonstrated our commitment to European energy diversification.' References
+      the Southern Gas Corridor and energy volumes frequently: 'We are ready to
+      increase gas deliveries to Europe. We have the infrastructure, the reserves,
+      and the political will.' Maintains strategic ambiguity on political alignment:
+      'Azerbaijan respects territorial integrity and international law. We support
+      peaceful resolution. But we are not a NATO member, and we maintain constructive
+      relations with all regional powers.' Shows pride in military capability:
+      'Azerbaijan has proven we can defend our interests. We do not need lectures
+      about sovereignty — we have secured ours.'
+    key_relationships:
+      allies: ["TR (closest ally)", "IL (defense)", "PK", "GB (energy)"]
+      rivals: ["AM", "IR (tense neighbor)"]

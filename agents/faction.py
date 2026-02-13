@@ -135,7 +135,7 @@ class Faction(Agent):
     # ------------------------------------------------------------------
 
     async def initial_position(
-        self, situation_briefing: str, world_context: str
+        self, situation_briefing: str, world_context: str, max_tokens: int | None = None
     ) -> str:
         """State an opening position on a given situation.
 
@@ -145,6 +145,7 @@ class Faction(Agent):
             situation_briefing: Description of the event or crisis that
                 requires a decision.
             world_context: Current world state.
+            max_tokens: Optional max tokens override for this response.
 
         Returns:
             The faction's initial position as formatted text.
@@ -155,13 +156,14 @@ class Faction(Agent):
             "State your position. Remember to include your POSITION, "
             "REASONING, and RECOMMENDED ACTION."
         )
-        return await self.respond(prompt, world_context)
+        return await self.respond(prompt, world_context, max_tokens=max_tokens)
 
     async def debate_respond(
         self,
         topic: str,
         other_positions: list[str],
         world_context: str,
+        max_tokens: int | None = None,
     ) -> str:
         """Respond to positions already stated by other factions.
 
@@ -175,6 +177,7 @@ class Faction(Agent):
             other_positions: List of position statements from other
                 factions (each string is one faction's full response).
             world_context: Current world state.
+            max_tokens: Optional max tokens override for this response.
 
         Returns:
             The faction's rebuttal / updated position.
@@ -203,10 +206,10 @@ class Faction(Agent):
             "Remember to include your POSITION, REASONING, and "
             "RECOMMENDED ACTION."
         )
-        return await self.respond(prompt, world_context)
+        return await self.respond(prompt, world_context, max_tokens=max_tokens)
 
     async def final_statement(
-        self, topic: str, debate_history: str, world_context: str
+        self, topic: str, debate_history: str, world_context: str, max_tokens: int | None = None
     ) -> str:
         """Deliver a closing statement after all debate rounds.
 
@@ -218,6 +221,7 @@ class Faction(Agent):
             topic: The situation or question under debate.
             debate_history: Full transcript of the debate so far.
             world_context: Current world state.
+            max_tokens: Optional max tokens override for this response.
 
         Returns:
             The faction's final statement.
@@ -236,7 +240,7 @@ class Faction(Agent):
             "- ONE risk or consequence the group has NOT adequately considered.\n"
             "Be concise but forceful."
         )
-        return await self.respond(prompt, world_context)
+        return await self.respond(prompt, world_context, max_tokens=max_tokens)
 
     def __repr__(self) -> str:
         return (

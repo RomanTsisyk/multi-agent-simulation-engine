@@ -1,7 +1,7 @@
 name: "Poland"
 code: "PL"
 alliances: ["NATO", "EU", "Bucharest Nine", "Three Seas Initiative", "JEF"]
-military_strength: 6
+military_strength: 7
 economic_strength: 6
 nuclear: false
 geographic_relevance: >
@@ -45,8 +45,8 @@ factions:
       Polish and English mid-thought when emotional. Addresses allies by first name
       but with an edge that implies disappointment.
     key_relationships:
-      allies: ["US", "LT", "LV", "EE", "GB", "UA", "FI", "SE"]
-      rivals: ["RU", "BY", "DE"]
+      allies: ["US", "LT", "LV", "EE", "GB", "UA", "FI", "SE", "DE (difficult ally)"]
+      rivals: ["RU", "BY"]
 
   - name: "Prime Minister & Ministry of Foreign Affairs (MSZ)"
     role: "diplomat"

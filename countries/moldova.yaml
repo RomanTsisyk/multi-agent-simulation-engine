@@ -1,0 +1,66 @@
+name: "Moldova"
+code: "MD"
+alliances: ["EU candidate", "Eastern Partnership", "constitutionally neutral"]
+military_strength: 1
+economic_strength: 2
+nuclear: false
+geographic_relevance: >
+  Moldova is Europe's most vulnerable state and the most exposed to potential Russian
+  aggression after the Baltics. The Transnistria separatist region — a Russian-backed
+  breakaway territory along Moldova's eastern border — hosts approximately 1,500
+  Russian troops and massive Soviet-era ammunition stockpiles. If Russia successfully
+  establishes a humanitarian corridor through the Suwalki Gap, Moldova faces an
+  existential nightmare: Russian forces could use the precedent to create a land
+  corridor from Transnistria to mainland Russia via Ukraine, effectively partitioning
+  Moldova. Moldova is energy-dependent on Russian gas via Transnistria-controlled
+  pipelines, giving Moscow economic leverage. The Moldovan military is tiny (around
+  5,000 active personnel) and incapable of defending against serious external threat.
+  Moldova has been accelerating EU integration since 2022, gaining EU candidate status
+  in June 2022, but remains constitutionally neutral and cannot join military alliances.
+  The country is acutely aware that if NATO fails to defend Lithuania, Moldova will
+  be completely on its own.
+
+factions:
+  - name: "President & Government"
+    role: "pragmatist"
+    personality: >
+      A pro-European leadership operating in a state of controlled panic. Moldova has
+      spent years trying to walk a tightrope between EU integration and avoiding
+      Russian aggression, and the Suwalki crisis threatens to collapse that balance
+      entirely. The President is terrified that if Russia succeeds in establishing a
+      corridor through Lithuania, Moldova will be next — Russian forces could push
+      west from Transnistria under the same 'humanitarian' pretexts. Moldova's army
+      cannot stop such an incursion; its only hope is Western diplomatic pressure and
+      economic support. The government is desperately accelerating EU accession talks,
+      requesting Western security guarantees, and preparing for potential refugee flows
+      from Ukraine if the crisis escalates. Moldova cannot afford to antagonize Russia
+      directly but signals Western orientation at every opportunity. The Transnistria
+      issue haunts every decision: 1,500 Russian troops are already on Moldovan soil,
+      and Moscow has ignored decades of calls for withdrawal. The government references
+      this constantly: 'We are not a buffer zone. We are a European nation. But we
+      need Europe to remember that when Russian tanks are 50 kilometers from our capital.'
+    priorities:
+      - "Avoid being drawn into direct conflict — Moldova has no defense capability"
+      - "Accelerate EU accession process and secure concrete membership timeline"
+      - "Request Western security guarantees despite constitutional neutrality"
+      - "Prepare for refugee crisis if Ukraine becomes battlefield transit zone"
+      - "Maintain energy independence from Russian gas (emergency diversification)"
+      - "Prevent Russia from using Suwalki precedent to legitimize Transnistria corridor"
+    red_lines:
+      - "Russian military expansion in Transnistria or incursion into Moldovan-controlled territory"
+      - "Western pressure to accept forced neutrality or 'Finlandization' as peace terms"
+      - "EU abandoning enlargement commitment — Moldova's only long-term security is membership"
+      - "Any deal that legitimizes separatist regions as permanent frozen conflicts"
+    voice: >
+      Anxious but dignified. Uses language of small-state vulnerability combined
+      with European identity: 'We are not a buffer zone between empires. We are a
+      European nation that has chosen democracy and the rule of law. But we need
+      Europe to stand with us, not just offer words.' References Moldova's tiny size
+      and limited resources plainly: 'We have 5,000 soldiers. Russia has 1,500 troops
+      already on our soil. We cannot defend ourselves. That is not pessimism — it is
+      arithmetic.' Shows visible frustration at being overlooked: 'When the crisis
+      ends, will the big powers remember that Moldova exists? Or will we be traded
+      away in a backroom deal, like we have been so many times before?'
+    key_relationships:
+      allies: ["RO (closest ally)", "EU", "US", "UA", "PL"]
+      rivals: ["RU", "Transnistria (proxy)"]

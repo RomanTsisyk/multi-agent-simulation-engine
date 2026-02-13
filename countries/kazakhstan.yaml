@@ -1,0 +1,73 @@
+name: "Kazakhstan"
+code: "KZ"
+alliances: ["CSTO", "SCO", "EAEU", "multi-vector foreign policy"]
+military_strength: 4
+economic_strength: 6
+nuclear: false
+geographic_relevance: >
+  Kazakhstan is the largest landlocked country in the world and Russia's most important
+  regional ally after Belarus — yet also a state that has been systematically distancing
+  itself from Moscow since 2022. Kazakhstan shares a 7,600-kilometer border with Russia,
+  the longest continuous land border between any two countries. Approximately 18% of
+  Kazakhstan's population is ethnic Russian, concentrated in northern provinces
+  (Kostanay, North Kazakhstan, Pavlodar) — exactly the demographic Russia has used as
+  pretext for intervention in Ukraine and Georgia. The country is a major energy
+  exporter (oil, gas, uranium) with most export routes running through Russian pipelines,
+  giving Moscow economic leverage. However, President Tokayev has publicly refused to
+  recognize Russia's annexation of Crimea or the Donbas republics, declined to send
+  troops to Ukraine, and has pivoted toward Turkey, China, and Gulf states as
+  counterweights to Russian influence. Kazakhstan joined CSTO but has been conspicuously
+  inactive in alliance obligations. The Suwalki crisis is Kazakhstan's worst-case
+  scenario: if Russia successfully establishes a 'humanitarian corridor' precedent,
+  that exact playbook could be applied to northern Kazakhstan's Russian-minority regions.
+
+factions:
+  - name: "Presidential Administration (Akorda)"
+    role: "pragmatist"
+    personality: >
+      A leadership executing one of the most delicate diplomatic balancing acts in
+      the world. President Tokayev took office after the 2022 January crisis and has
+      carefully repositioned Kazakhstan away from total Russian dependency without
+      triggering Moscow's wrath. The government is acutely aware of Kazakhstan's
+      vulnerabilities: a massive border with Russia, large Russian minority population
+      in the north, and export infrastructure routed through Russian territory. However,
+      Tokayev also recognizes that Kazakhstan's long-term sovereignty depends on
+      diversification: strengthening ties with China (Belt and Road), Turkey (ethnic/
+      cultural partner), Gulf states (investment), and the West (energy markets).
+      The Suwalki crisis is terrifying because it establishes a precedent that could
+      be weaponized against Kazakhstan. If Russia can claim a 'humanitarian corridor'
+      through NATO territory to protect ethnic Russians in Kaliningrad, what stops
+      Moscow from claiming the same in northern Kazakhstan? The government will
+      maintain strict neutrality, refuse any CSTO military obligations, and emphasize
+      sovereignty above all else. References to multi-vector policy are constant —
+      it is Kazakhstan's survival doctrine.
+    priorities:
+      - "Maintain strict neutrality — do not take sides in Russia-NATO confrontation"
+      - "Prevent 'humanitarian corridor' precedent from being established anywhere"
+      - "Protect territorial integrity and sovereignty from any Russian irredentist claims"
+      - "Diversify energy export routes away from Russian pipelines (Caspian routes, China)"
+      - "Strengthen partnerships with Turkey, China, Gulf states as counterweights to Russia"
+      - "Avoid CSTO military obligations — no troops, no material support for Russian operations"
+    red_lines:
+      - "Any CSTO obligation requiring Kazakhstan to provide troops or bases for military operations"
+      - "International recognition of Russian territorial gains under 'humanitarian' pretexts"
+      - "Russian threats to Kazakhstan's sovereignty or territorial integrity"
+      - "Secondary sanctions from West that threaten Kazakhstan's oil/gas exports"
+      - "Any deal that undermines principle of territorial integrity — sets dangerous precedent"
+    voice: >
+      Formal diplomatic language, meticulously balanced, with constant emphasis on
+      sovereignty and multi-vector policy. Uses phrases like 'Kazakhstan is a sovereign
+      state with its own national interests' and 'We maintain constructive relations
+      with all partners on the basis of mutual respect and non-interference.' Avoids
+      direct criticism of Russia while clearly signaling independence: 'Kazakhstan
+      supports territorial integrity and the UN Charter. We respect international
+      borders. We do not recognize unilateral changes to borders.' References
+      multi-vector policy as national doctrine: 'Our foreign policy is balanced. We
+      are members of CSTO and SCO. We have strategic partnerships with Russia, China,
+      Turkey, the United States, and EU. We do not join blocs against anyone.' Shows
+      firmness on sovereignty: 'Kazakhstan's independence is not negotiable. We will
+      defend our territorial integrity. We will not be a transit route for conflicts
+      that do not concern us.'
+    key_relationships:
+      allies: ["TR (strategic partner)", "CN (economic/BRI)", "UZ", "AZ"]
+      rivals: ["None openly stated — maintains working relationships with all"]

@@ -22,6 +22,8 @@ from agents.base import AgentConfig
 from agents.faction import Faction
 from agents.country import Country, CountryConfig
 from engine.analytics import generate_analytics, format_analytics_text
+from engine.checkpoint import save_checkpoint, collect_agent_histories
+from engine.dashboard import Dashboard, compute_escalation_level
 from engine.game_master import GameMaster
 from engine.round_logger import RoundLogger
 from engine.world_state import MilitaryUnit, WorldState
@@ -235,6 +237,7 @@ class Game:
         self.world_state: WorldState | None = None
         self.countries: dict[str, Country | _CountryStub] = {}
         self.logger: RoundLogger | None = None
+        self.dashboard: Dashboard | None = None
         self.total_rounds: int = config.get("scenario", {}).get("rounds", 6)
         # Diplomatic message buffer: messages from previous round delivered next round
         self._diplomatic_inbox: list[dict] = []
@@ -297,6 +300,14 @@ class Game:
         self.logger = RoundLogger.create_for_new_game(base_dir=logs_dir)
         _print_info(f"Logging to: {self.logger.game_dir}")
 
+        # --- Dashboard ---
+        self.dashboard = Dashboard(
+            game_dir=self.logger.game_dir,
+            total_rounds=self.total_rounds,
+            num_countries=len(self.countries),
+            scenario_name=scenario_cfg.get("name", ""),
+        )
+
         _print_success("Setup complete.")
 
     # ------------------------------------------------------------------
@@ -337,6 +348,8 @@ class Game:
         }
 
         # --- 1. Situation briefing ---
+        if self.dashboard:
+            self.dashboard.update(phase="briefing", round_num=round_num)
         _print_phase("Game Master", "Generating situation briefing...")
         briefing = await self.game_master.generate_situation_briefing(
             self.world_state, round_num,
@@ -346,6 +359,8 @@ class Game:
         _print_info(f"Briefing length: {len(briefing)} chars")
 
         # --- 2 & 3. Country deliberation ---
+        if self.dashboard:
+            self.dashboard.update(phase="deliberation")
         use_parallel = (
             self.backend is not None
             and self.backend.supports_parallel
@@ -384,6 +399,8 @@ class Game:
         self._diplomatic_inbox = all_diplomatic
 
         # --- 5. GM resolves actions ---
+        if self.dashboard:
+            self.dashboard.update(phase="resolution")
         _print_phase("Game Master", "Resolving actions...")
         try:
             resolution = await self.game_master.resolve_actions(
@@ -406,6 +423,29 @@ class Game:
         updates = resolution.get("world_state_updates", {})
         self.world_state.apply_updates(updates)
         round_record["world_state_after"] = self.world_state.to_dict()
+
+        # BUG FIX 3: Track corridor control based on GM resolution content
+        self._update_corridor_control(resolution)
+
+        # Record round summary for GM memory
+        if self.game_master is not None:
+            # Build compact summary from this round's data
+            key_decisions = []
+            for dec in all_decisions[:5]:  # Top 5 countries
+                country = dec.get("country", "Unknown")
+                actions = dec.get("actions", [])
+                if actions:
+                    key_decisions.append(f"{country}: {actions[0]}")
+
+            briefing_summary = briefing[:200] if briefing else "No briefing"
+            resolution_summary = resolution.get("narrative", "")[:300] if resolution else "No resolution"
+
+            self.game_master.record_round_summary(
+                round_num=round_num,
+                briefing_summary=briefing_summary,
+                key_decisions=key_decisions,
+                resolution_summary=resolution_summary,
+            )
 
         # Store summary for cross-round memory
         self._previous_round_summary = self._build_round_summary(
@@ -436,6 +476,15 @@ class Game:
         round_record["elapsed_seconds"] = round(elapsed, 1)
         self.logger.log_round(round_num, round_record)
 
+        # Update dashboard with round results
+        if self.dashboard:
+            ws_dict = self.world_state.to_dict()
+            self.dashboard.update(
+                round_time=elapsed / 60.0,  # minutes
+                escalation_level=compute_escalation_level(ws_dict),
+                headlines=headlines,
+            )
+
         _print_success(f"Round {round_num} complete ({elapsed:.1f}s)")
         return round_record
 
@@ -443,8 +492,12 @@ class Game:
     # Full game run
     # ------------------------------------------------------------------
 
-    async def run(self) -> dict[str, Any]:
+    async def run(self, start_round: int = 1) -> dict[str, Any]:
         """Run the entire game for the configured number of rounds.
+
+        Args:
+            start_round: Round number to start from (default 1). Used for
+                resuming from a checkpoint.
 
         Returns:
             A summary dictionary with overall game statistics.
@@ -455,13 +508,19 @@ class Game:
         _print_header(
             f"STARTING WARGAME: {self.config.get('scenario', {}).get('name', 'Unnamed')}"
         )
+        if start_round > 1:
+            _print_info(f"Resuming from round {start_round} (rounds 1-{start_round - 1} already completed)")
+
+        # Start the live dashboard
+        if self.dashboard:
+            self.dashboard.start()
 
         game_start = time.time()
         round_records: list[dict] = []
         round_times: list[float] = []
         end_condition_triggered: dict | None = None
 
-        for round_num in range(1, self.total_rounds + 1):
+        for round_num in range(start_round, self.total_rounds + 1):
             try:
                 record = await self.run_round(round_num)
                 round_records.append(record)
@@ -481,6 +540,25 @@ class Game:
                     f"ETA: {eta_min}m {eta_sec}s"
                 )
 
+                # Save checkpoint after each round
+                try:
+                    save_checkpoint(
+                        game_dir=self.logger.game_dir,
+                        round_completed=round_num,
+                        world_state_dict=self.world_state.to_dict(),
+                        diplomatic_inbox=self._diplomatic_inbox,
+                        previous_round_summary=self._previous_round_summary,
+                        corridor_hold_rounds=self._corridor_hold_rounds,
+                        corridor_was_contested=self._corridor_was_contested,
+                        gm_round_history=self.game_master._round_history if self.game_master else [],
+                        agent_histories=collect_agent_histories(self),
+                        total_rounds=self.total_rounds,
+                        config=self.config,
+                    )
+                except Exception as ckpt_err:
+                    _print_error(f"Checkpoint save failed: {ckpt_err}")
+                    logger.exception("Checkpoint save failed after round %d", round_num)
+
                 # Check victory / end conditions
                 end_condition_triggered = self.check_end_conditions()
                 if end_condition_triggered:
@@ -493,8 +571,14 @@ class Game:
                 _print_error(f"Round {round_num} failed catastrophically: {exc}")
                 logger.exception("Round %d failed", round_num)
                 traceback.print_exc()
+                if self.dashboard:
+                    self.dashboard.update(error=str(exc))
                 # Continue to next round even if this one failed entirely
                 continue
+
+        # Stop the live dashboard
+        if self.dashboard:
+            self.dashboard.stop()
 
         # --- Summary ---
         total_elapsed = time.time() - game_start
@@ -701,8 +785,15 @@ class Game:
         all_decisions: list[dict] = []
         diplomatic_messages: list[dict] = []
 
-        for code, country in self.countries.items():
+        for idx, (code, country) in enumerate(self.countries.items()):
             cname = country.config.name if isinstance(country, Country) else country.name
+            n_factions = len(country.factions) if isinstance(country, Country) else 0
+            if self.dashboard:
+                self.dashboard.update(
+                    country=cname,
+                    country_index=idx + 1,
+                    total_factions=n_factions,
+                )
             _print_phase(cname, "Deliberating...")
             decision = await self._deliberate_one_country(code, country, briefing)
             all_decisions.append(decision)
@@ -794,6 +885,62 @@ class Game:
                 lines.append(f"  - {s}")
 
         return "\n".join(lines)
+
+    def _update_corridor_control(self, resolution: dict) -> None:
+        """Update corridor control status based on GM resolution content.
+
+        BUG FIX 3: Analyzes the narrative and events from the GM resolution
+        to determine whether the Suwalki corridor is under Russian, NATO,
+        or contested control.
+        """
+        assert self.world_state is not None
+
+        # Collect all text to analyze: narrative + events + headlines
+        text_to_analyze = resolution.get("narrative", "").lower()
+
+        for event in resolution.get("events", []):
+            text_to_analyze += " " + str(event).lower()
+
+        for headline in resolution.get("headlines", []):
+            text_to_analyze += " " + str(headline).lower()
+
+        # Also check recent_events from world state
+        for event in self.world_state.recent_events:
+            text_to_analyze += " " + str(event).lower()
+
+        # Define keyword patterns for each control state
+        russian_keywords = [
+            "corridor seized", "russian control", "corridor secured",
+            "russia holds", "russian forces control", "corridor captured",
+            "russian occupation", "moscow controls", "suwalki seized"
+        ]
+
+        nato_keywords = [
+            "corridor liberated", "nato recaptured", "corridor cleared",
+            "nato control", "corridor retaken", "allied forces secured",
+            "russian withdrawal", "corridor freed", "nato holds corridor"
+        ]
+
+        contested_keywords = [
+            "fighting", "contested", "battle for corridor", "fierce combat",
+            "ongoing clashes", "neither side controls", "fighting continues",
+            "combat in the corridor", "disputed territory", "back and forth"
+        ]
+
+        # Count matches for each category
+        russian_matches = sum(1 for kw in russian_keywords if kw in text_to_analyze)
+        nato_matches = sum(1 for kw in nato_keywords if kw in text_to_analyze)
+        contested_matches = sum(1 for kw in contested_keywords if kw in text_to_analyze)
+
+        # Determine control status based on keyword matches
+        # Priority: contested > specific control (since ongoing fighting overrides claims)
+        if contested_matches > 0:
+            self.world_state.corridor_control = "contested"
+        elif russian_matches > nato_matches:
+            self.world_state.corridor_control = "russian"
+        elif nato_matches > russian_matches:
+            self.world_state.corridor_control = "nato"
+        # If no clear signals, maintain current state (don't change)
 
     # ------------------------------------------------------------------
     # Internal helpers
@@ -895,7 +1042,12 @@ class Game:
             economic_strength=cfg.get("economic_strength", 5),
             description=description,
         )
-        return Country(config=country_config, factions=factions, backend=backend)
+        return Country(
+            config=country_config,
+            factions=factions,
+            backend=backend,
+            max_tokens_per_response=debate_max_tokens,
+        )
 
     def _build_initial_state(self, initial: dict) -> WorldState:
         """Construct a :class:`WorldState` from the scenario's initial_state dict."""
@@ -908,6 +1060,7 @@ class Game:
         # Scalars
         state.nato_alert_level = initial.get("nato_alert_level", "elevated")
         state.game_time = initial.get("game_time", "Day 1, 00:00")
+        state.corridor_control = initial.get("corridor_control", "contested")
 
         # Dicts
         state.nuclear_posture = initial.get("nuclear_posture", {})

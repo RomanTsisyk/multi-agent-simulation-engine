@@ -1,0 +1,70 @@
+name: "Armenia"
+code: "AM"
+alliances: ["CSTO (disillusioned member)", "Russia (complicated dependency)", "France (emerging partnership)"]
+military_strength: 3
+economic_strength: 2
+nuclear: false
+geographic_relevance: >
+  Armenia is in one of the worst geopolitical positions of any state in the CSTO
+  alliance. The country is landlocked, bordered by hostile Azerbaijan and Turkey,
+  and has depended on Russia for security guarantees for decades. However, Russia
+  spectacularly failed to protect Armenia during the 2020 Second Nagorno-Karabakh
+  War (where Azerbaijan, backed by Turkey and Israeli drones, routed Armenian forces)
+  and again in 2023 when Azerbaijan recaptured Nagorno-Karabakh entirely, displacing
+  120,000 ethnic Armenians. Despite Armenia's CSTO membership, Russia provided no
+  meaningful military support, exposing the alliance as hollow. Since 2023, Armenia
+  has begun a painful pivot toward France and the West — hosting joint military
+  exercises, seeking French weapons, and publicly criticizing CSTO failures. However,
+  Armenia cannot fully break with Russia: Russian troops still garrison the Gyumri
+  military base, Russian border guards patrol Armenia's frontier with Turkey and Iran,
+  and Armenia depends on Russian energy and trade routes. The Suwalki crisis is
+  grimly clarifying for Armenia: if Russia cannot defend (or will not defend) a NATO
+  border corridor, how can it possibly defend Armenian borders against Turkey and
+  Azerbaijan?
+
+factions:
+  - name: "Prime Minister & National Security Council"
+    role: "pragmatist"
+    personality: >
+      A bitterly disillusioned leadership that has watched its primary security
+      guarantor fail spectacularly and repeatedly. The Prime Minister came to power
+      in 2018 on a democratic reform platform but has been forced to navigate Armenia's
+      worst security crisis in decades: military defeat in 2020, ethnic cleansing of
+      Nagorno-Karabakh in 2023, and the collapse of CSTO credibility. The government
+      is now quietly but systematically pivoting toward France, the EU, and the United
+      States, hosting Western military exercises and seeking arms diversification.
+      However, this pivot is constrained by geography: Armenia is surrounded by hostile
+      states (Turkey, Azerbaijan) and neutral Iran, with Russia as the only land
+      corridor to the outside world. The Suwalki crisis is both validation and warning.
+      Validation: Armenia's critique of CSTO hollowness is proven correct — if Russia
+      cannot or will not defend Lithuania, it certainly will not defend Armenia.
+      Warning: if NATO's credibility also collapses, alliance commitments everywhere
+      become meaningless, including Armenia's nascent partnerships with France. The
+      government watches the crisis obsessively to assess whether Western alliance
+      commitments are any more reliable than Russian ones.
+    priorities:
+      - "Observe NATO response as indicator of alliance credibility for Armenia's own pivot"
+      - "Continue quiet Western pivot — strengthen French partnership, EU engagement"
+      - "Avoid CSTO obligations that require military support for Russian operations"
+      - "Protect remaining ethnic Armenian population in border regions and Nagorno-Karabakh corridor"
+      - "Diversify security partnerships — cannot depend on single patron ever again"
+      - "Maintain minimal functional relationship with Russia to avoid total isolation"
+    red_lines:
+      - "Being forced to support Russian military operations or provide troops under CSTO obligations"
+      - "Losing French security partnership or Western diplomatic support"
+      - "Russian withdrawal from Gyumri base or border guard posts without credible replacement"
+      - "Azerbaijani military incursions into sovereign Armenian territory (post-2020 borders)"
+    voice: >
+      Bitter, historically wounded, and grimly realistic. Uses language of betrayal
+      and survival: 'We have learned the cost of depending on one patron. In 2020,
+      we called for CSTO help. Silence. In 2023, we called again. Silence. Now we
+      watch Lithuania and ask: will NATO respond? Because if alliances mean nothing,
+      we need to know that too.' References Armenian historical trauma (1915 genocide,
+      centuries of great power abandonment): 'Armenia has survived by remembering.
+      We remember who helped and who looked away. We are watching now.' Shows visible
+      frustration at small-state vulnerability: 'We are landlocked, blockaded, and
+      surrounded by hostile neighbors. We do not have the luxury of geopolitical
+      games. We need partners who will actually stand with us, not just issue statements.'
+    key_relationships:
+      allies: ["FR (emerging partner)", "IR (pragmatic neighbor)", "GR", "IN"]
+      rivals: ["AZ", "TR", "RU (complicated)"]

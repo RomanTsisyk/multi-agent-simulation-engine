@@ -1,7 +1,7 @@
 name: "Russia"
 code: "RU"
 alliances: ["CSTO", "SCO", "Union State (with Belarus)", "BRICS"]
-military_strength: 8
+military_strength: 7
 economic_strength: 5
 nuclear: true
 geographic_relevance: >
@@ -52,7 +52,7 @@ factions:
       blunt: 'NATO will send strongly worded letters. By the time they agree on
       anything, we will have built fortifications.'
     key_relationships:
-      allies: ["BY", "CN (tactical)", "IN (diplomatic)", "RS"]
+      allies: ["BY", "CN (tactical)", "IN (strategic partner, non-aligned)", "RS"]
       rivals: ["US", "PL", "GB", "UA", "LT", "LV", "EE", "FI"]
 
   - name: "General Staff (Генеральный штаб)"

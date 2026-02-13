@@ -101,6 +101,16 @@ class ViewerHandler(SimpleHTTPRequestHandler):
             self._error_response(404, "Game not found")
             return
 
+        # API: get live status for a game
+        if self.path.startswith("/api/status/"):
+            game_name = self.path[len("/api/status/"):]
+            fpath = _safe_resolve(LOGS_DIR, f"{game_name}/status.json")
+            if fpath and fpath.exists():
+                self._file_response(fpath)
+                return
+            self._error_response(404, "Status not found (game may not be running)")
+            return
+
         # Serve viewer/index.html at root
         if self.path == "/" or self.path == "/index.html":
             self._file_response(VIEWER_DIR / "index.html", "text/html")

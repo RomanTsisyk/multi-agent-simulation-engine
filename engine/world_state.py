@@ -348,6 +348,8 @@ class WorldState:
             self.game_time = updates["game_time"]
         if "nato_alert_level" in updates:
             self.nato_alert_level = updates["nato_alert_level"]
+        if "corridor_control" in updates:
+            self.corridor_control = updates["corridor_control"]
 
         # --- Military units ---
         for new_unit in updates.get("military_units_add", []):
