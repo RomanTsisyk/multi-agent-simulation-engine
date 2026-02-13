@@ -1,333 +1,336 @@
-# WarGame: Suwalki Gap Crisis Simulation
+# WarGame: LLM-Powered Geopolitical Simulation
 
-## Overview
+**A sophisticated multi-agent wargaming system where AI-powered factions debate internal policy before making decisions.**
 
-Multi-agent AI geopolitical wargame simulating a Suwalki Gap crisis between NATO and Russia. 20 countries, 30 internal factions, each powered by a local LLM running via Ollama. Every country has its own AI-driven decision-making process with internal faction debates, private intelligence, and autonomous action selection.
+[![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Based on real wargame scenarios and defense research: Die Welt/Hamburg 2026 tabletop exercise, RAND Corporation Baltic studies, NATO Steadfast Defender 2024, and Polish WINTER-20 exercises.
+---
 
-## Requirements
+## 🎯 What Is This?
 
-- **macOS** (tested on Mac Studio M2 Ultra 64GB)
+WarGame simulates geopolitical crises using Large Language Models (LLMs) to drive realistic decision-making. Unlike traditional wargames where countries make monolithic choices, **each country contains multiple AI-powered factions** (hawks, doves, diplomats, military realists) that:
+
+1. **Debate internally** over 3 rounds (initial position → rebuttal → synthesis)
+2. **Argue with each other** citing historical precedents and strategic concerns
+3. **Synthesize** a unified decision weighted by faction influence
+
+This creates **emergent, narrative-driven gameplay** where political dynamics matter as much as military strength.
+
+### Key Features
+
+- **🎭 Multi-Faction Debates**: Each country has 2-4 factions with distinct personalities and priorities
+- **🌍 66 Countries Modeled**: From major powers (US, Russia, China) to regional actors (Poland, Turkey, Baltic states)
+- **⚛️ Nuclear Escalation Ladder**: Realistic posture levels (peacetime → elevated → launch_ready)
+- **🎲 Cascading Effects**: Oil prices affect public opinion, casualties reduce morale, sanctions trigger economic responses
+- **📊 Rich Analytics**: Post-game analysis with turning points, faction influence charts, and timeline visualization
+- **🔧 Extensible**: YAML-based scenarios and country configs, pluggable LLM backends (Ollama, DeepSeek)
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+
 - **Python 3.12+**
-- **Ollama** (for local LLM inference)
-- **~20GB free disk space** (for the AI model download)
-- **Recommended: 64GB+ RAM** (for the 32B parameter model)
+- **Ollama** (for local LLM) or **DeepSeek API key** (for cloud LLM)
+- **64GB RAM recommended** for deepseek-r1:32b model
 
-## Quick Start
-
-Step-by-step setup:
+### Installation
 
 ```bash
-# 1. Clone or copy the project
-git clone <repo-url> && cd WarGame
+# Clone repository
+git clone https://github.com/yourusername/wargame.git
+cd wargame
 
-# 2. Install Ollama
-brew install ollama
-# OR download from https://ollama.com/download
+# Install Python dependencies
+pip install -r requirements.txt
 
-# 3. Start the Ollama server (in a separate terminal)
-ollama serve
+# Install Ollama (macOS/Linux)
+curl -fsSL https://ollama.com/install.sh | sh
 
-# 4. Pull the model (~20GB download, takes ~20 min on first run)
+# Pull AI model (20GB download, takes 10-30 minutes)
 ollama pull deepseek-r1:32b
 
-# 5. Create a Python virtual environment
-python3 -m venv .venv
-
-# 6. Install Python dependencies
-.venv/bin/pip install -r requirements.txt
-
-# 7. Run a quick test (4 countries, 2 rounds)
-.venv/bin/python3 run.py --rounds 2 --countries PL RU US DE
-
-# 8. Run the full game (20 countries, 10 rounds)
-.venv/bin/python3 run.py
+# Verify installation
+python run.py preflight
 ```
 
-## Alternative: setup.sh
-
-A convenience script that checks prerequisites, installs dependencies, and pulls the model:
+### Run Your First Game
 
 ```bash
-chmod +x setup.sh && ./setup.sh
+# Quick game (4 countries, 3 rounds, ~15 minutes)
+python run.py play --preset quick
+
+# Medium game (10 countries, 5 rounds, ~45 minutes)
+python run.py play --preset medium
+
+# Full game (20 countries, 10 rounds, ~3 hours)
+python run.py play --preset full
 ```
 
-## CLI Options
-
-```
---config PATH       Custom config file (default: config.yaml)
---rounds N          Override number of rounds
---backend NAME      "ollama" or "deepseek"
---model NAME        Override model (e.g. "llama3.3:70b", "qwen3:32b")
---countries XX YY   Only include specific countries by code
-```
-
-Available country codes: `PL` `RU` `US` `DE` `FR` `CN` `UA` `GB` `TR` `JP` `FI` `LT` `LV` `EE` `SE` `BY` `IN` `SA` `IL` `RS`
-
-Examples:
+### View Results
 
 ```bash
-# Quick 4-country test
-.venv/bin/python3 run.py --rounds 2 --countries PL RU US DE
+# Start web viewer
+python serve.py
 
-# Key NATO vs Russia players
-.venv/bin/python3 run.py --rounds 5 --countries PL RU US DE FR GB LT
-
-# Full game with a different model
-.venv/bin/python3 run.py --model qwen3:32b
-
-# Use DeepSeek cloud API
-DEEPSEEK_API_KEY=your_key .venv/bin/python3 run.py --backend deepseek
+# Open browser to http://localhost:8080
+# Select your game from the list
 ```
 
-## Project Structure
+---
+
+## 📖 How It Works
+
+### Game Loop
 
 ```
-WarGame/
-├── config.yaml              # Main configuration (backend, model, debate settings)
-├── run.py                   # Entry point -- loads config, builds game, runs loop
-├── setup.sh                 # One-step setup script
-├── requirements.txt         # Python dependencies (aiohttp, pyyaml)
-│
-├── engine/                  # Core simulation engine
-│   ├── game.py              # Main game loop (round orchestration)
-│   ├── game_master.py       # GM agent (briefings, action resolution, narrative)
-│   ├── world_state.py       # World model (military units, markets, public opinion)
-│   └── round_logger.py      # JSON logging for each round
-│
-├── agents/                  # AI agent framework
-│   ├── base.py              # Base agent class (LLM interaction)
-│   ├── country.py           # Country agent (deliberation, decision-making)
-│   └── faction.py           # Faction agent (internal debate positions)
-│
-├── backends/                # LLM backend adapters
-│   ├── base.py              # Abstract backend interface
-│   ├── ollama_backend.py    # Ollama local inference backend
-│   └── deepseek_backend.py  # DeepSeek cloud API backend
-│
-├── countries/               # Country definition files (20 YAML files)
-│   ├── poland.yaml          # Each file: name, code, alliances, factions,
-│   ├── russia.yaml          #   military/economic strength, geographic relevance,
-│   ├── usa.yaml             #   faction personalities, priorities, and red lines
-│   └── ...                  #
-│
-├── scenarios/               # Scenario definitions
-│   └── suwalki_gap.yaml     # Crisis scenario, initial event, world state
-│
-├── viewer/                  # Browser-based game viewer
-│   └── index.html           # Dark-themed viewer for round-by-round replay
-│
-└── logs/                    # Game output (created at runtime)
-    └── game_YYYYMMDD_HHMMSS/  # One directory per game session
-        ├── round_01.json       # Full round data (debates, decisions, world state)
-        ├── round_02.json
-        └── ...
+Round Start → Countries Deliberate → GM Resolves → Update World State → Check End Conditions
+                      ↓
+        Faction Debate (3 rounds) → Synthesis → Decision
 ```
 
-## How It Works
+### Example: Poland's Internal Debate
 
-Each round follows a structured pipeline:
+**Round 1 - Initial Positions**
+- **President (Hawk)**: "We must attack NOW. Every hour strengthens Russian positions. 1939 taught us appeasement fails!"
+- **PM (Diplomat)**: "Fracturing NATO is worse than losing the corridor. We need Article 5 consensus."
+- **General Staff (Realist)**: "Force ratio is 1.4:1 against us. We need 24h for US reinforcements."
 
-1. **GM Situation Briefing** -- The Game Master AI generates a narrative briefing describing the current state of the crisis, recent events, and intelligence reports.
+**Round 2 - Rebuttals**
+- President: "General, we won't GET 24 hours. Russia will dig in."
+- PM: "President, unilateral action means Germany blocks Article 5."
+- General: "PM, Germany already hesitates. Diplomacy buys nothing."
 
-2. **Private Intelligence** -- Each country receives tailored intelligence based on its alliances, geographic position, and capabilities. NATO members share certain intel; Russia and its allies see a different picture.
+**Round 3 - Synthesis**
+Poland chooses PM's approach: Diplomatic pressure + 48h ultimatum + covert mobilization.
 
-3. **Internal Faction Debate** (3 rounds) -- Each country's factions argue internally:
-   - **Round 1: Position** -- Each faction states its recommended course of action.
-   - **Round 2: Argument** -- Factions respond to each other, challenging assumptions and defending positions.
-   - **Round 3: Synthesis** -- Factions attempt to find common ground or acknowledge irreconcilable differences.
+**Result**: Decision is shaped by faction weights (President=3.0, PM=2.0, General=2.5 in conventional war phase).
 
-4. **Unified Decision** -- The country agent synthesizes the faction debate into a single national decision, selecting concrete actions (diplomatic, military, economic, intelligence).
+---
 
-5. **Action Resolution** -- The Game Master resolves all 20 countries' actions simultaneously, determining outcomes, cascading effects, and narrative consequences. The world state updates: military units move, markets shift, public opinion changes, alliances strengthen or fracture.
+## 🗂️ Scenarios
 
-6. **Logging** -- Every step is saved as structured JSON to `logs/game_YYYYMMDD_HHMMSS/`, including the full text of every faction debate, every decision, and every GM resolution.
+### Included Scenario: Suwalki Gap Crisis
 
-Countries are processed sequentially because the local Ollama backend handles one request at a time. The DeepSeek cloud backend can parallelize API calls for faster execution.
+**Premise**: Russia seizes the Suwalki corridor (Poland-Lithuania border), cutting off Baltic states from NATO. Poland must decide whether to counter-attack, invoke Article 5, or negotiate.
 
-## Viewing Results
+**Victory Conditions**:
+- **Russian Victory**: Hold corridor for 6 rounds (3 days)
+- **NATO Victory**: Liberate corridor
+- **Diplomatic Resolution**: Negotiated ceasefire
+- **Catastrophic**: Nuclear weapon detonation
 
-Game logs are saved as JSON files in `logs/game_YYYYMMDD_HHMMSS/`.
+**Key Actors**: Poland, Russia, USA, Germany, UK, France, Lithuania, Latvia, Estonia, Belarus, China (observer)
 
-**Using the built-in viewer:**
+---
 
-1. Open `viewer/index.html` in any modern browser.
-2. Load the round JSON files to see debates, decisions, and world state changes.
+## ⚙️ Configuration
 
-**Using a local file server (for loading JSON files):**
+### YAML-Based Scenarios
 
-```bash
-.venv/bin/python3 -m http.server 8080 --directory logs/
-```
-
-Then navigate to `http://localhost:8080` and select a game session.
-
-**Direct JSON inspection:**
-
-Each `round_XX.json` file contains the complete round data: GM briefing, per-country faction debates, national decisions, action resolutions, and updated world state.
-
-## Configuration
-
-The `config.yaml` file controls the simulation:
+Create custom scenarios in `scenarios/` directory:
 
 ```yaml
-game:
-  name: "Suwalki Gap Crisis"
-  scenario: "scenarios/suwalki_gap.yaml"
-  rounds: 10                          # Number of game rounds
-  countries_dir: "countries"
-  logs_dir: "logs"
+name: "Taiwan Strait Crisis 2027"
+description: "China announces 72h reunification deadline..."
 
-llm:
-  backend: "ollama"                   # "ollama" or "deepseek"
+participants:
+  - US
+  - CN
+  - TW
+  - JP
 
-  ollama:
-    base_url: "http://localhost:11434"
-    model: "deepseek-r1:32b"
-    temperature: 0.7                  # Higher = more creative/unpredictable
-    timeout: 300                      # Seconds per LLM call
+initial_state:
+  corridor_control: "contested"  # or "russian", "nato"
+  nuclear_posture:
+    US: "elevated"
+    CN: "peacetime"
 
-  deepseek:
-    base_url: "https://api.deepseek.com/v1"
-    model: "deepseek-reasoner"
-    temperature: 0.7
-
-debate:
-  rounds: 3                           # Internal faction debate rounds
-  max_tokens_per_response: 500        # Token limit per faction response
-
-game_master:
-  max_tokens: 2000                    # GM gets more tokens for resolution
+victory_conditions:
+  - id: "chinese_victory"
+    type: "territorial"
+    description: "China controls Taiwan"
+    threshold_rounds: 10
 ```
 
-## Using Different Models
+### Country Configurations
 
-| Model | RAM Needed | Quality | Speed | Command |
-|---|---|---|---|---|
-| `deepseek-r1:32b` | ~24GB | Best reasoning | 15-22 tok/s | `ollama pull deepseek-r1:32b` |
-| `qwen3:32b` | ~24GB | Good general | 15-22 tok/s | `ollama pull qwen3:32b` |
-| `llama3.3:70b-q4` | ~48GB | Great quality | 8-12 tok/s | `ollama pull llama3.3:70b` |
-| `deepseek-r1:14b` | ~12GB | Decent | 25-35 tok/s | `ollama pull deepseek-r1:14b` |
+Each country in `countries/` has:
 
-To use a different model:
-
-```bash
-# Via CLI flag
-.venv/bin/python3 run.py --model qwen3:32b
-
-# Or edit config.yaml
-# llm.ollama.model: "qwen3:32b"
-```
-
-## Using DeepSeek API (Cloud)
-
-For much faster execution using the DeepSeek cloud API:
-
-```bash
-# Set your API key
-export DEEPSEEK_API_KEY=your_api_key_here
-
-# Run with the cloud backend
-.venv/bin/python3 run.py --backend deepseek
-```
-
-- **Cost:** approximately $2-3 for a full 10-round, 20-country game.
-- **Speed:** significantly faster than local inference thanks to parallel API calls.
-- **Model:** uses `deepseek-reasoner` (or `deepseek-chat`) on DeepSeek's servers.
-
-Get an API key at [https://platform.deepseek.com](https://platform.deepseek.com).
-
-## Countries and Factions
-
-The simulation includes 20 countries, each with 1-3 AI-driven internal factions that debate before producing a unified national decision.
-
-### NATO / Western Bloc
-
-| Country | Code | Factions | Nuclear |
-|---|---|---|---|
-| **Poland** | `PL` | President & MON (hawk), Prime Minister & MSZ (diplomat), General Staff (military realist) | No |
-| **United States** | `US` | White House / NSC (pragmatist), Pentagon & EUCOM (military realist) | Yes |
-| **Germany** | `DE` | Chancellor & BKA (pragmatist), Bundeswehr Leadership (military realist) | No |
-| **France** | `FR` | Elysee Palace (pragmatist), Military / Etat-Major (military realist) | Yes |
-| **United Kingdom** | `GB` | Prime Minister & FCDO (hawk), Military / Defence Staff (military realist) | Yes |
-| **Lithuania** | `LT` | President & National Defence Council (hawk) | No |
-| **Latvia** | `LV` | President & Cabinet (hawk) | No |
-| **Estonia** | `EE` | President & Government (hawk) | No |
-| **Finland** | `FI` | President & Security Committee (hawk) | No |
-| **Sweden** | `SE` | Prime Minister & Government (diplomat) | No |
-
-### Russia and Allies
-
-| Country | Code | Factions | Nuclear |
-|---|---|---|---|
-| **Russia** | `RU` | Kremlin (hardliner), General Staff (military realist), FSB (wildcard) | Yes |
-| **Belarus** | `BY` | Lukashenko & Presidential Administration (pragmatist) | No |
-| **Serbia** | `RS` | President & Security Services (wildcard) | No |
-
-### Non-Aligned / Global Players
-
-| Country | Code | Factions | Nuclear |
-|---|---|---|---|
-| **China** | `CN` | CCP Central Committee / Xi Jinping (pragmatist), PLA (military realist) | Yes |
-| **Ukraine** | `UA` | President & National Security Council (hawk), Armed Forces / ZSU (military realist) | No |
-| **Turkey** | `TR` | President Erdogan & AKP Inner Circle (wildcard) | No |
-| **Japan** | `JP` | Prime Minister & National Security Secretariat (diplomat) | No |
-| **India** | `IN` | Prime Minister & Ministry of External Affairs (pragmatist) | Yes |
-| **Saudi Arabia** | `SA` | Crown Prince MBS & Royal Court (pragmatist) | No |
-| **Israel** | `IL` | Prime Minister & Security Cabinet (pragmatist) | Yes |
-
-**Faction roles explained:**
-- **Hawk** -- Favors strong, immediate action; low tolerance for ambiguity.
-- **Diplomat** -- Prioritizes negotiation, coalition-building, and de-escalation.
-- **Pragmatist** -- Weighs costs and benefits; transactional decision-making.
-- **Military realist** -- Focuses on operational capability, readiness, and tactical feasibility.
-- **Hardliner** -- Committed to maximalist objectives; views compromise as weakness.
-- **Wildcard** -- Unpredictable; may act on ideology, opportunism, or domestic pressure.
-
-## Estimated Run Times
-
-| Configuration | Countries | Rounds | Time (Ollama) | Cost |
-|---|---|---|---|---|
-| Quick test | 4 | 2 | ~15 min | $0 (local) |
-| Medium | 7 key players | 5 | ~1.5 hrs | $0 (local) |
-| Full game | 20 | 10 | ~3 hrs | $0 (local) |
-| DeepSeek API | 20 | 10 | ~15 min | ~$2-3 |
-
-Times measured with `deepseek-r1:32b` on a Mac Studio M2 Ultra (64GB RAM). Actual times depend on hardware, model size, and token limits.
-
-## Customization
-
-**Add a new country:**
-Create a new YAML file in `countries/` following the existing format. Include `name`, `code`, `alliances`, `military_strength`, `economic_strength`, `nuclear`, `geographic_relevance`, and one or more `factions` with `name`, `role`, `personality`, and `priorities`.
-
-**Modify the scenario:**
-Edit `scenarios/suwalki_gap.yaml` to change the crisis description, background, initial event, or initial world state (military positions, economic conditions, public opinion).
-
-**Adjust faction personalities:**
-Edit the `personality` and `priorities` fields in any country YAML to change how that faction argues and what it values.
-
-**Create a new scenario:**
-Copy `scenarios/suwalki_gap.yaml`, modify the crisis setting, and point `config.yaml` at the new file:
 ```yaml
-game:
-  scenario: "scenarios/your_new_scenario.yaml"
+name: "Poland"
+code: "PL"
+military_strength: 5  # 1-10 scale
+economic_strength: 6
+nuclear: false
+
+factions:
+  - name: "President & National Security Council"
+    role: "hawk"  # hawk, dove, diplomat, military_realist, pragmatist, wildcard
+    personality: "References 1939 constantly, sees Russian aggression as existential threat..."
+    priorities:
+      - "Defend Polish territory"
+      - "Invoke Article 5"
+    red_lines:
+      - "Will not accept Russian control of Polish soil"
 ```
 
-**Change debate depth:**
-In `config.yaml`, adjust `debate.rounds` (default: 3) and `debate.max_tokens_per_response` (default: 500) to make faction debates shorter or longer.
+---
 
-## Based on Real Research
+## 🧪 Testing
 
-This simulation draws from actual wargame exercises and defense studies:
+```bash
+# Install test dependencies
+pip install pytest pytest-asyncio pytest-cov
 
-- **Die Welt / Hamburg Wargame (February 2026)** -- Civilian participants simulating NATO decision-making found Russia could hold NATO territory for 3 days before a coherent alliance response materialized.
-- **RAND Corporation (2014-2016)** -- Multiple studies concluded that Russia could reach the Baltic state capitals in 36-60 hours, and that NATO would need months to assemble a credible counterforce.
-- **Polish WINTER-20 Exercise (2021)** -- Poland's own wargame showed Polish frontline forces being destroyed within 5 days in a high-intensity conflict scenario.
-- **NATO Steadfast Defender 2024** -- The largest NATO exercise since the Cold War (90,000 troops across 31 nations), specifically designed to rehearse reinforcement of the Baltic region and the Suwalki corridor.
+# Run all tests
+pytest
 
-The Suwalki Gap -- a 65km land corridor between Poland and Lithuania, flanked by Russian Kaliningrad and Belarus -- is widely considered NATO's most vulnerable point and the most likely flashpoint for a direct NATO-Russia confrontation.
+# Run with coverage
+pytest --cov=engine,agents,backends --cov-report=html
 
-## License
+# Run specific test file
+pytest tests/test_fixes.py -v
+```
 
-MIT
+---
+
+## 🔧 Architecture
+
+```
+wargame/
+├── engine/           # Core game logic
+│   ├── game.py       # Main game loop, orchestration
+│   ├── world_state.py  # Global state management
+│   ├── game_master.py  # GM agent (resolves actions)
+│   └── analytics.py    # Post-game analysis
+├── agents/           # AI agents
+│   ├── country.py    # Country-level agent (orchestrates factions)
+│   └── faction.py    # Faction-level agent (debates)
+├── backends/         # LLM integrations
+│   ├── ollama_backend.py    # Local Ollama
+│   └── deepseek_backend.py  # Cloud DeepSeek API
+├── scenarios/        # YAML scenario definitions
+├── countries/        # YAML country configurations (66 files)
+├── utils/            # JSON parsing, logging
+└── viewer/           # Web-based game viewer
+```
+
+**See [TECHNICAL.md](analysis/TECHNICAL.md) for detailed architecture documentation.**
+
+---
+
+## 🎨 UI/UX Roadmap
+
+A comprehensive UI is in development. See [UI_UX_CONCEPT.md](analysis/UI_UX_CONCEPT.md) for:
+
+- Real-time War Room Dashboard
+- Player Mode (human controls one country)
+- Visual Scenario Editor
+- Post-game analytics with timeline viz
+
+**Status**: Concept complete, implementation planned for Q2 2026.
+
+---
+
+## 🐛 Known Issues & Fixes
+
+Recent bug fixes (2026-02-13):
+
+✅ **Nuclear Posture Fix**: Separated nuclear readiness from actual weapon use. Countries can now escalate to `launch_ready` without ending the game.
+
+✅ **Corridor Control Fix**: Replaced fragile substring matching with regex word boundaries and confidence scoring.
+
+✅ **Test Coverage**: Added pytest infrastructure and basic test suite.
+
+**See [analysis/problems.md](analysis/problems.md) for full issue tracker.**
+
+---
+
+## 📊 Performance
+
+### Typical Game Stats
+
+- **Quick Game**: 4 countries × 3 rounds = ~60 LLM calls = 15 minutes
+- **Medium Game**: 10 countries × 5 rounds = ~150 LLM calls = 45 minutes
+- **Full Game**: 20 countries × 10 rounds = ~600 LLM calls = 3 hours
+
+### LLM Backend Comparison
+
+| Backend | Speed | Cost | Parallel | Best For |
+|---------|-------|------|----------|----------|
+| Ollama (local) | Slow | Free | No | Development, privacy |
+| DeepSeek API | Fast | ~$3/game | Yes | Production, speed |
+
+**Tip**: Use `--backend deepseek` with `max_concurrent: 10` in `config.yaml` for 5-10x speedup.
+
+---
+
+## 🤝 Contributing
+
+Contributions welcome! Priority areas:
+
+1. **New Scenarios**: Taiwan Strait, Arctic Sovereignty, Middle East escalation
+2. **Missing Countries**: Taiwan, Hungary, Romania configs
+3. **Test Coverage**: Expand from 40% to 80%
+4. **UI Implementation**: React dashboard (see UI_UX_CONCEPT.md)
+
+**Development setup**:
+
+```bash
+# Install dev dependencies
+pip install -r requirements.txt pytest pytest-asyncio ruff mypy
+
+# Run linter
+ruff check .
+
+# Run type checker
+mypy engine/ agents/ backends/
+```
+
+---
+
+## 📚 Educational Use
+
+WarGame is designed for:
+
+- **University Courses**: International Relations, Security Studies, Game Theory
+- **Think Tanks**: Scenario planning, red team exercises
+- **Policy Training**: Crisis decision-making simulations
+
+**Licensing**: MIT License allows commercial and educational use. For bulk educational licensing, contact the maintainers.
+
+---
+
+## 📜 License
+
+MIT License - see [LICENSE](LICENSE) file for details.
+
+---
+
+## 🙏 Acknowledgments
+
+Inspired by:
+- RAND Corporation's wargaming studies on Baltic defense
+- Academic research on crisis escalation dynamics
+- Professional wargaming community feedback
+
+Built with:
+- [Ollama](https://ollama.com) - Local LLM runtime
+- [DeepSeek](https://www.deepseek.com) - Cloud LLM API
+- [aiohttp](https://docs.aiohttp.org) - Async HTTP
+- [PyYAML](https://pyyaml.org) - Config parsing
+
+---
+
+## 📞 Contact & Support
+
+- **Documentation**: [TECHNICAL.md](analysis/TECHNICAL.md) for architecture details
+- **Bug Reports**: [GitHub Issues](https://github.com/yourusername/wargame/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/yourusername/wargame/discussions)
+
+---
+
+**Made with ☢️ and ☮️ by the WarGame team**

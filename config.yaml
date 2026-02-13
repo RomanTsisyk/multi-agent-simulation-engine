@@ -10,10 +10,10 @@ llm:
 
   ollama:
     base_url: "http://localhost:11434"
-    model: "deepseek-r1:32b"
+    model: "qwen2.5:14b"
     temperature: 0.7
-    timeout: 300  # seconds, generous for local models
-    num_ctx: 65536  # context window; 65K needed for 66 countries
+    timeout: 300  # seconds; qwen2.5 is fast, 300s is plenty
+    num_ctx: 32768  # context window; 32K for 20 countries
     max_concurrent: 4  # parallel requests; requires: OLLAMA_NUM_PARALLEL=4 ollama serve
 
   deepseek:

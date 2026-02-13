@@ -1,0 +1,155 @@
+# Arctic Sovereignty Crisis 2026
+# Scenario: Russia plants flag on Lomonosov Ridge, claims exclusive economic zone
+
+name: "Arctic Sovereignty Crisis 2026"
+code: "arctic_2026"
+
+description: |
+  In summer 2026, Russia conducts a high-profile Arctic expedition and plants a titanium flag
+  on the Lomonosov Ridge, claiming it as an extension of Siberian continental shelf. Russia
+  announces exclusive economic zone (EEZ) covering disputed waters rich in oil, gas, and minerals.
+
+  Canada, Denmark (Greenland), and Norway reject the claim, citing UN Convention on Law of the Sea.
+  The US (Alaska) and NATO express concern. Russia deploys icebreaker fleet and begins resource
+  exploration. Tensions rise as competing claims overlap in the rapidly melting Arctic.
+
+participants:
+  # Arctic nations
+  - RU  # Russia (claimant)
+  - CA  # Canada (counter-claimant)
+  - NO  # Norway (NATO Arctic member)
+  - US  # USA (Alaska, Arctic Council member)
+  - DK  # Denmark (via Greenland)
+
+  # NATO allies
+  - UK  # United Kingdom (supports Canada/Norway)
+  - FR  # France (NATO Arctic interest)
+  - DE  # Germany (economic interest in Arctic routes)
+
+  # Observers
+  - CN  # China (declares self "near-Arctic state", economic interest)
+  - IS  # Iceland (Arctic Council member)
+  - SE  # Sweden (NATO applicant, Arctic interest)
+  - FI  # Finland (NATO member, Arctic border with Russia)
+
+initial_state:
+  game_time: "Day 1, 00:00"
+
+  # Arctic resource control
+  lomonosov_ridge_control: "disputed"  # disputed, russian, international
+
+  # Military presence
+  military_alerts:
+    RU: "elevated"  # Increased Arctic fleet activity
+    CA: "normal"
+    NO: "elevated"
+    US: "normal"
+
+  # Nuclear posture (Russia has Arctic nuclear subs)
+  nuclear_posture:
+    RU: "peacetime"
+    US: "peacetime"
+    UK: "peacetime"
+    FR: "peacetime"
+
+  # NATO coordination
+  nato_alert_level: "normal"
+
+  # Economic factors
+  markets:
+    oil_price: 78
+    natural_gas_eu: 65
+    arctic_shipping_routes: 20  # % of global trade using Arctic
+
+  # Public opinion
+  public_opinion:
+    RU:
+      war_support: 60
+      government_approval: 75  # Nationalism from Arctic claim
+    CA:
+      war_support: 40
+      government_approval: 55  # Domestic pressure to act
+    NO:
+      war_support: 50
+      government_approval: 60
+
+victory_conditions:
+  - id: "russian_control"
+    type: "territorial"
+    description: "Russia establishes de facto control of Lomonosov Ridge"
+    condition: |
+      Russia maintains exclusive access to disputed zone for 12 rounds AND
+      no military confrontation with NATO
+    threshold_rounds: 12
+
+  - id: "international_arbitration"
+    type: "diplomatic"
+    description: "UN tribunal or Arctic Council mediates solution"
+    condition: |
+      All parties agree to binding international arbitration OR
+      Arctic Council produces consensus framework
+
+  - id: "nato_enforcement"
+    type: "territorial"
+    description: "NATO enforces freedom of navigation"
+    condition: |
+      NATO conducts freedom of navigation operations (FONOP) AND
+      Russia withdraws exclusive claim
+
+  - id: "military_escalation"
+    type: "catastrophic"
+    description: "Arctic military conflict"
+    condition: |
+      Direct combat between Russia and NATO forces OR
+      Naval/air incidents result in casualties
+
+special_mechanics:
+  # Climate change factor
+  ice_melt_acceleration:
+    description: "Melting Arctic ice increases resource accessibility and tensions"
+    trigger: "round >= 3"
+    effect: "Economic value of Arctic increases, more countries get involved"
+
+  # China's role
+  china_economic_pressure:
+    description: "China offers investment to Arctic nations for access rights"
+    trigger: "CN attempts diplomatic action"
+    effect: "Creates division between NATO allies (economic benefit vs. solidarity)"
+
+  # Indigenous rights
+  indigenous_peoples:
+    description: "Inuit communities in Canada/Greenland have territorial claims"
+    trigger: "CA or DK invokes indigenous rights"
+    effect: "Adds legitimacy to counter-claims, complicates Russian narrative"
+
+  # Icebreaker gap
+  russian_icebreaker_advantage:
+    description: "Russia has 40+ icebreakers, US/NATO have ~10 combined"
+    effect: "Russia has tactical advantage in Arctic operations, NATO limited projection"
+
+gm_guidance: |
+  This scenario is about gray-zone conflict and international law, not hot war.
+
+  Key tensions:
+  - Legal ambiguity (UNCLOS claims take years to adjudicate)
+  - Climate change urgency (Arctic is warming 2x faster than global average)
+  - Economic incentives (trillions in resources + shipping route savings)
+  - Military imbalance (Russia dominates Arctic capability)
+
+  Realistic outcomes:
+  1. Frozen conflict (both sides claim, no shooting, de facto Russian control)
+  2. International arbitration (years of legal proceedings, status quo frozen)
+  3. Economic deal (Russia gets some rights, shares revenue/access)
+  4. Escalation to naval incident (accident or deliberate provocation)
+
+  GM should:
+  - Model asymmetry (Russia has icebreakers, NATO has blue-water navy)
+  - Introduce indigenous perspectives (moral/legal weight)
+  - Create economic temptations (China offers $50B investment to Canada for port access)
+  - Use climate change as ticking clock (more ice melts = higher stakes)
+
+  This is a marathon, not a sprint. Avoid quick resolution.
+  Let countries negotiate, form coalitions, try economic pressure before military options.
+
+  Remember: Arctic conflict would be slow, logistically difficult, and economically devastating
+  for all parties. Diplomacy should be more attractive than war.

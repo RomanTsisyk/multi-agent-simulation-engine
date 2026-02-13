@@ -640,9 +640,10 @@ class Game:
             cid = cond.get("id", "")
 
             if ctype == "catastrophic" and cid == "nuclear_detonation":
-                for country, posture in self.world_state.nuclear_posture.items():
-                    if posture in ("tactical_use", "strategic"):
-                        return cond
+                # FIX: Check actual detonations, not posture levels
+                # Countries can now escalate to launch_ready without ending game
+                if len(self.world_state.nuclear_detonations) > 0:
+                    return cond
 
             if ctype == "political" and cid == "nato_collapse":
                 # BUG FIX 2: Improved NATO collapse detection with positive/negative indicator analysis
@@ -889,13 +890,22 @@ class Game:
     def _update_corridor_control(self, resolution: dict) -> None:
         """Update corridor control status based on GM resolution content.
 
-        BUG FIX 3: Analyzes the narrative and events from the GM resolution
-        to determine whether the Suwalki corridor is under Russian, NATO,
-        or contested control.
+        FIX: Uses regex word boundaries and confidence scoring to reduce
+        false positives from fragile substring matching. Prefers explicit
+        corridor_control field from GM if provided.
         """
+        import re
         assert self.world_state is not None
 
-        # Collect all text to analyze: narrative + events + headlines
+        # PRIORITY 1: Check if GM provided explicit structured field
+        updates = resolution.get("world_state_updates", {})
+        if "corridor_control" in updates:
+            explicit_control = str(updates["corridor_control"]).lower()
+            if explicit_control in ("russian", "nato", "contested"):
+                self.world_state.corridor_control = explicit_control
+                return  # Trust explicit field, skip text analysis
+
+        # PRIORITY 2: Analyze narrative text with improved pattern matching
         text_to_analyze = resolution.get("narrative", "").lower()
 
         for event in resolution.get("events", []):
@@ -908,39 +918,50 @@ class Game:
         for event in self.world_state.recent_events:
             text_to_analyze += " " + str(event).lower()
 
-        # Define keyword patterns for each control state
-        russian_keywords = [
-            "corridor seized", "russian control", "corridor secured",
-            "russia holds", "russian forces control", "corridor captured",
-            "russian occupation", "moscow controls", "suwalki seized"
+        # Define regex patterns with word boundaries (more robust)
+        # Pattern format: (pattern, confidence_weight)
+        russian_patterns = [
+            (r'\brussian\s+(forces\s+)?control\b.*\b(corridor|suwalki)', 1.0),
+            (r'\bcorridor\s+(seized|captured)\b.*\brussia', 0.9),
+            (r'\brussia\s+holds?\s+.*\bcorridor\b', 0.9),
+            (r'\bcorridor\s+secured\b.*\brussia', 0.8),
+            (r'\bsuwalki\s+seized\b', 0.8),
         ]
 
-        nato_keywords = [
-            "corridor liberated", "nato recaptured", "corridor cleared",
-            "nato control", "corridor retaken", "allied forces secured",
-            "russian withdrawal", "corridor freed", "nato holds corridor"
+        nato_patterns = [
+            (r'\bnato\s+(forces\s+)?control\b.*\b(corridor|suwalki)', 1.0),
+            (r'\bcorridor\s+(liberated|recaptured|retaken|freed)\b', 0.9),
+            (r'\bnato\s+holds?\s+.*\bcorridor\b', 0.9),
+            (r'\brussian\s+withdrawal\b.*\bcorridor\b', 0.8),
         ]
 
-        contested_keywords = [
-            "fighting", "contested", "battle for corridor", "fierce combat",
-            "ongoing clashes", "neither side controls", "fighting continues",
-            "combat in the corridor", "disputed territory", "back and forth"
+        contested_patterns = [
+            (r'\b(fighting|combat|battle)\s+(continues|ongoing)\b.*\b(corridor|suwalki)', 1.0),
+            (r'\bcontested\s+.*\b(corridor|suwalki)', 0.9),
+            (r'\bfierce\s+(fighting|combat)\b.*\b(corridor|suwalki)', 0.8),
+            (r'\bneither\s+side\s+controls\b', 0.9),
         ]
 
-        # Count matches for each category
-        russian_matches = sum(1 for kw in russian_keywords if kw in text_to_analyze)
-        nato_matches = sum(1 for kw in nato_keywords if kw in text_to_analyze)
-        contested_matches = sum(1 for kw in contested_keywords if kw in text_to_analyze)
+        # Calculate confidence scores for each state
+        russian_score = sum(weight for pattern, weight in russian_patterns
+                           if re.search(pattern, text_to_analyze))
+        nato_score = sum(weight for pattern, weight in nato_patterns
+                        if re.search(pattern, text_to_analyze))
+        contested_score = sum(weight for pattern, weight in contested_patterns
+                             if re.search(pattern, text_to_analyze))
 
-        # Determine control status based on keyword matches
-        # Priority: contested > specific control (since ongoing fighting overrides claims)
-        if contested_matches > 0:
-            self.world_state.corridor_control = "contested"
-        elif russian_matches > nato_matches:
-            self.world_state.corridor_control = "russian"
-        elif nato_matches > russian_matches:
-            self.world_state.corridor_control = "nato"
-        # If no clear signals, maintain current state (don't change)
+        # Determine control based on highest confidence score
+        # Require minimum threshold (0.7) to change state
+        max_score = max(russian_score, nato_score, contested_score)
+
+        if max_score >= 0.7:
+            if contested_score == max_score:
+                self.world_state.corridor_control = "contested"
+            elif russian_score == max_score:
+                self.world_state.corridor_control = "russian"
+            elif nato_score == max_score:
+                self.world_state.corridor_control = "nato"
+        # Else: maintain current state (ambiguous signal)
 
     # ------------------------------------------------------------------
     # Internal helpers

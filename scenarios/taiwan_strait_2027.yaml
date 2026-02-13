@@ -1,0 +1,152 @@
+# Taiwan Strait Crisis 2027
+# Scenario: China announces 72-hour deadline for Taiwan reunification
+
+name: "Taiwan Strait Crisis 2027"
+code: "taiwan_strait_2027"
+
+description: |
+  On March 1st, 2027, China's President announces a 72-hour deadline for Taiwan to accept
+  reunification under the "One Country, Two Systems Plus" framework. The PLA Eastern Theater
+  Command is on high alert. US 7th Fleet is 400km from Taiwan Strait.
+
+  Taiwan refuses the ultimatum. China begins military exercises simulating amphibious assault.
+  The US sends carrier strike groups. Japan activates Self-Defense Forces. The crisis escalates
+  as both sides prepare for potential conflict over Taiwan's status.
+
+participants:
+  # Primary actors
+  - CN  # China (aggressor)
+  - TW  # Taiwan (defender)
+  - US  # USA (Taiwan's protector)
+  - JP  # Japan (regional ally)
+
+  # Regional powers
+  - AU  # Australia (AUKUS ally)
+  - PH  # Philippines (bases for US)
+  - IN  # India (geopolitical rival to China)
+  - KR  # South Korea (US ally, but economically tied to China)
+
+  # Observers
+  - RU  # Russia (strategic partner of China)
+  - UK  # United Kingdom (AUKUS ally)
+
+initial_state:
+  game_time: "Day 1, 00:00"
+
+  # Taiwan control status
+  taiwan_control: "independent"  # independent, chinese, negotiated
+
+  # Military alerts
+  military_alerts:
+    CN: "high"
+    TW: "high"
+    US: "elevated"
+    JP: "elevated"
+
+  # Nuclear posture
+  nuclear_posture:
+    CN: "elevated"
+    US: "peacetime"
+    RU: "peacetime"
+
+  # NATO alert (relevant for US/UK coordination)
+  nato_alert_level: "normal"
+
+  # Economic markets
+  markets:
+    oil_price: 85
+    taiwan_semiconductor_exports: 100  # % of normal
+
+  # Public opinion (war support, government approval)
+  public_opinion:
+    CN:
+      war_support: 75
+      government_approval: 80
+    TW:
+      war_support: 90
+      government_approval: 85
+    US:
+      war_support: 45  # Americans skeptical of Taiwan intervention
+      government_approval: 52
+    JP:
+      war_support: 55
+      government_approval: 48
+
+victory_conditions:
+  - id: "chinese_victory"
+    type: "territorial"
+    description: "China achieves control of Taiwan"
+    condition: |
+      Taiwan government accepts reunification terms OR
+      Chinese forces occupy Taiwan for 10 consecutive rounds
+    threshold_rounds: 10
+
+  - id: "status_quo_maintained"
+    type: "territorial"
+    description: "US successfully defends Taiwan independence"
+    condition: |
+      Taiwan remains independent for 15 rounds AND
+      China de-escalates military operations
+    threshold_rounds: 15
+
+  - id: "negotiated_settlement"
+    type: "diplomatic"
+    description: "Both sides agree to negotiated framework"
+    condition: |
+      China and Taiwan both accept diplomatic proposal with
+      mutually acceptable terms (autonomy, timeline, guarantees)
+
+  - id: "nuclear_escalation"
+    type: "catastrophic"
+    description: "Nuclear weapons used by any party"
+    condition: "Any nuclear detonation occurs"
+
+  - id: "us_china_war"
+    type: "catastrophic"
+    description: "Full-scale US-China conflict"
+    condition: |
+      Direct US-China combat casualties exceed 1000 OR
+      Strikes on mainland China/US territory
+
+special_mechanics:
+  # Taiwan semiconductor leverage
+  semiconductor_sanctions:
+    description: "If Taiwan falls, global chip supply disrupted"
+    trigger: "taiwan_control == 'chinese'"
+    effect: "All countries suffer economic impact, public opinion shifts"
+
+  # US domestic politics
+  election_pressure:
+    description: "US presidential election in 2028 affects risk tolerance"
+    trigger: "round >= 5 AND us_casualties > 100"
+    effect: "US public opinion drops, pressure to de-escalate"
+
+  # Japan's constitutional limits
+  japan_article_9:
+    description: "Japan can only act in self-defense"
+    trigger: "JP ordered to offensive action"
+    effect: "Internal faction debate intensifies, potential constitutional crisis"
+
+gm_guidance: |
+  This scenario focuses on the dilemma between deterrence and escalation.
+
+  Key tensions:
+  - China's credibility (can Xi back down after ultimatum?)
+  - US credibility (will America fight for Taiwan?)
+  - Economic interdependence (global economy depends on Taiwan chips)
+  - Nuclear risks (both US and China are nuclear powers)
+
+  Realistic outcomes:
+  1. China backs down after show of US force (humiliation, but no war)
+  2. Limited conflict over Taiwan Strait (naval/air, no mainland strikes)
+  3. Negotiated framework (Taiwan autonomy + timeline for eventual integration)
+  4. Full invasion (if US appears weak or distracted)
+
+  GM should:
+  - Track domestic political pressure on Xi and US President
+  - Model economic pain from disrupted chip supply
+  - Introduce fog-of-war (intel may be wrong about China's intentions)
+  - Create decision points (US: intervene now vs. wait, China: invade vs. blockade)
+
+  This is NOT a RAND study - allow creative diplomatic solutions.
+  But maintain realism: Taiwan cannot defeat China alone, US intervention is not guaranteed.

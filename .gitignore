@@ -5,3 +5,24 @@ __pycache__/
 venv/
 .claude/
 logs/
+
+# Environment files (SECURITY FIX)
+.env
+.env.*
+.env.local
+*.key
+*.pem
+secrets/
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+.hypothesis/
+
+# IDE
+.vscode/
+*.swp
+*.swo
+*~

@@ -84,8 +84,13 @@ class WorldState:
     # ------------------------------------------------------------------
     # Nuclear posture
     # ------------------------------------------------------------------
-    # Levels: peacetime -> elevated -> dispersal -> launch_ready -> tactical_use -> strategic
+    # Posture levels: peacetime -> elevated -> dispersal -> launch_ready
+    # (indicates readiness, NOT actual use)
     nuclear_posture: dict[str, str] = field(default_factory=dict)  # country -> posture level
+
+    # Actual nuclear weapon detonations (game ends when non-empty)
+    # Each entry: {"country": "US", "type": "tactical|strategic", "target": "location", "round": N}
+    nuclear_detonations: list[dict] = field(default_factory=list)
 
     # ------------------------------------------------------------------
     # Public opinion
@@ -353,7 +358,15 @@ class WorldState:
 
         # --- Military units ---
         for new_unit in updates.get("military_units_add", []):
-            self.military_units.append(MilitaryUnit(**new_unit))
+            if not isinstance(new_unit, dict):
+                continue
+            # LLM sometimes omits required fields; skip malformed entries
+            if not all(k in new_unit for k in ("name", "country", "type")):
+                continue
+            try:
+                self.military_units.append(MilitaryUnit(**new_unit))
+            except TypeError:
+                continue
 
         raw_remove = updates.get("military_units_remove", [])
         remove_names: set[str] = set()
@@ -395,6 +408,12 @@ class WorldState:
             posture_lower = posture.lower()
             if posture_lower in _NUCLEAR_LEVELS:
                 self.nuclear_posture[country] = posture_lower
+
+        # Nuclear detonations (game-ending events)
+        detonations_add = updates.get("nuclear_detonations_add", [])
+        self.nuclear_detonations = _dedup_dicts(
+            self.nuclear_detonations, detonations_add, ("country", "round")
+        )
 
         # Append lists (with deduplication)
         self.sanctions = _dedup_dicts(
@@ -643,9 +662,12 @@ class WorldState:
 # ======================================================================
 
 _NUCLEAR_LEVELS = [
-    "peacetime", "elevated", "dispersal",
-    "launch_ready", "tactical_use", "strategic",
+    "peacetime",  # Normal operations
+    "elevated",   # Increased monitoring
+    "dispersal",  # Forces dispersed
+    "launch_ready",  # Weapons armed, ready to use if ordered
 ]
+# Note: Actual nuclear weapon use is tracked separately in nuclear_detonations list
 
 # ======================================================================
 # Private helpers
