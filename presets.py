@@ -49,6 +49,26 @@ PRESETS: dict[str, dict] = {
         ],
         "rounds": 10,
     },
+    "suwalki-claude": {
+        "description": "Suwalki Gap via Claude Code (22 countries, 10 rounds)",
+        "countries": [
+            # Frontline
+            "PL", "LT", "LV", "EE",
+            # Major NATO
+            "US", "GB", "FR", "DE",
+            # NATO contributors
+            "CA", "NO", "DK", "NL", "BE", "CZ", "RO",
+            # New NATO, strategic
+            "FI", "SE",
+            # NATO wildcards
+            "TR", "HU",
+            # Adversaries
+            "RU", "BY",
+            # Global observer
+            "CN",
+        ],
+        "rounds": 10,
+    },
 }
 
 
