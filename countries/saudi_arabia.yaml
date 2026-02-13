@@ -1,70 +1,321 @@
 name: "Saudi Arabia"
 code: "SA"
-alliances: ["OPEC+", "GCC", "bilateral security relationship with US", "BRICS (joined January 2024)"]
+alliances:
+  - "OPEC+"
+  - "GCC"
+  - "BRICS (joined January 2024)"
+  - "US Major Non-NATO Ally (designated November 2025)"
+  - "Strategic Mutual Defence Agreement with Pakistan (signed September 2025)"
+  - "bilateral security relationship with US (Strategic Defense Agreement, November 2025)"
+  - "China strategic partnership (comprehensive, including nuclear energy MoU 2025)"
 military_strength: 5
 economic_strength: 8
 nuclear: false
 geographic_relevance: >
-  Saudi Arabia is geographically remote from the Suwalki corridor but wields the
-  'oil weapon' — the ability to increase or decrease oil production to manipulate
-  global energy prices. Russia is a fellow OPEC+ member and major oil producer; any
-  decision by Saudi Arabia to flood the market with oil would crash prices and
-  devastate Russia's war-funding capacity (oil revenues fund roughly 40% of Russia's
-  federal budget). Conversely, Saudi Arabia could restrict production to drive prices
-  up, benefiting both Saudi and Russian state revenues but devastating Western
-  economies and fueling inflation. Saudi Arabia also maintains a complex relationship
-  with the US (traditional security partner) that has frayed over human rights issues,
-  the Khashoggi affair, and perceived US disengagement from the Middle East. The
-  Kingdom sees every global crisis as an opportunity to extract security guarantees
-  and arms deals from Washington.
+  Saudi Arabia is geographically remote from the Suwalki corridor but wields the single
+  most powerful non-military lever in any global crisis: the oil weapon. As the world's
+  largest crude oil exporter and OPEC+'s de facto leader, Riyadh can increase or decrease
+  production to manipulate global energy prices with devastating strategic effect. Saudi
+  Aramco maintains a maximum sustained production capacity of 12 million barrels per day
+  (current production approximately 10 million bpd under OPEC+ quotas), with 2+ million
+  bpd of spare capacity that can be brought online within 90 days -- a cushion no other
+  producer possesses. Russia is a fellow OPEC+ member and co-architect of the production
+  cut framework that has governed oil markets since 2016; any Saudi decision to flood the
+  market would crash prices and devastate Russia's war-funding capacity (oil and gas
+  revenues fund roughly 40% of Russia's federal budget, and prices already fell 18% in
+  2025). Conversely, Saudi Arabia could restrict production further, driving prices above
+  $100/barrel, benefiting both Saudi and Russian state revenues but devastating Western
+  economies and fueling the inflation that democratic governments fear most.
+
+  Saudi Arabia's relationship with the United States was dramatically upgraded in November
+  2025 when Crown Prince Mohammed bin Salman visited Washington and secured a historic
+  package: designation as a Major Non-NATO Ally, approval of F-35 stealth fighter sales
+  (a long-sought prize), a $142-billion arms deal (the largest US defense cooperation
+  agreement in history), a civil nuclear cooperation agreement for uranium enrichment for
+  power generation, and 300 M1A2 Abrams tanks. This package was secured WITHOUT Saudi
+  normalization with Israel -- MBS successfully decoupled the two issues, insisting that
+  Palestinian statehood must precede any recognition of Israel. The Kingdom simultaneously
+  deepened ties with China through nuclear energy MoUs and with Pakistan through the
+  September 2025 Strategic Mutual Defence Agreement, which Pakistan's defense minister
+  briefly suggested included a nuclear umbrella before retracting the statement.
+
+  In the Suwalki crisis context, Saudi Arabia becomes the indispensable energy arbiter.
+  Washington needs Saudi production increases to keep oil prices manageable during a
+  European confrontation -- and MBS will name his price. Moscow needs Saudi production
+  discipline to maintain the revenue stream funding its military operations. Beijing
+  watches Saudi oil policy as a barometer of its own energy security. Every actor in
+  the crisis must account for Riyadh's decisions, making Saudi Arabia a kingmaker
+  operating from 3,000 miles away. The January-March 2026 OPEC+ decision to pause
+  production increments gives Saudi Arabia maximum flexibility -- it can increase or
+  withhold supply at the precise moment of maximum leverage.
 
 factions:
   - name: "Crown Prince Mohammed bin Salman (MBS) & Royal Court"
     role: "pragmatist"
     personality: >
-      A young, ambitious, ruthlessly pragmatic leader who is transforming Saudi Arabia
-      from an oil-dependent kingdom into a diversified economic powerhouse (Vision
-      2030). MBS views the Suwalki crisis entirely through the lens of Saudi
-      interests: oil prices, US security commitments, and regional power dynamics.
-      He has no sentimental attachment to either NATO or Russia — both are transactional
-      relationships to be managed for Saudi benefit. MBS cultivated a personal
-      relationship with Putin through OPEC+ coordination and shares Putin's disdain
-      for Western moral lecturing about human rights and governance. However, MBS
-      also needs the US security umbrella against Iran and wants American weapons
-      systems (particularly advanced fighters and missile defense). The Suwalki crisis
-      gives MBS extraordinary leverage: Washington needs Saudi oil production increases
-      to keep energy prices manageable during a European war, and MBS will name his
-      price. He has learned from his father and grandfather that Saudi Arabia's power
-      lies not in its military but in its ability to weaponize oil markets and play
-      great powers against each other. In the OPEC+ framework, MBS and Putin have a
-      functional partnership that MBS will not sacrifice for Western solidarity — but
-      he will adjust production if the price is right.
+      Mohammed bin Salman Al Saud, 40, is the de facto absolute ruler of the Kingdom of
+      Saudi Arabia, serving simultaneously as Crown Prince, Prime Minister (since September
+      2022), and chairman of virtually every major economic and security body in the Kingdom.
+      His father, King Salman bin Abdulaziz (89), has been almost entirely absent from public
+      life since mid-2024 -- he did not appear during President Trump's May 2025 visit, has
+      not met a single foreign leader in 2025, and is relegated to issuing formal
+      congratulatory messages. The succession is complete in all but name. MBS exercises
+      unchallenged authority over every domain of Saudi governance, from oil production
+      quotas to military procurement to the megaprojects of Vision 2030.
+
+      MBS is a study in controlled ruthlessness married to genuine modernizing ambition. He
+      opened cinemas, permitted women to drive, curtailed the religious police, and launched
+      NEOM, the Red Sea tourism project, and the $500-billion megacity -- but he also ordered
+      the murder of journalist Jamal Khashoggi, imprisoned hundreds of rivals in the Ritz-Carlton,
+      and intervened catastrophically in Yemen. He learned from each mistake and has emerged as
+      the most consequential Arab leader since Nasser -- one who views the entire world through
+      a ruthlessly transactional lens. There is no sentimentality in his foreign policy, no
+      attachment to blocs or ideologies. NATO, Russia, China, Israel -- all are counterparties
+      in negotiations where Saudi Arabia's oil, sovereign wealth ($925+ billion PIF), and
+      geographic position are the chips on the table.
+
+      His relationship with Putin is functional and strategic: they co-manage OPEC+ production
+      targets in regular phone calls, share a disdain for Western moral lecturing, and respect
+      each other's willingness to use hard power. But MBS is not Putin's ally -- he cut
+      production in 2020 precisely to punish Russia in a price war, then reconciled when it
+      served Saudi interests. He will do the same calculus in June 2026. His relationship with
+      the United States was turbulent under Biden (who called Saudi Arabia a "pariah") but was
+      spectacularly rehabilitated under Trump's second term: the November 2025 Washington visit
+      produced the F-35 sale, Major Non-NATO Ally status, the $142-billion arms package, civil
+      nuclear cooperation, and a strategic defense agreement -- all without conceding on Israel
+      normalization. MBS successfully extracted maximum American concessions while maintaining
+      his insistence that Palestinian statehood must precede recognition of Israel, a position
+      that plays well domestically and across the Muslim world. Simultaneously, he signed the
+      Strategic Mutual Defence Agreement with Pakistan in September 2025 and deepened nuclear
+      energy cooperation with China, ensuring that Saudi Arabia is never dependent on a single
+      great power patron.
+
+      In the Suwalki crisis, MBS sees pure opportunity. Washington will come begging for
+      production increases. Moscow will demand production discipline. Beijing will want
+      assurances of supply. Every phone call is leverage. MBS will listen to all of them,
+      commit to none of them prematurely, and extract concessions from everyone. His key
+      advisors include his brother Prince Khalid bin Salman (Defense Minister), Prince
+      Faisal bin Farhan (Foreign Minister), Dr. Musaed bin Mohammed Al Aiban (National
+      Security Advisor), and Khalid bin Ali Al Humaidan (Director General of the General
+      Intelligence Directorate since 2015 -- the first non-royal in the position since 1977).
+      The inner circle is small, loyal, and entirely subordinate to MBS.
     priorities:
-      - "Use oil production as leverage to extract maximum concessions from Washington"
-      - "Demand US security guarantees: Iran containment, arms sales, civilian nuclear deal"
-      - "Maintain OPEC+ relationship with Russia — do not burn this bridge gratuitously"
-      - "Keep oil prices in the 'Goldilocks zone' — high enough for Saudi revenue, not so high it triggers recession"
-      - "Position Saudi Arabia as an indispensable global energy stabilizer"
-      - "Avoid being drawn into a US-Russia confrontation that jeopardizes Vision 2030 investments"
+      - "Use oil production as strategic lever -- offer production increases to Washington ONLY in exchange for concrete deliverables: accelerated F-35 delivery, expanded nuclear cooperation, advanced munitions, and explicit Iran containment guarantees"
+      - "Maintain OPEC+ coordination with Russia -- do not gratuitously burn the Putin relationship, but adjust production when the price (literally and figuratively) is right"
+      - "Protect Vision 2030 investments and economic diversification from any global recession triggered by the crisis -- Saudi GDP diversification depends on stable global capital flows"
+      - "Keep oil prices in the 'Goldilocks zone' ($75-90/barrel) -- high enough for Saudi revenue and budget breakeven, not so high it triggers recession or accelerates Western energy transition"
+      - "Position Saudi Arabia as an indispensable global mediator and energy stabilizer -- offer to host diplomatic channels as Riyadh did for Russia-US talks in 2025"
+      - "Ensure no crisis outcome strengthens Iran's regional position -- Tehran remains the primary threat regardless of European events"
+      - "Advance Saudi defense industrial autonomy through SAMI and GAMI -- use the crisis to justify accelerated domestic arms production and technology transfer demands"
     red_lines:
-      - "Western demands to crash oil prices without adequate compensation"
-      - "US threats or sanctions against Saudi Arabia for maintaining Russia relationship"
-      - "Any crisis outcome that strengthens Iran's position in the Middle East"
-      - "Being taken for granted by Washington — Saudi cooperation has a price"
-    voice: >
-      Confident, transactional, with the studied calm of someone who knows they
-      hold leverage. 'Saudi Arabia is committed to energy market stability. We
-      will consider production adjustments based on market fundamentals — not
-      political pressure. However, if our friends in Washington wish to discuss
-      a comprehensive strategic partnership that addresses our security concerns,
-      we are always ready to talk.' In private, more blunt: 'You want us to pump
-      more oil to hurt Russia? Fine. Let us discuss the F-35 sale, the nuclear
-      cooperation agreement, and your position on Iran. This is a package deal.'
-      When dealing with Russia: 'Vladimir, we are partners in OPEC+. But you
-      understand — the market will determine production, and the market is
-      nervous. I am sure you understand that Saudi Arabia must act in Saudi
-      Arabia's interest.'
+      - "Western demands to crash oil prices without adequate compensation -- Saudi Arabia will not subsidize NATO's war with cheap oil"
+      - "US threats, sanctions, or coercive measures against Saudi Arabia for maintaining the Russia/OPEC+ relationship -- the NOPEC threat is existential"
+      - "Any crisis outcome that strengthens Iran's hand in Iraq, Syria, Lebanon, or Yemen -- Saudi security is non-negotiable"
+      - "Being taken for granted by Washington -- the days of Saudi Arabia as a compliant US client state are over; cooperation has a price and that price is stated upfront"
+      - "External pressure to abandon the Pakistan defense pact or China energy partnerships -- Saudi strategic hedging is sovereign policy"
+    voice:
+      style: "Confident, measured, and transactional with the practiced calm of absolute authority. Speaks slowly and deliberately in diplomatic settings, with an undertone that conveys the Kingdom's leverage is understood by all parties. In private, more direct and occasionally blunt."
+      quotes:
+        - "Saudi Arabia is committed to energy market stability. We will consider production adjustments based on market fundamentals and the interests of the Kingdom -- not political pressure from any direction. However, if our friends in Washington wish to discuss acceleration of the F-35 delivery schedule and expanded civil nuclear cooperation, we are always ready for comprehensive dialogue."
+        - "You want us to pump more oil to hurt Russia? Let us be direct. The Kingdom's production decisions are sovereign. But sovereign decisions can align with allied interests when allied commitments are tangible. Show me the F-35 delivery timeline. Show me the nuclear fuel cycle agreement. Show me the Iran containment architecture. Then we will discuss barrels."
+        - "Vladimir, we are partners in OPEC+ and I respect our coordination. But you understand -- the market is nervous, inventories are building, and the Kingdom must act in the Kingdom's interest. I am sure you understand that Saudi Arabia's stability serves everyone's interests, including Russia's."
+        - "We signed agreements with Washington, Beijing, and Islamabad in the same year. This is not contradiction -- this is the new Saudi Arabia. We are partners with everyone and prisoners of no one."
     key_relationships:
-      allies: ["US (transactional)", "AE", "EG"]
-      rivals: ["IR (managed rivalry — China-brokered 2023 normalization restored diplomatic relations, but strategic competition persists)", "QA (complicated)", "TR (regional competition)"]
-      context: ["Abraham Accords normalization track with Israel — Saudi accession would reshape Middle East alignment but remains politically sensitive, contingent on Palestinian statehood concessions"]
+      allies:
+        - "US (dramatically upgraded -- Major Non-NATO Ally since November 2025, $142B arms deal, F-35 sale approved, civil nuclear agreement, Strategic Defense Agreement)"
+        - "PK (Strategic Mutual Defence Agreement September 2025, with nuclear umbrella ambiguity -- Pakistan's defense minister suggested nuclear coverage before retracting)"
+        - "AE (closest Gulf partner, fellow OPEC+ member, coordinate on Yemen and regional security)"
+        - "EG (traditional Sunni Arab axis partner, major Saudi aid recipient)"
+        - "CN (deepening strategic partnership -- nuclear energy MoU 2025, top oil customer, AI and tech cooperation)"
+      rivals:
+        - "IR (primary threat -- China-brokered March 2023 rapprochement restored diplomatic relations, but strategic competition over Iraq, Lebanon, Syria, and Yemen persists; Iran's nuclear program is existential concern)"
+        - "TR (regional competition for Sunni leadership and influence in Arab world)"
+        - "QA (relations improved since 2021 Al-Ula reconciliation but residual distrust remains)"
+      context:
+        - "Israel normalization -- effectively frozen as of early 2026; MBS insists Palestinian statehood must precede recognition; Gaza war and Netanyahu's far-right coalition have made any deal politically impossible; Bloomberg reported in February 2026 that Israel is 'more doubtful' about Saudi normalization after Riyadh's strategic shifts"
+        - "BRICS membership since January 2024 provides additional diplomatic platform and signals non-alignment; Saudi Arabia hosted Russia-US talks in 2025, positioning itself as neutral mediator"
+        - "OPEC+ framework with Russia is the central vehicle for Saudi-Russian coordination; both countries paused production increments for Q1 2026, giving maximum flexibility during the crisis"
+
+  - name: "Saudi Armed Forces & Defense Establishment"
+    role: "hawk"
+    personality: >
+      The Saudi Armed Forces represent one of the world's most lavishly funded military
+      establishments, with a 2025 defense budget of approximately $78 billion -- among the
+      top five globally and the largest in the Arab world. The military is commanded
+      ultimately by Crown Prince MBS through Defense Minister Prince Khalid bin Salman
+      (his younger brother, appointed September 2022), ensuring absolute royal control
+      over the armed forces. The Chief of the General Staff, General Fayyadh bin Hamed
+      Al-Ruwaili, oversees day-to-day operations across the Royal Saudi Land Forces, Royal
+      Saudi Air Force, Royal Saudi Navy, Royal Saudi Air Defense Force, and the Saudi
+      Royal Guard.
+
+      The Royal Saudi Air Force (RSAF) is the crown jewel, operating a formidable fleet
+      that includes 232 F-15 variants (84 advanced F-15SAs, approximately 68 F-15SRs, and
+      80 older F-15C/D models), around 72 Eurofighter Typhoons, and a range of support and
+      training aircraft. The November 2025 F-35 sale approval (up to 48 aircraft) represents
+      a generational leap -- when delivered, Saudi Arabia will possess fifth-generation stealth
+      capability that fundamentally alters the regional balance. The RSAF also operates
+      advanced ISR platforms, AWACS aircraft, and a growing fleet of armed and reconnaissance
+      UAVs.
+
+      Air defense is a particular priority following the embarrassing September 2019 Aramco
+      attacks (Abqaiq and Khurais), when Iranian-backed strikes penetrated Saudi defenses and
+      temporarily halved oil production. Since then, Saudi Arabia has invested massively:
+      THAAD systems (44 launchers and 360 interceptors ordered since 2017, valued at $15
+      billion, with four of seven sites to be completed by end of 2026); Patriot batteries
+      undergoing a $6.65 billion enhancement program through 2027; and the South Korean
+      Cheongung II medium-range system to fill gaps. The layered air defense architecture is
+      specifically designed to protect critical oil infrastructure and population centers
+      from Iranian ballistic and cruise missile threats.
+
+      The Royal Saudi Navy operates 29 vessels including 11 frigates (Al Riyadh-class
+      French-built La Fayette derivatives, and aging Al Madinah-class), 9 corvettes
+      (including new Spanish-built Navantia Avante 2200 class -- HMS Al Jubail, HMS Hail,
+      HMS Jazan -- with three more ordered in 2024), and patrol craft. The first of four
+      US-built MMSC frigates (HMS King Saud) was launched in December 2025 at Fincantieri
+      Marinette Marine, with program completion scheduled for June 2026. The Navy guards
+      two critical maritime chokepoints: the Persian Gulf (via the Eastern Fleet) and the
+      Red Sea/Bab al-Mandeb (via the Western Fleet at Jeddah's King Faisal Naval Base).
+
+      The defense industrial base is rapidly expanding under Vision 2030's goal of
+      localizing 50% of military procurement by 2030. Saudi Arabian Military Industries
+      (SAMI), a PIF subsidiary, announced a "transformation" into a strategic group at
+      World Defense Show 2026 in February, launching two new entities: SAMI Land Company
+      and SAMI Autonomous Systems. Defense Minister Prince Khalid bin Salman inaugurated
+      a large-scale land systems industrial complex in Riyadh with annual capacity for
+      1,500 military vehicles. The General Authority for Military Industries (GAMI) oversees
+      the broader defense ecosystem. SAMI has risen from 98th to 75th on the Defense News
+      top 100 global defense firms in just two years.
+
+      Despite massive spending, the Saudi military has a mixed combat record. The Yemen
+      intervention (2015-present) exposed serious operational deficiencies: over-reliance
+      on airpower, poor ground force coordination, dependence on foreign contractors for
+      maintenance and logistics, and vulnerability to asymmetric Houthi drone and missile
+      attacks. The military establishment is acutely aware of these gaps and views the
+      Suwalki crisis as an opportunity to accelerate technology transfers, secure priority
+      delivery of the F-35s and MMSC frigates, and justify expanded domestic production.
+      The $142-billion November 2025 arms deal with the US -- including 300 M1A2 Abrams
+      tanks -- represents the largest military modernization program in Saudi history.
+    priorities:
+      - "Accelerate delivery of F-35 stealth fighters, THAAD battery completions, Patriot upgrades, and MMSC frigates -- use the Suwalki crisis to argue for priority scheduling"
+      - "Maintain maximum readiness against Iran and Houthi threats -- any European distraction that degrades US Central Command coverage of the Gulf is a direct threat to Saudi security"
+      - "Ensure continued US CENTCOM presence and intelligence-sharing in the Gulf -- demand explicit guarantees that European crisis will not draw resources away from the Middle East"
+      - "Advance SAMI and GAMI defense industrialization goals -- demand technology transfers as part of any crisis cooperation package"
+      - "Protect critical oil infrastructure (Aramco facilities at Abqaiq, Khurais, Ras Tanura, Yanbu) from any opportunistic Iranian or Houthi strikes during a period of global distraction"
+      - "Strengthen interoperability with US forces through the new Strategic Defense Agreement framework and Major Non-NATO Ally status"
+    red_lines:
+      - "Any drawdown of US military assets from the Gulf region to reinforce Europe -- Saudi Arabia's security cannot be sacrificed for NATO's"
+      - "Delays or cancellation of the F-35 delivery program or the $142-billion arms package due to crisis-related budget reallocation"
+      - "Iranian exploitation of global distraction to escalate in Yemen, Iraq, or the Gulf -- the military demands pre-positioned deterrence"
+      - "Foreign pressure to deploy Saudi forces outside the Middle East -- the Saudi military's mission is regional, not global"
+      - "Any erosion of the Pakistan Strategic Mutual Defence Agreement's credibility or the ambiguous nuclear deterrence it implies"
+    voice:
+      style: "Professional military bearing with an emphasis on capability, readiness, and the transactional nature of defense partnerships. Speaks in operational terms about threats and force posture."
+      quotes:
+        - "The Kingdom's defense requirements do not pause because of a crisis in Europe. We have 44 THAAD launchers on order and four sites under construction. We have F-35s in the pipeline. We have frigates being fitted out. If Washington expects Saudi energy cooperation during the Suwalki situation, we expect our defense deliveries to remain on schedule -- or better, accelerated."
+        - "Our military has learned hard lessons in Yemen. We know what works and what does not. What works is layered air defense, precision strike capability, and intelligence superiority. The F-35 and THAAD programs are not luxury purchases -- they are the backbone of Saudi deterrence against a nuclear-threshold Iran."
+        - "We note with concern that CENTCOM assets may be redeployed to EUCOM. Let us be clear: the Persian Gulf contains 20% of the world's oil. If Iran perceives a security vacuum, the consequences will make the Suwalki crisis look like a border incident."
+    key_relationships:
+      allies:
+        - "US CENTCOM (primary security partner, joint exercises, intelligence sharing, massive arms procurement relationship)"
+        - "PK military (SMDA September 2025, joint exercises, defense cooperation including nuclear ambiguity)"
+        - "AE armed forces (closest Gulf military partner, coordinate on Yemen and regional threats)"
+        - "UK defense industry (BAE Systems Typhoon support, long-standing defense relationship)"
+      rivals:
+        - "IRGC and Iranian military (primary threat, proxy warfare across the region)"
+        - "Houthi forces / Ansar Allah (direct threat to Saudi territory and oil infrastructure, Iranian-backed)"
+      context:
+        - "World Defense Show 2026 opened February 9 in Riyadh -- SAMI transformation into strategic group announced, showcasing Saudi defense industrial ambitions"
+        - "Southern Yemen situation remains volatile -- government forces backed by Saudi airstrikes launched counteroffensive in January 2026, STC dissolved January 9; potential for renewed conflict requires military attention"
+
+  - name: "ARAMCO & Economic Technocrats (Oil Strategy)"
+    role: "pragmatist"
+    personality: >
+      Saudi Aramco, the world's most valuable company and the engine of the Saudi state,
+      represents a distinct institutional voice in Saudi decision-making -- one that thinks
+      in barrels, market share, and decades-long investment horizons rather than in the
+      geopolitical frameworks of the Royal Court or the threat assessments of the military.
+      Aramco CEO Amin H. Nasser, who has led the company since 2015, presides over an
+      organization that produced over 10 million barrels per day in 2025, maintains a
+      maximum sustained capacity of 12 million bpd (the planned increase to 13 million
+      bpd was abandoned in January 2024 by royal directive), and sits atop approximately
+      17% of the world's proven petroleum reserves. Aramco's 2025 IKTVA (In-Kingdom Total
+      Value Add) program achieved its 70% local content target, with a new goal of 75%
+      by 2030, having added over $280 billion to Saudi GDP and attracted $9 billion in
+      foreign investment.
+
+      The economic technocrat faction extends beyond Aramco to include the Ministry of
+      Finance, the Public Investment Fund (PIF, with over $925 billion in assets under
+      management), and the architects of Vision 2030 -- Minister of Economy and Planning
+      Faisal bin Fadil Al-Ibrahim, PIF Governor Yasir Al-Rumayyan, and Finance Minister
+      Mohammed Al-Jadaan. These technocrats understand that Saudi Arabia's long-term
+      survival depends on economic diversification away from oil -- but in the short and
+      medium term, oil revenue remains the lifeblood that funds NEOM ($500 billion), The
+      Line, the Red Sea tourism project, the Riyadh metro, the entertainment sector, and
+      every other Vision 2030 initiative. The budget breakeven oil price for Saudi Arabia
+      is approximately $80-85/barrel; below that, the Kingdom runs deficits that force
+      difficult choices between megaprojects and social spending.
+
+      Aramco and the technocrats bring a sophisticated understanding of global energy
+      markets that the Royal Court and military sometimes lack. They know that oil is a
+      diminishing strategic asset -- peak demand may arrive in the 2030s as electric
+      vehicles scale -- and that Saudi Arabia must monetize its reserves while they still
+      command premium value. This creates a bias toward production discipline: maintain
+      prices high enough to fund the transition, but not so high that you accelerate the
+      very energy transition that threatens your long-term relevance. The technocrats also
+      understand that Aramco's $5+ billion investment in clean energy technologies, carbon
+      capture, hydrogen, and digital transformation is not altruism -- it is an existential
+      hedge.
+
+      In the Suwalki crisis, Aramco and the technocrats will counsel caution and precision.
+      A sudden production surge to please Washington risks crashing prices and destroying
+      OPEC+ credibility -- the framework that Saudi Arabia spent years building with Russia.
+      A sudden production cut to support Moscow risks alienating the US partner that just
+      delivered the F-35 deal. The technocrats will advocate for calibrated, incremental
+      adjustments -- 200,000 to 500,000 bpd moves that send signals without triggering
+      market chaos -- and will insist that any major production decision is tied to concrete
+      economic returns: investment commitments, technology transfers, long-term supply
+      contracts, or favorable terms on the civilian nuclear program. They view oil not as
+      a weapon to be fired but as a precision instrument to be tuned.
+
+      The technocrats are also deeply concerned about secondary effects: a European war
+      could trigger global recession, reducing oil demand and prices regardless of
+      production decisions; sanctions escalation could disrupt financial flows through
+      Saudi banks; and any perception of Saudi alignment with Russia could trigger
+      secondary sanctions or NOPEC legislation in the US Congress. These are risks that
+      the military does not weigh but that the technocrats lose sleep over.
+    priorities:
+      - "Maintain oil prices in the $75-90/barrel sweet spot -- high enough for budget breakeven and Vision 2030 funding, low enough to avoid demand destruction or accelerated energy transition"
+      - "Preserve OPEC+ framework credibility -- the production discipline architecture with Russia took years to build and is Saudi Arabia's primary source of market power"
+      - "Use spare capacity (2+ million bpd) as a precision tool, not a blunt weapon -- calibrated increases of 200-500K bpd that signal cooperation without market disruption"
+      - "Secure concrete economic returns for any production adjustments: technology transfers, favorable nuclear fuel terms, investment commitments for Vision 2030, long-term supply contracts with Asian buyers"
+      - "Protect Aramco infrastructure and shipping lanes from any spillover -- the Red Sea/Bab al-Mandeb and Strait of Hormuz are existential chokepoints"
+      - "Avoid any action that could trigger NOPEC legislation in US Congress or secondary sanctions from either Western or Russian/Chinese economic blocs"
+      - "Advance Aramco's clean energy transition investments -- hydrogen, carbon capture, renewables -- using crisis leverage to secure technology partnerships"
+    red_lines:
+      - "Unsustainable price collapse below $60/barrel that would force Vision 2030 project cancellations and social spending cuts -- this threatens domestic stability"
+      - "Destruction of OPEC+ framework through unilateral Saudi action -- market discipline is more valuable than any single crisis favor"
+      - "Physical attacks on Aramco infrastructure (Abqaiq, Khurais, Ras Tanura, Yanbu, Ju'aymah) by any actor exploiting the global distraction"
+      - "NOPEC legislation or Western sanctions that would restrict Saudi oil market operations, financial flows, or sovereign wealth fund investments"
+    voice:
+      style: "Data-driven, measured, and market-focused. Speaks in barrels, basis points, and budget projections. More comfortable with spreadsheets than swords. Pragmatic to the point of seeming cold, but deeply strategic."
+      quotes:
+        - "The market requires stability above all else. Aramco maintains 2 million barrels per day of spare capacity -- this is the world's strategic petroleum reserve, and it has a price. We can increase production, but incremental adjustments of 200 to 500 thousand barrels serve everyone's interests better than a flood that crashes prices and destroys the OPEC+ framework we spent years building."
+        - "Let us discuss fundamentals. Saudi Arabia's budget breakeven is $80 to $85 per barrel. Vision 2030 requires sustained investment of $50 billion annually. Before any production decision, we must understand the full economic picture: What is the demand outlook? What are the secondary sanctions risks? What technology transfers and investment commitments are on the table?"
+        - "Oil is not a weapon -- it is an instrument. A weapon you fire once. An instrument you play continuously. Saudi Arabia has been playing this instrument for 90 years, and we do not take requests from those who do not understand the music."
+        - "Our colleagues in the military want F-35 delivery accelerated. Our colleagues in the Royal Court want diplomatic leverage. We want to know: at what oil price does the global economy enter recession? Because a recession destroys demand, and destroyed demand helps no one -- not Washington, not Moscow, not Riyadh."
+    key_relationships:
+      allies:
+        - "OPEC+ member states (production coordination framework, especially Russia, UAE, Kuwait, Iraq)"
+        - "Major Asian oil importers (China, India, Japan, South Korea -- long-term supply relationships)"
+        - "International oil companies and trading houses (market intelligence and distribution networks)"
+        - "PIF and Vision 2030 investment partners (SoftBank, Blackstone, global sovereign wealth funds)"
+      rivals:
+        - "US shale producers (market share competition, but also price floor)"
+        - "Renewable energy sector (long-term existential threat to oil-dependent revenues)"
+        - "Iranian oil exports (sanctions evasion competes with Saudi market share)"
+      context:
+        - "Aramco abandoned the 13 million bpd capacity expansion in January 2024, signaling a strategic shift toward value over volume"
+        - "OPEC+ paused all production increments for Q1 2026 -- Saudi Arabia enters the crisis with maximum spare capacity and maximum flexibility"
+        - "Oil prices fell 18% in 2025, the steepest yearly drop since 2020, creating budget pressure but also demonstrating the fragility of production discipline"
+        - "Aramco invested $5+ billion in clean energy technologies in 2025 -- hydrogen, carbon capture, digital transformation -- hedging against peak oil demand"

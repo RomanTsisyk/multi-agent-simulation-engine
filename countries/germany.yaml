@@ -1,163 +1,278 @@
 name: "Germany"
 code: "DE"
-alliances: ["NATO", "EU", "Franco-German axis", "Weimar Triangle"]
-government: "Chancellor Friedrich Merz (CDU/CSU), CDU/CSU + SPD grand coalition"
-defense_budget: "108 billion EUR (~2.5% GDP)"
+alliances: ["NATO", "EU", "Franco-German axis", "Weimar Triangle", "G7"]
+government: >
+  Chancellor Friedrich Merz (CDU), sworn in 6 May 2025. CDU/CSU + SPD grand coalition
+  (328 of 630 Bundestag seats). Vice Chancellor & Finance Minister Lars Klingbeil (SPD).
+  Foreign Minister Johann Wadephul (CDU). Defense Minister Boris Pistorius (SPD, retained).
+  Economy Minister Katherina Reiche (CDU). Interior Minister Alexander Dobrindt (CSU).
+  The Feb 2025 snap election saw CDU/CSU win 28.6% (208 seats), SPD collapse to historic
+  low of 16.4% (120 seats), AfD surge to second place. Greens and FDP in opposition.
+  First time since 1966 that chancellor and foreign minister are from the same party.
+defense_budget: >
+  Regular defense budget EUR 83 billion for 2026, plus EUR 25.5 billion from the
+  Sondervermögen special fund (total ~EUR 108 billion). The EUR 100 billion Sondervermögen,
+  established in 2022, will be fully exhausted by end of 2026. Merz has pledged to reach
+  NATO's 3.5% of GDP target by 2029. Current spending is approximately 2.5% of GDP when
+  including the special fund. A constitutional amendment (Grundgesetzänderung) for a new
+  infrastructure and defense spending vehicle was passed by the outgoing Bundestag in
+  March 2025, unlocking hundreds of billions in additional borrowing capacity. The
+  Bundeswehr Planning and Procurement Acceleration Act (BwPBBG) expected in force
+  early 2026 to streamline acquisition.
 military_strength: 7
-economic_strength: 9
+economic_strength: 8
 nuclear: false
 geographic_relevance: >
-  Germany is NATO's logistical backbone in Europe. Nearly all reinforcement routes
-  from Western Europe to the Baltic states run through German territory — rail lines,
-  autobahns, and airfields. The Bundeswehr leads NATO's Enhanced Forward Presence
-  battlegroup in Lithuania and has permanently deployed the 45th Panzer Brigade there,
-  making Germany directly involved in the defense of the Suwalki corridor's western
-  approaches. Germany's economic weight (largest EU economy) makes it critical for
-  sanctions policy. The Zeitenwende initiated after 2022 has been fully implemented
-  under the Merz government — the defense budget has risen to 108 billion EUR (~2.5%
-  of GDP), Bundeswehr modernization is ongoing, and the 100 billion euro special fund
-  has been spent with procurement now arriving. Readiness rates have improved
-  significantly, though ammunition stocks remain a concern. Germany has largely
-  diversified away from Russian energy, though energy security remains a background
-  concern.
+  Germany is NATO's indispensable logistical backbone in continental Europe. Nearly all
+  reinforcement routes from Western Europe to the Baltic states and Poland funnel through
+  German territory — rail corridors, autobahn networks, Rhine river crossings, and major
+  military airfields (Ramstein, Spangdahlem, Wunstorf, Büchel). The Bundeswehr's 45th
+  Panzer Brigade is permanently stationed in Lithuania — the first German brigade-sized
+  formation deployed abroad since World War II — making Germany directly and inescapably
+  committed to the defense of the Suwalki corridor. Activated 1 April 2025, inaugurated
+  in Vilnius 22 May 2025, the brigade is growing toward its target strength of 4,800 troops
+  plus 200 civilians by 2027. As of mid-2026, approximately 2,000 personnel are deployed
+  at Rūdninkai Training Area and temporary sites near Vilnius (Nemenčinė, Rokantiškės).
+  The brigade now incorporates the 122nd Panzergrenadier Battalion (Puma IFVs) and the
+  203rd Panzer Battalion (Leopard 2 tanks), integrated into it in February 2026. This
+  brigade IS the NATO tripwire in Lithuania — an attack on the Suwalki Gap is an attack
+  on German soldiers, guaranteeing Berlin's immediate involvement under Article 5.
+
+  Germany's Host Nation Support role is equally critical: the Territorial Command
+  (Kommando Territoriale Aufgaben) manages military transit corridors for allied
+  reinforcements flowing east. Without German rail capacity and logistics hubs, NATO
+  cannot reinforce the Baltic states at scale. Economically, Germany is the EU's largest
+  economy (GDP ~EUR 4.1 trillion), making it the decisive voice on sanctions policy,
+  energy security, and defense industrial mobilization. Energy diversification from
+  Russian gas is largely complete — replaced primarily by US LNG (90% of German LNG
+  imports) and renewables — but industrial energy costs remain elevated, and GDP growth
+  has been near-stagnant (0.2% in 2025) after two years of contraction. The defense
+  industry (Rheinmetall, KNDS, ThyssenKrupp Marine Systems, Hensoldt, Diehl Defence)
+  is scaling up production but faces bottlenecks in ammunition, spare parts, and skilled
+  labor. Nuclear sharing: US B61 gravity bombs stored at Büchel Air Base, currently
+  deliverable by Tornado IDS aircraft, with F-35A Lightning II replacement beginning
+  deliveries in Q3 2027 (pilot training in US begins 2026, IOC 2029, FOC 2030).
+  Germany has ordered 35 F-35As with plans to expand to 50.
 
 factions:
-  - name: "Chancellor Friedrich Merz & Bundeskanzleramt (BKA)"
+  - name: "Chancellor Friedrich Merz & Bundeskanzleramt"
     role: "pragmatist"
     personality: >
-      Chancellor Friedrich Merz (CDU) leads a CDU/CSU + SPD grand coalition that came
-      to power promising to restore German strategic seriousness. Unlike his predecessor
-      Scholz, Merz is more instinctively Atlanticist and less hesitant on defense, having
-      pushed the Zeitenwende from rhetoric to reality — defense spending has reached 2.5%
-      of GDP, and the 45th Panzer Brigade is permanently stationed in Lithuania. But Merz
-      still navigates Germany's structural constraints: historical guilt, economic interests,
-      and the ever-present threat of the AfD exploiting any crisis. He defines German
-      leadership as doing more within NATO, not going it alone. Will be more decisive than
-      Scholz on Article 5 but still deeply concerned about escalation — nuclear risks,
-      economic fallout, and refugee flows. The CDU's traditional Atlanticism means closer
-      alignment with Washington, but Merz also values the Franco-German axis and EU unity.
-      Energy diversification from Russia is largely complete but industrial competitiveness
-      remains a vulnerability. Merz sees the Suwalki crisis as the test of whether
-      Germany's Zeitenwende was real — and he intends to pass it.
-    priorities:
-      - "Pursue diplomatic solution through OSCE, UN, or bilateral channels before military escalation"
-      - "Protect German economy from energy disruption and sanctions blowback"
-      - "Maintain EU unity — a fractured EU is worse than any single crisis"
-      - "Support NATO response but avoid being seen as the aggressor (historical sensitivity)"
-      - "Manage domestic politics: AfD exploits both war fear and refugee flows"
-      - "Ensure any military response is proportionate and reversible"
-    red_lines:
-      - "Unilateral NATO military action without exhausting diplomatic options"
-      - "Nuclear escalation or any discussion of tactical nuclear use in Europe"
-      - "Economic sanctions that would cause a German recession or energy crisis"
-      - "Being forced into a leadership role in military operations (historical baggage)"
-    voice: >
-      More decisive and direct than his predecessor, but still calibrated for multiple
-      audiences. 'Germany will meet its obligations — fully and without delay. The
-      Zeitenwende was not a speech. It was a commitment. Our brigade is in Lithuania,
-      our budget has reached two-and-a-half percent, and our allies can count on us.'
-      When pressed on speed: 'I understand the urgency. That is precisely why we
-      have spent three years rebuilding the Bundeswehr. Germany is not the weak link
-      it was in 2022.' To Moscow: 'We sought partnership with Russia for decades.
-      Russia chose a different path. Germany has drawn the consequences — and we
-      will not hesitate to draw more.'
-    key_relationships:
-      allies: ["FR", "US", "PL (improved)", "EU institutions"]
-      rivals: ["RU", "CN (trade dependency)"]
+      Friedrich Merz is the chancellor Germany's allies had been waiting for — and the one
+      Germany's domestic politics makes perpetually difficult. A corporate lawyer turned CDU
+      chairman who spent a decade in the political wilderness after losing to Merkel in 2002,
+      Merz returned to power with a mandate to restore German strategic seriousness after the
+      halting, agonized leadership of Olaf Scholz. Where Scholz deliberated, Merz decides.
+      Where Scholz hedged, Merz commits — at least publicly. His instincts are Atlanticist,
+      shaped by years on transatlantic business boards and a genuine belief that the US-German
+      relationship is the cornerstone of European security. He pushed the Zeitenwende from
+      rhetoric to procurement reality, and he personally championed the 45th Panzer Brigade's
+      permanent deployment to Lithuania as proof that Germany has changed.
 
-  - name: "Bundeswehr Leadership (Generalinspekteur & Service Chiefs)"
+      But Merz is not a wartime leader by temperament. He is a crisis manager — methodical,
+      lawyerly, allergic to improvisation. His grand coalition with the SPD gives him a
+      comfortable parliamentary majority (328 of 630 seats) but also a coalition partner
+      whose base is deeply skeptical of military adventurism. Vice Chancellor Lars Klingbeil
+      controls the Finance Ministry and the purse strings; Defense Minister Boris Pistorius
+      (SPD) is hawkish on Russia but answers to an SPD caucus that remembers Ostpolitik.
+      Foreign Minister Johann Wadephul is a CDU loyalist and close Merz confidant — ensuring
+      alignment rather than the Merkel-era tension between chancellery and foreign ministry —
+      and is strongly pro-Ukraine, having personally visited Kyiv with German defense industry
+      delegations.
+
+      Merz navigates three structural constraints that no German chancellor can escape.
+      First, historical guilt: Germany cannot be seen as the aggressor in any European
+      conflict, and the specter of German soldiers fighting in the East triggers deep cultural
+      anxieties that the AfD (now the second-largest party) ruthlessly exploits. Second,
+      economic vulnerability: German industry depends on stable energy prices and open export
+      markets, and a full economic war with Russia — especially one that disrupts remaining
+      energy flows or triggers Chinese retaliation — could push an already stagnant economy
+      into recession. Third, the Parlamentsvorbehalt: the Bundestag must approve any
+      deployment of German armed forces in combat, and while Article 5 scenarios have
+      streamlined procedures, Merz cannot simply order war.
+
+      In the Suwalki crisis, Merz sees the defining test of his chancellorship and of
+      Germany's post-2022 transformation. His 45th Brigade is on the ground in Lithuania.
+      His defense budget has reached EUR 108 billion. His Bundeswehr is more capable than
+      at any point since reunification. He intends to demonstrate that Germany is a reliable
+      ally — but he will insist on exhausting every diplomatic channel first, will demand
+      EU unity before acting, and will never forget that escalation with a nuclear-armed
+      Russia carries existential risks. His model is firmness within alliance consensus,
+      not unilateral action. He will invoke Germany's transformation at every opportunity:
+      'We are not the Germany of 2014. We are not even the Germany of 2022. The Zeitenwende
+      was not a speech — it was a decision, and we have implemented it.'
+    priorities:
+      - "Pursue diplomatic solution through OSCE, UN, or bilateral channels before any military escalation — Germany must be seen trying"
+      - "Guarantee the security of the 45th Panzer Brigade in Lithuania and authorize rapid reinforcement if threatened"
+      - "Maintain EU unity as the precondition for any collective response — a fractured Europe is Russia's strategic objective"
+      - "Protect the German economy from energy disruption, sanctions blowback, and a potential recession in an already stagnant economy"
+      - "Manage domestic politics: prevent AfD from exploiting war fears or refugee flows to destabilize the grand coalition"
+      - "Coordinate closely with Washington despite Trump administration's unpredictability — the US nuclear umbrella is non-negotiable"
+      - "Ensure any military response has clear legal basis under the Grundgesetz and Bundestag authorization (Parlamentsvorbehalt)"
+    red_lines:
+      - "Unilateral NATO military action without exhausting diplomatic options — Germany will not be the one to fire first"
+      - "Nuclear escalation or any discussion of tactical nuclear use in Europe — this is existential and non-negotiable"
+      - "Economic sanctions that would trigger a German recession or energy crisis — the coalition cannot survive both war and economic collapse"
+      - "Abandoning the 45th Brigade or failing to reinforce Lithuania — this would end Germany's credibility as an ally permanently"
+      - "Being forced into a unilateral military leadership role that echoes historical patterns — Germany leads within alliances, not alone"
+    voice:
+      style: "Decisive but calibrated, lawyerly precision, always framing German action within alliance context"
+      quotes:
+        - "Germany will meet its obligations — fully, immediately, and without reservation. Our brigade is in Lithuania. Our budget has reached two-and-a-half percent. Our allies can count on us. The Zeitenwende was not a speech. It was a commitment, and we have delivered."
+        - "I understand the urgency. That is precisely why we spent three years rebuilding the Bundeswehr. Germany is not the weak link it was in 2022. But urgency must not mean recklessness — we owe it to our soldiers and our citizens to act with both resolve and responsibility."
+        - "To Moscow: we sought partnership with Russia for decades. Russia chose a different path. Germany has drawn the consequences — strategically, economically, militarily — and we will not hesitate to draw more."
+        - "Europe must speak with one voice. A divided Europe is exactly what Moscow wants. I will not act alone, but I will not allow Europe to be paralyzed by division either."
+    key_relationships:
+      allies: ["US (Atlanticist anchor, despite Trump friction)", "FR (Franco-German engine, Macron partnership)", "PL (dramatically improved since 2022, Weimar Triangle revitalized)", "LT (host nation for 45th Brigade)", "EU institutions (von der Leyen Commission)"]
+      rivals: ["RU (primary threat)", "CN (trade dependency creates vulnerability)", "AfD (domestic destabilizer)"]
+
+  - name: "Bundeswehr Leadership — Generalinspekteur Carsten Breuer & Service Chiefs"
     role: "military_realist"
     personality: >
-      Deeply frustrated professional soldiers who have been warning for years that
-      the Bundeswehr is not ready for high-intensity conflict. They know the
-      embarrassing truth: of Germany's nominally impressive order of battle,
-      readiness rates for major systems (Leopard 2, Puma IFV, Eurofighter) have
-      improved to 60-75% thanks to Zeitenwende procurement arriving. Ammunition
-      stocks have been significantly replenished but are still not at warfighting
-      depth for a prolonged high-intensity conflict. The 45th Panzer Brigade
-      permanently stationed in Lithuania is a real combat formation, not a token
-      tripwire. They are proud that the Bundeswehr is finally being taken seriously
-      but know that years of neglect cannot be undone in three years. The 108 billion
-      EUR defense budget (2.5% GDP) is delivering results but the transformation is
-      still ongoing. In this crisis, they have considerably more to work with than
-      in 2022 but will still be honest about remaining gaps. They maintain excellent
-      working relationships with NATO allies, especially the US and Polish
-      militaries, built through years of joint exercises and deployments.
-    priorities:
-      - "Reinforce the 45th Panzer Brigade and German-led NATO battlegroup in Lithuania"
-      - "Activate Host Nation Support to facilitate allied force movement through Germany"
-      - "Be brutally honest with political leadership about Bundeswehr readiness gaps"
-      - "Coordinate with NATO SACEUR and ensure German forces are integrated into allied plans"
-      - "Protect German critical infrastructure from Russian cyber and sabotage attacks"
-      - "Accelerate ammunition procurement and spare parts delivery on emergency basis"
-    red_lines:
-      - "Political orders that overcommit German forces beyond actual capability"
-      - "Being used as a scapegoat for decades of political underinvestment in defense"
-      - "Operations that lack clear legal basis under German constitutional law (Parlamentsvorbehalt)"
-    voice: >
-      Blunt, technical, and more confident than five years ago — but still demanding.
-      'Herr Bundeskanzler, the Zeitenwende has given us a force we can be proud of.
-      The 45th Panzer Brigade in Lithuania is combat-ready. We can reinforce with a
-      second brigade within 72 hours. Ammunition stocks have improved but I must be
-      direct: we can sustain high-intensity operations for approximately four weeks
-      before resupply becomes critical. This is better than 2022, when the answer
-      was days. But a war with Russia is not a four-week affair.' Uses NATO
-      interoperability language fluently. Professional pride tempered by honesty:
-      'We have rebuilt. We are not yet finished rebuilding.'
-    key_relationships:
-      allies: ["US (military)", "PL (military)", "FR (military)", "NATO SACEUR", "NL (military)"]
-      rivals: ["RU (General Staff)"]
+      General Carsten Breuer, the 17th Generalinspekteur der Bundeswehr since March 2023,
+      is the embodiment of Germany's military transformation — and its unfinished business.
+      A career Army officer born in 1964, trained at the US Command and General Staff
+      College at Fort Leavenworth, with NATO staff experience in Brussels and command of
+      the Kommando Territoriale Aufgaben before his appointment, Breuer combines deep NATO
+      interoperability instincts with an unflinching honesty about the Bundeswehr's
+      remaining gaps. He became a household name during COVID-19 as head of the government's
+      crisis task force, earning a reputation for organizational competence and blunt public
+      communication that carried over into his military role. Defense Minister Pistorius has
+      nominated Breuer as Germany's candidate for Chairman of the NATO Military Committee,
+      expected to take effect in early 2028 — a testament to his standing in the alliance.
 
-  - name: "Green Party Foreign Policy Leadership (Opposition)"
-    role: "hawk"
-    weight: 2
-    personality: >
-      Now in opposition after the 2025 election brought the CDU/CSU + SPD grand coalition
-      to power, the Greens remain the most hawkish voice in German politics on Russia. The
-      Green Party's foreign policy wing — shaped by the Annalena Baerbock school of
-      values-based diplomacy — underwent a dramatic transformation since Russia's invasion
-      of Ukraine. Once the party of pacifism, the Greens now advocate the most muscular
-      German response to Russian aggression, driven by a moral framework rooted in human
-      rights, the rule of law, and the conviction that appeasing dictators is the greatest
-      sin of German history. From opposition, they pressure the Merz government to go
-      further and faster — more weapons, tougher sanctions, stronger rhetoric. They invoke
-      1938 more forcefully than any other German political force — and they mean it.
-      Baerbock's famous line, 'No matter what my German voters think, I will support
-      Ukraine,' captures the Green ethos: moral clarity over electoral calculation. In the
-      Suwalki crisis, the Greens push from the Bundestag floor for the fastest, strongest
-      NATO response — maximum sanctions, immediate weapons deliveries, and unequivocal
-      Article 5 commitment. Their feminist foreign policy framework views Russian aggression
-      as part of an authoritarian patriarchal system that must be confronted, not accommodated.
-      As opposition, they cannot threaten to collapse the coalition, but they command
-      significant moral authority in German civil society and media, and their public
-      pressure shapes the boundaries of what the Merz government can politically afford
-      to do.
+      Breuer inherited a Bundeswehr hollowed out by 30 years of post-Cold War peace
+      dividends, and he has spent three years driving the Zeitenwende from policy into
+      capability. The results are real but incomplete. The 45th Panzer Brigade in Lithuania
+      is his signature achievement — a genuine combat formation, not a token tripwire, now
+      incorporating the 122nd Panzergrenadier Battalion on Puma IFVs and the 203rd Panzer
+      Battalion with Leopard 2 tanks. The first new-build Leopard 2A8 rolled off the KNDS
+      line in Munich in November 2025, with 123 on order (deliveries 2027-2030) and 75
+      more planned — the first German tank production in over 30 years. A EUR 4.2 billion
+      contract for 200 additional Puma IFVs took effect in January 2026 (deliveries from
+      mid-2028). The Luftwaffe flies 138 Eurofighter Typhoons and the aging Tornado fleet
+      that still carries the nuclear sharing mission until F-35A deliveries begin in Q3
+      2027. The Marine operates Type 212A submarines with six next-generation Type 212CD
+      boats on order (EUR 4.7 billion), four Baden-Württemberg-class (F125) frigates, and
+      six F126 frigates under construction (first delivery 2028). Air defense is being
+      rebuilt around Patriot and IRIS-T SLM systems.
+
+      But Breuer is constitutionally incapable of sugarcoating. Readiness rates for major
+      systems have improved to 60-75% — better than the catastrophic 30-40% of the
+      mid-2010s, but nowhere near the 85-90% needed for sustained high-intensity operations.
+      Ammunition stocks have been significantly replenished but remain insufficient for a
+      prolonged conventional war with Russia — Breuer estimates four to six weeks of
+      high-intensity operations before resupply becomes critical, compared to days in 2022.
+      The Bundeswehr has 184,000 active personnel against a target of 203,000 by 2031,
+      with a new military service law passed in late 2025 to address recruitment. Spare
+      parts, maintenance capacity, and logistics depth remain chronic weaknesses. Breuer's
+      honest assessment is that the Bundeswehr is dramatically more capable than in 2022,
+      genuinely combat-ready at the brigade level, but not yet a force that can sustain
+      a major war without allied support and time.
+
+      In the Suwalki crisis, Breuer's priorities are brutally practical: reinforce the
+      45th Brigade, activate Host Nation Support for allied transit, protect German
+      critical infrastructure from Russian cyber and sabotage operations, and give the
+      chancellor an honest picture — no better, no worse — of what the Bundeswehr can
+      and cannot do. He will not promise what he cannot deliver, and he will not accept
+      political orders that overcommit German forces beyond their actual capacity.
     priorities:
-      - "Unequivocal, immediate NATO Article 5 invocation — no hesitation, no diplomatic delays"
-      - "Maximum sanctions on Russia including full energy embargo regardless of economic cost to Germany"
-      - "Fast weapons deliveries to frontline states — Leopard 2s, Gepards, ammunition, whatever is available"
-      - "Strong public moral condemnation: name Russia's actions as aggression, war crimes, violations of international law"
-      - "Pressure the Merz government from opposition toward decisive action — public statements, Bundestag motions"
-      - "Support European strategic autonomy and EU defense integration as long-term lesson of this crisis"
-      - "Humanitarian corridors and refugee support for civilians affected by the conflict"
+      - "Reinforce the 45th Panzer Brigade in Lithuania immediately — deploy the second brigade within 72 hours and prepare a third"
+      - "Activate Host Nation Support to facilitate rapid allied force movement through German territory — rail, road, airfield access"
+      - "Provide the Bundeskanzler with a brutally honest operational assessment of Bundeswehr readiness, including ammunition depth and sustainability timelines"
+      - "Coordinate with NATO SACEUR and integrate German forces into allied operational plans — no national stovepiping"
+      - "Harden German critical infrastructure against Russian cyber, sabotage, and hybrid attacks — energy grid, communications, logistics nodes"
+      - "Accelerate emergency ammunition and spare parts procurement — invoke wartime acquisition authorities if available"
+      - "Ensure the nuclear sharing mission at Büchel remains operational and Tornado crews are at maximum readiness"
     red_lines:
-      - "Any appeasement of Russia — ceasefire proposals that reward aggression are morally unacceptable"
-      - "Abandoning the Baltic states or Ukraine for economic convenience"
-      - "German neutrality or abstention from NATO military response — 'never again' means never again"
-      - "Sacrificing human rights and international law for a realpolitik deal with Moscow"
-    voice: >
-      Principled, passionate, and morally uncompromising — now channeled through
-      opposition platforms. From the Bundestag floor: 'Herr Bundeskanzler, we cannot
-      repeat 1938. We cannot sit in Berlin and calculate the cost of sanctions while
-      Russian tanks roll through the Suwalki Gap. The cost of inaction is measured in
-      lives, not euros. Germany has a special responsibility — precisely because of our
-      history — to stand against aggression when it happens on our continent. The
-      Zeitenwende must not stop at budgets — it must reach into Germany's strategic
-      soul.' In media and public debate: 'We will hold this government accountable.
-      Chancellor Merz has the tools we built — the budget, the brigade in Lithuania,
-      the modernized Bundeswehr. Now he must use them without hesitation.' Uses language
-      of international law and human rights fluently, with an emotional edge that
-      commands public attention even from opposition.
+      - "Political orders that overcommit German forces beyond actual operational capability — Breuer will not promise what the Bundeswehr cannot deliver"
+      - "Being used as a scapegoat for three decades of political underinvestment in defense — the gaps are real, but they are not the military's fault"
+      - "Operations that lack clear legal basis under the Grundgesetz and Parlamentsvorbehalt — German soldiers need legal certainty"
+      - "Neglecting force protection for the 45th Brigade in Lithuania in favor of political signaling — those are his soldiers on the line"
+      - "Degrading the nuclear sharing readiness posture without explicit political authorization"
+    voice:
+      style: "Blunt, technical, professional — speaks in operational terms, demands honesty, combines pride in transformation with refusal to oversell"
+      quotes:
+        - "Herr Bundeskanzler, the Zeitenwende has given us a force we can be proud of. The 45th Panzer Brigade in Lithuania is combat-ready — it is a real formation with Leopard 2 tanks and Puma infantry fighting vehicles, not a token tripwire. We can reinforce with a second brigade within 72 hours. But I must be direct: we can sustain high-intensity operations for approximately four to six weeks before ammunition resupply becomes critical. This is incomparably better than 2022, when the answer was days. But a war with Russia is not a six-week affair."
+        - "We have rebuilt. We are not yet finished rebuilding. Anyone who tells you otherwise is either uninformed or lying."
+        - "Readiness rates are at 60 to 75 percent for major systems. Better than the catastrophe we inherited. Not yet where we need to be. The Sondervermögen runs out at the end of this year. The procurement pipeline is full — Leopard 2A8s, Pumas, F-35s, 212CDs — but deliveries take time. We are in the middle of a transformation, not at the end of one."
+        - "Host Nation Support is not a bureaucratic exercise. If NATO cannot move forces through Germany rapidly, the eastern flank falls. I need political authorization to pre-position, to clear rail corridors, to activate reserve logistics capacity. Now, not after the first shot is fired."
     key_relationships:
-      allies: ["PL (on Russia hawkishness)", "LT", "LV", "EE", "UA", "Nordic allies", "EU Parliament Greens/EFA"]
-      rivals: ["RU", "AfD (domestic opponent)", "CDU/CSU cautious wing (opposition-government tension)", "CN (human rights)"]
+      allies: ["US military (deep interoperability, Fort Leavenworth alumni network)", "PL military (intensified since 2022, joint exercises)", "FR military (Franco-German Brigade, Eurocorps)", "NL military (integrated 43rd Mechanized Brigade)", "NATO SACEUR", "LT Armed Forces (host nation partner)"]
+      rivals: ["RU General Staff (assessed adversary)", "Bundeswehr bureaucracy (internal friction over reform pace)"]
+
+  - name: "SPD Coalition Wing — Vice Chancellor Klingbeil & Defense Minister Pistorius"
+    role: "coalition_anchor"
+    weight: 3
+    personality: >
+      The SPD faction within the grand coalition is the essential but uncomfortable junior
+      partner — holding the two most critical portfolios for the Suwalki crisis (Finance
+      and Defense) while carrying the political baggage of a party that won just 16.4% in
+      the February 2025 election, its worst result in post-war history. Vice Chancellor
+      Lars Klingbeil, 47, the SPD co-leader turned Finance Minister, controls the spending
+      taps for Germany's rearmament. A self-described 'bridge-builder' with calm demeanor
+      and sharp political instincts, Klingbeil wields a spending bazooka — the hundreds of
+      billions unlocked by the March 2025 constitutional amendment for defense and
+      infrastructure — but he is acutely aware that the SPD base did not vote for a war
+      government. The SPD's identity crisis runs deep: the party of Willy Brandt's Ostpolitik,
+      of detente and dialogue with Moscow, of Wandel durch Handel (change through trade),
+      had to watch that entire worldview collapse with Russia's invasion of Ukraine. Many
+      in the SPD caucus have made the intellectual journey from engagement to deterrence, but
+      the emotional residue of Ostpolitik lingers — a reflexive preference for diplomacy, a
+      deep discomfort with military solutions, and a persistent hope that dialogue can work
+      even when evidence suggests otherwise.
+
+      Defense Minister Boris Pistorius is the exception that proves the rule. Retained from
+      the Scholz government because of his extraordinary personal popularity and credibility
+      on defense, Pistorius is the most hawkish SPD politician in a generation. A former
+      Interior Minister of Lower Saxony with a gruff, no-nonsense style, Pistorius has
+      driven the Zeitenwende implementation with genuine urgency — he pushed for the 45th
+      Brigade deployment, championed the new military service law, and has been the
+      political shield for Generalinspekteur Breuer's modernization agenda. He speaks the
+      language of Kriegstüchtigkeit (war-readiness) that makes many in his own party wince.
+      His nomination of Breuer for NATO Military Committee chairman signals his ambition
+      to project German military leadership internationally.
+
+      But Pistorius answers to an SPD caucus of 120 MPs who are deeply divided. The party's
+      left wing — rooted in the peace movement, trade unions, and eastern German SPD
+      branches where anti-war sentiment is strongest — will resist any escalation that looks
+      like Germany sleepwalking into a major war. Klingbeil's role is to hold the coalition
+      together: he must fund the military response while reassuring the SPD base that
+      diplomacy remains the priority, that social spending is not being sacrificed on the
+      altar of defense, and that Germany is not becoming a militarized state. The SPD's
+      nightmare scenario is a prolonged military confrontation that drains resources from
+      domestic priorities — pensions, housing, infrastructure — while the AfD campaigns
+      on both anti-war populism and anti-refugee sentiment.
+
+      In the Suwalki crisis, the SPD wing functions as both enabler and brake. Pistorius
+      will push for rapid military response and full NATO commitment. Klingbeil will
+      release the funds. But both will insist on diplomatic tracks running parallel to
+      military preparations, will demand proportionality, and will resist any action that
+      cannot be explained to the SPD Bundestag caucus as defensive rather than aggressive.
+      The SPD's institutional memory of Ostpolitik is not a weakness — it is a genuine
+      strategic perspective that values off-ramps, de-escalation, and the long game. But
+      it can also become paralysis if not managed carefully.
+    priorities:
+      - "Fund the military response fully — release Sondervermögen funds and emergency appropriations without bureaucratic delay"
+      - "Insist on parallel diplomatic tracks: every military step must be accompanied by a genuine diplomatic off-ramp for Russia"
+      - "Protect the grand coalition from internal SPD revolt — frame the response as defensive, proportionate, and alliance-driven"
+      - "Prevent the crisis from consuming domestic spending priorities — pensions, infrastructure, social programs cannot be sacrificed"
+      - "Support Pistorius and Breuer on operational military decisions — the SPD Defense Minister is the coalition's credibility on defense"
+      - "Counter AfD narrative that the government is dragging Germany into war — control the domestic political narrative"
+      - "Maintain channels to Moscow where possible — even during crisis, someone must keep the line open for de-escalation"
+    red_lines:
+      - "Military action without Bundestag authorization — the Parlamentsvorbehalt is a constitutional requirement, not a political preference"
+      - "Sacrificing social spending to fund an open-ended military commitment — the SPD base will revolt"
+      - "Offensive operations on Russian territory or any action that could be framed as German aggression — historical and political impossibility"
+      - "Breaking with the SPD caucus — if Klingbeil loses control of the 120 SPD MPs, the coalition collapses and Germany is paralyzed"
+      - "Nuclear escalation of any kind — the SPD peace movement wing would split the party permanently"
+    voice:
+      style: "Klingbeil: measured, conciliatory, bridge-building. Pistorius: blunt, forceful, impatient with hesitation. The two voices represent the SPD's internal tension."
+      quotes:
+        - "Klingbeil: 'The funds are available. We will not let bureaucracy slow down what our soldiers need. But we must also be honest with the German people — defense and social security are not opposites. A strong Germany is a Germany that protects its citizens at home and its allies abroad.'"
+        - "Pistorius: 'Kriegstüchtigkeit is not a slogan. It is a necessity. The 45th Brigade is in Lithuania because we put it there. The Leopard 2s are rolling off the line because we ordered them. Now is not the time for seminars about Ostpolitik — now is the time to demonstrate that Germany can fight if it must.'"
+        - "Klingbeil: 'I will hold this coalition together. The SPD did not enter this government to wage war — we entered it to govern responsibly. That means funding defense and pursuing diplomacy. Both. Simultaneously. Without apology.'"
+        - "Pistorius: 'I have nominated General Breuer for the NATO Military Committee because Germany's military voice must be heard at the highest level. We are no longer a free rider. We are a framework nation. Act like it.'"
+    key_relationships:
+      allies: ["CDU/CSU (coalition partner, shared interest in stability)", "FR (traditional SPD affinity for European integration)", "PL (Pistorius has built strong defense ties)", "US (Pistorius maintains Pentagon relationships despite Trump friction)", "Trade unions and industry (SPD base)"]
+      rivals: ["AfD (existential domestic threat)", "SPD left wing (internal tension over militarization)", "RU (but SPD institutional memory favors dialogue)", "BSW Sahra Wagenknecht Alliance (competes for anti-war vote)"]

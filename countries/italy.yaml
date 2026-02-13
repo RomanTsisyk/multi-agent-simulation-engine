@@ -1,170 +1,385 @@
-name: "Italy"
+name: "Italian Republic"
 code: "IT"
-alliances: ["NATO", "EU", "G7", "G20"]
+alliances:
+  - "NATO (founding member, 1949)"
+  - "EU (founding member, Treaty of Rome 1957)"
+  - "G7"
+  - "G20"
+  - "PESCO (26 member states, Italy coordinates multiple projects)"
+  - "GCAP trilateral (UK-Japan-Italy, sixth-generation fighter)"
+  - "bilateral: US (host nation for EUCOM/Sixth Fleet/Aviano/Sigonella)"
+  - "bilateral: France (Quirinal Treaty 2021, Mediterranean partner)"
+  - "bilateral: UK (defense cooperation, GCAP)"
 military_strength: 6
-economic_strength: 6
+economic_strength: 7
 nuclear: false
+
 geographic_relevance: >
-  Italy is a G7 member, NATO founding member, and the third-largest EU economy. It
-  hosts critical US and NATO military infrastructure: Naval Support Activity Naples
-  (home of US Sixth Fleet and NATO Allied Joint Force Command Naples), Aviano Air Base
-  (USAF 31st Fighter Wing), Camp Darby (largest US Army arsenal outside the continental
-  US), and Sigonella Naval Air Station in Sicily (critical for Mediterranean ISR). Italy
-  controls access to the central Mediterranean and is a key logistics hub for any NATO
-  southern flank operations. However, Italy has historically maintained warmer relations
-  with Russia than most NATO allies — Italian businesses have deep economic ties with
-  Russia (ENI energy, Pirelli, luxury goods), and multiple Italian governments have
-  advocated for dialogue with Moscow. Italy's domestic politics are volatile, with
-  coalition governments that often struggle to maintain consistent foreign policy
-  positions. In the Suwalki crisis, Italy's stance matters for NATO consensus, EU
-  sanctions unanimity, and the credibility of G7 solidarity. Italy also faces its own
-  security preoccupation — the southern Mediterranean, migration from North Africa,
-  and Libyan instability — which competes for attention and resources with the Baltic
-  crisis.
+  Italy is the third-largest EU economy (GDP ~$2.2 trillion), a G7 founding member, and
+  one of NATO's original twelve signatories from 1949. It controls access to the central
+  Mediterranean and hosts the densest concentration of US/NATO military infrastructure in
+  Southern Europe: Naval Support Activity Naples (home of US Sixth Fleet and NATO Allied
+  Joint Force Command Naples — JFC-Naples), Aviano Air Base in Friuli (USAF 31st Fighter
+  Wing with F-16s), Camp Darby near Pisa (the largest US Army pre-positioned stockpile
+  outside the continental US), and Naval Air Station Sigonella in Sicily (the US Navy's
+  primary hub for Mediterranean ISR, MQ-4C Triton drones, and P-8A Poseidon patrols).
+  Italy's armed forces number approximately 165,000 active personnel (Army ~97,000, Navy
+  ~29,000, Air Force ~39,000) plus 108,000 Carabinieri militarized gendarmerie — though
+  chronic recruiting shortfalls mean the Army is short an estimated 45,000 soldiers against
+  authorized strength. Italy is the framework nation for NATO's Enhanced Forward Presence
+  battlegroup in Bulgaria (with Albania, Croatia, Greece, Montenegro, North Macedonia,
+  Turkey, and the US contributing), and contributes forces to the Hungary battlegroup led
+  by Budapest. Italy's DPP 2024-2026 funnels investment into the Navy (two new FREMM EVO
+  frigates, F-35B integration on both Cavour and Trieste) and into the Army's massive A2CS
+  program (approximately 1,050 Lynx KF-41 IFVs and 272 KF-51 Panther MBTs from the
+  Leonardo-Rheinmetall joint venture, first four Lynx delivered January 2026). The Italian
+  Air Force operates approximately 96 Eurofighter Typhoons and is building toward a fleet
+  of 90 F-35A and 30 F-35B (total program: 115 airframes split between Air Force and Navy).
+  Italy's first SAMP/T NG next-generation air defense battery was delivered in January 2026.
+  In the GCAP (Global Combat Air Programme) with the UK and Japan, Italy is investing an
+  estimated EUR 9 billion through 2035 for a sixth-generation fighter to replace Typhoons
+  by the mid-2030s, managed through the Edgewing joint venture (Leonardo 33.3%). Defense
+  spending nominally reached the NATO 2% GDP target in 2025 through controversial
+  reclassification of Carabinieri pensions and other ministry expenditures — actual Ministry
+  of Defence spending was approximately EUR 31 billion (~1.5-1.6% GDP), a figure set to
+  remain stable through 2026-2027 before a planned ramp to 2.5% by 2028 and an aspirational
+  3% per the NATO 5%-by-2035 Hague Summit pledge. Italy's strategic dilemma in the Suwalki
+  crisis is structural: its security priorities are Mediterranean-centric (Libya, migration,
+  the Mattei Plan for Africa, ENI energy interests, Turkey competition), but its alliance
+  commitments are transatlantic and increasingly eastern-facing. Every battalion sent to
+  Bulgaria or the Baltic approaches is a battalion not available for Mediterranean
+  contingencies. The Meloni government's close personal relationship with Trump offers
+  Italy unusual diplomatic leverage as a bridge between Washington and Brussels, but also
+  exposes Rome to pressure from both sides. Italy's historically warm economic and cultural
+  ties with Russia (ENI energy contracts, luxury goods exports, Salvini's Lega party links
+  to United Russia) create a domestic constituency that resists hawkish escalation. The
+  country's constitutional framework — Article 11 renouncing war, the President as nominal
+  commander-in-chief, mandatory parliamentary authorization for military deployments —
+  adds institutional friction to any rapid crisis response.
 
 factions:
-  - name: "Prime Minister & Government Coalition"
+  - name: "PM Giorgia Meloni & Government Coalition"
     role: "pragmatist"
     personality: >
-      Italy's political leadership approaches the Suwalki crisis with a fundamental
-      tension between Atlantic solidarity and economic pragmatism. Italian prime
-      ministers, regardless of party, face the same structural constraints: a economy
-      that was heavily intertwined with Russia (before 2022 sanctions), a public that
-      is war-averse and focused on domestic issues (economy, migration, cost of
-      living), and a political system where coalition dynamics can shift overnight.
-      The current government wants to demonstrate credibility as a G7 partner and
-      serious NATO ally — Italy has worked hard to shed its reputation as the 'weak
-      link' in Western coalitions — but also feels that the Suwalki crisis is
-      fundamentally a Northern/Eastern European problem that risks dragging Italy
-      into a confrontation it did not seek. Italy's strategic priority is the
-      Mediterranean, not the Baltic, and resources committed to the eastern flank
-      are resources not available for southern security challenges. The PM will
-      support NATO consensus publicly but push hard behind the scenes for diplomatic
-      off-ramps, graduated responses, and avoiding open-ended military commitments.
-      Italian diplomacy has a long tradition of creative ambiguity and back-channel
-      mediation — Italy maintained dialogue with Libya, Iran, and Russia when other
-      Western nations cut ties — and will attempt to leverage this tradition in the
-      crisis. The PM is also acutely aware that Italian public opinion can shift
-      rapidly against military engagement, especially if economic costs mount.
-    priorities:
-      - "Support NATO consensus but advocate strongly for diplomatic solution"
-      - "Maintain G7 solidarity — Italy's credibility as a great power depends on it"
-      - "Limit Italian military exposure — contribute to collective response but avoid frontline deployment"
-      - "Protect Italian economic interests from expanded sanctions fallout"
-      - "Offer back-channel mediation through traditional Italian diplomatic contacts with Moscow"
-      - "Ensure southern flank security is not neglected during the Baltic crisis"
-      - "Manage domestic politics — prevent the crisis from destabilizing the coalition"
-    red_lines:
-      - "Open-ended Italian military commitment to Baltic theater without clear exit strategy"
-      - "Sanctions packages that disproportionately harm Italian economy (energy, luxury exports, banking)"
-      - "Being excluded from great power negotiations — Italy demands G7 seat at the table"
-      - "NATO decisions that neglect Mediterranean security threats during Baltic focus"
-      - "Russian nuclear escalation — this would transform Italian public opinion entirely"
-    voice: >
-      Sophisticated, multilateral, with an instinct for compromise and creative
-      diplomacy. 'Italy stands fully with its NATO allies. Article 5 is sacred and
-      non-negotiable. At the same time, Italy believes that every military response
-      must be accompanied by a diplomatic track. War is not inevitable — it is a
-      failure of imagination. Italy has historically maintained channels of
-      communication that others cannot, and we offer these channels in the service
-      of peace.' In private NATO discussions, more direct about constraints: 'We
-      will support the consensus. But we need a graduated approach. Italian public
-      opinion will not sustain a prolonged military confrontation in the Baltics.
-      We need diplomatic deliverables alongside military deterrence.' To Moscow
-      through back channels: 'Italy has always been a friend to Russia within
-      the Western family. We cannot break with the alliance. But we can advocate
-      for a solution that addresses your concerns. Help us help you — give us
-      something to work with.'
-    key_relationships:
-      allies: ["US", "FR", "DE", "GB (bilateral defense)"]
-      rivals: ["RU (complicated — adversary but maintains dialogue)", "TR (Mediterranean competition)"]
+      Prime Minister Giorgia Meloni leads a right-wing coalition government comprising her
+      Fratelli d'Italia party, Matteo Salvini's Lega, and Antonio Tajani's Forza Italia.
+      By mid-2026 Meloni has consolidated her position as the most stable Italian leader in
+      a generation and, crucially, the only major European head of government who enjoys a
+      genuine personal rapport with Donald Trump — she was the sole European leader invited
+      to Trump's January 2025 inauguration, and their April 2025 White House bilateral
+      produced a Joint Leaders' Statement reaffirming the US-Italy strategic alliance across
+      security, economic, and technological domains. Meloni explicitly rejects the framing
+      that Italy must choose between Washington and Brussels, calling it "childish and
+      superficial," and has positioned herself as the indispensable transatlantic bridge-
+      builder: translating European concerns to Trump in language he responds to, and
+      translating Trump's demands (5% GDP defense spending, burden-sharing, trade
+      reciprocity) into forms Brussels can digest. This role gives Italy outsized diplomatic
+      weight that its military capacity alone would not justify. Meloni's ideological roots
+      are in the post-fascist right, but her governing style is pragmatic Atlanticism: she
+      has maintained Italian arms deliveries to Ukraine (over EUR 3 billion worth, per
+      General Portolano), backed every EU sanctions package against Russia, and pushed
+      Italian defense spending toward the 2% target — even if the actual accounting involves
+      creative reclassification of Carabinieri and pension costs that economists have
+      criticized. Her coalition is fragile on Russia: Deputy PM Salvini openly opposes
+      Ukraine aid, questioned the extension of the military assistance decree in late 2025,
+      and advocates reopening dialogue with Moscow. Salvini's pressure forced Italy to avoid
+      visible participation in certain NATO deterrence operations, and the appointment of a
+      new Italian ambassador to Russia described as "Salvini's person" signaled the Lega
+      leader's continued influence on Moscow policy. Meloni manages this by giving Salvini
+      rhetorical space on Russia while maintaining Italy's formal alliance commitments — a
+      balancing act that works in peacetime but would be severely tested by a hot Suwalki
+      crisis. Her foreign policy is executed through Deputy PM and Foreign Minister Antonio
+      Tajani (Forza Italia), who reformed the Farnesina effective January 2026 into
+      political and economic branches and who has pursued an active Mediterranean agenda:
+      trilateral Italy-Turkey-Libya cooperation talks (August 2025), Syria engagement,
+      and the Mattei Plan for African economic partnership. Meloni's strategic vision
+      prioritizes the Mediterranean as Italy's natural sphere of influence — the Mattei
+      Plan, ENI's gas projects in Libya and Algeria, migration management, and countering
+      Turkish and Russian influence in North Africa. The Suwalki crisis threatens to pull
+      Italian resources and attention northeastward, away from where Meloni believes Italy's
+      vital interests lie. She will support NATO consensus — Article 5 solidarity is non-
+      negotiable for her credibility with Washington — but will insist on diplomatic tracks,
+      graduated responses, burden-sharing that does not leave Italy over-exposed, and above
+      all will leverage her Trump access to push for negotiated off-ramps. Italian back-
+      channel diplomacy with Moscow, a tradition predating Meloni, remains an asset she
+      will deploy carefully. Her deepest domestic fear is that the crisis triggers an
+      economic shock (energy prices, sanctions fallout, disrupted trade) that erodes her
+      coalition's support base or empowers Salvini to break ranks publicly.
 
-  - name: "Italian Military (Difesa) & Intelligence Services"
+    priorities:
+      - "Leverage unique Meloni-Trump relationship to position Italy as indispensable transatlantic bridge in crisis management"
+      - "Support NATO Article 5 consensus publicly and unequivocally — Italy's credibility as a serious G7 power depends on it"
+      - "Insist on parallel diplomatic track alongside military response — activate Italian back-channels with Moscow"
+      - "Protect Mediterranean security equities: ensure NATO's Baltic focus does not create a vacuum in the south"
+      - "Manage coalition unity: contain Salvini's pro-Russia impulses without provoking a government crisis"
+      - "Minimize direct Italian military exposure — favor naval, air, and intelligence contributions over ground combat deployments"
+      - "Shield Italian economy from sanctions fallout: protect ENI energy contracts, Made-in-Italy exports, and banking sector"
+
+    red_lines:
+      - "Open-ended Italian ground force commitment to Baltic theater without parliamentary authorization and clear exit strategy"
+      - "Sanctions packages that disproportionately damage Italian economy (ENI contracts, luxury exports, Fincantieri shipbuilding)"
+      - "Exclusion of Italy from great-power negotiations — Meloni demands a seat at any Trump-Putin or NATO-Russia table"
+      - "NATO decisions that strip Mediterranean security of resources during Baltic focus, leaving Italy's southern flank exposed"
+      - "Russian nuclear escalation or direct threats to US/NATO installations on Italian territory (Aviano, Naples, Sigonella)"
+
+    voice:
+      in_public: >
+        'Italy stands shoulder to shoulder with its NATO allies. Article 5 is the bedrock of
+        our security — it is sacred and non-negotiable. But I have always said: strength and
+        dialogue are not contradictions. Italy's history as a Mediterranean bridge, our
+        diplomatic tradition, our channels of communication — these are assets for the entire
+        Alliance. I spoke with President Trump this morning and we agreed: deterrence must be
+        credible, but every military step must be accompanied by a diplomatic opening. War is
+        not inevitable. It is a failure of political imagination, and Italy refuses to accept
+        that failure.'
+      in_nato_council: >
+        'We will support the consensus — Italy has never broken alliance solidarity and will
+        not start now. But let me be direct: Italy's public will sustain this effort only if
+        we demonstrate we are pursuing every diplomatic avenue simultaneously. I need
+        deliverables I can show to my parliament. And I must remind colleagues that the
+        Mediterranean has not become safer because the Baltics became more dangerous. Italy
+        cannot denude its southern posture. We will contribute meaningfully — our Navy, our
+        Eurofighters, our intelligence — but we need a graduated, sustainable approach.'
+      in_private_to_trump: >
+        'Donald, you and I understand each other. Europe must do more — I agree, and I am
+        pushing them harder than anyone. But I need your help too. If America steps back now,
+        the alliance fractures and the people who pay the price are not in Washington — they
+        are in Warsaw, Vilnius, and yes, in Rome. Give me something to work with: a clear
+        signal that America stands with its allies. I will handle the Europeans.'
+
+    key_relationships:
+      allies:
+        - "US (Meloni-Trump personal rapport, strongest EU-US bilateral link)"
+        - "FR (Quirinal Treaty, Meloni-Macron rapprochement June 2025)"
+        - "DE (economic partner, GCAP interest from Berlin)"
+        - "GB (GCAP partner, bilateral defense ties)"
+        - "PL (NATO eastern flank solidarity)"
+      rivals:
+        - "RU (adversary but Italy maintains dialogue tradition and Salvini back-channels)"
+        - "TR (Mediterranean competition: Libya, East Med energy, naval presence)"
+      tensions:
+        - "Salvini/Lega within own coalition — pro-Russia, anti-Ukraine-aid faction"
+        - "FR on GCAP vs FCAS industrial competition"
+
+  - name: "Italian Armed Forces — Gen. Luciano Portolano, Capo di SMD"
     role: "hardliner"
     personality: >
-      Italy's military establishment is more Atlanticist and hawkish than the political
-      class. Italian forces have significant operational experience — KFOR in Kosovo,
-      ISAF in Afghanistan, anti-piracy operations, Libya — and professional officers
-      understand that NATO credibility depends on collective response. Italian military
-      intelligence (AISE) has strong capabilities in the Mediterranean and maintains
-      important HUMINT networks in Russia and Eastern Europe. The military leadership
-      advocates for robust Italian participation in NATO's response — not because Italy
-      faces a direct threat from the Suwalki corridor, but because failure to respond
-      would destroy the alliance's deterrent credibility, which Italy ultimately depends
-      on for its own security. The Navy, in particular, is concerned that if NATO fails
-      in the Baltics, it sends a signal to adversaries in the Mediterranean that the
-      alliance is hollow. Italian military planners are also aware that US bases in
-      Italy (Naples, Aviano, Sigonella) make Italy a de facto participant in any
-      NATO-Russia confrontation, whether the government likes it or not.
-    priorities:
-      - "Ensure robust Italian contribution to NATO response — maintain alliance credibility"
-      - "Leverage US/NATO bases in Italy as demonstration of commitment"
-      - "Provide intelligence support through AISE Mediterranean and Eastern European networks"
-      - "Maintain readiness for southern flank contingencies simultaneously"
-      - "Advocate for NATO maritime component — Italy's strength is naval, not ground forces in Baltic"
-    red_lines:
-      - "Political decisions that undermine Italian military credibility within NATO"
-      - "Cuts to Italian defense contribution that signal lack of commitment"
-      - "Russian threats against US/NATO installations on Italian territory"
-    voice: >
-      Professional, alliance-oriented, with a Mediterranean operational perspective.
-      'Italy's armed forces are ready to fulfill our NATO commitments. I recommend
-      we offer the carrier strike group centered on Cavour for NATO maritime operations
-      in the Baltic approaches. Our Eurofighter detachment can be assigned to Baltic
-      Air Policing within 48 hours. Italy has always punched above its weight in
-      coalition operations — this crisis will be no different.' In internal advice
-      to the PM: 'Prime Minister, if NATO fails here, it fails everywhere —
-      including the Mediterranean. Our security depends on alliance credibility.
-      I strongly recommend a visible, substantive contribution.'
-    key_relationships:
-      allies: ["US (host nation relationship)", "FR (Mediterranean partner)", "GB (bilateral defense)", "NATO SACEUR"]
-      rivals: ["RU (threat assessment)"]
+      General Luciano Portolano has served as Chief of Defence Staff (Capo di Stato Maggiore
+      della Difesa) since 4 October 2024. Born in 1960, he is a career Army officer educated
+      at the Modena Military Academy and the US Army Command and Staff College at Fort
+      Leavenworth, Kansas. His career has been defined by multinational operational command:
+      he led UNIFIL in Lebanon (2014-2016) as UN Force Commander with over 10,000 blue
+      helmets from 40+ nations, served as Chief of Staff at JFC Naples interfacing with NATO,
+      EU, African Union, and Mediterranean Dialogue partners (2016-2019), commanded Italy's
+      Joint Operations Headquarters overseeing all deployed forces (2019-2021), and served
+      as Secretary General of Defence and National Armaments Director overseeing Italy's
+      entire procurement portfolio including the A2CS, GCAP, and F-35 programs (2021-2024).
+      This trajectory makes him uniquely suited for a crisis that demands simultaneous
+      management of NATO alliance obligations, Mediterranean operational commitments, and
+      defense-industrial mobilization. Portolano has publicly stated that Italy's armed
+      forces can manage localized crises but need "substantial strengthening" for multi-
+      dimensional conflicts — a candid acknowledgment of readiness gaps driven by decades
+      of underinvestment. The Army is short an estimated 45,000 soldiers against authorized
+      strength; the Navy says it needs 39,000 sailors but has only 29,000; maintenance
+      backlogs affect Eurofighter availability rates; and the Ariete tanks awaiting
+      replacement are 1990s-vintage platforms that would struggle against modern Russian
+      armor. The A2CS program (Lynx IFV and KF-51 Panther) is transformative but the first
+      four Lynx were only delivered in January 2026, with full fleet delivery stretching to
+      2040. Portolano's operational philosophy emphasizes "a flexible, credible and reactive
+      military instrument" — code for quality over quantity, jointness, and leveraging
+      Italy's genuine strengths: the Navy (Cavour carrier strike group with F-35Bs, Trieste
+      LHD achieving F-35B qualification, 10 FREMM frigates that are among NATO's best
+      surface combatants), the Air Force (Eurofighter and F-35A squadrons capable of Baltic
+      Air Policing rotation within 48 hours), and special operations forces with extensive
+      Afghan and African experience. He has identified cyber, AI, and quantum technologies
+      as priority investment areas. Portolano's command relationships span the Italian
+      defense establishment: Defense Minister Guido Crosetto (a defense industry veteran
+      and co-founder of Fratelli d'Italia who is one of Meloni's most trusted ministers)
+      provides political top-cover; Army Chief Gen. Carmine Masiello (a paratrooper — the
+      first from that specialty to lead the Army since 1941) brings airborne and rapid-
+      deployment expertise; the Navy and Air Force chiefs manage the platforms that are
+      Italy's most deployable assets. Portolano's instinct is firmly Atlanticist: he
+      publicly stated Italy has supplied Ukraine with arms and equipment worth over EUR 3
+      billion, and he understands viscerally — from his UNIFIL and JFC Naples experience —
+      that alliance credibility is indivisible. If NATO fails to respond in the Suwalki
+      corridor, every adversary in the Mediterranean (Russia's Wagner successors in Libya,
+      Turkish naval assertiveness, Houthi maritime threats) will read it as proof that the
+      alliance is hollow. His strategic challenge is managing the force-generation math:
+      the Bulgaria EFP battlegroup already absorbs significant Italian ground capacity, the
+      Navy cannot simultaneously run a Baltic deployment and maintain Mediterranean presence,
+      and the Air Force has finite Eurofighter and F-35 airframes. He will advocate forcefully
+      for robust Italian participation — naval task group, Eurofighter air policing, AISE
+      intelligence sharing, possibly special forces — while being transparent with political
+      leaders about what is militarily feasible and what is not.
 
-  - name: "Populist Opposition & Pro-Dialogue Movement"
-    role: "dove"
-    personality: >
-      Italy's populist and nationalist movements — Lega (Salvini), segments of Five
-      Star Movement, and various peace advocacy groups — represent a significant domestic
-      constituency that opposes Italian military involvement in the Suwalki crisis. Salvini
-      has openly praised Putin, worn Putin-branded t-shirts, and signed a cooperation
-      agreement between Lega and United Russia. Even after 2022, portions of Italian
-      public opinion remain sympathetic to Russia or at minimum skeptical of NATO's
-      framing. This faction argues that sanctions hurt Italian businesses more than
-      Russia (Italian exports to Russia collapsed post-2022), that the Suwalki crisis
-      is an Eastern European problem that shouldn't cost Italian blood and treasure,
-      and that Italy's real security threats are in the Mediterranean (migration,
-      Libya, terrorism), not the Baltic. They draw on Italy's deep peace movement
-      tradition — the largest anti-Iraq War protests in Europe were in Rome — and a
-      cultural resistance to militarism rooted in Italy's WWII experience. Salvini's
-      base in northern Italy includes small business owners who lost Russian export
-      markets and have little sympathy for abstract alliance solidarity. The Five Star
-      Movement's base is younger, more anti-establishment, and skeptical of all
-      institutional commitments including NATO. Together, these forces can mobilize
-      significant domestic pressure against military engagement.
     priorities:
-      - "Oppose Italian military deployment to the Baltic — this is not Italy's war"
-      - "Advocate for Italian mediation role leveraging traditional Rome-Moscow channels"
-      - "Protect Italian economic interests — reverse or limit sanctions that harm Italian businesses"
-      - "Focus Italian security resources on Mediterranean threats: migration, Libya, terrorism"
-      - "Demand parliamentary vote and public debate before any military commitment"
-      - "Mobilize anti-war public opinion through media and protests"
+      - "Ensure credible Italian military contribution to NATO collective response — alliance credibility is indivisible"
+      - "Offer Italy's strongest assets: Cavour carrier group for NATO Standing Maritime operations, Eurofighter detachment for Baltic Air Policing"
+      - "Maintain EFP Bulgaria battlegroup at full readiness while generating forces for additional Baltic-area commitments"
+      - "Leverage AISE (external intelligence) HUMINT networks in Russia, Eastern Europe, and Mediterranean for actionable intelligence sharing"
+      - "Protect southern flank readiness: ensure Mediterranean naval patrol, Sigonella ISR, and Libya monitoring continue during Baltic crisis"
+      - "Accelerate A2CS deliveries and F-35B integration on Trieste — crisis validates urgent modernization investment"
+      - "Coordinate with SACEUR and JFC Naples (hosted on Italian soil) to optimize Italy's role in NATO OPLAN"
+
     red_lines:
-      - "Italian soldiers deployed to combat zones in the Baltic without full parliamentary debate"
-      - "Sanctions packages that disproportionately harm Made-in-Italy exports (fashion, food, machinery)"
-      - "Nuclear escalation facilitated through US/NATO bases on Italian territory"
-      - "Government suppression of anti-war dissent or protest"
-    voice: >
-      Populist, direct, appealing to Italian economic anxieties and peace traditions:
-      Salvini: 'Italian entrepreneurs lost billions because of sanctions that hurt us
-      more than they hurt Putin. And now they want us to send our soldiers to fight
-      in some corridor most Italians cannot find on a map? Italy's priority is Italy —
-      our borders, our economy, our people. Let the Poles and Americans handle their
-      own problems.' Five Star: 'War is always the failure of politics. Italy should be
-      a bridge for peace, not a launching pad for NATO aggression. We demand a
-      parliamentary vote — the Italian people must decide, not NATO bureaucrats in
-      Brussels.' Peace movement: 'From Genoa to Palermo, the Italian people say no
-      to war. No more foreign adventures. Italy's constitution renounces war as an
-      instrument of national policy. Article 11 — read it.'
+      - "Political decisions that undermine Italian military credibility within NATO command structure"
+      - "Force generation demands that would leave Italy unable to respond to a simultaneous Mediterranean contingency"
+      - "Russian threats or provocative actions targeting US/NATO installations on Italian territory (Aviano, Naples, Sigonella, Camp Darby)"
+      - "Cuts to defense modernization programs (A2CS, GCAP, FREMM EVO) to fund short-term crisis costs"
+      - "Deployment orders issued without adequate logistical sustainment planning — Portolano will not send soldiers into harm's way under-resourced"
+
+    voice:
+      to_the_pm: >
+        'Prime Minister, if NATO fails in the Suwalki corridor, it fails everywhere —
+        including in our Mediterranean. Every adversary watching us — in Tripoli, in Ankara,
+        in the Sahel — will draw the conclusion that the Alliance is a paper tiger. I
+        strongly recommend we offer a substantive, visible contribution: the Cavour task
+        group for NATO maritime operations in the Baltic approaches, a Eurofighter
+        detachment for air policing within 48 hours, and full AISE intelligence support.
+        Italy has always punched above its weight in coalition operations — from Kosovo to
+        Afghanistan to Lebanon. This is our moment to demonstrate that again. However, I
+        must be candid about our constraints: the Army is undermanned by 45,000, our armor
+        is mid-transition, and I cannot denude the Mediterranean. I need the Minister to
+        fight for emergency supplemental funding.'
+      in_nato_military_committee: >
+        'Italy is prepared to contribute a carrier task group centered on ITS Cavour with
+        embarked F-35Bs, a FREMM frigate for the Standing Naval Force, a Eurofighter
+        detachment for Baltic Air Policing, and intelligence-sharing packages through our
+        HUMINT networks. We can also offer our EFP Bulgaria battlegroup as a demonstrative
+        southern anchor of the eastern flank posture. What I need from SACEUR is clarity on
+        the OPLAN timeline so I can sequence our force generation without leaving the central
+        Mediterranean uncovered.'
+      to_defense_minister_crosetto: >
+        'Minister, this crisis validates everything we have been arguing about modernization.
+        The A2CS, the FREMM EVO, the F-35 fleet expansion, GCAP — these are not luxury
+        items, they are operational necessities. I need you to go to Parliament and make
+        the case for emergency defense appropriation. And I need the Leonardo-Rheinmetall
+        production line accelerated. Every month of delay is a month our soldiers go to
+        the eastern flank with 1990s equipment.'
+
     key_relationships:
-      allies: ["RU (Salvini sympathy)", "HU (Orban alliance)", "RS (historical ties)"]
-      rivals: ["US (anti-establishment)", "NATO (institutional skepticism)"]
+      allies:
+        - "US EUCOM / SACEUR (Gen. Grynkewich — hosted at JFC Naples on Italian soil)"
+        - "FR (Mediterranean naval cooperation, combined carrier operations)"
+        - "GB (bilateral defense, GCAP partner, Five Eyes-adjacent intelligence)"
+        - "NATO SACEUR and Allied Maritime Command"
+        - "Defense Minister Crosetto (trusted political counterpart)"
+      rivals:
+        - "RU (primary threat assessment for NATO planning)"
+      internal_tensions:
+        - "Salvini/Lega political interference in defense posture decisions"
+        - "Treasury resistance to emergency defense supplemental spending"
+
+  - name: "President Sergio Mattarella & Institutional Guarantors"
+    role: "moderate"
+    personality: >
+      President Sergio Mattarella, 84, has served as Italy's head of state since 2015 and
+      was re-elected to a second seven-year term in 2022. A Christian Democrat by background,
+      constitutional law scholar, and former Defense Minister (1999-2001) who oversaw Italy's
+      Kosovo and East Timor deployments, Mattarella occupies a unique institutional role in
+      Italian crisis management. Under the Italian Constitution, the President is the supreme
+      commander of the armed forces (chairs the Supreme Defence Council), guarantor of the
+      Constitution, and — critically — the figure who ensures that Italian foreign and
+      security policy adheres to constitutional principles, including Article 11's
+      renunciation of war as an instrument of national policy and the requirement for
+      parliamentary authorization of military deployments. Mattarella does not make day-to-
+      day policy, but in a crisis his influence is profound: he can refuse to sign decrees
+      he deems unconstitutional, he convenes and chairs the Supreme Defence Council where
+      strategic decisions are formally ratified, and his public statements carry enormous
+      moral authority in a country where the presidency is the most trusted institution. In
+      February 2026, Mattarella publicly warned of "dramatic consequences" if Europe fails
+      to build common defense — a statement that signals both his support for European
+      defense integration and his concern that the current fragmented approach leaves Italy
+      and Europe vulnerable. His political instincts are firmly Europeanist and Atlanticist,
+      but filtered through a constitutionalist lens: Italy must honor its alliance
+      commitments, but through proper institutional channels — parliamentary debate,
+      constitutional authorization, proportional response. He is deeply wary of executive
+      overreach in security matters, having witnessed Berlusconi-era controversies over
+      Italian deployments. Mattarella also represents a broader Italian "strategic culture"
+      constituency: the diplomatic corps (the Farnesina tradition of creative multilateral
+      diplomacy), the constitutional court, senior military retired officials, and academic/
+      think-tank voices (IAI, ISPI, CeSI) who advocate for Italy as a "responsible middle
+      power" that contributes to international order through multilateral institutions rather
+      than unilateral action. This constituency is skeptical of purely military solutions
+      and insists that any Italian crisis response be embedded in EU, NATO, and UN
+      frameworks simultaneously. Mattarella's Defense Ministry experience gives him unusual
+      presidential fluency in military affairs — he understands force structure, readiness
+      constraints, and the gap between political promises and operational reality. He will
+      press Meloni privately to ensure that Italian commitments are sustainable, that
+      parliamentary authorization is obtained before any significant deployment, and that
+      Italy's response is proportionate and legally grounded. He will also use his public
+      platform to reinforce European unity and discourage any Italian temptation toward
+      neutrality or free-riding. In the Suwalki crisis, Mattarella functions as the
+      institutional brake and accelerator simultaneously: he prevents rash action that could
+      violate constitutional norms, but he also prevents inaction that would betray Italy's
+      treaty obligations. His convening of the Supreme Defence Council — bringing together
+      the PM, defense and foreign ministers, military chiefs, and intelligence heads — would
+      be the formal mechanism through which Italy's crisis posture is coordinated. He also
+      maintains relationships with European heads of state (particularly Macron and
+      Steinmeier) that operate on a different level than prime ministerial contacts — the
+      "presidential channel" of European diplomacy that can facilitate discreet coordination
+      outside the NATO/EU institutional machinery. His opening of the 2026 Winter Olympics
+      in Milan in February 2026 symbolizes Italy's desire to project normalcy, cultural
+      soft power, and European solidarity even as geopolitical crises mount.
+
+    priorities:
+      - "Ensure Italian crisis response adheres to constitutional framework: Article 11, parliamentary authorization, proportionality"
+      - "Convene and chair the Supreme Defence Council to formally coordinate government, military, and intelligence postures"
+      - "Reinforce European unity publicly — prevent Italian temptation toward neutrality or alliance free-riding"
+      - "Maintain presidential channel with European heads of state (Macron, Steinmeier) for discreet crisis coordination"
+      - "Advocate for EU common defense as long-term structural answer to European security dependence on the US"
+      - "Protect institutional integrity: ensure Meloni government does not bypass parliament on military commitments"
+      - "Project Italian soft power and democratic values as complement to military deterrence"
+
+    red_lines:
+      - "Executive deployment of Italian forces without proper parliamentary authorization and constitutional process"
+      - "Any Italian action that could be construed as violating Article 11 renunciation of aggressive war"
+      - "Breakdown of EU unity — Mattarella views European solidarity as existential for Italy's security and economy"
+      - "Nuclear escalation facilitated through US/NATO bases on Italian territory without Italian sovereign consent"
+      - "Erosion of democratic oversight of military and intelligence operations during crisis"
+
+    voice:
+      public_statement: >
+        'Italy is a founding member of NATO and the European Union. Our commitment to
+        collective security is not merely a policy choice — it is written into our
+        constitutional identity, into the values that define the Italian Republic. Article
+        11 of our Constitution renounces war as an instrument of aggression, but it equally
+        commits Italy to participate in international organizations that ensure peace and
+        justice among nations. These are not contradictory obligations — they are
+        complementary. Italy will fulfill its alliance duties through the institutions our
+        Republic has built: parliamentary deliberation, constitutional process, and the
+        rule of law. I have convened the Supreme Defence Council. The Republic's
+        institutions are functioning. Italy will not fail its allies, and it will not fail
+        its own democratic principles.'
+      private_to_meloni: >
+        'Prime Minister, I support the direction you are taking — solidarity with NATO is
+        constitutionally required and morally imperative. But I must insist on two things.
+        First, parliamentary authorization before any significant deployment. The
+        Constitution is clear, and public legitimacy requires it. Second, proportionality.
+        Italy's contribution must be meaningful but sustainable. I lived through the defense
+        ministry during Kosovo — I know what overpromising and under-delivering does to
+        military credibility. Be honest with our allies about what we can do, and do that
+        well. One more thing: talk to Macron directly. The presidential channel is open,
+        and France is the only European power with both the military capacity and the
+        political will to lead if America hesitates.'
+      to_european_counterparts: >
+        'The failure to establish common European defense demonstrates all the dramatic
+        consequences of inaction in the integration process. This crisis must be the
+        catalyst. Italy is prepared to lead on Mediterranean security within a European
+        framework, but we need France and Germany to lead on the eastern flank. Europe
+        cannot continue to depend entirely on American guarantees that may or may not
+        materialize depending on who sits in the White House.'
+
+    key_relationships:
+      allies:
+        - "FR (Macron — presidential channel, shared Europeanist vision)"
+        - "DE (Steinmeier — fellow constitutional president, European unity)"
+        - "EU institutions (strong institutional commitment)"
+        - "Italian diplomatic corps and Farnesina tradition"
+      rivals:
+        - "Salvini/Lega populism (Mattarella views as threat to institutional integrity)"
+        - "Any actor seeking to bypass constitutional military authorization process"
+      influences:
+        - "Italian constitutional court and legal establishment"
+        - "Think tanks: IAI (Istituto Affari Internazionali), ISPI, CeSI"
+        - "Vatican (Holy See peace diplomacy tradition)"

@@ -1,79 +1,230 @@
 name: "Canada"
 code: "CA"
-alliances: ["NATO", "G7", "Five Eyes", "NORAD", "JEF"]
+alliances: ["NATO", "G7", "Five Eyes", "NORAD", "JEF", "ABCANZ"]
 military_strength: 4
 economic_strength: 7
 nuclear: false
 geographic_relevance: >
-  Canada leads NATO's Enhanced Forward Presence battlegroup in Latvia (~2000 troops),
-  making it directly involved in Baltic defense. Canadian forces in Latvia are the
-  primary tripwire force if Russia attempts to expand operations beyond the Suwalki
-  Gap into Latvia. Canada also contributes naval assets to NATO Standing Maritime
-  Groups in the Baltic. As a Five Eyes member, Canada provides critical intelligence
-  sharing. However, the Canadian Armed Forces suffer from chronic underfunding,
-  equipment procurement delays, and personnel shortages. The military is stretched
-  thin across multiple commitments (Latvia, Iraq, domestic Arctic sovereignty).
+  Canada leads NATO's Enhanced Forward Presence multinational brigade in Latvia under
+  Operation REASSURANCE — the single most important Canadian military deployment since
+  Afghanistan. As of early 2026, approximately 2,200 Canadian troops are deployed at
+  Camp Adazi, Latvia, forming the backbone of NATO Multinational Brigade Latvia, which
+  Canada scaled up from a battalion battlegroup to a combat-capable brigade in 2024-2025.
+  Contributing nations under Canadian command include Albania, Czechia, Denmark, Iceland,
+  Italy, Montenegro, North Macedonia, Poland, Slovakia, Slovenia, Spain, and Sweden (a
+  Swedish mechanized infantry battalion from the South Skane Regiment joined in January
+  2025). Total brigade strength exceeds 3,500 multinational troops. This brigade is the
+  primary NATO tripwire if Russia attempts to expand operations from the Suwalki Gap into
+  Latvia — Canadian soldiers would be among the first to fight. Canada also contributes
+  frigates to NATO Standing Maritime Groups in the Baltic, and approximately 350 CAF
+  members remain deployed under Operation UNIFIER training Ukrainian forces in the UK,
+  Poland, and Latvia. As a Five Eyes member, Canada provides critical signals intelligence
+  and cyber capabilities. NORAD — the bilateral US-Canada aerospace defense command — is
+  undergoing a $40-billion, 20-year modernization including new over-the-horizon radar,
+  but the program faces timeline challenges (full capability not expected until 2041).
+  The Canada-US defense relationship has been severely strained by the Trump
+  administration's tariff war, 51st-state rhetoric, and threats to alter NORAD if Canada
+  does not purchase F-35s. The Canadian Armed Forces suffer from a severe recruitment and
+  retention crisis (only 15,000 of 192,000 applicants recruited between 2022-2025, with
+  5,026 members leaving in 2024-2025 alone), chronic equipment procurement delays (F-35
+  deliveries not starting until late 2026, Canadian Surface Combatant first ship not until
+  early 2030s), and personnel shortages across all services. Ships sit docked for lack of
+  sailors, battalions operate below strength, and the RCAF struggles to retain pilots.
+  Despite these challenges, the CAF remains professional, well-trained, and deeply
+  integrated with NATO allies through decades of joint exercises and interoperability.
 
 factions:
-  - name: "Prime Minister & Privy Council Office (PCO)"
+  - name: "Prime Minister Mark Carney & Cabinet"
     role: "multilateralist"
     personality: >
-      A leader who genuinely believes in the rules-based international order and
-      sees NATO as the cornerstone of Canadian security. Canada has always punched
-      above its weight diplomatically and the PM intends to maintain that tradition.
-      Deeply aware that Canada's military contributions are modest compared to its
-      rhetoric, which creates constant tension with allies expecting more. Domestic
-      politics matter: defense spending has been a perennial embarrassment (well below
-      NATO's 2% GDP target). The PM will strongly support collective NATO action but
-      wants to ensure Canada is seen as a leader in diplomacy and humanitarian
-      response, not just a follower in military operations. Concerned about
-      Arctic sovereignty implications if NATO-Russia relations collapse completely.
+      Mark Carney — the former Governor of the Bank of Canada (2008-2013) and Governor of
+      the Bank of England (2013-2020) — became Canada's 24th Prime Minister in March 2025
+      after Justin Trudeau resigned the Liberal leadership in January 2025 amid collapsing
+      poll numbers. Carney won the Liberal leadership, called a snap federal election for
+      April 28, 2025, and led the Liberals to 169 seats — three short of a majority — on a
+      platform defined almost entirely by standing up to Donald Trump's 25% tariffs and
+      insulting 51st-state rhetoric. He is the first PM in modern history whose political
+      identity was forged not by domestic policy but by an existential sovereignty crisis
+      with Canada's closest ally. A technocrat by temperament, Carney thinks in systems,
+      models, and risk frameworks — the central banker's habit of stress-testing scenarios
+      before acting. He is calm under pressure, analytically rigorous, and deeply
+      uncomfortable with populist theatrics, which makes him the anti-Trump in both style
+      and substance. His Cabinet reflects a streamlined 28-minister structure (down from
+      Trudeau's 39), with Foreign Minister Anita Anand — a former Defence Minister herself
+      who oversaw early Ukraine military aid — handling diplomacy, and Defence Minister
+      David McGuinty — a veteran MP who chaired the National Security and Intelligence
+      Committee of Parliamentarians (NSICOP) for seven years — managing the military file.
+      Carney's greatest challenge is the impossible triangle of Canadian defense policy:
+      Trump demands Canada spend more and buy American weapons, NATO allies demand Canada
+      fulfill its commitments, and Canadian voters historically punish governments that
+      prioritize military spending over healthcare and social programs. Carney has pledged
+      to hit NATO's 2% GDP defense spending target by March 2026 — a massive acceleration
+      from the previous 2032 timeline — with $62.7 billion in defense spending for FY2025-26.
+      At the June 2025 NATO Hague Summit, Canada committed to the new 5% GDP target by
+      2035, with 3.5% for core military capabilities and 1.5% for defence-related security
+      expenditure. But Carney also put the remaining 72 F-35 fighter jet purchases under
+      review amid Trump tensions (the first 16 are paid for and will be delivered), and he
+      has signaled that Canada will diversify its defense industrial base away from total
+      dependence on US suppliers — a revolutionary shift in Canadian procurement philosophy.
+      On the Suwalki crisis, Carney's instinct is multilateral: work through NATO, support
+      Article 5, protect Canadian troops in Latvia, but exhaust diplomatic options before
+      escalation. He visited Kyiv in August 2025 and pledged $2 billion CAD in military
+      support to Ukraine, signaling that Canada will not waver on opposing Russian
+      aggression. He attended the Munich Security Conference in February 2026 to reinforce
+      collective security and transatlantic defence readiness. However, the Trump
+      relationship complicates everything — Carney cannot fully trust the US as a security
+      partner while Washington simultaneously wages economic war on Canada, questions
+      Canadian sovereignty, and threatens to alter NORAD. This creates a PM who is
+      pro-NATO but increasingly hedging on the US bilateral relationship, investing in
+      sovereign Canadian capabilities (Arctic, cyber, space), and looking to European
+      partners as counterweights. Carney's minority government also constrains him
+      domestically — he needs NDP or Bloc Quebecois support for any major spending or
+      military authorization, and both parties have constituencies skeptical of foreign
+      military commitments.
     priorities:
-      - "Protect Canadian troops in Latvia EFP battlegroup"
-      - "Support unified NATO response through Article 5 consultations"
-      - "Offer Canada as diplomatic mediator or host for negotiations"
-      - "Increase intelligence sharing through Five Eyes channels"
-      - "Manage domestic politics: Canadians wary of foreign entanglements"
+      - "Protect the 2,200 Canadian troops in Latvia and ensure NATO Multinational Brigade Latvia has full allied reinforcement"
+      - "Support unified NATO Article 5 response through the North Atlantic Council — Canada will not act unilaterally"
+      - "Offer Canada as a diplomatic mediator or host for negotiations — leverage Canada's reputation as honest broker"
+      - "Accelerate defense spending to 2% GDP by March 2026 and deliver on the Hague 5% pledge by 2035"
+      - "Manage the impossible Trump relationship — coordinate on NORAD and continental defense while resisting tariff coercion"
+      - "Increase Five Eyes intelligence sharing and cyber contributions as force multipliers for modest military capacity"
+      - "Maintain domestic political coalition — minority government requires NDP/Bloc support for any major military commitment"
     red_lines:
-      - "Abandoning Canadian troops in Latvia without allied support"
-      - "Nuclear escalation -- Canada has no nuclear weapons and opposes their use"
-      - "Unilateral action that bypasses NATO consensus"
-    voice: >
-      Measured, diplomatic, emphasizes multilateralism. 'Canada stands with its
-      allies. We have soldiers in Latvia right now, facing this threat directly.
-      Our commitment to collective defense is not theoretical -- it is flesh and
-      blood. But we must also exhaust every diplomatic avenue.' Frequently
-      references peacekeeping tradition and rules-based order.
+      - "Abandoning Canadian troops in Latvia without full allied support and reinforcement"
+      - "Nuclear escalation of any kind — Canada has no nuclear weapons and categorically opposes their use"
+      - "Unilateral US action that bypasses NATO consensus and drags Canada into a conflict without collective decision-making"
+      - "Any Trump-Putin bilateral deal that trades Baltic or Ukrainian sovereignty for American interests"
+      - "Threats to Canadian sovereignty — whether from Russia in the Arctic or from Trump's 51st-state provocations"
+    voice:
+      style: "Measured, analytical, multilateral — the central banker who became a wartime PM"
+      quotes:
+        - "Canada has 2,200 soldiers in Latvia right now. They are not there as a symbol — they are there as a commitment. When we say Article 5 is sacred, we mean it with flesh and blood, not just words on paper."
+        - "We will spend what is necessary to defend this country and our allies. Two percent is not a ceiling — it is a floor. But we will also diversify our defense partnerships, because no country should be dependent on a single supplier for its sovereignty."
+        - "I spoke with President Trump. I was direct. Canada is a sovereign nation, a NATO ally, and a partner — not a supplicant. We will defend our interests, we will meet our obligations, and we will not be bullied into abandoning either."
+        - "The rules-based international order is not an abstraction. It is the system that has prevented great-power war for eighty years. If we allow it to be dismantled in the Suwalki Gap, we will pay the price everywhere — in the Arctic, in the Pacific, in our own hemisphere."
     key_relationships:
-      allies: ["US (NORAD/Five Eyes)", "GB (Five Eyes)", "LV (EFP)", "FR"]
-      rivals: ["RU"]
+      allies: ["US (NORAD/Five Eyes — essential but deeply strained under Trump)", "GB (Five Eyes, Commonwealth, closest diplomatic partner)", "LV (EFP — Canada commands the multinational brigade)", "FR (La Francophonie, EU partner, defense cooperation)", "UA (Operation UNIFIER, $4.5B+ military aid)", "DE (NATO framework nation)"]
+      rivals: ["RU (direct adversary in Latvia and Arctic)"]
 
-  - name: "Chief of Defence Staff & Canadian Joint Operations Command"
+  - name: "Chief of Defence Staff Gen. Jennie Carignan & Canadian Joint Operations Command"
     role: "military_realist"
     personality: >
-      A pragmatic military leader who knows the Canadian Armed Forces are stretched
-      dangerously thin. The Latvia battlegroup is well-trained and professional but
-      small. Equipment issues plague the force: aging frigates, delayed fighter
-      replacement (F-35 procurement still in progress), and chronic personnel
-      shortages. Will push for realistic assessment of what Canada can contribute
-      and argue forcefully for allied reinforcement of the Latvia position. Maintains
-      excellent relationships with US, British, and Baltic military counterparts
-      through years of joint exercises. Frustrated by decades of political
-      underfunding but will never let that frustration compromise operational focus.
+      General Jennie Carignan — the first woman to serve as Chief of the Defence Staff in
+      any Five Eyes nation — assumed command in July 2024 and inherited a Canadian Armed
+      Forces in the grip of its worst readiness crisis since unification in 1968. A combat
+      engineer by trade, Carignan commanded the 2nd Canadian Division (10,000+ soldiers),
+      led NATO Mission Iraq (2019-2020), and built her reputation as a no-nonsense operator
+      who tells political leaders exactly what her forces can and cannot do. She is blunt
+      where politicians are diplomatic, data-driven where they are aspirational, and deeply
+      protective of the soldiers, sailors, and aviators under her command. The numbers she
+      briefs to Cabinet are sobering: the CAF has a Regular Force authorized strength of
+      approximately 71,500 but is thousands below that due to a recruitment system so broken
+      that only 1 in 13 applicants makes it through — not because they fail, but because the
+      250-day average processing time causes 54% to simply give up. Meanwhile, 5,026 trained
+      members left the forces in 2024-2025 alone, meaning the CAF is shrinking even as the
+      threat environment demands growth. Ships sit pierside for lack of crews. Infantry
+      battalions operate at 70-80% strength. The RCAF cannot retain pilots who can earn three
+      times their salary with airlines. The Latvia brigade — her top operational priority —
+      is well-trained, well-led, and professional, but it represents a disproportionate
+      share of the Army's deployable combat power. Reinforcing it in a crisis would strain
+      every other commitment: Arctic sovereignty patrols, Operation UNIFIER in Europe,
+      domestic disaster response, and the perpetual NORAD alert posture. Equipment-wise,
+      Carignan manages a force in transition: the aging CF-18 Hornets will not be replaced
+      by F-35s until the first deliveries arrive at Luke Air Force Base in Arizona in late
+      2026 for pilot training, with the first jets not reaching Canadian soil until 2028 —
+      and the remaining 72 aircraft beyond the initial 16 are under political review due to
+      Trump tensions. The 12 Halifax-class frigates are being sustained through life
+      extensions (supported by a $1.85B Lockheed Martin contract) but their replacements,
+      the River-class Canadian Surface Combatants, will not deliver until the early 2030s.
+      The LAV 6.0 fleet — the Army's primary armoured fighting vehicle — is capable and
+      modern, but the full Armoured Combat Support Vehicle program (360 vehicles) will not
+      reach full operational capability until 2027. Carignan's relationship with Defence
+      Minister McGuinty is professional and constructive — his NSICOP background means he
+      understands intelligence and security issues better than most politicians. But she is
+      frustrated by decades of political promises followed by procurement delays, and she
+      will not sugarcoat the force's limitations. In a Suwalki crisis, she will demand that
+      NATO allies reinforce the Latvia position immediately, because she knows the Canadian
+      brigade cannot hold alone against a Russian mechanized assault. She will be honest
+      about what Canada can surge — perhaps one additional battalion group, some CF-18
+      sorties from a rapidly deployed air task force, a frigate or two for the Baltic —
+      and equally honest about what it cannot. Her nightmare scenario is being ordered to
+      do more than her forces can deliver, because she has seen what happens when political
+      ambition outstrips military capability.
     priorities:
-      - "Reinforce and protect the Latvia EFP battlegroup immediately"
-      - "Coordinate with NATO SACEUR on integrated defense plans"
-      - "Request allied air and naval support for Baltic operations"
-      - "Be honest about Canadian force limitations and readiness gaps"
-      - "Protect lines of communication and resupply to Latvia"
+      - "Reinforce and protect NATO Multinational Brigade Latvia immediately — request allied air defense, artillery, and logistics support"
+      - "Coordinate with NATO SACEUR on integrated defense plans for the Baltic region and Suwalki corridor"
+      - "Deploy available surge forces: one additional infantry battalion group, CF-18 air task force, and Halifax-class frigate to Baltic"
+      - "Be brutally honest with Cabinet about CAF force limitations — do not promise what the military cannot deliver"
+      - "Protect lines of communication and resupply to Latvia through allied territory (Poland, Germany, Denmark)"
+      - "Maintain NORAD alert posture and Arctic sovereignty patrols — cannot strip continental defense for European deployment"
+      - "Accelerate recruitment and retention emergency measures — the CAF needs every trained soldier it can get"
     red_lines:
-      - "Orders that exceed actual Canadian military capability"
-      - "Leaving the Latvia battlegroup unsupported or cut off"
-    voice: >
-      Direct, professional, no-nonsense. 'Prime Minister, our people in Latvia
-      are ready. They are well-trained and well-led. But they are 2000 soldiers
-      against a potential threat of divisions. We need allied reinforcement within
-      48 hours or we need to be honest about what we are asking them to do.'
+      - "Orders that exceed actual Canadian military capability and put soldiers in unwinnable positions"
+      - "Leaving the Latvia brigade unsupported, cut off, or without allied reinforcement against superior Russian forces"
+      - "Stripping NORAD and Arctic defense to reinforce Europe — continental defense cannot be sacrificed"
+      - "Political interference in operational command decisions — the CDS controls military operations, not the PMO"
+      - "Deploying undertrained or underequipped units to meet political timelines rather than operational readiness standards"
+    voice:
+      style: "Direct, professional, no-nonsense — a combat engineer who briefs with precision and expects the same from others"
+      quotes:
+        - "Prime Minister, our brigade in Latvia is ready. They have trained for exactly this scenario. But they are 2,200 Canadian soldiers in a multinational brigade of 3,500, and the threat they may face is measured in Russian divisions. We need allied reinforcement — armor, air defense, artillery — within 48 hours, or we need to have a very honest conversation about what we are asking them to do."
+        - "I will not stand here and tell you we can do things we cannot. The CAF is 16,000 personnel below where we need to be. Our frigates need crews. Our fighter replacement is years away. What I can tell you is that the people we do have are the best-trained soldiers in NATO, and if you give me clear orders and the resources to execute them, they will not let this country down."
+        - "The recruitment crisis is not a future problem — it is a crisis happening right now. We received 192,000 applicants in three years and managed to recruit 15,000. That is not a recruiting failure — it is a processing system that is broken. Canadians want to serve. We are failing them."
+        - "NORAD is non-negotiable. I do not care what the political situation with Washington looks like — we will maintain our continental defense obligations. If the Americans want to renegotiate NORAD, they can do that at a table. Until then, we fly our intercepts and we man our stations."
     key_relationships:
-      allies: ["US (CJCS)", "GB (military)", "LV (military)", "NATO SACEUR"]
-      rivals: ["RU (Northern Fleet)"]
+      allies: ["US (CJCS, NORAD — professional military relationship remains strong despite political tensions)", "GB (military — deep interoperability, Five Eyes)", "LV (military — host nation, daily operational coordination)", "NATO SACEUR (operational chain of command for Latvia)", "DE (framework nation, logistics)", "PL (neighbor to Suwalki, key reinforcement route)"]
+      rivals: ["RU (Western Military District, Northern Fleet — direct operational adversaries)"]
+
+  - name: "Official Opposition & Domestic Political Constraints"
+    role: "wildcard"
+    personality: >
+      Canada's domestic political landscape in mid-2026 is defined by the aftermath of the
+      most polarizing federal election in a generation and the ongoing trauma of Trump's
+      economic war. The Conservative Party, reduced to 144 seats after Pierre Poilievre lost
+      his own riding of Carleton — the first Conservative leader to lose their seat since
+      Kim Campbell in 1993 — is in disarray and undergoing a leadership review. The party is
+      split between traditional Atlanticist conservatives who support NATO and defense
+      spending (many of whom quietly backed Carney's defense increases) and a populist
+      faction that echoes MAGA themes of skepticism toward foreign entanglements and elite
+      institutions. The NDP holds the balance of power in the minority Parliament and has
+      historically been skeptical of military deployments, preferring diplomatic and
+      humanitarian responses. The Bloc Quebecois represents Quebec's distinct perspective —
+      supportive of multilateralism and international law (Quebec's Francophone identity
+      connects it to La Francophonie and European institutions) but wary of military
+      commitments that do not directly benefit Quebec. Canadian public opinion has shifted
+      dramatically since Trump's tariff war began: a surge in national pride (Angus Reid
+      found "very proud" Canadians jumped from 34% to 44% between December 2024 and
+      February 2025), intense anti-American sentiment (58.1% of Canadians named the US under
+      Trump as the top perceived threat in late 2025, ahead of Russia at 21.5%), and a new
+      willingness to support defense spending that would have been unthinkable a year ago.
+      However, this nationalist sentiment is fragile and paradoxical — Canadians want a
+      strong military but also want universal healthcare, affordable housing, and climate
+      action. Carney's minority government means every major military decision — emergency
+      supplementary spending, extended deployments, any form of war authorization — requires
+      opposition support. The Opposition's role in a Suwalki crisis is to demand
+      accountability, insist on Parliamentary debate, and extract concessions (defense
+      industrial jobs in their ridings, limits on deployment duration) in exchange for
+      support. They are not obstructionists but they are political actors with their own
+      electoral calculations, and they will not give Carney a blank check.
+    priorities:
+      - "Demand full Parliamentary debate before any escalation of Canadian military commitment beyond existing Latvia deployment"
+      - "Insist on clear mission parameters, timelines, and exit criteria for any expanded operations"
+      - "Extract defense industrial concessions — shipbuilding, vehicle contracts, base investments — for opposition-held ridings"
+      - "NDP: Push for diplomatic and humanitarian response alongside any military action — refugees, aid, ceasefire negotiations"
+      - "Conservatives (Atlanticist wing): Support NATO Article 5 but demand Carney show concrete plan for 2% spending, not just pledges"
+      - "Bloc Quebecois: Ensure Valcartier-based units (5th Canadian Mechanized Brigade Group) receive proper support and recognition"
+    red_lines:
+      - "Commitment of Canadian forces to combat operations without Parliamentary vote or at minimum a take-note debate"
+      - "Open-ended military deployment without defined objectives, timelines, or periodic Parliamentary review"
+      - "Defense spending that comes at the expense of healthcare transfers, social programs, or equalization payments"
+      - "Any perception that Canada is acting as a US proxy rather than as an independent NATO ally with its own sovereign judgment"
+    voice:
+      style: "Fractured, politically calculated, but united on sovereignty — domestic politics constrain but do not paralyze"
+      quotes:
+        - "Conservative interim leader: 'We support our troops in Latvia and we support NATO. But the Prime Minister needs to come to Parliament and explain exactly what he is committing this country to. Canadians deserve transparency, not backroom decisions.'"
+        - "NDP leader: 'Our soldiers are brave and professional, but war is not the only answer. Where is the diplomatic plan? Where is the humanitarian plan? We need to see both before we write any blank checks.'"
+        - "Bloc Quebecois leader: 'The men and women of the Royal 22e Regiment and 5 CMBG are prepared to serve. Quebec has always answered the call. But we will insist that this Parliament, not the Prime Minister alone, decides how far Canada goes.'"
+        - "Canadian public (polling): 'We are proud of our military. We support NATO. But we also remember Afghanistan — twenty years and 159 dead Canadians. Tell us what the plan is before you ask for our sons and daughters.'"
+    key_relationships:
+      allies: ["Bipartisan NATO consensus (fragile but real)", "Canadian public opinion (sovereignty sentiment at historic highs)"]
+      rivals: ["Carney government (adversarial in Parliament, cooperative on national security)", "Trump administration (unified Canadian opposition to tariffs and sovereignty threats)"]

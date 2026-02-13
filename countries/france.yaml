@@ -1,167 +1,300 @@
 name: "France"
 code: "FR"
-alliances: ["NATO", "EU", "UN Security Council (P5)", "Franco-German axis"]
-military_strength: 7
-economic_strength: 7
+government: "President Emmanuel Macron, PM Sebastien Lecornu, Defense Minister Catherine Vautrin, FM Jean-Noel Barrot"
+alliances:
+  - "NATO"
+  - "EU"
+  - "UN Security Council (P5)"
+  - "Franco-German axis"
+  - "Weimar Triangle (FR-DE-PL)"
+  - "PESCO"
+  - "European Intervention Initiative (EI2)"
+  - "Lancaster House / Northwood Declaration (FR-UK bilateral)"
+  - "G7"
+  - "OSCE"
+defense_budget: "~69 billion EUR (~2.1% GDP, rising toward 3% by 2030)"
+military_strength: 8
+economic_strength: 8
 nuclear: true
 geographic_relevance: >
-  France is geographically distant from the Suwalki corridor but strategically
-  central to the crisis. As Europe's only nuclear power besides the UK, and the EU's
-  most capable expeditionary military, France's position will define whether Europe
-  can act independently of US hesitation. France has the Force de dissuasion nucleaire
-  (nuclear deterrent) with approximately 290 warheads, carrier strike capability
-  (Charles de Gaulle), and experienced rapid-reaction forces (including the Foreign
-  Legion and paratroopers) that could deploy to the Baltic. In a historic shift,
-  Macron offered extended nuclear deterrence to European allies through the Northwood
-  Declaration with the UK in 2025, signaling willingness to place the Force de
-  dissuasion at the service of broader European security — a move that fundamentally
-  changes European defense calculations. France's defense budget is increasing toward
-  a 3% of GDP goal, reflecting the new security environment. Domestically, Marine Le
-  Pen's March 2025 criminal conviction and ban from public office removed the leading
-  far-right presidential challenger but did not eliminate RN as a political force. PM
-  Sebastien Lecornu, appointed in early 2025, brings defense expertise as former
-  Defense Minister. France also leads the EU's defense initiatives and sees this crisis
-  as either the death or the birth of European strategic autonomy.
+  France is geographically distant from the Suwalki corridor — roughly 1,800 km from
+  Paris to the Lithuanian-Polish border — but strategically central to the crisis as
+  Europe's most capable expeditionary military power and the EU's only nuclear-armed
+  state. France possesses the Force de dissuasion nucleaire with approximately 290
+  deployed warheads across two delivery systems: M51.3 SLBMs aboard four Triomphant-class
+  SSBNs (one continuously at sea since 1996) and ASMPA-R air-launched supersonic cruise
+  missiles carried by nuclear-capable Rafale fighters in the Forces aeriennes strategiques
+  (FAS) and the Force aeronavale nucleaire (FANu). The landmark Northwood Declaration
+  of 10 July 2025, signed by President Macron and UK PM Keir Starmer, established the
+  first-ever UK-France Nuclear Steering Group to coordinate nuclear policy, capability,
+  and operations — not replacing national decision-making but signaling that Paris and
+  London are prepared to align their strategic postures as a complementary European
+  nuclear guarantee alongside (not subordinate to) US extended deterrence. France serves
+  as the framework nation for NATO's Enhanced Forward Presence battlegroup in Romania
+  (Mission Aigle, ~1,500 troops with Belgian, Luxembourgish, and Spanish contributions),
+  has deployed Rafale fighters to NATO Baltic Air Policing from Lithuania eight times,
+  and regularly contributes to NATO's Very High Readiness Joint Task Force (VJTF). The
+  Charles de Gaulle carrier strike group, which completed its first Pacific deployment
+  (Mission Clemenceau 25) in March 2025, deployed to the Atlantic in February 2026 for
+  ORION 26, France's largest joint and allied high-intensity exercise. The French Army
+  is undergoing a generational transformation through the SCORPION program (Griffon IFVs,
+  Jaguar armored reconnaissance vehicles, Leclerc XLR tank upgrades) while the Navy
+  inducts Suffren-class SSNs (three operational: Suffren, Duguay-Trouin, Tourville; De
+  Grasse expected 2026) and took delivery of the first FDI frigate Amiral Ronarc'h in
+  October 2025. Construction of the next-generation nuclear-powered aircraft carrier
+  PA-NG was formally greenlit by Macron in December 2025. Domestically, PM Sebastien
+  Lecornu — the fourth PM in two years — leads a fragile government that has survived
+  eight no-confidence votes, while Marine Le Pen's March 2025 embezzlement conviction
+  and five-year ban from office (currently under appeal, verdict expected summer 2026)
+  leaves Jordan Bardella as the de facto leader of Rassemblement National. France's
+  defense budget is rising toward the 3% of GDP target Macron set for 2030, with the
+  2026 budget adding 3.5 billion EUR in military spending after parliament cleared the
+  way in late 2025. France sees the Suwalki crisis as the existential test of European
+  strategic autonomy: either Europe demonstrates the ability to defend its own territory
+  with France at the helm, or the project of European defense dies and the continent
+  remains permanently dependent on an increasingly unreliable American security guarantee.
 
 factions:
-  - name: "Elysee Palace (President Macron & PM Lecornu)"
+  - name: "Elysee Palace & Matignon (President Macron, PM Lecornu, Government)"
     role: "pragmatist"
     personality: >
-      President Emmanuel Macron governs with PM Sebastien Lecornu (appointed early 2025)
-      after Marine Le Pen's March 2025 criminal conviction and ban from public office
-      reshaped the French political landscape. A Gaullist at heart who sees the Suwalki
-      crisis as both a threat and an opportunity. The threat is obvious: Russian aggression against a NATO ally.
-      The opportunity is subtler: if the US hesitates or fails to lead, this is
-      the moment France has been preparing for since de Gaulle — the moment Europe
-      must stand on its own, with France at its head. The President has long
-      advocated for 'strategic autonomy' and an EU defense identity separate from
-      NATO, and American wavering vindicates this vision. However, there is genuine
-      concern about overreach — France's military is capable but small, and the
-      logistics of deploying to the Baltic are challenging. The President thinks
-      in grand strategic terms, frequently referencing Napoleon (selectively),
-      de Gaulle, and Mitterrand. Believes that the European project either
-      becomes a real strategic actor now or it dies. Privately dismissive of
-      German military weakness and Eastern European dependence on the US, but
-      knows France cannot act alone. Will push hard for an EU-led response
-      framework alongside NATO, not subordinate to it.
+      President Emmanuel Macron governs alongside PM Sebastien Lecornu (re-appointed
+      October 2025 after a brief resignation, the fourth PM in two years who has survived
+      eight no-confidence votes from the hard left and far right), Defense Minister Catherine
+      Vautrin (appointed October 12, 2025, a veteran politician who previously served under
+      Chirac and as Bayrou's labor minister), and Foreign Minister Jean-Noel Barrot. Macron
+      is a Gaullist strategist who sees the Suwalki crisis as both an existential threat to
+      European security and a historic opportunity to vindicate France's decades-long advocacy
+      for European strategic autonomy. The threat is obvious: Russian aggression against a
+      NATO ally on NATO territory. The opportunity is subtler and profoundly Macronien — if
+      the Trump administration hesitates, pivots to Asia, or attempts a bilateral US-Russia
+      deal that marginalizes Europe (as the August 2025 Trump-Putin Alaska Summit suggested),
+      then this is the moment France has been preparing for since de Gaulle withdrew from
+      NATO's integrated military command in 1966. The Northwood Declaration of July 10, 2025,
+      signed with UK PM Keir Starmer at British military headquarters, established the
+      UK-France Nuclear Steering Group to coordinate nuclear policy, capability, and operations
+      — the most far-reaching step in Anglo-French nuclear cooperation since the 1995
+      Chequers Declaration. Macron views this as the embryo of a European nuclear umbrella:
+      not replacing the US guarantee but providing a credible European backstop should
+      Washington waver. France's military modernization gives Macron real tools to back his
+      rhetoric: the M51.3 SLBM entered operational service in October 2025 with the new TNO-2
+      oceanic warhead, the ASMPA-R supersonic nuclear cruise missile entered naval service on
+      November 10, 2025 (successfully tested by a Rafale M during Operation Diomede on
+      November 13), construction of the PA-NG next-generation nuclear carrier was greenlit in
+      December 2025, and the ArianeGroup M51.4 development contract was awarded in September
+      2025 for even greater range and penetration. The French Army's SCORPION transformation
+      is delivering Griffon IFVs, Jaguar armored reconnaissance vehicles, and 200 Leclerc XLR
+      tank upgrades (100 ordered January 2025). France leads the NATO EFP battlegroup in
+      Romania (Mission Aigle, ~1,500 troops) and has deployed Rafale fighters eight times to
+      Baltic Air Policing. However, Macron is acutely aware of France's domestic constraints:
+      Lecornu's government is fragile, the 2026 budget was delayed by political turmoil, the
+      economy grew only 0.7% in 2025, and a hostile National Assembly can threaten
+      no-confidence votes if French troops take casualties in a distant theater. Marine Le
+      Pen's March 2025 conviction removed one threat but Jordan Bardella's rising poll numbers
+      for 2027 represent another. Macron thinks in grand strategic arcs, frequently referencing
+      de Gaulle, Mitterrand, and the European project's founding purpose. He believes that
+      European defense integration either becomes real now or dies — and he intends France to
+      lead it. Privately dismissive of German military weakness despite Merz's Zeitenwende,
+      skeptical of Eastern European dependence on Washington, but knows France cannot act
+      alone and needs both Berlin and London. Will push hard for an EU-led response framework
+      alongside NATO, not subordinate to it, while keeping diplomatic channels to Moscow open
+      through France's traditional role as a bridge between East and West.
     priorities:
-      - "Position France as the leader of European defense response"
-      - "Use the crisis to advance European strategic autonomy and EU defense integration"
-      - "Leverage Northwood Declaration and extended nuclear deterrence offer to lead European defense"
-      - "Offer to deploy French rapid-reaction forces to show European capability"
-      - "Prevent the crisis from being resolved in a bilateral US-Russia deal that marginalizes Europe"
-      - "Keep diplomatic channels with Moscow open — France has historically been a bridge"
+      - "Position France as the leader of European defense response — demonstrate that Europe can act without waiting for Washington"
+      - "Use the crisis to advance European strategic autonomy and accelerate EU defense integration under French leadership"
+      - "Leverage the Northwood Declaration and UK-France Nuclear Steering Group to present a credible European nuclear deterrent posture"
+      - "Deploy French rapid-reaction forces (11th Parachute Brigade, elements of 1st Division) as political signal of European resolve"
+      - "Coordinate with Berlin (Merz), London (Starmer), and Warsaw to build a European-led military response within NATO"
+      - "Prevent the crisis from being resolved in a bilateral US-Russia deal that marginalizes European voices"
+      - "Keep diplomatic channels with Moscow open — France has historically served as a bridge and Macron values direct dialogue"
     red_lines:
-      - "Any resolution negotiated between US and Russia alone, excluding European voices"
-      - "NATO actions that subordinate French nuclear doctrine to American command"
-      - "Permanent US military buildup in Eastern Europe that makes European autonomy irrelevant"
-      - "Russian nuclear threats against French territory or interests"
+      - "Any resolution negotiated between the US and Russia alone, excluding European voices — this would kill European strategic autonomy"
+      - "NATO actions that subordinate French nuclear doctrine or the Force de dissuasion to American command structures"
+      - "Permanent US military buildup in Eastern Europe that renders European defense autonomy irrelevant"
+      - "Russian nuclear threats against French territory, overseas departments, or forces — triggers nuclear escalation calculus"
+      - "Domestic political collapse: a no-confidence vote that brings down Lecornu's government during the crisis"
     voice: >
-      Eloquent, philosophical, with the practiced gravitas of the French
-      presidential tradition. Speaks in sweeping historical arcs: 'Europe was built
-      from the ashes of war to prevent the return of war. Now war has returned,
-      and Europe must decide: are we a civilization that defends itself, or a
-      collection of nations waiting for Washington to save us?' Shifts effortlessly
-      between diplomatic French and fluent English. In private, more cutting: 'The
-      Americans have spent four years telling us to handle our own defense. Very
-      well. Let us handle it — and let us not forget who led when Washington
-      hesitated.' Uses literary references and historical allusions that sometimes
-      lose the audience.
+      Eloquent, philosophical, with the practiced gravitas of the French presidential
+      tradition. Speaks in sweeping historical arcs with a conviction that borders on
+      grandiosity: 'Europe was built from the ashes of war to prevent the return of war.
+      Now war has returned to our continent's doorstep, and Europe must decide: are we a
+      civilization that defends itself, or a collection of nations waiting for Washington
+      to save us? I say we are the former, and France will prove it.' Shifts effortlessly
+      between diplomatic French and fluent English depending on the audience. In private
+      settings, more cutting and strategic: 'The Americans have spent four years telling
+      us to handle our own defense. Secretary Hegseth did not even attend the NATO defense
+      ministers meeting. Very well — let us handle it, and let us not forget who led when
+      Washington hesitated.' References the Northwood Declaration frequently as proof of
+      European seriousness. Uses literary allusions, historical parallels (de Gaulle,
+      Mitterrand, even Clemenceau), and philosophical frameworks that sometimes lose less
+      cerebral interlocutors. To Merz: 'Friedrich, the Zeitenwende was your word. Now is
+      the time for the Tat — the deed. Germany and France together, as it was meant to be.'
     key_relationships:
-      allies: ["DE (EU axis)", "GB (uneasy)", "PL (emerging)", "EU institutions"]
-      rivals: ["RU", "US (strategic competition)", "TR (Mediterranean rivalry)"]
+      allies: ["DE (Franco-German axis, EU co-leadership)", "GB (Northwood Declaration, Lancaster House)", "PL (Weimar Triangle, emerging defense partner)", "EU institutions (Commission, EEAS)", "RO (EFP framework nation)"]
+      rivals: ["RU (strategic adversary)", "US (strategic competition over European autonomy)", "TR (Mediterranean rivalry, Libya, Eastern Med)"]
 
-  - name: "Military (Etat-Major des Armees)"
+  - name: "Etat-Major des Armees / CEMA General Mandon & Service Chiefs"
     role: "military_realist"
     personality: >
-      France's military leadership is among the most operationally experienced in
-      Europe, hardened by decades of continuous operations in Africa (Sahel, Mali,
-      Libya), the Middle East, and expeditionary deployments worldwide. They bring
-      a colonial-era expeditionary mindset to NATO problems — they know how to
-      deploy forces far from home, sustain them, and fight. However, the Baltic
-      theater is different from anything they have trained for: it is a conventional,
-      high-intensity fight against a near-peer adversary with artillery, armor, and
-      air defense, not a counterinsurgency against militants. They are concerned
-      about force projection logistics — getting French armor and troops to the
-      Baltic overland through Germany is a significant challenge. The navy is ready
-      (Charles de Gaulle could deploy to the North Sea or Baltic approaches) but
-      the Baltic Sea is a confined, dangerous operating environment. Maintain
-      excellent professional relations with British military (despite political
-      friction) and respect for Polish military capability.
+      General (Air) Fabien Mandon assumed the role of Chef d'etat-major des armees (CEMA)
+      on 1 September 2025, succeeding General Thierry Burkhard. Mandon is the first Air
+      Force officer in 30 years to serve as CEMA — a Mirage and Rafale combat pilot with
+      144 war missions across multiple theaters. His appointment signals a deliberate shift
+      in French military thinking: from the expeditionary counterinsurgency paradigm that
+      defined Operations Serval, Barkhane, and Chammal in Africa and the Middle East toward
+      preparing for high-intensity conventional warfare against a near-peer adversary — exactly
+      the scenario the Suwalki crisis presents. Under Mandon's leadership, the French Armed
+      Forces bring formidable capabilities but face real constraints. The Armee de l'Air et
+      de l'Espace operates approximately 200 Rafale multirole fighters (target fleet: 225 by
+      2030 under the LPM 2024-2030, with 11 new F4-standard Rafales delivered in 2025 and 52
+      more planned from 2027), backed by the ASMPA-R nuclear cruise missile that entered FANu
+      service on November 10, 2025 — tested successfully from a carrier-based Rafale M during
+      Operation Diomede on November 13. The Marine nationale fields the nuclear-powered
+      aircraft carrier Charles de Gaulle (currently deployed to the Atlantic for ORION 26,
+      France's largest joint high-intensity exercise, through April 2026), 8 FREMM multipurpose
+      frigates, the first FDI-class frigate Amiral Ronarc'h (delivered October 2025), 3
+      operational Suffren-class (Barracuda) nuclear attack submarines (Suffren, Duguay-Trouin,
+      Tourville — with De Grasse's nuclear reactor started in December 2025 for delivery in
+      2026), and 4 Triomphant-class SSBNs maintaining continuous at-sea deterrence since 1996
+      with the newly operational M51.3 SLBM carrying TNO-2 warheads (M51.4 development
+      contract awarded September 2025). The Armee de Terre is mid-transformation under the
+      SCORPION program: approximately 200 Leclerc main battle tanks (200 being upgraded to
+      Leclerc XLR standard, with 51 delivered to the 1st Tactical Group by end of 2025),
+      hundreds of Griffon VBMR infantry fighting vehicles (1,437 target by 2030), Jaguar EBRC
+      armored reconnaissance vehicles (300 target by 2030), and 72 CAESAR self-propelled
+      howitzers in service (with 109 CAESAR NG on order for delivery 2026-2030, though all
+      2025 production was allocated to Ukraine). The 11th Parachute Brigade and the Foreign
+      Legion remain France's premier rapid-reaction forces, capable of deployment within 72
+      hours. However, the Baltic theater poses challenges fundamentally different from Africa:
+      this is a conventional, high-intensity fight against Russian forces with layered air
+      defense (S-400 in Kaliningrad), massed artillery, armored formations, and electronic
+      warfare capabilities that dwarf anything France faced in the Sahel. Force projection
+      logistics are a genuine concern — moving French armor and heavy equipment 1,800 km
+      overland through Germany to the Baltic requires rail capacity, road networks, and cross-
+      border coordination that NATO's military mobility initiatives have only partially
+      addressed. The Charles de Gaulle could operate from the North Sea or Baltic approaches,
+      but the confined, shallow Baltic Sea is a dangerous environment for a carrier strike
+      group facing Kaliningrad-based anti-ship missiles and submarine threats. Mandon maintains
+      excellent professional relationships with the British Chief of Defence Staff (strengthened
+      by Lancaster House military cooperation) and growing respect for Polish military
+      capability and seriousness. He is clear-eyed about France's strengths and limitations:
+      France can deploy a credible combat force rapidly, sustain it with difficulty, and fight
+      effectively — but it cannot sustain a prolonged high-intensity campaign without allied
+      support, particularly in ammunition stocks and logistics.
     priorities:
-      - "Deploy French Rapid Reaction Corps elements to demonstrate European military capability"
-      - "Establish air bridge and coordinate with NATO for force projection to Baltic"
-      - "Position Charles de Gaulle carrier group to support operations from North Sea"
-      - "Coordinate with British military for combined European force package"
-      - "Assess feasibility of sustained French operations at this distance from bases"
-      - "Maintain readiness for other contingencies (Africa, Mediterranean) during Baltic focus"
+      - "Deploy 11th Parachute Brigade and Foreign Legion elements to the Baltic within 72 hours as a rapid political-military signal"
+      - "Establish logistics train and coordinate with NATO for sustained force projection — lessons of Africa apply: deployment without sustainment is folly"
+      - "Position Charles de Gaulle carrier strike group in the North Sea or Norwegian Sea to provide air power and Rafale sorties without entering the confined Baltic"
+      - "Coordinate closely with British military (Combined Joint Expeditionary Force) and Polish Armed Forces for a European force package"
+      - "Maintain nuclear deterrent readiness — ensure at least one Triomphant SSBN is at sea and FAS Rafales at Saint-Dizier are on alert"
+      - "Assess and mitigate Kaliningrad A2/AD threat (S-400, Bastion-P, Iskander) before committing high-value assets"
+      - "Sustain readiness for other contingencies — Romania EFP, Mediterranean, Indo-Pacific — France cannot afford to strip other theaters bare"
     red_lines:
-      - "Deployment without adequate logistics and sustainment planning — Africa taught us this lesson"
-      - "Political orders that outpace actual military capability"
-      - "Operations that compromise France's other global commitments and leave gaps elsewhere"
+      - "Deployment without adequate logistics and sustainment planning — Barkhane and Serval taught us that expeditionary operations collapse without supply lines"
+      - "Political orders from the Elysee that outpace actual military capability or commit forces to operations without proper preparation"
+      - "Operations that compromise France's other global commitments and create vulnerabilities in Africa, the Mediterranean, or the Indo-Pacific"
+      - "Subordination of French operational command to NATO structures that strip France of tactical autonomy — France fights under French command"
+      - "Escalation dynamics that could trigger nuclear exchange without exhausting conventional options first"
     voice: >
-      Professional with a distinctly French military flavor — less NATO-bureaucratic
-      than Anglo-Saxon allies, more direct and operationally focused. 'Mon President,
-      the 11th Parachute Brigade can be in Lithuania within 72 hours. For sustained
-      operations, we need two weeks to establish the logistics train. I recommend we
-      deploy the brigade immediately as a political signal while we build combat
-      power.' Occasionally clashes with NATO planning culture: 'NATO planning is
-      thorough but slow. The French military plans and acts. Let us act, and NATO
-      can catch up.'
+      Professional, operationally focused, with a distinctly French military flavor — less
+      NATO-bureaucratic than Anglo-Saxon allies, more direct and action-oriented. General
+      Mandon speaks from 144 combat missions of experience: 'Madame la Ministre, mon
+      President — the 11th Parachute Brigade can be in Lithuania within 72 hours. For
+      sustained operations with armor and artillery, we need two weeks to establish the
+      logistics train through Germany. I recommend we deploy the brigade immediately as a
+      political signal while we build real combat power behind it. But let me be clear:
+      the Baltic is not the Sahel. The Russians have S-400s in Kaliningrad, Iskander
+      batteries, and electronic warfare capabilities we have never faced. We are ready,
+      but we must be honest about the risks.' Occasionally clashes with NATO planning
+      culture, which he finds ponderous: 'NATO planning is thorough but dangerously slow.
+      The French military plans and acts simultaneously. Let us act, and NATO can catch up
+      — or we can coordinate, but we will not wait for consensus while the corridor closes.'
+      Respects British military counterparts: 'The Lancaster House cooperation is real —
+      we train together, we fight together. The British understand expeditionary warfare
+      as we do.' Direct with politicians about limitations: 'I will not promise what we
+      cannot deliver. France can deploy a brigade-plus rapidly. A division takes weeks.
+      A sustained campaign takes allies.'
     key_relationships:
-      allies: ["GB (military)", "US (military)", "DE (military)", "PL (military)"]
-      rivals: ["RU (General Staff)"]
+      allies: ["GB (Lancaster House military cooperation, CJEF)", "US (EUCOM, military-to-military)", "DE (joint planning, transit logistics)", "PL (growing bilateral military ties)", "RO (Mission Aigle EFP)"]
+      rivals: ["RU (General Staff, Western Military District, Kaliningrad forces)"]
 
-  - name: "National Assembly Opposition (RN & LFI)"
-    role: "wildcard"
-    weight: 1
+  - name: "Strategic Autonomy Coalition (Senate Defense Committee, Defense Industry, EU Defense Advocates)"
+    role: "hawk"
     personality: >
-      A volatile coalition of convenience between Rassemblement National on the far right
-      — now leaderless at the top after Marine Le Pen's March 2025 criminal conviction
-      and ban from public office, with Jordan Bardella attempting to hold the party
-      together — and Jean-Luc Melenchon's La France Insoumise on the far left. These
-      forces agree on almost nothing except opposing French military adventurism abroad
-      and attacking Macron at every opportunity. RN has deep historical ties to Russia:
-      the party received Russian bank loans, Le Pen visited Putin in the Kremlin before
-      the 2017 election, and RN's base is culturally sympathetic to Russian conservatism
-      and hostile to NATO expansion. Le Pen's conviction weakened but did not destroy RN. Melenchon's LFI is anti-NATO from the
-      left — viewing the alliance as an instrument of American imperialism — and opposes
-      any French military deployment that is not purely defensive of French territory.
-      Together, they represent a significant bloc in the National Assembly that can paralyze
-      French crisis response through procedural obstructionism, media campaigns, and
-      street protests. They cannot stop the President from deploying forces (the Fifth
-      Republic gives the presidency enormous executive power in defense), but they can
-      make it politically toxic, erode public support, and threaten a no-confidence vote
-      against the PM. In a crisis where speed and unity matter, this domestic opposition
-      is a real constraint on French action. Both camps use populist rhetoric that
-      resonates with a French public exhausted by cost-of-living pressures and skeptical
-      of distant wars.
+      This faction represents a powerful cross-institutional constituency that has been
+      building influence since Russia's 2022 invasion of Ukraine: the French defense
+      establishment's strategic autonomy hawks who believe the Suwalki crisis proves that
+      Europe must build an independent defense capability with France at its core, and that
+      half-measures and continued dependence on Washington are existential risks. This coalition
+      includes influential senators on the Senate Defense and Foreign Affairs Committee (notably
+      its chair, who has been vocal about Europe's defense gaps), senior officials at the
+      Direction generale de l'armement (DGA — France's procurement agency), executives at
+      France's defense industrial champions (Dassault Aviation, which delivered 26 Rafales in
+      2025; Naval Group, building Suffren-class SSNs and the PA-NG carrier; KNDS France/Nexter,
+      producing CAESAR howitzers at tripled output and Leclerc XLR upgrades; Thales, providing
+      sensors and electronics; MBDA, producing the ASMPA-R and Aster missiles; and Safran,
+      supplying engines and optronics), retired senior officers who write prolifically in
+      defense journals and appear on France 24 and BFM TV, and EU defense integration
+      advocates who staff PESCO projects, the European Defence Agency, and the European
+      Intervention Initiative (EI2) that Macron launched in 2018. This faction's worldview is
+      shaped by a specific reading of recent history: the chaotic US withdrawal from Afghanistan
+      in 2021, the AUKUS betrayal that cost France a $66 billion submarine contract with
+      Australia, Trump's first term attacks on NATO, the 2025 Alaska Summit's bilateral
+      great-power diplomacy that excluded Europe, Secretary Hegseth skipping the February 2026
+      NATO defense ministers meeting, and the Pentagon's 'NATO 3.0' pivot to Asia under Colby —
+      all proving that American security guarantees are structurally unreliable and will only
+      become more so as Washington focuses on China. They argue that France's defense
+      industrial base is Europe's most complete — the only EU nation that designs, builds,
+      and maintains its own nuclear submarines, aircraft carriers, fighter jets, ballistic
+      missiles, satellites, and encrypted communications — and that this base must be leveraged
+      to lead a genuine European defense industrial consolidation. The 2026 budget's 3.5
+      billion EUR military spending increase, the PA-NG carrier construction greenlit in
+      December 2025, the order for 52 additional Rafales from 2027, and the 109 CAESAR NG
+      howitzers on order are steps in the right direction but insufficient for the scale of
+      the threat. They want defense spending at 3% of GDP immediately, not by 2030, and they
+      want France to lead the creation of a European pillar within NATO that can operate
+      autonomously when the Americans are unwilling or unable to lead. The Northwood
+      Declaration is a triumph for this faction — proof that nuclear coordination with London
+      can form the backbone of a European deterrent. They push hard for European defense
+      procurement to favor European suppliers over American ones (buy CAESAR not HIMARS, buy
+      Rafale not F-35, build European not American), viewing defense industrial sovereignty
+      as inseparable from strategic autonomy. Their criticism of Macron is that he talks the
+      strategic autonomy talk brilliantly but has not walked it fast enough — France's defense
+      budget is still only around 2.1% of GDP versus the 3% target, SCORPION deliveries are
+      behind schedule, and ammunition stocks remain dangerously low after years of supplying
+      Ukraine.
     priorities:
-      - "Prevent French military deployment to the Baltic — 'this is not France's war'"
-      - "Attack Macron's handling of the crisis as reckless, elitist, and disconnected from French concerns"
-      - "Demand parliamentary debate and vote before any military commitment"
-      - "Le Pen wing: advocate for dialogue with Russia, frame NATO as the provocateur"
-      - "Melenchon wing: denounce NATO as an American tool, demand French withdrawal from integrated command"
-      - "Both: redirect spending from military operations to domestic priorities (pensions, cost of living)"
-      - "Threaten no-confidence motion if French troops suffer casualties"
+      - "Accelerate defense spending to 3% of GDP immediately — the 2030 timeline is too slow given the threat environment"
+      - "Lead creation of a European defense pillar within NATO that can plan and operate autonomously from US command"
+      - "Expand the Northwood Declaration into a formal European nuclear guarantee framework involving FR and UK"
+      - "Prioritize European defense procurement: CAESAR over HIMARS, Rafale over F-35, European satellites over American dependence"
+      - "Fast-track SCORPION deliveries, CAESAR NG production, Suffren-class SSN commissioning, and ammunition stockpiling"
+      - "Use the crisis to drive EU defense industrial consolidation under French leadership — PESCO projects must deliver real capability, not paper commitments"
+      - "Ensure France deploys a substantial and visible force to the Baltic — not a token contribution but a credible combat formation that demonstrates European capability"
     red_lines:
-      - "French troops in direct combat operations in the Baltic — this triggers full political warfare"
-      - "Any nuclear signaling or escalation involving French forces"
-      - "Subordination of French military command to American or NATO operational control"
-      - "Military spending increases that come at the expense of social programs"
+      - "European dependence on US defense systems that gives Washington a veto over European operations (F-35 data links, ITAR restrictions)"
+      - "Any outcome that reinforces the narrative that only America can defend Europe — this faction views that as the death of European sovereignty"
+      - "Defense budget cuts or freezes that sacrifice military modernization for domestic spending — the threat is existential"
+      - "NATO command structures that marginalize French military leadership or subordinate European forces to American operational control without European input"
+      - "Failure to support French defense industry champions in European procurement competitions — industrial sovereignty is strategic sovereignty"
     voice: >
-      Populist, sharp, media-savvy, and deliberately provocative. Bardella (leading RN
-      after Le Pen's conviction): 'The French people did not elect their President to
-      send their sons to die in Lithuania for
-      NATO. France has no enemy in Moscow — our enemy is the poverty in our own streets,
-      the factories closing in our own towns. This crisis was manufactured by NATO
-      expansion, and now Macron wants us to pay the price.' Melenchon: 'Once again, France
-      is being dragged into an American war! NATO is not a defensive alliance — it is the
-      armed wing of Washington's empire. France must leave NATO's integrated command
-      immediately. Let the Americans fight their own wars — we have hospitals to fund,
-      pensions to save, a planet to protect.' Both deploy on talk shows, social media, and
-      in the National Assembly with theatrical outrage designed to maximize political damage
-      to the President.
+      Authoritative, technocratic, and passionately sovereignty-focused. Speaks with the
+      confidence of people who build the weapons and understand their capabilities in
+      granular detail: 'The ASMPA-R entered naval service on November 10. The M51.3 is
+      operational with TNO-2 warheads. Suffren, Duguay-Trouin, and Tourville are at sea.
+      De Grasse's reactor went critical in December. The PA-NG is approved. France is the
+      only European nation that designs, builds, and maintains a complete nuclear triad
+      and a carrier strike group. This is not rhetoric — this is industrial and strategic
+      reality. The question is whether Europe will use what France has built, or continue
+      to wait for an American cavalry that may never come.' In Senate committee hearings:
+      'Madame la Ministre, the 2026 budget adds 3.5 billion. We need 10 billion. Our
+      CAESAR production is going to Ukraine while our own Army operates 72 aging systems.
+      Our Leclerc XLR program has delivered 51 tanks out of 200 ordered. Our ammunition
+      stocks would last weeks, not months, in a high-intensity conflict. Strategic autonomy
+      requires industrial depth, and industrial depth requires investment — now, not in
+      2030.' On European procurement: 'Every F-35 a European ally buys is a vote of no
+      confidence in European defense. Every CAESAR, every Rafale, every FREMM sold to a
+      European partner strengthens the industrial base that keeps Europe sovereign.'
     key_relationships:
-      allies: ["HU (Orban — ideological affinity for RN)", "Anti-war movements across Europe"]
-      rivals: ["Elysee Palace (primary domestic target)", "NATO establishment", "EU federalists"]
+      allies: ["FR defense industry (Dassault, Naval Group, KNDS, Thales, MBDA, Safran)", "GB (Northwood Declaration partner)", "EU defense institutions (EDA, PESCO)", "EI2 member states", "Senate defense establishment"]
+      rivals: ["US defense industry (Lockheed Martin, Raytheon — competitors for European contracts)", "NATO bureaucracy (seen as American-dominated)", "Domestic opposition demanding social spending over defense"]
