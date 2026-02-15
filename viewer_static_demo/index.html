@@ -1,119 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WarGame Simulation Viewer</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WarGame Simulation Viewer - Interactive Demo</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #0a0e17 0%, #1a1f3a 100%);
+      color: #e5e7eb;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .container {
+      max-width: 800px;
+      background: rgba(26, 35, 50, 0.8);
+      border: 1px solid #2d3748;
+      border-radius: 12px;
+      padding: 60px 40px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+      text-align: center;
+    }
+    h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+      background: linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    p {
+      font-size: 18px;
+      color: #9ca3af;
+      margin-bottom: 40px;
+      line-height: 1.6;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin-bottom: 40px;
+      text-align: left;
+    }
+    .feature {
+      padding: 20px;
+      background: rgba(59, 130, 246, 0.1);
+      border: 1px solid rgba(59, 130, 246, 0.3);
+      border-radius: 8px;
+    }
+    .feature strong {
+      color: #06b6d4;
+      display: block;
+      margin-bottom: 8px;
+    }
+    .feature p {
+      font-size: 14px;
+      margin: 0;
+      color: #d1d5db;
+    }
+    .cta-button {
+      display: inline-block;
+      padding: 16px 48px;
+      background: linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%);
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 18px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      border: none;
+      cursor: pointer;
+      box-shadow: 0 4px 15px rgba(6, 182, 212, 0.4);
+    }
+    .cta-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(6, 182, 212, 0.6);
+    }
+    .footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid #2d3748;
+      font-size: 14px;
+      color: #6b7280;
+    }
+    @media (max-width: 600px) {
+      .container { padding: 40px 20px; }
+      h1 { font-size: 32px; }
+      .features { grid-template-columns: 1fr; }
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Multi-Agent Geopolitical Simulation</h1>
-        <p>Static viewer for 5 independent 30-round simulations</p>
-    </header>
+  <div class="container">
+    <h1>⚛️ WarGame Simulation</h1>
+    <p>Experience an AI-powered geopolitical wargame with realistic decision-making, faction debates, and strategic consequences</p>
 
-    <div class="container">
-        <section class="controls">
-            <div class="control-group">
-                <label for="gameSelect">Simulation:</label>
-                <select id="gameSelect">
-                    <option value="game_20260214_175118">Game 1: Baseline Run 1</option>
-                    <option value="game_20260214_175116">Game 2: Baseline Run 2</option>
-                    <option value="game_20260213_205400">Game 3: High-Escalation</option>
-                    <option value="game_20260214_175117">Game 4: Baseline Run 3</option>
-                    <option value="game_20260213_220004">Game 5: Extended (35 countries)</option>
-                </select>
-            </div>
-
-            <div class="control-group">
-                <label for="roundSlider">Round: <span id="roundDisplay">1</span></label>
-                <input type="range" id="roundSlider" min="1" max="30" value="1">
-            </div>
-
-            <div class="control-group">
-                <button id="prevBtn">← Previous</button>
-                <button id="nextBtn">Next →</button>
-            </div>
-        </section>
-
-        <section class="metrics-grid">
-            <div class="card">
-                <h3>Nuclear Posture</h3>
-                <div class="metric-row">
-                    <span>Russia:</span>
-                    <strong id="nucRU">—</strong>
-                </div>
-                <div class="metric-row">
-                    <span>USA:</span>
-                    <strong id="nucUS">—</strong>
-                </div>
-                <div class="metric-row">
-                    <span>UK:</span>
-                    <strong id="nucGB">—</strong>
-                </div>
-                <div class="metric-row">
-                    <span>France:</span>
-                    <strong id="nucFR">—</strong>
-                </div>
-            </div>
-
-            <div class="card">
-                <h3>Economic Indicators</h3>
-                <div class="metric-row">
-                    <span>Oil Price:</span>
-                    <strong id="oilPrice">—</strong> $/bbl
-                </div>
-                <div class="metric-row">
-                    <span>EUR/USD:</span>
-                    <strong id="eurUsd">—</strong>
-                </div>
-            </div>
-
-            <div class="card">
-                <h3>Military Status</h3>
-                <div class="metric-row">
-                    <span>Corridor Control:</span>
-                    <strong id="corridor">—</strong>
-                </div>
-                <div class="metric-row">
-                    <span>NATO Alert:</span>
-                    <strong id="natolert">—</strong>
-                </div>
-            </div>
-
-            <div class="card">
-                <h3>Conflict Impact</h3>
-                <div class="metric-row">
-                    <span>Casualties:</span>
-                    <strong id="casualties">—</strong>
-                </div>
-                <div class="metric-row">
-                    <span>Refugee Flows:</span>
-                    <strong id="refugees">—</strong>
-                </div>
-            </div>
-
-            <div class="card wide">
-                <h3>Round Events & Developments</h3>
-                <div id="eventsPanel">
-                    <p class="placeholder">Select a round to view events</p>
-                </div>
-            </div>
-
-            <div class="card wide">
-                <h3>Round Information</h3>
-                <div id="roundInfo">
-                    <p class="placeholder">Game time and status</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="info">
-            <p><strong>Note:</strong> This is a lightweight static viewer for engineering demonstration.
-               Data loaded directly from simulation logs. No backend required.</p>
-        </section>
+    <div class="features">
+      <div class="feature">
+        <strong>📊 Interactive Charts</strong>
+        <p>Real-time visualization of oil prices, nuclear posture, war support, and military balance</p>
+      </div>
+      <div class="feature">
+        <strong>🌍 Full Game Coverage</strong>
+        <p>66 countries, multi-faction debates, diplomatic messages, and cascading effects</p>
+      </div>
+      <div class="feature">
+        <strong>📋 Detailed Analysis</strong>
+        <p>Round-by-round briefings, country decisions, combat results, and world state metrics</p>
+      </div>
+      <div class="feature">
+        <strong>⚡ No Backend Required</strong>
+        <p>Static HTML/JavaScript viewer runs entirely in your browser</p>
+      </div>
     </div>
 
-    <script src="app.js"></script>
+    <a href="production.html" class="cta-button">🚀 Launch Game Viewer</a>
+
+    <div class="footer">
+      <p>Built with Claude Code | MIT License</p>
+      <p><a href="https://github.com/RomanTsisyk/multi-agent-simulation-engine" style="color: #06b6d4; text-decoration: none;">View Source Code</a></p>
+    </div>
+  </div>
 </body>
 </html>

@@ -28,6 +28,20 @@ This creates **emergent, narrative-driven gameplay** where political dynamics ma
 
 ---
 
+## 🎮 Live Demo
+
+**[🌐 Open Interactive Demo](https://romantsisyk.github.io/multi-agent-simulation-engine/viewer_static_demo/production.html)**
+
+View a complete game simulation with:
+- 📊 Real-time charts (Oil Prices, Nuclear Posture, War Support, Military Balance)
+- 📋 All country decisions and diplomatic messages
+- 🔍 Round-by-round briefings and combat results
+- 🌍 World state analysis and country metrics
+
+*Note: Works on any device. No backend required.*
+
+---
+
 ## 🚀 Quick Start
 
 ### Prerequisites
