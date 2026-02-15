@@ -22,13 +22,13 @@ async function discoverGames() {
     const games = [];
     for (const gameName of knownGames) {
       try {
-        const url = `/logs/${gameName}/round_001.json`;
+        const url = `./demo_data/${gameName}/round_001.json`;
         const response = await fetch(url);
         if (response.ok) {
           let roundCount = 1;
           for (let i = 2; i <= 40; i++) {
             const padded = String(i).padStart(3, '0');
-            const r = await fetch(`/logs/${gameName}/round_${padded}.json`);
+            const r = await fetch(`./demo_data/${gameName}/round_${padded}.json`);
             if (r.ok) roundCount = i;
             else break;
           }
@@ -60,7 +60,7 @@ async function loadGameData(gameName) {
   const promises = game.rounds.map(async (roundFile) => {
     const roundNum = parseInt(roundFile.match(/\d+/)[0]);
     try {
-      const response = await fetch(`/logs/${gameName}/${roundFile}`);
+      const response = await fetch(`./demo_data/${gameName}/${roundFile}`);
       if (response.ok) {
         const data = await response.json();
         state.rounds[roundNum] = data;

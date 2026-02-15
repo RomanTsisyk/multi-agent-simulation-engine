@@ -1,0 +1,1289 @@
+{
+  "round": 4,
+  "runner": "claude-code",
+  "briefing": "SITUATION BRIEFING — Round 5\n\nDay 4 dawns with the Suwałki Corridor in its death throes but a terrifying new phase of the crisis emerging.\n\nMILITARY: Operation BALTIC ANVIL has shattered Russian control of the corridor. The VDV airborne force has surrendered — first Russian unit capitulation since Chechnya. The main Kaliningrad force (now strength 4/10) is isolated in a shrinking perimeter around Vištytis lake, cut off from supply. The Western District reinforcement column was devastated by Finnish/Polish rocket artillery at Lazdijai — 30% armor destroyed, advance halted. NATO controls the southern corridor and the Route 16/E67 junctions. However, Russia's submarine strike on Łask Air Base — killing 4 Polish airmen — marks a dangerous escalation to strikes on NATO homeland territory. The missing Severodvinsk remains at large.\n\nNUCLEAR: Russia has made veiled nuclear threats following the Kalibr strike on Łask, citing 'response to attacks on sovereign territory.' Putin has convened an emergency Security Council. Intelligence shows increased activity at strategic forces command posts. This is the most dangerous moment of the crisis — Russian forces are losing badly on the ground, creating the precise conditions for 'escalation to de-escalate' doctrine.\n\nDIPLOMATIC: Russia's ceasefire proposal is now moot given the Łask strike. NATO faces a critical decision: press the military advantage and risk further Russian escalation, or offer Russia a face-saving exit before the nuclear threshold is crossed. China and India are both privately urging restraint on Russia.\n\nECONOMIC: Oil at $125 after Łask strike. Markets in freefall — Dow -6%, European indices -8%. Ruble collapsed to 130/USD. Russian economy under total financial siege.",
+  "narrative": "Day 3 saw the decisive Battle of the Suwałki Corridor. At dawn, SACEUR General Cavoli — now commanding under full Article 5 authority — launched Operation BALTIC ANVIL: a coordinated three-pronged assault to collapse the Russian corridor. From the south, Poland's 18th Mechanized Division and US V Corps elements pushed north from Mockava with Finnish K9 Thunder artillery providing devastating fire support. From the west, the French ground brigade and Dutch 43rd Brigade advanced to cut Russian supply lines from Kaliningrad. From the air, US F-35s and UK carrier-based aircraft conducted the second wave of strikes against remaining Kaliningrad air defenses and ground targets in the corridor.\n\nThe Kaliningrad garrison fought desperately but was fatally compromised. With supply at critical levels after 18 hours of NATO air interdiction, their ammunition ran dangerously low. The remnants of the VDV airborne force — effectively reduced to a reinforced company — surrendered after their commanding officer, Colonel Sergei Volkov, radioed that continued resistance was 'suicide without purpose.' This was the first Russian unit surrender since the Chechen wars. The main Kaliningrad ground force pulled back 6km to a tighter perimeter around the Vištytis lake area, losing the E67 highway junction.\n\nThe Russian reinforcement column from Belarus finally pushed across the Lithuanian border at 08:00, bulldozing through Lithuanian KASP ambush positions. Two BTGs — approximately 2,000 troops with armor — advanced 15km into Lithuanian territory toward the corridor. But NATO was waiting: Finnish MLRS and Polish HIMARS caught the column in a devastating crossfire in open terrain near Lazdijai. The column lost an estimated 30% of its armored vehicles in 90 minutes of sustained rocket fire, grinding to a halt. The Western Military District's attempt to reinforce the corridor had failed.\n\nThe day's biggest shock came at 14:30 when the missing Severodvinsk-class submarine launched three Kalibr cruise missiles at the Łask Air Base in central Poland. Two were intercepted by Patriot batteries, but one struck a taxiway, destroying two parked F-16s and killing 4 Polish Air Force ground crew — the first direct Russian strike on a NATO member's non-frontline military facility. NATO scrambled to locate the submarine. At 22:00, Kremlin spokesman Peskov declared that 'strikes on Russian sovereign territory in Kaliningrad' had triggered Russia's right to respond against 'NATO military infrastructure enabling aggression.' Putin reportedly convened an emergency Security Council meeting, and intelligence agencies detected increased activity at Russian strategic forces command posts.",
+  "country_decisions": [
+    {
+      "country": "PL",
+      "actions": [
+        "18th Division continues northern push toward Vištytis",
+        "HIMARS devastating Russian reinforcement column at Lazdijai",
+        "Demands maximum NATO response to Łask strike"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "US",
+      "actions": [
+        "V Corps leads northern assault in corridor",
+        "Authorizes full anti-submarine warfare hunt for Severodvinsk",
+        "Backchannel to Moscow: 'This ends now or it escalates beyond control'"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "US",
+          "to": "RU",
+          "channel": "backchannel",
+          "message": "The strike on Łask was a catastrophic miscalculation. Withdraw all forces from Lithuanian territory within 24 hours or face consequences you cannot reverse."
+        }
+      ]
+    },
+    {
+      "country": "GB",
+      "actions": [
+        "Carrier group provides CAS over corridor",
+        "Anti-submarine assets hunting Severodvinsk"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "FR",
+      "actions": [
+        "Ground brigade advances on western corridor",
+        "Did NOT participate in air strikes",
+        "Macron convenes nuclear deterrence council"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "FR",
+          "to": "US",
+          "channel": "private",
+          "message": "France insists on de-escalation. Nuclear threshold must not be approached. We must offer Russia a face-saving exit."
+        }
+      ]
+    },
+    {
+      "country": "DE",
+      "actions": [
+        "Patriot batteries intercepted 2 of 3 Kalibr at Łask",
+        "Merz demands proportional response, no nuclear escalation"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "RU",
+      "actions": [
+        "Ordered Severodvinsk strike on Łask Air Base in retaliation for SEAD",
+        "Kaliningrad forces ordered to hold Vištytis pocket",
+        "Putin convenes emergency Security Council",
+        "Ceasefire proposal withdrawn after SEAD"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "RU",
+          "to": "US",
+          "channel": "backchannel",
+          "message": "The Łask strike was a proportional response to NATO's illegal attack on Russian sovereign territory in Kaliningrad. Further strikes on Russian territory will trigger responses of increasing magnitude."
+        }
+      ]
+    },
+    {
+      "country": "CN",
+      "actions": [
+        "Privately pressures Russia to avoid nuclear escalation",
+        "Taiwan Strait exercises scaled back to 8 ships",
+        "Proposes UN-mediated ceasefire"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "CN",
+          "to": "RU",
+          "channel": "private",
+          "message": "Beijing is deeply concerned about the trajectory of this crisis. Nuclear escalation would fundamentally alter our strategic partnership. We urge immediate de-escalation."
+        }
+      ]
+    },
+    {
+      "country": "BY",
+      "actions": [
+        "Military mutiny spreading — 120th Brigade commander arrested",
+        "Lukashenko orders total border lockdown",
+        "Belarusian forces effectively paralyzed"
+      ],
+      "diplomatic_messages": []
+    }
+  ],
+  "resolution": {
+    "narrative": "Day 3 saw the decisive Battle of the Suwałki Corridor. At dawn, SACEUR General Cavoli — now commanding under full Article 5 authority — launched Operation BALTIC ANVIL: a coordinated three-pronged assault to collapse the Russian corridor. From the south, Poland's 18th Mechanized Division and US V Corps elements pushed north from Mockava with Finnish K9 Thunder artillery providing devastating fire support. From the west, the French ground brigade and Dutch 43rd Brigade advanced to cut Russian supply lines from Kaliningrad. From the air, US F-35s and UK carrier-based aircraft conducted the second wave of strikes against remaining Kaliningrad air defenses and ground targets in the corridor.\n\nThe Kaliningrad garrison fought desperately but was fatally compromised. With supply at critical levels after 18 hours of NATO air interdiction, their ammunition ran dangerously low. The remnants of the VDV airborne force — effectively reduced to a reinforced company — surrendered after their commanding officer, Colonel Sergei Volkov, radioed that continued resistance was 'suicide without purpose.' This was the first Russian unit surrender since the Chechen wars. The main Kaliningrad ground force pulled back 6km to a tighter perimeter around the Vištytis lake area, losing the E67 highway junction.\n\nThe Russian reinforcement column from Belarus finally pushed across the Lithuanian border at 08:00, bulldozing through Lithuanian KASP ambush positions. Two BTGs — approximately 2,000 troops with armor — advanced 15km into Lithuanian territory toward the corridor. But NATO was waiting: Finnish MLRS and Polish HIMARS caught the column in a devastating crossfire in open terrain near Lazdijai. The column lost an estimated 30% of its armored vehicles in 90 minutes of sustained rocket fire, grinding to a halt. The Western Military District's attempt to reinforce the corridor had failed.\n\nThe day's biggest shock came at 14:30 when the missing Severodvinsk-class submarine launched three Kalibr cruise missiles at the Łask Air Base in central Poland. Two were intercepted by Patriot batteries, but one struck a taxiway, destroying two parked F-16s and killing 4 Polish Air Force ground crew — the first direct Russian strike on a NATO member's non-frontline military facility. NATO scrambled to locate the submarine. At 22:00, Kremlin spokesman Peskov declared that 'strikes on Russian sovereign territory in Kaliningrad' had triggered Russia's right to respond against 'NATO military infrastructure enabling aggression.' Putin reportedly convened an emergency Security Council meeting, and intelligence agencies detected increased activity at Russian strategic forces command posts.",
+    "world_state_updates": {
+      "game_time": "Day 4, 00:00 CET",
+      "military_units_add": [],
+      "military_units_remove": [
+        "russian_vdv_airborne"
+      ],
+      "military_units_update": [
+        {
+          "name": "russian_kaliningrad_forces",
+          "location": "Vištytis lake perimeter - isolated, shrinking pocket",
+          "readiness": 4,
+          "strength": 4,
+          "casualties": 7,
+          "supply_level": 2,
+          "morale": 3
+        },
+        {
+          "name": "russian_western_district",
+          "location": "Belarus side of border, directing failed reinforcement",
+          "readiness": 6,
+          "strength": 6,
+          "casualties": 1,
+          "supply_level": 9,
+          "morale": 5
+        },
+        {
+          "name": "russian_reinforcement_column",
+          "location": "Lazdijai area, Lithuania - halted, severe losses from MLRS",
+          "readiness": 4,
+          "strength": 3,
+          "casualties": 5,
+          "supply_level": 6,
+          "morale": 3
+        },
+        {
+          "name": "belarus_forces",
+          "location": "Belarus-Lithuania border, some units refusing orders",
+          "readiness": 4,
+          "strength": 4,
+          "casualties": 0,
+          "supply_level": 8,
+          "morale": 2
+        },
+        {
+          "name": "polish_18th_division",
+          "location": "Suwałki Corridor, E67 junction - advancing to Vištytis",
+          "readiness": 7,
+          "strength": 4,
+          "casualties": 4,
+          "supply_level": 7,
+          "morale": 9
+        },
+        {
+          "name": "polish_forces",
+          "location": "Suwałki Gap, HIMARS devastating reinforcement column at Lazdijai",
+          "readiness": 7,
+          "strength": 7,
+          "casualties": 0,
+          "supply_level": 6,
+          "morale": 9
+        },
+        {
+          "name": "us_forces_poland",
+          "location": "Suwałki Corridor, V Corps leading northern push",
+          "readiness": 8,
+          "strength": 7,
+          "casualties": 1,
+          "supply_level": 8,
+          "morale": 8
+        },
+        {
+          "name": "us_f35_squadron",
+          "location": "Łask Air Base - 2 F-16s destroyed by Kalibr strike, taxiway damaged",
+          "readiness": 6,
+          "strength": 3,
+          "casualties": 0,
+          "supply_level": 6,
+          "morale": 7
+        },
+        {
+          "name": "uk_carrier_group",
+          "location": "Southern Baltic, conducting CAS over corridor",
+          "readiness": 7,
+          "strength": 6,
+          "casualties": 0,
+          "supply_level": 6,
+          "morale": 8
+        },
+        {
+          "name": "french_ground_brigade",
+          "location": "Western corridor approach, cutting Kaliningrad supply route",
+          "readiness": 7,
+          "strength": 5,
+          "casualties": 1,
+          "supply_level": 8,
+          "morale": 7
+        },
+        {
+          "name": "dutch_43rd_brigade",
+          "location": "Western corridor, supporting French advance",
+          "readiness": 7,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 8,
+          "morale": 7
+        },
+        {
+          "name": "finnish_artillery",
+          "location": "Suwałki area, K9/MLRS - devastated reinforcement column",
+          "readiness": 7,
+          "strength": 4,
+          "casualties": 0,
+          "supply_level": 7,
+          "morale": 9
+        },
+        {
+          "name": "german_patriot_battery",
+          "location": "Suwałki and Kaunas - intercepted 2 of 3 Kalibr missiles at Łask",
+          "readiness": 7,
+          "strength": 4,
+          "casualties": 0,
+          "supply_level": 7,
+          "morale": 7
+        },
+        {
+          "name": "nato_efp_lithuania",
+          "location": "Nemunas line, stabilizing as corridor collapses",
+          "readiness": 5,
+          "strength": 2,
+          "casualties": 3,
+          "supply_level": 7,
+          "morale": 6
+        },
+        {
+          "name": "nato_efp_poland",
+          "location": "Suwałki area, integrated into V Corps operations",
+          "readiness": 8,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 8,
+          "morale": 8
+        },
+        {
+          "name": "french_rafale_squadron",
+          "location": "Łask Air Base, defensive patrols, CAP over Poland",
+          "readiness": 7,
+          "strength": 4,
+          "casualties": 0,
+          "supply_level": 7,
+          "morale": 6
+        },
+        {
+          "name": "finnish_forces",
+          "location": "Finland, border defense maintained",
+          "readiness": 8,
+          "strength": 8,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 8
+        },
+        {
+          "name": "swedish_gotland_garrison",
+          "location": "Gotland, anti-submarine warfare activated",
+          "readiness": 8,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 8
+        },
+        {
+          "name": "danish_strait_defense",
+          "location": "Danish Straits locked",
+          "readiness": 8,
+          "strength": 4,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 7
+        },
+        {
+          "name": "nato_efp_latvia",
+          "location": "Latvia, forward positions",
+          "readiness": 8,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 7
+        },
+        {
+          "name": "nato_efp_estonia",
+          "location": "Estonia, Narva positions",
+          "readiness": 8,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 8
+        }
+      ],
+      "military_alerts": {
+        "russian_kaliningrad_forces": "ISOLATED in Vištytis pocket, supply critical (2/10), ammunition nearly exhausted",
+        "russian_reinforcement_column": "DESTROYED as fighting force at Lazdijai - 30% armor gone, halted",
+        "russian_vdv_airborne": "SURRENDERED - Col. Volkov's unit capitulated, ~200 POWs taken by Polish forces",
+        "severodvinsk_submarine": "STRUCK Łask Air Base with 3 Kalibr missiles - 1 hit taxiway, 4 Polish KIA - submarine still at large",
+        "lask_air_base": "Taxiway damaged, 2 F-16s destroyed on ground, operations continuing from backup runway",
+        "nuclear_warning": "Increased activity at Russian strategic forces command posts detected by satellites",
+        "us_forces_poland": "V Corps pushing north, 1 KIA from IED in corridor"
+      },
+      "markets": {
+        "oil_price": 125.0,
+        "euro_usd": 0.99,
+        "ruble_usd": 130.0,
+        "dow_jones": "-6%",
+        "european_indices": "-8%"
+      },
+      "sanctions_add": [
+        {
+          "from": "US",
+          "target": "RU",
+          "type": "Emergency executive order freezing ALL Russian state assets in US jurisdiction"
+        },
+        {
+          "from": "GB",
+          "target": "RU",
+          "type": "Complete expulsion of Russian diplomatic staff except emergency channel"
+        }
+      ],
+      "trade_disruptions_add": [
+        "Global shipping insurance rates spike 300% for Baltic and Eastern Mediterranean",
+        "Russian ruble crashes to 130/USD - Moscow Stock Exchange suspended trading"
+      ],
+      "diplomatic_relations": {
+        "RU": {
+          "PL": -10,
+          "US": -10,
+          "GB": -10,
+          "DE": -10
+        },
+        "PL": {
+          "RU": -10
+        },
+        "CN": {
+          "RU": 5
+        },
+        "US": {
+          "RU": -10
+        }
+      },
+      "treaties_invoked_add": [],
+      "un_resolutions_add": [],
+      "nato_alert_level": "article5",
+      "nato_consensus": {
+        "US": "full combat operations authorized, hunting Severodvinsk",
+        "GB": "full combat, CAS from carrier",
+        "FR": "defensive only, shocked by Łask strike, Macron convenes nuclear council",
+        "DE": "Merz demands proportional response to Łask, no nuclear escalation",
+        "PL": "ENRAGED by Łask strike - 4 airmen killed on Polish soil - demanding maximum response"
+      },
+      "nuclear_posture": {
+        "RU": "dispersal",
+        "US": "elevated",
+        "GB": "elevated",
+        "FR": "elevated"
+      },
+      "nuclear_detonations_add": [],
+      "public_opinion": {
+        "PL": {
+          "war_support": 88,
+          "government_approval": 80
+        },
+        "LT": {
+          "war_support": 92,
+          "government_approval": 80
+        },
+        "LV": {
+          "war_support": 75,
+          "government_approval": 68
+        },
+        "EE": {
+          "war_support": 76,
+          "government_approval": 70
+        },
+        "US": {
+          "war_support": 42,
+          "government_approval": 50
+        },
+        "GB": {
+          "war_support": 58,
+          "government_approval": 55
+        },
+        "FR": {
+          "war_support": 35,
+          "government_approval": 40
+        },
+        "DE": {
+          "war_support": 48,
+          "government_approval": 52
+        },
+        "RU": {
+          "war_support": 65,
+          "government_approval": 68
+        },
+        "BY": {
+          "war_support": 8,
+          "government_approval": 22
+        },
+        "TR": {
+          "war_support": 24,
+          "government_approval": 58
+        },
+        "HU": {
+          "war_support": 12,
+          "government_approval": 35
+        },
+        "FI": {
+          "war_support": 68,
+          "government_approval": 70
+        },
+        "SE": {
+          "war_support": 56,
+          "government_approval": 59
+        },
+        "NO": {
+          "war_support": 53,
+          "government_approval": 62
+        },
+        "DK": {
+          "war_support": 50,
+          "government_approval": 56
+        },
+        "NL": {
+          "war_support": 44,
+          "government_approval": 52
+        },
+        "BE": {
+          "war_support": 35,
+          "government_approval": 48
+        },
+        "CZ": {
+          "war_support": 46,
+          "government_approval": 54
+        },
+        "RO": {
+          "war_support": 51,
+          "government_approval": 56
+        },
+        "CA": {
+          "war_support": 38,
+          "government_approval": 50
+        },
+        "CN": {
+          "war_support": 6,
+          "government_approval": 72
+        }
+      },
+      "refugee_flows_add": [
+        {
+          "from": "LT",
+          "to": "PL",
+          "count": 8000,
+          "status": "fleeing"
+        },
+        {
+          "from": "PL",
+          "to": "DE",
+          "count": 3000,
+          "status": "fleeing"
+        }
+      ],
+      "humanitarian_crisis_level": {
+        "LT": 8,
+        "PL": 6
+      },
+      "cyber_operations_add": [
+        {
+          "attacker": "RU",
+          "target": "PL",
+          "type": "infrastructure",
+          "severity": "critical",
+          "infrastructure_affected": "military_c2"
+        },
+        {
+          "attacker": "US",
+          "target": "RU",
+          "type": "infrastructure",
+          "severity": "high",
+          "infrastructure_affected": "military_c2"
+        }
+      ],
+      "infrastructure_status": {
+        "LT": {
+          "power_grid": 5,
+          "comms": 3,
+          "financial": 6,
+          "military_c2": 5
+        },
+        "PL": {
+          "power_grid": 8,
+          "comms": 7,
+          "financial": 8,
+          "military_c2": 6
+        }
+      },
+      "corridor_control": "nato",
+      "recent_events": [
+        "Operation BALTIC ANVIL: NATO three-pronged assault collapses Russian corridor control",
+        "Russian VDV airborne force SURRENDERS — Col. Volkov orders capitulation, ~200 POWs",
+        "Kaliningrad ground force isolated in Vištytis pocket, supply critical",
+        "Russian reinforcement column devastated at Lazdijai by Finnish MLRS and Polish HIMARS — 30% armor destroyed",
+        "Severodvinsk submarine strikes Łask Air Base with 3 Kalibr missiles — 1 hits taxiway, 4 Polish KIA",
+        "Putin convenes emergency Security Council — increased activity at strategic forces command posts",
+        "Major Kowalski and 200+ Russian POWs create prisoner exchange possibilities",
+        "France refuses to participate in offensive operations — Macron convenes nuclear deterrence council",
+        "Ruble crashes to 130/USD, Moscow Stock Exchange suspends trading"
+      ],
+      "media_headlines": [
+        "CORRIDOR COLLAPSES: Russian paratroopers surrender as NATO anvil strikes crush pocket",
+        "ŁASK ATTACKED: Russian submarine cruise missiles hit Polish air base — 4 airmen killed",
+        "NUCLEAR SHADOW: Putin convenes Security Council as Russian forces face defeat",
+        "RUBLE CRASHES: Moscow Stock Exchange halts trading as currency hits 130/USD",
+        "WHITE FLAGS: First Russian unit surrender since Chechnya as VDV colonel orders capitulation",
+        "HUNT FOR THE SEVERODVINSK: NATO scrambles to find submarine that struck Poland"
+      ],
+      "round_number": 4
+    },
+    "events": [
+      "Operation BALTIC ANVIL collapses Russian corridor — VDV surrenders, Kaliningrad pocket isolated",
+      "Severodvinsk submarine strikes Łask Air Base — 4 Polish airmen KIA, dangerous escalation",
+      "Russian reinforcement column destroyed at Lazdijai by NATO rocket artillery",
+      "Putin convenes emergency Security Council — nuclear tension at crisis peak",
+      "China privately warns Russia against nuclear escalation",
+      "Belarusian military mutiny — 120th Brigade commander arrested for refusing orders"
+    ],
+    "headlines": [
+      "CORRIDOR COLLAPSES: Russian forces surrender and retreat",
+      "ŁASK ATTACKED: Russian submarine strikes NATO air base in Poland",
+      "NUCLEAR SHADOW: Putin convenes emergency war council",
+      "RUBLE CRASHES: Russian economy in freefall",
+      "CHINA WARNS: Beijing tells Moscow nuclear use would end partnership",
+      "BELARUS CRACKS: Military units refuse deployment orders"
+    ],
+    "surprises": [
+      "The Severodvinsk's strike on Łask was ordered by Admiral Yevmenov directly, bypassing normal chain of command through the General Staff. General Gerasimov reportedly learned of the strike only after launch, creating a dangerous civil-military command fracture within Russia's leadership.",
+      "A Polish drone accidentally crosses into Kaliningrad Oblast during corridor operations. Russia initially reports it as a 'NATO reconnaissance intrusion' but satellite imagery later confirms it was a commercial DJI Mavic that a Polish soldier was using for tactical recon. The incident briefly raises tensions before being defused."
+    ]
+  },
+  "world_state_after": {
+    "round_number": 4,
+    "game_time": "Day 4, 00:00 CET",
+    "military_units": [
+      {
+        "name": "russian_kaliningrad_forces",
+        "country": "RU",
+        "type": "ground",
+        "location": "Vištytis lake perimeter - isolated, shrinking pocket",
+        "readiness": 3,
+        "strength": 3,
+        "casualties": 7,
+        "supply_level": 2,
+        "morale": 2,
+        "_last_casualty_morale_applied": 3,
+        "_last_casualty_strength_applied": 3
+      },
+      {
+        "name": "russian_western_district",
+        "country": "RU",
+        "type": "ground",
+        "location": "Belarus side of border, directing failed reinforcement",
+        "readiness": 6,
+        "strength": 6,
+        "casualties": 1,
+        "supply_level": 9,
+        "morale": 5,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "belarus_forces",
+        "country": "BY",
+        "type": "ground",
+        "location": "Belarus-Lithuania border, some units refusing orders",
+        "readiness": 4,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 8,
+        "morale": 2,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_lithuania",
+        "country": "DE",
+        "type": "ground",
+        "location": "Nemunas line, stabilizing as corridor collapses",
+        "readiness": 5,
+        "strength": 2,
+        "casualties": 3,
+        "supply_level": 7,
+        "morale": 6,
+        "_last_casualty_morale_applied": 1,
+        "_last_casualty_strength_applied": 1
+      },
+      {
+        "name": "nato_efp_latvia",
+        "country": "CA",
+        "type": "ground",
+        "location": "Latvia, forward positions",
+        "readiness": 8,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_estonia",
+        "country": "GB",
+        "type": "ground",
+        "location": "Estonia, Narva positions",
+        "readiness": 8,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "Suwałki area, integrated into V Corps operations",
+        "readiness": 8,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 8,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "us_forces_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "Suwałki Corridor, V Corps leading northern push",
+        "readiness": 8,
+        "strength": 7,
+        "casualties": 1,
+        "supply_level": 8,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "polish_forces",
+        "country": "PL",
+        "type": "ground",
+        "location": "Suwałki Gap, HIMARS devastating reinforcement column at Lazdijai",
+        "readiness": 7,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 6,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "finnish_forces",
+        "country": "FI",
+        "type": "ground",
+        "location": "Finland, border defense maintained",
+        "readiness": 8,
+        "strength": 8,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "uk_carrier_group",
+        "country": "GB",
+        "type": "naval",
+        "location": "Southern Baltic, conducting CAS over corridor",
+        "readiness": 7,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 6,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "french_rafale_squadron",
+        "country": "FR",
+        "type": "air",
+        "location": "Łask Air Base, defensive patrols, CAP over Poland",
+        "readiness": 7,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 7,
+        "morale": 6,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "us_f35_squadron",
+        "country": "US",
+        "type": "air",
+        "location": "Łask Air Base - 2 F-16s destroyed by Kalibr strike, taxiway damaged",
+        "readiness": 6,
+        "strength": 3,
+        "casualties": 0,
+        "supply_level": 6,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "swedish_gotland_garrison",
+        "country": "SE",
+        "type": "ground",
+        "location": "Gotland, anti-submarine warfare activated",
+        "readiness": 8,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "danish_strait_defense",
+        "country": "DK",
+        "type": "naval",
+        "location": "Danish Straits locked",
+        "readiness": 8,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "polish_18th_division",
+        "country": "PL",
+        "type": "ground",
+        "location": "Suwałki Corridor, E67 junction - advancing to Vištytis",
+        "readiness": 7,
+        "strength": 3,
+        "casualties": 4,
+        "supply_level": 7,
+        "morale": 8,
+        "_last_casualty_morale_applied": 2,
+        "_last_casualty_strength_applied": 2
+      },
+      {
+        "name": "french_ground_brigade",
+        "country": "FR",
+        "type": "ground",
+        "location": "Western corridor approach, cutting Kaliningrad supply route",
+        "readiness": 7,
+        "strength": 5,
+        "casualties": 1,
+        "supply_level": 8,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "finnish_artillery",
+        "country": "FI",
+        "type": "ground",
+        "location": "Suwałki area, K9/MLRS - devastated reinforcement column",
+        "readiness": 7,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 7,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "dutch_43rd_brigade",
+        "country": "NL",
+        "type": "ground",
+        "location": "Western corridor, supporting French advance",
+        "readiness": 7,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 8,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "german_patriot_battery",
+        "country": "DE",
+        "type": "air",
+        "location": "Suwałki and Kaunas - intercepted 2 of 3 Kalibr missiles at Łask",
+        "readiness": 7,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 7,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "russian_reinforcement_column",
+        "country": "RU",
+        "type": "ground",
+        "location": "Lazdijai area, Lithuania - halted, severe losses from MLRS",
+        "readiness": 4,
+        "strength": 2,
+        "casualties": 5,
+        "supply_level": 6,
+        "morale": 2,
+        "_last_casualty_morale_applied": 2,
+        "_last_casualty_strength_applied": 2
+      }
+    ],
+    "military_alerts": {
+      "russian_kaliningrad_forces": "ISOLATED in Vištytis pocket, supply critical (2/10), ammunition nearly exhausted",
+      "russian_western_district": "At Lithuanian border, preparing to push through to reinforce corridor",
+      "belarus_forces": "Defensive posture only, providing transit to Russian forces, NOT crossing border",
+      "nato_efp_lithuania": "Supporting Lithuanian Nemunas River defense line, very low strength",
+      "nato_efp_latvia": "Canadian-led battlegroup (~1500 troops)",
+      "nato_efp_estonia": "UK-led battlegroup (~1200 troops)",
+      "nato_efp_poland": "US-led battlegroup (~1000 troops) + Polish forces",
+      "us_forces_poland": "V Corps pushing north, 1 KIA from IED in corridor",
+      "polish_forces": "Sustained HIMARS fire support, Polish F-16 lost in SEAD (pilot captured)",
+      "finnish_forces": "Offering artillery + MLRS to NATO, border fully defended",
+      "russian_vdv_airborne": "SURRENDERED - Col. Volkov's unit capitulated, ~200 POWs taken by Polish forces",
+      "russian_reinforcement_column": "DESTROYED as fighting force at Lazdijai - 30% armor gone, halted",
+      "uk_carrier_group": "Storm Shadow strike successful, rearming for potential follow-up strikes",
+      "german_patriot_battery": "Operational at Suwałki and Kaunas, providing critical air defense",
+      "norwegian_warning": "Missing Severodvinsk submarine still UNLOCATED despite P-8 search",
+      "polish_18th_division": "Counter-attack success - recaptured Mockava and Route 16 junction, advancing north",
+      "us_f35_squadron": "Post-SEAD - degraded Kaliningrad A2/AD by 50%, 1 aircraft damaged, rearming",
+      "finnish_artillery": "K9 Thunder and MLRS operational in eastern Poland, ready for fire missions",
+      "nato_article5_consensus": "FULL CONSENSUS ACHIEVED at 15:00 CET - Turkey and Hungary withdrew objections",
+      "nato_pow_situation": "Major Tomasz Kowalski (Polish Air Force) captured by VDV - first NATO POW",
+      "china_taiwan": "PLA Navy exercises in Taiwan Strait - 12 warships, 24 fighters - assessed as pressure, not invasion prep",
+      "severodvinsk_submarine": "STRUCK Łask Air Base with 3 Kalibr missiles - 1 hit taxiway, 4 Polish KIA - submarine still at large",
+      "lask_air_base": "Taxiway damaged, 2 F-16s destroyed on ground, operations continuing from backup runway",
+      "nuclear_warning": "Increased activity at Russian strategic forces command posts detected by satellites"
+    },
+    "markets": {
+      "oil_price": 125.0,
+      "euro_usd": 0.99,
+      "gas_price_eu": "surging 15% on infrastructure fears",
+      "stock_indices": "nervous, -2% on reports",
+      "nasdaq": "-4.2% on two-front crisis fears",
+      "ruble_usd": 130.0,
+      "dow_jones": "-6%",
+      "european_indices": "-8%"
+    },
+    "sanctions": [
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "Emergency SWIFT restrictions on additional Russian banks"
+      },
+      {
+        "from": "EU",
+        "target": "RU",
+        "type": "Emergency energy import reduction package"
+      },
+      {
+        "from": "GB",
+        "target": "RU",
+        "type": "Freezing of Russian sovereign assets in London"
+      },
+      {
+        "from": "US",
+        "target": "BY",
+        "type": "Full economic sanctions on Belarus for facilitating aggression"
+      },
+      {
+        "from": "EU",
+        "target": "BY",
+        "type": "Full EU sanctions on Belarus for providing staging territory to Russian forces"
+      },
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "Secondary sanctions warning on entities facilitating Russian military procurement"
+      },
+      {
+        "from": "EU",
+        "target": "RU",
+        "type": "Full SWIFT disconnection of all major Russian banks (post-Article 5)"
+      },
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "Total export ban on advanced technology and semiconductors to Russia"
+      },
+      {
+        "from": "EU",
+        "target": "BY",
+        "type": "Full economic embargo on Belarus for facilitating military transit"
+      },
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "Emergency executive order freezing ALL Russian state assets in US jurisdiction"
+      },
+      {
+        "from": "GB",
+        "target": "RU",
+        "type": "Complete expulsion of Russian diplomatic staff except emergency channel"
+      }
+    ],
+    "trade_disruptions": [
+      "Commercial shipping rerouting from eastern Baltic",
+      "All land transit to/from Kaliningrad suspended",
+      "Main links through Suwalki corridor severed",
+      "Fuel depot damaged by Iskander-K strike, rerouting required",
+      "Kaliningrad supply lines under NATO air interdiction - first sustained aerial blockade",
+      "European gas spot prices surge 15% on fears of Russian infrastructure retaliation",
+      "China Taiwan Strait exercises disrupt Pacific shipping routes, insurance premiums spike",
+      "Global shipping insurance rates spike 300% for Baltic and Eastern Mediterranean",
+      "Russian ruble crashes to 130/USD - Moscow Stock Exchange suspended trading"
+    ],
+    "diplomatic_relations": {
+      "PL": {
+        "RU": -10,
+        "BY": -8,
+        "US": 9,
+        "DE": 7,
+        "LT": 10,
+        "HU": 1,
+        "TR": 5
+      },
+      "LT": {
+        "RU": -10,
+        "BY": -9,
+        "PL": 9,
+        "US": 7,
+        "DE": 4
+      },
+      "US": {
+        "RU": -10,
+        "PL": 9,
+        "GB": 9,
+        "DE": 5,
+        "TR": 7,
+        "HU": -2,
+        "CN": -5
+      },
+      "RU": {
+        "US": -10,
+        "PL": -10,
+        "LT": -10,
+        "CN": 6,
+        "BY": 7,
+        "TR": -5,
+        "DE": -10,
+        "GB": -10
+      },
+      "DE": {
+        "RU": -9,
+        "PL": 7,
+        "FR": 8,
+        "US": 5
+      },
+      "GB": {
+        "RU": -8,
+        "PL": 7,
+        "US": 9,
+        "FR": 7
+      },
+      "FR": {
+        "RU": -6,
+        "PL": 6,
+        "US": 7,
+        "GB": 7,
+        "DE": 7
+      },
+      "TR": {
+        "RU": -4,
+        "US": 7,
+        "HU": 2
+      },
+      "HU": {
+        "RU": -2,
+        "US": 1,
+        "PL": 2
+      },
+      "CN": {
+        "RU": 5,
+        "US": -6
+      }
+    },
+    "treaties_invoked": [
+      "{'treaty': 'NATO Article 4', 'invoked_by': 'PL', 'status': 'consultation underway'}",
+      "{'treaty': 'EU Article 42.7', 'proposed_by': 'FR', 'status': 'under discussion'}",
+      "{'treaty': 'NATO Article 5', 'invoked_by': 'PL', 'status': 'invoked, consensus pending Turkey/Hungary'}",
+      "{'treaty': 'EU Article 42.7', 'invoked_by': 'FR', 'status': 'activated by European Council majority'}",
+      "{'treaty': 'NATO Article 5', 'invoked_by': 'NAC', 'status': 'FULL CONSENSUS - collective defense authorized under SACEUR command'}",
+      "{'treaty': 'US-Turkey F-35 Framework', 'invoked_by': 'US/TR', 'status': 'signed, S-400 transfer to US custody within 90 days'}"
+    ],
+    "un_resolutions": [
+      "{'title': 'Emergency UNSC session on Lithuania crisis', 'status': 'blocked by RU and CN vetoes', 'votes': '13-2'}",
+      "{'title': 'UNGA Emergency Special Session on Suwałki Crisis', 'status': '143-5-35 condemning Russian aggression, non-binding', 'votes': '143 for, 5 against (RU, BY, DPRK, SY, ER), 35 abstentions'}"
+    ],
+    "nato_alert_level": "article5",
+    "nato_consensus": {
+      "US": "full combat operations authorized, hunting Severodvinsk",
+      "PL": "ENRAGED by Łask strike - 4 airmen killed on Polish soil - demanding maximum response",
+      "LT": "total mobilization, KASP conducting guerrilla operations",
+      "LV": "full support, border reinforced",
+      "EE": "full support, CCDCOE offensive cyber operations",
+      "GB": "full combat, CAS from carrier",
+      "FR": "defensive only, shocked by Łask strike, Macron convenes nuclear council",
+      "DE": "Merz demands proportional response to Łask, no nuclear escalation",
+      "FI": "full support, artillery deployed to Poland",
+      "SE": "full support, ELINT critical to SEAD success",
+      "NO": "full support, submarine hunt priority",
+      "DK": "full support, Straits locked",
+      "CA": "full support, Latvia reinforced",
+      "NL": "full support, 43rd Brigade deployed",
+      "BE": "full support",
+      "CZ": "full support, logistics hub",
+      "RO": "full support, Black Sea alert",
+      "TR": "FULL SUPPORT - F-35 deal signed, veto withdrawn",
+      "HU": "reluctant support - veto withdrawn with face-saving concessions"
+    },
+    "corridor_control": "nato",
+    "nuclear_posture": {
+      "RU": "dispersal",
+      "US": "elevated",
+      "GB": "elevated",
+      "FR": "elevated"
+    },
+    "nuclear_detonations": [],
+    "public_opinion": {
+      "PL": {
+        "war_support": 85,
+        "government_approval": 80
+      },
+      "DE": {
+        "war_support": 45,
+        "government_approval": 52
+      },
+      "FR": {
+        "war_support": 32,
+        "government_approval": 40
+      },
+      "US": {
+        "war_support": 39,
+        "government_approval": 50
+      },
+      "GB": {
+        "war_support": 55,
+        "government_approval": 55
+      },
+      "LT": {
+        "war_support": 89,
+        "government_approval": 78
+      },
+      "LV": {
+        "war_support": 72,
+        "government_approval": 68
+      },
+      "EE": {
+        "war_support": 73,
+        "government_approval": 70
+      },
+      "FI": {
+        "war_support": 65,
+        "government_approval": 70
+      },
+      "SE": {
+        "war_support": 53,
+        "government_approval": 59
+      },
+      "NO": {
+        "war_support": 50,
+        "government_approval": 62
+      },
+      "DK": {
+        "war_support": 47,
+        "government_approval": 56
+      },
+      "CA": {
+        "war_support": 35,
+        "government_approval": 50
+      },
+      "NL": {
+        "war_support": 41,
+        "government_approval": 52
+      },
+      "BE": {
+        "war_support": 32,
+        "government_approval": 48
+      },
+      "CZ": {
+        "war_support": 43,
+        "government_approval": 54
+      },
+      "RO": {
+        "war_support": 48,
+        "government_approval": 56
+      },
+      "TR": {
+        "war_support": 21,
+        "government_approval": 58
+      },
+      "HU": {
+        "war_support": 9,
+        "government_approval": 35
+      },
+      "RU": {
+        "war_support": 62,
+        "government_approval": 68
+      },
+      "BY": {
+        "war_support": 5,
+        "government_approval": 22
+      },
+      "CN": {
+        "war_support": 3,
+        "government_approval": 72
+      }
+    },
+    "refugee_flows": [
+      {
+        "from": "LT",
+        "to": "PL",
+        "count": 15000,
+        "status": "fleeing"
+      },
+      {
+        "from": "LT",
+        "to": "LV",
+        "count": 8000,
+        "status": "fleeing"
+      },
+      {
+        "from": "PL",
+        "to": "DE",
+        "count": 3000,
+        "status": "fleeing"
+      }
+    ],
+    "humanitarian_crisis_level": {
+      "LT": 8,
+      "PL": 6
+    },
+    "cyber_operations": [
+      {
+        "attacker": "RU",
+        "target": "LT",
+        "type": "infrastructure",
+        "severity": "high",
+        "infrastructure_affected": "comms"
+      },
+      {
+        "attacker": "RU",
+        "target": "PL",
+        "type": "ddos",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "EE",
+        "type": "ddos",
+        "severity": "medium",
+        "infrastructure_affected": "financial"
+      },
+      {
+        "attacker": "RU",
+        "target": "DE",
+        "type": "malware",
+        "severity": "low",
+        "infrastructure_affected": "comms"
+      },
+      {
+        "attacker": "EE",
+        "target": "RU",
+        "type": "espionage",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "PL",
+        "type": "infrastructure",
+        "severity": "high",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "PL",
+        "type": "espionage",
+        "severity": "medium",
+        "infrastructure_affected": "none"
+      },
+      {
+        "attacker": "EE",
+        "target": "RU",
+        "type": "infrastructure",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "SE",
+        "target": "RU",
+        "type": "espionage",
+        "severity": "medium",
+        "infrastructure_affected": "none"
+      },
+      {
+        "attacker": "RU",
+        "target": "EE",
+        "type": "malware",
+        "severity": "high",
+        "infrastructure_affected": "power_grid"
+      },
+      {
+        "attacker": "US",
+        "target": "RU",
+        "type": "infrastructure",
+        "severity": "high",
+        "infrastructure_affected": "military_c2"
+      }
+    ],
+    "infrastructure_status": {
+      "LT": {
+        "power_grid": 5,
+        "comms": 3,
+        "financial": 6,
+        "military_c2": 5
+      },
+      "PL": {
+        "power_grid": 8,
+        "comms": 7,
+        "financial": 8,
+        "military_c2": 6
+      },
+      "EE": {
+        "power_grid": 7,
+        "comms": 8,
+        "financial": 9,
+        "military_c2": 9
+      }
+    },
+    "recent_events": [
+      "Operation BALTIC ANVIL: NATO three-pronged assault collapses Russian corridor control",
+      "Russian VDV airborne force SURRENDERS — Col. Volkov orders capitulation, ~200 POWs",
+      "Kaliningrad ground force isolated in Vištytis pocket, supply critical",
+      "Russian reinforcement column devastated at Lazdijai by Finnish MLRS and Polish HIMARS — 30% armor destroyed",
+      "Severodvinsk submarine strikes Łask Air Base with 3 Kalibr missiles — 1 hits taxiway, 4 Polish KIA",
+      "Putin convenes emergency Security Council — increased activity at strategic forces command posts",
+      "Major Kowalski and 200+ Russian POWs create prisoner exchange possibilities",
+      "France refuses to participate in offensive operations — Macron convenes nuclear deterrence council",
+      "Ruble crashes to 130/USD, Moscow Stock Exchange suspends trading"
+    ],
+    "media_headlines": [
+      "CORRIDOR COLLAPSES: Russian paratroopers surrender as NATO anvil strikes crush pocket",
+      "ŁASK ATTACKED: Russian submarine cruise missiles hit Polish air base — 4 airmen killed",
+      "NUCLEAR SHADOW: Putin convenes Security Council as Russian forces face defeat",
+      "RUBLE CRASHES: Moscow Stock Exchange halts trading as currency hits 130/USD",
+      "WHITE FLAGS: First Russian unit surrender since Chechnya as VDV colonel orders capitulation",
+      "HUNT FOR THE SEVERODVINSK: NATO scrambles to find submarine that struck Poland"
+    ],
+    "_nuclear_penalty_applied": [],
+    "_oil_penalty_last_threshold": 120,
+    "_gas_sanction_count_applied": 0,
+    "_gm_set_nuclear_this_round": [
+      "FR",
+      "US",
+      "RU",
+      "GB"
+    ]
+  }
+}

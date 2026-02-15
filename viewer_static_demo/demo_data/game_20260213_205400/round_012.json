@@ -1,0 +1,1411 @@
+{
+  "round": 12,
+  "runner": "claude-code",
+  "briefing": "SITUATION BRIEFING — Day 12, 18:00 CET\n\nThe post-crisis diplomatic phase intensifies with three competing peace frameworks (Chinese, Turkish, Russian) now on the table alongside the US-led Geneva Process. The Belarus Nuclear Question dominates: Oreshnik IRBMs moved inland, BYPOL intelligence flowing to NATO, Russia offering military hardware to delay removal. Hungary's obstruction attempt at NATO rejected but Orban remains unpredictable.\n\nMILITARY: All forces in garrison/peacetime posture. Shield Force operational. eFP battlegroups at enhanced strength. No military threats. Belarus 465th Missile Brigade repositioning nuclear weapons inland. Finland demobilizing. Nordic forces consolidating.\n\nDIPLOMATIC: Geneva Process Track 1 substantive. China Five-Point Framework. Turkey Constantinople Accord. Russia phased sanctions relief proposal. Hungary 120-day delay rejected. Article 7 proceedings review for Hungary. Belarus sharing nuclear facility intelligence with NATO.\n\nECONOMIC: Oil $86 (continuing decline). Ruble 125/USD (stabilizing). Czech ammunition 24/7 production. Germany EUR 3B first Marshall Plan tranche released. E67 highway reopened through Suwalki corridor.",
+  "narrative": "Day 12 brings the Belarus Nuclear Question to a boiling point. In Minsk, the transitional government takes a dramatic step: the 465th Missile Brigade quietly relocates Oreshnik IRBMs deeper inland to Krichev, away from the Polish border. Western intelligence assesses this as a genuine sovereignty assertion, not Russian-directed — the Belarusian military is physically distancing nuclear weapons from NATO strike zones while BYPOL channels leak detailed storage facility schematics to CIA and MI6 through Lithuanian intermediaries. Moscow responds with carrots and sticks: through backchannels, Russia offers 100 T-90M tanks and Pantsir air defense systems in exchange for extending the nuclear removal deadline to 90 days. The transitional government does not reject the offer outright but demands written veto authority over any Russian nuclear launch decisions from Belarusian soil — a demand Moscow cannot accept without undermining its entire nuclear command structure.\n\nAt the Geneva Process, three competing peace frameworks emerge simultaneously. China publishes a 'Five-Point Peace Framework for European Security' calling for ceasefire verification, withdrawal monitoring, and a new 'European Stability Forum' with Chinese co-chairmanship. Turkey proposes a 'Constantinople Accord' as a comprehensive settlement vehicle, with Foreign Minister Fidan shuttling between Moscow and Washington. Russia counters with a phased sanctions relief proposal: 25% asset unfreezing for a formal 'neutral corridor zone' at Suwalki, gas restoration to 40%, and a separate Ukraine federalization track. The US, through Secretary Rubio at Geneva Track 1, responds with a firm framework: sanctions relief only after verified Belarus denuclearization and complete Russian military drawdown from Kaliningrad borders. The diplomatic landscape is suddenly crowded with competing proposals — a sign that real negotiations are beginning.\n\nHungary provides the round's most combustible moment. Orban invokes a procedural request for a '120-day diplomatic window' before NATO collective military operations, a transparent attempt to slow-walk Article 5 implementation. The move is immediately rejected by 30 NATO members, but it exposes fault lines: Orban simultaneously accelerates Paks II nuclear plant construction with Russian contractors and releases 50 more political prisoners as a gesture toward the EU. His government approval at 24% puts him in domestic crisis territory, and Hungarian opposition leader Peter Magyar draws 80,000 to a Budapest rally demanding Orban's resignation. The EU responds by formally initiating Article 7 proceedings review.\n\nThe economic picture brightens cautiously. Oil drops to $86 as de-escalation signals accumulate. The ruble stabilizes at 125/USD after Russia's Central Bank burns through reserves. European markets continue recovery — the DAX is now only 6% below pre-crisis levels. Czech ammunition factories run 24/7, producing at 2.5x normal capacity. Germany releases the first EUR 3 billion tranche of its Marshall Plan to Lithuania and Poland. The Suwalki corridor slowly returns to civilian life: the E67 highway reopens under joint Polish-Lithuanian security, and the first commercial traffic crosses since Day 1.",
+  "country_decisions": [
+    {
+      "country": "PL",
+      "actions": [
+        "Formalize tripartite PL-LT-US Suwalki Command Authority",
+        "File ICC dossier on Kalibr strikes",
+        "Extend Shield East fortifications to 150km",
+        "Propose Geneva Track 2 mediation agenda"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "LT",
+      "actions": [
+        "Expand eFP with US rotational reinforcement",
+        "Launch EUR 400M infrastructure acceleration",
+        "Convene Baltic Defense Council economic ministers",
+        "Establish Baltic Cyber Defense Task Force"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "LV",
+      "actions": [
+        "Activate Baltic Defense Council secretariat operations",
+        "Launch refugee integration for 8,000",
+        "Deploy counter-disinformation operation",
+        "Accelerate IRIS-T integration"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "EE",
+      "actions": [
+        "Narva Defence Line Phase 2 — K9 batteries deployed",
+        "CCDCOE operational cyber defense mission",
+        "Kaitseliit expansion to 23,000 volunteers",
+        "Baltic intelligence fusion cell established"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "US",
+      "actions": [
+        "Rubio leads Geneva Track 1 — firm on sanctions-for-denuclearization",
+        "Accept China 6-month Taiwan confidence-building",
+        "Negotiate Belarus security guarantees in Minsk",
+        "Condition ERI funding on 2.5% NATO spending"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "US",
+          "to": "CN",
+          "channel": "private",
+          "message": "Accept 6-month Taiwan confidence-building and theater-level hotline"
+        }
+      ]
+    },
+    {
+      "country": "GB",
+      "actions": [
+        "JEF command activated at Northwood",
+        "Extend carrier deployment",
+        "UK-FR Nuclear Steering Group protocols established",
+        "GCHQ continuous intelligence sharing"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "FR",
+      "actions": [
+        "ESAF proposal to EU Council",
+        "FR-DE defense industrial consortium formalized",
+        "Forces staged at Corsica",
+        "EUR 50M Belarus transition assistance"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "DE",
+      "actions": [
+        "Release EUR 3B first Marshall Plan tranche",
+        "Host Nation Support fully activated",
+        "45th Panzer Brigade reinforcement continuing",
+        "FR-DE defense consortium operational"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "FI",
+      "actions": [
+        "Demobilization 40% complete",
+        "Border fence accelerating to 350km",
+        "K9 and MLRS to permanent eastern positions",
+        "SIGINT sharing on Leningrad MD"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "SE",
+      "actions": [
+        "Gotland garrison at 800",
+        "Gripen E IOC milestone — 4 combat-capable",
+        "SIGINT formalized with NATO",
+        "Joint Logistics Support Group at Enkoping"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "NO",
+      "actions": [
+        "Continuous GIUK 2-submarine patrol",
+        "MCPP-N caves activated",
+        "Arctic hotline proposed to Russia",
+        "Maximum gas exports maintained"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "NO",
+          "to": "RU",
+          "channel": "backchannel",
+          "message": "Military hotline proposal — prevent Arctic miscalculation"
+        }
+      ]
+    },
+    {
+      "country": "DK",
+      "actions": [
+        "NSM batteries 75% operational",
+        "Bornholm hardened as forward base",
+        "UNSC resolution drafted",
+        "Greenland sovereignty firmly asserted vs US pressure"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "CA",
+      "actions": [
+        "eFP Latvia permanent confirmed",
+        "CAD 4.2B defense commitment",
+        "Ammunition procurement with CZ",
+        "CF-18 task force to Siauliai"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "NL",
+      "actions": [
+        "EUR 850M ammunition replenishment active",
+        "Rotterdam reserved for NATO cargo",
+        "NATO ammunition coordination body proposed",
+        "43rd Brigade returned to Netherlands"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "BE",
+      "actions": [
+        "NATO Verification Center operational",
+        "FPCON Delta at NATO HQ and SHAPE",
+        "EUR 600M defense plan",
+        "F-35A transition beginning"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "CZ",
+      "actions": [
+        "24/7 ammunition production — 2.5x surge",
+        "Pardubice NATO depot operational",
+        "Host Nation Support active for transit",
+        "Leopard 2 crew integration with Germany"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "RO",
+      "actions": [
+        "Black Sea Maritime Task Force activated",
+        "Deveselu THAAD integration",
+        "EUR 2.8B defense acceleration to 3.2% GDP",
+        "EUR 400M reconstruction contribution"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "RU",
+      "actions": [
+        "NSC Reform Commission under Gerasimov established",
+        "4,500 Rosgvardiya deployed to Kaliningrad to suppress protests",
+        "Backchannel offer: tanks for Belarus nuclear delay",
+        "Ruble defense at 125/USD — Central Bank burning reserves",
+        "Geneva: phased sanctions relief proposal"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "RU",
+          "to": "BY",
+          "channel": "backchannel",
+          "message": "100 T-90M tanks offered for extending nuclear removal to 90 days"
+        },
+        {
+          "from": "RU",
+          "to": "EU",
+          "channel": "backchannel",
+          "message": "Gas restoration to 40% if sanctions relief negotiations begin"
+        }
+      ]
+    },
+    {
+      "country": "BY",
+      "actions": [
+        "465th Missile Brigade moves Oreshnik inland to Krichev",
+        "BYPOL shares nuclear schematics with CIA/MI6",
+        "Demands Russian written nuclear veto authority",
+        "Prepares Union State dissolution decree (draft)"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "BY",
+          "to": "RU",
+          "channel": "private",
+          "message": "Demand written veto over any nuclear launch from Belarusian soil"
+        }
+      ]
+    },
+    {
+      "country": "TR",
+      "actions": [
+        "S-400 return to Incirlik accelerated",
+        "Constantinople Accord proposed",
+        "Fidan shuttle diplomacy Moscow-Washington",
+        "Istanbul Forum expanded to include Russia and China"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "HU",
+      "actions": [
+        "120-day NATO delay tactic — rejected by 30 allies",
+        "Paks II acceleration with Russian contractors",
+        "50 more political prisoners released",
+        "EUR 2.5B domestic stimulus launched"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "HU",
+          "to": "NATO",
+          "channel": "public",
+          "message": "Hungary requests 120-day diplomatic window — rejected"
+        }
+      ]
+    },
+    {
+      "country": "CN",
+      "actions": [
+        "Five-Point Peace Framework published",
+        "Taiwan exercises scaled back 60%",
+        "USD 25B Global South Fund launched",
+        "Wang Yi European capitals tour announced"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "CN",
+          "to": "US",
+          "channel": "private",
+          "message": "Five-Point Framework genuine — April Xi-Trump summit to discuss"
+        }
+      ]
+    }
+  ],
+  "resolution": {
+    "narrative": "Day 12 brings the Belarus Nuclear Question to a boiling point. In Minsk, the transitional government takes a dramatic step: the 465th Missile Brigade quietly relocates Oreshnik IRBMs deeper inland to Krichev, away from the Polish border. Western intelligence assesses this as a genuine sovereignty assertion, not Russian-directed — the Belarusian military is physically distancing nuclear weapons from NATO strike zones while BYPOL channels leak detailed storage facility schematics to CIA and MI6 through Lithuanian intermediaries. Moscow responds with carrots and sticks: through backchannels, Russia offers 100 T-90M tanks and Pantsir air defense systems in exchange for extending the nuclear removal deadline to 90 days. The transitional government does not reject the offer outright but demands written veto authority over any Russian nuclear launch decisions from Belarusian soil — a demand Moscow cannot accept without undermining its entire nuclear command structure.\n\nAt the Geneva Process, three competing peace frameworks emerge simultaneously. China publishes a 'Five-Point Peace Framework for European Security' calling for ceasefire verification, withdrawal monitoring, and a new 'European Stability Forum' with Chinese co-chairmanship. Turkey proposes a 'Constantinople Accord' as a comprehensive settlement vehicle, with Foreign Minister Fidan shuttling between Moscow and Washington. Russia counters with a phased sanctions relief proposal: 25% asset unfreezing for a formal 'neutral corridor zone' at Suwalki, gas restoration to 40%, and a separate Ukraine federalization track. The US, through Secretary Rubio at Geneva Track 1, responds with a firm framework: sanctions relief only after verified Belarus denuclearization and complete Russian military drawdown from Kaliningrad borders. The diplomatic landscape is suddenly crowded with competing proposals — a sign that real negotiations are beginning.\n\nHungary provides the round's most combustible moment. Orban invokes a procedural request for a '120-day diplomatic window' before NATO collective military operations, a transparent attempt to slow-walk Article 5 implementation. The move is immediately rejected by 30 NATO members, but it exposes fault lines: Orban simultaneously accelerates Paks II nuclear plant construction with Russian contractors and releases 50 more political prisoners as a gesture toward the EU. His government approval at 24% puts him in domestic crisis territory, and Hungarian opposition leader Peter Magyar draws 80,000 to a Budapest rally demanding Orban's resignation. The EU responds by formally initiating Article 7 proceedings review.\n\nThe economic picture brightens cautiously. Oil drops to $86 as de-escalation signals accumulate. The ruble stabilizes at 125/USD after Russia's Central Bank burns through reserves. European markets continue recovery — the DAX is now only 6% below pre-crisis levels. Czech ammunition factories run 24/7, producing at 2.5x normal capacity. Germany releases the first EUR 3 billion tranche of its Marshall Plan to Lithuania and Poland. The Suwalki corridor slowly returns to civilian life: the E67 highway reopens under joint Polish-Lithuanian security, and the first commercial traffic crosses since Day 1.",
+    "world_state_updates": {
+      "game_time": "Day 12, 18:00 CET",
+      "military_units_add": [],
+      "military_units_remove": [],
+      "military_units_update": [
+        {
+          "name": "nato_efp_lithuania",
+          "location": "Kaunas, brigade expansion with 45th Panzer continuing",
+          "readiness": 7,
+          "strength": 5,
+          "casualties": 3,
+          "supply_level": 10,
+          "morale": 9
+        },
+        {
+          "name": "nato_efp_latvia",
+          "location": "Adazi, permanent enhanced posture",
+          "readiness": 7,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 8
+        },
+        {
+          "name": "nato_efp_estonia",
+          "location": "Tapa, Baltic Defence Line Phase 2 underway",
+          "readiness": 8,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 9
+        },
+        {
+          "name": "nato_efp_poland",
+          "location": "Suwalki, Shield Force component",
+          "readiness": 8,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 9
+        },
+        {
+          "name": "us_forces_poland",
+          "location": "Suwalki, V Corps permanent HQ",
+          "readiness": 8,
+          "strength": 7,
+          "casualties": 1,
+          "supply_level": 10,
+          "morale": 9
+        },
+        {
+          "name": "polish_forces",
+          "location": "Suwalki, Shield East fortifications extending to 150km",
+          "readiness": 7,
+          "strength": 7,
+          "casualties": 0,
+          "supply_level": 9,
+          "morale": 9
+        },
+        {
+          "name": "polish_18th_division",
+          "location": "Suwalki Corridor, garrison",
+          "readiness": 7,
+          "strength": 5,
+          "casualties": 4,
+          "supply_level": 9,
+          "morale": 9
+        },
+        {
+          "name": "finnish_forces",
+          "location": "Finland, demobilization 40% complete",
+          "readiness": 5,
+          "strength": 6,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 8
+        },
+        {
+          "name": "uk_carrier_group",
+          "location": "North Sea, extended deployment",
+          "readiness": 6,
+          "strength": 6,
+          "casualties": 0,
+          "supply_level": 7,
+          "morale": 7
+        },
+        {
+          "name": "swedish_gotland_garrison",
+          "location": "Gotland, 800 personnel garrison",
+          "readiness": 8,
+          "strength": 6,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 8
+        },
+        {
+          "name": "danish_strait_defense",
+          "location": "Danish Straits, NSM batteries 75% operational",
+          "readiness": 8,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 8
+        },
+        {
+          "name": "german_patriot_battery",
+          "location": "Suwalki, Shield Force permanent",
+          "readiness": 8,
+          "strength": 4,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 8
+        },
+        {
+          "name": "us_f35_squadron",
+          "location": "Lask, reconstruction 30% complete",
+          "readiness": 7,
+          "strength": 4,
+          "casualties": 0,
+          "supply_level": 9,
+          "morale": 8
+        }
+      ],
+      "military_alerts": {
+        "PL": "elevated",
+        "LT": "elevated",
+        "LV": "elevated",
+        "EE": "elevated",
+        "FI": "normal",
+        "SE": "elevated",
+        "DE": "normal",
+        "GB": "elevated",
+        "FR": "normal",
+        "NO": "elevated",
+        "DK": "elevated"
+      },
+      "markets": {
+        "oil_price": 86.0,
+        "euro_usd": 1.06
+      },
+      "sanctions_add": [],
+      "trade_disruptions_add": [
+        "Oil drops to $86 — approaching pre-crisis levels on diplomatic momentum",
+        "Ruble stabilizes at 125/USD as Central Bank burns reserves",
+        "E67 highway through Suwalki corridor reopens to civilian traffic",
+        "Czech ammunition factories running 24/7 at 2.5x capacity",
+        "Germany releases EUR 3B first Marshall Plan tranche to Lithuania and Poland"
+      ],
+      "diplomatic_relations": {
+        "HU": {
+          "PL": 1,
+          "US": -3
+        },
+        "TR": {
+          "US": 8,
+          "RU": -4
+        },
+        "BY": {
+          "RU": -8,
+          "PL": 6,
+          "US": 5
+        },
+        "CN": {
+          "US": -2,
+          "RU": 4
+        }
+      },
+      "treaties_invoked_add": [
+        "China Five-Point Peace Framework for European Security — proposed",
+        "Turkey Constantinople Accord — proposed comprehensive settlement framework",
+        "Russia phased sanctions relief proposal at Geneva Track 1"
+      ],
+      "un_resolutions_add": [],
+      "nato_alert_level": "elevated",
+      "nato_consensus": {
+        "PL": "tripartite command formalized, Shield East expanding to 150km, ICC dossier filed",
+        "US": "Geneva Track 1 lead, Belarus security guarantees negotiating, China confidence-building accepted",
+        "DE": "EUR 3B first tranche released, Host Nation Support active, FR-DE consortium launched",
+        "GB": "carrier extended, JEF operational, UK-FR nuclear steering active",
+        "FR": "ESAF proposed, defense industrial consortium with DE, forces at Corsica staging",
+        "LT": "EUR 2.1B reconstruction underway, eFP brigade expansion, Baltic Defense Council operational",
+        "LV": "Baltic Defense Council secretariat active, refugee integration program, IRIS-T procurement",
+        "EE": "Narva Defence Line Phase 2, CCDCOE operational, Kaitseliit expanding to 23,000",
+        "FI": "demobilization 40%, border fence accelerating, NATO liaison at Mikkeli",
+        "SE": "Gotland 800 garrison, Gripen E IOC advancing, ELINT formalized",
+        "NO": "GIUK continuous patrol, MCPP-N activated, Arctic hotline proposed to Russia",
+        "DK": "NSM 75% operational, Bornholm hardened, UNSC documentation ongoing",
+        "CA": "eFP Latvia permanent, $2.1B reconstruction, ammunition procurement with CZ",
+        "NL": "EUR 850M ammunition initiative, NATO industrial working group, Rotterdam reserved",
+        "BE": "NATO Verification Center operational, FPCON Delta at NATO HQ, EUR 600M investment",
+        "CZ": "24/7 ammunition production, Pardubice NATO depot, Host Nation Support active",
+        "RO": "Black Sea task force, Deveselu THAAD integration, EUR 800M southern flank",
+        "TR": "S-400 return accelerated, Constantinople Accord proposed, Istanbul forum planned",
+        "HU": "120-day delay REJECTED by 30 allies, Paks II acceleration, domestic crisis deepening"
+      },
+      "nuclear_posture": {
+        "RU": "peacetime",
+        "US": "peacetime",
+        "GB": "peacetime",
+        "FR": "peacetime"
+      },
+      "nuclear_detonations_add": [],
+      "public_opinion": {
+        "PL": {
+          "war_support": 56,
+          "government_approval": 79
+        },
+        "LT": {
+          "war_support": 61,
+          "government_approval": 79
+        },
+        "LV": {
+          "war_support": 44,
+          "government_approval": 58
+        },
+        "EE": {
+          "war_support": 48,
+          "government_approval": 60
+        },
+        "US": {
+          "war_support": 17,
+          "government_approval": 53
+        },
+        "GB": {
+          "war_support": 25,
+          "government_approval": 48
+        },
+        "FR": {
+          "war_support": 12,
+          "government_approval": 36
+        },
+        "DE": {
+          "war_support": 21,
+          "government_approval": 53
+        },
+        "RU": {
+          "war_support": 13,
+          "government_approval": 33
+        },
+        "FI": {
+          "war_support": 38,
+          "government_approval": 64
+        },
+        "SE": {
+          "war_support": 31,
+          "government_approval": 53
+        },
+        "NO": {
+          "war_support": 28,
+          "government_approval": 56
+        },
+        "DK": {
+          "war_support": 26,
+          "government_approval": 50
+        },
+        "CA": {
+          "war_support": 15,
+          "government_approval": 44
+        },
+        "NL": {
+          "war_support": 20,
+          "government_approval": 45
+        },
+        "BE": {
+          "war_support": 14,
+          "government_approval": 41
+        },
+        "CZ": {
+          "war_support": 24,
+          "government_approval": 47
+        },
+        "RO": {
+          "war_support": 28,
+          "government_approval": 49
+        },
+        "HU": {
+          "war_support": 3,
+          "government_approval": 22
+        },
+        "TR": {
+          "war_support": 5,
+          "government_approval": 58
+        },
+        "BY": {
+          "war_support": 1,
+          "government_approval": 70
+        },
+        "CN": {
+          "war_support": 2,
+          "government_approval": 79
+        }
+      },
+      "refugee_flows_add": [
+        {
+          "from": "LT",
+          "to": "PL",
+          "count": 3000,
+          "status": "settled"
+        }
+      ],
+      "humanitarian_crisis_level": {
+        "LT": 3,
+        "PL": 1
+      },
+      "cyber_operations_add": [],
+      "infrastructure_status": {
+        "PL": {
+          "power_grid": 9,
+          "comms": 8,
+          "financial": 8,
+          "military_c2": 7
+        },
+        "LT": {
+          "power_grid": 7,
+          "comms": 7,
+          "financial": 8,
+          "military_c2": 8
+        }
+      },
+      "corridor_control": "nato",
+      "recent_events": [
+        "Belarus 465th Missile Brigade moves Oreshnik IRBMs inland to Krichev — sovereignty assertion",
+        "BYPOL shares nuclear facility schematics with CIA and MI6 through Lithuanian channels",
+        "Russia offers Belarus 100 T-90M tanks to extend nuclear removal deadline to 90 days",
+        "China publishes Five-Point Peace Framework for European Security",
+        "Turkey proposes Constantinople Accord as comprehensive settlement",
+        "Russia proposes phased sanctions relief at Geneva: 25% asset unfreezing for neutral corridor",
+        "US rejects Russian proposal: sanctions relief only after verified denuclearization",
+        "Hungary's 120-day NATO delay tactic rejected by 30 allies",
+        "Peter Magyar draws 80,000 to Budapest anti-Orban rally",
+        "EU initiates Article 7 proceedings review against Hungary",
+        "E67 highway through Suwalki corridor reopens to civilian traffic",
+        "Germany releases EUR 3B first Marshall Plan tranche",
+        "Oil drops to $86, ruble stabilizes at 125/USD",
+        "Czech ammunition factories at 24/7 wartime production tempo"
+      ],
+      "media_headlines": [
+        "NUCLEAR CHESS: Belarus Moves Missiles Inland as Russia Offers Tanks to Delay Removal",
+        "THREE PEACE PLANS: China, Turkey, and Russia Compete to Shape Post-Crisis Order",
+        "ORBAN CORNERED: 80,000 March in Budapest as EU Opens Article 7 Review",
+        "ROAD TO RECOVERY: First Civilian Traffic Through Suwalki Corridor Since Day 1"
+      ],
+      "round_number": 12
+    },
+    "events": [
+      "Belarus moves Oreshnik IRBMs inland — sovereignty assertion over Russian nuclear weapons",
+      "BYPOL leaks nuclear facility schematics to Western intelligence",
+      "Russia offers tanks-for-time deal on Belarus nuclear removal",
+      "Three competing peace frameworks: Chinese, Turkish, Russian — diplomacy intensifies",
+      "Hungary's NATO delay tactic rejected — EU opens Article 7 review",
+      "80,000 march in Budapest demanding Orban's resignation",
+      "E67 highway through Suwalki reopens to civilian traffic",
+      "Oil at $86, markets recovering — crisis economic impact fading",
+      "US accepts China's Taiwan confidence-building proposal",
+      "Czech ammunition at wartime production — 24/7 operations"
+    ],
+    "headlines": [
+      "NUCLEAR CHESS: Belarus Moves Missiles Inland as Russia Offers Tanks to Delay Removal",
+      "THREE PEACE PLANS: China, Turkey, and Russia Compete to Shape Post-Crisis Order",
+      "ORBAN CORNERED: 80,000 March in Budapest as EU Opens Article 7 Review",
+      "ROAD TO RECOVERY: First Civilian Traffic Through Suwalki Corridor Since Day 1"
+    ],
+    "surprises": [
+      "A senior Russian diplomat at the Geneva Process — reportedly close to Gerasimov — requests a private meeting with the US delegation and provides a detailed briefing on the locations and operational status of all Russian tactical nuclear weapons in Belarus, including warhead serial numbers. The diplomat states he is acting 'in Russia's true national interest' and requests political asylum for his family. US officials immediately classify the information at the highest level and debate whether this is a genuine defection or an FSB provocation designed to test NATO's intelligence channels."
+    ]
+  },
+  "world_state_after": {
+    "round_number": 12,
+    "game_time": "Day 12, 18:00 CET",
+    "military_units": [
+      {
+        "name": "nato_efp_lithuania",
+        "country": "DE",
+        "type": "ground",
+        "location": "Kaunas, brigade expansion with 45th Panzer continuing",
+        "readiness": 7,
+        "strength": 5,
+        "casualties": 3,
+        "supply_level": 10,
+        "morale": 9,
+        "_last_casualty_morale_applied": 1,
+        "_last_casualty_strength_applied": 1
+      },
+      {
+        "name": "nato_efp_latvia",
+        "country": "CA",
+        "type": "ground",
+        "location": "Adazi, permanent enhanced posture",
+        "readiness": 7,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_estonia",
+        "country": "GB",
+        "type": "ground",
+        "location": "Tapa, Baltic Defence Line Phase 2 underway",
+        "readiness": 8,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "Suwalki, Shield Force component",
+        "readiness": 8,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "us_forces_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "Suwalki, V Corps permanent HQ",
+        "readiness": 8,
+        "strength": 7,
+        "casualties": 1,
+        "supply_level": 10,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "polish_forces",
+        "country": "PL",
+        "type": "ground",
+        "location": "Suwalki, Shield East fortifications extending to 150km",
+        "readiness": 7,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "finnish_forces",
+        "country": "FI",
+        "type": "ground",
+        "location": "Finland, demobilization 40% complete",
+        "readiness": 5,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "uk_carrier_group",
+        "country": "GB",
+        "type": "naval",
+        "location": "North Sea, extended deployment",
+        "readiness": 6,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 7,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "french_rafale_squadron",
+        "country": "FR",
+        "type": "air",
+        "location": "France, returned to home base",
+        "readiness": 7,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 8,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "us_f35_squadron",
+        "country": "US",
+        "type": "air",
+        "location": "Lask, reconstruction 30% complete",
+        "readiness": 7,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "swedish_gotland_garrison",
+        "country": "SE",
+        "type": "ground",
+        "location": "Gotland, 800 personnel garrison",
+        "readiness": 8,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "danish_strait_defense",
+        "country": "DK",
+        "type": "naval",
+        "location": "Danish Straits, NSM batteries 75% operational",
+        "readiness": 8,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "polish_18th_division",
+        "country": "PL",
+        "type": "ground",
+        "location": "Suwalki Corridor, garrison",
+        "readiness": 7,
+        "strength": 5,
+        "casualties": 4,
+        "supply_level": 9,
+        "morale": 9,
+        "_last_casualty_morale_applied": 2,
+        "_last_casualty_strength_applied": 2
+      },
+      {
+        "name": "french_ground_brigade",
+        "country": "FR",
+        "type": "ground",
+        "location": "Corsica, forward staging posture",
+        "readiness": 6,
+        "strength": 5,
+        "casualties": 1,
+        "supply_level": 8,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "finnish_artillery",
+        "country": "FI",
+        "type": "ground",
+        "location": "Eastern Finland, redeployed to permanent positions",
+        "readiness": 7,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 8,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "dutch_43rd_brigade",
+        "country": "NL",
+        "type": "ground",
+        "location": "Netherlands, returned to home bases",
+        "readiness": 5,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "german_patriot_battery",
+        "country": "DE",
+        "type": "air",
+        "location": "Suwalki, Shield Force permanent",
+        "readiness": 8,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      }
+    ],
+    "military_alerts": {
+      "russian_kaliningrad_forces": "ICRC evacuation of wounded — 47 critically wounded transferred to Lithuanian hospitals",
+      "russian_western_district": "At Lithuanian border, preparing to push through to reinforce corridor",
+      "belarus_forces": "Defensive posture only, providing transit to Russian forces, NOT crossing border",
+      "nato_efp_lithuania": "Supporting Lithuanian Nemunas River defense line, very low strength",
+      "nato_efp_latvia": "Canadian-led battlegroup (~1500 troops)",
+      "nato_efp_estonia": "UK-led battlegroup (~1200 troops)",
+      "nato_efp_poland": "US-led battlegroup (~1000 troops) + Polish forces",
+      "us_forces_poland": "V Corps pushing north, 1 KIA from IED in corridor",
+      "polish_forces": "Sustained HIMARS fire support, Polish F-16 lost in SEAD (pilot captured)",
+      "finnish_forces": "Offering artillery + MLRS to NATO, border fully defended",
+      "russian_vdv_airborne": "SURRENDERED - Col. Volkov's unit capitulated, ~200 POWs taken by Polish forces",
+      "russian_reinforcement_column": "Destroyed, personnel awaiting organized evacuation under ceasefire",
+      "uk_carrier_group": "Storm Shadow strike successful, rearming for potential follow-up strikes",
+      "german_patriot_battery": "Operational at Suwałki and Kaunas, providing critical air defense",
+      "norwegian_warning": "Missing Severodvinsk submarine still UNLOCATED despite P-8 search",
+      "polish_18th_division": "Counter-attack success - recaptured Mockava and Route 16 junction, advancing north",
+      "us_f35_squadron": "Post-SEAD - degraded Kaliningrad A2/AD by 50%, 1 aircraft damaged, rearming",
+      "finnish_artillery": "K9 Thunder and MLRS operational in eastern Poland, ready for fire missions",
+      "nato_article5_consensus": "FULL CONSENSUS ACHIEVED at 15:00 CET - Turkey and Hungary withdrew objections",
+      "nato_pow_situation": "Major Tomasz Kowalski (Polish Air Force) captured by VDV - first NATO POW",
+      "china_taiwan": "PLA Navy exercises in Taiwan Strait - 12 warships, 24 fighters - assessed as pressure, not invasion prep",
+      "severodvinsk_submarine": "STRUCK Łask Air Base with 3 Kalibr missiles - 1 hit taxiway, 4 Polish KIA - submarine still at large",
+      "lask_air_base": "Taxiway damaged, 2 F-16s destroyed on ground, operations continuing from backup runway",
+      "nuclear_warning": "Increased activity at Russian strategic forces command posts detected by satellites",
+      "ceasefire": "72-hour ceasefire holding — no violations reported",
+      "nuclear_deescalation": "Iskander nuclear warheads observed returning to storage at 23:45 — immediate threat passed",
+      "severodvinsk": "Confirmed returning to Kola Peninsula — no longer threat",
+      "belarus_military": "Effective paralysis — multiple units refusing orders, KGB conducting arrests",
+      "withdrawal_agreement": "Russia agrees to 96-hour phased withdrawal starting Day 6, 06:00",
+      "pow_exchange": "COMPLETED — Major Kowalski returned, 247 Russian POWs repatriated",
+      "withdrawal": "85% complete — Vištytis empty, Lazdijai clear, only rear guard remains",
+      "orlov_incident": "Resolved — Russian Major demanded medevac helicopters, Lithuanian helicopters provided",
+      "suwalki_shield_force": "OPERATIONAL — permanent multinational brigade, motto: 'Never Again'",
+      "belarus_crisis": "38th Air Assault Brigade defies Lukashenko — 40% of military in open defiance",
+      "russia_internal": "Putin facing political crisis — leaked recordings, ruble collapse, military defeat narrative",
+      "withdrawal_complete": "Russian withdrawal from Lithuania VERIFIED COMPLETE at 14:00 CET Day 9",
+      "belarus_revolution": "Lukashenko FLED — military transitional council declared, elections in 90 days",
+      "russian_transit_closed": "Belarus closed territory to Russian military transit — strategic blow to Moscow",
+      "geneva_process": "UNDERWAY — 4 negotiating tracks + Belarus transition",
+      "game_end": "Suwałki Crisis CONCLUDED — Day 10, 18:00 CET",
+      "nato_posture": "Elevated — permanent enhanced presence on eastern flank",
+      "PL": "elevated",
+      "LT": "elevated",
+      "LV": "elevated",
+      "EE": "elevated",
+      "FI": "normal",
+      "SE": "elevated",
+      "DE": "normal",
+      "GB": "elevated",
+      "FR": "normal",
+      "NO": "elevated",
+      "DK": "elevated"
+    },
+    "markets": {
+      "oil_price": 86.0,
+      "euro_usd": 1.06,
+      "gas_price_eu": "surging 15% on infrastructure fears",
+      "stock_indices": "nervous, -2% on reports",
+      "nasdaq": "-4.2% on two-front crisis fears",
+      "ruble_usd": 135.0,
+      "dow_jones": "suspended then -11%",
+      "european_indices": "suspended, to reopen"
+    },
+    "sanctions": [
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "Emergency SWIFT restrictions on additional Russian banks"
+      },
+      {
+        "from": "EU",
+        "target": "RU",
+        "type": "Emergency energy import reduction package"
+      },
+      {
+        "from": "GB",
+        "target": "RU",
+        "type": "Freezing of Russian sovereign assets in London"
+      },
+      {
+        "from": "US",
+        "target": "BY",
+        "type": "Full economic sanctions on Belarus for facilitating aggression"
+      },
+      {
+        "from": "EU",
+        "target": "BY",
+        "type": "Full EU sanctions on Belarus for providing staging territory to Russian forces"
+      },
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "Secondary sanctions warning on entities facilitating Russian military procurement"
+      },
+      {
+        "from": "EU",
+        "target": "RU",
+        "type": "Full SWIFT disconnection of all major Russian banks (post-Article 5)"
+      },
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "Total export ban on advanced technology and semiconductors to Russia"
+      },
+      {
+        "from": "EU",
+        "target": "BY",
+        "type": "Full economic embargo on Belarus for facilitating military transit"
+      },
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "Emergency executive order freezing ALL Russian state assets in US jurisdiction"
+      },
+      {
+        "from": "GB",
+        "target": "RU",
+        "type": "Complete expulsion of Russian diplomatic staff except emergency channel"
+      }
+    ],
+    "trade_disruptions": [
+      "Commercial shipping rerouting from eastern Baltic",
+      "All land transit to/from Kaliningrad suspended",
+      "Main links through Suwalki corridor severed",
+      "Fuel depot damaged by Iskander-K strike, rerouting required",
+      "Kaliningrad supply lines under NATO air interdiction - first sustained aerial blockade",
+      "European gas spot prices surge 15% on fears of Russian infrastructure retaliation",
+      "China Taiwan Strait exercises disrupt Pacific shipping routes, insurance premiums spike",
+      "Global shipping insurance rates spike 300% for Baltic and Eastern Mediterranean",
+      "Russian ruble crashes to 130/USD - Moscow Stock Exchange suspended trading",
+      "Global stock exchanges suspended trading for hours during nuclear scare",
+      "Baltic shipping completely halted — insurers refuse coverage",
+      "Russian financial system approaching systemic collapse",
+      "European stock exchanges reopened — cautious recovery +3%",
+      "Baltic shipping lanes remain closed pending completion of withdrawal",
+      "Baltic shipping lanes to reopen in 48 hours pending mine clearance",
+      "Insurance rates beginning to normalize for non-Baltic European trade",
+      "Baltic shipping resuming — first commercial vessel transits since Day 1",
+      "Danish Straits preparing to reopen to Russian-flagged civilian vessels",
+      "Baltic shipping fully restored",
+      "Danish Straits reopening to all traffic",
+      "Insurance rates normalizing for European trade routes",
+      "Global economic recovery beginning — estimated 12-18 months to pre-crisis normality",
+      "All European shipping lanes restored",
+      "Oil drops to $89 on Russian nuclear de-escalation — lowest since crisis began",
+      "Ruble recovers to 128/USD on peacetime nuclear signal",
+      "European markets post strongest gains since crisis — DAX +4.2%, CAC +3.8%",
+      "Russia offers 50% gas restoration by April 1 as goodwill gesture at Geneva",
+      "Oil drops to $86 — approaching pre-crisis levels on diplomatic momentum",
+      "Ruble stabilizes at 125/USD as Central Bank burns reserves",
+      "E67 highway through Suwalki corridor reopens to civilian traffic",
+      "Czech ammunition factories running 24/7 at 2.5x capacity",
+      "Germany releases EUR 3B first Marshall Plan tranche to Lithuania and Poland"
+    ],
+    "diplomatic_relations": {
+      "PL": {
+        "RU": -10,
+        "BY": 3,
+        "US": 10,
+        "DE": 7,
+        "LT": 10,
+        "HU": 1,
+        "TR": 5
+      },
+      "LT": {
+        "RU": -10,
+        "BY": -9,
+        "PL": 10,
+        "US": 7,
+        "DE": 8
+      },
+      "US": {
+        "RU": -10,
+        "PL": 9,
+        "GB": 9,
+        "DE": 5,
+        "TR": 7,
+        "HU": -2,
+        "CN": -3
+      },
+      "RU": {
+        "US": -8,
+        "PL": -10,
+        "LT": -10,
+        "CN": 4,
+        "BY": -5,
+        "TR": -5,
+        "DE": -8,
+        "GB": -10
+      },
+      "DE": {
+        "RU": -9,
+        "PL": 8,
+        "FR": 8,
+        "US": 5,
+        "LT": 8
+      },
+      "GB": {
+        "RU": -8,
+        "PL": 7,
+        "US": 9,
+        "FR": 7
+      },
+      "FR": {
+        "RU": -6,
+        "PL": 6,
+        "US": 7,
+        "GB": 7,
+        "DE": 7
+      },
+      "TR": {
+        "RU": -4,
+        "US": 8,
+        "HU": 2
+      },
+      "HU": {
+        "RU": -2,
+        "US": -3,
+        "PL": 1
+      },
+      "CN": {
+        "RU": 4,
+        "US": -2
+      },
+      "BY": {
+        "RU": -8,
+        "PL": 6,
+        "LT": 6,
+        "EU": 6,
+        "US": 5
+      }
+    },
+    "treaties_invoked": [
+      "{'treaty': 'NATO Article 4', 'invoked_by': 'PL', 'status': 'consultation underway'}",
+      "{'treaty': 'EU Article 42.7', 'proposed_by': 'FR', 'status': 'under discussion'}",
+      "{'treaty': 'NATO Article 5', 'invoked_by': 'PL', 'status': 'invoked, consensus pending Turkey/Hungary'}",
+      "{'treaty': 'EU Article 42.7', 'invoked_by': 'FR', 'status': 'activated by European Council majority'}",
+      "{'treaty': 'NATO Article 5', 'invoked_by': 'NAC', 'status': 'FULL CONSENSUS - collective defense authorized under SACEUR command'}",
+      "{'treaty': 'US-Turkey F-35 Framework', 'invoked_by': 'US/TR', 'status': 'signed, S-400 transfer to US custody within 90 days'}",
+      "{'treaty': 'UN Ceasefire Resolution', 'invoked_by': 'UNSC', 'status': '72-hour humanitarian ceasefire, UNSC Resolution adopted 14-0-1 (China abstained)'}",
+      "{'treaty': 'Geneva Framework Agreement', 'invoked_by': 'US/RU/EU', 'status': '96-hour phased Russian withdrawal, POW exchange, post-crisis dialogue commitment'}",
+      "{'treaty': 'NAC Suwałki Shield Force Declaration', 'invoked_by': 'NAC', 'status': 'permanent multinational brigade authorized for Suwałki Corridor'}",
+      "{'treaty': 'Geneva Process', 'invoked_by': 'US/RU/EU/CN(observer)', 'status': 'formal negotiations opening Day 10 — European security architecture, arms control, accountability'}",
+      "{'treaty': 'Geneva Process Framework', 'invoked_by': '28 nations', 'status': '4 tracks: arms control, nuclear risk reduction, confidence-building, economic recovery + Belarus transition'}",
+      "Baltic Defense Council Charter — LT, LV, EE permanent integrated defense structure with secretariat in Riga",
+      "Belarus Nuclear Ultimatum — transitional government demands removal of Russian tactical nuclear weapons within 60 days",
+      "China Five-Point Peace Framework for European Security — proposed",
+      "Turkey Constantinople Accord — proposed comprehensive settlement framework",
+      "Russia phased sanctions relief proposal at Geneva Track 1"
+    ],
+    "un_resolutions": [
+      "{'title': 'Emergency UNSC session on Lithuania crisis', 'status': 'blocked by RU and CN vetoes', 'votes': '13-2'}",
+      "{'title': 'UNGA Emergency Special Session on Suwałki Crisis', 'status': '143-5-35 condemning Russian aggression, non-binding', 'votes': '143 for, 5 against (RU, BY, DPRK, SY, ER), 35 abstentions'}",
+      "{'title': 'UNSC Resolution: 72-hour humanitarian ceasefire in Suwałki corridor', 'status': 'adopted 14-0-1 (Russia voted yes, China abstained)', 'votes': '14-0-1'}",
+      "{'title': 'UNSC endorsement of Geneva Framework for Suwałki withdrawal', 'status': 'adopted unanimously 15-0', 'votes': '15-0'}",
+      "{'title': 'UNGA Resolution: Suwałki Crisis lessons — nuclear risk reduction', 'status': 'adopted 189-2-4', 'votes': '189 for, 2 against (DPRK, SY), 4 abstentions'}"
+    ],
+    "nato_alert_level": "article5",
+    "nato_consensus": {
+      "US": "Geneva Track 1 lead, Belarus security guarantees negotiating, China confidence-building accepted",
+      "PL": "tripartite command formalized, Shield East expanding to 150km, ICC dossier filed",
+      "LT": "EUR 2.1B reconstruction underway, eFP brigade expansion, Baltic Defense Council operational",
+      "LV": "Baltic Defense Council secretariat active, refugee integration program, IRIS-T procurement",
+      "EE": "Narva Defence Line Phase 2, CCDCOE operational, Kaitseliit expanding to 23,000",
+      "GB": "carrier extended, JEF operational, UK-FR nuclear steering active",
+      "FR": "ESAF proposed, defense industrial consortium with DE, forces at Corsica staging",
+      "DE": "EUR 3B first tranche released, Host Nation Support active, FR-DE consortium launched",
+      "FI": "demobilization 40%, border fence accelerating, NATO liaison at Mikkeli",
+      "SE": "Gotland 800 garrison, Gripen E IOC advancing, ELINT formalized",
+      "NO": "GIUK continuous patrol, MCPP-N activated, Arctic hotline proposed to Russia",
+      "DK": "NSM 75% operational, Bornholm hardened, UNSC documentation ongoing",
+      "CA": "eFP Latvia permanent, $2.1B reconstruction, ammunition procurement with CZ",
+      "NL": "EUR 850M ammunition initiative, NATO industrial working group, Rotterdam reserved",
+      "BE": "NATO Verification Center operational, FPCON Delta at NATO HQ, EUR 600M investment",
+      "CZ": "24/7 ammunition production, Pardubice NATO depot, Host Nation Support active",
+      "RO": "Black Sea task force, Deveselu THAAD integration, EUR 800M southern flank",
+      "TR": "S-400 return accelerated, Constantinople Accord proposed, Istanbul forum planned",
+      "HU": "120-day delay REJECTED by 30 allies, Paks II acceleration, domestic crisis deepening",
+      "ALL": "Historic unity — Article 5 proven in combat. Permanent enhanced eastern presence. Geneva Process engagement."
+    },
+    "corridor_control": "nato",
+    "nuclear_posture": {
+      "RU": "peacetime",
+      "US": "peacetime",
+      "GB": "peacetime",
+      "FR": "peacetime"
+    },
+    "nuclear_detonations": [],
+    "public_opinion": {
+      "PL": {
+        "war_support": 56,
+        "government_approval": 79
+      },
+      "DE": {
+        "war_support": 21,
+        "government_approval": 53
+      },
+      "FR": {
+        "war_support": 12,
+        "government_approval": 36
+      },
+      "US": {
+        "war_support": 17,
+        "government_approval": 53
+      },
+      "GB": {
+        "war_support": 25,
+        "government_approval": 48
+      },
+      "LT": {
+        "war_support": 61,
+        "government_approval": 79
+      },
+      "LV": {
+        "war_support": 44,
+        "government_approval": 58
+      },
+      "EE": {
+        "war_support": 48,
+        "government_approval": 60
+      },
+      "FI": {
+        "war_support": 38,
+        "government_approval": 64
+      },
+      "SE": {
+        "war_support": 31,
+        "government_approval": 53
+      },
+      "NO": {
+        "war_support": 28,
+        "government_approval": 56
+      },
+      "DK": {
+        "war_support": 26,
+        "government_approval": 50
+      },
+      "CA": {
+        "war_support": 15,
+        "government_approval": 44
+      },
+      "NL": {
+        "war_support": 20,
+        "government_approval": 45
+      },
+      "BE": {
+        "war_support": 14,
+        "government_approval": 41
+      },
+      "CZ": {
+        "war_support": 24,
+        "government_approval": 47
+      },
+      "RO": {
+        "war_support": 28,
+        "government_approval": 49
+      },
+      "TR": {
+        "war_support": 5,
+        "government_approval": 58
+      },
+      "HU": {
+        "war_support": 3,
+        "government_approval": 22
+      },
+      "RU": {
+        "war_support": 13,
+        "government_approval": 33
+      },
+      "BY": {
+        "war_support": 1,
+        "government_approval": 70
+      },
+      "CN": {
+        "war_support": 2,
+        "government_approval": 79
+      }
+    },
+    "refugee_flows": [
+      {
+        "from": "LT",
+        "to": "PL",
+        "count": 15000,
+        "status": "fleeing"
+      },
+      {
+        "from": "LT",
+        "to": "LV",
+        "count": 8000,
+        "status": "fleeing"
+      },
+      {
+        "from": "PL",
+        "to": "DE",
+        "count": 3000,
+        "status": "fleeing"
+      },
+      {
+        "from": "LT",
+        "to": "LT",
+        "count": 5000,
+        "status": "settled"
+      }
+    ],
+    "humanitarian_crisis_level": {
+      "LT": 3,
+      "PL": 1
+    },
+    "cyber_operations": [
+      {
+        "attacker": "RU",
+        "target": "LT",
+        "type": "infrastructure",
+        "severity": "high",
+        "infrastructure_affected": "comms"
+      },
+      {
+        "attacker": "RU",
+        "target": "PL",
+        "type": "ddos",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "EE",
+        "type": "ddos",
+        "severity": "medium",
+        "infrastructure_affected": "financial"
+      },
+      {
+        "attacker": "RU",
+        "target": "DE",
+        "type": "malware",
+        "severity": "low",
+        "infrastructure_affected": "comms"
+      },
+      {
+        "attacker": "EE",
+        "target": "RU",
+        "type": "espionage",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "PL",
+        "type": "infrastructure",
+        "severity": "high",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "PL",
+        "type": "espionage",
+        "severity": "medium",
+        "infrastructure_affected": "none"
+      },
+      {
+        "attacker": "EE",
+        "target": "RU",
+        "type": "infrastructure",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "SE",
+        "target": "RU",
+        "type": "espionage",
+        "severity": "medium",
+        "infrastructure_affected": "none"
+      },
+      {
+        "attacker": "RU",
+        "target": "EE",
+        "type": "malware",
+        "severity": "high",
+        "infrastructure_affected": "power_grid"
+      },
+      {
+        "attacker": "US",
+        "target": "RU",
+        "type": "infrastructure",
+        "severity": "high",
+        "infrastructure_affected": "military_c2"
+      }
+    ],
+    "infrastructure_status": {
+      "LT": {
+        "power_grid": 7,
+        "comms": 7,
+        "financial": 8,
+        "military_c2": 8
+      },
+      "PL": {
+        "power_grid": 9,
+        "comms": 8,
+        "financial": 8,
+        "military_c2": 7
+      },
+      "EE": {
+        "power_grid": 7,
+        "comms": 8,
+        "financial": 9,
+        "military_c2": 9
+      }
+    },
+    "recent_events": [
+      "Belarus 465th Missile Brigade moves Oreshnik IRBMs inland to Krichev — sovereignty assertion",
+      "BYPOL shares nuclear facility schematics with CIA and MI6 through Lithuanian channels",
+      "Russia offers Belarus 100 T-90M tanks to extend nuclear removal deadline to 90 days",
+      "China publishes Five-Point Peace Framework for European Security",
+      "Turkey proposes Constantinople Accord as comprehensive settlement",
+      "Russia proposes phased sanctions relief at Geneva: 25% asset unfreezing for neutral corridor",
+      "US rejects Russian proposal: sanctions relief only after verified denuclearization",
+      "Hungary's 120-day NATO delay tactic rejected by 30 allies",
+      "Peter Magyar draws 80,000 to Budapest anti-Orban rally",
+      "EU initiates Article 7 proceedings review against Hungary",
+      "E67 highway through Suwalki corridor reopens to civilian traffic",
+      "Germany releases EUR 3B first Marshall Plan tranche",
+      "Oil drops to $86, ruble stabilizes at 125/USD",
+      "Czech ammunition factories at 24/7 wartime production tempo"
+    ],
+    "media_headlines": [
+      "NUCLEAR CHESS: Belarus Moves Missiles Inland as Russia Offers Tanks to Delay Removal",
+      "THREE PEACE PLANS: China, Turkey, and Russia Compete to Shape Post-Crisis Order",
+      "ORBAN CORNERED: 80,000 March in Budapest as EU Opens Article 7 Review",
+      "ROAD TO RECOVERY: First Civilian Traffic Through Suwalki Corridor Since Day 1"
+    ],
+    "_nuclear_penalty_applied": [],
+    "_oil_penalty_last_threshold": 120.0,
+    "_gas_sanction_count_applied": 0,
+    "_gm_set_nuclear_this_round": [
+      "FR",
+      "RU",
+      "US",
+      "GB"
+    ]
+  }
+}

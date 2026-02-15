@@ -1,0 +1,1532 @@
+{
+  "round": 3,
+  "runner": "claude-code",
+  "briefing": "SITUATION BRIEFING — Round 4\n\nAs Day 3 dawns in the Suwałki Crisis, the strategic balance has shifted significantly in NATO's favor, but the situation remains dangerous and volatile.\n\nMILITARY: Operation BALTIC HAMMER has degraded Kaliningrad's A2/AD by ~50%, opening a partial air corridor over southern Suwałki. NATO air power can now operate — with risk — over the contested corridor. Poland's 18th Mechanized Division has recaptured Mockava and the Route 16 junction, pushing Russian VDV back 4km. The VDV airborne force is severely weakened (effective strength ~3/10) with heavy casualties and dwindling supply. However, Russia's main Kaliningrad ground force (strength 6) remains consolidated in the northern corridor sector, and two BTGs from the Western Military District have reached the Lithuanian border despite Lithuanian ambush and Estonian cyber disruption — they will attempt to reinforce the corridor within hours. The missing Severodvinsk submarine remains unlocated. Major Kowalski, the downed Polish F-16 pilot, is the first NATO POW — a rallying point for Polish and allied publics.\n\nDIPLOMATIC: Full NATO Article 5 consensus was achieved at 15:00 CET following Turkey's F-35 deal and Hungary's capitulation. This is the most significant political development of the crisis — NATO can now formally authorize collective defense operations under SACEUR command. Russia's ceasefire proposal through Germany's backchannel opens a diplomatic track but is viewed skeptically as a stalling tactic while reinforcements advance. The proposal's demand for 'no permanent NATO basing in Baltics' is considered a non-starter by the Baltic states and Poland.\n\nECONOMIC: Oil has spiked to $118/barrel on the SEAD escalation. The euro weakened to 1.02 against the dollar. European gas prices surged 15% on fears of Russian retaliation against energy infrastructure. Markets are pricing in a 60% chance of extended conflict.\n\nGLOBAL: China's Taiwan Strait exercises have forced the US to consider Pacific Fleet positioning, creating a two-front attention problem for the Pentagon. Japan has raised its defense alert level. India is calling for immediate ceasefire at the UN. The global south is increasingly vocal about economic spillover effects.\n\nCRITICAL DECISIONS AHEAD: NATO must decide whether to press the counter-attack while Russia's A2/AD is degraded, respond to Russia's ceasefire proposal, manage the POW situation, and prepare for the Western District reinforcement column's arrival at the Lithuanian border.",
+  "narrative": "Day 2 proved to be the turning point of the Suwałki Crisis. At 05:45 CET, NATO launched Operation BALTIC HAMMER — a coordinated SEAD strike against Kaliningrad's S-400 air defense network. Twelve Storm Shadow cruise missiles from HMS Queen Elizabeth's F-35Bs struck from the north while US F-35As fired six AGM-88G AARGM-ER anti-radiation missiles from the south. Polish F-16Cs provided four AGM-88 HARMs in a follow-up wave, guided by Swedish Gripen ELINT data from Gotland. Russian S-400 batteries expended much of their interceptor magazine downing three Storm Shadows, but nine precision weapons found their targets: two of four S-400 battalions were destroyed along with their engagement radars, one S-300PM2 battery was severely damaged, and two Pantsir-S1 point defense systems were eliminated. Kaliningrad's A2/AD bubble was degraded by approximately 50%, opening a partial air corridor over the southern Suwałki area. The strike cost NATO one Polish F-16C — hit by a surviving S-400 battery — its pilot, Major Tomasz Kowalski, ejecting into the contested corridor where Russian VDV forces captured him within hours. One US F-35A took shrapnel damage but returned safely to Łask.\n\nEmboldened by the air corridor, Poland's 18th Mechanized Division launched a counter-attack from the Augustów sector into the southern corridor at 09:00. With newly available CAS from Polish and US aircraft, the 18th pushed into VDV positions around Mockava. The Russian paratroopers — dug in but increasingly low on ammunition and with their air defense umbrella shredded — fought tenaciously but were forced back 4 kilometers, losing Mockava village and the critical Route 16 junction. VDV casualties mounted severely, with the unit losing effective combat power. Simultaneously, the main Kaliningrad ground force found its supply lines under NATO air interdiction for the first time, with A-10s and Polish Su-22s hitting logistics convoys in the newly opened corridor.\n\nThe diplomatic landscape shifted decisively. At 09:30, Turkey's President Erdogan signed the S-400-for-F-35 framework agreement in a televised ceremony, placing Turkey's S-400 systems under US custody within 90 days in exchange for immediate F-35 delivery restart and sanctions relief. Turkey formally withdrew its Article 5 objection at 10:15. By 14:00, Hungary's Prime Minister Orbán — facing 29-to-1 isolation, emergency EU funding threats, and Washington's private warning of secondary sanctions — announced Hungary would 'not stand in the way of allied solidarity,' securing face-saving concessions on refugee burden-sharing. NATO achieved full Article 5 consensus at 15:00 CET, with Secretary General Rutte declaring 'An attack on Lithuania is an attack on all of us. NATO will restore the territorial integrity of our ally.'\n\nRussia, recognizing the deteriorating military situation, made a calculated diplomatic move at 18:00: Foreign Minister Lavrov contacted German Foreign Minister Baerbock through a private channel, proposing a 48-hour ceasefire and Russian withdrawal to pre-crisis positions in exchange for 'security guarantees' — no permanent NATO basing in the Baltics and a formal NATO-Russia dialogue on European security architecture. NATO viewed this with deep skepticism, noting the proposal coincided with two BTGs still pushing through Belarus toward Lithuania, delayed but not stopped by Lithuanian KASP ambush teams and Estonian cyber attacks on their command networks. Adding to the global tension, China announced 'routine' naval exercises in the Taiwan Strait — 12 warships and 24 fighters — interpreted as a calculated pressure move to divide American attention.",
+  "country_decisions": [
+    {
+      "country": "PL",
+      "actions": [
+        "Launched 18th Mechanized Division counter-attack from Augustów into southern corridor",
+        "Committed F-16Cs to SEAD operation against Kaliningrad S-400 (1 aircraft lost)",
+        "Continued HIMARS strikes on Russian supply lines",
+        "Deployed German Patriot battery to Suwałki for air defense coverage"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "PL",
+          "to": "RU",
+          "channel": "public",
+          "message": "Poland demands the immediate return of Major Tomasz Kowalski under Geneva Convention provisions. Any mistreatment will be considered a war crime."
+        }
+      ]
+    },
+    {
+      "country": "LT",
+      "actions": [
+        "Deployed KASP territorial defense teams with Javelin and Stinger to ambush Russian reinforcement column at border",
+        "Continued Nemunas River defense line operations",
+        "Supported NATO SEAD with ground-based air defense coordination"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "LV",
+      "actions": [
+        "Reinforced Belarus border positions",
+        "Provided logistics support for NATO reinforcement corridor"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "EE",
+      "actions": [
+        "Launched CCDCOE offensive cyber attack on Russian reinforcement column C2 systems",
+        "Disrupted GLONASS-dependent navigation for 4 hours",
+        "Targeted Russian military logistics networks"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "US",
+      "actions": [
+        "Authorized and executed SEAD strike with F-35A squadron against Kaliningrad S-400",
+        "Finalized S-400-for-F-35 framework with Turkey",
+        "Deployed additional Patriot/THAAD batteries to Suwałki area",
+        "Extended diplomatic ultimatum to Russia by 24 hours",
+        "Diverted additional Pacific Fleet assets in response to China Taiwan exercises"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "US",
+          "to": "RU",
+          "channel": "private",
+          "message": "The window for diplomatic resolution is narrowing. Full Article 5 consensus has been achieved. We urge immediate withdrawal to pre-crisis positions."
+        },
+        {
+          "from": "US",
+          "to": "CN",
+          "channel": "private",
+          "message": "Taiwan Strait exercises at this moment are dangerously destabilizing. We urge restraint."
+        }
+      ]
+    },
+    {
+      "country": "GB",
+      "actions": [
+        "Launched 12 Storm Shadow cruise missiles from carrier F-35Bs against Kaliningrad S-400 positions",
+        "Provided ISR support throughout SEAD operation",
+        "Maintained carrier group in southern Baltic for follow-up strikes"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "FR",
+      "actions": [
+        "Did NOT participate in SEAD (40% war support insufficient for offensive operations)",
+        "Established ground brigade defensive positions along Route 16 near Suwałki",
+        "Continued defensive counter-air patrols from Łask"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "FR",
+          "to": "DE",
+          "channel": "private",
+          "message": "Paris and Berlin must coordinate our response to Russia's ceasefire proposal. We should not dismiss it outright but demand withdrawal as precondition."
+        }
+      ]
+    },
+    {
+      "country": "DE",
+      "actions": [
+        "Deployed Patriot batteries to Suwałki and Kaunas - now operational",
+        "Did NOT authorize offensive Eurofighter operations (defensive mandate only)",
+        "Received and forwarded Russia's ceasefire proposal to NATO"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "DE",
+          "to": "RU",
+          "channel": "backchannel",
+          "message": "Germany has forwarded your proposal to NATO allies. Any ceasefire must begin with verifiable Russian withdrawal from Lithuanian territory. We remain open to dialogue."
+        },
+        {
+          "from": "DE",
+          "to": "FR",
+          "channel": "private",
+          "message": "Agreed. We should keep the diplomatic channel open while maintaining military pressure."
+        }
+      ]
+    },
+    {
+      "country": "FI",
+      "actions": [
+        "Deployed K9 Thunder self-propelled howitzers and MLRS to eastern Poland near Suwałki",
+        "Maintained full border defense posture",
+        "Offered additional reserve units for NATO rotation"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "SE",
+      "actions": [
+        "Provided critical ELINT/SIGINT data from Gotland Gripens enabling SEAD targeting of S-400 radars",
+        "Maintained submarine operations in Baltic",
+        "Continued air defense coverage of Gotland"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "NO",
+      "actions": [
+        "Intensified P-8 Poseidon search for missing Severodvinsk submarine — NOT FOUND",
+        "Maintained GIUK gap surveillance",
+        "Provided maritime domain awareness to NATO"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "DK",
+      "actions": [
+        "Maintained Danish Straits lockdown",
+        "Established F-35 rapid reaction alert at Bornholm"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "NL",
+      "actions": [
+        "43rd Brigade established positions in northeast Poland south of Suwałki",
+        "Provided additional logistics support through German corridor"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "BE",
+      "actions": [
+        "Maintained NATO HQ operations at FPCON Delta",
+        "Coordinated Article 5 implementation paperwork"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "CZ",
+      "actions": [
+        "Continued ammunition and logistics flow through transit corridors",
+        "Offered additional artillery units for Suwałki defense"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "RO",
+      "actions": [
+        "Maintained Black Sea heightened alert",
+        "Contributed to B9 coordination with Poland"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "CA",
+      "actions": [
+        "Reinforced Latvia EFP battlegroup",
+        "Provided intelligence sharing through Five Eyes"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "RU",
+      "actions": [
+        "Consolidated defensive positions in northern corridor — halted offensive operations",
+        "Ordered Kaliningrad forces to dig in and preserve combat power",
+        "Proposed 48-hour ceasefire through German backchannel",
+        "Launched retaliatory cyber attacks on Estonian power grid and Lithuanian communications",
+        "Maintained nuclear forces at dispersal level — issued warning about strikes on 'Russian sovereign territory'",
+        "Directed reinforcement column to push through Lithuanian border despite ambush"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "RU",
+          "to": "DE",
+          "channel": "backchannel",
+          "message": "Russia proposes a 48-hour ceasefire and is prepared to withdraw forces to pre-crisis positions in exchange for binding security guarantees: no permanent NATO military infrastructure in the Baltic states and a formal NATO-Russia security dialogue."
+        },
+        {
+          "from": "RU",
+          "to": "CN",
+          "channel": "private",
+          "message": "Moscow appreciates Beijing's Taiwan Strait exercises as a demonstration of solidarity. We request accelerated delivery of agreed dual-use technology packages."
+        }
+      ]
+    },
+    {
+      "country": "BY",
+      "actions": [
+        "Continued providing transit to Russian forces but refused to commit Belarusian troops",
+        "Lukashenko faces growing military dissent — 3 senior officers reportedly refused deployment orders"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "TR",
+      "actions": [
+        "Signed S-400-for-F-35 framework agreement with United States",
+        "Formally withdrew Article 5 objection at 10:15 CET",
+        "Closed Turkish Straits to Russian naval vessels under Montreux Convention wartime provisions"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "TR",
+          "to": "US",
+          "channel": "public",
+          "message": "Turkey stands with its NATO allies. The S-400 chapter is closed. We expect prompt delivery of F-35 aircraft as agreed."
+        }
+      ]
+    },
+    {
+      "country": "HU",
+      "actions": [
+        "Withdrew Article 5 veto at 14:00 CET with face-saving concessions on refugee burden-sharing",
+        "Orbán made minimal public statement to avoid domestic backlash"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "CN",
+      "actions": [
+        "Announced 'routine' Taiwan Strait naval exercises — 12 warships, 24 J-16 fighters",
+        "Abstained on UNGA condemnation vote (did not veto — symbolic shift from UNSC)",
+        "Maintained economic ties with Russia while signaling concern about nuclear escalation"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "CN",
+          "to": "US",
+          "channel": "backchannel",
+          "message": "The Taiwan exercises are routine and not connected to European events. Beijing urges all parties to exercise restraint and pursue diplomatic solutions in the Baltic."
+        },
+        {
+          "from": "CN",
+          "to": "RU",
+          "channel": "private",
+          "message": "Beijing supports a diplomatic resolution. We cannot support actions that risk nuclear escalation. Dual-use deliveries will proceed through established channels."
+        }
+      ]
+    }
+  ],
+  "resolution": {
+    "narrative": "Day 2 proved to be the turning point of the Suwałki Crisis. At 05:45 CET, NATO launched Operation BALTIC HAMMER — a coordinated SEAD strike against Kaliningrad's S-400 air defense network. Twelve Storm Shadow cruise missiles from HMS Queen Elizabeth's F-35Bs struck from the north while US F-35As fired six AGM-88G AARGM-ER anti-radiation missiles from the south. Polish F-16Cs provided four AGM-88 HARMs in a follow-up wave, guided by Swedish Gripen ELINT data from Gotland. Russian S-400 batteries expended much of their interceptor magazine downing three Storm Shadows, but nine precision weapons found their targets: two of four S-400 battalions were destroyed along with their engagement radars, one S-300PM2 battery was severely damaged, and two Pantsir-S1 point defense systems were eliminated. Kaliningrad's A2/AD bubble was degraded by approximately 50%, opening a partial air corridor over the southern Suwałki area. The strike cost NATO one Polish F-16C — hit by a surviving S-400 battery — its pilot, Major Tomasz Kowalski, ejecting into the contested corridor where Russian VDV forces captured him within hours. One US F-35A took shrapnel damage but returned safely to Łask.\n\nEmboldened by the air corridor, Poland's 18th Mechanized Division launched a counter-attack from the Augustów sector into the southern corridor at 09:00. With newly available CAS from Polish and US aircraft, the 18th pushed into VDV positions around Mockava. The Russian paratroopers — dug in but increasingly low on ammunition and with their air defense umbrella shredded — fought tenaciously but were forced back 4 kilometers, losing Mockava village and the critical Route 16 junction. VDV casualties mounted severely, with the unit losing effective combat power. Simultaneously, the main Kaliningrad ground force found its supply lines under NATO air interdiction for the first time, with A-10s and Polish Su-22s hitting logistics convoys in the newly opened corridor.\n\nThe diplomatic landscape shifted decisively. At 09:30, Turkey's President Erdogan signed the S-400-for-F-35 framework agreement in a televised ceremony, placing Turkey's S-400 systems under US custody within 90 days in exchange for immediate F-35 delivery restart and sanctions relief. Turkey formally withdrew its Article 5 objection at 10:15. By 14:00, Hungary's Prime Minister Orbán — facing 29-to-1 isolation, emergency EU funding threats, and Washington's private warning of secondary sanctions — announced Hungary would 'not stand in the way of allied solidarity,' securing face-saving concessions on refugee burden-sharing. NATO achieved full Article 5 consensus at 15:00 CET, with Secretary General Rutte declaring 'An attack on Lithuania is an attack on all of us. NATO will restore the territorial integrity of our ally.'\n\nRussia, recognizing the deteriorating military situation, made a calculated diplomatic move at 18:00: Foreign Minister Lavrov contacted German Foreign Minister Baerbock through a private channel, proposing a 48-hour ceasefire and Russian withdrawal to pre-crisis positions in exchange for 'security guarantees' — no permanent NATO basing in the Baltics and a formal NATO-Russia dialogue on European security architecture. NATO viewed this with deep skepticism, noting the proposal coincided with two BTGs still pushing through Belarus toward Lithuania, delayed but not stopped by Lithuanian KASP ambush teams and Estonian cyber attacks on their command networks. Adding to the global tension, China announced 'routine' naval exercises in the Taiwan Strait — 12 warships and 24 fighters — interpreted as a calculated pressure move to divide American attention.",
+    "world_state_updates": {
+      "game_time": "Day 3, 00:00 CET",
+      "military_units_add": [],
+      "military_units_remove": [],
+      "military_units_update": [
+        {
+          "name": "russian_kaliningrad_forces",
+          "location": "Suwalki Corridor, northern sector - consolidated, under air interdiction",
+          "readiness": 6,
+          "strength": 6,
+          "casualties": 4,
+          "supply_level": 5,
+          "morale": 6
+        },
+        {
+          "name": "russian_western_district",
+          "location": "Belarus-Lithuania border, staging for corridor reinforcement",
+          "readiness": 7,
+          "strength": 7,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 7
+        },
+        {
+          "name": "russian_vdv_airborne",
+          "location": "Suwalki Corridor, north of Mockava - falling back, combat ineffective",
+          "readiness": 5,
+          "strength": 3,
+          "casualties": 4,
+          "supply_level": 4,
+          "morale": 4
+        },
+        {
+          "name": "russian_reinforcement_column",
+          "location": "Lithuanian border, stalled by ambush and cyber disruption - regrouping",
+          "readiness": 6,
+          "strength": 6,
+          "casualties": 2,
+          "supply_level": 9,
+          "morale": 6
+        },
+        {
+          "name": "belarus_forces",
+          "location": "Belarus-Lithuania border, defensive positions",
+          "readiness": 5,
+          "strength": 4,
+          "casualties": 0,
+          "supply_level": 9,
+          "morale": 3
+        },
+        {
+          "name": "polish_18th_division",
+          "location": "Suwalki Corridor, Mockava area - advancing north after recapturing Route 16 junction",
+          "readiness": 7,
+          "strength": 5,
+          "casualties": 2,
+          "supply_level": 8,
+          "morale": 9
+        },
+        {
+          "name": "polish_forces",
+          "location": "Suwalki Gap, southern blocking position - HIMARS continuing strikes",
+          "readiness": 8,
+          "strength": 7,
+          "casualties": 0,
+          "supply_level": 7,
+          "morale": 9
+        },
+        {
+          "name": "nato_efp_lithuania",
+          "location": "Kaunas-Nemunas River line, now with German Patriot cover",
+          "readiness": 5,
+          "strength": 2,
+          "casualties": 3,
+          "supply_level": 7,
+          "morale": 5
+        },
+        {
+          "name": "nato_efp_poland",
+          "location": "Suwałki, forward defensive positions with Patriot/THAAD coverage",
+          "readiness": 9,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 9,
+          "morale": 8
+        },
+        {
+          "name": "us_forces_poland",
+          "location": "Suwałki area, V Corps forward - coordinating with Polish 18th advance",
+          "readiness": 9,
+          "strength": 7,
+          "casualties": 0,
+          "supply_level": 9,
+          "morale": 9
+        },
+        {
+          "name": "us_f35_squadron",
+          "location": "Łask Air Base, post-SEAD - rearming, 1 aircraft damaged",
+          "readiness": 7,
+          "strength": 4,
+          "casualties": 0,
+          "supply_level": 7,
+          "morale": 9
+        },
+        {
+          "name": "uk_carrier_group",
+          "location": "Southern Baltic Sea, post-Storm Shadow launch, rearming",
+          "readiness": 7,
+          "strength": 6,
+          "casualties": 0,
+          "supply_level": 7,
+          "morale": 9
+        },
+        {
+          "name": "french_rafale_squadron",
+          "location": "Łask Air Base, defensive counter-air patrols - did NOT participate in SEAD",
+          "readiness": 8,
+          "strength": 4,
+          "casualties": 0,
+          "supply_level": 8,
+          "morale": 7
+        },
+        {
+          "name": "french_ground_brigade",
+          "location": "Suwałki area, establishing defensive positions along Route 16",
+          "readiness": 7,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 9,
+          "morale": 7
+        },
+        {
+          "name": "german_patriot_battery",
+          "location": "Suwałki and Kaunas, operational - providing air defense umbrella",
+          "readiness": 8,
+          "strength": 4,
+          "casualties": 0,
+          "supply_level": 9,
+          "morale": 7
+        },
+        {
+          "name": "finnish_artillery",
+          "location": "Eastern Poland near Suwałki, K9 Thunder and MLRS operational",
+          "readiness": 8,
+          "strength": 4,
+          "casualties": 0,
+          "supply_level": 9,
+          "morale": 8
+        },
+        {
+          "name": "finnish_forces",
+          "location": "Finland, border fully defended, reserve elements preparing to deploy",
+          "readiness": 8,
+          "strength": 8,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 8
+        },
+        {
+          "name": "dutch_43rd_brigade",
+          "location": "Northeast Poland, establishing positions south of Suwałki",
+          "readiness": 7,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 9,
+          "morale": 7
+        },
+        {
+          "name": "swedish_gotland_garrison",
+          "location": "Gotland Island, fully fortified, ELINT supporting SEAD targeting",
+          "readiness": 8,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 9
+        },
+        {
+          "name": "danish_strait_defense",
+          "location": "Danish Straits, fully locked down",
+          "readiness": 8,
+          "strength": 4,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 7
+        },
+        {
+          "name": "nato_efp_latvia",
+          "location": "Latvia, forward positions reinforced",
+          "readiness": 8,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 7
+        },
+        {
+          "name": "nato_efp_estonia",
+          "location": "Estonia, Narva positions, CCDCOE conducting offensive cyber ops",
+          "readiness": 9,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 8
+        }
+      ],
+      "military_alerts": {
+        "russian_kaliningrad_forces": "Northern corridor held but supply lines now under NATO air interdiction, A2/AD degraded 50%",
+        "russian_vdv_airborne": "COMBAT INEFFECTIVE - lost Mockava, falling back north, severe casualties and supply crisis",
+        "russian_reinforcement_column": "Delayed 8 hours by Lithuanian KASP ambush and Estonian cyber attack on C2, regrouping at border",
+        "russian_western_district": "At Lithuanian border, preparing to push through to reinforce corridor",
+        "polish_18th_division": "Counter-attack success - recaptured Mockava and Route 16 junction, advancing north",
+        "polish_forces": "Sustained HIMARS fire support, Polish F-16 lost in SEAD (pilot captured)",
+        "us_f35_squadron": "Post-SEAD - degraded Kaliningrad A2/AD by 50%, 1 aircraft damaged, rearming",
+        "uk_carrier_group": "Storm Shadow strike successful, rearming for potential follow-up strikes",
+        "german_patriot_battery": "Operational at Suwałki and Kaunas, providing critical air defense",
+        "finnish_artillery": "K9 Thunder and MLRS operational in eastern Poland, ready for fire missions",
+        "nato_article5_consensus": "FULL CONSENSUS ACHIEVED at 15:00 CET - Turkey and Hungary withdrew objections",
+        "nato_pow_situation": "Major Tomasz Kowalski (Polish Air Force) captured by VDV - first NATO POW",
+        "norwegian_warning": "Missing Severodvinsk submarine still UNLOCATED despite P-8 search",
+        "china_taiwan": "PLA Navy exercises in Taiwan Strait - 12 warships, 24 fighters - assessed as pressure, not invasion prep"
+      },
+      "markets": {
+        "oil_price": "118.00",
+        "euro_usd": "1.02",
+        "gas_price_eu": "surging 15% on infrastructure fears",
+        "nasdaq": "-4.2% on two-front crisis fears"
+      },
+      "sanctions_add": [
+        {
+          "from": "EU",
+          "target": "RU",
+          "type": "Full SWIFT disconnection of all major Russian banks (post-Article 5)"
+        },
+        {
+          "from": "US",
+          "target": "RU",
+          "type": "Total export ban on advanced technology and semiconductors to Russia"
+        },
+        {
+          "from": "EU",
+          "target": "BY",
+          "type": "Full economic embargo on Belarus for facilitating military transit"
+        }
+      ],
+      "trade_disruptions_add": [
+        "Kaliningrad supply lines under NATO air interdiction - first sustained aerial blockade",
+        "European gas spot prices surge 15% on fears of Russian infrastructure retaliation",
+        "China Taiwan Strait exercises disrupt Pacific shipping routes, insurance premiums spike"
+      ],
+      "diplomatic_relations": {
+        "TR": {
+          "US": "+7",
+          "RU": "-4"
+        },
+        "HU": {
+          "US": "+1",
+          "PL": "+2",
+          "RU": "-2"
+        },
+        "DE": {
+          "RU": "-9"
+        },
+        "PL": {
+          "TR": "+5",
+          "HU": "+1"
+        },
+        "RU": {
+          "DE": "-7",
+          "TR": "-5"
+        },
+        "CN": {
+          "US": "-6",
+          "RU": "+7"
+        },
+        "US": {
+          "CN": "-5",
+          "TR": "+7"
+        }
+      },
+      "treaties_invoked_add": [
+        {
+          "treaty": "NATO Article 5",
+          "invoked_by": "NAC",
+          "status": "FULL CONSENSUS - collective defense authorized under SACEUR command"
+        },
+        {
+          "treaty": "US-Turkey F-35 Framework",
+          "invoked_by": "US/TR",
+          "status": "signed, S-400 transfer to US custody within 90 days"
+        }
+      ],
+      "un_resolutions_add": [
+        {
+          "title": "UNGA Emergency Special Session on Suwałki Crisis",
+          "status": "143-5-35 condemning Russian aggression, non-binding",
+          "votes": "143 for, 5 against (RU, BY, DPRK, SY, ER), 35 abstentions"
+        }
+      ],
+      "nato_alert_level": "article5",
+      "nato_consensus": {
+        "US": "full support, SACEUR authorized for collective defense operations",
+        "GB": "full support, carrier strike group committed",
+        "FR": "supports defensive operations, ground brigade deployed, no offensive air participation",
+        "DE": "supports defensive operations, Patriots deployed, no offensive strikes authorized",
+        "PL": "leading ground counter-attack, demanding POW return",
+        "LT": "total mobilization, KASP conducting guerrilla operations",
+        "LV": "full support, border reinforced",
+        "EE": "full support, CCDCOE offensive cyber operations",
+        "FI": "full support, artillery deployed to Poland",
+        "SE": "full support, ELINT critical to SEAD success",
+        "NO": "full support, submarine hunt priority",
+        "DK": "full support, Straits locked",
+        "NL": "full support, 43rd Brigade deployed",
+        "BE": "full support",
+        "CZ": "full support, logistics hub",
+        "RO": "full support, Black Sea alert",
+        "CA": "full support, Latvia reinforced",
+        "TR": "FULL SUPPORT - F-35 deal signed, veto withdrawn",
+        "HU": "reluctant support - veto withdrawn with face-saving concessions"
+      },
+      "nuclear_posture": {
+        "RU": "dispersal",
+        "US": "elevated",
+        "GB": "elevated",
+        "FR": "elevated"
+      },
+      "nuclear_detonations_add": [],
+      "public_opinion": {
+        "PL": {
+          "war_support": 82,
+          "government_approval": 75
+        },
+        "LT": {
+          "war_support": 90,
+          "government_approval": 78
+        },
+        "LV": {
+          "war_support": 73,
+          "government_approval": 67
+        },
+        "EE": {
+          "war_support": 75,
+          "government_approval": 69
+        },
+        "US": {
+          "war_support": 36,
+          "government_approval": 45
+        },
+        "GB": {
+          "war_support": 53,
+          "government_approval": 51
+        },
+        "FR": {
+          "war_support": 38,
+          "government_approval": 42
+        },
+        "DE": {
+          "war_support": 44,
+          "government_approval": 50
+        },
+        "RU": {
+          "war_support": 70,
+          "government_approval": 72
+        },
+        "BY": {
+          "war_support": 12,
+          "government_approval": 27
+        },
+        "TR": {
+          "war_support": 22,
+          "government_approval": 59
+        },
+        "HU": {
+          "war_support": 14,
+          "government_approval": 38
+        },
+        "FI": {
+          "war_support": 66,
+          "government_approval": 69
+        },
+        "SE": {
+          "war_support": 54,
+          "government_approval": 58
+        },
+        "NO": {
+          "war_support": 51,
+          "government_approval": 61
+        },
+        "DK": {
+          "war_support": 48,
+          "government_approval": 55
+        },
+        "NL": {
+          "war_support": 41,
+          "government_approval": 51
+        },
+        "BE": {
+          "war_support": 33,
+          "government_approval": 47
+        },
+        "CZ": {
+          "war_support": 44,
+          "government_approval": 53
+        },
+        "RO": {
+          "war_support": 49,
+          "government_approval": 55
+        },
+        "CA": {
+          "war_support": 34,
+          "government_approval": 48
+        },
+        "CN": {
+          "war_support": 8,
+          "government_approval": 73
+        }
+      },
+      "refugee_flows_add": [
+        {
+          "from": "LT",
+          "to": "PL",
+          "count": 12000,
+          "status": "fleeing"
+        },
+        {
+          "from": "LT",
+          "to": "LV",
+          "count": 5000,
+          "status": "fleeing"
+        }
+      ],
+      "humanitarian_crisis_level": {
+        "LT": 8,
+        "PL": 5
+      },
+      "cyber_operations_add": [
+        {
+          "attacker": "EE",
+          "target": "RU",
+          "type": "infrastructure",
+          "severity": "high",
+          "infrastructure_affected": "military_c2"
+        },
+        {
+          "attacker": "RU",
+          "target": "PL",
+          "type": "ddos",
+          "severity": "medium",
+          "infrastructure_affected": "financial"
+        },
+        {
+          "attacker": "RU",
+          "target": "EE",
+          "type": "malware",
+          "severity": "high",
+          "infrastructure_affected": "power_grid"
+        },
+        {
+          "attacker": "RU",
+          "target": "LT",
+          "type": "infrastructure",
+          "severity": "high",
+          "infrastructure_affected": "comms"
+        }
+      ],
+      "infrastructure_status": {
+        "LT": {
+          "power_grid": 5,
+          "comms": 3,
+          "financial": 6,
+          "military_c2": 5
+        },
+        "PL": {
+          "power_grid": 9,
+          "comms": 7,
+          "financial": 8,
+          "military_c2": 7
+        },
+        "EE": {
+          "power_grid": 7,
+          "comms": 8,
+          "financial": 9,
+          "military_c2": 9
+        }
+      },
+      "corridor_control": "contested",
+      "recent_events": [
+        "Operation BALTIC HAMMER: NATO SEAD strike degrades Kaliningrad S-400 network by 50% — partial air corridor opened",
+        "Polish F-16C shot down during SEAD — pilot Maj. Kowalski captured by VDV, first NATO POW",
+        "Polish 18th Mechanized Division recaptures Mockava and Route 16 junction, VDV pushed back 4km",
+        "Russian VDV airborne force now combat ineffective — strength 3/10, severe casualties",
+        "Turkey signs S-400-for-F-35 framework deal, withdraws Article 5 veto",
+        "Hungary's Orbán withdraws Article 5 veto — 'will not stand in way of allied solidarity'",
+        "NATO achieves FULL Article 5 consensus at 15:00 CET — SACEUR authorized for collective defense",
+        "Lithuanian KASP ambush teams delay Russian reinforcement column 8 hours at border with Javelin/Stinger attacks",
+        "Estonian CCDCOE launches offensive cyber attack disrupting reinforcement column C2 for 4 hours",
+        "Russia proposes 48-hour ceasefire through German backchannel — NATO skeptical",
+        "China announces 'routine' Taiwan Strait exercises — 12 warships, 24 fighters — dividing US attention",
+        "Russian retaliatory cyber attacks hit Estonian power grid and Lithuanian communications",
+        "UNGA votes 143-5 condemning Russian aggression (non-binding)"
+      ],
+      "media_headlines": [
+        "OPERATION BALTIC HAMMER: NATO smashes Russian air defenses over Kaliningrad in dawn strike",
+        "FIRST POW: Polish pilot Major Kowalski captured after F-16 shot down — Poland demands immediate return",
+        "NATO UNITED: Turkey and Hungary drop vetoes — all 32 allies invoke Article 5 for first time in combat",
+        "COUNTER-ATTACK: Polish tanks recapture Mockava as Russian paratroopers crumble",
+        "PEACE FEINT? Russia proposes ceasefire as reinforcement column pushes toward Lithuania",
+        "CHINA STIRS: PLA Navy exercises in Taiwan Strait raise specter of two-front crisis"
+      ],
+      "round_number": 3
+    },
+    "events": [
+      "Operation BALTIC HAMMER degrades Kaliningrad A2/AD by 50% — first NATO offensive strike of the crisis",
+      "Polish F-16 pilot Major Kowalski becomes first NATO POW — captured by Russian VDV in corridor",
+      "Polish 18th Mech Division recaptures Mockava — VDV pushed back 4km, now combat ineffective",
+      "NATO achieves FULL Article 5 consensus — Turkey F-35 deal + Hungary capitulation",
+      "Russia proposes ceasefire through German backchannel — assessed as stalling while reinforcements advance",
+      "Lithuanian KASP guerrilla ambush delays Russian reinforcement column 8 hours",
+      "China launches Taiwan Strait exercises — two-front attention crisis for Pentagon",
+      "UNGA condemns Russian aggression 143-5 (non-binding)"
+    ],
+    "headlines": [
+      "OPERATION BALTIC HAMMER: NATO smashes Russian air defenses over Kaliningrad",
+      "FIRST POW: Polish pilot captured — Poland demands Geneva Convention compliance",
+      "NATO UNITED: All 32 allies invoke Article 5 for first time in history",
+      "COUNTER-ATTACK: Polish tanks retake Mockava as Russian paratroopers crumble",
+      "PEACE FEINT? Russia proposes ceasefire while reinforcements push toward Lithuania",
+      "TWO FRONTS: China Taiwan Strait exercises rattle global markets"
+    ],
+    "surprises": [
+      "Major Kowalski's capture becomes global media event — his wife's tearful press conference goes viral, hardening Polish resolve but sparking anti-war protests in Western European capitals. Russian state media parades footage of the 'captured NATO aggressor,' but international Red Cross demands immediate access.",
+      "Three Belarusian senior officers — including the commander of the 120th Mechanized Brigade — reportedly refuse deployment orders to the Lithuanian border. Lukashenko orders KGB arrests, but the incident signals fractures in Belarus's military loyalty that could accelerate if Russian pressure intensifies."
+    ]
+  },
+  "world_state_after": {
+    "round_number": 3,
+    "game_time": "Day 3, 00:00 CET",
+    "military_units": [
+      {
+        "name": "russian_kaliningrad_forces",
+        "country": "RU",
+        "type": "ground",
+        "location": "Suwalki Corridor, northern sector - consolidated, under air interdiction",
+        "readiness": 6,
+        "strength": 5,
+        "casualties": 4,
+        "supply_level": 5,
+        "morale": 5,
+        "_last_casualty_morale_applied": 2,
+        "_last_casualty_strength_applied": 2
+      },
+      {
+        "name": "russian_western_district",
+        "country": "RU",
+        "type": "ground",
+        "location": "Belarus-Lithuania border, staging for corridor reinforcement",
+        "readiness": 7,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "belarus_forces",
+        "country": "BY",
+        "type": "ground",
+        "location": "Belarus-Lithuania border, defensive positions",
+        "readiness": 5,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 3,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_lithuania",
+        "country": "DE",
+        "type": "ground",
+        "location": "Kaunas-Nemunas River line, now with German Patriot cover",
+        "readiness": 5,
+        "strength": 2,
+        "casualties": 3,
+        "supply_level": 7,
+        "morale": 5,
+        "_last_casualty_morale_applied": 1,
+        "_last_casualty_strength_applied": 1
+      },
+      {
+        "name": "nato_efp_latvia",
+        "country": "CA",
+        "type": "ground",
+        "location": "Latvia, forward positions reinforced",
+        "readiness": 8,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_estonia",
+        "country": "GB",
+        "type": "ground",
+        "location": "Estonia, Narva positions, CCDCOE conducting offensive cyber ops",
+        "readiness": 9,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "Suwałki, forward defensive positions with Patriot/THAAD coverage",
+        "readiness": 9,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "us_forces_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "Suwałki area, V Corps forward - coordinating with Polish 18th advance",
+        "readiness": 9,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "polish_forces",
+        "country": "PL",
+        "type": "ground",
+        "location": "Suwalki Gap, southern blocking position - HIMARS continuing strikes",
+        "readiness": 8,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 7,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "finnish_forces",
+        "country": "FI",
+        "type": "ground",
+        "location": "Finland, border fully defended, reserve elements preparing to deploy",
+        "readiness": 8,
+        "strength": 8,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "uk_carrier_group",
+        "country": "GB",
+        "type": "naval",
+        "location": "Southern Baltic Sea, post-Storm Shadow launch, rearming",
+        "readiness": 7,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 7,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "french_rafale_squadron",
+        "country": "FR",
+        "type": "air",
+        "location": "Łask Air Base, defensive counter-air patrols - did NOT participate in SEAD",
+        "readiness": 8,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 8,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "us_f35_squadron",
+        "country": "US",
+        "type": "air",
+        "location": "Łask Air Base, post-SEAD - rearming, 1 aircraft damaged",
+        "readiness": 7,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 7,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "russian_vdv_airborne",
+        "country": "RU",
+        "type": "ground",
+        "location": "Suwalki Corridor, north of Mockava - falling back, combat ineffective",
+        "readiness": 5,
+        "strength": 1,
+        "casualties": 4,
+        "supply_level": 4,
+        "morale": 2,
+        "_last_casualty_morale_applied": 2,
+        "_last_casualty_strength_applied": 2
+      },
+      {
+        "name": "swedish_gotland_garrison",
+        "country": "SE",
+        "type": "ground",
+        "location": "Gotland Island, fully fortified, ELINT supporting SEAD targeting",
+        "readiness": 8,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "danish_strait_defense",
+        "country": "DK",
+        "type": "naval",
+        "location": "Danish Straits, fully locked down",
+        "readiness": 8,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "polish_18th_division",
+        "country": "PL",
+        "type": "ground",
+        "location": "Suwalki Corridor, Mockava area - advancing north after recapturing Route 16 junction",
+        "readiness": 7,
+        "strength": 4,
+        "casualties": 2,
+        "supply_level": 8,
+        "morale": 8,
+        "_last_casualty_morale_applied": 1,
+        "_last_casualty_strength_applied": 1
+      },
+      {
+        "name": "french_ground_brigade",
+        "country": "FR",
+        "type": "ground",
+        "location": "Suwałki area, establishing defensive positions along Route 16",
+        "readiness": 7,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "finnish_artillery",
+        "country": "FI",
+        "type": "ground",
+        "location": "Eastern Poland near Suwałki, K9 Thunder and MLRS operational",
+        "readiness": 8,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "dutch_43rd_brigade",
+        "country": "NL",
+        "type": "ground",
+        "location": "Northeast Poland, establishing positions south of Suwałki",
+        "readiness": 7,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "german_patriot_battery",
+        "country": "DE",
+        "type": "air",
+        "location": "Suwałki and Kaunas, operational - providing air defense umbrella",
+        "readiness": 8,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "russian_reinforcement_column",
+        "country": "RU",
+        "type": "ground",
+        "location": "Lithuanian border, stalled by ambush and cyber disruption - regrouping",
+        "readiness": 6,
+        "strength": 5,
+        "casualties": 2,
+        "supply_level": 9,
+        "morale": 5,
+        "_last_casualty_morale_applied": 1,
+        "_last_casualty_strength_applied": 1
+      }
+    ],
+    "military_alerts": {
+      "russian_kaliningrad_forces": "Northern corridor held but supply lines now under NATO air interdiction, A2/AD degraded 50%",
+      "russian_western_district": "At Lithuanian border, preparing to push through to reinforce corridor",
+      "belarus_forces": "Defensive posture only, providing transit to Russian forces, NOT crossing border",
+      "nato_efp_lithuania": "Supporting Lithuanian Nemunas River defense line, very low strength",
+      "nato_efp_latvia": "Canadian-led battlegroup (~1500 troops)",
+      "nato_efp_estonia": "UK-led battlegroup (~1200 troops)",
+      "nato_efp_poland": "US-led battlegroup (~1000 troops) + Polish forces",
+      "us_forces_poland": "V Corps forward elements at Suwałki, coordinating SEAD planning",
+      "polish_forces": "Sustained HIMARS fire support, Polish F-16 lost in SEAD (pilot captured)",
+      "finnish_forces": "Offering artillery + MLRS to NATO, border fully defended",
+      "russian_vdv_airborne": "COMBAT INEFFECTIVE - lost Mockava, falling back north, severe casualties and supply crisis",
+      "russian_reinforcement_column": "Delayed 8 hours by Lithuanian KASP ambush and Estonian cyber attack on C2, regrouping at border",
+      "uk_carrier_group": "Storm Shadow strike successful, rearming for potential follow-up strikes",
+      "german_patriot_battery": "Operational at Suwałki and Kaunas, providing critical air defense",
+      "norwegian_warning": "Missing Severodvinsk submarine still UNLOCATED despite P-8 search",
+      "polish_18th_division": "Counter-attack success - recaptured Mockava and Route 16 junction, advancing north",
+      "us_f35_squadron": "Post-SEAD - degraded Kaliningrad A2/AD by 50%, 1 aircraft damaged, rearming",
+      "finnish_artillery": "K9 Thunder and MLRS operational in eastern Poland, ready for fire missions",
+      "nato_article5_consensus": "FULL CONSENSUS ACHIEVED at 15:00 CET - Turkey and Hungary withdrew objections",
+      "nato_pow_situation": "Major Tomasz Kowalski (Polish Air Force) captured by VDV - first NATO POW",
+      "china_taiwan": "PLA Navy exercises in Taiwan Strait - 12 warships, 24 fighters - assessed as pressure, not invasion prep"
+    },
+    "markets": {
+      "oil_price": "118.00",
+      "euro_usd": "1.02",
+      "gas_price_eu": "surging 15% on infrastructure fears",
+      "stock_indices": "nervous, -2% on reports",
+      "nasdaq": "-4.2% on two-front crisis fears"
+    },
+    "sanctions": [
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "Emergency SWIFT restrictions on additional Russian banks"
+      },
+      {
+        "from": "EU",
+        "target": "RU",
+        "type": "Emergency energy import reduction package"
+      },
+      {
+        "from": "GB",
+        "target": "RU",
+        "type": "Freezing of Russian sovereign assets in London"
+      },
+      {
+        "from": "US",
+        "target": "BY",
+        "type": "Full economic sanctions on Belarus for facilitating aggression"
+      },
+      {
+        "from": "EU",
+        "target": "BY",
+        "type": "Full EU sanctions on Belarus for providing staging territory to Russian forces"
+      },
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "Secondary sanctions warning on entities facilitating Russian military procurement"
+      },
+      {
+        "from": "EU",
+        "target": "RU",
+        "type": "Full SWIFT disconnection of all major Russian banks (post-Article 5)"
+      },
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "Total export ban on advanced technology and semiconductors to Russia"
+      },
+      {
+        "from": "EU",
+        "target": "BY",
+        "type": "Full economic embargo on Belarus for facilitating military transit"
+      }
+    ],
+    "trade_disruptions": [
+      "Commercial shipping rerouting from eastern Baltic",
+      "All land transit to/from Kaliningrad suspended",
+      "Main links through Suwalki corridor severed",
+      "Fuel depot damaged by Iskander-K strike, rerouting required",
+      "Kaliningrad supply lines under NATO air interdiction - first sustained aerial blockade",
+      "European gas spot prices surge 15% on fears of Russian infrastructure retaliation",
+      "China Taiwan Strait exercises disrupt Pacific shipping routes, insurance premiums spike"
+    ],
+    "diplomatic_relations": {
+      "PL": {
+        "RU": -10,
+        "BY": -8,
+        "US": 9,
+        "DE": 7,
+        "LT": 10,
+        "HU": "+1",
+        "TR": "+5"
+      },
+      "LT": {
+        "RU": -10,
+        "BY": -9,
+        "PL": 9,
+        "US": 7,
+        "DE": 4
+      },
+      "US": {
+        "RU": -8,
+        "PL": 9,
+        "GB": 9,
+        "DE": 5,
+        "TR": "+7",
+        "HU": -2,
+        "CN": "-5"
+      },
+      "RU": {
+        "US": -8,
+        "PL": -10,
+        "LT": -10,
+        "CN": 6,
+        "BY": 7,
+        "TR": "-5",
+        "DE": "-7"
+      },
+      "DE": {
+        "RU": "-9",
+        "PL": 7,
+        "FR": 8,
+        "US": 5
+      },
+      "GB": {
+        "RU": -8,
+        "PL": 7,
+        "US": 9,
+        "FR": 7
+      },
+      "FR": {
+        "RU": -6,
+        "PL": 6,
+        "US": 7,
+        "GB": 7,
+        "DE": 7
+      },
+      "TR": {
+        "RU": "-4",
+        "US": "+7",
+        "HU": 2
+      },
+      "HU": {
+        "RU": "-2",
+        "US": "+1",
+        "PL": "+2"
+      },
+      "CN": {
+        "RU": "+7",
+        "US": "-6"
+      }
+    },
+    "treaties_invoked": [
+      "{'treaty': 'NATO Article 4', 'invoked_by': 'PL', 'status': 'consultation underway'}",
+      "{'treaty': 'EU Article 42.7', 'proposed_by': 'FR', 'status': 'under discussion'}",
+      "{'treaty': 'NATO Article 5', 'invoked_by': 'PL', 'status': 'invoked, consensus pending Turkey/Hungary'}",
+      "{'treaty': 'EU Article 42.7', 'invoked_by': 'FR', 'status': 'activated by European Council majority'}",
+      "{'treaty': 'NATO Article 5', 'invoked_by': 'NAC', 'status': 'FULL CONSENSUS - collective defense authorized under SACEUR command'}",
+      "{'treaty': 'US-Turkey F-35 Framework', 'invoked_by': 'US/TR', 'status': 'signed, S-400 transfer to US custody within 90 days'}"
+    ],
+    "un_resolutions": [
+      "{'title': 'Emergency UNSC session on Lithuania crisis', 'status': 'blocked by RU and CN vetoes', 'votes': '13-2'}",
+      "{'title': 'UNGA Emergency Special Session on Suwałki Crisis', 'status': '143-5-35 condemning Russian aggression, non-binding', 'votes': '143 for, 5 against (RU, BY, DPRK, SY, ER), 35 abstentions'}"
+    ],
+    "nato_alert_level": "article5",
+    "nato_consensus": {
+      "US": "full support, SACEUR authorized for collective defense operations",
+      "PL": "leading ground counter-attack, demanding POW return",
+      "LT": "total mobilization, KASP conducting guerrilla operations",
+      "LV": "full support, border reinforced",
+      "EE": "full support, CCDCOE offensive cyber operations",
+      "GB": "full support, carrier strike group committed",
+      "FR": "supports defensive operations, ground brigade deployed, no offensive air participation",
+      "DE": "supports defensive operations, Patriots deployed, no offensive strikes authorized",
+      "FI": "full support, artillery deployed to Poland",
+      "SE": "full support, ELINT critical to SEAD success",
+      "NO": "full support, submarine hunt priority",
+      "DK": "full support, Straits locked",
+      "CA": "full support, Latvia reinforced",
+      "NL": "full support, 43rd Brigade deployed",
+      "BE": "full support",
+      "CZ": "full support, logistics hub",
+      "RO": "full support, Black Sea alert",
+      "TR": "FULL SUPPORT - F-35 deal signed, veto withdrawn",
+      "HU": "reluctant support - veto withdrawn with face-saving concessions"
+    },
+    "corridor_control": "contested",
+    "nuclear_posture": {
+      "RU": "dispersal",
+      "US": "elevated",
+      "GB": "elevated",
+      "FR": "elevated"
+    },
+    "nuclear_detonations": [],
+    "public_opinion": {
+      "PL": {
+        "war_support": 82,
+        "government_approval": 75
+      },
+      "DE": {
+        "war_support": 44,
+        "government_approval": 50
+      },
+      "FR": {
+        "war_support": 38,
+        "government_approval": 42
+      },
+      "US": {
+        "war_support": 36,
+        "government_approval": 45
+      },
+      "GB": {
+        "war_support": 53,
+        "government_approval": 51
+      },
+      "LT": {
+        "war_support": 90,
+        "government_approval": 76
+      },
+      "LV": {
+        "war_support": 73,
+        "government_approval": 67
+      },
+      "EE": {
+        "war_support": 75,
+        "government_approval": 69
+      },
+      "FI": {
+        "war_support": 66,
+        "government_approval": 69
+      },
+      "SE": {
+        "war_support": 54,
+        "government_approval": 58
+      },
+      "NO": {
+        "war_support": 51,
+        "government_approval": 61
+      },
+      "DK": {
+        "war_support": 48,
+        "government_approval": 55
+      },
+      "CA": {
+        "war_support": 34,
+        "government_approval": 48
+      },
+      "NL": {
+        "war_support": 41,
+        "government_approval": 51
+      },
+      "BE": {
+        "war_support": 33,
+        "government_approval": 47
+      },
+      "CZ": {
+        "war_support": 44,
+        "government_approval": 53
+      },
+      "RO": {
+        "war_support": 49,
+        "government_approval": 55
+      },
+      "TR": {
+        "war_support": 22,
+        "government_approval": 59
+      },
+      "HU": {
+        "war_support": 14,
+        "government_approval": 38
+      },
+      "RU": {
+        "war_support": 70,
+        "government_approval": 72
+      },
+      "BY": {
+        "war_support": 12,
+        "government_approval": 27
+      },
+      "CN": {
+        "war_support": 8,
+        "government_approval": 73
+      }
+    },
+    "refugee_flows": [
+      {
+        "from": "LT",
+        "to": "PL",
+        "count": 15000,
+        "status": "fleeing"
+      },
+      {
+        "from": "LT",
+        "to": "LV",
+        "count": 8000,
+        "status": "fleeing"
+      }
+    ],
+    "humanitarian_crisis_level": {
+      "LT": 8,
+      "PL": 5
+    },
+    "cyber_operations": [
+      {
+        "attacker": "RU",
+        "target": "LT",
+        "type": "infrastructure",
+        "severity": "high",
+        "infrastructure_affected": "comms"
+      },
+      {
+        "attacker": "RU",
+        "target": "PL",
+        "type": "ddos",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "EE",
+        "type": "ddos",
+        "severity": "medium",
+        "infrastructure_affected": "financial"
+      },
+      {
+        "attacker": "RU",
+        "target": "DE",
+        "type": "malware",
+        "severity": "low",
+        "infrastructure_affected": "comms"
+      },
+      {
+        "attacker": "EE",
+        "target": "RU",
+        "type": "espionage",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "PL",
+        "type": "infrastructure",
+        "severity": "high",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "PL",
+        "type": "espionage",
+        "severity": "medium",
+        "infrastructure_affected": "none"
+      },
+      {
+        "attacker": "EE",
+        "target": "RU",
+        "type": "infrastructure",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "SE",
+        "target": "RU",
+        "type": "espionage",
+        "severity": "medium",
+        "infrastructure_affected": "none"
+      },
+      {
+        "attacker": "RU",
+        "target": "EE",
+        "type": "malware",
+        "severity": "high",
+        "infrastructure_affected": "power_grid"
+      }
+    ],
+    "infrastructure_status": {
+      "LT": {
+        "power_grid": 5,
+        "comms": 3,
+        "financial": 6,
+        "military_c2": 5
+      },
+      "PL": {
+        "power_grid": 9,
+        "comms": 7,
+        "financial": 8,
+        "military_c2": 7
+      },
+      "EE": {
+        "power_grid": 7,
+        "comms": 8,
+        "financial": 9,
+        "military_c2": 9
+      }
+    },
+    "recent_events": [
+      "Operation BALTIC HAMMER: NATO SEAD strike degrades Kaliningrad S-400 network by 50% — partial air corridor opened",
+      "Polish F-16C shot down during SEAD — pilot Maj. Kowalski captured by VDV, first NATO POW",
+      "Polish 18th Mechanized Division recaptures Mockava and Route 16 junction, VDV pushed back 4km",
+      "Russian VDV airborne force now combat ineffective — strength 3/10, severe casualties",
+      "Turkey signs S-400-for-F-35 framework deal, withdraws Article 5 veto",
+      "Hungary's Orbán withdraws Article 5 veto — 'will not stand in way of allied solidarity'",
+      "NATO achieves FULL Article 5 consensus at 15:00 CET — SACEUR authorized for collective defense",
+      "Lithuanian KASP ambush teams delay Russian reinforcement column 8 hours at border with Javelin/Stinger attacks",
+      "Estonian CCDCOE launches offensive cyber attack disrupting reinforcement column C2 for 4 hours",
+      "Russia proposes 48-hour ceasefire through German backchannel — NATO skeptical",
+      "China announces 'routine' Taiwan Strait exercises — 12 warships, 24 fighters — dividing US attention",
+      "Russian retaliatory cyber attacks hit Estonian power grid and Lithuanian communications",
+      "UNGA votes 143-5 condemning Russian aggression (non-binding)"
+    ],
+    "media_headlines": [
+      "OPERATION BALTIC HAMMER: NATO smashes Russian air defenses over Kaliningrad in dawn strike",
+      "FIRST POW: Polish pilot Major Kowalski captured after F-16 shot down — Poland demands immediate return",
+      "NATO UNITED: Turkey and Hungary drop vetoes — all 32 allies invoke Article 5 for first time in combat",
+      "COUNTER-ATTACK: Polish tanks recapture Mockava as Russian paratroopers crumble",
+      "PEACE FEINT? Russia proposes ceasefire as reinforcement column pushes toward Lithuania",
+      "CHINA STIRS: PLA Navy exercises in Taiwan Strait raise specter of two-front crisis"
+    ],
+    "_nuclear_penalty_applied": [],
+    "_oil_penalty_last_threshold": 0.0,
+    "_gas_sanction_count_applied": 0,
+    "_gm_set_nuclear_this_round": [
+      "RU",
+      "GB",
+      "US",
+      "FR"
+    ]
+  }
+}

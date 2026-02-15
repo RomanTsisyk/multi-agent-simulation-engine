@@ -1,0 +1,1174 @@
+{
+  "round": 8,
+  "runner": "claude-code",
+  "briefing": "SITUATION BRIEFING — Round 9\n\nDay 8-9 of the crisis. Russian withdrawal nearing completion.\n\nMILITARY: Russian withdrawal 85% complete. Vištytis pocket empty. Lazdijai area cleared. Only rear-guard elements and a command group remain in Lithuanian territory. NATO planning permanent 'Suwałki Shield Force' — brigade-strength garrison for the corridor. All NATO forces maintaining positions until withdrawal fully verified.\n\nDIPLOMATIC: Geneva Process talks scheduled for Day 10. Russia sending Lavrov. US sending Secretary of State. EU sending High Representative. China has requested observer status — granted. The post-crisis diplomatic framework is taking shape, but fundamental disagreements remain over NATO expansion, arms control, and accountability for the crisis.\n\nPOLITICAL FALLOUT:\n- Russia: Putin facing worst domestic crisis. Leaked recordings, economic collapse, military defeat narrative spreading despite censorship.\n- Belarus: Military in open defiance — 38th Air Assault Brigade commander publicly defied Lukashenko. 40% of military refusing orders. Political crisis may lead to regime change.\n- NATO: Historic unity, but war fatigue setting in. Anti-war movements growing in Western Europe. France's war support at 20% — lowest in NATO.\n- Turkey: F-35 deal is transformative — Erdogan repositioned from NATO's problem child to respected ally.\n\nECONOMIC: Gradual stabilization. Oil at $102, euro at 1.01. Baltic shipping resuming. Russian economy in systemic crisis. Total estimated global cost now at $500B+.",
+  "narrative": "Days 7-8 saw the Russian withdrawal accelerate as the military reality made continued presence in Lithuania untenable. By 18:00 on Day 7, 75% of Russian forces had crossed back into Belarus or Kaliningrad. The Vištytis pocket was completely empty — NATO engineers moved in to begin clearing unexploded ordnance and documenting the battlefield. At Lazdijai, the last disabled Russian vehicles were towed across the border by Belarusian recovery trucks, watched by Lithuanian farmers who had sheltered in basements during the artillery exchanges just days earlier.\n\nThe political aftershocks, however, were far more dramatic than the military withdrawal. In Minsk, the Belarusian political crisis reached a tipping point when the commander of the 38th Air Assault Brigade — one of Belarus's most capable units — publicly declared that his soldiers would not be used to 'prop up Russian adventurism.' Lukashenko ordered his arrest, but the KGB team sent to detain him was turned back at the brigade's gates. By evening, an estimated 40% of the Belarusian military was either in open defiance or passively refusing orders. Russian forces transiting through Belarus found themselves in an increasingly hostile environment, with Belarusian soldiers at checkpoints delaying their passage.\n\nIn Moscow, the political landscape was shifting beneath Putin's feet. The leaked Belousov recording had pierced the information bubble — Russian social media was awash with discussions of the military failure despite aggressive censorship. The ruble's continued slide to 140/USD despite central bank intervention signaled deep systemic economic damage. Quietly, a group of Russian oligarchs — led by figures with no public profile but deep Kremlin connections — began exploring whether Gerasimov or another figure might serve as a credible post-Putin alternative.\n\nNATO, meanwhile, was already planning for the post-crisis order. At an emergency NAC session, SACEUR presented plans for a permanent multinational brigade-strength garrison in the Suwałki Corridor — the 'Suwałki Shield Force' — comprising Polish, Lithuanian, German, and US elements. Poland's President Nawrocki called it 'the most important NATO decision since enlargement.' Germany's Merz announced a historic €50B European defense and reconstruction package, funded jointly by the EU and individual member states. Lithuania's infrastructure assessment was grim: $8B in damage, 23,000 displaced, communications infrastructure in the corridor area devastated.",
+  "country_decisions": [
+    {
+      "country": "US",
+      "actions": [
+        "Approved permanent V Corps element for Suwałki Shield Force",
+        "De-escalated nuclear posture to peacetime",
+        "Preparing Geneva Process delegation"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "DE",
+      "actions": [
+        "Announced €50B defense and reconstruction package",
+        "Patriot battery transitioning to permanent garrison element",
+        "Merz: 'Germany will never again be unprepared'"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "PL",
+      "actions": [
+        "Securing cleared corridor areas with 18th Division",
+        "Planning permanent garrison contribution",
+        "Beginning reconstruction of Augustów fuel depot"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "RU",
+      "actions": [
+        "Accelerated withdrawal to minimize humiliation",
+        "Putin facing internal political crisis",
+        "Kremlin censors struggling to contain Telegram leaks"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "BY",
+      "actions": [
+        "38th Air Assault Brigade in open defiance",
+        "Lukashenko's authority collapsing — KGB unable to enforce orders",
+        "Russian transit through Belarus increasingly obstructed"
+      ],
+      "diplomatic_messages": []
+    }
+  ],
+  "resolution": {
+    "narrative": "Days 7-8 saw the Russian withdrawal accelerate as the military reality made continued presence in Lithuania untenable. By 18:00 on Day 7, 75% of Russian forces had crossed back into Belarus or Kaliningrad. The Vištytis pocket was completely empty — NATO engineers moved in to begin clearing unexploded ordnance and documenting the battlefield. At Lazdijai, the last disabled Russian vehicles were towed across the border by Belarusian recovery trucks, watched by Lithuanian farmers who had sheltered in basements during the artillery exchanges just days earlier.\n\nThe political aftershocks, however, were far more dramatic than the military withdrawal. In Minsk, the Belarusian political crisis reached a tipping point when the commander of the 38th Air Assault Brigade — one of Belarus's most capable units — publicly declared that his soldiers would not be used to 'prop up Russian adventurism.' Lukashenko ordered his arrest, but the KGB team sent to detain him was turned back at the brigade's gates. By evening, an estimated 40% of the Belarusian military was either in open defiance or passively refusing orders. Russian forces transiting through Belarus found themselves in an increasingly hostile environment, with Belarusian soldiers at checkpoints delaying their passage.\n\nIn Moscow, the political landscape was shifting beneath Putin's feet. The leaked Belousov recording had pierced the information bubble — Russian social media was awash with discussions of the military failure despite aggressive censorship. The ruble's continued slide to 140/USD despite central bank intervention signaled deep systemic economic damage. Quietly, a group of Russian oligarchs — led by figures with no public profile but deep Kremlin connections — began exploring whether Gerasimov or another figure might serve as a credible post-Putin alternative.\n\nNATO, meanwhile, was already planning for the post-crisis order. At an emergency NAC session, SACEUR presented plans for a permanent multinational brigade-strength garrison in the Suwałki Corridor — the 'Suwałki Shield Force' — comprising Polish, Lithuanian, German, and US elements. Poland's President Nawrocki called it 'the most important NATO decision since enlargement.' Germany's Merz announced a historic €50B European defense and reconstruction package, funded jointly by the EU and individual member states. Lithuania's infrastructure assessment was grim: $8B in damage, 23,000 displaced, communications infrastructure in the corridor area devastated.",
+    "world_state_updates": {
+      "game_time": "Day 8, 12:00 CET",
+      "military_units_add": [],
+      "military_units_remove": [
+        "russian_kaliningrad_forces"
+      ],
+      "military_units_update": [
+        {
+          "name": "russian_western_district",
+          "location": "Belarus, absorbing withdrawing forces — demoralized",
+          "readiness": 4,
+          "strength": 6,
+          "casualties": 2,
+          "supply_level": 7,
+          "morale": 3
+        },
+        {
+          "name": "belarus_forces",
+          "location": "Belarus — 40% in open defiance, military crisis",
+          "readiness": 1,
+          "strength": 3,
+          "casualties": 0,
+          "supply_level": 6,
+          "morale": 1
+        },
+        {
+          "name": "polish_18th_division",
+          "location": "Suwałki Corridor, securing cleared areas",
+          "readiness": 6,
+          "strength": 4,
+          "casualties": 4,
+          "supply_level": 7,
+          "morale": 8
+        },
+        {
+          "name": "polish_forces",
+          "location": "Suwałki area, transitioning to garrison posture",
+          "readiness": 6,
+          "strength": 7,
+          "casualties": 0,
+          "supply_level": 6,
+          "morale": 8
+        },
+        {
+          "name": "us_forces_poland",
+          "location": "Suwałki Corridor, securing area, planning permanent garrison",
+          "readiness": 7,
+          "strength": 7,
+          "casualties": 1,
+          "supply_level": 8,
+          "morale": 8
+        },
+        {
+          "name": "us_f35_squadron",
+          "location": "Łask Air Base, normal operations resuming",
+          "readiness": 7,
+          "strength": 3,
+          "casualties": 0,
+          "supply_level": 7,
+          "morale": 7
+        },
+        {
+          "name": "uk_carrier_group",
+          "location": "Baltic Sea, preparing to depart",
+          "readiness": 6,
+          "strength": 6,
+          "casualties": 0,
+          "supply_level": 4,
+          "morale": 7
+        },
+        {
+          "name": "french_ground_brigade",
+          "location": "Northeast Poland, preparing redeployment to France",
+          "readiness": 5,
+          "strength": 5,
+          "casualties": 1,
+          "supply_level": 8,
+          "morale": 7
+        },
+        {
+          "name": "dutch_43rd_brigade",
+          "location": "Northeast Poland, preparing redeployment",
+          "readiness": 5,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 8,
+          "morale": 7
+        },
+        {
+          "name": "finnish_artillery",
+          "location": "Suwałki area, preparing redeployment to Finland",
+          "readiness": 6,
+          "strength": 4,
+          "casualties": 0,
+          "supply_level": 6,
+          "morale": 7
+        },
+        {
+          "name": "german_patriot_battery",
+          "location": "Suwałki, transitioning to permanent garrison element",
+          "readiness": 7,
+          "strength": 4,
+          "casualties": 0,
+          "supply_level": 7,
+          "morale": 7
+        },
+        {
+          "name": "nato_efp_lithuania",
+          "location": "Kaunas, rebuilding",
+          "readiness": 5,
+          "strength": 2,
+          "casualties": 3,
+          "supply_level": 8,
+          "morale": 7
+        },
+        {
+          "name": "nato_efp_poland",
+          "location": "Suwałki area",
+          "readiness": 7,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 8,
+          "morale": 8
+        },
+        {
+          "name": "french_rafale_squadron",
+          "location": "Łask, preparing to return to France",
+          "readiness": 6,
+          "strength": 4,
+          "casualties": 0,
+          "supply_level": 7,
+          "morale": 7
+        },
+        {
+          "name": "finnish_forces",
+          "location": "Finland",
+          "readiness": 7,
+          "strength": 8,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 8
+        },
+        {
+          "name": "swedish_gotland_garrison",
+          "location": "Gotland",
+          "readiness": 7,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 8
+        },
+        {
+          "name": "danish_strait_defense",
+          "location": "Danish Straits, preparing to reopen",
+          "readiness": 7,
+          "strength": 4,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 7
+        },
+        {
+          "name": "nato_efp_latvia",
+          "location": "Latvia",
+          "readiness": 7,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 7
+        },
+        {
+          "name": "nato_efp_estonia",
+          "location": "Estonia",
+          "readiness": 7,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 8
+        }
+      ],
+      "military_alerts": {
+        "withdrawal": "85% complete — Vištytis empty, Lazdijai clear, only rear guard remains",
+        "suwalki_shield_force": "NAC approves permanent multinational brigade garrison for Suwałki Corridor",
+        "belarus_crisis": "38th Air Assault Brigade defies Lukashenko — 40% of military in open defiance",
+        "russia_internal": "Putin facing political crisis — leaked recordings, ruble collapse, military defeat narrative"
+      },
+      "markets": {
+        "oil_price": 102.0,
+        "euro_usd": 1.01,
+        "ruble_usd": 140.0
+      },
+      "sanctions_add": [],
+      "trade_disruptions_add": [
+        "Baltic shipping resuming — first commercial vessel transits since Day 1",
+        "Danish Straits preparing to reopen to Russian-flagged civilian vessels"
+      ],
+      "diplomatic_relations": {
+        "DE": {
+          "LT": 8,
+          "PL": 8
+        },
+        "LT": {
+          "DE": 8
+        }
+      },
+      "treaties_invoked_add": [
+        {
+          "treaty": "NAC Suwałki Shield Force Declaration",
+          "invoked_by": "NAC",
+          "status": "permanent multinational brigade authorized for Suwałki Corridor"
+        }
+      ],
+      "un_resolutions_add": [],
+      "nato_alert_level": "high",
+      "nato_consensus": {
+        "US": "permanent garrison approved, V Corps element to remain",
+        "DE": "€50B European defense and reconstruction package announced",
+        "PL": "ecstatic about permanent garrison — 'most important NATO decision since enlargement'",
+        "GB": "carrier to depart once withdrawal verified, EFP to be enhanced",
+        "FR": "supports garrison but pushing for parallel diplomatic engagement with Russia"
+      },
+      "nuclear_posture": {
+        "RU": "elevated",
+        "US": "peacetime",
+        "GB": "peacetime",
+        "FR": "elevated"
+      },
+      "nuclear_detonations_add": [],
+      "public_opinion": {
+        "PL": {
+          "war_support": 70,
+          "government_approval": 78
+        },
+        "LT": {
+          "war_support": 75,
+          "government_approval": 76
+        },
+        "LV": {
+          "war_support": 55,
+          "government_approval": 60
+        },
+        "EE": {
+          "war_support": 60,
+          "government_approval": 62
+        },
+        "US": {
+          "war_support": 25,
+          "government_approval": 46
+        },
+        "GB": {
+          "war_support": 35,
+          "government_approval": 47
+        },
+        "FR": {
+          "war_support": 18,
+          "government_approval": 34
+        },
+        "DE": {
+          "war_support": 28,
+          "government_approval": 46
+        },
+        "RU": {
+          "war_support": 22,
+          "government_approval": 38
+        },
+        "BY": {
+          "war_support": 1,
+          "government_approval": 10
+        },
+        "TR": {
+          "war_support": 10,
+          "government_approval": 54
+        },
+        "HU": {
+          "war_support": 4,
+          "government_approval": 26
+        },
+        "FI": {
+          "war_support": 50,
+          "government_approval": 63
+        },
+        "SE": {
+          "war_support": 38,
+          "government_approval": 52
+        },
+        "NO": {
+          "war_support": 36,
+          "government_approval": 55
+        },
+        "DK": {
+          "war_support": 34,
+          "government_approval": 49
+        },
+        "NL": {
+          "war_support": 28,
+          "government_approval": 44
+        },
+        "BE": {
+          "war_support": 20,
+          "government_approval": 40
+        },
+        "CZ": {
+          "war_support": 30,
+          "government_approval": 46
+        },
+        "RO": {
+          "war_support": 34,
+          "government_approval": 48
+        },
+        "CA": {
+          "war_support": 22,
+          "government_approval": 43
+        },
+        "CN": {
+          "war_support": 2,
+          "government_approval": 75
+        }
+      },
+      "refugee_flows_add": [
+        {
+          "from": "LT",
+          "to": "PL",
+          "count": 3000,
+          "status": "settled"
+        }
+      ],
+      "humanitarian_crisis_level": {
+        "LT": 7,
+        "PL": 3
+      },
+      "cyber_operations_add": [],
+      "infrastructure_status": {
+        "LT": {
+          "power_grid": 5,
+          "comms": 4,
+          "financial": 6,
+          "military_c2": 7
+        }
+      },
+      "corridor_control": "nato",
+      "recent_events": [
+        "Russian withdrawal 85% complete — Vištytis pocket empty, Lazdijai cleared",
+        "NATO approves permanent Suwałki Shield Force — multinational brigade garrison",
+        "Germany announces €50B European defense and reconstruction package",
+        "Belarus military crisis: 38th Air Assault Brigade publicly defies Lukashenko",
+        "40% of Belarusian military in open defiance or passive refusal",
+        "Russian oligarchs quietly exploring post-Putin alternatives — Gerasimov's name circulates",
+        "Leaked Belousov recording spreads on Russian Telegram despite censorship",
+        "Baltic shipping resuming — first commercial vessel since Day 1",
+        "Lithuania damage assessment: $8B infrastructure, 23,000 displaced, corridor comms devastated",
+        "US and UK begin de-escalating nuclear posture to peacetime"
+      ],
+      "media_headlines": [
+        "WITHDRAWAL NEARLY DONE: 85% of Russian forces have left Lithuania",
+        "SUWAŁKI SHIELD: NATO approves permanent garrison to prevent future crisis",
+        "€50 BILLION: Germany leads historic European defense package",
+        "BELARUS REVOLT: Brigade commander defies Lukashenko, 40% of military in open defiance",
+        "PUTIN'S NIGHTMARE: Oligarchs whisper about succession as approval hits 38%",
+        "BALTIC REBORN: First cargo ship transits since crisis began"
+      ],
+      "round_number": 8
+    },
+    "events": [
+      "Russian withdrawal 85% complete — corridor nearly clear",
+      "NATO approves permanent Suwałki Shield Force",
+      "Germany's €50B defense package — historic shift in European security",
+      "Belarus military crisis reaches tipping point — 40% in defiance",
+      "US and UK de-escalate nuclear posture to peacetime",
+      "Baltic shipping resuming — economic recovery beginning"
+    ],
+    "headlines": [
+      "WITHDRAWAL 85%: Russian forces nearly gone from Lithuania",
+      "SHIELD FORCE: NATO garrison ensures Suwałki Gap never exploited again",
+      "€50B: Germany's defense awakening reshapes European security",
+      "BELARUS ON BRINK: Military revolt against Lukashenko accelerating",
+      "PUTIN AT 38%: Kremlin faces worst domestic crisis since 1991",
+      "FIRST SHIP: Baltic commerce resumes as crisis winds down"
+    ],
+    "surprises": [
+      "A group of Russian soldiers from the Kaliningrad garrison, during their withdrawal through Lithuania, left a handwritten note at a Lithuanian school they had occupied as a field hospital: 'We are sorry. We did not choose this. — Russian soldiers, 44th Motor Rifle Brigade.' The school principal photographed the note; it went viral within hours.",
+      "Chinese state media begins a carefully calibrated narrative shift, referring to Xi Jinping as 'the statesman who prevented nuclear war' — positioning the Suwałki Crisis as China's diplomatic coming-of-age on the world stage, comparable to the role the US played after WWII."
+    ]
+  },
+  "world_state_after": {
+    "round_number": 8,
+    "game_time": "Day 8, 12:00 CET",
+    "military_units": [
+      {
+        "name": "russian_western_district",
+        "country": "RU",
+        "type": "ground",
+        "location": "Belarus, absorbing withdrawing forces — demoralized",
+        "readiness": 4,
+        "strength": 5,
+        "casualties": 2,
+        "supply_level": 7,
+        "morale": 2,
+        "_last_casualty_morale_applied": 1,
+        "_last_casualty_strength_applied": 1
+      },
+      {
+        "name": "belarus_forces",
+        "country": "BY",
+        "type": "ground",
+        "location": "Belarus — 40% in open defiance, military crisis",
+        "readiness": 1,
+        "strength": 3,
+        "casualties": 0,
+        "supply_level": 6,
+        "morale": 1,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_lithuania",
+        "country": "DE",
+        "type": "ground",
+        "location": "Kaunas, rebuilding",
+        "readiness": 5,
+        "strength": 2,
+        "casualties": 3,
+        "supply_level": 8,
+        "morale": 7,
+        "_last_casualty_morale_applied": 1,
+        "_last_casualty_strength_applied": 1
+      },
+      {
+        "name": "nato_efp_latvia",
+        "country": "CA",
+        "type": "ground",
+        "location": "Latvia",
+        "readiness": 7,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_estonia",
+        "country": "GB",
+        "type": "ground",
+        "location": "Estonia",
+        "readiness": 7,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "Suwałki area",
+        "readiness": 7,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 8,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "us_forces_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "Suwałki Corridor, securing area, planning permanent garrison",
+        "readiness": 7,
+        "strength": 7,
+        "casualties": 1,
+        "supply_level": 8,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "polish_forces",
+        "country": "PL",
+        "type": "ground",
+        "location": "Suwałki area, transitioning to garrison posture",
+        "readiness": 6,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 6,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "finnish_forces",
+        "country": "FI",
+        "type": "ground",
+        "location": "Finland",
+        "readiness": 7,
+        "strength": 8,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "uk_carrier_group",
+        "country": "GB",
+        "type": "naval",
+        "location": "Baltic Sea, preparing to depart",
+        "readiness": 6,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 4,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "french_rafale_squadron",
+        "country": "FR",
+        "type": "air",
+        "location": "Łask, preparing to return to France",
+        "readiness": 6,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 7,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "us_f35_squadron",
+        "country": "US",
+        "type": "air",
+        "location": "Łask Air Base, normal operations resuming",
+        "readiness": 7,
+        "strength": 3,
+        "casualties": 0,
+        "supply_level": 7,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "swedish_gotland_garrison",
+        "country": "SE",
+        "type": "ground",
+        "location": "Gotland",
+        "readiness": 7,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "danish_strait_defense",
+        "country": "DK",
+        "type": "naval",
+        "location": "Danish Straits, preparing to reopen",
+        "readiness": 7,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "polish_18th_division",
+        "country": "PL",
+        "type": "ground",
+        "location": "Suwałki Corridor, securing cleared areas",
+        "readiness": 6,
+        "strength": 4,
+        "casualties": 4,
+        "supply_level": 7,
+        "morale": 8,
+        "_last_casualty_morale_applied": 2,
+        "_last_casualty_strength_applied": 2
+      },
+      {
+        "name": "french_ground_brigade",
+        "country": "FR",
+        "type": "ground",
+        "location": "Northeast Poland, preparing redeployment to France",
+        "readiness": 5,
+        "strength": 5,
+        "casualties": 1,
+        "supply_level": 8,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "finnish_artillery",
+        "country": "FI",
+        "type": "ground",
+        "location": "Suwałki area, preparing redeployment to Finland",
+        "readiness": 6,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 6,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "dutch_43rd_brigade",
+        "country": "NL",
+        "type": "ground",
+        "location": "Northeast Poland, preparing redeployment",
+        "readiness": 5,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 8,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "german_patriot_battery",
+        "country": "DE",
+        "type": "air",
+        "location": "Suwałki, transitioning to permanent garrison element",
+        "readiness": 7,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 7,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      }
+    ],
+    "military_alerts": {
+      "russian_kaliningrad_forces": "ICRC evacuation of wounded — 47 critically wounded transferred to Lithuanian hospitals",
+      "russian_western_district": "At Lithuanian border, preparing to push through to reinforce corridor",
+      "belarus_forces": "Defensive posture only, providing transit to Russian forces, NOT crossing border",
+      "nato_efp_lithuania": "Supporting Lithuanian Nemunas River defense line, very low strength",
+      "nato_efp_latvia": "Canadian-led battlegroup (~1500 troops)",
+      "nato_efp_estonia": "UK-led battlegroup (~1200 troops)",
+      "nato_efp_poland": "US-led battlegroup (~1000 troops) + Polish forces",
+      "us_forces_poland": "V Corps pushing north, 1 KIA from IED in corridor",
+      "polish_forces": "Sustained HIMARS fire support, Polish F-16 lost in SEAD (pilot captured)",
+      "finnish_forces": "Offering artillery + MLRS to NATO, border fully defended",
+      "russian_vdv_airborne": "SURRENDERED - Col. Volkov's unit capitulated, ~200 POWs taken by Polish forces",
+      "russian_reinforcement_column": "Destroyed, personnel awaiting organized evacuation under ceasefire",
+      "uk_carrier_group": "Storm Shadow strike successful, rearming for potential follow-up strikes",
+      "german_patriot_battery": "Operational at Suwałki and Kaunas, providing critical air defense",
+      "norwegian_warning": "Missing Severodvinsk submarine still UNLOCATED despite P-8 search",
+      "polish_18th_division": "Counter-attack success - recaptured Mockava and Route 16 junction, advancing north",
+      "us_f35_squadron": "Post-SEAD - degraded Kaliningrad A2/AD by 50%, 1 aircraft damaged, rearming",
+      "finnish_artillery": "K9 Thunder and MLRS operational in eastern Poland, ready for fire missions",
+      "nato_article5_consensus": "FULL CONSENSUS ACHIEVED at 15:00 CET - Turkey and Hungary withdrew objections",
+      "nato_pow_situation": "Major Tomasz Kowalski (Polish Air Force) captured by VDV - first NATO POW",
+      "china_taiwan": "PLA Navy exercises in Taiwan Strait - 12 warships, 24 fighters - assessed as pressure, not invasion prep",
+      "severodvinsk_submarine": "STRUCK Łask Air Base with 3 Kalibr missiles - 1 hit taxiway, 4 Polish KIA - submarine still at large",
+      "lask_air_base": "Taxiway damaged, 2 F-16s destroyed on ground, operations continuing from backup runway",
+      "nuclear_warning": "Increased activity at Russian strategic forces command posts detected by satellites",
+      "ceasefire": "72-hour ceasefire holding — no violations reported",
+      "nuclear_deescalation": "Iskander nuclear warheads observed returning to storage at 23:45 — immediate threat passed",
+      "severodvinsk": "Confirmed returning to Kola Peninsula — no longer threat",
+      "belarus_military": "Effective paralysis — multiple units refusing orders, KGB conducting arrests",
+      "withdrawal_agreement": "Russia agrees to 96-hour phased withdrawal starting Day 6, 06:00",
+      "pow_exchange": "COMPLETED — Major Kowalski returned, 247 Russian POWs repatriated",
+      "withdrawal": "85% complete — Vištytis empty, Lazdijai clear, only rear guard remains",
+      "orlov_incident": "Resolved — Russian Major demanded medevac helicopters, Lithuanian helicopters provided",
+      "suwalki_shield_force": "NAC approves permanent multinational brigade garrison for Suwałki Corridor",
+      "belarus_crisis": "38th Air Assault Brigade defies Lukashenko — 40% of military in open defiance",
+      "russia_internal": "Putin facing political crisis — leaked recordings, ruble collapse, military defeat narrative"
+    },
+    "markets": {
+      "oil_price": 102.0,
+      "euro_usd": 1.01,
+      "gas_price_eu": "surging 15% on infrastructure fears",
+      "stock_indices": "nervous, -2% on reports",
+      "nasdaq": "-4.2% on two-front crisis fears",
+      "ruble_usd": 140.0,
+      "dow_jones": "suspended then -11%",
+      "european_indices": "suspended, to reopen"
+    },
+    "sanctions": [
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "Emergency SWIFT restrictions on additional Russian banks"
+      },
+      {
+        "from": "EU",
+        "target": "RU",
+        "type": "Emergency energy import reduction package"
+      },
+      {
+        "from": "GB",
+        "target": "RU",
+        "type": "Freezing of Russian sovereign assets in London"
+      },
+      {
+        "from": "US",
+        "target": "BY",
+        "type": "Full economic sanctions on Belarus for facilitating aggression"
+      },
+      {
+        "from": "EU",
+        "target": "BY",
+        "type": "Full EU sanctions on Belarus for providing staging territory to Russian forces"
+      },
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "Secondary sanctions warning on entities facilitating Russian military procurement"
+      },
+      {
+        "from": "EU",
+        "target": "RU",
+        "type": "Full SWIFT disconnection of all major Russian banks (post-Article 5)"
+      },
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "Total export ban on advanced technology and semiconductors to Russia"
+      },
+      {
+        "from": "EU",
+        "target": "BY",
+        "type": "Full economic embargo on Belarus for facilitating military transit"
+      },
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "Emergency executive order freezing ALL Russian state assets in US jurisdiction"
+      },
+      {
+        "from": "GB",
+        "target": "RU",
+        "type": "Complete expulsion of Russian diplomatic staff except emergency channel"
+      }
+    ],
+    "trade_disruptions": [
+      "Commercial shipping rerouting from eastern Baltic",
+      "All land transit to/from Kaliningrad suspended",
+      "Main links through Suwalki corridor severed",
+      "Fuel depot damaged by Iskander-K strike, rerouting required",
+      "Kaliningrad supply lines under NATO air interdiction - first sustained aerial blockade",
+      "European gas spot prices surge 15% on fears of Russian infrastructure retaliation",
+      "China Taiwan Strait exercises disrupt Pacific shipping routes, insurance premiums spike",
+      "Global shipping insurance rates spike 300% for Baltic and Eastern Mediterranean",
+      "Russian ruble crashes to 130/USD - Moscow Stock Exchange suspended trading",
+      "Global stock exchanges suspended trading for hours during nuclear scare",
+      "Baltic shipping completely halted — insurers refuse coverage",
+      "Russian financial system approaching systemic collapse",
+      "European stock exchanges reopened — cautious recovery +3%",
+      "Baltic shipping lanes remain closed pending completion of withdrawal",
+      "Baltic shipping lanes to reopen in 48 hours pending mine clearance",
+      "Insurance rates beginning to normalize for non-Baltic European trade",
+      "Baltic shipping resuming — first commercial vessel transits since Day 1",
+      "Danish Straits preparing to reopen to Russian-flagged civilian vessels"
+    ],
+    "diplomatic_relations": {
+      "PL": {
+        "RU": -10,
+        "BY": -8,
+        "US": 10,
+        "DE": 7,
+        "LT": 10,
+        "HU": 1,
+        "TR": 5
+      },
+      "LT": {
+        "RU": -10,
+        "BY": -9,
+        "PL": 10,
+        "US": 7,
+        "DE": 8
+      },
+      "US": {
+        "RU": -10,
+        "PL": 9,
+        "GB": 9,
+        "DE": 5,
+        "TR": 7,
+        "HU": -2,
+        "CN": -3
+      },
+      "RU": {
+        "US": -9,
+        "PL": -10,
+        "LT": -10,
+        "CN": 3,
+        "BY": 7,
+        "TR": -5,
+        "DE": -10,
+        "GB": -10
+      },
+      "DE": {
+        "RU": -9,
+        "PL": 8,
+        "FR": 8,
+        "US": 5,
+        "LT": 8
+      },
+      "GB": {
+        "RU": -8,
+        "PL": 7,
+        "US": 9,
+        "FR": 7
+      },
+      "FR": {
+        "RU": -6,
+        "PL": 6,
+        "US": 7,
+        "GB": 7,
+        "DE": 7
+      },
+      "TR": {
+        "RU": -4,
+        "US": 7,
+        "HU": 2
+      },
+      "HU": {
+        "RU": -2,
+        "US": 1,
+        "PL": 2
+      },
+      "CN": {
+        "RU": 4,
+        "US": -2
+      }
+    },
+    "treaties_invoked": [
+      "{'treaty': 'NATO Article 4', 'invoked_by': 'PL', 'status': 'consultation underway'}",
+      "{'treaty': 'EU Article 42.7', 'proposed_by': 'FR', 'status': 'under discussion'}",
+      "{'treaty': 'NATO Article 5', 'invoked_by': 'PL', 'status': 'invoked, consensus pending Turkey/Hungary'}",
+      "{'treaty': 'EU Article 42.7', 'invoked_by': 'FR', 'status': 'activated by European Council majority'}",
+      "{'treaty': 'NATO Article 5', 'invoked_by': 'NAC', 'status': 'FULL CONSENSUS - collective defense authorized under SACEUR command'}",
+      "{'treaty': 'US-Turkey F-35 Framework', 'invoked_by': 'US/TR', 'status': 'signed, S-400 transfer to US custody within 90 days'}",
+      "{'treaty': 'UN Ceasefire Resolution', 'invoked_by': 'UNSC', 'status': '72-hour humanitarian ceasefire, UNSC Resolution adopted 14-0-1 (China abstained)'}",
+      "{'treaty': 'Geneva Framework Agreement', 'invoked_by': 'US/RU/EU', 'status': '96-hour phased Russian withdrawal, POW exchange, post-crisis dialogue commitment'}",
+      "{'treaty': 'NAC Suwałki Shield Force Declaration', 'invoked_by': 'NAC', 'status': 'permanent multinational brigade authorized for Suwałki Corridor'}"
+    ],
+    "un_resolutions": [
+      "{'title': 'Emergency UNSC session on Lithuania crisis', 'status': 'blocked by RU and CN vetoes', 'votes': '13-2'}",
+      "{'title': 'UNGA Emergency Special Session on Suwałki Crisis', 'status': '143-5-35 condemning Russian aggression, non-binding', 'votes': '143 for, 5 against (RU, BY, DPRK, SY, ER), 35 abstentions'}",
+      "{'title': 'UNSC Resolution: 72-hour humanitarian ceasefire in Suwałki corridor', 'status': 'adopted 14-0-1 (Russia voted yes, China abstained)', 'votes': '14-0-1'}",
+      "{'title': 'UNSC endorsement of Geneva Framework for Suwałki withdrawal', 'status': 'adopted unanimously 15-0', 'votes': '15-0'}"
+    ],
+    "nato_alert_level": "article5",
+    "nato_consensus": {
+      "US": "permanent garrison approved, V Corps element to remain",
+      "PL": "ecstatic about permanent garrison — 'most important NATO decision since enlargement'",
+      "LT": "total mobilization, KASP conducting guerrilla operations",
+      "LV": "full support, border reinforced",
+      "EE": "full support, CCDCOE offensive cyber operations",
+      "GB": "carrier to depart once withdrawal verified, EFP to be enhanced",
+      "FR": "supports garrison but pushing for parallel diplomatic engagement with Russia",
+      "DE": "€50B European defense and reconstruction package announced",
+      "FI": "full support, artillery deployed to Poland",
+      "SE": "full support, ELINT critical to SEAD success",
+      "NO": "full support, submarine hunt priority",
+      "DK": "full support, Straits locked",
+      "CA": "full support, Latvia reinforced",
+      "NL": "full support, 43rd Brigade deployed",
+      "BE": "full support",
+      "CZ": "full support, logistics hub",
+      "RO": "full support, Black Sea alert",
+      "TR": "FULL SUPPORT - F-35 deal signed, veto withdrawn",
+      "HU": "reluctant support - veto withdrawn with face-saving concessions"
+    },
+    "corridor_control": "nato",
+    "nuclear_posture": {
+      "RU": "elevated",
+      "US": "peacetime",
+      "GB": "peacetime",
+      "FR": "elevated"
+    },
+    "nuclear_detonations": [],
+    "public_opinion": {
+      "PL": {
+        "war_support": 70,
+        "government_approval": 78
+      },
+      "DE": {
+        "war_support": 28,
+        "government_approval": 46
+      },
+      "FR": {
+        "war_support": 18,
+        "government_approval": 34
+      },
+      "US": {
+        "war_support": 25,
+        "government_approval": 46
+      },
+      "GB": {
+        "war_support": 35,
+        "government_approval": 47
+      },
+      "LT": {
+        "war_support": 75,
+        "government_approval": 76
+      },
+      "LV": {
+        "war_support": 55,
+        "government_approval": 60
+      },
+      "EE": {
+        "war_support": 60,
+        "government_approval": 62
+      },
+      "FI": {
+        "war_support": 50,
+        "government_approval": 63
+      },
+      "SE": {
+        "war_support": 38,
+        "government_approval": 52
+      },
+      "NO": {
+        "war_support": 36,
+        "government_approval": 55
+      },
+      "DK": {
+        "war_support": 34,
+        "government_approval": 49
+      },
+      "CA": {
+        "war_support": 22,
+        "government_approval": 43
+      },
+      "NL": {
+        "war_support": 28,
+        "government_approval": 44
+      },
+      "BE": {
+        "war_support": 20,
+        "government_approval": 40
+      },
+      "CZ": {
+        "war_support": 30,
+        "government_approval": 46
+      },
+      "RO": {
+        "war_support": 34,
+        "government_approval": 48
+      },
+      "TR": {
+        "war_support": 10,
+        "government_approval": 54
+      },
+      "HU": {
+        "war_support": 4,
+        "government_approval": 26
+      },
+      "RU": {
+        "war_support": 22,
+        "government_approval": 38
+      },
+      "BY": {
+        "war_support": 1,
+        "government_approval": 10
+      },
+      "CN": {
+        "war_support": 2,
+        "government_approval": 75
+      }
+    },
+    "refugee_flows": [
+      {
+        "from": "LT",
+        "to": "PL",
+        "count": 15000,
+        "status": "fleeing"
+      },
+      {
+        "from": "LT",
+        "to": "LV",
+        "count": 8000,
+        "status": "fleeing"
+      },
+      {
+        "from": "PL",
+        "to": "DE",
+        "count": 3000,
+        "status": "fleeing"
+      }
+    ],
+    "humanitarian_crisis_level": {
+      "LT": 7,
+      "PL": 3
+    },
+    "cyber_operations": [
+      {
+        "attacker": "RU",
+        "target": "LT",
+        "type": "infrastructure",
+        "severity": "high",
+        "infrastructure_affected": "comms"
+      },
+      {
+        "attacker": "RU",
+        "target": "PL",
+        "type": "ddos",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "EE",
+        "type": "ddos",
+        "severity": "medium",
+        "infrastructure_affected": "financial"
+      },
+      {
+        "attacker": "RU",
+        "target": "DE",
+        "type": "malware",
+        "severity": "low",
+        "infrastructure_affected": "comms"
+      },
+      {
+        "attacker": "EE",
+        "target": "RU",
+        "type": "espionage",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "PL",
+        "type": "infrastructure",
+        "severity": "high",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "PL",
+        "type": "espionage",
+        "severity": "medium",
+        "infrastructure_affected": "none"
+      },
+      {
+        "attacker": "EE",
+        "target": "RU",
+        "type": "infrastructure",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "SE",
+        "target": "RU",
+        "type": "espionage",
+        "severity": "medium",
+        "infrastructure_affected": "none"
+      },
+      {
+        "attacker": "RU",
+        "target": "EE",
+        "type": "malware",
+        "severity": "high",
+        "infrastructure_affected": "power_grid"
+      },
+      {
+        "attacker": "US",
+        "target": "RU",
+        "type": "infrastructure",
+        "severity": "high",
+        "infrastructure_affected": "military_c2"
+      }
+    ],
+    "infrastructure_status": {
+      "LT": {
+        "power_grid": 5,
+        "comms": 4,
+        "financial": 6,
+        "military_c2": 7
+      },
+      "PL": {
+        "power_grid": 8,
+        "comms": 7,
+        "financial": 7,
+        "military_c2": 6
+      },
+      "EE": {
+        "power_grid": 7,
+        "comms": 8,
+        "financial": 9,
+        "military_c2": 9
+      }
+    },
+    "recent_events": [
+      "Russian withdrawal 85% complete — Vištytis pocket empty, Lazdijai cleared",
+      "NATO approves permanent Suwałki Shield Force — multinational brigade garrison",
+      "Germany announces €50B European defense and reconstruction package",
+      "Belarus military crisis: 38th Air Assault Brigade publicly defies Lukashenko",
+      "40% of Belarusian military in open defiance or passive refusal",
+      "Russian oligarchs quietly exploring post-Putin alternatives — Gerasimov's name circulates",
+      "Leaked Belousov recording spreads on Russian Telegram despite censorship",
+      "Baltic shipping resuming — first commercial vessel since Day 1",
+      "Lithuania damage assessment: $8B infrastructure, 23,000 displaced, corridor comms devastated",
+      "US and UK begin de-escalating nuclear posture to peacetime"
+    ],
+    "media_headlines": [
+      "WITHDRAWAL NEARLY DONE: 85% of Russian forces have left Lithuania",
+      "SUWAŁKI SHIELD: NATO approves permanent garrison to prevent future crisis",
+      "€50 BILLION: Germany leads historic European defense package",
+      "BELARUS REVOLT: Brigade commander defies Lukashenko, 40% of military in open defiance",
+      "PUTIN'S NIGHTMARE: Oligarchs whisper about succession as approval hits 38%",
+      "BALTIC REBORN: First cargo ship transits since crisis began"
+    ],
+    "_nuclear_penalty_applied": [],
+    "_oil_penalty_last_threshold": 120.0,
+    "_gas_sanction_count_applied": 0,
+    "_gm_set_nuclear_this_round": [
+      "RU",
+      "FR",
+      "US",
+      "GB"
+    ]
+  }
+}

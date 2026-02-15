@@ -1,0 +1,1327 @@
+{
+  "round": 17,
+  "runner": "claude-code",
+  "briefing": "Day 17 ends with a nuclear verification crisis layered atop the diplomatic sprint toward Istanbul II (now 4 days away). The IAEA's discovery of 2 missing Russian tactical nuclear warheads in Belarus transforms the negotiating landscape — Russia must now explain the discrepancy before any sanctions relief discussion can proceed credibly. This hands enormous leverage to NATO and particularly to the US, which can demand full nuclear accounting as a precondition for Istanbul II progress.\n\nThe military situation remains stable — no combat, all forces in garrison or defensive positions. The Suwalki Shield Force is operational. Poland's Shield East advances. Baltic Defense Council deepens integration. Nordic NORDEFCO implements. No new NATO deployments were approved this round — war support remains too low across the alliance for new foreign deployments.\n\nThree dynamics will shape the next 96 hours before Istanbul II: (1) Russia's response to the IAEA nuclear discrepancy — can Putin account for the missing warheads? (2) The Kaliningrad humanitarian crisis deepens — military families fleeing, governor's videos viral, 430,000 civilians suffering. (3) Hungary's political earthquake — Magyar's treason complaint accepted for investigation, 25,000 protesters, Orban in hiding.\n\nMarkets react nervously to the nuclear news — oil spikes to $82 on the warhead discrepancy before settling at $81. The ruble weakens to 126/USD. European markets give back gains from the previous day.",
+  "narrative": "Day 17 delivers the most significant non-proliferation development of the crisis: the IAEA inspection team — 14 inspectors led by Deputy Director General Massimo Aparo — arrives at Minsk National Airport and is received with full diplomatic honors by Belarus's transitional council. Within hours, the team begins preliminary assessment of declared Russian tactical nuclear weapons storage sites at three locations in western Belarus. The inspection proceeds smoothly at the first two sites, but at the third — an underground bunker complex near Asipovichy — the IAEA discovers a critical discrepancy: 2 of the 12 declared Russian tactical nuclear warheads are missing from their storage positions. Russia claims they were 'returned to Russian territory during the crisis period' but cannot produce transfer documentation or chain-of-custody records. IAEA Director General Grossi immediately classifies this as a 'Category A discrepancy requiring urgent clarification' and notifies the UN Security Council. The discovery sends shockwaves through diplomatic channels — either Russia moved nuclear weapons without proper safeguards, or the weapons are unaccounted for.\n\nThe nuclear discrepancy overshadows all other developments but does not derail them. Geneva Track 2 holds its second session in Berlin, with 14 nations discussing the European Three position paper. Germany and France co-chair productively, though the gas flow split persists — Berlin cautiously engages Moscow's economic overtures while Warsaw and the Baltic capitals maintain maximum pressure. The US, through the CJCS-Gerasimov channel, quietly probes Russia's earlier hint about Kaliningrad military posture adjustments, but receives no formal confirmation — Moscow appears to be testing the waters without committing.\n\nIn Budapest, the aftermath of Orban's narrow confidence vote survival continues to dominate. Magyar's criminal complaint for high treason moves through the courts — a Budapest prosecutor accepts the filing for preliminary investigation. Crowds outside Parliament swell to 25,000 by evening, the largest since 2018. Orban retreats to his Felcsut residence, cancelling all public appearances. Meanwhile, a humanitarian development at the Lithuanian-Russian border catches the world's attention: 200 Russian military families from Kaliningrad arrive at the Nida crossing seeking asylum, citing unbearable living conditions in the exclave. Lithuanian border guards process them humanely, and UNHCR opens a temporary reception center.",
+  "country_decisions": [
+    {
+      "country": "PL",
+      "actions": [
+        "Demand formal seat at Istanbul II — Sikorski leads delegation",
+        "Support IAEA Belarus mission with technical liaison",
+        "Continue Shield East at current tempo",
+        "ICC dossier coordination with Baltic states"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "LT",
+      "actions": [
+        "Reject Russian gas restoration as economic coercion",
+        "Istanbul II demands: Kaliningrad demilitarization as precondition",
+        "KASP mobilization continuing",
+        "Process 200 Russian military family refugees humanely at Nida crossing"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "LV",
+      "actions": [
+        "BDC secretariat joint Baltic statement rejecting gas offer",
+        "Russian-language counter-disinformation campaign launched",
+        "IRIS-T procurement accelerating — first battery target Day 19"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "EE",
+      "actions": [
+        "CCDCOE full cyber posture activated",
+        "Kaitseliit 18,000 territorial defense mobilized",
+        "Propose cyber ceasefire at Istanbul II"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "US",
+      "actions": [
+        "Probe Kaliningrad demilitarization hint through CJCS-Gerasimov channel — no formal confirmation yet",
+        "EUCOM intelligence team supports IAEA Belarus mission",
+        "Witkoff leads Istanbul II preparation — nuclear discrepancy adds leverage",
+        "Coordinate European Three on Five Eyes basis"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "US",
+          "to": "RU",
+          "channel": "backchannel",
+          "message": "Kaliningrad offer merits exploration. But IAEA discrepancy must be resolved first. Where are the 2 missing warheads?"
+        },
+        {
+          "from": "US",
+          "to": "GB",
+          "channel": "backchannel",
+          "message": "Five Eyes share on nuclear discrepancy. Coordinate pressure."
+        }
+      ]
+    },
+    {
+      "country": "GB",
+      "actions": [
+        "Share Gerasimov intelligence via Five Eyes",
+        "Geneva Track 2 Day 2 participation — support European Three paper",
+        "GCHQ intelligence products for allied partners"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "FR",
+      "actions": [
+        "Co-chair Geneva Track 2 Day 2 — IAEA inspections framework proposed",
+        "ESAF development continues (NOTE: 11th Para deployment NOT approved — 9% war support)",
+        "Support IAEA Belarus verification"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "DE",
+      "actions": [
+        "Host Geneva Track 2 Day 2 — productive session on position paper",
+        "EUR 8B supplemental implementation (NOTE: second brigade NOT approved — 18% war support)",
+        "Cautiously engage Russian gas restoration — link to comprehensive settlement"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "FI",
+      "actions": [
+        "SIGINT exchange with Sweden — daily briefings on Russian activity",
+        "Maintain Tier 2 mobilization — K9/MLRS at readiness",
+        "NORDEFCO intelligence coordination deepening"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "SE",
+      "actions": [
+        "Gotland garrison integration with NATO air defense",
+        "Gripen E IOC — 4-6 aircraft defensive intercept ready",
+        "Submarine deployed to central Baltic for intelligence"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "NO",
+      "actions": [
+        "GIUK maximum surveillance — 12-hour continuous rotation",
+        "CAOC Bodoe Nordic air picture integration",
+        "Arctic hotline with Russia stable"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "DK",
+      "actions": [
+        "NSM batteries full alert — Strait closure capability",
+        "UNSC documentation submitted",
+        "Bornholm garrison coordination"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "CA",
+      "actions": [
+        "eFP Latvia permanent — logistics and medical support enhanced (NOTE: additional battalion NOT approved — 11% war support)",
+        "CF-18 Baltic Air Policing rotations",
+        "Ottawa track-2 reconstruction framework meetings"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "NL",
+      "actions": [
+        "Rotterdam 24/7 logistics hub operations (NOTE: 43rd Brigade forward deployment NOT approved — 15% war support)",
+        "Ammunition delivery acceleration",
+        "Cyber defense protocols activated"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "BE",
+      "actions": [
+        "NATO HQ FPCON Delta security",
+        "NAC continuous consultations facilitated",
+        "EUR 250M reconstruction via EU"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "CZ",
+      "actions": [
+        "Ammunition factories wartime tempo — 50% increase 155mm output",
+        "Host Nation Support transit corridors open",
+        "Counter-sabotage protocols active"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "RO",
+      "actions": [
+        "Deveselu/Kogalniceanu enhanced air defense",
+        "Transnistria monitoring via DGIA",
+        "Bucharest Nine coordination"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "RU",
+      "actions": [
+        "Attempt to condition IAEA inspection — REJECTED, Belarus is sovereign and invited inspectors",
+        "Kaliningrad humanitarian convoy offloading — 15,000 MT supplies",
+        "Gas 15% deliveries continuing",
+        "FSB information campaign on Russian civilian suffering in Kaliningrad"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "RU",
+          "to": "BY",
+          "channel": "private",
+          "message": "Demand coordination on IAEA inspection. Assert joint custody of nuclear arsenal."
+        },
+        {
+          "from": "RU",
+          "to": "CN",
+          "channel": "backchannel",
+          "message": "Request Chinese diplomatic support at UNSC on nuclear discrepancy."
+        }
+      ]
+    },
+    {
+      "country": "BY",
+      "actions": [
+        "IAEA inspection proceeds with full cooperation — inspectors received with diplomatic honors",
+        "90-day election roadmap announced — EU/OSCE observers invited",
+        "NATO liaison in Warsaw continuing"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "TR",
+      "actions": [
+        "Istanbul II summit logistics finalization — 4 days",
+        "F-35 reinstatement coordination with Pentagon",
+        "Nuclear discrepancy adds urgency to summit framework"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "HU",
+      "actions": [
+        "Orban retreats to Felcsut — cancels public appearances",
+        "Energy framework proposal attempted — overshadowed by treason complaint",
+        "Criminal complaint accepted for preliminary investigation"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "CN",
+      "actions": [
+        "Formally acknowledge Five-Point Framework as official PRC position",
+        "Taiwan de-escalation maintained explicitly",
+        "Geneva Process observer role — support IAEA verification"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "CN",
+          "to": "US",
+          "channel": "backchannel",
+          "message": "Nuclear discrepancy concerning. China supports full accounting. Taiwan restraint continues."
+        }
+      ]
+    }
+  ],
+  "resolution": {
+    "narrative": "Day 17 delivers the most significant non-proliferation development of the crisis: the IAEA inspection team — 14 inspectors led by Deputy Director General Massimo Aparo — arrives at Minsk National Airport and is received with full diplomatic honors by Belarus's transitional council. Within hours, the team begins preliminary assessment of declared Russian tactical nuclear weapons storage sites at three locations in western Belarus. The inspection proceeds smoothly at the first two sites, but at the third — an underground bunker complex near Asipovichy — the IAEA discovers a critical discrepancy: 2 of the 12 declared Russian tactical nuclear warheads are missing from their storage positions. Russia claims they were 'returned to Russian territory during the crisis period' but cannot produce transfer documentation or chain-of-custody records. IAEA Director General Grossi immediately classifies this as a 'Category A discrepancy requiring urgent clarification' and notifies the UN Security Council. The discovery sends shockwaves through diplomatic channels — either Russia moved nuclear weapons without proper safeguards, or the weapons are unaccounted for.\n\nThe nuclear discrepancy overshadows all other developments but does not derail them. Geneva Track 2 holds its second session in Berlin, with 14 nations discussing the European Three position paper. Germany and France co-chair productively, though the gas flow split persists — Berlin cautiously engages Moscow's economic overtures while Warsaw and the Baltic capitals maintain maximum pressure. The US, through the CJCS-Gerasimov channel, quietly probes Russia's earlier hint about Kaliningrad military posture adjustments, but receives no formal confirmation — Moscow appears to be testing the waters without committing.\n\nIn Budapest, the aftermath of Orban's narrow confidence vote survival continues to dominate. Magyar's criminal complaint for high treason moves through the courts — a Budapest prosecutor accepts the filing for preliminary investigation. Crowds outside Parliament swell to 25,000 by evening, the largest since 2018. Orban retreats to his Felcsut residence, cancelling all public appearances. Meanwhile, a humanitarian development at the Lithuanian-Russian border catches the world's attention: 200 Russian military families from Kaliningrad arrive at the Nida crossing seeking asylum, citing unbearable living conditions in the exclave. Lithuanian border guards process them humanely, and UNHCR opens a temporary reception center.",
+    "world_state_updates": {
+      "game_time": "Day 17, 18:00 CET",
+      "military_units_add": [],
+      "military_units_remove": [],
+      "military_units_update": [
+        {
+          "name": "uk_carrier_group",
+          "location": "Portsmouth",
+          "readiness": 7,
+          "strength": 6,
+          "casualties": 0,
+          "supply_level": 9,
+          "morale": 7
+        }
+      ],
+      "military_alerts": {
+        "iaea_discrepancy": "CRITICAL: 2 of 12 Russian tactical nuclear warheads MISSING from Belarus storage — Category A discrepancy, UNSC notified",
+        "kaliningrad_refugees": "200 Russian military families seek asylum at Lithuanian border — UNHCR reception center opened at Nida",
+        "magyar_treason": "Budapest prosecutor accepts Magyar's criminal complaint against Orban for high treason — preliminary investigation opened",
+        "budapest_protests": "25,000 protesters outside Hungarian Parliament — largest since 2018",
+        "istanbul_ii_summit": "4 days away — Day 21-22, nuclear discrepancy adds new dimension",
+        "geneva_track2": "Day 2 in Berlin — European Three position paper discussed, productive session",
+        "russian_gas_flowing": "15% gas deliveries continuing — EU remains split",
+        "kaliningrad_humanitarian": "15,000 MT humanitarian convoy arriving — 430,000 civilians under power rationing",
+        "cjcs_channel": "Operational — US probing Kaliningrad hint, no formal Russian confirmation"
+      },
+      "markets": {
+        "oil_price": 81.0,
+        "euro_usd": 1.08
+      },
+      "sanctions_add": [],
+      "trade_disruptions_add": [
+        "Oil spikes to $82 on IAEA nuclear discrepancy news before settling at $81",
+        "Ruble weakens to 126/USD on nuclear accountability concerns",
+        "European markets give back previous gains — DAX -1.2% on nuclear news",
+        "Kaliningrad humanitarian convoy 15,000 MT begins offloading — civilian conditions dire",
+        "200 Russian military families flee Kaliningrad to Lithuania — first military family refugee flow"
+      ],
+      "diplomatic_relations": {
+        "RU": {
+          "BY": -10
+        },
+        "BY": {
+          "RU": -10
+        }
+      },
+      "treaties_invoked_add": [
+        "IAEA Category A Nuclear Discrepancy — 2 missing Russian tactical warheads in Belarus, UNSC notified",
+        "UNHCR Kaliningrad Refugee Reception — temporary center at Nida, Lithuania for Russian military families"
+      ],
+      "un_resolutions_add": [],
+      "nato_alert_level": "article5",
+      "nato_consensus": {
+        "ALL": "IAEA nuclear discrepancy adds urgency — Russia must account for missing warheads before Istanbul II can proceed on sanctions relief"
+      },
+      "nuclear_posture": {
+        "US": "peacetime",
+        "RU": "peacetime",
+        "GB": "peacetime",
+        "FR": "peacetime"
+      },
+      "nuclear_detonations_add": [],
+      "public_opinion": {
+        "US": {
+          "war_support": 14,
+          "government_approval": 57
+        },
+        "RU": {
+          "war_support": 16,
+          "government_approval": 29
+        },
+        "PL": {
+          "war_support": 50,
+          "government_approval": 78
+        },
+        "LT": {
+          "war_support": 55,
+          "government_approval": 79
+        },
+        "LV": {
+          "war_support": 38,
+          "government_approval": 57
+        },
+        "EE": {
+          "war_support": 42,
+          "government_approval": 59
+        },
+        "GB": {
+          "war_support": 19,
+          "government_approval": 47
+        },
+        "FR": {
+          "war_support": 9,
+          "government_approval": 35
+        },
+        "DE": {
+          "war_support": 18,
+          "government_approval": 53
+        },
+        "FI": {
+          "war_support": 31,
+          "government_approval": 63
+        },
+        "SE": {
+          "war_support": 26,
+          "government_approval": 52
+        },
+        "NO": {
+          "war_support": 23,
+          "government_approval": 55
+        },
+        "DK": {
+          "war_support": 21,
+          "government_approval": 49
+        },
+        "CA": {
+          "war_support": 11,
+          "government_approval": 43
+        },
+        "NL": {
+          "war_support": 15,
+          "government_approval": 44
+        },
+        "BE": {
+          "war_support": 10,
+          "government_approval": 40
+        },
+        "CZ": {
+          "war_support": 20,
+          "government_approval": 46
+        },
+        "RO": {
+          "war_support": 24,
+          "government_approval": 48
+        },
+        "TR": {
+          "war_support": 5,
+          "government_approval": 65
+        },
+        "HU": {
+          "war_support": 2,
+          "government_approval": 12
+        },
+        "BY": {
+          "war_support": 1,
+          "government_approval": 78
+        },
+        "CN": {
+          "war_support": 2,
+          "government_approval": 79
+        }
+      },
+      "refugee_flows_add": [
+        {
+          "from": "RU",
+          "to": "LT",
+          "count": 200,
+          "status": "fleeing"
+        }
+      ],
+      "humanitarian_crisis_level": {
+        "LT": 2,
+        "PL": 1
+      },
+      "cyber_operations_add": [],
+      "infrastructure_status": {},
+      "corridor_control": "nato",
+      "recent_events": [
+        "IAEA discovers 2 missing Russian tactical nuclear warheads in Belarus — Category A discrepancy",
+        "Russia claims warheads returned during crisis but cannot produce documentation",
+        "IAEA Director General notifies UN Security Council of nuclear discrepancy",
+        "Geneva Track 2 Day 2 — European Three position paper discussed productively",
+        "200 Russian military families flee Kaliningrad to Lithuania seeking asylum",
+        "Magyar's criminal complaint against Orban accepted for preliminary investigation",
+        "25,000 protesters in Budapest — largest since 2018",
+        "Kaliningrad humanitarian convoy begins offloading — 430,000 civilians suffering",
+        "Oil spikes to $82 on nuclear news before settling at $81",
+        "US probes Kaliningrad demilitarization hint through CJCS channel — no formal Russian response"
+      ],
+      "media_headlines": [
+        "NUCLEAR ALARM: IAEA Finds 2 Russian Warheads Missing from Belarus Storage Sites",
+        "KALININGRAD EXODUS: 200 Russian Military Families Flee to Lithuania Seeking Asylum",
+        "ORBAN ON TRIAL: Budapest Prosecutor Opens Treason Investigation Against PM",
+        "BERLIN TALKS: Geneva Track 2 Makes Progress as Istanbul II Looms in 4 Days"
+      ],
+      "round_number": 17
+    },
+    "events": [
+      "IAEA discovers 2 missing Russian tactical nuclear warheads in Belarus — Category A discrepancy",
+      "200 Russian military families flee Kaliningrad to Lithuania seeking asylum",
+      "Magyar's treason complaint against Orban accepted for investigation",
+      "Geneva Track 2 Day 2 — productive session in Berlin",
+      "Kaliningrad humanitarian convoy offloading — civilian suffering continues",
+      "Russian gas 15% flowing — EU split persists",
+      "US probes Kaliningrad demilitarization through CJCS channel"
+    ],
+    "headlines": [
+      "NUCLEAR ALARM: IAEA Finds 2 Russian Warheads Missing from Belarus Storage",
+      "KALININGRAD EXODUS: 200 Russian Military Families Flee to Lithuania",
+      "ORBAN ON TRIAL: Budapest Prosecutor Opens Treason Investigation",
+      "BERLIN TALKS: Geneva Track 2 Advances as Istanbul II Looms"
+    ],
+    "surprises": [
+      "IAEA inspectors at the Asipovichy bunker complex discover that 2 of 12 declared Russian tactical nuclear warheads are not in their assigned storage positions. Russia's military attache claims they were 'repatriated to Russian territory during the crisis evacuation' but cannot produce the required IAEA-format transfer documentation, chain-of-custody logs, or transport authorization. Director General Grossi classifies this as a Category A discrepancy — the most serious classification — and formally notifies the UNSC. Western intelligence agencies scramble to determine whether the warheads are in Russia, in transit, or truly unaccounted for.",
+      "A convoy of 47 vehicles carrying approximately 200 Russian military families — wives, children, and elderly parents of Kaliningrad garrison soldiers — arrives at the Nida-Morskoe border crossing between Kaliningrad and Lithuania. They present themselves to Lithuanian border guards requesting humanitarian asylum, citing 12-hour power cuts, empty stores, and military housing being commandeered for supplies. Lithuanian PM Ruginiene orders humane processing and UNHCR opens a temporary reception center. Russian state media denounces this as a 'NATO provocation' but the families' testimonials — broadcast live on Lithuanian TV — paint a devastating picture of conditions inside the exclave."
+    ]
+  },
+  "world_state_after": {
+    "round_number": 17,
+    "game_time": "Day 17, 18:00 CET",
+    "military_units": [
+      {
+        "name": "nato_efp_lithuania",
+        "country": "DE",
+        "type": "ground",
+        "location": "Kaunas",
+        "readiness": 7,
+        "strength": 5,
+        "casualties": 3,
+        "supply_level": 10,
+        "morale": 9,
+        "_last_casualty_morale_applied": 1,
+        "_last_casualty_strength_applied": 1
+      },
+      {
+        "name": "nato_efp_latvia",
+        "country": "CA",
+        "type": "ground",
+        "location": "Adazi, permanent enhanced posture",
+        "readiness": 7,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_estonia",
+        "country": "GB",
+        "type": "ground",
+        "location": "Tapa, Narva Defence Line Phase 2 fully operational",
+        "readiness": 8,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "Suwalki, Shield Force component",
+        "readiness": 8,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "us_forces_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "Suwalki, V Corps permanent HQ",
+        "readiness": 8,
+        "strength": 7,
+        "casualties": 1,
+        "supply_level": 10,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "polish_forces",
+        "country": "PL",
+        "type": "ground",
+        "location": "Suwalki, Shield East 200km fortification line",
+        "readiness": 7,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "finnish_forces",
+        "country": "FI",
+        "type": "ground",
+        "location": "Finland",
+        "readiness": 5,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "uk_carrier_group",
+        "country": "GB",
+        "type": "naval",
+        "location": "Portsmouth",
+        "readiness": 7,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "french_rafale_squadron",
+        "country": "FR",
+        "type": "air",
+        "location": "France, home base standby",
+        "readiness": 7,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "us_f35_squadron",
+        "country": "US",
+        "type": "air",
+        "location": "Lask",
+        "readiness": 7,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "swedish_gotland_garrison",
+        "country": "SE",
+        "type": "ground",
+        "location": "Gotland",
+        "readiness": 8,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "danish_strait_defense",
+        "country": "DK",
+        "type": "naval",
+        "location": "Danish Straits",
+        "readiness": 9,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "polish_18th_division",
+        "country": "PL",
+        "type": "ground",
+        "location": "Suwalki Corridor, garrison",
+        "readiness": 7,
+        "strength": 5,
+        "casualties": 4,
+        "supply_level": 9,
+        "morale": 9,
+        "_last_casualty_morale_applied": 2,
+        "_last_casualty_strength_applied": 2
+      },
+      {
+        "name": "french_ground_brigade",
+        "country": "FR",
+        "type": "ground",
+        "location": "Corsica, forward staging posture",
+        "readiness": 6,
+        "strength": 5,
+        "casualties": 1,
+        "supply_level": 8,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "finnish_artillery",
+        "country": "FI",
+        "type": "ground",
+        "location": "Eastern Finland, permanent positions",
+        "readiness": 7,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "dutch_43rd_brigade",
+        "country": "NL",
+        "type": "ground",
+        "location": "Netherlands, returned to home bases",
+        "readiness": 5,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "german_patriot_battery",
+        "country": "DE",
+        "type": "air",
+        "location": "Suwalki, Shield Force permanent",
+        "readiness": 8,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      }
+    ],
+    "military_alerts": {
+      "russian_kaliningrad_forces": "ICRC evacuation of wounded — 47 critically wounded transferred to Lithuanian hospitals",
+      "russian_western_district": "At Lithuanian border, preparing to push through to reinforce corridor",
+      "belarus_forces": "Defensive posture only, providing transit to Russian forces, NOT crossing border",
+      "nato_efp_lithuania": "Supporting Lithuanian Nemunas River defense line, very low strength",
+      "nato_efp_latvia": "Canadian-led battlegroup (~1500 troops)",
+      "nato_efp_estonia": "UK-led battlegroup (~1200 troops)",
+      "nato_efp_poland": "US-led battlegroup (~1000 troops) + Polish forces",
+      "us_forces_poland": "V Corps pushing north, 1 KIA from IED in corridor",
+      "polish_forces": "Sustained HIMARS fire support, Polish F-16 lost in SEAD (pilot captured)",
+      "finnish_forces": "Offering artillery + MLRS to NATO, border fully defended",
+      "russian_vdv_airborne": "SURRENDERED - Col. Volkov's unit capitulated, ~200 POWs taken by Polish forces",
+      "russian_reinforcement_column": "Destroyed, personnel awaiting organized evacuation under ceasefire",
+      "uk_carrier_group": "Storm Shadow strike successful, rearming for potential follow-up strikes",
+      "german_patriot_battery": "Operational at Suwałki and Kaunas, providing critical air defense",
+      "norwegian_warning": "Missing Severodvinsk submarine still UNLOCATED despite P-8 search",
+      "polish_18th_division": "Counter-attack success - recaptured Mockava and Route 16 junction, advancing north",
+      "us_f35_squadron": "Post-SEAD - degraded Kaliningrad A2/AD by 50%, 1 aircraft damaged, rearming",
+      "finnish_artillery": "K9 Thunder and MLRS operational in eastern Poland, ready for fire missions",
+      "nato_article5_consensus": "FULL CONSENSUS ACHIEVED at 15:00 CET - Turkey and Hungary withdrew objections",
+      "nato_pow_situation": "Major Tomasz Kowalski (Polish Air Force) captured by VDV - first NATO POW",
+      "china_taiwan": "PLA Navy exercises in Taiwan Strait - 12 warships, 24 fighters - assessed as pressure, not invasion prep",
+      "severodvinsk_submarine": "STRUCK Łask Air Base with 3 Kalibr missiles - 1 hit taxiway, 4 Polish KIA - submarine still at large",
+      "lask_air_base": "Taxiway damaged, 2 F-16s destroyed on ground, operations continuing from backup runway",
+      "nuclear_warning": "Increased activity at Russian strategic forces command posts detected by satellites",
+      "ceasefire": "72-hour ceasefire holding — no violations reported",
+      "nuclear_deescalation": "Iskander nuclear warheads observed returning to storage at 23:45 — immediate threat passed",
+      "severodvinsk": "Confirmed returning to Kola Peninsula — no longer threat",
+      "belarus_military": "Effective paralysis — multiple units refusing orders, KGB conducting arrests",
+      "withdrawal_agreement": "Russia agrees to 96-hour phased withdrawal starting Day 6, 06:00",
+      "pow_exchange": "COMPLETED — Major Kowalski returned, 247 Russian POWs repatriated",
+      "withdrawal": "85% complete — Vištytis empty, Lazdijai clear, only rear guard remains",
+      "orlov_incident": "Resolved — Russian Major demanded medevac helicopters, Lithuanian helicopters provided",
+      "suwalki_shield_force": "OPERATIONAL — permanent multinational brigade, motto: 'Never Again'",
+      "belarus_crisis": "38th Air Assault Brigade defies Lukashenko — 40% of military in open defiance",
+      "russia_internal": "Putin facing political crisis — leaked recordings, ruble collapse, military defeat narrative",
+      "withdrawal_complete": "Russian withdrawal from Lithuania VERIFIED COMPLETE at 14:00 CET Day 9",
+      "belarus_revolution": "Lukashenko FLED — military transitional council declared, elections in 90 days",
+      "russian_transit_closed": "Belarus closed territory to Russian military transit — strategic blow to Moscow",
+      "geneva_process": "UNDERWAY — 4 negotiating tracks + Belarus transition",
+      "game_end": "Suwałki Crisis CONCLUDED — Day 10, 18:00 CET",
+      "nato_posture": "Elevated — permanent enhanced presence on eastern flank",
+      "PL": "elevated",
+      "LT": "elevated",
+      "LV": "elevated",
+      "EE": "elevated",
+      "FI": "normal",
+      "SE": "elevated",
+      "DE": "normal",
+      "GB": "normal",
+      "FR": "normal",
+      "NO": "elevated",
+      "DK": "elevated",
+      "istanbul_ii_summit": "4 days away — Day 21-22, nuclear discrepancy adds new dimension",
+      "cjcs_gerasimov_hotline": "First secure call scheduled Day 16 — military-to-military deconfliction",
+      "iaea_belarus": "IAEA inspection team arriving Belarus Day 17 — Western observers invited",
+      "hungary_confidence_vote": "Scheduled Day 16 — Orban majority razor-thin at 132/199",
+      "russian_gas_restoration": "Gazprom preparing 15% EU gas flow restoration — first deliveries within 48 hours",
+      "kaliningrad_nuclear": "Russia offers limited IAEA inspection of Kaliningrad nuclear inventory — supervised assessment, not custody",
+      "european_three": "UK-France-Germany coordinating joint position for Istanbul II — demand formal European representation",
+      "f35_turkey": "Pentagon expedited review proceeding — target announcement at Istanbul II",
+      "germany_defense": "EUR 8B emergency defense supplemental from Sondervermogen announced",
+      "geneva_track2": "Day 2 in Berlin — European Three position paper discussed, productive session",
+      "orban_survives": "Orban survives confidence vote 124-72 (3 abstentions) — 7 Fidesz defectors total, deeply wounded but alive",
+      "magyar_snap_elections": "Peter Magyar demands snap elections — 'Government of National Salvation' platform announced",
+      "cjcs_gerasimov_call": "COMPLETED — 47 minutes, professional and constructive. Deconfliction protocols established. Daily encrypted updates agreed.",
+      "kaliningrad_hint": "Gerasimov privately floats Kaliningrad 'military posture adjustments' for phased sanctions relief — first time raised at military level",
+      "european_three_paper": "Joint position paper for Istanbul II: no territorial concessions, verified withdrawal, European representation, sanctions-benchmarks timeline",
+      "russian_gas_flowing": "15% gas deliveries continuing — EU remains split",
+      "iaea_belarus_tomorrow": "IAEA inspection team arrives Belarus Day 17",
+      "iaea_discrepancy": "CRITICAL: 2 of 12 Russian tactical nuclear warheads MISSING from Belarus storage — Category A discrepancy, UNSC notified",
+      "kaliningrad_refugees": "200 Russian military families seek asylum at Lithuanian border — UNHCR reception center opened at Nida",
+      "magyar_treason": "Budapest prosecutor accepts Magyar's criminal complaint against Orban for high treason — preliminary investigation opened",
+      "budapest_protests": "25,000 protesters outside Hungarian Parliament — largest since 2018",
+      "kaliningrad_humanitarian": "15,000 MT humanitarian convoy arriving — 430,000 civilians under power rationing",
+      "cjcs_channel": "Operational — US probing Kaliningrad hint, no formal Russian confirmation"
+    },
+    "markets": {
+      "oil_price": 81.0,
+      "euro_usd": 1.08,
+      "gas_price_eu": "surging 15% on infrastructure fears",
+      "stock_indices": "nervous, -2% on reports",
+      "nasdaq": "-4.2% on two-front crisis fears",
+      "ruble_usd": 135.0,
+      "dow_jones": "suspended then -11%",
+      "european_indices": "suspended, to reopen"
+    },
+    "sanctions": [
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "Emergency SWIFT restrictions on additional Russian banks"
+      },
+      {
+        "from": "EU",
+        "target": "RU",
+        "type": "Emergency energy import reduction package"
+      },
+      {
+        "from": "GB",
+        "target": "RU",
+        "type": "Freezing of Russian sovereign assets in London"
+      },
+      {
+        "from": "US",
+        "target": "BY",
+        "type": "Full economic sanctions on Belarus for facilitating aggression"
+      },
+      {
+        "from": "EU",
+        "target": "BY",
+        "type": "Full EU sanctions on Belarus for providing staging territory to Russian forces"
+      },
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "Secondary sanctions warning on entities facilitating Russian military procurement"
+      },
+      {
+        "from": "EU",
+        "target": "RU",
+        "type": "Full SWIFT disconnection of all major Russian banks (post-Article 5)"
+      },
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "Total export ban on advanced technology and semiconductors to Russia"
+      },
+      {
+        "from": "EU",
+        "target": "BY",
+        "type": "Full economic embargo on Belarus for facilitating military transit"
+      },
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "Emergency executive order freezing ALL Russian state assets in US jurisdiction"
+      },
+      {
+        "from": "GB",
+        "target": "RU",
+        "type": "Complete expulsion of Russian diplomatic staff except emergency channel"
+      },
+      {
+        "from": "EU",
+        "target": "HU",
+        "type": "Suspension of EU cohesion funds pending Article 7 review — EUR 22B frozen"
+      }
+    ],
+    "trade_disruptions": [
+      "Commercial shipping rerouting from eastern Baltic",
+      "All land transit to/from Kaliningrad suspended",
+      "Main links through Suwalki corridor severed",
+      "Fuel depot damaged by Iskander-K strike, rerouting required",
+      "Kaliningrad supply lines under NATO air interdiction - first sustained aerial blockade",
+      "European gas spot prices surge 15% on fears of Russian infrastructure retaliation",
+      "China Taiwan Strait exercises disrupt Pacific shipping routes, insurance premiums spike",
+      "Global shipping insurance rates spike 300% for Baltic and Eastern Mediterranean",
+      "Russian ruble crashes to 130/USD - Moscow Stock Exchange suspended trading",
+      "Global stock exchanges suspended trading for hours during nuclear scare",
+      "Baltic shipping completely halted — insurers refuse coverage",
+      "Russian financial system approaching systemic collapse",
+      "European stock exchanges reopened — cautious recovery +3%",
+      "Baltic shipping lanes remain closed pending completion of withdrawal",
+      "Baltic shipping lanes to reopen in 48 hours pending mine clearance",
+      "Insurance rates beginning to normalize for non-Baltic European trade",
+      "Baltic shipping resuming — first commercial vessel transits since Day 1",
+      "Danish Straits preparing to reopen to Russian-flagged civilian vessels",
+      "Baltic shipping fully restored",
+      "Danish Straits reopening to all traffic",
+      "Insurance rates normalizing for European trade routes",
+      "Global economic recovery beginning — estimated 12-18 months to pre-crisis normality",
+      "All European shipping lanes restored",
+      "Oil drops to $89 on Russian nuclear de-escalation — lowest since crisis began",
+      "Ruble recovers to 128/USD on peacetime nuclear signal",
+      "European markets post strongest gains since crisis — DAX +4.2%, CAC +3.8%",
+      "Russia offers 50% gas restoration by April 1 as goodwill gesture at Geneva",
+      "Oil drops to $86 — approaching pre-crisis levels on diplomatic momentum",
+      "Ruble stabilizes at 125/USD as Central Bank burns reserves",
+      "E67 highway through Suwalki corridor reopens to civilian traffic",
+      "Czech ammunition factories running 24/7 at 2.5x capacity",
+      "Germany releases EUR 3B first Marshall Plan tranche to Lithuania and Poland",
+      "Oil drops to $84 — pre-crisis levels approaching as Geneva momentum builds",
+      "Ruble weakens to 128/USD — Central Bank reserve burn rate unsustainable beyond 6 months",
+      "Hungary suspends EUR 1.2B quarterly EU budget contribution — legal proceedings initiated",
+      "Marshall Plan Phase 1 funds reaching Lithuanian municipalities — Marijampole reconstruction begins",
+      "Czech-Canadian ammunition partnership: 155mm shell production at 3x peacetime rate",
+      "Oil drops to $82 on Trump-Putin summit optimism — lowest since pre-crisis",
+      "Ruble recovers to 126/USD on diplomatic momentum",
+      "European markets surge 2.5% — DAX now only 3% below pre-crisis peak",
+      "Turkey transfers S-400 systems to US custody at Incirlik — F-35 reinstatement expected",
+      "Marshall Plan Phase 1 disbursements reaching all affected Lithuanian municipalities",
+      "Oil drops to $80.50 on combined summit optimism and Russian gas restoration announcement",
+      "Ruble recovers to 124/USD on diplomatic momentum — strongest since crisis began",
+      "European gas futures drop 8% on Russian 15% restoration announcement — EU split on response",
+      "Germany announces EUR 8B emergency defense supplemental from Sondervermogen",
+      "F-35 reinstatement process launched for Turkey — expedited Pentagon review",
+      "European Three coordination established — UK/FR/DE demand Istanbul II representation",
+      "Oil drops to $79 on CJCS-Gerasimov call and gas restoration — lowest since pre-crisis",
+      "First Russian gas at 15% capacity begins flowing — EU energy ministers split on response",
+      "European markets rally 1.8% on diplomatic momentum — approaching pre-crisis levels",
+      "Ruble strengthens to 122/USD on Gerasimov-Grynkewich deconfliction signal",
+      "Oil spikes to $82 on IAEA nuclear discrepancy news before settling at $81",
+      "Ruble weakens to 126/USD on nuclear accountability concerns",
+      "European markets give back previous gains — DAX -1.2% on nuclear news",
+      "Kaliningrad humanitarian convoy 15,000 MT begins offloading — civilian conditions dire",
+      "200 Russian military families flee Kaliningrad to Lithuania — first military family refugee flow"
+    ],
+    "diplomatic_relations": {
+      "PL": {
+        "RU": -10,
+        "BY": 3,
+        "US": 10,
+        "DE": 7,
+        "LT": 10,
+        "HU": 1,
+        "TR": 5
+      },
+      "LT": {
+        "RU": -10,
+        "BY": -9,
+        "PL": 10,
+        "US": 7,
+        "DE": 8
+      },
+      "US": {
+        "RU": -5,
+        "PL": 9,
+        "GB": 9,
+        "DE": 5,
+        "TR": 9,
+        "HU": -2,
+        "CN": -2,
+        "BY": 7
+      },
+      "RU": {
+        "US": -5,
+        "PL": -10,
+        "LT": -10,
+        "CN": 5,
+        "BY": -10,
+        "TR": -2,
+        "DE": -7,
+        "GB": -10
+      },
+      "DE": {
+        "RU": -7,
+        "PL": 8,
+        "FR": 9,
+        "US": 5,
+        "LT": 8
+      },
+      "GB": {
+        "RU": -8,
+        "PL": 7,
+        "US": 9,
+        "FR": 8
+      },
+      "FR": {
+        "RU": -6,
+        "PL": 6,
+        "US": 7,
+        "GB": 8,
+        "DE": 9
+      },
+      "TR": {
+        "RU": -2,
+        "US": 10,
+        "HU": 2,
+        "CN": 3
+      },
+      "HU": {
+        "RU": -5,
+        "US": -5,
+        "PL": 1,
+        "EU": -3
+      },
+      "CN": {
+        "RU": 4,
+        "US": -2,
+        "TR": 3,
+        "DE": 2
+      },
+      "BY": {
+        "RU": -10,
+        "PL": 8,
+        "LT": 8,
+        "EU": 6,
+        "US": 7
+      }
+    },
+    "treaties_invoked": [
+      "{'treaty': 'NATO Article 4', 'invoked_by': 'PL', 'status': 'consultation underway'}",
+      "{'treaty': 'EU Article 42.7', 'proposed_by': 'FR', 'status': 'under discussion'}",
+      "{'treaty': 'NATO Article 5', 'invoked_by': 'PL', 'status': 'invoked, consensus pending Turkey/Hungary'}",
+      "{'treaty': 'EU Article 42.7', 'invoked_by': 'FR', 'status': 'activated by European Council majority'}",
+      "{'treaty': 'NATO Article 5', 'invoked_by': 'NAC', 'status': 'FULL CONSENSUS - collective defense authorized under SACEUR command'}",
+      "{'treaty': 'US-Turkey F-35 Framework', 'invoked_by': 'US/TR', 'status': 'signed, S-400 transfer to US custody within 90 days'}",
+      "{'treaty': 'UN Ceasefire Resolution', 'invoked_by': 'UNSC', 'status': '72-hour humanitarian ceasefire, UNSC Resolution adopted 14-0-1 (China abstained)'}",
+      "{'treaty': 'Geneva Framework Agreement', 'invoked_by': 'US/RU/EU', 'status': '96-hour phased Russian withdrawal, POW exchange, post-crisis dialogue commitment'}",
+      "{'treaty': 'NAC Suwałki Shield Force Declaration', 'invoked_by': 'NAC', 'status': 'permanent multinational brigade authorized for Suwałki Corridor'}",
+      "{'treaty': 'Geneva Process', 'invoked_by': 'US/RU/EU/CN(observer)', 'status': 'formal negotiations opening Day 10 — European security architecture, arms control, accountability'}",
+      "{'treaty': 'Geneva Process Framework', 'invoked_by': '28 nations', 'status': '4 tracks: arms control, nuclear risk reduction, confidence-building, economic recovery + Belarus transition'}",
+      "Baltic Defense Council Charter — LT, LV, EE permanent integrated defense structure with secretariat in Riga",
+      "Belarus Nuclear Ultimatum — transitional government demands removal of Russian tactical nuclear weapons within 60 days",
+      "China Five-Point Peace Framework for European Security — proposed",
+      "Turkey Constantinople Accord — proposed comprehensive settlement framework",
+      "Russia phased sanctions relief proposal at Geneva Track 1",
+      "Belarus 72-hour Nuclear Ultimatum to Russia — provide written launch veto or face IAEA supervised removal",
+      "Turkey Istanbul II Summit proposal — endorsed by US and Russia as venue for bilateral talks",
+      "US comprehensive Geneva proposal — 90-day denuclearization, Kaliningrad talks, phased sanctions relief",
+      "Belarus IAEA Invitation — formal request for supervised assessment of all Russian tactical nuclear weapons on Belarusian soil",
+      "Istanbul II Summit Framework — Russia accepts principle of Trump-Putin bilateral, venue Turkey, timing within 7 days",
+      "Turkey-US S-400 Transfer Agreement executed — systems in US custody at Incirlik",
+      "CJCS-Gerasimov Military Hotline — first US-Russia mil-to-mil direct channel since crisis, scheduled Day 16",
+      "European Three Framework — UK/FR/DE joint coordination on Istanbul II and post-crisis European security architecture",
+      "ESAF (European Security Architecture Framework) — France-led, Germany co-chairs, separate from US-Russia bilateral track",
+      "Russia limited IAEA Kaliningrad inspection offer — supervised assessment of tactical nuclear inventory",
+      "Russia 15% EU gas restoration — unilateral goodwill gesture, first deliveries within 48 hours",
+      "CJCS-Gerasimov Deconfliction Protocol — daily encrypted updates, Baltic theater deconfliction, established Day 16",
+      "European Three Istanbul II Position Paper — no territorial concessions, verified withdrawal, European representation, sanctions-benchmarks",
+      "Geneva Track 2 Procedural Framework — opened in Berlin, 14 nations, Germany-France co-chairs",
+      "IAEA Category A Nuclear Discrepancy — 2 missing Russian tactical warheads in Belarus, UNSC notified",
+      "UNHCR Kaliningrad Refugee Reception — temporary center at Nida, Lithuania for Russian military families"
+    ],
+    "un_resolutions": [
+      "{'title': 'Emergency UNSC session on Lithuania crisis', 'status': 'blocked by RU and CN vetoes', 'votes': '13-2'}",
+      "{'title': 'UNGA Emergency Special Session on Suwałki Crisis', 'status': '143-5-35 condemning Russian aggression, non-binding', 'votes': '143 for, 5 against (RU, BY, DPRK, SY, ER), 35 abstentions'}",
+      "{'title': 'UNSC Resolution: 72-hour humanitarian ceasefire in Suwałki corridor', 'status': 'adopted 14-0-1 (Russia voted yes, China abstained)', 'votes': '14-0-1'}",
+      "{'title': 'UNSC endorsement of Geneva Framework for Suwałki withdrawal', 'status': 'adopted unanimously 15-0', 'votes': '15-0'}",
+      "{'title': 'UNGA Resolution: Suwałki Crisis lessons — nuclear risk reduction', 'status': 'adopted 189-2-4', 'votes': '189 for, 2 against (DPRK, SY), 4 abstentions'}"
+    ],
+    "nato_alert_level": "article5",
+    "nato_consensus": {
+      "US": "Security guarantees to Belarus, Istanbul II accepted within 7 days, defector intel compartmentalized, 2.5% spending enforcement",
+      "PL": "Shield East 200km, tripartite command exercising, ICC dossier advancing, K9 battery forward",
+      "LT": "Reconstruction accelerating, KASP 75% readiness, Baltic DC joint planning formalized, Suwalki fortifications advancing",
+      "LV": "Baltic DC secretariat operational, Minority Integration Task Force established, IRIS-T procurement accelerating",
+      "EE": "Narva Defence Line fully operational, Kaitseliit mobilized, CCDCOE cyber targeting package prepared, Finland coordination",
+      "GB": "Carrier in port for resupply, JEF sustained, GCHQ intel sharing continuous, war support too low for new deployments",
+      "FR": "ESAF advancing, Corsica staging maintained, war support too low for new deployments, EUR 50M Belarus assistance",
+      "DE": "Marshall Plan disbursing, 45th Panzer 65% expanded, Host Nation Support sustained, Bundestag authorization maintained",
+      "FI": "Demobilization 60%, border fence 450km, SIGINT formalized with Sweden, Russian refugee humanitarian program",
+      "SE": "NORDEFCO treaty formalized, Gripen E IOC advancing, Nordic intelligence integration deepening",
+      "NO": "GIUK patrol continuous, MCPP-N operational with Nordic liaison, Arctic hotline reiterated to Russia",
+      "DK": "NSM 90% operational, UNSC documentation submitted, Greenland sovereignty firmly asserted",
+      "CA": "eFP Latvia permanent, reconstruction CAD 3.2B, Northern Resilience Framework proposed",
+      "NL": "EUR 850M ammunition 50% delivered, Rotterdam hub 24/7, Ammunition Sustainability Compact proposed",
+      "BE": "NATO Verification Center expanded to reconstruction monitoring, Stabilization Group proposed",
+      "CZ": "Ammunition 4x baseline, NATO Ammunition Treaty proposed, Armor Integration Training Center with DE",
+      "RO": "Black Sea Coordination Framework proposed, Deveselu THAAD fully integrated, EUR 900M reconstruction",
+      "TR": "S-400 transferred to US custody, Istanbul II convening within 7 days, Fidan shuttle diplomacy active",
+      "HU": "CRISIS — Der Spiegel expose published, intelligence chief arrested, confidence vote Day 16, 3 Fidesz MPs defect",
+      "ALL": "IAEA nuclear discrepancy adds urgency — Russia must account for missing warheads before Istanbul II can proceed on sanctions relief"
+    },
+    "corridor_control": "nato",
+    "nuclear_posture": {
+      "RU": "peacetime",
+      "US": "peacetime",
+      "GB": "peacetime",
+      "FR": "peacetime"
+    },
+    "nuclear_detonations": [],
+    "public_opinion": {
+      "PL": {
+        "war_support": 50,
+        "government_approval": 78
+      },
+      "DE": {
+        "war_support": 18,
+        "government_approval": 53
+      },
+      "FR": {
+        "war_support": 9,
+        "government_approval": 35
+      },
+      "US": {
+        "war_support": 14,
+        "government_approval": 57
+      },
+      "GB": {
+        "war_support": 19,
+        "government_approval": 47
+      },
+      "LT": {
+        "war_support": 55,
+        "government_approval": 79
+      },
+      "LV": {
+        "war_support": 38,
+        "government_approval": 57
+      },
+      "EE": {
+        "war_support": 42,
+        "government_approval": 59
+      },
+      "FI": {
+        "war_support": 31,
+        "government_approval": 63
+      },
+      "SE": {
+        "war_support": 26,
+        "government_approval": 52
+      },
+      "NO": {
+        "war_support": 23,
+        "government_approval": 55
+      },
+      "DK": {
+        "war_support": 21,
+        "government_approval": 49
+      },
+      "CA": {
+        "war_support": 11,
+        "government_approval": 43
+      },
+      "NL": {
+        "war_support": 15,
+        "government_approval": 44
+      },
+      "BE": {
+        "war_support": 10,
+        "government_approval": 40
+      },
+      "CZ": {
+        "war_support": 20,
+        "government_approval": 46
+      },
+      "RO": {
+        "war_support": 24,
+        "government_approval": 48
+      },
+      "TR": {
+        "war_support": 5,
+        "government_approval": 65
+      },
+      "HU": {
+        "war_support": 2,
+        "government_approval": 12
+      },
+      "RU": {
+        "war_support": 16,
+        "government_approval": 29
+      },
+      "BY": {
+        "war_support": 1,
+        "government_approval": 78
+      },
+      "CN": {
+        "war_support": 2,
+        "government_approval": 79
+      }
+    },
+    "refugee_flows": [
+      {
+        "from": "LT",
+        "to": "PL",
+        "count": 15000,
+        "status": "fleeing"
+      },
+      {
+        "from": "LT",
+        "to": "LV",
+        "count": 8000,
+        "status": "fleeing"
+      },
+      {
+        "from": "PL",
+        "to": "DE",
+        "count": 3000,
+        "status": "fleeing"
+      },
+      {
+        "from": "LT",
+        "to": "LT",
+        "count": 5000,
+        "status": "settled"
+      },
+      {
+        "from": "RU",
+        "to": "FI",
+        "count": 500,
+        "status": "fleeing"
+      },
+      {
+        "from": "HU",
+        "to": "AT",
+        "count": 200,
+        "status": "fleeing"
+      },
+      {
+        "from": "RU",
+        "to": "LT",
+        "count": 200,
+        "status": "fleeing"
+      }
+    ],
+    "humanitarian_crisis_level": {
+      "LT": 2,
+      "PL": 1
+    },
+    "cyber_operations": [
+      {
+        "attacker": "RU",
+        "target": "LT",
+        "type": "infrastructure",
+        "severity": "high",
+        "infrastructure_affected": "comms"
+      },
+      {
+        "attacker": "RU",
+        "target": "PL",
+        "type": "ddos",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "EE",
+        "type": "ddos",
+        "severity": "medium",
+        "infrastructure_affected": "financial"
+      },
+      {
+        "attacker": "RU",
+        "target": "DE",
+        "type": "malware",
+        "severity": "low",
+        "infrastructure_affected": "comms"
+      },
+      {
+        "attacker": "EE",
+        "target": "RU",
+        "type": "espionage",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "PL",
+        "type": "infrastructure",
+        "severity": "high",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "PL",
+        "type": "espionage",
+        "severity": "medium",
+        "infrastructure_affected": "none"
+      },
+      {
+        "attacker": "EE",
+        "target": "RU",
+        "type": "infrastructure",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "SE",
+        "target": "RU",
+        "type": "espionage",
+        "severity": "medium",
+        "infrastructure_affected": "none"
+      },
+      {
+        "attacker": "RU",
+        "target": "EE",
+        "type": "malware",
+        "severity": "high",
+        "infrastructure_affected": "power_grid"
+      },
+      {
+        "attacker": "US",
+        "target": "RU",
+        "type": "infrastructure",
+        "severity": "high",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "BY",
+        "type": "espionage",
+        "severity": "high",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "BY",
+        "target": "RU",
+        "type": "espionage",
+        "severity": "medium",
+        "infrastructure_affected": "none"
+      },
+      {
+        "attacker": "HU",
+        "target": "HU",
+        "type": "espionage",
+        "severity": "high",
+        "infrastructure_affected": "comms"
+      }
+    ],
+    "infrastructure_status": {
+      "LT": {
+        "power_grid": 8,
+        "comms": 8,
+        "financial": 9,
+        "military_c2": 8
+      },
+      "PL": {
+        "power_grid": 9,
+        "comms": 9,
+        "financial": 9,
+        "military_c2": 8
+      },
+      "EE": {
+        "power_grid": 8,
+        "comms": 9,
+        "financial": 9,
+        "military_c2": 9
+      }
+    },
+    "recent_events": [
+      "IAEA discovers 2 missing Russian tactical nuclear warheads in Belarus — Category A discrepancy",
+      "Russia claims warheads returned during crisis but cannot produce documentation",
+      "IAEA Director General notifies UN Security Council of nuclear discrepancy",
+      "Geneva Track 2 Day 2 — European Three position paper discussed productively",
+      "200 Russian military families flee Kaliningrad to Lithuania seeking asylum",
+      "Magyar's criminal complaint against Orban accepted for preliminary investigation",
+      "25,000 protesters in Budapest — largest since 2018",
+      "Kaliningrad humanitarian convoy begins offloading — 430,000 civilians suffering",
+      "Oil spikes to $82 on nuclear news before settling at $81",
+      "US probes Kaliningrad demilitarization hint through CJCS channel — no formal Russian response"
+    ],
+    "media_headlines": [
+      "NUCLEAR ALARM: IAEA Finds 2 Russian Warheads Missing from Belarus Storage Sites",
+      "KALININGRAD EXODUS: 200 Russian Military Families Flee to Lithuania Seeking Asylum",
+      "ORBAN ON TRIAL: Budapest Prosecutor Opens Treason Investigation Against PM",
+      "BERLIN TALKS: Geneva Track 2 Makes Progress as Istanbul II Looms in 4 Days"
+    ],
+    "_nuclear_penalty_applied": [],
+    "_oil_penalty_last_threshold": 120.0,
+    "_gas_sanction_count_applied": 0,
+    "_gm_set_nuclear_this_round": [
+      "GB",
+      "FR",
+      "RU",
+      "US"
+    ]
+  }
+}

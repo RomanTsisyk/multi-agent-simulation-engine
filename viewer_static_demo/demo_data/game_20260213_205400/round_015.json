@@ -1,0 +1,1501 @@
+{
+  "round": 15,
+  "runner": "claude-code",
+  "briefing": "Day 15 concludes with the crisis firmly in its diplomatic endgame. The Istanbul II summit — now scheduled for Day 21-22 — has become the focal point for all parties. Russia's nuclear transparency offer and gas restoration create genuine diplomatic momentum, but also risk splitting Western consensus between hawks who want to maintain maximum pressure and pragmatists who see an off-ramp.\n\nThe European Three (UK-France-Germany) coordination marks a significant new dynamic — for the first time, major European NATO allies are explicitly coordinating to prevent a US-Russia bilateral deal that excludes them. France's ESAF and Germany's Geneva Track 2 hosting represent institutional alternatives to Trump's dealmaking.\n\nMilitary posture remains stable. No combat operations. All forces in garrison or defensive positions. The Suwalki Shield Force is fully operational. Poland's Shield East fortifications continue advancing. Nordic NORDEFCO implementation proceeds. Baltic Defense Council deepens integration.\n\nThree key events will dominate the next 24 hours: (1) Hungarian confidence vote on Day 16 — Orban's political survival hangs in the balance; (2) First CJCS-Gerasimov military hotline call — unprecedented direct channel; (3) Countdown to IAEA arrival in Belarus on Day 17. Markets respond positively — oil drops to $80.50 on combined summit and gas restoration optimism.",
+  "narrative": "Day 15 of the Suwalki Gap Crisis marks a decisive pivot from post-conflict consolidation to active summit diplomacy. In a surprising move that catches Western intelligence off-guard, Russia announces it will permit limited IAEA inspection of its Kaliningrad nuclear inventory — not full 'international custody' as Moscow's initial trial balloon suggested, but supervised assessment of tactical weapons with IAEA monitors present. This partial transparency gambit is designed to give Putin a 'responsible nuclear power' narrative heading into Istanbul II. Simultaneously, Gazprom begins technical preparations to restore 15% of normal gas flows to the EU, with first deliveries expected within 48 hours — a tangible economic olive branch that immediately splits European opinion on sanctions continuation.\n\nThe European response crystallizes around a fear of marginalization. An emergency UK-France-Germany coordination call produces the 'European Three' framework — a joint demand that Istanbul II include formal European representation, not just a US-Russia bilateral. Macron activates ESAF as Europe's counter-framework, while Germany announces an EUR 8B emergency defense supplemental and offers Berlin as host for Geneva Process Track 2 on security architecture. The message to Washington is clear: Europe will not be carved up in a room with just Trump and Putin.\n\nOn the ground, the first CJCS-Gerasimov secure call is scheduled for Day 16 — the first direct military-to-military communication between US and Russian general staffs since the crisis began. The US formally launches the F-35 reinstatement process for Turkey, with an expedited review timeline. Belarus's transitional council announces that IAEA inspectors will arrive Day 17, with Western observers invited — a dramatic assertion of sovereignty over Russian nuclear weapons on Belarusian soil. In Budapest, Orban prepares for tomorrow's confidence vote with a three-pronged strategy: scapegoat intelligence chief Benko, offer limited EU concessions, and seek Turkish endorsement. Whether his razor-thin majority holds remains the most consequential domestic political question of the crisis.",
+  "country_decisions": [
+    {
+      "country": "PL",
+      "actions": [
+        "Sikorski 48-hour shuttle diplomacy with US/UK/NATO — deliver Poland's 3 red lines for Istanbul II: no territorial freeze, continued Article 5, Polish seat at table",
+        "Deploy additional engineering brigades for Shield East — complete remaining 65km by end March 2026",
+        "Emergency meeting of Polish CJGS with Lithuanian/Estonian/US V Corps commanders — unified air defense integration and ammunition pre-positioning",
+        "Coordinate ICC prosecution dossier with Baltic states and EU — accelerated investigation"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "PL",
+          "to": "US",
+          "channel": "backchannel",
+          "message": "Poland requires guarantee: no Istanbul II outcome that compromises Article 5 or Polish security. V Corps presence is non-negotiable."
+        },
+        {
+          "from": "PL",
+          "to": "LT",
+          "channel": "private",
+          "message": "Formalized Suwalki defense pact with trilateral ICC and Belarus coordination."
+        },
+        {
+          "from": "PL",
+          "to": "DE",
+          "channel": "private",
+          "message": "Support Orban confidence vote failure. Strengthen Weimar Triangle military cooperation."
+        }
+      ]
+    },
+    {
+      "country": "LT",
+      "actions": [
+        "Condition Istanbul II on verified Russian demilitarization and NATO guarantees before any sanctions relief",
+        "Expand Baltic Defense Council to include Poland as associate partner",
+        "Accelerate Suwalki fortifications as permanent NATO forward position",
+        "Reconstruction framed as strategic deterrent infrastructure for EU co-funding"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "LV",
+      "actions": [
+        "Transform BDC secretariat into diplomatic hub with NATO credentials",
+        "Launch genuine minority integration programs for Russian-speaking communities",
+        "Backchannel pressure on Orban — respect sovereignty but demand transparent NATO alignment",
+        "Cyber alliance formalization with Estonia"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "EE",
+      "actions": [
+        "Operationalize CCDCOE as NATO technical hub",
+        "Publish threat intelligence as verification mechanism",
+        "Propose Nordic-Baltic Security Compact",
+        "Cyber ceasefire condition for Istanbul II framework"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "US",
+      "actions": [
+        "Accept Gerasimov-CJCS mil-to-mil channel — first secure call within 48 hours",
+        "Launch formal F-35 reinstatement process for Turkey — expedited review",
+        "Confirm Trump attendance at Istanbul II with preconditions: IAEA access, no offensive ops during summit, comprehensive settlement framework",
+        "Positive response to China Taiwan backchannel — reciprocal non-escalation"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "US",
+          "to": "RU",
+          "channel": "backchannel",
+          "message": "Trump prepared for Istanbul II. Preconditions: IAEA Belarus access, no offensive ops, historic deal framework."
+        },
+        {
+          "from": "US",
+          "to": "TR",
+          "channel": "private",
+          "message": "F-35 reinstatement authorized — expedited delivery timeline under review."
+        },
+        {
+          "from": "US",
+          "to": "CN",
+          "channel": "backchannel",
+          "message": "US acknowledges Five-Point Framework as genuine. Reciprocal non-escalation in Taiwan Strait maintained."
+        }
+      ]
+    },
+    {
+      "country": "GB",
+      "actions": [
+        "Complete HMS Queen Elizabeth resupply — prepare for North Sea deployment",
+        "Convene emergency UK-FR-DE coordination on Istanbul II representation",
+        "Activate Northwood Declaration nuclear steering group with France",
+        "Brief NATO SecGen — offer UK as bridge between Trump and European NATO"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "GB",
+          "to": "US",
+          "channel": "backchannel",
+          "message": "Istanbul II must include European voices. NATO unity depends on it."
+        },
+        {
+          "from": "GB",
+          "to": "FR",
+          "channel": "private",
+          "message": "Emergency summit to coordinate. Britain supports European strategic autonomy."
+        }
+      ]
+    },
+    {
+      "country": "FR",
+      "actions": [
+        "Chair EU-27 foreign ministers call — unified European position on Istanbul II",
+        "Activate ESAF as formal European-led security framework",
+        "Release EUR 50M additional Belarus civil society support",
+        "Dispatch FM Barrot to Berlin for 24-hour coordination"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "FR",
+          "to": "DE",
+          "channel": "private",
+          "message": "ESAF is the right framework. France proposes, Germany co-chairs. Europe must not be carved up."
+        },
+        {
+          "from": "FR",
+          "to": "PL",
+          "channel": "private",
+          "message": "ESAF is Poland's insurance against Istanbul II marginalization. Permanent seat at table."
+        }
+      ]
+    },
+    {
+      "country": "DE",
+      "actions": [
+        "Announce EUR 8B emergency defense supplemental from Sondervermogen",
+        "Host Geneva Process Track 2 in Berlin starting Day 16",
+        "Secure Bundestag coalition approval for ESAF co-chairmanship",
+        "Accelerate Host Nation Support logistics — 72-hour allied reinforcement capability"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "DE",
+          "to": "FR",
+          "channel": "private",
+          "message": "Germany co-chairs ESAF. Grounded in OSCE language to keep Russia at table."
+        },
+        {
+          "from": "DE",
+          "to": "US",
+          "channel": "backchannel",
+          "message": "EUR 8B released. Germany doing its part. Istanbul II must include European voices."
+        }
+      ]
+    },
+    {
+      "country": "FI",
+      "actions": [
+        "Establish Finnish-Swedish daily SIGINT liaison office in Helsinki",
+        "Continue demobilization to 60% target — redeploy 2 artillery battalions for Nordic interoperability",
+        "Accelerate border fence — 150km by Day 30",
+        "Formalize 72-hour NATO force contribution package"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "SE",
+      "actions": [
+        "Activate Gotland garrison expansion — 200 additional conscripts",
+        "Formalize Gripen E IOC timeline — 18 aircraft by Q4 2026",
+        "Establish Nordic Submarine Coordination Centre at Karlskrona",
+        "Complete NORDEFCO treaty ratification by Day 18"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "NO",
+      "actions": [
+        "Declare NORDEFCO Arctic Command linkage operational",
+        "Activate MCPP-N cave prepositions for USMC reinforcement",
+        "Deploy P-8 Poseidon rotation to GIUK gap",
+        "Establish Arctic hotline decision protocol with Russia"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "NO",
+          "to": "RU",
+          "channel": "backchannel",
+          "message": "Arctic hotline operational. Daily 08:00 CET check-in recommended between Vardoe and Severomorsk."
+        }
+      ]
+    },
+    {
+      "country": "DK",
+      "actions": [
+        "NSM batteries to full alert status — 90% mission-capable",
+        "Submit UNSC documentation on Suwalki Crisis Day 17",
+        "Reinforce Bornholm garrison command structure with NATO coordination cell",
+        "Greenland sovereignty exercise — patrol vessel and Jaeger Corps Arctic training"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "CA",
+      "actions": [
+        "Confirm permanent eFP Latvia deployment through 2028",
+        "Announce CAD 3.2B reconstruction via North Atlantic Recovery Initiative",
+        "Table Northern Resilience Framework at Istanbul II"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "NL",
+      "actions": [
+        "Accelerate EUR 850M ammunition delivery — 50% by Round 18",
+        "Rotterdam logistics hub continues 24/7 operations",
+        "Propose Atlantic Munitions Treaty at Istanbul II"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "BE",
+      "actions": [
+        "Expand NATO Verification Center — second inspection team by Round 17",
+        "Propose Eastern Flank Stabilization Group co-chaired with Romania",
+        "Announce EUR 250M reconstruction via EU mechanism"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "CZ",
+      "actions": [
+        "Maintain 4x ammunition production through 2026",
+        "Finalize armor integration with Germany — Leopard 2A8 joint training",
+        "Table NATO Ammunition Treaty at Istanbul II"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "RO",
+      "actions": [
+        "Deveselu THAAD integration complete — announce Black Sea Coordination Framework",
+        "EUR 900M reconstruction earmarked including EUR 200M Black Sea energy resilience with Turkey",
+        "Co-chair Eastern Flank Stabilization Group with Belgium"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "RU",
+      "actions": [
+        "Offer limited IAEA inspection of Kaliningrad nuclear inventory — supervised assessment, not full custody",
+        "Announce 15% EU gas restoration as unilateral goodwill gesture — Gazprom preparing deliveries",
+        "Redeploy Kaliningrad garrison into purely defensive posture — S-400 pulled back 40km",
+        "Establish mil-to-mil hotline with US CJCS via Geneva backchannel"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "RU",
+          "to": "BY",
+          "channel": "private",
+          "message": "Russia proposes joint IAEA-witnessed inventory under Russian operational control with international seal."
+        },
+        {
+          "from": "RU",
+          "to": "US",
+          "channel": "backchannel",
+          "message": "Nuclear hotline, phased sanctions relief for verifiable gas restoration, comprehensive framework for Istanbul II."
+        },
+        {
+          "from": "RU",
+          "to": "DE",
+          "channel": "private",
+          "message": "15% gas restoration starting Round 16. Contingent on EU restraint from additional sanctions."
+        },
+        {
+          "from": "RU",
+          "to": "CN",
+          "channel": "private",
+          "message": "Russia asks China to maintain UNSC neutrality. Priority energy contracts post-settlement in return."
+        }
+      ]
+    },
+    {
+      "country": "BY",
+      "actions": [
+        "Announce IAEA inspection team arrival Day 17 with Western observers",
+        "Establish International Credibility Commission with opposition figures",
+        "Reopen Belarus-NATO liaison office in Warsaw",
+        "Announce 90-day election roadmap — invite EU/OSCE monitors"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "BY",
+          "to": "US",
+          "channel": "public",
+          "message": "Belarus announces IAEA-led nuclear inspection. Seeks US recognition of transitional council."
+        },
+        {
+          "from": "BY",
+          "to": "PL",
+          "channel": "private",
+          "message": "Transitional council affirms Suwalki corridor demilitarization. Requests Polish liaison for verification."
+        }
+      ]
+    },
+    {
+      "country": "TR",
+      "actions": [
+        "Announce Istanbul II summit agenda — Four Frameworks over Day 21-22",
+        "Initiate F-35 reinstatement coordination with Pentagon",
+        "Deliver S-400 diagnostic report to US — recommends controlled degradation",
+        "Offer Orban Istanbul II attendance as diplomatic lifeline"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "TR",
+          "to": "US",
+          "channel": "private",
+          "message": "F-35 announcement on Istanbul II Day 2 would be powerful signal. Erdogan endorses Article 5."
+        },
+        {
+          "from": "TR",
+          "to": "CN",
+          "channel": "private",
+          "message": "Turkey welcomes Five-Point Framework. Invites Wang Yi to Istanbul II opening."
+        }
+      ]
+    },
+    {
+      "country": "HU",
+      "actions": [
+        "Prepare three-motion confidence vote: no-confidence, intelligence reform, EU fund re-engagement",
+        "Appoint new EU-vetted intelligence chief — Benko arrest as scapegoat",
+        "Announce EU cohesion fund good-faith restoration plan",
+        "Seek Erdogan personal endorsement for Istanbul II attendance"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "HU",
+          "to": "EU",
+          "channel": "private",
+          "message": "Hungary announces intelligence reform, EU concessions, energy policy reset. Expects partial cohesion fund restoration."
+        },
+        {
+          "from": "HU",
+          "to": "TR",
+          "channel": "private",
+          "message": "Orban requests Turkish endorsement. Hungary to attend Istanbul II as committed NATO member."
+        }
+      ]
+    },
+    {
+      "country": "CN",
+      "actions": [
+        "Wang Yi delivers Five-Point Framework address in Berlin",
+        "Announce China-EU Working Group on Digital Trade",
+        "Confirm Observer status in Geneva Process with quarterly Taiwan Strait reporting",
+        "Propose UN Crisis Prevention Mechanisms resolution"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "CN",
+          "to": "US",
+          "channel": "private",
+          "message": "Five-Point Framework genuine. Taiwan de-escalation maintained. Suggests Biden-Xi call after Istanbul II."
+        },
+        {
+          "from": "CN",
+          "to": "RU",
+          "channel": "private",
+          "message": "Five-Point Framework includes Russia as NATO deconfliction counterparty. Chinese mediation does not diminish Russian interests."
+        }
+      ]
+    }
+  ],
+  "resolution": {
+    "narrative": "Day 15 of the Suwalki Gap Crisis marks a decisive pivot from post-conflict consolidation to active summit diplomacy. In a surprising move that catches Western intelligence off-guard, Russia announces it will permit limited IAEA inspection of its Kaliningrad nuclear inventory — not full 'international custody' as Moscow's initial trial balloon suggested, but supervised assessment of tactical weapons with IAEA monitors present. This partial transparency gambit is designed to give Putin a 'responsible nuclear power' narrative heading into Istanbul II. Simultaneously, Gazprom begins technical preparations to restore 15% of normal gas flows to the EU, with first deliveries expected within 48 hours — a tangible economic olive branch that immediately splits European opinion on sanctions continuation.\n\nThe European response crystallizes around a fear of marginalization. An emergency UK-France-Germany coordination call produces the 'European Three' framework — a joint demand that Istanbul II include formal European representation, not just a US-Russia bilateral. Macron activates ESAF as Europe's counter-framework, while Germany announces an EUR 8B emergency defense supplemental and offers Berlin as host for Geneva Process Track 2 on security architecture. The message to Washington is clear: Europe will not be carved up in a room with just Trump and Putin.\n\nOn the ground, the first CJCS-Gerasimov secure call is scheduled for Day 16 — the first direct military-to-military communication between US and Russian general staffs since the crisis began. The US formally launches the F-35 reinstatement process for Turkey, with an expedited review timeline. Belarus's transitional council announces that IAEA inspectors will arrive Day 17, with Western observers invited — a dramatic assertion of sovereignty over Russian nuclear weapons on Belarusian soil. In Budapest, Orban prepares for tomorrow's confidence vote with a three-pronged strategy: scapegoat intelligence chief Benko, offer limited EU concessions, and seek Turkish endorsement. Whether his razor-thin majority holds remains the most consequential domestic political question of the crisis.",
+    "world_state_updates": {
+      "game_time": "Day 15, 18:00 CET",
+      "military_units_add": [],
+      "military_units_remove": [],
+      "military_units_update": [
+        {
+          "name": "uk_carrier_group",
+          "location": "Portsmouth",
+          "readiness": 5,
+          "strength": 6,
+          "casualties": 0,
+          "supply_level": 7,
+          "morale": 7
+        },
+        {
+          "name": "finnish_forces",
+          "location": "Finland",
+          "readiness": 5,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 8
+        },
+        {
+          "name": "swedish_gotland_garrison",
+          "location": "Gotland",
+          "readiness": 8,
+          "strength": 6,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 9
+        },
+        {
+          "name": "us_f35_squadron",
+          "location": "Lask",
+          "readiness": 7,
+          "strength": 4,
+          "casualties": 0,
+          "supply_level": 9,
+          "morale": 8
+        },
+        {
+          "name": "danish_strait_defense",
+          "location": "Danish Straits",
+          "readiness": 9,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 8
+        },
+        {
+          "name": "nato_efp_lithuania",
+          "location": "Kaunas",
+          "readiness": 7,
+          "strength": 5,
+          "casualties": 3,
+          "supply_level": 10,
+          "morale": 9
+        }
+      ],
+      "military_alerts": {
+        "istanbul_ii_summit": "Scheduled Day 21-22 at Istanbul — Trump-Putin bilateral plus European representation demanded",
+        "cjcs_gerasimov_hotline": "First secure call scheduled Day 16 — military-to-military deconfliction",
+        "iaea_belarus": "IAEA inspection team arriving Belarus Day 17 — Western observers invited",
+        "hungary_confidence_vote": "Scheduled Day 16 — Orban majority razor-thin at 132/199",
+        "russian_gas_restoration": "Gazprom preparing 15% EU gas flow restoration — first deliveries within 48 hours",
+        "kaliningrad_nuclear": "Russia offers limited IAEA inspection of Kaliningrad nuclear inventory — supervised assessment, not custody",
+        "european_three": "UK-France-Germany coordinating joint position for Istanbul II — demand formal European representation",
+        "f35_turkey": "US launches expedited F-35 reinstatement process for Turkey — 40 aircraft timeline under review",
+        "germany_defense": "EUR 8B emergency defense supplemental from Sondervermogen announced",
+        "geneva_track2": "Germany offers to host Geneva Process Track 2 in Berlin starting Day 16"
+      },
+      "markets": {
+        "oil_price": 80.5,
+        "euro_usd": 1.08
+      },
+      "sanctions_add": [],
+      "trade_disruptions_add": [
+        "Oil drops to $80.50 on combined summit optimism and Russian gas restoration announcement",
+        "Ruble recovers to 124/USD on diplomatic momentum — strongest since crisis began",
+        "European gas futures drop 8% on Russian 15% restoration announcement — EU split on response",
+        "Germany announces EUR 8B emergency defense supplemental from Sondervermogen",
+        "F-35 reinstatement process launched for Turkey — expedited Pentagon review",
+        "European Three coordination established — UK/FR/DE demand Istanbul II representation"
+      ],
+      "diplomatic_relations": {
+        "US": {
+          "RU": -6
+        },
+        "RU": {
+          "US": -5,
+          "DE": -7
+        },
+        "DE": {
+          "RU": -7,
+          "FR": 9
+        },
+        "FR": {
+          "DE": 9,
+          "GB": 8
+        },
+        "GB": {
+          "FR": 8
+        },
+        "TR": {
+          "CN": 3
+        },
+        "CN": {
+          "TR": 3,
+          "DE": 2
+        }
+      },
+      "treaties_invoked_add": [
+        "CJCS-Gerasimov Military Hotline — first US-Russia mil-to-mil direct channel since crisis, scheduled Day 16",
+        "European Three Framework — UK/FR/DE joint coordination on Istanbul II and post-crisis European security architecture",
+        "ESAF (European Security Architecture Framework) — France-led, Germany co-chairs, separate from US-Russia bilateral track",
+        "Russia limited IAEA Kaliningrad inspection offer — supervised assessment of tactical nuclear inventory",
+        "Russia 15% EU gas restoration — unilateral goodwill gesture, first deliveries within 48 hours"
+      ],
+      "un_resolutions_add": [],
+      "nato_alert_level": "article5",
+      "nato_consensus": {
+        "ALL": "Istanbul II summit preparations — European Three demand formal representation alongside US-Russia bilateral"
+      },
+      "nuclear_posture": {
+        "US": "peacetime",
+        "RU": "peacetime",
+        "GB": "peacetime",
+        "FR": "peacetime"
+      },
+      "nuclear_detonations_add": [],
+      "public_opinion": {
+        "US": {
+          "war_support": 14,
+          "government_approval": 56
+        },
+        "RU": {
+          "war_support": 16,
+          "government_approval": 30
+        },
+        "PL": {
+          "war_support": 51,
+          "government_approval": 78
+        },
+        "LT": {
+          "war_support": 56,
+          "government_approval": 78
+        },
+        "LV": {
+          "war_support": 40,
+          "government_approval": 57
+        },
+        "EE": {
+          "war_support": 43,
+          "government_approval": 59
+        },
+        "GB": {
+          "war_support": 20,
+          "government_approval": 47
+        },
+        "FR": {
+          "war_support": 10,
+          "government_approval": 35
+        },
+        "DE": {
+          "war_support": 19,
+          "government_approval": 53
+        },
+        "FI": {
+          "war_support": 33,
+          "government_approval": 63
+        },
+        "SE": {
+          "war_support": 27,
+          "government_approval": 52
+        },
+        "NO": {
+          "war_support": 24,
+          "government_approval": 55
+        },
+        "DK": {
+          "war_support": 22,
+          "government_approval": 49
+        },
+        "CA": {
+          "war_support": 12,
+          "government_approval": 43
+        },
+        "NL": {
+          "war_support": 16,
+          "government_approval": 44
+        },
+        "BE": {
+          "war_support": 11,
+          "government_approval": 40
+        },
+        "CZ": {
+          "war_support": 21,
+          "government_approval": 46
+        },
+        "RO": {
+          "war_support": 25,
+          "government_approval": 48
+        },
+        "TR": {
+          "war_support": 5,
+          "government_approval": 63
+        },
+        "HU": {
+          "war_support": 2,
+          "government_approval": 14
+        },
+        "BY": {
+          "war_support": 1,
+          "government_approval": 76
+        },
+        "CN": {
+          "war_support": 2,
+          "government_approval": 79
+        }
+      },
+      "refugee_flows_add": [],
+      "humanitarian_crisis_level": {
+        "LT": 2,
+        "PL": 1
+      },
+      "cyber_operations_add": [],
+      "infrastructure_status": {},
+      "corridor_control": "nato",
+      "recent_events": [
+        "Russia offers limited IAEA inspection of Kaliningrad nuclear inventory before Istanbul II",
+        "Gazprom prepares 15% EU gas restoration — first deliveries within 48 hours",
+        "European Three (UK-FR-DE) coordinate joint demand for Istanbul II representation",
+        "First CJCS-Gerasimov military hotline call scheduled for Day 16",
+        "IAEA inspection team confirmed arriving Belarus Day 17",
+        "Germany announces EUR 8B emergency defense supplemental",
+        "France activates ESAF as European-led security architecture framework",
+        "US launches F-35 reinstatement process for Turkey",
+        "Orban prepares three-pronged confidence vote strategy for Day 16",
+        "Wang Yi delivers Five-Point Framework address in Berlin",
+        "Oil drops to $80.50 — lowest since pre-crisis on summit and gas optimism",
+        "Poland continues Shield East fortification acceleration"
+      ],
+      "media_headlines": [
+        "RUSSIA OPENS DOOR: Putin Offers Nuclear Transparency at Kaliningrad Before Summit",
+        "GAS FLOWS AGAIN: Russia to Restore 15% of EU Supply as Good-Faith Gesture",
+        "EUROPE DEMANDS SEAT: Macron, Starmer, Merz Unite Against US-Russia Bilateral",
+        "IAEA TEAM EN ROUTE: Nuclear Inspectors to Arrive Belarus Day 17"
+      ],
+      "round_number": 15
+    },
+    "events": [
+      "Russia offers limited IAEA inspection of Kaliningrad nuclear inventory — partial transparency before Istanbul II",
+      "Gazprom announces 15% EU gas restoration as unilateral goodwill gesture",
+      "European Three (UK-FR-DE) coordinate joint demand for Istanbul II representation",
+      "First CJCS-Gerasimov military hotline call scheduled for Day 16",
+      "IAEA inspection team confirmed for Belarus arrival Day 17",
+      "Germany announces EUR 8B emergency defense supplemental",
+      "Wang Yi delivers Five-Point Framework address in Berlin",
+      "Turkey announces Istanbul II summit agenda for Day 21-22"
+    ],
+    "headlines": [
+      "RUSSIA OPENS DOOR: Putin Offers Nuclear Transparency at Kaliningrad Before Summit",
+      "GAS FLOWS AGAIN: Russia to Restore 15% of EU Supply as Good-Faith Gesture",
+      "EUROPE DEMANDS SEAT: Macron, Starmer, Merz Unite Against US-Russia Bilateral",
+      "IAEA TEAM EN ROUTE: Nuclear Inspectors to Arrive Belarus Day 17"
+    ],
+    "surprises": [
+      "Leaked FSB internal assessment — marked 'Eyes Only for Security Council' — surfaces on Telegram showing Kremlin officials discussing 'managed political transition scenarios' if Istanbul II fails. Not a coup plan, but succession contingency planning that suggests Putin's inner circle is preparing for the possibility he cannot survive politically. The Kremlin denounces the leak as Western fabrication.",
+      "Kaliningrad Governor Alikhanov releases second video — this time directly addressing Putin on camera, documenting empty grocery stores and 12-hour power rationing for 430,000 civilians. 'Mr. President, the people of Kaliningrad did not ask for this war. They are paying for it with hunger.' The video reaches 90 million views in 6 hours. Russian state media cannot suppress it."
+    ]
+  },
+  "world_state_after": {
+    "round_number": 15,
+    "game_time": "Day 15, 18:00 CET",
+    "military_units": [
+      {
+        "name": "nato_efp_lithuania",
+        "country": "DE",
+        "type": "ground",
+        "location": "Kaunas",
+        "readiness": 7,
+        "strength": 5,
+        "casualties": 3,
+        "supply_level": 10,
+        "morale": 9,
+        "_last_casualty_morale_applied": 1,
+        "_last_casualty_strength_applied": 1
+      },
+      {
+        "name": "nato_efp_latvia",
+        "country": "CA",
+        "type": "ground",
+        "location": "Adazi, permanent enhanced posture",
+        "readiness": 7,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_estonia",
+        "country": "GB",
+        "type": "ground",
+        "location": "Tapa, Narva Defence Line Phase 2 fully operational",
+        "readiness": 8,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "Suwalki, Shield Force component",
+        "readiness": 8,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "us_forces_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "Suwalki, V Corps permanent HQ",
+        "readiness": 8,
+        "strength": 7,
+        "casualties": 1,
+        "supply_level": 10,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "polish_forces",
+        "country": "PL",
+        "type": "ground",
+        "location": "Suwalki, Shield East 200km fortification line",
+        "readiness": 7,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "finnish_forces",
+        "country": "FI",
+        "type": "ground",
+        "location": "Finland",
+        "readiness": 5,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "uk_carrier_group",
+        "country": "GB",
+        "type": "naval",
+        "location": "Portsmouth",
+        "readiness": 5,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 7,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "french_rafale_squadron",
+        "country": "FR",
+        "type": "air",
+        "location": "France, home base standby",
+        "readiness": 7,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "us_f35_squadron",
+        "country": "US",
+        "type": "air",
+        "location": "Lask",
+        "readiness": 7,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "swedish_gotland_garrison",
+        "country": "SE",
+        "type": "ground",
+        "location": "Gotland",
+        "readiness": 8,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "danish_strait_defense",
+        "country": "DK",
+        "type": "naval",
+        "location": "Danish Straits",
+        "readiness": 9,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "polish_18th_division",
+        "country": "PL",
+        "type": "ground",
+        "location": "Suwalki Corridor, garrison",
+        "readiness": 7,
+        "strength": 5,
+        "casualties": 4,
+        "supply_level": 9,
+        "morale": 9,
+        "_last_casualty_morale_applied": 2,
+        "_last_casualty_strength_applied": 2
+      },
+      {
+        "name": "french_ground_brigade",
+        "country": "FR",
+        "type": "ground",
+        "location": "Corsica, forward staging posture",
+        "readiness": 6,
+        "strength": 5,
+        "casualties": 1,
+        "supply_level": 8,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "finnish_artillery",
+        "country": "FI",
+        "type": "ground",
+        "location": "Eastern Finland, permanent positions",
+        "readiness": 7,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "dutch_43rd_brigade",
+        "country": "NL",
+        "type": "ground",
+        "location": "Netherlands, returned to home bases",
+        "readiness": 5,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "german_patriot_battery",
+        "country": "DE",
+        "type": "air",
+        "location": "Suwalki, Shield Force permanent",
+        "readiness": 8,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      }
+    ],
+    "military_alerts": {
+      "russian_kaliningrad_forces": "ICRC evacuation of wounded — 47 critically wounded transferred to Lithuanian hospitals",
+      "russian_western_district": "At Lithuanian border, preparing to push through to reinforce corridor",
+      "belarus_forces": "Defensive posture only, providing transit to Russian forces, NOT crossing border",
+      "nato_efp_lithuania": "Supporting Lithuanian Nemunas River defense line, very low strength",
+      "nato_efp_latvia": "Canadian-led battlegroup (~1500 troops)",
+      "nato_efp_estonia": "UK-led battlegroup (~1200 troops)",
+      "nato_efp_poland": "US-led battlegroup (~1000 troops) + Polish forces",
+      "us_forces_poland": "V Corps pushing north, 1 KIA from IED in corridor",
+      "polish_forces": "Sustained HIMARS fire support, Polish F-16 lost in SEAD (pilot captured)",
+      "finnish_forces": "Offering artillery + MLRS to NATO, border fully defended",
+      "russian_vdv_airborne": "SURRENDERED - Col. Volkov's unit capitulated, ~200 POWs taken by Polish forces",
+      "russian_reinforcement_column": "Destroyed, personnel awaiting organized evacuation under ceasefire",
+      "uk_carrier_group": "Storm Shadow strike successful, rearming for potential follow-up strikes",
+      "german_patriot_battery": "Operational at Suwałki and Kaunas, providing critical air defense",
+      "norwegian_warning": "Missing Severodvinsk submarine still UNLOCATED despite P-8 search",
+      "polish_18th_division": "Counter-attack success - recaptured Mockava and Route 16 junction, advancing north",
+      "us_f35_squadron": "Post-SEAD - degraded Kaliningrad A2/AD by 50%, 1 aircraft damaged, rearming",
+      "finnish_artillery": "K9 Thunder and MLRS operational in eastern Poland, ready for fire missions",
+      "nato_article5_consensus": "FULL CONSENSUS ACHIEVED at 15:00 CET - Turkey and Hungary withdrew objections",
+      "nato_pow_situation": "Major Tomasz Kowalski (Polish Air Force) captured by VDV - first NATO POW",
+      "china_taiwan": "PLA Navy exercises in Taiwan Strait - 12 warships, 24 fighters - assessed as pressure, not invasion prep",
+      "severodvinsk_submarine": "STRUCK Łask Air Base with 3 Kalibr missiles - 1 hit taxiway, 4 Polish KIA - submarine still at large",
+      "lask_air_base": "Taxiway damaged, 2 F-16s destroyed on ground, operations continuing from backup runway",
+      "nuclear_warning": "Increased activity at Russian strategic forces command posts detected by satellites",
+      "ceasefire": "72-hour ceasefire holding — no violations reported",
+      "nuclear_deescalation": "Iskander nuclear warheads observed returning to storage at 23:45 — immediate threat passed",
+      "severodvinsk": "Confirmed returning to Kola Peninsula — no longer threat",
+      "belarus_military": "Effective paralysis — multiple units refusing orders, KGB conducting arrests",
+      "withdrawal_agreement": "Russia agrees to 96-hour phased withdrawal starting Day 6, 06:00",
+      "pow_exchange": "COMPLETED — Major Kowalski returned, 247 Russian POWs repatriated",
+      "withdrawal": "85% complete — Vištytis empty, Lazdijai clear, only rear guard remains",
+      "orlov_incident": "Resolved — Russian Major demanded medevac helicopters, Lithuanian helicopters provided",
+      "suwalki_shield_force": "OPERATIONAL — permanent multinational brigade, motto: 'Never Again'",
+      "belarus_crisis": "38th Air Assault Brigade defies Lukashenko — 40% of military in open defiance",
+      "russia_internal": "Putin facing political crisis — leaked recordings, ruble collapse, military defeat narrative",
+      "withdrawal_complete": "Russian withdrawal from Lithuania VERIFIED COMPLETE at 14:00 CET Day 9",
+      "belarus_revolution": "Lukashenko FLED — military transitional council declared, elections in 90 days",
+      "russian_transit_closed": "Belarus closed territory to Russian military transit — strategic blow to Moscow",
+      "geneva_process": "UNDERWAY — 4 negotiating tracks + Belarus transition",
+      "game_end": "Suwałki Crisis CONCLUDED — Day 10, 18:00 CET",
+      "nato_posture": "Elevated — permanent enhanced presence on eastern flank",
+      "PL": "elevated",
+      "LT": "elevated",
+      "LV": "elevated",
+      "EE": "elevated",
+      "FI": "normal",
+      "SE": "elevated",
+      "DE": "normal",
+      "GB": "normal",
+      "FR": "normal",
+      "NO": "elevated",
+      "DK": "elevated",
+      "istanbul_ii_summit": "Scheduled Day 21-22 at Istanbul — Trump-Putin bilateral plus European representation demanded",
+      "cjcs_gerasimov_hotline": "First secure call scheduled Day 16 — military-to-military deconfliction",
+      "iaea_belarus": "IAEA inspection team arriving Belarus Day 17 — Western observers invited",
+      "hungary_confidence_vote": "Scheduled Day 16 — Orban majority razor-thin at 132/199",
+      "russian_gas_restoration": "Gazprom preparing 15% EU gas flow restoration — first deliveries within 48 hours",
+      "kaliningrad_nuclear": "Russia offers limited IAEA inspection of Kaliningrad nuclear inventory — supervised assessment, not custody",
+      "european_three": "UK-France-Germany coordinating joint position for Istanbul II — demand formal European representation",
+      "f35_turkey": "US launches expedited F-35 reinstatement process for Turkey — 40 aircraft timeline under review",
+      "germany_defense": "EUR 8B emergency defense supplemental from Sondervermogen announced",
+      "geneva_track2": "Germany offers to host Geneva Process Track 2 in Berlin starting Day 16"
+    },
+    "markets": {
+      "oil_price": 80.5,
+      "euro_usd": 1.08,
+      "gas_price_eu": "surging 15% on infrastructure fears",
+      "stock_indices": "nervous, -2% on reports",
+      "nasdaq": "-4.2% on two-front crisis fears",
+      "ruble_usd": 135.0,
+      "dow_jones": "suspended then -11%",
+      "european_indices": "suspended, to reopen"
+    },
+    "sanctions": [
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "Emergency SWIFT restrictions on additional Russian banks"
+      },
+      {
+        "from": "EU",
+        "target": "RU",
+        "type": "Emergency energy import reduction package"
+      },
+      {
+        "from": "GB",
+        "target": "RU",
+        "type": "Freezing of Russian sovereign assets in London"
+      },
+      {
+        "from": "US",
+        "target": "BY",
+        "type": "Full economic sanctions on Belarus for facilitating aggression"
+      },
+      {
+        "from": "EU",
+        "target": "BY",
+        "type": "Full EU sanctions on Belarus for providing staging territory to Russian forces"
+      },
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "Secondary sanctions warning on entities facilitating Russian military procurement"
+      },
+      {
+        "from": "EU",
+        "target": "RU",
+        "type": "Full SWIFT disconnection of all major Russian banks (post-Article 5)"
+      },
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "Total export ban on advanced technology and semiconductors to Russia"
+      },
+      {
+        "from": "EU",
+        "target": "BY",
+        "type": "Full economic embargo on Belarus for facilitating military transit"
+      },
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "Emergency executive order freezing ALL Russian state assets in US jurisdiction"
+      },
+      {
+        "from": "GB",
+        "target": "RU",
+        "type": "Complete expulsion of Russian diplomatic staff except emergency channel"
+      },
+      {
+        "from": "EU",
+        "target": "HU",
+        "type": "Suspension of EU cohesion funds pending Article 7 review — EUR 22B frozen"
+      }
+    ],
+    "trade_disruptions": [
+      "Commercial shipping rerouting from eastern Baltic",
+      "All land transit to/from Kaliningrad suspended",
+      "Main links through Suwalki corridor severed",
+      "Fuel depot damaged by Iskander-K strike, rerouting required",
+      "Kaliningrad supply lines under NATO air interdiction - first sustained aerial blockade",
+      "European gas spot prices surge 15% on fears of Russian infrastructure retaliation",
+      "China Taiwan Strait exercises disrupt Pacific shipping routes, insurance premiums spike",
+      "Global shipping insurance rates spike 300% for Baltic and Eastern Mediterranean",
+      "Russian ruble crashes to 130/USD - Moscow Stock Exchange suspended trading",
+      "Global stock exchanges suspended trading for hours during nuclear scare",
+      "Baltic shipping completely halted — insurers refuse coverage",
+      "Russian financial system approaching systemic collapse",
+      "European stock exchanges reopened — cautious recovery +3%",
+      "Baltic shipping lanes remain closed pending completion of withdrawal",
+      "Baltic shipping lanes to reopen in 48 hours pending mine clearance",
+      "Insurance rates beginning to normalize for non-Baltic European trade",
+      "Baltic shipping resuming — first commercial vessel transits since Day 1",
+      "Danish Straits preparing to reopen to Russian-flagged civilian vessels",
+      "Baltic shipping fully restored",
+      "Danish Straits reopening to all traffic",
+      "Insurance rates normalizing for European trade routes",
+      "Global economic recovery beginning — estimated 12-18 months to pre-crisis normality",
+      "All European shipping lanes restored",
+      "Oil drops to $89 on Russian nuclear de-escalation — lowest since crisis began",
+      "Ruble recovers to 128/USD on peacetime nuclear signal",
+      "European markets post strongest gains since crisis — DAX +4.2%, CAC +3.8%",
+      "Russia offers 50% gas restoration by April 1 as goodwill gesture at Geneva",
+      "Oil drops to $86 — approaching pre-crisis levels on diplomatic momentum",
+      "Ruble stabilizes at 125/USD as Central Bank burns reserves",
+      "E67 highway through Suwalki corridor reopens to civilian traffic",
+      "Czech ammunition factories running 24/7 at 2.5x capacity",
+      "Germany releases EUR 3B first Marshall Plan tranche to Lithuania and Poland",
+      "Oil drops to $84 — pre-crisis levels approaching as Geneva momentum builds",
+      "Ruble weakens to 128/USD — Central Bank reserve burn rate unsustainable beyond 6 months",
+      "Hungary suspends EUR 1.2B quarterly EU budget contribution — legal proceedings initiated",
+      "Marshall Plan Phase 1 funds reaching Lithuanian municipalities — Marijampole reconstruction begins",
+      "Czech-Canadian ammunition partnership: 155mm shell production at 3x peacetime rate",
+      "Oil drops to $82 on Trump-Putin summit optimism — lowest since pre-crisis",
+      "Ruble recovers to 126/USD on diplomatic momentum",
+      "European markets surge 2.5% — DAX now only 3% below pre-crisis peak",
+      "Turkey transfers S-400 systems to US custody at Incirlik — F-35 reinstatement expected",
+      "Marshall Plan Phase 1 disbursements reaching all affected Lithuanian municipalities",
+      "Oil drops to $80.50 on combined summit optimism and Russian gas restoration announcement",
+      "Ruble recovers to 124/USD on diplomatic momentum — strongest since crisis began",
+      "European gas futures drop 8% on Russian 15% restoration announcement — EU split on response",
+      "Germany announces EUR 8B emergency defense supplemental from Sondervermogen",
+      "F-35 reinstatement process launched for Turkey — expedited Pentagon review",
+      "European Three coordination established — UK/FR/DE demand Istanbul II representation"
+    ],
+    "diplomatic_relations": {
+      "PL": {
+        "RU": -10,
+        "BY": 3,
+        "US": 10,
+        "DE": 7,
+        "LT": 10,
+        "HU": 1,
+        "TR": 5
+      },
+      "LT": {
+        "RU": -10,
+        "BY": -9,
+        "PL": 10,
+        "US": 7,
+        "DE": 8
+      },
+      "US": {
+        "RU": -6,
+        "PL": 9,
+        "GB": 9,
+        "DE": 5,
+        "TR": 9,
+        "HU": -2,
+        "CN": -2,
+        "BY": 7
+      },
+      "RU": {
+        "US": -5,
+        "PL": -10,
+        "LT": -10,
+        "CN": 5,
+        "BY": -9,
+        "TR": -2,
+        "DE": -7,
+        "GB": -10
+      },
+      "DE": {
+        "RU": -7,
+        "PL": 8,
+        "FR": 9,
+        "US": 5,
+        "LT": 8
+      },
+      "GB": {
+        "RU": -8,
+        "PL": 7,
+        "US": 9,
+        "FR": 8
+      },
+      "FR": {
+        "RU": -6,
+        "PL": 6,
+        "US": 7,
+        "GB": 8,
+        "DE": 9
+      },
+      "TR": {
+        "RU": -2,
+        "US": 10,
+        "HU": 2,
+        "CN": 3
+      },
+      "HU": {
+        "RU": -5,
+        "US": -5,
+        "PL": 1
+      },
+      "CN": {
+        "RU": 4,
+        "US": -2,
+        "TR": 3,
+        "DE": 2
+      },
+      "BY": {
+        "RU": -10,
+        "PL": 8,
+        "LT": 8,
+        "EU": 6,
+        "US": 7
+      }
+    },
+    "treaties_invoked": [
+      "{'treaty': 'NATO Article 4', 'invoked_by': 'PL', 'status': 'consultation underway'}",
+      "{'treaty': 'EU Article 42.7', 'proposed_by': 'FR', 'status': 'under discussion'}",
+      "{'treaty': 'NATO Article 5', 'invoked_by': 'PL', 'status': 'invoked, consensus pending Turkey/Hungary'}",
+      "{'treaty': 'EU Article 42.7', 'invoked_by': 'FR', 'status': 'activated by European Council majority'}",
+      "{'treaty': 'NATO Article 5', 'invoked_by': 'NAC', 'status': 'FULL CONSENSUS - collective defense authorized under SACEUR command'}",
+      "{'treaty': 'US-Turkey F-35 Framework', 'invoked_by': 'US/TR', 'status': 'signed, S-400 transfer to US custody within 90 days'}",
+      "{'treaty': 'UN Ceasefire Resolution', 'invoked_by': 'UNSC', 'status': '72-hour humanitarian ceasefire, UNSC Resolution adopted 14-0-1 (China abstained)'}",
+      "{'treaty': 'Geneva Framework Agreement', 'invoked_by': 'US/RU/EU', 'status': '96-hour phased Russian withdrawal, POW exchange, post-crisis dialogue commitment'}",
+      "{'treaty': 'NAC Suwałki Shield Force Declaration', 'invoked_by': 'NAC', 'status': 'permanent multinational brigade authorized for Suwałki Corridor'}",
+      "{'treaty': 'Geneva Process', 'invoked_by': 'US/RU/EU/CN(observer)', 'status': 'formal negotiations opening Day 10 — European security architecture, arms control, accountability'}",
+      "{'treaty': 'Geneva Process Framework', 'invoked_by': '28 nations', 'status': '4 tracks: arms control, nuclear risk reduction, confidence-building, economic recovery + Belarus transition'}",
+      "Baltic Defense Council Charter — LT, LV, EE permanent integrated defense structure with secretariat in Riga",
+      "Belarus Nuclear Ultimatum — transitional government demands removal of Russian tactical nuclear weapons within 60 days",
+      "China Five-Point Peace Framework for European Security — proposed",
+      "Turkey Constantinople Accord — proposed comprehensive settlement framework",
+      "Russia phased sanctions relief proposal at Geneva Track 1",
+      "Belarus 72-hour Nuclear Ultimatum to Russia — provide written launch veto or face IAEA supervised removal",
+      "Turkey Istanbul II Summit proposal — endorsed by US and Russia as venue for bilateral talks",
+      "US comprehensive Geneva proposal — 90-day denuclearization, Kaliningrad talks, phased sanctions relief",
+      "Belarus IAEA Invitation — formal request for supervised assessment of all Russian tactical nuclear weapons on Belarusian soil",
+      "Istanbul II Summit Framework — Russia accepts principle of Trump-Putin bilateral, venue Turkey, timing within 7 days",
+      "Turkey-US S-400 Transfer Agreement executed — systems in US custody at Incirlik",
+      "CJCS-Gerasimov Military Hotline — first US-Russia mil-to-mil direct channel since crisis, scheduled Day 16",
+      "European Three Framework — UK/FR/DE joint coordination on Istanbul II and post-crisis European security architecture",
+      "ESAF (European Security Architecture Framework) — France-led, Germany co-chairs, separate from US-Russia bilateral track",
+      "Russia limited IAEA Kaliningrad inspection offer — supervised assessment of tactical nuclear inventory",
+      "Russia 15% EU gas restoration — unilateral goodwill gesture, first deliveries within 48 hours"
+    ],
+    "un_resolutions": [
+      "{'title': 'Emergency UNSC session on Lithuania crisis', 'status': 'blocked by RU and CN vetoes', 'votes': '13-2'}",
+      "{'title': 'UNGA Emergency Special Session on Suwałki Crisis', 'status': '143-5-35 condemning Russian aggression, non-binding', 'votes': '143 for, 5 against (RU, BY, DPRK, SY, ER), 35 abstentions'}",
+      "{'title': 'UNSC Resolution: 72-hour humanitarian ceasefire in Suwałki corridor', 'status': 'adopted 14-0-1 (Russia voted yes, China abstained)', 'votes': '14-0-1'}",
+      "{'title': 'UNSC endorsement of Geneva Framework for Suwałki withdrawal', 'status': 'adopted unanimously 15-0', 'votes': '15-0'}",
+      "{'title': 'UNGA Resolution: Suwałki Crisis lessons — nuclear risk reduction', 'status': 'adopted 189-2-4', 'votes': '189 for, 2 against (DPRK, SY), 4 abstentions'}"
+    ],
+    "nato_alert_level": "article5",
+    "nato_consensus": {
+      "US": "Security guarantees to Belarus, Istanbul II accepted within 7 days, defector intel compartmentalized, 2.5% spending enforcement",
+      "PL": "Shield East 200km, tripartite command exercising, ICC dossier advancing, K9 battery forward",
+      "LT": "Reconstruction accelerating, KASP 75% readiness, Baltic DC joint planning formalized, Suwalki fortifications advancing",
+      "LV": "Baltic DC secretariat operational, Minority Integration Task Force established, IRIS-T procurement accelerating",
+      "EE": "Narva Defence Line fully operational, Kaitseliit mobilized, CCDCOE cyber targeting package prepared, Finland coordination",
+      "GB": "Carrier in port for resupply, JEF sustained, GCHQ intel sharing continuous, war support too low for new deployments",
+      "FR": "ESAF advancing, Corsica staging maintained, war support too low for new deployments, EUR 50M Belarus assistance",
+      "DE": "Marshall Plan disbursing, 45th Panzer 65% expanded, Host Nation Support sustained, Bundestag authorization maintained",
+      "FI": "Demobilization 60%, border fence 450km, SIGINT formalized with Sweden, Russian refugee humanitarian program",
+      "SE": "NORDEFCO treaty formalized, Gripen E IOC advancing, Nordic intelligence integration deepening",
+      "NO": "GIUK patrol continuous, MCPP-N operational with Nordic liaison, Arctic hotline reiterated to Russia",
+      "DK": "NSM 90% operational, UNSC documentation submitted, Greenland sovereignty firmly asserted",
+      "CA": "eFP Latvia permanent, reconstruction CAD 3.2B, Northern Resilience Framework proposed",
+      "NL": "EUR 850M ammunition 50% delivered, Rotterdam hub 24/7, Ammunition Sustainability Compact proposed",
+      "BE": "NATO Verification Center expanded to reconstruction monitoring, Stabilization Group proposed",
+      "CZ": "Ammunition 4x baseline, NATO Ammunition Treaty proposed, Armor Integration Training Center with DE",
+      "RO": "Black Sea Coordination Framework proposed, Deveselu THAAD fully integrated, EUR 900M reconstruction",
+      "TR": "S-400 transferred to US custody, Istanbul II convening within 7 days, Fidan shuttle diplomacy active",
+      "HU": "CRISIS — Der Spiegel expose published, intelligence chief arrested, confidence vote Day 16, 3 Fidesz MPs defect",
+      "ALL": "Istanbul II summit preparations — European Three demand formal representation alongside US-Russia bilateral"
+    },
+    "corridor_control": "nato",
+    "nuclear_posture": {
+      "RU": "peacetime",
+      "US": "peacetime",
+      "GB": "peacetime",
+      "FR": "peacetime"
+    },
+    "nuclear_detonations": [],
+    "public_opinion": {
+      "PL": {
+        "war_support": 51,
+        "government_approval": 78
+      },
+      "DE": {
+        "war_support": 19,
+        "government_approval": 53
+      },
+      "FR": {
+        "war_support": 10,
+        "government_approval": 35
+      },
+      "US": {
+        "war_support": 14,
+        "government_approval": 56
+      },
+      "GB": {
+        "war_support": 20,
+        "government_approval": 47
+      },
+      "LT": {
+        "war_support": 56,
+        "government_approval": 78
+      },
+      "LV": {
+        "war_support": 40,
+        "government_approval": 57
+      },
+      "EE": {
+        "war_support": 43,
+        "government_approval": 59
+      },
+      "FI": {
+        "war_support": 33,
+        "government_approval": 63
+      },
+      "SE": {
+        "war_support": 27,
+        "government_approval": 52
+      },
+      "NO": {
+        "war_support": 24,
+        "government_approval": 55
+      },
+      "DK": {
+        "war_support": 22,
+        "government_approval": 49
+      },
+      "CA": {
+        "war_support": 12,
+        "government_approval": 43
+      },
+      "NL": {
+        "war_support": 16,
+        "government_approval": 44
+      },
+      "BE": {
+        "war_support": 11,
+        "government_approval": 40
+      },
+      "CZ": {
+        "war_support": 21,
+        "government_approval": 46
+      },
+      "RO": {
+        "war_support": 25,
+        "government_approval": 48
+      },
+      "TR": {
+        "war_support": 5,
+        "government_approval": 63
+      },
+      "HU": {
+        "war_support": 2,
+        "government_approval": 14
+      },
+      "RU": {
+        "war_support": 16,
+        "government_approval": 30
+      },
+      "BY": {
+        "war_support": 1,
+        "government_approval": 76
+      },
+      "CN": {
+        "war_support": 2,
+        "government_approval": 79
+      }
+    },
+    "refugee_flows": [
+      {
+        "from": "LT",
+        "to": "PL",
+        "count": 15000,
+        "status": "fleeing"
+      },
+      {
+        "from": "LT",
+        "to": "LV",
+        "count": 8000,
+        "status": "fleeing"
+      },
+      {
+        "from": "PL",
+        "to": "DE",
+        "count": 3000,
+        "status": "fleeing"
+      },
+      {
+        "from": "LT",
+        "to": "LT",
+        "count": 5000,
+        "status": "settled"
+      },
+      {
+        "from": "RU",
+        "to": "FI",
+        "count": 500,
+        "status": "fleeing"
+      },
+      {
+        "from": "HU",
+        "to": "AT",
+        "count": 200,
+        "status": "fleeing"
+      }
+    ],
+    "humanitarian_crisis_level": {
+      "LT": 2,
+      "PL": 1
+    },
+    "cyber_operations": [
+      {
+        "attacker": "RU",
+        "target": "LT",
+        "type": "infrastructure",
+        "severity": "high",
+        "infrastructure_affected": "comms"
+      },
+      {
+        "attacker": "RU",
+        "target": "PL",
+        "type": "ddos",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "EE",
+        "type": "ddos",
+        "severity": "medium",
+        "infrastructure_affected": "financial"
+      },
+      {
+        "attacker": "RU",
+        "target": "DE",
+        "type": "malware",
+        "severity": "low",
+        "infrastructure_affected": "comms"
+      },
+      {
+        "attacker": "EE",
+        "target": "RU",
+        "type": "espionage",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "PL",
+        "type": "infrastructure",
+        "severity": "high",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "PL",
+        "type": "espionage",
+        "severity": "medium",
+        "infrastructure_affected": "none"
+      },
+      {
+        "attacker": "EE",
+        "target": "RU",
+        "type": "infrastructure",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "SE",
+        "target": "RU",
+        "type": "espionage",
+        "severity": "medium",
+        "infrastructure_affected": "none"
+      },
+      {
+        "attacker": "RU",
+        "target": "EE",
+        "type": "malware",
+        "severity": "high",
+        "infrastructure_affected": "power_grid"
+      },
+      {
+        "attacker": "US",
+        "target": "RU",
+        "type": "infrastructure",
+        "severity": "high",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "BY",
+        "type": "espionage",
+        "severity": "high",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "BY",
+        "target": "RU",
+        "type": "espionage",
+        "severity": "medium",
+        "infrastructure_affected": "none"
+      },
+      {
+        "attacker": "HU",
+        "target": "HU",
+        "type": "espionage",
+        "severity": "high",
+        "infrastructure_affected": "comms"
+      }
+    ],
+    "infrastructure_status": {
+      "LT": {
+        "power_grid": 8,
+        "comms": 8,
+        "financial": 9,
+        "military_c2": 8
+      },
+      "PL": {
+        "power_grid": 9,
+        "comms": 9,
+        "financial": 9,
+        "military_c2": 8
+      },
+      "EE": {
+        "power_grid": 8,
+        "comms": 9,
+        "financial": 9,
+        "military_c2": 9
+      }
+    },
+    "recent_events": [
+      "Russia offers limited IAEA inspection of Kaliningrad nuclear inventory before Istanbul II",
+      "Gazprom prepares 15% EU gas restoration — first deliveries within 48 hours",
+      "European Three (UK-FR-DE) coordinate joint demand for Istanbul II representation",
+      "First CJCS-Gerasimov military hotline call scheduled for Day 16",
+      "IAEA inspection team confirmed arriving Belarus Day 17",
+      "Germany announces EUR 8B emergency defense supplemental",
+      "France activates ESAF as European-led security architecture framework",
+      "US launches F-35 reinstatement process for Turkey",
+      "Orban prepares three-pronged confidence vote strategy for Day 16",
+      "Wang Yi delivers Five-Point Framework address in Berlin",
+      "Oil drops to $80.50 — lowest since pre-crisis on summit and gas optimism",
+      "Poland continues Shield East fortification acceleration"
+    ],
+    "media_headlines": [
+      "RUSSIA OPENS DOOR: Putin Offers Nuclear Transparency at Kaliningrad Before Summit",
+      "GAS FLOWS AGAIN: Russia to Restore 15% of EU Supply as Good-Faith Gesture",
+      "EUROPE DEMANDS SEAT: Macron, Starmer, Merz Unite Against US-Russia Bilateral",
+      "IAEA TEAM EN ROUTE: Nuclear Inspectors to Arrive Belarus Day 17"
+    ],
+    "_nuclear_penalty_applied": [],
+    "_oil_penalty_last_threshold": 120.0,
+    "_gas_sanction_count_applied": 0,
+    "_gm_set_nuclear_this_round": [
+      "GB",
+      "RU",
+      "FR",
+      "US"
+    ]
+  }
+}

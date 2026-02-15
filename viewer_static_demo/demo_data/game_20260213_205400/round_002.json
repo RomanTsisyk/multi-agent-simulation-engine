@@ -1,0 +1,1557 @@
+{
+  "round": 2,
+  "runner": "claude-code",
+  "briefing": "SITUATION BRIEFING — Day 2, 06:00 CET\n\nThe Suwalki corridor remains contested after 24 hours of crisis. Russian forces hold the northern 25km from Kaliningrad, with VDV airborne troops dug in at key road junctions despite a partially successful helicopter resupply (3 of 5 helicopters got through, 2 shot down). Poland's 16th Mechanized Division holds firm at the southern end with US eFP support. Limited HIMARS strikes hit Russian supply points but GPS jamming degrades accuracy. Russia retaliated with Iskander-K cruise missiles hitting a Polish fuel depot near Augustów (3 civilian casualties). Two BTGs from Russia's Western Military District are transiting through Belarus and will reach the border area within hours — this reinforcement could tip the corridor balance.\n\nThe diplomatic landscape has shifted dramatically overnight. Turkey has offered to drop its Article 5 objection in exchange for F-35 program reinstatement — the US is negotiating a deal involving Turkey surrendering its S-400 to US custody at Incirlik. If concluded, this removes the last major obstacle to full NATO Article 5 consensus (Hungary remains opposed but is increasingly isolated). Germany's Bundestag authorized defensive combat operations by 512-98 after Chancellor Merz's historic address honoring 14 fallen soldiers. German war support surged from 22% to 42%. Patriot batteries are deploying to Poland and Lithuania.\n\nNorway reports three Severodvinsk-class submarines have departed the Kola Peninsula — two tracked in the Norwegian Sea, ONE UNACCOUNTED FOR. This submarine could carry Kalibr cruise missiles capable of striking NATO targets across Northern Europe. NATO maritime forces are on maximum ASW alert.\n\nRussia offered Germany a 'technical ceasefire' through back-channels, framing the Iskander on Polish soil as a malfunction. Berlin has not responded. Finland has offered artillery battalions and MLRS to NATO, and Sweden's Gripen fleet and submarines are fully activated in the Baltic. The Baltic states are mobilizing everything they have — Lithuania has established a Nemunas River defense line with territorial defense forces.\n\nThe next 12 hours will determine whether NATO can achieve full Article 5 consensus and whether Russia's reinforcement column reaches the corridor before NATO establishes air superiority.",
+  "narrative": "The twelve hours between 18:00 and 06:00 CET were defined not by the battlefield — where a tense stalemate held — but by the furious diplomatic activity that may reshape the crisis. On the ground, Russian forces attempted an audacious helicopter resupply of the beleaguered VDV airborne troops at Vištytis. Under cover of darkness, five Mi-8 transport helicopters flew nap-of-earth from Kaliningrad. Lithuanian territorial defense volunteers armed with Stinger missiles shot down two of the five; the remaining three delivered critical ammunition and anti-tank munitions before racing back. The VDV's supply situation improved marginally but remains precarious. Meanwhile, two BTGs from Russia's Western Military District began transiting through Belarus by rail and road, expected to reach the Lithuanian border by morning.\n\nPoland's 16th Mechanized Division conducted limited HIMARS strikes against Russian positions in the northern corridor, but Russian GPS jamming in the Suwałki region degraded accuracy — of six GMLRS rounds fired, only two hit their targets, destroying a Russian supply staging point. Russian forces retaliated with Iskander-K cruise missiles targeting Polish logistics near Augustów, damaging a fuel depot but causing no military casualties (three civilian truck drivers were wounded). Poland's 18th Mechanized Division completed its deployment to the Ełk-Augustów sector as operational reserve.\n\nThe night's most significant developments were diplomatic. In Ankara, President Erdogan held a dramatic press conference offering Turkey's support for Article 5 in exchange for F-35 reinstatement, CAATSA sanctions relief, and a NATO commitment on PKK threats. He simultaneously proposed Istanbul ceasefire talks. In Washington, the Trump NSC engaged in frantic back-channel negotiations — the President's instinct for deal-making aligned with Erdogan's demands. By 03:00 CET, a tentative framework emerged: Turkey would transfer its S-400 system to US custody at Incirlik, the US would fast-track F-35 program reinstatement review, and Turkey would drop its Article 5 objections. Congress was not consulted.\n\nIn Berlin, Chancellor Merz delivered the most consequential address to the Bundestag since reunification. Speaking before the flag-draped photographs of fourteen fallen German soldiers, he declared: 'Germany will not abandon its soldiers. Germany will not abandon its allies. Zeitenwende is no longer a promise — it is a reality written in German blood.' The Bundestag authorized defensive combat operations by a 512-to-98 vote, the largest security mandate in postwar German history. Patriot air defense batteries were ordered to Poland and Lithuania immediately. German war support jumped from 22% to 42% overnight — grief transformed into resolve.\n\nNorwegian intelligence delivered an alarming warning to NATO: three Severodvinsk-class nuclear attack submarines had departed the Kola Peninsula. Two were tracked in the Norwegian Sea; one was unaccounted for. SACEUR ordered all NATO naval forces to maximum ASW alert. The missing submarine — potentially carrying Kalibr cruise missiles — added a new dimension of threat to the already volatile situation.",
+  "country_decisions": [
+    {
+      "country": "PL",
+      "actions": [
+        "16th Mech Div holds at Suwałki with HIMARS strikes, no counterattack without air cover",
+        "18th Mech Div deploys to Ełk-Augustów as reserve",
+        "Formally invokes Article 5 citing Iskander impact on Polish soil",
+        "Establishes refugee corridors at Suwałki, Augustów, Sejny"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "US",
+          "channel": "private",
+          "message": "Article 5 invoked. Need V Corps committed and USAF to suppress S-400 within 48 hours."
+        },
+        {
+          "to": "DE",
+          "channel": "private",
+          "message": "Germany must support Article 5. Zeitenwende must become real."
+        },
+        {
+          "to": "HU",
+          "channel": "public",
+          "message": "Hungary's blocking of Article 5 while NATO territory is under attack will be remembered."
+        }
+      ]
+    },
+    {
+      "country": "LT",
+      "actions": [
+        "Total mobilization, territorial defense along Nemunas River line",
+        "KASP volunteers deployed with Stingers — shot down 2 Russian helicopters",
+        "Government evacuation protocols to Klaipėda activated",
+        "Requested NATO emergency airlift of anti-tank and air defense weapons"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "NATO",
+          "channel": "public",
+          "message": "Lithuania invokes Article 5. We are under armed attack. Every hour of delay costs Lithuanian lives."
+        }
+      ]
+    },
+    {
+      "country": "LV",
+      "actions": [
+        "Deployed Mechanized Infantry Brigade to Belarus border (Daugavpils-Rezekne)",
+        "National Guard activated for refugee processing and Russian minority monitoring",
+        "Counter-disinformation campaign launched in Latgale region"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "EE",
+      "actions": [
+        "1st Infantry Brigade reinforces Narva border sector",
+        "Kaitseliit 15,000 reserves activated for territorial defense",
+        "CCDCOE launches offensive cyber ops targeting Russian C2 and S-400 networks",
+        "Coordinating Baltic Sea security with Finland and Sweden"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "GB",
+          "channel": "private",
+          "message": "UK eFP must move to forward Narva positions — Russians may strike within 24-48 hours."
+        }
+      ]
+    },
+    {
+      "country": "US",
+      "actions": [
+        "Supports Article 5 with burden-sharing conditions on spending",
+        "Authorizes limited SEAD if S-400 engages NATO aircraft",
+        "V Corps forward elements reinforce Polish 16th Mech at Suwałki",
+        "Negotiates F-35 deal with Turkey to unlock Article 5 consensus"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "RU",
+          "channel": "backchannel",
+          "message": "Iskander on Polish soil crossed a red line. Withdraw within 48 hours or face full NATO response."
+        },
+        {
+          "to": "TR",
+          "channel": "private",
+          "message": "Fast-track F-35 review after crisis in exchange for Article 5 support now."
+        }
+      ]
+    },
+    {
+      "country": "GB",
+      "actions": [
+        "Carrier group positioned in southern Baltic outside S-400 range",
+        "Royal Marines reinforcing eFP Estonia",
+        "Coordinating SEAD with Storm Shadow capability",
+        "JEF meeting secures Nordic-Baltic commitment"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "FR",
+          "channel": "private",
+          "message": "Propose joint UK-FR nuclear signaling: coordinated SSBN patrol announcements."
+        }
+      ]
+    },
+    {
+      "country": "FR",
+      "actions": [
+        "Rafales on defensive counter-air over eastern Poland",
+        "Ground brigade deploying to northeast Poland",
+        "EU Article 42.7 activated at European Council",
+        "Macron delivers nuclear deterrence speech, confirms SSBN patrol"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "DE",
+          "channel": "private",
+          "message": "France and Germany must lead European resolve. Your soldiers' sacrifice must not be in vain."
+        }
+      ]
+    },
+    {
+      "country": "DE",
+      "actions": [
+        "Merz addresses Bundestag, honors 14 fallen — Bundestag authorizes defensive combat ops 512-98",
+        "Patriot batteries deploying to Poland and Lithuania",
+        "Opens all transit corridors for NATO reinforcement at maximum throughput",
+        "Pressures Turkey and Hungary through back-channels"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "NATO",
+          "channel": "public",
+          "message": "Germany supports Article 5. Those who block consensus betray the memory of our fallen."
+        }
+      ]
+    },
+    {
+      "country": "FI",
+      "actions": [
+        "Offers artillery battalions + MLRS for NATO fires plan",
+        "Shares comprehensive SIGINT on Russian forces",
+        "Full border defense posture, 280K mobilized",
+        "Hosts emergency NATO planning at MCLCC Northwest"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "NATO",
+          "channel": "public",
+          "message": "Finland has 280K troops mobilized. We did not join NATO for speeches. Tell us where you need fires."
+        }
+      ]
+    },
+    {
+      "country": "SE",
+      "actions": [
+        "Gotland-class submarines denying Russian Baltic Fleet freedom",
+        "Full Gripen fleet activated for Baltic air operations",
+        "Providing targeting data on S-400 from Gotland sensors",
+        "Gotland fortified as NATO forward operating base"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "NO",
+      "actions": [
+        "Tracks 3 Severodvinsk subs — warns 1 unaccounted for",
+        "F-35s and frigates patrolling GIUK gap",
+        "MCPP-N caves activated for US Marine reinforcements",
+        "Guarantees gas pipeline security for Europe"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "NATO",
+          "channel": "private",
+          "message": "Three Severodvinsk-class submarines departed Gadzhiyevo. Two located. One unaccounted for."
+        }
+      ]
+    },
+    {
+      "country": "DK",
+      "actions": [
+        "Straits fully locked with NSM batteries and mine barriers",
+        "Bornholm reinforced as central Baltic forward base",
+        "Uses UNSC seat to invoke Article 51"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "CA",
+      "actions": [
+        "Requests NATO reinforcement of Latvia eFP",
+        "Deploying additional infantry battalion from Petawawa",
+        "Offers to host NATO-Russia de-escalation track"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "NL",
+      "actions": [
+        "Rotterdam at maximum NATO logistics throughput",
+        "43rd Mechanized Brigade deploying through 1 GE/NL Corps",
+        "MIVD/AIVD activated for counter-hybrid operations"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "BE",
+      "actions": [
+        "NATO HQ and SHAPE at FPCON Delta",
+        "Facilitating 24/7 NAC sessions",
+        "Special Forces Group and minehunters at NATO disposal"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "HU",
+          "channel": "private",
+          "message": "Block consensus and every EU institution in Brussels remembers for a decade of budget negotiations."
+        }
+      ]
+    },
+    {
+      "country": "CZ",
+      "actions": [
+        "Transit corridors guaranteed, Host Nation Support active",
+        "Ammunition production at wartime tempo",
+        "4th Rapid Deployment Brigade on standby for SACEUR"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "RO",
+      "actions": [
+        "B9 summit demands immediate Article 5 response",
+        "F-16 patrols and Patriot defense on Black Sea flank",
+        "Monitoring Transnistria for horizontal escalation"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "NATO",
+          "channel": "public",
+          "message": "Every hour of delay strengthens Russia. The eastern flank demands action."
+        }
+      ]
+    },
+    {
+      "country": "RU",
+      "actions": [
+        "Western District 2 BTGs rushing through Belarus to reinforce corridor",
+        "Helicopter resupply to VDV (3 of 5 got through, 2 shot down)",
+        "GPS jamming in Suwałki region, Iskander-K strikes on Polish logistics",
+        "Deployed additional S-400 to Belarus border zone",
+        "Offers Germany 'technical ceasefire' through back-channel"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "DE",
+          "channel": "backchannel",
+          "message": "Russia open to technical ceasefire to prevent further accidents. Propose 48hr humanitarian pause."
+        },
+        {
+          "to": "CN",
+          "channel": "private",
+          "message": "If Taiwan Strait tensions escalate in 72-96 hours, NATO faces two-theater crisis."
+        }
+      ]
+    },
+    {
+      "country": "BY",
+      "actions": [
+        "Provides transit and staging for Russian forces, NOT crossing border",
+        "Internal security crackdown against opposition/BYPOL",
+        "Positions forces at border for show but no attack orders"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "US",
+          "channel": "backchannel",
+          "message": "I released your prisoners. I am keeping Belarusian soldiers out. Perhaps we can find mutual interest."
+        }
+      ]
+    },
+    {
+      "country": "TR",
+      "actions": [
+        "Offers conditional Article 5 support — demands F-35 reinstatement",
+        "Proposes Istanbul ceasefire talks",
+        "Offers S-400 transfer to US custody at Incirlik as gesture"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "US",
+          "channel": "private",
+          "message": "S-400s to US custody at Incirlik. Reinstate F-35 program. Article 5 consensus unlocked. Make the deal."
+        }
+      ]
+    },
+    {
+      "country": "HU",
+      "actions": [
+        "Continues blocking Article 5, demands ceasefire talks",
+        "Refuses airspace for offensive operations",
+        "Weaponizes crisis for April 12 election — 'only Orbán keeps Hungary out of war'"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "RU",
+          "channel": "private",
+          "message": "Need a gesture from Moscow — ceasefire proposal to justify continued blocking."
+        }
+      ]
+    },
+    {
+      "country": "CN",
+      "actions": [
+        "Issues ambiguous statement calling for restraint",
+        "Maximum intelligence collection on NATO operations for Taiwan planning",
+        "Quietly increases economic support to Russia via energy purchases",
+        "Warns US against secondary sanctions on Chinese entities"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "RU",
+          "channel": "private",
+          "message": "Support continues. But if you escalate to nuclear use, you unite the world against revisionism and China cannot be associated."
+        }
+      ]
+    }
+  ],
+  "resolution": {
+    "narrative": "The twelve hours between 18:00 and 06:00 CET were defined not by the battlefield — where a tense stalemate held — but by the furious diplomatic activity that may reshape the crisis. On the ground, Russian forces attempted an audacious helicopter resupply of the beleaguered VDV airborne troops at Vištytis. Under cover of darkness, five Mi-8 transport helicopters flew nap-of-earth from Kaliningrad. Lithuanian territorial defense volunteers armed with Stinger missiles shot down two of the five; the remaining three delivered critical ammunition and anti-tank munitions before racing back. The VDV's supply situation improved marginally but remains precarious. Meanwhile, two BTGs from Russia's Western Military District began transiting through Belarus by rail and road, expected to reach the Lithuanian border by morning.\n\nPoland's 16th Mechanized Division conducted limited HIMARS strikes against Russian positions in the northern corridor, but Russian GPS jamming in the Suwałki region degraded accuracy — of six GMLRS rounds fired, only two hit their targets, destroying a Russian supply staging point. Russian forces retaliated with Iskander-K cruise missiles targeting Polish logistics near Augustów, damaging a fuel depot but causing no military casualties (three civilian truck drivers were wounded). Poland's 18th Mechanized Division completed its deployment to the Ełk-Augustów sector as operational reserve.\n\nThe night's most significant developments were diplomatic. In Ankara, President Erdogan held a dramatic press conference offering Turkey's support for Article 5 in exchange for F-35 reinstatement, CAATSA sanctions relief, and a NATO commitment on PKK threats. He simultaneously proposed Istanbul ceasefire talks. In Washington, the Trump NSC engaged in frantic back-channel negotiations — the President's instinct for deal-making aligned with Erdogan's demands. By 03:00 CET, a tentative framework emerged: Turkey would transfer its S-400 system to US custody at Incirlik, the US would fast-track F-35 program reinstatement review, and Turkey would drop its Article 5 objections. Congress was not consulted.\n\nIn Berlin, Chancellor Merz delivered the most consequential address to the Bundestag since reunification. Speaking before the flag-draped photographs of fourteen fallen German soldiers, he declared: 'Germany will not abandon its soldiers. Germany will not abandon its allies. Zeitenwende is no longer a promise — it is a reality written in German blood.' The Bundestag authorized defensive combat operations by a 512-to-98 vote, the largest security mandate in postwar German history. Patriot air defense batteries were ordered to Poland and Lithuania immediately. German war support jumped from 22% to 42% overnight — grief transformed into resolve.\n\nNorwegian intelligence delivered an alarming warning to NATO: three Severodvinsk-class nuclear attack submarines had departed the Kola Peninsula. Two were tracked in the Norwegian Sea; one was unaccounted for. SACEUR ordered all NATO naval forces to maximum ASW alert. The missing submarine — potentially carrying Kalibr cruise missiles — added a new dimension of threat to the already volatile situation.",
+    "world_state_updates": {
+      "game_time": "Day 2, 06:00 CET",
+      "military_units_add": [
+        {
+          "name": "polish_18th_division",
+          "country": "PL",
+          "type": "ground",
+          "location": "Ełk-Augustów sector, operational reserve",
+          "readiness": 7,
+          "strength": 6,
+          "supply_level": 10,
+          "morale": 8,
+          "casualties": 0
+        },
+        {
+          "name": "french_ground_brigade",
+          "country": "FR",
+          "type": "ground",
+          "location": "Northeast Poland, en route to Suwałki area",
+          "readiness": 6,
+          "strength": 5,
+          "supply_level": 10,
+          "morale": 7,
+          "casualties": 0
+        },
+        {
+          "name": "finnish_artillery",
+          "country": "FI",
+          "type": "ground",
+          "location": "Finland, preparing for deployment to Baltic theater",
+          "readiness": 7,
+          "strength": 4,
+          "supply_level": 10,
+          "morale": 8,
+          "casualties": 0
+        },
+        {
+          "name": "dutch_43rd_brigade",
+          "country": "NL",
+          "type": "ground",
+          "location": "Germany, deploying east through 1 GE/NL Corps",
+          "readiness": 6,
+          "strength": 5,
+          "supply_level": 10,
+          "morale": 7,
+          "casualties": 0
+        },
+        {
+          "name": "german_patriot_battery",
+          "country": "DE",
+          "type": "air",
+          "location": "Deploying to Poland and Lithuania",
+          "readiness": 6,
+          "strength": 4,
+          "supply_level": 10,
+          "morale": 6,
+          "casualties": 0
+        },
+        {
+          "name": "russian_reinforcement_column",
+          "country": "RU",
+          "type": "ground",
+          "location": "Belarus, transiting toward Lithuanian border",
+          "readiness": 7,
+          "strength": 7,
+          "supply_level": 10,
+          "morale": 7,
+          "casualties": 0
+        }
+      ],
+      "military_units_remove": [],
+      "military_units_update": [
+        {
+          "name": "russian_kaliningrad_forces",
+          "location": "Suwalki Corridor, northern sector - consolidated",
+          "readiness": 7,
+          "strength": 6,
+          "casualties": 3,
+          "supply_level": 7,
+          "morale": 7
+        },
+        {
+          "name": "russian_vdv_airborne",
+          "location": "Suwalki Corridor, Vištytis-Mockava - dug in",
+          "readiness": 7,
+          "strength": 5,
+          "casualties": 1,
+          "supply_level": 7,
+          "morale": 7
+        },
+        {
+          "name": "russian_western_district",
+          "location": "Belarus transit corridor, approaching Lithuanian border",
+          "readiness": 7,
+          "strength": 7,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 7
+        },
+        {
+          "name": "belarus_forces",
+          "location": "Belarus-Lithuania border, defensive positions",
+          "readiness": 6,
+          "strength": 4,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 4
+        },
+        {
+          "name": "nato_efp_lithuania",
+          "location": "Kaunas-Nemunas River line, supporting Lithuanian territorial defense",
+          "readiness": 5,
+          "strength": 2,
+          "casualties": 3,
+          "supply_level": 6,
+          "morale": 4
+        },
+        {
+          "name": "nato_efp_latvia",
+          "location": "Latvia, forward positions near Belarus border",
+          "readiness": 8,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 7
+        },
+        {
+          "name": "nato_efp_estonia",
+          "location": "Estonia, reinforced positions at Narva",
+          "readiness": 9,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 8
+        },
+        {
+          "name": "nato_efp_poland",
+          "location": "Suwałki, forward defensive positions",
+          "readiness": 8,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 9,
+          "morale": 7
+        },
+        {
+          "name": "us_forces_poland",
+          "location": "Suwałki area, V Corps forward elements deployed",
+          "readiness": 9,
+          "strength": 7,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 8
+        },
+        {
+          "name": "polish_forces",
+          "location": "Suwałki Gap, southern blocking position - conducting HIMARS strikes",
+          "readiness": 8,
+          "strength": 7,
+          "casualties": 0,
+          "supply_level": 8,
+          "morale": 8
+        },
+        {
+          "name": "finnish_forces",
+          "location": "Finland, 280K reserves mobilized, border fully defended",
+          "readiness": 8,
+          "strength": 8,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 8
+        },
+        {
+          "name": "uk_carrier_group",
+          "location": "Southern Baltic Sea, 200km west of Kaliningrad",
+          "readiness": 8,
+          "strength": 6,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 8
+        },
+        {
+          "name": "french_rafale_squadron",
+          "location": "Łask Air Base, defensive counter-air patrols over eastern Poland",
+          "readiness": 8,
+          "strength": 4,
+          "casualties": 0,
+          "supply_level": 9,
+          "morale": 7
+        },
+        {
+          "name": "us_f35_squadron",
+          "location": "Łask Air Base, ISR and SEAD planning",
+          "readiness": 9,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 8
+        },
+        {
+          "name": "swedish_gotland_garrison",
+          "location": "Gotland Island, fully fortified",
+          "readiness": 8,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 8
+        },
+        {
+          "name": "danish_strait_defense",
+          "location": "Danish Straits, fully locked down with NSM batteries and mines",
+          "readiness": 8,
+          "strength": 4,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 7
+        }
+      ],
+      "military_alerts": {
+        "russian_kaliningrad_forces": "Consolidated northern corridor, supply dropping, helicopter resupply partially successful",
+        "russian_vdv_airborne": "Dug in at road junctions, received partial resupply, 2 helicopters shot down",
+        "russian_reinforcement_column": "2 BTGs transiting Belarus, ETA Lithuanian border 12 hours",
+        "russian_western_district": "Approaching via Belarus rail/road, will reinforce corridor",
+        "belarus_forces": "Defensive posture only, providing transit to Russian forces, NOT crossing border",
+        "nato_efp_lithuania": "Supporting Lithuanian Nemunas River defense line, very low strength",
+        "polish_forces": "HIMARS strikes on Russian positions, GPS jamming degrading accuracy",
+        "us_forces_poland": "V Corps forward elements at Suwałki, coordinating SEAD planning",
+        "uk_carrier_group": "In Baltic, outside S-400 range, planning Storm Shadow SEAD strikes",
+        "finnish_forces": "Offering artillery + MLRS to NATO, border fully defended",
+        "german_patriot_battery": "Deploying to Poland/Lithuania, ETA 12-18 hours",
+        "norwegian_warning": "3 Severodvinsk subs departed Kola - 2 tracked, 1 UNACCOUNTED FOR"
+      },
+      "markets": {
+        "oil_price": 112.0,
+        "euro_usd": 1.03
+      },
+      "sanctions_add": [
+        {
+          "from": "EU",
+          "target": "BY",
+          "type": "Full EU sanctions on Belarus for providing staging territory to Russian forces"
+        },
+        {
+          "from": "US",
+          "target": "RU",
+          "type": "Secondary sanctions warning on entities facilitating Russian military procurement"
+        }
+      ],
+      "trade_disruptions_add": [
+        {
+          "route": "Polish logistics near Augustów",
+          "severity": "medium",
+          "description": "Fuel depot damaged by Iskander-K strike, rerouting required"
+        }
+      ],
+      "diplomatic_relations": {
+        "TR": {
+          "US": 4,
+          "RU": -1,
+          "HU": 2
+        },
+        "US": {
+          "TR": 4,
+          "DE": 5,
+          "PL": 9
+        },
+        "DE": {
+          "RU": -8,
+          "PL": 7,
+          "US": 5,
+          "FR": 8
+        },
+        "PL": {
+          "US": 9,
+          "DE": 7,
+          "LT": 10,
+          "HU": -3
+        },
+        "HU": {
+          "PL": -3,
+          "US": -3,
+          "RU": 0
+        }
+      },
+      "treaties_invoked_add": [
+        {
+          "treaty": "NATO Article 5",
+          "invoked_by": "PL",
+          "status": "invoked, consensus pending Turkey/Hungary"
+        },
+        {
+          "treaty": "EU Article 42.7",
+          "invoked_by": "FR",
+          "status": "activated by European Council majority"
+        }
+      ],
+      "un_resolutions_add": [],
+      "nato_alert_level": "article5",
+      "nato_consensus": {
+        "PL": "Article 5 invoked, leading ground defense",
+        "LT": "Article 5 invoked, total mobilization",
+        "LV": "full support, reinforcing Belarus border",
+        "EE": "full support, reinforcing Narva",
+        "US": "supports Article 5 with burden-sharing conditions, SEAD authorized if engaged",
+        "GB": "strongly supports, carrier in Baltic, SEAD planning",
+        "FR": "supports, EU Art 42.7 activated, ground brigade deploying",
+        "DE": "NOW SUPPORTS defensive operations - Bundestag 512-98 vote",
+        "FI": "full support, offering artillery + MLRS",
+        "SE": "full support, Gripens and submarines active",
+        "NO": "full support, submarine warning issued",
+        "DK": "full support, Straits locked, Bornholm reinforced",
+        "CA": "full support, reinforcing Latvia",
+        "NL": "full support, 43rd Brigade deploying",
+        "BE": "full support, NATO HQ FPCON Delta",
+        "CZ": "full support, transit corridors open, ammunition flowing",
+        "RO": "full support, B9 unified, Black Sea readiness raised",
+        "TR": "CONDITIONAL support - F-35 deal in negotiation, may drop objection within 24h",
+        "HU": "still blocking, increasingly isolated (29 vs 1)"
+      },
+      "nuclear_posture": {
+        "RU": "dispersal",
+        "US": "elevated",
+        "GB": "elevated",
+        "FR": "elevated"
+      },
+      "nuclear_detonations_add": [],
+      "public_opinion": {
+        "PL": {
+          "war_support": 78,
+          "government_approval": 72
+        },
+        "LT": {
+          "war_support": 88,
+          "government_approval": 75
+        },
+        "LV": {
+          "war_support": 72,
+          "government_approval": 66
+        },
+        "EE": {
+          "war_support": 74,
+          "government_approval": 68
+        },
+        "US": {
+          "war_support": 38,
+          "government_approval": 47
+        },
+        "GB": {
+          "war_support": 55,
+          "government_approval": 52
+        },
+        "FR": {
+          "war_support": 40,
+          "government_approval": 43
+        },
+        "DE": {
+          "war_support": 42,
+          "government_approval": 48
+        },
+        "FI": {
+          "war_support": 65,
+          "government_approval": 68
+        },
+        "SE": {
+          "war_support": 52,
+          "government_approval": 57
+        },
+        "NO": {
+          "war_support": 50,
+          "government_approval": 60
+        },
+        "DK": {
+          "war_support": 47,
+          "government_approval": 54
+        },
+        "CA": {
+          "war_support": 33,
+          "government_approval": 47
+        },
+        "NL": {
+          "war_support": 40,
+          "government_approval": 50
+        },
+        "BE": {
+          "war_support": 32,
+          "government_approval": 46
+        },
+        "CZ": {
+          "war_support": 43,
+          "government_approval": 52
+        },
+        "RO": {
+          "war_support": 48,
+          "government_approval": 54
+        },
+        "TR": {
+          "war_support": 18,
+          "government_approval": 57
+        },
+        "HU": {
+          "war_support": 10,
+          "government_approval": 45
+        },
+        "RU": {
+          "war_support": 62,
+          "government_approval": 68
+        },
+        "BY": {
+          "war_support": 15,
+          "government_approval": 30
+        },
+        "CN": {
+          "war_support": 5,
+          "government_approval": 71
+        }
+      },
+      "refugee_flows_add": [
+        {
+          "from": "LT",
+          "to": "PL",
+          "count": 12000,
+          "status": "fleeing"
+        },
+        {
+          "from": "LT",
+          "to": "LV",
+          "count": 6000,
+          "status": "fleeing"
+        }
+      ],
+      "humanitarian_crisis_level": {
+        "LT": 7,
+        "PL": 4
+      },
+      "cyber_operations_add": [
+        {
+          "attacker": "RU",
+          "target": "PL",
+          "type": "infrastructure",
+          "severity": "high",
+          "infrastructure_affected": "military_c2"
+        },
+        {
+          "attacker": "RU",
+          "target": "PL",
+          "type": "espionage",
+          "severity": "medium",
+          "infrastructure_affected": "none"
+        },
+        {
+          "attacker": "RU",
+          "target": "LT",
+          "type": "infrastructure",
+          "severity": "high",
+          "infrastructure_affected": "power_grid"
+        },
+        {
+          "attacker": "EE",
+          "target": "RU",
+          "type": "infrastructure",
+          "severity": "medium",
+          "infrastructure_affected": "military_c2"
+        },
+        {
+          "attacker": "SE",
+          "target": "RU",
+          "type": "espionage",
+          "severity": "medium",
+          "infrastructure_affected": "none"
+        }
+      ],
+      "infrastructure_status": {
+        "LT": {
+          "power_grid": 6,
+          "comms": 4,
+          "financial": 7,
+          "military_c2": 5
+        },
+        "PL": {
+          "power_grid": 9,
+          "comms": 7,
+          "financial": 9,
+          "military_c2": 7
+        }
+      },
+      "corridor_control": "contested",
+      "recent_events": [
+        "Russian helicopter resupply: 3 of 5 Mi-8s reach VDV, 2 shot down by Lithuanian Stingers",
+        "Polish HIMARS strikes hit Russian supply point but GPS jamming degrades accuracy",
+        "Russia retaliates with Iskander-K cruise missiles on Polish fuel depot near Augustów — 3 civilian casualties",
+        "Russian Western District 2 BTGs transiting through Belarus toward Lithuanian border",
+        "Turkey offers conditional Article 5 support: F-35 deal in exchange",
+        "US-Turkey backchannel: tentative S-400-for-F-35 framework emerging",
+        "German Bundestag authorizes defensive combat operations 512-98 after Merz historic address",
+        "German war support surges from 22% to 42% — 'Zeitenwende written in blood'",
+        "German Patriot batteries deploying to Poland and Lithuania",
+        "Norway warns: 3 Severodvinsk subs left Kola, 1 unaccounted for",
+        "Lithuania establishes Nemunas River defense line with territorial defense forces",
+        "France deploys ground brigade to northeast Poland, Macron delivers nuclear deterrence speech",
+        "Sweden activates full Gripen fleet and submarines for Baltic operations",
+        "Finland offers artillery battalions and MLRS to NATO for Suwalki defense",
+        "EU activates Article 42.7 mutual defense clause by majority vote",
+        "Hungary increasingly isolated — 29 NATO members now support Article 5 action"
+      ],
+      "media_headlines": [
+        "NIGHT OF FIRE: Russian missiles strike Polish fuel depot, Lithuanian volunteers shoot down 2 helicopters",
+        "Merz to Bundestag: 'Zeitenwende written in German blood' — historic 512-98 defense vote",
+        "Turkey's Erdogan offers deal: S-400 for F-35s, unlocking NATO Article 5 consensus",
+        "ALARM: Three Russian nuclear submarines leave port — one missing in Atlantic",
+        "Lithuania's volunteers fight back: Stinger missiles down Russian resupply helicopters",
+        "Macron: 'France's nuclear deterrent covers our European allies' — SSBN on patrol confirmed"
+      ],
+      "round_number": 2
+    },
+    "events": [
+      "Lithuanian territorial defense volunteers shoot down 2 Russian Mi-8 helicopters with Stinger missiles",
+      "Russia strikes Polish fuel depot with Iskander-K — 3 civilian casualties, first Russian strike on Polish infrastructure",
+      "German Bundestag authorizes defensive combat operations 512-98 — largest security mandate since reunification",
+      "German war support surges from 22% to 42% after Merz 'Zeitenwende in blood' address",
+      "Turkey offers S-400-for-F-35 swap to unlock Article 5 consensus — US negotiating",
+      "Norway warns NATO: Severodvinsk submarine unaccounted for in Atlantic",
+      "EU activates Article 42.7 mutual defense clause",
+      "Russian 2 BTGs transiting Belarus to reinforce corridor — race against NATO force generation",
+      "French brigade deploying to Poland, Macron confirms nuclear deterrent covers allies",
+      "Polish HIMARS engage Russian positions — GPS jamming degrades accuracy",
+      "Finland offers NATO its artillery and MLRS — largest artillery park in Western Europe",
+      "Sweden's submarines and Gripens fully activated for Baltic denial"
+    ],
+    "headlines": [
+      "NIGHT OF FIRE: Russian missiles strike Poland, Lithuanian volunteers shoot down helicopters",
+      "Merz to Bundestag: 'Zeitenwende written in German blood' — historic 512-98 vote",
+      "Turkey's deal: S-400 for F-35s could unlock NATO Article 5",
+      "ALARM: Russian nuclear submarine missing in Atlantic",
+      "Macron: 'France's nuclear deterrent covers our European allies'",
+      "Race against time: Russian reinforcements heading through Belarus as NATO masses forces"
+    ],
+    "surprises": [
+      "A Belarusian army lieutenant colonel in the 6th Guards Mechanized Brigade sends encrypted intelligence to BYPOL (the Belarusian opposition police network) detailing Russian force movements through Belarus, including unit designations, timing, and route. This intelligence reaches NATO via Polish intelligence within 3 hours, giving SACEUR precise data on the reinforcement column. The lieutenant colonel is not detected — Lukashenko's crackdown missed him.",
+      "Russia's GPS jamming in the Suwałki region unexpectedly disrupts Russian forces' own GLONASS-dependent logistics coordination for 2 hours when the jamming frequency overlaps with GLONASS bands. Russian supply trucks take wrong turns and a fuel convoy intended for the VDV is delayed by 4 hours — a critical failure when VDV supply is already dangerously low."
+    ]
+  },
+  "world_state_after": {
+    "round_number": 2,
+    "game_time": "Day 2, 06:00 CET",
+    "military_units": [
+      {
+        "name": "russian_kaliningrad_forces",
+        "country": "RU",
+        "type": "ground",
+        "location": "Suwalki Corridor, northern sector - consolidated",
+        "readiness": 7,
+        "strength": 6,
+        "casualties": 3,
+        "supply_level": 7,
+        "morale": 7,
+        "_last_casualty_morale_applied": 1,
+        "_last_casualty_strength_applied": 1
+      },
+      {
+        "name": "russian_western_district",
+        "country": "RU",
+        "type": "ground",
+        "location": "Belarus transit corridor, approaching Lithuanian border",
+        "readiness": 7,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "belarus_forces",
+        "country": "BY",
+        "type": "ground",
+        "location": "Belarus-Lithuania border, defensive positions",
+        "readiness": 6,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 4,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_lithuania",
+        "country": "DE",
+        "type": "ground",
+        "location": "Kaunas-Nemunas River line, supporting Lithuanian territorial defense",
+        "readiness": 5,
+        "strength": 2,
+        "casualties": 3,
+        "supply_level": 6,
+        "morale": 4,
+        "_last_casualty_morale_applied": 1,
+        "_last_casualty_strength_applied": 1
+      },
+      {
+        "name": "nato_efp_latvia",
+        "country": "CA",
+        "type": "ground",
+        "location": "Latvia, forward positions near Belarus border",
+        "readiness": 8,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_estonia",
+        "country": "GB",
+        "type": "ground",
+        "location": "Estonia, reinforced positions at Narva",
+        "readiness": 9,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "Suwałki, forward defensive positions",
+        "readiness": 8,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "us_forces_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "Suwałki area, V Corps forward elements deployed",
+        "readiness": 9,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "polish_forces",
+        "country": "PL",
+        "type": "ground",
+        "location": "Suwałki Gap, southern blocking position - conducting HIMARS strikes",
+        "readiness": 8,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 8,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "finnish_forces",
+        "country": "FI",
+        "type": "ground",
+        "location": "Finland, 280K reserves mobilized, border fully defended",
+        "readiness": 8,
+        "strength": 8,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "uk_carrier_group",
+        "country": "GB",
+        "type": "naval",
+        "location": "Southern Baltic Sea, 200km west of Kaliningrad",
+        "readiness": 8,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "french_rafale_squadron",
+        "country": "FR",
+        "type": "air",
+        "location": "Łask Air Base, defensive counter-air patrols over eastern Poland",
+        "readiness": 8,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "us_f35_squadron",
+        "country": "US",
+        "type": "air",
+        "location": "Łask Air Base, ISR and SEAD planning",
+        "readiness": 9,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "russian_vdv_airborne",
+        "country": "RU",
+        "type": "ground",
+        "location": "Suwalki Corridor, Vištytis-Mockava - dug in",
+        "readiness": 7,
+        "strength": 5,
+        "casualties": 1,
+        "supply_level": 7,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "swedish_gotland_garrison",
+        "country": "SE",
+        "type": "ground",
+        "location": "Gotland Island, fully fortified",
+        "readiness": 8,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "danish_strait_defense",
+        "country": "DK",
+        "type": "naval",
+        "location": "Danish Straits, fully locked down with NSM batteries and mines",
+        "readiness": 8,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "polish_18th_division",
+        "country": "PL",
+        "type": "ground",
+        "location": "Ełk-Augustów sector, operational reserve",
+        "readiness": 7,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "french_ground_brigade",
+        "country": "FR",
+        "type": "ground",
+        "location": "Northeast Poland, en route to Suwałki area",
+        "readiness": 6,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "finnish_artillery",
+        "country": "FI",
+        "type": "ground",
+        "location": "Finland, preparing for deployment to Baltic theater",
+        "readiness": 7,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "dutch_43rd_brigade",
+        "country": "NL",
+        "type": "ground",
+        "location": "Germany, deploying east through 1 GE/NL Corps",
+        "readiness": 6,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "german_patriot_battery",
+        "country": "DE",
+        "type": "air",
+        "location": "Deploying to Poland and Lithuania",
+        "readiness": 6,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 6,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "russian_reinforcement_column",
+        "country": "RU",
+        "type": "ground",
+        "location": "Belarus, transiting toward Lithuanian border",
+        "readiness": 7,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      }
+    ],
+    "military_alerts": {
+      "russian_kaliningrad_forces": "Consolidated northern corridor, supply dropping, helicopter resupply partially successful",
+      "russian_western_district": "Approaching via Belarus rail/road, will reinforce corridor",
+      "belarus_forces": "Defensive posture only, providing transit to Russian forces, NOT crossing border",
+      "nato_efp_lithuania": "Supporting Lithuanian Nemunas River defense line, very low strength",
+      "nato_efp_latvia": "Canadian-led battlegroup (~1500 troops)",
+      "nato_efp_estonia": "UK-led battlegroup (~1200 troops)",
+      "nato_efp_poland": "US-led battlegroup (~1000 troops) + Polish forces",
+      "us_forces_poland": "V Corps forward elements at Suwałki, coordinating SEAD planning",
+      "polish_forces": "HIMARS strikes on Russian positions, GPS jamming degrading accuracy",
+      "finnish_forces": "Offering artillery + MLRS to NATO, border fully defended",
+      "russian_vdv_airborne": "Dug in at road junctions, received partial resupply, 2 helicopters shot down",
+      "russian_reinforcement_column": "2 BTGs transiting Belarus, ETA Lithuanian border 12 hours",
+      "uk_carrier_group": "In Baltic, outside S-400 range, planning Storm Shadow SEAD strikes",
+      "german_patriot_battery": "Deploying to Poland/Lithuania, ETA 12-18 hours",
+      "norwegian_warning": "3 Severodvinsk subs departed Kola - 2 tracked, 1 UNACCOUNTED FOR"
+    },
+    "markets": {
+      "oil_price": 112.0,
+      "euro_usd": 1.03,
+      "gas_price_eu": "elevated but stable",
+      "stock_indices": "nervous, -2% on reports"
+    },
+    "sanctions": [
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "Emergency SWIFT restrictions on additional Russian banks"
+      },
+      {
+        "from": "EU",
+        "target": "RU",
+        "type": "Emergency energy import reduction package"
+      },
+      {
+        "from": "GB",
+        "target": "RU",
+        "type": "Freezing of Russian sovereign assets in London"
+      },
+      {
+        "from": "US",
+        "target": "BY",
+        "type": "Full economic sanctions on Belarus for facilitating aggression"
+      },
+      {
+        "from": "EU",
+        "target": "BY",
+        "type": "Full EU sanctions on Belarus for providing staging territory to Russian forces"
+      },
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "Secondary sanctions warning on entities facilitating Russian military procurement"
+      }
+    ],
+    "trade_disruptions": [
+      "Commercial shipping rerouting from eastern Baltic",
+      "All land transit to/from Kaliningrad suspended",
+      "Main links through Suwalki corridor severed",
+      "Fuel depot damaged by Iskander-K strike, rerouting required"
+    ],
+    "diplomatic_relations": {
+      "PL": {
+        "RU": -10,
+        "BY": -8,
+        "US": 9,
+        "DE": 7,
+        "LT": 10,
+        "HU": -3
+      },
+      "LT": {
+        "RU": -10,
+        "BY": -9,
+        "PL": 9,
+        "US": 7,
+        "DE": 4
+      },
+      "US": {
+        "RU": -8,
+        "PL": 9,
+        "GB": 9,
+        "DE": 5,
+        "TR": 4,
+        "HU": -2
+      },
+      "RU": {
+        "US": -8,
+        "PL": -10,
+        "LT": -10,
+        "CN": 6,
+        "BY": 7,
+        "TR": 2
+      },
+      "DE": {
+        "RU": -8,
+        "PL": 7,
+        "FR": 8,
+        "US": 5
+      },
+      "GB": {
+        "RU": -8,
+        "PL": 7,
+        "US": 9,
+        "FR": 7
+      },
+      "FR": {
+        "RU": -6,
+        "PL": 6,
+        "US": 7,
+        "GB": 7,
+        "DE": 7
+      },
+      "TR": {
+        "RU": -1,
+        "US": 4,
+        "HU": 2
+      },
+      "HU": {
+        "RU": 0,
+        "US": -3,
+        "PL": -3
+      },
+      "CN": {
+        "RU": 5,
+        "US": -4
+      }
+    },
+    "treaties_invoked": [
+      "{'treaty': 'NATO Article 4', 'invoked_by': 'PL', 'status': 'consultation underway'}",
+      "{'treaty': 'EU Article 42.7', 'proposed_by': 'FR', 'status': 'under discussion'}",
+      "{'treaty': 'NATO Article 5', 'invoked_by': 'PL', 'status': 'invoked, consensus pending Turkey/Hungary'}",
+      "{'treaty': 'EU Article 42.7', 'invoked_by': 'FR', 'status': 'activated by European Council majority'}"
+    ],
+    "un_resolutions": [
+      "{'title': 'Emergency UNSC session on Lithuania crisis', 'status': 'blocked by RU and CN vetoes', 'votes': '13-2'}"
+    ],
+    "nato_alert_level": "article5",
+    "nato_consensus": {
+      "US": "supports Article 5 with burden-sharing conditions, SEAD authorized if engaged",
+      "PL": "Article 5 invoked, leading ground defense",
+      "LT": "Article 5 invoked, total mobilization",
+      "LV": "full support, reinforcing Belarus border",
+      "EE": "full support, reinforcing Narva",
+      "GB": "strongly supports, carrier in Baltic, SEAD planning",
+      "FR": "supports, EU Art 42.7 activated, ground brigade deploying",
+      "DE": "NOW SUPPORTS defensive operations - Bundestag 512-98 vote",
+      "FI": "full support, offering artillery + MLRS",
+      "SE": "full support, Gripens and submarines active",
+      "NO": "full support, submarine warning issued",
+      "DK": "full support, Straits locked, Bornholm reinforced",
+      "CA": "full support, reinforcing Latvia",
+      "NL": "full support, 43rd Brigade deploying",
+      "BE": "full support, NATO HQ FPCON Delta",
+      "CZ": "full support, transit corridors open, ammunition flowing",
+      "RO": "full support, B9 unified, Black Sea readiness raised",
+      "TR": "CONDITIONAL support - F-35 deal in negotiation, may drop objection within 24h",
+      "HU": "still blocking, increasingly isolated (29 vs 1)"
+    },
+    "corridor_control": "contested",
+    "nuclear_posture": {
+      "RU": "dispersal",
+      "US": "elevated",
+      "GB": "elevated",
+      "FR": "elevated"
+    },
+    "nuclear_detonations": [],
+    "public_opinion": {
+      "PL": {
+        "war_support": 78,
+        "government_approval": 72
+      },
+      "DE": {
+        "war_support": 42,
+        "government_approval": 48
+      },
+      "FR": {
+        "war_support": 40,
+        "government_approval": 43
+      },
+      "US": {
+        "war_support": 38,
+        "government_approval": 47
+      },
+      "GB": {
+        "war_support": 55,
+        "government_approval": 52
+      },
+      "LT": {
+        "war_support": 88,
+        "government_approval": 75
+      },
+      "LV": {
+        "war_support": 72,
+        "government_approval": 66
+      },
+      "EE": {
+        "war_support": 74,
+        "government_approval": 68
+      },
+      "FI": {
+        "war_support": 65,
+        "government_approval": 68
+      },
+      "SE": {
+        "war_support": 52,
+        "government_approval": 57
+      },
+      "NO": {
+        "war_support": 50,
+        "government_approval": 60
+      },
+      "DK": {
+        "war_support": 47,
+        "government_approval": 54
+      },
+      "CA": {
+        "war_support": 33,
+        "government_approval": 47
+      },
+      "NL": {
+        "war_support": 40,
+        "government_approval": 50
+      },
+      "BE": {
+        "war_support": 32,
+        "government_approval": 46
+      },
+      "CZ": {
+        "war_support": 43,
+        "government_approval": 52
+      },
+      "RO": {
+        "war_support": 48,
+        "government_approval": 54
+      },
+      "TR": {
+        "war_support": 18,
+        "government_approval": 57
+      },
+      "HU": {
+        "war_support": 10,
+        "government_approval": 45
+      },
+      "RU": {
+        "war_support": 62,
+        "government_approval": 68
+      },
+      "BY": {
+        "war_support": 15,
+        "government_approval": 30
+      },
+      "CN": {
+        "war_support": 5,
+        "government_approval": 71
+      }
+    },
+    "refugee_flows": [
+      {
+        "from": "LT",
+        "to": "PL",
+        "count": 15000,
+        "status": "fleeing"
+      },
+      {
+        "from": "LT",
+        "to": "LV",
+        "count": 8000,
+        "status": "fleeing"
+      }
+    ],
+    "humanitarian_crisis_level": {
+      "LT": 7,
+      "PL": 4
+    },
+    "cyber_operations": [
+      {
+        "attacker": "RU",
+        "target": "LT",
+        "type": "infrastructure",
+        "severity": "high",
+        "infrastructure_affected": "comms"
+      },
+      {
+        "attacker": "RU",
+        "target": "PL",
+        "type": "ddos",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "EE",
+        "type": "ddos",
+        "severity": "medium",
+        "infrastructure_affected": "financial"
+      },
+      {
+        "attacker": "RU",
+        "target": "DE",
+        "type": "malware",
+        "severity": "low",
+        "infrastructure_affected": "comms"
+      },
+      {
+        "attacker": "EE",
+        "target": "RU",
+        "type": "espionage",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "PL",
+        "type": "infrastructure",
+        "severity": "high",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "PL",
+        "type": "espionage",
+        "severity": "medium",
+        "infrastructure_affected": "none"
+      },
+      {
+        "attacker": "EE",
+        "target": "RU",
+        "type": "infrastructure",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "SE",
+        "target": "RU",
+        "type": "espionage",
+        "severity": "medium",
+        "infrastructure_affected": "none"
+      }
+    ],
+    "infrastructure_status": {
+      "LT": {
+        "power_grid": 6,
+        "comms": 4,
+        "financial": 7,
+        "military_c2": 5
+      },
+      "PL": {
+        "power_grid": 9,
+        "comms": 7,
+        "financial": 9,
+        "military_c2": 7
+      }
+    },
+    "recent_events": [
+      "Russian helicopter resupply: 3 of 5 Mi-8s reach VDV, 2 shot down by Lithuanian Stingers",
+      "Polish HIMARS strikes hit Russian supply point but GPS jamming degrades accuracy",
+      "Russia retaliates with Iskander-K cruise missiles on Polish fuel depot near Augustów — 3 civilian casualties",
+      "Russian Western District 2 BTGs transiting through Belarus toward Lithuanian border",
+      "Turkey offers conditional Article 5 support: F-35 deal in exchange",
+      "US-Turkey backchannel: tentative S-400-for-F-35 framework emerging",
+      "German Bundestag authorizes defensive combat operations 512-98 after Merz historic address",
+      "German war support surges from 22% to 42% — 'Zeitenwende written in blood'",
+      "German Patriot batteries deploying to Poland and Lithuania",
+      "Norway warns: 3 Severodvinsk subs left Kola, 1 unaccounted for",
+      "Lithuania establishes Nemunas River defense line with territorial defense forces",
+      "France deploys ground brigade to northeast Poland, Macron delivers nuclear deterrence speech",
+      "Sweden activates full Gripen fleet and submarines for Baltic operations",
+      "Finland offers artillery battalions and MLRS to NATO for Suwalki defense",
+      "EU activates Article 42.7 mutual defense clause by majority vote",
+      "Hungary increasingly isolated — 29 NATO members now support Article 5 action"
+    ],
+    "media_headlines": [
+      "NIGHT OF FIRE: Russian missiles strike Polish fuel depot, Lithuanian volunteers shoot down 2 helicopters",
+      "Merz to Bundestag: 'Zeitenwende written in German blood' — historic 512-98 defense vote",
+      "Turkey's Erdogan offers deal: S-400 for F-35s, unlocking NATO Article 5 consensus",
+      "ALARM: Three Russian nuclear submarines leave port — one missing in Atlantic",
+      "Lithuania's volunteers fight back: Stinger missiles down Russian resupply helicopters",
+      "Macron: 'France's nuclear deterrent covers our European allies' — SSBN on patrol confirmed"
+    ],
+    "_nuclear_penalty_applied": [],
+    "_oil_penalty_last_threshold": 0.0,
+    "_gas_sanction_count_applied": 0,
+    "_gm_set_nuclear_this_round": [
+      "US",
+      "RU",
+      "GB",
+      "FR"
+    ]
+  }
+}

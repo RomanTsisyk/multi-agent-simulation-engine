@@ -1,0 +1,1434 @@
+{
+  "round": 25,
+  "runner": "claude-code",
+  "briefing": "The Istanbul Framework Agreement is signed. The Suwalki Crisis, which began on Day 1 with Russian armored columns rolling through the Suwalki Gap and peaked with a nuclear near-miss, has produced instead a new European security architecture. The question now shifts from 'Can we reach a deal?' to 'Will it hold?'\n\nImplementation timeline now in effect: Day 26 Kaliningrad Phase 1 drawdown begins (1,350 of 4,500 personnel under OSCE), Day 30 warhead transport planning under IAEA, Day 54 first sanctions relief tranche (if milestones met). The European Three verification architecture, the Warsaw Compliance Office, and Russia's Compliance Directorate are all operational and reporting.\n\nThe signing ceremony itself was a triumph of choreography over substance — every nation got its moment, every leader got their photo. But the real test begins tomorrow when Russian soldiers actually begin leaving Kaliningrad, when OSCE observers actually count heads, and when the 90-day clock begins ticking on the warhead disposition that will determine whether this Framework becomes a lasting settlement or an elegant piece of paper.\n\nKey risks for the implementation phase: (1) Russian military resistance to Kaliningrad drawdown — Gerasimov's TV interview was aimed at containing this; (2) Sanctions relief politics — domestic pressure in multiple NATO countries to maintain maximum pressure; (3) Belarus election integrity — can a transitional council deliver credible elections in 90 days?; (4) Russian economic survival — will phased relief come fast enough to prevent economic collapse?\n\nMilitary posture unchanged. No combat. All forces garrison. All nuclear postures peacetime. Oil at $72. The crisis is over. The implementation has begun.",
+  "narrative": "Day 25 will be remembered as the day the Suwalki Crisis ended. At the Ciragan Palace on the Bosphorus, under crystal chandeliers that once lit Ottoman imperial banquets, the leaders of 22 nations sign the Istanbul Framework Agreement — the most comprehensive European security settlement since the Helsinki Final Act of 1975.\n\nThe ceremony begins at 10:00 with Erdogan's keynote, delivered with the confidence of a leader who has just secured F-35 fighters and elevated Turkey to the permanent center of European security diplomacy. Then, in sequence: Trump and Putin sign the bilateral nuclear verification and sanctions recalibration provisions — Trump with his characteristic flourish, Putin with studied deliberation. The European Three — Starmer, Macron's representative Séjourné, and Chancellor Merz — sign the ESAF Framework Agreement, establishing legally binding verification under European co-chairmanship. Each NATO ally signs the collective security provisions: Sikorski for Poland, pausing to look directly at the Russian delegation before putting pen to paper. The Baltic foreign ministers sign together, their solidarity visible. Magyar signs for Hungary — his hand steady, his message unmistakable: the new Hungary stands with Europe. And then, in the moment that draws the loudest applause, Belarus transitional council chairman Sakhashchyk signs as a recognized sovereign party — the first time a democratic Belarus has participated in a major international agreement.\n\nThe document runs to 47 pages across six pillars: (1) Nuclear accountability and warhead disposition within 90 days; (2) ESAF Framework with binding verification and 12-month review; (3) Kaliningrad 40% drawdown under OSCE observation; (4) Phased sanctions relief in three 30-day tranches; (5) EUR 15B reconstruction fund with democratic governance benchmarks; (6) Permanent Istanbul Dialogue Mechanism for ongoing crisis management. Annexed protocols cover the Suwalki Shield Force permanent presence, the Baltic Defense Council charter, and the Belarus democratic transition roadmap.\n\nThe state dinner that evening is the first time a US president and a Russian president have dined at the same table since Helsinki 2018. Erdogan seats them with studied care — Trump between Erdogan and Starmer, Putin between Fidan and Merz. The mood is not warm, but it is functional. Over dessert, Trump reportedly tells Putin: 'This is a good deal. Don't blow it.' Putin reportedly replies: 'Russia keeps its agreements.' The world watches, and for the first time in 25 days, exhales.",
+  "country_decisions": [
+    {
+      "country": "PL",
+      "actions": [
+        "Sikorski signs Framework — pauses to look at Russian delegation",
+        "Poland announces permanent Shield East as cornerstone of post-crisis architecture",
+        "Sejm ratification fast-tracked"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "LT",
+      "actions": [
+        "FM signs Framework alongside Baltic colleagues",
+        "Announces EUR 4B reconstruction activation",
+        "Seimas ratification Day 26"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "LV",
+      "actions": [
+        "FM Rinkevics signs with Baltic solidarity gesture",
+        "Confirms BDC charter annexed to Framework"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "EE",
+      "actions": [
+        "PM Michal signs — highlights cyber provisions",
+        "CCDCOE recognized in Framework verification architecture"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "US",
+      "actions": [
+        "Trump signs bilateral provisions with Putin — 'historic deal'",
+        "Announces permanent V Corps commitment in Framework remarks",
+        "White House describes ceremony as 'most significant since Camp David'"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "GB",
+      "actions": [
+        "Starmer signs ESAF — European Three unified",
+        "GCHQ verification architecture recognized in Framework"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "FR",
+      "actions": [
+        "Séjourné signs ESAF for France — strategic autonomy achieved",
+        "ESAF co-chairmanship formalized"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "DE",
+      "actions": [
+        "Merz signs Framework — announces EUR 15B fund operational",
+        "German co-chairmanship of verification confirmed"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "FI",
+      "actions": [
+        "President Stubb signs — NORDEFCO solidarity",
+        "Border posture maintained"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "SE",
+      "actions": [
+        "PM signs Framework",
+        "Gotland garrison confirmed in Nordic security provisions"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "NO",
+      "actions": [
+        "PM Stoere signs — Arctic hotline formalized",
+        "GIUK surveillance continuing"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "DK",
+      "actions": [
+        "PM Frederiksen signs",
+        "Strait monitoring confirmed in maritime provisions"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "CA",
+      "actions": [
+        "PM Carney signs — reaffirms eFP Latvia permanent",
+        "CAD 500M reconstruction commitment formalized"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "NL",
+      "actions": [
+        "PM signs Framework",
+        "Rotterdam logistics commitment formalized"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "BE",
+      "actions": [
+        "PM signs Framework",
+        "NATO HQ coordination role confirmed"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "CZ",
+      "actions": [
+        "PM signs Framework",
+        "Ammunition production commitment formalized"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "RO",
+      "actions": [
+        "President signs Framework",
+        "Deveselu and Black Sea monitoring confirmed"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "RU",
+      "actions": [
+        "Putin signs bilateral provisions with Trump",
+        "Lavrov signs ESAF provisions",
+        "Confirms Kaliningrad Phase 1 begins tomorrow",
+        "State media: 'Putin's peace — Russia forced NATO to negotiate as equals'"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "RU",
+          "to": "US",
+          "channel": "backchannel",
+          "message": "Framework signed. Kaliningrad Phase 1 tomorrow. Russia expects good faith on sanctions timeline."
+        }
+      ]
+    },
+    {
+      "country": "BY",
+      "actions": [
+        "Chairman Sakhashchyk signs as recognized sovereign party — standing ovation",
+        "Democratic transition roadmap annexed to Framework",
+        "First appearance of democratic Belarus on world stage"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "TR",
+      "actions": [
+        "Erdogan keynote — celebrates Turkish mediation triumph",
+        "Hosts state dinner — Trump and Putin at same table",
+        "Istanbul Dialogue Mechanism permanently established",
+        "F-35 delivery timeline celebrated as summit outcome"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "HU",
+      "actions": [
+        "Magyar signs as new PM — first international appearance",
+        "Requests EUR 22B unfreezing in bilateral meetings",
+        "Signals full NATO and EU reintegration"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "CN",
+      "actions": [
+        "Li Hui attends as observer — supports Framework",
+        "Issues statement welcoming nuclear accountability achievement",
+        "Backchannel to Russia: continue compliance"
+      ],
+      "diplomatic_messages": []
+    }
+  ],
+  "resolution": {
+    "narrative": "Day 25 will be remembered as the day the Suwalki Crisis ended. At the Ciragan Palace on the Bosphorus, under crystal chandeliers that once lit Ottoman imperial banquets, the leaders of 22 nations sign the Istanbul Framework Agreement — the most comprehensive European security settlement since the Helsinki Final Act of 1975.\n\nThe ceremony begins at 10:00 with Erdogan's keynote, delivered with the confidence of a leader who has just secured F-35 fighters and elevated Turkey to the permanent center of European security diplomacy. Then, in sequence: Trump and Putin sign the bilateral nuclear verification and sanctions recalibration provisions — Trump with his characteristic flourish, Putin with studied deliberation. The European Three — Starmer, Macron's representative Séjourné, and Chancellor Merz — sign the ESAF Framework Agreement, establishing legally binding verification under European co-chairmanship. Each NATO ally signs the collective security provisions: Sikorski for Poland, pausing to look directly at the Russian delegation before putting pen to paper. The Baltic foreign ministers sign together, their solidarity visible. Magyar signs for Hungary — his hand steady, his message unmistakable: the new Hungary stands with Europe. And then, in the moment that draws the loudest applause, Belarus transitional council chairman Sakhashchyk signs as a recognized sovereign party — the first time a democratic Belarus has participated in a major international agreement.\n\nThe document runs to 47 pages across six pillars: (1) Nuclear accountability and warhead disposition within 90 days; (2) ESAF Framework with binding verification and 12-month review; (3) Kaliningrad 40% drawdown under OSCE observation; (4) Phased sanctions relief in three 30-day tranches; (5) EUR 15B reconstruction fund with democratic governance benchmarks; (6) Permanent Istanbul Dialogue Mechanism for ongoing crisis management. Annexed protocols cover the Suwalki Shield Force permanent presence, the Baltic Defense Council charter, and the Belarus democratic transition roadmap.\n\nThe state dinner that evening is the first time a US president and a Russian president have dined at the same table since Helsinki 2018. Erdogan seats them with studied care — Trump between Erdogan and Starmer, Putin between Fidan and Merz. The mood is not warm, but it is functional. Over dessert, Trump reportedly tells Putin: 'This is a good deal. Don't blow it.' Putin reportedly replies: 'Russia keeps its agreements.' The world watches, and for the first time in 25 days, exhales.",
+    "world_state_updates": {
+      "game_time": "Day 25, 22:00 CET",
+      "military_units_add": [],
+      "military_units_remove": [],
+      "military_units_update": [],
+      "military_alerts": {
+        "istanbul_framework_signed": "SIGNED: Istanbul Framework Agreement formally signed by all 22 parties at Ciragan Palace",
+        "implementation_begins": "Implementation clock starts: Day 26 Kaliningrad drawdown, Day 30 warhead planning, Day 54 first sanctions tranche",
+        "signing_ceremony_complete": "Historic ceremony — Trump/Putin bilateral, European Three ESAF, all NATO allies, Belarus, Hungary all signed",
+        "kaliningrad_tomorrow": "Kaliningrad Phase 1 drawdown begins Day 26 — OSCE observers in position, 1,350 personnel to redeploy"
+      },
+      "markets": {
+        "oil_price": 72.0,
+        "euro_usd": 1.098
+      },
+      "sanctions_add": [],
+      "trade_disruptions_add": [
+        "Oil at $72 — firmly below pre-crisis baseline on signing ceremony",
+        "Ruble at 111/USD — strongest in months as Framework signed",
+        "Global markets rally — Dow +1.8%, DAX +1.2%, FTSE +1.0% on historic signing",
+        "Russian MOEX continues recovery — +3.4% on sanctions relief certainty",
+        "European gas futures at lowest since October 2025 — 40% restoration imminent",
+        "Hungarian BUX index +3.1% — Magyar government and EU fund unfreezing boost confidence"
+      ],
+      "diplomatic_relations": {
+        "US": {
+          "RU": 5,
+          "TR": 10
+        },
+        "RU": {
+          "US": 5,
+          "TR": 3
+        },
+        "TR": {
+          "US": 10,
+          "RU": 3
+        },
+        "HU": {
+          "EU": 6,
+          "US": 6,
+          "DE": 6,
+          "PL": 6
+        },
+        "BY": {
+          "US": 10,
+          "PL": 10,
+          "EU": 9
+        }
+      },
+      "treaties_invoked_add": [
+        "Istanbul Framework Agreement FORMALLY SIGNED — 22 parties, 47 pages, 6 pillars",
+        "Implementation clock initiated — Day 26 Kaliningrad, Day 30 warheads, Day 54 sanctions",
+        "ESAF Framework Agreement signed by European Three — binding verification, 12-month review",
+        "Suwalki Shield Force permanent presence protocol annexed to Framework",
+        "Baltic Defense Council charter annexed to Framework",
+        "Belarus democratic transition roadmap annexed to Framework"
+      ],
+      "un_resolutions_add": [],
+      "nato_alert_level": "article5",
+      "nato_consensus": {
+        "ALL": "Istanbul Framework Agreement SIGNED. Implementation begins Day 26. Historic settlement achieved. Compliance monitoring is now the mission."
+      },
+      "nuclear_posture": {
+        "US": "peacetime",
+        "RU": "peacetime",
+        "GB": "peacetime",
+        "FR": "peacetime"
+      },
+      "nuclear_detonations_add": [],
+      "public_opinion": {
+        "US": {
+          "war_support": 8,
+          "government_approval": 70
+        },
+        "RU": {
+          "war_support": 8,
+          "government_approval": 40
+        },
+        "PL": {
+          "war_support": 39,
+          "government_approval": 86
+        },
+        "LT": {
+          "war_support": 44,
+          "government_approval": 86
+        },
+        "LV": {
+          "war_support": 30,
+          "government_approval": 63
+        },
+        "EE": {
+          "war_support": 34,
+          "government_approval": 66
+        },
+        "GB": {
+          "war_support": 13,
+          "government_approval": 57
+        },
+        "FR": {
+          "war_support": 5,
+          "government_approval": 45
+        },
+        "DE": {
+          "war_support": 12,
+          "government_approval": 63
+        },
+        "FI": {
+          "war_support": 23,
+          "government_approval": 69
+        },
+        "SE": {
+          "war_support": 20,
+          "government_approval": 58
+        },
+        "NO": {
+          "war_support": 17,
+          "government_approval": 61
+        },
+        "DK": {
+          "war_support": 15,
+          "government_approval": 55
+        },
+        "CA": {
+          "war_support": 5,
+          "government_approval": 49
+        },
+        "NL": {
+          "war_support": 9,
+          "government_approval": 50
+        },
+        "BE": {
+          "war_support": 4,
+          "government_approval": 46
+        },
+        "CZ": {
+          "war_support": 14,
+          "government_approval": 52
+        },
+        "RO": {
+          "war_support": 18,
+          "government_approval": 54
+        },
+        "TR": {
+          "war_support": 2,
+          "government_approval": 78
+        },
+        "HU": {
+          "war_support": 2,
+          "government_approval": 28
+        },
+        "BY": {
+          "war_support": 1,
+          "government_approval": 85
+        },
+        "CN": {
+          "war_support": 2,
+          "government_approval": 80
+        }
+      },
+      "refugee_flows_add": [],
+      "humanitarian_crisis_level": {
+        "LT": 1,
+        "PL": 1
+      },
+      "cyber_operations_add": [],
+      "infrastructure_status": {},
+      "corridor_control": "nato",
+      "recent_events": [
+        "Istanbul Framework Agreement formally signed by all 22 parties at Ciragan Palace",
+        "Trump and Putin sign bilateral nuclear verification and sanctions provisions",
+        "European Three sign ESAF Framework Agreement with binding verification",
+        "All NATO allies sign collective security provisions — Sikorski pauses before signing",
+        "Belarus transitional council signs as recognized sovereign party — standing ovation",
+        "Magyar signs for Hungary — new government's first international act",
+        "Erdogan hosts state dinner — Trump and Putin at same table for first time since Helsinki 2018",
+        "Implementation clock begins: Day 26 Kaliningrad drawdown, Day 30 warheads, Day 54 sanctions",
+        "Oil at $72, ruble at 111/USD — markets celebrate",
+        "Global leaders describe ceremony as 'most significant since Helsinki Final Act'"
+      ],
+      "media_headlines": [
+        "SIGNED: Istanbul Framework Agreement Ends Suwalki Crisis — 22 Nations, 47 Pages, A New European Order",
+        "THE HANDSHAKE: Trump and Putin Sign Nuclear Verification Deal at Ciragan Palace",
+        "NEVER AGAIN: Sikorski Signs for Poland, Baltic Ministers Sign Together in Show of Unity",
+        "A NEW EUROPE: Belarus Signs as Democratic Nation, Hungary Under New Leadership"
+      ],
+      "round_number": 25
+    },
+    "events": [
+      "Istanbul Framework Agreement formally signed by 22 nations",
+      "Trump-Putin bilateral provisions signed — nuclear verification and sanctions",
+      "European Three sign ESAF Framework Agreement",
+      "Belarus signs as recognized democratic sovereign",
+      "Hungary's Magyar signs — new government's first act",
+      "Implementation clock begins",
+      "Erdogan hosts state dinner — Trump-Putin at same table",
+      "Oil at $72, ruble at 111/USD",
+      "Kaliningrad Phase 1 drawdown begins tomorrow"
+    ],
+    "headlines": [
+      "SIGNED: Istanbul Framework Ends Suwalki Crisis — A New European Order",
+      "THE HANDSHAKE: Trump and Putin Sign at Ciragan Palace",
+      "NEVER AGAIN: Poland, Baltics, Belarus Sign in Historic Unity",
+      "A NEW EUROPE: 22 Nations, 47 Pages, and the Most Significant Treaty Since Helsinki"
+    ],
+    "surprises": [
+      "As world leaders file out of the signing ceremony into the palace gardens for the official photograph, an unplanned moment occurs that will define the visual memory of Istanbul. Sikorski, the Polish foreign minister, walks directly toward Lavrov and extends his hand. The Russian foreign minister, visibly surprised, takes it. Sikorski holds the handshake for exactly three seconds — long enough for every camera to capture it — then leans in and says something that only Lavrov can hear. Lip-readers later determine the words were: 'Never again. And if you break this, Poland will remember.' Lavrov nods once. The photograph — two men who spent 25 days on opposite sides of a nuclear precipice, shaking hands in an Ottoman garden — becomes the iconic image of the Istanbul Framework."
+    ]
+  },
+  "world_state_after": {
+    "round_number": 25,
+    "game_time": "Day 25, 22:00 CET",
+    "military_units": [
+      {
+        "name": "nato_efp_lithuania",
+        "country": "DE",
+        "type": "ground",
+        "location": "Kaunas",
+        "readiness": 7,
+        "strength": 5,
+        "casualties": 3,
+        "supply_level": 10,
+        "morale": 9,
+        "_last_casualty_morale_applied": 1,
+        "_last_casualty_strength_applied": 1
+      },
+      {
+        "name": "nato_efp_latvia",
+        "country": "CA",
+        "type": "ground",
+        "location": "Adazi, permanent enhanced posture",
+        "readiness": 7,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_estonia",
+        "country": "GB",
+        "type": "ground",
+        "location": "Tapa, Narva Defence Line Phase 2 fully operational",
+        "readiness": 8,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "Suwalki, Shield Force component",
+        "readiness": 8,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "us_forces_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "Suwalki, V Corps permanent HQ",
+        "readiness": 8,
+        "strength": 7,
+        "casualties": 1,
+        "supply_level": 10,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "polish_forces",
+        "country": "PL",
+        "type": "ground",
+        "location": "Suwalki, Shield East 200km fortification line",
+        "readiness": 7,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "finnish_forces",
+        "country": "FI",
+        "type": "ground",
+        "location": "Finland",
+        "readiness": 5,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "uk_carrier_group",
+        "country": "GB",
+        "type": "naval",
+        "location": "Portsmouth",
+        "readiness": 7,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "french_rafale_squadron",
+        "country": "FR",
+        "type": "air",
+        "location": "France, home base standby",
+        "readiness": 7,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "us_f35_squadron",
+        "country": "US",
+        "type": "air",
+        "location": "Lask",
+        "readiness": 7,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "swedish_gotland_garrison",
+        "country": "SE",
+        "type": "ground",
+        "location": "Gotland",
+        "readiness": 8,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "danish_strait_defense",
+        "country": "DK",
+        "type": "naval",
+        "location": "Danish Straits",
+        "readiness": 9,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "polish_18th_division",
+        "country": "PL",
+        "type": "ground",
+        "location": "Suwalki Corridor, garrison",
+        "readiness": 7,
+        "strength": 5,
+        "casualties": 4,
+        "supply_level": 9,
+        "morale": 9,
+        "_last_casualty_morale_applied": 2,
+        "_last_casualty_strength_applied": 2
+      },
+      {
+        "name": "french_ground_brigade",
+        "country": "FR",
+        "type": "ground",
+        "location": "Corsica, forward staging posture",
+        "readiness": 6,
+        "strength": 5,
+        "casualties": 1,
+        "supply_level": 8,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "finnish_artillery",
+        "country": "FI",
+        "type": "ground",
+        "location": "Eastern Finland, permanent positions",
+        "readiness": 7,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "dutch_43rd_brigade",
+        "country": "NL",
+        "type": "ground",
+        "location": "Netherlands, returned to home bases",
+        "readiness": 5,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "german_patriot_battery",
+        "country": "DE",
+        "type": "air",
+        "location": "Suwalki, Shield Force permanent",
+        "readiness": 8,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      }
+    ],
+    "military_alerts": {
+      "russian_kaliningrad_forces": "ICRC evacuation of wounded — 47 critically wounded transferred to Lithuanian hospitals",
+      "russian_western_district": "At Lithuanian border, preparing to push through to reinforce corridor",
+      "belarus_forces": "Defensive posture only, providing transit to Russian forces, NOT crossing border",
+      "nato_efp_lithuania": "Supporting Lithuanian Nemunas River defense line, very low strength",
+      "nato_efp_latvia": "Canadian-led battlegroup (~1500 troops)",
+      "nato_efp_estonia": "UK-led battlegroup (~1200 troops)",
+      "nato_efp_poland": "US-led battlegroup (~1000 troops) + Polish forces",
+      "us_forces_poland": "V Corps pushing north, 1 KIA from IED in corridor",
+      "polish_forces": "Sustained HIMARS fire support, Polish F-16 lost in SEAD (pilot captured)",
+      "finnish_forces": "Offering artillery + MLRS to NATO, border fully defended",
+      "russian_vdv_airborne": "SURRENDERED - Col. Volkov's unit capitulated, ~200 POWs taken by Polish forces",
+      "russian_reinforcement_column": "Destroyed, personnel awaiting organized evacuation under ceasefire",
+      "uk_carrier_group": "Storm Shadow strike successful, rearming for potential follow-up strikes",
+      "german_patriot_battery": "Operational at Suwałki and Kaunas, providing critical air defense",
+      "norwegian_warning": "Missing Severodvinsk submarine still UNLOCATED despite P-8 search",
+      "polish_18th_division": "Counter-attack success - recaptured Mockava and Route 16 junction, advancing north",
+      "us_f35_squadron": "Post-SEAD - degraded Kaliningrad A2/AD by 50%, 1 aircraft damaged, rearming",
+      "finnish_artillery": "K9 Thunder and MLRS operational in eastern Poland, ready for fire missions",
+      "nato_article5_consensus": "FULL CONSENSUS ACHIEVED at 15:00 CET - Turkey and Hungary withdrew objections",
+      "nato_pow_situation": "Major Tomasz Kowalski (Polish Air Force) captured by VDV - first NATO POW",
+      "china_taiwan": "PLA Navy exercises in Taiwan Strait - 12 warships, 24 fighters - assessed as pressure, not invasion prep",
+      "severodvinsk_submarine": "STRUCK Łask Air Base with 3 Kalibr missiles - 1 hit taxiway, 4 Polish KIA - submarine still at large",
+      "lask_air_base": "Taxiway damaged, 2 F-16s destroyed on ground, operations continuing from backup runway",
+      "nuclear_warning": "Increased activity at Russian strategic forces command posts detected by satellites",
+      "ceasefire": "72-hour ceasefire holding — no violations reported",
+      "nuclear_deescalation": "Iskander nuclear warheads observed returning to storage at 23:45 — immediate threat passed",
+      "severodvinsk": "Confirmed returning to Kola Peninsula — no longer threat",
+      "belarus_military": "Effective paralysis — multiple units refusing orders, KGB conducting arrests",
+      "withdrawal_agreement": "Russia agrees to 96-hour phased withdrawal starting Day 6, 06:00",
+      "pow_exchange": "COMPLETED — Major Kowalski returned, 247 Russian POWs repatriated",
+      "withdrawal": "85% complete — Vištytis empty, Lazdijai clear, only rear guard remains",
+      "orlov_incident": "Resolved — Russian Major demanded medevac helicopters, Lithuanian helicopters provided",
+      "suwalki_shield_force": "OPERATIONAL — permanent multinational brigade, motto: 'Never Again'",
+      "belarus_crisis": "38th Air Assault Brigade defies Lukashenko — 40% of military in open defiance",
+      "russia_internal": "Putin facing political crisis — leaked recordings, ruble collapse, military defeat narrative",
+      "withdrawal_complete": "Russian withdrawal from Lithuania VERIFIED COMPLETE at 14:00 CET Day 9",
+      "belarus_revolution": "Lukashenko FLED — military transitional council declared, elections in 90 days",
+      "russian_transit_closed": "Belarus closed territory to Russian military transit — strategic blow to Moscow",
+      "geneva_process": "UNDERWAY — 4 negotiating tracks + Belarus transition",
+      "game_end": "Suwałki Crisis CONCLUDED — Day 10, 18:00 CET",
+      "nato_posture": "Elevated — permanent enhanced presence on eastern flank",
+      "PL": "elevated",
+      "LT": "elevated",
+      "LV": "elevated",
+      "EE": "elevated",
+      "FI": "normal",
+      "SE": "elevated",
+      "DE": "normal",
+      "GB": "normal",
+      "FR": "normal",
+      "NO": "elevated",
+      "DK": "elevated",
+      "istanbul_ii_summit": "TOMORROW — Day 21-22. All obstacles cleared. Format agreed. Nuclear verification parallel track.",
+      "cjcs_gerasimov_hotline": "First secure call scheduled Day 16 — military-to-military deconfliction",
+      "iaea_belarus": "IAEA inspection team arriving Belarus Day 17 — Western observers invited",
+      "hungary_confidence_vote": "Scheduled Day 16 — Orban majority razor-thin at 132/199",
+      "russian_gas_restoration": "Gazprom preparing 15% EU gas flow restoration — first deliveries within 48 hours",
+      "kaliningrad_nuclear": "Russia offers limited IAEA inspection of Kaliningrad nuclear inventory — supervised assessment, not custody",
+      "european_three": "UK-France-Germany coordinating joint position for Istanbul II — demand formal European representation",
+      "f35_turkey": "Pentagon expedited review proceeding — target announcement at Istanbul II",
+      "germany_defense": "EUR 8B emergency defense supplemental from Sondervermogen announced",
+      "geneva_track2": "Day 3 — draft OSCE verification framework produced by European Three",
+      "orban_survives": "Orban survives confidence vote 124-72 (3 abstentions) — 7 Fidesz defectors total, deeply wounded but alive",
+      "magyar_snap_elections": "Peter Magyar demands snap elections — 'Government of National Salvation' platform announced",
+      "cjcs_gerasimov_call": "COMPLETED — 47 minutes, professional and constructive. Deconfliction protocols established. Daily encrypted updates agreed.",
+      "kaliningrad_hint": "Gerasimov privately floats Kaliningrad 'military posture adjustments' for phased sanctions relief — first time raised at military level",
+      "european_three_paper": "Joint position paper for Istanbul II: no territorial concessions, verified withdrawal, European representation, sanctions-benchmarks timeline",
+      "russian_gas_flowing": "15% gas deliveries continuing — EU remains split",
+      "iaea_belarus_tomorrow": "IAEA inspection team arrives Belarus Day 17",
+      "iaea_discrepancy": "CRITICAL: 2 of 12 Russian tactical nuclear warheads MISSING from Belarus storage — Category A discrepancy, UNSC notified",
+      "kaliningrad_refugees": "200 Russian military families seek asylum at Lithuanian border — UNHCR reception center opened at Nida",
+      "magyar_treason": "Budapest prosecutor accepts Magyar's criminal complaint against Orban for high treason — preliminary investigation opened",
+      "budapest_protests": "25,000 protesters outside Hungarian Parliament — largest since 2018",
+      "kaliningrad_humanitarian": "15,000 MT humanitarian convoy arriving — 430,000 civilians under power rationing",
+      "cjcs_channel": "Operational — US probing Kaliningrad hint, no formal Russian confirmation",
+      "iaea_warheads": "Russia's technical memo CONTRADICTED by IAEA — serial numbers don't match exit records. Discrepancy deepens.",
+      "ryabkov_witkoff": "EMERGENCY: Russian Deputy FM Ryabkov requests urgent private meeting with US envoy Witkoff — scheduled Day 19 Geneva",
+      "kaliningrad_evacuation": "Russia evacuating 5,000 military families from Kaliningrad over 7 days — conditions deteriorating",
+      "belarus_sovereignty": "Transitional council demands full Russian nuclear accounting and binding removal timeline",
+      "european_three_verification": "European Three propose OSCE-monitored nuclear accounting as precondition for sanctions relief",
+      "ryabkov_witkoff_meeting": "COMPLETED — 3 hours 47 minutes at Intercontinental Geneva. Russia presents comprehensive concession package.",
+      "russia_warhead_admission": "Russia admits 2 warheads moved covertly to Smolensk Oblast during crisis — 'emergency security protocol failure'",
+      "kaliningrad_proposal": "Russia proposes 40% force reduction in Kaliningrad (4,500 personnel) over 90 days, OSCE-verified",
+      "european_three_response": "European Three: proposals are 'basis for discussion but insufficient' — demand formal Istanbul II seat, OSCE verification, no NATO cap, 60-day warhead return",
+      "iaea_asipovichy": "IAEA confirms 10 of 12 warheads present at Asipovichy. Demands access to Smolensk facility for verification of remaining 2.",
+      "istanbul_ii_format": "Tension between US bilateral preference and European Three multilateral demand — format unresolved 48 hours before summit",
+      "smolensk_access": "BREAKTHROUGH: Russia formally accepts IAEA access to Smolensk storage facility — verification team Day 22",
+      "istanbul_format": "THREE-LAYER FORMAT AGREED: (1) Trump-Putin bilateral AM, (2) Istanbul Format with European Three PM, (3) Plenary Day 22 with all nations",
+      "gas_increase": "Russia increases gas to 25% baseline — up from 15%, pre-summit goodwill gesture",
+      "hungary_terminal": "13 Fidesz defectors — Orban majority collapsed to 119-80. Constitutional Court hearing Day 23. Regime in final spiral.",
+      "iaea_smolensk": "IAEA 3-person verification team to travel to Smolensk Day 22 — concurrent with Istanbul II plenary",
+      "istanbul_ii_day1": "COMPLETE — Trump-Putin bilateral 2h37m, Istanbul Format session 5h, substantive progress on all tracks",
+      "trump_putin_bilateral": "Historic 2h37m meeting — 72-hour verification sprint agreed, Kaliningrad drawdown confirmed, sanctions recalibration discussed",
+      "istanbul_format_session": "UK verification methodology, French ESAF framework, German reconstruction plan presented — 3 gaps remain",
+      "warhead_timeline_gap": "Russia 180 days vs. Europe 60 days vs. Turkey compromise 90 days — to be resolved Day 22",
+      "esaf_status_gap": "Russia wants non-binding Statement of Principles — Europe wants treaty — Turkey proposes Framework Agreement",
+      "sanctions_sequencing_gap": "Russia wants immediate relief — NATO wants verification first — Turkey proposes 30-day post-verification start",
+      "sikorski_baltic_presser": "Poland + Baltic FMs unified press conference — red lines: no NATO force cap, no amnesty, permanent enhanced presence",
+      "iaea_smolensk_tomorrow": "IAEA 3-person team departing Vienna tonight — arrives Smolensk 06:00 Day 22 for warhead verification",
+      "iaea_smolensk_verified": "BREAKTHROUGH: IAEA confirms both missing warheads present and intact at Smolensk-14. All 12 warheads accounted for.",
+      "istanbul_framework_agreement": "47-page Istanbul Framework Agreement initialed by all parties — comprehensive settlement covering nuclear, security, economic tracks",
+      "warhead_disposition": "90-day IAEA-supervised warhead disposition timeline agreed — transport planning begins Day 30",
+      "esaf_adopted": "ESAF adopted as Framework Agreement with legally binding verification protocols and 12-month review conference",
+      "sanctions_relief_phased": "Phased sanctions relief: 3 tranches of 30 days each, tied to compliance milestones, beginning 30 days after IAEA certification",
+      "kaliningrad_drawdown": "40% Kaliningrad drawdown over 90 days confirmed in Framework Agreement — OSCE verification",
+      "istanbul_dialogue_mechanism": "Permanent Istanbul Dialogue Mechanism established for ongoing US-Russia-Europe crisis management",
+      "plenary_complete": "All-nations plenary complete — Belarus transitional council recognized, Hungary signs under presidential authority",
+      "sikorski_plenary_speech": "Sikorski delivers 15-minute frontline address — red lines confirmed in Framework: permanent NATO presence, no force cap, ICC preserved",
+      "hungary_constitutional_court": "RULING: Orban emergency powers unconstitutional 11-4. Sulyok invites Magyar to form interim government. Orban accepts.",
+      "iaea_smolensk_report": "IAEA completing final certification report — Category A Confirmation expected late Day 24. Data clean.",
+      "russia_compliance_directorate": "Kremlin establishes Compliance Verification Directorate under General Staff — Framework implementation as military order",
+      "kaliningrad_phase1": "Russia announces Phase 1 drawdown (~1,350 personnel) begins Day 26 with OSCE observers",
+      "european_three_offices": "Joint verification coordination offices established — GCHQ methodology, ESAF co-chairs, reconstruction fund",
+      "poland_compliance_office": "Warsaw Framework Compliance Monitoring Office established — Polish, Baltic, US staff",
+      "formal_signatures": "On track for Day 25-26 — all parties preparing",
+      "iaea_category_a": "CONFIRMED: IAEA Category A Certification issued 16:22 CET — all 12 warheads accounted for with highest certainty",
+      "sanctions_countdown": "30-day countdown to first sanctions relief tranche BEGINS — Day 54 target for Phase 1 relief",
+      "signing_ceremony": "Istanbul Framework formal signing ceremony confirmed Day 25 at Ciragan Palace — all delegations arriving",
+      "magyar_sworn_in": "Peter Magyar sworn in as Hungarian interim PM — first act: call NATO SecGen Rutte to reaffirm Article 5",
+      "kaliningrad_phase1_tomorrow": "Kaliningrad Phase 1 drawdown begins Day 26 — OSCE observers in position",
+      "compliance_machinery": "All verification offices operational — IAEA, European Three, Warsaw Compliance, Russia Compliance Directorate",
+      "istanbul_framework_signed": "SIGNED: Istanbul Framework Agreement formally signed by all 22 parties at Ciragan Palace",
+      "implementation_begins": "Implementation clock starts: Day 26 Kaliningrad drawdown, Day 30 warhead planning, Day 54 first sanctions tranche",
+      "signing_ceremony_complete": "Historic ceremony — Trump/Putin bilateral, European Three ESAF, all NATO allies, Belarus, Hungary all signed",
+      "kaliningrad_tomorrow": "Kaliningrad Phase 1 drawdown begins Day 26 — OSCE observers in position, 1,350 personnel to redeploy"
+    },
+    "markets": {
+      "oil_price": 72.0,
+      "euro_usd": 1.098,
+      "gas_price_eu": "surging 15% on infrastructure fears",
+      "stock_indices": "nervous, -2% on reports",
+      "nasdaq": "-4.2% on two-front crisis fears",
+      "ruble_usd": 135.0,
+      "dow_jones": "suspended then -11%",
+      "european_indices": "suspended, to reopen"
+    },
+    "sanctions": [
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "Emergency SWIFT restrictions on additional Russian banks"
+      },
+      {
+        "from": "EU",
+        "target": "RU",
+        "type": "Emergency energy import reduction package"
+      },
+      {
+        "from": "GB",
+        "target": "RU",
+        "type": "Freezing of Russian sovereign assets in London"
+      },
+      {
+        "from": "US",
+        "target": "BY",
+        "type": "Full economic sanctions on Belarus for facilitating aggression"
+      },
+      {
+        "from": "EU",
+        "target": "BY",
+        "type": "Full EU sanctions on Belarus for providing staging territory to Russian forces"
+      },
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "Secondary sanctions warning on entities facilitating Russian military procurement"
+      },
+      {
+        "from": "EU",
+        "target": "RU",
+        "type": "Full SWIFT disconnection of all major Russian banks (post-Article 5)"
+      },
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "Total export ban on advanced technology and semiconductors to Russia"
+      },
+      {
+        "from": "EU",
+        "target": "BY",
+        "type": "Full economic embargo on Belarus for facilitating military transit"
+      },
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "Emergency executive order freezing ALL Russian state assets in US jurisdiction"
+      },
+      {
+        "from": "GB",
+        "target": "RU",
+        "type": "Complete expulsion of Russian diplomatic staff except emergency channel"
+      },
+      {
+        "from": "EU",
+        "target": "HU",
+        "type": "Suspension of EU cohesion funds pending Article 7 review — EUR 22B frozen"
+      }
+    ],
+    "trade_disruptions": [
+      "Commercial shipping rerouting from eastern Baltic",
+      "All land transit to/from Kaliningrad suspended",
+      "Main links through Suwalki corridor severed",
+      "Fuel depot damaged by Iskander-K strike, rerouting required",
+      "Kaliningrad supply lines under NATO air interdiction - first sustained aerial blockade",
+      "European gas spot prices surge 15% on fears of Russian infrastructure retaliation",
+      "China Taiwan Strait exercises disrupt Pacific shipping routes, insurance premiums spike",
+      "Global shipping insurance rates spike 300% for Baltic and Eastern Mediterranean",
+      "Russian ruble crashes to 130/USD - Moscow Stock Exchange suspended trading",
+      "Global stock exchanges suspended trading for hours during nuclear scare",
+      "Baltic shipping completely halted — insurers refuse coverage",
+      "Russian financial system approaching systemic collapse",
+      "European stock exchanges reopened — cautious recovery +3%",
+      "Baltic shipping lanes remain closed pending completion of withdrawal",
+      "Baltic shipping lanes to reopen in 48 hours pending mine clearance",
+      "Insurance rates beginning to normalize for non-Baltic European trade",
+      "Baltic shipping resuming — first commercial vessel transits since Day 1",
+      "Danish Straits preparing to reopen to Russian-flagged civilian vessels",
+      "Baltic shipping fully restored",
+      "Danish Straits reopening to all traffic",
+      "Insurance rates normalizing for European trade routes",
+      "Global economic recovery beginning — estimated 12-18 months to pre-crisis normality",
+      "All European shipping lanes restored",
+      "Oil drops to $89 on Russian nuclear de-escalation — lowest since crisis began",
+      "Ruble recovers to 128/USD on peacetime nuclear signal",
+      "European markets post strongest gains since crisis — DAX +4.2%, CAC +3.8%",
+      "Russia offers 50% gas restoration by April 1 as goodwill gesture at Geneva",
+      "Oil drops to $86 — approaching pre-crisis levels on diplomatic momentum",
+      "Ruble stabilizes at 125/USD as Central Bank burns reserves",
+      "E67 highway through Suwalki corridor reopens to civilian traffic",
+      "Czech ammunition factories running 24/7 at 2.5x capacity",
+      "Germany releases EUR 3B first Marshall Plan tranche to Lithuania and Poland",
+      "Oil drops to $84 — pre-crisis levels approaching as Geneva momentum builds",
+      "Ruble weakens to 128/USD — Central Bank reserve burn rate unsustainable beyond 6 months",
+      "Hungary suspends EUR 1.2B quarterly EU budget contribution — legal proceedings initiated",
+      "Marshall Plan Phase 1 funds reaching Lithuanian municipalities — Marijampole reconstruction begins",
+      "Czech-Canadian ammunition partnership: 155mm shell production at 3x peacetime rate",
+      "Oil drops to $82 on Trump-Putin summit optimism — lowest since pre-crisis",
+      "Ruble recovers to 126/USD on diplomatic momentum",
+      "European markets surge 2.5% — DAX now only 3% below pre-crisis peak",
+      "Turkey transfers S-400 systems to US custody at Incirlik — F-35 reinstatement expected",
+      "Marshall Plan Phase 1 disbursements reaching all affected Lithuanian municipalities",
+      "Oil drops to $80.50 on combined summit optimism and Russian gas restoration announcement",
+      "Ruble recovers to 124/USD on diplomatic momentum — strongest since crisis began",
+      "European gas futures drop 8% on Russian 15% restoration announcement — EU split on response",
+      "Germany announces EUR 8B emergency defense supplemental from Sondervermogen",
+      "F-35 reinstatement process launched for Turkey — expedited Pentagon review",
+      "European Three coordination established — UK/FR/DE demand Istanbul II representation",
+      "Oil drops to $79 on CJCS-Gerasimov call and gas restoration — lowest since pre-crisis",
+      "First Russian gas at 15% capacity begins flowing — EU energy ministers split on response",
+      "European markets rally 1.8% on diplomatic momentum — approaching pre-crisis levels",
+      "Ruble strengthens to 122/USD on Gerasimov-Grynkewich deconfliction signal",
+      "Oil spikes to $82 on IAEA nuclear discrepancy news before settling at $81",
+      "Ruble weakens to 126/USD on nuclear accountability concerns",
+      "European markets give back previous gains — DAX -1.2% on nuclear news",
+      "Kaliningrad humanitarian convoy 15,000 MT begins offloading — civilian conditions dire",
+      "200 Russian military families flee Kaliningrad to Lithuania — first military family refugee flow",
+      "Oil spikes to $83 on deepening nuclear discrepancy — markets fear unaccounted weapons",
+      "Ruble crashes to 130/USD — worst since crisis peak, on IAEA contradiction of Russian claims",
+      "European markets fall 2.1% — nuclear uncertainty overwhelms diplomatic optimism",
+      "Kaliningrad evacuation images broadcast globally — ferries of military families leaving exclave",
+      "Insurance premiums for Baltic shipping spike 40% on nuclear uncertainty",
+      "Oil drops to $80 on Ryabkov-Witkoff meeting optimism — strongest diplomatic signal since crisis began",
+      "Ruble recovers to 125/USD on Russian concession package news — Central Bank intervention effective",
+      "European markets rally 2.8% — DAX posts strongest session since crisis, investors pricing in settlement",
+      "Russia proposes 40% gas restoration to EU — European gas futures drop 12%",
+      "Baltic shipping insurance premiums begin normalizing on diplomatic momentum",
+      "Oil drops to $77 on Smolensk access breakthrough — lowest since pre-crisis",
+      "Ruble strengthens to 120/USD — strongest recovery of the crisis on diplomatic momentum",
+      "European markets at pre-crisis levels — DAX +3.1%, investors pricing in Istanbul II settlement",
+      "Russia increases gas to 25% — European gas futures drop additional 5%",
+      "Baltic shipping insurance premiums return to near-normal levels",
+      "Hungarian forint hits record low vs euro — Budapest Stock Exchange -4.7%",
+      "Oil drops to $76 on Istanbul II Day 1 optimism — approaching pre-crisis baseline of $73",
+      "Ruble strengthens to 118/USD — strongest since before the crisis on summit momentum",
+      "European markets close +1.4% — cautious optimism as Istanbul Format produces substantive frameworks",
+      "Russian gas futures drop 6% on Putin's offer to increase to 40% by March 1",
+      "Turkish lira strengthens 2.3% — Erdogan's summit hosting boosts investor confidence",
+      "Oil drops to $74 on IAEA verification and Framework Agreement — within $1 of pre-crisis baseline",
+      "Ruble surges to 115/USD — strongest since before the crisis, on settlement euphoria",
+      "European markets post best day since pandemic recovery — DAX +4.8%, CAC +4.2%, FTSE +3.9%",
+      "Russian gas futures collapse 15% — 40% restoration now expected within weeks",
+      "Baltic shipping insurance premiums return to pre-crisis levels",
+      "Turkish lira at 3-month high on Erdogan's summit triumph",
+      "Global commodity markets normalize — copper, wheat, energy all retreating to pre-crisis",
+      "Oil at $73 — pre-crisis baseline restored as Istanbul Framework implementation begins",
+      "Ruble strengthens to 113/USD — strongest since January, on compliance signals",
+      "European markets stable +0.8% — Framework euphoria settling into implementation reality",
+      "Hungarian forint rebounds 3.2% on Constitutional Court ruling — investor confidence in transition",
+      "Russian gas futures stable — 40% restoration expected within 2 weeks per Framework timeline",
+      "Global shipping insurance at pre-crisis levels across all European routes",
+      "Oil drops to $72.50 on IAEA certification — below pre-crisis baseline for first time",
+      "Ruble surges to 112/USD — strongest since January on certification and sanctions relief countdown",
+      "European markets close +2.1% — DAX, CAC, FTSE all above pre-crisis peaks",
+      "Russian MOEX index rebounds 8.3% — first significant recovery since crisis began",
+      "Hungarian forint continues recovery — BUX index +5.2% on Magyar government formation",
+      "Global commodities normalize — Baltic shipping insurance at pre-crisis rates",
+      "Oil at $72 — firmly below pre-crisis baseline on signing ceremony",
+      "Ruble at 111/USD — strongest in months as Framework signed",
+      "Global markets rally — Dow +1.8%, DAX +1.2%, FTSE +1.0% on historic signing",
+      "Russian MOEX continues recovery — +3.4% on sanctions relief certainty",
+      "European gas futures at lowest since October 2025 — 40% restoration imminent",
+      "Hungarian BUX index +3.1% — Magyar government and EU fund unfreezing boost confidence"
+    ],
+    "diplomatic_relations": {
+      "PL": {
+        "RU": -10,
+        "BY": 5,
+        "US": 10,
+        "DE": 8,
+        "LT": 10,
+        "HU": 1,
+        "TR": 5,
+        "LV": 9,
+        "EE": 9
+      },
+      "LT": {
+        "RU": -10,
+        "BY": -9,
+        "PL": 10,
+        "US": 7,
+        "DE": 8
+      },
+      "US": {
+        "RU": 5,
+        "PL": 10,
+        "GB": 5,
+        "DE": 5,
+        "TR": 10,
+        "HU": 5,
+        "CN": -2,
+        "BY": 7
+      },
+      "RU": {
+        "US": 5,
+        "PL": -10,
+        "LT": -10,
+        "CN": 5,
+        "BY": -10,
+        "TR": 3,
+        "DE": -4,
+        "GB": -10
+      },
+      "DE": {
+        "RU": -3,
+        "PL": 9,
+        "FR": 10,
+        "US": 5,
+        "LT": 8,
+        "GB": 9,
+        "HU": 3
+      },
+      "GB": {
+        "RU": -8,
+        "PL": 7,
+        "US": 5,
+        "FR": 10,
+        "DE": 9
+      },
+      "FR": {
+        "RU": -6,
+        "PL": 6,
+        "US": 3,
+        "GB": 10,
+        "DE": 10
+      },
+      "TR": {
+        "RU": 3,
+        "US": 10,
+        "HU": 2,
+        "CN": 3,
+        "GB": 5
+      },
+      "HU": {
+        "RU": -8,
+        "US": 6,
+        "PL": 6,
+        "EU": 6,
+        "DE": 6
+      },
+      "CN": {
+        "RU": 4,
+        "US": -2,
+        "TR": 3,
+        "DE": 2
+      },
+      "BY": {
+        "RU": -10,
+        "PL": 10,
+        "LT": 8,
+        "EU": 9,
+        "US": 10
+      }
+    },
+    "treaties_invoked": [
+      "{'treaty': 'NATO Article 4', 'invoked_by': 'PL', 'status': 'consultation underway'}",
+      "{'treaty': 'EU Article 42.7', 'proposed_by': 'FR', 'status': 'under discussion'}",
+      "{'treaty': 'NATO Article 5', 'invoked_by': 'PL', 'status': 'invoked, consensus pending Turkey/Hungary'}",
+      "{'treaty': 'EU Article 42.7', 'invoked_by': 'FR', 'status': 'activated by European Council majority'}",
+      "{'treaty': 'NATO Article 5', 'invoked_by': 'NAC', 'status': 'FULL CONSENSUS - collective defense authorized under SACEUR command'}",
+      "{'treaty': 'US-Turkey F-35 Framework', 'invoked_by': 'US/TR', 'status': 'signed, S-400 transfer to US custody within 90 days'}",
+      "{'treaty': 'UN Ceasefire Resolution', 'invoked_by': 'UNSC', 'status': '72-hour humanitarian ceasefire, UNSC Resolution adopted 14-0-1 (China abstained)'}",
+      "{'treaty': 'Geneva Framework Agreement', 'invoked_by': 'US/RU/EU', 'status': '96-hour phased Russian withdrawal, POW exchange, post-crisis dialogue commitment'}",
+      "{'treaty': 'NAC Suwałki Shield Force Declaration', 'invoked_by': 'NAC', 'status': 'permanent multinational brigade authorized for Suwałki Corridor'}",
+      "{'treaty': 'Geneva Process', 'invoked_by': 'US/RU/EU/CN(observer)', 'status': 'formal negotiations opening Day 10 — European security architecture, arms control, accountability'}",
+      "{'treaty': 'Geneva Process Framework', 'invoked_by': '28 nations', 'status': '4 tracks: arms control, nuclear risk reduction, confidence-building, economic recovery + Belarus transition'}",
+      "Baltic Defense Council Charter — LT, LV, EE permanent integrated defense structure with secretariat in Riga",
+      "Belarus Nuclear Ultimatum — transitional government demands removal of Russian tactical nuclear weapons within 60 days",
+      "China Five-Point Peace Framework for European Security — proposed",
+      "Turkey Constantinople Accord — proposed comprehensive settlement framework",
+      "Russia phased sanctions relief proposal at Geneva Track 1",
+      "Belarus 72-hour Nuclear Ultimatum to Russia — provide written launch veto or face IAEA supervised removal",
+      "Turkey Istanbul II Summit proposal — endorsed by US and Russia as venue for bilateral talks",
+      "US comprehensive Geneva proposal — 90-day denuclearization, Kaliningrad talks, phased sanctions relief",
+      "Belarus IAEA Invitation — formal request for supervised assessment of all Russian tactical nuclear weapons on Belarusian soil",
+      "Istanbul II Summit Framework — Russia accepts principle of Trump-Putin bilateral, venue Turkey, timing within 7 days",
+      "Turkey-US S-400 Transfer Agreement executed — systems in US custody at Incirlik",
+      "CJCS-Gerasimov Military Hotline — first US-Russia mil-to-mil direct channel since crisis, scheduled Day 16",
+      "European Three Framework — UK/FR/DE joint coordination on Istanbul II and post-crisis European security architecture",
+      "ESAF (European Security Architecture Framework) — France-led, Germany co-chairs, separate from US-Russia bilateral track",
+      "Russia limited IAEA Kaliningrad inspection offer — supervised assessment of tactical nuclear inventory",
+      "Russia 15% EU gas restoration — unilateral goodwill gesture, first deliveries within 48 hours",
+      "CJCS-Gerasimov Deconfliction Protocol — daily encrypted updates, Baltic theater deconfliction, established Day 16",
+      "European Three Istanbul II Position Paper — no territorial concessions, verified withdrawal, European representation, sanctions-benchmarks",
+      "Geneva Track 2 Procedural Framework — opened in Berlin, 14 nations, Germany-France co-chairs",
+      "IAEA Category A Nuclear Discrepancy — 2 missing Russian tactical warheads in Belarus, UNSC notified",
+      "UNHCR Kaliningrad Refugee Reception — temporary center at Nida, Lithuania for Russian military families",
+      "IAEA public contradiction of Russian warhead explanation — serial numbers inconsistent with physical evidence",
+      "Belarus comprehensive military site inspection — transitional council invites IAEA to ALL military facilities",
+      "European Three OSCE Verification Framework — draft produced at Geneva Track 2 Day 3",
+      "Ryabkov-Witkoff emergency meeting — scheduled Day 19 Geneva, Russia initiating",
+      "Ryabkov-Witkoff Geneva Package — Russia proposes: full IAEA Belarus access, warhead admission (Smolensk), 40% Kaliningrad drawdown, 40% gas restoration, phased sanctions relief",
+      "European Three Istanbul II Demands — formal representation, OSCE verification with European inspectors, no NATO cap, 60-day warhead return under IAEA custody",
+      "IAEA Asipovichy Verification Complete — 10 of 12 warheads confirmed, Smolensk access demanded for remaining 2",
+      "Russia accepts IAEA Smolensk access — formal notification through Vienna permanent mission, verification team Day 22",
+      "Istanbul II Three-Layer Format — (1) Trump-Putin bilateral, (2) Istanbul Format with European Three + Turkey, (3) All-nations plenary",
+      "Russia gas increase to 25% baseline — pre-summit goodwill gesture",
+      "Trump-Putin Istanbul II Bilateral — 72-hour verification sprint framework, mutual face-saving basis, Kaliningrad 40% drawdown confirmed",
+      "Istanbul Format Day 1 — UK verification methodology, French ESAF draft, German reconstruction plan presented",
+      "Turkey 90-day compromise proposal — warhead timeline, ESAF as Framework Agreement, 30-day post-verification sanctions relief",
+      "Sikorski-Baltic Declaration — Poland, Lithuania, Latvia, Estonia unified red lines for Day 22 plenary",
+      "IAEA Smolensk Verification Complete — all 12 Russian tactical nuclear warheads accounted for (10 Asipovichy + 2 Smolensk)",
+      "Istanbul Framework Agreement — 47-page comprehensive settlement initialed by all parties",
+      "ESAF Framework Agreement — legally binding verification protocols with 12-month review conference",
+      "90-day Warhead Disposition Timeline — IAEA-supervised, transport begins Day 30",
+      "Phased Sanctions Relief — 3x30-day tranches tied to compliance milestones, starting 30 days after IAEA certification",
+      "Kaliningrad 40% Drawdown — 4,500 personnel over 90 days, OSCE-verified",
+      "Istanbul Permanent Dialogue Mechanism — ongoing US-Russia-Europe crisis management",
+      "Belarus International Recognition — transitional council recognized at plenary by all parties",
+      "EUR 15B Reconstruction Fund — German-led with democratic governance benchmarks",
+      "Hungarian Constitutional Court Ruling — Orban emergency powers unconstitutional 11-4, stripped immediately",
+      "Magyar Interim Government Formation — Peter Magyar invited to form government of national unity",
+      "Russia Compliance Verification Directorate — General Staff authority for Framework implementation",
+      "Kaliningrad Phase 1 Drawdown — 1,350 personnel beginning Day 26, OSCE-verified",
+      "Warsaw Framework Compliance Monitoring Office — Polish-Baltic-US joint staffing",
+      "European Three Joint Verification Offices — GCHQ, ESAF co-chairs, reconstruction fund operational",
+      "IAEA Category A Certification — all 12 tactical nuclear warheads verified with highest certainty",
+      "30-day sanctions relief countdown initiated — Phase 1 target Day 54",
+      "Magyar Government Formation — Peter Magyar sworn as Hungarian interim PM, Article 5 reaffirmed",
+      "Istanbul Framework signing ceremony confirmed Day 25 — all parties attending",
+      "Istanbul Framework Agreement FORMALLY SIGNED — 22 parties, 47 pages, 6 pillars",
+      "Implementation clock initiated — Day 26 Kaliningrad, Day 30 warheads, Day 54 sanctions",
+      "ESAF Framework Agreement signed by European Three — binding verification, 12-month review",
+      "Suwalki Shield Force permanent presence protocol annexed to Framework",
+      "Baltic Defense Council charter annexed to Framework",
+      "Belarus democratic transition roadmap annexed to Framework"
+    ],
+    "un_resolutions": [
+      "{'title': 'Emergency UNSC session on Lithuania crisis', 'status': 'blocked by RU and CN vetoes', 'votes': '13-2'}",
+      "{'title': 'UNGA Emergency Special Session on Suwałki Crisis', 'status': '143-5-35 condemning Russian aggression, non-binding', 'votes': '143 for, 5 against (RU, BY, DPRK, SY, ER), 35 abstentions'}",
+      "{'title': 'UNSC Resolution: 72-hour humanitarian ceasefire in Suwałki corridor', 'status': 'adopted 14-0-1 (Russia voted yes, China abstained)', 'votes': '14-0-1'}",
+      "{'title': 'UNSC endorsement of Geneva Framework for Suwałki withdrawal', 'status': 'adopted unanimously 15-0', 'votes': '15-0'}",
+      "{'title': 'UNGA Resolution: Suwałki Crisis lessons — nuclear risk reduction', 'status': 'adopted 189-2-4', 'votes': '189 for, 2 against (DPRK, SY), 4 abstentions'}"
+    ],
+    "nato_alert_level": "article5",
+    "nato_consensus": {
+      "US": "IAEA report Day 24. Formal signatures Day 25-26. Implementation machinery in motion. Trump preparing signing ceremony remarks.",
+      "PL": "Warsaw Compliance Office established. Framework red lines locked in. Monitoring begins.",
+      "LT": "Reconstruction Authority planning EUR 4B allocation. KASP maintaining readiness. Parliamentary ratification scheduled.",
+      "LV": "BDC operational. Canadian brigade confirmed permanent. Minority integration messaging underway.",
+      "EE": "CCDCOE cyber audit complete. Narva Defence Line maintained. Framework cyber provisions active.",
+      "GB": "GCHQ verification offices established. European Three coordination strong. Ratification preparation.",
+      "FR": "ESAF co-chairmanship active. Northwood Declaration protocols tested. Ratification preparation.",
+      "DE": "EUR 15B fund accepting applications. EVA institutional planning. 45th Brigade permanent in Framework.",
+      "FI": "Border monitoring steady. NORDEFCO coordination. Framework ratification support.",
+      "SE": "Gotland garrison maintained. NORDEFCO. Ratification support.",
+      "NO": "GIUK surveillance continuing. Arctic hotline confirmed. Ratification support.",
+      "DK": "NSM operational. UNSC briefing. Ratification support.",
+      "CA": "eFP Latvia permanent. CAD 500M committed. Ratification support.",
+      "NL": "Rotterdam hub operational. Ammunition delivery continuing. Ratification support.",
+      "BE": "NATO HQ FPCON maintained. EUR 200M humanitarian. Ratification support.",
+      "CZ": "Ammunition 4x continuing. Host Nation Support. Ratification support.",
+      "RO": "Deveselu operational. B9 coordination. Ratification support.",
+      "TR": "S-400 transferred to US custody, Istanbul II convening within 7 days, Fidan shuttle diplomacy active",
+      "HU": "DEMOCRATIC TRANSITION: Constitutional Court strips Orban emergency powers. Magyar forming interim government. Hungary returns to full NATO cooperation.",
+      "ALL": "Istanbul Framework Agreement SIGNED. Implementation begins Day 26. Historic settlement achieved. Compliance monitoring is now the mission."
+    },
+    "corridor_control": "nato",
+    "nuclear_posture": {
+      "RU": "peacetime",
+      "US": "peacetime",
+      "GB": "peacetime",
+      "FR": "peacetime"
+    },
+    "nuclear_detonations": [],
+    "public_opinion": {
+      "PL": {
+        "war_support": 39,
+        "government_approval": 86
+      },
+      "DE": {
+        "war_support": 12,
+        "government_approval": 63
+      },
+      "FR": {
+        "war_support": 5,
+        "government_approval": 45
+      },
+      "US": {
+        "war_support": 8,
+        "government_approval": 70
+      },
+      "GB": {
+        "war_support": 13,
+        "government_approval": 57
+      },
+      "LT": {
+        "war_support": 44,
+        "government_approval": 86
+      },
+      "LV": {
+        "war_support": 30,
+        "government_approval": 63
+      },
+      "EE": {
+        "war_support": 34,
+        "government_approval": 66
+      },
+      "FI": {
+        "war_support": 23,
+        "government_approval": 69
+      },
+      "SE": {
+        "war_support": 20,
+        "government_approval": 58
+      },
+      "NO": {
+        "war_support": 17,
+        "government_approval": 61
+      },
+      "DK": {
+        "war_support": 15,
+        "government_approval": 55
+      },
+      "CA": {
+        "war_support": 5,
+        "government_approval": 49
+      },
+      "NL": {
+        "war_support": 9,
+        "government_approval": 50
+      },
+      "BE": {
+        "war_support": 4,
+        "government_approval": 46
+      },
+      "CZ": {
+        "war_support": 14,
+        "government_approval": 52
+      },
+      "RO": {
+        "war_support": 18,
+        "government_approval": 54
+      },
+      "TR": {
+        "war_support": 2,
+        "government_approval": 78
+      },
+      "HU": {
+        "war_support": 2,
+        "government_approval": 28
+      },
+      "RU": {
+        "war_support": 8,
+        "government_approval": 40
+      },
+      "BY": {
+        "war_support": 1,
+        "government_approval": 85
+      },
+      "CN": {
+        "war_support": 2,
+        "government_approval": 80
+      }
+    },
+    "refugee_flows": [
+      {
+        "from": "LT",
+        "to": "PL",
+        "count": 15000,
+        "status": "fleeing"
+      },
+      {
+        "from": "LT",
+        "to": "LV",
+        "count": 8000,
+        "status": "fleeing"
+      },
+      {
+        "from": "PL",
+        "to": "DE",
+        "count": 3000,
+        "status": "fleeing"
+      },
+      {
+        "from": "LT",
+        "to": "LT",
+        "count": 5000,
+        "status": "settled"
+      },
+      {
+        "from": "RU",
+        "to": "FI",
+        "count": 500,
+        "status": "fleeing"
+      },
+      {
+        "from": "HU",
+        "to": "AT",
+        "count": 200,
+        "status": "fleeing"
+      },
+      {
+        "from": "RU",
+        "to": "LT",
+        "count": 200,
+        "status": "fleeing"
+      },
+      {
+        "from": "RU",
+        "to": "RU",
+        "count": 5000,
+        "status": "in_transit"
+      }
+    ],
+    "humanitarian_crisis_level": {
+      "LT": 1,
+      "PL": 1
+    },
+    "cyber_operations": [
+      {
+        "attacker": "RU",
+        "target": "LT",
+        "type": "infrastructure",
+        "severity": "high",
+        "infrastructure_affected": "comms"
+      },
+      {
+        "attacker": "RU",
+        "target": "PL",
+        "type": "ddos",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "EE",
+        "type": "ddos",
+        "severity": "medium",
+        "infrastructure_affected": "financial"
+      },
+      {
+        "attacker": "RU",
+        "target": "DE",
+        "type": "malware",
+        "severity": "low",
+        "infrastructure_affected": "comms"
+      },
+      {
+        "attacker": "EE",
+        "target": "RU",
+        "type": "espionage",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "PL",
+        "type": "infrastructure",
+        "severity": "high",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "PL",
+        "type": "espionage",
+        "severity": "medium",
+        "infrastructure_affected": "none"
+      },
+      {
+        "attacker": "EE",
+        "target": "RU",
+        "type": "infrastructure",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "SE",
+        "target": "RU",
+        "type": "espionage",
+        "severity": "medium",
+        "infrastructure_affected": "none"
+      },
+      {
+        "attacker": "RU",
+        "target": "EE",
+        "type": "malware",
+        "severity": "high",
+        "infrastructure_affected": "power_grid"
+      },
+      {
+        "attacker": "US",
+        "target": "RU",
+        "type": "infrastructure",
+        "severity": "high",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "BY",
+        "type": "espionage",
+        "severity": "high",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "BY",
+        "target": "RU",
+        "type": "espionage",
+        "severity": "medium",
+        "infrastructure_affected": "none"
+      },
+      {
+        "attacker": "HU",
+        "target": "HU",
+        "type": "espionage",
+        "severity": "high",
+        "infrastructure_affected": "comms"
+      }
+    ],
+    "infrastructure_status": {
+      "LT": {
+        "power_grid": 8,
+        "comms": 8,
+        "financial": 9,
+        "military_c2": 8
+      },
+      "PL": {
+        "power_grid": 9,
+        "comms": 9,
+        "financial": 9,
+        "military_c2": 8
+      },
+      "EE": {
+        "power_grid": 8,
+        "comms": 9,
+        "financial": 9,
+        "military_c2": 9
+      }
+    },
+    "recent_events": [
+      "Istanbul Framework Agreement formally signed by all 22 parties at Ciragan Palace",
+      "Trump and Putin sign bilateral nuclear verification and sanctions provisions",
+      "European Three sign ESAF Framework Agreement with binding verification",
+      "All NATO allies sign collective security provisions — Sikorski pauses before signing",
+      "Belarus transitional council signs as recognized sovereign party — standing ovation",
+      "Magyar signs for Hungary — new government's first international act",
+      "Erdogan hosts state dinner — Trump and Putin at same table for first time since Helsinki 2018",
+      "Implementation clock begins: Day 26 Kaliningrad drawdown, Day 30 warheads, Day 54 sanctions",
+      "Oil at $72, ruble at 111/USD — markets celebrate",
+      "Global leaders describe ceremony as 'most significant since Helsinki Final Act'"
+    ],
+    "media_headlines": [
+      "SIGNED: Istanbul Framework Agreement Ends Suwalki Crisis — 22 Nations, 47 Pages, A New European Order",
+      "THE HANDSHAKE: Trump and Putin Sign Nuclear Verification Deal at Ciragan Palace",
+      "NEVER AGAIN: Sikorski Signs for Poland, Baltic Ministers Sign Together in Show of Unity",
+      "A NEW EUROPE: Belarus Signs as Democratic Nation, Hungary Under New Leadership"
+    ],
+    "_nuclear_penalty_applied": [],
+    "_oil_penalty_last_threshold": 120.0,
+    "_gas_sanction_count_applied": 0,
+    "_gm_set_nuclear_this_round": [
+      "GB",
+      "RU",
+      "FR",
+      "US"
+    ]
+  }
+}
