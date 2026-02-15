@@ -71,27 +71,45 @@ python run.py play --preset full
 
 ### View Results
 
-**Option 1: Python Dashboard**
+Two viewers available:
+
+#### 📊 Production Viewer (Recommended)
+
+Full-featured static viewer with charts, runs on GitHub Pages:
 
 ```bash
-# Start web viewer
+# Local development:
+python3 -m http.server 8081
+# Open: http://localhost:8081/viewer_static_demo/production.html
+
+# Live on GitHub Pages:
+# https://romantsisyk.github.io/multi-agent-simulation-engine/viewer_static_demo/production.html
+```
+
+**Features:**
+- Line charts for oil prices, nuclear posture, war support
+- Military balance visualization
+- All 5 simulation runs
+- 30 rounds each
+- Zero backend required
+
+#### 🔧 Analytics Viewer (Local Only)
+
+Rich analytics dashboard with country breakdown. Requires Python server:
+
+```bash
+# Start backend:
 python run.py view logs/game_XXXXX
 
-# Open browser to http://localhost:8000
+# Open: http://localhost:8080/
 ```
 
-**Option 2: Static Viewer (GitHub Pages Compatible)**
-
-```bash
-# No dependencies required. Open in browser:
-viewer_static_demo/index.html
-
-# Or deploy to GitHub Pages:
-# Enable Pages in repo settings (main branch, root directory)
-# Viewer will be available at: https://romantsisyk.github.io/multi-agent-simulation-engine/viewer_static_demo/
-```
-
-No backend required. All simulation data is stored as static JSON logs. Ideal for sharing simulations or lightweight inspection of game logs.
+**Features:**
+- Real-time Chart.js visualizations
+- Country-by-country analysis
+- Timeline visualization
+- Escalation tracking
+- Requires FastAPI backend
 
 ---
 
