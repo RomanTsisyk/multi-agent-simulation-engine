@@ -1,0 +1,1048 @@
+{
+  "round": 7,
+  "runner": "claude-code",
+  "briefing": "Round 8 will open under humanitarian pause. For 72 hours (Days 4-5 game time), Belarus and Russian forces hold ceasefire lines while 7,000 Lithuanian civilians evacuate through Polish-Belarus humanitarian corridor. Turkey hosts emergency ceasefire talks in Ankara involving: NATO (US, Poland, Germany, Baltics), Russia, Belarus, UN observers, China observer. The geopolitical landscape has shifted decisively. US political crisis demands exit (campaign narrative: 'rescued civilians, achieved military success, negotiating from strength'). Germany's coalition survives if Scholz can claim diplomatic victory. Russia preserves Kaliningrad-Belarus connection while claiming 'NATO forced to negotiate as equals.' Key challenge: Can ceasefire hold through talks window? Secondary military actions likely continue (cyber ops, low-level posturing) but major kinetic operations are suspended. Public opinion pressures ease slightly as humanitarian narrative dominates. The game enters denouement phase: either ceasefire holds and negotiated settlement emerges, or fragile pause collapses and final escalation crisis erupts.",
+  "narrative": "Round 7 marks the inflection point toward de-escalation. NATO SEAD operations destroyed all Russian S-400/S-300 air defenses in Kaliningrad, establishing air superiority at massive cost (4 NATO aircraft lost). France's tactical nuclear threat and direct hotline message to Putin signaled the alliance's readiness to escalate to the nuclear threshold. Simultaneously, political pressures mounted catastrophically: US war support collapsed to 12%, Germany's coalition threatened dissolution, and the humanitarian crisis\u20147,000 Lithuanian civilians trapped behind Belarusian lines\u2014became the moral centroid of geopolitical calculation. Russia's response was strategically astute: Vladimir Putin signaled ceasefire willingness through Turkish and Chinese back-channels, while the Russian Western District held defensive positions 50km from the Polish border (signaling readiness without commitment). Belarus, having suffered 115 casualties and 15 destroyed artillery pieces, halted its offensive. This convergence created unprecedented diplomatic opportunity. Every major player\u2014US seeking offramp, Germany facing coalition collapse, Russia detecting NATO fracture, Turkey offering mediation, even China positioning as observer\u2014moved toward negotiation. Poland balanced holding the Suwalki corridor with demands for permanent security guarantees. The Baltic states, particularly Lithuania, reframed the crisis as humanitarian emergency, leveraging the trapped civilians as moral pressure for ceasefire. The Nordic countries coordinated internally while supporting diplomatic solution. All movements coalesced toward 48-72 hour humanitarian pause followed by ceasefire talks in Ankara within 7 days. Russia framed this as negotiation from strength; NATO interpreted it as military success (air superiority achieved) enabling diplomatic off-ramp; smaller states extracted commitments for permanent forward presence post-ceasefire.",
+  "country_decisions": [
+    {
+      "country": "PL",
+      "actions": [
+        "Hold corridor",
+        "Negotiate humanitarian corridor",
+        "Demand permanent security guarantees",
+        "Deploy rear companies for evacuation security"
+      ]
+    },
+    {
+      "country": "LT",
+      "actions": [
+        "Demand humanitarian ceasefire",
+        "Support Turkey-mediated talks",
+        "Mobilize media on humanitarian crisis",
+        "Prepare civilian evacuation"
+      ]
+    },
+    {
+      "country": "LV",
+      "actions": [
+        "Maintain defensive mobilization",
+        "Enforce no-fly zone with Canadian support",
+        "Condition ceasefire on permanent NATO presence",
+        "Coordinate information warfare with Estonia"
+      ]
+    },
+    {
+      "country": "EE",
+      "actions": [
+        "Continue cyber operations",
+        "Maintain offensive readiness posture",
+        "Support NATO ceasefire conditional on permanence",
+        "Propose cyber Article 5 formalization"
+      ]
+    },
+    {
+      "country": "US",
+      "actions": [
+        "Propose 72-hour humanitarian pause",
+        "Condition ceasefire on Russian withdrawal",
+        "Accelerate troop deployments",
+        "Propose UN peacekeeping framework"
+      ]
+    },
+    {
+      "country": "GB",
+      "actions": [
+        "Maintain offensive posture",
+        "Support ceasefire conditional on permanence",
+        "Propose NATO-Russia military hotline",
+        "Accelerate JEF mobilization"
+      ]
+    },
+    {
+      "country": "FR",
+      "actions": [
+        "De-escalate nuclear posture",
+        "Deploy Charles de Gaulle carrier",
+        "Propose EU-led mediation",
+        "Condition ceasefire on NATO permanence"
+      ]
+    },
+    {
+      "country": "DE",
+      "actions": [
+        "Publicly commit to ceasefire negotiations",
+        "Condition German presence on treaty guarantees",
+        "Propose EU humanitarian fund \u20ac500M",
+        "Accelerate armored brigade deployment"
+      ]
+    },
+    {
+      "country": "FI",
+      "actions": [
+        "Maintain elevated readiness",
+        "Support ceasefire with permanent NATO",
+        "Deploy reserves to Karelia",
+        "Propose Nordic verification mechanism"
+      ]
+    },
+    {
+      "country": "SE",
+      "actions": [
+        "Support Nordic defense coordination",
+        "Commit Gripens to NATO air ops",
+        "Support Nordic post-ceasefire architecture",
+        "Support Finnish verification proposal"
+      ]
+    },
+    {
+      "country": "NO",
+      "actions": [
+        "Support Nordic coordination",
+        "Maintain Arctic air defense alert",
+        "Commit to Nordic verification mechanism",
+        "Propose Arctic Council dialogue"
+      ]
+    },
+    {
+      "country": "DK",
+      "actions": [
+        "Support Nordic coordination",
+        "Maintain Baltic air assets",
+        "Support Nordic verification mechanism",
+        "Support Nordic post-ceasefire security"
+      ]
+    },
+    {
+      "country": "CA",
+      "actions": [
+        "Reaffirm NATO commitment",
+        "Condition presence on NATO permanence",
+        "Propose multinational peacekeeping force",
+        "Position for post-ceasefire stabilization leadership"
+      ]
+    },
+    {
+      "country": "NL",
+      "actions": [
+        "Support ceasefire framework",
+        "Deploy F-16 fighters",
+        "Support EU humanitarian fund",
+        "Propose participation in stabilization force"
+      ]
+    },
+    {
+      "country": "BE",
+      "actions": [
+        "Support ceasefire framework",
+        "Deploy logistics support",
+        "Support EU humanitarian fund",
+        "Support NATO deterrence"
+      ]
+    },
+    {
+      "country": "CZ",
+      "actions": [
+        "Support ceasefire",
+        "Condition participation on NATO permanence",
+        "Propose Visegr\u00e1d defense coordination",
+        "Support Central European security architecture"
+      ]
+    },
+    {
+      "country": "RO",
+      "actions": [
+        "Support ceasefire",
+        "Demand permanent NATO presence",
+        "Propose Romania as force rotation staging area",
+        "Maintain Black Sea readiness"
+      ]
+    },
+    {
+      "country": "RU",
+      "actions": [
+        "Signal ceasefire willingness",
+        "Propose humanitarian corridor",
+        "Demand mutual withdrawal framework",
+        "Position Turkey and China as mediators"
+      ]
+    },
+    {
+      "country": "BY",
+      "actions": [
+        "Halt offensive immediately",
+        "Announce 72-hour humanitarian corridor",
+        "Offer Belarus as neutral mediation venue",
+        "Negotiate prisoner exchange with Lithuania"
+      ]
+    },
+    {
+      "country": "TR",
+      "actions": [
+        "Activate full mediation role",
+        "Propose 72-hour pause then talks",
+        "Offer Turkish security guarantees",
+        "Position as post-ceasefire dialogue mediator"
+      ]
+    },
+    {
+      "country": "HU",
+      "actions": [
+        "Support NATO ceasefire",
+        "Propose Budapest alternative venue",
+        "Maintain strategic ambiguity",
+        "Propose Danube economic framework"
+      ]
+    },
+    {
+      "country": "CN",
+      "actions": [
+        "Accept observer role",
+        "Propose China-mediated stability mechanisms",
+        "Advocate multipolarity outcomes",
+        "Monitor US-Russia relations"
+      ]
+    }
+  ],
+  "resolution": {
+    "narrative": "Round 7 marks the inflection point toward de-escalation. NATO SEAD operations destroyed all Russian S-400/S-300 air defenses in Kaliningrad, establishing air superiority at massive cost (4 NATO aircraft lost). France's tactical nuclear threat and direct hotline message to Putin signaled the alliance's readiness to escalate to the nuclear threshold. Simultaneously, political pressures mounted catastrophically: US war support collapsed to 12%, Germany's coalition threatened dissolution, and the humanitarian crisis\u20147,000 Lithuanian civilians trapped behind Belarusian lines\u2014became the moral centroid of geopolitical calculation. Russia's response was strategically astute: Vladimir Putin signaled ceasefire willingness through Turkish and Chinese back-channels, while the Russian Western District held defensive positions 50km from the Polish border (signaling readiness without commitment). Belarus, having suffered 115 casualties and 15 destroyed artillery pieces, halted its offensive. This convergence created unprecedented diplomatic opportunity. Every major player\u2014US seeking offramp, Germany facing coalition collapse, Russia detecting NATO fracture, Turkey offering mediation, even China positioning as observer\u2014moved toward negotiation. Poland balanced holding the Suwalki corridor with demands for permanent security guarantees. The Baltic states, particularly Lithuania, reframed the crisis as humanitarian emergency, leveraging the trapped civilians as moral pressure for ceasefire. The Nordic countries coordinated internally while supporting diplomatic solution. All movements coalesced toward 48-72 hour humanitarian pause followed by ceasefire talks in Ankara within 7 days. Russia framed this as negotiation from strength; NATO interpreted it as military success (air superiority achieved) enabling diplomatic off-ramp; smaller states extracted commitments for permanent forward presence post-ceasefire.",
+    "world_state_updates": {
+      "game_time": "Day 4, 12:00 CET",
+      "military_units_add": [],
+      "military_units_remove": [],
+      "military_units_update": [
+        {
+          "name": "russian_kaliningrad_forces",
+          "location": "Kaliningrad",
+          "readiness": 4,
+          "strength": 1,
+          "casualties": 140,
+          "supply_level": 8,
+          "morale": 1
+        },
+        {
+          "name": "russian_western_district",
+          "location": "60km from Polish border",
+          "readiness": 8,
+          "strength": 8,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 6
+        },
+        {
+          "name": "belarus_forces",
+          "location": "Lithuania (offensive halted, consolidating)",
+          "readiness": 3,
+          "strength": 1,
+          "casualties": 120,
+          "supply_level": 7,
+          "morale": 1
+        },
+        {
+          "name": "nato_efp_lithuania",
+          "location": "Lithuania (Vilnius approaches)",
+          "readiness": 7,
+          "strength": 1,
+          "supply_level": 7,
+          "casualties": 50,
+          "morale": 3
+        },
+        {
+          "name": "nato_efp_latvia",
+          "location": "Latvia",
+          "readiness": 8,
+          "strength": 7,
+          "supply_level": 9,
+          "casualties": 0,
+          "morale": 8
+        },
+        {
+          "name": "nato_efp_estonia",
+          "location": "Estonia",
+          "readiness": 8,
+          "strength": 6,
+          "supply_level": 9,
+          "casualties": 0,
+          "morale": 8
+        },
+        {
+          "name": "polish_forces",
+          "location": "Suwalki corridor (holding)",
+          "readiness": 7,
+          "strength": 1,
+          "supply_level": 7,
+          "casualties": 200,
+          "morale": 3
+        },
+        {
+          "name": "us_f16_squadron_europe",
+          "location": "Ramstein AB",
+          "readiness": 5,
+          "strength": 1,
+          "supply_level": 9,
+          "casualties": 5,
+          "morale": 3
+        }
+      ],
+      "military_alerts": {
+        "BY": "ceasefire_pause",
+        "DE": "ceasefire_negotiation",
+        "EE": "elevated_readiness_but_ceasefire",
+        "FI": "elevated_readiness_but_ceasefire",
+        "FR": "tactical_nuclear_standdown",
+        "GB": "elevated_readiness_but_ceasefire",
+        "LT": "humanitarian_priority_ceasefire",
+        "LV": "elevated_readiness_but_ceasefire",
+        "NATO": "article5_ceasefire_pause",
+        "PL": "hold_and_negotiate",
+        "RU": "defensive_ceasefire_pause",
+        "SE": "elevated_readiness_but_ceasefire",
+        "US": "active_ceasefire_pause"
+      },
+      "markets": {
+        "oil_price": 110.0,
+        "euro_usd": 0.99
+      },
+      "sanctions_add": [],
+      "trade_disruptions_add": [],
+      "diplomatic_relations": {
+        "DE": {
+          "NATO": 2,
+          "PL": 0,
+          "RU": -2,
+          "US": 1
+        },
+        "FR": {
+          "NATO": 3,
+          "RU": -4,
+          "US": 1
+        },
+        "GB": {
+          "NATO": 4,
+          "RU": -4,
+          "US": 1
+        },
+        "PL": {
+          "BY": -3,
+          "DE": 1,
+          "NATO": 3,
+          "RU": -3,
+          "US": 5
+        },
+        "US": {
+          "DE": 1,
+          "NATO": 4,
+          "RU": -4
+        },
+        "LT": {
+          "NATO": 3,
+          "RU": -4
+        },
+        "LV": {
+          "NATO": 3,
+          "RU": -4
+        },
+        "RU": {
+          "DE": -1,
+          "EU": -3,
+          "NATO": -3,
+          "PL": -3,
+          "US": -4
+        }
+      },
+      "treaties_invoked_add": [],
+      "un_resolutions_add": [
+        {
+          "number": "2026/03",
+          "sponsor": "TR",
+          "title": "Emergency Humanitarian Ceasefire and Civilian Evacuation Protocol for Baltic Crisis",
+          "status": "passed_with_unanimous_support"
+        }
+      ],
+      "nato_alert_level": "article5_ceasefire",
+      "nato_consensus": {
+        "DE": "ceasefire_negotiation",
+        "EE": "ceasefire_with_permanence",
+        "FR": "ceasefire_with_deterrence",
+        "GB": "ceasefire_with_forward_presence",
+        "LT": "humanitarian_ceasefire",
+        "LV": "ceasefire_with_permanence",
+        "NATO": "article5_ceasefire_pause",
+        "PL": "ceasefire_with_guarantees",
+        "US": "ceasefire_seeking"
+      },
+      "nuclear_posture": {
+        "FR": "elevated",
+        "GB": "elevated",
+        "RU": "elevated",
+        "US": "elevated"
+      },
+      "nuclear_detonations_add": [],
+      "public_opinion": {
+        "BY": {
+          "war_support": 35,
+          "gov_approval": 48
+        },
+        "DE": {
+          "war_support": 25,
+          "gov_approval": 35
+        },
+        "EE": {
+          "war_support": 80,
+          "gov_approval": 62
+        },
+        "FR": {
+          "war_support": 42,
+          "gov_approval": 50
+        },
+        "GB": {
+          "war_support": 52,
+          "gov_approval": 58
+        },
+        "LT": {
+          "war_support": 80,
+          "gov_approval": 65
+        },
+        "LV": {
+          "war_support": 78,
+          "gov_approval": 60
+        },
+        "PL": {
+          "war_support": 75,
+          "gov_approval": 70
+        },
+        "RU": {
+          "war_support": 52,
+          "gov_approval": 65
+        },
+        "US": {
+          "war_support": 28,
+          "gov_approval": 48
+        }
+      },
+      "refugee_flows_add": [
+        {
+          "from": "LT",
+          "to": "PL",
+          "count": 6000,
+          "status": "evacuating_via_humanitarian_corridor"
+        }
+      ],
+      "humanitarian_crisis_level": {
+        "BY": 4,
+        "LT": 5,
+        "RU": 4
+      },
+      "cyber_operations_add": [
+        {
+          "attacker": "EE",
+          "target": "RU",
+          "type": "infrastructure",
+          "severity": "high",
+          "infrastructure_affected": "financial"
+        },
+        {
+          "attacker": "GB",
+          "target": "RU",
+          "type": "espionage",
+          "severity": "high",
+          "infrastructure_affected": "military_c2"
+        }
+      ],
+      "infrastructure_status": {
+        "LT": {
+          "power_grid": 8,
+          "comms": 6,
+          "financial": 10,
+          "military_c2": 7
+        },
+        "NATO": {
+          "power_grid": 10,
+          "comms": 10,
+          "financial": 9,
+          "military_c2": 8
+        },
+        "PL": {
+          "power_grid": 10,
+          "comms": 10,
+          "financial": 9,
+          "military_c2": 10
+        },
+        "RU": {
+          "power_grid": 6,
+          "comms": 10,
+          "financial": 2,
+          "military_c2": 8
+        }
+      },
+      "corridor_control": "contested",
+      "recent_events": [
+        "NATO air supremacy achieved - all Russian S-400/S-300 systems in Kaliningrad destroyed",
+        "Russia signals ceasefire willingness through Turkish and Chinese back-channels",
+        "Belarus halts offensive, opens humanitarian corridor for trapped Lithuanian civilians",
+        "Germany's coalition government stabilized by ceasefire announcement",
+        "US public opinion shifts: 'rescue missions' narrative replaces 'escalation' narrative",
+        "UN Security Council passes emergency humanitarian ceasefire resolution",
+        "Turkey and China agree to mediate talks in Ankara",
+        "Franco-British nuclear coordination holds deterrent but de-escalates rhetoric",
+        "Lithuania evacuates 6,000 civilians through Polish humanitarian corridor within 24 hours",
+        "Oil prices moderate to $110 on ceasefire optimism; markets stabilize slightly"
+      ],
+      "media_headlines": [
+        "NATO AIR VICTORY: Russian air defenses destroyed, ceasefire announced as military balance shifts",
+        "HUMANITARIAN CORRIDOR OPENS: 6,000+ Lithuanians evacuate through Poland-Belarus corridor in first 24 hours",
+        "PEACE TALKS IN 48 HOURS: Turkey announces Ankara summit with US, Russia, NATO, China observers",
+        "US WAR SUPPORT SURGES: Americans approve 'rescue civilians, negotiate peace' strategy as opposition collapses",
+        "GERMAN COALITION SAVED: Scholz claims diplomatic victory as coalition partners reverse withdrawal threats",
+        "PUTIN SIGNALS OFFRAMP: Russia displays willingness to negotiate from strength, Western District holds defensive",
+        "FRANCE DE-ESCALATES NUCLEAR THREAT: Tactical readiness maintained but rhetoric shifts toward diplomatic solution",
+        "MARKETS RALLY ON CEASEFIRE HOPES: Oil drops to $110, Euro recovers to $0.99 on de-escalation sentiment"
+      ],
+      "round_number": 7
+    },
+    "events": [
+      "NATO SEAD operation destroys remaining Russian air defense systems in Kaliningrad; 4 NATO aircraft destroyed/damaged",
+      "Russia signals willingness for ceasefire through Turkish and Chinese mediation channels",
+      "Germany's coalition government stabilized by announcement of diplomatic off-ramp",
+      "US war support increases from 12% to 28% on 'rescue civilians, negotiate peace' narrative",
+      "Belarus forces halt offensive in Lithuania; Lukashenko orders humanitarian corridor opening",
+      "7,000+ Lithuanian civilians evacuate through Poland-Belarus humanitarian corridor within 24-36 hours",
+      "UN Security Council unanimously passes emergency humanitarian ceasefire resolution",
+      "Turkey and China agree to mediate Ankara talks; invitations extended to all parties",
+      "France de-escalates nuclear threat; maintains elevated readiness but reduces rhetoric",
+      "Oil prices moderate from $125 to $110; markets show stabilization on ceasefire optimism"
+    ],
+    "headlines": [
+      "NATO AIR VICTORY: Russian air defenses destroyed, ceasefire announced as military balance shifts",
+      "HUMANITARIAN CORRIDOR OPENS: 6,000+ Lithuanians evacuate through Poland-Belarus corridor in first 24 hours",
+      "PEACE TALKS IN 48 HOURS: Turkey announces Ankara summit with US, Russia, NATO, China observers",
+      "US WAR SUPPORT SURGES: Americans approve 'rescue civilians, negotiate peace' strategy as opposition collapses",
+      "GERMAN COALITION SAVED: Scholz claims diplomatic victory as coalition partners reverse withdrawal threats",
+      "PUTIN SIGNALS OFFRAMP: Russia displays willingness to negotiate from strength, Western District holds defensive",
+      "FRANCE DE-ESCALATES NUCLEAR THREAT: Tactical readiness maintained but rhetoric shifts toward diplomatic solution",
+      "MARKETS RALLY ON CEASEFIRE HOPES: Oil drops to $110, Euro recovers to $0.99 on de-escalation sentiment"
+    ],
+    "surprises": [
+      "Lukashenko's rapid humanitarian corridor opening faster than expected - 6,000 civilians evacuate in 24 hours instead of projected 48, suggesting Belarus leadership desire to exit conflict quickly",
+      "US domestic political shift more dramatic than anticipated - networks shift from 'abandonment' framing to 'rescue mission' framing, boosting war support from 12% to 28%, giving Trump administration credibility for exit"
+    ]
+  },
+  "world_state_after": {
+    "round_number": 7,
+    "game_time": "Day 4, 12:00 CET",
+    "military_units": [
+      {
+        "name": "russian_kaliningrad_forces",
+        "country": "RU",
+        "type": "ground",
+        "location": "Kaliningrad",
+        "readiness": 4,
+        "strength": 1,
+        "casualties": 140,
+        "supply_level": 8,
+        "morale": 1,
+        "_last_casualty_morale_applied": 70,
+        "_last_casualty_strength_applied": 70
+      },
+      {
+        "name": "russian_western_district",
+        "country": "RU",
+        "type": "ground",
+        "location": "60km from Polish border",
+        "readiness": 8,
+        "strength": 8,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 6,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "belarus_forces",
+        "country": "BY",
+        "type": "ground",
+        "location": "Lithuania (offensive halted, consolidating)",
+        "readiness": 3,
+        "strength": 1,
+        "casualties": 120,
+        "supply_level": 7,
+        "morale": 1,
+        "_last_casualty_morale_applied": 60,
+        "_last_casualty_strength_applied": 60
+      },
+      {
+        "name": "nato_efp_lithuania",
+        "country": "DE",
+        "type": "ground",
+        "location": "Lithuania (Vilnius approaches)",
+        "readiness": 7,
+        "strength": 1,
+        "casualties": 50,
+        "supply_level": 7,
+        "morale": 3,
+        "_last_casualty_morale_applied": 25,
+        "_last_casualty_strength_applied": 25
+      },
+      {
+        "name": "nato_efp_latvia",
+        "country": "CA",
+        "type": "ground",
+        "location": "Latvia",
+        "readiness": 8,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_estonia",
+        "country": "GB",
+        "type": "ground",
+        "location": "Estonia",
+        "readiness": 8,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "Poland (supporting logistics and air defense)",
+        "readiness": 8,
+        "strength": 1,
+        "casualties": 25,
+        "supply_level": 8,
+        "morale": 3,
+        "_last_casualty_morale_applied": 12,
+        "_last_casualty_strength_applied": 12
+      },
+      {
+        "name": "us_forces_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "Poland (deployed to support Polish advance)",
+        "readiness": 9,
+        "strength": 1,
+        "casualties": 30,
+        "supply_level": 9,
+        "morale": 3,
+        "_last_casualty_morale_applied": 15,
+        "_last_casualty_strength_applied": 15
+      },
+      {
+        "name": "polish_forces",
+        "country": "PL",
+        "type": "ground",
+        "location": "Suwalki corridor (holding)",
+        "readiness": 7,
+        "strength": 1,
+        "casualties": 200,
+        "supply_level": 7,
+        "morale": 3,
+        "_last_casualty_morale_applied": 100,
+        "_last_casualty_strength_applied": 100
+      },
+      {
+        "name": "finnish_forces",
+        "country": "FI",
+        "type": "ground",
+        "location": "Finland",
+        "readiness": 7,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "us_f16_squadron_europe",
+        "country": "US",
+        "type": "air",
+        "location": "Ramstein AB",
+        "readiness": 5,
+        "strength": 1,
+        "casualties": 5,
+        "supply_level": 9,
+        "morale": 2,
+        "_last_casualty_morale_applied": 2,
+        "_last_casualty_strength_applied": 2
+      },
+      {
+        "name": "poland_3rd_brigade_suwalki",
+        "country": "PL",
+        "type": "ground",
+        "location": "Suwalki corridor (10km rear)",
+        "readiness": 7,
+        "strength": 1,
+        "casualties": 50,
+        "supply_level": 7,
+        "morale": 2,
+        "_last_casualty_morale_applied": 25,
+        "_last_casualty_strength_applied": 25
+      },
+      {
+        "name": "nato_cyber_defense_command",
+        "country": "NATO",
+        "type": "cyber",
+        "location": "Various (cyber)",
+        "readiness": 8,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "us_101st_airborne",
+        "country": "US",
+        "type": "ground",
+        "location": "Germany (deploying to Poland, arrival Day 5)",
+        "readiness": 9,
+        "strength": 8,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "german_armored_brigade",
+        "country": "DE",
+        "type": "ground",
+        "location": "Germany (deploying to Poland, arrival Day 6)",
+        "readiness": 7,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "french_carrier_charles_de_gaulle",
+        "country": "FR",
+        "type": "naval",
+        "location": "North Sea (deploying to Baltic, arrival Day 5)",
+        "readiness": 9,
+        "strength": 8,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      }
+    ],
+    "military_alerts": {
+      "russian_kaliningrad_forces": "3 BTGs forward-deployed, Baltic Fleet active, S-400 systems operational",
+      "russian_western_district": "Additional forces on standby, 200km from border",
+      "belarus_forces": "2 brigades near Lithuanian border, unclear intent",
+      "nato_efp_lithuania": "German-led battlegroup (~1200 troops), on alert",
+      "nato_efp_latvia": "Canadian-led battlegroup (~1500 troops)",
+      "nato_efp_estonia": "UK-led battlegroup (~1200 troops)",
+      "nato_efp_poland": "US-led battlegroup (~1000 troops) + Polish forces",
+      "us_forces_poland": "Camp Kosciuszko, V Corps HQ, ~10,000 personnel",
+      "polish_forces": "4 divisions on elevated readiness, largest military in EU",
+      "finnish_forces": "Reserves on standby, border monitoring increased",
+      "RU": "defensive_ceasefire_pause",
+      "US": "active_ceasefire_pause",
+      "PL": "hold_and_negotiate",
+      "LT": "humanitarian_priority_ceasefire",
+      "LV": "elevated_readiness_but_ceasefire",
+      "EE": "elevated_readiness_but_ceasefire",
+      "NATO": "article5_ceasefire_pause",
+      "DE": "ceasefire_negotiation",
+      "FR": "tactical_nuclear_standdown",
+      "GB": "elevated_readiness_but_ceasefire",
+      "FI": "elevated_readiness_but_ceasefire",
+      "SE": "elevated_readiness_but_ceasefire",
+      "BY": "ceasefire_pause"
+    },
+    "markets": {
+      "oil_price": 110.0,
+      "euro_usd": 0.99,
+      "gas_price_eu": 11.2,
+      "stock_indices": "nervous, -2% on reports",
+      "stock_indices_change": -8.0
+    },
+    "sanctions": [
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "secondary_sanctions_on_financial_sector"
+      },
+      {
+        "from": "EU",
+        "target": "RU",
+        "type": "additional_energy_sector_restrictions"
+      },
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "complete_financial_freeze_and_technology_sanctions"
+      },
+      {
+        "from": "EU",
+        "target": "RU",
+        "type": "complete_energy_sector_embargo"
+      }
+    ],
+    "trade_disruptions": [
+      "Shipping insurance premiums in Baltic Sea rise 200-300% due to military presence",
+      "Baltic shipping closed to non-military vessels",
+      "Russian financial system isolated",
+      "EU energy imports from Russia cut"
+    ],
+    "diplomatic_relations": {
+      "RU": {
+        "US": -4,
+        "PL": -3,
+        "NATO": -3,
+        "DE": -1,
+        "EU": -3
+      },
+      "US": {
+        "RU": -4,
+        "DE": 1,
+        "NATO": 4
+      },
+      "DE": {
+        "RU": -2,
+        "NATO": 2,
+        "US": 1,
+        "PL": 0
+      },
+      "PL": {
+        "DE": 1,
+        "US": 5,
+        "RU": -3,
+        "NATO": 3,
+        "BY": -3
+      },
+      "FR": {
+        "RU": -4,
+        "NATO": 3,
+        "US": 1
+      },
+      "GB": {
+        "RU": -4,
+        "NATO": 4,
+        "US": 1
+      },
+      "EE": {
+        "RU": -5
+      },
+      "LT": {
+        "NATO": 3,
+        "RU": -4
+      },
+      "LV": {
+        "NATO": 3,
+        "RU": -4
+      },
+      "TR": {
+        "RU": 1,
+        "US": 1,
+        "NATO": 2
+      }
+    },
+    "treaties_invoked": [
+      "NATO Article 5 (Lithuania, Latvia, Estonia)",
+      "{'treaty': 'NATO_ARTICLE_5', 'invoked_by': ['LT', 'LV', 'EE'], 'status': 'active_with_disputed_implementation'}"
+    ],
+    "un_resolutions": [
+      "{'number': '2025/12', 'sponsor': 'US', 'title': 'Urgent Humanitarian Assistance for Lithuanian Displacement Crisis', 'status': 'in_negotiation'}",
+      "{'number': '2026/02', 'sponsor': 'TR', 'title': 'Emergency Ceasefire and Humanitarian Corridors for Baltic Crisis', 'status': 'emergency_session_called'}",
+      "{'number': '2026/03', 'sponsor': 'TR', 'title': 'Emergency Humanitarian Ceasefire and Civilian Evacuation Protocol for Baltic Crisis', 'status': 'passed_with_unanimous_support'}"
+    ],
+    "nato_alert_level": "article5",
+    "nato_consensus": {
+      "US": "ceasefire_seeking",
+      "LT": "humanitarian_ceasefire",
+      "LV": "ceasefire_with_permanence",
+      "EE": "ceasefire_with_permanence",
+      "GB": "ceasefire_with_forward_presence",
+      "FR": "ceasefire_with_deterrence",
+      "DE": "ceasefire_negotiation",
+      "PL": "ceasefire_with_guarantees",
+      "NATO": "article5_ceasefire_pause"
+    },
+    "corridor_control": "contested",
+    "nuclear_posture": {
+      "RU": "elevated",
+      "US": "elevated",
+      "GB": "elevated",
+      "FR": "elevated"
+    },
+    "nuclear_detonations": [],
+    "public_opinion": {
+      "PL": {
+        "war_support": 75,
+        "government_approval": 66,
+        "gov_approval": 70
+      },
+      "DE": {
+        "war_support": 25,
+        "government_approval": 28,
+        "gov_approval": 35
+      },
+      "FR": {
+        "war_support": 42,
+        "government_approval": 42,
+        "gov_approval": 50
+      },
+      "US": {
+        "war_support": 28,
+        "government_approval": 40,
+        "gov_approval": 48
+      },
+      "GB": {
+        "war_support": 52,
+        "government_approval": 53,
+        "gov_approval": 58
+      },
+      "LT": {
+        "war_support": 80,
+        "government_approval": 59,
+        "gov_approval": 65
+      },
+      "LV": {
+        "war_support": 78,
+        "government_approval": 55,
+        "gov_approval": 60
+      },
+      "EE": {
+        "war_support": 80,
+        "government_approval": 60,
+        "gov_approval": 62
+      },
+      "RU": {
+        "war_support": 52,
+        "government_approval": 62,
+        "gov_approval": 65
+      },
+      "BY": {
+        "war_support": 35,
+        "gov_approval": 48
+      }
+    },
+    "refugee_flows": [
+      {
+        "from": "LT",
+        "to": "PL",
+        "count": 5000,
+        "status": "in_transit"
+      },
+      {
+        "from": "LT",
+        "to": "RU_occupied_zone",
+        "count": 7000,
+        "status": "trapped_behind_belarusian_lines"
+      },
+      {
+        "from": "PL_border",
+        "to": "PL_interior",
+        "count": 5000,
+        "status": "evacuated"
+      }
+    ],
+    "humanitarian_crisis_level": {
+      "LT": 5,
+      "BY": 4,
+      "RU": 4
+    },
+    "cyber_operations": [
+      {
+        "attacker": "RU",
+        "target": "LT",
+        "type": "infrastructure",
+        "severity": "medium",
+        "infrastructure_affected": "comms"
+      },
+      {
+        "attacker": "EE",
+        "target": "RU",
+        "type": "infrastructure",
+        "severity": "high",
+        "infrastructure_affected": "power_grid"
+      },
+      {
+        "attacker": "RU",
+        "target": "NATO",
+        "type": "infrastructure",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "GB",
+        "target": "RU",
+        "type": "espionage",
+        "severity": "high",
+        "infrastructure_affected": "military_c2"
+      }
+    ],
+    "infrastructure_status": {
+      "LT": {
+        "power_grid": 8,
+        "comms": 6,
+        "financial": 10,
+        "military_c2": 7
+      },
+      "PL": {
+        "power_grid": 10,
+        "comms": 10,
+        "financial": 9,
+        "military_c2": 10
+      },
+      "RU": {
+        "power_grid": 6,
+        "comms": 10,
+        "financial": 2,
+        "military_c2": 8
+      },
+      "NATO": {
+        "power_grid": 10,
+        "comms": 10,
+        "financial": 9,
+        "military_c2": 8
+      }
+    },
+    "recent_events": [
+      "NATO air supremacy achieved - all Russian S-400/S-300 systems in Kaliningrad destroyed",
+      "Russia signals ceasefire willingness through Turkish and Chinese back-channels",
+      "Belarus halts offensive, opens humanitarian corridor for trapped Lithuanian civilians",
+      "Germany's coalition government stabilized by ceasefire announcement",
+      "US public opinion shifts: 'rescue missions' narrative replaces 'escalation' narrative",
+      "UN Security Council passes emergency humanitarian ceasefire resolution",
+      "Turkey and China agree to mediate talks in Ankara",
+      "Franco-British nuclear coordination holds deterrent but de-escalates rhetoric",
+      "Lithuania evacuates 6,000 civilians through Polish humanitarian corridor within 24 hours",
+      "Oil prices moderate to $110 on ceasefire optimism; markets stabilize slightly"
+    ],
+    "media_headlines": [
+      "NATO AIR VICTORY: Russian air defenses destroyed, ceasefire announced as military balance shifts",
+      "HUMANITARIAN CORRIDOR OPENS: 6,000+ Lithuanians evacuate through Poland-Belarus corridor in first 24 hours",
+      "PEACE TALKS IN 48 HOURS: Turkey announces Ankara summit with US, Russia, NATO, China observers",
+      "US WAR SUPPORT SURGES: Americans approve 'rescue civilians, negotiate peace' strategy as opposition collapses",
+      "GERMAN COALITION SAVED: Scholz claims diplomatic victory as coalition partners reverse withdrawal threats",
+      "PUTIN SIGNALS OFFRAMP: Russia displays willingness to negotiate from strength, Western District holds defensive",
+      "FRANCE DE-ESCALATES NUCLEAR THREAT: Tactical readiness maintained but rhetoric shifts toward diplomatic solution",
+      "MARKETS RALLY ON CEASEFIRE HOPES: Oil drops to $110, Euro recovers to $0.99 on de-escalation sentiment"
+    ],
+    "_nuclear_penalty_applied": [],
+    "_oil_penalty_last_threshold": 120.0,
+    "_gas_sanction_count_applied": 4,
+    "_gm_set_nuclear_this_round": [
+      "FR",
+      "GB",
+      "RU",
+      "US"
+    ]
+  }
+}

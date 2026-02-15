@@ -1,0 +1,1278 @@
+{
+  "round": 3,
+  "runner": "claude-code",
+  "briefing": "SITUATION BRIEFING — Round 4\n\nIt is Day 1, 22:00 CET → Day 2, 04:00 CET. NATO Article 5 has been INVOKED.\n\nMILITARY: Russian forces continue consolidating corridor defenses — field fortifications, S-400 coverage, EW jamming expanded. NO shots fired at NATO forces. NATO forces mobilizing but NOT yet in contact:\n- Polish 4 divisions on southern border, now with Article 5 authority\n- V Corps fully mobilized at Camp Kościuszko\n- German 45th Panzer Brigade at Rukla — now authorized\n- UK 4th Brigade preparing movement from Estonia\n- French 11th Para Brigade on 24h deployment notice\n- Finnish 2 artillery battalions + MLRS committed\n- Swedish Gotland reinforced, submarine deployed in Baltic\n- USS Ford CSG approaching Baltic (ETA ~30h)\n- Italian Cavour carrier group preparing\n- Dutch 43rd Mech Brigade preparing\n\nNUCLEAR: Russia conducted Yars ICBM readiness check (assessed as performative). No warhead mating detected. NATO nuclear posture remains peacetime.\n\nDIPLOMATIC: Article 5 INVOKED at 23:22 CET — unanimous after Hungary/Turkey extracted concessions. Turkey promised F-35 discussions, Hungary got parallel diplomatic track. US supported conditionally — Europeans lead with ground forces.\n\nGLOBAL: China Taiwan exercises + UNSC veto. DPRK 500K rounds + KN-23 offer to Russia. India mediating. Japan demanding Pacific assurances. Norway tracking Russian Yasen sub.\n\nECONOMIC: Oil $102. Markets crashed 5-7%. Lithuanian financial infrastructure under sustained cyber attack.\n\nCRITICAL: Article 5 is invoked but NO military operations ordered yet. SACEUR must now develop the operational plan. The next 6 hours determine whether NATO responds with force or the invocation remains symbolic.",
+  "narrative": "The six hours between 16:00 and 22:00 CET on Day 1 produced the most consequential NATO vote since the alliance's founding in 1949. But first, the world had to endure a masterclass in brinksmanship from every direction.\n\nAt 18:00, Russia made its boldest psychological move yet. The Strategic Rocket Forces announced a 'routine readiness check' of road-mobile Yars ICBM regiments across three bases. The Kremlin paired this with a public statement reminding the world that Russia's updated nuclear doctrine covered 'any critical threat to territorial integrity, including forces under Russian protection.' The message was unmistakable: Article 5 means nuclear risk. Western intelligence assessed the alert as performative — no actual warhead mating detected — but the signal landed with devastating effect on European public opinion. Germany's war support, already at 22%, began sliding toward 18%.\n\nSimultaneously, Russia's diplomatic machine worked every lever to prevent NATO consensus. Lavrov personally called Szijjártó in Budapest, promising continued TurkStream gas flows and Paks II construction. He called Fidan in Ankara, offering a 'joint Russian-Turkish humanitarian monitoring mission' in the corridor. Both calls lasted over 40 minutes. Moscow also opened a direct backchannel to the Trump administration: 'Putin is prepared for leader-to-leader dialogue. Let us negotiate as the two great powers we are, without European bureaucrats who don't share America's burdens.' The appeal to Trump's well-known transactional instincts was calculated.\n\nBut Russia's opponents were not idle. Between 17:00 and 20:00, a remarkable diplomatic cascade occurred. UK Prime Minister Starmer called Macron and Merz in rapid succession, proposing a joint UK-France-Germany Article 5 invocation regardless of US position. Macron agreed immediately, committing France's 11th Parachute Brigade. Merz, after an intense internal debate — the Chancellery split between diplomatic caution and military necessity — made the decisive call at 19:15 to support Article 5, telling Rubio bluntly: 'I have German soldiers in Lithuania. They are in harm's way. I need to know the United States will do the same. Not tomorrow. Tonight.'\n\nThe trilateral UK-France-Germany coordination changed the calculus in Washington. At 20:00, Rubio received confirmation that all three European powers would invoke Article 5 with or without explicit US backing. The Pentagon had been pushing for commitment all day. The State Department's resistance crumbled when Starmer's message arrived: 'We will lead this operation, but we need the American voice.' At 20:45, the White House authorized Rubio to inform NATO privately that the US would support Article 5 — conditional on Europeans committing majority ground forces and maintaining a diplomatic channel to Moscow.\n\nThe NAC session reconvened at 22:00. The first hour was consumed by Turkey and Hungary's final negotiating gambit. Erdogan, who had spent the afternoon calling both Putin and Trump, presented his conditions: F-35 program reinstatement, CAATSA sanctions relief, and PKK/YPG designation as terrorists. The US, desperate for unanimity, signaled through back-channels that F-35 discussions would be 'accelerated.' At 22:45, Turkey's ambassador withdrew its objections.\n\nHungary held out longer. Orbán, under enormous pressure from the leaked pre-positioning document and facing a coordinated European front, demanded a parallel diplomatic track alongside military preparations. At 23:15 — after personal calls from Meloni, Merz, and a barely veiled threat from Belgium's De Wever about EU budget consequences — Szijjártó announced Hungary would not block consensus but insisted on a formal diplomatic track being recorded in the NAC minutes.\n\nAt 23:22 CET, the North Atlantic Council unanimously invoked Article 5 of the Washington Treaty for the second time in its 77-year history. The first had been September 12, 2001. NATO Secretary General's statement was broadcast live to an estimated 2.1 billion viewers: 'An armed attack against Lithuania is an armed attack against us all.'\n\nBut even as champagne went un-popped in Brussels, the wider world was adding complications. China's PLA Eastern Theater Command launched naval exercises near Taiwan and the Senkaku Islands. North Korea offered Russia 500,000 rounds and 50 KN-23 missiles. A Russian Yasen-class submarine continued its transit through the GIUK gap, now tracked by Norwegian P-8 Poseidons. And in Belgrade, Vučić's government quietly organized protests in northern Kosovo, testing whether NATO's attention had wandered from the Balkans.",
+  "country_decisions": [
+    {
+      "country": "US",
+      "actions": [
+        "V Corps combat-ready, Ford CSG approaching",
+        "Authorized Article 5 support — Europeans lead ground forces",
+        "Maintained backchannel to Moscow"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "GB",
+      "actions": [
+        "Led Article 5 coordination with France and Germany",
+        "JEF activated, 4th Brigade preparing movement",
+        "GCHQ sharing real-time SIGINT"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "FR",
+      "actions": [
+        "Macron committed 11th Para Brigade",
+        "Article 5 invoked publicly before NAC vote",
+        "CdG carrier preparing repositioning"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "DE",
+      "actions": [
+        "Merz committed to Article 5 at 19:15",
+        "45th Panzer at max readiness at Rukla",
+        "Host Nation Support protocols activated"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "PL",
+      "actions": [
+        "18th Mech Division deployed with K2, Abrams, HIMARS",
+        "Nawrocki pressured Trump directly",
+        "Leaked Hungary pre-positioning document"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "LT",
+      "actions": [
+        "Full mobilization: Iron Wolf Brigade, KASP, HIMARS",
+        "Nauseda's emotional Article 5 appeal to NATO",
+        "Invoked EU Article 42.7"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "FI",
+      "actions": [
+        "Committed 2 arty battalions + MLRS + Jaeger battalion",
+        "Partial reserve mobilization",
+        "Stubb leveraged Trump relationship"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "SE",
+      "actions": [
+        "Gotland reinforced as NATO fortress",
+        "Submarine deployed in Baltic",
+        "Gripen fleet on alert"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "RU",
+      "actions": [
+        "Yars ICBM readiness check — nuclear signaling",
+        "Lavrov lobbied Hungary and Turkey intensively",
+        "Backchannel to Trump: leader-to-leader dialogue offer"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "TR",
+      "actions": [
+        "Extracted F-35 discussion promise",
+        "Withdrew Article 5 objections at 22:45",
+        "Erdogan called both Putin and Trump"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "HU",
+      "actions": [
+        "Held out until 23:15 then did not block",
+        "Demanded parallel diplomatic track in NAC minutes",
+        "Orbán communicated with Putin on energy guarantees"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "CN",
+      "actions": [
+        "PLA Taiwan/Senkaku exercises",
+        "Purchasing Russian debt",
+        "Offered mediation"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "KP",
+      "actions": [
+        "Offered Russia 500K rounds + 50 KN-23 missiles for tech transfer",
+        "Maritime provocations near NLL",
+        "Ammunition production surge"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "UA",
+      "actions": [
+        "Offered NATO real-time SIGINT from combat experience",
+        "Advisory team dispatched to V Corps HQ",
+        "Exercises on Belarus border"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "JP",
+      "actions": [
+        "Additional Russia sanctions",
+        "Demanded US Pacific assurance",
+        "SDF at elevated alert"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "NO",
+      "actions": [
+        "P-8 Poseidon tracking Yasen submarine",
+        "Full Article 5 support",
+        "NORDEFCO coordination"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "DK",
+      "actions": [
+        "Preparing Danish Straits closure",
+        "Full Article 5 support"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "RS",
+      "actions": [
+        "Organized Kosovo protests to test NATO attention",
+        "Maintained ambiguous neutrality",
+        "State media amplifying Russian narrative"
+      ],
+      "diplomatic_messages": []
+    }
+  ],
+  "resolution": {
+    "narrative": "The six hours between 16:00 and 22:00 CET on Day 1 produced the most consequential NATO vote since the alliance's founding in 1949. But first, the world had to endure a masterclass in brinksmanship from every direction.\n\nAt 18:00, Russia made its boldest psychological move yet. The Strategic Rocket Forces announced a 'routine readiness check' of road-mobile Yars ICBM regiments across three bases. The Kremlin paired this with a public statement reminding the world that Russia's updated nuclear doctrine covered 'any critical threat to territorial integrity, including forces under Russian protection.' The message was unmistakable: Article 5 means nuclear risk. Western intelligence assessed the alert as performative — no actual warhead mating detected — but the signal landed with devastating effect on European public opinion. Germany's war support, already at 22%, began sliding toward 18%.\n\nSimultaneously, Russia's diplomatic machine worked every lever to prevent NATO consensus. Lavrov personally called Szijjártó in Budapest, promising continued TurkStream gas flows and Paks II construction. He called Fidan in Ankara, offering a 'joint Russian-Turkish humanitarian monitoring mission' in the corridor. Both calls lasted over 40 minutes. Moscow also opened a direct backchannel to the Trump administration: 'Putin is prepared for leader-to-leader dialogue. Let us negotiate as the two great powers we are, without European bureaucrats who don't share America's burdens.' The appeal to Trump's well-known transactional instincts was calculated.\n\nBut Russia's opponents were not idle. Between 17:00 and 20:00, a remarkable diplomatic cascade occurred. UK Prime Minister Starmer called Macron and Merz in rapid succession, proposing a joint UK-France-Germany Article 5 invocation regardless of US position. Macron agreed immediately, committing France's 11th Parachute Brigade. Merz, after an intense internal debate — the Chancellery split between diplomatic caution and military necessity — made the decisive call at 19:15 to support Article 5, telling Rubio bluntly: 'I have German soldiers in Lithuania. They are in harm's way. I need to know the United States will do the same. Not tomorrow. Tonight.'\n\nThe trilateral UK-France-Germany coordination changed the calculus in Washington. At 20:00, Rubio received confirmation that all three European powers would invoke Article 5 with or without explicit US backing. The Pentagon had been pushing for commitment all day. The State Department's resistance crumbled when Starmer's message arrived: 'We will lead this operation, but we need the American voice.' At 20:45, the White House authorized Rubio to inform NATO privately that the US would support Article 5 — conditional on Europeans committing majority ground forces and maintaining a diplomatic channel to Moscow.\n\nThe NAC session reconvened at 22:00. The first hour was consumed by Turkey and Hungary's final negotiating gambit. Erdogan, who had spent the afternoon calling both Putin and Trump, presented his conditions: F-35 program reinstatement, CAATSA sanctions relief, and PKK/YPG designation as terrorists. The US, desperate for unanimity, signaled through back-channels that F-35 discussions would be 'accelerated.' At 22:45, Turkey's ambassador withdrew its objections.\n\nHungary held out longer. Orbán, under enormous pressure from the leaked pre-positioning document and facing a coordinated European front, demanded a parallel diplomatic track alongside military preparations. At 23:15 — after personal calls from Meloni, Merz, and a barely veiled threat from Belgium's De Wever about EU budget consequences — Szijjártó announced Hungary would not block consensus but insisted on a formal diplomatic track being recorded in the NAC minutes.\n\nAt 23:22 CET, the North Atlantic Council unanimously invoked Article 5 of the Washington Treaty for the second time in its 77-year history. The first had been September 12, 2001. NATO Secretary General's statement was broadcast live to an estimated 2.1 billion viewers: 'An armed attack against Lithuania is an armed attack against us all.'\n\nBut even as champagne went un-popped in Brussels, the wider world was adding complications. China's PLA Eastern Theater Command launched naval exercises near Taiwan and the Senkaku Islands. North Korea offered Russia 500,000 rounds and 50 KN-23 missiles. A Russian Yasen-class submarine continued its transit through the GIUK gap, now tracked by Norwegian P-8 Poseidons. And in Belgrade, Vučić's government quietly organized protests in northern Kosovo, testing whether NATO's attention had wandered from the Balkans.",
+    "world_state_updates": {
+      "game_time": "Day 2, 04:00 CET",
+      "military_units_add": [
+        {
+          "name": "french_11th_para",
+          "country": "FR",
+          "type": "ground",
+          "location": "Toulouse, France — 24h deployment notice to Baltic",
+          "readiness": 8,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 8
+        },
+        {
+          "name": "uk_4th_brigade",
+          "country": "GB",
+          "type": "ground",
+          "location": "Estonia, preparing movement toward Lithuanian border",
+          "readiness": 7,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 8
+        },
+        {
+          "name": "dutch_43rd_brigade",
+          "country": "NL",
+          "type": "ground",
+          "location": "Netherlands, preparing deployment via German corridor",
+          "readiness": 6,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 7
+        },
+        {
+          "name": "italian_cavour_group",
+          "country": "IT",
+          "type": "naval",
+          "location": "Atlantic, preparing transit to Norwegian Sea",
+          "readiness": 7,
+          "strength": 6,
+          "casualties": 0,
+          "supply_level": 9,
+          "morale": 7
+        },
+        {
+          "name": "swedish_gotland_garrison",
+          "country": "SE",
+          "type": "ground",
+          "location": "Gotland — reinforced, anti-ship missiles deployed",
+          "readiness": 8,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 8
+        },
+        {
+          "name": "polish_18th_division",
+          "country": "PL",
+          "type": "ground",
+          "location": "Southern Suwałki border — K2, Abrams, HIMARS deployed",
+          "readiness": 9,
+          "strength": 7,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 9
+        }
+      ],
+      "military_units_remove": [],
+      "military_units_update": [
+        {
+          "name": "russian_kaliningrad_forces",
+          "location": "Suwałki Corridor, northern sector — fortified defensive positions, S-400 active",
+          "readiness": 8,
+          "strength": 8,
+          "casualties": 0,
+          "supply_level": 7,
+          "morale": 7
+        },
+        {
+          "name": "russian_western_district",
+          "location": "Suwałki Corridor, southern sector — fortified, EW expanded",
+          "readiness": 7,
+          "strength": 7,
+          "casualties": 0,
+          "supply_level": 8,
+          "morale": 7
+        },
+        {
+          "name": "us_forces_poland",
+          "location": "Camp Kościuszko — V Corps combat-ready, Article 5 authority received",
+          "readiness": 9,
+          "strength": 7,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 8
+        },
+        {
+          "name": "nato_efp_lithuania",
+          "location": "Rukla base — Article 5 authority received, preparing operations",
+          "readiness": 9,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 7
+        },
+        {
+          "name": "polish_forces",
+          "location": "Southern Suwałki border — 4 divisions with Article 5 authority",
+          "readiness": 9,
+          "strength": 7,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 9
+        },
+        {
+          "name": "finnish_forces",
+          "location": "Finland — 2 arty battalions + MLRS committed to NATO, Jaeger battalion offered",
+          "readiness": 8,
+          "strength": 7,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 8
+        },
+        {
+          "name": "us_ford_csg",
+          "location": "Norwegian Sea, approaching Baltic — ETA ~30 hours",
+          "readiness": 9,
+          "strength": 8,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 8
+        },
+        {
+          "name": "nato_efp_poland",
+          "location": "Poland-Lithuania border — Article 5 authority, coordinating with Polish 18th",
+          "readiness": 9,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 8
+        },
+        {
+          "name": "nato_efp_latvia",
+          "location": "Latvia — Canadian-led, full alert, defensive positions hardened",
+          "readiness": 8,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 8
+        },
+        {
+          "name": "nato_efp_estonia",
+          "location": "Estonia — UK-led, full alert, CCDCOE cyber active",
+          "readiness": 8,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 8
+        },
+        {
+          "name": "russian_submarine_yasen",
+          "location": "GIUK Gap — tracked by Norwegian P-8, heading to Atlantic",
+          "readiness": 9,
+          "strength": 6,
+          "casualties": 0,
+          "supply_level": 9,
+          "morale": 8
+        },
+        {
+          "name": "belarus_forces",
+          "location": "Belarus — 6th Brigade pulled back 25km from border as gesture",
+          "readiness": 4,
+          "strength": 4,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 3
+        }
+      ],
+      "military_alerts": {
+        "article5_invoked": "NATO Article 5 INVOKED at 23:22 CET — unanimous",
+        "saceur_planning": "SACEUR developing operational plan for corridor liberation",
+        "russian_nuclear_signal": "Yars ICBM readiness check — assessed as performative, no warhead mating",
+        "russian_defenses": "Corridor fortified: S-400 coverage, field fortifications, EW 30km beyond borders",
+        "us_ford_csg": "Ford CSG approaching Baltic, ETA ~30 hours",
+        "norwegian_asw": "Norwegian P-8 and frigate tracking Yasen-class submarine",
+        "dprk_offer": "North Korea offering 500K rounds + 50 KN-23 missiles to Russia",
+        "china_taiwan": "PLA Eastern Theater exercises near Taiwan and Senkaku Islands",
+        "no_combat": "STILL no shots fired between NATO and Russian forces"
+      },
+      "markets": {
+        "oil_price": 102,
+        "euro_usd": 1.02,
+        "gas_price_eu": 85,
+        "stock_indices": -6.5
+      },
+      "sanctions_add": [
+        "Japan announces additional Russian sanctions — central bank asset freeze, dual-use tech ban",
+        "Australia aligns with G7 sanctions package"
+      ],
+      "trade_disruptions_add": [
+        "Denmark preparing Danish Straits closure to Russian naval traffic",
+        "Baltic commercial aviation fully rerouted — airspace restricted",
+        "Norwegian GIUK gap monitoring disrupting Russian submarine transit"
+      ],
+      "diplomatic_relations": {
+        "HU": {
+          "PL": -8,
+          "LT": -7,
+          "EU": -5
+        },
+        "PL": {
+          "HU": -8,
+          "UA": 9,
+          "LT": 9
+        },
+        "TR": {
+          "US": -2,
+          "RU": 3
+        },
+        "UA": {
+          "PL": 9,
+          "NATO": 7
+        },
+        "RU": {
+          "US": -9,
+          "NATO": -10
+        },
+        "CN": {
+          "RU": 6,
+          "US": -4
+        },
+        "RS": {
+          "RU": 6,
+          "HU": 5
+        },
+        "FI": {
+          "LT": 8,
+          "EE": 8
+        },
+        "SE": {
+          "FI": 9,
+          "PL": 7
+        },
+        "JP": {
+          "US": 6,
+          "RU": -8
+        }
+      },
+      "treaties_invoked_add": [
+        {
+          "treaty": "NATO Article 5",
+          "invoked_by": "NAC unanimous",
+          "status": "INVOKED 23:22 CET — armed attack on Lithuania = attack on all allies"
+        },
+        {
+          "treaty": "EU Article 42.7 TEU",
+          "invoked_by": "LT",
+          "status": "submitted — under EU Foreign Affairs Council consideration"
+        }
+      ],
+      "un_resolutions_add": [],
+      "nato_alert_level": "article5",
+      "nato_consensus": {
+        "ALL": "Article 5 INVOKED unanimously at 23:22 CET",
+        "US": "supported — Europeans lead ground forces, diplomatic channel to Moscow maintained",
+        "HU": "did not block — parallel diplomatic track recorded in NAC minutes",
+        "TR": "withdrew objections — F-35 discussions to be accelerated"
+      },
+      "nuclear_posture": {
+        "RU": "elevated",
+        "US": "peacetime",
+        "GB": "peacetime",
+        "FR": "peacetime"
+      },
+      "nuclear_detonations_add": [],
+      "public_opinion": {
+        "PL": {
+          "war_support": 75,
+          "government_approval": 72
+        },
+        "LT": {
+          "war_support": 90,
+          "government_approval": 78
+        },
+        "LV": {
+          "war_support": 72,
+          "government_approval": 66
+        },
+        "EE": {
+          "war_support": 68,
+          "government_approval": 64
+        },
+        "US": {
+          "war_support": 26,
+          "government_approval": 43
+        },
+        "GB": {
+          "war_support": 42,
+          "government_approval": 51
+        },
+        "FR": {
+          "war_support": 33,
+          "government_approval": 44
+        },
+        "DE": {
+          "war_support": 18,
+          "government_approval": 38
+        },
+        "RU": {
+          "war_support": 60,
+          "government_approval": 75
+        },
+        "BY": {
+          "war_support": 8,
+          "government_approval": 30
+        },
+        "IT": {
+          "war_support": 20,
+          "government_approval": 40
+        },
+        "TR": {
+          "war_support": 12,
+          "government_approval": 54
+        },
+        "HU": {
+          "war_support": 5,
+          "government_approval": 46
+        },
+        "FI": {
+          "war_support": 62,
+          "government_approval": 68
+        },
+        "SE": {
+          "war_support": 48,
+          "government_approval": 57
+        },
+        "NO": {
+          "war_support": 45,
+          "government_approval": 60
+        },
+        "DK": {
+          "war_support": 43,
+          "government_approval": 54
+        },
+        "NL": {
+          "war_support": 34,
+          "government_approval": 49
+        },
+        "BE": {
+          "war_support": 27,
+          "government_approval": 45
+        },
+        "CZ": {
+          "war_support": 38,
+          "government_approval": 52
+        },
+        "RO": {
+          "war_support": 43,
+          "government_approval": 54
+        },
+        "CA": {
+          "war_support": 30,
+          "government_approval": 47
+        },
+        "CN": {
+          "war_support": 3,
+          "government_approval": 74
+        },
+        "UA": {
+          "war_support": 83,
+          "government_approval": 68
+        },
+        "GE": {
+          "war_support": 46,
+          "government_approval": 51
+        },
+        "MD": {
+          "war_support": 26,
+          "government_approval": 37
+        },
+        "IN": {
+          "war_support": 4,
+          "government_approval": 62
+        },
+        "JP": {
+          "war_support": 17,
+          "government_approval": 55
+        },
+        "KR": {
+          "war_support": 14,
+          "government_approval": 58
+        },
+        "AU": {
+          "war_support": 22,
+          "government_approval": 51
+        },
+        "IR": {
+          "war_support": 2,
+          "government_approval": 59
+        },
+        "SA": {
+          "war_support": 2,
+          "government_approval": 66
+        },
+        "IL": {
+          "war_support": 19,
+          "government_approval": 61
+        },
+        "RS": {
+          "war_support": 3,
+          "government_approval": 57
+        },
+        "KP": {
+          "war_support": 84,
+          "government_approval": 95
+        }
+      },
+      "refugee_flows_add": [
+        {
+          "from": "LT",
+          "to": "PL",
+          "count": 5000,
+          "status": "fleeing"
+        },
+        {
+          "from": "LT",
+          "to": "LV",
+          "count": 1500,
+          "status": "fleeing"
+        }
+      ],
+      "humanitarian_crisis_level": {
+        "LT": 5
+      },
+      "cyber_operations_add": [
+        {
+          "attacker": "RU",
+          "target": "LT",
+          "type": "infrastructure",
+          "severity": "high",
+          "infrastructure_affected": "financial"
+        },
+        {
+          "attacker": "EE",
+          "target": "RU",
+          "type": "reconnaissance",
+          "severity": "medium",
+          "infrastructure_affected": "military_c2"
+        },
+        {
+          "attacker": "KP",
+          "target": "NATO",
+          "type": "espionage",
+          "severity": "low",
+          "infrastructure_affected": "defense_contractors"
+        }
+      ],
+      "infrastructure_status": {
+        "LT": {
+          "power_grid": 7,
+          "comms": 5,
+          "financial": 4,
+          "military_c2": 6
+        }
+      },
+      "corridor_control": "russian",
+      "recent_events": [
+        "16:00-17:00: Intensive allied consultations — Starmer, Macron, Merz coordinate",
+        "17:30: Orbán calls Putin — seeks energy and Paks II guarantees",
+        "18:00: Russia announces Yars ICBM readiness check — nuclear signaling",
+        "18:00-19:00: UK-France-Germany agree to invoke Article 5 jointly",
+        "19:15: Merz commits Germany to Article 5 — decisive European moment",
+        "20:00: PLA Eastern Theater exercises near Taiwan and Senkakus",
+        "20:45: White House authorizes US support for Article 5 at NAC",
+        "22:00: NAC emergency session reconvenes",
+        "22:45: Turkey withdraws objections after F-35 discussions promise",
+        "23:15: Hungary does not block — demands parallel diplomatic track",
+        "23:22: NATO ARTICLE 5 INVOKED — unanimous, second time in history",
+        "00:00: SACEUR begins developing operational plan"
+      ],
+      "media_headlines": [
+        "ARTICLE 5: NATO invokes collective defense for only the second time in history",
+        "THE VOTE: How Hungary and Turkey were brought into line in the final hour",
+        "MERZ'S MOMENT: German chancellor's decisive call changed the calculus",
+        "NUCLEAR SHADOW: Russia's ICBM readiness check casts pall over NATO vote",
+        "TWO FRONTS: China's Taiwan exercises test US resolve as Europe mobilizes",
+        "OIL SMASHES $102: Markets in crisis as Article 5 signals potential war"
+      ],
+      "round_number": 3
+    },
+    "events": [
+      "NATO ARTICLE 5 INVOKED at 23:22 CET — unanimous, second time in history",
+      "Russia conducts Yars ICBM readiness check — nuclear signaling without warhead mating",
+      "UK-France-Germany trilateral Article 5 coordination forces US hand",
+      "Turkey extracts F-35 discussions promise, Hungary demands diplomatic track",
+      "China launches PLA exercises near Taiwan — two-front pressure on US",
+      "North Korea offers Russia 500K artillery rounds + 50 KN-23 missiles",
+      "Serbia organizes Kosovo protests to test NATO distraction",
+      "Belarus pulls 6th Brigade 25km from border — signal of non-involvement"
+    ],
+    "headlines": [
+      "ARTICLE 5: The vote that defined NATO's century",
+      "23:22 — The moment the alliance chose war over surrender",
+      "NUCLEAR SHADOW: Russia's missile readiness check haunts the vote",
+      "THE DEAL-MAKERS: How Turkey got F-35s and Hungary got face",
+      "CHINA MOVES: Taiwan exercises as Europe mobilizes",
+      "WHAT COMES NEXT: SACEUR has 24 hours to plan the liberation of Suwałki"
+    ],
+    "surprises": [
+      "At 21:47 CET, just before the NAC vote, Lithuanian President Nausėda's Chief of Staff was handed a note during the session. She passed it to Nausėda, who paused, then read it aloud: 'I have just been informed that Sergeant Darius Kavaliauskas — the border guard whose livestream of the Russian invasion was seen by 50 million people — has been captured by Russian forces at Mockava. Russia claims he is being held as an illegal combatant.' The room fell silent. When the vote was called 95 minutes later, it was unanimous."
+    ]
+  },
+  "world_state_after": {
+    "round_number": 3,
+    "game_time": "Day 2, 04:00 CET",
+    "military_units": [
+      {
+        "name": "russian_kaliningrad_forces",
+        "country": "RU",
+        "type": "ground",
+        "location": "Suwałki Corridor, northern sector — fortified defensive positions, S-400 active",
+        "readiness": 8,
+        "strength": 8,
+        "casualties": 0,
+        "supply_level": 7,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "russian_western_district",
+        "country": "RU",
+        "type": "ground",
+        "location": "Suwałki Corridor, southern sector — fortified, EW expanded",
+        "readiness": 7,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 8,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "belarus_forces",
+        "country": "BY",
+        "type": "ground",
+        "location": "Belarus — 6th Brigade pulled back 25km from border as gesture",
+        "readiness": 4,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 3,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_lithuania",
+        "country": "DE",
+        "type": "ground",
+        "location": "Rukla base — Article 5 authority received, preparing operations",
+        "readiness": 9,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_latvia",
+        "country": "CA",
+        "type": "ground",
+        "location": "Latvia — Canadian-led, full alert, defensive positions hardened",
+        "readiness": 8,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_estonia",
+        "country": "GB",
+        "type": "ground",
+        "location": "Estonia — UK-led, full alert, CCDCOE cyber active",
+        "readiness": 8,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "Poland-Lithuania border — Article 5 authority, coordinating with Polish 18th",
+        "readiness": 9,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "us_forces_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "Camp Kościuszko — V Corps combat-ready, Article 5 authority received",
+        "readiness": 9,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "polish_forces",
+        "country": "PL",
+        "type": "ground",
+        "location": "Southern Suwałki border — 4 divisions with Article 5 authority",
+        "readiness": 9,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "finnish_forces",
+        "country": "FI",
+        "type": "ground",
+        "location": "Finland — 2 arty battalions + MLRS committed to NATO, Jaeger battalion offered",
+        "readiness": 8,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "us_ford_csg",
+        "country": "US",
+        "type": "naval",
+        "location": "Norwegian Sea, approaching Baltic — ETA ~30 hours",
+        "readiness": 9,
+        "strength": 8,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "russian_submarine_yasen",
+        "country": "RU",
+        "type": "naval",
+        "location": "GIUK Gap — tracked by Norwegian P-8, heading to Atlantic",
+        "readiness": 9,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "french_11th_para",
+        "country": "FR",
+        "type": "ground",
+        "location": "Toulouse, France — 24h deployment notice to Baltic",
+        "readiness": 8,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "uk_4th_brigade",
+        "country": "GB",
+        "type": "ground",
+        "location": "Estonia, preparing movement toward Lithuanian border",
+        "readiness": 7,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "dutch_43rd_brigade",
+        "country": "NL",
+        "type": "ground",
+        "location": "Netherlands, preparing deployment via German corridor",
+        "readiness": 6,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "italian_cavour_group",
+        "country": "IT",
+        "type": "naval",
+        "location": "Atlantic, preparing transit to Norwegian Sea",
+        "readiness": 7,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "swedish_gotland_garrison",
+        "country": "SE",
+        "type": "ground",
+        "location": "Gotland — reinforced, anti-ship missiles deployed",
+        "readiness": 8,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "polish_18th_division",
+        "country": "PL",
+        "type": "ground",
+        "location": "Southern Suwałki border — K2, Abrams, HIMARS deployed",
+        "readiness": 9,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      }
+    ],
+    "military_alerts": {
+      "russian_kaliningrad_forces": "Defensive posture, 2x S-400 covering corridor, field fortifications",
+      "russian_western_district": "Linked up with Kaliningrad forces, fortifying southern corridor",
+      "belarus_forces": "Providing transit ONLY — Lukashenko: This is Russias operation",
+      "nato_efp_lithuania": "Full alert at Rukla — NO engagement authority from NAC",
+      "nato_efp_latvia": "Canadian-led battlegroup (~1500 troops)",
+      "nato_efp_estonia": "UK-led battlegroup (~1200 troops)",
+      "nato_efp_poland": "US-led battlegroup (~1000 troops) + Polish forces",
+      "us_forces_poland": "Camp Kosciuszko, V Corps HQ, ~10,000 personnel",
+      "polish_forces": "4 divisions on elevated readiness, largest military in EU",
+      "finnish_forces": "Reserves on standby, border monitoring increased",
+      "gps_jamming": "GPS/GLONASS jamming expanded, affecting wider Lithuanian territory",
+      "cyber_attack": "Lithuanian military C2 degraded ~40%, civilian comms disrupted in Suwałki region",
+      "no_nato_contact": "Russia still has NOT fired on any NATO forces",
+      "russian_submarine_yasen": "Yasen-class detected in GIUK gap — Norwegian sub tracking",
+      "ew_jamming": "Russian EW expanded to 30km beyond corridor boundaries",
+      "us_ford_csg": "Ford CSG approaching Baltic, ETA ~30 hours",
+      "ukraine_intelligence": "Ukraine offering real-time SIGINT on Russian C2 and EW signatures",
+      "article5_invoked": "NATO Article 5 INVOKED at 23:22 CET — unanimous",
+      "saceur_planning": "SACEUR developing operational plan for corridor liberation",
+      "russian_nuclear_signal": "Yars ICBM readiness check — assessed as performative, no warhead mating",
+      "russian_defenses": "Corridor fortified: S-400 coverage, field fortifications, EW 30km beyond borders",
+      "norwegian_asw": "Norwegian P-8 and frigate tracking Yasen-class submarine",
+      "dprk_offer": "North Korea offering 500K rounds + 50 KN-23 missiles to Russia",
+      "china_taiwan": "PLA Eastern Theater exercises near Taiwan and Senkaku Islands",
+      "no_combat": "STILL no shots fired between NATO and Russian forces"
+    },
+    "markets": {
+      "oil_price": 102,
+      "euro_usd": 1.02,
+      "gas_price_eu": 85,
+      "stock_indices": -6.5
+    },
+    "sanctions": [],
+    "trade_disruptions": [
+      "Land transit through Suwałki corridor severed — Baltic states cut from NATO by land",
+      "Baltic shipping routes under increased risk assessment",
+      "Lithuanian ATM networks offline — financial infrastructure under cyber attack",
+      "Baltic air corridors restricted — commercial aviation rerouting",
+      "Denmark preparing Danish Straits closure to Russian naval traffic",
+      "Baltic commercial aviation fully rerouted — airspace restricted",
+      "Norwegian GIUK gap monitoring disrupting Russian submarine transit"
+    ],
+    "diplomatic_relations": {
+      "LT": {
+        "RU": -10,
+        "HU": -6
+      },
+      "PL": {
+        "RU": -9,
+        "BY": -7,
+        "HU": -8,
+        "UA": 9,
+        "LT": 9
+      },
+      "RU": {
+        "LT": -8,
+        "US": -9,
+        "NATO": -10
+      },
+      "HU": {
+        "PL": -8,
+        "LT": -7,
+        "EU": -5
+      },
+      "TR": {
+        "US": -2,
+        "RU": 3
+      },
+      "UA": {
+        "PL": 9,
+        "LT": 8,
+        "NATO": 7
+      },
+      "CN": {
+        "RU": 6,
+        "US": -4
+      },
+      "RS": {
+        "RU": 6,
+        "HU": 5
+      },
+      "FI": {
+        "LT": 8,
+        "EE": 8
+      },
+      "SE": {
+        "FI": 9,
+        "PL": 7
+      },
+      "JP": {
+        "US": 6,
+        "RU": -8
+      }
+    },
+    "treaties_invoked": [
+      "{'treaty': 'NATO Article 4', 'invoked_by': 'LT', 'status': 'consultation — NAC emergency session convening'}",
+      "{'treaty': 'NATO Article 4 — Emergency NAC Session', 'invoked_by': 'LT', 'status': 'Session recessed without Article 5 consensus — Hungary blocked, Turkey conditional. Resumes 22:00 CET'}",
+      "{'treaty': 'NATO Article 5', 'invoked_by': 'NAC unanimous', 'status': 'INVOKED 23:22 CET — armed attack on Lithuania = attack on all allies'}",
+      "{'treaty': 'EU Article 42.7 TEU', 'invoked_by': 'LT', 'status': 'submitted — under EU Foreign Affairs Council consideration'}"
+    ],
+    "un_resolutions": [
+      "{'title': 'UNSC Resolution condemning Suwałki incursion', 'status': 'VETOED by China; Russia abstained', 'votes': '12 for, 1 against (CN), 1 abstain (RU), 1 abstain (other)'}"
+    ],
+    "nato_alert_level": "article5",
+    "nato_consensus": {
+      "US": "supported — Europeans lead ground forces, diplomatic channel to Moscow maintained",
+      "PL": "demanding immediate Article 5 — furious at Hungary",
+      "DE": "supporting Article 5 but cautious on military response",
+      "LT": "desperate for Article 5 — sovereignty violated",
+      "HU": "did not block — parallel diplomatic track recorded in NAC minutes",
+      "TR": "withdrew objections — F-35 discussions to be accelerated",
+      "FR": "backing Article 5, preparing 11th Parachute Brigade",
+      "GB": "strong Article 5 support, JEF activated",
+      "ALL": "Article 5 INVOKED unanimously at 23:22 CET"
+    },
+    "corridor_control": "russian",
+    "nuclear_posture": {
+      "RU": "elevated",
+      "US": "peacetime",
+      "GB": "peacetime",
+      "FR": "peacetime"
+    },
+    "nuclear_detonations": [],
+    "public_opinion": {
+      "PL": {
+        "war_support": 75,
+        "government_approval": 72
+      },
+      "DE": {
+        "war_support": 18,
+        "government_approval": 38
+      },
+      "FR": {
+        "war_support": 33,
+        "government_approval": 44
+      },
+      "US": {
+        "war_support": 26,
+        "government_approval": 43
+      },
+      "GB": {
+        "war_support": 42,
+        "government_approval": 51
+      },
+      "LT": {
+        "war_support": 90,
+        "government_approval": 78
+      },
+      "LV": {
+        "war_support": 72,
+        "government_approval": 66
+      },
+      "EE": {
+        "war_support": 68,
+        "government_approval": 64
+      },
+      "RU": {
+        "war_support": 60,
+        "government_approval": 75
+      },
+      "BY": {
+        "war_support": 8,
+        "government_approval": 30
+      },
+      "IT": {
+        "war_support": 20,
+        "government_approval": 40
+      },
+      "TR": {
+        "war_support": 12,
+        "government_approval": 54
+      },
+      "HU": {
+        "war_support": 5,
+        "government_approval": 46
+      },
+      "FI": {
+        "war_support": 62,
+        "government_approval": 68
+      },
+      "SE": {
+        "war_support": 48,
+        "government_approval": 57
+      },
+      "NO": {
+        "war_support": 45,
+        "government_approval": 60
+      },
+      "DK": {
+        "war_support": 43,
+        "government_approval": 54
+      },
+      "NL": {
+        "war_support": 34,
+        "government_approval": 49
+      },
+      "BE": {
+        "war_support": 27,
+        "government_approval": 45
+      },
+      "CZ": {
+        "war_support": 38,
+        "government_approval": 52
+      },
+      "RO": {
+        "war_support": 43,
+        "government_approval": 54
+      },
+      "CA": {
+        "war_support": 30,
+        "government_approval": 47
+      },
+      "CN": {
+        "war_support": 3,
+        "government_approval": 74
+      },
+      "UA": {
+        "war_support": 83,
+        "government_approval": 68
+      },
+      "GE": {
+        "war_support": 46,
+        "government_approval": 51
+      },
+      "MD": {
+        "war_support": 26,
+        "government_approval": 37
+      },
+      "IN": {
+        "war_support": 4,
+        "government_approval": 62
+      },
+      "JP": {
+        "war_support": 17,
+        "government_approval": 55
+      },
+      "KR": {
+        "war_support": 14,
+        "government_approval": 58
+      },
+      "AU": {
+        "war_support": 22,
+        "government_approval": 51
+      },
+      "IR": {
+        "war_support": 2,
+        "government_approval": 59
+      },
+      "SA": {
+        "war_support": 2,
+        "government_approval": 66
+      },
+      "IL": {
+        "war_support": 19,
+        "government_approval": 61
+      },
+      "RS": {
+        "war_support": 3,
+        "government_approval": 57
+      },
+      "KP": {
+        "war_support": 84,
+        "government_approval": 95
+      }
+    },
+    "refugee_flows": [
+      {
+        "from": "LT",
+        "to": "PL",
+        "count": 2000,
+        "status": "fleeing"
+      },
+      {
+        "from": "LT",
+        "to": "LV",
+        "count": 800,
+        "status": "fleeing"
+      }
+    ],
+    "humanitarian_crisis_level": {
+      "LT": 5
+    },
+    "cyber_operations": [
+      {
+        "attacker": "RU",
+        "target": "LT",
+        "type": "infrastructure",
+        "severity": "high",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "LT",
+        "type": "ddos",
+        "severity": "medium",
+        "infrastructure_affected": "comms"
+      },
+      {
+        "attacker": "EE",
+        "target": "RU",
+        "type": "reconnaissance",
+        "severity": "low",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "KP",
+        "target": "NATO",
+        "type": "espionage",
+        "severity": "low",
+        "infrastructure_affected": "defense_contractors"
+      }
+    ],
+    "infrastructure_status": {
+      "LT": {
+        "power_grid": 7,
+        "comms": 5,
+        "financial": 4,
+        "military_c2": 6
+      }
+    },
+    "recent_events": [
+      "16:00-17:00: Intensive allied consultations — Starmer, Macron, Merz coordinate",
+      "17:30: Orbán calls Putin — seeks energy and Paks II guarantees",
+      "18:00: Russia announces Yars ICBM readiness check — nuclear signaling",
+      "18:00-19:00: UK-France-Germany agree to invoke Article 5 jointly",
+      "19:15: Merz commits Germany to Article 5 — decisive European moment",
+      "20:00: PLA Eastern Theater exercises near Taiwan and Senkakus",
+      "20:45: White House authorizes US support for Article 5 at NAC",
+      "22:00: NAC emergency session reconvenes",
+      "22:45: Turkey withdraws objections after F-35 discussions promise",
+      "23:15: Hungary does not block — demands parallel diplomatic track",
+      "23:22: NATO ARTICLE 5 INVOKED — unanimous, second time in history",
+      "00:00: SACEUR begins developing operational plan"
+    ],
+    "media_headlines": [
+      "ARTICLE 5: NATO invokes collective defense for only the second time in history",
+      "THE VOTE: How Hungary and Turkey were brought into line in the final hour",
+      "MERZ'S MOMENT: German chancellor's decisive call changed the calculus",
+      "NUCLEAR SHADOW: Russia's ICBM readiness check casts pall over NATO vote",
+      "TWO FRONTS: China's Taiwan exercises test US resolve as Europe mobilizes",
+      "OIL SMASHES $102: Markets in crisis as Article 5 signals potential war"
+    ],
+    "_nuclear_penalty_applied": [],
+    "_oil_penalty_last_threshold": 0.0,
+    "_gas_sanction_count_applied": 0,
+    "_gm_set_nuclear_this_round": [
+      "RU",
+      "US",
+      "GB",
+      "FR"
+    ]
+  }
+}

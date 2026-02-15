@@ -1,0 +1,1522 @@
+{
+  "round": 3,
+  "runner": "claude-code",
+  "briefing": "ROUND 4 SITUATION BRIEFING -- Day 3, 18:00 CET\n\nThe Suwalki Gap crisis has entered a phase that military strategists will recognize as the decisive moment: Russia's window for a successful conventional seizure of the corridor has effectively closed, but Putin has not yet accepted this reality, and the nuclear escalation dynamics are more dangerous than at any point since the crisis began. NATO now holds overwhelming conventional superiority in the corridor -- US V Corps, Polish 16th and 18th Mechanized Divisions, 11th Armoured Cavalry en route, German Leopard 2A7 and 2A6 companies, French Leclerc company, Czech mechanized battalion, all under an air superiority umbrella of F-35A/B stealth fighters from three nations. Russia's three Kaliningrad BTGs, however capable, cannot succeed against this force from a single axis of advance.\n\nThe Lukashenko situation has become the crisis within the crisis. Putin's 24-hour ultimatum has expired without compliance. Lukashenko is now actively sharing Russian force intelligence with NATO through Polish and American channels -- a betrayal of the Union State alliance that Moscow will eventually discover. Russian GRU officers in Belarus are under surveillance by Belarusian KGB. If Putin orders a coup attempt against Lukashenko, it could trigger chaos that further degrades Russia's position; if he accepts Lukashenko's defiance, it signals weakness that emboldens other post-Soviet states. The Russian forces at Grodno -- 4,000 troops with T-72B3 tanks -- remain in limbo, unable to attack without Belarusian authorization and increasingly a liability as their presence strains an alliance that is fracturing in real time.\n\nThe most significant development may be the Patrushev-Kellogg backchannel exploration of a 'Kaliningrad transit security framework.' For the first time, a senior Russian official has privately articulated a potential diplomatic exit that does not require military seizure of the corridor. Turkey's Istanbul framework and Hungary's shift from blocking to abstaining create the institutional architecture for a negotiated resolution. But Putin has not yet authorized genuine negotiations -- the backchannel is a contingency, not a policy. The next 24 hours will determine whether Russia escalates militarily (a doomed assault from Kaliningrad, or an escalation up the nuclear ladder), accepts the emerging diplomatic framework, or attempts to change the game entirely through a coup in Belarus, a diversionary crisis elsewhere, or an escalation in cyber warfare.\n\nNuclear posture remains the most dangerous variable. US and Russia at ELEVATED, France conducting quiet SSBN surge, Iskander-M launch rehearsals from Kaliningrad visible to satellite surveillance. NATO intelligence has detected two additional Russian SSBNs departing Severodvinsk -- consistent with a surge to patrol stations that could precede either a nuclear posture increase to DISPERSAL or a prudent defensive measure in a crisis. The ambiguity itself is destabilizing.",
+  "narrative": "The third phase of the Suwalki Gap crisis -- spanning from Day 2 18:00 to Day 3 18:00 CET -- saw the strategic balance tilt decisively toward NATO as the alliance achieved military superiority in the corridor while Russia's operational options narrowed catastrophically. The most significant military development was the entry of HMS Queen Elizabeth's carrier strike group into the Baltic Sea, giving NATO an operational F-35B squadron in theater alongside US F-35As deploying from Lakenheath to Polish airbases. This air superiority umbrella effectively neutralized Russia's S-400 advantage from Kaliningrad -- the stealth fighters can operate inside the engagement envelope while remaining undetectable to legacy Russian radars. On the ground, the full forward deployment of US V Corps (~4,500 troops with Abrams tanks and Paladin artillery) to the Augustow defensive line, combined with Poland's activation of the 11th Armoured Cavalry Division as a third reserve echelon, created a defensive force that outnumbers the Kaliningrad garrison by roughly 3:1 in the corridor itself.\n\nRussia responded with a dangerous escalation-through-intimidation gambit. Kaliningrad BTGs advanced to within 2km of the Lithuanian border in combat formation, S-400 targeting radars illuminated NATO aircraft over Polish and Lithuanian airspace for the first time, and Iskander-M transporter-erector-launchers conducted visible launch rehearsals -- a barely-veiled nuclear threat. However, these provocative moves failed to achieve their intended deterrent effect and instead triggered automated NATO alert responses that further degraded Russia's position. Simultaneously, Putin's Operation PEREVAL against Lukashenko -- threatening to release compromising intelligence and contacting loyal Belarusian military officers -- was partially detected by Belarusian KGB surveillance, causing Lukashenko to double down on his refusal and begin sharing Russian force intelligence with NATO through Polish and American channels. This intelligence windfall provided NATO with precise order of battle data for Russian forces at Grodno.\n\nThe diplomatic dimension saw the emergence of a potential off-ramp. While Russia publicly rejected Trump's 72-hour standstill proposal, a Patrushev-Kellogg backchannel communication revealed that Moscow was privately exploring a 'Kaliningrad transit security framework' -- guaranteed international supervision of rail and road access from Belarus to Kaliningrad through Lithuanian territory -- as a face-saving exit. Turkey's Erdogan formalized this into a proposed Istanbul de-escalation framework. Critically, Hungary's Orban dropped his blocking position at NATO, shifting from objection to abstention on collective defense measures, enabling NATO to achieve consensus on force deployments for the first time since the crisis began. China continued to distance itself from Moscow, issuing a statement on 'sovereignty and territorial integrity' that could be read as supporting Baltic independence, while quietly offering economic lifelines to Belarus to resist Russian pressure.\n\nThe economic toll deepened as Germany activated the EU sanctions package: full asset freeze on Russian defense entities, SWIFT restrictions on major Russian banks (with energy transaction carve-outs), and travel bans on 200+ officials. Oil stabilized at $122/barrel as markets digested Norway's increased gas exports offsetting some Baltic supply disruption. The crisis remained at the conventional threshold, but the combination of Iskander rehearsals, US-Russian dual ELEVATED nuclear posture, and French SSBN surge created the most dangerous nuclear environment in Europe since the 1983 Able Archer exercise.",
+  "country_decisions": [
+    {
+      "country": "PL",
+      "actions": [
+        "Activate 11th Armoured Cavalry Division and deploy to Suwalki corridor",
+        "Polish F-16s establish 24/7 CAP with AMRAAM loadout",
+        "GROM teams authorized for cross-border reconnaissance into Kaliningrad Oblast",
+        "WOT establishes civilian evacuation corridor management"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "LT",
+      "actions": [
+        "Deploy Iron Wolf Brigade to Neman River blocking positions",
+        "Formally invoke NATO Article 5",
+        "Cyber operations against Russian C2 in Kaliningrad",
+        "Complete evacuation of Marijampole county"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "LV",
+      "actions": [
+        "Deploy Mechanized Infantry Brigade to Daugavpils-Rezekne corridor",
+        "Full Zemessardze mobilization of 10,000 reservists",
+        "Mine countermeasures vessels deployed to Riga port approaches",
+        "Surveillance of Latgale Russian-speaking population centers"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "EE",
+      "actions": [
+        "Deploy 2nd Infantry Brigade to Narva River crossings",
+        "Offensive cyber operations against Russian Western MD communications",
+        "Kaitseliit 16,000 volunteers activated",
+        "UAV border surveillance deployed"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "US",
+      "actions": [
+        "Deploy F-35A squadrons to Polish airbases Lask and Powidz",
+        "Authorize full V Corps forward deployment to Augustow",
+        "Propose 72-hour standstill to Putin via nuclear hotline",
+        "Order USS Gerald Ford to surge toward Eastern Atlantic"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "GB",
+      "actions": [
+        "HMS Queen Elizabeth enters Baltic with operational F-35B squadron",
+        "Deploy 16 Air Assault Brigade elements to Estonia",
+        "GCHQ intensifies SIGINT on Kaliningrad",
+        "PM Starmer public deterrence declaration"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "FR",
+      "actions": [
+        "French frigates enter Baltic as ASW screen",
+        "Deploy Leclerc company to Lithuania",
+        "SSBN surge from Ile Longue",
+        "Propose EU energy solidarity mechanism"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "DE",
+      "actions": [
+        "Bundestag authorizes expanded ROE",
+        "Deploy additional Leopard 2A6 company to Lithuania",
+        "Activate rapid reaction division HQ at Munster",
+        "Activate EU sanctions package against Russia"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "FI",
+      "actions": [
+        "Mobilize additional 15,000 reservists to 40,000 total",
+        "Aggressive air patrols within 5km of Russian airspace",
+        "Share real-time SIGINT with NATO SHAPE",
+        "Deploy Leopard 2A6 tanks to Saimaa Canal positions"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "SE",
+      "actions": [
+        "Deploy second submarine to Kaliningrad approaches",
+        "Activate all 4 Gripen squadrons at maximum readiness",
+        "Reinforce Gotland with Archer artillery and RBS-15 coastal missiles",
+        "Activate JEF naval component for escort duty"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "NO",
+      "actions": [
+        "24/7 P-8A surveillance of GIUK Gap",
+        "Deploy Telemark Battalion to Finnmark",
+        "ASW patrol in Barents Sea approaches",
+        "Increase gas exports to maximum pipeline capacity"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "DK",
+      "actions": [
+        "Deploy frigate to Danish Straits for maritime control",
+        "Prepare battalion for NRF deployment",
+        "F-16 CAP over Baltic approaches",
+        "Open Bornholm as ASW helicopter forward base"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "CA",
+      "actions": [
+        "Deploy additional Leopard 2A6M tanks to Latvia bringing brigade to full strength",
+        "CP-140 Aurora to Keflavik for North Atlantic surveillance",
+        "PM Carney public Article 5 commitment",
+        "JTF-2 operators deploy to Latvia"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "NL",
+      "actions": [
+        "11 Airmobile Brigade on 12-hour standby",
+        "HNLMS De Ruyter joins Queen Elizabeth escort",
+        "MIVD intelligence sharing on Kaliningrad",
+        "Military hospital ship activated at Rotterdam"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "BE",
+      "actions": [
+        "F-16 squadron to Poland for air patrol",
+        "NATO HQ force protection enhanced",
+        "Zeebrugge and Antwerp ports opened for staging",
+        "Benelux coordination on sanctions"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "CZ",
+      "actions": [
+        "Deploy mechanized battalion to Lithuania via Polish rail",
+        "Share satellite/electronic intelligence with SHAPE",
+        "Activate 4th Rapid Deployment Brigade as reserve",
+        "Announce defense spending increase to 2.5% GDP"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "RO",
+      "actions": [
+        "Increase Black Sea naval presence",
+        "F-16 CAP over Black Sea",
+        "Offer Constanta/MK airbase as logistics corridor",
+        "Deploy infantry brigade to Moldovan border"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "RU",
+      "actions": [
+        "Launch Operation PEREVAL against Lukashenko",
+        "Advance BTGs to 2km from Lithuanian border, activate S-400 targeting radars",
+        "Prepare Grodno forces for independent action without Belarusian authorization",
+        "Reject standstill publicly while exploring Kaliningrad transit framework via backchannel"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "BY",
+      "actions": [
+        "Pull forces back 5km from border",
+        "Contact Polish intelligence sharing Russian force data",
+        "KGB monitors Russian GRU officers",
+        "Public call for ceasefire and international conference"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "TR",
+      "actions": [
+        "Host Istanbul de-escalation framework talks",
+        "Decline Russian request to close Straits",
+        "MIT shares Russian military intelligence with NATO",
+        "Offer Antalya for broader European security conference"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "HU",
+      "actions": [
+        "Drop blocking position to abstention at NATO",
+        "Deploy token infantry company for logistics in Poland",
+        "Propose Budapest European Security Summit",
+        "Share Russian intelligence operations data with NATO CI"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "CN",
+      "actions": [
+        "Politburo assessment: Russia is losing, increase diplomatic distance",
+        "Statement on sovereignty and territorial integrity",
+        "Offer economic lifelines to Belarus",
+        "PBoC reduces Russian financial asset exposure"
+      ],
+      "diplomatic_messages": []
+    }
+  ],
+  "resolution": {
+    "narrative": "The third phase of the Suwalki Gap crisis -- spanning from Day 2 18:00 to Day 3 18:00 CET -- saw the strategic balance tilt decisively toward NATO as the alliance achieved military superiority in the corridor while Russia's operational options narrowed catastrophically. The most significant military development was the entry of HMS Queen Elizabeth's carrier strike group into the Baltic Sea, giving NATO an operational F-35B squadron in theater alongside US F-35As deploying from Lakenheath to Polish airbases. This air superiority umbrella effectively neutralized Russia's S-400 advantage from Kaliningrad -- the stealth fighters can operate inside the engagement envelope while remaining undetectable to legacy Russian radars. On the ground, the full forward deployment of US V Corps (~4,500 troops with Abrams tanks and Paladin artillery) to the Augustow defensive line, combined with Poland's activation of the 11th Armoured Cavalry Division as a third reserve echelon, created a defensive force that outnumbers the Kaliningrad garrison by roughly 3:1 in the corridor itself.\n\nRussia responded with a dangerous escalation-through-intimidation gambit. Kaliningrad BTGs advanced to within 2km of the Lithuanian border in combat formation, S-400 targeting radars illuminated NATO aircraft over Polish and Lithuanian airspace for the first time, and Iskander-M transporter-erector-launchers conducted visible launch rehearsals -- a barely-veiled nuclear threat. However, these provocative moves failed to achieve their intended deterrent effect and instead triggered automated NATO alert responses that further degraded Russia's position. Simultaneously, Putin's Operation PEREVAL against Lukashenko -- threatening to release compromising intelligence and contacting loyal Belarusian military officers -- was partially detected by Belarusian KGB surveillance, causing Lukashenko to double down on his refusal and begin sharing Russian force intelligence with NATO through Polish and American channels. This intelligence windfall provided NATO with precise order of battle data for Russian forces at Grodno.\n\nThe diplomatic dimension saw the emergence of a potential off-ramp. While Russia publicly rejected Trump's 72-hour standstill proposal, a Patrushev-Kellogg backchannel communication revealed that Moscow was privately exploring a 'Kaliningrad transit security framework' -- guaranteed international supervision of rail and road access from Belarus to Kaliningrad through Lithuanian territory -- as a face-saving exit. Turkey's Erdogan formalized this into a proposed Istanbul de-escalation framework. Critically, Hungary's Orban dropped his blocking position at NATO, shifting from objection to abstention on collective defense measures, enabling NATO to achieve consensus on force deployments for the first time since the crisis began. China continued to distance itself from Moscow, issuing a statement on 'sovereignty and territorial integrity' that could be read as supporting Baltic independence, while quietly offering economic lifelines to Belarus to resist Russian pressure.\n\nThe economic toll deepened as Germany activated the EU sanctions package: full asset freeze on Russian defense entities, SWIFT restrictions on major Russian banks (with energy transaction carve-outs), and travel bans on 200+ officials. Oil stabilized at $122/barrel as markets digested Norway's increased gas exports offsetting some Baltic supply disruption. The crisis remained at the conventional threshold, but the combination of Iskander rehearsals, US-Russian dual ELEVATED nuclear posture, and French SSBN surge created the most dangerous nuclear environment in Europe since the 1983 Able Archer exercise.",
+    "world_state_updates": {
+      "game_time": "Day 3, 18:00 CET",
+      "military_units_add": [
+        {
+          "name": "polish_11th_armoured",
+          "country": "PL",
+          "type": "ground",
+          "location": "Poland - En route from Zagan to Suwalki corridor via A2/E30, expected arrival 12-18 hours",
+          "readiness": 6,
+          "strength": 7,
+          "supply_level": 9,
+          "morale": 8,
+          "casualties": 0
+        },
+        {
+          "name": "uk_16_air_assault",
+          "country": "GB",
+          "type": "ground",
+          "location": "Estonia - Tapa, reinforcing UK-led eFP battlegroup with Apache attack helicopters",
+          "readiness": 7,
+          "strength": 4,
+          "supply_level": 9,
+          "morale": 8,
+          "casualties": 0
+        },
+        {
+          "name": "french_leclerc_company",
+          "country": "FR",
+          "type": "ground",
+          "location": "Lithuania - Integrated with German eFP battlegroup near Suwalki corridor",
+          "readiness": 7,
+          "strength": 3,
+          "supply_level": 8,
+          "morale": 8,
+          "casualties": 0
+        },
+        {
+          "name": "czech_mechanized_battalion",
+          "country": "CZ",
+          "type": "ground",
+          "location": "Lithuania - Deploying via Polish rail network to German eFP positions",
+          "readiness": 6,
+          "strength": 4,
+          "supply_level": 8,
+          "morale": 7,
+          "casualties": 0
+        },
+        {
+          "name": "lithuanian_iron_wolf",
+          "country": "LT",
+          "type": "ground",
+          "location": "Lithuania - Blocking positions along Neman River crossings south of Marijampole",
+          "readiness": 7,
+          "strength": 5,
+          "supply_level": 7,
+          "morale": 9,
+          "casualties": 0
+        },
+        {
+          "name": "latvian_mechanized_brigade",
+          "country": "LV",
+          "type": "ground",
+          "location": "Latvia - Defensive positions along Daugavpils-Rezekne corridor",
+          "readiness": 6,
+          "strength": 4,
+          "supply_level": 8,
+          "morale": 8,
+          "casualties": 0
+        },
+        {
+          "name": "estonian_2nd_brigade",
+          "country": "EE",
+          "type": "ground",
+          "location": "Estonia - Narva River crossing positions, reinforcing UK battlegroup",
+          "readiness": 7,
+          "strength": 4,
+          "supply_level": 8,
+          "morale": 9,
+          "casualties": 0
+        },
+        {
+          "name": "dutch_frigate_deruyter",
+          "country": "NL",
+          "type": "naval",
+          "location": "Baltic Sea - Escorting HMS Queen Elizabeth carrier strike group",
+          "readiness": 8,
+          "strength": 3,
+          "supply_level": 10,
+          "morale": 8,
+          "casualties": 0
+        }
+      ],
+      "military_units_remove": [],
+      "military_units_update": [
+        {
+          "name": "russian_kaliningrad_forces",
+          "location": "Kaliningrad Oblast - 2km from Lithuanian border, combat formation, S-400 targeting radars active, Iskander-M TELs conducting launch rehearsals",
+          "readiness": 9,
+          "strength": 8,
+          "casualties": 0,
+          "supply_level": 7,
+          "morale": 7
+        },
+        {
+          "name": "russian_western_district",
+          "location": "Western Military District, Russia - Rear elements halted, unable to reinforce Grodno without Lukashenko authorization",
+          "readiness": 7,
+          "strength": 6,
+          "casualties": 0,
+          "supply_level": 8,
+          "morale": 6
+        },
+        {
+          "name": "russian_western_belarus",
+          "location": "Belarus - Grodno staging area, preparing 'independent action' contingency, morale deteriorating as Lukashenko's defiance becomes known",
+          "readiness": 7,
+          "strength": 6,
+          "casualties": 0,
+          "supply_level": 7,
+          "morale": 5
+        },
+        {
+          "name": "belarus_forces",
+          "location": "Belarus - Pulled back 5km from Lithuanian border to Gozha rear area, Lukashenko signaling non-aggression",
+          "readiness": 4,
+          "strength": 4,
+          "casualties": 0,
+          "supply_level": 8,
+          "morale": 4
+        },
+        {
+          "name": "nato_efp_lithuania",
+          "location": "Lithuania - Reinforced defensive positions near Suwalki corridor with Leopard 2A7, Leopard 2A6, French Leclerc tanks and Patriot battery, expanded ROE authorized by Bundestag",
+          "readiness": 8,
+          "strength": 7,
+          "casualties": 0,
+          "supply_level": 7,
+          "morale": 8
+        },
+        {
+          "name": "nato_efp_latvia",
+          "location": "Latvia - Camp Adazi, Canadian brigade at full combat strength with Leopard 2A6M tanks",
+          "readiness": 8,
+          "strength": 6,
+          "casualties": 0,
+          "supply_level": 9,
+          "morale": 8
+        },
+        {
+          "name": "nato_efp_estonia",
+          "location": "Estonia - Tapa, reinforced with 16 Air Assault Brigade elements and Apache helicopters",
+          "readiness": 8,
+          "strength": 6,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 8
+        },
+        {
+          "name": "nato_efp_poland",
+          "location": "Poland - Suwalki corridor, integrated with Polish-US defensive line, full combat readiness",
+          "readiness": 9,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 9,
+          "morale": 8
+        },
+        {
+          "name": "us_forces_poland",
+          "location": "Poland - Full V Corps deployed forward to Augustow defensive line, ~4,500 troops with Abrams, Bradleys, Paladin artillery",
+          "readiness": 9,
+          "strength": 7,
+          "casualties": 0,
+          "supply_level": 9,
+          "morale": 8
+        },
+        {
+          "name": "us_vcorps_forward",
+          "location": "Poland - Augustow area, fully integrated into Polish-NATO defensive line with complete V Corps strength",
+          "readiness": 9,
+          "strength": 6,
+          "casualties": 0,
+          "supply_level": 9,
+          "morale": 8
+        },
+        {
+          "name": "polish_forces",
+          "location": "Poland - 16th Mechanized Division anchoring defensive line Route 8 Augustow-Lithuanian border, Polish F-16s flying 24/7 CAP with AMRAAM loadout",
+          "readiness": 9,
+          "strength": 7,
+          "casualties": 0,
+          "supply_level": 7,
+          "morale": 9
+        },
+        {
+          "name": "polish_18th_mechanized",
+          "location": "Poland - Elk area, operational reserve, at full readiness",
+          "readiness": 8,
+          "strength": 7,
+          "casualties": 0,
+          "supply_level": 8,
+          "morale": 9
+        },
+        {
+          "name": "finnish_forces",
+          "location": "Finland - 40,000 reservists mobilized, continuous defensive coverage from Gulf of Finland to Salla, Pori and Karelia Brigades deployed",
+          "readiness": 8,
+          "strength": 9,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 8
+        },
+        {
+          "name": "uk_carrier_group",
+          "location": "Baltic Sea - HMS Queen Elizabeth operational with F-35B squadron, Type 45 Sampson radar active for area air defense, Dutch frigate escort",
+          "readiness": 8,
+          "strength": 7,
+          "casualties": 0,
+          "supply_level": 9,
+          "morale": 9
+        },
+        {
+          "name": "french_naval_group",
+          "location": "Baltic Sea approaches - ASW screen ahead of Queen Elizabeth strike group, FS Alsace and FS Lorraine on station",
+          "readiness": 8,
+          "strength": 4,
+          "casualties": 0,
+          "supply_level": 9,
+          "morale": 8
+        }
+      ],
+      "military_alerts": {
+        "russian_kaliningrad_forces": "2 BTGs advanced to 2km from Lithuanian border in combat formation. S-400 targeting radars illuminating NATO aircraft for first time. Iskander-M TELs conducting visible launch rehearsals. Supply declining as extended deployment strains logistics.",
+        "russian_western_belarus": "Russian forces at Grodno preparing contingency for 'independent action' -- crossing into Lithuania without Belarusian authorization. Morale declining as troops learn of Lukashenko's defiance and political uncertainty.",
+        "belarus_forces": "Lukashenko ordered 5km pullback from border. Troops demoralized, sensing political crisis. Belarusian KGB monitoring Russian GRU officers at bases. Intelligence being shared with NATO.",
+        "us_forces_poland": "Full V Corps forward deployed to Augustow. F-35As from 48th Fighter Wing deploying to Lask and Powidz airbases. Combined US force approximately 6,000 in the corridor area.",
+        "polish_forces": "11th Armoured Cavalry Division activated and en route as third echelon. GROM teams authorized for cross-border reconnaissance. Polish air force maintaining 24/7 CAP.",
+        "nato_efp_lithuania": "Bundestag authorizes expanded ROE -- Patriot and Leopard crews cleared for engagement of hostile forces, not just self-defense. French Leclerc and Czech mechanized battalion integrating. Strongest defensive position of the crisis.",
+        "uk_carrier_group": "HMS Queen Elizabeth in Baltic Sea. F-35B squadron operational for combat air patrol and strike missions. Type 45 destroyers providing area air defense. Dutch HNLMS De Ruyter joining escort.",
+        "finnish_forces": "40,000 reservists now mobilized. F/A-18 Hornets conducting aggressive air patrols within 5km of Russian airspace. Finnish intelligence sharing real-time SIGINT with NATO SHAPE.",
+        "lithuanian_iron_wolf": "Iron Wolf Mechanized Brigade deployed to Neman River crossing positions south of Marijampole. Secondary defensive line behind German eFP. Civilian evacuation of Marijampole county underway.",
+        "estonian_2nd_brigade": "2nd Infantry Brigade at Narva River crossings. Kaitseliit 16,000 volunteers activated. Cyber Command conducting offensive operations against Russian C2 networks."
+      },
+      "markets": {
+        "oil_price": 122.0,
+        "euro_usd": 1.02
+      },
+      "sanctions_add": [
+        {
+          "from": "EU",
+          "target": "RU",
+          "type": "Full asset freeze on Russian defense sector entities, SWIFT restrictions on major Russian banks (energy transaction carve-outs), travel bans on 200+ Russian officials"
+        },
+        {
+          "from": "US",
+          "target": "RU",
+          "type": "OFAC sanctions activated: full blocking sanctions on Russian defense and intelligence entities, secondary sanctions warning to institutions facilitating Russian military procurement"
+        }
+      ],
+      "trade_disruptions_add": [
+        "Norwegian gas exports increased to maximum pipeline capacity via Langeled and Europipe, partially offsetting Baltic supply disruption",
+        "Zeebrugge and Antwerp ports opened as primary NATO logistics staging areas for eastern flank force flow",
+        "Constanta port and MK airbase designated as alternative southern NATO logistics corridor"
+      ],
+      "diplomatic_relations": {
+        "BY": {
+          "RU": 3,
+          "PL": -3,
+          "US": 1
+        },
+        "HU": {
+          "RU": -1
+        },
+        "RU": {
+          "BY": 3,
+          "CN": 4
+        },
+        "CN": {
+          "RU": 4,
+          "BY": 2
+        },
+        "TR": {
+          "US": 2,
+          "RU": 0
+        },
+        "DE": {
+          "PL": 5,
+          "FR": 7
+        },
+        "FR": {
+          "DE": 7,
+          "GB": 7
+        },
+        "GB": {
+          "FR": 7,
+          "EE": 7
+        }
+      },
+      "treaties_invoked_add": [
+        "Lithuania formally invokes NATO Article 5 -- full collective defense obligation triggered, all 31 allies must respond",
+        "EU activates full sanctions package against Russia under CFSP emergency provisions"
+      ],
+      "un_resolutions_add": [],
+      "nato_alert_level": "article5",
+      "nato_consensus": {
+        "HU": "Abstaining on collective defense measures rather than blocking -- NATO achieves consensus on force deployments for first time",
+        "TR": "Supporting diplomatic framework while maintaining military neutrality -- hosting Istanbul de-escalation talks",
+        "DE": "Bundestag authorizes expanded ROE and additional force deployments -- Germany fully committed to collective defense",
+        "FR": "Deploying ground combat elements to Lithuania, SSBN surge underway, supporting EU-level economic coordination"
+      },
+      "nuclear_posture": {
+        "FR": "peacetime",
+        "GB": "peacetime",
+        "RU": "elevated",
+        "US": "elevated"
+      },
+      "nuclear_detonations_add": [],
+      "public_opinion": {
+        "PL": {
+          "war_support": 78,
+          "government_approval": 67
+        },
+        "LT": {
+          "war_support": 92,
+          "government_approval": 62
+        },
+        "LV": {
+          "war_support": 85,
+          "government_approval": 55
+        },
+        "EE": {
+          "war_support": 87,
+          "government_approval": 58
+        },
+        "US": {
+          "war_support": 28,
+          "government_approval": 44
+        },
+        "GB": {
+          "war_support": 49,
+          "government_approval": 46
+        },
+        "FR": {
+          "war_support": 42,
+          "government_approval": 41
+        },
+        "DE": {
+          "war_support": 34,
+          "government_approval": 37
+        },
+        "FI": {
+          "war_support": 70,
+          "government_approval": 62
+        },
+        "SE": {
+          "war_support": 60,
+          "government_approval": 55
+        },
+        "NO": {
+          "war_support": 52,
+          "government_approval": 52
+        },
+        "DK": {
+          "war_support": 49,
+          "government_approval": 50
+        },
+        "CA": {
+          "war_support": 41,
+          "government_approval": 47
+        },
+        "NL": {
+          "war_support": 39,
+          "government_approval": 44
+        },
+        "BE": {
+          "war_support": 33,
+          "government_approval": 42
+        },
+        "CZ": {
+          "war_support": 45,
+          "government_approval": 48
+        },
+        "RO": {
+          "war_support": 48,
+          "government_approval": 50
+        },
+        "RU": {
+          "war_support": 58,
+          "government_approval": 63
+        },
+        "BY": {
+          "war_support": 12,
+          "government_approval": 24
+        },
+        "TR": {
+          "war_support": 10,
+          "government_approval": 45
+        },
+        "HU": {
+          "war_support": 15,
+          "government_approval": 43
+        },
+        "CN": {
+          "war_support": 8,
+          "government_approval": 71
+        }
+      },
+      "refugee_flows_add": [
+        {
+          "from": "LT",
+          "to": "PL",
+          "count": 12000,
+          "status": "fleeing"
+        },
+        {
+          "from": "LT",
+          "to": "LV",
+          "count": 5500,
+          "status": "fleeing"
+        }
+      ],
+      "humanitarian_crisis_level": {
+        "LT": 7,
+        "LV": 3,
+        "PL": 3
+      },
+      "cyber_operations_add": [
+        {
+          "attacker": "LT",
+          "target": "RU",
+          "type": "infrastructure",
+          "severity": "medium",
+          "infrastructure_affected": "military_c2"
+        },
+        {
+          "attacker": "EE",
+          "target": "RU",
+          "type": "infrastructure",
+          "severity": "high",
+          "infrastructure_affected": "military_c2"
+        },
+        {
+          "attacker": "RU",
+          "target": "LT",
+          "type": "malware",
+          "severity": "high",
+          "infrastructure_affected": "financial"
+        },
+        {
+          "attacker": "RU",
+          "target": "PL",
+          "type": "infrastructure",
+          "severity": "medium",
+          "infrastructure_affected": "comms"
+        },
+        {
+          "attacker": "GB",
+          "target": "RU",
+          "type": "espionage",
+          "severity": "medium",
+          "infrastructure_affected": "military_c2"
+        },
+        {
+          "attacker": "FI",
+          "target": "RU",
+          "type": "espionage",
+          "severity": "low",
+          "infrastructure_affected": "none"
+        }
+      ],
+      "infrastructure_status": {
+        "LT": {
+          "power_grid": 7,
+          "comms": 5,
+          "financial": 4,
+          "military_c2": 6
+        },
+        "RU": {
+          "power_grid": 10,
+          "comms": 9,
+          "financial": 10,
+          "military_c2": 7
+        }
+      },
+      "corridor_control": "nato",
+      "recent_events": [
+        "HMS Queen Elizabeth carrier strike group enters Baltic Sea through Danish Straits -- F-35B squadron operational for combat air patrol",
+        "US deploys F-35A squadrons from RAF Lakenheath to Polish airbases at Lask and Powidz -- NATO achieves air superiority over Suwalki corridor",
+        "Full US V Corps (~4,500 troops) forward deployed to Augustow defensive line with Abrams, Bradleys, and Paladin artillery",
+        "Poland activates 11th Armoured Cavalry Division from Zagan as third echelon reserve, en route to Suwalki corridor",
+        "Russian Kaliningrad BTGs advance to 2km from Lithuanian border -- S-400 targeting radars illuminate NATO aircraft for first time",
+        "Iskander-M TELs in Kaliningrad conduct visible launch rehearsals -- nuclear signaling at most provocative level of crisis",
+        "Putin launches Operation PEREVAL: covert pressure campaign to force Lukashenko's compliance or replace him",
+        "Lukashenko pulls Belarus forces back 5km from border, begins secretly sharing Russian force intelligence with NATO through Polish and US channels",
+        "Lukashenko contacts Polish intelligence offering Russian order of battle data from Grodno in exchange for personal security guarantees",
+        "Bundestag emergency session authorizes expanded ROE for German forces in Lithuania -- Patriot and Leopard crews cleared for hostile engagement",
+        "Germany deploys additional Leopard 2A6 company to Lithuania, doubling German heavy armor presence",
+        "EU activates full sanctions package: asset freeze on Russian defense entities, SWIFT restrictions on major banks, 200+ travel bans",
+        "France deploys Leclerc tank company from Franco-German Brigade to Lithuania -- first French ground combat element in theater",
+        "France quietly surges additional SSBN from Ile Longue to patrol station -- nuclear deterrence signal to Moscow",
+        "Lithuania formally invokes NATO Article 5 -- collective defense obligation now triggered",
+        "Finland mobilizes 40,000 total reservists, aggressive air patrols within 5km of Russian airspace along 1,340km border",
+        "Hungary drops blocking position at NATO -- Orban shifts to abstention, enabling alliance consensus on force deployments",
+        "Trump proposes 72-hour mutual standstill to Putin via nuclear hotline -- Russia publicly rejects but Patrushev-Kellogg backchannel explores Kaliningrad transit framework",
+        "Erdogan hosts Lavrov and NATO Deputy SecGen in Istanbul -- proposes structured 48-hour ceasefire and Kaliningrad transit negotiation framework",
+        "China issues statement on 'sovereignty and territorial integrity of all nations' -- further diplomatic distance from Moscow",
+        "China quietly offers economic lifelines to Belarus to sustain Lukashenko's resistance to Russian pressure",
+        "Norwegian gas exports increased to maximum capacity, partially offsetting Baltic energy disruption",
+        "USS Gerald Ford carrier strike group ordered to surge from Norfolk toward Eastern Atlantic -- 5-7 day transit",
+        "Czech Republic deploys mechanized battalion to Lithuania via Polish rail network",
+        "Marijampole county evacuation underway -- total displaced persons in crisis now approximately 45,000",
+        "Estonian and Lithuanian cyber commands conduct coordinated offensive operations against Russian military C2 networks in Kaliningrad -- partial disruption of logistics coordination systems"
+      ],
+      "media_headlines": [
+        "BBC: HMS Queen Elizabeth enters Baltic Sea -- carrier strike group operational as NATO achieves air superiority over Suwalki corridor",
+        "CNN: Trump calls Putin on nuclear hotline proposing standstill -- Kremlin publicly rejects but sources say backchannel negotiations underway",
+        "RT: NATO provocation reaches unprecedented levels -- nuclear-capable aircraft deployed to Russian borders, Moscow warns of 'catastrophic miscalculation'",
+        "Reuters: Lukashenko pulls Belarus troops back from border as Putin's 24-hour ultimatum expires -- Union State alliance fracturing",
+        "Bild: Bundestag says JA to war -- Germany authorizes combat ROE for troops in Lithuania as Leopard tanks double in Baltic",
+        "Financial Times: EU activates full Russia sanctions package -- SWIFT restrictions, asset freezes in most aggressive economic action since 2022",
+        "Al Jazeera: Erdogan hosts emergency Istanbul talks as diplomatic race against military clock intensifies",
+        "WSJ: Oil hits $122 as Russia-NATO crisis enters most dangerous phase -- Iskander missile rehearsals raise nuclear fears",
+        "Gazeta Wyborcza: Poland's iron fist -- 11th Armoured Division activated as three mechanized divisions defend the corridor"
+      ],
+      "round_number": 3
+    },
+    "events": [
+      "HMS Queen Elizabeth carrier strike group enters Baltic Sea -- NATO achieves air and naval superiority",
+      "Lithuania formally invokes NATO Article 5 for first time in alliance history triggered by European security crisis",
+      "Lukashenko begins secretly sharing Russian military intelligence with NATO -- Union State alliance fracturing",
+      "Russia's Iskander-M launch rehearsals in Kaliningrad represent most provocative nuclear signaling of crisis",
+      "Hungary drops NATO blocking position -- alliance achieves consensus on collective defense for first time",
+      "EU activates comprehensive Russia sanctions package -- most aggressive economic measures since 2022",
+      "Patrushev-Kellogg backchannel reveals Russia privately exploring Kaliningrad transit framework as diplomatic exit",
+      "Combined Estonian-Lithuanian cyber offensive partially disrupts Russian C2 networks in Kaliningrad"
+    ],
+    "headlines": [
+      "BBC: HMS Queen Elizabeth enters Baltic Sea -- carrier strike group operational as NATO achieves air superiority",
+      "CNN: Trump calls Putin on nuclear hotline proposing standstill -- backchannel negotiations underway",
+      "RT: NATO nuclear-capable aircraft at Russian borders -- Moscow warns of catastrophic miscalculation",
+      "Reuters: Lukashenko pulls back as Putin ultimatum expires -- Union State fracturing"
+    ],
+    "surprises": [
+      "Estonian and Lithuanian cyber commands achieve unexpected success against Russian Kaliningrad C2 networks -- partial disruption of logistics coordination systems forces Russian units to fall back on manual communications, degrading operational coordination",
+      "Norwegian P-8 surveillance detects two additional Russian SSBNs departing Severodvinsk naval base -- consistent with surge to patrol stations, raising nuclear posture concerns but assessment remains ambiguous between defensive measure and escalation signal"
+    ]
+  },
+  "world_state_after": {
+    "round_number": 3,
+    "game_time": "Day 3, 18:00 CET",
+    "military_units": [
+      {
+        "name": "russian_kaliningrad_forces",
+        "country": "RU",
+        "type": "ground",
+        "location": "Kaliningrad Oblast - 2km from Lithuanian border, combat formation, S-400 targeting radars active, Iskander-M TELs conducting launch rehearsals",
+        "readiness": 9,
+        "strength": 8,
+        "casualties": 0,
+        "supply_level": 7,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "russian_western_district",
+        "country": "RU",
+        "type": "ground",
+        "location": "Western Military District, Russia - Rear elements halted, unable to reinforce Grodno without Lukashenko authorization",
+        "readiness": 7,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 8,
+        "morale": 6,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "belarus_forces",
+        "country": "BY",
+        "type": "ground",
+        "location": "Belarus - Pulled back 5km from Lithuanian border to Gozha rear area, Lukashenko signaling non-aggression",
+        "readiness": 4,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 8,
+        "morale": 4,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_lithuania",
+        "country": "DE",
+        "type": "ground",
+        "location": "Lithuania - Reinforced defensive positions near Suwalki corridor with Leopard 2A7, Leopard 2A6, French Leclerc tanks and Patriot battery, expanded ROE authorized by Bundestag",
+        "readiness": 8,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 7,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_latvia",
+        "country": "CA",
+        "type": "ground",
+        "location": "Latvia - Camp Adazi, Canadian brigade at full combat strength with Leopard 2A6M tanks",
+        "readiness": 8,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_estonia",
+        "country": "GB",
+        "type": "ground",
+        "location": "Estonia - Tapa, reinforced with 16 Air Assault Brigade elements and Apache helicopters",
+        "readiness": 8,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "Poland - Suwalki corridor, integrated with Polish-US defensive line, full combat readiness",
+        "readiness": 9,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "us_forces_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "Poland - Full V Corps deployed forward to Augustow defensive line, ~4,500 troops with Abrams, Bradleys, Paladin artillery",
+        "readiness": 9,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "polish_forces",
+        "country": "PL",
+        "type": "ground",
+        "location": "Poland - 16th Mechanized Division anchoring defensive line Route 8 Augustow-Lithuanian border, Polish F-16s flying 24/7 CAP with AMRAAM loadout",
+        "readiness": 9,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 7,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "finnish_forces",
+        "country": "FI",
+        "type": "ground",
+        "location": "Finland - 40,000 reservists mobilized, continuous defensive coverage from Gulf of Finland to Salla, Pori and Karelia Brigades deployed",
+        "readiness": 8,
+        "strength": 9,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "us_vcorps_forward",
+        "country": "US",
+        "type": "ground",
+        "location": "Poland - Augustow area, fully integrated into Polish-NATO defensive line with complete V Corps strength",
+        "readiness": 9,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "polish_18th_mechanized",
+        "country": "PL",
+        "type": "ground",
+        "location": "Poland - Elk area, operational reserve, at full readiness",
+        "readiness": 8,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 8,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "russian_western_belarus",
+        "country": "RU",
+        "type": "ground",
+        "location": "Belarus - Grodno staging area, preparing 'independent action' contingency, morale deteriorating as Lukashenko's defiance becomes known",
+        "readiness": 7,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 7,
+        "morale": 5,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "uk_carrier_group",
+        "country": "GB",
+        "type": "naval",
+        "location": "Baltic Sea - HMS Queen Elizabeth operational with F-35B squadron, Type 45 Sampson radar active for area air defense, Dutch frigate escort",
+        "readiness": 8,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "french_naval_group",
+        "country": "FR",
+        "type": "naval",
+        "location": "Baltic Sea approaches - ASW screen ahead of Queen Elizabeth strike group, FS Alsace and FS Lorraine on station",
+        "readiness": 8,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "polish_11th_armoured",
+        "country": "PL",
+        "type": "ground",
+        "location": "Poland - En route from Zagan to Suwalki corridor via A2/E30, expected arrival 12-18 hours",
+        "readiness": 6,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "uk_16_air_assault",
+        "country": "GB",
+        "type": "ground",
+        "location": "Estonia - Tapa, reinforcing UK-led eFP battlegroup with Apache attack helicopters",
+        "readiness": 7,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "french_leclerc_company",
+        "country": "FR",
+        "type": "ground",
+        "location": "Lithuania - Integrated with German eFP battlegroup near Suwalki corridor",
+        "readiness": 7,
+        "strength": 3,
+        "casualties": 0,
+        "supply_level": 8,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "czech_mechanized_battalion",
+        "country": "CZ",
+        "type": "ground",
+        "location": "Lithuania - Deploying via Polish rail network to German eFP positions",
+        "readiness": 6,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 8,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "lithuanian_iron_wolf",
+        "country": "LT",
+        "type": "ground",
+        "location": "Lithuania - Blocking positions along Neman River crossings south of Marijampole",
+        "readiness": 7,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 7,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "latvian_mechanized_brigade",
+        "country": "LV",
+        "type": "ground",
+        "location": "Latvia - Defensive positions along Daugavpils-Rezekne corridor",
+        "readiness": 6,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 8,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "estonian_2nd_brigade",
+        "country": "EE",
+        "type": "ground",
+        "location": "Estonia - Narva River crossing positions, reinforcing UK battlegroup",
+        "readiness": 7,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 8,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "dutch_frigate_deruyter",
+        "country": "NL",
+        "type": "naval",
+        "location": "Baltic Sea - Escorting HMS Queen Elizabeth carrier strike group",
+        "readiness": 8,
+        "strength": 3,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      }
+    ],
+    "military_alerts": {
+      "russian_kaliningrad_forces": "2 BTGs advanced to 2km from Lithuanian border in combat formation. S-400 targeting radars illuminating NATO aircraft for first time. Iskander-M TELs conducting visible launch rehearsals. Supply declining as extended deployment strains logistics.",
+      "russian_western_district": "Elements moving toward Belarus staging areas, additional reinforcement possible within 48h",
+      "belarus_forces": "Lukashenko ordered 5km pullback from border. Troops demoralized, sensing political crisis. Belarusian KGB monitoring Russian GRU officers at bases. Intelligence being shared with NATO.",
+      "nato_efp_lithuania": "Bundestag authorizes expanded ROE -- Patriot and Leopard crews cleared for engagement of hostile forces, not just self-defense. French Leclerc and Czech mechanized battalion integrating. Strongest defensive position of the crisis.",
+      "nato_efp_latvia": "Canadian-led brigade at heightened alert, defensive preparations at Camp Adazi",
+      "nato_efp_estonia": "UK-led battlegroup reinforced patrols along Russian border, P-8 maritime patrol overhead",
+      "nato_efp_poland": "US-led battlegroup forward deployed with Polish forces in Suwalki corridor",
+      "us_forces_poland": "Full V Corps forward deployed to Augustow. F-35As from 48th Fighter Wing deploying to Lask and Powidz airbases. Combined US force approximately 6,000 in the corridor area.",
+      "polish_forces": "11th Armoured Cavalry Division activated and en route as third echelon. GROM teams authorized for cross-border reconnaissance. Polish air force maintaining 24/7 CAP.",
+      "finnish_forces": "40,000 reservists now mobilized. F/A-18 Hornets conducting aggressive air patrols within 5km of Russian airspace. Finnish intelligence sharing real-time SIGINT with NATO SHAPE.",
+      "us_vcorps_forward": "V Corps reinforced battalion task force (~1,200 troops, Abrams, Bradleys) deployed to Augustow, integrated with Polish defensive line -- first US heavy armor forward of Camp Kosciuszko",
+      "polish_18th_mechanized": "18th Mechanized Division deployed from Siedlce to Elk as operational reserve, Polish F-16s flying combat air patrols along corridor",
+      "russian_western_belarus": "Russian forces at Grodno preparing contingency for 'independent action' -- crossing into Lithuania without Belarusian authorization. Morale declining as troops learn of Lukashenko's defiance and political uncertainty.",
+      "uk_carrier_group": "HMS Queen Elizabeth in Baltic Sea. F-35B squadron operational for combat air patrol and strike missions. Type 45 destroyers providing area air defense. Dutch HNLMS De Ruyter joining escort.",
+      "french_naval_group": "French Atlantic frigate group redirecting to North Sea to coordinate with Royal Navy, Rafale Maritime surveillance increased",
+      "lithuanian_iron_wolf": "Iron Wolf Mechanized Brigade deployed to Neman River crossing positions south of Marijampole. Secondary defensive line behind German eFP. Civilian evacuation of Marijampole county underway.",
+      "estonian_2nd_brigade": "2nd Infantry Brigade at Narva River crossings. Kaitseliit 16,000 volunteers activated. Cyber Command conducting offensive operations against Russian C2 networks."
+    },
+    "markets": {
+      "oil_price": 122.0,
+      "euro_usd": 1.02,
+      "gas_price_eu": "surging, +35% on day",
+      "stock_indices": "European indices -4.5%, US -2.1%, sharp risk-off globally"
+    },
+    "sanctions": [
+      {
+        "from": "EU",
+        "target": "RU",
+        "type": "Emergency preparatory package: asset freeze framework for Russian defense sector entities, ready for activation"
+      },
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "Executive order signed expanding OFAC sanctions authority for rapid deployment against Russian financial institutions"
+      },
+      {
+        "from": "EU",
+        "target": "RU",
+        "type": "Full asset freeze on Russian defense sector entities, SWIFT restrictions on major Russian banks (energy transaction carve-outs), travel bans on 200+ Russian officials"
+      },
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "OFAC sanctions activated: full blocking sanctions on Russian defense and intelligence entities, secondary sanctions warning to institutions facilitating Russian military procurement"
+      }
+    ],
+    "trade_disruptions": [
+      "Baltic Sea shipping disrupted by Russian naval exclusion zone",
+      "Lithuanian rail transit to Kaliningrad suspended by Lithuania",
+      "Insurance premiums for Baltic shipping surge 400%",
+      "Baltic Sea commercial shipping effectively halted -- Lloyd's of London declares Baltic a war risk zone",
+      "European natural gas spot prices surge additional 20% as Baltic pipeline routes threatened",
+      "Rail freight through Suwalki corridor suspended -- Polish rail authority cites security concerns",
+      "Norwegian gas exports increased to maximum pipeline capacity via Langeled and Europipe, partially offsetting Baltic supply disruption",
+      "Zeebrugge and Antwerp ports opened as primary NATO logistics staging areas for eastern flank force flow",
+      "Constanta port and MK airbase designated as alternative southern NATO logistics corridor"
+    ],
+    "diplomatic_relations": {
+      "PL": {
+        "RU": -8,
+        "BY": -6,
+        "US": 4,
+        "LT": 9,
+        "DE": 4
+      },
+      "LT": {
+        "RU": -9,
+        "BY": -7,
+        "PL": 9,
+        "US": 5,
+        "DE": 6
+      },
+      "LV": {
+        "RU": -8,
+        "LT": 8,
+        "EE": 8
+      },
+      "EE": {
+        "RU": -8,
+        "LV": 8,
+        "GB": 6
+      },
+      "US": {
+        "RU": -4,
+        "PL": 4,
+        "DE": 1
+      },
+      "GB": {
+        "RU": -7,
+        "EE": 7,
+        "PL": 6,
+        "FR": 7
+      },
+      "FR": {
+        "RU": -4,
+        "DE": 7,
+        "PL": 3,
+        "GB": 7
+      },
+      "DE": {
+        "RU": -5,
+        "PL": 5,
+        "FR": 7,
+        "LT": 6
+      },
+      "RU": {
+        "US": -4,
+        "PL": -8,
+        "LT": -9,
+        "BY": 3,
+        "CN": 4,
+        "DE": -5
+      },
+      "FI": {
+        "RU": -7,
+        "SE": 7,
+        "EE": 7
+      },
+      "SE": {
+        "FI": 7,
+        "RU": -5
+      },
+      "BY": {
+        "RU": 3,
+        "LT": -7,
+        "PL": -3,
+        "US": 1
+      },
+      "CN": {
+        "RU": 4,
+        "US": -2,
+        "BY": 2
+      },
+      "HU": {
+        "RU": -1,
+        "PL": -1
+      },
+      "TR": {
+        "RU": 0,
+        "US": 2
+      }
+    },
+    "treaties_invoked": [
+      "NATO Article 4 invoked by Lithuania, Latvia, and Estonia - formal consultations requested",
+      "Franco-British Northwood Declaration activated for coordinated Baltic naval operations",
+      "NATO Article 5 formally referenced in NAC emergency session -- not yet formally invoked but language escalated",
+      "EU Common Security and Defence Policy emergency consultation triggered under Article 42.7 TEU",
+      "Lithuania formally invokes NATO Article 5 -- full collective defense obligation triggered, all 31 allies must respond",
+      "EU activates full sanctions package against Russia under CFSP emergency provisions"
+    ],
+    "un_resolutions": [
+      "Russia vetoes UNSC resolution calling for immediate cessation of military provocations in Baltic region; China abstains"
+    ],
+    "nato_alert_level": "article5",
+    "nato_consensus": {
+      "US": "Authorizes limited forward deployment, maintains diplomatic track with Russia",
+      "PL": "Demands full NATO mobilization, deploying all available national forces",
+      "DE": "Bundestag authorizes expanded ROE and additional force deployments -- Germany fully committed to collective defense",
+      "GB": "Leading European military response, surging carrier strike group to Baltic",
+      "FR": "Deploying ground combat elements to Lithuania, SSBN surge underway, supporting EU-level economic coordination",
+      "LT": "Invokes Article 5 language, demands immediate alliance-wide reinforcement",
+      "LV": "Supports full mobilization, preparing for potential isolation if corridor cut",
+      "EE": "Supports Baltic solidarity, activates all reserves and cyber capabilities",
+      "CA": "Reinforcing Latvia eFP, preparing contingency plans for isolated operations",
+      "HU": "Abstaining on collective defense measures rather than blocking -- NATO achieves consensus on force deployments for first time",
+      "NO": "Activating northern maritime surveillance, preparing to restrict Russian naval movements",
+      "DK": "Preparing Danish Straits monitoring, supporting Baltic defense",
+      "FI": "Massive reserve mobilization, fixing Russian forces along 1,340km border",
+      "SE": "Gotland reinforced, submarine operations in Baltic, supporting JEF",
+      "NL": "Preparing air mobile brigade for potential deployment",
+      "BE": "Supporting NATO HQ security, logistics coordination",
+      "CZ": "Preparing mechanized force contribution to NATO response",
+      "RO": "Heightened Black Sea vigilance, supporting eastern flank defense",
+      "TR": "Supporting diplomatic framework while maintaining military neutrality -- hosting Istanbul de-escalation talks"
+    },
+    "corridor_control": "nato",
+    "nuclear_posture": {
+      "RU": "elevated",
+      "US": "elevated",
+      "GB": "peacetime",
+      "FR": "peacetime"
+    },
+    "nuclear_detonations": [],
+    "public_opinion": {
+      "PL": {
+        "war_support": 75,
+        "government_approval": 67
+      },
+      "DE": {
+        "war_support": 31,
+        "government_approval": 37
+      },
+      "FR": {
+        "war_support": 39,
+        "government_approval": 41
+      },
+      "US": {
+        "war_support": 25,
+        "government_approval": 44
+      },
+      "GB": {
+        "war_support": 46,
+        "government_approval": 46
+      },
+      "LT": {
+        "war_support": 89,
+        "government_approval": 62
+      },
+      "LV": {
+        "war_support": 82,
+        "government_approval": 55
+      },
+      "EE": {
+        "war_support": 84,
+        "government_approval": 58
+      },
+      "FI": {
+        "war_support": 67,
+        "government_approval": 62
+      },
+      "SE": {
+        "war_support": 57,
+        "government_approval": 55
+      },
+      "NO": {
+        "war_support": 49,
+        "government_approval": 52
+      },
+      "DK": {
+        "war_support": 46,
+        "government_approval": 50
+      },
+      "CA": {
+        "war_support": 38,
+        "government_approval": 47
+      },
+      "NL": {
+        "war_support": 36,
+        "government_approval": 44
+      },
+      "BE": {
+        "war_support": 30,
+        "government_approval": 42
+      },
+      "CZ": {
+        "war_support": 42,
+        "government_approval": 48
+      },
+      "RO": {
+        "war_support": 45,
+        "government_approval": 50
+      },
+      "HU": {
+        "war_support": 12,
+        "government_approval": 43
+      },
+      "RU": {
+        "war_support": 55,
+        "government_approval": 63
+      },
+      "BY": {
+        "war_support": 9,
+        "government_approval": 24
+      },
+      "TR": {
+        "war_support": 7,
+        "government_approval": 45
+      },
+      "CN": {
+        "war_support": 5,
+        "government_approval": 71
+      }
+    },
+    "refugee_flows": [
+      {
+        "from": "LT",
+        "to": "PL",
+        "count": 8500,
+        "status": "fleeing"
+      },
+      {
+        "from": "LT",
+        "to": "LV",
+        "count": 3200,
+        "status": "fleeing"
+      }
+    ],
+    "humanitarian_crisis_level": {
+      "LT": 7,
+      "PL": 3,
+      "LV": 3
+    },
+    "cyber_operations": [
+      {
+        "attacker": "RU",
+        "target": "LT",
+        "type": "ddos",
+        "severity": "high",
+        "infrastructure_affected": "financial"
+      },
+      {
+        "attacker": "RU",
+        "target": "LT",
+        "type": "malware",
+        "severity": "medium",
+        "infrastructure_affected": "comms"
+      },
+      {
+        "attacker": "RU",
+        "target": "LT",
+        "type": "infrastructure",
+        "severity": "high",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "PL",
+        "type": "espionage",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "EE",
+        "target": "RU",
+        "type": "espionage",
+        "severity": "low",
+        "infrastructure_affected": "none"
+      },
+      {
+        "attacker": "RU",
+        "target": "PL",
+        "type": "infrastructure",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "DE",
+        "type": "espionage",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "GB",
+        "target": "RU",
+        "type": "espionage",
+        "severity": "low",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "EE",
+        "type": "ddos",
+        "severity": "medium",
+        "infrastructure_affected": "financial"
+      },
+      {
+        "attacker": "LT",
+        "target": "RU",
+        "type": "infrastructure",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "EE",
+        "target": "RU",
+        "type": "infrastructure",
+        "severity": "high",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "FI",
+        "target": "RU",
+        "type": "espionage",
+        "severity": "low",
+        "infrastructure_affected": "none"
+      }
+    ],
+    "infrastructure_status": {
+      "LT": {
+        "power_grid": 7,
+        "comms": 5,
+        "financial": 4,
+        "military_c2": 6
+      },
+      "RU": {
+        "power_grid": 10,
+        "comms": 9,
+        "financial": 10,
+        "military_c2": 7
+      }
+    },
+    "recent_events": [
+      "HMS Queen Elizabeth carrier strike group enters Baltic Sea through Danish Straits -- F-35B squadron operational for combat air patrol",
+      "US deploys F-35A squadrons from RAF Lakenheath to Polish airbases at Lask and Powidz -- NATO achieves air superiority over Suwalki corridor",
+      "Full US V Corps (~4,500 troops) forward deployed to Augustow defensive line with Abrams, Bradleys, and Paladin artillery",
+      "Poland activates 11th Armoured Cavalry Division from Zagan as third echelon reserve, en route to Suwalki corridor",
+      "Russian Kaliningrad BTGs advance to 2km from Lithuanian border -- S-400 targeting radars illuminate NATO aircraft for first time",
+      "Iskander-M TELs in Kaliningrad conduct visible launch rehearsals -- nuclear signaling at most provocative level of crisis",
+      "Putin launches Operation PEREVAL: covert pressure campaign to force Lukashenko's compliance or replace him",
+      "Lukashenko pulls Belarus forces back 5km from border, begins secretly sharing Russian force intelligence with NATO through Polish and US channels",
+      "Lukashenko contacts Polish intelligence offering Russian order of battle data from Grodno in exchange for personal security guarantees",
+      "Bundestag emergency session authorizes expanded ROE for German forces in Lithuania -- Patriot and Leopard crews cleared for hostile engagement",
+      "Germany deploys additional Leopard 2A6 company to Lithuania, doubling German heavy armor presence",
+      "EU activates full sanctions package: asset freeze on Russian defense entities, SWIFT restrictions on major banks, 200+ travel bans",
+      "France deploys Leclerc tank company from Franco-German Brigade to Lithuania -- first French ground combat element in theater",
+      "France quietly surges additional SSBN from Ile Longue to patrol station -- nuclear deterrence signal to Moscow",
+      "Lithuania formally invokes NATO Article 5 -- collective defense obligation now triggered",
+      "Finland mobilizes 40,000 total reservists, aggressive air patrols within 5km of Russian airspace along 1,340km border",
+      "Hungary drops blocking position at NATO -- Orban shifts to abstention, enabling alliance consensus on force deployments",
+      "Trump proposes 72-hour mutual standstill to Putin via nuclear hotline -- Russia publicly rejects but Patrushev-Kellogg backchannel explores Kaliningrad transit framework",
+      "Erdogan hosts Lavrov and NATO Deputy SecGen in Istanbul -- proposes structured 48-hour ceasefire and Kaliningrad transit negotiation framework",
+      "China issues statement on 'sovereignty and territorial integrity of all nations' -- further diplomatic distance from Moscow",
+      "China quietly offers economic lifelines to Belarus to sustain Lukashenko's resistance to Russian pressure",
+      "Norwegian gas exports increased to maximum capacity, partially offsetting Baltic energy disruption",
+      "USS Gerald Ford carrier strike group ordered to surge from Norfolk toward Eastern Atlantic -- 5-7 day transit",
+      "Czech Republic deploys mechanized battalion to Lithuania via Polish rail network",
+      "Marijampole county evacuation underway -- total displaced persons in crisis now approximately 45,000",
+      "Estonian and Lithuanian cyber commands conduct coordinated offensive operations against Russian military C2 networks in Kaliningrad -- partial disruption of logistics coordination systems"
+    ],
+    "media_headlines": [
+      "BBC: HMS Queen Elizabeth enters Baltic Sea -- carrier strike group operational as NATO achieves air superiority over Suwalki corridor",
+      "CNN: Trump calls Putin on nuclear hotline proposing standstill -- Kremlin publicly rejects but sources say backchannel negotiations underway",
+      "RT: NATO provocation reaches unprecedented levels -- nuclear-capable aircraft deployed to Russian borders, Moscow warns of 'catastrophic miscalculation'",
+      "Reuters: Lukashenko pulls Belarus troops back from border as Putin's 24-hour ultimatum expires -- Union State alliance fracturing",
+      "Bild: Bundestag says JA to war -- Germany authorizes combat ROE for troops in Lithuania as Leopard tanks double in Baltic",
+      "Financial Times: EU activates full Russia sanctions package -- SWIFT restrictions, asset freezes in most aggressive economic action since 2022",
+      "Al Jazeera: Erdogan hosts emergency Istanbul talks as diplomatic race against military clock intensifies",
+      "WSJ: Oil hits $122 as Russia-NATO crisis enters most dangerous phase -- Iskander missile rehearsals raise nuclear fears",
+      "Gazeta Wyborcza: Poland's iron fist -- 11th Armoured Division activated as three mechanized divisions defend the corridor"
+    ],
+    "_nuclear_penalty_applied": [],
+    "_oil_penalty_last_threshold": 120,
+    "_gas_sanction_count_applied": 0,
+    "_gm_set_nuclear_this_round": [
+      "RU",
+      "GB",
+      "FR",
+      "US"
+    ]
+  }
+}

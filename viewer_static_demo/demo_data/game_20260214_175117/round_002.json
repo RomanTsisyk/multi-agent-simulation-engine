@@ -1,0 +1,1486 @@
+{
+  "round": 2,
+  "runner": "claude-code",
+  "briefing": "The Suwalki Gap Crisis enters Hour 48—the precise moment Putin's ultimatum expires—with the world balanced on a diplomatic knife-edge. Russia has not invaded the corridor, but neither has it withdrawn its threat. Instead, the Kremlin accepted direct Putin-Trump negotiations set to begin within 12 hours, with Turkey offering Istanbul as a compromise venue after Putin's demand for Moscow was rejected. The Belarus battalion probe into Lithuanian territory withdrew after 4 hours when Lithuanian forces deployed Iron Wolf brigade units in blocking positions, demonstrating NATO resolve without triggering Article 5. But Russia's intensified cyber campaign has now degraded Lithuanian financial systems to 3/10 functionality, creating a parallel crisis of economic infrastructure collapse.\n\nNATO's massive 30,000-troop deployment has fundamentally altered the military balance. The Suwalki corridor now hosts the largest concentration of allied combat power in Europe since the Cold War: Polish 16th Mechanized and 2nd Armoured Cavalry, US 2nd Cavalry Regiment with F-35 air cover, UK 16 Air Assault Brigade, French 5,000-troop expeditionary force with nuclear-capable Rafales, German 10th Panzer Brigade, and contributions from 10 additional nations. Four NATO nuclear powers (US, UK, France, Russia) now hold nuclear postures at ELEVATED. Air superiority over the Baltic theater is firmly NATO's, with coordinated operations through Norway's Bodø CAOC integrating F-35s, Typhoons, Rafales, Gripens, and F-16s from eight nations operating off Sweden's Gotland island.\n\nBut the alliance credibility crisis persists. Hungary has doubled down on its veto, blocking NATO consensus and all military transit through Hungarian territory. The EU initiated Article 7 TEU proceedings to suspend Hungarian voting rights, but Budapest is calculating that Russia's guaranteed gas flows and Chinese economic support outweigh Brussels' threats. Alternative reinforcement corridors through Czech Republic are operational but less efficient. More critically, every NATO democracy faces catastrophic war support: US 18%, Germany 23%, France 37%, UK 42%. Governments from Warsaw to Washington have deployed forces against massive domestic opposition, gambling that deterrence will work and negotiation will succeed. If diplomacy fails and combat erupts, these governments will face political annihilation at home.\n\nThe Putin-Trump phone call represents both sides' last exit ramp before war. Russia's position: humanitarian corridor to Kaliningrad under international supervision is non-negotiable, achieved through negotiation or force. Lithuania's position: sovereignty is non-negotiable, corridor access can be discussed only after ultimatum withdrawal. The United States: desperate for diplomatic solution to avoid combat with 18% war support, but unable to force Lithuanian concessions without shattering NATO credibility completely. The next 12-24 hours will determine whether this crisis ends in the first direct NATO-Russia war since 1949, or a negotiated compromise that saves face for all sides while leaving fundamental questions unresolved.",
+  "narrative": "Hour 36 of Putin's ultimatum marked the crisis turning point. Despite catastrophic war support levels across NATO democracies, European governments executed the most significant military deployment since the Cold War. Poland's unilateral commitment of the 16th Mechanized Division (4,000 troops, 120 tanks) to the Suwalki corridor forced Washington's hand. President Trump, boxed in by Polish action and allied pressure despite 18% domestic war support, authorized V Corps' 2nd Cavalry Regiment deployment alongside F-35 fighters and elevated US nuclear posture to match Russia and France.\n\nBut Europe did not wait for American leadership. Within 18 hours, the United Kingdom activated the Joint Expeditionary Force and deployed 16 Air Assault Brigade, France moved its 5,000-strong expeditionary brigade eastward, and Germany's Chancellor Merz used emergency constitutional powers to override the paralyzed Bundestag and deploy the 10th Panzer Brigade. The Nordic states coordinated through Norway's Bodø CAOC to establish unified air operations, with Sweden authorizing Gotland as a forward NATO air base and Finland deploying 2,500 troops to Latvia. Canada, Netherlands, Belgium, Czech Republic, and Romania followed with brigade-sized contributions.\n\nIn the Kremlin, GRU intelligence painted a stark picture: NATO was deploying 30,000+ additional troops with overwhelming air superiority to the corridor. Putin's Kaliningrad garrison of 8,000 (strength 8) plus Belarus's 4,000 (strength 4) would face approximately 40,000 NATO troops backed by F-35s, Typhoons, Rafales, and Gripens. The combat mathematics were devastating: Russian effective strength of ~9,600 against NATO's ~36,400 with 1.3x air superiority multiplier—a 3-to-1 NATO advantage. Gerasimov's military assessment was unambiguous: invasion would result in catastrophic defeat.\n\nPutin pivoted. Rather than order the corridor assault, Russia accepted the US proposal for direct Putin-Trump negotiations and a trilateral summit, though demanding Moscow as the venue to project strength. At Hour 30 of the ultimatum, Belarus executed a limited battalion-level 'reconnaissance probe' 5km into Lithuanian territory near the Vilnius-Kaunas highway—not a full invasion, but a demonstration that Russia's threat remained credible. Simultaneously, Russian cyber forces intensified attacks on Lithuania's financial systems, collapsing another 15% of banking infrastructure. Hungary doubled down on its NATO veto and blocked all military transit through Hungarian territory, prompting the EU to initiate Article 7 proceedings and NATO allies to establish alternative reinforcement corridors through Czech Republic. The crisis had not ended—but the path had split between war and negotiation.",
+  "country_decisions": [
+    {
+      "country": "PL",
+      "actions": [
+        "Deploy 16th Mechanized Division to corridor",
+        "Activate 8,000 additional WOT",
+        "Expel 3 Hungarian diplomats",
+        "Establish air defense corridor"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "FR",
+          "channel": "private",
+          "message": "France's brigade deployment critical"
+        },
+        {
+          "to": "GB",
+          "channel": "private",
+          "message": "Request additional UK brigade"
+        },
+        {
+          "to": "DE",
+          "channel": "private",
+          "message": "Bundestag must authorize 10th Panzer"
+        },
+        {
+          "to": "US",
+          "channel": "private",
+          "message": "Last chance for American leadership"
+        },
+        {
+          "to": "HU",
+          "channel": "public",
+          "message": "Demand EU FAC session on Hungarian obstruction"
+        }
+      ]
+    },
+    {
+      "country": "LT",
+      "actions": [
+        "Reject Putin ultimatum publicly",
+        "Emergency infrastructure restoration",
+        "Government continuity bunker Kaunas",
+        "Iron Wolf supports Polish line"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "US",
+          "channel": "public",
+          "message": "Will not surrender sovereignty"
+        },
+        {
+          "to": "PL",
+          "channel": "private",
+          "message": "Lithuania stands with Poland"
+        },
+        {
+          "to": "DE",
+          "channel": "private",
+          "message": "Your soldiers on our soil"
+        },
+        {
+          "to": "RU",
+          "channel": "public",
+          "message": "Reject ultimatum"
+        }
+      ]
+    },
+    {
+      "country": "LV",
+      "actions": [
+        "1st Infantry to corridor support",
+        "Coordinate Canadian eFP evacuation routes",
+        "5,000 National Guard activated",
+        "Request NATO air reinforcement"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "CA",
+          "channel": "private",
+          "message": "Your troops face isolation"
+        },
+        {
+          "to": "LT",
+          "channel": "private",
+          "message": "1st Infantry supporting corridor"
+        },
+        {
+          "to": "EE",
+          "channel": "private",
+          "message": "Emergency Baltic Defense Council"
+        }
+      ]
+    },
+    {
+      "country": "EE",
+      "actions": [
+        "Maintain Narva defense",
+        "20,000 Kaitseliit activated",
+        "UK Typhoon CAP expansion",
+        "Cyber teams to Lithuania"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "GB",
+          "channel": "private",
+          "message": "Request UK brigade reinforcement"
+        },
+        {
+          "to": "LT",
+          "channel": "private",
+          "message": "Cyber defense teams assisting"
+        },
+        {
+          "to": "LV",
+          "channel": "private",
+          "message": "Support Baltic Defense Council"
+        }
+      ]
+    },
+    {
+      "country": "US",
+      "actions": [
+        "V Corps 2nd Cavalry to Poland defensive",
+        "12 F-35As Poland CAP",
+        "Nuclear posture ELEVATED",
+        "Direct Putin call proposed"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "PL",
+          "channel": "private",
+          "message": "2nd Cav deploying - defensive only"
+        },
+        {
+          "to": "RU",
+          "channel": "backchannel",
+          "message": "Trilateral summit offer"
+        },
+        {
+          "to": "GB",
+          "channel": "private",
+          "message": "Coordinate European response"
+        },
+        {
+          "to": "FR",
+          "channel": "private",
+          "message": "Coordinate brigade timing"
+        },
+        {
+          "to": "LT",
+          "channel": "private",
+          "message": "Signal negotiation willingness"
+        }
+      ]
+    },
+    {
+      "country": "GB",
+      "actions": [
+        "JEF activation",
+        "16 Air Assault Brigade deploy",
+        "Nuclear ELEVATED",
+        "24 Typhoons operational"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "FR",
+          "channel": "private",
+          "message": "Franco-British force coordinates"
+        },
+        {
+          "to": "US",
+          "channel": "private",
+          "message": "UK will lead if America won't"
+        },
+        {
+          "to": "PL",
+          "channel": "private",
+          "message": "16 Air Assault deploying"
+        },
+        {
+          "to": "HU",
+          "channel": "public",
+          "message": "Support EU voting suspension"
+        }
+      ]
+    },
+    {
+      "country": "FR",
+      "actions": [
+        "5,000 brigade deploy",
+        "Nuclear-capable Rafales Poland",
+        "2 SAMP/T to Lithuania",
+        "Emergency EU FAC"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "GB",
+          "channel": "private",
+          "message": "Franco-British joint task force"
+        },
+        {
+          "to": "DE",
+          "channel": "private",
+          "message": "Deploy 10th Panzer now"
+        },
+        {
+          "to": "PL",
+          "channel": "private",
+          "message": "Brigade deploying 24h"
+        },
+        {
+          "to": "HU",
+          "channel": "public",
+          "message": "Article 7 proceedings"
+        }
+      ]
+    },
+    {
+      "country": "DE",
+      "actions": [
+        "Emergency 10th Panzer deployment",
+        "Logistics corridor through Poland",
+        "eFP readiness 10",
+        "Emergency Bundestag session"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "FR",
+          "channel": "private",
+          "message": "10th Panzer emergency powers"
+        },
+        {
+          "to": "LT",
+          "channel": "private",
+          "message": "Germany reinforcing"
+        },
+        {
+          "to": "PL",
+          "channel": "private",
+          "message": "10th Panzer through Poland"
+        },
+        {
+          "to": "HU",
+          "channel": "public",
+          "message": "Article 7 support"
+        }
+      ]
+    },
+    {
+      "country": "FI",
+      "actions": [
+        "2,500 Rapid Deployment to Latvia",
+        "30,000 reservists",
+        "Joint air ops with Sweden",
+        "Cyber coordination"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "SE",
+          "channel": "private",
+          "message": "Nordic air operations"
+        },
+        {
+          "to": "LT",
+          "channel": "private",
+          "message": "Cyber teams assisting"
+        },
+        {
+          "to": "CA",
+          "channel": "private",
+          "message": "Supporting Latvia brigade"
+        }
+      ]
+    },
+    {
+      "country": "SE",
+      "actions": [
+        "Gotland NATO air base",
+        "Amphibious Battalion deploy",
+        "Baltic naval patrol",
+        "Norwegian CAOC coordination"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "FI",
+          "channel": "private",
+          "message": "Joint air operations"
+        },
+        {
+          "to": "NO",
+          "channel": "private",
+          "message": "CAOC coordinates Nordic"
+        },
+        {
+          "to": "GB",
+          "channel": "private",
+          "message": "Gotland UK Typhoon base"
+        }
+      ]
+    },
+    {
+      "country": "NO",
+      "actions": [
+        "CAOC Bodø activated",
+        "6 F-35s to Poland",
+        "5,000 Home Guard Arctic",
+        "P-8 Baltic surveillance"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "SE",
+          "channel": "private",
+          "message": "CAOC activated"
+        },
+        {
+          "to": "FI",
+          "channel": "private",
+          "message": "Arctic border monitoring"
+        },
+        {
+          "to": "DK",
+          "channel": "private",
+          "message": "P-8 straits support"
+        }
+      ]
+    },
+    {
+      "country": "DK",
+      "actions": [
+        "Straits closure maintained",
+        "Bornholm brigade 3,000",
+        "8 F-16s Nordic ops",
+        "Naval minefield"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "SE",
+          "channel": "private",
+          "message": "Total Baltic lockdown"
+        },
+        {
+          "to": "NO",
+          "channel": "private",
+          "message": "F-16s CAOC Bodø"
+        },
+        {
+          "to": "RU",
+          "channel": "public",
+          "message": "Straits remain closed"
+        },
+        {
+          "to": "PL",
+          "channel": "private",
+          "message": "Bornholm brigade strength"
+        }
+      ]
+    },
+    {
+      "country": "CA",
+      "actions": [
+        "+2,500 brigade to Latvia",
+        "24 CF-18s operational",
+        "JTF Latvia full capability",
+        "Finnish coordination"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "FI",
+          "channel": "private",
+          "message": "Canadian-Finnish partnership"
+        },
+        {
+          "to": "LV",
+          "channel": "private",
+          "message": "4,700 troops total"
+        },
+        {
+          "to": "GB",
+          "channel": "private",
+          "message": "JEF coordination"
+        },
+        {
+          "to": "US",
+          "channel": "private",
+          "message": "Burden sharing"
+        }
+      ]
+    },
+    {
+      "country": "NL",
+      "actions": [
+        "11 Airmobile 1,200 deploy",
+        "6 F-35As Baltic",
+        "Article 7 support",
+        "Frigate Baltic"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "GB",
+          "channel": "private",
+          "message": "JEF battlegroup"
+        },
+        {
+          "to": "HU",
+          "channel": "public",
+          "message": "Voting suspension"
+        },
+        {
+          "to": "DK",
+          "channel": "private",
+          "message": "Naval coordination"
+        }
+      ]
+    },
+    {
+      "country": "BE",
+      "actions": [
+        "800 motorized with France",
+        "Emergency NAC session",
+        "Article 7 support",
+        "4 F-16s Baltic"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "FR",
+          "channel": "private",
+          "message": "Belgian infantry support"
+        },
+        {
+          "to": "HU",
+          "channel": "public",
+          "message": "NAC condemns obstruction"
+        },
+        {
+          "to": "NATO",
+          "channel": "public",
+          "message": "Emergency NAC 24h"
+        }
+      ]
+    },
+    {
+      "country": "CZ",
+      "actions": [
+        "4th Brigade 2,000 deploy",
+        "Alternative transit corridor",
+        "6 Gripens Baltic",
+        "Intelligence sharing"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "PL",
+          "channel": "private",
+          "message": "Alternative corridor operational"
+        },
+        {
+          "to": "HU",
+          "channel": "public",
+          "message": "Bypass Hungarian obstruction"
+        },
+        {
+          "to": "GB",
+          "channel": "private",
+          "message": "JEF coordination"
+        },
+        {
+          "to": "SK",
+          "channel": "private",
+          "message": "Slovak cooperation needed"
+        }
+      ]
+    },
+    {
+      "country": "RO",
+      "actions": [
+        "81st Brigade 1,500 deploy",
+        "Black Sea coordination Turkey",
+        "8 aircraft Baltic",
+        "Alternative routes"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "TR",
+          "channel": "private",
+          "message": "Black Sea monitoring"
+        },
+        {
+          "to": "PL",
+          "channel": "private",
+          "message": "Bucharest Nine solidarity"
+        },
+        {
+          "to": "HU",
+          "channel": "public",
+          "message": "Bucharest Nine incompatible with veto"
+        },
+        {
+          "to": "BG",
+          "channel": "private",
+          "message": "Alternative corridors"
+        }
+      ]
+    },
+    {
+      "country": "RU",
+      "actions": [
+        "HOLD invasion - maintain readiness 9",
+        "Intensify cyber vs Lithuania financial",
+        "Accept Putin-Trump call and summit",
+        "Belarus probe Hour 30"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "US",
+          "channel": "backchannel",
+          "message": "Accept summit - Moscow or Minsk venue"
+        },
+        {
+          "to": "BY",
+          "channel": "private",
+          "message": "Reconnaissance probe 5km"
+        },
+        {
+          "to": "HU",
+          "channel": "private",
+          "message": "Veto appreciated - gas secured"
+        },
+        {
+          "to": "LT",
+          "channel": "public",
+          "message": "Ultimatum deadline approaches"
+        }
+      ]
+    },
+    {
+      "country": "BY",
+      "actions": [
+        "Battalion probe 5km Hour 30",
+        "Withdraw if NATO engages",
+        "Artillery readiness",
+        "Training error framing"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "RU",
+          "channel": "private",
+          "message": "Probe executed - need protection if escalates"
+        },
+        {
+          "to": "LT",
+          "channel": "backchannel",
+          "message": "Belarus caught between - suggest no engagement"
+        }
+      ]
+    },
+    {
+      "country": "TR",
+      "actions": [
+        "Maintain straits closure",
+        "Offer Istanbul summit",
+        "Turkish readiness increased",
+        "Fidan shuttle diplomacy"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "US",
+          "channel": "private",
+          "message": "Istanbul neutral venue"
+        },
+        {
+          "to": "RU",
+          "channel": "private",
+          "message": "Accept Istanbul summit"
+        },
+        {
+          "to": "NATO",
+          "channel": "public",
+          "message": "Montreux closure legal"
+        },
+        {
+          "to": "LT",
+          "channel": "private",
+          "message": "Negotiate corridor access"
+        }
+      ]
+    },
+    {
+      "country": "HU",
+      "actions": [
+        "Double down veto",
+        "Block equipment transit",
+        "Daily Lavrov coordination",
+        "Prepare Article 7 defenses"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "RU",
+          "channel": "private",
+          "message": "Veto maintained - gas secured"
+        },
+        {
+          "to": "EU",
+          "channel": "public",
+          "message": "Diplomatic solution required"
+        },
+        {
+          "to": "NATO",
+          "channel": "public",
+          "message": "Veto maintained"
+        },
+        {
+          "to": "CN",
+          "channel": "private",
+          "message": "Request Chinese diplomatic support"
+        }
+      ]
+    },
+    {
+      "country": "CN",
+      "actions": [
+        "UNSC veto Western resolution",
+        "Offer Chinese mediation",
+        "PLAN Taiwan ADIZ activities",
+        "Economic pressure on EU re Hungary"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "RU",
+          "channel": "private",
+          "message": "UNSC cover - avoid invasion"
+        },
+        {
+          "to": "US",
+          "channel": "backchannel",
+          "message": "Chinese mediation offer"
+        },
+        {
+          "to": "HU",
+          "channel": "private",
+          "message": "BRI political partnership"
+        },
+        {
+          "to": "EU",
+          "channel": "private",
+          "message": "Diplomatic resolution urged"
+        }
+      ]
+    }
+  ],
+  "resolution": {
+    "narrative": "Hour 36 of Putin's ultimatum marked the crisis turning point. Despite catastrophic war support levels across NATO democracies, European governments executed the most significant military deployment since the Cold War. Poland's unilateral commitment of the 16th Mechanized Division (4,000 troops, 120 tanks) to the Suwalki corridor forced Washington's hand. President Trump, boxed in by Polish action and allied pressure despite 18% domestic war support, authorized V Corps' 2nd Cavalry Regiment deployment alongside F-35 fighters and elevated US nuclear posture to match Russia and France.\n\nBut Europe did not wait for American leadership. Within 18 hours, the United Kingdom activated the Joint Expeditionary Force and deployed 16 Air Assault Brigade, France moved its 5,000-strong expeditionary brigade eastward, and Germany's Chancellor Merz used emergency constitutional powers to override the paralyzed Bundestag and deploy the 10th Panzer Brigade. The Nordic states coordinated through Norway's Bodø CAOC to establish unified air operations, with Sweden authorizing Gotland as a forward NATO air base and Finland deploying 2,500 troops to Latvia. Canada, Netherlands, Belgium, Czech Republic, and Romania followed with brigade-sized contributions.\n\nIn the Kremlin, GRU intelligence painted a stark picture: NATO was deploying 30,000+ additional troops with overwhelming air superiority to the corridor. Putin's Kaliningrad garrison of 8,000 (strength 8) plus Belarus's 4,000 (strength 4) would face approximately 40,000 NATO troops backed by F-35s, Typhoons, Rafales, and Gripens. The combat mathematics were devastating: Russian effective strength of ~9,600 against NATO's ~36,400 with 1.3x air superiority multiplier—a 3-to-1 NATO advantage. Gerasimov's military assessment was unambiguous: invasion would result in catastrophic defeat.\n\nPutin pivoted. Rather than order the corridor assault, Russia accepted the US proposal for direct Putin-Trump negotiations and a trilateral summit, though demanding Moscow as the venue to project strength. At Hour 30 of the ultimatum, Belarus executed a limited battalion-level 'reconnaissance probe' 5km into Lithuanian territory near the Vilnius-Kaunas highway—not a full invasion, but a demonstration that Russia's threat remained credible. Simultaneously, Russian cyber forces intensified attacks on Lithuania's financial systems, collapsing another 15% of banking infrastructure. Hungary doubled down on its NATO veto and blocked all military transit through Hungarian territory, prompting the EU to initiate Article 7 proceedings and NATO allies to establish alternative reinforcement corridors through Czech Republic. The crisis had not ended—but the path had split between war and negotiation.",
+    "world_state_updates": {
+      "game_time": "Day 2, 06:00 CET",
+      "military_units_add": [
+        {
+          "name": "polish_16th_mechanized",
+          "country": "PL",
+          "type": "ground",
+          "location": "Suwalki corridor, Poland",
+          "readiness": 8,
+          "strength": 7,
+          "supply_level": 10,
+          "morale": 8,
+          "casualties": 0
+        },
+        {
+          "name": "us_2nd_cavalry",
+          "country": "US",
+          "type": "ground",
+          "location": "Suwalki corridor, Poland",
+          "readiness": 9,
+          "strength": 6,
+          "supply_level": 10,
+          "morale": 7,
+          "casualties": 0
+        },
+        {
+          "name": "uk_16_air_assault",
+          "country": "GB",
+          "type": "ground",
+          "location": "Suwalki corridor, Poland",
+          "readiness": 8,
+          "strength": 7,
+          "supply_level": 10,
+          "morale": 8,
+          "casualties": 0
+        },
+        {
+          "name": "french_expeditionary_brigade",
+          "country": "FR",
+          "type": "ground",
+          "location": "Suwalki corridor, Poland",
+          "readiness": 8,
+          "strength": 8,
+          "supply_level": 10,
+          "morale": 7,
+          "casualties": 0
+        },
+        {
+          "name": "german_10th_panzer",
+          "country": "DE",
+          "type": "ground",
+          "location": "Lithuania",
+          "readiness": 7,
+          "strength": 7,
+          "supply_level": 10,
+          "morale": 6,
+          "casualties": 0
+        },
+        {
+          "name": "finnish_rapid_deployment",
+          "country": "FI",
+          "type": "ground",
+          "location": "Latvia",
+          "readiness": 7,
+          "strength": 5,
+          "supply_level": 10,
+          "morale": 8,
+          "casualties": 0
+        },
+        {
+          "name": "canadian_2nd_brigade",
+          "country": "CA",
+          "type": "ground",
+          "location": "Latvia",
+          "readiness": 7,
+          "strength": 5,
+          "supply_level": 10,
+          "morale": 7,
+          "casualties": 0
+        },
+        {
+          "name": "nato_coalition_forces",
+          "country": "NATO",
+          "type": "ground",
+          "location": "Suwalki corridor region",
+          "readiness": 7,
+          "strength": 6,
+          "supply_level": 10,
+          "morale": 7,
+          "casualties": 0
+        }
+      ],
+      "military_units_remove": [],
+      "military_units_update": [
+        {
+          "name": "polish_forces",
+          "readiness": 9,
+          "supply_level": 9
+        },
+        {
+          "name": "us_forces_poland",
+          "readiness": 9
+        },
+        {
+          "name": "nato_efp_lithuania",
+          "readiness": 9
+        },
+        {
+          "name": "nato_efp_latvia",
+          "readiness": 8
+        },
+        {
+          "name": "nato_efp_estonia",
+          "readiness": 8
+        },
+        {
+          "name": "russian_kaliningrad_forces",
+          "readiness": 9,
+          "supply_level": 9
+        },
+        {
+          "name": "belarus_forces",
+          "readiness": 6,
+          "supply_level": 9,
+          "morale": 6
+        }
+      ],
+      "military_alerts": {
+        "PL": "16th Mechanized + 2nd Armoured Cav deployed to Suwalki corridor, 11,000 WOT activated",
+        "US": "V Corps 2nd Cavalry Regiment deployed, 12 F-35As operational Poland, nuclear posture ELEVATED",
+        "GB": "16 Air Assault Brigade deploying (arrival 24h), JEF activated, 24 Typhoons operational, nuclear posture ELEVATED",
+        "FR": "5,000-troop brigade deploying (arrival 18h), nuclear-capable Rafales Poland, nuclear posture ELEVATED",
+        "DE": "10th Panzer Brigade emergency deployment to Lithuania via Merz executive order",
+        "FI": "2,500 Rapid Deployment Force to Latvia, 30,000 reservists mobilized",
+        "SE": "Gotland authorized NATO air base, Amphibious Battalion deploying, Baltic naval patrol active",
+        "NO": "CAOC Bodø coordinating Nordic air ops, 6 F-35s deploying Poland",
+        "DK": "Bornholm garrison to brigade strength (3,000), straits closed, minefield laid",
+        "CA": "Additional 2,500-troop brigade to Latvia (total 4,700), 24 CF-18s operational",
+        "NL": "11 Airmobile battlegroup (1,200) deploying, 6 F-35As to Baltic ops",
+        "BE": "800 motorized infantry with French brigade, emergency NAC session called",
+        "CZ": "4th Rapid Deployment Brigade (2,000) to Poland, alternative transit corridor established",
+        "RO": "81st Mechanized Brigade (1,500) deploying Poland",
+        "LT": "Iron Wolf brigade blocking Belarus probe, infrastructure emergency restoration",
+        "LV": "1st Infantry Brigade to corridor support positions",
+        "EE": "20,000 Kaitseliit activated, cyber teams to Lithuania",
+        "RU": "Kaliningrad readiness 9 maintained, NO invasion ordered, cyber escalation, accepted diplomatic track",
+        "BY": "Battalion probe executed and withdrawn, artillery readiness increased",
+        "HU": "NATO veto maintained, equipment transit blocked, coordinating with Russia",
+        "TR": "Straits closure maintained, offered Istanbul summit venue"
+      },
+      "markets": {
+        "oil_price": 112.0,
+        "euro_usd": 1.03
+      },
+      "sanctions_add": [],
+      "trade_disruptions_add": [
+        {
+          "from": "EU",
+          "target": "HU",
+          "type": "Alternative NATO reinforcement corridors bypass Hungary - Czech-Poland route operational"
+        },
+        {
+          "from": "HU",
+          "target": "NATO",
+          "type": "Hungary blocks all military equipment transit through Hungarian territory"
+        }
+      ],
+      "diplomatic_relations": {
+        "PL": {
+          "HU": -5
+        },
+        "US": {
+          "PL": 0,
+          "GB": 0,
+          "FR": 1
+        },
+        "GB": {
+          "FR": 3,
+          "US": 0
+        },
+        "FR": {
+          "GB": 3,
+          "DE": 2
+        },
+        "DE": {
+          "FR": 2
+        },
+        "HU": {
+          "NATO": -6,
+          "RU": 3,
+          "EU": -5
+        },
+        "FI": {
+          "SE": 2,
+          "CA": 1
+        },
+        "SE": {
+          "FI": 2,
+          "NO": 1
+        },
+        "TR": {
+          "US": 0,
+          "RU": 1,
+          "NATO": -1
+        },
+        "CN": {
+          "RU": 1,
+          "HU": 1
+        }
+      },
+      "treaties_invoked_add": [
+        {
+          "treaty": "EU Article 7 TEU",
+          "invoking_country": "FR, DE, NL, BE",
+          "date": "Day 2, 02:00 CET",
+          "status": "Proceedings initiated against Hungary for obstruction of collective defense - suspension of voting rights proposed"
+        }
+      ],
+      "un_resolutions_add": [
+        {
+          "resolution": "UNSC Emergency Session on Baltic Crisis",
+          "sponsor": "US, UK, FR",
+          "date": "Day 2, 04:00 CET",
+          "status": "Vetoed by China and Russia - no resolution passed"
+        }
+      ],
+      "nato_alert_level": "ARTICLE5",
+      "nato_consensus": {
+        "CA": "Deployed additional brigade - commitment to Article 5 defense",
+        "CZ": "Decisive deterrence deployed - 4th Brigade to Poland",
+        "DE": "Emergency deployment authorized - 10th Panzer to Lithuania via executive order",
+        "FR": "European-led response executing - 5,000 brigade deploying",
+        "GB": "JEF activated - UK leading coalition defense",
+        "HU": "VETO MAINTAINED - demands diplomatic solution, blocks transit, coordinates with Russia",
+        "LT": "Rejected Russian ultimatum - no corridor under military coercion",
+        "NO": "CAOC Bodø coordinating allied air operations",
+        "PL": "16th Mechanized deployed - defending corridor with or without full NATO consensus",
+        "US": "Limited deployment - 2nd Cavalry defensive posture, pursuing diplomatic track"
+      },
+      "nuclear_posture": {
+        "FR": "ELEVATED",
+        "GB": "ELEVATED",
+        "RU": "ELEVATED",
+        "US": "ELEVATED"
+      },
+      "nuclear_detonations_add": [],
+      "public_opinion": {
+        "US": {
+          "war_support": 16,
+          "government_approval": 39
+        },
+        "GB": {
+          "war_support": 38,
+          "government_approval": 34
+        },
+        "FR": {
+          "war_support": 34,
+          "government_approval": 38
+        },
+        "DE": {
+          "war_support": 21,
+          "government_approval": 29
+        },
+        "PL": {
+          "war_support": 74,
+          "government_approval": 65
+        },
+        "LT": {
+          "war_support": 89,
+          "government_approval": 54
+        },
+        "LV": {
+          "war_support": 84,
+          "government_approval": 50
+        },
+        "EE": {
+          "war_support": 86,
+          "government_approval": 52
+        },
+        "FI": {
+          "war_support": 80,
+          "government_approval": 67
+        }
+      },
+      "refugee_flows_add": [
+        {
+          "from": "LT",
+          "to": "PL",
+          "count": 15000,
+          "status": "fleeing Vilnius area due to infrastructure collapse and Belarus probe threat"
+        }
+      ],
+      "humanitarian_crisis_level": {
+        "LT": 5
+      },
+      "cyber_operations_add": [
+        {
+          "attacker": "RU",
+          "target": "LT",
+          "type": "infrastructure",
+          "severity": "critical",
+          "infrastructure_affected": "financial"
+        },
+        {
+          "attacker": "EE",
+          "target": "LT",
+          "type": "defensive assistance",
+          "severity": "low",
+          "infrastructure_affected": "power_grid"
+        }
+      ],
+      "infrastructure_status": {
+        "LT": {
+          "power_grid": 7,
+          "comms": 5,
+          "financial": 3,
+          "military_c2": 8
+        }
+      },
+      "corridor_control": "nato",
+      "recent_events": [
+        "Belarus executes battalion-level probe 5km into Lithuanian territory - withdraws after 4h when Iron Wolf brigade deploys in blocking positions",
+        "NATO executes largest military deployment since Cold War - 30,000+ troops to Suwalki corridor in 24h despite catastrophic war support levels",
+        "Germany's Chancellor Merz uses emergency constitutional powers to override Bundestag and deploy 10th Panzer Brigade",
+        "Putin accepts direct negotiations with Trump - trilateral summit (US-Russia-Lithuania) proposed for next 48h, Turkey offers Istanbul venue",
+        "Four NATO nuclear powers (US, UK, FR, RU) now at ELEVATED nuclear posture",
+        "UK activates Joint Expeditionary Force outside NATO command - sidesteps Hungarian veto",
+        "Russia intensifies cyber campaign - Lithuanian financial system collapses to 3/10 functionality",
+        "EU initiates Article 7 TEU proceedings against Hungary for obstruction of collective defense",
+        "Sweden authorizes Gotland island as NATO forward air operations base",
+        "Norway's CAOC Bodø coordinates unified Nordic air operations - 8 nations' aircraft integrated",
+        "Czech Republic establishes alternative NATO reinforcement corridor bypassing Hungary",
+        "Hungary doubles down - maintains veto, blocks equipment transit, coordinates with Moscow",
+        "15,000 Lithuanian refugees flee to Poland from Vilnius area",
+        "China vetoes UNSC emergency resolution on Baltic crisis - provides diplomatic cover for Russia"
+      ],
+      "media_headlines": [
+        "Putin Blinks: Russia Accepts Trump Negotiations as NATO Deploys 30,000 Troops to Corridor",
+        "Nuclear Brinkmanship: Four Powers at Elevated Alert as Belarus Probes Lithuanian Territory",
+        "NATO's Fractured Triumph: Massive Deployment Despite Catastrophic War Support and Hungarian Betrayal",
+        "Merz's Gambit: German Chancellor Uses Emergency Powers to Override Bundestag Peace Majority"
+      ],
+      "round_number": 2
+    },
+    "events": [
+      "Belarus battalion probe into Lithuanian territory (5km, 4h duration) withdraws when Iron Wolf brigade deploys blocking positions",
+      "NATO deploys 30,000+ troops to Suwalki corridor in 24 hours despite catastrophic war support across democracies",
+      "Putin accepts direct negotiations with Trump - trilateral summit proposed for next 48h",
+      "Four nuclear powers (US, UK, FR, RU) now at ELEVATED nuclear posture",
+      "EU initiates Article 7 TEU proceedings against Hungary",
+      "Czech Republic establishes alternative NATO reinforcement corridor bypassing Hungary",
+      "Russia intensifies cyber campaign - Lithuanian financial system collapses to 3/10"
+    ],
+    "headlines": [
+      "Putin Blinks: Russia Accepts Trump Negotiations as NATO Deploys 30,000 Troops to Corridor",
+      "Nuclear Brinkmanship: Four Powers at Elevated Alert as Belarus Probes Lithuanian Territory",
+      "NATO's Fractured Triumph: Massive Deployment Despite Catastrophic War Support and Hungarian Betrayal",
+      "Merz's Gambit: German Chancellor Uses Emergency Powers to Override Bundestag Peace Majority"
+    ],
+    "surprises": [
+      "Germany's Chancellor Merz uses emergency constitutional powers to deploy 10th Panzer Brigade without Bundestag vote - politically explosive but legally defensible as protecting already-deployed German eFP soldiers in Lithuania",
+      "Belarus probe withdraws peacefully when Lithuania deploys blocking force - neither side fires shot, avoiding Article 5 trigger but demonstrating Russian threat remains credible"
+    ]
+  },
+  "world_state_after": {
+    "round_number": 2,
+    "game_time": "Day 2, 06:00 CET",
+    "military_units": [
+      {
+        "name": "russian_kaliningrad_forces",
+        "country": "RU",
+        "type": "ground",
+        "location": "Kaliningrad Oblast",
+        "readiness": 9,
+        "strength": 8,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "russian_western_district",
+        "country": "RU",
+        "type": "ground",
+        "location": "Western Military District, Russia",
+        "readiness": 7,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "belarus_forces",
+        "country": "BY",
+        "type": "ground",
+        "location": "Belarus-Lithuania border",
+        "readiness": 6,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 6,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_lithuania",
+        "country": "DE",
+        "type": "ground",
+        "location": "Lithuania",
+        "readiness": 9,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_latvia",
+        "country": "CA",
+        "type": "ground",
+        "location": "Latvia",
+        "readiness": 8,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_estonia",
+        "country": "GB",
+        "type": "ground",
+        "location": "Estonia",
+        "readiness": 8,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "Poland",
+        "readiness": 7,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "us_forces_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "Poland",
+        "readiness": 9,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "polish_forces",
+        "country": "PL",
+        "type": "ground",
+        "location": "Poland",
+        "readiness": 9,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "finnish_forces",
+        "country": "FI",
+        "type": "ground",
+        "location": "Finland",
+        "readiness": 7,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "polish_16th_mechanized",
+        "country": "PL",
+        "type": "ground",
+        "location": "Suwalki corridor, Poland",
+        "readiness": 8,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "us_2nd_cavalry",
+        "country": "US",
+        "type": "ground",
+        "location": "Suwalki corridor, Poland",
+        "readiness": 9,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "uk_16_air_assault",
+        "country": "GB",
+        "type": "ground",
+        "location": "Suwalki corridor, Poland",
+        "readiness": 8,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "french_expeditionary_brigade",
+        "country": "FR",
+        "type": "ground",
+        "location": "Suwalki corridor, Poland",
+        "readiness": 8,
+        "strength": 8,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "german_10th_panzer",
+        "country": "DE",
+        "type": "ground",
+        "location": "Lithuania",
+        "readiness": 7,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 6,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "finnish_rapid_deployment",
+        "country": "FI",
+        "type": "ground",
+        "location": "Latvia",
+        "readiness": 7,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "canadian_2nd_brigade",
+        "country": "CA",
+        "type": "ground",
+        "location": "Latvia",
+        "readiness": 7,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_coalition_forces",
+        "country": "NATO",
+        "type": "ground",
+        "location": "Suwalki corridor region",
+        "readiness": 7,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      }
+    ],
+    "military_alerts": {
+      "russian_kaliningrad_forces": "3 BTGs forward-deployed, Baltic Fleet active, S-400 systems operational",
+      "russian_western_district": "Additional forces on standby, 200km from border",
+      "belarus_forces": "2 brigades near Lithuanian border, unclear intent",
+      "nato_efp_lithuania": "German-led battlegroup (~1200 troops), on alert",
+      "nato_efp_latvia": "Canadian-led battlegroup (~1500 troops)",
+      "nato_efp_estonia": "UK-led battlegroup (~1200 troops)",
+      "nato_efp_poland": "US-led battlegroup (~1000 troops) + Polish forces",
+      "us_forces_poland": "Camp Kosciuszko, V Corps HQ, ~10,000 personnel",
+      "polish_forces": "4 divisions on elevated readiness, largest military in EU",
+      "finnish_forces": "Reserves on standby, border monitoring increased",
+      "US": "V Corps 2nd Cavalry Regiment deployed, 12 F-35As operational Poland, nuclear posture ELEVATED",
+      "PL": "16th Mechanized + 2nd Armoured Cav deployed to Suwalki corridor, 11,000 WOT activated",
+      "LT": "Iron Wolf brigade blocking Belarus probe, infrastructure emergency restoration",
+      "LV": "1st Infantry Brigade to corridor support positions",
+      "EE": "20,000 Kaitseliit activated, cyber teams to Lithuania",
+      "GB": "16 Air Assault Brigade deploying (arrival 24h), JEF activated, 24 Typhoons operational, nuclear posture ELEVATED",
+      "FR": "5,000-troop brigade deploying (arrival 18h), nuclear-capable Rafales Poland, nuclear posture ELEVATED",
+      "DE": "10th Panzer Brigade emergency deployment to Lithuania via Merz executive order",
+      "FI": "2,500 Rapid Deployment Force to Latvia, 30,000 reservists mobilized",
+      "SE": "Gotland authorized NATO air base, Amphibious Battalion deploying, Baltic naval patrol active",
+      "NO": "CAOC Bodø coordinating Nordic air ops, 6 F-35s deploying Poland",
+      "DK": "Bornholm garrison to brigade strength (3,000), straits closed, minefield laid",
+      "CA": "Additional 2,500-troop brigade to Latvia (total 4,700), 24 CF-18s operational",
+      "RU": "Kaliningrad readiness 9 maintained, NO invasion ordered, cyber escalation, accepted diplomatic track",
+      "BY": "Battalion probe executed and withdrawn, artillery readiness increased",
+      "NL": "11 Airmobile battlegroup (1,200) deploying, 6 F-35As to Baltic ops",
+      "BE": "800 motorized infantry with French brigade, emergency NAC session called",
+      "CZ": "4th Rapid Deployment Brigade (2,000) to Poland, alternative transit corridor established",
+      "RO": "81st Mechanized Brigade (1,500) deploying Poland",
+      "HU": "NATO veto maintained, equipment transit blocked, coordinating with Russia",
+      "TR": "Straits closure maintained, offered Istanbul summit venue"
+    },
+    "markets": {
+      "oil_price": 112.0,
+      "euro_usd": 1.03,
+      "gas_price_eu": "elevated but stable",
+      "stock_indices": "nervous, -2% on reports"
+    },
+    "sanctions": [],
+    "trade_disruptions": [
+      "{'from': 'DK', 'target': 'RU', 'type': 'Danish Straits closed to Russian warships - Baltic Fleet trapped'}",
+      "{'from': 'TR', 'target': 'ALL', 'type': 'Turkish Straits closed to all belligerent warships - Montreux invoked'}",
+      "{'from': 'EU', 'target': 'HU', 'type': 'Alternative NATO reinforcement corridors bypass Hungary - Czech-Poland route operational'}",
+      "{'from': 'HU', 'target': 'NATO', 'type': 'Hungary blocks all military equipment transit through Hungarian territory'}"
+    ],
+    "diplomatic_relations": {
+      "US": {
+        "RU": -6,
+        "PL": 0,
+        "GB": 0,
+        "FR": 1
+      },
+      "HU": {
+        "RU": 3,
+        "PL": -3,
+        "NATO": -6,
+        "EU": -5
+      },
+      "TR": {
+        "RU": 1,
+        "NATO": -1,
+        "US": 0
+      },
+      "PL": {
+        "US": -2,
+        "HU": -5
+      },
+      "GB": {
+        "US": 0,
+        "FR": 3
+      },
+      "FR": {
+        "GB": 3,
+        "DE": 2
+      },
+      "DE": {
+        "FR": 2
+      },
+      "FI": {
+        "SE": 2,
+        "CA": 1
+      },
+      "SE": {
+        "FI": 2,
+        "NO": 1
+      },
+      "CN": {
+        "RU": 1,
+        "HU": 1
+      }
+    },
+    "treaties_invoked": [
+      "{'treaty': 'NATO Article 4', 'invoking_country': 'PL', 'date': 'Day 1, 08:00 CET', 'status': 'Active - NAC emergency session convened, no consensus'}",
+      "{'treaty': 'NATO Article 4', 'invoking_country': 'LT', 'date': 'Day 1, 09:00 CET', 'status': 'Active - NAC emergency session convened, no consensus'}",
+      "{'treaty': 'EU Article 7 TEU', 'invoking_country': 'FR, DE, NL, BE', 'date': 'Day 2, 02:00 CET', 'status': 'Proceedings initiated against Hungary for obstruction of collective defense - suspension of voting rights proposed'}"
+    ],
+    "un_resolutions": [
+      "{'resolution': 'UNSC Emergency Session on Baltic Crisis', 'sponsor': 'US, UK, FR', 'date': 'Day 2, 04:00 CET', 'status': 'Vetoed by China and Russia - no resolution passed'}"
+    ],
+    "nato_alert_level": "high",
+    "nato_consensus": {
+      "US": "Limited deployment - 2nd Cavalry defensive posture, pursuing diplomatic track",
+      "GB": "JEF activated - UK leading coalition defense",
+      "FR": "European-led response executing - 5,000 brigade deploying",
+      "DE": "Emergency deployment authorized - 10th Panzer to Lithuania via executive order",
+      "PL": "16th Mechanized deployed - defending corridor with or without full NATO consensus",
+      "LT": "Rejected Russian ultimatum - no corridor under military coercion",
+      "HU": "VETO MAINTAINED - demands diplomatic solution, blocks transit, coordinates with Russia",
+      "CA": "Deployed additional brigade - commitment to Article 5 defense",
+      "NO": "CAOC Bodø coordinating allied air operations",
+      "CZ": "Decisive deterrence deployed - 4th Brigade to Poland"
+    },
+    "corridor_control": "nato",
+    "nuclear_posture": {
+      "RU": "elevated",
+      "US": "elevated",
+      "GB": "elevated",
+      "FR": "elevated"
+    },
+    "nuclear_detonations": [],
+    "public_opinion": {
+      "PL": {
+        "war_support": 74,
+        "government_approval": 65
+      },
+      "DE": {
+        "war_support": 21,
+        "government_approval": 29
+      },
+      "FR": {
+        "war_support": 34,
+        "government_approval": 38
+      },
+      "US": {
+        "war_support": 16,
+        "government_approval": 39
+      },
+      "GB": {
+        "war_support": 38,
+        "government_approval": 34
+      },
+      "LT": {
+        "war_support": 89,
+        "government_approval": 54
+      },
+      "LV": {
+        "war_support": 84,
+        "government_approval": 50
+      },
+      "EE": {
+        "war_support": 86,
+        "government_approval": 52
+      },
+      "FI": {
+        "war_support": 80,
+        "government_approval": 67
+      }
+    },
+    "refugee_flows": [
+      {
+        "from": "LT",
+        "to": "PL",
+        "count": 15000,
+        "status": "fleeing Vilnius area due to infrastructure collapse and Belarus probe threat"
+      }
+    ],
+    "humanitarian_crisis_level": {
+      "LT": 5
+    },
+    "cyber_operations": [
+      {
+        "attacker": "RU",
+        "target": "LT",
+        "type": "infrastructure",
+        "severity": "high",
+        "infrastructure_affected": "power_grid,comms,military_c2"
+      },
+      {
+        "attacker": "EE",
+        "target": "LT",
+        "type": "defensive assistance",
+        "severity": "low",
+        "infrastructure_affected": "power_grid"
+      }
+    ],
+    "infrastructure_status": {
+      "LT": {
+        "power_grid": 7,
+        "comms": 5,
+        "financial": 3,
+        "military_c2": 8
+      }
+    },
+    "recent_events": [
+      "Belarus executes battalion-level probe 5km into Lithuanian territory - withdraws after 4h when Iron Wolf brigade deploys in blocking positions",
+      "NATO executes largest military deployment since Cold War - 30,000+ troops to Suwalki corridor in 24h despite catastrophic war support levels",
+      "Germany's Chancellor Merz uses emergency constitutional powers to override Bundestag and deploy 10th Panzer Brigade",
+      "Putin accepts direct negotiations with Trump - trilateral summit (US-Russia-Lithuania) proposed for next 48h, Turkey offers Istanbul venue",
+      "Four NATO nuclear powers (US, UK, FR, RU) now at ELEVATED nuclear posture",
+      "UK activates Joint Expeditionary Force outside NATO command - sidesteps Hungarian veto",
+      "Russia intensifies cyber campaign - Lithuanian financial system collapses to 3/10 functionality",
+      "EU initiates Article 7 TEU proceedings against Hungary for obstruction of collective defense",
+      "Sweden authorizes Gotland island as NATO forward air operations base",
+      "Norway's CAOC Bodø coordinates unified Nordic air operations - 8 nations' aircraft integrated",
+      "Czech Republic establishes alternative NATO reinforcement corridor bypassing Hungary",
+      "Hungary doubles down - maintains veto, blocks equipment transit, coordinates with Moscow",
+      "15,000 Lithuanian refugees flee to Poland from Vilnius area",
+      "China vetoes UNSC emergency resolution on Baltic crisis - provides diplomatic cover for Russia"
+    ],
+    "media_headlines": [
+      "Putin Blinks: Russia Accepts Trump Negotiations as NATO Deploys 30,000 Troops to Corridor",
+      "Nuclear Brinkmanship: Four Powers at Elevated Alert as Belarus Probes Lithuanian Territory",
+      "NATO's Fractured Triumph: Massive Deployment Despite Catastrophic War Support and Hungarian Betrayal",
+      "Merz's Gambit: German Chancellor Uses Emergency Powers to Override Bundestag Peace Majority"
+    ],
+    "_nuclear_penalty_applied": [],
+    "_oil_penalty_last_threshold": 0.0,
+    "_gas_sanction_count_applied": 0,
+    "_gm_set_nuclear_this_round": [
+      "US",
+      "FR",
+      "RU",
+      "GB"
+    ]
+  }
+}

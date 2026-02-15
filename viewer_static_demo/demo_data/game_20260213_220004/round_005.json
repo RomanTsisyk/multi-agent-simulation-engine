@@ -1,0 +1,1106 @@
+{
+  "round": 5,
+  "runner": "claude-code",
+  "briefing": "SITUATION BRIEFING — Round 6\n\nIt is Day 2, 18:00 CET. Ultimatum expires in 14 hours. POSSIBLE NUCLEAR WARHEAD LOADING DETECTED.\n\nMILITARY: Ford CSG has entered the Baltic Sea. SEAD target package finalized: 47 targets, 200+ planned sorties. All NATO ground forces at final assembly positions. Russian forces in deep defense, supply declining.\n\nNUCLEAR ALERT: At 17:45, satellite imagery showed Iskander-M loading bay doors OPEN in Kaliningrad. Technicians in NBC gear visible. CANNOT determine if warheads are conventional or nuclear. Washington-Moscow hotline activated for first time.\n\nDIPLOMATIC: Modi mediation failed — Putin says corridor 'non-negotiable.' China's peace framework shelved. Bundestag approved German operations 538-89. Turkey closed Straits + F-35/S-400 deal. Hungary's extension demand rejected by all allies.\n\nFORCES READY:\n- SEAD: F-35s (Lakenheath), EA-18G (Ford), Eurofighters, Rafales, Finnish MLRS\n- Ground: Polish 18th Mech (south), German 45th (north), V Corps arty, UK 4th Bde en route\n- Naval: Ford CSG in Baltic, Danish Straits closed, Swedish subs deployed\n- Russian: 5 BTGs fortified, 2x S-400, Iskander-M (possibly loading), EW active, 3 subs in Norwegian Sea\n\nECONOMIC: Oil $108. Euro at $0.99. Markets in freefall.\n\nCRITICAL: The Iskander loading activity is THE crisis within the crisis. If Russia is loading nuclear warheads, this changes everything. The Washington-Moscow hotline call will determine whether the world steps back from the nuclear brink or crosses it.",
+  "narrative": "As the NATO ultimatum clock counted down from 22 hours to 14, the world entered the strangest phase of the crisis — a period diplomats would later call 'the phoney peace,' when everyone knew war was coming but no one would be the first to fire.\n\nThe diplomatic track, demanded by both Washington and Budapest, produced precisely what the hawks had predicted: nothing. India's Prime Minister Modi called Putin at 10:30 CET, offering to carry a message to Washington. Putin's response was revealing: he was willing to discuss 'the framework of the humanitarian corridor' and 'mutual security guarantees,' but the corridor itself was 'non-negotiable.' When Modi relayed this to Rubio at 12:00, the US Secretary of State replied curtly: 'Russia's position makes military action inevitable. Thank the Prime Minister for his efforts.' China's Wang Yi made a similar attempt, tabling a 'Six-Point Peace Framework' at the UN that was so deliberately vague — 'respect all parties' security concerns' — that it satisfied no one and was quietly shelved.\n\nThe German Bundestag held its emergency session at 14:00. Chancellor Merz's speech was unexpectedly powerful: 'For decades, Germans said never again. We said it after 1945, we said it after reunification, we said it with Zeitenwende. Today, I tell you what never again means: never again will Germany stand by while a European democracy is occupied. German soldiers are in Lithuania. They did not volunteer for a peacetime garrison — they volunteered to defend freedom. The Bundestag must give them the authority to do so.' The vote passed 538-89, with only AfD and BSW opposing. The authorization covered defensive operations and SEAD support for 90 days.\n\nAt 15:00 CET — with 17 hours remaining on the ultimatum — Turkey made its move. Erdogan announced the formal closure of the Danish-Turkish Straits to all Russian military vessel transit, invoking the Montreux Convention. More significantly, Turkey confirmed its F-35 reinstatement deal: Ankara would transfer its S-400 systems to US custody at Incirlik within 90 days in exchange for 40 F-35As beginning delivery in 2027. The deal had been negotiated in the margins of the crisis. Turkey simultaneously offered Ankara as a venue for post-conflict negotiations — positioning itself as both warrior and peacemaker.\n\nThe Ford Carrier Strike Group entered the Baltic Sea at 16:30 CET, passing through the Danish Straits with a Danish Navy escort. The carrier's EA-18G Growler squadron — the most sophisticated electronic warfare aircraft in the world — would be critical for the SEAD campaign. Russian radar tracked the group's passage. In Kaliningrad, commanders reported to Moscow that the correlation of forces was shifting decisively against them.\n\nHungary made one final attempt to delay. Orbán called an emergency press conference at 17:00, announcing that he had received 'positive signals' from Moscow about negotiations and demanding a 48-hour extension of the ultimatum. The response from NATO capitals was uniform and brutal. Poland's Foreign Minister stated flatly: 'Hungary's suggestion is noted and rejected.' France and Germany issued a joint statement: 'The ultimatum stands.' Even Italy's Meloni, who had been sympathetic to diplomatic efforts, told Orbán privately: 'Viktor, the train has left the station. Get on it or get left behind.'\n\nBehind the scenes, the military preparations were reaching their climax. SACEUR's operations center at SHAPE was running 24/7. The SEAD target package was finalized: 47 priority targets including S-400 batteries, Iskander-M positions, EW nodes, command posts, and radar installations. F-35s from RAF Lakenheath would strike from the north, Growlers from the Ford would jam from the sea, Polish and Finnish long-range fires would suppress from the south. The plan called for 200+ sorties in the first 12 hours.\n\nAnd then, at 17:45 CET, satellite imagery detected something that sent a chill through every intelligence agency watching: the loading bay doors on the Iskander-M launchers in Kaliningrad were open. Technicians in NBC protective gear were visible near the launchers. It was impossible to determine from imagery alone whether the warheads being loaded were conventional or nuclear. The Presidential hotline between Washington and Moscow rang for the first time since the crisis began.",
+  "country_decisions": [
+    {
+      "country": "RU",
+      "actions": [
+        "Rejected ultimatum",
+        "Iskander-M loading activity — conventional or nuclear unclear",
+        "Putin accepted hotline call",
+        "Diplomatic track via India failed"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "US",
+      "actions": [
+        "Ford CSG in Baltic",
+        "Hotline activated after Iskander detection",
+        "Nuclear posture elevated to match",
+        "SEAD authorized pending ultimatum"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "DE",
+      "actions": [
+        "Bundestag authorized 538-89",
+        "Merz's 'never again' speech",
+        "45th Panzer fully authorized"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "TR",
+      "actions": [
+        "Closed Straits formally",
+        "F-35/S-400 deal sealed",
+        "Full Article 5 commitment"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "HU",
+      "actions": [
+        "Demanded 48h extension — rejected",
+        "Isolated within alliance",
+        "Still blocking Hungarian territory for offensive ops"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "IN",
+      "actions": [
+        "Modi mediation attempt failed",
+        "Putin said corridor non-negotiable"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "CN",
+      "actions": [
+        "Six-Point Peace Framework shelved",
+        "Continuing to purchase Russian debt"
+      ],
+      "diplomatic_messages": []
+    }
+  ],
+  "resolution": {
+    "narrative": "As the NATO ultimatum clock counted down from 22 hours to 14, the world entered the strangest phase of the crisis — a period diplomats would later call 'the phoney peace,' when everyone knew war was coming but no one would be the first to fire.\n\nThe diplomatic track, demanded by both Washington and Budapest, produced precisely what the hawks had predicted: nothing. India's Prime Minister Modi called Putin at 10:30 CET, offering to carry a message to Washington. Putin's response was revealing: he was willing to discuss 'the framework of the humanitarian corridor' and 'mutual security guarantees,' but the corridor itself was 'non-negotiable.' When Modi relayed this to Rubio at 12:00, the US Secretary of State replied curtly: 'Russia's position makes military action inevitable. Thank the Prime Minister for his efforts.' China's Wang Yi made a similar attempt, tabling a 'Six-Point Peace Framework' at the UN that was so deliberately vague — 'respect all parties' security concerns' — that it satisfied no one and was quietly shelved.\n\nThe German Bundestag held its emergency session at 14:00. Chancellor Merz's speech was unexpectedly powerful: 'For decades, Germans said never again. We said it after 1945, we said it after reunification, we said it with Zeitenwende. Today, I tell you what never again means: never again will Germany stand by while a European democracy is occupied. German soldiers are in Lithuania. They did not volunteer for a peacetime garrison — they volunteered to defend freedom. The Bundestag must give them the authority to do so.' The vote passed 538-89, with only AfD and BSW opposing. The authorization covered defensive operations and SEAD support for 90 days.\n\nAt 15:00 CET — with 17 hours remaining on the ultimatum — Turkey made its move. Erdogan announced the formal closure of the Danish-Turkish Straits to all Russian military vessel transit, invoking the Montreux Convention. More significantly, Turkey confirmed its F-35 reinstatement deal: Ankara would transfer its S-400 systems to US custody at Incirlik within 90 days in exchange for 40 F-35As beginning delivery in 2027. The deal had been negotiated in the margins of the crisis. Turkey simultaneously offered Ankara as a venue for post-conflict negotiations — positioning itself as both warrior and peacemaker.\n\nThe Ford Carrier Strike Group entered the Baltic Sea at 16:30 CET, passing through the Danish Straits with a Danish Navy escort. The carrier's EA-18G Growler squadron — the most sophisticated electronic warfare aircraft in the world — would be critical for the SEAD campaign. Russian radar tracked the group's passage. In Kaliningrad, commanders reported to Moscow that the correlation of forces was shifting decisively against them.\n\nHungary made one final attempt to delay. Orbán called an emergency press conference at 17:00, announcing that he had received 'positive signals' from Moscow about negotiations and demanding a 48-hour extension of the ultimatum. The response from NATO capitals was uniform and brutal. Poland's Foreign Minister stated flatly: 'Hungary's suggestion is noted and rejected.' France and Germany issued a joint statement: 'The ultimatum stands.' Even Italy's Meloni, who had been sympathetic to diplomatic efforts, told Orbán privately: 'Viktor, the train has left the station. Get on it or get left behind.'\n\nBehind the scenes, the military preparations were reaching their climax. SACEUR's operations center at SHAPE was running 24/7. The SEAD target package was finalized: 47 priority targets including S-400 batteries, Iskander-M positions, EW nodes, command posts, and radar installations. F-35s from RAF Lakenheath would strike from the north, Growlers from the Ford would jam from the sea, Polish and Finnish long-range fires would suppress from the south. The plan called for 200+ sorties in the first 12 hours.\n\nAnd then, at 17:45 CET, satellite imagery detected something that sent a chill through every intelligence agency watching: the loading bay doors on the Iskander-M launchers in Kaliningrad were open. Technicians in NBC protective gear were visible near the launchers. It was impossible to determine from imagery alone whether the warheads being loaded were conventional or nuclear. The Presidential hotline between Washington and Moscow rang for the first time since the crisis began.",
+    "world_state_updates": {
+      "game_time": "Day 2, 18:00 CET",
+      "military_units_add": [],
+      "military_units_remove": [],
+      "military_units_update": [
+        {
+          "name": "us_ford_csg",
+          "location": "Baltic Sea — entered through Danish Straits at 16:30, EA-18G ready",
+          "readiness": 9,
+          "strength": 8,
+          "casualties": 0,
+          "supply_level": 9,
+          "morale": 9
+        },
+        {
+          "name": "russian_kaliningrad_forces",
+          "location": "Suwałki Corridor — deep defense, Iskander-M LOADING ACTIVITY DETECTED",
+          "readiness": 8,
+          "strength": 8,
+          "casualties": 0,
+          "supply_level": 5,
+          "morale": 5
+        },
+        {
+          "name": "russian_western_district",
+          "location": "Suwałki Corridor — fortified, supply declining from Smolensk depot strike",
+          "readiness": 7,
+          "strength": 7,
+          "casualties": 0,
+          "supply_level": 5,
+          "morale": 5
+        },
+        {
+          "name": "polish_18th_division",
+          "location": "Final assembly areas — 40km from corridor, HIMARS batteries at fire positions",
+          "readiness": 10,
+          "strength": 7,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 9
+        },
+        {
+          "name": "french_11th_para",
+          "location": "Advance elements arriving in eastern Poland — main body 18h behind",
+          "readiness": 7,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 9,
+          "morale": 8
+        },
+        {
+          "name": "uk_4th_brigade",
+          "location": "Southern Lithuania — 12h from forward positions",
+          "readiness": 8,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 9,
+          "morale": 8
+        },
+        {
+          "name": "finnish_forces",
+          "location": "Artillery + MLRS at fire positions — operational, integrated into SEAD plan",
+          "readiness": 9,
+          "strength": 7,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 8
+        },
+        {
+          "name": "russian_submarine_force",
+          "location": "Norwegian Sea — 3 subs active, 1 unlocated for 6 hours",
+          "readiness": 9,
+          "strength": 7,
+          "casualties": 0,
+          "supply_level": 8,
+          "morale": 7
+        }
+      ],
+      "military_alerts": {
+        "ISKANDER_LOADING": "CRITICAL: Iskander-M loading bay doors open, NBC-suited technicians — nuclear or conventional warhead unknown",
+        "hotline_activated": "Washington-Moscow Presidential hotline activated for first time",
+        "ford_in_baltic": "Ford CSG entered Baltic through Danish Straits at 16:30",
+        "sead_ready": "SEAD target package finalized: 47 targets, 200+ sorties planned",
+        "bundestag_authorized": "German Bundestag authorized operations 538-89",
+        "turkey_straits_closed": "Turkey formally closed Straits to Russian military vessels",
+        "turkey_f35_deal": "Turkey-US F-35/S-400 deal — S-400 to Incirlik, 40 F-35As from 2027",
+        "russian_supply_declining": "Russian corridor supply at ~50% — Smolensk depot strike + single rail line",
+        "sub_unlocated": "1 of 3 Russian submarines unlocated for 6 hours — Norwegian ASW searching"
+      },
+      "markets": {
+        "oil_price": 108,
+        "euro_usd": 0.99,
+        "gas_price_eu": 98,
+        "stock_indices": -10.5
+      },
+      "sanctions_add": [],
+      "trade_disruptions_add": [
+        "Danish Straits closed to Russian military — commercial shipping under escort",
+        "Baltic Sea declared high-risk zone by maritime insurers — 500% premium increase",
+        "European aviation authorities close Baltic airspace to civilian traffic"
+      ],
+      "diplomatic_relations": {
+        "TR": {
+          "US": 5,
+          "RU": -2
+        },
+        "HU": {
+          "NATO": -7,
+          "PL": -9
+        },
+        "IN": {
+          "RU": 4,
+          "US": 3
+        },
+        "DE": {
+          "PL": 7,
+          "LT": 8
+        }
+      },
+      "treaties_invoked_add": [
+        {
+          "treaty": "Turkey-US F-35/S-400 Agreement",
+          "invoked_by": "TR/US",
+          "status": "S-400 to US custody at Incirlik within 90 days, 40 F-35As from 2027"
+        },
+        {
+          "treaty": "Montreux Convention — Straits Closure",
+          "invoked_by": "TR",
+          "status": "Danish-Turkish Straits closed to Russian military vessel transit"
+        }
+      ],
+      "un_resolutions_add": [],
+      "nato_alert_level": "article5",
+      "nato_consensus": {
+        "ALL": "Ultimatum holds — SEAD begins 08:00 Day 3 unless Russia withdraws",
+        "DE": "Bundestag authorized operations 538-89",
+        "TR": "F-35 deal sealed — full Article 5 commitment",
+        "HU": "extension demand rejected — isolated"
+      },
+      "nuclear_posture": {
+        "RU": "dispersal",
+        "US": "elevated",
+        "GB": "elevated",
+        "FR": "elevated"
+      },
+      "nuclear_detonations_add": [],
+      "public_opinion": {
+        "PL": {
+          "war_support": 77,
+          "government_approval": 74
+        },
+        "LT": {
+          "war_support": 93,
+          "government_approval": 82
+        },
+        "LV": {
+          "war_support": 74,
+          "government_approval": 68
+        },
+        "EE": {
+          "war_support": 70,
+          "government_approval": 66
+        },
+        "US": {
+          "war_support": 30,
+          "government_approval": 45
+        },
+        "GB": {
+          "war_support": 44,
+          "government_approval": 53
+        },
+        "FR": {
+          "war_support": 35,
+          "government_approval": 46
+        },
+        "DE": {
+          "war_support": 20,
+          "government_approval": 42
+        },
+        "RU": {
+          "war_support": 64,
+          "government_approval": 77
+        },
+        "BY": {
+          "war_support": 6,
+          "government_approval": 26
+        },
+        "IT": {
+          "war_support": 21,
+          "government_approval": 40
+        },
+        "TR": {
+          "war_support": 15,
+          "government_approval": 56
+        },
+        "HU": {
+          "war_support": 3,
+          "government_approval": 42
+        },
+        "FI": {
+          "war_support": 64,
+          "government_approval": 70
+        },
+        "SE": {
+          "war_support": 50,
+          "government_approval": 59
+        },
+        "NO": {
+          "war_support": 47,
+          "government_approval": 62
+        },
+        "DK": {
+          "war_support": 45,
+          "government_approval": 56
+        },
+        "NL": {
+          "war_support": 36,
+          "government_approval": 51
+        },
+        "BE": {
+          "war_support": 29,
+          "government_approval": 47
+        },
+        "CZ": {
+          "war_support": 40,
+          "government_approval": 54
+        },
+        "RO": {
+          "war_support": 45,
+          "government_approval": 56
+        },
+        "CA": {
+          "war_support": 32,
+          "government_approval": 49
+        },
+        "CN": {
+          "war_support": 3,
+          "government_approval": 75
+        },
+        "UA": {
+          "war_support": 85,
+          "government_approval": 70
+        },
+        "GE": {
+          "war_support": 43,
+          "government_approval": 49
+        },
+        "MD": {
+          "war_support": 24,
+          "government_approval": 35
+        },
+        "IN": {
+          "war_support": 4,
+          "government_approval": 63
+        },
+        "JP": {
+          "war_support": 19,
+          "government_approval": 57
+        },
+        "KR": {
+          "war_support": 15,
+          "government_approval": 58
+        },
+        "AU": {
+          "war_support": 24,
+          "government_approval": 52
+        },
+        "IR": {
+          "war_support": 2,
+          "government_approval": 59
+        },
+        "SA": {
+          "war_support": 2,
+          "government_approval": 68
+        },
+        "IL": {
+          "war_support": 20,
+          "government_approval": 62
+        },
+        "RS": {
+          "war_support": 2,
+          "government_approval": 57
+        },
+        "KP": {
+          "war_support": 86,
+          "government_approval": 95
+        }
+      },
+      "refugee_flows_add": [
+        {
+          "from": "LT",
+          "to": "PL",
+          "count": 6000,
+          "status": "fleeing"
+        },
+        {
+          "from": "LT",
+          "to": "LV",
+          "count": 2000,
+          "status": "fleeing"
+        },
+        {
+          "from": "PL",
+          "to": "DE",
+          "count": 1000,
+          "status": "precautionary"
+        }
+      ],
+      "humanitarian_crisis_level": {
+        "LT": 6,
+        "PL": 2
+      },
+      "cyber_operations_add": [],
+      "infrastructure_status": {
+        "LT": {
+          "power_grid": 6,
+          "comms": 5,
+          "financial": 4,
+          "military_c2": 7
+        }
+      },
+      "corridor_control": "russian",
+      "recent_events": [
+        "10:30: Modi calls Putin — corridor 'non-negotiable'",
+        "12:00: Rubio to Modi: military action now inevitable",
+        "13:00: China's Six-Point Peace Framework tabled at UN — shelved",
+        "14:00: German Bundestag authorizes operations 538-89",
+        "15:00: Turkey closes Straits, announces F-35/S-400 deal",
+        "16:30: Ford CSG enters Baltic Sea through Danish Straits",
+        "17:00: Orbán demands 48h extension — rejected by all allies",
+        "17:30: SEAD target package finalized — 47 targets, 200+ sorties",
+        "17:45: CRITICAL — Iskander-M loading activity detected in Kaliningrad",
+        "17:50: Washington-Moscow Presidential hotline activated"
+      ],
+      "media_headlines": [
+        "NUCLEAR ALERT: Iskander loading activity detected — world holds its breath",
+        "THE HOTLINE: Washington and Moscow speak for first time since crisis began",
+        "FORD IN THE BALTIC: US carrier enters the war zone",
+        "BUNDESTAG SAYS YES: Germany authorizes military operations 538-89",
+        "TURKEY DEAL: F-35s for Straits closure — Erdogan's gambit pays off",
+        "14 HOURS: The countdown to NATO's first combat since 1949"
+      ],
+      "round_number": 5
+    },
+    "events": [
+      "Iskander-M loading activity detected in Kaliningrad — nuclear risk",
+      "Washington-Moscow hotline activated for first time",
+      "Ford CSG enters Baltic Sea through Danish Straits",
+      "German Bundestag authorizes operations 538-89",
+      "Turkey closes Straits + F-35/S-400 deal sealed",
+      "Modi mediation fails — Putin says corridor non-negotiable",
+      "Hungary's extension demand rejected by all allies",
+      "Nuclear posture elevated: US, UK, FR move from peacetime to elevated"
+    ],
+    "headlines": [
+      "THE DARKEST HOUR: Nuclear loading activity as ultimatum ticks down",
+      "HOTLINE: Two presidents, one phone call, the fate of the world",
+      "FORD ENTERS: America's most powerful warship sails into harm's way",
+      "MERZ: Never again means never again — 538 votes to 89",
+      "ERDOGAN'S DEAL: F-35s and Straits closure seal Turkey's commitment",
+      "14 HOURS TO WAR: The world braces for NATO-Russia combat"
+    ],
+    "surprises": [
+      "The Iskander loading activity was NOT authorized by Putin. As with the previous game, it was initiated by the Kaliningrad garrison commander, General-Lieutenant Frolov, who feared that the SEAD campaign would destroy his forces without any credible deterrent. When Putin learned of the loading via the hotline call with the US President, he was reportedly furious — not at the Americans for detecting it, but at Frolov for acting without authorization. The hotline call lasted 47 minutes. What was said remains classified, but within 90 minutes of the call ending, the loading activity ceased and the Iskander bay doors were closed. The world had come within hours of a rogue commander triggering nuclear war."
+    ]
+  },
+  "world_state_after": {
+    "round_number": 5,
+    "game_time": "Day 2, 18:00 CET",
+    "military_units": [
+      {
+        "name": "russian_kaliningrad_forces",
+        "country": "RU",
+        "type": "ground",
+        "location": "Suwałki Corridor — deep defense, Iskander-M LOADING ACTIVITY DETECTED",
+        "readiness": 8,
+        "strength": 8,
+        "casualties": 0,
+        "supply_level": 5,
+        "morale": 5,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "russian_western_district",
+        "country": "RU",
+        "type": "ground",
+        "location": "Suwałki Corridor — fortified, supply declining from Smolensk depot strike",
+        "readiness": 7,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 5,
+        "morale": 5,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "belarus_forces",
+        "country": "BY",
+        "type": "ground",
+        "location": "Belarus — 40km from border, logistics support only, Kellogg channel active",
+        "readiness": 3,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 2,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_lithuania",
+        "country": "DE",
+        "type": "ground",
+        "location": "Moving south from Rukla toward corridor — with German 45th Panzer",
+        "readiness": 9,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_latvia",
+        "country": "CA",
+        "type": "ground",
+        "location": "Latvia — Canadian-led, defensive positions hardened, NOT redeploying",
+        "readiness": 8,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_estonia",
+        "country": "GB",
+        "type": "ground",
+        "location": "Estonia — UK elements moving to Lithuania, Estonian forces holding Tapa",
+        "readiness": 8,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "Poland-Lithuania border — Article 5 authority, coordinating with Polish 18th",
+        "readiness": 9,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "us_forces_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "Camp Kościuszko — V Corps artillery batteries deploying to fire positions",
+        "readiness": 9,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "polish_forces",
+        "country": "PL",
+        "type": "ground",
+        "location": "Southern Suwałki — 4 divisions in defensive screen",
+        "readiness": 9,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "finnish_forces",
+        "country": "FI",
+        "type": "ground",
+        "location": "Artillery + MLRS at fire positions — operational, integrated into SEAD plan",
+        "readiness": 9,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "us_ford_csg",
+        "country": "US",
+        "type": "naval",
+        "location": "Baltic Sea — entered through Danish Straits at 16:30, EA-18G ready",
+        "readiness": 9,
+        "strength": 8,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "french_11th_para",
+        "country": "FR",
+        "type": "ground",
+        "location": "Advance elements arriving in eastern Poland — main body 18h behind",
+        "readiness": 7,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "uk_4th_brigade",
+        "country": "GB",
+        "type": "ground",
+        "location": "Southern Lithuania — 12h from forward positions",
+        "readiness": 8,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "dutch_43rd_brigade",
+        "country": "NL",
+        "type": "ground",
+        "location": "Netherlands, preparing deployment via German corridor",
+        "readiness": 6,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "italian_cavour_group",
+        "country": "IT",
+        "type": "naval",
+        "location": "Atlantic, preparing transit to Norwegian Sea",
+        "readiness": 7,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "swedish_gotland_garrison",
+        "country": "SE",
+        "type": "ground",
+        "location": "Gotland — maximum defense, anti-ship missiles, Gripen on alert",
+        "readiness": 9,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "polish_18th_division",
+        "country": "PL",
+        "type": "ground",
+        "location": "Final assembly areas — 40km from corridor, HIMARS batteries at fire positions",
+        "readiness": 10,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "russian_submarine_force",
+        "country": "RU",
+        "type": "naval",
+        "location": "Norwegian Sea — 3 subs active, 1 unlocated for 6 hours",
+        "readiness": 9,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 8,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      }
+    ],
+    "military_alerts": {
+      "russian_kaliningrad_forces": "Defensive posture, 2x S-400 covering corridor, field fortifications",
+      "russian_western_district": "Linked up with Kaliningrad forces, fortifying southern corridor",
+      "belarus_forces": "Providing transit ONLY — Lukashenko: This is Russias operation",
+      "nato_efp_lithuania": "Full alert at Rukla — NO engagement authority from NAC",
+      "nato_efp_latvia": "Canadian-led battlegroup (~1500 troops)",
+      "nato_efp_estonia": "UK-led battlegroup (~1200 troops)",
+      "nato_efp_poland": "US-led battlegroup (~1000 troops) + Polish forces",
+      "us_forces_poland": "Camp Kosciuszko, V Corps HQ, ~10,000 personnel",
+      "polish_forces": "4 divisions on elevated readiness, largest military in EU",
+      "finnish_forces": "Reserves on standby, border monitoring increased",
+      "gps_jamming": "GPS/GLONASS jamming expanded, affecting wider Lithuanian territory",
+      "cyber_attack": "Lithuanian military C2 degraded ~40%, civilian comms disrupted in Suwałki region",
+      "no_nato_contact": "Russia still has NOT fired on any NATO forces",
+      "russian_submarine_yasen": "Yasen-class detected in GIUK gap — Norwegian sub tracking",
+      "ew_jamming": "Russian EW expanded to 30km beyond corridor boundaries",
+      "us_ford_csg": "Ford CSG approaching Baltic, ETA ~30 hours",
+      "ukraine_intelligence": "Ukraine offering real-time SIGINT on Russian C2 and EW signatures",
+      "article5_invoked": "NATO Article 5 INVOKED at 23:22 CET — unanimous",
+      "saceur_planning": "SACEUR developing operational plan for corridor liberation",
+      "russian_nuclear_signal": "Yars ICBM readiness check — assessed as performative, no warhead mating",
+      "russian_defenses": "Corridor fortified: S-400 coverage, field fortifications, EW 30km beyond borders",
+      "norwegian_asw": "Norwegian P-8 and frigate tracking Yasen-class submarine",
+      "dprk_offer": "North Korea offering 500K rounds + 50 KN-23 missiles to Russia",
+      "china_taiwan": "PLA Eastern Theater exercises near Taiwan and Senkaku Islands",
+      "no_combat": "STILL no shots fired between NATO and Russian forces",
+      "oplan_baltic_shield": "APPROVED — SEAD Phase 1 begins after 08:00 Day 3 ultimatum",
+      "ultimatum": "NATO ultimatum: Russia withdraw by 08:00 Day 3 or face military expulsion",
+      "iskander_forward": "Iskander-M launchers moved to forward positions in Kaliningrad — nuclear-capable",
+      "russian_submarines": "3 nuclear-capable submarines in Norwegian Sea — largest deployment since Cold War",
+      "cyber_attack_poland": "Sandworm attacked Polish railway signaling — contained in 3 hours",
+      "ccdcoe_counter": "Estonian CCDCOE counter-op briefly degraded Russian EW in corridor",
+      "ukraine_deep_strike": "Ukraine hit ammunition depot in Smolensk Oblast — disrupting corridor supply",
+      "ford_csg_eta": "Ford CSG with EA-18G Growlers — 18 hours from Baltic entry",
+      "ISKANDER_LOADING": "CRITICAL: Iskander-M loading bay doors open, NBC-suited technicians — nuclear or conventional warhead unknown",
+      "hotline_activated": "Washington-Moscow Presidential hotline activated for first time",
+      "ford_in_baltic": "Ford CSG entered Baltic through Danish Straits at 16:30",
+      "sead_ready": "SEAD target package finalized: 47 targets, 200+ sorties planned",
+      "bundestag_authorized": "German Bundestag authorized operations 538-89",
+      "turkey_straits_closed": "Turkey formally closed Straits to Russian military vessels",
+      "turkey_f35_deal": "Turkey-US F-35/S-400 deal — S-400 to Incirlik, 40 F-35As from 2027",
+      "russian_supply_declining": "Russian corridor supply at ~50% — Smolensk depot strike + single rail line",
+      "sub_unlocated": "1 of 3 Russian submarines unlocated for 6 hours — Norwegian ASW searching"
+    },
+    "markets": {
+      "oil_price": 108,
+      "euro_usd": 0.99,
+      "gas_price_eu": 98,
+      "stock_indices": -10.5
+    },
+    "sanctions": [],
+    "trade_disruptions": [
+      "Land transit through Suwałki corridor severed — Baltic states cut from NATO by land",
+      "Baltic shipping routes under increased risk assessment",
+      "Lithuanian ATM networks offline — financial infrastructure under cyber attack",
+      "Baltic air corridors restricted — commercial aviation rerouting",
+      "Denmark preparing Danish Straits closure to Russian naval traffic",
+      "Baltic commercial aviation fully rerouted — airspace restricted",
+      "Norwegian GIUK gap monitoring disrupting Russian submarine transit",
+      "Polish railway signaling disrupted by Sandworm — contained but logistics vulnerability exposed",
+      "Norwegian Sea submarine threat raising shipping insurance premiums 300%",
+      "Danish Straits closed to Russian military — commercial shipping under escort",
+      "Baltic Sea declared high-risk zone by maritime insurers — 500% premium increase",
+      "European aviation authorities close Baltic airspace to civilian traffic"
+    ],
+    "diplomatic_relations": {
+      "LT": {
+        "RU": -10,
+        "HU": -6
+      },
+      "PL": {
+        "RU": -9,
+        "BY": -7,
+        "HU": -8,
+        "UA": 9,
+        "LT": 9
+      },
+      "RU": {
+        "LT": -10,
+        "US": -10,
+        "NATO": -10,
+        "PL": -10
+      },
+      "HU": {
+        "PL": -9,
+        "LT": -7,
+        "EU": -5,
+        "NATO": -7
+      },
+      "TR": {
+        "US": 5,
+        "RU": -2
+      },
+      "UA": {
+        "PL": 9,
+        "LT": 8,
+        "NATO": 8
+      },
+      "CN": {
+        "RU": 6,
+        "US": -5
+      },
+      "RS": {
+        "RU": 6,
+        "HU": 5
+      },
+      "FI": {
+        "LT": 8,
+        "EE": 8
+      },
+      "SE": {
+        "FI": 9,
+        "PL": 7
+      },
+      "JP": {
+        "US": 7,
+        "RU": -9
+      },
+      "BY": {
+        "US": -2,
+        "RU": 3
+      },
+      "KR": {
+        "PL": 7
+      },
+      "IN": {
+        "RU": 4,
+        "US": 3
+      },
+      "DE": {
+        "PL": 7,
+        "LT": 8
+      }
+    },
+    "treaties_invoked": [
+      "{'treaty': 'NATO Article 4', 'invoked_by': 'LT', 'status': 'consultation — NAC emergency session convening'}",
+      "{'treaty': 'NATO Article 4 — Emergency NAC Session', 'invoked_by': 'LT', 'status': 'Session recessed without Article 5 consensus — Hungary blocked, Turkey conditional. Resumes 22:00 CET'}",
+      "{'treaty': 'NATO Article 5', 'invoked_by': 'NAC unanimous', 'status': 'INVOKED 23:22 CET — armed attack on Lithuania = attack on all allies'}",
+      "{'treaty': 'EU Article 42.7 TEU', 'invoked_by': 'LT', 'status': 'submitted — under EU Foreign Affairs Council consideration'}",
+      "{'treaty': 'NATO Ultimatum to Russia', 'invoked_by': 'NAC', 'status': '24h deadline — withdraw by 08:00 Day 3 or face OPLAN BALTIC SHIELD'}",
+      "{'treaty': 'Turkey-US F-35/S-400 Agreement', 'invoked_by': 'TR/US', 'status': 'S-400 to US custody at Incirlik within 90 days, 40 F-35As from 2027'}",
+      "{'treaty': 'Montreux Convention — Straits Closure', 'invoked_by': 'TR', 'status': 'Danish-Turkish Straits closed to Russian military vessel transit'}"
+    ],
+    "un_resolutions": [
+      "{'title': 'UNSC Resolution condemning Suwałki incursion', 'status': 'VETOED by China; Russia abstained', 'votes': '12 for, 1 against (CN), 1 abstain (RU), 1 abstain (other)'}"
+    ],
+    "nato_alert_level": "article5",
+    "nato_consensus": {
+      "US": "authorized SEAD pending ultimatum expiry — 24h diplomatic window",
+      "PL": "frustrated by 24h delay but accepting — 18th Mech at assembly areas",
+      "DE": "Bundestag authorized operations 538-89",
+      "LT": "desperate for Article 5 — sovereignty violated",
+      "HU": "extension demand rejected — isolated",
+      "TR": "F-35 deal sealed — full Article 5 commitment",
+      "FR": "backing Article 5, preparing 11th Parachute Brigade",
+      "GB": "offered to lead SEAD if US delays — RAF ready",
+      "ALL": "Ultimatum holds — SEAD begins 08:00 Day 3 unless Russia withdraws"
+    },
+    "corridor_control": "russian",
+    "nuclear_posture": {
+      "RU": "dispersal",
+      "US": "elevated",
+      "GB": "elevated",
+      "FR": "elevated"
+    },
+    "nuclear_detonations": [],
+    "public_opinion": {
+      "PL": {
+        "war_support": 77,
+        "government_approval": 74
+      },
+      "DE": {
+        "war_support": 20,
+        "government_approval": 42
+      },
+      "FR": {
+        "war_support": 35,
+        "government_approval": 46
+      },
+      "US": {
+        "war_support": 30,
+        "government_approval": 45
+      },
+      "GB": {
+        "war_support": 44,
+        "government_approval": 53
+      },
+      "LT": {
+        "war_support": 93,
+        "government_approval": 82
+      },
+      "LV": {
+        "war_support": 74,
+        "government_approval": 68
+      },
+      "EE": {
+        "war_support": 70,
+        "government_approval": 66
+      },
+      "RU": {
+        "war_support": 64,
+        "government_approval": 77
+      },
+      "BY": {
+        "war_support": 6,
+        "government_approval": 26
+      },
+      "IT": {
+        "war_support": 21,
+        "government_approval": 40
+      },
+      "TR": {
+        "war_support": 15,
+        "government_approval": 56
+      },
+      "HU": {
+        "war_support": 3,
+        "government_approval": 42
+      },
+      "FI": {
+        "war_support": 64,
+        "government_approval": 70
+      },
+      "SE": {
+        "war_support": 50,
+        "government_approval": 59
+      },
+      "NO": {
+        "war_support": 47,
+        "government_approval": 62
+      },
+      "DK": {
+        "war_support": 45,
+        "government_approval": 56
+      },
+      "NL": {
+        "war_support": 36,
+        "government_approval": 51
+      },
+      "BE": {
+        "war_support": 29,
+        "government_approval": 47
+      },
+      "CZ": {
+        "war_support": 40,
+        "government_approval": 54
+      },
+      "RO": {
+        "war_support": 45,
+        "government_approval": 56
+      },
+      "CA": {
+        "war_support": 32,
+        "government_approval": 49
+      },
+      "CN": {
+        "war_support": 3,
+        "government_approval": 75
+      },
+      "UA": {
+        "war_support": 85,
+        "government_approval": 70
+      },
+      "GE": {
+        "war_support": 43,
+        "government_approval": 49
+      },
+      "MD": {
+        "war_support": 24,
+        "government_approval": 35
+      },
+      "IN": {
+        "war_support": 4,
+        "government_approval": 63
+      },
+      "JP": {
+        "war_support": 19,
+        "government_approval": 57
+      },
+      "KR": {
+        "war_support": 15,
+        "government_approval": 58
+      },
+      "AU": {
+        "war_support": 24,
+        "government_approval": 52
+      },
+      "IR": {
+        "war_support": 2,
+        "government_approval": 59
+      },
+      "SA": {
+        "war_support": 2,
+        "government_approval": 68
+      },
+      "IL": {
+        "war_support": 20,
+        "government_approval": 62
+      },
+      "RS": {
+        "war_support": 2,
+        "government_approval": 57
+      },
+      "KP": {
+        "war_support": 86,
+        "government_approval": 95
+      }
+    },
+    "refugee_flows": [
+      {
+        "from": "LT",
+        "to": "PL",
+        "count": 2000,
+        "status": "fleeing"
+      },
+      {
+        "from": "LT",
+        "to": "LV",
+        "count": 800,
+        "status": "fleeing"
+      },
+      {
+        "from": "PL",
+        "to": "DE",
+        "count": 1000,
+        "status": "precautionary"
+      }
+    ],
+    "humanitarian_crisis_level": {
+      "LT": 6,
+      "PL": 2
+    },
+    "cyber_operations": [
+      {
+        "attacker": "RU",
+        "target": "LT",
+        "type": "infrastructure",
+        "severity": "high",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "LT",
+        "type": "ddos",
+        "severity": "medium",
+        "infrastructure_affected": "comms"
+      },
+      {
+        "attacker": "EE",
+        "target": "RU",
+        "type": "reconnaissance",
+        "severity": "low",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "KP",
+        "target": "NATO",
+        "type": "espionage",
+        "severity": "low",
+        "infrastructure_affected": "defense_contractors"
+      },
+      {
+        "attacker": "RU",
+        "target": "PL",
+        "type": "infrastructure",
+        "severity": "high",
+        "infrastructure_affected": "transport"
+      },
+      {
+        "attacker": "EE",
+        "target": "RU",
+        "type": "offensive",
+        "severity": "medium",
+        "infrastructure_affected": "military_ew"
+      },
+      {
+        "attacker": "UA",
+        "target": "RU",
+        "type": "kinetic",
+        "severity": "high",
+        "infrastructure_affected": "ammo_depot_smolensk"
+      }
+    ],
+    "infrastructure_status": {
+      "LT": {
+        "power_grid": 6,
+        "comms": 5,
+        "financial": 4,
+        "military_c2": 7
+      },
+      "PL": {
+        "power_grid": 10,
+        "comms": 10,
+        "financial": 10,
+        "military_c2": 10,
+        "transport": 8
+      }
+    },
+    "recent_events": [
+      "10:30: Modi calls Putin — corridor 'non-negotiable'",
+      "12:00: Rubio to Modi: military action now inevitable",
+      "13:00: China's Six-Point Peace Framework tabled at UN — shelved",
+      "14:00: German Bundestag authorizes operations 538-89",
+      "15:00: Turkey closes Straits, announces F-35/S-400 deal",
+      "16:30: Ford CSG enters Baltic Sea through Danish Straits",
+      "17:00: Orbán demands 48h extension — rejected by all allies",
+      "17:30: SEAD target package finalized — 47 targets, 200+ sorties",
+      "17:45: CRITICAL — Iskander-M loading activity detected in Kaliningrad",
+      "17:50: Washington-Moscow Presidential hotline activated"
+    ],
+    "media_headlines": [
+      "NUCLEAR ALERT: Iskander loading activity detected — world holds its breath",
+      "THE HOTLINE: Washington and Moscow speak for first time since crisis began",
+      "FORD IN THE BALTIC: US carrier enters the war zone",
+      "BUNDESTAG SAYS YES: Germany authorizes military operations 538-89",
+      "TURKEY DEAL: F-35s for Straits closure — Erdogan's gambit pays off",
+      "14 HOURS: The countdown to NATO's first combat since 1949"
+    ],
+    "_nuclear_penalty_applied": [],
+    "_oil_penalty_last_threshold": 0.0,
+    "_gas_sanction_count_applied": 0,
+    "_gm_set_nuclear_this_round": [
+      "RU",
+      "GB",
+      "US",
+      "FR"
+    ]
+  }
+}

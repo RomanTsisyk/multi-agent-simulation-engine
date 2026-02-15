@@ -1,0 +1,1648 @@
+{
+  "round": 5,
+  "runner": "claude-code",
+  "briefing": "ROUND 6 SITUATION BRIEFING -- Day 5, 18:00 CET\n\nThe Istanbul negotiations are underway and substantive progress has been achieved. The bilateral Kellogg-Patrushev session resolved the most contentious inspection issue: sealed commercial containers will undergo X-ray and radiological scanning at dedicated inspection facilities at Kybartai (Lithuanian-Kaliningrad border) and Kaunas (Lithuanian rail hub), staffed by EU customs officers from neutral nations (Netherlands, Austria, Ireland) under OSCE mandate. Russia accepted scanner inspection in exchange for NATO dropping demands for physical container opening. The Lithuanian delegation, led by Foreign Minister Landsbergis, secured critical sovereignty protections: Lithuania retains the right to suspend transit for security reasons with 24-hour OSCE notification, and Lithuanian customs officers participate alongside EU inspectors.\n\nThe key remaining disputes center on three issues. First, the 'no offensive weapons' zone: Russia demands 100km around Kaliningrad, NATO offers 50km with Patriot defensive systems explicitly excluded. Second, the sanctions relief timeline: Russia wants first-tranche relief within 7 days of signing, NATO/EU proposes 14 days after verified force withdrawal begins. Third, the framework duration: Russia wants indefinite, NATO wants 3 years with automatic renewal contingent on compliance. The multilateral session on Day 2 must resolve these gaps.\n\nMilitary postures remain static but tensions have visibly reduced. Russian forces in Kaliningrad maintain their de-escalated posture. NATO forces maintain full strength with reduced operational tempo. The GRU PEREVAL operatives are departing Belarus. Estonian and US cyber operations have shifted from active disruption to persistent monitoring. The USS Gerald Ford continues its Atlantic transit but at standard speed. The critical clock is Kaliningrad's supply situation: now estimated at 5-8 days without resupply. Russia has begun limited civilian cargo ship resupply via Baltiysk -- NATO is monitoring but not interdicting, as blocking humanitarian/civilian supplies would undermine the diplomatic narrative.\n\nPublic opinion is shifting across the board. Russian war support has dropped to 49% as state media pivots to a 'Russia forced NATO to negotiate' narrative. US war support has risen slightly to 29% as diplomatic progress reassures the American public. European publics are broadly relieved, with war support softening but government approval rising in Germany (36%), France (44%), and the UK (49%). Lithuanian and Polish publics remain strongly supportive of their governments' firm but diplomatic posture. The humanitarian situation in Lithuania has stabilized -- some displaced families are beginning to return to areas away from the immediate border zone.\n\nThe next 24 hours will determine whether the Istanbul Protocol can be finalized. The remaining gaps are bridgeable but require political decisions at the highest levels. All parties have incentives to close the deal: Russia's supply clock is ticking, China's financial pressure is intensifying, and Western publics are demanding a resolution. The key question is whether Putin can accept the terms without triggering a domestic political crisis -- and whether NATO allies can maintain unity on the verification requirements that make the framework enforceable rather than merely decorative.",
+  "narrative": "The Suwalki Gap crisis reached its decisive turning point on Day 5 as Russia formally accepted the Kaliningrad Transit Framework negotiations. After a brutal 6-hour Security Council session in which Chief of General Staff Gerasimov delivered an unvarnished assessment of Russia's untenable military position -- Kaliningrad supply at 6-9 days, C2 networks degraded to 40%, Belarusian staging area lost, and no authorized reinforcements -- Putin overruled the remaining hardliners and dispatched Foreign Minister Lavrov to Istanbul with full negotiating authority. The decision was accelerated by Central Bank Governor Nabiullina's warning that SWIFT sanctions would trigger a banking liquidity crisis within 72 hours, and by Xi Jinping's blunt message that Chinese banks would begin comprehensive disengagement if the crisis escalated further.\n\nThe Istanbul negotiations opened at the Ciragan Palace with Turkey's carefully choreographed two-day format: bilateral US-Russia talks on Day 1 (Kellogg-Patrushev) to narrow the key gaps, followed by a full multilateral session with NATO, EU, Russia, and China as observer on Day 2. The bilateral session produced significant convergence on core terms: guaranteed commercial rail and road transit through Lithuania, X-ray/scanner inspection of sealed containers (Russia dropped its demand for no inspection; NATO dropped its demand for physical container opening), OSCE monitoring mission with contributions from multiple nations, and a phased sanctions relief timeline that Russia pushed from 90 to 45 days. The critical sticking points remaining for the multilateral session were: the scope of the 'no offensive weapons' zone around Kaliningrad, the specific withdrawal timeline, nuclear posture de-escalation sequencing, and the framework's duration and renewal mechanism.\n\nIn parallel, Operation PEREVAL was formally cancelled. The 7 GRU operatives identified by Belarusian KGB began departing Belarus on commercial flights to Moscow under KGB surveillance. Lukashenko issued a carefully calibrated public statement positioning Belarus as a peacemaker. China's Special Envoy Li Hui arrived in Istanbul, and Beijing issued a statement welcoming the negotiations. Hungary ended its abstention and formally supported the diplomatic track. NATO maintained its full military posture -- no forces withdrawn, no alert levels reduced -- but operational tempos across all allied forces shifted from 'imminent engagement' to 'sustained deterrence,' preserving combat capability while signaling confidence in the diplomatic process.\n\nThe economic environment improved markedly. Oil prices dropped further to $112 as markets priced in a diplomatic resolution. European gas prices eased an additional 8% from peak. European and US stock indices recovered 2-3% in after-hours trading. The financial pressure on Russia intensified even as diplomatic progress advanced: China's PBoC froze $2 billion in credit lines to Russian banks as a precautionary measure, while Germany's EU Golden Bridge package -- phased sanctions relief over 45 days tied to verified compliance milestones -- set the economic terms of the emerging agreement. The BND's debriefing of the Vekselberg defection revealed that at least three additional Russian oligarchs had made preliminary contact with Western intelligence, confirming accelerating elite fracturing inside Russia.",
+  "country_decisions": [
+    {
+      "country": "PL",
+      "actions": [
+        "Maintains three divisions under Operation TARCZA POKOJU tied to negotiation milestones",
+        "GROM shifts to covert observation of GRU evacuation and 1046th facility",
+        "FM Sikorski joins Istanbul delegation with Polish red lines",
+        "Rail authority begins contingency planning for transit resumption"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "LT",
+      "actions": [
+        "Nauseda authorizes Istanbul participation with 5 non-negotiable sovereignty conditions",
+        "Cyber forces reduce from critical to sustained pressure",
+        "Iron Wolf shifts to sustained readiness",
+        "VSD establishes monitoring cell at Kybartai and Kaunas"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "LV",
+      "actions": [
+        "Zemessardze transitions to sustained readiness, bridge demolition authority raised to brigade level",
+        "Coordinates joint Baltic position on permanent NATO presence",
+        "SAB maintains maximum counterintelligence in Latgale"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "EE",
+      "actions": [
+        "Cyber Command shifts to persistent monitoring and exploitation",
+        "Shares assessment of Russian combat ineffectiveness",
+        "Proposes Baltic Cyber Shield permanent NATO asset",
+        "Continues Narva defense at sustained readiness"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "US",
+      "actions": [
+        "Trump declares deal imminent, Kellogg authorized with revised concessions",
+        "CYBERCOM reduces LIGHTNING FORGE intensity 30%",
+        "V Corps shifts to sustained deterrence",
+        "Rubio flies to Istanbul to lead delegation"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "GB",
+      "actions": [
+        "Carrier shifts to presence posture with reduced F-35B coverage",
+        "GCHQ verifies nuclear intelligence from Belarus",
+        "3 Commando at IOC at Bardufoss",
+        "Lammy joins Istanbul as co-guarantor"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "FR",
+      "actions": [
+        "Macron offers co-guarantor role and UNSC resolution",
+        "DGSE assesses PEREVAL permanently compromised",
+        "Presents European Confidence-Building Package at Istanbul",
+        "SSN Suffren shifts to intelligence collection"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "DE",
+      "actions": [
+        "Scholz presents Golden Bridge at Istanbul",
+        "eFP transitions to sustained deterrence",
+        "BND debriefs Vekselberg -- 3+ additional oligarchs defecting",
+        "EU FAC endorses framework approach unanimously"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "FI",
+      "actions": [
+        "Maintains 40k mobilized at sustained readiness",
+        "F/A-18 patrols pull back to 10km from Russian airspace",
+        "Offers OSCE monitoring personnel",
+        "SIGINT confirms Russian passivity"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "SE",
+      "actions": [
+        "Gotland maintained at full brigade",
+        "SIPRI offered as verification body",
+        "Naval intelligence confirms Russian fleet defensive",
+        "Red Cross deploys to Lithuanian displacement centers"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "NO",
+      "actions": [
+        "SSBN tracking confirms defensive bastion deployment",
+        "3 Commando integration at IOC",
+        "Gas exports at maximum with additional LNG allocation",
+        "Proposes permanent Arctic warfare cooperation with UK"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "DK",
+      "actions": [
+        "Straits monitoring continues at full intensity",
+        "Offers F-16 contribution to post-crisis air policing",
+        "Proposes Baltic Sea Security Initiative",
+        "Home Guard transitions to high readiness reserve"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "CA",
+      "actions": [
+        "Extended eFP deployment through verification period",
+        "Naval assets continue Atlantic transit",
+        "Proposes democratic governance clause for framework",
+        "FM Joly joins Istanbul delegation"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "NL",
+      "actions": [
+        "Air mobile battalion maintained in Lithuania",
+        "De Ruyter continues carrier escort",
+        "AIVD reports Russian SVR shifting to damage limitation",
+        "Proposes EU customs officers for inspection facility"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "BE",
+      "actions": [
+        "NATO HQ security maintained at maximum",
+        "Offers Antwerp scanning technology for inspection protocols",
+        "3 additional suspected Russian operatives identified but not expelled as leverage",
+        "Proposes OSCE Vienna Document registration"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "CZ",
+      "actions": [
+        "Mechanized battalion at full strength with Pandur II company",
+        "Shares Iskander inventory intelligence",
+        "Proposes Verification Escalation Ladder",
+        "Offers Prague for follow-up conference"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "RO",
+      "actions": [
+        "Aegis Ashore at heightened readiness",
+        "Confirms southern flank and Transnistria stable",
+        "Offers border security personnel for monitoring mission",
+        "Proposes sovereignty reaffirmation clause"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "RU",
+      "actions": [
+        "Putin authorizes Lavrov to Istanbul with full negotiating authority",
+        "Forces maintain de-escalated posture, limited civilian resupply via Baltiysk",
+        "PEREVAL formally cancelled, GRU operatives departing Belarus",
+        "FSB ordered to neutralize Vekselberg defection channel, state media pivots to 'Russia forced NATO to negotiate' narrative"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "BY",
+      "actions": [
+        "KGB monitors GRU departure, ceases further NATO intelligence sharing",
+        "Lukashenko issues peacemaker statement",
+        "Requests expanded Chinese economic engagement",
+        "Maintains sovereignty assertion against Russia"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "TR",
+      "actions": [
+        "Hosts Istanbul negotiations at Ciragan Palace with two-day format",
+        "Fidan hosts pre-negotiation dinner and circulates draft Istanbul Protocol",
+        "Accepts co-guarantor role alongside UK and France",
+        "Invites China as observer"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "HU",
+      "actions": [
+        "Ends abstention, formally supports diplomatic track",
+        "Facilitates military transit through Hungarian territory",
+        "Offers Budapest for follow-up conference",
+        "Shares limited intelligence on Russian internal divisions"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "CN",
+      "actions": [
+        "PBoC freezes $2B in Russian bank credit lines",
+        "Issues statement welcoming negotiations",
+        "Special Envoy Li Hui attends as observer",
+        "Confirms $500M Belarus credit facility proceeds"
+      ],
+      "diplomatic_messages": []
+    }
+  ],
+  "resolution": {
+    "narrative": "The Suwalki Gap crisis reached its decisive turning point on Day 5 as Russia formally accepted the Kaliningrad Transit Framework negotiations. After a brutal 6-hour Security Council session in which Chief of General Staff Gerasimov delivered an unvarnished assessment of Russia's untenable military position -- Kaliningrad supply at 6-9 days, C2 networks degraded to 40%, Belarusian staging area lost, and no authorized reinforcements -- Putin overruled the remaining hardliners and dispatched Foreign Minister Lavrov to Istanbul with full negotiating authority. The decision was accelerated by Central Bank Governor Nabiullina's warning that SWIFT sanctions would trigger a banking liquidity crisis within 72 hours, and by Xi Jinping's blunt message that Chinese banks would begin comprehensive disengagement if the crisis escalated further.\n\nThe Istanbul negotiations opened at the Ciragan Palace with Turkey's carefully choreographed two-day format: bilateral US-Russia talks on Day 1 (Kellogg-Patrushev) to narrow the key gaps, followed by a full multilateral session with NATO, EU, Russia, and China as observer on Day 2. The bilateral session produced significant convergence on core terms: guaranteed commercial rail and road transit through Lithuania, X-ray/scanner inspection of sealed containers (Russia dropped its demand for no inspection; NATO dropped its demand for physical container opening), OSCE monitoring mission with contributions from multiple nations, and a phased sanctions relief timeline that Russia pushed from 90 to 45 days. The critical sticking points remaining for the multilateral session were: the scope of the 'no offensive weapons' zone around Kaliningrad, the specific withdrawal timeline, nuclear posture de-escalation sequencing, and the framework's duration and renewal mechanism.\n\nIn parallel, Operation PEREVAL was formally cancelled. The 7 GRU operatives identified by Belarusian KGB began departing Belarus on commercial flights to Moscow under KGB surveillance. Lukashenko issued a carefully calibrated public statement positioning Belarus as a peacemaker. China's Special Envoy Li Hui arrived in Istanbul, and Beijing issued a statement welcoming the negotiations. Hungary ended its abstention and formally supported the diplomatic track. NATO maintained its full military posture -- no forces withdrawn, no alert levels reduced -- but operational tempos across all allied forces shifted from 'imminent engagement' to 'sustained deterrence,' preserving combat capability while signaling confidence in the diplomatic process.\n\nThe economic environment improved markedly. Oil prices dropped further to $112 as markets priced in a diplomatic resolution. European gas prices eased an additional 8% from peak. European and US stock indices recovered 2-3% in after-hours trading. The financial pressure on Russia intensified even as diplomatic progress advanced: China's PBoC froze $2 billion in credit lines to Russian banks as a precautionary measure, while Germany's EU Golden Bridge package -- phased sanctions relief over 45 days tied to verified compliance milestones -- set the economic terms of the emerging agreement. The BND's debriefing of the Vekselberg defection revealed that at least three additional Russian oligarchs had made preliminary contact with Western intelligence, confirming accelerating elite fracturing inside Russia.",
+    "world_state_updates": {
+      "game_time": "Day 5, 18:00 CET",
+      "military_units_add": [],
+      "military_units_remove": [],
+      "military_units_update": [
+        {
+          "name": "russian_kaliningrad_forces",
+          "location": "Kaliningrad Oblast",
+          "readiness": 6,
+          "strength": 8,
+          "casualties": 0,
+          "supply_level": 5,
+          "morale": 5
+        },
+        {
+          "name": "russian_western_district",
+          "location": "Western Military District, Russia",
+          "readiness": 6,
+          "strength": 6,
+          "casualties": 0,
+          "supply_level": 8,
+          "morale": 5
+        },
+        {
+          "name": "russian_western_belarus",
+          "location": "Belarus - Grodno staging area, GRU PEREVAL operatives departing. Forces in barracks under Belarusian KGB monitoring.",
+          "readiness": 4,
+          "strength": 6,
+          "casualties": 0,
+          "supply_level": 6,
+          "morale": 3
+        },
+        {
+          "name": "belarus_forces",
+          "location": "Belarus - Gozha rear area. KGB monitoring GRU departure. Forces loyal to Lukashenko in peacetime posture.",
+          "readiness": 4,
+          "strength": 4,
+          "casualties": 0,
+          "supply_level": 8,
+          "morale": 6
+        },
+        {
+          "name": "nato_efp_lithuania",
+          "location": "Lithuania - Sustained deterrence posture. Full multinational force maintained. Operational tempo reduced from combat alert to sustained readiness.",
+          "readiness": 9,
+          "strength": 8,
+          "casualties": 0,
+          "supply_level": 8,
+          "morale": 9
+        },
+        {
+          "name": "nato_efp_latvia",
+          "location": "Latvia - Camp Adazi, Canadian brigade at sustained readiness, extended deployment authorized through framework verification period.",
+          "readiness": 8,
+          "strength": 7,
+          "casualties": 0,
+          "supply_level": 9,
+          "morale": 8
+        },
+        {
+          "name": "nato_efp_estonia",
+          "location": "Estonia - Tapa, sustained readiness posture with 16 Air Assault and Apache helicopters.",
+          "readiness": 8,
+          "strength": 6,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 8
+        },
+        {
+          "name": "nato_efp_poland",
+          "location": "Poland - Suwalki corridor, integrated Polish-US defensive line at sustained deterrence.",
+          "readiness": 9,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 9,
+          "morale": 8
+        },
+        {
+          "name": "us_forces_poland",
+          "location": "Poland - V Corps at Augustow, shifted from imminent engagement to sustained deterrence planning.",
+          "readiness": 9,
+          "strength": 7,
+          "casualties": 0,
+          "supply_level": 9,
+          "morale": 8
+        },
+        {
+          "name": "us_vcorps_forward",
+          "location": "Poland - Augustow area, sustained deterrence posture.",
+          "readiness": 9,
+          "strength": 6,
+          "casualties": 0,
+          "supply_level": 9,
+          "morale": 8
+        },
+        {
+          "name": "polish_forces",
+          "location": "Poland - 16th Mechanized Division on Route 8 Augustow defensive line. GROM shifted to covert observation posts along Belarus border monitoring GRU evacuation and 1046th facility.",
+          "readiness": 9,
+          "strength": 7,
+          "casualties": 0,
+          "supply_level": 7,
+          "morale": 9
+        },
+        {
+          "name": "polish_18th_mechanized",
+          "location": "Poland - Elk area, operational reserve at sustained readiness.",
+          "readiness": 8,
+          "strength": 7,
+          "casualties": 0,
+          "supply_level": 8,
+          "morale": 9
+        },
+        {
+          "name": "polish_11th_armoured",
+          "location": "Poland - Goldap-Gizycko line, Operation TARCZA POKOJU (Shield of Peace) -- defense posture tied to negotiation milestones.",
+          "readiness": 8,
+          "strength": 7,
+          "casualties": 0,
+          "supply_level": 8,
+          "morale": 9
+        },
+        {
+          "name": "finnish_forces",
+          "location": "Finland - 40,000+ mobilized at sustained readiness. F/A-18 patrols pulled back from 3km to 10km from Russian airspace as calibrated de-escalation signal. SIGINT confirms Russian passivity.",
+          "readiness": 8,
+          "strength": 9,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 8
+        },
+        {
+          "name": "uk_carrier_group",
+          "location": "Baltic Sea - Central Baltic, shifted from combat ready to presence and deterrence. F-35B reduced to 16-hour CAP coverage.",
+          "readiness": 8,
+          "strength": 7,
+          "casualties": 0,
+          "supply_level": 8,
+          "morale": 9
+        },
+        {
+          "name": "uk_3commando_norway",
+          "location": "Norway - Bardufoss, reached initial operating capability. Integrated with Norwegian Coastal Rangers.",
+          "readiness": 7,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 8,
+          "morale": 9
+        },
+        {
+          "name": "swedish_gotland_brigade",
+          "location": "Sweden - Gotland, full brigade maintained. Gripen CAP reduced to 18-hour coverage.",
+          "readiness": 8,
+          "strength": 6,
+          "casualties": 0,
+          "supply_level": 9,
+          "morale": 8
+        },
+        {
+          "name": "lithuanian_iron_wolf",
+          "location": "Lithuania - Neman River blocking positions, shifted from combat alert to sustained readiness. Riflemen's Union rotating to 12-hour shifts.",
+          "readiness": 7,
+          "strength": 6,
+          "casualties": 0,
+          "supply_level": 8,
+          "morale": 9
+        },
+        {
+          "name": "czech_mechanized_battalion",
+          "location": "Lithuania - Fully operational at German eFP. Second Pandur II company completed deployment. Total Czech force at full strength.",
+          "readiness": 8,
+          "strength": 6,
+          "casualties": 0,
+          "supply_level": 8,
+          "morale": 8
+        },
+        {
+          "name": "latvian_mechanized_brigade",
+          "location": "Latvia - Daugavpils corridor, bridge demolition detonation authority raised from battalion to brigade level. Zemessardze at sustained readiness.",
+          "readiness": 7,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 8,
+          "morale": 8
+        },
+        {
+          "name": "estonian_2nd_brigade",
+          "location": "Estonia - Narva, Kaitseliit transitioning to 8-hour rotation for sustainability. Full defensive posture maintained.",
+          "readiness": 7,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 8,
+          "morale": 9
+        }
+      ],
+      "military_alerts": {
+        "russian_kaliningrad_forces": "De-escalated posture maintained. Iskander TELs garrisoned, S-400 passive, 10km standoff. Limited civilian cargo ship resupply via Baltiysk initiated. Supply sustainability estimated at 5-8 days. C2 networks at 40% -- cyber pressure reduced but persistent NATO access maintained.",
+        "russian_western_district": "No movement orders. Standing by for diplomatic outcome. SIGINT confirms peacetime activity levels at Pskov and Luga bases.",
+        "russian_western_belarus": "PEREVAL formally cancelled. 7 GRU operatives departing on commercial flights under Belarusian KGB escort. Forces in barracks, morale at lowest point of crisis. Troops aware negotiations underway.",
+        "nato_efp_lithuania": "Sustained deterrence posture. All multinational elements maintained. Lithuanian VSD establishing dedicated transit framework monitoring cell at Kybartai and Kaunas.",
+        "nato_efp_poland": "Sustained deterrence. Polish rail authority beginning contingency planning for civilian transit resumption.",
+        "us_forces_poland": "V Corps at sustained deterrence. Ford carrier continues Atlantic transit at standard speed -- arrival Day 7.",
+        "finnish_forces": "40,000+ at sustained readiness. Air patrols at 10km from Russian airspace. SIGINT continues comprehensive WMD monitoring.",
+        "uk_carrier_group": "Presence and deterrence posture. GCHQ monitoring of 1046th nuclear facility at maximum intensity -- 6-8 tactical warheads confirmed, no movement detected.",
+        "belarus_forces": "Peacetime posture. KGB monitoring GRU departure. Lukashenko positioning as peacemaker. Ceased further intelligence sharing with NATO.",
+        "estonian_2nd_brigade": "Cyber Command shifted from offensive degradation to persistent monitoring and exploitation. Full re-escalation capability preserved within minutes."
+      },
+      "markets": {
+        "oil_price": 112.0,
+        "euro_usd": 1.05
+      },
+      "sanctions_add": [],
+      "trade_disruptions_add": [
+        "Russian civilian cargo vessels begin limited resupply of Kaliningrad via Baltiysk -- NATO monitoring but not interdicting to preserve diplomatic environment",
+        "Oil prices drop $6 to $112 as markets price in diplomatic resolution -- European gas prices ease additional 8% from peak",
+        "European and US stock indices recover 2-3% in after-hours trading on Istanbul talks optimism",
+        "Lloyd's of London begins reviewing Baltic war risk designation pending framework outcome",
+        "China's PBoC freezes $2B in credit lines to Russian financial institutions as precautionary pressure",
+        "Polish rail authority begins contingency planning for corridor transit resumption"
+      ],
+      "diplomatic_relations": {
+        "RU": {
+          "US": -2,
+          "DE": -4,
+          "TR": 2,
+          "CN": 4,
+          "BY": 0
+        },
+        "US": {
+          "RU": -2,
+          "TR": 4,
+          "CN": 0,
+          "DE": 2
+        },
+        "TR": {
+          "US": 4,
+          "RU": 2,
+          "FR": 3
+        },
+        "BY": {
+          "RU": 0,
+          "US": 4,
+          "CN": 5,
+          "PL": -2
+        },
+        "LT": {
+          "DE": 7,
+          "PL": 9,
+          "US": 6
+        },
+        "DE": {
+          "RU": -4,
+          "FR": 9,
+          "PL": 6,
+          "US": 2
+        },
+        "FR": {
+          "GB": 9,
+          "DE": 9,
+          "TR": 3
+        },
+        "GB": {
+          "FR": 9,
+          "NO": 7
+        },
+        "HU": {
+          "RU": -2,
+          "US": 1
+        },
+        "CN": {
+          "RU": 4,
+          "BY": 5,
+          "US": 0
+        },
+        "PL": {
+          "LT": 9,
+          "DE": 6,
+          "BY": -2
+        },
+        "FI": {
+          "EE": 9,
+          "SE": 9
+        }
+      },
+      "treaties_invoked_add": [
+        "Istanbul Protocol -- Kaliningrad Transit Framework negotiations formally opened at ministerial level. US-Russia bilateral session on Day 1, full multilateral session with NATO/EU/Russia/China(observer) on Day 2.",
+        "Turkey, UK, and France designated as co-guarantors of the emerging transit framework."
+      ],
+      "un_resolutions_add": [],
+      "nato_alert_level": "article5",
+      "nato_consensus": {
+        "BE": "Fully supporting Istanbul negotiations, offering Antwerp container scanning expertise for inspection framework",
+        "CA": "Extended eFP deployment authorized through verification period, supporting framework with democratic governance clause",
+        "CZ": "Mechanized battalion at full strength in Lithuania, proposed Verification Escalation Ladder for inspection regime",
+        "DE": "Leading EU Golden Bridge economic package, phased 45-day sanctions relief tied to compliance milestones",
+        "DK": "Straits monitoring continues, supporting Baltic Sea Security Initiative for post-crisis architecture",
+        "EE": "Cyber shifted to persistent monitoring, proposing Baltic Cyber Shield as permanent NATO asset",
+        "FI": "40,000+ mobilized at sustained readiness, offering OSCE monitoring personnel, SIGINT confirms Russian passivity",
+        "FR": "Co-guarantor role accepted, proposing UNSC resolution for legal force, European Confidence-Building Package presented",
+        "GB": "Co-guarantor role accepted, GCHQ nuclear monitoring at maximum, carrier at deterrence posture",
+        "HU": "Abstention ended -- formally supporting diplomatic track and facilitating military transit",
+        "LT": "Leading negotiation on sovereignty protections -- transit suspension right, Lithuanian customs participation, OSCE monitoring",
+        "LV": "Sustained readiness, demanding permanent NATO brigade presence in post-crisis architecture",
+        "NL": "Air mobile battalion maintained, offering EU customs officers for inspection facility staffing",
+        "NO": "SSBN tracking confirms defensive Russian posture, maximizing gas exports, 3 Commando at IOC at Bardufoss",
+        "PL": "Three divisions maintained under Operation TARCZA POKOJU, red lines on no military cargo transit, GROM monitoring GRU evacuation",
+        "RO": "Aegis Ashore at heightened readiness, southern flank stable, offering border security expertise for monitoring",
+        "SE": "Gotland maintained at full strength, SIPRI offered as verification body, humanitarian aid deployed to Lithuania",
+        "TR": "Hosting Istanbul negotiations, co-guarantor role accepted, facilitating two-day bilateral-then-multilateral format",
+        "US": "Leading bilateral with Russia through Kellogg-Patrushev channel, revised framework with targeted concessions, 48-hour deadline"
+      },
+      "nuclear_posture": {
+        "RU": "elevated",
+        "US": "elevated",
+        "FR": "peacetime",
+        "GB": "peacetime"
+      },
+      "nuclear_detonations_add": [],
+      "public_opinion": {
+        "BE": {
+          "war_support": 29,
+          "government_approval": 43
+        },
+        "BY": {
+          "war_support": 7,
+          "government_approval": 28
+        },
+        "CA": {
+          "war_support": 37,
+          "government_approval": 49
+        },
+        "CN": {
+          "war_support": 4,
+          "government_approval": 73
+        },
+        "CZ": {
+          "war_support": 42,
+          "government_approval": 50
+        },
+        "DE": {
+          "war_support": 31,
+          "government_approval": 42
+        },
+        "DK": {
+          "war_support": 44,
+          "government_approval": 53
+        },
+        "EE": {
+          "war_support": 81,
+          "government_approval": 61
+        },
+        "FI": {
+          "war_support": 64,
+          "government_approval": 65
+        },
+        "FR": {
+          "war_support": 38,
+          "government_approval": 44
+        },
+        "GB": {
+          "war_support": 45,
+          "government_approval": 49
+        },
+        "HU": {
+          "war_support": 12,
+          "government_approval": 44
+        },
+        "LT": {
+          "war_support": 86,
+          "government_approval": 67
+        },
+        "LV": {
+          "war_support": 79,
+          "government_approval": 58
+        },
+        "NL": {
+          "war_support": 35,
+          "government_approval": 47
+        },
+        "NO": {
+          "war_support": 47,
+          "government_approval": 55
+        },
+        "PL": {
+          "war_support": 74,
+          "government_approval": 70
+        },
+        "RO": {
+          "war_support": 43,
+          "government_approval": 51
+        },
+        "RU": {
+          "war_support": 49,
+          "government_approval": 58
+        },
+        "SE": {
+          "war_support": 55,
+          "government_approval": 58
+        },
+        "TR": {
+          "war_support": 7,
+          "government_approval": 50
+        },
+        "US": {
+          "war_support": 29,
+          "government_approval": 47
+        }
+      },
+      "refugee_flows_add": [
+        {
+          "from": "LT",
+          "to": "PL",
+          "count": -1500,
+          "status": "settled"
+        },
+        {
+          "from": "LT",
+          "to": "LV",
+          "count": -500,
+          "status": "settled"
+        }
+      ],
+      "humanitarian_crisis_level": {
+        "LT": 6,
+        "LV": 2,
+        "PL": 3
+      },
+      "cyber_operations_add": [
+        {
+          "attacker": "EE",
+          "target": "RU",
+          "type": "espionage",
+          "severity": "high",
+          "infrastructure_affected": "military_c2"
+        },
+        {
+          "attacker": "US",
+          "target": "RU",
+          "type": "espionage",
+          "severity": "high",
+          "infrastructure_affected": "military_c2"
+        },
+        {
+          "attacker": "RU",
+          "target": "LT",
+          "type": "espionage",
+          "severity": "low",
+          "infrastructure_affected": "comms"
+        }
+      ],
+      "infrastructure_status": {
+        "RU": {
+          "comms": 8,
+          "financial": 8,
+          "military_c2": 4,
+          "power_grid": 10
+        },
+        "LT": {
+          "comms": 6,
+          "financial": 5,
+          "military_c2": 7,
+          "power_grid": 8
+        }
+      },
+      "corridor_control": "nato",
+      "recent_events": [
+        "HISTORIC: Putin authorizes Lavrov to negotiate Kaliningrad Transit Framework at Istanbul with full authority -- first formal Russian acceptance of NATO's diplomatic framework",
+        "Istanbul Ciragan Palace negotiations open: Kellogg-Patrushev bilateral session achieves convergence on core terms -- sealed container X-ray inspection, OSCE monitoring, phased sanctions relief over 45 days",
+        "Key remaining disputes for multilateral session: no-offensive-weapons zone (Russia 100km vs NATO 50km), sanctions relief start (Russia 7 days vs NATO 14 days), framework duration (indefinite vs 3-year with renewal)",
+        "Operation PEREVAL formally cancelled by Kremlin. 7 GRU operatives departing Belarus on commercial flights under Belarusian KGB escort",
+        "Lukashenko issues statement positioning Belarus as peacemaker: 'Belarus has always stood for peace in our region.' Ceases further intelligence sharing with NATO -- existing intel serves as permanent insurance policy",
+        "China's PBoC freezes $2B in credit lines to Russian banks as precautionary pressure. Chinese Special Envoy Li Hui arrives in Istanbul as observer",
+        "Hungary ends abstention at NATO -- formally supports Istanbul transit framework negotiations",
+        "Germany presents EU Golden Bridge package at Istanbul: phased sanctions relief over 45 days, EU-Russia energy dialogue resumption, EUR 200M Kaliningrad economic development fund",
+        "France and UK accept co-guarantor roles for transit framework alongside Turkey. France proposes UNSC resolution to give framework international legal force",
+        "GCHQ verifies Lukashenko nuclear intelligence: 6-8 tactical warheads at 1046th facility near Grodno, primarily Iskander-M compatible. No movement detected. Intelligence held as quiet insurance, not used as overt negotiating leverage",
+        "BND debriefs Vekselberg defection: at least 3 additional Russian oligarchs in contact with Western intelligence services. Russian elite fracturing accelerating",
+        "Estonian Cyber Command shifts from offensive degradation to persistent monitoring -- maintains full access to compromised Russian C2 with capability to re-escalate within minutes",
+        "Finnish SIGINT confirms: no Russian reinforcement orders issued, logistics at major bases at peacetime levels. Russia not preparing military Plan B",
+        "Swedish SIPRI offered as independent verification body for transit framework. Czech Republic proposes Verification Escalation Ladder: X-ray scan -> physical inspection -> transit suspension",
+        "Lithuanian VSD establishes dedicated monitoring cell at Kybartai and Kaunas for transit framework inspection preparation",
+        "Russian civilian cargo ships begin limited Kaliningrad resupply via Baltiysk -- NATO monitoring but not interdicting",
+        "Oil drops $6 to $112. European gas eases 8% from peak. European indices recover 2-3%. Markets pricing in diplomatic resolution",
+        "Russian state media pivot: framing negotiations as 'Russia asserting its legitimate transit rights forced NATO to the table'",
+        "NATO maintains Article 5 posture but all allied forces shift from combat alert to sustained deterrence -- full capability preserved with reduced operational tempo",
+        "Some displaced Lithuanian families begin returning to areas away from immediate border zone -- humanitarian crisis level easing from 7 to 6"
+      ],
+      "media_headlines": [
+        "Reuters: BREAKING -- Russia sends Lavrov to Istanbul with full negotiating authority; Kellogg-Patrushev bilateral achieves convergence on Kaliningrad transit framework core terms",
+        "BBC: Istanbul talks produce breakthrough -- X-ray inspection compromise bridges the gap between NATO and Russian positions on cargo monitoring",
+        "CNN: Trump declares 'This will be the greatest diplomatic deal of the 21st century' as Istanbul negotiations open; claims personal phone call to Putin clinched Russian participation",
+        "Financial Times: Oil drops to $112 as Istanbul optimism sweeps markets -- European gas prices ease further, stock indices recover 2-3%",
+        "Bild: Putins Kapitulation? Kreml schickt Lawrow mit Vollmacht nach Istanbul -- Russia sends Lavrov with full authority to negotiate",
+        "TASS: Russia insists on equitable transit framework that respects Kaliningrad's legitimate needs -- Lavrov leads delegation to constructive talks in Istanbul",
+        "WSJ: China freezes $2B in Russian bank credit lines as PBoC tightens financial screws -- 'precautionary measure' pending framework outcome",
+        "Gazeta Wyborcza: Poland maintains iron wall under Operation Shield of Peace -- three divisions stay until deal is verified",
+        "Hurriyet: Erdogan's diplomatic triumph -- Istanbul becomes center of world diplomacy as Turkey hosts NATO-Russia transit framework talks"
+      ],
+      "round_number": 5
+    },
+    "events": [
+      "Russia formally accepts Istanbul transit framework negotiations -- Lavrov dispatched with full authority in historic diplomatic shift",
+      "Kellogg-Patrushev bilateral achieves convergence on sealed container X-ray inspection compromise",
+      "Operation PEREVAL formally cancelled; 7 GRU operatives departing Belarus",
+      "China freezes $2B in Russian bank credit lines as financial pressure intensifies",
+      "Hungary ends NATO abstention and supports diplomatic track",
+      "GCHQ verifies Lukashenko nuclear intelligence: 6-8 warheads at 1046th facility, no movement",
+      "BND Vekselberg debriefing reveals 3+ additional Russian oligarchs defecting to West",
+      "Istanbul negotiations open with Turkey, UK, France as trilateral co-guarantors"
+    ],
+    "headlines": [
+      "Reuters: BREAKING -- Russia sends Lavrov to Istanbul with full authority; Kellogg-Patrushev bilateral achieves convergence on transit framework core terms",
+      "BBC: Istanbul breakthrough -- X-ray inspection compromise bridges NATO-Russia gap on Kaliningrad cargo monitoring",
+      "CNN: Trump claims credit: 'Greatest diplomatic deal of the 21st century' as Istanbul talks open",
+      "Financial Times: Oil drops to $112, European markets rally as Istanbul optimism sweeps global finance"
+    ],
+    "surprises": [
+      "SURPRISE: Leaked audio from Putin's Security Council session surfaces on Telegram channels -- Gerasimov is heard telling Putin 'We have 6 days before Kaliningrad becomes a humanitarian crisis, not a military one.' The audio, likely leaked by a faction within the FSB seeking to force Putin's hand, goes viral on Russian social media before state censors can suppress it. Russian war support drops 3 points overnight. The Kremlin denies authenticity but does not deny the content.",
+      "SURPRISE: Swiss banking authorities, acting on BND intelligence from the Vekselberg debriefing, freeze CHF 340 million in accounts linked to three Russian defense industry executives. The freezing is announced publicly, sending shockwaves through the Russian elite and accelerating private outreach to Western intelligence. The FSB's hunt for additional defectors becomes desperate."
+    ]
+  },
+  "world_state_after": {
+    "round_number": 5,
+    "game_time": "Day 5, 18:00 CET",
+    "military_units": [
+      {
+        "name": "russian_kaliningrad_forces",
+        "country": "RU",
+        "type": "ground",
+        "location": "Kaliningrad Oblast",
+        "readiness": 6,
+        "strength": 8,
+        "casualties": 0,
+        "supply_level": 5,
+        "morale": 5,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "russian_western_district",
+        "country": "RU",
+        "type": "ground",
+        "location": "Western Military District, Russia",
+        "readiness": 6,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 8,
+        "morale": 5,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "belarus_forces",
+        "country": "BY",
+        "type": "ground",
+        "location": "Belarus - Gozha rear area. KGB monitoring GRU departure. Forces loyal to Lukashenko in peacetime posture.",
+        "readiness": 4,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 8,
+        "morale": 6,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_lithuania",
+        "country": "DE",
+        "type": "ground",
+        "location": "Lithuania - Sustained deterrence posture. Full multinational force maintained. Operational tempo reduced from combat alert to sustained readiness.",
+        "readiness": 9,
+        "strength": 8,
+        "casualties": 0,
+        "supply_level": 8,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_latvia",
+        "country": "CA",
+        "type": "ground",
+        "location": "Latvia - Camp Adazi, Canadian brigade at sustained readiness, extended deployment authorized through framework verification period.",
+        "readiness": 8,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_estonia",
+        "country": "GB",
+        "type": "ground",
+        "location": "Estonia - Tapa, sustained readiness posture with 16 Air Assault and Apache helicopters.",
+        "readiness": 8,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "Poland - Suwalki corridor, integrated Polish-US defensive line at sustained deterrence.",
+        "readiness": 9,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "us_forces_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "Poland - V Corps at Augustow, shifted from imminent engagement to sustained deterrence planning.",
+        "readiness": 9,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "polish_forces",
+        "country": "PL",
+        "type": "ground",
+        "location": "Poland - 16th Mechanized Division on Route 8 Augustow defensive line. GROM shifted to covert observation posts along Belarus border monitoring GRU evacuation and 1046th facility.",
+        "readiness": 9,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 7,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "finnish_forces",
+        "country": "FI",
+        "type": "ground",
+        "location": "Finland - 40,000+ mobilized at sustained readiness. F/A-18 patrols pulled back from 3km to 10km from Russian airspace as calibrated de-escalation signal. SIGINT confirms Russian passivity.",
+        "readiness": 8,
+        "strength": 9,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "us_vcorps_forward",
+        "country": "US",
+        "type": "ground",
+        "location": "Poland - Augustow area, sustained deterrence posture.",
+        "readiness": 9,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "polish_18th_mechanized",
+        "country": "PL",
+        "type": "ground",
+        "location": "Poland - Elk area, operational reserve at sustained readiness.",
+        "readiness": 8,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 8,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "russian_western_belarus",
+        "country": "RU",
+        "type": "ground",
+        "location": "Belarus - Grodno staging area, GRU PEREVAL operatives departing. Forces in barracks under Belarusian KGB monitoring.",
+        "readiness": 4,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 6,
+        "morale": 3,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "uk_carrier_group",
+        "country": "GB",
+        "type": "naval",
+        "location": "Baltic Sea - Central Baltic, shifted from combat ready to presence and deterrence. F-35B reduced to 16-hour CAP coverage.",
+        "readiness": 8,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 8,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "french_naval_group",
+        "country": "FR",
+        "type": "naval",
+        "location": "Baltic Sea approaches - ASW screen ahead of Queen Elizabeth strike group, FS Alsace and FS Lorraine on station",
+        "readiness": 8,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "polish_11th_armoured",
+        "country": "PL",
+        "type": "ground",
+        "location": "Poland - Goldap-Gizycko line, Operation TARCZA POKOJU (Shield of Peace) -- defense posture tied to negotiation milestones.",
+        "readiness": 8,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 8,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "uk_16_air_assault",
+        "country": "GB",
+        "type": "ground",
+        "location": "Estonia - Tapa, reinforcing UK-led eFP battlegroup with Apache attack helicopters",
+        "readiness": 7,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "french_leclerc_company",
+        "country": "FR",
+        "type": "ground",
+        "location": "Lithuania - Integrated with German eFP battlegroup near Suwalki corridor",
+        "readiness": 7,
+        "strength": 3,
+        "casualties": 0,
+        "supply_level": 8,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "czech_mechanized_battalion",
+        "country": "CZ",
+        "type": "ground",
+        "location": "Lithuania - Fully operational at German eFP. Second Pandur II company completed deployment. Total Czech force at full strength.",
+        "readiness": 8,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 8,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "lithuanian_iron_wolf",
+        "country": "LT",
+        "type": "ground",
+        "location": "Lithuania - Neman River blocking positions, shifted from combat alert to sustained readiness. Riflemen's Union rotating to 12-hour shifts.",
+        "readiness": 7,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 8,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "latvian_mechanized_brigade",
+        "country": "LV",
+        "type": "ground",
+        "location": "Latvia - Daugavpils corridor, bridge demolition detonation authority raised from battalion to brigade level. Zemessardze at sustained readiness.",
+        "readiness": 7,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 8,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "estonian_2nd_brigade",
+        "country": "EE",
+        "type": "ground",
+        "location": "Estonia - Narva, Kaitseliit transitioning to 8-hour rotation for sustainability. Full defensive posture maintained.",
+        "readiness": 7,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 8,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "dutch_frigate_deruyter",
+        "country": "NL",
+        "type": "naval",
+        "location": "Baltic Sea - Escorting HMS Queen Elizabeth carrier strike group",
+        "readiness": 8,
+        "strength": 3,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "polish_patriot_suwalki",
+        "country": "PL",
+        "type": "air_defense",
+        "location": "Poland - Suwalki town, integrated Iskander defense screen with German Patriot in Lithuania",
+        "readiness": 8,
+        "strength": 3,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "uk_3commando_norway",
+        "country": "GB",
+        "type": "ground",
+        "location": "Norway - Bardufoss, reached initial operating capability. Integrated with Norwegian Coastal Rangers.",
+        "readiness": 7,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 8,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "dutch_airmobile_battalion",
+        "country": "NL",
+        "type": "ground",
+        "location": "Lithuania - German eFP positions near Suwalki corridor, rapid reaction reserve with NH-90 helicopters",
+        "readiness": 6,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 8,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "french_caesar_battery",
+        "country": "FR",
+        "type": "ground",
+        "location": "Lithuania - Integrated with German eFP battlegroup, 6x CAESAR self-propelled howitzers providing indirect fire support",
+        "readiness": 7,
+        "strength": 3,
+        "casualties": 0,
+        "supply_level": 8,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "swedish_gotland_brigade",
+        "country": "SE",
+        "type": "ground",
+        "location": "Sweden - Gotland, full brigade maintained. Gripen CAP reduced to 18-hour coverage.",
+        "readiness": 8,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "norwegian_frigate_nansen",
+        "country": "NO",
+        "type": "naval",
+        "location": "Norwegian Sea - Tracking Russian SSBN movements from Severodvinsk with P-3C Orion support",
+        "readiness": 8,
+        "strength": 3,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "french_ssn_suffren",
+        "country": "FR",
+        "type": "naval",
+        "location": "Baltic Sea approaches - ASW screening and intelligence collection on Russian Baltic Fleet",
+        "readiness": 8,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "danish_frigate_willemoes",
+        "country": "DK",
+        "type": "naval",
+        "location": "Danish Straits - Monitoring all naval movements through Oresund, Great Belt, and Little Belt",
+        "readiness": 8,
+        "strength": 3,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      }
+    ],
+    "military_alerts": {
+      "russian_kaliningrad_forces": "De-escalated posture maintained. Iskander TELs garrisoned, S-400 passive, 10km standoff. Limited civilian cargo ship resupply via Baltiysk initiated. Supply sustainability estimated at 5-8 days. C2 networks at 40% -- cyber pressure reduced but persistent NATO access maintained.",
+      "russian_western_district": "No movement orders. Standing by for diplomatic outcome. SIGINT confirms peacetime activity levels at Pskov and Luga bases.",
+      "belarus_forces": "Peacetime posture. KGB monitoring GRU departure. Lukashenko positioning as peacemaker. Ceased further intelligence sharing with NATO.",
+      "nato_efp_lithuania": "Sustained deterrence posture. All multinational elements maintained. Lithuanian VSD establishing dedicated transit framework monitoring cell at Kybartai and Kaunas.",
+      "nato_efp_latvia": "Canadian-led brigade at heightened alert, defensive preparations at Camp Adazi",
+      "nato_efp_estonia": "UK-led battlegroup reinforced patrols along Russian border, P-8 maritime patrol overhead",
+      "nato_efp_poland": "Sustained deterrence. Polish rail authority beginning contingency planning for civilian transit resumption.",
+      "us_forces_poland": "V Corps at sustained deterrence. Ford carrier continues Atlantic transit at standard speed -- arrival Day 7.",
+      "polish_forces": "Three Polish divisions in theater (16th Mech, 18th Mech, 11th Armoured). GROM conducting expanded reconnaissance along Belarus border. Polish Patriot PAC-3 deployed to Suwalki for Iskander defense.",
+      "finnish_forces": "40,000+ at sustained readiness. Air patrols at 10km from Russian airspace. SIGINT continues comprehensive WMD monitoring.",
+      "us_vcorps_forward": "V Corps reinforced battalion task force (~1,200 troops, Abrams, Bradleys) deployed to Augustow, integrated with Polish defensive line -- first US heavy armor forward of Camp Kosciuszko",
+      "polish_18th_mechanized": "18th Mechanized Division deployed from Siedlce to Elk as operational reserve, Polish F-16s flying combat air patrols along corridor",
+      "russian_western_belarus": "PEREVAL formally cancelled. 7 GRU operatives departing on commercial flights under Belarusian KGB escort. Forces in barracks, morale at lowest point of crisis. Troops aware negotiations underway.",
+      "uk_carrier_group": "Presence and deterrence posture. GCHQ monitoring of 1046th nuclear facility at maximum intensity -- 6-8 tactical warheads confirmed, no movement detected.",
+      "french_naval_group": "French Atlantic frigate group redirecting to North Sea to coordinate with Royal Navy, Rafale Maritime surveillance increased",
+      "lithuanian_iron_wolf": "Iron Wolf Mechanized Brigade deployed to Neman River crossing positions south of Marijampole. Secondary defensive line behind German eFP. Civilian evacuation of Marijampole county underway.",
+      "estonian_2nd_brigade": "Cyber Command shifted from offensive degradation to persistent monitoring and exploitation. Full re-escalation capability preserved within minutes.",
+      "uk_3commando_norway": "3 Commando Brigade Royal Marines deploying to Bardufoss, Norway. Integrating with Norwegian Coastal Rangers. Northern flank reinforcement stretching Russian defensive concerns."
+    },
+    "markets": {
+      "oil_price": 112.0,
+      "euro_usd": 1.05,
+      "gas_price_eu": "surging, +35% on day",
+      "stock_indices": "European indices -4.5%, US -2.1%, sharp risk-off globally"
+    },
+    "sanctions": [
+      {
+        "from": "EU",
+        "target": "RU",
+        "type": "Emergency preparatory package: asset freeze framework for Russian defense sector entities, ready for activation"
+      },
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "Executive order signed expanding OFAC sanctions authority for rapid deployment against Russian financial institutions"
+      },
+      {
+        "from": "EU",
+        "target": "RU",
+        "type": "Full asset freeze on Russian defense sector entities, SWIFT restrictions on major Russian banks (energy transaction carve-outs), travel bans on 200+ Russian officials"
+      },
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "OFAC sanctions activated: full blocking sanctions on Russian defense and intelligence entities, secondary sanctions warning to institutions facilitating Russian military procurement"
+      },
+      {
+        "from": "BE",
+        "target": "RU",
+        "type": "Belgium and Netherlands coordinate expulsion of 3 identified Russian SVR officers operating under diplomatic cover near NATO HQ Brussels"
+      }
+    ],
+    "trade_disruptions": [
+      "Baltic Sea shipping disrupted by Russian naval exclusion zone",
+      "Lithuanian rail transit to Kaliningrad suspended by Lithuania",
+      "Insurance premiums for Baltic shipping surge 400%",
+      "Baltic Sea commercial shipping effectively halted -- Lloyd's of London declares Baltic a war risk zone",
+      "European natural gas spot prices surge additional 20% as Baltic pipeline routes threatened",
+      "Rail freight through Suwalki corridor suspended -- Polish rail authority cites security concerns",
+      "Norwegian gas exports increased to maximum pipeline capacity via Langeled and Europipe, partially offsetting Baltic supply disruption",
+      "Zeebrugge and Antwerp ports opened as primary NATO logistics staging areas for eastern flank force flow",
+      "Constanta port and MK airbase designated as alternative southern NATO logistics corridor",
+      "Russian Baltic Fleet surface combatants ordered to defensive patrol within territorial waters only -- partial reduction of naval exclusion zone",
+      "European energy markets stabilize slightly as Russian Iskander stand-down reduces immediate escalation risk -- gas prices ease 5% from peak",
+      "HMCS Halifax and HMCS Windsor deploy from Halifax to reinforce USS Gerald Ford carrier strike group in Eastern Atlantic",
+      "Russian civilian cargo vessels begin limited resupply of Kaliningrad via Baltiysk -- NATO monitoring but not interdicting to preserve diplomatic environment",
+      "Oil prices drop $6 to $112 as markets price in diplomatic resolution -- European gas prices ease additional 8% from peak",
+      "European and US stock indices recover 2-3% in after-hours trading on Istanbul talks optimism",
+      "Lloyd's of London begins reviewing Baltic war risk designation pending framework outcome",
+      "China's PBoC freezes $2B in credit lines to Russian financial institutions as precautionary pressure",
+      "Polish rail authority begins contingency planning for corridor transit resumption"
+    ],
+    "diplomatic_relations": {
+      "PL": {
+        "RU": -8,
+        "BY": -2,
+        "US": 4,
+        "LT": 9,
+        "DE": 6
+      },
+      "LT": {
+        "RU": -9,
+        "BY": -7,
+        "PL": 9,
+        "US": 6,
+        "DE": 7
+      },
+      "LV": {
+        "RU": -8,
+        "LT": 8,
+        "EE": 8
+      },
+      "EE": {
+        "RU": -8,
+        "LV": 8,
+        "GB": 6
+      },
+      "US": {
+        "RU": -2,
+        "PL": 4,
+        "DE": 2,
+        "TR": 4,
+        "CN": 0,
+        "BY": 3
+      },
+      "GB": {
+        "RU": -7,
+        "EE": 7,
+        "PL": 6,
+        "FR": 9,
+        "NO": 7
+      },
+      "FR": {
+        "RU": -4,
+        "DE": 9,
+        "PL": 3,
+        "GB": 9,
+        "TR": 3
+      },
+      "DE": {
+        "RU": -4,
+        "PL": 6,
+        "FR": 9,
+        "LT": 6,
+        "US": 2
+      },
+      "RU": {
+        "US": -2,
+        "PL": -8,
+        "LT": -9,
+        "BY": 0,
+        "CN": 4,
+        "DE": -4,
+        "TR": 2
+      },
+      "FI": {
+        "RU": -7,
+        "SE": 9,
+        "EE": 9,
+        "NO": 6
+      },
+      "SE": {
+        "FI": 8,
+        "RU": -5
+      },
+      "BY": {
+        "RU": 0,
+        "LT": -7,
+        "PL": -2,
+        "US": 4,
+        "CN": 5
+      },
+      "CN": {
+        "RU": 4,
+        "US": 0,
+        "BY": 5
+      },
+      "HU": {
+        "RU": -2,
+        "PL": -1,
+        "US": 1
+      },
+      "TR": {
+        "RU": 2,
+        "US": 4,
+        "FR": 3
+      },
+      "NO": {
+        "GB": 6,
+        "FI": 6
+      }
+    },
+    "treaties_invoked": [
+      "NATO Article 4 invoked by Lithuania, Latvia, and Estonia - formal consultations requested",
+      "Franco-British Northwood Declaration activated for coordinated Baltic naval operations",
+      "NATO Article 5 formally referenced in NAC emergency session -- not yet formally invoked but language escalated",
+      "EU Common Security and Defence Policy emergency consultation triggered under Article 42.7 TEU",
+      "Lithuania formally invokes NATO Article 5 -- full collective defense obligation triggered, all 31 allies must respond",
+      "EU activates full sanctions package against Russia under CFSP emergency provisions",
+      "Kaliningrad Transit Security Framework -- formal negotiations announced for Istanbul, Russia and NATO both signal willingness to engage at ministerial level within 48 hours",
+      "Istanbul Protocol -- Kaliningrad Transit Framework negotiations formally opened at ministerial level. US-Russia bilateral session on Day 1, full multilateral session with NATO/EU/Russia/China(observer) on Day 2.",
+      "Turkey, UK, and France designated as co-guarantors of the emerging transit framework."
+    ],
+    "un_resolutions": [
+      "Russia vetoes UNSC resolution calling for immediate cessation of military provocations in Baltic region; China abstains"
+    ],
+    "nato_alert_level": "article5",
+    "nato_consensus": {
+      "US": "Leading bilateral with Russia through Kellogg-Patrushev channel, revised framework with targeted concessions, 48-hour deadline",
+      "PL": "Three divisions maintained under Operation TARCZA POKOJU, red lines on no military cargo transit, GROM monitoring GRU evacuation",
+      "DE": "Leading EU Golden Bridge economic package, phased 45-day sanctions relief tied to compliance milestones",
+      "GB": "Co-guarantor role accepted, GCHQ nuclear monitoring at maximum, carrier at deterrence posture",
+      "FR": "Co-guarantor role accepted, proposing UNSC resolution for legal force, European Confidence-Building Package presented",
+      "LT": "Leading negotiation on sovereignty protections -- transit suspension right, Lithuanian customs participation, OSCE monitoring",
+      "LV": "Sustained readiness, demanding permanent NATO brigade presence in post-crisis architecture",
+      "EE": "Cyber shifted to persistent monitoring, proposing Baltic Cyber Shield as permanent NATO asset",
+      "CA": "Extended eFP deployment authorized through verification period, supporting framework with democratic governance clause",
+      "HU": "Abstention ended -- formally supporting diplomatic track and facilitating military transit",
+      "NO": "SSBN tracking confirms defensive Russian posture, maximizing gas exports, 3 Commando at IOC at Bardufoss",
+      "DK": "Straits monitoring continues, supporting Baltic Sea Security Initiative for post-crisis architecture",
+      "FI": "40,000+ mobilized at sustained readiness, offering OSCE monitoring personnel, SIGINT confirms Russian passivity",
+      "SE": "Gotland maintained at full strength, SIPRI offered as verification body, humanitarian aid deployed to Lithuania",
+      "NL": "Air mobile battalion maintained, offering EU customs officers for inspection facility staffing",
+      "BE": "Fully supporting Istanbul negotiations, offering Antwerp container scanning expertise for inspection framework",
+      "CZ": "Mechanized battalion at full strength in Lithuania, proposed Verification Escalation Ladder for inspection regime",
+      "RO": "Aegis Ashore at heightened readiness, southern flank stable, offering border security expertise for monitoring",
+      "TR": "Hosting Istanbul negotiations, co-guarantor role accepted, facilitating two-day bilateral-then-multilateral format"
+    },
+    "corridor_control": "nato",
+    "nuclear_posture": {
+      "RU": "elevated",
+      "US": "elevated",
+      "GB": "peacetime",
+      "FR": "peacetime"
+    },
+    "nuclear_detonations": [],
+    "public_opinion": {
+      "PL": {
+        "war_support": 74,
+        "government_approval": 70
+      },
+      "DE": {
+        "war_support": 31,
+        "government_approval": 42
+      },
+      "FR": {
+        "war_support": 38,
+        "government_approval": 44
+      },
+      "US": {
+        "war_support": 29,
+        "government_approval": 47
+      },
+      "GB": {
+        "war_support": 45,
+        "government_approval": 49
+      },
+      "LT": {
+        "war_support": 86,
+        "government_approval": 67
+      },
+      "LV": {
+        "war_support": 79,
+        "government_approval": 58
+      },
+      "EE": {
+        "war_support": 81,
+        "government_approval": 61
+      },
+      "FI": {
+        "war_support": 64,
+        "government_approval": 65
+      },
+      "SE": {
+        "war_support": 55,
+        "government_approval": 58
+      },
+      "NO": {
+        "war_support": 47,
+        "government_approval": 55
+      },
+      "DK": {
+        "war_support": 44,
+        "government_approval": 53
+      },
+      "CA": {
+        "war_support": 37,
+        "government_approval": 49
+      },
+      "NL": {
+        "war_support": 35,
+        "government_approval": 47
+      },
+      "BE": {
+        "war_support": 29,
+        "government_approval": 43
+      },
+      "CZ": {
+        "war_support": 42,
+        "government_approval": 50
+      },
+      "RO": {
+        "war_support": 43,
+        "government_approval": 51
+      },
+      "HU": {
+        "war_support": 12,
+        "government_approval": 44
+      },
+      "RU": {
+        "war_support": 49,
+        "government_approval": 58
+      },
+      "BY": {
+        "war_support": 7,
+        "government_approval": 28
+      },
+      "TR": {
+        "war_support": 7,
+        "government_approval": 50
+      },
+      "CN": {
+        "war_support": 4,
+        "government_approval": 73
+      }
+    },
+    "refugee_flows": [
+      {
+        "from": "LT",
+        "to": "PL",
+        "count": 8500,
+        "status": "fleeing"
+      },
+      {
+        "from": "LT",
+        "to": "LV",
+        "count": 3200,
+        "status": "fleeing"
+      }
+    ],
+    "humanitarian_crisis_level": {
+      "LT": 6,
+      "PL": 3,
+      "LV": 2
+    },
+    "cyber_operations": [
+      {
+        "attacker": "RU",
+        "target": "LT",
+        "type": "ddos",
+        "severity": "high",
+        "infrastructure_affected": "financial"
+      },
+      {
+        "attacker": "RU",
+        "target": "LT",
+        "type": "malware",
+        "severity": "medium",
+        "infrastructure_affected": "comms"
+      },
+      {
+        "attacker": "RU",
+        "target": "LT",
+        "type": "infrastructure",
+        "severity": "high",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "PL",
+        "type": "espionage",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "EE",
+        "target": "RU",
+        "type": "espionage",
+        "severity": "low",
+        "infrastructure_affected": "none"
+      },
+      {
+        "attacker": "RU",
+        "target": "PL",
+        "type": "infrastructure",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "DE",
+        "type": "espionage",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "GB",
+        "target": "RU",
+        "type": "espionage",
+        "severity": "low",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "EE",
+        "type": "ddos",
+        "severity": "medium",
+        "infrastructure_affected": "financial"
+      },
+      {
+        "attacker": "LT",
+        "target": "RU",
+        "type": "infrastructure",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "EE",
+        "target": "RU",
+        "type": "infrastructure",
+        "severity": "high",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "FI",
+        "target": "RU",
+        "type": "espionage",
+        "severity": "low",
+        "infrastructure_affected": "none"
+      },
+      {
+        "attacker": "US",
+        "target": "RU",
+        "type": "infrastructure",
+        "severity": "high",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "US",
+        "target": "RU",
+        "type": "espionage",
+        "severity": "high",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "LT",
+        "type": "espionage",
+        "severity": "low",
+        "infrastructure_affected": "comms"
+      }
+    ],
+    "infrastructure_status": {
+      "LT": {
+        "power_grid": 8,
+        "comms": 6,
+        "financial": 5,
+        "military_c2": 7
+      },
+      "RU": {
+        "power_grid": 10,
+        "comms": 8,
+        "financial": 8,
+        "military_c2": 4
+      }
+    },
+    "recent_events": [
+      "HISTORIC: Putin authorizes Lavrov to negotiate Kaliningrad Transit Framework at Istanbul with full authority -- first formal Russian acceptance of NATO's diplomatic framework",
+      "Istanbul Ciragan Palace negotiations open: Kellogg-Patrushev bilateral session achieves convergence on core terms -- sealed container X-ray inspection, OSCE monitoring, phased sanctions relief over 45 days",
+      "Key remaining disputes for multilateral session: no-offensive-weapons zone (Russia 100km vs NATO 50km), sanctions relief start (Russia 7 days vs NATO 14 days), framework duration (indefinite vs 3-year with renewal)",
+      "Operation PEREVAL formally cancelled by Kremlin. 7 GRU operatives departing Belarus on commercial flights under Belarusian KGB escort",
+      "Lukashenko issues statement positioning Belarus as peacemaker: 'Belarus has always stood for peace in our region.' Ceases further intelligence sharing with NATO -- existing intel serves as permanent insurance policy",
+      "China's PBoC freezes $2B in credit lines to Russian banks as precautionary pressure. Chinese Special Envoy Li Hui arrives in Istanbul as observer",
+      "Hungary ends abstention at NATO -- formally supports Istanbul transit framework negotiations",
+      "Germany presents EU Golden Bridge package at Istanbul: phased sanctions relief over 45 days, EU-Russia energy dialogue resumption, EUR 200M Kaliningrad economic development fund",
+      "France and UK accept co-guarantor roles for transit framework alongside Turkey. France proposes UNSC resolution to give framework international legal force",
+      "GCHQ verifies Lukashenko nuclear intelligence: 6-8 tactical warheads at 1046th facility near Grodno, primarily Iskander-M compatible. No movement detected. Intelligence held as quiet insurance, not used as overt negotiating leverage",
+      "BND debriefs Vekselberg defection: at least 3 additional Russian oligarchs in contact with Western intelligence services. Russian elite fracturing accelerating",
+      "Estonian Cyber Command shifts from offensive degradation to persistent monitoring -- maintains full access to compromised Russian C2 with capability to re-escalate within minutes",
+      "Finnish SIGINT confirms: no Russian reinforcement orders issued, logistics at major bases at peacetime levels. Russia not preparing military Plan B",
+      "Swedish SIPRI offered as independent verification body for transit framework. Czech Republic proposes Verification Escalation Ladder: X-ray scan -> physical inspection -> transit suspension",
+      "Lithuanian VSD establishes dedicated monitoring cell at Kybartai and Kaunas for transit framework inspection preparation",
+      "Russian civilian cargo ships begin limited Kaliningrad resupply via Baltiysk -- NATO monitoring but not interdicting",
+      "Oil drops $6 to $112. European gas eases 8% from peak. European indices recover 2-3%. Markets pricing in diplomatic resolution",
+      "Russian state media pivot: framing negotiations as 'Russia asserting its legitimate transit rights forced NATO to the table'",
+      "NATO maintains Article 5 posture but all allied forces shift from combat alert to sustained deterrence -- full capability preserved with reduced operational tempo",
+      "Some displaced Lithuanian families begin returning to areas away from immediate border zone -- humanitarian crisis level easing from 7 to 6"
+    ],
+    "media_headlines": [
+      "Reuters: BREAKING -- Russia sends Lavrov to Istanbul with full negotiating authority; Kellogg-Patrushev bilateral achieves convergence on Kaliningrad transit framework core terms",
+      "BBC: Istanbul talks produce breakthrough -- X-ray inspection compromise bridges the gap between NATO and Russian positions on cargo monitoring",
+      "CNN: Trump declares 'This will be the greatest diplomatic deal of the 21st century' as Istanbul negotiations open; claims personal phone call to Putin clinched Russian participation",
+      "Financial Times: Oil drops to $112 as Istanbul optimism sweeps markets -- European gas prices ease further, stock indices recover 2-3%",
+      "Bild: Putins Kapitulation? Kreml schickt Lawrow mit Vollmacht nach Istanbul -- Russia sends Lavrov with full authority to negotiate",
+      "TASS: Russia insists on equitable transit framework that respects Kaliningrad's legitimate needs -- Lavrov leads delegation to constructive talks in Istanbul",
+      "WSJ: China freezes $2B in Russian bank credit lines as PBoC tightens financial screws -- 'precautionary measure' pending framework outcome",
+      "Gazeta Wyborcza: Poland maintains iron wall under Operation Shield of Peace -- three divisions stay until deal is verified",
+      "Hurriyet: Erdogan's diplomatic triumph -- Istanbul becomes center of world diplomacy as Turkey hosts NATO-Russia transit framework talks"
+    ],
+    "_nuclear_penalty_applied": [],
+    "_oil_penalty_last_threshold": 120.0,
+    "_gas_sanction_count_applied": 0,
+    "_gm_set_nuclear_this_round": [
+      "US",
+      "FR",
+      "RU",
+      "GB"
+    ]
+  }
+}

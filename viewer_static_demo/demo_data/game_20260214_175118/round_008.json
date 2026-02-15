@@ -1,0 +1,539 @@
+{
+  "round": 8,
+  "runner": "claude-code",
+  "briefing": "",
+  "narrative": "THE CEASEFIRE HOLDS - Dawn breaks over the Suwalki corridor for the first time in three days without the thunder of artillery. At precisely 06:00 CET, a 72-hour humanitarian ceasefire takes effect across all fronts. Russian forces withdraw the Western District from 50km to 100km from the Polish border. Belarusian forces pull back 20km from Lithuanian positions. NATO halts all air operations over Kaliningrad and the Baltic. In a converted warehouse outside Vilnius, International Red Cross convoys prepare to evacuate 7,000 trapped Lithuanian civilians. The first buses cross Belarusian lines at 08:30 under Turkish and German observation - mothers clutching children, elderly couples supporting each other, a teenager filming on his phone. By noon, 4,200 are through. The US F-16 pilot, Captain Jennifer Rodriguez, is released to Red Cross custody in Minsk at 14:00, walking across the tarmac to a US Air Force C-17. In Istanbul, delegations arrive for the Ankara Ceasefire Conference opening at 12:00 - US Secretary of State Rubio, Russian Foreign Minister Lavrov, German Foreign Minister Baerbock, Polish FM Sikorski, Turkish FM Fidan chairing. France de-escalates from tactical nuclear readiness to elevated posture, Macron declaring 'deterrence succeeded.' Oil drops from $125 to $105 on ceasefire news. EUR/USD recovers to $1.02 as German coalition stabilizes. The question now is whether the 72 hours leads to permanent settlement or merely postpones the inevitable. But for 7,000 Lithuanian families, and for the exhausted soldiers holding positions across the corridor, this dawn brings something neither side could achieve militarily: hope.",
+  "country_decisions": [],
+  "resolution": {
+    "narrative": "THE CEASEFIRE HOLDS - Dawn breaks over the Suwalki corridor for the first time in three days without the thunder of artillery. At precisely 06:00 CET, a 72-hour humanitarian ceasefire takes effect across all fronts. Russian forces withdraw the Western District from 50km to 100km from the Polish border. Belarusian forces pull back 20km from Lithuanian positions. NATO halts all air operations over Kaliningrad and the Baltic. In a converted warehouse outside Vilnius, International Red Cross convoys prepare to evacuate 7,000 trapped Lithuanian civilians. The first buses cross Belarusian lines at 08:30 under Turkish and German observation - mothers clutching children, elderly couples supporting each other, a teenager filming on his phone. By noon, 4,200 are through. The US F-16 pilot, Captain Jennifer Rodriguez, is released to Red Cross custody in Minsk at 14:00, walking across the tarmac to a US Air Force C-17. In Istanbul, delegations arrive for the Ankara Ceasefire Conference opening at 12:00 - US Secretary of State Rubio, Russian Foreign Minister Lavrov, German Foreign Minister Baerbock, Polish FM Sikorski, Turkish FM Fidan chairing. France de-escalates from tactical nuclear readiness to elevated posture, Macron declaring 'deterrence succeeded.' Oil drops from $125 to $105 on ceasefire news. EUR/USD recovers to $1.02 as German coalition stabilizes. The question now is whether the 72 hours leads to permanent settlement or merely postpones the inevitable. But for 7,000 Lithuanian families, and for the exhausted soldiers holding positions across the corridor, this dawn brings something neither side could achieve militarily: hope.",
+    "world_state_updates": {
+      "round_number": 8
+    },
+    "events": [],
+    "headlines": [
+      "CEASEFIRE HOLDS: 72-hour humanitarian pause begins 06:00 Day 4; all fronts silent for first time in 3 days",
+      "7,000 COMING HOME: Red Cross evacuates 4,200 Lithuanian civilians by noon; remaining 2,800 in pipeline",
+      "ANKARA TALKS OPEN: US, Russia, Germany, Poland begin ceasefire negotiations; Turkish FM Fidan chairs",
+      "PILOT RELEASED: Captured US F-16 Captain Jennifer Rodriguez freed to Red Cross; returns to US custody",
+      "NUCLEAR STEP-DOWN: France de-escalates from tactical readiness to elevated; Russia and US return to peacetime posture",
+      "MARKETS RALLY: Oil drops $20 to $105; EUR/USD recovers to $1.02; stocks surge 6.5% on diplomatic breakthrough",
+      "GERMAN COALITION SAVED: Green Party backs Scholz ceasefire; coalition crisis averted; approval surges 14 points",
+      "WESTERN DISTRICT WITHDRAWS: Russian forces pull back from 50km to 100km from Polish border as confidence-building measure"
+    ],
+    "surprises": []
+  },
+  "world_state_after": {
+    "round_number": 8,
+    "game_time": "Day 4, 12:00 CET",
+    "military_units": [
+      {
+        "name": "russian_kaliningrad_forces",
+        "country": "RU",
+        "type": "ground",
+        "location": "Kaliningrad",
+        "readiness": 4,
+        "strength": 1,
+        "casualties": 140,
+        "supply_level": 8,
+        "morale": 1,
+        "_last_casualty_morale_applied": 70,
+        "_last_casualty_strength_applied": 70
+      },
+      {
+        "name": "russian_western_district",
+        "country": "RU",
+        "type": "ground",
+        "location": "60km from Polish border",
+        "readiness": 8,
+        "strength": 8,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 6,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "belarus_forces",
+        "country": "BY",
+        "type": "ground",
+        "location": "Lithuania (offensive halted, consolidating)",
+        "readiness": 3,
+        "strength": 1,
+        "casualties": 120,
+        "supply_level": 7,
+        "morale": 1,
+        "_last_casualty_morale_applied": 60,
+        "_last_casualty_strength_applied": 60
+      },
+      {
+        "name": "nato_efp_lithuania",
+        "country": "DE",
+        "type": "ground",
+        "location": "Lithuania (Vilnius approaches)",
+        "readiness": 7,
+        "strength": 1,
+        "casualties": 50,
+        "supply_level": 7,
+        "morale": 3,
+        "_last_casualty_morale_applied": 25,
+        "_last_casualty_strength_applied": 25
+      },
+      {
+        "name": "nato_efp_latvia",
+        "country": "CA",
+        "type": "ground",
+        "location": "Latvia",
+        "readiness": 8,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_estonia",
+        "country": "GB",
+        "type": "ground",
+        "location": "Estonia",
+        "readiness": 8,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "Poland (supporting logistics and air defense)",
+        "readiness": 8,
+        "strength": 1,
+        "casualties": 25,
+        "supply_level": 8,
+        "morale": 3,
+        "_last_casualty_morale_applied": 12,
+        "_last_casualty_strength_applied": 12
+      },
+      {
+        "name": "us_forces_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "Poland (deployed to support Polish advance)",
+        "readiness": 9,
+        "strength": 1,
+        "casualties": 30,
+        "supply_level": 9,
+        "morale": 3,
+        "_last_casualty_morale_applied": 15,
+        "_last_casualty_strength_applied": 15
+      },
+      {
+        "name": "polish_forces",
+        "country": "PL",
+        "type": "ground",
+        "location": "Suwalki corridor (holding)",
+        "readiness": 7,
+        "strength": 1,
+        "casualties": 200,
+        "supply_level": 7,
+        "morale": 3,
+        "_last_casualty_morale_applied": 100,
+        "_last_casualty_strength_applied": 100
+      },
+      {
+        "name": "finnish_forces",
+        "country": "FI",
+        "type": "ground",
+        "location": "Finland",
+        "readiness": 7,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "us_f16_squadron_europe",
+        "country": "US",
+        "type": "air",
+        "location": "Ramstein AB",
+        "readiness": 5,
+        "strength": 1,
+        "casualties": 5,
+        "supply_level": 9,
+        "morale": 2,
+        "_last_casualty_morale_applied": 2,
+        "_last_casualty_strength_applied": 2
+      },
+      {
+        "name": "poland_3rd_brigade_suwalki",
+        "country": "PL",
+        "type": "ground",
+        "location": "Suwalki corridor (10km rear)",
+        "readiness": 7,
+        "strength": 1,
+        "casualties": 50,
+        "supply_level": 7,
+        "morale": 2,
+        "_last_casualty_morale_applied": 25,
+        "_last_casualty_strength_applied": 25
+      },
+      {
+        "name": "nato_cyber_defense_command",
+        "country": "NATO",
+        "type": "cyber",
+        "location": "Various (cyber)",
+        "readiness": 8,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "us_101st_airborne",
+        "country": "US",
+        "type": "ground",
+        "location": "Germany (deploying to Poland, arrival Day 5)",
+        "readiness": 9,
+        "strength": 8,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "german_armored_brigade",
+        "country": "DE",
+        "type": "ground",
+        "location": "Germany (deploying to Poland, arrival Day 6)",
+        "readiness": 7,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "french_carrier_charles_de_gaulle",
+        "country": "FR",
+        "type": "naval",
+        "location": "North Sea (deploying to Baltic, arrival Day 5)",
+        "readiness": 9,
+        "strength": 8,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      }
+    ],
+    "military_alerts": {
+      "russian_kaliningrad_forces": "3 BTGs forward-deployed, Baltic Fleet active, S-400 systems operational",
+      "russian_western_district": "Additional forces on standby, 200km from border",
+      "belarus_forces": "2 brigades near Lithuanian border, unclear intent",
+      "nato_efp_lithuania": "German-led battlegroup (~1200 troops), on alert",
+      "nato_efp_latvia": "Canadian-led battlegroup (~1500 troops)",
+      "nato_efp_estonia": "UK-led battlegroup (~1200 troops)",
+      "nato_efp_poland": "US-led battlegroup (~1000 troops) + Polish forces",
+      "us_forces_poland": "Camp Kosciuszko, V Corps HQ, ~10,000 personnel",
+      "polish_forces": "4 divisions on elevated readiness, largest military in EU",
+      "finnish_forces": "Reserves on standby, border monitoring increased",
+      "RU": "defensive_ceasefire_pause",
+      "US": "active_ceasefire_pause",
+      "PL": "hold_and_negotiate",
+      "LT": "humanitarian_priority_ceasefire",
+      "LV": "elevated_readiness_but_ceasefire",
+      "EE": "elevated_readiness_but_ceasefire",
+      "NATO": "article5_ceasefire_pause",
+      "DE": "ceasefire_negotiation",
+      "FR": "tactical_nuclear_standdown",
+      "GB": "elevated_readiness_but_ceasefire",
+      "FI": "elevated_readiness_but_ceasefire",
+      "SE": "elevated_readiness_but_ceasefire",
+      "BY": "ceasefire_pause"
+    },
+    "markets": {
+      "oil_price": 110.0,
+      "euro_usd": 0.99,
+      "gas_price_eu": 11.2,
+      "stock_indices": "nervous, -2% on reports",
+      "stock_indices_change": -8.0
+    },
+    "sanctions": [
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "secondary_sanctions_on_financial_sector"
+      },
+      {
+        "from": "EU",
+        "target": "RU",
+        "type": "additional_energy_sector_restrictions"
+      },
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "complete_financial_freeze_and_technology_sanctions"
+      },
+      {
+        "from": "EU",
+        "target": "RU",
+        "type": "complete_energy_sector_embargo"
+      }
+    ],
+    "trade_disruptions": [
+      "Shipping insurance premiums in Baltic Sea rise 200-300% due to military presence",
+      "Baltic shipping closed to non-military vessels",
+      "Russian financial system isolated",
+      "EU energy imports from Russia cut"
+    ],
+    "diplomatic_relations": {
+      "RU": {
+        "US": -4,
+        "PL": -3,
+        "NATO": -3,
+        "DE": -1,
+        "EU": -3
+      },
+      "US": {
+        "RU": -4,
+        "DE": 1,
+        "NATO": 4
+      },
+      "DE": {
+        "RU": -2,
+        "NATO": 2,
+        "US": 1,
+        "PL": 0
+      },
+      "PL": {
+        "DE": 1,
+        "US": 5,
+        "RU": -3,
+        "NATO": 3,
+        "BY": -3
+      },
+      "FR": {
+        "RU": -4,
+        "NATO": 3,
+        "US": 1
+      },
+      "GB": {
+        "RU": -4,
+        "NATO": 4,
+        "US": 1
+      },
+      "EE": {
+        "RU": -5
+      },
+      "LT": {
+        "NATO": 3,
+        "RU": -4
+      },
+      "LV": {
+        "NATO": 3,
+        "RU": -4
+      },
+      "TR": {
+        "RU": 1,
+        "US": 1,
+        "NATO": 2
+      }
+    },
+    "treaties_invoked": [
+      "NATO Article 5 (Lithuania, Latvia, Estonia)",
+      "{'treaty': 'NATO_ARTICLE_5', 'invoked_by': ['LT', 'LV', 'EE'], 'status': 'active_with_disputed_implementation'}"
+    ],
+    "un_resolutions": [
+      "{'number': '2025/12', 'sponsor': 'US', 'title': 'Urgent Humanitarian Assistance for Lithuanian Displacement Crisis', 'status': 'in_negotiation'}",
+      "{'number': '2026/02', 'sponsor': 'TR', 'title': 'Emergency Ceasefire and Humanitarian Corridors for Baltic Crisis', 'status': 'emergency_session_called'}",
+      "{'number': '2026/03', 'sponsor': 'TR', 'title': 'Emergency Humanitarian Ceasefire and Civilian Evacuation Protocol for Baltic Crisis', 'status': 'passed_with_unanimous_support'}"
+    ],
+    "nato_alert_level": "article5",
+    "nato_consensus": {
+      "US": "ceasefire_seeking",
+      "LT": "humanitarian_ceasefire",
+      "LV": "ceasefire_with_permanence",
+      "EE": "ceasefire_with_permanence",
+      "GB": "ceasefire_with_forward_presence",
+      "FR": "ceasefire_with_deterrence",
+      "DE": "ceasefire_negotiation",
+      "PL": "ceasefire_with_guarantees",
+      "NATO": "article5_ceasefire_pause"
+    },
+    "corridor_control": "contested",
+    "nuclear_posture": {
+      "RU": "elevated",
+      "US": "elevated",
+      "GB": "elevated",
+      "FR": "elevated"
+    },
+    "nuclear_detonations": [],
+    "public_opinion": {
+      "PL": {
+        "war_support": 75,
+        "government_approval": 66,
+        "gov_approval": 70
+      },
+      "DE": {
+        "war_support": 25,
+        "government_approval": 28,
+        "gov_approval": 35
+      },
+      "FR": {
+        "war_support": 42,
+        "government_approval": 42,
+        "gov_approval": 50
+      },
+      "US": {
+        "war_support": 28,
+        "government_approval": 40,
+        "gov_approval": 48
+      },
+      "GB": {
+        "war_support": 52,
+        "government_approval": 53,
+        "gov_approval": 58
+      },
+      "LT": {
+        "war_support": 80,
+        "government_approval": 59,
+        "gov_approval": 65
+      },
+      "LV": {
+        "war_support": 78,
+        "government_approval": 55,
+        "gov_approval": 60
+      },
+      "EE": {
+        "war_support": 80,
+        "government_approval": 60,
+        "gov_approval": 62
+      },
+      "RU": {
+        "war_support": 52,
+        "government_approval": 62,
+        "gov_approval": 65
+      },
+      "BY": {
+        "war_support": 35,
+        "gov_approval": 48
+      }
+    },
+    "refugee_flows": [
+      {
+        "from": "LT",
+        "to": "PL",
+        "count": 5000,
+        "status": "in_transit"
+      },
+      {
+        "from": "LT",
+        "to": "RU_occupied_zone",
+        "count": 7000,
+        "status": "trapped_behind_belarusian_lines"
+      },
+      {
+        "from": "PL_border",
+        "to": "PL_interior",
+        "count": 5000,
+        "status": "evacuated"
+      }
+    ],
+    "humanitarian_crisis_level": {
+      "LT": 5,
+      "BY": 4,
+      "RU": 4
+    },
+    "cyber_operations": [
+      {
+        "attacker": "RU",
+        "target": "LT",
+        "type": "infrastructure",
+        "severity": "medium",
+        "infrastructure_affected": "comms"
+      },
+      {
+        "attacker": "EE",
+        "target": "RU",
+        "type": "infrastructure",
+        "severity": "high",
+        "infrastructure_affected": "power_grid"
+      },
+      {
+        "attacker": "RU",
+        "target": "NATO",
+        "type": "infrastructure",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "GB",
+        "target": "RU",
+        "type": "espionage",
+        "severity": "high",
+        "infrastructure_affected": "military_c2"
+      }
+    ],
+    "infrastructure_status": {
+      "LT": {
+        "power_grid": 8,
+        "comms": 6,
+        "financial": 10,
+        "military_c2": 7
+      },
+      "PL": {
+        "power_grid": 10,
+        "comms": 10,
+        "financial": 9,
+        "military_c2": 10
+      },
+      "RU": {
+        "power_grid": 6,
+        "comms": 10,
+        "financial": 2,
+        "military_c2": 8
+      },
+      "NATO": {
+        "power_grid": 10,
+        "comms": 10,
+        "financial": 9,
+        "military_c2": 8
+      }
+    },
+    "recent_events": [
+      "NATO air supremacy achieved - all Russian S-400/S-300 systems in Kaliningrad destroyed",
+      "Russia signals ceasefire willingness through Turkish and Chinese back-channels",
+      "Belarus halts offensive, opens humanitarian corridor for trapped Lithuanian civilians",
+      "Germany's coalition government stabilized by ceasefire announcement",
+      "US public opinion shifts: 'rescue missions' narrative replaces 'escalation' narrative",
+      "UN Security Council passes emergency humanitarian ceasefire resolution",
+      "Turkey and China agree to mediate talks in Ankara",
+      "Franco-British nuclear coordination holds deterrent but de-escalates rhetoric",
+      "Lithuania evacuates 6,000 civilians through Polish humanitarian corridor within 24 hours",
+      "Oil prices moderate to $110 on ceasefire optimism; markets stabilize slightly"
+    ],
+    "media_headlines": [
+      "NATO AIR VICTORY: Russian air defenses destroyed, ceasefire announced as military balance shifts",
+      "HUMANITARIAN CORRIDOR OPENS: 6,000+ Lithuanians evacuate through Poland-Belarus corridor in first 24 hours",
+      "PEACE TALKS IN 48 HOURS: Turkey announces Ankara summit with US, Russia, NATO, China observers",
+      "US WAR SUPPORT SURGES: Americans approve 'rescue civilians, negotiate peace' strategy as opposition collapses",
+      "GERMAN COALITION SAVED: Scholz claims diplomatic victory as coalition partners reverse withdrawal threats",
+      "PUTIN SIGNALS OFFRAMP: Russia displays willingness to negotiate from strength, Western District holds defensive",
+      "FRANCE DE-ESCALATES NUCLEAR THREAT: Tactical readiness maintained but rhetoric shifts toward diplomatic solution",
+      "MARKETS RALLY ON CEASEFIRE HOPES: Oil drops to $110, Euro recovers to $0.99 on de-escalation sentiment"
+    ],
+    "_nuclear_penalty_applied": [],
+    "_oil_penalty_last_threshold": 120.0,
+    "_gas_sanction_count_applied": 4,
+    "_gm_set_nuclear_this_round": []
+  }
+}

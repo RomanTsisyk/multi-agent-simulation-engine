@@ -1,0 +1,1132 @@
+{
+  "round": 9,
+  "runner": "claude-code",
+  "briefing": "ROUND 10 SITUATION BRIEFING - POST-ANKARA CEASEFIRE AGREEMENT\nGame time: Day 5, 00:00 CET\n\nANKARA AGREEMENT FRAMEWORK - IN EFFECT:\nThe Ankara summit produced a 90-day humanitarian ceasefire with clear terms: mutual cessation of offensive operations, UN-Turkish verification commission established, phased sanctions relief tied to compliance, humanitarian corridor formalized for complete evacuation of remaining 7,000 trapped Lithuanians within 14 days. NATO security guarantees for Lithuania, Latvia, Estonia will be finalized and treaty-formalized within 30 days.\n\nMILITARY POSTURE - CONSOLIDATION PHASE:\nBoth NATO and Russia have stood down from immediate escalation. Russian Kaliningrad forces remain degraded (readiness=4) but will receive resupply and morale recovery during ceasefire. NATO reinforcements (US 101st Airborne, German armored brigade, French carrier) continue deploying per schedule\u2014not accelerated but not canceled, signaling deterrence maintenance. Polish forces hold Suwalki corridor unchanged. Belarusian forces consolidate without further offensive operations. Neither side has incentive to escalate during 90-day verification period.",
+  "narrative": "The Ankara summit convened on Day 5 as scheduled, with delegations from the United States (Secretary of State Rubio leading), NATO (unified position through military committee and political representatives), Russia (Deputy Foreign Minister level), Turkey (hosting), and China (co-mediating). Lithuania's crisis\u2014with 7,000 civilians still trapped behind Belarusian lines\u2014became the moral centerpiece of negotiations. Poland's demand that civilian evacuation precede any formal ceasefire was endorsed by all NATO members.\n\nOver the 48-hour summit, critical agreements emerged: Russia agreed to extend and formalize the humanitarian corridor through Belarus to Lithuania for 90 days, with UN and Turkish verification teams. In exchange, the US tabled a phased sanctions relief framework: 30% of secondary financial sanctions would lift after 30 days of ceasefire compliance, with full normalization possible after 90 days. Germany's Scholz coalition secured the political victory it needed\u2014ceasefire portrayed as diplomatic triumph. France and the UK maintained tactical nuclear posture throughout talks but initiated quiet demilitarization rhetoric, signaling de-escalation while preserving deterrence.\n\nThe military situation showed movement toward consolidation: Russia committed to no further offensive operations in Kaliningrad or supporting Belarus forces. NATO committed to maintaining current force levels (not increasing visible deployments) during the 90-day ceasefire verification period. Poland maintained Suwalki corridor garrison unchanged. Belarus began visible consolidation\u2014no new offensive operations, humanitarian corridor fully operational. Turkey secured agreement to serve as permanent mediator for post-ceasefire implementation monitoring.\n\nBy midnight on Day 5, the Ankara framework was agreed in principle: 90-day humanitarian ceasefire, UN-Turkish verification, phased sanctions relief, formalized NATO security guarantees for Baltic states (to be finalized in 30 days), and humanitarian corridor completion with target of all remaining 7,000 Lithuanians evacuated within 14 days. China positioned itself as great-power stabilizer and initiated quiet bilateral trade discussions with both US and Russia.",
+  "country_decisions": [
+    {
+      "country": "PL",
+      "country_name": "Poland",
+      "actions": [
+        "Send Deputy Foreign Minister to Ankara as negotiating head to ensure Polish input on ceasefire terms",
+        "Maintain Suwalki corridor garrison at current readiness but allow rotation of casualty-heavy units for morale recovery",
+        "Demand that any ceasefire agreement include explicit clause on recovery/safe passage of 7,000 trapped Lithuanian civilians",
+        "Coordinate with Lithuania and Latvia on unified NATO Baltic position before talks (security guarantees in writing)"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "US",
+          "channel": "private",
+          "message": "Poland supports Ankara talks but insists on written security guarantees before any troop reductions. Lithuania's 7,000 trapped civilians must be freed as prerequisite for Belarusian force withdrawal."
+        },
+        {
+          "to": "LT",
+          "channel": "private",
+          "message": "We will make civilian recovery a red line in Ankara. No ceasefire without clear pathway for evacuating remaining trapped persons."
+        },
+        {
+          "to": "NATO",
+          "channel": "public",
+          "message": "Poland endorses diplomatic engagement in Ankara while maintaining full Article 5 deterrence posture. Any agreement must guarantee permanent NATO presence in Eastern European member states."
+        }
+      ],
+      "reasoning": "As frontline state with strongest NATO support (75% war approval, 66% gov approval), Poland can balance diplomatic engagement with security demands. PM Tusk can claim diplomatic victory while military guarantees satisfy Nawrocki faction."
+    },
+    {
+      "country": "LT",
+      "country_name": "Lithuania",
+      "actions": [
+        "Demand explicit Ankara agenda item: 'Safe passage and evacuation of 7,000 trapped Lithuanian civilians' as prerequisite before any ceasefire formalization",
+        "Coordinate with Latvia and Estonia to present unified Baltic position on security guarantees before Ankara delegation departs",
+        "Maintain German EFP battlegroup support at heightened readiness\u2014do not demobilize despite diplomatic window"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "NATO",
+          "channel": "public",
+          "message": "Lithuania supports Ankara talks contingent on recovery of 7,000 civilians trapped behind Belarusian lines. Article 5 implementation must be formalized in any ceasefire agreement."
+        },
+        {
+          "to": "PL",
+          "channel": "private",
+          "message": "Lithuania requests Poland guarantee humanitarian corridor remains open for at least 14 days post-ceasefire to complete civilian evacuations."
+        }
+      ],
+      "reasoning": "Lithuania's survival depends on foreign pressure. 6,000 evacuated civilians is success but 7,000 remain\u2014this must be Vilnius's negotiating leverage. War support remains high (80%) so government can maintain firm demands."
+    },
+    {
+      "country": "LV",
+      "country_name": "Latvia",
+      "actions": [
+        "Support Lithuanian civilian recovery demands while emphasizing Latvia's own 214km Russia border security needs",
+        "Coordinate with Canadian-led NATO brigade in Latvia to maintain visible deterrence during ceasefire talks (no force reductions)",
+        "Demand permanence guarantees: NATO presence in Baltic states must be formalized in any agreement, not temporary"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "NATO",
+          "channel": "private",
+          "message": "Latvia supports Ankara talks but demands written permanence guarantees. NATO presence in Baltics must be treaty-formalized, not rotational."
+        }
+      ],
+      "reasoning": "Latvia faces long Russia border and fears Russian opportunism once ceasefire talks begin. Permanent NATO presence is Latvia's security guarantee."
+    },
+    {
+      "country": "EE",
+      "country_name": "Estonia",
+      "actions": [
+        "Maintain heightened cyber operations against Russian infrastructure (espionage, intelligence gathering) to signal continuing vigilance despite ceasefire talks",
+        "Continue UK EFP Estonia battlegroup support at full strength\u2014no force reductions during Ankara negotiations",
+        "Demand explicit security guarantees for Narva River flashpoint (95% ethnic Russian population) in any agreement"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "NATO",
+          "channel": "backchannel",
+          "message": "Estonia will not reduce cyber operations against Russia during Ankara talks. Vigilance must continue. Any ceasefire that abandons Article 5 will be rejected by Estonian government."
+        }
+      ],
+      "reasoning": "Estonia's -5 hostility with Russia reflects Narva flashpoint. Cyber attacks signal continuing deterrence. High war support (80%) allows firm stance."
+    },
+    {
+      "country": "US",
+      "country_name": "United States of America",
+      "actions": [
+        "Send Secretary of State Rubio-led high-level delegation to Ankara talks (signals commitment to diplomacy to satisfy domestic 28% war support)",
+        "Maintain forward-deployed forces (101st Airborne arriving Day 5) at current levels\u2014do not reduce but do not visibly increase during talks",
+        "Propose sanctions relief framework: partial lifting of secondary sanctions on Russian financial sector IF Russia commits to 90-day humanitarian ceasefire + civilian evacuation corridor",
+        "Coordinate with Poland/NATO on non-negotiable demand: permanent NATO presence in Baltic states + Article 5 formalization"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "RU",
+          "channel": "backchannel",
+          "message": "US willing to discuss partial sanctions relief and humanitarian corridor verification. Russia must commit to 90-day ceasefire and allow civilian evacuation. No demands for territorial concessions on Kaliningrad, but NATO deterrence in Baltics is non-negotiable."
+        },
+        {
+          "to": "NATO",
+          "channel": "private",
+          "message": "US leads Ankara talks to achieve negotiated resolution. American public supports 'rescue civilians, negotiate peace.' Security guarantees for Eastern European members are tied to any sanctions relief offer."
+        }
+      ],
+      "reasoning": "Trump administration facing 28% war support can use diplomatic engagement to justify continued military presence without escalation narrative. Sanctions relief offer gives Russia face-saving off-ramp while maintaining NATO deterrence requirement."
+    },
+    {
+      "country": "GB",
+      "country_name": "United Kingdom",
+      "actions": [
+        "Send Deputy Foreign Secretary to Ankara to coordinate with France on nuclear posture messaging",
+        "Maintain UK EFP Estonia battlegroup at full operational readiness\u2014do not demobilize despite ceasefire talks",
+        "Reinforce Franco-British nuclear coordination (Northwood Declaration) with explicit messaging: tactical nuclear posture will remain elevated until ceasefire formally finalized"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "FR",
+          "channel": "private",
+          "message": "UK proposes joint statement on nuclear coordination: both maintain elevated posture throughout Ankara talks to signal deterrence credibility. De-escalate rhetoric only after ceasefire agreed."
+        }
+      ],
+      "reasoning": "UK as Framework Nation and willingness military contributor can pair diplomatic engagement (52% war support) with nuclear deterrence messaging (Franco-British coordination)."
+    },
+    {
+      "country": "FR",
+      "country_name": "France",
+      "actions": [
+        "Accelerate French carrier deployment to Baltic (arrival Day 5 confirmed) to demonstrate military commitment during talks",
+        "Send Macron's Foreign Minister to Ankara as peacemaker, positioning France as bridge between NATO and Russia",
+        "Propose EU-mediated negotiation track parallel to US-led Ankara talks (gives EU diplomatic role)"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "DE",
+          "channel": "private",
+          "message": "France proposes EU-led diplomatic track alongside US-Turkey mediation. Carrier deployment maintains deterrence while Macron can claim peacemaker role. Supports German coalition stabilization."
+        },
+        {
+          "to": "RU",
+          "channel": "backchannel",
+          "message": "France willing to engage in Paris-led discussions on sanctions relief timeline IF Russia commits to verifiable ceasefire. Nuclear deterrence maintained but dialogue possible."
+        }
+      ],
+      "reasoning": "France balances military deterrence (carrier deployment) with diplomatic positioning. Strategic autonomy doctrine allows independent Paris track while supporting NATO unity."
+    },
+    {
+      "country": "DE",
+      "country_name": "Germany",
+      "actions": [
+        "Chancellor Scholz personally leads German delegation to Ankara\u2014signals major diplomatic commitment needed for coalition stabilization (25% war support, 28% approval are CRITICAL)",
+        "Proceed with German armored brigade deployment to Poland (arrival Day 6)\u2014shows continued commitment while negotiating",
+        "Lead EU diplomatic coordination with European Commission to prepare post-ceasefire reconstruction/sanctions relief framework"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "NATO",
+          "channel": "public",
+          "message": "Germany strongly supports Ankara talks as pathway to sustainable peace. Coalition government has secured ceasefire as primary objective. Scholz will lead German delegation to ensure European voice in talks."
+        },
+        {
+          "to": "RU",
+          "channel": "backchannel",
+          "message": "Germany open to discussion of sanctions relief framework and economic stabilization measures IF Russia commits to verifiable ceasefire and civilian humanitarian corridors."
+        }
+      ],
+      "reasoning": "Germany's political crisis (25% war support, 28% approval) requires visible commitment to diplomacy. Scholz attending personally claims victory for coalition. Brigade deployment signals continued deterrence, pleasing Eastern European partners."
+    },
+    {
+      "country": "FI",
+      "country_name": "Finland",
+      "actions": [
+        "Support Ankara talks while maintaining heightened readiness along 1,340km Russia border\u2014do not reduce force posture",
+        "Coordinate with Nordic bloc (SE/NO/DK) on unified Baltic deterrence message: Ankara talks must result in formalized NATO security guarantees"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "NATO",
+          "channel": "public",
+          "message": "Finland supports Ankara talks but security of Nordic-Baltic region requires formalized deterrence agreements. NATO presence must be permanent and treaty-codified."
+        }
+      ],
+      "reasoning": "Finland's newest NATO status (2023) requires demonstration of commitment to alliance. 1,340km Russia border makes security guarantees paramount."
+    },
+    {
+      "country": "SE",
+      "country_name": "Sweden",
+      "actions": [
+        "Coordinate with Finland on unified Nordic response to Ankara talks",
+        "Support ongoing NATO military exercises in Baltic region to maintain visible deterrence posture"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "FI",
+          "channel": "private",
+          "message": "Sweden endorses unified Nordic position: support Ankara talks but demand formalized NATO presence guarantees."
+        }
+      ],
+      "reasoning": "Sweden's recent NATO membership (2024) aligns with Finnish security concerns."
+    },
+    {
+      "country": "NO",
+      "country_name": "Norway",
+      "actions": [
+        "Support Nordic bloc coordination while emphasizing Arctic security concerns",
+        "Maintain NATO naval presence in Baltic to signal deterrence"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "NATO",
+          "channel": "public",
+          "message": "Norway supports Ankara talks contingent on NATO deterrence remaining credible in Nordic-Baltic region."
+        }
+      ],
+      "reasoning": "Norway's NATO membership and Arctic interests align with Nordic solidarity."
+    },
+    {
+      "country": "DK",
+      "country_name": "Denmark",
+      "actions": [
+        "Prioritize shipping security restoration in Ankara talks\u2014catastrophic insurance premiums (200-300%) must be addressed",
+        "Support Nordic bloc unity on security guarantees"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "NATO",
+          "channel": "public",
+          "message": "Denmark supports ceasefire talks but shipping security in Baltic must be addressed: insurance premiums must normalize post-agreement."
+        }
+      ],
+      "reasoning": "Denmark's geographic position makes shipping security critical to economic recovery."
+    },
+    {
+      "country": "CA",
+      "country_name": "Canada",
+      "actions": [
+        "Support US-led Ankara talks while emphasizing Canadian-led NATO brigade responsibility in Latvia (2,200 troops at Camp Adazi)",
+        "Demand security guarantees for Eastern European NATO members as prerequisite for Canadian support of sanctions relief"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "US",
+          "channel": "private",
+          "message": "Canada supports Ankara talks but Canadian forces in Latvia require explicit security guarantees before any ceasefire implementation."
+        }
+      ],
+      "reasoning": "Canada's leadership of NATO EFP Latvia gives it direct interest in security guarantees."
+    },
+    {
+      "country": "NL",
+      "country_name": "Netherlands",
+      "actions": [
+        "Prioritize shipping security restoration in ceasefire negotiations\u2014Baltic insurance crisis affects Dutch maritime interests",
+        "Support NATO security guarantee demands"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "NATO",
+          "channel": "public",
+          "message": "Netherlands supports Ankara talks but shipping security normalization is essential for European economic recovery."
+        }
+      ],
+      "reasoning": "Dutch maritime interests make shipping security critical."
+    },
+    {
+      "country": "BE",
+      "country_name": "Belgium",
+      "actions": [
+        "Support NATO unified position on security guarantees",
+        "Maintain EU coordination through European Commission"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "NATO",
+          "channel": "public",
+          "message": "Belgium supports Ankara talks while demanding security guarantees for NATO's Eastern European members."
+        }
+      ],
+      "reasoning": "Belgium supports broader NATO position."
+    },
+    {
+      "country": "CZ",
+      "country_name": "Czech Republic",
+      "actions": [
+        "Lead Bucharest Nine coordination on demanding security guarantees in any ceasefire agreement",
+        "Oppose premature sanctions relief without verification of Russian compliance"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "NATO",
+          "channel": "private",
+          "message": "Czechia demands formalized security guarantees for all Bucharest Nine members before sanctions relief is considered."
+        }
+      ],
+      "reasoning": "Czech leadership of Bucharest Nine places it at forefront of Eastern European security demands."
+    },
+    {
+      "country": "RO",
+      "country_name": "Romania",
+      "actions": [
+        "Coordinate with Bucharest Nine on security demands",
+        "Emphasize Black Sea security concerns in Ankara negotiations"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "NATO",
+          "channel": "public",
+          "message": "Romania supports Ankara talks but Black Sea security and NATO deterrence in Eastern Europe must be formalized."
+        }
+      ],
+      "reasoning": "Romania's Black Sea position makes it key stakeholder in regional security."
+    },
+    {
+      "country": "RU",
+      "country_name": "Russia",
+      "actions": [
+        "Proceed with military consolidation in Kaliningrad: resupply degraded Kaliningrad garrison (casualties=140, morale=1) with supply shipments and fresh morale-recovery rotations to avoid unit collapse",
+        "Announce unilateral 72-hour humanitarian corridor extension (signal good faith for Ankara talks while maintaining military control of territory)",
+        "Signal willingness to discuss sanctions relief framework: propose 'phased removal of sanctions contingent on verifiable ceasefire compliance over 90 days'"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "TR",
+          "channel": "backchannel",
+          "message": "Russia prepared for substantive negotiations in Ankara. Key issues: (1) De facto control of humanitarian corridor between Kaliningrad-Belarus recognized; (2) Phased sanctions relief tied to 90-day ceasefire compliance; (3) No NATO expansion eastward. Kremlin views negotiations as face-saving resolution."
+        },
+        {
+          "to": "CN",
+          "channel": "backchannel",
+          "message": "Russia appreciates Chinese co-mediation. Willing to engage seriously in Ankara if conditions allow Russia to claim 'strategic gains' narrative domestically. Sanctions relief essential for economic stabilization."
+        },
+        {
+          "to": "US",
+          "channel": "backchannel",
+          "message": "Russia will engage in Ankara talks. Ceasefire terms: mutual withdrawal of offensive forces to pre-crisis positions, humanitarian corridor monitoring by UN/Turkey, phased sanctions relief framework."
+        }
+      ],
+      "reasoning": "Kremlin faces degraded military in Kaliningrad (readiness=4, morale=1, casualties=140) and financial crisis (financial infrastructure 2/10). Needs off-ramp. General Staff insists on consolidation before ceasefire finalized. Putin signals willingness to negotiate face-saving agreement: military control of corridor maintained, sanctions partial relief begins, avoids further escalation/humiliation."
+    },
+    {
+      "country": "BY",
+      "country_name": "Belarus",
+      "actions": [
+        "Maintain humanitarian corridor operations (continues civilian evacuations from Lithuanian zone) to demonstrate Ankara compliance",
+        "Begin quiet consolidation of forces in Lithuania\u2014no new offensive operations but no full withdrawal either (holding current positions)",
+        "Explore US backchannel contact (following June 2025 Keith Kellogg visit precedent) to signal potential for independent Belarusian position if sanctions relief offered"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "RU",
+          "channel": "private",
+          "message": "Belarus continues humanitarian corridor as ceasefire compliance signal. Seeks Kremlin approval for exploring light sanctions relief negotiation."
+        },
+        {
+          "to": "TR",
+          "channel": "backchannel",
+          "message": "Belarus supports Ankara talks. Lukashenko willing to contribute to ceasefire implementation monitoring (humanitarian corridor oversight, force consolidation verification)."
+        }
+      ],
+      "reasoning": "Belarus forces are degraded (readiness=3, morale=1, casualties=120). Lukashenko sees ceasefire as relief from military drain. Maintains puppet facade with Russia while quietly exploring Western sanction relief options."
+    },
+    {
+      "country": "TR",
+      "country_name": "Turkey",
+      "actions": [
+        "Finalize Ankara talks venue arrangements: secure high-level US, Russian, NATO delegations for 48-hour summit starting Day 6",
+        "Propose confidence-building measure: Turkish-UN joint commission to oversee humanitarian corridor and verify ceasefire compliance",
+        "Prepare separate bilateral discussions with Russia (sanctions relief framework), US (NATO reassurance), and NATO (permanent Turkish mediator role benefits)"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "RU",
+          "channel": "private",
+          "message": "Turkey ready to host comprehensive talks. Proposes Turkish-UN oversight of humanitarian corridor. Russia gains face-saving narrative, partial sanctions relief pathway."
+        },
+        {
+          "to": "US",
+          "channel": "private",
+          "message": "Turkey will host Ankara talks. Proposes framework: (1) 90-day humanitarian ceasefire with Turkish-UN verification; (2) Phased sanctions relief tied to compliance; (3) NATO security guarantee formalization. Turkey happy to serve as permanent mediator."
+        },
+        {
+          "to": "NATO",
+          "channel": "public",
+          "message": "Turkey proud to host Ankara summit bringing stakeholders together. Turkish diplomatic presence will be permanent mediator in post-ceasefire implementation phase."
+        }
+      ],
+      "reasoning": "Turkey maximizes leverage as mediator. Ankara summit elevates Turkish regional power. Proposes UN-Turkish verification mechanism (gives Turkey ongoing institutional role). Can extract NATO concessions, Russian gratitude, EU recognition as key player."
+    },
+    {
+      "country": "HU",
+      "country_name": "Hungary",
+      "actions": [
+        "Support NATO unified position on security guarantees while extracting EU concessions: demand accelerated EU funding for Hungarian infrastructure projects as price for full Hungarian support",
+        "Avoid obstruction of Ankara talks (unlike recent EU votes) but signal conditional compliance"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "NATO",
+          "channel": "private",
+          "message": "Hungary supports Ankara talks and NATO security guarantees BUT demands EU accelerate infrastructure funding for Hungarian projects as recognition of Hungarian contribution to coalition unity."
+        }
+      ],
+      "reasoning": "Hungary traditionally obstructs EU/NATO decisions. Here, uses Ankara talks as leverage to extract EU funding concessions while avoiding isolation."
+    },
+    {
+      "country": "CN",
+      "country_name": "China",
+      "actions": [
+        "Co-mediate with Turkey, emphasizing Chinese commitment to preventing escalation and great-power conflict",
+        "Prepare separate bilateral discussions: with US (trade concessions, Taiwan dialogue), with Russia (economic partnership opportunities during sanctions period), with NATO (positions China as reasonable global actor)"
+      ],
+      "diplomatic_messages": [
+        {
+          "to": "TR",
+          "channel": "private",
+          "message": "China committed to co-mediation. Proposes framework emphasizing prevention of nuclear escalation and great-power cooperation. China seeks to position itself as responsible global actor."
+        },
+        {
+          "to": "US",
+          "channel": "backchannel",
+          "message": "China supports ceasefire resolution in Baltic. Willing to discuss trade normalization and strategic dialogue if US committed to preventing future NATO-Russia escalation that destabilizes global markets."
+        },
+        {
+          "to": "RU",
+          "channel": "backchannel",
+          "message": "China can provide economic alternatives during sanctions period. Partnership opportunities await Russia if willing to negotiate seriously in Ankara."
+        }
+      ],
+      "reasoning": "China maximizes leverage as co-mediator. Positions itself as stabilizing great power while extracting trade/strategic dialogue concessions from multiple parties. Prevents escalation that disrupts Chinese economic interests."
+    }
+  ],
+  "resolution": {
+    "narrative": "The Ankara summit convened on Day 5 as scheduled, with delegations from the United States (Secretary of State Rubio leading), NATO (unified position through military committee and political representatives), Russia (Deputy Foreign Minister level), Turkey (hosting), and China (co-mediating). Lithuania's crisis\u2014with 7,000 civilians still trapped behind Belarusian lines\u2014became the moral centerpiece of negotiations. Poland's demand that civilian evacuation precede any formal ceasefire was endorsed by all NATO members.\n\nOver the 48-hour summit, critical agreements emerged: Russia agreed to extend and formalize the humanitarian corridor through Belarus to Lithuania for 90 days, with UN and Turkish verification teams. In exchange, the US tabled a phased sanctions relief framework: 30% of secondary financial sanctions would lift after 30 days of ceasefire compliance, with full normalization possible after 90 days. Germany's Scholz coalition secured the political victory it needed\u2014ceasefire portrayed as diplomatic triumph. France and the UK maintained tactical nuclear posture throughout talks but initiated quiet demilitarization rhetoric, signaling de-escalation while preserving deterrence.\n\nThe military situation showed movement toward consolidation: Russia committed to no further offensive operations in Kaliningrad or supporting Belarus forces. NATO committed to maintaining current force levels (not increasing visible deployments) during the 90-day ceasefire verification period. Poland maintained Suwalki corridor garrison unchanged. Belarus began visible consolidation\u2014no new offensive operations, humanitarian corridor fully operational. Turkey secured agreement to serve as permanent mediator for post-ceasefire implementation monitoring.\n\nBy midnight on Day 5, the Ankara framework was agreed in principle: 90-day humanitarian ceasefire, UN-Turkish verification, phased sanctions relief, formalized NATO security guarantees for Baltic states (to be finalized in 30 days), and humanitarian corridor completion with target of all remaining 7,000 Lithuanians evacuated within 14 days. China positioned itself as great-power stabilizer and initiated quiet bilateral trade discussions with both US and Russia.",
+    "world_state_updates": {
+      "game_time": "Day 5, 06:00 CET",
+      "military_units_add": [],
+      "military_units_remove": [],
+      "military_units_update": [
+        {
+          "name": "russian_kaliningrad_forces",
+          "location": "Kaliningrad",
+          "readiness": 5,
+          "strength": 1,
+          "casualties": 130,
+          "supply_level": 9,
+          "morale": 2
+        },
+        {
+          "name": "belarus_forces",
+          "location": "Lithuania (ceasefire)",
+          "readiness": 3,
+          "strength": 1,
+          "casualties": 115,
+          "supply_level": 7,
+          "morale": 1
+        },
+        {
+          "name": "polish_forces",
+          "location": "Suwalki corridor",
+          "readiness": 7,
+          "strength": 1,
+          "casualties": 200,
+          "supply_level": 7,
+          "morale": 4
+        },
+        {
+          "name": "us_101st_airborne",
+          "location": "Poland",
+          "readiness": 9,
+          "strength": 8,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 8
+        },
+        {
+          "name": "french_carrier_charles_de_gaulle",
+          "location": "Baltic",
+          "readiness": 9,
+          "strength": 8,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 8
+        }
+      ],
+      "military_alerts": {
+        "BY": "ceasefire_consolidation",
+        "DE": "elevated_readiness",
+        "RU": "ceasefire_consolidation",
+        "NATO": "article5_ceasefire_active"
+      },
+      "markets": {
+        "oil_price": 107.5,
+        "euro_usd": 0.99,
+        "gas_price_eu": 10.5
+      },
+      "sanctions_add": [],
+      "trade_disruptions_add": [],
+      "diplomatic_relations": {
+        "RU": {
+          "US": -3,
+          "NATO": -1
+        },
+        "US": {
+          "NATO": 5
+        }
+      },
+      "treaties_invoked_add": [
+        {
+          "treaty": "Ankara_Ceasefire_Framework",
+          "parties": [
+            "RU",
+            "US",
+            "NATO"
+          ],
+          "status": "agreed_in_principle"
+        }
+      ],
+      "un_resolutions_add": [
+        {
+          "number": "2026/04",
+          "sponsor": "TR",
+          "title": "UN-Turkish Verification Commission",
+          "status": "passed"
+        }
+      ],
+      "nato_alert_level": "article5_ceasefire_active",
+      "nato_consensus": {
+        "NATO": "ceasefire_active_verification"
+      },
+      "nuclear_posture": {
+        "FR": "elevated_maintaining",
+        "GB": "elevated_maintaining",
+        "RU": "elevated_maintaining",
+        "US": "elevated_maintaining"
+      },
+      "nuclear_detonations_add": [],
+      "public_opinion": {
+        "US": {
+          "war_support": 38,
+          "government_approval": 52
+        },
+        "DE": {
+          "war_support": 35,
+          "government_approval": 42
+        },
+        "PL": {
+          "war_support": 80,
+          "government_approval": 75
+        }
+      },
+      "refugee_flows_add": [
+        {
+          "from": "LT",
+          "to": "PL",
+          "count": 1500,
+          "status": "evacuating_via_humanitarian_corridor"
+        }
+      ],
+      "humanitarian_crisis_level": {
+        "BY": 3,
+        "LT": 3,
+        "RU": 2
+      },
+      "cyber_operations_add": [],
+      "infrastructure_status": {
+        "LT": {
+          "power_grid": 8,
+          "comms": 8,
+          "financial": 10,
+          "military_c2": 8
+        },
+        "RU": {
+          "power_grid": 6,
+          "comms": 10,
+          "financial": 2,
+          "military_c2": 8
+        }
+      },
+      "corridor_control": "contested_ceasefire_managed",
+      "recent_events": [
+        "Ankara summit produces 90-day humanitarian ceasefire with verification",
+        "Phased sanctions relief framework agreed: 30% lift after compliance",
+        "Humanitarian evacuation of 7,000 trapped Lithuanians begins",
+        "NATO security guarantee formalization scheduled for Day 30",
+        "US 101st Airborne arrives Poland, French carrier arrives Baltic"
+      ],
+      "media_headlines": [
+        "ANKARA BREAKTHROUGH: 90-day ceasefire agreed after historic summit",
+        "HUMANITARIAN CORRIDOR OPENS: Evacuation of 7,000 trapped begins",
+        "SANCTIONS RELIEF FRAMEWORK: 30% US sanctions lift after compliance checkpoint",
+        "SCHOLZ COALITION SAVED: German Chancellor claims diplomatic victory",
+        "NATO SECURITY GUARANTEED: Baltic states secure treaty-formalized protection",
+        "OIL PRICES STABILIZE: Ceasefire optimism drives oil to $107.5"
+      ],
+      "round_number": 9
+    },
+    "events": [
+      "Ankara summit produces 90-day ceasefire framework",
+      "Russia agrees to formalize humanitarian corridor with UN-Turkish verification",
+      "US tables phased sanctions relief (30% secondary sanctions after 30 days)",
+      "NATO security guarantee formalization scheduled Day 30",
+      "Evacuation of 7,000 trapped Lithuanians begins, target completion Day 19"
+    ],
+    "headlines": [
+      "ANKARA BREAKTHROUGH: 90-day ceasefire agreed; US-NATO-Russia framework holds",
+      "HUMANITARIAN RELIEF: 7,000 trapped Lithuanians begin evacuation within 24 hours",
+      "SANCTIONS FRAMEWORK: Phased US relief tied to 30-day compliance verification",
+      "SCHOLZ VICTORY: German Chancellor claims diplomatic win; coalition stabilized",
+      "NATO GUARANTEES: Baltic states secure treaty-formalized protection (Day 30 signing)",
+      "MARKET RALLY: Oil at $107.5, EU gas drops to $10.5 on ceasefire optimism"
+    ],
+    "surprises": [
+      "Belarus signals unexpected independence: Lukashenko hints at exploring Western sanctions relief post-ceasefire",
+      "US domestic shift: War support rises to 38% as ceasefire validates Trump admin's negotiation strategy"
+    ]
+  },
+  "world_state_after": {
+    "round_number": 9,
+    "game_time": "Day 5, 06:00 CET",
+    "military_units": [
+      {
+        "name": "russian_kaliningrad_forces",
+        "country": "RU",
+        "type": "ground",
+        "location": "Kaliningrad",
+        "readiness": 5,
+        "strength": 1,
+        "casualties": 130,
+        "supply_level": 9,
+        "morale": 2,
+        "_last_casualty_morale_applied": 70,
+        "_last_casualty_strength_applied": 70
+      },
+      {
+        "name": "russian_western_district",
+        "country": "RU",
+        "type": "ground",
+        "location": "60km from Polish border",
+        "readiness": 8,
+        "strength": 8,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 6,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "belarus_forces",
+        "country": "BY",
+        "type": "ground",
+        "location": "Lithuania (ceasefire)",
+        "readiness": 3,
+        "strength": 1,
+        "casualties": 115,
+        "supply_level": 7,
+        "morale": 1,
+        "_last_casualty_morale_applied": 60,
+        "_last_casualty_strength_applied": 60
+      },
+      {
+        "name": "nato_efp_lithuania",
+        "country": "DE",
+        "type": "ground",
+        "location": "Lithuania (Vilnius approaches)",
+        "readiness": 7,
+        "strength": 1,
+        "casualties": 50,
+        "supply_level": 7,
+        "morale": 3,
+        "_last_casualty_morale_applied": 25,
+        "_last_casualty_strength_applied": 25
+      },
+      {
+        "name": "nato_efp_latvia",
+        "country": "CA",
+        "type": "ground",
+        "location": "Latvia",
+        "readiness": 8,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_estonia",
+        "country": "GB",
+        "type": "ground",
+        "location": "Estonia",
+        "readiness": 8,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "Poland (supporting logistics and air defense)",
+        "readiness": 8,
+        "strength": 1,
+        "casualties": 25,
+        "supply_level": 8,
+        "morale": 3,
+        "_last_casualty_morale_applied": 12,
+        "_last_casualty_strength_applied": 12
+      },
+      {
+        "name": "us_forces_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "Poland (deployed to support Polish advance)",
+        "readiness": 9,
+        "strength": 1,
+        "casualties": 30,
+        "supply_level": 9,
+        "morale": 3,
+        "_last_casualty_morale_applied": 15,
+        "_last_casualty_strength_applied": 15
+      },
+      {
+        "name": "polish_forces",
+        "country": "PL",
+        "type": "ground",
+        "location": "Suwalki corridor",
+        "readiness": 7,
+        "strength": 1,
+        "casualties": 200,
+        "supply_level": 7,
+        "morale": 4,
+        "_last_casualty_morale_applied": 100,
+        "_last_casualty_strength_applied": 100
+      },
+      {
+        "name": "finnish_forces",
+        "country": "FI",
+        "type": "ground",
+        "location": "Finland",
+        "readiness": 7,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "us_f16_squadron_europe",
+        "country": "US",
+        "type": "air",
+        "location": "Ramstein AB",
+        "readiness": 5,
+        "strength": 1,
+        "casualties": 5,
+        "supply_level": 9,
+        "morale": 2,
+        "_last_casualty_morale_applied": 2,
+        "_last_casualty_strength_applied": 2
+      },
+      {
+        "name": "poland_3rd_brigade_suwalki",
+        "country": "PL",
+        "type": "ground",
+        "location": "Suwalki corridor (10km rear)",
+        "readiness": 7,
+        "strength": 1,
+        "casualties": 50,
+        "supply_level": 7,
+        "morale": 2,
+        "_last_casualty_morale_applied": 25,
+        "_last_casualty_strength_applied": 25
+      },
+      {
+        "name": "nato_cyber_defense_command",
+        "country": "NATO",
+        "type": "cyber",
+        "location": "Various (cyber)",
+        "readiness": 8,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "us_101st_airborne",
+        "country": "US",
+        "type": "ground",
+        "location": "Poland",
+        "readiness": 9,
+        "strength": 8,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "german_armored_brigade",
+        "country": "DE",
+        "type": "ground",
+        "location": "Germany (deploying to Poland, arrival Day 6)",
+        "readiness": 7,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "french_carrier_charles_de_gaulle",
+        "country": "FR",
+        "type": "naval",
+        "location": "Baltic",
+        "readiness": 9,
+        "strength": 8,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      }
+    ],
+    "military_alerts": {
+      "russian_kaliningrad_forces": "3 BTGs forward-deployed, Baltic Fleet active, S-400 systems operational",
+      "russian_western_district": "Additional forces on standby, 200km from border",
+      "belarus_forces": "2 brigades near Lithuanian border, unclear intent",
+      "nato_efp_lithuania": "German-led battlegroup (~1200 troops), on alert",
+      "nato_efp_latvia": "Canadian-led battlegroup (~1500 troops)",
+      "nato_efp_estonia": "UK-led battlegroup (~1200 troops)",
+      "nato_efp_poland": "US-led battlegroup (~1000 troops) + Polish forces",
+      "us_forces_poland": "Camp Kosciuszko, V Corps HQ, ~10,000 personnel",
+      "polish_forces": "4 divisions on elevated readiness, largest military in EU",
+      "finnish_forces": "Reserves on standby, border monitoring increased",
+      "RU": "ceasefire_consolidation",
+      "US": "active_ceasefire_pause",
+      "PL": "hold_and_negotiate",
+      "LT": "humanitarian_priority_ceasefire",
+      "LV": "elevated_readiness_but_ceasefire",
+      "EE": "elevated_readiness_but_ceasefire",
+      "NATO": "article5_ceasefire_active",
+      "DE": "elevated_readiness",
+      "FR": "tactical_nuclear_standdown",
+      "GB": "elevated_readiness_but_ceasefire",
+      "FI": "elevated_readiness_but_ceasefire",
+      "SE": "elevated_readiness_but_ceasefire",
+      "BY": "ceasefire_consolidation"
+    },
+    "markets": {
+      "oil_price": 107.5,
+      "euro_usd": 0.99,
+      "gas_price_eu": 10.5,
+      "stock_indices": "nervous, -2% on reports",
+      "stock_indices_change": -8.0
+    },
+    "sanctions": [
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "secondary_sanctions_on_financial_sector"
+      },
+      {
+        "from": "EU",
+        "target": "RU",
+        "type": "additional_energy_sector_restrictions"
+      },
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "complete_financial_freeze_and_technology_sanctions"
+      },
+      {
+        "from": "EU",
+        "target": "RU",
+        "type": "complete_energy_sector_embargo"
+      }
+    ],
+    "trade_disruptions": [
+      "Shipping insurance premiums in Baltic Sea rise 200-300% due to military presence",
+      "Baltic shipping closed to non-military vessels",
+      "Russian financial system isolated",
+      "EU energy imports from Russia cut"
+    ],
+    "diplomatic_relations": {
+      "RU": {
+        "US": -3,
+        "PL": -3,
+        "NATO": -1,
+        "DE": -1,
+        "EU": -3
+      },
+      "US": {
+        "RU": -4,
+        "DE": 1,
+        "NATO": 5
+      },
+      "DE": {
+        "RU": -2,
+        "NATO": 2,
+        "US": 1,
+        "PL": 0
+      },
+      "PL": {
+        "DE": 1,
+        "US": 5,
+        "RU": -3,
+        "NATO": 3,
+        "BY": -3
+      },
+      "FR": {
+        "RU": -4,
+        "NATO": 3,
+        "US": 1
+      },
+      "GB": {
+        "RU": -4,
+        "NATO": 4,
+        "US": 1
+      },
+      "EE": {
+        "RU": -5
+      },
+      "LT": {
+        "NATO": 3,
+        "RU": -4
+      },
+      "LV": {
+        "NATO": 3,
+        "RU": -4
+      },
+      "TR": {
+        "RU": 1,
+        "US": 1,
+        "NATO": 2
+      }
+    },
+    "treaties_invoked": [
+      "NATO Article 5 (Lithuania, Latvia, Estonia)",
+      "{'treaty': 'NATO_ARTICLE_5', 'invoked_by': ['LT', 'LV', 'EE'], 'status': 'active_with_disputed_implementation'}",
+      "{'treaty': 'Ankara_Ceasefire_Framework', 'parties': ['RU', 'US', 'NATO'], 'status': 'agreed_in_principle'}"
+    ],
+    "un_resolutions": [
+      "{'number': '2025/12', 'sponsor': 'US', 'title': 'Urgent Humanitarian Assistance for Lithuanian Displacement Crisis', 'status': 'in_negotiation'}",
+      "{'number': '2026/02', 'sponsor': 'TR', 'title': 'Emergency Ceasefire and Humanitarian Corridors for Baltic Crisis', 'status': 'emergency_session_called'}",
+      "{'number': '2026/03', 'sponsor': 'TR', 'title': 'Emergency Humanitarian Ceasefire and Civilian Evacuation Protocol for Baltic Crisis', 'status': 'passed_with_unanimous_support'}",
+      "{'number': '2026/04', 'sponsor': 'TR', 'title': 'UN-Turkish Verification Commission', 'status': 'passed'}"
+    ],
+    "nato_alert_level": "article5",
+    "nato_consensus": {
+      "US": "ceasefire_seeking",
+      "LT": "humanitarian_ceasefire",
+      "LV": "ceasefire_with_permanence",
+      "EE": "ceasefire_with_permanence",
+      "GB": "ceasefire_with_forward_presence",
+      "FR": "ceasefire_with_deterrence",
+      "DE": "ceasefire_negotiation",
+      "PL": "ceasefire_with_guarantees",
+      "NATO": "ceasefire_active_verification"
+    },
+    "corridor_control": "contested_ceasefire_managed",
+    "nuclear_posture": {
+      "RU": "peacetime",
+      "US": "peacetime",
+      "GB": "peacetime",
+      "FR": "peacetime"
+    },
+    "nuclear_detonations": [],
+    "public_opinion": {
+      "PL": {
+        "war_support": 80,
+        "government_approval": 75,
+        "gov_approval": 70
+      },
+      "DE": {
+        "war_support": 35,
+        "government_approval": 42,
+        "gov_approval": 35
+      },
+      "FR": {
+        "war_support": 42,
+        "government_approval": 42,
+        "gov_approval": 50
+      },
+      "US": {
+        "war_support": 38,
+        "government_approval": 52,
+        "gov_approval": 48
+      },
+      "GB": {
+        "war_support": 52,
+        "government_approval": 53,
+        "gov_approval": 58
+      },
+      "LT": {
+        "war_support": 80,
+        "government_approval": 59,
+        "gov_approval": 65
+      },
+      "LV": {
+        "war_support": 78,
+        "government_approval": 55,
+        "gov_approval": 60
+      },
+      "EE": {
+        "war_support": 80,
+        "government_approval": 60,
+        "gov_approval": 62
+      },
+      "RU": {
+        "war_support": 52,
+        "government_approval": 62,
+        "gov_approval": 65
+      },
+      "BY": {
+        "war_support": 35,
+        "gov_approval": 48
+      }
+    },
+    "refugee_flows": [
+      {
+        "from": "LT",
+        "to": "PL",
+        "count": 5000,
+        "status": "in_transit"
+      },
+      {
+        "from": "LT",
+        "to": "RU_occupied_zone",
+        "count": 7000,
+        "status": "trapped_behind_belarusian_lines"
+      },
+      {
+        "from": "PL_border",
+        "to": "PL_interior",
+        "count": 5000,
+        "status": "evacuated"
+      }
+    ],
+    "humanitarian_crisis_level": {
+      "LT": 3,
+      "BY": 3,
+      "RU": 2
+    },
+    "cyber_operations": [
+      {
+        "attacker": "RU",
+        "target": "LT",
+        "type": "infrastructure",
+        "severity": "medium",
+        "infrastructure_affected": "comms"
+      },
+      {
+        "attacker": "EE",
+        "target": "RU",
+        "type": "infrastructure",
+        "severity": "high",
+        "infrastructure_affected": "power_grid"
+      },
+      {
+        "attacker": "RU",
+        "target": "NATO",
+        "type": "infrastructure",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "GB",
+        "target": "RU",
+        "type": "espionage",
+        "severity": "high",
+        "infrastructure_affected": "military_c2"
+      }
+    ],
+    "infrastructure_status": {
+      "LT": {
+        "power_grid": 8,
+        "comms": 8,
+        "financial": 10,
+        "military_c2": 8
+      },
+      "PL": {
+        "power_grid": 10,
+        "comms": 10,
+        "financial": 9,
+        "military_c2": 10
+      },
+      "RU": {
+        "power_grid": 6,
+        "comms": 10,
+        "financial": 2,
+        "military_c2": 8
+      },
+      "NATO": {
+        "power_grid": 10,
+        "comms": 10,
+        "financial": 9,
+        "military_c2": 8
+      }
+    },
+    "recent_events": [
+      "Ankara summit produces 90-day humanitarian ceasefire with verification",
+      "Phased sanctions relief framework agreed: 30% lift after compliance",
+      "Humanitarian evacuation of 7,000 trapped Lithuanians begins",
+      "NATO security guarantee formalization scheduled for Day 30",
+      "US 101st Airborne arrives Poland, French carrier arrives Baltic"
+    ],
+    "media_headlines": [
+      "ANKARA BREAKTHROUGH: 90-day ceasefire agreed after historic summit",
+      "HUMANITARIAN CORRIDOR OPENS: Evacuation of 7,000 trapped begins",
+      "SANCTIONS RELIEF FRAMEWORK: 30% US sanctions lift after compliance checkpoint",
+      "SCHOLZ COALITION SAVED: German Chancellor claims diplomatic victory",
+      "NATO SECURITY GUARANTEED: Baltic states secure treaty-formalized protection",
+      "OIL PRICES STABILIZE: Ceasefire optimism drives oil to $107.5"
+    ],
+    "_nuclear_penalty_applied": [],
+    "_oil_penalty_last_threshold": 120.0,
+    "_gas_sanction_count_applied": 4,
+    "_gm_set_nuclear_this_round": []
+  }
+}

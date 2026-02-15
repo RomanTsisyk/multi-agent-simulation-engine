@@ -1,0 +1,2248 @@
+{
+  "round": 16,
+  "runner": "claude-code",
+  "briefing": "SITUATION BRIEFING -- Round 16\nGame time: Day 16, 06:00 CET\n\nThe Suwalki Gap crisis has entered its pre-Stockholm Conference phase. All diplomatic roads now lead to Stockholm (March 15-17), where 39 delegations including 14 heads of state or government will negotiate the Milestone 2 framework for permanent post-crisis security architecture. The Ankara co-guarantor trilateral (March 10-11) serves as the final preparatory diplomatic event, with UK, France, and Turkey refining enforcement protocols and testing Russian flexibility through informal channels.\n\nMilitarily, NATO's permanent eastern flank architecture advances toward irreversibility. Germany's first ammunition pre-positioning shipment departing Grafenwohr for Rukla represents a qualitative escalation from construction to combat capability. Camp Adazi's revised IOC Day 28 timeline puts Canadian permanent basing ahead of schedule. Polish 18th Mechanized achieves combined arms proficiency on US-transferred equipment. The US Phase 1 drawdown continues with the second battalion departing Augustow. The corridor processes its 114th transit with zero violations under the Czech Verification Ladder's Level 1 assessment.\n\nThe M2 negotiating framework has crystallized around three tracks: (1) the Czech Verification Ladder providing tiered escalation from satellite monitoring through OSCE inspection to co-guarantor enforcement, integrating UK-France UNSC 2741 provisions and US transparency-plus formula; (2) the US-Russia nuclear de-escalation protocol proposing a 48-hour synchronized window for simultaneous ELEVATED-to-PEACETIME transition at M2 certification; (3) the reciprocal satellite monitoring framework with Chang Guang imagery providing technical infrastructure for both Kaliningrad and NATO base verification. Russia signals flexibility on S-400 verification but maintains Iskander 70km grandfather clause as non-negotiable.\n\nEconomically, the crisis is effectively resolved in market terms: oil at $86.50 within $1.50 of pre-crisis baseline, Baltic insurance at standard commercial terms, European gas prices normalized, stock indices recovered. The remaining economic lever is China's PBoC $3B conditional on M2 and EU phased sanctions relief. Belarus proposes a second prisoner release. Hungary acquiesces on Article 5 de-escalation. The stage is set for Stockholm to determine whether M2 can be achieved through the emerging compromise framework.",
+  "narrative": "Day 16 of the Suwalki Gap crisis marks the decisive pivot from crisis management to post-crisis architecture construction. The Stockholm Conference, now just days away, has become the gravitational center of European diplomacy, with 39 delegations confirmed and 14 heads of state or government attending. Every major actor spent the past 12 hours refining negotiating positions, dispatching delegations, and maneuvering for advantage in what may become the most consequential European security conference since Helsinki 1975.\n\nThe Ankara co-guarantor preparatory meeting (March 10-11) emerges as the critical pre-Stockholm diplomatic event. Turkey's MIT intelligence assessment -- that Russia's Stockholm delegation has authority to negotiate on reciprocity formulas and S-400 verification but not on Iskander garrison status -- is shared with UK and French delegations, providing Western negotiators with crucial intelligence on Russian red lines. The informal 'corridor conversation' format proposed by Turkey creates a discreet channel for testing Russian flexibility before the public conference. Meanwhile, the US nuclear de-escalation protocol advances: Russia 'studies with interest' the 48-hour synchronized window for simultaneous ELEVATED-to-PEACETIME transition and proposes bilateral military-to-military technical consultations at Stockholm margins.\n\nOn the ground, the permanent architecture takes another step toward irreversibility. Germany's Zeitenwende East at Rukla reaches a milestone: the first containerized pre-positioned ammunition shipment departs Grafenwohr, transforming the construction site into a nascent combat capability. Camp Adazi achieves revised IOC assessment of Day 28 as Canadian engineers accelerate construction. The Czech M2 Verification Ladder paper -- now integrating UK-France UNSC 2741 provisions and US transparency-plus formulas into a unified tiered framework -- emerges as the intellectual foundation for Stockholm verification negotiations. Six additional corridor transits bring the cumulative total to 114 with zero violations, further reinforcing the case for M2 progression.\n\nThe economic normalization continues: oil at $86.50 approaches the pre-crisis $85 baseline, Baltic shipping insurance is at standard commercial terms, and China's PBoC signals through BIS channels that European capital market access will improve upon M2 certification. Belarus's offer of a second prisoner release and expanded OSCE monitoring, combined with Hungary's acquiescence on Article 5 de-escalation, indicate that even the most reluctant actors see value in rapid M2 resolution.",
+  "country_decisions": [
+    {
+      "country": "PL",
+      "actions": [
+        "TARCZA POKOJU Phase 2 Day 7: third battalion familiarization rotation. 72-hour cycle validated for indefinite corridor security.",
+        "Polish-German integrated air defense corridor tabletop exercise. IRIS-T SLM integration planning.",
+        "18th Mech 72-hour brigade-level defensive exercise certifying combined arms on US equipment. V Corps supply agreement formalized.",
+        "Stockholm position paper: corridor permanent architecture as template, preserved Lithuanian suspension rights."
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "PL",
+          "to": "DE",
+          "channel": "private",
+          "message": "Joint Stockholm presentation on integrated corridor air defense."
+        },
+        {
+          "from": "PL",
+          "to": "US",
+          "channel": "private",
+          "message": "V Corps supply agreement approved. BSE Fund $15M for corridor infrastructure welcomed."
+        },
+        {
+          "from": "PL",
+          "to": "LT",
+          "channel": "private",
+          "message": "Phase 3 passenger rail coordination meeting proposed. Joint ABW-VSD security protocol working group."
+        }
+      ]
+    },
+    {
+      "country": "LT",
+      "actions": [
+        "114 transits processed (6 new), 42-minute processing. Czech Verification Ladder Level 1.",
+        "Kaunas NATO Forward Logistics Hub application submitted to SHAPE.",
+        "Iron Wolf third battalion combined arms certification at Rukla with German brigade.",
+        "Stockholm delegation: Nauseda leads, binding M2 verification with preserved suspension rights."
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "LT",
+          "to": "SE",
+          "channel": "private",
+          "message": "Supports Stockholm Principles with explicit suspension rights preservation."
+        },
+        {
+          "from": "LT",
+          "to": "DE",
+          "channel": "private",
+          "message": "Ammunition storage acceleration and Iron Wolf third battalion certification requested."
+        }
+      ]
+    },
+    {
+      "country": "LV",
+      "actions": [
+        "Camp Adazi Phase 1: fourth module, roof trusses, ammo bunker pour. IOC Day 28.",
+        "7-hour rapid deployment to Daugavpils (1-hour improvement).",
+        "Permanent basing model paper for Stockholm."
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "LV",
+          "to": "CA",
+          "channel": "private",
+          "message": "IOC Day 28 confirmed. Joint Stockholm presentation on permanent basing template."
+        }
+      ]
+    },
+    {
+      "country": "EE",
+      "actions": [
+        "Tapa C2 ground floor framework complete. Cyber Command secure suite installation.",
+        "Persistent Russian C2 access maintained. Secondary vector identified through port authority.",
+        "Baltic Cyber Shield planning conference hosted.",
+        "Javelin FMS expedited for Narva anti-armor gap."
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "EE",
+          "to": "GB",
+          "channel": "private",
+          "message": "Tapa construction on track. Cyber-kinetic integration IOC Day 25 requested."
+        },
+        {
+          "from": "EE",
+          "to": "US",
+          "channel": "private",
+          "message": "Javelin FMS request. Latest intelligence shared through Five Eyes."
+        }
+      ]
+    },
+    {
+      "country": "US",
+      "actions": [
+        "Phase 1 drawdown: second battalion begins movement to Grafenwohr. Forward presence reduces to ~400 support.",
+        "Nuclear de-escalation protocol updated: 48-hour synchronized window with re-escalation clause. Bilateral consultations proposed at Stockholm.",
+        "Stockholm delegation: Rubio leads. Transparency-plus formula circulated. BSE Fund $50M second tranche.",
+        "Ford CSG repositions to Norwegian Sea for joint operations and ARCTIC GUARDIAN observation."
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "US",
+          "to": "RU",
+          "channel": "backchannel",
+          "message": "Updated nuclear de-escalation protocol. 48-hour window. NNSA ready. Bilateral consultations at Stockholm margins."
+        },
+        {
+          "from": "US",
+          "to": "GB",
+          "channel": "private",
+          "message": "Transparency-plus formula shared. Reciprocal imagery limited to perimeter/heavy equipment."
+        },
+        {
+          "from": "US",
+          "to": "PL",
+          "channel": "private",
+          "message": "V Corps supply agreement approved. BSE Fund $15M for corridor. Stockholm coordination proposed."
+        }
+      ]
+    },
+    {
+      "country": "GB",
+      "actions": [
+        "STEADFAST GUARDIAN: C2 ground floor complete, first habitable block Day 25.",
+        "Ankara co-guarantor prep: CEP refinement, M2 verification coordination with France and Turkey.",
+        "ARCTIC GUARDIAN Day 4: live-fire amphibious withdrawal. Exercise schedule published.",
+        "P-8 Poseidon 2 daily sorties. HMS Prince of Wales Q2 rotation confirmed."
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "GB",
+          "to": "FR",
+          "channel": "private",
+          "message": "Pre-Ankara bilateral: aligned on OSCE ground verification at Level 2+ with US transparency-plus."
+        },
+        {
+          "from": "GB",
+          "to": "TR",
+          "channel": "private",
+          "message": "CEP enforcement protocol refinements shared. Request Turkish assessment of Russian delegation."
+        }
+      ]
+    },
+    {
+      "country": "FR",
+      "actions": [
+        "CAESAR 8/10 crew certification begins. Autonomous operations target Day 21.",
+        "WEIMAR SHIELD deployment order: 12th Cuirassier to Kybartai late April.",
+        "Ankara co-guarantor prep: UNSC 2741 Level 2+ integration, OSCE ground verification preserved.",
+        "SSN Suffren Northern Fleet monitoring: routine confirmed."
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "FR",
+          "to": "GB",
+          "channel": "private",
+          "message": "Concurs on pre-Ankara alignment. UNSC 2741 notification at Level 2+ essential."
+        },
+        {
+          "from": "FR",
+          "to": "DE",
+          "channel": "private",
+          "message": "12th Cuirassier WEIMAR SHIELD confirmed. DICE-EF infrastructure support requested."
+        }
+      ]
+    },
+    {
+      "country": "DE",
+      "actions": [
+        "Zeitenwende East: ammo storage 40%, first ammunition shipment departing Grafenwohr for Rukla. Advance party augmented to 70.",
+        "Combined arms live-fire with Iron Wolf third battalion at Rukla.",
+        "DICE-EF EUR 40M surveillance contracts awarded. EUR 50M joint procurement framework.",
+        "Stockholm: SIPRI-mediated civilian verification, corridor model for confidence building."
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "DE",
+          "to": "PL",
+          "channel": "private",
+          "message": "Joint Stockholm presentation accepted. Patriot fire control linkage evaluation underway."
+        },
+        {
+          "from": "DE",
+          "to": "LT",
+          "channel": "private",
+          "message": "First ammunition shipment departing. Lithuanian rail coordination for heavy transport through Kaunas requested."
+        },
+        {
+          "from": "DE",
+          "to": "US",
+          "channel": "private",
+          "message": "Joint Stockholm presentation on permanent architecture. BSE-DICE complementary mapping accepted."
+        }
+      ]
+    },
+    {
+      "country": "FI",
+      "actions": [
+        "Demobilized to 16,500. SIGINT max. ZAPAD-SPRING paper-based confirmed.",
+        "200 OSCE observers. Second inspection report: 114 transits zero violations.",
+        "NIDA Phase 2 technical working group convened with Norway.",
+        "Stockholm: Finland offers to lead OSCE M2 verification mission."
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "FI",
+          "to": "SE",
+          "channel": "private",
+          "message": "Supports Stockholm Principles. OSCE inspection leadership as M2 verification model offered."
+        },
+        {
+          "from": "FI",
+          "to": "NO",
+          "channel": "private",
+          "message": "NIDA Phase 2 Norwegian radar integration working group convened."
+        }
+      ]
+    },
+    {
+      "country": "SE",
+      "actions": [
+        "Stockholm Conference: 39 delegations, annotated Principles produced. Security preparations: 2,000 police, EOD sweeps.",
+        "FRA intelligence: Russian delegation authorized for reciprocity but not Iskander.",
+        "NIDA maintained. Gripen CAP 1 hr/day.",
+        "Four negotiating tracks identified and working group chairs designated."
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "SE",
+          "to": "US",
+          "channel": "private",
+          "message": "FRA assessment shared: Russian delegation authorized for reciprocity, not Iskander. Recommend bilateral at margins."
+        },
+        {
+          "from": "SE",
+          "to": "RU",
+          "channel": "public",
+          "message": "Sweden welcomes Grushko delegation. Annotated framework transmitted. Good faith engagement reaffirmed."
+        }
+      ]
+    },
+    {
+      "country": "NO",
+      "actions": [
+        "Maximum gas exports sustained. Troll and Ormen Lange elevated production.",
+        "ARCTIC GUARDIAN Day 4: joint live-fire with UK. Exercise schedule published.",
+        "Northern Fleet monitoring: Marjata in Barents, Akula tracked, routine confirmed.",
+        "NIDA Phase 2: 15 coastal radar sites surveyed. Parliamentary briefing scheduled."
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "NO",
+          "to": "FI",
+          "channel": "private",
+          "message": "NIDA Phase 2 participation confirmed. 15 radar sites surveyed."
+        },
+        {
+          "from": "NO",
+          "to": "GB",
+          "channel": "private",
+          "message": "ARCTIC GUARDIAN exercise schedule published. Permanent liaison officer at Northwood proposed."
+        }
+      ]
+    },
+    {
+      "country": "DK",
+      "actions": [
+        "Korsoer: 26 transits/day incl. 3 Russian-flagged cleared. Korsoer Model paper finalized.",
+        "TCG Istanbul Copenhagen port call. Danish-Turkish MoU signed.",
+        "Korsoer Model Stockholm presentation prepared: template for maritime confidence building."
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "DK",
+          "to": "TR",
+          "channel": "private",
+          "message": "Port call logistics confirmed. Joint patrol MoU signed. Quarterly exercises Q2 2026."
+        },
+        {
+          "from": "DK",
+          "to": "SE",
+          "channel": "private",
+          "message": "Korsoer Model submitted. Joint Nordic maritime presentation proposed."
+        }
+      ]
+    },
+    {
+      "country": "CA",
+      "actions": [
+        "Camp Adazi: fourth module arriving, roof trusses, ammo bunker pour. IOC Day 28.",
+        "PPCLI 48-hour exercise: 7-hour deployment to Daugavpils.",
+        "Stockholm: Camp Adazi permanent basing model as NATO template."
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "CA",
+          "to": "LV",
+          "channel": "private",
+          "message": "IOC Day 28 confirmed. Joint Stockholm presentation."
+        },
+        {
+          "from": "CA",
+          "to": "US",
+          "channel": "private",
+          "message": "BSE Fund welcomed. Joint North American Stockholm side event proposed."
+        }
+      ]
+    },
+    {
+      "country": "NL",
+      "actions": [
+        "Tromp Baltic transit Day 3. ETA Day 18.",
+        "QRF 17-minute response. Dutch-Belgian QRF resubmitted.",
+        "Stockholm: permanent corridor QRF model."
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "NL",
+          "to": "BE",
+          "channel": "private",
+          "message": "17-min QRF with Belgian integration. Joint Stockholm presentation."
+        },
+        {
+          "from": "NL",
+          "to": "DK",
+          "channel": "private",
+          "message": "Tromp transits Korsoer. Dutch participation in center as fifth nation proposed."
+        }
+      ]
+    },
+    {
+      "country": "BE",
+      "actions": [
+        "Article 5 de-escalation framework refined with 12 allies. 90-day NAC review at M2.",
+        "450 refugee returns processed. EUR 3.5M 60% disbursed.",
+        "50-troop permanent QRF rotation confirmed."
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "BE",
+          "to": "NL",
+          "channel": "private",
+          "message": "50-troop rotation confirmed. Joint Article 5 de-escalation presentation at Stockholm."
+        },
+        {
+          "from": "BE",
+          "to": "LT",
+          "channel": "private",
+          "message": "450 returns processed. Humanitarian coordination extension through Stockholm."
+        }
+      ]
+    },
+    {
+      "country": "CZ",
+      "actions": [
+        "Prague COE first quarterly assessment: Level 1, 114 transits zero violations.",
+        "Enhanced M2 Verification Ladder integrating UNSC 2741 and transparency-plus.",
+        "Verification procedure knowledge transfer to Lithuanian VSD."
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "CZ",
+          "to": "SE",
+          "channel": "private",
+          "message": "Enhanced Verification Ladder submitted. Proposes chairing verification working group."
+        },
+        {
+          "from": "CZ",
+          "to": "GB",
+          "channel": "private",
+          "message": "UNSC 2741 integration at Level 2+. UK endorsement of Czech chair requested."
+        }
+      ]
+    },
+    {
+      "country": "RO",
+      "actions": [
+        "Aegis Ashore integrated exercise: 200+ contacts tracked.",
+        "B9 paper finalized and circulated to all members.",
+        "F-16 Baltic Air Policing Q3 2026 offer: 4 F-16AM, 80 personnel."
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "RO",
+          "to": "PL",
+          "channel": "private",
+          "message": "B9 paper finalized. Polish co-sponsorship requested."
+        },
+        {
+          "from": "RO",
+          "to": "US",
+          "channel": "private",
+          "message": "BSE Fund for Constanta requested. F-16 BAP offer. EUCOM coordination."
+        }
+      ]
+    },
+    {
+      "country": "RU",
+      "actions": [
+        "Stockholm delegation: Grushko leads 15-person team. Reciprocity formula: satellite monitoring if NATO bases get identical treatment. S-400 flexible, Iskander 70km non-negotiable.",
+        "Kaliningrad: Baltic Fleet 12nm. FSB fourth sweep: port authority vulnerability identified, remediation underway. C2 domestic alternatives 78%.",
+        "ZAPAD-SPRING: detailed CPX directive. OSCE invitation transmitted. 250 observers offered.",
+        "Nuclear de-escalation: 'studies with interest' US 48-hour window. Bilateral military consultations proposed at Stockholm."
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "RU",
+          "to": "US",
+          "channel": "backchannel",
+          "message": "Patrushev: Protocol studied with interest. Bilateral military consultations at Stockholm proposed. Iskander is sovereign right."
+        },
+        {
+          "from": "RU",
+          "to": "TR",
+          "channel": "private",
+          "message": "Grushko delegation confirmed for Ankara. Informal contact with UK/France facilitated. S-400 flexible, Iskander non-negotiable."
+        },
+        {
+          "from": "RU",
+          "to": "CN",
+          "channel": "private",
+          "message": "Support requested at Stockholm for reciprocity principle. $3B conditional on M2 appreciated."
+        },
+        {
+          "from": "RU",
+          "to": "SE",
+          "channel": "public",
+          "message": "15-person delegation confirmed. Stockholm Principles commended. Constructive engagement prepared."
+        }
+      ]
+    },
+    {
+      "country": "BY",
+      "actions": [
+        "Grodno: 800+/day crossings. OSCE 10 monitors. Border coordination with Lithuanian VSD.",
+        "Nuclear verification monthly report transmitted. All warheads stationary.",
+        "Stockholm: deputy minister delegation. Expanded OSCE monitoring proposed.",
+        "Second prisoner release proposed: three political prisoners for US acknowledgment."
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "BY",
+          "to": "US",
+          "channel": "backchannel",
+          "message": "Second prisoner release: three for transfer. Request US acknowledgment and fertilizer sanctions relief."
+        },
+        {
+          "from": "BY",
+          "to": "RU",
+          "channel": "private",
+          "message": "Supports reciprocity. Grodno normalized. Nuclear verification continues. Guidance on OSCE expansion requested."
+        },
+        {
+          "from": "BY",
+          "to": "LT",
+          "channel": "private",
+          "message": "Border coordination upgrade proposed: shared database, joint incident response, quarterly review."
+        }
+      ]
+    },
+    {
+      "country": "TR",
+      "actions": [
+        "Ankara March 10-11 trilateral finalized. MIT director attends. Corridor conversation format proposed.",
+        "MIT assessment shared: Russian reciprocity negotiable, Iskander requires Kremlin decision.",
+        "TCG Istanbul Copenhagen: MoU signed. Joint patrols planned.",
+        "F-16 Block 70 Q4 2026 confirmed. Konya interoperability certification."
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "TR",
+          "to": "GB",
+          "channel": "private",
+          "message": "Ankara logistics confirmed. MIT assessment: Iskander requires Kremlin, S-400 negotiable through Grushko."
+        },
+        {
+          "from": "TR",
+          "to": "RU",
+          "channel": "private",
+          "message": "Russian advance team welcome at Ankara. Informal contacts facilitated."
+        },
+        {
+          "from": "TR",
+          "to": "DK",
+          "channel": "private",
+          "message": "MoU signed. Joint patrol schedule and quarterly exercises."
+        }
+      ]
+    },
+    {
+      "country": "HU",
+      "actions": [
+        "Stockholm: Szijjarto leads. Energy security annex proposed.",
+        "EUR 1.2B structural funds received. Additional 2% gas price cut.",
+        "Acquiesces on M2/Article 5 de-escalation conditional on structural funds and energy."
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "HU",
+          "to": "DE",
+          "channel": "private",
+          "message": "Will support M2 and Article 5 de-escalation if structural funds continue and energy protected."
+        },
+        {
+          "from": "HU",
+          "to": "RU",
+          "channel": "private",
+          "message": "Supports rapid M2. TurkStream assurance requested."
+        }
+      ]
+    },
+    {
+      "country": "CN",
+      "actions": [
+        "Six-Point Principles refined for Stockholm. Vice-ministerial delegation.",
+        "PBoC $8B maintained. $3B auto-activation at M2 reconfirmed. BIS signals to Europe.",
+        "Chang Guang second imagery batch to SIPRI: Kaliningrad + 3 NATO bases.",
+        "Vice-ministerial trade delegation: Belt and Road, corridor rail investment, tech cooperation."
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "CN",
+          "to": "RU",
+          "channel": "private",
+          "message": "$3B auto-activation at M2 reconfirmed. Recommend flexibility on S-400 to secure M2."
+        },
+        {
+          "from": "CN",
+          "to": "US",
+          "channel": "private",
+          "message": "Bilateral proposed at Stockholm margins: trade normalization, satellite verification cooperation."
+        },
+        {
+          "from": "CN",
+          "to": "SE",
+          "channel": "private",
+          "message": "Vice-ministerial delegation confirmed. Six-Point Principles submitted. Verification working group participation requested."
+        }
+      ]
+    }
+  ],
+  "resolution": {
+    "narrative": "Day 16 of the Suwalki Gap crisis marks the decisive pivot from crisis management to post-crisis architecture construction. The Stockholm Conference, now just days away, has become the gravitational center of European diplomacy, with 39 delegations confirmed and 14 heads of state or government attending. Every major actor spent the past 12 hours refining negotiating positions, dispatching delegations, and maneuvering for advantage in what may become the most consequential European security conference since Helsinki 1975.\n\nThe Ankara co-guarantor preparatory meeting (March 10-11) emerges as the critical pre-Stockholm diplomatic event. Turkey's MIT intelligence assessment -- that Russia's Stockholm delegation has authority to negotiate on reciprocity formulas and S-400 verification but not on Iskander garrison status -- is shared with UK and French delegations, providing Western negotiators with crucial intelligence on Russian red lines. The informal 'corridor conversation' format proposed by Turkey creates a discreet channel for testing Russian flexibility before the public conference. Meanwhile, the US nuclear de-escalation protocol advances: Russia 'studies with interest' the 48-hour synchronized window for simultaneous ELEVATED-to-PEACETIME transition and proposes bilateral military-to-military technical consultations at Stockholm margins.\n\nOn the ground, the permanent architecture takes another step toward irreversibility. Germany's Zeitenwende East at Rukla reaches a milestone: the first containerized pre-positioned ammunition shipment departs Grafenwohr, transforming the construction site into a nascent combat capability. Camp Adazi achieves revised IOC assessment of Day 28 as Canadian engineers accelerate construction. The Czech M2 Verification Ladder paper -- now integrating UK-France UNSC 2741 provisions and US transparency-plus formulas into a unified tiered framework -- emerges as the intellectual foundation for Stockholm verification negotiations. Six additional corridor transits bring the cumulative total to 114 with zero violations, further reinforcing the case for M2 progression.\n\nThe economic normalization continues: oil at $86.50 approaches the pre-crisis $85 baseline, Baltic shipping insurance is at standard commercial terms, and China's PBoC signals through BIS channels that European capital market access will improve upon M2 certification. Belarus's offer of a second prisoner release and expanded OSCE monitoring, combined with Hungary's acquiescence on Article 5 de-escalation, indicate that even the most reluctant actors see value in rapid M2 resolution.",
+    "world_state_updates": {
+      "game_time": "Day 16, 06:00 CET",
+      "military_units_add": [],
+      "military_units_remove": [],
+      "military_units_update": [
+        {
+          "name": "russian_kaliningrad_forces",
+          "location": "Kaliningrad Oblast -- M1 compliant. Iskander TELs garrisoned within 70km. S-400 passive. GLONASS 10/10. Baltic Fleet within 12nm. Fourth FSB counterintelligence sweep: Kaliningrad port authority commercial network audit identifies potential secondary vulnerability, remediation underway. C2 domestic alternatives at 78%. Estonian primary vector access persists.",
+          "readiness": "6",
+          "strength": "8",
+          "casualties": "0",
+          "supply_level": "10",
+          "morale": "7"
+        },
+        {
+          "name": "russian_western_district",
+          "location": "Western Military District, Russia -- peacetime posture. ZAPAD-SPRING CPX April 15-25 detailed planning directive issued. Paper-based exercise confirmed. OSCE observation invitation formally transmitted through Vienna Document. 250 observers offered. Routine activity.",
+          "readiness": "5",
+          "strength": "8",
+          "casualties": "0",
+          "supply_level": "9",
+          "morale": "6"
+        },
+        {
+          "name": "belarus_forces",
+          "location": "Belarus - Gozha. Peacetime. Grodno empty. OSCE monitoring center steady-state with 10 international monitors. 800+/day civilian crossings at Grodno-Kybartai. KGB 1046th -- all warheads stationary, monthly verification transmitted.",
+          "readiness": "4",
+          "strength": "4",
+          "casualties": "0",
+          "supply_level": "8",
+          "morale": "6"
+        },
+        {
+          "name": "nato_efp_lithuania",
+          "location": "Lithuania - Rukla and Kybartai. German permanent brigade. Zeitenwende East: ammunition storage structural steel 40% complete, vehicle maintenance exterior walls finished, interior rough-in begins. Advance party augmented to 70 Bundeswehr specialists. First containerized ammunition shipment (120mm, 155mm) departing Grafenwohr. DICE-EF EUR 125M first tranche disbursing. Combined arms live-fire with Iron Wolf third battalion.",
+          "readiness": "9",
+          "strength": "9",
+          "casualties": "0",
+          "supply_level": "10",
+          "morale": "10"
+        },
+        {
+          "name": "nato_efp_latvia",
+          "location": "Latvia - Camp Adazi. Permanent construction Phase 1: fourth barracks module arriving from Riga. Vehicle maintenance facility roof trusses installed. Ammunition bunker reinforced concrete pour completed. Revised IOC: Day 28. PPCLI 48-hour defensive exercise: 7-hour rapid deployment to Daugavpils achieved.",
+          "readiness": "8",
+          "strength": "7",
+          "casualties": "0",
+          "supply_level": "9",
+          "morale": "10"
+        },
+        {
+          "name": "nato_efp_estonia",
+          "location": "Estonia - Tapa. STEADFAST GUARDIAN permanent brigade. C2 center ground floor structural framework complete. First secure communications suite installation begins. GBP 45M on schedule Q3 2026.",
+          "readiness": "8",
+          "strength": "6",
+          "casualties": "0",
+          "supply_level": "10",
+          "morale": "10"
+        },
+        {
+          "name": "nato_efp_poland",
+          "location": "Poland - Suwalki corridor. Sustained deterrence. 114 cumulative transits processed. Three daily freight trains. Phase 3 passenger rail: joint Polish-Lithuanian security protocol working group established.",
+          "readiness": "9",
+          "strength": "5",
+          "casualties": "0",
+          "supply_level": "9",
+          "morale": "9"
+        },
+        {
+          "name": "us_forces_poland",
+          "location": "Poland - V Corps permanent HQ Poznan. Phase 1 drawdown continuing. BSE Fund second tranche $50M announced ($15M earmarked for Polish corridor infrastructure). Pentagon sustains 'reorganization not reduction' framing.",
+          "readiness": "8",
+          "strength": "7",
+          "casualties": "0",
+          "supply_level": "9",
+          "morale": "9"
+        },
+        {
+          "name": "us_vcorps_forward",
+          "location": "Poland - Augustow area. Phase 1 drawdown: second battalion (~800) begins movement to Grafenwohr. V Corps forward presence reducing to support elements (~400) and liaison team.",
+          "readiness": "6",
+          "strength": "3",
+          "casualties": "0",
+          "supply_level": "9",
+          "morale": "9"
+        },
+        {
+          "name": "polish_forces",
+          "location": "Poland - 16th Mechanized at Augustow. GROM permanent. TARCZA POKOJU Phase 2 Day 7: third battalion begins familiarization rotation. 72-hour cycle operational tempo validated for indefinite corridor security.",
+          "readiness": "9",
+          "strength": "7",
+          "casualties": "0",
+          "supply_level": "9",
+          "morale": "9"
+        },
+        {
+          "name": "polish_18th_mechanized",
+          "location": "Poland - Augustow/Elk. Second independent 72-hour brigade-level defensive exercise with US M1A2/M2A3. Combined arms proficiency certified. V Corps supply agreement for spare parts pipeline formalized.",
+          "readiness": "9",
+          "strength": "8",
+          "casualties": "0",
+          "supply_level": "9",
+          "morale": "9"
+        },
+        {
+          "name": "polish_11th_armoured",
+          "location": "Poland - Goldap-Gizycko. TARCZA POKOJU Phase 2 Day 7. Reserve brigade rotation continuing. Peacetime rotation schedule.",
+          "readiness": "7",
+          "strength": "7",
+          "casualties": "0",
+          "supply_level": "9",
+          "morale": "9"
+        },
+        {
+          "name": "polish_patriot_suwalki",
+          "location": "Poland - Suwalki town. Permanent. Integrated air defense corridor tabletop exercise with Germany: Kybartai-Augustow-Goldap NATO air defense arc. German IRIS-T SLM integration planning initiated. Patriot designated anchor point.",
+          "readiness": "8",
+          "strength": "3",
+          "casualties": "0",
+          "supply_level": "9",
+          "morale": "9"
+        },
+        {
+          "name": "finnish_forces",
+          "location": "Finland - Demobilization to 16,500 (500 additional released). SIGINT maximum: ZAPAD-SPRING confirmed paper-based CPX. WMD baseline normal. NIDA 99.7% detection. 200 OSCE observers deployed. Second OSCE inspection report: 114 cumulative transits zero violations.",
+          "readiness": "5",
+          "strength": "5",
+          "casualties": "0",
+          "supply_level": "10",
+          "morale": "9"
+        },
+        {
+          "name": "uk_carrier_group",
+          "location": "Portsmouth -- HMS Queen Elizabeth 30-day maintenance cycle continuing. HMS Prince of Wales Q2 2026 Baltic rotation confirmed with Carrier Air Wing 2 F-35B. P-8 Poseidon 2 daily sorties sustained.",
+          "readiness": "6",
+          "strength": "7",
+          "casualties": "0",
+          "supply_level": "9",
+          "morale": "9"
+        },
+        {
+          "name": "uk_3commando_norway",
+          "location": "Norway - Bardufoss. ARCTIC GUARDIAN Day 4: joint live-fire amphibious withdrawal with Norwegian Coastal Rangers at Ofoten fjord. UK-Norway Arctic Operations Framework 12-month exercise schedule published. Quarterly rotations confirmed.",
+          "readiness": "8",
+          "strength": "5",
+          "casualties": "0",
+          "supply_level": "8",
+          "morale": "10"
+        },
+        {
+          "name": "french_caesar_battery",
+          "location": "Lithuania - Kybartai. 8th Lithuanian crew begins certification (8/10 total). Autonomous operations target Day 21. 'Lithuanian-French Artillery Battery' redesignation ceremony planned Day 25 upon full certification.",
+          "readiness": "6",
+          "strength": "3",
+          "casualties": "0",
+          "supply_level": "9",
+          "morale": "8"
+        },
+        {
+          "name": "french_leclerc_company",
+          "location": "France - Garrison. 12th Cuirassier Regiment platoon-plus (4 Leclerc, 2 VBCI, 30 personnel) receives WEIMAR SHIELD deployment order for Kybartai late April. Exercise scenario design coordinated with Germany and Poland.",
+          "readiness": "5",
+          "strength": "2",
+          "casualties": "0",
+          "supply_level": "10",
+          "morale": "8"
+        },
+        {
+          "name": "french_ssn_suffren",
+          "location": "North Atlantic - Normal patrol. Northern Fleet routine confirmed. Triangulation with Norwegian sonar and UK P-8. Akula-class standard patrol tracked.",
+          "readiness": "7",
+          "strength": "4",
+          "casualties": "0",
+          "supply_level": "9",
+          "morale": "8"
+        },
+        {
+          "name": "czech_mechanized_battalion",
+          "location": "Lithuania - Kybartai. 114 cumulative transits, zero violations. Prague COE first quarterly assessment under full NATO accreditation: Level 1 confirmed. Second company rotation planned Day 20. Czech training team conducts verification procedure knowledge transfer to Lithuanian VSD.",
+          "readiness": "8",
+          "strength": "6",
+          "casualties": "0",
+          "supply_level": "9",
+          "morale": "9"
+        },
+        {
+          "name": "lithuanian_iron_wolf",
+          "location": "Lithuania - Standing Corridor Mission command. 114 cumulative transits processed (6 new, 42-minute processing). Third battalion begins combined arms certification with German brigade at Rukla. Kaunas NATO Forward Logistics Hub application submitted to SHAPE.",
+          "readiness": "7",
+          "strength": "6",
+          "casualties": "0",
+          "supply_level": "9",
+          "morale": "10"
+        },
+        {
+          "name": "latvian_mechanized_brigade",
+          "location": "Latvia - Daugavpils company-plus. Lessons Learned Phase 2 implementation exercise: 36-hour rapid deployment, 7-hour full redeployment to Camp Adazi achieved (1-hour improvement). Permanent basing model paper for Stockholm.",
+          "readiness": "5",
+          "strength": "3",
+          "casualties": "0",
+          "supply_level": "9",
+          "morale": "8"
+        },
+        {
+          "name": "estonian_2nd_brigade",
+          "location": "Estonia - Narva. WINTER SHIELD after-action review published: 6-hour mobilization confirmed, Narva anti-armor gap identified. Javelin FMS request expedited. Cyber Command maintains persistent Russian C2 access. Secondary access vector identified through Kaliningrad port authority -- held in reserve. Baltic Cyber Shield planning conference hosted.",
+          "readiness": "6",
+          "strength": "5",
+          "casualties": "0",
+          "supply_level": "9",
+          "morale": "9"
+        },
+        {
+          "name": "dutch_frigate_deruyter",
+          "location": "Den Helder - Maintenance continuing. HNLMS Tromp Baltic transit Day 3, passes through Danish Straits/Korsoer center. ETA Lithuania coast Day 18.",
+          "readiness": "5",
+          "strength": "3",
+          "casualties": "0",
+          "supply_level": "9",
+          "morale": "9"
+        },
+        {
+          "name": "dutch_airmobile_battalion",
+          "location": "Lithuania - Corridor QRF permanent. Combined day/night exercise with Belgian platoon: 17-minute NH-90 response achieved. Dutch-Belgian permanent QRF proposal updated and resubmitted to NATO Standing Corridor Mission.",
+          "readiness": "7",
+          "strength": "4",
+          "casualties": "0",
+          "supply_level": "9",
+          "morale": "8"
+        },
+        {
+          "name": "swedish_gotland_brigade",
+          "location": "Sweden - Gotland. NIDA full operational capability. Gripen CAP 1 hr/day. Stockholm Conference final preparations: 39 delegations (India observer added), 14 HoS/G. Annotated Stockholm Principles incorporating all delegations' feedback produced.",
+          "readiness": "6",
+          "strength": "6",
+          "casualties": "0",
+          "supply_level": "9",
+          "morale": "8"
+        },
+        {
+          "name": "norwegian_frigate_nansen",
+          "location": "Norwegian Sea - SSBN tracking permanent. Akula tracked, standard patrol. KNM Nansen provides naval gunfire support simulation for ARCTIC GUARDIAN. Marjata maintains Barents station. NIDA Phase 2: 15 coastal radar sites surveyed for dual-use adaptation.",
+          "readiness": "8",
+          "strength": "3",
+          "casualties": "0",
+          "supply_level": "9",
+          "morale": "8"
+        },
+        {
+          "name": "danish_frigate_willemoes",
+          "location": "Danish Straits - Korsoer center full operational capability. 26 commercial transits in 24 hours including 3 Russian-flagged vessels cleared. TCG Istanbul arrives Copenhagen for 3-day port visit. Danish-Turkish maritime MoU signed at dockside ceremony. Korsoer Model paper finalized for Stockholm.",
+          "readiness": "7",
+          "strength": "3",
+          "casualties": "0",
+          "supply_level": "9",
+          "morale": "8"
+        },
+        {
+          "name": "uk_16_air_assault",
+          "location": "Estonia - Tapa. STEADFAST GUARDIAN permanent brigade. First habitable barracks block targeted Day 25. Barracks construction accelerated.",
+          "readiness": "7",
+          "strength": "4",
+          "casualties": "0",
+          "supply_level": "9",
+          "morale": "10"
+        },
+        {
+          "name": "french_naval_group",
+          "location": "Brest - Garrison. French Baltic naval drawdown complete. Maritime surveillance responsibility at Korsoer center.",
+          "readiness": "5",
+          "strength": "3",
+          "casualties": "0",
+          "supply_level": "10",
+          "morale": "9"
+        }
+      ],
+      "military_alerts": {
+        "BY": "normal",
+        "DE": "elevated",
+        "DK": "normal",
+        "EE": "elevated",
+        "FI": "normal",
+        "FR": "normal",
+        "GB": "elevated",
+        "LT": "elevated",
+        "LV": "normal",
+        "NO": "normal",
+        "PL": "high",
+        "RU": "elevated",
+        "SE": "normal",
+        "US": "elevated"
+      },
+      "markets": {
+        "oil_price": "86.0",
+        "euro_usd": "1.13",
+        "gas_price_eu": "64.0",
+        "stock_indices": "125.0"
+      },
+      "sanctions_add": [],
+      "trade_disruptions_add": [
+        "US BSE Fund second tranche $50M announced for Baltic permanent basing infrastructure ($15M for Polish corridor)",
+        "DICE-EF EUR 40M corridor surveillance contracts awarded to Hensoldt and Rheinmetall",
+        "Camp Adazi permanent construction revised IOC Day 28 -- ahead of schedule",
+        "Germany's first containerized ammunition pre-positioning shipment departs Grafenwohr for Rukla -- qualitative transition from construction to combat capability",
+        "HNLMS Tromp transits Danish Straits monitored by Korsoer center -- ETA Lithuania coast Day 18",
+        "TCG Istanbul arrives Copenhagen for 3-day port visit -- first Turkish warship in 8 years",
+        "PBoC signals through BIS channels that European capital market access improves upon M2 certification",
+        "Oil approaches pre-crisis $85 baseline at $86 -- crisis economic premium nearly eliminated",
+        "Second OSCE inspection report: 114 cumulative transits zero violations under Czech Verification Ladder Level 1",
+        "Chang Guang second satellite imagery batch delivered to SIPRI covering Kaliningrad and three NATO permanent bases -- M2 technical verification infrastructure operational"
+      ],
+      "diplomatic_relations": {
+        "PL": {
+          "DE": 10,
+          "LT": 10,
+          "US": 8
+        },
+        "LT": {
+          "DE": 10,
+          "PL": 10,
+          "SE": 8
+        },
+        "LV": {
+          "CA": 10,
+          "EE": 10
+        },
+        "EE": {
+          "GB": 10,
+          "FI": 10,
+          "LV": 10
+        },
+        "US": {
+          "RU": 1,
+          "GB": 9,
+          "PL": 8,
+          "DE": 3
+        },
+        "GB": {
+          "FR": 10,
+          "TR": 8,
+          "NO": 10,
+          "EE": 10
+        },
+        "FR": {
+          "GB": 10,
+          "DE": 10,
+          "TR": 7
+        },
+        "DE": {
+          "PL": 10,
+          "LT": 10,
+          "FR": 10,
+          "US": 3
+        },
+        "DK": {
+          "TR": 10
+        },
+        "TR": {
+          "DK": 10,
+          "GB": 8,
+          "RU": 7,
+          "US": 9
+        },
+        "RU": {
+          "CN": 10,
+          "TR": 7,
+          "US": 1
+        },
+        "BY": {
+          "US": 5,
+          "LT": -1,
+          "RU": 2
+        },
+        "HU": {
+          "DE": 2,
+          "RU": 1
+        },
+        "CN": {
+          "RU": 10,
+          "US": 0
+        }
+      },
+      "treaties_invoked_add": [
+        "Danish-Turkish Maritime Cooperation MoU signed at TCG Istanbul Copenhagen port call -- permanent joint patrol framework for Danish Straits",
+        "Lithuanian Armed Forces submit Kaunas NATO Forward Logistics Hub application to SHAPE -- formal request for permanent NATO logistics node accreditation",
+        "Czech M2 Verification Ladder enhanced paper integrates UK-France UNSC 2741 provisions and US transparency-plus formula into unified tiered verification framework for Stockholm Conference",
+        "US-Poland V Corps supply agreement formalized: Grafenwohr primary maintenance hub with Poznan forward supply point for transferred M1A2/M2A3 equipment",
+        "UK-Norway Arctic Operations Framework 12-month exercise schedule published: quarterly rotations for 3 Commando at Bardufoss confirmed as permanent commitment"
+      ],
+      "un_resolutions_add": [],
+      "nato_alert_level": "article5",
+      "nato_consensus": {
+        "ALL": "M1 certified, 114 cumulative transits zero violations. M2 negotiating framework crystallized: Czech enhanced Verification Ladder integrating UK-France UNSC 2741 and US transparency-plus into unified tiered structure. Stockholm Conference March 15-17 with 39 delegations. Ankara co-guarantor prep March 10-11. US Phase 1 drawdown continuing. German ammunition pre-positioning begins at Rukla. Camp Adazi IOC revised to Day 28.",
+        "PL": "TARCZA POKOJU Phase 2 Day 7: third battalion familiarization. 18th Mech combined arms proficiency certified on US equipment. V Corps supply agreement formalized. Integrated air defense corridor tabletop with Germany. Stockholm: corridor permanent architecture as template.",
+        "LT": "114 transits processed, 42-min processing. Iron Wolf third battalion certification at Rukla. Kaunas NATO logistics hub application to SHAPE. Stockholm: binding M2 verification, preserved suspension rights.",
+        "LV": "Camp Adazi revised IOC Day 28. 7-hour rapid deployment achieved. Permanent basing model paper for Stockholm.",
+        "EE": "Tapa C2 ground floor complete. Cyber Command: persistent access maintained, secondary vector identified. Baltic Cyber Shield planning conference. Javelin FMS expedited.",
+        "US": "Phase 1 drawdown: second battalion departing Augustow. Nuclear de-escalation protocol updated: 48-hour synchronized window. BSE Fund $50M second tranche. Ford CSG repositions to Norwegian Sea. Transparency-plus formula circulated.",
+        "GB": "STEADFAST GUARDIAN: C2 ground floor complete, first habitable block Day 25. Ankara prep: CEP refinement. ARCTIC GUARDIAN Day 4. HMS Prince of Wales Q2 confirmed.",
+        "FR": "CAESAR 8/10 crew certification. WEIMAR SHIELD 12th Cuirassier deployment order. Ankara prep: UNSC 2741 Level 2+ integration. SSN Suffren Northern Fleet routine.",
+        "DE": "Zeitenwende East: ammo storage 40%, first ammunition shipment departing Grafenwohr. Advance party 70 personnel. DICE-EF contracts awarded. Combined arms live-fire with Iron Wolf.",
+        "FI": "Demobilized to 16,500. SIGINT max. 200 OSCE observers. Second inspection report: 114 transits zero violations. NIDA Phase 2 working group convened.",
+        "SE": "Stockholm Conference: 39 delegations, annotated Principles produced. FRA intelligence: Russian delegation authorized for reciprocity but not Iskander. Gripen CAP 1 hr/day.",
+        "NO": "Max gas exports. ARCTIC GUARDIAN Day 4. Northern Fleet routine. NIDA Phase 2: 15 coastal radar sites surveyed. Parliamentary briefing scheduled.",
+        "DK": "Korsoer: 26 transits/day incl. 3 Russian-flagged. TCG Istanbul Copenhagen port call. Danish-Turkish MoU signed. Korsoer Model finalized.",
+        "CA": "Camp Adazi IOC revised Day 28. Fourth barracks module. 7-hour deployment. Stockholm: permanent basing model template.",
+        "NL": "Tromp Day 3 ETA Day 18. QRF 17 min. Dutch-Belgian permanent QRF resubmitted.",
+        "BE": "Article 5 de-escalation framework refined with 12 allies' feedback. 450 refugee returns processed. QRF 50-troop permanent rotation confirmed.",
+        "CZ": "Prague COE first quarterly assessment: Level 1, 114 transits zero violations. Enhanced M2 Verification Ladder paper for Stockholm. Verification working group chair proposed.",
+        "RO": "Aegis Ashore integrated exercise. B9 paper finalized. F-16 Baltic Air Policing Q3 2026 offer.",
+        "HU": "Stockholm ministerial. Gas additional 2% cut. Acquiesces on M2/Article 5 de-escalation conditional on structural funds and energy security.",
+        "BY": "800+/day Grodno crossings. OSCE center 10 monitors. Nuclear verification monthly report. Second prisoner release proposed. Stockholm deputy minister delegation.",
+        "RU": "Grushko 15-person delegation to Stockholm. Reciprocity formula: accept satellite monitoring if NATO bases receive identical treatment. S-400 verification flexible, Iskander 70km non-negotiable. Nuclear de-escalation 'studied with interest.' Fourth FSB sweep: port authority vulnerability identified.",
+        "TR": "Ankara prep March 10-11 finalized. MIT: Russian reciprocity negotiable, Iskander requires Kremlin decision. TCG Istanbul Copenhagen. F-16 Block 70 Q4 2026.",
+        "CN": "Six-Point Principles refined. Chang Guang second imagery batch to SIPRI. PBoC $3B conditional on M2. Vice-ministerial trade delegation to Stockholm margins."
+      },
+      "nuclear_posture": {
+        "US": "elevated",
+        "RU": "elevated",
+        "GB": "peacetime",
+        "FR": "peacetime"
+      },
+      "nuclear_detonations_add": [],
+      "public_opinion": {
+        "PL": {
+          "war_support": "58",
+          "government_approval": "79"
+        },
+        "LT": {
+          "war_support": "69",
+          "government_approval": "80"
+        },
+        "LV": {
+          "war_support": "62",
+          "government_approval": "70"
+        },
+        "EE": {
+          "war_support": "64",
+          "government_approval": "72"
+        },
+        "US": {
+          "war_support": "21",
+          "government_approval": "59"
+        },
+        "GB": {
+          "war_support": "36",
+          "government_approval": "59"
+        },
+        "FR": {
+          "war_support": "28",
+          "government_approval": "54"
+        },
+        "DE": {
+          "war_support": "22",
+          "government_approval": "57"
+        },
+        "FI": {
+          "war_support": "44",
+          "government_approval": "73"
+        },
+        "SE": {
+          "war_support": "38",
+          "government_approval": "68"
+        },
+        "NO": {
+          "war_support": "33",
+          "government_approval": "66"
+        },
+        "DK": {
+          "war_support": "29",
+          "government_approval": "63"
+        },
+        "CA": {
+          "war_support": "26",
+          "government_approval": "61"
+        },
+        "NL": {
+          "war_support": "24",
+          "government_approval": "57"
+        },
+        "BE": {
+          "war_support": "19",
+          "government_approval": "51"
+        },
+        "CZ": {
+          "war_support": "32",
+          "government_approval": "61"
+        },
+        "RO": {
+          "war_support": "30",
+          "government_approval": "61"
+        },
+        "RU": {
+          "war_support": "34",
+          "government_approval": "68"
+        },
+        "BY": {
+          "war_support": "3",
+          "government_approval": "38"
+        },
+        "TR": {
+          "war_support": "5",
+          "government_approval": "65"
+        },
+        "HU": {
+          "war_support": "5",
+          "government_approval": "56"
+        },
+        "CN": {
+          "war_support": "2",
+          "government_approval": "78"
+        }
+      },
+      "refugee_flows_add": [],
+      "humanitarian_crisis_level": {
+        "LT": "1",
+        "LV": "1",
+        "PL": "1"
+      },
+      "cyber_operations_add": [
+        {
+          "attacker": "RU",
+          "target": "RU",
+          "type": "infrastructure",
+          "severity": "medium",
+          "infrastructure_affected": "military_c2"
+        },
+        {
+          "attacker": "EE",
+          "target": "RU",
+          "type": "espionage",
+          "severity": "high",
+          "infrastructure_affected": "military_c2"
+        }
+      ],
+      "infrastructure_status": {
+        "LT": {
+          "power_grid": "9",
+          "comms": "9",
+          "financial": "9",
+          "military_c2": "9"
+        },
+        "RU": {
+          "comms": "7",
+          "financial": "8",
+          "military_c2": "8",
+          "power_grid": "10"
+        }
+      },
+      "corridor_control": "nato",
+      "recent_events": [
+        "Czech M2 Verification Ladder enhanced paper integrates UK-France UNSC 2741 and US transparency-plus into unified tiered framework -- emerges as intellectual foundation for Stockholm Conference verification negotiations",
+        "Russia 'studies with interest' US nuclear de-escalation protocol: 48-hour synchronized ELEVATED-to-PEACETIME window at M2 certification. Bilateral military-to-military consultations proposed at Stockholm margins",
+        "Germany's first containerized ammunition pre-positioning shipment departs Grafenwohr for Rukla -- qualitative transition from construction to combat capability for permanent brigade",
+        "Camp Adazi permanent construction revised IOC to Day 28 as Canadian engineers accelerate -- fourth barracks module, ammunition bunker concrete pour completed",
+        "Stockholm Conference expands to 39 delegations (India observer). Swedish FRA intelligence: Russian delegation authorized for reciprocity formula but not Iskander garrison -- requires Kremlin political decision",
+        "Turkey proposes informal 'corridor conversation' format at Ankara March 10-11 to test Russian red lines before Stockholm Conference",
+        "114 cumulative corridor transits processed with zero violations -- Finnish-led OSCE second inspection report documents continued compliance",
+        "Estonian Cyber Command identifies secondary access vector through Kaliningrad port authority commercial network -- held in reserve. FSB fourth counterintelligence sweep partially detects vulnerability",
+        "TCG Istanbul arrives Copenhagen: first Turkish warship in 8 years. Danish-Turkish maritime cooperation MoU signed. Korsoer Model paper finalized for Stockholm",
+        "Belarus proposes second prisoner release -- three political prisoners for transfer to Poland in exchange for US acknowledgment and targeted sanctions relief",
+        "Chang Guang second satellite imagery batch delivered to SIPRI covering Kaliningrad and three NATO permanent bases -- M2 reciprocal monitoring technical infrastructure fully operational",
+        "Polish-German integrated air defense corridor tabletop exercise: Kybartai-Augustow-Goldap NATO air defense arc with Patriot and IRIS-T SLM integration planning"
+      ],
+      "media_headlines": [
+        "* Reuters: Stockholm Conference expands to 39 nations as India joins as observer -- largest European security gathering since Helsinki 1975",
+        "* BBC: Russia signals interest in US nuclear de-escalation protocol as Stockholm approaches -- bilateral military consultations proposed for synchronized ELEVATED-to-PEACETIME transition",
+        "* Financial Times: German ammunition arrives at Rukla -- Zeitenwende East transforms from construction project to combat-ready permanent deployment",
+        "* Washington Post: Turkish intelligence shapes pre-Stockholm diplomacy -- MIT assessment of Russian flexibility shared with Western co-guarantors at Ankara preparatory meeting"
+      ],
+      "round_number": 16
+    },
+    "events": [
+      "Czech M2 Verification Ladder enhanced paper integrates UK-France UNSC 2741 and US transparency-plus into unified tiered verification framework -- emerges as consensus foundation for Stockholm Conference",
+      "Russia 'studies with interest' US nuclear de-escalation protocol and proposes bilateral military-to-military consultations at Stockholm Conference margins",
+      "Germany's first ammunition pre-positioning shipment departs Grafenwohr for Rukla -- Zeitenwende East transitions from construction to combat capability",
+      "Swedish FRA intelligence assessment circulated: Russian Stockholm delegation authorized for reciprocity formula but Iskander garrison requires Kremlin political decision",
+      "Turkey proposes informal 'corridor conversation' format at Ankara March 10-11 to test Russian red lines before Stockholm",
+      "Estonian Cyber Command identifies secondary access vector through Kaliningrad port authority -- FSB fourth counterintelligence sweep partially detects vulnerability",
+      "Stockholm Conference expands to 39 delegations with India joining as observer -- becomes largest European security gathering since Helsinki 1975",
+      "Belarus proposes second prisoner release to United States in exchange for public acknowledgment and targeted sanctions relief",
+      "Chang Guang second satellite imagery batch to SIPRI establishes fully operational reciprocal monitoring infrastructure for M2 verification",
+      "Camp Adazi IOC revised to Day 28 as Canadian construction accelerates ahead of schedule"
+    ],
+    "headlines": [
+      "* Reuters: Stockholm Conference expands to 39 nations as India joins -- largest European security gathering since Helsinki 1975",
+      "* BBC: Russia signals interest in US nuclear de-escalation as synchronized return to peacetime proposed for Milestone 2",
+      "* Financial Times: German ammunition arrives at Rukla -- Zeitenwende East transforms from construction to combat-ready permanent deployment",
+      "* Washington Post: Turkish intelligence shapes pre-Stockholm diplomacy with assessment of Russian negotiating flexibility"
+    ],
+    "surprises": [
+      "India requests and receives observer status at Stockholm Conference, dispatching Deputy National Security Advisor -- signals emerging Indian interest in European security architecture and potential mediator role between Russian and Western positions. Indian participation complicates Beijing's preferred narrative as sole Asian voice at the conference.",
+      "Estonian Cyber Command discovers a secondary access vector into Russian Kaliningrad military network through the port authority's commercial logistics system, which shares legacy network infrastructure with Baltic Fleet communications. The FSB's fourth counterintelligence sweep partially detects the vulnerability but attributes it to cybercriminal activity rather than state-sponsored intrusion. Estonian operators hold the access in reserve rather than exploit it, maintaining strategic optionality."
+    ]
+  },
+  "world_state_after": {
+    "round_number": 16,
+    "game_time": "Day 16, 06:00 CET",
+    "military_units": [
+      {
+        "name": "russian_kaliningrad_forces",
+        "country": "RU",
+        "type": "ground",
+        "location": "Kaliningrad Oblast -- M1 compliant. Iskander TELs garrisoned within 70km. S-400 passive. GLONASS 10/10. Baltic Fleet within 12nm. Fourth FSB counterintelligence sweep: Kaliningrad port authority commercial network audit identifies potential secondary vulnerability, remediation underway. C2 domestic alternatives at 78%. Estonian primary vector access persists.",
+        "readiness": 6,
+        "strength": 8,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "russian_western_district",
+        "country": "RU",
+        "type": "ground",
+        "location": "Western Military District, Russia -- peacetime posture. ZAPAD-SPRING CPX April 15-25 detailed planning directive issued. Paper-based exercise confirmed. OSCE observation invitation formally transmitted through Vienna Document. 250 observers offered. Routine activity.",
+        "readiness": 5,
+        "strength": 8,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 6,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "belarus_forces",
+        "country": "BY",
+        "type": "ground",
+        "location": "Belarus - Gozha. Peacetime. Grodno empty. OSCE monitoring center steady-state with 10 international monitors. 800+/day civilian crossings at Grodno-Kybartai. KGB 1046th -- all warheads stationary, monthly verification transmitted.",
+        "readiness": 4,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 8,
+        "morale": 6,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_lithuania",
+        "country": "DE",
+        "type": "ground",
+        "location": "Lithuania - Rukla and Kybartai. German permanent brigade. Zeitenwende East: ammunition storage structural steel 40% complete, vehicle maintenance exterior walls finished, interior rough-in begins. Advance party augmented to 70 Bundeswehr specialists. First containerized ammunition shipment (120mm, 155mm) departing Grafenwohr. DICE-EF EUR 125M first tranche disbursing. Combined arms live-fire with Iron Wolf third battalion.",
+        "readiness": 9,
+        "strength": 9,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 10,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_latvia",
+        "country": "CA",
+        "type": "ground",
+        "location": "Latvia - Camp Adazi. Permanent construction Phase 1: fourth barracks module arriving from Riga. Vehicle maintenance facility roof trusses installed. Ammunition bunker reinforced concrete pour completed. Revised IOC: Day 28. PPCLI 48-hour defensive exercise: 7-hour rapid deployment to Daugavpils achieved.",
+        "readiness": 8,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 10,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_estonia",
+        "country": "GB",
+        "type": "ground",
+        "location": "Estonia - Tapa. STEADFAST GUARDIAN permanent brigade. C2 center ground floor structural framework complete. First secure communications suite installation begins. GBP 45M on schedule Q3 2026.",
+        "readiness": 8,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 10,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "Poland - Suwalki corridor. Sustained deterrence. 114 cumulative transits processed. Three daily freight trains. Phase 3 passenger rail: joint Polish-Lithuanian security protocol working group established.",
+        "readiness": 9,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "us_forces_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "Poland - V Corps permanent HQ Poznan. Phase 1 drawdown continuing. BSE Fund second tranche $50M announced ($15M earmarked for Polish corridor infrastructure). Pentagon sustains 'reorganization not reduction' framing.",
+        "readiness": 8,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "polish_forces",
+        "country": "PL",
+        "type": "ground",
+        "location": "Poland - 16th Mechanized at Augustow. GROM permanent. TARCZA POKOJU Phase 2 Day 7: third battalion begins familiarization rotation. 72-hour cycle operational tempo validated for indefinite corridor security.",
+        "readiness": 9,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "finnish_forces",
+        "country": "FI",
+        "type": "ground",
+        "location": "Finland - Demobilization to 16,500 (500 additional released). SIGINT maximum: ZAPAD-SPRING confirmed paper-based CPX. WMD baseline normal. NIDA 99.7% detection. 200 OSCE observers deployed. Second OSCE inspection report: 114 cumulative transits zero violations.",
+        "readiness": 5,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "us_vcorps_forward",
+        "country": "US",
+        "type": "ground",
+        "location": "Poland - Augustow area. Phase 1 drawdown: second battalion (~800) begins movement to Grafenwohr. V Corps forward presence reducing to support elements (~400) and liaison team.",
+        "readiness": 6,
+        "strength": 3,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "polish_18th_mechanized",
+        "country": "PL",
+        "type": "ground",
+        "location": "Poland - Augustow/Elk. Second independent 72-hour brigade-level defensive exercise with US M1A2/M2A3. Combined arms proficiency certified. V Corps supply agreement for spare parts pipeline formalized.",
+        "readiness": 9,
+        "strength": 8,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "uk_carrier_group",
+        "country": "GB",
+        "type": "naval",
+        "location": "Portsmouth -- HMS Queen Elizabeth 30-day maintenance cycle continuing. HMS Prince of Wales Q2 2026 Baltic rotation confirmed with Carrier Air Wing 2 F-35B. P-8 Poseidon 2 daily sorties sustained.",
+        "readiness": 6,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "french_naval_group",
+        "country": "FR",
+        "type": "naval",
+        "location": "Brest - Garrison. French Baltic naval drawdown complete. Maritime surveillance responsibility at Korsoer center.",
+        "readiness": 5,
+        "strength": 3,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "polish_11th_armoured",
+        "country": "PL",
+        "type": "ground",
+        "location": "Poland - Goldap-Gizycko. TARCZA POKOJU Phase 2 Day 7. Reserve brigade rotation continuing. Peacetime rotation schedule.",
+        "readiness": 7,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "uk_16_air_assault",
+        "country": "GB",
+        "type": "ground",
+        "location": "Estonia - Tapa. STEADFAST GUARDIAN permanent brigade. First habitable barracks block targeted Day 25. Barracks construction accelerated.",
+        "readiness": 7,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 10,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "french_leclerc_company",
+        "country": "FR",
+        "type": "ground",
+        "location": "France - Garrison. 12th Cuirassier Regiment platoon-plus (4 Leclerc, 2 VBCI, 30 personnel) receives WEIMAR SHIELD deployment order for Kybartai late April. Exercise scenario design coordinated with Germany and Poland.",
+        "readiness": 5,
+        "strength": 2,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "czech_mechanized_battalion",
+        "country": "CZ",
+        "type": "ground",
+        "location": "Lithuania - Kybartai. 114 cumulative transits, zero violations. Prague COE first quarterly assessment under full NATO accreditation: Level 1 confirmed. Second company rotation planned Day 20. Czech training team conducts verification procedure knowledge transfer to Lithuanian VSD.",
+        "readiness": 8,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "lithuanian_iron_wolf",
+        "country": "LT",
+        "type": "ground",
+        "location": "Lithuania - Standing Corridor Mission command. 114 cumulative transits processed (6 new, 42-minute processing). Third battalion begins combined arms certification with German brigade at Rukla. Kaunas NATO Forward Logistics Hub application submitted to SHAPE.",
+        "readiness": 7,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 10,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "latvian_mechanized_brigade",
+        "country": "LV",
+        "type": "ground",
+        "location": "Latvia - Daugavpils company-plus. Lessons Learned Phase 2 implementation exercise: 36-hour rapid deployment, 7-hour full redeployment to Camp Adazi achieved (1-hour improvement). Permanent basing model paper for Stockholm.",
+        "readiness": 5,
+        "strength": 3,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "estonian_2nd_brigade",
+        "country": "EE",
+        "type": "ground",
+        "location": "Estonia - Narva. WINTER SHIELD after-action review published: 6-hour mobilization confirmed, Narva anti-armor gap identified. Javelin FMS request expedited. Cyber Command maintains persistent Russian C2 access. Secondary access vector identified through Kaliningrad port authority -- held in reserve. Baltic Cyber Shield planning conference hosted.",
+        "readiness": 6,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "dutch_frigate_deruyter",
+        "country": "NL",
+        "type": "naval",
+        "location": "Den Helder - Maintenance continuing. HNLMS Tromp Baltic transit Day 3, passes through Danish Straits/Korsoer center. ETA Lithuania coast Day 18.",
+        "readiness": 5,
+        "strength": 3,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "polish_patriot_suwalki",
+        "country": "PL",
+        "type": "air_defense",
+        "location": "Poland - Suwalki town. Permanent. Integrated air defense corridor tabletop exercise with Germany: Kybartai-Augustow-Goldap NATO air defense arc. German IRIS-T SLM integration planning initiated. Patriot designated anchor point.",
+        "readiness": 8,
+        "strength": 3,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "uk_3commando_norway",
+        "country": "GB",
+        "type": "ground",
+        "location": "Norway - Bardufoss. ARCTIC GUARDIAN Day 4: joint live-fire amphibious withdrawal with Norwegian Coastal Rangers at Ofoten fjord. UK-Norway Arctic Operations Framework 12-month exercise schedule published. Quarterly rotations confirmed.",
+        "readiness": 8,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 8,
+        "morale": 10,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "dutch_airmobile_battalion",
+        "country": "NL",
+        "type": "ground",
+        "location": "Lithuania - Corridor QRF permanent. Combined day/night exercise with Belgian platoon: 17-minute NH-90 response achieved. Dutch-Belgian permanent QRF proposal updated and resubmitted to NATO Standing Corridor Mission.",
+        "readiness": 7,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "french_caesar_battery",
+        "country": "FR",
+        "type": "ground",
+        "location": "Lithuania - Kybartai. 8th Lithuanian crew begins certification (8/10 total). Autonomous operations target Day 21. 'Lithuanian-French Artillery Battery' redesignation ceremony planned Day 25 upon full certification.",
+        "readiness": 6,
+        "strength": 3,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "swedish_gotland_brigade",
+        "country": "SE",
+        "type": "ground",
+        "location": "Sweden - Gotland. NIDA full operational capability. Gripen CAP 1 hr/day. Stockholm Conference final preparations: 39 delegations (India observer added), 14 HoS/G. Annotated Stockholm Principles incorporating all delegations' feedback produced.",
+        "readiness": 6,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "norwegian_frigate_nansen",
+        "country": "NO",
+        "type": "naval",
+        "location": "Norwegian Sea - SSBN tracking permanent. Akula tracked, standard patrol. KNM Nansen provides naval gunfire support simulation for ARCTIC GUARDIAN. Marjata maintains Barents station. NIDA Phase 2: 15 coastal radar sites surveyed for dual-use adaptation.",
+        "readiness": 8,
+        "strength": 3,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "french_ssn_suffren",
+        "country": "FR",
+        "type": "naval",
+        "location": "North Atlantic - Normal patrol. Northern Fleet routine confirmed. Triangulation with Norwegian sonar and UK P-8. Akula-class standard patrol tracked.",
+        "readiness": 7,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "danish_frigate_willemoes",
+        "country": "DK",
+        "type": "naval",
+        "location": "Danish Straits - Korsoer center full operational capability. 26 commercial transits in 24 hours including 3 Russian-flagged vessels cleared. TCG Istanbul arrives Copenhagen for 3-day port visit. Danish-Turkish maritime MoU signed at dockside ceremony. Korsoer Model paper finalized for Stockholm.",
+        "readiness": 7,
+        "strength": 3,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      }
+    ],
+    "military_alerts": {
+      "russian_kaliningrad_forces": "Istanbul Accord initialed. Naval exclusion zone reduced to 12nm. Iskander TELs garrisoned within 70km grandfather provision. S-400 passive. Civilian resupply continuing via Baltiysk. C2 at 40% -- NATO cyber access persistent.",
+      "russian_western_district": "Standing down to peacetime posture. Pskov and Luga bases at normal activity.",
+      "belarus_forces": "Peacetime posture. KGB monitoring 1046th -- all warheads stationary. Lukashenko confirmed GRU departure with flight manifests. Nuclear intel retained as insurance.",
+      "nato_efp_lithuania": "Framework monitoring readiness. Multinational force transitioning to inspection facility support. German Patriot within 70km grandfather provision. Lithuanian VSD monitoring cells operational at Kybartai and Kaunas.",
+      "nato_efp_latvia": "Canadian-led brigade at heightened alert, defensive preparations at Camp Adazi",
+      "nato_efp_estonia": "UK-led battlegroup reinforced patrols along Russian border, P-8 maritime patrol overhead",
+      "nato_efp_poland": "Sustained deterrence. Polish rail Phase 2 transit planning advancing -- ready to activate within 48 hours of formal signing.",
+      "us_forces_poland": "V Corps sustained deterrence. Ford carrier ETA Day 7. All US forces unchanged pending formal signing.",
+      "polish_forces": "Three divisions maintained under TARCZA POKOJU. GROM confirms all GRU departed, 1046th static. Drawdown contingent on verification milestones.",
+      "finnish_forces": "Phased demobilization planning: 40,000 to 25,000 within 72 hours of formal signing. SIGINT maximum collection continues. 200 OSCE observers offered.",
+      "us_vcorps_forward": "V Corps reinforced battalion task force (~1,200 troops, Abrams, Bradleys) deployed to Augustow, integrated with Polish defensive line -- first US heavy armor forward of Camp Kosciuszko",
+      "polish_18th_mechanized": "18th Mechanized Division deployed from Siedlce to Elk as operational reserve, Polish F-16s flying combat air patrols along corridor",
+      "russian_western_belarus": "Withdrawal orders issued. First echelon 1,500 troops to depart within 72 hours via rail to Smolensk. Full withdrawal within 14 days. GRU departure complete.",
+      "uk_carrier_group": "Deterrence and enforcement posture in central Baltic. GCHQ 1046th monitoring at maximum -- all warheads stationary. Carrier remains for framework enforcement.",
+      "french_naval_group": "French Atlantic frigate group redirecting to North Sea to coordinate with Royal Navy, Rafale Maritime surveillance increased",
+      "lithuanian_iron_wolf": "Transitioning from blocking to corridor security. One battalion at Neman River, two battalions to Route 141 (Kybartai-Kaunas). Riflemen's Union at checkpoints.",
+      "estonian_2nd_brigade": "Cyber Command persistent monitoring. Full access to Russian C2 maintained. Re-escalation within 15 minutes if needed. Baltic Cyber Shield proposal advancing.",
+      "uk_3commando_norway": "Full operating capability at Bardufoss. UK announces 6-month rotation converting to permanent commitment. Joint exercise with Norwegian Coastal Rangers planned.",
+      "PL": "high",
+      "LT": "elevated",
+      "LV": "normal",
+      "EE": "elevated",
+      "US": "elevated",
+      "GB": "elevated",
+      "FR": "normal",
+      "DE": "elevated",
+      "FI": "normal",
+      "SE": "normal",
+      "NO": "normal",
+      "DK": "normal",
+      "RU": "elevated",
+      "BY": "normal"
+    },
+    "markets": {
+      "oil_price": "86.0",
+      "euro_usd": "1.13",
+      "gas_price_eu": "64.0",
+      "stock_indices": "125.0"
+    },
+    "sanctions": [
+      {
+        "from": "EU",
+        "target": "RU",
+        "type": "Emergency preparatory package: asset freeze framework for Russian defense sector entities, ready for activation"
+      },
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "Executive order signed expanding OFAC sanctions authority for rapid deployment against Russian financial institutions"
+      },
+      {
+        "from": "EU",
+        "target": "RU",
+        "type": "Full asset freeze on Russian defense sector entities, SWIFT restrictions on major Russian banks (energy transaction carve-outs), travel bans on 200+ Russian officials"
+      },
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "OFAC sanctions activated: full blocking sanctions on Russian defense and intelligence entities, secondary sanctions warning to institutions facilitating Russian military procurement"
+      },
+      {
+        "from": "BE",
+        "target": "RU",
+        "type": "Belgium and Netherlands coordinate expulsion of 3 identified Russian SVR officers operating under diplomatic cover near NATO HQ Brussels"
+      }
+    ],
+    "trade_disruptions": [
+      "Baltic Sea shipping disrupted by Russian naval exclusion zone",
+      "Lithuanian rail transit to Kaliningrad suspended by Lithuania",
+      "Insurance premiums for Baltic shipping surge 400%",
+      "Baltic Sea commercial shipping effectively halted -- Lloyd's of London declares Baltic a war risk zone",
+      "European natural gas spot prices surge additional 20% as Baltic pipeline routes threatened",
+      "Rail freight through Suwalki corridor suspended -- Polish rail authority cites security concerns",
+      "Norwegian gas exports increased to maximum pipeline capacity via Langeled and Europipe, partially offsetting Baltic supply disruption",
+      "Zeebrugge and Antwerp ports opened as primary NATO logistics staging areas for eastern flank force flow",
+      "Constanta port and MK airbase designated as alternative southern NATO logistics corridor",
+      "Russian Baltic Fleet surface combatants ordered to defensive patrol within territorial waters only -- partial reduction of naval exclusion zone",
+      "European energy markets stabilize slightly as Russian Iskander stand-down reduces immediate escalation risk -- gas prices ease 5% from peak",
+      "HMCS Halifax and HMCS Windsor deploy from Halifax to reinforce USS Gerald Ford carrier strike group in Eastern Atlantic",
+      "Russian civilian cargo vessels begin limited resupply of Kaliningrad via Baltiysk -- NATO monitoring but not interdicting to preserve diplomatic environment",
+      "Oil prices drop $6 to $112 as markets price in diplomatic resolution -- European gas prices ease additional 8% from peak",
+      "European and US stock indices recover 2-3% in after-hours trading on Istanbul talks optimism",
+      "Lloyd's of London begins reviewing Baltic war risk designation pending framework outcome",
+      "China's PBoC freezes $2B in credit lines to Russian financial institutions as precautionary pressure",
+      "Polish rail authority begins contingency planning for corridor transit resumption",
+      "Russian Baltic Fleet naval exclusion zone reduced to 12nm territorial waters -- commercial shipping lanes partially reopened",
+      "Lloyd's of London formally initiates removal of Baltic war risk designation -- expected completion within 72 hours of formal signing",
+      "Oil drops to $107.50 as Istanbul Accord initialed -- European gas prices ease 12% from crisis peak, approaching pre-crisis levels",
+      "European and US stock indices surge 3-4% in after-hours trading on Istanbul Accord news -- largest single-day recovery since crisis began",
+      "Baltic shipping insurers begin quoting reduced premiums for Baltic Sea transit -- 200% surcharge (down from 400%) pending formal signing",
+      "PBoC signals $2B Russian credit line restoration upon formal signing, plus additional $5B bilateral trade facility",
+      "EU Golden Bridge economic package awaits activation: phased sanctions relief over 45 days tied to 5 compliance milestones",
+      "Istanbul Accord formally signed -- 10-day clock for initial EU sanctions relief begins",
+      "Lloyd's of London formally removes Baltic war risk designation effective within 48 hours",
+      "Oil drops below $105 on formal signing -- European gas prices within 5% of pre-crisis levels",
+      "PBoC restores $2B Russian credit lines and activates $5B bilateral trade facility",
+      "Baltic shipping insurers reduce surcharge from 200% to 75% upon formal signing",
+      "Polish rail authority Phase 2 transit resumption plan finalized -- ready for activation upon SIPRI verification",
+      "Russian civilian resupply corridor via Baltiysk expanded -- supply levels beginning recovery",
+      "European and US stock indices post strongest weekly performance in two years",
+      "Oil settles at $102.50 -- lowest since crisis began, approaching pre-crisis $85 baseline",
+      "Lloyd's formally completes Baltic war risk designation removal -- maritime insurance surcharges drop from 75% to 40%",
+      "Polish rail authority conducts successful empty test run through Trakiszki under SIPRI supervision -- Phase 2 transit validated",
+      "First Russian civilian cargo convoy (12 trucks) transits Kybartai checkpoint under Istanbul Accord framework -- 47-minute processing time",
+      "European gas prices within 3% of pre-crisis levels as Norwegian maximum exports continue",
+      "Baltic commercial shipping volumes recovering -- first non-military cargo vessels transit central Baltic since crisis began",
+      "Russian Kaliningrad supply levels recovering via expanded Baltiysk corridor -- approaching 7/10",
+      "Polish rail authority activates Phase 2 corridor transit: first loaded freight train (civilian goods) departs Trakiszki under SIPRI escort for Kaliningrad",
+      "SIPRI interim verification report: 47 Russian civilian transits processed, zero prohibited items, Czech Verification Ladder at Level 1 (routine) -- recommends Milestone 1 review commence",
+      "Canada-Latvia Camp Adazi permanent basing agreement signed -- CAD 180M annual commitment, pre-positioned equipment",
+      "Belarus reopens Grodno-Kybartai border crossing for civilian traffic -- first cross-border movement since crisis began",
+      "Oil drops below $100 for first time since crisis began as Milestone 1 certification anticipated within 72-96 hours",
+      "Baltic shipping insurance surcharges drop from 40% to 25% as commercial traffic volumes approach 60% of pre-crisis levels",
+      "Russian Kaliningrad supply levels reach 8/10 via expanded Baltiysk corridor and initial corridor transit goods",
+      "London co-guarantor trilateral produces CEP: graduated enforcement, two-of-three for non-military, unanimity plus UNSC for military. Initialed at Lancaster House",
+      "EU Council initiates formal Milestone 1 review -- Hungary acquiesces after structural fund commitment. Certification expected within 48 hours",
+      "US-Russia Geneva cyber restraint framework agreed: civilian infrastructure scope, quarterly verification, 30-day signing target",
+      "Oil drops to $96 as Milestone 1 certification imminent -- approaching pre-crisis $85 baseline",
+      "Baltic shipping insurance surcharges fall to 15% as commercial traffic reaches 70% of pre-crisis levels",
+      "European gas prices return to pre-crisis baseline as Norwegian maximum exports and restored routes normalize markets",
+      "Polish rail Phase 2 expands: second daily freight train authorized. Phase 3 (passenger) planning begins",
+      "Russian Kaliningrad supply fully recovered to 9/10",
+      "TCG Istanbul transits Danish Straits for symbolic Turkish co-guarantor Baltic deployment",
+      "PBoC activates full $8B conditional package for Russia contingent on Milestone 1",
+      "EU Milestone 1 formally certified -- first tranche of phased sanctions relief initiated, 10-day clock reaches midpoint",
+      "PBoC activates $8B package for Russia upon Milestone 1 certification: $5B bilateral trade facility plus $3B credit lines",
+      "Oil drops to $93 on Milestone 1 certification -- approaching pre-crisis $85 baseline",
+      "Baltic shipping insurance surcharges fall to 10% as commercial traffic reaches 75% of pre-crisis levels",
+      "Polish rail corridor expands to three daily freight trains under SIPRI escort -- Phase 3 (passenger) planning formally begins",
+      "59 cumulative Russian civilian transits processed at Kybartai under Istanbul Accord -- zero prohibited items, Czech Verification Ladder remains Level 1",
+      "Finland deploys first 100 OSCE observers to Kybartai and Trakiszki transit facilities",
+      "Belarus Grodno-Kybartai border crossing expands to 500+ daily civilian crossings with reduced processing time",
+      "Weimar Triangle DICE-EF framework established: EUR 500M joint procurement facility for eastern flank permanent forces",
+      "NORDEFCO NIDA framework: EUR 2B over 5 years for Nordic integrated air surveillance, submarine detection, rapid reaction brigade",
+      "Russian Belarus withdrawal complete -- Grodno assembly area empty, SIPRI satellite verification confirmed",
+      "Baltic shipping insurance surcharges fall to 5% as commercial traffic reaches 80% of pre-crisis levels",
+      "Oil drops to $90 on completed Russian withdrawal -- within $5 of pre-crisis $85 baseline",
+      "Polish rail Phase 3 passenger rail planning formalized: Vilnius-Warsaw service target within 30 days",
+      "Belarus Grodno crossing processes 600+ daily civilian transits under OSCE monitoring",
+      "SIPRI cumulative verification report: 72 transits processed, zero prohibited items, Verification Ladder Level 1",
+      "PBoC confirms $3B additional credit line auto-activates upon Milestone 2 certification",
+      "European stock indices post best two-week performance since eurozone crisis",
+      "Oil drops below $89 on M2 mediation signals -- approaching pre-crisis $85 baseline",
+      "Lloyd's of London confirms Baltic maritime insurance returns to standard commercial terms -- surcharges eliminated",
+      "Baltic commercial shipping volumes reach 85% of pre-crisis levels as insurance normalization drives fleet returns",
+      "Polish-Lithuanian rail authorities agree preliminary Phase 3 passenger timetable: Vilnius-Warsaw service target May 2026",
+      "SIPRI cumulative verification report: 85 transits processed, zero prohibited items, Verification Ladder Level 1",
+      "Russian GLONASS firmware fully restored to 10/10 -- Kaliningrad satellite navigation independent of Western systems",
+      "Camp Adazi permanent construction Phase 1 begins -- first concrete poured for Canadian garrison infrastructure",
+      "European stock indices extend rally -- crisis premium nearly eliminated from equity markets",
+      "Stockholm Conference on European Security Architecture announced: March 15-17, 2026, 38 nations confirmed including Russia and China",
+      "Oil drops to $87 -- within $2 of pre-crisis $85 baseline as US drawdown signals crisis resolution",
+      "Baltic commercial shipping volumes reach 87% of pre-crisis levels -- first Russian-flagged commercial vessel transits Danish Straits since crisis began",
+      "European gas prices ease further to EUR 66/MWh as Norwegian maximum exports continue and demand normalizes",
+      "European and US stock indices extend rally -- crisis premium fully eliminated from equity markets",
+      "Camp Adazi permanent construction generates EUR 15M in local economic activity -- Latvian construction sector benefits",
+      "Chinese Chang Guang Satellite Technology offers commercial imagery services to SIPRI for Istanbul Accord verification",
+      "Hungarian residential gas price reduced 5% as TurkStream deliveries normalize -- Orban claims credit",
+      "Stockholm Principles framework document circulated to 38 delegations -- M2 negotiating architecture takes shape",
+      "China's Chang Guang delivers first commercial satellite imagery batch covering Kaliningrad and three NATO bases to SIPRI -- reciprocal monitoring technical infrastructure established",
+      "DICE-EF EUR 125M first tranche disbursement begins: EUR 40M corridor surveillance, EUR 35M Rukla ammunition storage, EUR 50M joint procurement coordination",
+      "Canadian parliamentary all-party endorsement of CAD 180M annual Camp Adazi commitment -- permanent basing politically irreversible",
+      "Hungarian residential gas price reduced additional 3% as European spot prices normalize -- total crisis-era reduction 8%",
+      "Polish-Lithuanian Phase 3 passenger rail draft timetable produced: Vilnius-Warsaw express service May 15 via Trakiszki-Suwalki-Elk",
+      "OSCE Grodno monitoring center achieves initial operating capability with 8 international monitors",
+      "US BSE Fund second tranche $50M announced for Baltic permanent basing infrastructure ($15M for Polish corridor)",
+      "DICE-EF EUR 40M corridor surveillance contracts awarded to Hensoldt and Rheinmetall",
+      "Camp Adazi permanent construction revised IOC Day 28 -- ahead of schedule",
+      "Germany's first containerized ammunition pre-positioning shipment departs Grafenwohr for Rukla -- qualitative transition from construction to combat capability",
+      "HNLMS Tromp transits Danish Straits monitored by Korsoer center -- ETA Lithuania coast Day 18",
+      "TCG Istanbul arrives Copenhagen for 3-day port visit -- first Turkish warship in 8 years",
+      "PBoC signals through BIS channels that European capital market access improves upon M2 certification",
+      "Oil approaches pre-crisis $85 baseline at $86 -- crisis economic premium nearly eliminated",
+      "Second OSCE inspection report: 114 cumulative transits zero violations under Czech Verification Ladder Level 1",
+      "Chang Guang second satellite imagery batch delivered to SIPRI covering Kaliningrad and three NATO permanent bases -- M2 technical verification infrastructure operational"
+    ],
+    "diplomatic_relations": {
+      "PL": {
+        "RU": -8,
+        "BY": -2,
+        "US": 8,
+        "LT": 10,
+        "DE": 10,
+        "FR": "4"
+      },
+      "LT": {
+        "RU": -7,
+        "BY": -5,
+        "PL": 10,
+        "US": 7,
+        "DE": 10,
+        "GB": 8,
+        "SE": 8
+      },
+      "LV": {
+        "RU": -8,
+        "LT": 8,
+        "EE": 10,
+        "CA": 10,
+        "GB": 7
+      },
+      "EE": {
+        "RU": -8,
+        "LV": 10,
+        "GB": 10,
+        "US": 7,
+        "FI": 10
+      },
+      "US": {
+        "RU": 1,
+        "PL": 8,
+        "DE": 3,
+        "TR": "8",
+        "CN": 0,
+        "BY": 5,
+        "GB": 9
+      },
+      "GB": {
+        "RU": -7,
+        "EE": 10,
+        "PL": 6,
+        "FR": 10,
+        "NO": 10,
+        "TR": 8,
+        "US": "9"
+      },
+      "FR": {
+        "RU": -4,
+        "DE": 10,
+        "PL": "4",
+        "GB": 10,
+        "TR": 7,
+        "LT": 9
+      },
+      "DE": {
+        "RU": -3,
+        "PL": 10,
+        "FR": 10,
+        "LT": 10,
+        "US": 3
+      },
+      "RU": {
+        "US": 1,
+        "PL": -8,
+        "LT": -9,
+        "BY": "2",
+        "CN": 10,
+        "DE": -3,
+        "TR": 7
+      },
+      "FI": {
+        "RU": -7,
+        "SE": 10,
+        "EE": 10,
+        "NO": 10
+      },
+      "SE": {
+        "FI": "10",
+        "RU": -4,
+        "DK": "8",
+        "NL": "7"
+      },
+      "BY": {
+        "RU": 2,
+        "LT": -1,
+        "PL": -1,
+        "US": 5,
+        "CN": 5
+      },
+      "CN": {
+        "RU": 10,
+        "US": 0,
+        "BY": 5
+      },
+      "HU": {
+        "RU": 1,
+        "PL": -1,
+        "US": 2,
+        "EU": "3",
+        "DE": 2
+      },
+      "TR": {
+        "RU": 7,
+        "US": 9,
+        "FR": 6,
+        "EU": 5,
+        "GB": 8,
+        "DK": 10
+      },
+      "NO": {
+        "GB": 10,
+        "FI": 10
+      },
+      "NATO": {
+        "RU": -8
+      },
+      "CA": {
+        "LV": 10
+      },
+      "NL": {
+        "SE": "7",
+        "BE": 9
+      },
+      "CZ": {
+        "DE": "7"
+      },
+      "BE": {
+        "NL": 9
+      },
+      "DK": {
+        "TR": 10
+      }
+    },
+    "treaties_invoked": [
+      "NATO Article 4 invoked by Lithuania, Latvia, and Estonia - formal consultations requested",
+      "Franco-British Northwood Declaration activated for coordinated Baltic naval operations",
+      "NATO Article 5 formally referenced in NAC emergency session -- not yet formally invoked but language escalated",
+      "EU Common Security and Defence Policy emergency consultation triggered under Article 42.7 TEU",
+      "Lithuania formally invokes NATO Article 5 -- full collective defense obligation triggered, all 31 allies must respond",
+      "EU activates full sanctions package against Russia under CFSP emergency provisions",
+      "Kaliningrad Transit Security Framework -- formal negotiations announced for Istanbul, Russia and NATO both signal willingness to engage at ministerial level within 48 hours",
+      "Istanbul Protocol -- Kaliningrad Transit Framework negotiations formally opened at ministerial level. US-Russia bilateral session on Day 1, full multilateral session with NATO/EU/Russia/China(observer) on Day 2.",
+      "Turkey, UK, and France designated as co-guarantors of the emerging transit framework.",
+      "Istanbul Accord (Kaliningrad Transit Security Framework) initialed by all parties -- 70km no-offensive-weapons zone with grandfather clause, 10-day sanctions relief start, 5-year auto-renewable term, Czech Verification Escalation Ladder, SIPRI independent verification, Lithuanian unilateral suspension rights, OSCE monitoring",
+      "Turkey, UK, France confirmed as co-guarantors with enforcement obligations",
+      "France tables Chapter VII UNSC resolution for Istanbul Accord -- China signals abstention",
+      "Istanbul Accord (Kaliningrad Transit Security Framework) formally signed at Ciragan Palace by all parties -- 70km no-offensive-weapons zone, Czech Verification Escalation Ladder, SIPRI verification, Lithuanian sovereignty protections, automatic sanctions snap-back, co-guarantors Turkey/UK/France",
+      "UNSC Resolution 2741 (Chapter VII) passes 13-1-1 -- gives Istanbul Accord force of international law, establishes OSCE monitoring mandate, authorizes co-guarantor enforcement",
+      "Germany-Lithuania MoU for permanent brigade-level eFP signed: Leopard 2A7, Pzh 2000, Patriot battery pre-positioned",
+      "US announces $200M Baltic Security Enhancement Fund for eastern flank base infrastructure",
+      "UK Operation STEADFAST GUARDIAN announced: permanent brigade at Tapa, 3 Commando at Bardufoss, carrier rotations",
+      "Co-guarantor trilateral summit (UK-France-Turkey) announced for Day 10 in London -- enforcement protocols and monitoring mechanisms to be established",
+      "Weimar Triangle summit (Germany-France-Poland) scheduled for Day 11 -- post-crisis eastern flank architecture and permanent force posture",
+      "Canada-Latvia permanent basing agreement for Camp Adazi entering final drafting -- expected signature within 14 days",
+      "NATO Secretary General Rutte convenes special NAC session to begin transitioning from Article 5 crisis response to permanent deterrence posture",
+      "Canada-Latvia Camp Adazi Permanent Basing Agreement formally signed: 2,200 troops, 6-month rotations, pre-positioned LAV 6.0/TAPV/M777, CAD 180M annual commitment",
+      "Bundestag Defence Committee authorizes German permanent brigade deployment to Lithuania under parliamentary mandate -- first permanent combat force deployment outside Germany since 1945",
+      "UK Defence Secretary tables STEADFAST GUARDIAN to Parliament: permanent brigade at Tapa (GBP 850M annual), 3 Commando at Bardufoss, carrier rotations",
+      "Lithuania formally requests SIPRI Milestone 1 certification review -- BND intelligence supports, EU Council expected to initiate review within 48 hours",
+      "US-Russia bilateral cyber restraint framework proposed through Kellogg-Patrushev backchannel: mutual commitment on civilian infrastructure, Geneva venue, quarterly verification",
+      "Baltic Defence Ministers trilateral convenes in Vilnius -- unified position paper for London summit on permanent eFP upgrades, integrated air defense, and shared early warning",
+      "Co-Guarantor Enforcement Protocol (CEP) initialed at Lancaster House: graduated response, two-of-three for non-military, unanimity plus UNSC for military. Quarterly reviews rotating London-Paris-Ankara",
+      "EU Council initiates formal Milestone 1 certification review -- expected within 48 hours",
+      "US-Russia Geneva bilateral cyber restraint framework agreed: civilian infrastructure scope, military C2 excluded, quarterly verification, 30-day signing target",
+      "Germany Zeitenwende East: EUR 3.2B for Lithuanian permanent brigade, integrated air defense, corridor infrastructure",
+      "Czech Republic requests NATO accreditation for Prague Centre of Excellence for Arms Control Verification",
+      "Romania convenes Bucharest Nine summit: B9 demands brigade-level permanent eFP across eastern flank",
+      "NORDEFCO conference Helsinki Day 11: Nordic integrated air surveillance, joint submarine detection, rapid reaction force",
+      "Weimar Triangle Joint Declaration signed (Berlin): DICE-EF framework (EUR 500M), integrated Polish-German corridor defense, annual trilateral military exercise, permanent eastern flank architecture",
+      "UK Parliament passes STEADFAST GUARDIAN: permanent brigade at Tapa (GBP 850M/year), 3 Commando at Bardufoss, carrier rotations -- largest UK permanent European commitment since Cold War",
+      "German Bundestag supermajority authorizes Zeitenwende East EUR 3.2B: Leopard 2A7, Pzh 2000, Patriot battery for Lithuania -- first permanent German combat force abroad since 1945",
+      "NORDEFCO Helsinki Declaration: Nordic Integrated Defence Architecture (NIDA) -- EUR 2B/5yr, joint air surveillance, submarine detection, Nordic rapid reaction brigade",
+      "EU Council Milestone 1 formally certified: Russian compliance confirmed across all five metrics, first tranche of phased sanctions relief initiated",
+      "US-Russia reciprocal nuclear de-escalation agreed in principle: simultaneous return to PEACETIME at Milestone 2, verification via NNSA and Geneva framework",
+      "Co-Guarantor Enforcement Protocol (CEP) enters force: UK lead, Lancaster House secretariat, first quarterly review April 2026 Paris",
+      "Prague Centre of Excellence for Arms Control Verification receives preliminary NAC accreditation approval",
+      "Bucharest Nine Joint Declaration: demands brigade-level permanent eFP across all eastern flank nations, integrated air defense Baltic to Black Sea",
+      "NATO Standing Corridor Mission endorsed at NAC: permanent multinational security force under Lithuanian operational command with German, Czech, Dutch, French, and Polish contributions",
+      "UK-France joint position on Milestone 2: demand OSCE verification of Kaliningrad Iskander garrison status before endorsing Russian nuclear de-escalation to PEACETIME",
+      "UK-Norway Arctic Operations Framework signed at Bardufoss: joint Northern Fleet monitoring, submarine detection, polar logistics",
+      "Korsoer Multinational Maritime Monitoring Center MoU signed by Denmark, Norway, Sweden, Germany: permanent Danish Straits surveillance",
+      "US Phase 1 drawdown order issued: one reinforced battalion (~800 troops) to rotate out of Augustow beginning Day 14, completion within 21 days",
+      "US-Belarus prisoner release: three Belarusian political prisoners transferred to Poland, reciprocal US acknowledgment of Lukashenko's constructive crisis role",
+      "US proposes 'technical transparency' formula for M2 Iskander verification: quarterly satellite imagery to co-guarantors with SIPRI commercial satellite corroboration -- replaces intrusive OSCE ground inspections",
+      "Russia signals through Turkish co-guarantor channel that 'mechanisms for mutual confidence respecting sovereign basing rights' could be discussed at April CEP quarterly review -- first movement on M2 impasse",
+      "Sweden announces Stockholm Conference on European Security Architecture: March 15-17, 2026, venue for M2 negotiations and post-crisis architecture discussions, 38 nations confirmed",
+      "Camp Adazi Permanent Basing Construction Phase 1 commences: first NATO permanent garrison construction in the Baltics since crisis",
+      "Joint UK-France M2 position evolves: private acknowledgment to Washington that transparency formula could satisfy core verification concerns without requiring Russian consent to ground inspections",
+      "Tapa permanent barracks construction contracts awarded: UK STEADFAST GUARDIAN first infrastructure milestone",
+      "Joint Exercise ARCTIC GUARDIAN commences at Bardufoss: UK 3 Commando and Norwegian Coastal Rangers live-fire arctic training",
+      "Prague Centre of Excellence for Arms Control Verification receives full preliminary NAC accreditation -- operational for Czech Verification Ladder oversight",
+      "Korsoer Multinational Maritime Monitoring Center declares initial operating capability: permanent Danish Straits surveillance operational",
+      "Co-guarantor preparatory meeting scheduled for Ankara March 10-11 ahead of Stockholm Conference -- UK, France, Turkey confirm attendance",
+      "Prague Centre of Excellence for Arms Control Verification receives full NATO accreditation -- designated alliance reference center for Czech Verification Escalation Ladder methodology",
+      "Russia provides OSCE Vienna Document notification for ZAPAD-SPRING exercise April 15-25 at Smolensk/Pskov -- division-level command post exercise",
+      "Weimar Triangle video conference: WEIMAR SHIELD corridor defense exercise approved for late April at Kybartai, DICE-EF EUR 125M first tranche for joint surveillance equipment confirmed",
+      "NIDA Nordic integrated air picture declared operational: Finnish FPS-117 and Swedish Giraffe AMB radar fusion achieving continuous Gulf of Finland to Gotland coverage",
+      "Korsoer Multinational Maritime Monitoring Center declares full operational capability with all four nation liaison officers on station",
+      "Sweden circulates 'Stockholm Principles' framework for M2 negotiations: reciprocal satellite transparency, graduated verification, permanent OSCE monitoring, dispute resolution -- foundational document for Stockholm Conference March 15-17",
+      "Russia counter-proposes M2 terms: accepts quarterly satellite imagery of Kaliningrad contingent on full reciprocity for Rukla, Tapa, and Camp Adazi via SIPRI mediation, linked to nuclear de-escalation and second EU sanctions relief tranche",
+      "US transmits nuclear de-escalation protocol through Kellogg-Patrushev backchannel: simultaneous ELEVATED to PEACETIME return at M2 certification with NNSA/Geneva framework verification",
+      "UK-France joint M2 position paper finalized: technical transparency with ad-hoc satellite clause, UNSC 2741 notification at Verification Ladder Level 2+, automatic CEP consultation at Level 3",
+      "Czech Republic submits M2 Verification Ladder adaptation paper to Stockholm Conference: tiered escalation from satellite monitoring (L1) through OSCE inspection (L2) to co-guarantor enforcement (L3)",
+      "Belgium circulates Article 5 de-escalation framework: proposed NAC criteria for transitioning from crisis to deterrence posture upon M2 certification",
+      "Dutch-Belgian permanent Corridor QRF proposal submitted to NATO Standing Corridor Mission",
+      "NIDA Phase 2 agreed by Finland, Sweden, Norway: Norwegian coastal radar integration extending Barents Sea to central Baltic coverage, EUR 120M/3yr",
+      "Denmark proposes Korsoer Model for Stockholm: permanent multinational maritime monitoring as post-crisis surveillance template",
+      "Romania's B9 Stockholm position paper: brigade-level eFP Baltic to Black Sea, integrated air defense, EUR 500M Eastern Shield infrastructure",
+      "Danish-Turkish Maritime Cooperation MoU signed at TCG Istanbul Copenhagen port call -- permanent joint patrol framework for Danish Straits",
+      "Lithuanian Armed Forces submit Kaunas NATO Forward Logistics Hub application to SHAPE -- formal request for permanent NATO logistics node accreditation",
+      "Czech M2 Verification Ladder enhanced paper integrates UK-France UNSC 2741 provisions and US transparency-plus formula into unified tiered verification framework for Stockholm Conference",
+      "US-Poland V Corps supply agreement formalized: Grafenwohr primary maintenance hub with Poznan forward supply point for transferred M1A2/M2A3 equipment",
+      "UK-Norway Arctic Operations Framework 12-month exercise schedule published: quarterly rotations for 3 Commando at Bardufoss confirmed as permanent commitment"
+    ],
+    "un_resolutions": [
+      "Russia vetoes UNSC resolution calling for immediate cessation of military provocations in Baltic region; China abstains",
+      "France tables Chapter VII UNSC resolution to give Istanbul Accord international legal force -- China signals abstention (not veto), establishing OSCE monitoring mandate and authorizing co-guarantor enforcement",
+      "UNSC Resolution 2741 adopted under Chapter VII (13-1-1, Russia against, China abstains) -- gives Istanbul Accord binding force of international law, establishes OSCE monitoring mandate for Kaliningrad transit inspection, authorizes co-guarantor enforcement measures, creates sanctions snap-back mechanism"
+    ],
+    "nato_alert_level": "article5",
+    "nato_consensus": {
+      "US": "Phase 1 drawdown: second battalion departing Augustow. Nuclear de-escalation protocol updated: 48-hour synchronized window. BSE Fund $50M second tranche. Ford CSG repositions to Norwegian Sea. Transparency-plus formula circulated.",
+      "PL": "TARCZA POKOJU Phase 2 Day 7: third battalion familiarization. 18th Mech combined arms proficiency certified on US equipment. V Corps supply agreement formalized. Integrated air defense corridor tabletop with Germany. Stockholm: corridor permanent architecture as template.",
+      "DE": "Zeitenwende East: ammo storage 40%, first ammunition shipment departing Grafenwohr. Advance party 70 personnel. DICE-EF contracts awarded. Combined arms live-fire with Iron Wolf.",
+      "GB": "STEADFAST GUARDIAN: C2 ground floor complete, first habitable block Day 25. Ankara prep: CEP refinement. ARCTIC GUARDIAN Day 4. HMS Prince of Wales Q2 confirmed.",
+      "FR": "CAESAR 8/10 crew certification. WEIMAR SHIELD 12th Cuirassier deployment order. Ankara prep: UNSC 2741 Level 2+ integration. SSN Suffren Northern Fleet routine.",
+      "LT": "114 transits processed, 42-min processing. Iron Wolf third battalion certification at Rukla. Kaunas NATO logistics hub application to SHAPE. Stockholm: binding M2 verification, preserved suspension rights.",
+      "LV": "Camp Adazi revised IOC Day 28. 7-hour rapid deployment achieved. Permanent basing model paper for Stockholm.",
+      "EE": "Tapa C2 ground floor complete. Cyber Command: persistent access maintained, secondary vector identified. Baltic Cyber Shield planning conference. Javelin FMS expedited.",
+      "CA": "Camp Adazi IOC revised Day 28. Fourth barracks module. 7-hour deployment. Stockholm: permanent basing model template.",
+      "HU": "Stockholm ministerial. Gas additional 2% cut. Acquiesces on M2/Article 5 de-escalation conditional on structural funds and energy security.",
+      "NO": "Max gas exports. ARCTIC GUARDIAN Day 4. Northern Fleet routine. NIDA Phase 2: 15 coastal radar sites surveyed. Parliamentary briefing scheduled.",
+      "DK": "Korsoer: 26 transits/day incl. 3 Russian-flagged. TCG Istanbul Copenhagen port call. Danish-Turkish MoU signed. Korsoer Model finalized.",
+      "FI": "Demobilized to 16,500. SIGINT max. 200 OSCE observers. Second inspection report: 114 transits zero violations. NIDA Phase 2 working group convened.",
+      "SE": "Stockholm Conference: 39 delegations, annotated Principles produced. FRA intelligence: Russian delegation authorized for reciprocity but not Iskander. Gripen CAP 1 hr/day.",
+      "NL": "Tromp Day 3 ETA Day 18. QRF 17 min. Dutch-Belgian permanent QRF resubmitted.",
+      "BE": "Article 5 de-escalation framework refined with 12 allies' feedback. 450 refugee returns processed. QRF 50-troop permanent rotation confirmed.",
+      "CZ": "Prague COE first quarterly assessment: Level 1, 114 transits zero violations. Enhanced M2 Verification Ladder paper for Stockholm. Verification working group chair proposed.",
+      "RO": "Aegis Ashore integrated exercise. B9 paper finalized. F-16 Baltic Air Policing Q3 2026 offer.",
+      "TR": "Ankara prep March 10-11 finalized. MIT: Russian reciprocity negotiable, Iskander requires Kremlin decision. TCG Istanbul Copenhagen. F-16 Block 70 Q4 2026.",
+      "ALL": "M1 certified, 114 cumulative transits zero violations. M2 negotiating framework crystallized: Czech enhanced Verification Ladder integrating UK-France UNSC 2741 and US transparency-plus into unified tiered structure. Stockholm Conference March 15-17 with 39 delegations. Ankara co-guarantor prep March 10-11. US Phase 1 drawdown continuing. German ammunition pre-positioning begins at Rukla. Camp Adazi IOC revised to Day 28.",
+      "RU": "Grushko 15-person delegation to Stockholm. Reciprocity formula: accept satellite monitoring if NATO bases receive identical treatment. S-400 verification flexible, Iskander 70km non-negotiable. Nuclear de-escalation 'studied with interest.' Fourth FSB sweep: port authority vulnerability identified.",
+      "BY": "800+/day Grodno crossings. OSCE center 10 monitors. Nuclear verification monthly report. Second prisoner release proposed. Stockholm deputy minister delegation.",
+      "CN": "Six-Point Principles refined. Chang Guang second imagery batch to SIPRI. PBoC $3B conditional on M2. Vice-ministerial trade delegation to Stockholm margins."
+    },
+    "corridor_control": "nato",
+    "nuclear_posture": {
+      "RU": "elevated",
+      "US": "elevated",
+      "GB": "peacetime",
+      "FR": "peacetime"
+    },
+    "nuclear_detonations": [],
+    "public_opinion": {
+      "PL": {
+        "war_support": 58,
+        "government_approval": 79
+      },
+      "DE": {
+        "war_support": 22,
+        "government_approval": 57
+      },
+      "FR": {
+        "war_support": 28,
+        "government_approval": 54
+      },
+      "US": {
+        "war_support": 21,
+        "government_approval": 59
+      },
+      "GB": {
+        "war_support": 36,
+        "government_approval": 59
+      },
+      "LT": {
+        "war_support": 69,
+        "government_approval": 80
+      },
+      "LV": {
+        "war_support": 62,
+        "government_approval": 70
+      },
+      "EE": {
+        "war_support": 64,
+        "government_approval": 72
+      },
+      "FI": {
+        "war_support": 44,
+        "government_approval": 73
+      },
+      "SE": {
+        "war_support": 38,
+        "government_approval": 68
+      },
+      "NO": {
+        "war_support": 33,
+        "government_approval": 66
+      },
+      "DK": {
+        "war_support": 29,
+        "government_approval": 63
+      },
+      "CA": {
+        "war_support": 26,
+        "government_approval": 61
+      },
+      "NL": {
+        "war_support": 24,
+        "government_approval": 57
+      },
+      "BE": {
+        "war_support": 19,
+        "government_approval": 51
+      },
+      "CZ": {
+        "war_support": 32,
+        "government_approval": 61
+      },
+      "RO": {
+        "war_support": 30,
+        "government_approval": 61
+      },
+      "HU": {
+        "war_support": 5,
+        "government_approval": 56
+      },
+      "RU": {
+        "war_support": 34,
+        "government_approval": 68
+      },
+      "BY": {
+        "war_support": 3,
+        "government_approval": 38
+      },
+      "TR": {
+        "war_support": 5,
+        "government_approval": 65
+      },
+      "CN": {
+        "war_support": 2,
+        "government_approval": 78
+      }
+    },
+    "refugee_flows": [
+      {
+        "from": "LT",
+        "to": "PL",
+        "count": 8500,
+        "status": "fleeing"
+      },
+      {
+        "from": "LT",
+        "to": "LV",
+        "count": 3200,
+        "status": "fleeing"
+      }
+    ],
+    "humanitarian_crisis_level": {
+      "LT": 1,
+      "PL": 1,
+      "LV": 1
+    },
+    "cyber_operations": [
+      {
+        "attacker": "RU",
+        "target": "LT",
+        "type": "ddos",
+        "severity": "high",
+        "infrastructure_affected": "financial"
+      },
+      {
+        "attacker": "RU",
+        "target": "LT",
+        "type": "malware",
+        "severity": "medium",
+        "infrastructure_affected": "comms"
+      },
+      {
+        "attacker": "RU",
+        "target": "LT",
+        "type": "infrastructure",
+        "severity": "high",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "PL",
+        "type": "espionage",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "EE",
+        "target": "RU",
+        "type": "espionage",
+        "severity": "low",
+        "infrastructure_affected": "none"
+      },
+      {
+        "attacker": "RU",
+        "target": "PL",
+        "type": "infrastructure",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "DE",
+        "type": "espionage",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "GB",
+        "target": "RU",
+        "type": "espionage",
+        "severity": "low",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "EE",
+        "type": "ddos",
+        "severity": "medium",
+        "infrastructure_affected": "financial"
+      },
+      {
+        "attacker": "LT",
+        "target": "RU",
+        "type": "infrastructure",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "EE",
+        "target": "RU",
+        "type": "infrastructure",
+        "severity": "high",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "FI",
+        "target": "RU",
+        "type": "espionage",
+        "severity": "low",
+        "infrastructure_affected": "none"
+      },
+      {
+        "attacker": "US",
+        "target": "RU",
+        "type": "infrastructure",
+        "severity": "high",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "US",
+        "target": "RU",
+        "type": "espionage",
+        "severity": "high",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "LT",
+        "type": "espionage",
+        "severity": "low",
+        "infrastructure_affected": "comms"
+      },
+      {
+        "attacker": "RU",
+        "target": "RU",
+        "type": "espionage",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "RU",
+        "type": "infrastructure",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      }
+    ],
+    "infrastructure_status": {
+      "LT": {
+        "power_grid": 9,
+        "comms": 9,
+        "financial": 9,
+        "military_c2": 9
+      },
+      "RU": {
+        "power_grid": 10,
+        "comms": 7,
+        "financial": 8,
+        "military_c2": 8
+      }
+    },
+    "recent_events": [
+      "Czech M2 Verification Ladder enhanced paper integrates UK-France UNSC 2741 and US transparency-plus into unified tiered framework -- emerges as intellectual foundation for Stockholm Conference verification negotiations",
+      "Russia 'studies with interest' US nuclear de-escalation protocol: 48-hour synchronized ELEVATED-to-PEACETIME window at M2 certification. Bilateral military-to-military consultations proposed at Stockholm margins",
+      "Germany's first containerized ammunition pre-positioning shipment departs Grafenwohr for Rukla -- qualitative transition from construction to combat capability for permanent brigade",
+      "Camp Adazi permanent construction revised IOC to Day 28 as Canadian engineers accelerate -- fourth barracks module, ammunition bunker concrete pour completed",
+      "Stockholm Conference expands to 39 delegations (India observer). Swedish FRA intelligence: Russian delegation authorized for reciprocity formula but not Iskander garrison -- requires Kremlin political decision",
+      "Turkey proposes informal 'corridor conversation' format at Ankara March 10-11 to test Russian red lines before Stockholm Conference",
+      "114 cumulative corridor transits processed with zero violations -- Finnish-led OSCE second inspection report documents continued compliance",
+      "Estonian Cyber Command identifies secondary access vector through Kaliningrad port authority commercial network -- held in reserve. FSB fourth counterintelligence sweep partially detects vulnerability",
+      "TCG Istanbul arrives Copenhagen: first Turkish warship in 8 years. Danish-Turkish maritime cooperation MoU signed. Korsoer Model paper finalized for Stockholm",
+      "Belarus proposes second prisoner release -- three political prisoners for transfer to Poland in exchange for US acknowledgment and targeted sanctions relief",
+      "Chang Guang second satellite imagery batch delivered to SIPRI covering Kaliningrad and three NATO permanent bases -- M2 reciprocal monitoring technical infrastructure fully operational",
+      "Polish-German integrated air defense corridor tabletop exercise: Kybartai-Augustow-Goldap NATO air defense arc with Patriot and IRIS-T SLM integration planning"
+    ],
+    "media_headlines": [
+      "* Reuters: Stockholm Conference expands to 39 nations as India joins as observer -- largest European security gathering since Helsinki 1975",
+      "* BBC: Russia signals interest in US nuclear de-escalation protocol as Stockholm approaches -- bilateral military consultations proposed for synchronized ELEVATED-to-PEACETIME transition",
+      "* Financial Times: German ammunition arrives at Rukla -- Zeitenwende East transforms from construction project to combat-ready permanent deployment",
+      "* Washington Post: Turkish intelligence shapes pre-Stockholm diplomacy -- MIT assessment of Russian flexibility shared with Western co-guarantors at Ankara preparatory meeting"
+    ],
+    "_nuclear_penalty_applied": [],
+    "_oil_penalty_last_threshold": 120.0,
+    "_gas_sanction_count_applied": 5,
+    "_gm_set_nuclear_this_round": [
+      "US",
+      "FR",
+      "RU",
+      "GB"
+    ]
+  }
+}

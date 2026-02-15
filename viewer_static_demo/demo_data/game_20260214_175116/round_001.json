@@ -1,0 +1,1442 @@
+{
+  "round": 1,
+  "runner": "claude-code",
+  "briefing": "As Day 2 dawns over the Baltic, the Suwalki Gap crisis has entered its most dangerous phase. Russian forces in Kaliningrad have completed their forward deployment, with three Battalion Tactical Groups now positioned within 15 kilometers of the Lithuanian border, supported by active S-400 air defense coverage that effectively creates an anti-access/area-denial bubble over the entire corridor. The Baltic Fleet's naval exclusion zone has expanded, and Russian electronic warfare is degrading NATO ISR capabilities in the region. Belarus has moved additional units from the Gozha training area to within 3 kilometers of Lithuanian territory, though Lukashenko appears to be dragging his feet on committing to overt military action.\n\nNATO's response remains fractured along predictable fault lines. The Eastern allies -- Poland, the Baltics, Finland, and Romania -- have moved aggressively to reinforce their positions, with Poland's 16th Mechanized Division now dug in along the Suwalki corridor and Lithuanian forces mining approaches. However, the Western allies are divided: the UK and France are preparing military options but Germany is constrained by low public support, and the United States under President Trump has conspicuously declined to reinforce. The American backchannel to Moscow may offer a diplomatic off-ramp, but it also signals to Putin that Washington may not be fully committed to Baltic defense.\n\nEconomic indicators are deteriorating rapidly. Oil prices have spiked to $107 per barrel on fears of supply disruption, and European natural gas futures have surged. Stock markets across Europe are in correction territory. Lithuania's cyber infrastructure has been significantly degraded, with banking systems operating intermittently and government communications running on backup systems. The information space is heavily contested, with Russian narratives about 'Kaliningrad humanitarian crisis' gaining traction in Western media alongside NATO warnings about Russian aggression.\n\nThe key question for Round 2 is whether Russia will attempt a physical seizure of the corridor or continue hybrid pressure. NATO must decide whether to invoke Article 5 preemptively based on the cyber attacks and GPS jamming, or wait for a kinetic trigger. The US position remains the critical variable -- without clear American commitment, European allies face the prospect of confronting Russia without their most powerful partner's full backing. Time is not on NATO's side: every hour of indecision allows Russia to further consolidate its positions and establish facts on the ground.",
+  "narrative": "The first 18 hours of the Suwalki Gap crisis were defined by calculated brinksmanship from Moscow and a fractured Western response that exposed deep fault lines within NATO. Russia executed a carefully choreographed escalation: at 0600 CET, Kaliningrad-based electronic warfare units began jamming GPS signals across the Lithuanian-Polish border region, while the Baltic Fleet established a naval exclusion zone 50 nautical miles off the Lithuanian coast, firing warning shots at a Lithuanian coast guard patrol vessel. Simultaneously, Russian cyber units launched a coordinated DDoS attack against Lithuanian government websites, banking systems, and military command networks, temporarily degrading communications. The 'humanitarian corridor' narrative was amplified across Russian state media and social networks in multiple languages.\n\nThe NATO response was swift on the eastern flank but hesitant at the center. Poland immediately deployed its 16th Mechanized Division from Olsztyn to the Suwalki corridor, establishing defensive positions along Route 8 between Augustow and the Lithuanian border. The Baltic states invoked Article 4 of the NATO Treaty, requesting urgent consultations. Lithuania activated its rapid reaction force and began mining key bridges and road approaches to the corridor. Finland quietly mobilized 15,000 reservists and hardened its border defenses. Sweden reinforced Gotland with additional anti-ship missile batteries and a mechanized company.\n\nCritically, the United States declined to deploy additional forces, with the White House issuing a carefully worded statement calling on 'all parties to exercise restraint' and urging 'European allies to demonstrate leadership in managing European security challenges.' The Pentagon, acting within existing authorities, raised the alert level of V Corps in Poland to WATCHCON 2 but did not move forces forward. Secretary Rubio opened a backchannel to Foreign Minister Lavrov. Germany, constrained by 25% domestic war support, reinforced its Lithuania battlegroup with logistics and intelligence assets but refused to authorize additional combat deployments. France placed its rapid reaction brigade on 72-hour notice. The UK activated JEF coordination and began P-8 Poseidon maritime patrols over the Baltic.\n\nBeijing issued a carefully calibrated statement calling for 'restraint from all parties' while privately signaling to Moscow that China would provide diplomatic cover at the UN Security Council. Hungary's Orban publicly called for an emergency EU summit focused on 'peaceful dialogue,' while privately blocking rapid NATO consensus on reinforcement. Turkey offered to mediate, with Erdogan calling both Putin and NATO Secretary General. By the end of Day 1, the corridor remained contested but the balance of initiative rested firmly with Russia, which had successfully established information dominance and military positioning without crossing the threshold of direct armed attack on NATO forces.",
+  "country_decisions": [
+    {
+      "country": "PL",
+      "actions": [
+        "Deploy 16th Mechanized Division from Olsztyn to defensive positions along Route 8 in the Suwalki corridor between Augustow and the Lithuanian border",
+        "Activate Territorial Defence Forces in Podlasie Voivodeship (4,500 reservists) to secure rear areas, logistics routes, and border crossings",
+        "Place 18th Mechanized Division and 11th Armoured Cavalry Division on 6-hour deployment notice at their garrisons",
+        "Order Polish Air Force F-16s and FA-50s to begin combat air patrols along the eastern border, with rules of engagement authorizing defensive action against incursions into Polish airspace"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "PL",
+          "to": "US",
+          "channel": "private",
+          "message": "Poland urgently requests US V Corps forward deployment to the Suwalki corridor. We cannot hold against combined Russian-Belarusian assault without American armor and air support. Delay risks catastrophic fait accompli."
+        },
+        {
+          "from": "PL",
+          "to": "LT",
+          "channel": "private",
+          "message": "Poland is deploying the 16th Mechanized Division to the corridor. Coordinate defensive positions and establish joint command post at Augustow. We stand with you."
+        },
+        {
+          "from": "PL",
+          "to": "DE",
+          "channel": "private",
+          "message": "Germany must reinforce its Lithuania battlegroup immediately. The eFP alone cannot hold. We are deploying a full division. Germany must match this commitment or risk being seen as abandoning its NATO obligations."
+        },
+        {
+          "from": "PL",
+          "to": "NATO",
+          "channel": "public",
+          "message": "Poland supports immediate invocation of Article 4 consultations and calls on all allies to fulfill their treaty obligations. The time for ambiguity is over."
+        }
+      ]
+    },
+    {
+      "country": "LT",
+      "actions": [
+        "Invoke NATO Article 4 requesting immediate alliance consultations on Russian military buildup",
+        "Activate the Lithuanian Rapid Reaction Force (LRRF) and deploy to defensive positions covering the Suwalki corridor approaches from Kaliningrad",
+        "Order military engineers to mine key bridges and road junctions on routes from Kaliningrad into the Suwalki corridor (Routes 141 and 135)",
+        "Activate National Cyber Security Centre to maximum alert and switch military communications to backup encrypted systems"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "LT",
+          "to": "NATO",
+          "channel": "public",
+          "message": "Lithuania invokes Article 4 of the North Atlantic Treaty. Russian military actions -- naval exclusion zone, GPS jamming, cyber attacks, and forward deployment of BTGs -- constitute a direct threat to Lithuanian sovereignty and allied security."
+        },
+        {
+          "from": "LT",
+          "to": "PL",
+          "channel": "private",
+          "message": "Requesting immediate coordination of defensive positions in the Suwalki corridor. Lithuanian forces deploying to northern corridor approaches. Need Polish forces on southern side."
+        },
+        {
+          "from": "LT",
+          "to": "US",
+          "channel": "private",
+          "message": "We are a NATO ally under direct threat. American leadership is essential. Without US commitment, Russia will calculate that it can seize the corridor with impunity."
+        }
+      ]
+    },
+    {
+      "country": "LV",
+      "actions": [
+        "Invoke NATO Article 4 jointly with Lithuania and Estonia",
+        "Place Latvian National Armed Forces on full alert and deploy the Latvian Infantry Brigade to reinforce positions along the Russian and Belarusian borders",
+        "Activate the Zemessardze (National Guard) reserve components in Latgale region bordering Russia, with enhanced patrols and checkpoints"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "LV",
+          "to": "CA",
+          "channel": "private",
+          "message": "Canada's battlegroup in Latvia is critical to our defense. We request Canadian authorization to integrate Latvian reserve units under NATO eFP command structure for coordinated defense."
+        },
+        {
+          "from": "LV",
+          "to": "NATO",
+          "channel": "public",
+          "message": "Latvia stands with Lithuania. The threat to one Baltic state is a threat to all. We invoke Article 4 and call for immediate reinforcement."
+        }
+      ]
+    },
+    {
+      "country": "EE",
+      "actions": [
+        "Invoke NATO Article 4 jointly with Lithuania and Latvia",
+        "Activate Kaitseliit (Estonian Defence League) territorial defense battalions along the Narva border region, deploying 3,000 volunteer reservists",
+        "Launch defensive cyber operations through the NATO Cooperative Cyber Defence Centre of Excellence in Tallinn to counter Russian cyber attacks on allied networks",
+        "Increase surveillance of Narva border crossing and ethnic Russian community monitoring for signs of provocation or fifth-column activity"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "EE",
+          "to": "GB",
+          "channel": "private",
+          "message": "Estonia requests UK reinforcement of the Tapa battlegroup with additional anti-armor and air defense assets. Russian escalation at Suwalki may be a precursor to wider Baltic operations including at Narva."
+        },
+        {
+          "from": "EE",
+          "to": "FI",
+          "channel": "private",
+          "message": "Finland and Estonia share the Gulf of Finland. Request coordination of naval patrols and intelligence sharing on Russian Baltic Fleet movements."
+        }
+      ]
+    },
+    {
+      "country": "US",
+      "actions": [
+        "White House issues public statement calling on 'all parties to exercise maximum restraint' and urging 'European allies to demonstrate leadership in managing European security challenges' -- notably does NOT mention Article 5 commitment",
+        "Pentagon raises V Corps alert to WATCHCON 2 at Camp Kosciuszko within existing authorities -- all personnel on base, equipment loaded, helicopter and C-130 assets readied -- but NO forward deployment to Suwalki corridor authorized by White House",
+        "Secretary Rubio opens private diplomatic backchannel to Russian Foreign Minister Lavrov, proposing direct talks on a 'comprehensive resolution including Kaliningrad transit guarantees'"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "US",
+          "to": "RU",
+          "channel": "backchannel",
+          "message": "Secretary Rubio to FM Lavrov: The United States has no desire for military confrontation over the Kaliningrad issue. We believe a diplomatic solution addressing legitimate transit concerns is possible. We propose direct bilateral talks at a neutral venue within 48 hours."
+        },
+        {
+          "from": "US",
+          "to": "PL",
+          "channel": "private",
+          "message": "V Corps is on heightened alert and prepared to defend American personnel and assets in Poland. However, the President has not authorized forward deployment at this time. Europeans must demonstrate willingness to lead on their own security before additional American commitment."
+        },
+        {
+          "from": "US",
+          "to": "DE",
+          "channel": "private",
+          "message": "Washington expects Germany to step up as the leading European NATO power. Increased German military commitment to Lithuania is essential. The US will support allies who demonstrate they are serious about their own defense."
+        }
+      ]
+    },
+    {
+      "country": "GB",
+      "actions": [
+        "Activate Joint Expeditionary Force (JEF) coordination mechanism and convene emergency JEF leaders' call with all 10 member nations",
+        "Deploy RAF P-8 Poseidon maritime patrol aircraft from Lossiemouth to conduct anti-submarine and surface surveillance patrols over the central and eastern Baltic Sea",
+        "Raise readiness of UK battlegroup at Tapa, Estonia to maximum alert and authorize reinforced patrols along the Russian border"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "GB",
+          "to": "US",
+          "channel": "private",
+          "message": "PM Starmer to President Trump: Britain stands ready to lead the European response but American commitment remains essential for credible deterrence. We urge the US to avoid public statements that could be interpreted by Moscow as lack of resolve."
+        },
+        {
+          "from": "GB",
+          "to": "FR",
+          "channel": "private",
+          "message": "Propose UK-France joint statement on Baltic security and coordinated military preparations. European nuclear deterrent credibility requires visible Franco-British solidarity."
+        }
+      ]
+    },
+    {
+      "country": "FR",
+      "actions": [
+        "Place the Force de Reaction Rapide (1st Parachute Hussar Regiment and supporting units) on 72-hour deployment notice for potential deployment to Poland or the Baltic region",
+        "Convene emergency Elysee defense council to assess French nuclear posture and European strategic autonomy options",
+        "Propose emergency EU Foreign Affairs Council session to coordinate a unified European diplomatic and economic response"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "FR",
+          "to": "DE",
+          "channel": "private",
+          "message": "President Macron to Chancellor Merz: France and Germany must present a united European front. We propose a joint Franco-German diplomatic initiative to Moscow offering negotiations while preparing military reinforcement. European credibility depends on our unity."
+        },
+        {
+          "from": "FR",
+          "to": "GB",
+          "channel": "private",
+          "message": "France agrees to joint Franco-British statement. Propose also coordinating naval assets in the Baltic and North Sea. The Lancaster House framework provides the basis for deepened cooperation."
+        },
+        {
+          "from": "FR",
+          "to": "US",
+          "channel": "private",
+          "message": "France is prepared to contribute to allied deterrence but cannot substitute for American commitment. A European-only defense posture would embolden Moscow. We need clarity on US intentions."
+        }
+      ]
+    },
+    {
+      "country": "DE",
+      "actions": [
+        "Reinforce the German-led eFP battlegroup in Lithuania with additional logistics companies, SIGINT assets, and a medical support team from the 45th Panzer Brigade -- but no additional combat units deployed due to 25% domestic war support constraint",
+        "Open German rail and road corridors for NATO military transit under Host Nation Support agreements, authorizing priority passage for allied military equipment",
+        "Chancellor Merz convenes emergency Bundessicherheitsrat (Federal Security Council) to assess the crisis and brief parliamentary leaders"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "DE",
+          "to": "RU",
+          "channel": "backchannel",
+          "message": "Germany is prepared to discuss a diplomatic framework for Kaliningrad transit guarantees through multilateral channels. Military escalation serves no one's interests. We urge Moscow to halt forward deployments and return to diplomatic engagement."
+        },
+        {
+          "from": "DE",
+          "to": "FR",
+          "channel": "private",
+          "message": "Germany supports a Franco-German diplomatic initiative. However, we must be realistic about domestic constraints -- German public opinion will not support offensive military operations. Our contribution must focus on logistics, intelligence, and diplomacy."
+        },
+        {
+          "from": "DE",
+          "to": "PL",
+          "channel": "private",
+          "message": "Germany is reinforcing its Lithuania battlegroup within current capabilities and opening transit corridors for allied reinforcement. We share Poland's concern but must pursue parallel diplomatic tracks."
+        }
+      ]
+    },
+    {
+      "country": "FI",
+      "actions": [
+        "Mobilize 15,000 reservists from the Army's readiness brigades and position them to reinforce the southeastern border with Russia",
+        "Activate Finnish Air Force QRA (Quick Reaction Alert) with F/A-18 Hornets at Rovaniemi and Kuopio air bases, increasing combat air patrol frequency along the Russian border",
+        "Deploy Finnish Border Guard additional surveillance teams and sensor systems along the 1,340km Russian border, with particular focus on the Karelian Isthmus"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "FI",
+          "to": "SE",
+          "channel": "private",
+          "message": "Finland requests immediate Nordic defense coordination. Propose joint Finnish-Swedish situational awareness sharing and coordinated air defense coverage over the Gulf of Finland and Baltic Sea."
+        },
+        {
+          "from": "FI",
+          "to": "EE",
+          "channel": "private",
+          "message": "Finland is mobilizing reserves and hardening our border. We can provide maritime patrol support in the Gulf of Finland and share intelligence on Russian Baltic Fleet movements."
+        }
+      ]
+    },
+    {
+      "country": "SE",
+      "actions": [
+        "Deploy an additional mechanized infantry company and RBS-15 anti-ship missile battery to Gotland island, reinforcing the permanent garrison",
+        "Raise Swedish Armed Forces to heightened alert and activate the Home Guard for critical infrastructure protection",
+        "Conduct Swedish Navy submarine patrols in the central Baltic to monitor Russian naval movements"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "SE",
+          "to": "FI",
+          "channel": "private",
+          "message": "Sweden concurs on joint Nordic coordination. Propose immediate activation of NORDEFCO crisis protocols and joint maritime surveillance in the Baltic."
+        },
+        {
+          "from": "SE",
+          "to": "DK",
+          "channel": "private",
+          "message": "The Danish Straits are critical. Sweden requests Denmark increase monitoring of the straits and prepare contingency plans to restrict Russian naval transit if the crisis escalates."
+        }
+      ]
+    },
+    {
+      "country": "NO",
+      "actions": [
+        "Increase surveillance of Russian Northern Fleet activities from the Kola Peninsula through Norwegian intelligence stations and maritime patrol aircraft",
+        "Raise alert at the NATO Combined Air Operations Centre (CAOC) at Bodoe to support integrated air defense coordination for the entire Nordic-Baltic region",
+        "Deploy Norwegian Navy frigates to the Norwegian Sea to monitor potential Russian submarine sorties through the GIUK gap"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "NO",
+          "to": "GB",
+          "channel": "private",
+          "message": "Norway is tracking increased Russian Northern Fleet activity. Propose joint Norwegian-British anti-submarine warfare coordination in the Norwegian Sea and GIUK gap to prevent Russian submarine breakout into the Atlantic."
+        },
+        {
+          "from": "NO",
+          "to": "US",
+          "channel": "private",
+          "message": "Norwegian intelligence indicates Russian Northern Fleet is raising readiness levels. This suggests Moscow is preparing for wider contingencies beyond the Baltic. US Navy support in the North Atlantic would be valuable."
+        }
+      ]
+    },
+    {
+      "country": "DK",
+      "actions": [
+        "Place Danish Naval Command on heightened alert and increase patrol frequency through the Danish Straits (Oresund, Great Belt, Little Belt)",
+        "Reinforce Bornholm island garrison with additional coastal defense forces and activate air defense radar systems",
+        "As UNSC non-permanent member, request emergency UN Security Council briefing on the Baltic situation"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "DK",
+          "to": "SE",
+          "channel": "private",
+          "message": "Denmark is increasing strait patrols. We should coordinate on Montreux-like contingency planning for the Danish Straits if the crisis escalates to hostilities."
+        },
+        {
+          "from": "DK",
+          "to": "NATO",
+          "channel": "public",
+          "message": "Denmark will fulfill all alliance obligations. We request NATO maritime command coordination for the Danish Straits, a critical chokepoint for Baltic access."
+        }
+      ]
+    },
+    {
+      "country": "CA",
+      "actions": [
+        "Raise readiness of Canadian-led multinational battlegroup in Latvia to maximum alert, conducting defensive preparations at Camp Adazi",
+        "Deploy additional SIGINT and electronic warfare specialists from Canadian Forces Intelligence Group to Latvia to improve situational awareness",
+        "PM Carney convenes emergency Cabinet Committee on National Security to authorize potential reinforcement of Latvia deployment"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "CA",
+          "to": "LV",
+          "channel": "private",
+          "message": "Canada is fully committed to Latvia's defense. We are raising our battlegroup to maximum readiness and will integrate Latvian reserve units as requested."
+        },
+        {
+          "from": "CA",
+          "to": "US",
+          "channel": "private",
+          "message": "Canada urges US leadership in this crisis. Allied unity is essential. We are reinforcing Latvia but need US commitment to deter Russian escalation."
+        }
+      ]
+    },
+    {
+      "country": "NL",
+      "actions": [
+        "Activate port security protocols at Rotterdam for expedited processing of any US or allied military equipment shipments bound for the eastern flank",
+        "Place 13th Light Brigade on heightened readiness for potential deployment under 1 (German/Netherlands) Corps framework",
+        "Raise alert at Joint Force Command Brunssum to support NATO operational planning for Baltic reinforcement"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "NL",
+          "to": "DE",
+          "channel": "private",
+          "message": "The Netherlands is ready to support joint 1(GE/NL) Corps deployment if the situation escalates. Rotterdam port is prepared for military logistics throughput. We need German approval for corps-level planning."
+        }
+      ]
+    },
+    {
+      "country": "BE",
+      "actions": [
+        "Increase security at NATO HQ and SHAPE in Belgium, deploying additional Belgian military police and counter-intelligence assets",
+        "Raise alert status at Kleine Brogel air base (hosting US B61 nuclear gravity bombs) and increase perimeter security",
+        "PM De Wever hosts emergency NATO ambassadorial session at Brussels HQ to facilitate Article 4 consultations"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "BE",
+          "to": "NATO",
+          "channel": "public",
+          "message": "Belgium stands ready to facilitate emergency NATO consultations. The alliance must present a united front."
+        }
+      ]
+    },
+    {
+      "country": "CZ",
+      "actions": [
+        "President Pavel convenes National Security Council and authorizes increased readiness of the 7th Mechanized Brigade for potential NATO deployment",
+        "Open Czech rail corridors for priority NATO military transit from Germany to Poland under existing Host Nation Support agreements",
+        "Authorize accelerated ammunition production at Sellier & Bellot and CSG Group factories to support NATO stockpile replenishment"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "CZ",
+          "to": "PL",
+          "channel": "private",
+          "message": "The Czech Republic is opening transit corridors and accelerating ammunition production. President Pavel, as former NATO Military Committee Chair, is personally engaged. We support Poland's position fully."
+        },
+        {
+          "from": "CZ",
+          "to": "HU",
+          "channel": "private",
+          "message": "Hungary's blocking of NATO consensus is unacceptable. President Pavel urges PM Orban to show solidarity with allies facing a direct threat. History will judge those who hesitated."
+        }
+      ]
+    },
+    {
+      "country": "RO",
+      "actions": [
+        "Raise alert at Deveselu Aegis Ashore facility and Mihail Kogalniceanu Air Base to enhanced readiness",
+        "Deploy additional Romanian Air Force MiG-21 Lancer and F-16 patrols over the Black Sea to monitor Russian naval activity",
+        "President Dan convenes CSAT (Supreme Council of National Defense) emergency session to coordinate national response"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "RO",
+          "to": "NATO",
+          "channel": "public",
+          "message": "Romania is prepared to defend alliance territory on all flanks. The southeastern flank must not be neglected while attention focuses on the Baltic."
+        },
+        {
+          "from": "RO",
+          "to": "PL",
+          "channel": "private",
+          "message": "Romania stands with Poland as fellow Bucharest Nine members. We are raising readiness on the Black Sea flank to prevent Russia from exploiting a multi-axis threat."
+        }
+      ]
+    },
+    {
+      "country": "RU",
+      "actions": [
+        "Baltic Fleet establishes naval exclusion zone 50 nautical miles off Lithuanian coast and fires warning shots at Lithuanian coast guard vessel that enters the zone",
+        "Kaliningrad-based electronic warfare units begin GPS jamming across the Suwalki corridor region, degrading NATO navigation and precision-strike capabilities",
+        "FSB-directed cyber units launch coordinated DDoS attacks against Lithuanian government websites, banking systems, and military command-and-control networks",
+        "Order Western Military District reserve elements to begin moving toward Belarus staging areas at Osipovichi and Baranovichi, signaling potential for additional forces to enter the theater within 48 hours"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "RU",
+          "to": "US",
+          "channel": "backchannel",
+          "message": "Russia is prepared to discuss Kaliningrad transit arrangements bilaterally with the United States. We note with appreciation the restrained American response. A bilateral understanding between Moscow and Washington could resolve this matter without broader escalation."
+        },
+        {
+          "from": "RU",
+          "to": "DE",
+          "channel": "backchannel",
+          "message": "Germany should recognize that NATO expansion to Russia's borders created this situation. A diplomatic solution guaranteeing unimpeded Russian transit to Kaliningrad through Lithuania is the only path to de-escalation. Russia has no quarrel with Germany."
+        },
+        {
+          "from": "RU",
+          "to": "NATO",
+          "channel": "public",
+          "message": "Russia's actions near Kaliningrad are purely defensive. We are protecting our sovereign territory and the 430,000 Russian citizens of Kaliningrad who are being subjected to economic pressure by the West. Any NATO military buildup near our borders will be met with proportionate response."
+        },
+        {
+          "from": "RU",
+          "to": "BY",
+          "channel": "private",
+          "message": "President Putin to President Lukashenko: Belarus must fulfill its Union State obligations. Belarusian forces must be prepared to secure the humanitarian corridor from the eastern side. Hesitation at this stage would be noted in Moscow."
+        }
+      ]
+    },
+    {
+      "country": "BY",
+      "actions": [
+        "Advance Belarus forces from Gozha training area to positions 3km from Lithuanian border but halt further forward movement -- Lukashenko buying time",
+        "Lukashenko convenes Security Council and authorizes 'defensive preparations' but avoids explicit commitment to offensive operations across Lithuanian border",
+        "Open private communication channel to the US through the existing Kellogg backchannel, signaling willingness to restrain if given security guarantees"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "BY",
+          "to": "RU",
+          "channel": "private",
+          "message": "Lukashenko to Putin: Belarus forces are in position as agreed. However, I must manage domestic stability. Any cross-border operation must have clear Russian military support -- Belarus cannot act alone against NATO."
+        },
+        {
+          "from": "BY",
+          "to": "US",
+          "channel": "backchannel",
+          "message": "Through the Kellogg channel: Belarus does not seek conflict with NATO. Lukashenko is prepared to exercise restraint if the situation can be resolved diplomatically. We request the US use its influence to prevent escalation."
+        }
+      ]
+    },
+    {
+      "country": "TR",
+      "actions": [
+        "Erdogan places calls to both Putin and NATO Secretary General, offering Turkey as mediator and proposing an emergency summit in Istanbul",
+        "Turkish Navy increases monitoring of the Turkish Straits but takes no action to restrict transit under Montreux Convention",
+        "Turkish intelligence (MIT) activates information-gathering operations in the Black Sea region to assess Russian naval posture changes"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "TR",
+          "to": "RU",
+          "channel": "private",
+          "message": "Erdogan to Putin: Turkey understands Russia's legitimate security concerns regarding Kaliningrad. As a NATO ally that maintains constructive relations with Russia, Turkey offers to host direct negotiations. A diplomatic solution would serve both our interests."
+        },
+        {
+          "from": "TR",
+          "to": "NATO",
+          "channel": "public",
+          "message": "Turkey calls for immediate diplomatic engagement. Military escalation in the Baltic threatens European stability. Turkey is prepared to facilitate dialogue between all parties."
+        },
+        {
+          "from": "TR",
+          "to": "US",
+          "channel": "private",
+          "message": "Erdogan to Trump: Turkey can be America's bridge to Moscow on this. We have the relationships and the credibility. An Istanbul summit would allow both sides to step back from the brink while saving face."
+        }
+      ]
+    },
+    {
+      "country": "HU",
+      "actions": [
+        "Orban publicly calls for an emergency EU summit focused on 'peaceful dialogue and de-escalation' rather than military reinforcement",
+        "Hungary blocks rapid NATO consensus on a reinforcement package during North Atlantic Council consultations, demanding 'more time for diplomacy'",
+        "FM Szijjarto calls Russian FM Lavrov to discuss a 'European peace framework' while publicly criticizing NATO hawks"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "HU",
+          "to": "RU",
+          "channel": "backchannel",
+          "message": "Szijjarto to Lavrov: Hungary will continue to advocate for dialogue within NATO and the EU. We do not support military escalation and will use our veto where possible to slow the rush to confrontation."
+        },
+        {
+          "from": "HU",
+          "to": "NATO",
+          "channel": "public",
+          "message": "Hungary cannot support any measures that escalate this crisis. We demand that NATO pursue all diplomatic avenues before any military reinforcement. War in Europe serves no one's interest."
+        },
+        {
+          "from": "HU",
+          "to": "TR",
+          "channel": "private",
+          "message": "Hungary supports Turkey's mediation offer. An Istanbul summit could provide the off-ramp that hawks in NATO are trying to prevent."
+        }
+      ]
+    },
+    {
+      "country": "CN",
+      "actions": [
+        "Chinese Foreign Ministry issues carefully calibrated statement calling on 'all parties to exercise restraint and return to dialogue,' pointedly refusing to condemn Russian actions",
+        "PLA Navy increases maritime surveillance in the South China Sea and Taiwan Strait, quietly testing whether US military assets are being diverted to Europe",
+        "Wang Yi calls Lavrov to coordinate diplomatic positions and signal that China will provide cover at the UN Security Council by vetoing any anti-Russia resolution"
+      ],
+      "diplomatic_messages": [
+        {
+          "from": "CN",
+          "to": "RU",
+          "channel": "private",
+          "message": "Wang Yi to Lavrov: China supports Russia's legitimate security concerns and will block hostile action at the UN Security Council. However, Beijing urges Moscow to avoid full-scale military conflict that could destabilize the global economy and harm Chinese interests."
+        },
+        {
+          "from": "CN",
+          "to": "US",
+          "channel": "backchannel",
+          "message": "Through diplomatic channels: China has no stake in the European dispute but is watching the US response closely. Washington's handling of this crisis will inform Beijing's assessment of American strategic priorities and commitments in the Indo-Pacific."
+        }
+      ]
+    }
+  ],
+  "resolution": {
+    "narrative": "The first 18 hours of the Suwalki Gap crisis were defined by calculated brinksmanship from Moscow and a fractured Western response that exposed deep fault lines within NATO. Russia executed a carefully choreographed escalation: at 0600 CET, Kaliningrad-based electronic warfare units began jamming GPS signals across the Lithuanian-Polish border region, while the Baltic Fleet established a naval exclusion zone 50 nautical miles off the Lithuanian coast, firing warning shots at a Lithuanian coast guard patrol vessel. Simultaneously, Russian cyber units launched a coordinated DDoS attack against Lithuanian government websites, banking systems, and military command networks, temporarily degrading communications. The 'humanitarian corridor' narrative was amplified across Russian state media and social networks in multiple languages.\n\nThe NATO response was swift on the eastern flank but hesitant at the center. Poland immediately deployed its 16th Mechanized Division from Olsztyn to the Suwalki corridor, establishing defensive positions along Route 8 between Augustow and the Lithuanian border. The Baltic states invoked Article 4 of the NATO Treaty, requesting urgent consultations. Lithuania activated its rapid reaction force and began mining key bridges and road approaches to the corridor. Finland quietly mobilized 15,000 reservists and hardened its border defenses. Sweden reinforced Gotland with additional anti-ship missile batteries and a mechanized company.\n\nCritically, the United States declined to deploy additional forces, with the White House issuing a carefully worded statement calling on 'all parties to exercise restraint' and urging 'European allies to demonstrate leadership in managing European security challenges.' The Pentagon, acting within existing authorities, raised the alert level of V Corps in Poland to WATCHCON 2 but did not move forces forward. Secretary Rubio opened a backchannel to Foreign Minister Lavrov. Germany, constrained by 25% domestic war support, reinforced its Lithuania battlegroup with logistics and intelligence assets but refused to authorize additional combat deployments. France placed its rapid reaction brigade on 72-hour notice. The UK activated JEF coordination and began P-8 Poseidon maritime patrols over the Baltic.\n\nBeijing issued a carefully calibrated statement calling for 'restraint from all parties' while privately signaling to Moscow that China would provide diplomatic cover at the UN Security Council. Hungary's Orban publicly called for an emergency EU summit focused on 'peaceful dialogue,' while privately blocking rapid NATO consensus on reinforcement. Turkey offered to mediate, with Erdogan calling both Putin and NATO Secretary General. By the end of Day 1, the corridor remained contested but the balance of initiative rested firmly with Russia, which had successfully established information dominance and military positioning without crossing the threshold of direct armed attack on NATO forces.",
+    "world_state_updates": {
+      "game_time": "Day 2, 00:00 CET",
+      "military_units_add": [],
+      "military_units_remove": [],
+      "military_units_update": [
+        {
+          "name": "russian_kaliningrad_forces",
+          "location": "Kaliningrad Oblast - Forward positions near Lithuanian border",
+          "readiness": 9,
+          "strength": 8,
+          "casualties": 0,
+          "supply_level": 9,
+          "morale": 8
+        },
+        {
+          "name": "russian_western_district",
+          "location": "Western Military District, Russia - Forces moving toward Belarus border",
+          "readiness": 7,
+          "strength": 7,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 7
+        },
+        {
+          "name": "belarus_forces",
+          "location": "Belarus-Lithuania border - Gozha training area, 3km from border",
+          "readiness": 5,
+          "strength": 4,
+          "casualties": 0,
+          "supply_level": 9,
+          "morale": 6
+        },
+        {
+          "name": "nato_efp_lithuania",
+          "location": "Lithuania - Defensive positions near Suwalki corridor",
+          "readiness": 8,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 9,
+          "morale": 7
+        },
+        {
+          "name": "nato_efp_latvia",
+          "location": "Latvia - Camp Adazi, heightened alert",
+          "readiness": 7,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 7
+        },
+        {
+          "name": "nato_efp_estonia",
+          "location": "Estonia - Tapa, heightened alert with reinforced patrols",
+          "readiness": 7,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 7
+        },
+        {
+          "name": "nato_efp_poland",
+          "location": "Poland - Forward deployed near Suwalki corridor",
+          "readiness": 8,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 7
+        },
+        {
+          "name": "us_forces_poland",
+          "location": "Poland - Camp Kosciuszko, WATCHCON 2",
+          "readiness": 9,
+          "strength": 7,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 7
+        },
+        {
+          "name": "polish_forces",
+          "location": "Poland - 16th Mechanized Division deployed to Suwalki corridor, remaining divisions on high alert",
+          "readiness": 8,
+          "strength": 7,
+          "casualties": 0,
+          "supply_level": 9,
+          "morale": 8
+        },
+        {
+          "name": "finnish_forces",
+          "location": "Finland - 15,000 reservists mobilized, border defenses hardened",
+          "readiness": 6,
+          "strength": 7,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 7
+        }
+      ],
+      "military_alerts": {
+        "russian_kaliningrad_forces": "3 BTGs within 15km of Lithuanian border, S-400 creating A2/AD bubble, Baltic Fleet exclusion zone active, EW jamming GPS across corridor",
+        "russian_western_district": "Elements moving toward Belarus staging areas, additional reinforcement possible within 48h",
+        "belarus_forces": "Moved to 3km from Lithuanian border at Gozha, Lukashenko hesitant on full commitment",
+        "nato_efp_lithuania": "German-led battlegroup reinforced with logistics/ISR, defensive positions near corridor",
+        "nato_efp_latvia": "Canadian-led brigade at heightened alert, defensive preparations at Camp Adazi",
+        "nato_efp_estonia": "UK-led battlegroup reinforced patrols along Russian border, P-8 maritime patrol overhead",
+        "nato_efp_poland": "US-led battlegroup forward deployed with Polish forces in Suwalki corridor",
+        "us_forces_poland": "V Corps at WATCHCON 2, all personnel on base, C-130 and helicopter assets ready, NO forward deployment authorized by White House",
+        "polish_forces": "16th Mechanized Division dug in along Route 8 Augustow-Lithuanian border, 18th Mechanized and 11th Armoured divisions on standby, Territorial Defence activated in Podlasie",
+        "finnish_forces": "15,000 reservists called up, border surveillance doubled, Hornet fighters on QRA at Rovaniemi and Kuopio"
+      },
+      "markets": {
+        "oil_price": 107,
+        "euro_usd": 1.05,
+        "gas_price_eu": "surging, +35% on day",
+        "stock_indices": "European indices -4.5%, US -2.1%, sharp risk-off globally"
+      },
+      "sanctions_add": [],
+      "trade_disruptions_add": [
+        "Baltic Sea shipping disrupted by Russian naval exclusion zone",
+        "Lithuanian rail transit to Kaliningrad suspended by Lithuania",
+        "Insurance premiums for Baltic shipping surge 400%"
+      ],
+      "diplomatic_relations": {
+        "PL": {
+          "RU": -8,
+          "BY": -6,
+          "US": 3,
+          "LT": 8,
+          "DE": 4
+        },
+        "LT": {
+          "RU": -9,
+          "BY": -7,
+          "PL": 8,
+          "US": 5,
+          "DE": 5
+        },
+        "LV": {
+          "RU": -8,
+          "LT": 8,
+          "EE": 8
+        },
+        "EE": {
+          "RU": -8,
+          "LV": 8,
+          "GB": 6
+        },
+        "US": {
+          "RU": -3,
+          "PL": 3,
+          "DE": 1
+        },
+        "GB": {
+          "RU": -6,
+          "EE": 6,
+          "PL": 5
+        },
+        "FR": {
+          "RU": -4,
+          "DE": 5,
+          "PL": 3
+        },
+        "DE": {
+          "RU": -4,
+          "PL": 4,
+          "FR": 5,
+          "LT": 5
+        },
+        "RU": {
+          "US": -3,
+          "PL": -8,
+          "LT": -9,
+          "BY": 7,
+          "CN": 6,
+          "DE": -4
+        },
+        "FI": {
+          "RU": -7,
+          "SE": 7,
+          "EE": 7
+        },
+        "SE": {
+          "FI": 7,
+          "RU": -5
+        },
+        "BY": {
+          "RU": 7,
+          "LT": -7,
+          "PL": -6
+        },
+        "CN": {
+          "RU": 6,
+          "US": -2
+        },
+        "HU": {
+          "RU": 2,
+          "PL": -1
+        },
+        "TR": {
+          "RU": 1,
+          "US": 0
+        }
+      },
+      "treaties_invoked_add": [
+        "NATO Article 4 invoked by Lithuania, Latvia, and Estonia - formal consultations requested"
+      ],
+      "un_resolutions_add": [],
+      "nato_alert_level": "high",
+      "nato_consensus": {
+        "US": "White House urges restraint, Pentagon supports reinforcement within existing deployments",
+        "PL": "Demands immediate NATO reinforcement and Article 5 readiness",
+        "DE": "Supports diplomatic track, reluctant on military escalation, reinforced eFP Lithuania with logistics",
+        "GB": "Activated JEF, supports military reinforcement of Baltic position",
+        "FR": "Supports European-led response, places rapid reaction forces on alert",
+        "LT": "Invoked Article 4, demands reinforcements, activated national defense",
+        "LV": "Invoked Article 4, supports full NATO mobilization",
+        "EE": "Invoked Article 4, activated cyber defense and reserves",
+        "CA": "Supports alliance unity, reinforced Latvia battlegroup readiness",
+        "HU": "Calls for de-escalation and dialogue, blocking rapid consensus on reinforcement"
+      },
+      "nuclear_posture": {
+        "FR": "peacetime",
+        "GB": "peacetime",
+        "RU": "elevated",
+        "US": "peacetime"
+      },
+      "nuclear_detonations_add": [],
+      "public_opinion": {
+        "PL": {
+          "war_support": 73,
+          "government_approval": 62
+        },
+        "LT": {
+          "war_support": 88,
+          "government_approval": 58
+        },
+        "LV": {
+          "war_support": 82,
+          "government_approval": 52
+        },
+        "EE": {
+          "war_support": 84,
+          "government_approval": 54
+        },
+        "US": {
+          "war_support": 22,
+          "government_approval": 44
+        },
+        "DE": {
+          "war_support": 28,
+          "government_approval": 33
+        },
+        "GB": {
+          "war_support": 43,
+          "government_approval": 42
+        },
+        "FR": {
+          "war_support": 37,
+          "government_approval": 39
+        },
+        "FI": {
+          "war_support": 65,
+          "government_approval": 58
+        },
+        "SE": {
+          "war_support": 55,
+          "government_approval": 52
+        },
+        "NO": {
+          "war_support": 48,
+          "government_approval": 50
+        },
+        "DK": {
+          "war_support": 45,
+          "government_approval": 48
+        },
+        "CA": {
+          "war_support": 38,
+          "government_approval": 45
+        },
+        "NL": {
+          "war_support": 35,
+          "government_approval": 42
+        },
+        "BE": {
+          "war_support": 30,
+          "government_approval": 40
+        },
+        "CZ": {
+          "war_support": 40,
+          "government_approval": 45
+        },
+        "RO": {
+          "war_support": 45,
+          "government_approval": 48
+        },
+        "HU": {
+          "war_support": 15,
+          "government_approval": 48
+        },
+        "RU": {
+          "war_support": 62,
+          "government_approval": 68
+        },
+        "BY": {
+          "war_support": 18,
+          "government_approval": 30
+        },
+        "TR": {
+          "war_support": 12,
+          "government_approval": 45
+        },
+        "CN": {
+          "war_support": 10,
+          "government_approval": 72
+        }
+      },
+      "refugee_flows_add": [
+        {
+          "from": "LT",
+          "to": "PL",
+          "count": 8500,
+          "status": "fleeing"
+        },
+        {
+          "from": "LT",
+          "to": "LV",
+          "count": 3200,
+          "status": "fleeing"
+        }
+      ],
+      "humanitarian_crisis_level": {
+        "LT": 3,
+        "PL": 1
+      },
+      "cyber_operations_add": [
+        {
+          "attacker": "RU",
+          "target": "LT",
+          "type": "ddos",
+          "severity": "high",
+          "infrastructure_affected": "financial"
+        },
+        {
+          "attacker": "RU",
+          "target": "LT",
+          "type": "malware",
+          "severity": "medium",
+          "infrastructure_affected": "comms"
+        },
+        {
+          "attacker": "RU",
+          "target": "LT",
+          "type": "infrastructure",
+          "severity": "high",
+          "infrastructure_affected": "military_c2"
+        },
+        {
+          "attacker": "RU",
+          "target": "PL",
+          "type": "espionage",
+          "severity": "medium",
+          "infrastructure_affected": "military_c2"
+        },
+        {
+          "attacker": "EE",
+          "target": "RU",
+          "type": "espionage",
+          "severity": "low",
+          "infrastructure_affected": "none"
+        }
+      ],
+      "infrastructure_status": {
+        "LT": {
+          "power_grid": 9,
+          "comms": 7,
+          "financial": 6,
+          "military_c2": 7
+        }
+      },
+      "corridor_control": "contested",
+      "recent_events": [
+        "Russia establishes naval exclusion zone 50nm off Lithuanian coast, warning shots fired at Lithuanian coast guard vessel",
+        "Russian EW units begin GPS jamming across Suwalki corridor region",
+        "Coordinated Russian cyber attack degrades Lithuanian banking, government, and military communications",
+        "Poland deploys 16th Mechanized Division to Suwalki corridor defensive positions",
+        "Baltic states invoke NATO Article 4, requesting urgent alliance consultations",
+        "Lithuania activates rapid reaction force, begins mining road approaches to Suwalki corridor",
+        "US White House issues statement calling for restraint, declines to authorize forward deployment of V Corps",
+        "US Secretary Rubio opens backchannel to Russian Foreign Minister Lavrov",
+        "Finland mobilizes 15,000 reservists and hardens border defenses",
+        "Sweden reinforces Gotland with additional anti-ship missiles and mechanized infantry",
+        "UK activates Joint Expeditionary Force coordination, deploys P-8 Poseidon over Baltic",
+        "France places Force de Reaction Rapide on 72-hour deployment notice",
+        "Germany reinforces Lithuania eFP with logistics and intelligence but no additional combat forces",
+        "Hungary blocks rapid NATO consensus on reinforcement package, calls for dialogue",
+        "Turkey offers to mediate, Erdogan calls Putin and NATO Secretary General",
+        "China calls for all parties to exercise restraint, signals willingness to provide diplomatic cover at UNSC",
+        "Oil prices spike to $107/barrel, European gas prices surge 35%",
+        "Civilian evacuation begins in Lithuanian border towns, ~11,700 refugees flee south to Poland and north to Latvia",
+        "Belarus forces advance to 3km from Lithuanian border but halt, Lukashenko reportedly hesitant"
+      ],
+      "media_headlines": [
+        "CNN: Russian navy fires warning shots near Lithuanian coast as Baltic crisis deepens",
+        "BBC: NATO Article 4 invoked as Baltic states plead for help -- alliance divided on response",
+        "RT: Western hysteria over Kaliningrad humanitarian corridor threatens European stability",
+        "Bild: Germany reinforces Lithuania but Merz government refuses combat escalation",
+        "TVP: Polish 16th Division digs in at Suwalki -- 'We will not abandon Lithuania'",
+        "Fox News: Trump administration urges Europeans to handle their own security crisis",
+        "Le Monde: Macron puts French rapid reaction forces on alert, pushes for European defense autonomy",
+        "Financial Times: Oil spikes past $107 as Baltic crisis rattles global markets"
+      ],
+      "round_number": 1
+    },
+    "events": [
+      "Russia establishes naval exclusion zone and fires warning shots at Lithuanian coast guard",
+      "Coordinated Russian cyber attack degrades Lithuanian government and financial infrastructure",
+      "Russian EW units jam GPS across the Suwalki corridor",
+      "Poland deploys 16th Mechanized Division to Suwalki corridor",
+      "Baltic states invoke NATO Article 4",
+      "US declines forward deployment, opens backchannel to Lavrov",
+      "Finland mobilizes 15,000 reservists",
+      "Sweden reinforces Gotland with anti-ship missiles",
+      "Oil prices spike to $107/barrel",
+      "Hungary blocks rapid NATO consensus on reinforcement",
+      "China signals UNSC veto protection for Russia",
+      "11,700 civilians evacuate from Lithuanian border towns"
+    ],
+    "headlines": [
+      "CNN: Russian navy fires warning shots near Lithuanian coast as Baltic crisis deepens",
+      "BBC: NATO Article 4 invoked -- alliance divided as US calls on Europeans to lead",
+      "RT: Western aggression against Kaliningrad forces Russia to protect its citizens",
+      "Financial Times: Oil surges past $107 as Baltic crisis shakes global markets"
+    ],
+    "surprises": [
+      "A Lithuanian fishing vessel is accidentally struck by debris from Russian naval warning shots, injuring two crew members -- Lithuania demands Russian accountability, Russia denies responsibility, video goes viral on social media amplifying public outrage across Europe",
+      "NSA intercepts reveal that Russian Western Military District forces are moving toward Belarus staging areas faster than expected -- Putin may have accelerated the timeline for a corridor seizure from 72 hours to 36 hours"
+    ]
+  },
+  "world_state_after": {
+    "round_number": 1,
+    "game_time": "Day 2, 00:00 CET",
+    "military_units": [
+      {
+        "name": "russian_kaliningrad_forces",
+        "country": "RU",
+        "type": "ground",
+        "location": "Kaliningrad Oblast - Forward positions near Lithuanian border",
+        "readiness": 9,
+        "strength": 8,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "russian_western_district",
+        "country": "RU",
+        "type": "ground",
+        "location": "Western Military District, Russia - Forces moving toward Belarus border",
+        "readiness": 7,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "belarus_forces",
+        "country": "BY",
+        "type": "ground",
+        "location": "Belarus-Lithuania border - Gozha training area, 3km from border",
+        "readiness": 5,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 6,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_lithuania",
+        "country": "DE",
+        "type": "ground",
+        "location": "Lithuania - Defensive positions near Suwalki corridor",
+        "readiness": 8,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_latvia",
+        "country": "CA",
+        "type": "ground",
+        "location": "Latvia - Camp Adazi, heightened alert",
+        "readiness": 7,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_estonia",
+        "country": "GB",
+        "type": "ground",
+        "location": "Estonia - Tapa, heightened alert with reinforced patrols",
+        "readiness": 7,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "Poland - Forward deployed near Suwalki corridor",
+        "readiness": 8,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "us_forces_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "Poland - Camp Kosciuszko, WATCHCON 2",
+        "readiness": 9,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "polish_forces",
+        "country": "PL",
+        "type": "ground",
+        "location": "Poland - 16th Mechanized Division deployed to Suwalki corridor, remaining divisions on high alert",
+        "readiness": 8,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "finnish_forces",
+        "country": "FI",
+        "type": "ground",
+        "location": "Finland - 15,000 reservists mobilized, border defenses hardened",
+        "readiness": 6,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      }
+    ],
+    "military_alerts": {
+      "russian_kaliningrad_forces": "3 BTGs within 15km of Lithuanian border, S-400 creating A2/AD bubble, Baltic Fleet exclusion zone active, EW jamming GPS across corridor",
+      "russian_western_district": "Elements moving toward Belarus staging areas, additional reinforcement possible within 48h",
+      "belarus_forces": "Moved to 3km from Lithuanian border at Gozha, Lukashenko hesitant on full commitment",
+      "nato_efp_lithuania": "German-led battlegroup reinforced with logistics/ISR, defensive positions near corridor",
+      "nato_efp_latvia": "Canadian-led brigade at heightened alert, defensive preparations at Camp Adazi",
+      "nato_efp_estonia": "UK-led battlegroup reinforced patrols along Russian border, P-8 maritime patrol overhead",
+      "nato_efp_poland": "US-led battlegroup forward deployed with Polish forces in Suwalki corridor",
+      "us_forces_poland": "V Corps at WATCHCON 2, all personnel on base, C-130 and helicopter assets ready, NO forward deployment authorized by White House",
+      "polish_forces": "16th Mechanized Division dug in along Route 8 Augustow-Lithuanian border, 18th Mechanized and 11th Armoured divisions on standby, Territorial Defence activated in Podlasie",
+      "finnish_forces": "15,000 reservists called up, border surveillance doubled, Hornet fighters on QRA at Rovaniemi and Kuopio"
+    },
+    "markets": {
+      "oil_price": 107,
+      "euro_usd": 1.05,
+      "gas_price_eu": "surging, +35% on day",
+      "stock_indices": "European indices -4.5%, US -2.1%, sharp risk-off globally"
+    },
+    "sanctions": [],
+    "trade_disruptions": [
+      "Baltic Sea shipping disrupted by Russian naval exclusion zone",
+      "Lithuanian rail transit to Kaliningrad suspended by Lithuania",
+      "Insurance premiums for Baltic shipping surge 400%"
+    ],
+    "diplomatic_relations": {
+      "PL": {
+        "RU": -8,
+        "BY": -6,
+        "US": 3,
+        "LT": 8,
+        "DE": 4
+      },
+      "LT": {
+        "RU": -9,
+        "BY": -7,
+        "PL": 8,
+        "US": 5,
+        "DE": 5
+      },
+      "LV": {
+        "RU": -8,
+        "LT": 8,
+        "EE": 8
+      },
+      "EE": {
+        "RU": -8,
+        "LV": 8,
+        "GB": 6
+      },
+      "US": {
+        "RU": -3,
+        "PL": 3,
+        "DE": 1
+      },
+      "GB": {
+        "RU": -6,
+        "EE": 6,
+        "PL": 5
+      },
+      "FR": {
+        "RU": -4,
+        "DE": 5,
+        "PL": 3
+      },
+      "DE": {
+        "RU": -4,
+        "PL": 4,
+        "FR": 5,
+        "LT": 5
+      },
+      "RU": {
+        "US": -3,
+        "PL": -8,
+        "LT": -9,
+        "BY": 7,
+        "CN": 6,
+        "DE": -4
+      },
+      "FI": {
+        "RU": -7,
+        "SE": 7,
+        "EE": 7
+      },
+      "SE": {
+        "FI": 7,
+        "RU": -5
+      },
+      "BY": {
+        "RU": 7,
+        "LT": -7,
+        "PL": -6
+      },
+      "CN": {
+        "RU": 6,
+        "US": -2
+      },
+      "HU": {
+        "RU": 2,
+        "PL": -1
+      },
+      "TR": {
+        "RU": 1,
+        "US": 0
+      }
+    },
+    "treaties_invoked": [
+      "NATO Article 4 invoked by Lithuania, Latvia, and Estonia - formal consultations requested"
+    ],
+    "un_resolutions": [],
+    "nato_alert_level": "article5",
+    "nato_consensus": {
+      "US": "White House urges restraint, Pentagon supports reinforcement within existing deployments",
+      "PL": "Demands immediate NATO reinforcement and Article 5 readiness",
+      "DE": "Supports diplomatic track, reluctant on military escalation, reinforced eFP Lithuania with logistics",
+      "GB": "Activated JEF, supports military reinforcement of Baltic position",
+      "FR": "Supports European-led response, places rapid reaction forces on alert",
+      "LT": "Invoked Article 4, demands reinforcements, activated national defense",
+      "LV": "Invoked Article 4, supports full NATO mobilization",
+      "EE": "Invoked Article 4, activated cyber defense and reserves",
+      "CA": "Supports alliance unity, reinforced Latvia battlegroup readiness",
+      "HU": "Calls for de-escalation and dialogue, blocking rapid consensus on reinforcement"
+    },
+    "corridor_control": "contested",
+    "nuclear_posture": {
+      "RU": "elevated",
+      "US": "peacetime",
+      "GB": "peacetime",
+      "FR": "peacetime"
+    },
+    "nuclear_detonations": [],
+    "public_opinion": {
+      "PL": {
+        "war_support": 73,
+        "government_approval": 62
+      },
+      "DE": {
+        "war_support": 28,
+        "government_approval": 33
+      },
+      "FR": {
+        "war_support": 37,
+        "government_approval": 39
+      },
+      "US": {
+        "war_support": 22,
+        "government_approval": 44
+      },
+      "GB": {
+        "war_support": 43,
+        "government_approval": 42
+      },
+      "LT": {
+        "war_support": 88,
+        "government_approval": 58
+      },
+      "LV": {
+        "war_support": 82,
+        "government_approval": 52
+      },
+      "EE": {
+        "war_support": 84,
+        "government_approval": 54
+      },
+      "FI": {
+        "war_support": 65,
+        "government_approval": 58
+      },
+      "SE": {
+        "war_support": 55,
+        "government_approval": 52
+      },
+      "NO": {
+        "war_support": 48,
+        "government_approval": 50
+      },
+      "DK": {
+        "war_support": 45,
+        "government_approval": 48
+      },
+      "CA": {
+        "war_support": 38,
+        "government_approval": 45
+      },
+      "NL": {
+        "war_support": 35,
+        "government_approval": 42
+      },
+      "BE": {
+        "war_support": 30,
+        "government_approval": 40
+      },
+      "CZ": {
+        "war_support": 40,
+        "government_approval": 45
+      },
+      "RO": {
+        "war_support": 45,
+        "government_approval": 48
+      },
+      "HU": {
+        "war_support": 15,
+        "government_approval": 48
+      },
+      "RU": {
+        "war_support": 62,
+        "government_approval": 68
+      },
+      "BY": {
+        "war_support": 18,
+        "government_approval": 30
+      },
+      "TR": {
+        "war_support": 12,
+        "government_approval": 45
+      },
+      "CN": {
+        "war_support": 10,
+        "government_approval": 72
+      }
+    },
+    "refugee_flows": [
+      {
+        "from": "LT",
+        "to": "PL",
+        "count": 8500,
+        "status": "fleeing"
+      },
+      {
+        "from": "LT",
+        "to": "LV",
+        "count": 3200,
+        "status": "fleeing"
+      }
+    ],
+    "humanitarian_crisis_level": {
+      "LT": 3,
+      "PL": 1
+    },
+    "cyber_operations": [
+      {
+        "attacker": "RU",
+        "target": "LT",
+        "type": "ddos",
+        "severity": "high",
+        "infrastructure_affected": "financial"
+      },
+      {
+        "attacker": "RU",
+        "target": "LT",
+        "type": "malware",
+        "severity": "medium",
+        "infrastructure_affected": "comms"
+      },
+      {
+        "attacker": "RU",
+        "target": "LT",
+        "type": "infrastructure",
+        "severity": "high",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "PL",
+        "type": "espionage",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "EE",
+        "target": "RU",
+        "type": "espionage",
+        "severity": "low",
+        "infrastructure_affected": "none"
+      }
+    ],
+    "infrastructure_status": {
+      "LT": {
+        "power_grid": 9,
+        "comms": 7,
+        "financial": 6,
+        "military_c2": 7
+      }
+    },
+    "recent_events": [
+      "Russia establishes naval exclusion zone 50nm off Lithuanian coast, warning shots fired at Lithuanian coast guard vessel",
+      "Russian EW units begin GPS jamming across Suwalki corridor region",
+      "Coordinated Russian cyber attack degrades Lithuanian banking, government, and military communications",
+      "Poland deploys 16th Mechanized Division to Suwalki corridor defensive positions",
+      "Baltic states invoke NATO Article 4, requesting urgent alliance consultations",
+      "Lithuania activates rapid reaction force, begins mining road approaches to Suwalki corridor",
+      "US White House issues statement calling for restraint, declines to authorize forward deployment of V Corps",
+      "US Secretary Rubio opens backchannel to Russian Foreign Minister Lavrov",
+      "Finland mobilizes 15,000 reservists and hardens border defenses",
+      "Sweden reinforces Gotland with additional anti-ship missiles and mechanized infantry",
+      "UK activates Joint Expeditionary Force coordination, deploys P-8 Poseidon over Baltic",
+      "France places Force de Reaction Rapide on 72-hour deployment notice",
+      "Germany reinforces Lithuania eFP with logistics and intelligence but no additional combat forces",
+      "Hungary blocks rapid NATO consensus on reinforcement package, calls for dialogue",
+      "Turkey offers to mediate, Erdogan calls Putin and NATO Secretary General",
+      "China calls for all parties to exercise restraint, signals willingness to provide diplomatic cover at UNSC",
+      "Oil prices spike to $107/barrel, European gas prices surge 35%",
+      "Civilian evacuation begins in Lithuanian border towns, ~11,700 refugees flee south to Poland and north to Latvia",
+      "Belarus forces advance to 3km from Lithuanian border but halt, Lukashenko reportedly hesitant"
+    ],
+    "media_headlines": [
+      "CNN: Russian navy fires warning shots near Lithuanian coast as Baltic crisis deepens",
+      "BBC: NATO Article 4 invoked as Baltic states plead for help -- alliance divided on response",
+      "RT: Western hysteria over Kaliningrad humanitarian corridor threatens European stability",
+      "Bild: Germany reinforces Lithuania but Merz government refuses combat escalation",
+      "TVP: Polish 16th Division digs in at Suwalki -- 'We will not abandon Lithuania'",
+      "Fox News: Trump administration urges Europeans to handle their own security crisis",
+      "Le Monde: Macron puts French rapid reaction forces on alert, pushes for European defense autonomy",
+      "Financial Times: Oil spikes past $107 as Baltic crisis rattles global markets"
+    ],
+    "_nuclear_penalty_applied": [],
+    "_oil_penalty_last_threshold": 0.0,
+    "_gas_sanction_count_applied": 0,
+    "_gm_set_nuclear_this_round": [
+      "US",
+      "RU",
+      "FR",
+      "GB"
+    ]
+  }
+}

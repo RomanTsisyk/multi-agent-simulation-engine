@@ -1,0 +1,32 @@
+{
+  "preset": "suwalki-claude",
+  "scenario": "Suwalki Gap Crisis 2026",
+  "total_rounds": 31,
+  "country_codes": [
+    "BE",
+    "BY",
+    "CA",
+    "CN",
+    "CZ",
+    "DE",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "GB",
+    "HU",
+    "LT",
+    "LV",
+    "NL",
+    "NO",
+    "PL",
+    "RO",
+    "RU",
+    "SE",
+    "TR",
+    "US"
+  ],
+  "runner": "claude-code",
+  "model": "haiku",
+  "model_id": "claude-haiku-4-5"
+}

@@ -1,0 +1,1337 @@
+{
+  "round": 19,
+  "runner": "claude-code",
+  "briefing": "",
+  "narrative": "The London Defense Ministerial on Day 7 became the most consequential NATO meeting since Article 5 was invoked. Prime Minister Starmer opened proceedings at Lancaster House with a blunt assessment: 'We have sixty days before Russia can reconstitute. What we decide today determines whether they ever try again.' The Ministerial produced three landmark outcomes.\n\nFirst, Enhanced Forward Presence 2.0 was formally adopted with a UK-led command hub at Northwood and a French-commanded southern sector covering Poland-Slovakia. Concrete force commitments exceeded expectations: Poland's PLN 2 billion infrastructure investment, Germany's €900M Defense Fund (the largest single European contribution), Dutch 43rd Brigade deploying to Lithuania within 18 days, Romanian mechanized brigade to Poland, Czech Republic doubling its battalion plus 50,000 artillery shells, Canadian second brigade to Latvia, and Belgium integrating its battlegroup with Netherlands. Total allied forces committed to the eastern flank surpassed 15,000 in new rotational pledges.\n\nSecond, France's proposed 'Vienna Process' for EU-Russia diplomatic dialogue split the room. Poland and the Baltics rejected it as premature; Germany quietly supported it; the UK refused to publicly endorse but didn't block. Macron framed it as European strategic autonomy — a diplomatic track that would run parallel to military deterrence. The compromise: the EU would 'explore contacts' with Moscow without formal recognition of the Vienna Process until Russia's 180-day stabilization period showed 'verifiable compliance.'\n\nThird, Turkey's F-35 crisis resolved — partially. Erdogan deployed an additional 1,000 troops (bringing Turkey's total to 4,500 in Lithuania) and received a US commitment to deliver the first 4 F-35As by Q3 2027, with the full 40-aircraft package by 2030. In exchange, Hungary quietly dropped its obstruction of Sweden's NATO accession, removing the last formal obstacle. Sweden's ratification was scheduled for the next NAC session. However, Turkey's demand for enhanced Patriot systems remained unresolved.\n\nBehind the scenes, three developments would prove more consequential than anything discussed at Lancaster House. In Minsk, Lukashenko sent a carefully worded message through the Kellogg channel offering to 'freeze' military support to Russia in exchange for phased sanctions relief — while simultaneously reducing Russian military rail transit capacity by 30%, citing 'infrastructure maintenance.' In Moscow, the General Staff quietly accepted North Korea's offer of 500,000 artillery rounds and 50 KN-23 missiles, beginning a logistics chain that would take weeks to deliver. And in Beijing, Xi Jinping maintained 95 sorties per day over the Taiwan Strait while offering Russia a $15 billion credit line at punishing terms: 7% interest, repayment in discounted energy, and access to Vladivostok port — effectively pricing Russia's desperation.",
+  "country_decisions": [
+    {
+      "country": "PL",
+      "actions": [
+        "London Ministerial: permanent brigade proposal, PLN 2B infrastructure",
+        "Coordinated Baltic-Polish position for permanent garrison",
+        "Weimar Triangle security mechanism proposed"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "LT",
+      "actions": [
+        "Demanded permanent 3,000+ brigade with enablers",
+        "€7.2B reconstruction plan presented",
+        "Accelerated EFP 2.0 to Day 14 timeline"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "LV",
+      "actions": [
+        "1st Infantry Battalion solidarity rotation to Lithuania",
+        "Proposed Baltic Joint Defense Fund"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "EE",
+      "actions": [
+        "Presented NATO Cyber Doctrine 2026",
+        "Continued CCDCOE offensive ops against Russian C2",
+        "Proposed €500M permanent NATO cyber center in Tallinn"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "US",
+      "actions": [
+        "EFP 2.0 support with European-led 60% framework",
+        "Ford CSG extending through Day 10 then Norfolk rotation",
+        "Quad Summit Feb 16-17 virtual on Taiwan",
+        "F-35 timeline confirmed for Turkey Q3 2027"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "GB",
+      "actions": [
+        "Hosted Ministerial, proposed Northwood command hub",
+        "£150M infrastructure package for PL/LT",
+        "Activated Franco-British nuclear coordination protocols"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "FR",
+      "actions": [
+        "Proposed Vienna Process for EU-Russia dialogue",
+        "Accepted EFP southern sector command",
+        "€300M Defense Fund increase",
+        "EU special envoy to Beijing proposed"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "DE",
+      "actions": [
+        "€900M Defense Fund — largest European contribution",
+        "EFP acceleration to Day 9/15",
+        "Quietly supported Vienna Process",
+        "Schröder backchannel to Moscow activated"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "RU",
+      "actions": [
+        "Accepted NK 500K rounds + KN-23 missiles",
+        "Kaliningrad refit prioritizing A2AD/EW",
+        "FSB cyber reconnaissance on Baltic infrastructure",
+        "Zapad-2026 planning: 95K troops September",
+        "Economic delegation to Beijing"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "TR",
+      "actions": [
+        "Deployed additional 1,000 troops (total 4,500)",
+        "Received F-35 commitment Q3 2027",
+        "Proposed Turkey as Belarus neutrality guarantor"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "HU",
+      "actions": [
+        "Dropped Sweden accession block",
+        "Continued blocking EU sanctions",
+        "Accepted Chinese $3B infrastructure investment",
+        "Private signal to DE on Article 7 pause"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "BY",
+      "actions": [
+        "Kellogg channel: offered to freeze Russian support for sanctions relief",
+        "Reduced Russian rail transit 30%",
+        "Maintained forces 40km from border"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "CN",
+      "actions": [
+        "Maintained 95 sorties/day over Taiwan",
+        "Offered Russia $15B credit at 7% interest",
+        "UNSC humanitarian corridor resolution tabled",
+        "Hinted Taiwan de-escalation if US acknowledges mediation role"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "FI",
+      "actions": [
+        "Maintained 48-hour surge through refit period",
+        "Offered mechanized brigade to Baltic rotation"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "SE",
+      "actions": [
+        "Rejected Turkey F-35/accession linkage",
+        "Offered Gripen Baltic air patrol + Gotland as NATO hub"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "NO",
+      "actions": [
+        "Reduced ASW to monitoring as last sub withdraws",
+        "Sustained max gas exports",
+        "Offered frigate to Baltic rotation"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "DK",
+      "actions": [
+        "Announced Straits reopening to civilian traffic 72h",
+        "Offered battalion to Poland + Jutland logistics hub"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "CA",
+      "actions": [
+        "Doubling Latvia EFP to 2 brigades",
+        "CF-18 squadron to Baltic air",
+        "CAD $500M infrastructure pledge"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "NL",
+      "actions": [
+        "43rd Brigade to Lithuania by Day 18",
+        "€300M infrastructure pledge",
+        "Dutch-German joint logistics cell"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "CZ",
+      "actions": [
+        "Second battalion to Poland + 50K artillery shells",
+        "All 14 Gripen to NATO air ops"
+      ],
+      "diplomatic_messages": []
+    },
+    {
+      "country": "RO",
+      "actions": [
+        "Mechanized brigade (3,500) to Poland",
+        "Expanded Black Sea NATO command center"
+      ],
+      "diplomatic_messages": []
+    }
+  ],
+  "resolution": {
+    "narrative": "The London Defense Ministerial on Day 7 became the most consequential NATO meeting since Article 5 was invoked. Prime Minister Starmer opened proceedings at Lancaster House with a blunt assessment: 'We have sixty days before Russia can reconstitute. What we decide today determines whether they ever try again.' The Ministerial produced three landmark outcomes.\n\nFirst, Enhanced Forward Presence 2.0 was formally adopted with a UK-led command hub at Northwood and a French-commanded southern sector covering Poland-Slovakia. Concrete force commitments exceeded expectations: Poland's PLN 2 billion infrastructure investment, Germany's €900M Defense Fund (the largest single European contribution), Dutch 43rd Brigade deploying to Lithuania within 18 days, Romanian mechanized brigade to Poland, Czech Republic doubling its battalion plus 50,000 artillery shells, Canadian second brigade to Latvia, and Belgium integrating its battlegroup with Netherlands. Total allied forces committed to the eastern flank surpassed 15,000 in new rotational pledges.\n\nSecond, France's proposed 'Vienna Process' for EU-Russia diplomatic dialogue split the room. Poland and the Baltics rejected it as premature; Germany quietly supported it; the UK refused to publicly endorse but didn't block. Macron framed it as European strategic autonomy — a diplomatic track that would run parallel to military deterrence. The compromise: the EU would 'explore contacts' with Moscow without formal recognition of the Vienna Process until Russia's 180-day stabilization period showed 'verifiable compliance.'\n\nThird, Turkey's F-35 crisis resolved — partially. Erdogan deployed an additional 1,000 troops (bringing Turkey's total to 4,500 in Lithuania) and received a US commitment to deliver the first 4 F-35As by Q3 2027, with the full 40-aircraft package by 2030. In exchange, Hungary quietly dropped its obstruction of Sweden's NATO accession, removing the last formal obstacle. Sweden's ratification was scheduled for the next NAC session. However, Turkey's demand for enhanced Patriot systems remained unresolved.\n\nBehind the scenes, three developments would prove more consequential than anything discussed at Lancaster House. In Minsk, Lukashenko sent a carefully worded message through the Kellogg channel offering to 'freeze' military support to Russia in exchange for phased sanctions relief — while simultaneously reducing Russian military rail transit capacity by 30%, citing 'infrastructure maintenance.' In Moscow, the General Staff quietly accepted North Korea's offer of 500,000 artillery rounds and 50 KN-23 missiles, beginning a logistics chain that would take weeks to deliver. And in Beijing, Xi Jinping maintained 95 sorties per day over the Taiwan Strait while offering Russia a $15 billion credit line at punishing terms: 7% interest, repayment in discounted energy, and access to Vladivostok port — effectively pricing Russia's desperation.",
+    "world_state_updates": {
+      "game_time": "Day 7, 22:00 CET",
+      "game_clock": "2026-02-08T22:00:00Z",
+      "day": 7,
+      "round_number": 19,
+      "military_units_add": [],
+      "military_units_remove": [],
+      "military_units_update": [
+        {
+          "name": "russian_kaliningrad_forces",
+          "location": "Kaliningrad Oblast — Day 12 of 60-day refit, prioritizing A2AD and EW systems",
+          "readiness": 5,
+          "strength": 7,
+          "casualties": 0,
+          "supply_level": 6,
+          "morale": 5
+        },
+        {
+          "name": "russian_western_district",
+          "location": "Belarus — rebuilding readiness, rail transit reduced 30%",
+          "readiness": 5,
+          "strength": 6,
+          "casualties": 0,
+          "supply_level": 5,
+          "morale": 4
+        },
+        {
+          "name": "belarus_forces",
+          "location": "Belarus interior — 40km from border, Kellogg channel active, transit reducing",
+          "readiness": 3,
+          "strength": 4,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 2
+        },
+        {
+          "name": "nato_efp_lithuania",
+          "location": "Suwałki Corridor — EFP 2.0 formally adopted, Northwood command hub activating",
+          "readiness": 9,
+          "strength": 6,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 9
+        },
+        {
+          "name": "us_ford_csg",
+          "location": "Baltic Sea — presence mission extending through Day 10, then Norfolk rotation",
+          "readiness": 9,
+          "strength": 8,
+          "casualties": 0,
+          "supply_level": 8,
+          "morale": 9
+        },
+        {
+          "name": "uk_4th_brigade",
+          "location": "Southern Lithuania — fully deployed, operational",
+          "readiness": 9,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 9,
+          "morale": 9
+        },
+        {
+          "name": "dutch_43rd_brigade",
+          "location": "En route to Lithuania via German corridor — arrival Day 18",
+          "readiness": 7,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 8
+        },
+        {
+          "name": "polish_forces",
+          "location": "Southern Suwałki — 4 divisions, PLN 2B infrastructure investment announced",
+          "readiness": 9,
+          "strength": 7,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 9
+        },
+        {
+          "name": "polish_18th_division",
+          "location": "Suwałki Corridor — integrated with EFP 2.0 framework",
+          "readiness": 9,
+          "strength": 7,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 9
+        },
+        {
+          "name": "swedish_gotland_garrison",
+          "location": "Gotland — maximum defense, NATO forward logistics hub proposed",
+          "readiness": 9,
+          "strength": 5,
+          "casualties": 0,
+          "supply_level": 10,
+          "morale": 8
+        },
+        {
+          "name": "russian_submarine_force",
+          "location": "Barents Sea — fully withdrawn from Norwegian Sea",
+          "readiness": 7,
+          "strength": 7,
+          "casualties": 0,
+          "supply_level": 8,
+          "morale": 6
+        }
+      ],
+      "military_alerts": {
+        "efp_2_adopted": "NATO EFP 2.0 formally adopted at London Ministerial — UK Northwood command hub, French southern sector",
+        "dprk_ammo": "Russia accepts North Korean 500K rounds + 50 KN-23 missiles — logistics chain initiating",
+        "belarus_transit_cut": "Belarus reduces Russian military rail transit 30% citing maintenance — Kellogg channel active",
+        "turkey_4500": "Turkey deploys total 4,500 troops to Lithuania — largest non-framework nation contribution",
+        "sweden_accession": "Sweden NATO accession ratification scheduled — Hungary drops obstruction",
+        "vienna_process": "France proposes Vienna Process for EU-Russia dialogue — allies divided, exploring contacts",
+        "china_credit": "China offers Russia $15B credit at 7% interest — Vladivostok port access demanded"
+      },
+      "markets": {
+        "oil_price": 104.0,
+        "euro_usd": 1.01
+      },
+      "sanctions_add": [],
+      "trade_disruptions_add": [
+        "Danish Straits reopening to civilian traffic within 72 hours — military restrictions remain",
+        "Baltic commercial shipping fully normalized — insurance premiums at peacetime levels",
+        "Suwałki corridor infrastructure at 72% capacity — PLN 2B investment announced for full restoration"
+      ],
+      "diplomatic_relations": {
+        "GB": {
+          "FR": 9,
+          "PL": 9,
+          "LT": 9
+        },
+        "FR": {
+          "GB": 9,
+          "DE": 9,
+          "RU": -5
+        },
+        "DE": {
+          "PL": 10,
+          "FR": 9,
+          "LT": 9
+        },
+        "PL": {
+          "DE": 10,
+          "LT": 10,
+          "CZ": 9,
+          "RO": 9
+        },
+        "TR": {
+          "US": 9,
+          "NATO": 7,
+          "SE": 7
+        },
+        "SE": {
+          "TR": 6,
+          "NATO": 8
+        },
+        "HU": {
+          "EU": -6,
+          "CN": 10,
+          "NATO": -8
+        },
+        "BY": {
+          "US": -1,
+          "PL": -6,
+          "RU": 2
+        },
+        "CN": {
+          "RU": 9,
+          "HU": 10,
+          "US": -6
+        }
+      },
+      "treaties_invoked_add": [
+        {
+          "treaty": "NATO EFP 2.0 — London Communiqué",
+          "invoked_by": "London Defense Ministerial",
+          "status": "Adopted unanimously. UK Northwood command, French southern sector. 15,000+ troops committed in new rotational pledges."
+        },
+        {
+          "treaty": "Sweden NATO Accession",
+          "invoked_by": "NAC",
+          "status": "Ratification vote scheduled — Hungary dropped obstruction after London Ministerial"
+        }
+      ],
+      "un_resolutions_add": [],
+      "nato_alert_level": "article5",
+      "nato_consensus": {
+        "ALL": "EFP 2.0 adopted — London Communiqué signed by all 32 members",
+        "HU": "Abstained on force commitments but signed communiqué and dropped Sweden block",
+        "TR": "Full support contingent on F-35 delivery Q3 2027"
+      },
+      "nuclear_posture": {
+        "RU": "peacetime",
+        "US": "peacetime",
+        "GB": "peacetime",
+        "FR": "peacetime"
+      },
+      "nuclear_detonations_add": [],
+      "public_opinion": {
+        "PL": {
+          "war_support": 81,
+          "government_approval": 79
+        },
+        "LT": {
+          "war_support": 94,
+          "government_approval": 87
+        },
+        "LV": {
+          "war_support": 76,
+          "government_approval": 70
+        },
+        "EE": {
+          "war_support": 72,
+          "government_approval": 68
+        },
+        "US": {
+          "war_support": 58,
+          "government_approval": 54
+        },
+        "GB": {
+          "war_support": 50,
+          "government_approval": 59
+        },
+        "FR": {
+          "war_support": 39,
+          "government_approval": 49
+        },
+        "DE": {
+          "war_support": 31,
+          "government_approval": 52
+        },
+        "RU": {
+          "war_support": 44,
+          "government_approval": 66
+        },
+        "BY": {
+          "war_support": 2,
+          "government_approval": 19
+        },
+        "TR": {
+          "war_support": 20,
+          "government_approval": 59
+        },
+        "HU": {
+          "war_support": 1,
+          "government_approval": 36
+        },
+        "CN": {
+          "war_support": 6,
+          "government_approval": 78
+        },
+        "FI": {
+          "war_support": 65,
+          "government_approval": 72
+        },
+        "SE": {
+          "war_support": 52,
+          "government_approval": 60
+        },
+        "NO": {
+          "war_support": 47,
+          "government_approval": 63
+        },
+        "DK": {
+          "war_support": 46,
+          "government_approval": 57
+        },
+        "CA": {
+          "war_support": 35,
+          "government_approval": 52
+        },
+        "NL": {
+          "war_support": 35,
+          "government_approval": 50
+        },
+        "CZ": {
+          "war_support": 65,
+          "government_approval": 72
+        },
+        "RO": {
+          "war_support": 61,
+          "government_approval": 68
+        }
+      },
+      "refugee_flows_add": [
+        {
+          "from": "LT",
+          "to": "LT",
+          "count": 500,
+          "status": "returning"
+        }
+      ],
+      "humanitarian_crisis_level": {
+        "LT": 2,
+        "PL": 2
+      },
+      "cyber_operations_add": [
+        {
+          "attacker": "RU",
+          "target": "LT",
+          "type": "espionage",
+          "severity": "low",
+          "infrastructure_affected": "none"
+        },
+        {
+          "attacker": "RU",
+          "target": "PL",
+          "type": "espionage",
+          "severity": "low",
+          "infrastructure_affected": "none"
+        },
+        {
+          "attacker": "EE",
+          "target": "RU",
+          "type": "offensive",
+          "severity": "medium",
+          "infrastructure_affected": "military_c2"
+        }
+      ],
+      "infrastructure_status": {
+        "LT": {
+          "power_grid": 8,
+          "comms": 9,
+          "financial": 8,
+          "military_c2": 9,
+          "transport": 7
+        }
+      },
+      "corridor_control": "nato",
+      "recent_events": [
+        "08:00 Day 7: London Defense Ministerial opens at Lancaster House — Starmer: 'Sixty days to make this permanent'",
+        "10:00 Day 7: EFP 2.0 formally adopted — UK Northwood command hub, French southern sector, 15,000+ new rotational troops",
+        "12:00 Day 7: Germany announces €900M Defense Fund — largest single European contribution to eastern flank",
+        "14:00 Day 7: Turkey deploys additional 1,000 troops (total 4,500), receives US F-35 commitment Q3 2027",
+        "15:00 Day 7: Hungary drops Sweden NATO accession obstruction — ratification vote scheduled",
+        "16:00 Day 7: France proposes Vienna Process for EU-Russia dialogue — allies divided, will 'explore contacts'",
+        "18:00 Day 7: Lukashenko sends Kellogg channel message offering to freeze Russian support for sanctions relief",
+        "20:00 Day 7: Denmark announces Straits reopening to civilian traffic within 72 hours",
+        "22:00 Day 7: Oil drops to $104 on Ministerial success — markets signal confidence in stabilization"
+      ],
+      "media_headlines": [
+        "NATO'S SIXTY-DAY WALL: London Ministerial commits 15,000 new troops before Russia can rebuild",
+        "SWEDEN IN: Hungary drops accession block as Turkey gets F-35 commitment",
+        "GERMANY'S €900M: Merz delivers largest European defense fund in NATO history",
+        "LUKASHENKO HEDGES: Belarus signals willingness to freeze Russian support through Kellogg channel",
+        "OIL FALLS TO $104: Markets reward NATO unity with biggest single-day drop since crisis began"
+      ]
+    },
+    "events": [
+      "London Defense Ministerial produces EFP 2.0 with 15,000+ new rotational troops — largest NATO force commitment since Cold War",
+      "Hungary drops Sweden NATO accession block — ratification imminent",
+      "Belarus begins quiet pivot: Kellogg channel offer + 30% transit reduction",
+      "Russia accepts North Korean ammunition — rebuilding stockpiles",
+      "Oil drops to $104 — markets signal crisis stabilization"
+    ],
+    "headlines": [
+      "NATO'S SIXTY-DAY WALL: London Ministerial commits 15,000 new troops before Russia can rebuild",
+      "SWEDEN IN: Hungary drops accession block as Turkey gets F-35 commitment",
+      "GERMANY'S €900M: Merz delivers largest European defense fund in NATO history",
+      "LUKASHENKO HEDGES: Belarus signals willingness to freeze Russian support through Kellogg channel"
+    ],
+    "surprises": [
+      "Belarus reduces Russian military rail transit by 30% citing 'infrastructure maintenance' — first concrete action undermining Russian logistics since crisis began",
+      "China offers Russia $15B credit line but demands Vladivostok port access — pricing Russia's desperation openly for the first time"
+    ]
+  },
+  "world_state_after": {
+    "round_number": 19,
+    "game_time": "Day 7, 22:00 CET",
+    "military_units": [
+      {
+        "name": "russian_kaliningrad_forces",
+        "country": "RU",
+        "type": "ground",
+        "location": "Kaliningrad Oblast — Day 12 of 60-day refit, prioritizing A2AD and EW systems",
+        "readiness": 5,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 6,
+        "morale": 5,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "russian_western_district",
+        "country": "RU",
+        "type": "ground",
+        "location": "Belarus — rebuilding readiness, rail transit reduced 30%",
+        "readiness": 5,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 5,
+        "morale": 4,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "belarus_forces",
+        "country": "BY",
+        "type": "ground",
+        "location": "Belarus interior — 40km from border, Kellogg channel active, transit reducing",
+        "readiness": 3,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 2,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_lithuania",
+        "country": "DE",
+        "type": "ground",
+        "location": "Suwałki Corridor — EFP 2.0 formally adopted, Northwood command hub activating",
+        "readiness": 9,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_latvia",
+        "country": "CA",
+        "type": "ground",
+        "location": "Latvia — Canadian-led, defensive positions hardened, NOT redeploying",
+        "readiness": 8,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_estonia",
+        "country": "GB",
+        "type": "ground",
+        "location": "Estonia — UK elements moving to Lithuania, Estonian forces holding Tapa",
+        "readiness": 8,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "Poland-Lithuania border — Article 5 authority, coordinating with Polish 18th",
+        "readiness": 9,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "us_forces_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "V Corps — peacetime posture resumed",
+        "readiness": 7,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "polish_forces",
+        "country": "PL",
+        "type": "ground",
+        "location": "Southern Suwałki — 4 divisions, PLN 2B infrastructure investment announced",
+        "readiness": 9,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "finnish_forces",
+        "country": "FI",
+        "type": "ground",
+        "location": "Finland border — peacetime with 48-hour surge",
+        "readiness": 6,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "us_ford_csg",
+        "country": "US",
+        "type": "naval",
+        "location": "Baltic Sea — presence mission extending through Day 10, then Norfolk rotation",
+        "readiness": 9,
+        "strength": 8,
+        "casualties": 0,
+        "supply_level": 8,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "french_11th_para",
+        "country": "FR",
+        "type": "ground",
+        "location": "France — withdrawing from Poland",
+        "readiness": 6,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "uk_4th_brigade",
+        "country": "GB",
+        "type": "ground",
+        "location": "Southern Lithuania — fully deployed, operational",
+        "readiness": 9,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "dutch_43rd_brigade",
+        "country": "NL",
+        "type": "ground",
+        "location": "En route to Lithuania via German corridor — arrival Day 18",
+        "readiness": 7,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "italian_cavour_group",
+        "country": "IT",
+        "type": "naval",
+        "location": "Atlantic, preparing transit to Norwegian Sea",
+        "readiness": 7,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "swedish_gotland_garrison",
+        "country": "SE",
+        "type": "ground",
+        "location": "Gotland — maximum defense, NATO forward logistics hub proposed",
+        "readiness": 9,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "polish_18th_division",
+        "country": "PL",
+        "type": "ground",
+        "location": "Suwałki Corridor — integrated with EFP 2.0 framework",
+        "readiness": 9,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 9,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "russian_submarine_force",
+        "country": "RU",
+        "type": "naval",
+        "location": "Barents Sea — fully withdrawn from Norwegian Sea",
+        "readiness": 7,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 8,
+        "morale": 6,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      }
+    ],
+    "military_alerts": {
+      "russian_kaliningrad_forces": "Defensive posture, 2x S-400 covering corridor, field fortifications",
+      "russian_western_district": "Linked up with Kaliningrad forces, fortifying southern corridor",
+      "belarus_forces": "Providing transit ONLY — Lukashenko: This is Russias operation",
+      "nato_efp_lithuania": "Full alert at Rukla — NO engagement authority from NAC",
+      "nato_efp_latvia": "Canadian-led battlegroup (~1500 troops)",
+      "nato_efp_estonia": "UK-led battlegroup (~1200 troops)",
+      "nato_efp_poland": "US-led battlegroup (~1000 troops) + Polish forces",
+      "us_forces_poland": "Camp Kosciuszko, V Corps HQ, ~10,000 personnel",
+      "polish_forces": "4 divisions on elevated readiness, largest military in EU",
+      "finnish_forces": "Reserves on standby, border monitoring increased",
+      "gps_jamming": "GPS/GLONASS jamming expanded, affecting wider Lithuanian territory",
+      "cyber_attack": "Lithuanian military C2 degraded ~40%, civilian comms disrupted in Suwałki region",
+      "no_nato_contact": "Russia still has NOT fired on any NATO forces",
+      "russian_submarine_yasen": "Yasen-class detected in GIUK gap — Norwegian sub tracking",
+      "ew_jamming": "Russian EW expanded to 30km beyond corridor boundaries",
+      "us_ford_csg": "Ford CSG approaching Baltic, ETA ~30 hours",
+      "ukraine_intelligence": "Ukraine offering real-time SIGINT on Russian C2 and EW signatures",
+      "article5_invoked": "NATO Article 5 INVOKED at 23:22 CET — unanimous",
+      "saceur_planning": "SACEUR developing operational plan for corridor liberation",
+      "russian_nuclear_signal": "Yars ICBM readiness check — assessed as performative, no warhead mating",
+      "russian_defenses": "Corridor fortified: S-400 coverage, field fortifications, EW 30km beyond borders",
+      "norwegian_asw": "Norwegian P-8 and frigate tracking Yasen-class submarine",
+      "dprk_offer": "North Korea offering 500K rounds + 50 KN-23 missiles to Russia",
+      "china_taiwan": "PLA Eastern Theater exercises near Taiwan and Senkaku Islands",
+      "no_combat": "STILL no shots fired between NATO and Russian forces",
+      "oplan_baltic_shield": "APPROVED — SEAD Phase 1 begins after 08:00 Day 3 ultimatum",
+      "ultimatum": "NATO ultimatum: Russia withdraw by 08:00 Day 3 or face military expulsion",
+      "iskander_forward": "Iskander-M launchers moved to forward positions in Kaliningrad — nuclear-capable",
+      "russian_submarines": "3 nuclear-capable submarines in Norwegian Sea — largest deployment since Cold War",
+      "cyber_attack_poland": "Sandworm attacked Polish railway signaling — contained in 3 hours",
+      "ccdcoe_counter": "Estonian CCDCOE counter-op briefly degraded Russian EW in corridor",
+      "ukraine_deep_strike": "Ukraine hit ammunition depot in Smolensk Oblast — disrupting corridor supply",
+      "ford_csg_eta": "Ford CSG with EA-18G Growlers — 18 hours from Baltic entry",
+      "ISKANDER_LOADING": "CRITICAL: Iskander-M loading bay doors open, NBC-suited technicians — nuclear or conventional warhead unknown",
+      "hotline_activated": "Washington-Moscow Presidential hotline activated for first time",
+      "ford_in_baltic": "Ford CSG entered Baltic through Danish Straits at 16:30",
+      "sead_ready": "SEAD target package finalized: 47 targets, 200+ sorties planned",
+      "bundestag_authorized": "German Bundestag authorized operations 538-89",
+      "turkey_straits_closed": "Turkey formally closed Straits to Russian military vessels",
+      "turkey_f35_deal": "Turkey-US F-35/S-400 deal — S-400 to Incirlik, 40 F-35As from 2027",
+      "russian_supply_declining": "Russian corridor supply at ~50% — Smolensk depot strike + single rail line",
+      "sub_unlocated": "1 of 3 Russian submarines unlocated for 6 hours — Norwegian ASW searching",
+      "h_hour": "OPLAN BALTIC SHIELD — H-Hour 08:00 Day 3",
+      "sead_sequence": "07:30 Growler EW, 08:00 HARM+GMLRS, 10:00 Storm Shadow/SCALP",
+      "nuclear_assessment": "Iskander loading STOPPED — China confirmed Russia won't use nukes if limited to corridor",
+      "russian_orders": "Kremlin: fight credibly but prepare organized withdrawal",
+      "supply_crisis": "Russian corridor supply at ~40-50%, declining — single rail + road vulnerable",
+      "submarine_posture": "3 Russian subs defensive — 1 relocated, no attack posture detected",
+      "CN": "PLA Eastern Theater Command at elevated readiness — 95 sorties/day over Taiwan Strait, H-6K strike simulations, Type 052D blocking formations",
+      "efp_2_adopted": "NATO EFP 2.0 formally adopted at London Ministerial — UK Northwood command hub, French southern sector",
+      "dprk_ammo": "Russia accepts North Korean 500K rounds + 50 KN-23 missiles — logistics chain initiating",
+      "belarus_transit_cut": "Belarus reduces Russian military rail transit 30% citing maintenance — Kellogg channel active",
+      "turkey_4500": "Turkey deploys total 4,500 troops to Lithuania — largest non-framework nation contribution",
+      "sweden_accession": "Sweden NATO accession ratification scheduled — Hungary drops obstruction",
+      "vienna_process": "France proposes Vienna Process for EU-Russia dialogue — allies divided, exploring contacts",
+      "china_credit": "China offers Russia $15B credit at 7% interest — Vladivostok port access demanded"
+    },
+    "markets": {
+      "oil_price": 104.0,
+      "euro_usd": 1.01,
+      "gas_price_eu": 117,
+      "stock_indices": -8.0
+    },
+    "sanctions": [],
+    "trade_disruptions": [
+      "Land transit through Suwałki corridor severed — Baltic states cut from NATO by land",
+      "Baltic shipping routes under increased risk assessment",
+      "Lithuanian ATM networks offline — financial infrastructure under cyber attack",
+      "Baltic air corridors restricted — commercial aviation rerouting",
+      "Denmark preparing Danish Straits closure to Russian naval traffic",
+      "Baltic commercial aviation fully rerouted — airspace restricted",
+      "Norwegian GIUK gap monitoring disrupting Russian submarine transit",
+      "Polish railway signaling disrupted by Sandworm — contained but logistics vulnerability exposed",
+      "Norwegian Sea submarine threat raising shipping insurance premiums 300%",
+      "Danish Straits closed to Russian military — commercial shipping under escort",
+      "Baltic Sea declared high-risk zone by maritime insurers — 500% premium increase",
+      "European aviation authorities close Baltic airspace to civilian traffic",
+      "Global shipping disrupted — war risk insurance soaring across Baltic and Norwegian Sea",
+      "European energy prices spiking despite Norwegian supply maintenance",
+      "Suwałki corridor land transit resuming but heavily damaged infrastructure limits capacity to 40%",
+      "Baltic shipping insurance premiums declining from 500% to 200% as crisis deescalates",
+      "Norwegian Sea submarine activity normalizing, shipping insurance returning to 150% from 300%",
+      "Suwałki corridor infrastructure restoration underway — Polish-Lithuanian engineers targeting 60% capacity within 72 hours",
+      "Baltic shipping insurance premiums declining to 150% as crisis normalizes",
+      "Norwegian Sea submarine activity down to 1 vessel — shipping insurance returning to 120%",
+      "European commercial aviation resuming Baltic routes with enhanced security protocols",
+      "Suwałki corridor capacity increased to 67% (target 75% by Day 6) as Polish-Lithuanian engineers accelerate repairs",
+      "Baltic shipping insurance normalized to 100% premiums (down from 120-150%) as crisis fully de-escalates",
+      "Norwegian Sea shipping routes return to peacetime insurance rates as final Russian submarine withdraws",
+      "Danish Straits reopening to civilian traffic within 72 hours — military restrictions remain",
+      "Baltic commercial shipping fully normalized — insurance premiums at peacetime levels",
+      "Suwałki corridor infrastructure at 72% capacity — PLN 2B investment announced for full restoration"
+    ],
+    "diplomatic_relations": {
+      "LT": {
+        "RU": -10,
+        "HU": -6,
+        "gov_approval": 87
+      },
+      "PL": {
+        "RU": -8,
+        "BY": -8,
+        "HU": -10,
+        "UA": 9,
+        "LT": 10,
+        "US": 10,
+        "DE": 10,
+        "CZ": 9,
+        "RO": 9
+      },
+      "RU": {
+        "LT": -9,
+        "US": -8,
+        "NATO": -8,
+        "PL": -8,
+        "CN": 8
+      },
+      "HU": {
+        "PL": -10,
+        "LT": -7,
+        "EU": -6,
+        "NATO": -8,
+        "RU": 5,
+        "CN": 10
+      },
+      "TR": {
+        "US": 9,
+        "RU": -2,
+        "NATO": 7,
+        "SE": 7
+      },
+      "UA": {
+        "PL": 9,
+        "LT": 8,
+        "NATO": 8
+      },
+      "CN": {
+        "RU": 9,
+        "US": -6,
+        "HU": 10
+      },
+      "RS": {
+        "RU": 6,
+        "HU": 5
+      },
+      "FI": {
+        "LT": 8,
+        "EE": 8
+      },
+      "SE": {
+        "FI": 9,
+        "PL": 7,
+        "TR": 6,
+        "NATO": 8
+      },
+      "JP": {
+        "US": 7,
+        "RU": -9
+      },
+      "BY": {
+        "US": -1,
+        "RU": 2,
+        "PL": -6
+      },
+      "KR": {
+        "PL": 7
+      },
+      "IN": {
+        "RU": 4,
+        "US": 3
+      },
+      "DE": {
+        "PL": 10,
+        "LT": 9,
+        "RU": -6,
+        "US": 9,
+        "FR": 9
+      },
+      "US": {
+        "RU": -8,
+        "PL": 10,
+        "LT": 10,
+        "DE": 9,
+        "GB": 10,
+        "FR": 9,
+        "CN": -5,
+        "TR": 8
+      },
+      "GB": {
+        "FR": 9,
+        "PL": 9,
+        "LT": 9
+      },
+      "FR": {
+        "GB": 9,
+        "DE": 9,
+        "RU": -5
+      }
+    },
+    "treaties_invoked": [
+      "{'treaty': 'NATO Article 4', 'invoked_by': 'LT', 'status': 'consultation — NAC emergency session convening'}",
+      "{'treaty': 'NATO Article 4 — Emergency NAC Session', 'invoked_by': 'LT', 'status': 'Session recessed without Article 5 consensus — Hungary blocked, Turkey conditional. Resumes 22:00 CET'}",
+      "{'treaty': 'NATO Article 5', 'invoked_by': 'NAC unanimous', 'status': 'INVOKED 23:22 CET — armed attack on Lithuania = attack on all allies'}",
+      "{'treaty': 'EU Article 42.7 TEU', 'invoked_by': 'LT', 'status': 'submitted — under EU Foreign Affairs Council consideration'}",
+      "{'treaty': 'NATO Ultimatum to Russia', 'invoked_by': 'NAC', 'status': '24h deadline — withdraw by 08:00 Day 3 or face OPLAN BALTIC SHIELD'}",
+      "{'treaty': 'Turkey-US F-35/S-400 Agreement', 'invoked_by': 'TR/US', 'status': 'S-400 to US custody at Incirlik within 90 days, 40 F-35As from 2027'}",
+      "{'treaty': 'Montreux Convention — Straits Closure', 'invoked_by': 'TR', 'status': 'Danish-Turkish Straits closed to Russian military vessel transit'}",
+      "{'treaty': 'US-Russia Bilateral Understanding on Corridor Withdrawal', 'invoked_by': 'US/RU backchannel', 'status': 'Russia withdrew forces by 14:00 CET; NATO delayed H-Hour; both sides de-escalating nuclear posture'}",
+      "{'treaty': 'NATO Enhanced Forward Presence 2.0 — In Principle Agreement', 'invoked_by': 'NAC emergency session', 'status': 'Upgrade Lithuania EFP from battalion to brigade strength (~4,500); formal approval pending Defense Ministers meeting within 30 days; US, PL, CZ, RO, CA committed to rotational contributions'}",
+      "{'treaty': 'NATO Defense Ministerial — London, Day 7', 'invoked_by': 'UK hosting, Lithuania requesting acceleration to 14-day max', 'status': 'Scheduled for Day 7 in London to formalize Enhanced Forward Presence 2.0 rotational framework, force contributions, and burden-sharing'}",
+      "{'treaty': 'NATO EFP 2.0 — London Communiqué', 'invoked_by': 'London Defense Ministerial', 'status': 'Adopted unanimously. UK Northwood command, French southern sector. 15,000+ troops committed in new rotational pledges.'}",
+      "{'treaty': 'Sweden NATO Accession', 'invoked_by': 'NAC', 'status': 'Ratification vote scheduled — Hungary dropped obstruction after London Ministerial'}"
+    ],
+    "un_resolutions": [
+      "{'title': 'UNSC Resolution condemning Suwałki incursion', 'status': 'VETOED by China; Russia abstained', 'votes': '12 for, 1 against (CN), 1 abstain (RU), 1 abstain (other)'}",
+      "{'title': 'UNSC Emergency Session on European Security Architecture', 'status': 'China-requested session scheduled; Russia and China expected to propose dialogue framework; US/EU expected to reject as legitimizing aggression', 'votes': 'pending'}"
+    ],
+    "nato_alert_level": "article5",
+    "nato_consensus": {
+      "US": "authorized SEAD pending ultimatum expiry — 24h diplomatic window",
+      "PL": "Accepts German acceleration as progress; Weimar Triangle meeting proceeds",
+      "DE": "Accelerated deployment Day 6/15, €500M aid partially restores Eastern trust",
+      "LT": "Requesting Defense Ministerial within 14 days to lock in commitments",
+      "HU": "Abstained on force commitments but signed communiqué and dropped Sweden block",
+      "TR": "Full support contingent on F-35 delivery Q3 2027",
+      "FR": "Carrier withdrawal but €200M reconstruction and EU-Russia dialogue initiative",
+      "GB": "offered to lead SEAD if US delays — RAF ready",
+      "ALL": "EFP 2.0 adopted — London Communiqué signed by all 32 members"
+    },
+    "corridor_control": "nato",
+    "nuclear_posture": {
+      "RU": "peacetime",
+      "US": "peacetime",
+      "GB": "peacetime",
+      "FR": "peacetime"
+    },
+    "nuclear_detonations": [],
+    "public_opinion": {
+      "PL": {
+        "war_support": 81,
+        "government_approval": 79,
+        "gov_approval": 79
+      },
+      "DE": {
+        "war_support": 31,
+        "government_approval": 52,
+        "gov_approval": 36
+      },
+      "FR": {
+        "war_support": 39,
+        "government_approval": 49,
+        "gov_approval": 51
+      },
+      "US": {
+        "war_support": 58,
+        "government_approval": 54,
+        "gov_approval": 52
+      },
+      "GB": {
+        "war_support": 50,
+        "government_approval": 59
+      },
+      "LT": {
+        "war_support": 94,
+        "government_approval": 87,
+        "gov_approval": 87
+      },
+      "LV": {
+        "war_support": 76,
+        "government_approval": 70,
+        "gov_approval": 70
+      },
+      "EE": {
+        "war_support": 72,
+        "government_approval": 68,
+        "gov_approval": 68
+      },
+      "RU": {
+        "war_support": 44,
+        "government_approval": 66
+      },
+      "BY": {
+        "war_support": 2,
+        "government_approval": 19,
+        "gov_approval": 18
+      },
+      "IT": {
+        "war_support": 20,
+        "government_approval": 39
+      },
+      "TR": {
+        "war_support": 20,
+        "government_approval": 59,
+        "gov_approval": 60
+      },
+      "HU": {
+        "war_support": 1,
+        "government_approval": 36,
+        "gov_approval": 35
+      },
+      "FI": {
+        "war_support": 65,
+        "government_approval": 72
+      },
+      "SE": {
+        "war_support": 52,
+        "government_approval": 60
+      },
+      "NO": {
+        "war_support": 47,
+        "government_approval": 63
+      },
+      "DK": {
+        "war_support": 46,
+        "government_approval": 57
+      },
+      "NL": {
+        "war_support": 35,
+        "government_approval": 50
+      },
+      "BE": {
+        "war_support": 29,
+        "government_approval": 47
+      },
+      "CZ": {
+        "war_support": 65,
+        "government_approval": 72
+      },
+      "RO": {
+        "war_support": 61,
+        "government_approval": 68
+      },
+      "CA": {
+        "war_support": 35,
+        "government_approval": 52
+      },
+      "CN": {
+        "war_support": 6,
+        "government_approval": 78,
+        "gov_approval": 80
+      },
+      "UA": {
+        "war_support": 86,
+        "government_approval": 71
+      },
+      "GE": {
+        "war_support": 42,
+        "government_approval": 48
+      },
+      "MD": {
+        "war_support": 23,
+        "government_approval": 34
+      },
+      "IN": {
+        "war_support": 4,
+        "government_approval": 63
+      },
+      "JP": {
+        "war_support": 20,
+        "government_approval": 57
+      },
+      "KR": {
+        "war_support": 15,
+        "government_approval": 58
+      },
+      "AU": {
+        "war_support": 24,
+        "government_approval": 52
+      },
+      "IR": {
+        "war_support": 2,
+        "government_approval": 59
+      },
+      "SA": {
+        "war_support": 2,
+        "government_approval": 68
+      },
+      "IL": {
+        "war_support": 20,
+        "government_approval": 62
+      },
+      "RS": {
+        "war_support": 2,
+        "government_approval": 57
+      },
+      "KP": {
+        "war_support": 87,
+        "government_approval": 95
+      }
+    },
+    "refugee_flows": [
+      {
+        "from": "LT",
+        "to": "PL",
+        "count": 2000,
+        "status": "fleeing"
+      },
+      {
+        "from": "LT",
+        "to": "LV",
+        "count": 800,
+        "status": "fleeing"
+      },
+      {
+        "from": "PL",
+        "to": "DE",
+        "count": 1000,
+        "status": "precautionary"
+      },
+      {
+        "from": "LT",
+        "to": "LT",
+        "count": 1200,
+        "status": "returning — corridor secured, infrastructure restoration underway"
+      }
+    ],
+    "humanitarian_crisis_level": {
+      "LT": 2,
+      "PL": 2
+    },
+    "cyber_operations": [
+      {
+        "attacker": "RU",
+        "target": "LT",
+        "type": "infrastructure",
+        "severity": "high",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "LT",
+        "type": "ddos",
+        "severity": "medium",
+        "infrastructure_affected": "comms"
+      },
+      {
+        "attacker": "EE",
+        "target": "RU",
+        "type": "reconnaissance",
+        "severity": "low",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "KP",
+        "target": "NATO",
+        "type": "espionage",
+        "severity": "low",
+        "infrastructure_affected": "defense_contractors"
+      },
+      {
+        "attacker": "RU",
+        "target": "PL",
+        "type": "infrastructure",
+        "severity": "high",
+        "infrastructure_affected": "transport"
+      },
+      {
+        "attacker": "EE",
+        "target": "RU",
+        "type": "offensive",
+        "severity": "medium",
+        "infrastructure_affected": "military_ew"
+      },
+      {
+        "attacker": "UA",
+        "target": "RU",
+        "type": "kinetic",
+        "severity": "high",
+        "infrastructure_affected": "ammo_depot_smolensk"
+      },
+      {
+        "attacker": "RU",
+        "target": "LT",
+        "type": "espionage",
+        "severity": "low",
+        "infrastructure_affected": "none"
+      },
+      {
+        "attacker": "RU",
+        "target": "PL",
+        "type": "espionage",
+        "severity": "low",
+        "infrastructure_affected": "none"
+      }
+    ],
+    "infrastructure_status": {
+      "LT": {
+        "power_grid": 8,
+        "comms": 9,
+        "financial": 8,
+        "military_c2": 9,
+        "transport": 7
+      },
+      "PL": {
+        "power_grid": 10,
+        "comms": 10,
+        "financial": 10,
+        "military_c2": 10,
+        "transport": 8
+      }
+    },
+    "recent_events": [
+      "08:00 Day 7: London Defense Ministerial opens at Lancaster House — Starmer: 'Sixty days to make this permanent'",
+      "10:00 Day 7: EFP 2.0 formally adopted — UK Northwood command hub, French southern sector, 15,000+ new rotational troops",
+      "12:00 Day 7: Germany announces €900M Defense Fund — largest single European contribution to eastern flank",
+      "14:00 Day 7: Turkey deploys additional 1,000 troops (total 4,500), receives US F-35 commitment Q3 2027",
+      "15:00 Day 7: Hungary drops Sweden NATO accession obstruction — ratification vote scheduled",
+      "16:00 Day 7: France proposes Vienna Process for EU-Russia dialogue — allies divided, will 'explore contacts'",
+      "18:00 Day 7: Lukashenko sends Kellogg channel message offering to freeze Russian support for sanctions relief",
+      "20:00 Day 7: Denmark announces Straits reopening to civilian traffic within 72 hours",
+      "22:00 Day 7: Oil drops to $104 on Ministerial success — markets signal confidence in stabilization"
+    ],
+    "media_headlines": [
+      "NATO'S SIXTY-DAY WALL: London Ministerial commits 15,000 new troops before Russia can rebuild",
+      "SWEDEN IN: Hungary drops accession block as Turkey gets F-35 commitment",
+      "GERMANY'S €900M: Merz delivers largest European defense fund in NATO history",
+      "LUKASHENKO HEDGES: Belarus signals willingness to freeze Russian support through Kellogg channel",
+      "OIL FALLS TO $104: Markets reward NATO unity with biggest single-day drop since crisis began"
+    ],
+    "_nuclear_penalty_applied": [],
+    "_oil_penalty_last_threshold": 0.0,
+    "_gas_sanction_count_applied": 0,
+    "_gm_set_nuclear_this_round": [
+      "RU",
+      "US",
+      "GB",
+      "FR"
+    ]
+  }
+}

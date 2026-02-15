@@ -1,0 +1,652 @@
+{
+  "round": 2,
+  "runner": "claude-code",
+  "briefing": "After 36 hours of intense diplomatic and military maneuvering, NATO Article 5 is now being implemented in parallel with diplomatic engagement. The alliance shows unprecedented strain: Eastern members see Article 5 as a mandate for military deterrence, while Western members\u2014particularly Germany at 26% war support and the US at 22%\u2014fear escalation toward nuclear confrontation.\n\nRussia's demilitarized zone proposal has gained traction in Berlin but is rejected outright by Poland, Lithuania, and the Baltics. Russia interprets the lack of immediate NATO ground counteroffensive as weakness and continues reinforcement of Kaliningrad forces, reaching 15,000 personnel across three battle tactical groups. However, Moscow does not attempt to seize the corridor; instead, it consolidates its military presence and signals willingness to negotiate on the proposal\u2014a political strategy to split the alliance.\n\nNATO now faces a critical choice in Round 3: Either mount a coordinated military response to expel Russian forces (requiring Germany's commitment and US air support), or continue the diplomatic track and risk appearing impotent to its members. Germany's insistence on negotiations has created a de facto two-track strategy. The US military (EUCOM/Pentagon) is positioned for rapid escalation, but the Trump administration's diplomatic corps is actively negotiating. This creates ambiguity that Russia is exploiting.\n\nPublic opinion is shifting: In Poland (72% war support) and the Baltics (83-86%), there is strong demand for military action. In the US (22%), war support remains dangerously low, threatening Article 5 credibility. In Germany (26%), any offensive operation risks domestic political crisis. France remains at 38% support, divided between European autonomy and trans-Atlantic solidarity. Britain's 45% support and visible military mobilization have strengthened NATO's deterrent image.\n\nEconomic consequences are beginning: Oil prices spike further to $105 on concerns about Baltic Sea disruption and potential Russian energy retaliation. EU gas prices rise 8% as markets price in possible supply disruptions. Stock indices across Europe show -4% volatility. The euro weakens to 1.04 versus the US dollar as investors seek safety. The humanitarian crisis now exceeds 10,000 displaced persons. Russia's crisis level rises to 6/10 as economic sanctions impacts begin.\n\nKey developments: Lithuania confirms Russian cyber operations are ongoing (comms infrastructure now 7/10). NATO cyber commands launch defensive operations. Belarus shows no offensive movement but does not join NATO response\u2014Lukashenko remains nonaligned. Turkey signals it will enforce Montreux Convention, closing the Straits to Russian Black Sea Fleet transits seeking to reinforce European theater. China calls for \"de-escalation and dialogue,\" a neutral but significant diplomatic intervention. Hungary's Orban remains silent, avoiding commitment either way.\n\nThe most critical outcome: NATO is not united. Article 5 has been invoked, but implementation is contested. This is where Russia may seek to exploit alliance fracture.",
+  "narrative": "Round 2 marks the critical moment of NATO Article 5 implementation versus German-led diplomatic outreach. With Poland mobilizing additional forces at the Suwalki corridor and the US positioning F-16s for rapid deployment, NATO signals it will enforce the collective defense commitment. Simultaneously, Germany and the US engage Russia's humanitarian demilitarized zone proposal, creating an unprecedented tension within the alliance: the Eastern flank (Poland, Baltics, Nordics) demands visible military escalation, while Berlin and Washington seek a diplomatic off-ramp.\n\nRussia maintains military posture but continues backchannel negotiations, testing whether NATO cohesion will fracture under pressure. Belarus remains ambiguously positioned, with Lukashenko receiving mixed signals from Moscow. Lithuania confirms the cyber attack on its communications infrastructure was indeed Russian state-sponsored, further galvanizing Eastern NATO members. NATO cyber commands begin defensive operations against Russian infrastructure. The humanitarian crisis deepens as Lithuanian evacuations reach 10,000 displaced persons.\n\nKey decision: Germany authorizes transport of additional Polish reinforcements through German territory but insists on a diplomatic framework for negotiations. The US honors Article 5 militarily while Rubio's State Department holds parallel backchannel talks with Russia. France positions naval forces in the Baltic as a show of commitment but stops short of offensive posture. Britain's JEF framework activates additional Northern European deployments. Nuclear postures remain ELEVATED across all armed states; no de-escalation signals.",
+  "country_decisions": [],
+  "resolution": {
+    "narrative": "Round 2 marks the critical moment of NATO Article 5 implementation versus German-led diplomatic outreach. With Poland mobilizing additional forces at the Suwalki corridor and the US positioning F-16s for rapid deployment, NATO signals it will enforce the collective defense commitment. Simultaneously, Germany and the US engage Russia's humanitarian demilitarized zone proposal, creating an unprecedented tension within the alliance: the Eastern flank (Poland, Baltics, Nordics) demands visible military escalation, while Berlin and Washington seek a diplomatic off-ramp.\n\nRussia maintains military posture but continues backchannel negotiations, testing whether NATO cohesion will fracture under pressure. Belarus remains ambiguously positioned, with Lukashenko receiving mixed signals from Moscow. Lithuania confirms the cyber attack on its communications infrastructure was indeed Russian state-sponsored, further galvanizing Eastern NATO members. NATO cyber commands begin defensive operations against Russian infrastructure. The humanitarian crisis deepens as Lithuanian evacuations reach 10,000 displaced persons.\n\nKey decision: Germany authorizes transport of additional Polish reinforcements through German territory but insists on a diplomatic framework for negotiations. The US honors Article 5 militarily while Rubio's State Department holds parallel backchannel talks with Russia. France positions naval forces in the Baltic as a show of commitment but stops short of offensive posture. Britain's JEF framework activates additional Northern European deployments. Nuclear postures remain ELEVATED across all armed states; no de-escalation signals.",
+    "world_state_updates": {
+      "game_time": "Day 2, 06:00 CET",
+      "military_units_add": [
+        {
+          "name": "us_f16_squadron_europe",
+          "country": "US",
+          "location": "Ramstein AB, Germany",
+          "type": "air",
+          "readiness": 9,
+          "strength": 4,
+          "supply_level": 10,
+          "morale": 8,
+          "casualties": 0
+        },
+        {
+          "name": "poland_3rd_brigade_suwalki",
+          "country": "PL",
+          "location": "Poland/Suwalki corridor approach",
+          "type": "ground",
+          "readiness": 7,
+          "strength": 5,
+          "supply_level": 9,
+          "morale": 7,
+          "casualties": 0
+        },
+        {
+          "name": "nato_cyber_defense_command",
+          "country": "NATO",
+          "location": "Various (cyber)",
+          "type": "cyber",
+          "readiness": 8,
+          "strength": 6,
+          "supply_level": 10,
+          "morale": 8,
+          "casualties": 0
+        }
+      ],
+      "military_units_remove": [],
+      "military_units_update": [
+        {
+          "name": "russian_kaliningrad_forces",
+          "location": "Kaliningrad Oblast",
+          "readiness": 9,
+          "strength": 9,
+          "supply_level": 10,
+          "morale": 7,
+          "casualties": 0
+        },
+        {
+          "name": "russian_western_district",
+          "location": "Western Military District, Russia",
+          "readiness": 8,
+          "strength": 8,
+          "supply_level": 10,
+          "morale": 7,
+          "casualties": 0
+        },
+        {
+          "name": "nato_efp_lithuania",
+          "location": "Lithuania",
+          "readiness": 9,
+          "strength": 6,
+          "supply_level": 9,
+          "morale": 8,
+          "casualties": 0
+        },
+        {
+          "name": "nato_efp_latvia",
+          "location": "Latvia",
+          "readiness": 8,
+          "strength": 7,
+          "supply_level": 9,
+          "morale": 8,
+          "casualties": 0
+        },
+        {
+          "name": "nato_efp_estonia",
+          "location": "Estonia",
+          "readiness": 8,
+          "strength": 6,
+          "supply_level": 9,
+          "morale": 8,
+          "casualties": 0
+        },
+        {
+          "name": "nato_efp_poland",
+          "location": "Poland",
+          "readiness": 9,
+          "strength": 6,
+          "supply_level": 9,
+          "morale": 8,
+          "casualties": 0
+        },
+        {
+          "name": "us_forces_poland",
+          "location": "Poland",
+          "readiness": 9,
+          "strength": 8,
+          "supply_level": 10,
+          "morale": 8,
+          "casualties": 0
+        },
+        {
+          "name": "polish_forces",
+          "location": "Poland/Suwalki corridor approach",
+          "readiness": 8,
+          "strength": 9,
+          "supply_level": 9,
+          "morale": 8,
+          "casualties": 0
+        },
+        {
+          "name": "finnish_forces",
+          "location": "Finland",
+          "readiness": 7,
+          "strength": 6,
+          "supply_level": 10,
+          "morale": 8,
+          "casualties": 0
+        },
+        {
+          "name": "french_naval_task_force",
+          "location": "Baltic Sea (inbound)",
+          "readiness": 8,
+          "strength": 4,
+          "supply_level": 10,
+          "morale": 8,
+          "casualties": 0
+        }
+      ],
+      "military_alerts": {
+        "DE": "article5_implementation_with_diplomacy",
+        "EE": "article5_invoked",
+        "FR": "collective_defense_with_naval_deployment",
+        "GB": "full_collective_defense_active",
+        "LT": "article5_invoked",
+        "LV": "article5_invoked",
+        "NATO": "article5_invoked",
+        "PL": "elevated_with_additional_mobilization",
+        "RU": "elevated_with_diplomatic_overtures",
+        "US": "honor_article5_with_diplomatic_track"
+      },
+      "markets": {
+        "oil_price": 105.0,
+        "euro_usd": 1.04,
+        "gas_price_eu": 8.5,
+        "stock_indices_change": -4.2
+      },
+      "sanctions_add": [
+        {
+          "from": "US",
+          "target": "RU",
+          "type": "secondary_sanctions_on_financial_sector"
+        },
+        {
+          "from": "EU",
+          "target": "RU",
+          "type": "additional_energy_sector_restrictions"
+        }
+      ],
+      "trade_disruptions_add": [
+        {
+          "type": "baltic_sea_shipping_increased_insurance",
+          "from": "RU",
+          "to": "NATO",
+          "description": "Shipping insurance premiums in Baltic Sea rise 200-300% due to military presence"
+        }
+      ],
+      "diplomatic_relations": {
+        "DE": {
+          "NATO": 0,
+          "RU": -1,
+          "US": 1,
+          "PL": -1
+        },
+        "US": {
+          "DE": 0,
+          "RU": -2,
+          "NATO": 2
+        },
+        "PL": {
+          "DE": -1,
+          "US": 2,
+          "RU": -5
+        },
+        "FR": {
+          "RU": -3,
+          "NATO": 1
+        },
+        "GB": {
+          "RU": -3,
+          "NATO": 2
+        },
+        "RU": {
+          "NATO": -4,
+          "PL": -5,
+          "US": -2,
+          "DE": -1
+        }
+      },
+      "cyber_operations_ongoing": [
+        {
+          "from": "RU",
+          "to": "LT",
+          "target": "government_communications",
+          "status": "ongoing",
+          "effect": "Lithuanian comms infrastructure degrades to 7/10"
+        },
+        {
+          "from": "NATO",
+          "to": "RU",
+          "target": "financial_and_energy_infrastructure",
+          "status": "defensive_initiated",
+          "effect": "NATO cyber commands begin defensive/offensive operations"
+        }
+      ],
+      "humanitarian_situation_update": {
+        "total_displaced": 10000,
+        "movements": {
+          "LT_to_PL": 8000,
+          "LT_internal": 2000
+        },
+        "crisis_levels": {
+          "LT": 5,
+          "BY": 3,
+          "RU": 6
+        }
+      },
+      "treaties_invoked_add": [
+        {
+          "treaty": "NATO_ARTICLE_5",
+          "invoked_by": [
+            "LT",
+            "LV",
+            "EE"
+          ],
+          "status": "active_with_disputed_implementation"
+        }
+      ],
+      "un_resolutions_add": [
+        {
+          "number": "2025/12",
+          "sponsor": "US",
+          "title": "Urgent Humanitarian Assistance for Lithuanian Displacement Crisis",
+          "status": "in_negotiation"
+        }
+      ],
+      "surprise_developments": [
+        {
+          "description": "Lithuania confirms Russian SigInt (signals intelligence) operation: Russian GRU cyber unit has been active since Round 1, targeting NATO C2 networks. NATO responds with immediate counter-cyber operations.",
+          "impact": "Escalates cyber dimension; NATO justified in proportional response"
+        },
+        {
+          "description": "Turkey (via Foreign Minister) announces it will enforce Montreux Convention Article 19 closing the Straits to Russian Black Sea Fleet warships seeking to reinforce European theater. This is a surprise pro-NATO stance by Ankara.",
+          "impact": "Strategic win for NATO; Russian naval options severely constrained"
+        }
+      ],
+      "round_number": 2
+    },
+    "events": [],
+    "headlines": [],
+    "surprises": []
+  },
+  "world_state_after": {
+    "round_number": 2,
+    "game_time": "Day 2, 06:00 CET",
+    "military_units": [
+      {
+        "name": "russian_kaliningrad_forces",
+        "country": "RU",
+        "type": "ground",
+        "location": "Kaliningrad Oblast",
+        "readiness": 9,
+        "strength": 9,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "russian_western_district",
+        "country": "RU",
+        "type": "ground",
+        "location": "Western Military District, Russia",
+        "readiness": 8,
+        "strength": 8,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "belarus_forces",
+        "country": "BY",
+        "type": "ground",
+        "location": "Belarus-Lithuania border",
+        "readiness": 5,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 6,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_lithuania",
+        "country": "DE",
+        "type": "ground",
+        "location": "Lithuania",
+        "readiness": 9,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_latvia",
+        "country": "CA",
+        "type": "ground",
+        "location": "Latvia",
+        "readiness": 8,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_estonia",
+        "country": "GB",
+        "type": "ground",
+        "location": "Estonia",
+        "readiness": 8,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "Poland",
+        "readiness": 9,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "us_forces_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "Poland",
+        "readiness": 9,
+        "strength": 8,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "polish_forces",
+        "country": "PL",
+        "type": "ground",
+        "location": "Poland/Suwalki corridor approach",
+        "readiness": 8,
+        "strength": 9,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "finnish_forces",
+        "country": "FI",
+        "type": "ground",
+        "location": "Finland",
+        "readiness": 7,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "us_f16_squadron_europe",
+        "country": "US",
+        "type": "air",
+        "location": "Ramstein AB, Germany",
+        "readiness": 9,
+        "strength": 4,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "poland_3rd_brigade_suwalki",
+        "country": "PL",
+        "type": "ground",
+        "location": "Poland/Suwalki corridor approach",
+        "readiness": 7,
+        "strength": 5,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 7,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_cyber_defense_command",
+        "country": "NATO",
+        "type": "cyber",
+        "location": "Various (cyber)",
+        "readiness": 8,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      }
+    ],
+    "military_alerts": {
+      "russian_kaliningrad_forces": "3 BTGs forward-deployed, Baltic Fleet active, S-400 systems operational",
+      "russian_western_district": "Additional forces on standby, 200km from border",
+      "belarus_forces": "2 brigades near Lithuanian border, unclear intent",
+      "nato_efp_lithuania": "German-led battlegroup (~1200 troops), on alert",
+      "nato_efp_latvia": "Canadian-led battlegroup (~1500 troops)",
+      "nato_efp_estonia": "UK-led battlegroup (~1200 troops)",
+      "nato_efp_poland": "US-led battlegroup (~1000 troops) + Polish forces",
+      "us_forces_poland": "Camp Kosciuszko, V Corps HQ, ~10,000 personnel",
+      "polish_forces": "4 divisions on elevated readiness, largest military in EU",
+      "finnish_forces": "Reserves on standby, border monitoring increased",
+      "RU": "elevated_with_diplomatic_overtures",
+      "US": "honor_article5_with_diplomatic_track",
+      "PL": "elevated_with_additional_mobilization",
+      "LT": "article5_invoked",
+      "LV": "article5_invoked",
+      "EE": "article5_invoked",
+      "NATO": "article5_invoked",
+      "DE": "article5_implementation_with_diplomacy",
+      "FR": "collective_defense_with_naval_deployment",
+      "GB": "full_collective_defense_active"
+    },
+    "markets": {
+      "oil_price": 105.0,
+      "euro_usd": 1.04,
+      "gas_price_eu": 8.84,
+      "stock_indices": "nervous, -2% on reports",
+      "stock_indices_change": -4.2
+    },
+    "sanctions": [
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "secondary_sanctions_on_financial_sector"
+      },
+      {
+        "from": "EU",
+        "target": "RU",
+        "type": "additional_energy_sector_restrictions"
+      }
+    ],
+    "trade_disruptions": [
+      "Shipping insurance premiums in Baltic Sea rise 200-300% due to military presence"
+    ],
+    "diplomatic_relations": {
+      "RU": {
+        "US": -2,
+        "PL": -5,
+        "NATO": -4,
+        "DE": -1
+      },
+      "US": {
+        "RU": -2,
+        "DE": 0,
+        "NATO": 2
+      },
+      "DE": {
+        "RU": -1,
+        "NATO": 0,
+        "US": 1,
+        "PL": -1
+      },
+      "PL": {
+        "DE": -1,
+        "US": 2,
+        "RU": -5
+      },
+      "FR": {
+        "RU": -3,
+        "NATO": 1
+      },
+      "GB": {
+        "RU": -3,
+        "NATO": 2
+      }
+    },
+    "treaties_invoked": [
+      "NATO Article 5 (Lithuania, Latvia, Estonia)",
+      "{'treaty': 'NATO_ARTICLE_5', 'invoked_by': ['LT', 'LV', 'EE'], 'status': 'active_with_disputed_implementation'}"
+    ],
+    "un_resolutions": [
+      "{'number': '2025/12', 'sponsor': 'US', 'title': 'Urgent Humanitarian Assistance for Lithuanian Displacement Crisis', 'status': 'in_negotiation'}"
+    ],
+    "nato_alert_level": "article5",
+    "nato_consensus": {
+      "US": "honor_article5_with_caution",
+      "LT": "invoke_article5",
+      "LV": "invoke_article5",
+      "EE": "invoke_article5",
+      "GB": "full_collective_defense",
+      "FR": "collective_defense_with_diplomacy",
+      "DE": "article5_with_de-escalation_emphasis",
+      "PL": "prepare_for_conflict",
+      "NATO": "article5_invoked"
+    },
+    "corridor_control": "contested",
+    "nuclear_posture": {
+      "RU": "elevated",
+      "US": "elevated",
+      "GB": "elevated",
+      "FR": "elevated"
+    },
+    "nuclear_detonations": [],
+    "public_opinion": {
+      "PL": {
+        "war_support": 72,
+        "government_approval": 62
+      },
+      "DE": {
+        "war_support": 26,
+        "government_approval": 33
+      },
+      "FR": {
+        "war_support": 38,
+        "government_approval": 42
+      },
+      "US": {
+        "war_support": 22,
+        "government_approval": 48
+      },
+      "GB": {
+        "war_support": 45,
+        "government_approval": 50
+      },
+      "LT": {
+        "war_support": 86,
+        "government_approval": 58
+      },
+      "LV": {
+        "war_support": 83,
+        "government_approval": 53
+      },
+      "EE": {
+        "war_support": 84,
+        "government_approval": 56
+      },
+      "RU": {
+        "war_support": 55,
+        "government_approval": 70
+      }
+    },
+    "refugee_flows": [
+      {
+        "from": "LT",
+        "to": "PL",
+        "count": 5000,
+        "status": "in_transit"
+      }
+    ],
+    "humanitarian_crisis_level": {
+      "LT": 4,
+      "BY": 3,
+      "RU": 5
+    },
+    "cyber_operations": [
+      {
+        "attacker": "RU",
+        "target": "LT",
+        "type": "infrastructure",
+        "severity": "medium",
+        "infrastructure_affected": "comms"
+      }
+    ],
+    "infrastructure_status": {
+      "LT": {
+        "power_grid": 10,
+        "comms": 8,
+        "financial": 10,
+        "military_c2": 9
+      },
+      "PL": {
+        "power_grid": 10,
+        "comms": 10,
+        "financial": 10,
+        "military_c2": 10
+      },
+      "RU": {
+        "power_grid": 10,
+        "comms": 10,
+        "financial": 8,
+        "military_c2": 10
+      }
+    },
+    "recent_events": [
+      "NATO Article 5 invoked by Lithuania, Latvia, Estonia",
+      "Poland mobilizes 2 additional brigades to Suwalki corridor approach",
+      "US positions F-16 squadron at Ramstein for rapid deployment to Europe",
+      "Russia initiates backchannel negotiations with US and Germany on humanitarian corridor",
+      "Russian cyber operations target Lithuanian government communications",
+      "All NATO contributors pre-position or reinforce forces",
+      "Belarus maintains ambiguous border position with Lithuania",
+      "First evacuation of Lithuanian civilians from Vilnius region",
+      "NATO nuclear postures elevated across board (Article 5 invocation)",
+      "Oil prices spike $8-12 as markets react to military mobilization"
+    ],
+    "media_headlines": [
+      "CNN: NATO Invokes Article 5 in Response to Russian Military Buildup in Kaliningrad",
+      "Reuters: Oil Prices Spike as Baltic States Call for Collective Defense",
+      "BBC: Poland Mobilizes Forces at Suwalki Corridor as NATO Stands Together",
+      "RT: Russia Proposes Humanitarian Negotiations; NATO Should Accept Corridor Talk\u2014Expert"
+    ],
+    "_nuclear_penalty_applied": [],
+    "_oil_penalty_last_threshold": 0.0,
+    "_gas_sanction_count_applied": 2,
+    "_gm_set_nuclear_this_round": []
+  }
+}

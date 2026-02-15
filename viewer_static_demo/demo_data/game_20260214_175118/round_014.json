@@ -1,0 +1,1155 @@
+{
+  "round": 14,
+  "runner": "claude-code",
+  "briefing": "Round 15 Situation: The Suwalki Gap now enters its final phase\u2014formal ceasefire implementation and long-term deterrence architecture. Russia has accepted the Ankara Framework in principle and announced 1,000-troop Kaliningrad withdrawal, signaling recognition of permanent NATO presence as a fait accompli. NATO's permanent architecture is now institutionalized: permanent divisions, carrier rotations, air defense commands, logistics hubs, and cyber defense centers have replaced temporary deployments. The humanitarian crisis is near-resolved with 2,000 additional civilians extracted; 1,000 remain trapped pending final negotiation. Public opinion remains fragile: Germany at 41% (offensive ops threshold), France at 49% (defensive-only threshold), but permanence narratives (cheaper than escalation) are gaining traction. Russia's formal withdrawal timeline (5,000 troops by Day 120) is the critical test: success triggers sanctions relief; failure triggers NATO escalation. The US-Russia technical committee in Istanbul will meet weekly to negotiate graduated sanctions relief. Turkey's expanded verification commission (20 points, Turkish military observers) monitors Russian compliance and provides face-saving mechanism for both sides. Belarus shows signs of normalizing domestically (withdrawn 500 additional troops, accepted Russian subsidies) and is hedging with NATO contact signals. The core question for Round 15: Can Russia execute withdrawal timeline within geopolitical constraints? Will sanctions relief momentum sustain, or will premature relief demands trigger Baltic state vetoes? Will the frozen conflict stabilize into permanent coexistence, or will escalation dynamics resurface?",
+  "narrative": "Round 14 marks a historic inflection point: the transition from military stabilization to institutional ceasefire formalization. NATO's unified push for permanent architecture meets Russia's offer of graduated troop withdrawals, creating conditions for a frozen conflict settlement. Poland anchors the humanitarian crisis response by expanding civilian evacuation corridors with UN-Turkish coordination, successfully extracting 2,000 additional Lithuanians toward final resolution of the trapped civilian crisis. Simultaneously, all of NATO\u2014from the US through the Nordic bloc to the Balkans contributors\u2014institutionalizes permanent deployments: permanent divisions replace battlegroups, logistics hubs coordinate supplies, and cyber defense commands lock in NATO's technological superiority. Turkey's mediating role crystallizes into formal institutions: the Istanbul-based US-Russia technical committee for sanctions relief negotiation, and the expanded 20-point UN verification commission with Turkish military observers. Russia, facing continued financial isolation and the reality of permanent NATO forward deployment, accepts the frozen conflict framework and announces formal withdrawal of 1,000 troops from Kaliningrad as a de-escalation signal. Belarus, economically pressured but domestically war-weary (33% support), accepts Russian economic subsidies (\u20ac500M) and consolidates its ceasefire posture. China positions itself as a post-ceasefire economic opportunity, signaling interest in Baltic port development and Russian BRI participation. By end of Round 14, the military crisis has transformed into an institutional peace framework with clear escalation ladders, verification mechanisms, and economic incentives for Russian compliance.",
+  "country_decisions": [],
+  "resolution": {
+    "narrative": "Round 14 marks a historic inflection point: the transition from military stabilization to institutional ceasefire formalization. NATO's unified push for permanent architecture meets Russia's offer of graduated troop withdrawals, creating conditions for a frozen conflict settlement. Poland anchors the humanitarian crisis response by expanding civilian evacuation corridors with UN-Turkish coordination, successfully extracting 2,000 additional Lithuanians toward final resolution of the trapped civilian crisis. Simultaneously, all of NATO\u2014from the US through the Nordic bloc to the Balkans contributors\u2014institutionalizes permanent deployments: permanent divisions replace battlegroups, logistics hubs coordinate supplies, and cyber defense commands lock in NATO's technological superiority. Turkey's mediating role crystallizes into formal institutions: the Istanbul-based US-Russia technical committee for sanctions relief negotiation, and the expanded 20-point UN verification commission with Turkish military observers. Russia, facing continued financial isolation and the reality of permanent NATO forward deployment, accepts the frozen conflict framework and announces formal withdrawal of 1,000 troops from Kaliningrad as a de-escalation signal. Belarus, economically pressured but domestically war-weary (33% support), accepts Russian economic subsidies (\u20ac500M) and consolidates its ceasefire posture. China positions itself as a post-ceasefire economic opportunity, signaling interest in Baltic port development and Russian BRI participation. By end of Round 14, the military crisis has transformed into an institutional peace framework with clear escalation ladders, verification mechanisms, and economic incentives for Russian compliance.",
+    "world_state_updates": {
+      "game_time": "Day 7, 12:00 CET",
+      "military_units_add": [
+        {
+          "name": "us_101st_airborne_expansion",
+          "country": "US",
+          "type": "ground",
+          "location": "Poland",
+          "strength": 2,
+          "readiness": 9,
+          "supply": 10,
+          "morale": 8,
+          "casualties": 0
+        },
+        {
+          "name": "uk_estonia_division_expansion",
+          "country": "GB",
+          "type": "ground",
+          "location": "Estonia",
+          "strength": 3,
+          "readiness": 8,
+          "supply": 9,
+          "morale": 8,
+          "casualties": 0
+        },
+        {
+          "name": "german_7th_brigade_permanent",
+          "country": "DE",
+          "type": "ground",
+          "location": "Poland",
+          "strength": 1,
+          "readiness": 8,
+          "supply": 9,
+          "morale": 8,
+          "casualties": 0
+        },
+        {
+          "name": "french_paratroopers_lithuania",
+          "country": "FR",
+          "type": "ground",
+          "location": "Lithuania",
+          "strength": 1,
+          "readiness": 8,
+          "supply": 9,
+          "morale": 8,
+          "casualties": 0
+        },
+        {
+          "name": "canadian_brigade_expansion",
+          "country": "CA",
+          "type": "ground",
+          "location": "Latvia",
+          "strength": 2,
+          "readiness": 8,
+          "supply": 9,
+          "morale": 8,
+          "casualties": 0
+        },
+        {
+          "name": "dutch_air_defense",
+          "country": "NL",
+          "type": "ground",
+          "location": "Lithuania",
+          "strength": 1,
+          "readiness": 8,
+          "supply": 8,
+          "morale": 8,
+          "casualties": 0
+        },
+        {
+          "name": "czech_armor_contingent",
+          "country": "CZ",
+          "type": "ground",
+          "location": "Latvia",
+          "strength": 1,
+          "readiness": 7,
+          "supply": 8,
+          "morale": 8,
+          "casualties": 0
+        },
+        {
+          "name": "romanian_air_defense",
+          "country": "RO",
+          "type": "ground",
+          "location": "Lithuania",
+          "strength": 1,
+          "readiness": 7,
+          "supply": 8,
+          "morale": 8,
+          "casualties": 0
+        },
+        {
+          "name": "finnish_reserves_deployment",
+          "country": "FI",
+          "type": "ground",
+          "location": "Finland",
+          "strength": 2,
+          "readiness": 7,
+          "supply": 10,
+          "morale": 8,
+          "casualties": 0
+        },
+        {
+          "name": "swedish_navy_baltic_task_force",
+          "country": "SE",
+          "type": "naval",
+          "location": "Baltic Sea",
+          "strength": 2,
+          "readiness": 8,
+          "supply": 10,
+          "morale": 8,
+          "casualties": 0
+        },
+        {
+          "name": "french_carrier_expansion",
+          "country": "FR",
+          "type": "naval",
+          "location": "Baltic Sea",
+          "strength": 2,
+          "readiness": 9,
+          "supply": 10,
+          "morale": 8,
+          "casualties": 0
+        }
+      ],
+      "military_units_remove": [],
+      "military_units_update": [
+        {
+          "name": "russian_kaliningrad_forces",
+          "location": "Kaliningrad",
+          "readiness": 3,
+          "strength": 1,
+          "casualties": 135,
+          "supply": 8,
+          "morale": 2
+        },
+        {
+          "name": "russian_western_district",
+          "location": "100km from Polish border",
+          "readiness": 8,
+          "strength": 7,
+          "casualties": 0,
+          "supply": 10,
+          "morale": 6
+        },
+        {
+          "name": "belarus_forces",
+          "location": "Lithuania Interior",
+          "readiness": 2,
+          "strength": 1,
+          "casualties": 115,
+          "supply": 7,
+          "morale": 2
+        },
+        {
+          "name": "nato_efp_poland",
+          "location": "Poland",
+          "readiness": 8,
+          "strength": 1,
+          "casualties": 25,
+          "supply": 8,
+          "morale": 3
+        },
+        {
+          "name": "us_forces_poland",
+          "location": "Poland",
+          "readiness": 9,
+          "strength": 1,
+          "casualties": 30,
+          "supply": 9,
+          "morale": 3
+        },
+        {
+          "name": "polish_forces",
+          "location": "Suwalki corridor",
+          "readiness": 8,
+          "strength": 2,
+          "casualties": 200,
+          "supply": 8,
+          "morale": 7
+        },
+        {
+          "name": "nato_efp_lithuania",
+          "location": "Lithuania",
+          "readiness": 7,
+          "strength": 2,
+          "casualties": 50,
+          "supply": 8,
+          "morale": 4
+        },
+        {
+          "name": "nato_efp_latvia",
+          "location": "Latvia",
+          "readiness": 8,
+          "strength": 8,
+          "casualties": 0,
+          "supply": 9,
+          "morale": 8
+        },
+        {
+          "name": "nato_efp_estonia",
+          "location": "Estonia",
+          "readiness": 8,
+          "strength": 7,
+          "casualties": 0,
+          "supply": 9,
+          "morale": 8
+        }
+      ],
+      "military_alerts": {
+        "RU": "ceasefire_implementation_with_withdrawal_timeline",
+        "BY": "ceasefire_consolidation_de_escalation",
+        "NATO": "permanent_architecture_institutionalized",
+        "US": "permanent_commitment_locked",
+        "PL": "permanence_achieved_humanitarian_leadership",
+        "DE": "permanent_deployment_through_2027",
+        "FR": "carrier_rotation_permanent_schedule",
+        "GB": "permanent_divisional_garrison",
+        "TR": "formal_mediation_role_institutionalized"
+      },
+      "markets": {
+        "oil_price": 105.5,
+        "euro_usd": 1.001,
+        "gas_price_eu": 9.8
+      },
+      "sanctions_add": [],
+      "sanctions_relief_proposal": "US-Russia technical committee establishes graduated sanctions relief schedule: financial sanctions relief for 1,000-troop withdrawal verification; tech sanctions relief for additional 2,000-troop withdrawal; energy embargo remains intact until full 5,000-troop withdrawal achieved.",
+      "trade_disruptions_add": [],
+      "diplomatic_relations": {
+        "US": {
+          "RU": -1,
+          "NATO": 7,
+          "PL": 7,
+          "DE": 3
+        },
+        "RU": {
+          "US": -1,
+          "NATO": 0,
+          "BY": 1,
+          "TR": 3
+        },
+        "NATO": {
+          "RU": 0,
+          "US": 7
+        },
+        "PL": {
+          "RU": -2,
+          "NATO": 5,
+          "US": 7,
+          "TR": 4
+        },
+        "DE": {
+          "RU": 1,
+          "NATO": 5,
+          "US": 3
+        },
+        "FR": {
+          "RU": -2,
+          "NATO": 6,
+          "GB": 3
+        },
+        "GB": {
+          "RU": -3,
+          "NATO": 6,
+          "FR": 3
+        },
+        "LT": {
+          "RU": -4,
+          "NATO": 5
+        },
+        "LV": {
+          "RU": -4,
+          "NATO": 5
+        },
+        "EE": {
+          "RU": -5,
+          "NATO": 5
+        },
+        "BY": {
+          "RU": 1,
+          "TR": 2,
+          "NATO": 0
+        },
+        "TR": {
+          "RU": 3,
+          "NATO": 5,
+          "US": 3
+        },
+        "FI": {
+          "RU": -2,
+          "NATO": 5
+        },
+        "SE": {
+          "RU": -2,
+          "NATO": 5
+        },
+        "CA": {
+          "RU": -2,
+          "NATO": 6
+        },
+        "NL": {
+          "RU": -2,
+          "NATO": 5
+        },
+        "CZ": {
+          "RU": -2,
+          "NATO": 5
+        },
+        "RO": {
+          "RU": -2,
+          "NATO": 5
+        }
+      },
+      "treaties_invoked_add": [
+        {
+          "treaty": "Ankara_Ceasefire_Framework",
+          "parties": [
+            "RU",
+            "US",
+            "NATO"
+          ],
+          "status": "formal_implementation_agreed"
+        }
+      ],
+      "un_resolutions_add": [
+        {
+          "number": "2026/06",
+          "sponsor": "TR",
+          "title": "Expansion of UN Verification Commission to 20 Ceasefire Line Inspection Points",
+          "status": "passed_with_unanimous_support"
+        }
+      ],
+      "nato_alert_level": "article5_with_permanent_deterrence",
+      "nato_consensus": {
+        "PL": "permanence_achieved",
+        "US": "permanent_commitment_locked",
+        "GB": "permanent_garrison_confirmed",
+        "FR": "carrier_rotation_permanent",
+        "DE": "permanent_deployment_2027",
+        "LT": "article5_implementation_permanent",
+        "LV": "permanence_required_maintained",
+        "EE": "permanent_nato_presence_expected",
+        "NATO": "permanent_architecture_institutionalized"
+      },
+      "nuclear_posture": {
+        "RU": "peacetime",
+        "US": "peacetime",
+        "GB": "peacetime",
+        "FR": "peacetime"
+      },
+      "nuclear_detonations_add": [],
+      "public_opinion": {
+        "RU": {
+          "war_support": 52,
+          "gov_approval": 64
+        },
+        "US": {
+          "war_support": 46,
+          "gov_approval": 59
+        },
+        "PL": {
+          "war_support": 82,
+          "gov_approval": 80
+        },
+        "DE": {
+          "war_support": 43,
+          "gov_approval": 51
+        },
+        "FR": {
+          "war_support": 50,
+          "gov_approval": 52
+        },
+        "GB": {
+          "war_support": 61,
+          "gov_approval": 61
+        },
+        "LT": {
+          "war_support": 84,
+          "gov_approval": 68
+        },
+        "LV": {
+          "war_support": 82,
+          "gov_approval": 62
+        },
+        "EE": {
+          "war_support": 84,
+          "gov_approval": 65
+        },
+        "BY": {
+          "war_support": 31,
+          "gov_approval": 38
+        }
+      },
+      "refugee_flows_add": [
+        {
+          "from": "LT",
+          "to": "PL",
+          "count": 2000,
+          "status": "evacuated_under_un_protection"
+        }
+      ],
+      "humanitarian_crisis_level": {
+        "LT": 2,
+        "RU": 1,
+        "BY": 2
+      },
+      "cyber_operations_add": [
+        {
+          "attacker": "GB",
+          "target": "RU",
+          "type": "infrastructure",
+          "severity": "medium",
+          "infrastructure_affected": "power_grid"
+        },
+        {
+          "attacker": "FR",
+          "target": "RU",
+          "type": "infrastructure",
+          "severity": "medium",
+          "infrastructure_affected": "military_c2"
+        },
+        {
+          "attacker": "EE",
+          "target": "RU",
+          "type": "infrastructure",
+          "severity": "medium",
+          "infrastructure_affected": "power_grid"
+        }
+      ],
+      "infrastructure_status": {
+        "RU": {
+          "comms": 10,
+          "financial": 2,
+          "military_c2": 7,
+          "power_grid": 4
+        },
+        "PL": {
+          "comms": 10,
+          "financial": 9,
+          "military_c2": 10,
+          "power_grid": 10
+        },
+        "DE": {
+          "comms": 10,
+          "financial": 10,
+          "military_c2": 10,
+          "power_grid": 10
+        },
+        "FR": {
+          "comms": 10,
+          "financial": 10,
+          "military_c2": 10,
+          "power_grid": 10
+        },
+        "GB": {
+          "comms": 10,
+          "financial": 10,
+          "military_c2": 10,
+          "power_grid": 10
+        },
+        "US": {
+          "comms": 10,
+          "financial": 10,
+          "military_c2": 10,
+          "power_grid": 10
+        },
+        "NATO": {
+          "comms": 10,
+          "financial": 10,
+          "military_c2": 10,
+          "power_grid": 10
+        }
+      },
+      "corridor_control": "NATO",
+      "recent_events": [
+        "NATO announces permanent architecture institutionalized: permanent divisions Estonia/Poland, carrier rotations Baltic Sea, Nordic-Baltic rapid-reaction force, permanent air defense commands",
+        "Russia formally proposes Ankara Ceasefire Framework implementation: 5,000-troop Kaliningrad withdrawal by Day 120 in exchange for phased sanctions relief",
+        "Poland-led humanitarian corridor expands: 2,000 additional Lithuanian civilians evacuated; 1,000 remain trapped pending final negotiations",
+        "Turkey expands UN verification commission to 20 inspection points; Istanbul hosts US-Russia technical committee for sanctions relief negotiation",
+        "Belarus accepts Russian \u20ac500M energy subsidy package; withdraws 500 additional troops from Lithuania border; signals ceasefire consolidation",
+        "NATO establishes permanent logistics hubs: Rotterdam (Netherlands), Stockholm (Sweden), Budapest (Hungary), Copenhagen (Denmark), Bornholm-Malm\u00f6 (Denmark-Sweden)",
+        "Joint US-Russia technical committee established in Istanbul; first meeting scheduled Day 8 to negotiate graduated sanctions relief schedule",
+        "China signals interest in post-ceasefire Baltic economic development: port infrastructure investment in Riga, Klaipeda pending ceasefire stabilization"
+      ],
+      "media_headlines": [
+        "NATO LOCKS IN PERMANENCE: Permanent divisions, carrier rotations, air defense commands transform Baltic into permanent NATO fortress",
+        "RUSSIA ACCEPTS WITHDRAWAL: Moscow formalizes 5,000-troop Kaliningrad withdrawal by Day 120; US-Russia technical committee meets Istanbul for sanctions relief",
+        "HUMANITARIAN BREAKTHROUGH: Poland-led corridor extracts 2,000 Lithuanians; 1,000 remain as ceasefire enters final phase",
+        "TURKEY MEDIATES HISTORIC DEAL: Istanbul technical committee, expanded UN verification commission, Ankara Framework formalization demonstrate Turkish diplomatic triumph"
+      ],
+      "surprises": [
+        "Germany's domestic opinion campaign gains traction: permanence messaging (cheaper than escalation) boosts war support to 43% (2-point gain); government approval rises to 51%",
+        "Russia accepts permanent NATO architecture: Moscow's formal Framework proposal signals acceptance of frozen conflict as lesser evil to continued military escalation",
+        "China positions itself post-ceasefire: economic opportunity signals (Baltic port investment, BRI expansion) create incentive for US-Russia ceasefire sustainability"
+      ],
+      "round_number": 14
+    },
+    "events": [
+      "Ankara Ceasefire Framework formal implementation agreed between RU, US, NATO",
+      "NATO permanent architecture institutionalized: permanent divisions, carrier rotations, logistics hubs, cyber defense commands replace temporary deployments",
+      "US-Russia technical committee established Istanbul for graduated sanctions relief negotiation tied to verified Russian withdrawal",
+      "UN verification commission expanded to 20 inspection points; Turkish military observers deployed at all major crossing points",
+      "Poland-led humanitarian evacuation corridor extracts 2,000 additional Lithuanians; 1,000 remain pending final negotiations",
+      "Russia announces 1,000-troop Kaliningrad withdrawal as de-escalation signal; formal 5,000-troop withdrawal timeline accepted",
+      "Germany's permanence messaging gains domestic support: war support rises to 43%, government approval 51%",
+      "China signals post-ceasefire Baltic economic opportunity; port infrastructure investment, BRI expansion proposed"
+    ],
+    "headlines": [
+      "NATO LOCKS IN PERMANENCE: Permanent divisions, carrier rotations, air defense commands transform Baltic into permanent NATO fortress",
+      "RUSSIA ACCEPTS WITHDRAWAL: Moscow formalizes 5,000-troop Kaliningrad withdrawal by Day 120; US-Russia technical committee meets Istanbul for sanctions relief",
+      "HUMANITARIAN BREAKTHROUGH: Poland-led corridor extracts 2,000 Lithuanians; 1,000 remain as ceasefire enters final phase",
+      "TURKEY MEDIATES HISTORIC DEAL: Istanbul technical committee, expanded UN verification commission, Ankara Framework formalization demonstrate Turkish diplomatic triumph"
+    ],
+    "surprises": [
+      "Germany's permanence messaging gains unexpected domestic traction: war support rises 2 points to 43% (still below 50% threshold but gaining momentum)",
+      "Russia accepts permanent NATO architecture as lesser evil to continued military escalation: frozen conflict framework preferred to escalation cycle"
+    ]
+  },
+  "world_state_after": {
+    "round_number": 14,
+    "game_time": "Day 7, 12:00 CET",
+    "military_units": [
+      {
+        "name": "russian_kaliningrad_forces",
+        "country": "RU",
+        "type": "ground",
+        "location": "Kaliningrad",
+        "readiness": 3,
+        "strength": 1,
+        "casualties": 135,
+        "supply_level": 8,
+        "morale": 2,
+        "_last_casualty_morale_applied": 70,
+        "_last_casualty_strength_applied": 70
+      },
+      {
+        "name": "russian_western_district",
+        "country": "RU",
+        "type": "ground",
+        "location": "100km from Polish border",
+        "readiness": 8,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 6,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "belarus_forces",
+        "country": "BY",
+        "type": "ground",
+        "location": "Lithuania Interior",
+        "readiness": 2,
+        "strength": 1,
+        "casualties": 115,
+        "supply_level": 7,
+        "morale": 2,
+        "_last_casualty_morale_applied": 60,
+        "_last_casualty_strength_applied": 60
+      },
+      {
+        "name": "nato_efp_lithuania",
+        "country": "DE",
+        "type": "ground",
+        "location": "Lithuania",
+        "readiness": 7,
+        "strength": 2,
+        "casualties": 50,
+        "supply_level": 7,
+        "morale": 4,
+        "_last_casualty_morale_applied": 25,
+        "_last_casualty_strength_applied": 25
+      },
+      {
+        "name": "nato_efp_latvia",
+        "country": "CA",
+        "type": "ground",
+        "location": "Latvia",
+        "readiness": 8,
+        "strength": 8,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_estonia",
+        "country": "GB",
+        "type": "ground",
+        "location": "Estonia",
+        "readiness": 8,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "nato_efp_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "Poland",
+        "readiness": 8,
+        "strength": 1,
+        "casualties": 25,
+        "supply_level": 8,
+        "morale": 3,
+        "_last_casualty_morale_applied": 12,
+        "_last_casualty_strength_applied": 12
+      },
+      {
+        "name": "us_forces_poland",
+        "country": "US",
+        "type": "ground",
+        "location": "Poland",
+        "readiness": 9,
+        "strength": 1,
+        "casualties": 30,
+        "supply_level": 9,
+        "morale": 3,
+        "_last_casualty_morale_applied": 15,
+        "_last_casualty_strength_applied": 15
+      },
+      {
+        "name": "polish_forces",
+        "country": "PL",
+        "type": "ground",
+        "location": "Suwalki corridor",
+        "readiness": 8,
+        "strength": 2,
+        "casualties": 200,
+        "supply_level": 8,
+        "morale": 7,
+        "_last_casualty_morale_applied": 100,
+        "_last_casualty_strength_applied": 100
+      },
+      {
+        "name": "finnish_forces",
+        "country": "FI",
+        "type": "ground",
+        "location": "Finland",
+        "readiness": 7,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "us_f16_squadron_europe",
+        "country": "US",
+        "type": "air",
+        "location": "Ramstein AB",
+        "readiness": 5,
+        "strength": 1,
+        "casualties": 5,
+        "supply_level": 9,
+        "morale": 2,
+        "_last_casualty_morale_applied": 2,
+        "_last_casualty_strength_applied": 2
+      },
+      {
+        "name": "poland_3rd_brigade_suwalki",
+        "country": "PL",
+        "type": "ground",
+        "location": "Suwalki corridor (10km rear)",
+        "readiness": 7,
+        "strength": 1,
+        "casualties": 50,
+        "supply_level": 7,
+        "morale": 2,
+        "_last_casualty_morale_applied": 25,
+        "_last_casualty_strength_applied": 25
+      },
+      {
+        "name": "nato_cyber_defense_command",
+        "country": "NATO",
+        "type": "cyber",
+        "location": "Various (cyber)",
+        "readiness": 8,
+        "strength": 6,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "us_101st_airborne",
+        "country": "US",
+        "type": "ground",
+        "location": "Poland",
+        "readiness": 9,
+        "strength": 8,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "german_armored_brigade",
+        "country": "DE",
+        "type": "ground",
+        "location": "Poland",
+        "readiness": 8,
+        "strength": 7,
+        "casualties": 0,
+        "supply_level": 9,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      },
+      {
+        "name": "french_carrier_charles_de_gaulle",
+        "country": "FR",
+        "type": "naval",
+        "location": "Baltic Sea (permanent task force rotation)",
+        "readiness": 9,
+        "strength": 8,
+        "casualties": 0,
+        "supply_level": 10,
+        "morale": 8,
+        "_last_casualty_morale_applied": 0,
+        "_last_casualty_strength_applied": 0
+      }
+    ],
+    "military_alerts": {
+      "russian_kaliningrad_forces": "3 BTGs forward-deployed, Baltic Fleet active, S-400 systems operational",
+      "russian_western_district": "Additional forces on standby, 200km from border",
+      "belarus_forces": "2 brigades near Lithuanian border, unclear intent",
+      "nato_efp_lithuania": "German-led battlegroup (~1200 troops), on alert",
+      "nato_efp_latvia": "Canadian-led battlegroup (~1500 troops)",
+      "nato_efp_estonia": "UK-led battlegroup (~1200 troops)",
+      "nato_efp_poland": "US-led battlegroup (~1000 troops) + Polish forces",
+      "us_forces_poland": "Camp Kosciuszko, V Corps HQ, ~10,000 personnel",
+      "polish_forces": "4 divisions on elevated readiness, largest military in EU",
+      "finnish_forces": "Reserves on standby, border monitoring increased",
+      "RU": "ceasefire_implementation_with_withdrawal_timeline",
+      "US": "permanent_commitment_locked",
+      "PL": "permanence_achieved_humanitarian_leadership",
+      "LT": "humanitarian_priority_ceasefire_with_permanence_demands",
+      "LV": "ceasefire_with_permanence_focus",
+      "EE": "permanent_nato_presence_expected",
+      "NATO": "permanent_architecture_institutionalized",
+      "DE": "permanent_deployment_through_2027",
+      "FR": "carrier_rotation_permanent_schedule",
+      "GB": "permanent_divisional_garrison",
+      "FI": "elevated_readiness_nordic_coordination",
+      "SE": "nordic_air_defense_coordination",
+      "BY": "ceasefire_consolidation_de_escalation",
+      "TR": "formal_mediation_role_institutionalized"
+    },
+    "markets": {
+      "oil_price": 105.5,
+      "euro_usd": 1.001,
+      "gas_price_eu": 9.8,
+      "stock_indices": "nervous, -1% (relief rally on permanence announcements)",
+      "stock_indices_change": 1.5
+    },
+    "sanctions": [
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "secondary_sanctions_on_financial_sector"
+      },
+      {
+        "from": "EU",
+        "target": "RU",
+        "type": "additional_energy_sector_restrictions"
+      },
+      {
+        "from": "US",
+        "target": "RU",
+        "type": "complete_financial_freeze_and_technology_sanctions"
+      },
+      {
+        "from": "EU",
+        "target": "RU",
+        "type": "complete_energy_sector_embargo"
+      }
+    ],
+    "trade_disruptions": [
+      "Shipping insurance premiums in Baltic Sea rise 200-300% due to military presence",
+      "Baltic shipping closed to non-military vessels",
+      "Russian financial system isolated",
+      "EU energy imports from Russia cut"
+    ],
+    "diplomatic_relations": {
+      "RU": {
+        "US": -1,
+        "PL": -3,
+        "NATO": 0,
+        "DE": 0,
+        "EU": -3,
+        "TR": 3,
+        "BY": 1
+      },
+      "US": {
+        "RU": -1,
+        "DE": 3,
+        "NATO": 7,
+        "PL": 7
+      },
+      "DE": {
+        "RU": 1,
+        "NATO": 5,
+        "US": 3,
+        "PL": 1
+      },
+      "PL": {
+        "DE": 2,
+        "US": 7,
+        "RU": -2,
+        "NATO": 5,
+        "BY": -3,
+        "TR": 4
+      },
+      "FR": {
+        "RU": -2,
+        "NATO": 6,
+        "US": 1,
+        "GB": 3
+      },
+      "GB": {
+        "RU": -3,
+        "NATO": 6,
+        "US": 1,
+        "FR": 3
+      },
+      "EE": {
+        "RU": -5,
+        "NATO": 5
+      },
+      "LT": {
+        "NATO": 5,
+        "RU": -4
+      },
+      "LV": {
+        "NATO": 5,
+        "RU": -4
+      },
+      "TR": {
+        "RU": 3,
+        "US": 3,
+        "NATO": 5
+      },
+      "BY": {
+        "RU": 1,
+        "LT": -2,
+        "TR": 2,
+        "NATO": 0
+      },
+      "NATO": {
+        "RU": 0,
+        "US": 7
+      },
+      "FI": {
+        "RU": -2,
+        "NATO": 5
+      },
+      "SE": {
+        "RU": -2,
+        "NATO": 5
+      },
+      "CA": {
+        "RU": -2,
+        "NATO": 6
+      },
+      "NL": {
+        "RU": -2,
+        "NATO": 5
+      },
+      "CZ": {
+        "RU": -2,
+        "NATO": 5
+      },
+      "RO": {
+        "RU": -2,
+        "NATO": 5
+      }
+    },
+    "treaties_invoked": [
+      "NATO Article 5 (Lithuania, Latvia, Estonia)",
+      "{'treaty': 'NATO_ARTICLE_5', 'invoked_by': ['LT', 'LV', 'EE'], 'status': 'active_with_disputed_implementation'}",
+      "{'treaty': 'Ankara_Ceasefire_Framework', 'parties': ['RU', 'US', 'NATO'], 'status': 'agreed_in_principle'}",
+      "{'treaty': 'Ankara_Ceasefire_Framework', 'parties': ['RU', 'US', 'NATO'], 'status': 'formal_implementation_agreed'}"
+    ],
+    "un_resolutions": [
+      "{'number': '2025/12', 'sponsor': 'US', 'title': 'Urgent Humanitarian Assistance for Lithuanian Displacement Crisis', 'status': 'in_negotiation'}",
+      "{'number': '2026/02', 'sponsor': 'TR', 'title': 'Emergency Ceasefire and Humanitarian Corridors for Baltic Crisis', 'status': 'emergency_session_called'}",
+      "{'number': '2026/03', 'sponsor': 'TR', 'title': 'Emergency Humanitarian Ceasefire and Civilian Evacuation Protocol for Baltic Crisis', 'status': 'passed_with_unanimous_support'}",
+      "{'number': '2026/04', 'sponsor': 'TR', 'title': 'UN-Turkish Verification Commission', 'status': 'passed'}",
+      "{'number': '2026/05', 'sponsor': 'TR', 'title': 'Establishment of UN Verification Commission for Suwalki Gap Ceasefire Monitoring', 'status': 'passed_with_unanimous_support', 'implementation': 'Turkish-led UN observers now operational at ceasefire line, Kaliningrad border, Polish-Russian border'}",
+      "{'number': '2026/06', 'sponsor': 'TR', 'title': 'Expansion of UN Verification Commission to 20 Ceasefire Line Inspection Points', 'status': 'passed_with_unanimous_support'}"
+    ],
+    "nato_alert_level": "article5",
+    "nato_consensus": {
+      "US": "permanent_commitment_locked",
+      "LT": "article5_implementation_permanent",
+      "LV": "permanence_required_maintained",
+      "EE": "permanent_nato_presence_expected",
+      "GB": "permanent_garrison_confirmed",
+      "FR": "carrier_rotation_permanent",
+      "DE": "permanent_deployment_2027",
+      "PL": "permanence_achieved",
+      "NATO": "permanent_architecture_institutionalized",
+      "FI": "nato_integration_permanent",
+      "SE": "nato_commitment_permanent",
+      "CA": "permanent_brigade_latvia"
+    },
+    "corridor_control": "NATO",
+    "nuclear_posture": {
+      "RU": "peacetime",
+      "US": "peacetime",
+      "GB": "peacetime",
+      "FR": "peacetime"
+    },
+    "nuclear_detonations": [],
+    "public_opinion": {
+      "PL": {
+        "war_support": 82,
+        "government_approval": 79,
+        "gov_approval": 80
+      },
+      "DE": {
+        "war_support": 43,
+        "government_approval": 49,
+        "gov_approval": 51
+      },
+      "FR": {
+        "war_support": 50,
+        "government_approval": 51,
+        "gov_approval": 52
+      },
+      "US": {
+        "war_support": 46,
+        "government_approval": 57,
+        "gov_approval": 59
+      },
+      "GB": {
+        "war_support": 61,
+        "government_approval": 59,
+        "gov_approval": 61
+      },
+      "LT": {
+        "war_support": 84,
+        "government_approval": 66,
+        "gov_approval": 68
+      },
+      "LV": {
+        "war_support": 82,
+        "government_approval": 61,
+        "gov_approval": 62
+      },
+      "EE": {
+        "war_support": 84,
+        "government_approval": 64,
+        "gov_approval": 65
+      },
+      "RU": {
+        "war_support": 52,
+        "government_approval": 66,
+        "gov_approval": 64
+      },
+      "BY": {
+        "war_support": 31,
+        "gov_approval": 38,
+        "government_approval": 36
+      }
+    },
+    "refugee_flows": [
+      {
+        "from": "LT",
+        "to": "PL",
+        "count": 5000,
+        "status": "in_transit"
+      },
+      {
+        "from": "LT",
+        "to": "RU_occupied_zone",
+        "count": 7000,
+        "status": "trapped_behind_belarusian_lines"
+      },
+      {
+        "from": "PL_border",
+        "to": "PL_interior",
+        "count": 5000,
+        "status": "evacuated"
+      }
+    ],
+    "humanitarian_crisis_level": {
+      "LT": 2,
+      "BY": 2,
+      "RU": 1
+    },
+    "cyber_operations": [
+      {
+        "attacker": "RU",
+        "target": "LT",
+        "type": "infrastructure",
+        "severity": "medium",
+        "infrastructure_affected": "comms"
+      },
+      {
+        "attacker": "EE",
+        "target": "RU",
+        "type": "infrastructure",
+        "severity": "high",
+        "infrastructure_affected": "power_grid"
+      },
+      {
+        "attacker": "RU",
+        "target": "NATO",
+        "type": "infrastructure",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "GB",
+        "target": "RU",
+        "type": "espionage",
+        "severity": "high",
+        "infrastructure_affected": "military_c2"
+      },
+      {
+        "attacker": "RU",
+        "target": "NATO",
+        "type": "ddos_monitoring",
+        "severity": "low",
+        "infrastructure_affected": "comms"
+      },
+      {
+        "attacker": "EE",
+        "target": "RU",
+        "type": "infrastructure_monitoring",
+        "severity": "medium",
+        "infrastructure_affected": "power_grid"
+      },
+      {
+        "attacker": "GB",
+        "target": "RU",
+        "type": "infrastructure",
+        "severity": "medium",
+        "infrastructure_affected": "power_grid"
+      },
+      {
+        "attacker": "FR",
+        "target": "RU",
+        "type": "infrastructure",
+        "severity": "medium",
+        "infrastructure_affected": "military_c2"
+      }
+    ],
+    "infrastructure_status": {
+      "LT": {
+        "power_grid": 8,
+        "comms": 9,
+        "financial": 10,
+        "military_c2": 8
+      },
+      "PL": {
+        "power_grid": 10,
+        "comms": 10,
+        "financial": 9,
+        "military_c2": 10
+      },
+      "RU": {
+        "power_grid": 4,
+        "comms": 10,
+        "financial": 2,
+        "military_c2": 7
+      },
+      "NATO": {
+        "power_grid": 10,
+        "comms": 10,
+        "financial": 10,
+        "military_c2": 10
+      },
+      "LV": {
+        "power_grid": 9,
+        "comms": 10,
+        "financial": 10,
+        "military_c2": 9
+      },
+      "EE": {
+        "power_grid": 9,
+        "comms": 10,
+        "financial": 10,
+        "military_c2": 10
+      },
+      "DE": {
+        "power_grid": 10,
+        "comms": 10,
+        "financial": 10,
+        "military_c2": 10
+      },
+      "FR": {
+        "power_grid": 10,
+        "comms": 10,
+        "financial": 10,
+        "military_c2": 10
+      },
+      "GB": {
+        "power_grid": 10,
+        "comms": 10,
+        "financial": 10,
+        "military_c2": 10
+      },
+      "US": {
+        "power_grid": 10,
+        "comms": 10,
+        "financial": 10,
+        "military_c2": 10
+      }
+    },
+    "recent_events": [
+      "NATO announces permanent architecture institutionalized: permanent divisions Estonia/Poland, carrier rotations Baltic Sea, Nordic-Baltic rapid-reaction force, permanent air defense commands",
+      "Russia formally proposes Ankara Ceasefire Framework implementation: 5,000-troop Kaliningrad withdrawal by Day 120 in exchange for phased sanctions relief",
+      "Poland-led humanitarian corridor expands: 2,000 additional Lithuanian civilians evacuated; 1,000 remain trapped pending final negotiations",
+      "Turkey expands UN verification commission to 20 inspection points; Istanbul hosts US-Russia technical committee for sanctions relief negotiation",
+      "Belarus accepts Russian \u20ac500M energy subsidy package; withdraws 500 additional troops from Lithuania border; signals ceasefire consolidation",
+      "NATO establishes permanent logistics hubs: Rotterdam (Netherlands), Stockholm (Sweden), Budapest (Hungary), Copenhagen (Denmark), Bornholm-Malm\u00f6 (Denmark-Sweden)",
+      "Joint US-Russia technical committee established in Istanbul; first meeting scheduled Day 8 to negotiate graduated sanctions relief schedule",
+      "China signals interest in post-ceasefire Baltic economic development: port infrastructure investment in Riga, Klaipeda pending ceasefire stabilization"
+    ],
+    "media_headlines": [
+      "NATO LOCKS IN PERMANENCE: Permanent divisions, carrier rotations, air defense commands transform Baltic into permanent NATO fortress",
+      "RUSSIA ACCEPTS WITHDRAWAL: Moscow formalizes 5,000-troop Kaliningrad withdrawal by Day 120; US-Russia technical committee meets Istanbul for sanctions relief",
+      "HUMANITARIAN BREAKTHROUGH: Poland-led corridor extracts 2,000 Lithuanians; 1,000 remain as ceasefire enters final phase",
+      "TURKEY MEDIATES HISTORIC DEAL: Istanbul technical committee, expanded UN verification commission, Ankara Framework formalization demonstrate Turkish diplomatic triumph"
+    ],
+    "_nuclear_penalty_applied": [],
+    "_oil_penalty_last_threshold": 120.0,
+    "_gas_sanction_count_applied": 4,
+    "_gm_set_nuclear_this_round": [
+      "FR",
+      "US",
+      "RU",
+      "GB"
+    ]
+  }
+}
