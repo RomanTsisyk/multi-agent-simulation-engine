@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WarGame Production Viewer</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0a0e17; color: #e5e7eb; height: 100vh; overflow: hidden; }
+    .container { display: flex; height: 100vh; }
+    .sidebar { width: 250px; background: #111827; border-right: 1px solid #2d3748; padding: 20px; overflow-y: auto; }
+    .sidebar h1 { color: #06b6d4; font-size: 18px; margin-bottom: 20px; }
+    .game-picker { margin-bottom: 20px; }
+    .game-picker label { display: block; font-size: 12px; color: #9ca3af; margin-bottom: 8px; text-transform: uppercase; }
+    .game-picker select { width: 100%; padding: 8px; background: #1a2332; color: #e5e7eb; border: 1px solid #374151; border-radius: 4px; }
+    .main { flex: 1; padding: 20px; overflow-y: auto; }
+    .charts-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .chart-container { background: #1a2332; padding: 15px; border-radius: 8px; border: 1px solid #2d3748; }
+    .chart-container h3 { font-size: 14px; margin-bottom: 10px; color: #06b6d4; }
+    .chart-container canvas { max-height: 250px; }
+    .status { padding: 10px; background: #1a2332; border-radius: 4px; margin-bottom: 20px; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <h1>WARGAME</h1>
+      <div class="game-picker">
+        <label for="gameSelect">Select Game:</label>
+        <select id="gameSelect">
+          <option value="">Loading...</option>
+        </select>
+      </div>
+      <div id="status" class="status">Initializing...</div>
+    </div>
+
+    <div class="main">
+      <div class="charts-grid">
+        <div class="chart-container">
+          <h3>Oil Price</h3>
+          <canvas id="chart-oil"></canvas>
+        </div>
+        <div class="chart-container">
+          <h3>Nuclear Posture</h3>
+          <canvas id="chart-nuclear"></canvas>
+        </div>
+        <div class="chart-container">
+          <h3>War Support</h3>
+          <canvas id="chart-warSupport"></canvas>
+        </div>
+        <div class="chart-container">
+          <h3>Military Balance</h3>
+          <canvas id="chart-military"></canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="production-app.js"></script>
+</body>
+</html>

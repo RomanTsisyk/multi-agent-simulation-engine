@@ -1,15 +1,3 @@
-/**
- * WarGame Production Viewer - Static/Client-Side
- * Replaces FastAPI backend with pure JavaScript + JSON
- * 
- * Reads from: ../logs/game_*/round_*.json
- * No backend required - works on GitHub Pages
- */
-
-// ============================================================
-// STATE MANAGEMENT
-// ============================================================
-
 let state = {
   availableGames: [],
   currentGame: null,
@@ -26,19 +14,9 @@ const NUCLEAR_POSTURE_SCORES = {
   'launch_ready': 6,
 };
 
-// ============================================================
-// GAME DISCOVERY & LOADING
-// ============================================================
-
-/**
- * Discover available games by scanning logs/ directory
- * Returns list of game metadata
- */
 async function discoverGames() {
   try {
     console.log('🔍 Starting game discovery...');
-    // Fetch available games by trying to load metadata
-    // Since we can't scan directories in browser, we'll try known patterns
     const knownGames = [
       'game_20260214_175118',
       'game_20260214_175116',
@@ -49,15 +27,13 @@ async function discoverGames() {
 
     const games = [];
     for (const gameName of knownGames) {
-      // Try to load round 1 to verify game exists
       try {
         const url = `/logs/${gameName}/round_001.json`;
-        console.log(`  Checking game: ${gameName} (${url})`);
+        console.log(`  Checking: ${gameName}`);
         const response = await fetch(url);
-        console.log(`  Response: ${response.status} ${response.statusText}`);
+        console.log(`  Response: ${response.status}`);
 
         if (response.ok) {
-          // Count available rounds
           let roundCount = 1;
           for (let i = 2; i <= 40; i++) {
             const padded = String(i).padStart(3, '0');
@@ -66,33 +42,28 @@ async function discoverGames() {
             else break;
           }
 
-          console.log(`  ✅ Game found: ${gameName} with ${roundCount} rounds`);
+          console.log(`  Found: ${gameName} (${roundCount} rounds)`);
           games.push({
             name: gameName,
             round_count: roundCount,
             rounds: Array.from({length: roundCount}, (_, i) => `round_${String(i+1).padStart(3, '0')}.json`),
             has_summary: false,
           });
-        } else {
-          console.log(`  ❌ Game not found: ${gameName}`);
         }
       } catch (e) {
-        console.error(`  Error checking ${gameName}:`, e);
+        console.error(`  Error: ${e.message}`);
       }
     }
 
-    console.log(`🎮 Game discovery complete: ${games.length} games found`);
+    console.log(`✅ Found ${games.length} games`);
     state.availableGames = games;
     return games;
   } catch (err) {
-    console.error('Failed to discover games:', err);
+    console.error('Discovery error:', err);
     return [];
   }
 }
 
-/**
- * Load all rounds for a specific game
- */
 async function loadGameData(gameName) {
   state.currentGame = gameName;
   state.currentGameData = {};
@@ -104,11 +75,10 @@ async function loadGameData(gameName) {
     return;
   }
 
-  // Load all rounds in parallel
   const promises = game.rounds.map(async (roundFile) => {
     const roundNum = parseInt(roundFile.match(/\d+/)[0]);
     try {
-      const response = await fetch(`../logs/${gameName}/${roundFile}`);
+      const response = await fetch(`/logs/${gameName}/${roundFile}`);
       if (response.ok) {
         const data = await response.json();
         state.rounds[roundNum] = data;
@@ -119,12 +89,8 @@ async function loadGameData(gameName) {
   });
 
   await Promise.all(promises);
-  console.log(`Loaded ${Object.keys(state.rounds).length} rounds for ${gameName}`);
+  console.log(`Loaded ${Object.keys(state.rounds).length} rounds`);
 }
-
-// ============================================================
-// CHART DATA PROCESSING (replaces /api/charts/*)
-// ============================================================
 
 function getChartOilPrice() {
   const data = [];
@@ -210,31 +176,23 @@ function getChartMilitary() {
   return data;
 }
 
-// ============================================================
-// RENDERING (replaces all chart rendering)
-// ============================================================
-
 async function renderCharts() {
   try {
-    // Oil Price Chart
     const oilData = getChartOilPrice();
     await renderOilChart(oilData);
     
-    // Nuclear Chart
     const nuclearData = getChartNuclear();
     await renderNuclearChart(nuclearData);
     
-    // War Support Chart
     const warData = getChartWarSupport();
     await renderWarSupportChart(warData);
     
-    // Military Chart
     const militaryData = getChartMilitary();
     await renderMilitaryChart(militaryData);
     
-    console.log('✅ All charts rendered');
+    console.log('✅ Charts rendered');
   } catch (err) {
-    console.error('Failed to render charts:', err);
+    console.error('Chart error:', err);
   }
 }
 
@@ -249,7 +207,7 @@ async function renderOilChart(data) {
     data: {
       labels: data.map(d => d.game_time),
       datasets: [{
-        label: 'Oil Price ($/barrel)',
+        label: 'Oil Price',
         data: data.map(d => d.oil_price),
         borderColor: '#f59e0b',
         backgroundColor: 'rgba(245,158,11,0.1)',
@@ -261,12 +219,8 @@ async function renderOilChart(data) {
     options: {
       responsive: true,
       maintainAspectRatio: false,
-      plugins: {
-        legend: { display: true, position: 'top' },
-      },
-      scales: {
-        y: { beginAtZero: false, ticks: { callback: v => '$' + v } },
-      },
+      plugins: { legend: { display: true } },
+      scales: { y: { beginAtZero: false } },
     },
   });
 }
@@ -286,7 +240,6 @@ async function renderNuclearChart(data) {
       label: c,
       data: data.map(d => d[c] || 0),
       borderColor: colors[c],
-      backgroundColor: colors[c] + '20',
       tension: 0.3,
     }));
   
@@ -299,21 +252,8 @@ async function renderNuclearChart(data) {
     options: {
       responsive: true,
       maintainAspectRatio: false,
-      plugins: {
-        legend: { display: true, position: 'top' },
-      },
-      scales: {
-        y: {
-          min: 0,
-          max: 6,
-          ticks: {
-            callback: v => {
-              const labels = {0: 'Peacetime', 2: 'Elevated', 4: 'Dispersal', 6: 'Launch Ready'};
-              return labels[v] || '';
-            },
-          },
-        },
-      },
+      plugins: { legend: { display: true } },
+      scales: { y: { min: 0, max: 6 } },
     },
   });
 }
@@ -324,36 +264,27 @@ async function renderWarSupportChart(data) {
   
   if (state.charts.warSupport) state.charts.warSupport.destroy();
   
-  const countries = Object.keys(data).slice(0, 8); // Top 8 countries
+  const countries = Object.keys(data).slice(0, 8);
   const colors = ['#ef4444', '#f59e0b', '#10b981', '#3b82f6', '#8b5cf6', '#06b6d4', '#ec4899', '#14b8a6'];
   
   const datasets = countries.map((country, idx) => ({
     label: country,
     data: data[country].map(d => d.war_support),
     borderColor: colors[idx],
-    backgroundColor: colors[idx] + '20',
     tension: 0.3,
   }));
-  
-  // Get max round from first country
-  const maxRound = data[countries[0]]?.length || 0;
-  const roundLabels = Array.from({length: maxRound}, (_, i) => `R${i + 1}`);
   
   state.charts.warSupport = new Chart(ctx.getContext('2d'), {
     type: 'line',
     data: {
-      labels: roundLabels,
+      labels: Array.from({length: data[countries[0]]?.length || 0}, (_, i) => `R${i + 1}`),
       datasets,
     },
     options: {
       responsive: true,
       maintainAspectRatio: false,
-      plugins: {
-        legend: { display: true, position: 'top' },
-      },
-      scales: {
-        y: { min: 0, max: 100, ticks: { callback: v => v + '%' } },
-      },
+      plugins: { legend: { display: true } },
+      scales: { y: { min: 0, max: 100 } },
     },
   });
 }
@@ -370,17 +301,15 @@ async function renderMilitaryChart(data) {
       labels: data.map(d => d.game_time),
       datasets: [
         {
-          label: 'NATO Strength',
+          label: 'NATO',
           data: data.map(d => d.nato_strength),
           borderColor: '#10b981',
-          backgroundColor: 'rgba(16,185,129,0.1)',
           tension: 0.3,
         },
         {
-          label: 'RU/BY Strength',
+          label: 'RU/BY',
           data: data.map(d => d.ru_by_strength),
           borderColor: '#ef4444',
-          backgroundColor: 'rgba(239,68,68,0.1)',
           tension: 0.3,
         },
       ],
@@ -388,87 +317,68 @@ async function renderMilitaryChart(data) {
     options: {
       responsive: true,
       maintainAspectRatio: false,
-      plugins: {
-        legend: { display: true, position: 'top' },
-      },
-      scales: {
-        y: { beginAtZero: true },
-      },
+      plugins: { legend: { display: true } },
+      scales: { y: { beginAtZero: true } },
     },
   });
 }
 
-// ============================================================
-// INITIALIZATION
-// ============================================================
-
 async function init() {
   try {
-    console.log('🚀 Initializing production viewer...');
-
-    // 2. Populate game selector - DO THIS FIRST to show something is happening
+    console.log('🚀 Init started');
+    
     const gameSelect = document.getElementById('gameSelect');
     if (!gameSelect) {
-      console.error('❌ gameSelect element not found!');
+      console.error('gameSelect not found');
       return;
     }
-    console.log('✅ Found gameSelect element');
-
-    // Update to show we're loading
-    gameSelect.innerHTML = '<option value="">Loading games...</option>';
-
-    // 1. Discover games
-    console.log('🎮 Discovering games...');
+    
+    gameSelect.innerHTML = '<option>Loading games...</option>';
+    const status = document.getElementById('status');
+    if (status) status.textContent = 'Discovering games...';
+    
+    console.log('🎮 Discovering games');
     const games = await discoverGames();
-    console.log(`✅ Found ${games.length} games`, games);
-
-    // Update dropdown
-    gameSelect.innerHTML = '<option value="">-- Select a game --</option>';
-    if (games.length === 0) {
-      gameSelect.innerHTML += '<option value="">No games found</option>';
-    } else {
-      games.forEach(game => {
-        const option = document.createElement('option');
-        option.value = game.name;
-        option.textContent = `${game.name} (${game.round_count} rounds)`;
-        gameSelect.appendChild(option);
-      });
-
-      // Auto-select first game
+    console.log(`Found ${games.length} games`);
+    
+    gameSelect.innerHTML = '<option value="">Select game</option>';
+    games.forEach(game => {
+      const option = document.createElement('option');
+      option.value = game.name;
+      option.textContent = `${game.name} (${game.round_count} rounds)`;
+      gameSelect.appendChild(option);
+    });
+    
+    if (games.length > 0) {
       gameSelect.value = games[0].name;
-      console.log('🎬 Auto-loading first game:', games[0].name);
+      if (status) status.textContent = 'Loading data...';
       await loadGameData(games[0].name);
+      if (status) status.textContent = 'Rendering charts...';
       await renderCharts();
+      if (status) status.textContent = 'Ready';
     }
-
-    // Listen for game selection
+    
     gameSelect.addEventListener('change', async (e) => {
       if (e.target.value) {
-        console.log('🎮 Game selected:', e.target.value);
+        if (status) status.textContent = 'Loading...';
         await loadGameData(e.target.value);
         await renderCharts();
+        if (status) status.textContent = 'Ready';
       }
     });
-
-    console.log('✅ Init complete!');
+    
+    console.log('✅ Init complete');
   } catch (err) {
-    console.error('💥 Init error:', err);
+    console.error('Init error:', err);
     const gameSelect = document.getElementById('gameSelect');
-    if (gameSelect) {
-      gameSelect.innerHTML = '<option value="">Error: ' + err.message + '</option>';
-    }
+    if (gameSelect) gameSelect.innerHTML = '<option>Error: ' + err.message + '</option>';
   }
 }
 
-// Start on page load
-console.log('📄 production-app.js loaded. DOM readyState:', document.readyState);
 if (document.readyState === 'loading') {
-  console.log('⏳ DOM still loading, waiting for DOMContentLoaded...');
-  document.addEventListener('DOMContentLoaded', () => {
-    console.log('🎬 DOMContentLoaded fired, calling init()');
-    init();
-  });
+  console.log('DOM loading...');
+  document.addEventListener('DOMContentLoaded', init);
 } else {
-  console.log('✅ DOM already loaded, calling init() immediately');
+  console.log('DOM ready, init now');
   init();
 }
