@@ -43,6 +43,7 @@ async function discoverGames() {
     }
     console.log(`✅ Found ${games.length} games`);
     state.availableGames = games;
+    populateGameSelect();
     return games;
   } catch (err) {
     console.error('Discovery error:', err);
@@ -380,10 +381,10 @@ async function init() {
   try {
     const gameSelect = document.getElementById('gameSelect');
     if (!gameSelect) return;
-    
+
     gameSelect.innerHTML = '<option>Discovering...</option>';
     const games = await discoverGames();
-    
+
     gameSelect.innerHTML = '<option value="">-- Select a game --</option>';
     games.forEach(game => {
       const option = document.createElement('option');
@@ -391,7 +392,7 @@ async function init() {
       option.textContent = `${game.name} (${game.round_count} rounds)`;
       gameSelect.appendChild(option);
     });
-    
+
     if (games.length > 0) {
       gameSelect.value = games[0].name;
       await loadGameData(games[0].name);
@@ -401,7 +402,13 @@ async function init() {
       await renderCountriesView();
       await renderWorldStateView();
     }
-    
+
+    // Hide loading overlay when initialization is complete
+    const loadingOverlay = document.getElementById('loading-overlay');
+    if (loadingOverlay) {
+      loadingOverlay.classList.add('hidden');
+    }
+
     gameSelect.addEventListener('change', async (e) => {
       if (e.target.value) {
         await loadGameData(e.target.value);
@@ -421,6 +428,11 @@ async function init() {
     });
   } catch (err) {
     console.error('Init error:', err);
+    // Hide loading overlay even on error
+    const loadingOverlay = document.getElementById('loading-overlay');
+    if (loadingOverlay) {
+      loadingOverlay.classList.add('hidden');
+    }
   }
 }
 
