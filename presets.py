@@ -50,7 +50,7 @@ PRESETS: dict[str, dict] = {
         "rounds": 10,
     },
     "suwalki-claude": {
-        "description": "Suwalki Gap via Claude Code (22 countries, 10 rounds)",
+        "description": "Suwalki Gap via Claude Code (22 countries, 50 rounds)",
         "countries": [
             # Frontline
             "PL", "LT", "LV", "EE",
@@ -67,7 +67,49 @@ PRESETS: dict[str, dict] = {
             # Global observer
             "CN",
         ],
-        "rounds": 10,
+        "rounds": 50,
+        "initial_state": {
+            "public_opinion": {
+                # Trump 2.0 isolationism - very low US war support
+                "US": {"war_support": 20, "government_approval": 45},
+                # Germany coalition fragile
+                "DE": {"war_support": 25, "government_approval": 35},
+                # France more supportive
+                "FR": {"war_support": 35, "government_approval": 40},
+                # Poland highly motivated
+                "PL": {"war_support": 70, "government_approval": 60},
+                # Baltics desperate
+                "LT": {"war_support": 85, "government_approval": 55},
+                "LV": {"war_support": 80, "government_approval": 50},
+                "EE": {"war_support": 82, "government_approval": 52},
+            }
+        },
+    },
+    "suwalki-extended": {
+        "description": "Extended Suwalki Crisis (35 countries, 50 rounds, 4-8h per round)",
+        "countries": [
+            # Frontline NATO
+            "PL", "LT", "LV", "EE",
+            # Major NATO
+            "US", "GB", "FR", "DE", "IT",
+            # NATO contributors
+            "CA", "NO", "DK", "NL", "BE", "CZ", "RO",
+            # New NATO / strategic
+            "FI", "SE",
+            # NATO wildcards
+            "TR", "HU",
+            # Adversaries
+            "RU", "BY", "KP",
+            # Post-Soviet pressure points
+            "UA", "GE", "MD",
+            # Global powers
+            "CN", "IN", "JP", "KR", "AU",
+            # Middle East / oil
+            "IR", "SA", "IL",
+            # Balkans wildcard
+            "RS",
+        ],
+        "rounds": 50,
     },
 }
 

@@ -282,11 +282,13 @@ class WorldState:
         if for_country and for_country in self.diplomatic_relations:
             lines.append(f"  Your relations ({for_country}):")
             for other, score in sorted(self.diplomatic_relations[for_country].items()):
+                score = int(score) if not isinstance(score, int) else score
                 label = _relation_label(score)
                 lines.append(f"    {other}: {score:+d} ({label})")
         elif self.diplomatic_relations:
             for c1, rels in sorted(self.diplomatic_relations.items()):
                 for c2, score in sorted(rels.items()):
+                    score = int(score) if not isinstance(score, int) else score
                     lines.append(f"  {c1} <-> {c2}: {score:+d}")
         if self.treaties_invoked:
             lines.append("  Treaties invoked:")
@@ -717,6 +719,8 @@ class WorldState:
         for country, opinion in self.public_opinion.items():
             for key in ("war_support", "government_approval"):
                 if key in opinion:
+                    if isinstance(opinion[key], str):
+                        opinion[key] = int(opinion[key])
                     opinion[key] = max(0, min(100, opinion[key]))
 
 

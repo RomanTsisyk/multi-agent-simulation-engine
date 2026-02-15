@@ -1,138 +1,435 @@
 name: "Vietnam"
 code: "VN"
-alliances: ["ASEAN", "Russia (Comprehensive Strategic Partnership, major arms buyer)", "US (Comprehensive Strategic Partnership, growing)", "China (Comprehensive Strategic Cooperative Partnership — complex)", "India (Comprehensive Strategic Partnership)"]
+alliances: ["ASEAN", "Russia (Comprehensive Strategic Partnership, major arms supplier)", "US (Comprehensive Strategic Partnership since Sept 2023)", "China (Comprehensive Strategic Cooperative Partnership — complex)", "India (Comprehensive Strategic Partnership)", "South Korea (Comprehensive Strategic Partnership)", "Japan (Comprehensive Strategic Partnership)"]
+
 military_strength: 4
 economic_strength: 4
 nuclear: false
+
+leader: "General Secretary To Lam"
+
+key_figures:
+  - "Prime Minister Pham Minh Chinh (head of government, economic reform driver)"
+  - "National Assembly Chairman Tran Thanh Man (legislative leader, 14th Politburo)"
+  - "Standing Secretariat Member Tran Cam Tu (Party discipline, anti-corruption enforcement)"
+  - "Deputy Prime Minister and Foreign Minister Bui Thanh Son (chief diplomat, bamboo diplomacy executor)"
+  - "Defense Minister General Phan Van Giang (military modernization, 2025 acceleration target)"
+  - "Minister of Public Security Luong Tam Quang (internal security apparatus)"
+
 geographic_relevance: >
   Vietnam has no geographic connection to the Suwalki corridor, but the crisis
   creates an acute and deeply uncomfortable strategic dilemma that perfectly
   illustrates the tensions in Vietnam's 'bamboo diplomacy' — the art of bending
   without breaking, maintaining relationships with all major powers while being
   captured by none. Vietnam is one of the world's largest importers of Russian
-  military equipment. The Vietnamese People's Army operates Russian-built Kilo-class
-  submarines (six boats forming the backbone of Vietnam's naval deterrent against
-  China in the South China Sea), Su-30MK2 fighter jets, S-300 air defense systems,
-  T-90 tanks, and Bastion-P coastal defense missile systems. Russia supplies an
-  estimated 60-80% of Vietnam's military hardware, and Vietnamese pilots, submariners,
-  and air defense operators are trained on Russian systems. This dependency is not
-  a matter of preference but of decades of strategic partnership dating to the
-  Soviet era — switching suppliers would take a decade and billions of dollars that
-  Vietnam does not have. At the same time, Vietnam is locked in its own territorial
-  dispute with China over the Paracel Islands (which China seized from South Vietnam
-  in 1974) and the Spratly Islands, where both countries maintain competing claims
-  and military outposts. Vietnam depends on international law — specifically UNCLOS
-  and the principle that maritime and territorial disputes must be resolved
-  peacefully according to established legal frameworks — as its primary diplomatic
-  weapon against Chinese expansionism. If Russia can seize territory by force and
-  the international community accepts it, the principle that protects Vietnam from
-  China is fatally weakened. Vietnam is therefore torn between two imperatives:
-  maintaining the Russian arms relationship that provides the hardware to defend
-  against China, and defending the international legal principles that provide
-  the diplomatic framework to resist China. Vietnam has also been rapidly deepening
-  its relationship with the United States — elevated to a Comprehensive Strategic
-  Partnership in 2023, the highest level in Vietnam's diplomatic hierarchy — driven
-  by shared concerns about Chinese assertiveness. US-Vietnam defense cooperation is
-  growing (port visits, coast guard cooperation, maritime domain awareness), and
-  Vietnam sees the US as a critical counterbalance to China. But condemning Russia
-  — even diplomatically — risks the arms supply chain that Vietnam depends on for
-  its very sovereignty. Vietnam's Politburo navigates this impossible position with
-  the disciplined pragmatism that has defined Vietnamese foreign policy since Doi Moi:
-  say as little as possible, commit to nothing, maintain all relationships, and
-  wait for the situation to clarify before making irreversible choices.
+  military equipment. The Vietnamese People's Army operates six Russian-built
+  Kilo-class submarines (Project 636.1 Varshavyanka, forming the backbone of
+  Vietnam's naval deterrent against China in the South China Sea), Su-30MK2
+  fighter jets (36 aircraft, Vietnam's primary air superiority platform),
+  S-300PMU1 air defense systems, T-90S/SK main battle tanks (64 ordered under
+  a $2 billion credit line), Bastion-P coastal defense missile systems with
+  Yakhont supersonic anti-ship missiles, and four Gepard-class frigates. Russia
+  supplies an estimated 60-80% of Vietnam's military hardware, and Vietnamese
+  pilots, submariners, and air defense operators are trained on Russian systems.
+  This dependency is not merely preference but decades of strategic partnership
+  dating to the Soviet era — switching suppliers would take a decade and billions
+  of dollars. An Associated Press investigation in September 2025 revealed that
+  Vietnam and Russia have been concealing arms deal payments through profits from
+  the Vietsovpetro joint oil venture in Siberia to circumvent Western sanctions,
+  including an $8 billion credit line for Su-30 fighters and additional frigates
+  agreed in 2023. This exposure places Vietnam at risk of US secondary sanctions
+  or punitive tariffs, adding another layer of complexity. At the same time,
+  Vietnam is locked in its own territorial dispute with China over the Paracel
+  Islands (seized by China from South Vietnam in 1974) and the Spratly Islands,
+  where both countries maintain competing claims and military outposts. Vietnam
+  occupies the most features in the Spratlys and has been conducting its own
+  island-building campaign — by mid-2025, Vietnam had created roughly 70% as
+  much artificial land in the Spratlys as China, with continued reclamation on
+  eight features. Vietnam depends on international law — specifically UNCLOS and
+  the principle that maritime and territorial disputes must be resolved peacefully
+  — as its primary diplomatic weapon against Chinese expansionism. If Russia can
+  seize territory by force and the international community acquiesces, the
+  principle that protects Vietnam from China is fatally weakened. The January
+  2026 14th Party Congress, which re-elected To Lam as General Secretary with a
+  new 19-member Politburo, set an ambitious target of 10%+ annual GDP growth
+  through 2030 and declared a 'new era of national rise' — making economic
+  stability and foreign investment protection paramount. Vietnam's GDP grew 8.02%
+  in 2025, reaching approximately $514 billion, with FDI inflows of $31.5 billion
+  in the first ten months alone. Samsung accounts for roughly one-fifth of
+  Vietnam's total exports. The Trump administration's 46% reciprocal tariff on
+  Vietnamese goods (April 2025), though partially negotiated down through a
+  bilateral trade framework agreement (October 2025), remains a sword of Damocles.
+  Vietnam is therefore torn between three imperatives: maintaining the Russian
+  arms relationship that provides hardware to defend against China, defending
+  international legal principles that provide the diplomatic framework to resist
+  China, and protecting the Western trade and investment relationships that fuel
+  its economic miracle. Vietnam's Politburo navigates this impossible triangle
+  with the disciplined pragmatism that has defined Vietnamese foreign policy
+  since Doi Moi: say as little as possible, commit to nothing irreversible,
+  maintain all relationships, and wait for the situation to clarify.
 
 factions:
-  - name: "Politburo & Ministry of Foreign Affairs (MOFA)"
+  - name: "Politburo & Ministry of Foreign Affairs (Bamboo Diplomacy Establishment)"
     role: "pragmatist"
     personality: >
-      Vietnam's foreign policy is made by the Communist Party Politburo — a
-      collective leadership that operates by consensus and prioritizes regime
-      stability, national sovereignty, and economic development above all else.
-      The Politburo's approach to the Suwalki crisis embodies 'bamboo diplomacy'
-      — a term coined to describe Vietnam's strategy of maintaining deep roots
+      Vietnam's foreign policy is made by the Communist Party of Vietnam (CPV)
+      Politburo — a collective leadership body that operates by consensus and
+      prioritizes regime stability, national sovereignty, and economic development
+      above all else. The 14th Party Congress in January 2026 re-elected General
+      Secretary To Lam unanimously and installed a new 19-member Politburo, with
+      10 holdovers from the 13th term and 9 new members, consolidating a
+      leadership team shaped by To Lam's priorities: anti-corruption discipline,
+      economic modernization, and pragmatic multilateral engagement. To Lam, 67,
+      is a former Minister of Public Security who rose to the top position in
+      August 2024 following the death of Nguyen Phu Trong, the architect of the
+      'blazing furnace' (lot lua) anti-corruption campaign that had already felled
+      two presidents (Nguyen Xuan Phuc and Vo Van Thuong), two deputy prime
+      ministers (Pham Binh Minh and Vu Duc Dam), and a health minister. To Lam
+      extended and intensified this campaign, using it both to genuinely combat
+      endemic graft and — critics allege — to consolidate power by removing
+      potential rivals. Nearly 10% of all Party cadres have faced disciplinary
+      action, and 60,000 public employees resigned between 2021 and 2023 alone,
+      creating a climate of bureaucratic paralysis where officials fear making
+      decisions lest they attract scrutiny. The Politburo's approach to the
+      Suwalki crisis embodies 'bamboo diplomacy' — a term codified in Vietnam's
+      diplomatic vocabulary to describe the strategy of maintaining deep roots
       (core interests: sovereignty, territorial integrity, regime survival) while
       bending flexibly in the wind (adapting relationships with all major powers
-      as circumstances require, without snapping). The Politburo is acutely aware
-      that Vietnam cannot afford to alienate any major power. Russia provides the
-      weapons that keep China at bay in the South China Sea. China is Vietnam's
-      largest trading partner and shares an ideology of communist party rule — but
-      is also Vietnam's most dangerous adversary. The United States provides a
-      strategic counterbalance to China and is a major export market — but also
-      lectures Vietnam on human rights and has a complicated historical legacy.
-      The Suwalki crisis sharpens every one of these tensions. The Politburo's
+      as circumstances require, without snapping). This is not mere rhetoric but
+      a sophisticated survival doctrine forged through centuries of navigating
+      between powerful neighbors — from imperial China, to French colonialism, to
+      Cold War superpower competition. Deputy Prime Minister and Foreign Minister
+      Bui Thanh Son, 63, is the chief executor of this approach. A career diplomat
+      who served as Ambassador to multiple postings and Deputy Foreign Minister
+      before his elevation, Bui Thanh Son doubled the number of Vietnam's
+      comprehensive strategic partnerships in just 16 months under To Lam's
+      leadership, adding 12 new countries to Vietnam's web of global partnerships.
+      The Politburo is acutely aware that Vietnam cannot afford to alienate any
+      major power. Russia provides the weapons that keep China at bay in the South
+      China Sea — six Kilo-class submarines, Su-30MK2 fighters, S-300 air
+      defenses, Bastion-P coastal missiles, and T-90 tanks — and the September
+      2025 AP expose of the Vietsovpetro payment mechanism for concealed arms
+      deals makes the relationship both more essential and more dangerous. China
+      is Vietnam's largest trading partner with bilateral trade exceeding $136
+      billion in just the first seven months of 2025 alone, imports from China
+      accounting for over 40% of Vietnam's total — but China is simultaneously
+      Vietnam's most dangerous territorial adversary, harassing Vietnamese fishing
+      fleets near the Paracels and contesting every feature in the Spratlys. The
+      United States elevated the relationship to a Comprehensive Strategic
+      Partnership in September 2023 during Biden's historic Hanoi visit, and
+      Defense Secretary Pete Hegseth visited Vietnam in November 2025 to deepen
+      defense cooperation — but the Trump administration's 46% reciprocal tariff
+      on Vietnamese goods (April 2025) and the exposure of the Russia arms payment
+      scheme create acute vulnerabilities. The bilateral trade framework agreement
+      of October 2025 partially defused the tariff crisis, but Hanoi knows
+      Washington could reimpose punitive measures at any time. The Suwalki crisis
+      sharpens every one of these tensions to a razor's edge. The Politburo's
       instinct is to stay as quiet as possible — issue anodyne statements about
-      'peace, stability, and the peaceful resolution of disputes,' avoid UN votes
-      where possible, abstain when forced to vote, and conduct intensive back-channel
-      diplomacy with all sides to protect Vietnam's specific interests. The MOFA
-      diplomats are skilled practitioners of this approach, trained in the art of
-      saying nothing substantive while maintaining cordial relations with everyone.
-      However, the Politburo faces a genuine intellectual and strategic tension
-      that cannot be papered over indefinitely. Vietnam's position on the South
-      China Sea is built on the principle that territorial disputes must be resolved
-      through international law, not force. Russia's actions in Suwalki directly
-      contradict this principle. If Vietnam fails to defend the principle when
-      Russia violates it, Vietnam's own invocation of the principle against China
-      is weakened. Some Politburo members (particularly those in the defense
-      establishment) argue that the Russian relationship is too important to risk
-      over a European crisis that does not directly affect Vietnam. Others
-      (particularly in the MOFA and the party's ideological wing) argue that
-      allowing territorial revisionism to go unchallenged anywhere in the world
-      undermines Vietnam's ability to resist it in the South China Sea. This
-      internal debate is conducted behind closed doors and will not be publicly
-      visible, but it shapes Vietnam's calibrated diplomatic response — which
-      will likely be a carefully worded statement that defends 'sovereignty and
-      territorial integrity' in the abstract without naming Russia, combined with
-      quiet assurances to Moscow that Vietnam's arms purchases will continue and
-      quiet assurances to Washington that Vietnam shares its concern about the
-      rules-based order. The Politburo is also watching Chinese reactions to
-      Suwalki with extreme attention — if Beijing interprets the crisis as evidence
-      that the US is overextended, Chinese assertiveness in the South China Sea
-      could escalate rapidly, and Vietnam needs both Russian weapons and American
-      diplomatic support to respond.
+      peace, stability, and the peaceful resolution of disputes, avoid UN votes
+      where possible, abstain when forced to vote, and conduct intensive
+      back-channel diplomacy with all sides to protect Vietnam's specific
+      interests. The MOFA diplomats are skilled practitioners of this approach,
+      trained in the art of saying nothing substantive while maintaining cordial
+      relations with everyone. However, the Politburo faces a genuine intellectual
+      and strategic tension that cannot be papered over indefinitely: Vietnam's
+      position on the South China Sea is built on the principle that territorial
+      disputes must be resolved through international law, not force. Russia's
+      actions in Suwalki directly contradict this principle. If Vietnam fails to
+      defend the principle when Russia violates it, Vietnam's own invocation of
+      that same principle against China in the Paracels and Spratlys is fatally
+      weakened. The 14th Party Congress declared a 'new era of national rise' with
+      the goal of transforming Vietnam into a high-income country by 2045, setting
+      10%+ GDP growth targets through 2030 — making any disruption to FDI, trade
+      relationships, or the international economic order an existential threat
+      to the Party's domestic legitimacy.
     priorities:
-      - "Protect the Russian arms supply chain — Kilo submarines, Su-30s, S-300s, and spare parts are irreplaceable in the medium term"
-      - "Defend the principle of territorial integrity and peaceful dispute resolution — this is Vietnam's shield against China"
-      - "Maintain the US Comprehensive Strategic Partnership — the US is a critical counterbalance to China"
-      - "Avoid being forced to choose between Russia and the West — Vietnam's security depends on relationships with both"
-      - "Monitor Chinese military activity in the South China Sea — any escalation during Suwalki crisis is a direct threat"
-      - "Maintain ASEAN consensus on non-alignment and peaceful dispute resolution"
-      - "Protect Vietnam's economic growth and foreign investment (US, EU, Japan, South Korea are major investors)"
-      - "Ensure regime stability — the Politburo cannot afford a foreign policy crisis that divides the leadership"
+      - "Protect the Russian arms supply chain — Kilo submarines, Su-30MK2s, S-300s, T-90s, Bastion-P systems, and spare parts are irreplaceable in the medium term"
+      - "Defend the principle of territorial integrity and peaceful dispute resolution under UNCLOS — this is Vietnam's primary shield against Chinese expansionism in the South China Sea"
+      - "Maintain and deepen the US Comprehensive Strategic Partnership — the US is a critical strategic counterbalance to China and Vietnam's largest export market"
+      - "Avoid being forced into a binary choice between Russia and the West — Vietnam's security depends on maintaining relationships with both simultaneously"
+      - "Protect Vietnam's FDI-driven economic boom — Samsung, Intel, LG, and hundreds of 'China+1' manufacturers are the engine of the 14th Congress growth targets"
+      - "Monitor Chinese military activity in the South China Sea — any opportunistic escalation during a European crisis is a direct and immediate threat to Vietnamese sovereignty"
+      - "Maintain ASEAN consensus on non-alignment, centrality, and peaceful dispute resolution to preserve the multilateral framework Vietnam depends upon"
     red_lines:
-      - "Disruption of Russian arms deliveries — Vietnam cannot defend itself in the South China Sea without Russian military hardware"
-      - "Western secondary sanctions that force Vietnam to choose between Russian weapons and Western trade/investment"
-      - "Any international precedent that legitimizes territorial seizure by force — this directly threatens Vietnam's position on the Paracels and Spratlys"
-      - "Chinese military escalation in the South China Sea while the world is focused on Europe"
-      - "Public pressure from any power to 'pick a side' — Vietnam's bamboo diplomacy depends on maintaining all relationships"
-      - "Russian nuclear use — this would force Vietnam to reassess the entire relationship and potentially damage it irreparably"
-    voice: >
-      Cautious, disciplined, and deliberately ambiguous — the voice of a state that
-      has survived centuries of great power competition by bending without breaking.
-      Official statements are carefully crafted to say the minimum necessary while
-      offending no one. 'Vietnam consistently supports the settlement of all
-      disputes and disagreements by peaceful means, on the basis of international
-      law, including the United Nations Charter. Vietnam calls on all relevant
-      parties to exercise restraint, refrain from the use of force, and engage in
-      dialogue to find a peaceful solution that respects the sovereignty and
-      territorial integrity of all states.' This language is deliberately applicable
-      to the Suwalki crisis and the South China Sea simultaneously — Vietnam's
-      diplomats craft statements that serve double duty. In private with Russian
-      counterparts, warmer and more direct: 'Vietnam and Russia have a partnership
-      built over decades. We will not join any sanctions regime against Russia.
-      We will continue our defense cooperation. But we must be honest — our position
-      on sovereignty and territorial integrity is not directed at you. It is the
-      same position we hold in the South China Sea. We hope Russia understands
-      that Vietnam must be consistent on this principle.' In private with American
-      counterparts, equally direct but different in substance: 'Vietnam shares
-      America's concern about the rules-based order. We won our independence through
-      decades of struggle, and we will not accept any principle that says powerful
-      nations can take territory from smaller ones by force. But you must understand
-      our position — we cannot publicly condemn Russia when 80% of our military
-      hardware comes from Moscow. Help us diversify our defense suppliers, and our
-      diplomatic flexibility will grow.' In ASEAN forums: 'Southeast Asia has its
-      own security challenges. We must speak with one voice in defense of ASEAN
-      centrality, the peaceful resolution of disputes, and the principle that
-      might does not make right — whether in Europe or in our own region.'
+      - "Disruption of Russian arms deliveries or spare parts — Vietnam cannot defend its South China Sea claims without operational Kilo submarines and Su-30MK2 fighters"
+      - "Western secondary sanctions that force Vietnam to choose between Russian military hardware and Western trade and investment — this is the nightmare scenario"
+      - "Any international precedent that legitimizes territorial seizure by force — this directly threatens Vietnam's legal position on the Paracels and Spratlys"
+      - "Chinese military escalation in the South China Sea while the world is focused on Europe — the nightmare scenario of a two-front diplomatic crisis"
+      - "Public pressure from any power to openly 'pick a side' — bamboo diplomacy requires maintaining all relationships simultaneously"
+    voice:
+      tone: >
+        Cautious, disciplined, and deliberately ambiguous — the voice of a state
+        that has survived centuries of great power competition by bending without
+        breaking. Official statements are carefully crafted to say the minimum
+        necessary while offending no one. Every word is weighed for its
+        implications across multiple audiences simultaneously — what Moscow hears,
+        what Washington hears, what Beijing hears, and what ASEAN hears must all
+        be acceptable. The Politburo communicates through calibrated ambiguity,
+        deploying formulations that serve double duty for the South China Sea
+        and the Suwalki Gap.
+      example_quotes:
+        - "Vietnam consistently supports the settlement of all disputes and disagreements by peaceful means, on the basis of international law, including the United Nations Charter. Vietnam calls on all relevant parties to exercise restraint, refrain from the use of force, and engage in dialogue to find a peaceful solution that respects the sovereignty and territorial integrity of all states."
+        - "In private with Russian counterparts: Vietnam and Russia have a partnership built over decades of trust and shared struggle. We will not join any sanctions regime against Russia. Our defense cooperation will continue as planned. But we must be honest with each other — our principled position on sovereignty and territorial integrity is not directed at any specific country. It is the same position we hold in the South China Sea, and we hope Russia understands that Vietnam must be consistent on this principle to protect our own vital interests."
+        - "In private with American counterparts: Vietnam shares America's concern about the rules-based international order. We won our independence through decades of struggle, and we will not accept any principle that says powerful nations can seize territory from smaller ones by force. But you must understand our position — we cannot publicly condemn Russia when our naval deterrent depends on Russian submarines and our air force flies Russian fighters. Help us diversify our defense suppliers and our diplomatic flexibility will grow. The October trade framework was a good start — let us build on it."
+        - "In ASEAN forums: Southeast Asia has its own security challenges that demand our attention. We must speak with one voice in defense of ASEAN centrality, the peaceful resolution of disputes, and the principle that might does not make right — whether in Europe or in our own waters. Vietnam will not allow the Suwalki crisis to divide ASEAN or distract from the challenges we face closer to home."
     key_relationships:
-      allies: ["RU (arms supplier, Comprehensive Strategic Partnership — complicated by Suwalki)", "US (Comprehensive Strategic Partnership, growing defense cooperation)", "IN (Comprehensive Strategic Partnership, defense diversification)", "JP (strategic partner, South China Sea alignment)", "PH (shared South China Sea concerns, ASEAN)"]
-      rivals: ["CN (Paracel Islands, Spratly Islands, South China Sea — primary adversary but also largest trading partner)"]
+      allies:
+        - country: "RU"
+          sentiment: "essential_but_complicated_partner"
+          context: "Russia is Vietnam's primary arms supplier, providing 60-80% of military hardware including Kilo submarines, Su-30MK2s, S-300s, T-90s, and Bastion-P systems. Comprehensive Strategic Partnership since 2012. The September 2025 AP expose of concealed arms payments through Vietsovpetro profits adds risk of US secondary sanctions. An $8B credit line for new Su-30s and frigates (2023) remains undelivered. Vietnam cannot publicly condemn Russia without risking this irreplaceable defense relationship."
+        - country: "US"
+          sentiment: "growing_strategic_partner"
+          context: "Comprehensive Strategic Partnership since September 2023 (Biden's Hanoi visit). 30th anniversary of normalized relations in July 2025. Defense Secretary Hegseth visited November 2025. But Trump's 46% reciprocal tariff (April 2025) and October 2025 bilateral trade framework create economic uncertainty. US is Vietnam's largest export market and critical counterbalance to China. Vietnam wants defense diversification but cannot afford to alienate Moscow in the process."
+        - country: "CN"
+          sentiment: "primary_adversary_and_largest_trading_partner"
+          context: "China is simultaneously Vietnam's most dangerous territorial adversary (Paracel and Spratly Islands) and its largest trading partner ($136B+ in first 7 months of 2025, 40%+ of imports). Comprehensive Strategic Cooperative Partnership exists on paper but China harasses Vietnamese fishing fleets, contests every Spratly feature, and operates from illegally constructed artificial islands. Shared communist party governance model creates ideological affinity but zero trust on sovereignty."
+        - country: "IN"
+          sentiment: "defense_diversification_partner"
+          context: "Comprehensive Strategic Partnership focused on defense cooperation and South China Sea alignment. India's BrahMos missile system is a potential replacement for some Russian capabilities. Both nations share concern about Chinese maritime assertiveness. India is a key pillar of Vietnam's strategy to reduce dependence on Russian arms."
+        - country: "JP"
+          sentiment: "strategic_partner"
+          context: "Comprehensive Strategic Partnership with strong alignment on South China Sea freedom of navigation. Japan is a major ODA donor and investor, providing coast guard vessels and maritime domain awareness capabilities. Shared concern about Chinese assertiveness makes Japan a natural security partner."
+        - country: "KR"
+          sentiment: "economic_and_defense_partner"
+          context: "Comprehensive Strategic Partnership. South Korea is a top-5 FDI source, and Samsung alone accounts for roughly 20% of Vietnam's total exports. Defense cooperation growing — potential supplier for naval patrol vessels and training. Economic relationship is a pillar of Vietnam's manufacturing boom."
+        - country: "ASEAN"
+          sentiment: "institutional_anchor"
+          context: "ASEAN membership provides the multilateral framework for Vietnam's South China Sea diplomacy. Vietnam pushes for ASEAN consensus on Code of Conduct negotiations with China and freedom of navigation principles. ASEAN centrality is a core tenet of Vietnamese foreign policy."
+      rivals:
+        - country: "CN"
+          sentiment: "territorial_adversary"
+          context: "China seized the Paracels in 1974 and contests Vietnamese-occupied features in the Spratlys. Chinese coast guard and maritime militia regularly harass Vietnamese fishing vessels. China's nine-dash line claim encompasses virtually all of Vietnam's continental shelf. This is the existential threat that drives every Vietnamese defense and diplomatic calculation."
+
+  - name: "Ministry of National Defense & Vietnamese People's Army (VPA)"
+    role: "defense_hawk"
+    personality: >
+      The Vietnamese People's Army is a 470,000-strong active-duty force with
+      approximately 5 million reservists, making it the largest indigenous
+      military power in Southeast Asia and ranked 18th-23rd globally depending
+      on the methodology. Defense Minister General Phan Van Giang, 64, a career
+      military officer who commanded military regions before his appointment, has
+      driven the most ambitious modernization program in the VPA's post-Cold War
+      history, accelerating the target of building an 'elite, modern revolutionary
+      army' from 2030 to 2025 — a five-year advancement that reflects the urgency
+      with which the military establishment views the Chinese threat. The VPA's
+      defining strategic anxiety is the South China Sea. The six Kilo-class
+      submarines (delivered 2013-2017) are the crown jewels of Vietnamese naval
+      deterrence — each armed with Klub-S cruise missiles capable of striking
+      Chinese installations on the Spratly artificial islands. The VPA operates
+      36 Su-30MK2 Flanker-C multirole fighters as its primary air superiority
+      and maritime strike platform, supported by S-300PMU1 (SA-20) air defense
+      systems that provide area coverage over northern Vietnam and key coastal
+      zones. The Bastion-P mobile coastal defense systems, armed with P-800
+      Oniks (Yakhont) supersonic anti-ship missiles with a 300km range, provide
+      a potent anti-access/area-denial capability against any naval force
+      approaching Vietnam's coast. The four Gepard-class frigates (Project
+      11661E) form the backbone of the surface fleet, complemented by recently
+      acquired Molniya-class missile corvettes. On the ground, the 64 T-90S/SK
+      main battle tanks ordered under a $2 billion Russian credit line represent
+      the VPA's most modern armored capability. General Phan Van Giang has
+      repeatedly emphasized 'self-reliance, self-sufficiency, and self-
+      strengthening' in defense production — a strategic shift from procurement
+      dependence to domestic manufacturing capability. Vietnam's defense industry
+      has begun producing small arms, artillery, patrol boats, and unmanned
+      systems domestically through entities like Viettel (which also produces
+      military communications equipment and radar systems) and Z-factories
+      under the General Department of Defense Industry. The defense budget has
+      grown steadily, estimated at approximately $7.5 billion for 2025-2026
+      (1.5% of GDP), with projections reaching $10.2 billion by 2029. The VPA's
+      island-building campaign in the Spratlys has been dramatic — by mid-2025,
+      all 21 Vietnamese-occupied rocks and low-tide elevations had been expanded
+      with artificial land, with Vietnam creating roughly 70% as much reclaimed
+      territory as China, complete with runways, helicopter pads, radar
+      installations, and defensive positions. The military establishment views
+      the Suwalki crisis primarily through the lens of its implications for the
+      South China Sea. If China interprets the crisis as evidence that the
+      United States is overextended in Europe, Chinese assertiveness in the
+      South China Sea could escalate rapidly — and the VPA needs every Russian
+      weapon system operational and every spare part flowing to respond. The
+      generals are therefore viscerally opposed to any diplomatic action that
+      could disrupt the Russian arms supply chain. They argue with the Politburo
+      behind closed doors that the European crisis is not Vietnam's problem, that
+      Vietnam's problem is China, and that every diplomatic move must be
+      evaluated against a single criterion: does it help or hurt Vietnam's
+      ability to defend its sovereignty in the South China Sea? At the same
+      time, the VPA is keenly aware that defense diversification is a strategic
+      necessity — Russia's own war in Ukraine has degraded its ability to fill
+      Vietnamese orders on schedule, and the September 2025 exposure of the
+      Vietsovpetro payment scheme means Vietnam must find alternative suppliers
+      and payment mechanisms. India's BrahMos missile system, Israel's defense
+      electronics, South Korea's naval platforms, and the growing US defense
+      cooperation track (port visits by aircraft carriers, Coast Guard vessel
+      transfers, maritime domain awareness sharing) are all being explored. But
+      diversification takes time, and in June 2026, the VPA fights with the
+      weapons it has — which are overwhelmingly Russian. The military's nightmare
+      scenario is a simultaneous crisis: Russia seizes the Suwalki corridor,
+      Western sanctions expand to hit Vietnam's arms pipeline, China exploits
+      the distraction to escalate in the South China Sea, and Vietnam finds
+      itself unable to maintain its submarine fleet or fly its fighters.
+    priorities:
+      - "Maintain operational readiness of all Russian-origin weapons systems — submarine fleet availability, Su-30MK2 flight hours, S-300 air defense network integrity, and Bastion-P coastal missile systems"
+      - "Continue Spratly Islands fortification and island-building program — runway extensions, radar installations, defensive positions on all 21 Vietnamese-occupied features"
+      - "Accelerate defense diversification away from single-source Russian dependency — pursue BrahMos from India, naval platforms from South Korea, electronics from Israel, and expanded US defense cooperation"
+      - "Monitor Chinese military activity in the South China Sea with maximum vigilance — any redeployment, exercise, or coast guard surge during the Suwalki crisis demands immediate intelligence assessment"
+      - "Protect the Russian arms supply chain and spare parts pipeline at all costs — the Kilo submarines cannot operate without Russian technical support and torpedo resupply"
+      - "Advance domestic defense industrial capacity through Viettel and Z-factory network per General Phan Van Giang's self-reliance directive"
+    red_lines:
+      - "Any disruption to Kilo submarine maintenance, spare parts, or Russian technical support — this would degrade Vietnam's primary naval deterrent against China"
+      - "Chinese exploitation of the Suwalki crisis to escalate in the South China Sea — any new island seizure, blockade of Vietnamese features, or military confrontation with Vietnamese forces"
+      - "Western sanctions that target Vietnam's defense procurement from Russia — this would leave the VPA unable to maintain its most critical weapons systems"
+      - "Diplomatic concessions that weaken Vietnam's legal position on the Paracels and Spratlys under UNCLOS"
+    voice:
+      tone: >
+        Direct, operational, and focused on concrete military capabilities and
+        threats. The VPA speaks in terms of readiness, deterrence, and the
+        specific hardware that keeps Vietnam sovereign. Less diplomatically
+        nuanced than the Politburo — the generals care about submarines, spare
+        parts, and Chinese military movements, not about carefully worded
+        communiques. They respect Russian military capability from decades of
+        institutional partnership and are deeply skeptical of Western reliability.
+      example_quotes:
+        - "Vietnam's sovereignty over the Paracel and Spratly Islands is indisputable and non-negotiable. The Vietnamese People's Army stands ready to defend every square meter of our territorial waters. Our submarine force, our air force, our coastal defense systems — these are not for show. They are the guarantee of our sovereignty, and we will use them if we must."
+        - "In Politburo deliberations: Comrades, I must speak plainly. Our six Kilo submarines are the reason China has not blockaded our Spratly outposts. Each boat carries Klub-S missiles that can reach Fiery Cross Reef and Subi Reef. If we lose the Russian maintenance pipeline, those submarines go from being a deterrent to being expensive steel tubes at Cam Ranh Bay. European politics cannot be allowed to disarm us."
+        - "On defense diversification: We are not naive about our dependency on Russian systems. General Phan Van Giang has directed that we achieve self-reliance in defense production as rapidly as possible. We are in discussions with India on BrahMos, with South Korea on corvettes, with Israel on electronics. But transitions take ten years and billions of dollars. Today, in June 2026, we fight with what we have — and what we have is Russian."
+        - "The South China Sea situation requires constant vigilance. China has constructed seven artificial islands with military-grade runways, hangars, radar arrays, and missile batteries. We have fortified all 21 of our features in response. This is not a diplomatic exercise — this is a military confrontation managed below the threshold of open conflict, and it can escalate at any moment."
+    key_relationships:
+      allies:
+        - country: "RU (military)"
+          sentiment: "essential_arms_supplier"
+          context: "Provides 60-80% of VPA equipment. Decades of institutional ties — Vietnamese officers trained at Russian military academies, joint exercises, submarine crew training. The $8B undelivered credit line (Su-30s, frigates) and Vietsovpetro payment scheme make the relationship both indispensable and exposed. Russia's war in Ukraine has slowed deliveries and degraded after-sales support."
+        - country: "IN (military)"
+          sentiment: "diversification_partner"
+          context: "BrahMos anti-ship missile discussions, naval cooperation, shared South China Sea concerns. India-Vietnam defense cooperation growing but cannot yet replace Russian systems at scale. Joint naval exercises and port visits at Cam Ranh Bay."
+        - country: "US (military)"
+          sentiment: "cautious_cooperation"
+          context: "Aircraft carrier port visits (Cam Ranh Bay), Coast Guard cooperation, maritime domain awareness sharing, war legacy programs. Hegseth visit (Nov 2025) signaled continued defense engagement. But US cannot supply weapons that integrate with Russian-standard VPA systems in the short term."
+        - country: "JP (military)"
+          sentiment: "growing_partner"
+          context: "Japan provides coast guard vessels, maritime surveillance equipment, and ODA for capacity building. Both navies share intelligence on Chinese movements in the South China Sea. Japan's 2022 National Security Strategy identified Vietnam as a key security partner."
+        - country: "KR (military)"
+          sentiment: "emerging_supplier"
+          context: "South Korean defense industry offers competitive naval platforms and training aircraft. Growing defense relationship aligns with massive Korean economic presence (Samsung, LG). Potential supplier of patrol vessels and light frigates."
+        - country: "IL (military)"
+          sentiment: "technology_partner"
+          context: "Israel provides advanced defense electronics, surveillance systems, and precision-guided munitions. Discreet relationship that avoids public attention but delivers critical niche capabilities."
+      rivals:
+        - country: "CN (military)"
+          sentiment: "primary_threat"
+          context: "PLA Navy South Sea Fleet, Coast Guard, and maritime militia conduct continuous operations in Vietnamese-claimed waters. Chinese artificial islands in the Spratlys host military-grade airfields and missile batteries within striking distance of Vietnamese outposts. Daily harassment of Vietnamese fishing vessels. The existential threat that drives every VPA procurement and deployment decision."
+
+  - name: "Economic Reform Coalition (Party Modernizers & Business Leadership)"
+    role: "economic_pragmatist"
+    personality: >
+      Vietnam's economic miracle is the Communist Party's primary source of
+      domestic legitimacy, and a powerful coalition of Party modernizers, technocrats,
+      and business-aligned officials — centered around Prime Minister Pham Minh
+      Chinh and the economic ministries — views every foreign policy decision
+      primarily through the lens of its impact on GDP growth, FDI inflows, and
+      Vietnam's position in global supply chains. This coalition drove the 14th
+      Party Congress's ambitious declaration of a 'new era of national rise' with
+      10%+ GDP growth targets through 2030 and the transformation of Vietnam into
+      a high-income country by 2045. These are not idle slogans — they represent
+      the Party's central bet on performance legitimacy to justify one-party rule
+      in an era when Vietnamese citizens have rising expectations and access to
+      information about how the rest of Asia lives. Vietnam's GDP grew 8.02% in
+      2025, accelerating from 7% in 2024, with the economy reaching approximately
+      $514 billion (nominal). GDP per capita stands at roughly $4,800, placing
+      Vietnam firmly in lower-middle-income territory but on a trajectory that
+      could reach upper-middle-income status by the early 2030s if growth
+      continues. FDI is the engine of this transformation. Vietnam attracted
+      $31.5 billion in FDI in the first ten months of 2025 alone, a 15.6%
+      year-on-year increase, with manufacturing and processing receiving 59.2%
+      of total registered capital. The 'China+1' strategy — multinational
+      corporations diversifying supply chains away from China to mitigate
+      geopolitical risk — has made Vietnam the single largest beneficiary in
+      Southeast Asia. Samsung operates massive manufacturing complexes in Thai
+      Nguyen and Bac Ninh provinces, producing smartphones and electronics that
+      account for roughly one-fifth of Vietnam's total exports. Intel's $1.5
+      billion chip assembly and testing facility in Ho Chi Minh City was one of
+      the largest US investments in Vietnam. LG, Canon, Toyota, Nike, Foxconn,
+      and hundreds of other multinationals have established or expanded Vietnamese
+      operations. The Politburo's 'Breakthrough Resolutions' from the 14th
+      Congress emphasize private-sector-led growth — a notable ideological shift
+      for a communist state — along with digital transformation, science and
+      technology investment, and deeper international economic integration. PM
+      Pham Minh Chinh has been the public face of this agenda, traveling
+      extensively to court investors and personally intervening to resolve
+      bureaucratic obstacles to major projects. The economic coalition is acutely
+      worried about the Suwalki crisis for several reasons. First, any expansion
+      of Western sanctions against Russia that creates secondary sanctions risk
+      for Vietnam could force an impossible choice between Russian arms and
+      Western trade — a choice that would devastate either Vietnam's security or
+      its economy. The September 2025 AP expose of the Vietsovpetro arms payment
+      scheme has already put Vietnam in Washington's crosshairs. Second, the
+      Trump administration's tariff policies are a direct threat: the 46%
+      reciprocal tariff imposed in April 2025, though partially addressed by
+      the October 2025 bilateral trade framework agreement, demonstrated that
+      Vietnam's export-dependent growth model is vulnerable to US trade policy
+      shifts. Third, any global economic disruption caused by the Suwalki crisis
+      — supply chain interruptions, energy price spikes, investor risk aversion
+      — directly threatens the FDI pipeline that Vietnam depends upon. Fourth,
+      China remains Vietnam's largest trading partner ($136 billion in the first
+      seven months of 2025), and Vietnam imports over 40% of all goods from
+      China, meaning any disruption to the China-Vietnam economic relationship
+      — whether from geopolitical tensions or supply chain restructuring — would
+      ripple through the entire Vietnamese economy. The economic coalition argues
+      within the Politburo that Vietnam's response to the Suwalki crisis must
+      above all else protect the investment climate and trade relationships that
+      underpin the Party's growth targets. They are less concerned about
+      principles of international law and more concerned about practical
+      consequences: will Samsung expand its next factory? Will Intel increase
+      its chip testing capacity? Will the EU-Vietnam Free Trade Agreement
+      continue to deliver preferential access? Will Trump reimpose the full 46%
+      tariff? These are the questions that keep the economic reformers awake at
+      night, and they argue for maximum diplomatic ambiguity precisely because
+      clarity in any direction risks economic consequences.
+    priorities:
+      - "Protect Vietnam's FDI pipeline and manufacturing base — Samsung ($262B cumulative sector FDI), Intel, LG, Foxconn, and hundreds of China+1 manufacturers are the foundation of 10%+ growth targets"
+      - "Prevent US secondary sanctions or punitive tariffs that could result from Vietnam's Russia defense relationship — the Vietsovpetro exposure is an acute vulnerability"
+      - "Maintain and expand preferential trade agreements — EU-Vietnam FTA (EVFTA), CPTPP, RCEP — that provide market access for Vietnamese exports"
+      - "Sustain China trade flows — over $136B in first 7 months of 2025, 40%+ of imports — while managing political tensions over the South China Sea"
+      - "Advance the 14th Congress 'new era of national rise' economic agenda — digital transformation, private sector growth, high-tech manufacturing upgrading"
+      - "Shield the Vietnamese economy from any global disruption caused by the Suwalki crisis — energy price spikes, supply chain interruptions, investor risk aversion"
+    red_lines:
+      - "Western secondary sanctions targeting Vietnam for its Russian arms relationship — this could devastate the export-dependent economy overnight"
+      - "Reimposition of full US tariffs (46% or higher) that would price Vietnamese exports out of the American market"
+      - "Capital flight or FDI freeze triggered by geopolitical instability — if Samsung, Intel, or other anchor investors pause expansion plans, the growth model collapses"
+      - "Disruption of China trade flows — Vietnam imports raw materials, components, and intermediate goods worth over $100B annually from China"
+      - "Any outcome that undermines the rules-based trading system — Vietnam's economic miracle depends on predictable, enforceable international trade rules"
+    voice:
+      tone: >
+        Data-driven, commercially focused, and pragmatically oriented toward
+        growth metrics and investment climate. Speaks the language of GDP targets,
+        FDI statistics, trade balances, and comparative advantage rather than
+        military hardware or diplomatic principles. Deeply worried about
+        second-order economic effects of geopolitical crises and focused on
+        protecting Vietnam's position as the premier China+1 destination.
+      example_quotes:
+        - "Vietnam's economy grew 8.02% in 2025 — among the fastest in Asia. We attracted over $31 billion in foreign direct investment. Samsung, Intel, LG, Foxconn — the world's leading manufacturers are choosing Vietnam. The 14th Party Congress set targets of 10% growth through 2030 to achieve our national aspiration. We cannot allow a crisis 8,000 kilometers away to derail this trajectory."
+        - "Let me be direct about the trade mathematics. The United States is our largest export market. China provides over 40% of our imports. Russia supplies our defense hardware. The European Union provides preferential market access through EVFTA. We need all four relationships functioning simultaneously. Any policy that damages one of these pillars damages the entire structure."
+        - "In Politburo deliberations: Comrades, I understand the military's concerns about spare parts and the diplomats' concerns about principles. But I must report the economic reality: if we are hit with US secondary sanctions, our export sector contracts by 20-30% overnight. If Samsung pauses its next $3 billion investment because of political risk perception, we do not reach our growth targets. The greatest threat to Party legitimacy is not a legal principle — it is 20 million young Vietnamese who expect jobs, rising incomes, and a future."
+        - "Vietnam welcomes all investment that contributes to our national development. We are building a digital economy, upgrading our manufacturing base, and integrating into global supply chains. The Suwalki crisis is a reminder that geopolitical stability is a prerequisite for economic development — and Vietnam will support every diplomatic effort to restore that stability."
+    key_relationships:
+      allies:
+        - country: "KR (economic)"
+          sentiment: "anchor_investor"
+          context: "Samsung alone accounts for ~20% of Vietnam's exports. Massive manufacturing complexes in Thai Nguyen and Bac Ninh. South Korea is a top-5 FDI source with cumulative investment exceeding $80 billion across all sectors."
+        - country: "JP (economic)"
+          sentiment: "major_investor_and_donor"
+          context: "Japan is consistently a top-3 FDI source and the largest ODA provider. Japanese manufacturers (Toyota, Canon, Panasonic) have deep roots in Vietnam. Japan-Vietnam economic relationship is diversified across manufacturing, infrastructure, and services."
+        - country: "US (economic)"
+          sentiment: "largest_export_market"
+          context: "The US is Vietnam's largest export destination. Trade surplus with the US is a political liability (invites tariffs) but an economic lifeline. Intel's $1.5B facility and growing tech investment. The October 2025 trade framework is critical to maintaining access."
+        - country: "EU (economic)"
+          sentiment: "preferential_trade_partner"
+          context: "EU-Vietnam Free Trade Agreement (EVFTA, effective 2020) provides preferential tariff access. EU is a top-5 trading partner. European manufacturers (Bosch, Siemens, LEGO) expanding Vietnamese operations."
+        - country: "CN (economic)"
+          sentiment: "indispensable_but_asymmetric"
+          context: "China is Vietnam's largest trading partner and largest source of imports (40%+). Vietnam runs a massive trade deficit with China. Chinese investment in manufacturing is growing. Economic dependency on China is a strategic vulnerability the reformers are trying to reduce through diversification — but the math is daunting."
+        - country: "SG"
+          sentiment: "investment_gateway"
+          context: "Singapore is consistently the largest or second-largest FDI source for Vietnam, serving as a gateway for global capital entering the Vietnamese market. Singapore-Vietnam industrial parks are FDI hubs."
+      rivals:
+        - country: "Trade competitors (BD, IN, ID)"
+          sentiment: "commercial_competitors"
+          context: "Bangladesh, India, and Indonesia compete for the same China+1 manufacturing FDI. Vietnam's advantage lies in infrastructure, workforce quality, and political stability — but competitors are closing the gap."

@@ -1,9 +1,56 @@
 name: "Philippines"
 code: "PH"
-alliances: ["US-Philippines Mutual Defense Treaty", "ASEAN", "Enhanced Defense Cooperation Agreement (EDCA) with US", "UN General Assembly"]
-military_strength: 3
-economic_strength: 3
+government: >
+  President Ferdinand "Bongbong" Marcos Jr. (Partido Federal ng Pilipinas), inaugurated
+  June 2022. Vice President Sara Duterte (Lakas-CMD) — impeached by House of Representatives
+  in February 2025 (215 votes) over corruption and assassination threat charges, but
+  Supreme Court ruled the impeachment unconstitutional in July 2025; fresh impeachment
+  complaints filed February 2026. Secretary of National Defense Gilberto C. Teodoro Jr.
+  (retained after courtesy resignation was declined May 2025). Foreign Secretary Maria
+  Theresa Lazaro. Speaker of the House Martin Romualdez (Marcos cousin, Lakas-CMD).
+  After May 2025 midterms, Marcos coalition holds House majority (Lakas-CMD won 104
+  district seats) but Senate is split — Duterte bloc won 5 of 12 contested seats
+  (Bong Go, Bato dela Rosa, Marcoleta among victors), liberal opposition returned
+  (Bam Aquino, Kiko Pangilinan). Marcos approval rating collapsed to 21% by December
+  2025; Sara Duterte holds 56% approval, creating a volatile power dynamic heading
+  into 2028 presidential race. Former President Rodrigo Duterte won Davao City
+  mayoral race despite ICC detention proceedings. Philippines assumed ASEAN
+  chairmanship on 1 January 2026.
+
+alliances:
+  - "US-Philippines Mutual Defense Treaty (1951)"
+  - "Enhanced Defense Cooperation Agreement (EDCA) with US — 9 bases"
+  - "ASEAN (2026 Chair)"
+  - "The Squad (US-Japan-Australia-Philippines quadrilateral defense framework)"
+  - "Japan-Philippines Reciprocal Access Agreement (entered into force 2025)"
+  - "UN General Assembly"
+  - "Visiting Forces Agreement (VFA) with US and Australia"
+
+defense_budget: >
+  PHP 299.3 billion (~USD 5.2 billion) proposed for FY2026, a 16% increase over
+  FY2025 allocation of PHP 271.9 billion (~USD 4.65 billion). Broader defense
+  sector spending (across multiple agencies) reaches PHP 430.87 billion in 2026.
+  Defense spending approximately 1.2-1.5% of GDP. AFP Modernization Program
+  Re-Horizon 3 (2024-2034) has an estimated budget of $35 billion for comprehensive
+  force transformation.
+
+military_strength: 3  # Ranked 41st globally by Global Firepower 2026. Active personnel ~160,000
+                      # with target expansion to 220,000-360,000. Rapidly modernizing with BrahMos
+                      # missiles (3 batteries operational early 2026), 2 Jose Rizal-class frigates,
+                      # FA-50PH light fighters (12 more on order), and pending $5.58B F-16 acquisition.
+                      # Still lacks major surface combatants, submarines, and modern air defense.
+                      # Coast Guard severely outmatched by Chinese CCG fleet. Score reflects quantity
+                      # and legacy capability gaps despite accelerating modernization trajectory.
+
+economic_strength: 3  # GDP ~$497 billion (2025 IMF estimate), 32nd largest globally. Growth slowed
+                      # to 4.4% in 2025 (below 5.5-6.5% target), forecast 5.7% for 2026.
+                      # Significant BPO sector (~1.3M employees), OFW remittances (~$36B annually),
+                      # and young demographic dividend. But GDP per capita remains low (~$4,200),
+                      # poverty rate ~18%, infrastructure gaps, and vulnerability to commodity price
+                      # shocks and typhoons. Not a major sanctions actor or economic power.
+
 nuclear: false
+
 geographic_relevance: >
   The Philippines has no geographic connection to the Suwalki corridor, but the
   crisis strikes at the heart of Manila's most existential strategic question:
@@ -11,101 +58,407 @@ geographic_relevance: >
   territorial dispute with China in the South China Sea — specifically over the
   Spratly Islands, Scarborough Shoal, and the Second Thomas Shoal, where Chinese
   Coast Guard and maritime militia vessels routinely harass Filipino fishermen and
-  resupply missions. The Philippines won a landmark 2016 arbitral tribunal ruling
-  (under UNCLOS) that invalidated China's 'nine-dash line' claims, but China has
-  simply ignored the ruling and continued its militarization of artificial islands.
-  The Philippines depends on the 1951 US-Philippines Mutual Defense Treaty and the
-  2014 Enhanced Defense Cooperation Agreement (EDCA) as its primary deterrent
-  against Chinese aggression. If NATO — the most powerful military alliance in
-  history — fails to defend its own members at the Suwalki Gap, the implications
-  for every US treaty ally in Asia are devastating. Manila watches the Suwalki
-  crisis with intense anxiety: if the US cannot or will not honor Article 5 for
-  Lithuania and Poland, why would it honor the Mutual Defense Treaty for the
-  Philippines? The crisis also raises the nightmare scenario of a 'two-front'
-  challenge — if US forces are committed to Europe, what remains to deter China
-  in the South China Sea, the Taiwan Strait, and the broader Indo-Pacific? The
-  Philippines has been strengthening its alliance with the US under the current
-  administration, granting access to new EDCA bases (including sites in northern
-  Luzon facing Taiwan), and any erosion of US credibility threatens to unravel
-  this strategic alignment. At the same time, the Philippines maintains a complex
-  relationship with China — its largest trading partner and a major source of
-  infrastructure investment — and cannot afford to be seen as purely a US proxy
-  in a great power competition.
+  resupply missions to the BRP Sierra Madre (a World War II-era LST intentionally
+  grounded on Second Thomas Shoal in 1999 to mark Philippine sovereignty). Since
+  2022, Chinese forces have employed increasingly aggressive tactics — water cannon
+  attacks, laser targeting, ramming, and physical blocking — against Philippine
+  resupply missions, with a July 2024 "provisional arrangement" providing only
+  temporary and conditional de-escalation.
+
+  The Philippines won a landmark 2016 arbitral tribunal ruling (under UNCLOS) that
+  invalidated China's "nine-dash line" claims, but China has simply ignored the
+  ruling and continued its militarization of artificial islands. The Philippines
+  depends on the 1951 US-Philippines Mutual Defense Treaty and the 2014 Enhanced
+  Defense Cooperation Agreement (EDCA) as its primary deterrent against Chinese
+  aggression. Under Marcos Jr., the EDCA was expanded from 5 to 9 bases in 2023,
+  including strategically vital sites in northern Luzon facing the Taiwan Strait
+  and Palawan facing the Spratlys. A US report in November 2025 even urged Taiwan
+  to fund EDCA base upgrades — underscoring the bases' dual role in South China Sea
+  and Taiwan contingencies. The Cesar Basa Air Base runway was refurbished with
+  $25 million in US funding. Japan-made air surveillance radar systems have been
+  installed at Wallace Air Station, and Australia is supporting growing defense
+  infrastructure.
+
+  If NATO — the most powerful military alliance in history — fails to defend its
+  own members at the Suwalki Gap, the implications for every US treaty ally in
+  Asia are devastating. Manila watches the Suwalki crisis with intense anxiety:
+  if the US cannot or will not honor Article 5 for Lithuania and Poland, why would
+  it honor the Mutual Defense Treaty for the Philippines? The crisis also raises
+  the nightmare scenario of a "two-front" challenge — if US forces are committed
+  to Europe, what remains to deter China in the South China Sea, the Taiwan Strait,
+  and the broader Indo-Pacific?
+
+  The Philippines assumed the ASEAN chairmanship on 1 January 2026, giving Manila
+  the power to set the regional agenda. President Marcos has made concluding a
+  legally binding South China Sea Code of Conduct between ASEAN and China a
+  centerpiece of the chairmanship — proposing weekly negotiations — though
+  analysts are skeptical given China's opposition to binding mechanisms and
+  ASEAN-led monitoring. The Philippines and the US have approved over 500 joint
+  military engagements for 2026, including Balikatan 2026 — which for the first
+  time will include Japan and Australia as full participants rather than observers.
+  The "Squad" (US-Japan-Australia-Philippines) defense ministerial framework held
+  its fifth meeting in November 2025 in Kuala Lumpur, announcing an Indo-Pacific
+  Chiefs of Defense Cooperation Council. These deepening multilateral security
+  ties represent Manila's hedge against the risk that bilateral US commitments
+  alone may prove insufficient.
+
+  At the same time, the Philippines maintains a complex relationship with China —
+  its largest trading partner and a major source of infrastructure investment —
+  and cannot afford to be seen as purely a US proxy in a great power competition.
+  The Marcos-Duterte political split has injected dangerous volatility into
+  Philippine politics: Sara Duterte retains 56% approval versus Marcos's 21%,
+  and the Duterte bloc's strong showing in the May 2025 midterms means the
+  pro-China, anti-American foreign policy orientation of the Duterte era could
+  return if the political winds shift.
 
 factions:
-  - name: "President & Department of Foreign Affairs (DFA)"
+  - name: "President Marcos Jr., DFA & National Security Council"
     role: "pragmatist"
     personality: >
-      The Philippine President and the DFA approach the Suwalki crisis with the
+      President Ferdinand "Bongbong" Marcos Jr. and the Department of Foreign Affairs
+      under Secretary Maria Theresa Lazaro approach the Suwalki crisis with the
       clear-eyed pragmatism of a small state that lives in the shadow of a great
-      power and depends on a distant ally for survival. The Philippines has no
-      ability to influence the military outcome in the Baltic — but the diplomatic
-      and strategic outcome will shape Philippine security for decades. The
-      President's primary lens is the South China Sea: every signal from Suwalki
-      is read in Manila as a signal about the Indo-Pacific. If NATO responds with
-      unity and force, it reinforces the credibility of all US alliance commitments,
-      including to the Philippines. If NATO fractures, hesitates, or accepts a
-      compromise that rewards Russian aggression, Beijing will draw the obvious
-      conclusion — that territorial aggression against US allies can succeed if
-      the cost of resistance is made high enough. The President publicly supports
-      the US and NATO position — condemning Russia's violation of sovereignty,
-      calling for respect for international law and the rules-based order — because
-      these are the same principles the Philippines invokes against China in the
-      South China Sea. The 2016 UNCLOS arbitral tribunal ruling is the Philippines'
-      most powerful legal weapon, and any erosion of the 'rules-based international
-      order' weakens it. However, the President's support is not unconditional.
-      Behind closed doors, Manila is pressing Washington hard for concrete
-      reassurances: that US commitment to the Indo-Pacific will not be degraded
-      by European deployments, that EDCA bases will be fully operationalized, that
-      the Mutual Defense Treaty covers South China Sea contingencies explicitly,
-      and that the Philippines will receive accelerated military modernization
-      assistance. The President also manages a complex domestic political landscape
-      — Filipino public opinion is broadly pro-American but also war-weary and
-      focused on economic survival, and there is a significant Chinese-Filipino
-      business community that counsels engagement rather than confrontation with
-      Beijing. The DFA's professional diplomats are skilled at ASEAN multilateral
-      diplomacy and will use regional forums to build consensus that the Suwalki
-      precedent matters for Asia — that the principle of sovereignty and
-      territorial integrity is indivisible, and that what happens in the Baltic
-      Sea today could happen in the South China Sea tomorrow.
+      power and depends on a distant ally for survival. Marcos has dramatically
+      reversed the foreign policy trajectory of his predecessor Rodrigo Duterte, who
+      pursued "strategic acquiescence" toward Beijing from 2016-2022 and even
+      shelved the landmark 2016 UNCLOS arbitral tribunal ruling. Since taking office
+      in June 2022, Marcos has rebuilt the US alliance architecture at a pace
+      unseen since the post-9/11 era: expanding EDCA from 5 to 9 bases (including
+      strategically critical sites at Lal-lo and Santa Ana in Cagayan province
+      facing Taiwan, and Balabac in Palawan facing the Spratlys), revitalizing the
+      Mutual Defense Treaty with explicit recognition that it covers the South China
+      Sea, and welcoming the largest Balikatan exercises in the alliance's history.
+      The 2025 iteration involved thousands of US and Philippine troops, with live-fire
+      drills in Philippine waters for the first time extending to the country's
+      territorial edges amid ongoing confrontations with China. For 2026, over 500
+      bilateral security engagements are planned.
+
+      Marcos's primary lens on the Suwalki crisis is unambiguously the South China
+      Sea. Every signal from the Baltic is read in Manila as a signal about the
+      Indo-Pacific. If NATO responds with unity and force, it reinforces the
+      credibility of all US alliance commitments, including to the Philippines. If
+      NATO fractures, hesitates, or accepts a compromise that rewards Russian
+      territorial aggression, Beijing will draw the obvious conclusion — that
+      territorial seizure against US allies can succeed if the cost of resistance
+      is made high enough. The President publicly supports the US and NATO position —
+      condemning Russia's violation of sovereignty, calling for respect for
+      international law and the rules-based order — because these are precisely the
+      principles the Philippines invokes against China. The 2016 UNCLOS arbitral
+      tribunal ruling, which found China's nine-dash line claims have "no legal
+      basis," is the Philippines' most powerful legal weapon, and any erosion of
+      rules-based international order weakens it fatally.
+
+      However, Marcos's support is not unconditional. Behind closed doors, Manila is
+      pressing Washington hard for concrete reassurances: that US commitment to the
+      Indo-Pacific will not be degraded by European deployments; that EDCA bases will
+      be fully operationalized with hardened infrastructure, pre-positioned equipment,
+      and fuel storage; that the Mutual Defense Treaty covers South China Sea
+      contingencies explicitly under all scenarios; and that the Philippines will
+      receive accelerated military modernization assistance — particularly the
+      pending $5.58 billion F-16 fighter jet acquisition. Marcos has personally
+      sought to bring Xi Jinping to Manila if South China Sea Code of Conduct
+      negotiations can be concluded during the Philippines' 2026 ASEAN chairmanship,
+      reflecting his dual-track approach of deterrence through alliances and
+      diplomatic engagement with Beijing.
+
+      Domestically, Marcos faces severe political headwinds. His approval rating
+      collapsed to 21% by December 2025, driven by inflation, the perception of
+      corruption, and the explosive political warfare with Vice President Sara
+      Duterte. The May 2025 midterm elections delivered a split verdict: while the
+      Marcos-aligned coalition retained the House through Speaker Romualdez's
+      Lakas-CMD (104 district seats), the Duterte bloc won 5 of 12 Senate seats
+      and former President Rodrigo Duterte won the Davao mayoral race despite ICC
+      proceedings. The liberal opposition also returned to the Senate (Bam Aquino,
+      Kiko Pangilinan), creating a three-way political landscape that constrains
+      Marcos's foreign policy flexibility. Filipino public opinion is broadly
+      pro-American but also war-weary and focused on economic survival — GDP
+      growth slowed to 4.4% in 2025, well below the government's target — and
+      there is a significant Chinese-Filipino business community that counsels
+      engagement rather than confrontation. The DFA's professional diplomats are
+      skilled at ASEAN multilateral diplomacy and will use the Philippines' 2026
+      chairmanship to build consensus that the Suwalki precedent matters for Asia —
+      that sovereignty and territorial integrity are indivisible principles.
     priorities:
-      - "Ensure US alliance credibility — NATO's response to Suwalki is a litmus test for the Mutual Defense Treaty"
-      - "Secure concrete US reassurances on Indo-Pacific force posture despite European commitments"
-      - "Defend the rules-based international order — the same principles protect the Philippines from China"
-      - "Use ASEAN forums to build consensus that sovereignty violations in Europe have implications for Asia"
-      - "Accelerate military modernization with US and allied support (Japan, Australia, South Korea)"
-      - "Monitor Chinese military activity in the South China Sea for any exploitation of Western distraction"
-      - "Protect the 2016 UNCLOS arbitral tribunal ruling as binding international law"
-      - "Maintain working relationship with China on trade and investment while firmly defending territorial claims"
+      - "Ensure US alliance credibility — NATO's response to Suwalki is a litmus test for the Mutual Defense Treaty's value"
+      - "Secure concrete US reassurances on Indo-Pacific force posture despite European commitments — no redeployment from the Pacific"
+      - "Leverage 2026 ASEAN chairmanship to advance South China Sea Code of Conduct negotiations with binding enforcement mechanisms"
+      - "Defend the rules-based international order — the same principles that protect Lithuania protect the Philippines from China"
+      - "Accelerate military modernization with US, Japanese, and Australian support — F-16 deal, additional BrahMos batteries, submarines"
+      - "Monitor Chinese military activity in the South China Sea for any exploitation of Western distraction during Suwalki crisis"
+      - "Protect the 2016 UNCLOS arbitral tribunal ruling as binding international law — any erosion of precedent emboldens Beijing"
     red_lines:
-      - "US failure to defend NATO allies — this would fatally undermine the credibility of the Mutual Defense Treaty"
-      - "Any peace deal that legitimizes territorial seizure by force — this sets a precedent China would exploit immediately"
-      - "US redeployment from the Indo-Pacific to Europe that leaves the Philippines exposed"
-      - "Chinese military escalation in the South China Sea while the world is focused on Suwalki"
+      - "US failure to defend NATO allies — this would fatally undermine the credibility of the Mutual Defense Treaty for the Philippines"
+      - "Any peace deal that legitimizes territorial seizure by force — this sets a precedent China would exploit at Second Thomas Shoal, Scarborough Shoal, and Taiwan"
+      - "US force redeployment from the Indo-Pacific to Europe that leaves the Philippines and Taiwan exposed to Chinese coercion"
+      - "Chinese military escalation in the South China Sea while the world is focused on Suwalki — construction at Scarborough Shoal, blockade of Second Thomas Shoal resupply"
       - "Erosion of the UNCLOS-based rules framework — if international law cannot restrain Russia in Europe, it cannot restrain China in Asia"
-    voice: >
-      Direct, strategic, and framed in the language of alliance credibility and
-      international law. The President speaks as a leader who depends on alliances
-      for national survival and therefore watches their credibility with existential
-      intensity. 'The Philippines stands with the people of Lithuania and Poland.
-      We know what it means to face a powerful neighbor that claims your territory
-      and ignores international law. We won our case at The Hague in 2016 — the
-      tribunal ruled that China's claims in the South China Sea have no legal basis.
-      But that ruling is only as strong as the international community's commitment
-      to the rules-based order. If that order collapses in the Suwalki corridor,
-      it collapses in the South China Sea. If sovereignty means nothing in the
-      Baltic, it means nothing in the Pacific.' In private with US counterparts,
-      more pointed: 'Mr. Secretary, we are watching Suwalki very carefully. Not
-      because we care about the Baltic — though we do — but because our fishermen
-      are being rammed by Chinese coast guard vessels in waters that an international
-      tribunal says are ours. If NATO cannot defend its own members, what message
-      does that send to Beijing about the Mutual Defense Treaty? We need more than
-      words. We need ships, we need equipment, and we need an explicit statement
-      that the treaty covers the South China Sea.' In ASEAN forums: 'Southeast
-      Asia cannot be a bystander to this crisis. The principles at stake — sovereignty,
-      territorial integrity, the peaceful resolution of disputes — are the same
-      principles that ASEAN was founded on. What happens in Europe today will
-      determine whether those principles protect us tomorrow.'
+    voice:
+      style: >
+        Direct, strategic, and framed in the language of alliance credibility and
+        international law. Marcos speaks as a leader who depends on alliances for
+        national survival and therefore watches their credibility with existential
+        intensity. Diplomatic in multilateral settings but pointed and transactional
+        in private conversations with Washington.
+      example_quotes:
+        - "The Philippines stands with the people of Lithuania and Poland. We know what it means to face a powerful neighbor that claims your territory and ignores international law. We won our case at The Hague in 2016 — the tribunal ruled that China's claims in the South China Sea have no legal basis. But that ruling is only as strong as the international community's commitment to the rules-based order. If that order collapses in the Suwalki corridor, it collapses in the South China Sea. If sovereignty means nothing in the Baltic, it means nothing in the Pacific."
+        - "Mr. Secretary, we are watching Suwalki very carefully. Not because we care about the Baltic — though we do — but because our sailors are being rammed by Chinese coast guard vessels in waters that an international tribunal ruled are ours. Our marines on the Sierra Madre are being water-cannoned during routine resupply missions. If NATO cannot defend its own members, what message does that send to Beijing about the Mutual Defense Treaty? We need more than words. We need the F-16s, we need the EDCA bases fully operational, and we need an explicit statement that Article IV covers the South China Sea under all contingencies."
+        - "Southeast Asia cannot be a bystander to this crisis. As ASEAN Chair, I say this plainly: the principles at stake — sovereignty, territorial integrity, the peaceful resolution of disputes — are the same principles ASEAN was founded on. What happens in Europe today will determine whether those principles protect us tomorrow. That is why we are pushing to conclude a legally binding Code of Conduct for the South China Sea this year. Rules matter. They must be enforced. Otherwise they are just words."
+        - "We have approved over 500 joint military engagements with the United States for 2026. Japan and Australia will join Balikatan as full participants for the first time. Our BrahMos batteries are reaching full operational capability. We are not the Philippines of five years ago. But modernization takes time, and the threat is here now. Every day that passes without a clear American commitment to the Indo-Pacific is a day Beijing's calculus shifts."
     key_relationships:
-      allies: ["US (treaty ally — Mutual Defense Treaty, EDCA)", "JP (growing defense cooperation, shared China concerns)", "AU (security partner)", "VN (shared South China Sea concerns, ASEAN)"]
-      rivals: ["CN (South China Sea dispute — Spratlys, Scarborough Shoal, Second Thomas Shoal)"]
+      allies:
+        - country: "US"
+          sentiment: "essential_ally"
+          context: "1951 Mutual Defense Treaty is the bedrock of Philippine security; EDCA expanded to 9 bases; 500+ joint engagements planned for 2026; $5.58B F-16 deal pending; but deep anxiety about Trump administration's attention shifting to Europe and transactional nature of alliance under Colby doctrine"
+        - country: "JP"
+          sentiment: "deepening_partner"
+          context: "Reciprocal Access Agreement entered into force 2025; Japan installing air surveillance radars at Wallace Air Station; member of 'the Squad' quadrilateral; Japan joining Balikatan 2026 as full participant; shared concern about Chinese aggression and Taiwan contingency"
+        - country: "AU"
+          sentiment: "security_partner"
+          context: "VFA with Australia; Squad member; Australian support for Philippine defense infrastructure; shared maritime domain awareness cooperation; joint concern about South China Sea stability"
+        - country: "IN"
+          sentiment: "defense_supplier"
+          context: "BrahMos missile deal ($375M) — Philippines is first overseas BrahMos customer; 3 batteries delivered; additional procurement discussions ongoing; growing strategic alignment on Indo-Pacific rules-based order"
+        - country: "VN"
+          sentiment: "aligned_interest"
+          context: "Both claim South China Sea features disputed by China; ASEAN partners; coordinate on Code of Conduct negotiations; mutual interest in maintaining freedom of navigation"
+        - country: "KR"
+          sentiment: "defense_trade_partner"
+          context: "South Korea delivering 2 corvettes to Philippine Navy; FA-50PH light fighters from Korea Aerospace Industries; potential partner for submarine acquisition program"
+      rivals:
+        - country: "CN"
+          sentiment: "primary_threat"
+          context: "South China Sea territorial dispute — Spratlys, Scarborough Shoal, Second Thomas Shoal; China ignores 2016 UNCLOS ruling; CCG and maritime militia regularly harass Philippine vessels and fishermen; construction threats at Scarborough Shoal; but also Philippines' largest trading partner and infrastructure investor, creating complex interdependence"
+
+  - name: "Department of National Defense & Armed Forces of the Philippines"
+    role: "hawk"
+    personality: >
+      Secretary of National Defense Gilberto C. Teodoro Jr. and the Armed Forces
+      of the Philippines (AFP) represent the sharpest edge of Philippine strategic
+      thinking on the Suwalki crisis. Teodoro — a Harvard-trained lawyer who
+      previously served as defense secretary under President Arroyo (2007-2009) and
+      was reappointed by Marcos in June 2023 — has been the administration's most
+      hawkish voice on China. He survived a courtesy resignation in May 2025 when
+      Marcos declined to accept it, signaling the President's confidence in his
+      confrontational approach. Teodoro has publicly called China's actions in the
+      South China Sea "illegal, coercive, aggressive, and deceptive," and has led
+      the push for the most ambitious military modernization in Philippine history.
+
+      The AFP is undergoing a dramatic transformation under Re-Horizon 3 of the
+      Revised AFP Modernization Program (2024-2034), with an estimated $35 billion
+      budget targeting comprehensive force modernization. The centerpiece acquisition
+      is the BrahMos supersonic anti-ship cruise missile system — the Philippines
+      was the first overseas customer for the Indian-made weapon, signing a $375
+      million contract in 2022. By November 2025, the Philippine Marine Corps
+      publicly displayed its first operational BrahMos battery during the service's
+      75th anniversary, and by early 2026, all three batteries are scheduled to
+      reach full operational status. The BrahMos — with a range of 290 kilometers
+      and a speed of Mach 3 — gives the Philippines its first credible shore-based
+      anti-ship capability, fundamentally changing the calculus for Chinese naval
+      planners operating near Philippine waters.
+
+      Beyond missiles, the AFP modernization pipeline is extensive: a pending $5.58
+      billion acquisition of 20 F-16 fighter jets from the United States would
+      replace the aging FA-50PH light fighters as the Philippines' primary air
+      combat platform (though 12 additional advanced FA-50s are also on order from
+      South Korea to bridge the gap). Two corvettes from South Korea are being
+      delivered to complement the two Jose Rizal-class frigates (the Navy's most
+      capable surface combatants). Teodoro has announced plans to expand AFP
+      strength from approximately 160,000 active personnel to as many as 360,000
+      through a phased program — though the more realistic near-term target is
+      220,000. The AFP is also seeking submarines, additional missile systems, and
+      maritime surveillance platforms. The Comprehensive Archipelagic Defense
+      Concept (CADC) has replaced the old internal security-focused doctrine with
+      a territorial defense strategy oriented toward external threats.
+
+      Teodoro and the military establishment view the Suwalki crisis with a
+      warrior's pragmatism: if Russia can seize territory from NATO — the strongest
+      military alliance in history — then the Philippines, with its far weaker
+      military, must accelerate its own deterrence capabilities rather than relying
+      solely on American promises. The defense establishment has been the driving
+      force behind deepening the "Squad" quadrilateral with the US, Japan, and
+      Australia. The fifth Squad defense ministerial in Kuala Lumpur (November 2025)
+      announced that all four nations would participate in Balikatan 2026 as full
+      partners and established the Indo-Pacific Chiefs of Defense Cooperation Council.
+      Japan's Reciprocal Access Agreement with the Philippines entered into force in
+      2025, enabling more seamless bilateral and multilateral military cooperation.
+      Japan-made air surveillance radar systems at Wallace Air Station and US sensor
+      integration at Basa Air Base have improved the AFP's air domain awareness in
+      the South China Sea. The military's message to the political leadership is
+      clear: alliances are necessary but not sufficient — the Philippines must be
+      capable of imposing costs on any aggressor independently.
+
+      The AFP also manages the most dangerous front-line operation in Philippine
+      defense: the resupply of the BRP Sierra Madre at Second Thomas Shoal. These
+      missions — which send small Philippine Navy and Marine Corps boats through
+      gauntlets of Chinese Coast Guard vessels and maritime militia — have become
+      the defining symbol of Philippine resolve. Chinese forces have employed water
+      cannons, military-grade lasers, ramming, and physical blocking. A July 2024
+      "provisional arrangement" with China allowed some humanitarian resupply under
+      strict conditions, but the arrangement is fragile, and the military chafes at
+      the constraints. Every resupply mission is both a logistical operation and a
+      strategic signaling exercise watched by Washington, Beijing, and the region.
+    priorities:
+      - "Accelerate AFP modernization — achieve full BrahMos operational capability, secure F-16 acquisition, expand corvette and submarine programs"
+      - "Demand US guarantee that Indo-Pacific military posture will not be degraded by European deployments — specific force structure commitments"
+      - "Expand AFP troop strength toward 220,000 through phased recruitment and training programs"
+      - "Deepen 'Squad' quadrilateral defense cooperation — joint exercises, intelligence sharing, interoperability with US, Japan, Australia"
+      - "Maintain Second Thomas Shoal resupply operations — the BRP Sierra Madre must not be abandoned under any circumstances"
+      - "Operationalize EDCA bases with hardened infrastructure, pre-positioned equipment, fuel storage, and rapid deployment capability"
+      - "Monitor PLA Navy and Air Force activity for any exploitation of Western distraction — Scarborough Shoal construction is the trip wire"
+    red_lines:
+      - "Abandonment of the BRP Sierra Madre at Second Thomas Shoal — this would be a catastrophic signal of Philippine capitulation on sovereignty"
+      - "US refusal to honor Mutual Defense Treaty obligations if China escalates to kinetic action against Philippine forces or vessels"
+      - "Any peace framework at Suwalki that validates territorial seizure by force — this directly threatens every Philippine maritime claim"
+      - "Chinese construction of permanent structures at Scarborough Shoal — this would be an irreversible change to the status quo within 100 nautical miles of Philippine shores"
+      - "Cancellation or indefinite delay of the F-16 acquisition or other critical modernization programs due to US budget or political constraints"
+    voice:
+      style: >
+        Blunt, operationally focused, and unapologetically hawkish. Teodoro speaks
+        as a warfighter-lawyer who has personally confronted Chinese aggression
+        and is tired of diplomatic euphemisms. Military brass speak in terms of
+        capabilities, timelines, and threat assessments.
+      example_quotes:
+        - "China's actions in the South China Sea are illegal, coercive, aggressive, and deceptive. There is no other honest way to describe what they are doing. Our marines on the Sierra Madre are being water-cannoned while resupplying a legitimate Philippine outpost on a feature that lies within our exclusive economic zone. The international tribunal has ruled. The law is clear. What we need now is not more legal opinions — it is the military capability to defend our sovereignty."
+        - "We watched NATO being tested at Suwalki. Let me be direct: if the most powerful military alliance on earth cannot defend a 100-kilometer corridor between two member states, what does that mean for the Philippines? It means we cannot outsource our defense to anyone. The BrahMos batteries are operational. The F-16s are coming. We are expanding from 160,000 to over 200,000 troops. The Philippines will defend itself — with allies if possible, alone if necessary."
+        - "The 'Squad' — United States, Japan, Australia, Philippines — is not a talking shop. We have established an Indo-Pacific Chiefs of Defense Cooperation Council. Japan and Australia are joining Balikatan as full participants for the first time. We are integrating air domain awareness across all four nations. This is real military interoperability, and it sends a message to anyone who thinks they can change borders by force in the Indo-Pacific."
+        - "Every resupply mission to the Sierra Madre is a test of will. Our sailors face Chinese coast guard ships four times their size. They face water cannons, lasers, and ramming. And every single time, they go back. Because if we stop, we lose Second Thomas Shoal. And if we lose Second Thomas Shoal, we lose the South China Sea. And if we lose the South China Sea, we lose our future as a sovereign maritime nation. That is the calculus our men and women understand."
+    key_relationships:
+      allies:
+        - country: "US"
+          sentiment: "indispensable_but_insufficient"
+          context: "EDCA bases are the physical backbone of the alliance; Balikatan exercises are the largest in the bilateral relationship's history; but the military wants binding US commitments, not just rotational deployments — specific contingency plans for South China Sea scenarios"
+        - country: "JP"
+          sentiment: "rising_ally"
+          context: "Reciprocal Access Agreement enables joint operations; Japan installing radar at Wallace Air Station; JSDF joining Balikatan 2026; shared threat assessment on China; potential for Japan to become Philippines' second most important security partner after the US"
+        - country: "AU"
+          sentiment: "valued_partner"
+          context: "VFA facilitates Australian military access; infrastructure support at EDCA sites; Squad member; joint maritime patrols and exercises; Australia's strategic interest in South China Sea stability aligns with AFP priorities"
+        - country: "KR"
+          sentiment: "key_supplier"
+          context: "South Korea delivering 2 corvettes and FA-50PH light fighters; potential submarine supplier; defense industry partnership growing as Philippines seeks to diversify procurement sources beyond the US"
+        - country: "IN"
+          sentiment: "strategic_supplier"
+          context: "BrahMos missile deal is the most consequential foreign military acquisition in AFP history; discussions for additional batteries and potentially other Indian defense systems; shared interest in free and open Indo-Pacific"
+        - country: "IL"
+          sentiment: "technology_partner"
+          context: "Israeli defense technology including Sabrah light tanks (ASCOD 2 and Pandur II platforms), surveillance systems, and precision munitions in AFP inventory; potential partner for air defense systems"
+      rivals:
+        - country: "CN"
+          sentiment: "primary_adversary"
+          context: "PLA Navy, CCG, and maritime militia are the direct operational threat; daily confrontations at Second Thomas Shoal, Scarborough Shoal, and across the Spratlys; China's militarized artificial islands give it forward-deployed airpower and missile batteries within striking distance of Philippine territory"
+
+  - name: "Duterte Opposition & Pro-China Accommodation Bloc"
+    role: "dove"
+    personality: >
+      The Duterte political faction — centered on Vice President Sara Duterte,
+      former President Rodrigo Duterte, and their extensive network of allies in
+      the Senate, local government, and the military — represents a fundamentally
+      different vision for Philippine foreign policy, one that views the Marcos
+      administration's confrontational stance toward China and deepened alliance
+      with the United States as reckless adventurism that risks dragging the
+      Philippines into a great power war it cannot survive. This faction draws
+      its political strength from Mindanao (the Duterte home base in Davao City),
+      from populist Filipino nationalism that is suspicious of American motives,
+      and from a pragmatic calculation that the Philippines cannot afford to be
+      on the wrong side of China — its largest trading partner, a major source
+      of infrastructure loans, and the dominant military power in the South
+      China Sea regardless of what Washington promises.
+
+      The faction's political power surged in the May 2025 midterm elections.
+      Sara Duterte, despite being impeached by the Marcos-controlled House of
+      Representatives in February 2025 over corruption charges and her
+      extraordinary public threat to have President Marcos assassinated (she
+      stated in a November 2024 online news conference that she had "contracted
+      an assassin" to kill Marcos, his wife, and Speaker Romualdez if she were
+      killed — later claiming it was about her personal safety), emerged
+      stronger. The Supreme Court ruled the impeachment unconstitutional in
+      July 2025, and fresh complaints filed in February 2026 face the same
+      legal hurdles. Sara Duterte holds a commanding 56% approval rating versus
+      Marcos's 21% as of December 2025 — a 35-point gap that makes her the
+      most formidable opposition figure in Philippine politics and a likely
+      2028 presidential frontrunner. The Duterte bloc's Senate victories —
+      Christopher "Bong" Go (17.8 million votes), Ronald "Bato" dela Rosa
+      (16.2 million), and Rodante Marcoleta — give the faction a blocking
+      position on treaties, military agreements, and budget allocations.
+
+      Former President Rodrigo Duterte himself won the Davao City mayoral race
+      despite International Criminal Court proceedings related to his brutal
+      "war on drugs" that killed thousands. His return to elected office
+      provides the faction with a powerful platform and signals to Beijing that
+      the Duterte era's accommodation-first approach may return. During his
+      presidency (2016-2022), Rodrigo Duterte shelved the 2016 UNCLOS
+      arbitral tribunal ruling, pursued a "pivot to China" that yielded
+      billions in investment pledges (many unfulfilled), withdrew from the ICC,
+      publicly questioned the value of the US alliance, and threatened to
+      abrogate the Visiting Forces Agreement. His foreign policy was premised
+      on "strategic acquiescence" — accepting Chinese dominance in the South
+      China Sea as an immutable reality and extracting economic benefits rather
+      than engaging in futile confrontation.
+
+      On the Suwalki crisis specifically, the Duterte bloc's position is that
+      this is a European problem that has nothing to do with the Philippines,
+      and that Manila's vocal support for NATO and the US only paints a target
+      on Philippine backs in Beijing's eyes. They argue that EDCA bases make
+      the Philippines a staging area for American military operations —
+      potentially against China over Taiwan — without any guarantee that the
+      US will actually fight for Philippine interests. The faction's
+      Chinese-Filipino business allies, concentrated in Manila's commercial
+      sector, reinforce the argument that economic ties with China are worth
+      more than military posturing. This perspective also resonates with
+      millions of ordinary Filipinos — overseas Filipino workers who care
+      about remittances and livelihoods, not great power competition, and
+      who remember that the Americans abandoned Clark and Subic bases in
+      1991-92 when they were no longer convenient. The faction does not
+      control foreign policy currently, but its growing political strength
+      constrains Marcos's room to maneuver and represents a potential
+      policy reversal if the Dutertes return to power in 2028.
+    priorities:
+      - "Oppose Philippine involvement in the Suwalki crisis — this is a European conflict that Manila should not be drawn into"
+      - "Prevent EDCA bases from being used for US power projection against China — the Philippines must not become an American aircraft carrier"
+      - "Restore diplomatic engagement with China on the South China Sea — negotiation yields more than confrontation"
+      - "Protect Philippine economic relationship with China — trade, investment, infrastructure loans, tourism revenue"
+      - "Challenge the Marcos administration's military spending priorities — social services and poverty reduction should come first"
+      - "Position Sara Duterte for the 2028 presidential election on a platform of independent foreign policy and economic pragmatism"
+    red_lines:
+      - "Philippines being used as a staging area for US military operations against China over Taiwan — this would make the Philippines a primary target for Chinese retaliation"
+      - "Permanent American military basing in the Philippines disguised as EDCA 'rotational' deployments — Filipinos rejected permanent bases in 1991 and that sentiment endures"
+      - "Military confrontation with China that escalates beyond coast guard standoffs to actual armed conflict — the Philippines cannot survive a war with China"
+      - "Any Marcos foreign policy commitment that ties the Philippines irrevocably to the US strategic posture — the next administration must have freedom to recalibrate"
+    voice:
+      style: >
+        Populist, blunt, and deliberately provocative in the Duterte family style.
+        Speaks in the language of Filipino sovereignty and self-interest, framing
+        American alliance as neo-colonial dependency. Mixes genuine strategic
+        concern about overextension with political opportunism against Marcos.
+      example_quotes:
+        - "What is Suwalki to the Filipino people? Nothing. Our fishermen cannot feed their families because of rising prices, not because of what happens in Lithuania. But our President wants to lecture Europe about sovereignty while his own people go hungry. The Americans are using us — nine bases on our soil, and for what? So they can threaten China from our backyard and we pay the price when Beijing retaliates."
+        - "When my father was President, there were no water cannons at Second Thomas Shoal. There were no Chinese lasers pointed at our sailors. Because we talked to Beijing instead of provoking them. We did not win a war — we kept the peace. And Filipino fishermen could fish. Now Marcos and Teodoro want to play soldier with American weapons, and our fishermen are the ones who suffer."
+        - "The Americans left Clark and Subic in 1991 when the bases were no longer useful to them. They did not ask if the Philippines was ready. They just left. And now they are back — not because they care about Filipino sovereignty, but because they need us against China. EDCA is not an alliance of equals. It is a landlord-tenant arrangement, and we are the tenant who gets evicted when the rent is too high."
+        - "I have a simple question for President Marcos: if China attacks the Philippines tomorrow, will American soldiers die for us? Will American ships sail into the South China Sea and fight the PLA Navy? Because Article V of NATO says the Americans will fight for Lithuania, and look — even that is in question at Suwalki. So what chance does the Mutual Defense Treaty have? We should be realistic, not romantic, about what alliances can deliver."
+    key_relationships:
+      allies:
+        - country: "CN"
+          sentiment: "preferred_partner"
+          context: "Duterte bloc views engagement with China as more productive than confrontation; Rodrigo Duterte's 'pivot to China' yielded infrastructure pledges and reduced maritime tensions during 2016-2022; Chinese-Filipino business community is a key political constituency"
+        - country: "RU"
+          sentiment: "sympathetic_neutrality"
+          context: "Rodrigo Duterte visited Moscow, explored Russian military equipment purchases; faction views Russia as counterweight to Western dominance; opposes Philippine support for NATO position on Suwalki"
+        - country: "KH"
+          sentiment: "ASEAN_neutralist"
+          context: "Cambodia under Hun Manet shares preference for non-alignment and accommodation with China; both skeptical of US-led security architecture in the region"
+        - country: "MM"
+          sentiment: "non_interference"
+          context: "Duterte bloc favors ASEAN non-interference principle; opposes using ASEAN chairmanship to confront Myanmar junta or antagonize China"
+        - country: "MY"
+          sentiment: "pragmatic_alignment"
+          context: "Malaysia under Anwar Ibrahim balances US and China ties; shared South China Sea claims but preference for bilateral negotiation over confrontation; model for Duterte foreign policy approach"
+        - country: "ID"
+          sentiment: "regional_partner"
+          context: "Indonesia under Prabowo maintains independent foreign policy; both Duterte bloc and Prabowo skeptical of being drawn into great power competition; shared preference for ASEAN centrality over US-led alignments"
+      rivals:
+        - country: "US"
+          sentiment: "distrusted_patron"
+          context: "Faction views US alliance as self-serving arrangement that benefits Washington more than Manila; EDCA bases seen as making Philippines a target; abandonment of Clark and Subic in 1991-92 is the defining historical grievance; Trump administration's transactional approach reinforces distrust"
+        - country: "JP"
+          sentiment: "wary"
+          context: "Historical grievance over WWII Japanese occupation still resonates in Mindanao; Duterte bloc views Squad quadrilateral as unnecessarily provocative toward China; suspicious of Japan's remilitarization agenda"

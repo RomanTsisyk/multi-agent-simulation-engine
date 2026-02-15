@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WarGame Simulation Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Multi-Agent Geopolitical Simulation</h1>
+        <p>Static viewer for 5 independent 30-round simulations</p>
+    </header>
+
+    <div class="container">
+        <section class="controls">
+            <div class="control-group">
+                <label for="gameSelect">Simulation:</label>
+                <select id="gameSelect">
+                    <option value="game_20260214_175118">Game 1: Baseline Run 1</option>
+                    <option value="game_20260214_175116">Game 2: Baseline Run 2</option>
+                    <option value="game_20260213_205400">Game 3: High-Escalation</option>
+                    <option value="game_20260214_175117">Game 4: Baseline Run 3</option>
+                    <option value="game_20260213_220004">Game 5: Extended (35 countries)</option>
+                </select>
+            </div>
+
+            <div class="control-group">
+                <label for="roundSlider">Round: <span id="roundDisplay">1</span></label>
+                <input type="range" id="roundSlider" min="1" max="30" value="1">
+            </div>
+
+            <div class="control-group">
+                <button id="prevBtn">← Previous</button>
+                <button id="nextBtn">Next →</button>
+            </div>
+        </section>
+
+        <section class="metrics-grid">
+            <div class="card">
+                <h3>Nuclear Posture</h3>
+                <div class="metric-row">
+                    <span>Russia:</span>
+                    <strong id="nucRU">—</strong>
+                </div>
+                <div class="metric-row">
+                    <span>USA:</span>
+                    <strong id="nucUS">—</strong>
+                </div>
+                <div class="metric-row">
+                    <span>UK:</span>
+                    <strong id="nucGB">—</strong>
+                </div>
+                <div class="metric-row">
+                    <span>France:</span>
+                    <strong id="nucFR">—</strong>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Economic Indicators</h3>
+                <div class="metric-row">
+                    <span>Oil Price:</span>
+                    <strong id="oilPrice">—</strong> $/bbl
+                </div>
+                <div class="metric-row">
+                    <span>EUR/USD:</span>
+                    <strong id="eurUsd">—</strong>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Military Status</h3>
+                <div class="metric-row">
+                    <span>Corridor Control:</span>
+                    <strong id="corridor">—</strong>
+                </div>
+                <div class="metric-row">
+                    <span>NATO Alert:</span>
+                    <strong id="natolert">—</strong>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Conflict Impact</h3>
+                <div class="metric-row">
+                    <span>Casualties:</span>
+                    <strong id="casualties">—</strong>
+                </div>
+                <div class="metric-row">
+                    <span>Refugee Flows:</span>
+                    <strong id="refugees">—</strong>
+                </div>
+            </div>
+
+            <div class="card wide">
+                <h3>Round Events & Developments</h3>
+                <div id="eventsPanel">
+                    <p class="placeholder">Select a round to view events</p>
+                </div>
+            </div>
+
+            <div class="card wide">
+                <h3>Round Information</h3>
+                <div id="roundInfo">
+                    <p class="placeholder">Game time and status</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="info">
+            <p><strong>Note:</strong> This is a lightweight static viewer for engineering demonstration.
+               Data loaded directly from simulation logs. No backend required.</p>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

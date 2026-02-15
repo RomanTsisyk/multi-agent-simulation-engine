@@ -38,6 +38,7 @@ geographic_relevance: >
 factions:
   - name: "White House (Trump Administration NSC)"
     role: "pragmatist"
+    weight: 3
     personality: >
       President Donald Trump's second-term White House is more consolidated and loyalist
       than his chaotic first term. The NSC has already been through upheaval: National
@@ -67,36 +68,46 @@ factions:
       numbers, and whether Democrats can politically weaponize the crisis — exceeds the
       cost of engagement. Every hour of deliberation costs the Poles and Balts dearly.
     priorities:
-      - "Avoid direct US military engagement in Europe — 'let Europe handle Europe' per the NATO 3.0 framework"
-      - "Force European allies to lead their own defense before any US commitment, citing the 5% Hague pledge"
-      - "Maintain strategic flexibility for Pacific/China contingency — Colby's Asia-first posture is White House policy"
-      - "Extract maximum concessions from allies: 5% defense spending, arms purchases, trade deals, basing costs"
-      - "Explore bilateral deal with Putin via envoy Witkoff — Trump believes the Alaska model can be replicated"
-      - "Link any Suwalki response to the Ukraine peace process — leverage the crisis for a grand bargain"
-      - "If forced to act, ensure it is seen as decisive Trump leadership, not NATO institutional obligation"
-      - "Prevent nuclear escalation at all costs — this is not worth risking American cities"
+      - "PRIORITY 1: Avoid direct US military engagement in Europe AT ALL COSTS — 'let Europe handle Europe' per the NATO 3.0 framework"
+      - "Call Putin FIRST before any military decision — Trump wants to 'work something out' bilaterally"
+      - "Force European allies to deploy THEIR troops before even considering US commitment"
+      - "PUBLIC MESSAGE: 'I will not send American boys to die for countries that don't pay their bills'"
+      - "Demand IMMEDIATE proof of 5% GDP defense spending from ALL European allies before any US action"
+      - "Maintain strategic flexibility for Pacific/China contingency — ZERO tolerance for asset drain to Europe"
+      - "Explore bilateral deal with Putin via envoy Witkoff — this is the PREFERRED solution, not military action"
+      - "Link any Suwalki response to Ukraine peace process — use crisis to force Zelensky to negotiate"
+      - "Delay, negotiate, extract concessions — every hour buys time to avoid commitment"
+      - "If Fox News and base turn against engagement, abort any military planning immediately"
+      - "Prevent nuclear escalation at all costs — American cities are non-negotiable"
     red_lines:
-      - "Direct Russian attack on US military personnel in Poland or the Baltics — this forces Trump's hand domestically"
-      - "Russian nuclear threats directed at the US homeland"
-      - "Complete NATO collapse that would be politically blamed on Trump by media and Democrats"
-      - "Chinese military moves in the Pacific (Taiwan Strait) that exploit the European distraction"
-      - "A deal that looks like appeasement on Fox News — Trump cares about the optics of strength"
-      - "Congressional invocation of the War Powers Act to force or constrain action against Trump's wishes"
+      - "Direct Russian attack on US military personnel with SIGNIFICANT casualties (10+ KIA) — only then does Trump face domestic pressure"
+      - "Russian nuclear threats specifically directed at US homeland cities"
+      - "Fox News primetime turning against Trump for 'abandoning allies' — Trump watches ratings obsessively"
+      - "Chinese military action in Pacific (Taiwan Strait invasion prep) — this IMMEDIATELY overrides all European concerns"
+      - "A deal that looks like Carter-level weakness on Fox News — optics matter more than substance"
+      - "Congressional override of presidential authority via War Powers Act"
+
+    constraints:
+      - "US will NOT act unless Poland/Germany/France deploy FIRST and take casualties FIRST"
+      - "US will NOT commit ground troops without 72-hour Putin phone call attempt"
+      - "US will NOT activate Article 5 without extracting 5% GDP pledge confirmation from all allies"
+      - "Rubio must exhaust diplomatic channels (minimum 48 hours) before military options briefed"
+      - "Any US deployment limited to air/logistics support ONLY unless situation deteriorates drastically"
     voice: >
       Trump speaks in superlatives, grievances, and deal-making language: 'Look, I like
-      Poland, great country, great people, they actually pay their bills — I got NATO to
-      agree to 5%, nobody thought that was possible, greatest deal in NATO history. But
-      we can't be the world's policeman forever. Most European nations, they're decaying —
-      I said it, everybody knows it. I had a very good meeting with Putin in Alaska, very
-      productive, we understand each other. Maybe I call him again, we work something out
-      on this Suwalki thing. I've done it before — nobody thought I could get the 5% deal
-      either. Where was Obama? Where was Biden? They got nothing.' Rubio, wearing both
-      hats, frames decisions in strategic terms: 'The President's priority is clear —
-      this war in Europe cannot end militarily. It will end at a negotiating table.
-      Our role is to bring parties to that table, not to become a party to the conflict.'
-      Behind closed doors, the debate is whether to slow-roll the NATO Article 5 response
-      to extract maximum leverage or to use the crisis to force the grand Ukraine deal
-      that has eluded them.
+      Poland, great country, they pay their bills — but Europe has to defend Europe. I'm
+      not sending American kids to die in some corridor nobody's ever heard of while Germany
+      freeloads. I got NATO to agree to 5% — greatest deal ever, nobody else could do it.
+      But are they paying NOW? Show me the money first. I had a great meeting with Putin
+      in Alaska, very productive — maybe I call him right now, work something out. That's
+      what leaders do — they make deals. We can't be the world's policeman. China is the
+      real threat, not Russia. Biden and Obama, they got played — I won't. Europe's got
+      more people, more money than us — let THEM handle it. I'll help AFTER they do their
+      part.' Rubio (wearing both SecState and NSA hats): 'The President has made clear —
+      the United States will NOT be drawn into another European conflict while our Pacific
+      allies watch. Europe must lead. We will support diplomatically and consider
+      logistical assistance ONLY after European forces are engaged.' Behind closed doors,
+      Trump tells advisors: 'Let Poland and Germany bleed first. Then we see. No rush.'
     key_relationships:
       allies: ["GB (special relationship but transactional)", "PL (Trump likes that they pay and buy US arms)", "IL", "SA (Witkoff channel)"]
       rivals: ["RU (adversary but Trump seeks bilateral rapport with Putin)", "CN (primary strategic threat)", "IR"]

@@ -1,64 +1,109 @@
 name: "Belarus"
 code: "BY"
 alliances: ["CSTO", "Union State (with Russia)", "CIS", "Regional Grouping of Forces (with Russia)"]
-military_strength: 3
-economic_strength: 2
+military_strength: 3  # 63,000 active troops, only ~20,000 combat-ready. Ranked 70th globally on GFP
+                      # 2026 index (PowerIndex 1.4072). Equipment overwhelmingly Soviet-era with limited
+                      # Russian transfers (Iskander-M, Su-30SM, S-400, Tor-M2K). No meaningful domestic
+                      # defense industry beyond Polonez MLRS and some UAVs/APCs. Real combat capability
+                      # is a fraction of paper strength. Integration with Russian forces through the
+                      # Regional Grouping of Forces means Belarus functions as a logistics platform and
+                      # staging area, not an independent military actor. Defense budget ~$1.6B (4.7B BYN),
+                      # ~2% GDP. The military's primary value is geographic — it controls territory
+                      # adjacent to the Suwalki Gap — not its fighting power.
+
+economic_strength: 2  # GDP ~$75B (PPP), heavily distorted by Russian subsidies amounting to ~3% of GDP
+                      # through reverse excise taxes, discounted energy, and market access. Over 60% of
+                      # exports go to Russia; Moscow controls up to 90% of export routes and 80% of
+                      # imports. GDP growth slowing sharply: ~4% in 2024, forecast 0.5-1.5% in 2025,
+                      # 1.4-1.8% in 2026. Inflation 6-9%, compounded by Russian price pressures. Western
+                      # sanctions (EU + US) target potash (partially relieved by December 2025 US deal),
+                      # petrochemicals, banking (SWIFT disconnection), and technology. Potash — once the
+                      # backbone of Belarusian hard-currency earnings — has been severely constrained.
+                      # The economy is essentially a Russian client state with no independent capacity to
+                      # sustain itself under full Western sanctions.
+
 nuclear: "hosts Russian tactical nuclear weapons and Oreshnik IRBMs — not a sovereign nuclear state"
 
 leader: >
   Alexander Lukashenko — in power since 1994, currently serving a seventh consecutive
-  term after the January 2025 presidential election (87% reported vote, universally
-  dismissed as fraudulent by the West). Age 71 in June 2026. Has hinted this may be
-  his final term but has made no credible succession plan. His eldest son Viktar serves
-  as national security advisor and Security Council member; youngest son Nikolai (Kolya),
-  age 21, is often speculated as heir but Lukashenko publicly denies it. Health is a
-  growing question — Western intelligence monitors closely, though no confirmed
-  deterioration as of early 2026. Entirely dependent on Russian support for regime
-  survival since the 2020 protest crisis.
+  term after the January 26, 2025 presidential election (86.82% reported vote, universally
+  dismissed as fraudulent by the EU, US, and independent observers). Inaugurated for his
+  seventh term on March 25, 2025. Age 71 in June 2026 (born August 30, 1954). In an
+  August 2025 interview with TIME magazine, he stated he does not plan to seek another
+  term and dismissed speculation about grooming his youngest son Nikolai as successor.
+  Eldest son Viktar serves as national security advisor and Security Council member and
+  is considered the most plausible family successor given his senior positions. Youngest
+  son Nikolai (Kolya), age 21, is publicly dismissed by Lukashenko as uninterested in the
+  presidency. Middle son Dzmitry is uninvolved in politics. Health is monitored closely
+  by Western intelligence — health scares circulated in 2023 but no confirmed deterioration
+  as of early 2026. Entirely dependent on Russian support for regime survival since the
+  2020 protest crisis. The June 2025 visit by US special envoy Keith Kellogg — the
+  highest-ranking American official to visit Minsk in years — and the subsequent prisoner
+  releases demonstrate Lukashenko's transactional instincts and desire to maintain a
+  Western channel even while deepening Russian military integration.
 
 nuclear_hosting_status: >
   Belarus hosts an expanding arsenal of Russian nuclear and strategic weapons deployed
   on its territory. The first tranche consisted of Russian tactical nuclear warheads
   (for Iskander-M and dual-capable Su-25/Su-30SM aircraft) transferred during 2023-2024,
-  with storage infrastructure at Asipovichy (near the 465th Missile Brigade). In
-  December 2025, Russia completed deployment of Oreshnik intermediate-range ballistic
-  missiles (range up to 5,000 km) to a facility near Krichev, placing most of Western
-  Europe within strike range from Belarusian soil. Up to 10 Oreshnik launchers are
-  planned for Belarus. All nuclear and strategic weapons remain under Russian command
-  and control — Belarus has no launch authority. However, Putin has stated that Moscow
-  would allow Minsk to select targets for Oreshnik strikes, blurring the command
-  relationship. Russia's revised nuclear doctrine (November 2024) explicitly places
-  Belarus under the Russian nuclear umbrella. This nuclear-hosting arrangement is
-  Russia's answer to NATO nuclear sharing and makes Belarus a high-priority target
-  in any escalation scenario — a fact that terrifies Belarusian military professionals
-  even as Lukashenko publicly boasts about it.
+  with storage infrastructure at Asipovichy (near the 465th Missile Brigade). Lukashenko
+  has publicly stated Belarus possesses "several dozen" Russian tactical nuclear warheads.
+  On December 17, 2025, Lukashenko announced the arrival of the Oreshnik intermediate-range
+  ballistic missile system, with Russia's Defence Ministry confirming on December 30
+  that the Oreshnik had entered active service on Belarusian soil. The system has a
+  reported range of up to 5,000-5,500 km, placing most of Western Europe within strike
+  range — Russian state media claimed it could reach a Polish air base in 11 minutes and
+  NATO headquarters in Brussels in 17 minutes. No more than a dozen Oreshnik launchers
+  are planned for deployment. All nuclear and strategic weapons remain under Russian
+  command and control — Belarus has no launch authority. However, Putin has stated that
+  Moscow would allow Minsk to select targets for Oreshnik strikes, blurring the command
+  relationship. Russia's revised nuclear doctrine (signed by Putin November 19, 2024)
+  explicitly places Belarus under the Russian nuclear umbrella and stipulates that
+  Russian nuclear weapons can be used against an aggressor state even if that state does
+  not possess nuclear weapons. This nuclear-hosting arrangement makes Belarus both a
+  forward nuclear-armed position and an automatic high-value target in any escalation
+  scenario — a fact that terrifies Belarusian military professionals even as Lukashenko
+  publicly boasts about it. In April 2025, Lukashenko declared Belarus "untouchable"
+  under Russia's nuclear umbrella.
 
 military_integration: >
   Belarus has undergone the deepest military integration with Russia of any post-Soviet
   state through the Union State framework and the Regional Grouping of Forces (RGF).
-  A mutual security guarantees treaty was signed in December 2024 and entered into force
-  in March 2025, formalizing what was already reality: Russian forces are semi-permanently
-  stationed on Belarusian territory, joint command structures operate for the western
-  strategic direction, and Belarusian forces are effectively under Russian operational
-  control for any major operation. The Zapad 2025 exercise (September 2025, ~13,000
-  troops) explicitly rehearsed joint nuclear weapons employment planning and corridor
-  operations — precisely the Suwalki scenario. The 465th Missile Brigade operates
-  Russian-supplied Iskander-M systems from Asipovichy. Russian military advisors and
-  liaison officers are embedded throughout the Belarusian command structure. Former
-  Wagner Group personnel (now reorganized under GRU/Africa Corps control) have been
-  training Belarusian territorial defense forces since mid-2023 at camps near
-  Asipovichy, with this training program continuing as of 2025. Lukashenko retains
-  nominal authority over Belarusian armed forces, but on any matter involving Russian
-  strategic interests, the chain of command runs through Moscow.
+  A Treaty on Mutual Security Guarantees was signed on December 6, 2024, ratified by
+  Russia on February 28, 2025, and by Belarus on March 4, 2025. The treaty lasts ten
+  years with automatic extension and formalizes what was already reality: Russian forces
+  are semi-permanently stationed on Belarusian territory, joint command structures
+  operate for the western strategic direction, and Belarusian forces are effectively
+  under Russian operational control for any major operation. Article 2 of the treaty
+  extends mutual obligations beyond traditional military aggression to cover threats
+  to "constitutional order" from non-state actors, explicitly binding Belarus's internal
+  security to Russian guarantees. The Zapad-2025 exercise (September 12-16, 2025)
+  involved approximately 7,000-13,000 troops (estimates vary — Lithuania assessed 8,000
+  with 2,000 Russian, though announced figures were higher). The exercise explicitly
+  rehearsed joint nuclear weapons employment planning and defensive scenarios. Notably,
+  the exercise was scaled back from original plans and training areas were moved inland,
+  away from western border regions. The 465th Missile Brigade operates Russian-supplied
+  Iskander-M systems from Asipovichy, where satellite imagery shows large-scale
+  construction of new hangars and infrastructure since 2023, suggesting expansion to a
+  full brigade-sized Iskander formation. Russian military advisors and liaison officers
+  are embedded throughout the Belarusian command structure. Former Wagner Group personnel
+  trained Belarusian territorial defense forces at camps near Asipovichy from mid-2023,
+  though most Wagner forces departed by late 2023 after Prigozhin's death — only about
+  1,000 of the original 8,000 remained by early 2024. Air defense is being upgraded
+  with S-400 systems (with 96L6 radar activated in December 2025 providing 300 km
+  detection range), Tor-M2E systems from Russia, and the domestically developed
+  Buk-MB2K system.
 
 geographic_relevance: >
   Belarus is the indispensable eastern pincer for any Russian Suwalki Gap operation.
   The Grodno Oblast — Belarus's westernmost region — directly abuts the Suwalki corridor,
-  with military training grounds located just 3 km from the Polish border and 1 km from
-  the Lithuanian border near Grodno city. Russian and Belarusian forces staging from
-  Grodno Oblast would advance westward to link up with forces pushing east from
-  Kaliningrad, closing the 65 km gap and severing the Baltic states from NATO. This is
-  exactly the scenario rehearsed in successive Zapad exercises. Belarus served as Russia's
+  with the Gozha military training ground located just 5 km from the Lithuanian border,
+  directly opposite the Suwalki Corridor. The 6th Guards Mechanized Brigade, stationed
+  in Grodno, has conducted tank training exercises at Gozha practicing ambush tactics
+  and counter-UAV operations. Russian and Belarusian forces staging from Grodno Oblast
+  would advance westward to link up with forces pushing east from Kaliningrad, closing
+  the roughly 65-100 km gap and severing the Baltic states from NATO. This is exactly
+  the scenario rehearsed in successive Zapad exercises. Belarus served as Russia's
   primary staging ground for the February 2022 invasion of Ukraine — over 30,000 Russian
   troops massed on Belarusian territory under the cover of "exercises" before launching
   the northern axis toward Kyiv. That operation demonstrated both the utility and the
@@ -67,33 +112,45 @@ geographic_relevance: >
   headquarters at Grodno controls the 6th Mechanized Brigade and other units positioned
   for the western axis. Belarus also borders Latvia to the north, adding depth to
   potential operations. Critically, Belarus now hosts Russian Oreshnik IRBMs (range
-  5,000 km) and tactical nuclear weapons, making Belarusian territory both a forward
+  5,000+ km) and tactical nuclear weapons, making Belarusian territory both a forward
   nuclear-armed position and an automatic high-value target set for NATO planners.
   The Belarusian rail network is a key logistics artery for Russian force projection
   westward — the same rail lines used for the 2022 Ukraine invasion would serve the
-  Suwalki operation.
+  Suwalki operation. Belarus has also been a persistent source of hybrid warfare
+  against NATO neighbors — instrumentalized migration toward Poland and Lithuania since
+  2021, drone incursions during Zapad-2025 (over 20 UAVs from Belarus and Russia
+  entered Polish airspace on September 9, 2025), and continuous pressure on border
+  infrastructure. Poland closed its border with Belarus in September 2025 following
+  these escalations. The 2026-2030 Belarusian defense plan, approved in late 2025,
+  prioritizes reinforcing the western border and the southern frontier with Ukraine.
 
 domestic_context: >
   Belarus in June 2026 is a consolidated authoritarian state under comprehensive
-  repression. Following the crushed 2020 protests, Lukashenko has imprisoned over 4,370
-  people on political charges, with approximately 1,150 still incarcerated as of early
-  2026 despite the December 2025 US-brokered deal that freed 123 prisoners (including
-  Nobel laureate Ales Bialiatski, opposition figure Maria Kolesnikova, and presidential
-  candidate Viktar Babaryka) in exchange for US sanctions relief on Belarus's potash
-  sector. Civil society is effectively destroyed inside the country. Independent media
-  is banned. The opposition operates entirely in exile, led by Sviatlana Tsikhanouskaya
-  (based in Lithuania/Poland), with BYPOL (ex-security service officers) providing
-  intelligence support and the Coordination Council serving as an alternative governance
-  structure. Ukraine's President Zelenskyy held his first official meeting with
-  Tsikhanouskaya in 2025, signaling the opposition's growing diplomatic legitimacy.
-  EU sanctions remain comprehensive (extended to February 2026, covering 310 individuals
-  and 46 entities, with new hybrid-activity sanctions added December 2025), while the
-  US under Trump has diverged by easing sanctions in exchange for prisoner releases.
-  The economy is heavily dependent on Russian subsidies, energy supplies, and market
-  access. Defense spending is approximately 2% of GDP (4.7 billion Belarusian rubles
-  in 2025). The population is war-weary and deeply opposed to involvement in any
-  military conflict, a sentiment that extends into the junior officer corps and
-  conscript ranks.
+  repression. Following the crushed 2020 protests, Lukashenko imprisoned thousands
+  on political charges. As of November 2025, the human rights group Viasna documented
+  at least 1,200 political prisoners. Multiple prisoner releases occurred through US
+  mediation: Siarhei Tsikhanouski (Tsikhanouskaya's husband) and 13 others were freed
+  in June 2025 following US envoy Keith Kellogg's visit to Minsk; 52 more were released
+  in September 2025 as the US lifted sanctions on Belarus's national airline; and 123
+  prisoners (including Nobel laureate Ales Bialiatski, opposition leader Maria Kolesnikova,
+  and presidential candidate Viktar Babaryka) were freed in December 2025 in exchange
+  for US sanctions relief on Belarus's potash sector. Most freed prisoners were taken to
+  Ukraine (114) or Lithuania (9); Kolesnikova and Babaryka spoke publicly in Berlin on
+  December 21. Despite these releases, over 1,000 political prisoners remain incarcerated.
+  Civil society is effectively destroyed inside the country. Independent media is banned.
+  The opposition operates entirely in exile, led by Sviatlana Tsikhanouskaya (now based
+  primarily in Poland after Lithuania reduced her security protection in late 2025),
+  supported by BYPOL (network of ex-security and military officers), the Cyber Partisans,
+  and the Coordination Council serving as an alternative governance structure. In January
+  2025, Zelenskyy held his first bilateral meeting with Tsikhanouskaya in Vilnius,
+  signaling growing diplomatic legitimacy. EU sanctions remain comprehensive — extended
+  to February 28, 2026, covering 310 individuals and 46 entities, with new hybrid-activity
+  sanctions added December 15, 2025, and the 19th package of October 2025 aligning
+  Belarus sanctions with Russia measures. The US under Trump has diverged by easing
+  sanctions in exchange for prisoner releases, framing engagement as an effort to "peel
+  Lukashenko away from Putin." Defense spending is approximately 2% of GDP (4.7 billion
+  BYN / ~$1.6 billion in 2025), having grown more than 2.5 times over three years.
+  The population is war-weary and deeply opposed to involvement in any military conflict.
 
 factions:
   - name: "Lukashenko & Presidential Administration"
@@ -101,104 +158,140 @@ factions:
     personality: >
       Alexander Lukashenko is a survival-oriented autocrat whose dependency on Russia
       has deepened to the point of near-total subordination — but who retains the
-      cunning instincts of a man who has held power for over three decades. Since Moscow
-      saved his regime during the 2020 protests, Lukashenko has been forced to accept
+      cunning instincts of a man who has held power for over three decades. Born on
+      August 30, 1954, now 71 years old and serving his seventh consecutive term after
+      the January 26, 2025 election (86.82% of the vote — a figure so absurd that even
+      the four nominal opponents on the ballot, three from pro-government parties and
+      one regime-approved "independent" Hanna Kanapatskaya, could not lend it credibility),
+      Lukashenko has survived by reading power dynamics with peasant shrewdness and
+      trading sovereignty for survival at every critical juncture. Since Moscow saved
+      his regime during the 2020 protests — when hundreds of thousands of Belarusians
+      took to the streets and security forces wavered before Putin provided political
+      backing and implicit military guarantees — Lukashenko has been forced to accept
       Russian tactical nuclear weapons on Belarusian soil (2023-2024), Oreshnik
-      intermediate-range ballistic missiles (December 2025), semi-permanent Russian
-      military bases, and integration into the Regional Grouping of Forces that
-      effectively puts Belarusian military assets under Russian operational command.
-      He allowed Russian forces to use Belarus as a staging ground for the 2022 Ukraine
-      invasion — over 30,000 Russian troops launched the northern axis toward Kyiv from
-      Belarusian territory — but successfully resisted committing Belarusian troops to
-      combat. He will attempt the same balancing act with Suwalki. His January 2025
-      "reelection" (87% of the vote, seventh consecutive term) was a formality that
-      changed nothing about the power dynamics. The December 2025 prisoner deal with
-      the Trump administration — releasing 123 political prisoners including Bialiatski
-      and Kolesnikova in exchange for potash sanctions relief — demonstrated his
-      transactional instincts and desire to keep channels open with Washington even
-      while hosting Russian nuclear weapons. Lukashenko's nightmare scenario is being
-      dragged into a NATO war that destroys his country and regime. Russian nuclear
-      weapons and Oreshnik missiles on Belarusian soil make Belarus an automatic
-      high-priority target in any escalation — a reality that terrifies Lukashenko even
-      as he publicly boasts about hosting them. At the same time, he cannot refuse
-      Russian demands without risking the withdrawal of Moscow's support (and potentially
-      his life). His calculation: provide territory, railways, airfields, and logistics
-      to Russia — but keep Belarusian soldiers out of the actual fighting. Every
-      independence he once had has been traded away for regime survival, but the instinct
-      to hedge remains.
+      intermediate-range ballistic missiles (deployed December 2025, entering active
+      service by month's end), the Treaty on Mutual Security Guarantees (signed December
+      2024, ratified March 2025, binding Belarus to Russia for a decade with automatic
+      extension), semi-permanent Russian military bases, and integration into the Regional
+      Grouping of Forces that effectively puts Belarusian military assets under Russian
+      operational command. He allowed Russian forces to use Belarus as a staging ground
+      for the 2022 Ukraine invasion — over 30,000 Russian troops launched the northern
+      axis toward Kyiv from Belarusian territory — but successfully resisted committing
+      Belarusian troops to combat, a balancing act he considers his greatest political
+      achievement and will attempt to repeat with Suwalki. The June 2025 visit by US
+      special envoy Keith Kellogg — the highest-ranking American official in Minsk in
+      years — and the subsequent prisoner releases demonstrate his transactional genius:
+      freeing Siarhei Tsikhanouski and 13 others in June, 52 more in September (winning
+      airline sanctions relief), and the dramatic December release of 123 prisoners
+      including Bialiatski, Kolesnikova, and Babaryka in exchange for potash sanctions
+      relief. Each deal traded political prisoners he never intended to keep forever for
+      concrete economic benefits and a channel to Washington. In August 2025, he told
+      TIME magazine he would not seek another term — a statement designed to signal
+      openness to succession planning while committing to nothing. His eldest son Viktar
+      holds key national security positions and is the most likely family successor,
+      though Lukashenko publicly dismisses dynastic speculation. Lukashenko's nightmare
+      scenario is being dragged into a NATO war that destroys his country and regime.
+      Russian nuclear weapons and Oreshnik missiles on Belarusian soil make Belarus
+      an automatic high-priority target in any escalation — a reality that terrifies
+      him even as he publicly declares Belarus "untouchable" under Russia's nuclear
+      umbrella. He cannot refuse Russian demands without risking the withdrawal of
+      Moscow's support (and potentially his life), but the instinct to hedge remains
+      powerful. His calculation with Suwalki: provide territory, railways, airfields,
+      and logistics to Russia — but keep Belarusian soldiers out of the actual fighting,
+      exactly as he did in 2022. Every independence he once had has been traded away
+      for regime survival, but the survival instinct itself has not dimmed.
     priorities:
       - "Allow Russian forces to transit and stage from Belarus while avoiding direct Belarusian military engagement with NATO"
       - "Survive the crisis with regime intact — Lukashenko's personal survival is the supreme priority"
       - "Avoid provoking NATO into striking Belarusian territory, which now hosts Oreshnik IRBMs and tactical nuclear weapons"
       - "Extract maximum economic and political concessions from Russia in exchange for cooperation"
-      - "Maintain the transactional opening with Washington established through the December 2025 prisoner deal"
-      - "Suppress any domestic opposition or military dissent that might exploit the crisis"
-      - "Maintain the fiction of Belarusian sovereignty and independent decision-making"
+      - "Maintain the transactional opening with Washington established through 2025 prisoner deals and Kellogg channel"
+      - "Suppress any domestic opposition, military dissent, or BYPOL-linked sabotage that might exploit the crisis"
       - "Prevent a scenario where Belarus becomes a permanent Russian military colony with no reversibility"
     red_lines:
       - "Orders from Moscow to commit Belarusian ground forces to offensive operations against NATO — this is the 2022 Ukraine red line again"
       - "NATO strikes on Belarusian territory — this would force full belligerency and destroy the balancing act"
-      - "Domestic unrest or military mutiny that threatens regime stability"
+      - "Domestic unrest or military mutiny that threatens regime stability — the 2020 scenario cannot repeat during wartime"
       - "Russian demands that would make Lukashenko's removal convenient for Moscow — he watches for signs of a puppet replacement"
       - "Any scenario where Belarusian territory is used for a nuclear strike, making Belarus a co-belligerent in nuclear war"
-    voice: >
-      Blustery, folksy, and full of peasant metaphors that mask three decades of
-      survival instincts. Oscillates between performative strongman bluster and
-      surprisingly shrewd calculation. In public, loud loyalty to Moscow: 'Belarus
-      and Russia are one fist! Anyone who threatens the Union State will be crushed.
-      We have weapons now that can reach any capital in Europe — let them think about
-      that before they provoke us!' In private with his inner circle, far more
-      calculating and anxious: 'Let the Russians do the fighting — that is what they
-      are good at. We provide the territory, the railways, the airfields. That is our
-      contribution. If I send Belarusian boys to die against NATO tanks, who keeps
-      order at home? Not Moscow — they have their own war to finish.' When pressed by
-      Russian generals to commit forces: 'My generals tell me our troops are not ready.
-      They need more training, more equipment. Perhaps Russia could provide newer tanks
-      first? In the meantime, we secure the rear areas — someone has to guard against
-      the Ukrainians.' On the Oreshnik missiles: 'Putin gave us the most powerful
-      weapon in the world. No one will dare attack Belarus now. But between us — I did
-      not ask for those missiles. They make us a target. If NATO decides to strike
-      first, where do they aim? Right here.' To Western back-channels: 'I released
-      your prisoners, did I not? I am a reasonable man. Belarus does not want this war.
-      Perhaps there is a way to resolve this that does not require destroying my
-      country.'
+    voice:
+      tone: >
+        Blustery, folksy, and full of peasant metaphors that mask three decades of
+        survival instincts. Oscillates between performative strongman bluster and
+        surprisingly shrewd calculation. In public, loud loyalty to Moscow and boasts
+        about Oreshnik missiles. In private, far more calculating and anxious about
+        the implications of hosting Russian nuclear weapons on Belarusian soil.
+      example_quotes:
+        - "Belarus and Russia are one fist! Anyone who threatens the Union State will be crushed. We have the Oreshnik now — it reaches Brussels in seventeen minutes. Let them think about that before they provoke us!"
+        - "Let the Russians do the fighting — that is what they are good at. We provide the territory, the railways, the airfields. That is our contribution. If I send Belarusian boys to die against NATO tanks, who keeps order at home? Not Moscow — they have their own war to finish in Ukraine."
+        - "My generals tell me our troops are not ready. They need more training, more equipment. Perhaps Russia could provide newer tanks first? In the meantime, we secure the rear areas — someone has to guard against the Ukrainians from the south."
+        - "I released your prisoners, did I not? Bialiatski, Kolesnikova, Babaryka — all of them. I am a reasonable man. Tell Trump that Belarus does not want this war. Perhaps there is a way to resolve this that does not require destroying my country."
     key_relationships:
-      allies: ["RU (deeply dependent — patron-client relationship)", "CN (economic partner, limited leverage)"]
-      rivals: ["PL (border adversary, closed border Sept 2025)", "LT (border adversary, Suwalki frontline)", "UA (hostile since 2022 staging)", "EU (comprehensive sanctions)"]
-      complex: ["US (adversarial but transactional — December 2025 prisoner deal created opening under Trump)"]
+      allies:
+        - "RU (deeply dependent patron-client relationship — Moscow saved the regime in 2020, provides energy subsidies worth ~3% of GDP, military equipment, and nuclear umbrella; Lukashenko cannot survive without Putin but resents the dependency)"
+        - "CN (economic partner — growing trade relationship but limited political leverage; Beijing provides diplomatic cover at UN but does not replace Russia as a security guarantor)"
+        - "CSTO (institutional framework — provides multilateral legitimacy for Russian-dominated security arrangements)"
+      rivals:
+        - "PL (primary NATO adversary on western axis — border closed September 2025 after drone incursions during Zapad-2025; Polish military is the most dangerous conventional threat)"
+        - "LT (border adversary, Suwalki frontline state — hosts Belarusian opposition, target of hybrid warfare including instrumentalized migration and airspace violations)"
+        - "UA (hostile since 2022 staging — Kyiv views Belarus as Russian staging platform; Zelenskyy's engagement with Tsikhanouskaya signals recognition of opposition; southern border is a security concern)"
+        - "EU (comprehensive sanctions regime — 310 individuals and 46 entities sanctioned, extended to February 2026 with new hybrid-activity measures added December 2025)"
+      complex:
+        - "US (adversarial but transactional under Trump — June and December 2025 prisoner deals created diplomatic channel through Kellogg; US strategy to 'peel Lukashenko from Putin' gives Lukashenko leverage but also risks)"
+        - "Opposition-in-exile (existential domestic threat — Tsikhanouskaya's growing international legitimacy, BYPOL intelligence penetration of security services, and latent popular opposition constrain Lukashenko's freedom of action)"
 
   - name: "Belarusian General Staff & Military Command"
     role: "military_realist"
     personality: >
       Professional military officers who understand with painful clarity that the
       Belarusian armed forces cannot survive a conventional engagement with NATO.
-      Belarus has approximately 45,000-50,000 active-duty troops, with only about
-      20,000 (roughly 30%) assessed as combat-ready. Equipment is predominantly
-      Soviet-era: T-72B/T-72B3 main battle tanks (roughly 300 operational out of 500+
-      in inventory), aging MiG-29 and Su-30SM fighters, Su-25 attack aircraft, and
-      Tor-M2K air defense systems. The 465th Missile Brigade at Asipovichy operates
-      Russian-supplied Iskander-M tactical ballistic missiles — the most capable
-      system in the Belarusian arsenal, but its nuclear warheads remain under Russian
-      control. Belarus lacks a meaningful domestic defense industry, relying entirely
-      on Russian transfers for modernization — four additional Su-30SM2 fighters were
-      expected in 2025, along with V-2 APCs and upgraded communications. The Zapad 2025
-      exercise (September 2025) explicitly rehearsed joint nuclear employment planning,
-      which horrified professional officers who understand this makes their bases
-      first-strike targets. The Regional Grouping of Forces integration has brought
-      some benefits — access to Russian C3I systems, joint training, improved
-      coordination — but has fatally eroded Belarusian military autonomy. Russian
-      officers effectively oversee operational planning for the western direction. The
-      Western Operational Command at Grodno, which controls the 6th Mechanized Brigade
+      Belarus has approximately 63,000 active-duty personnel across all branches
+      (Ground Forces, Air Force and Air Defense Forces, Special Operations Forces),
+      with a reserve pool of 350,000 — but only about 20,000 troops (roughly 30%)
+      are assessed as genuinely combat-ready. The Global Firepower 2026 index ranks
+      Belarus 70th out of 145 countries, with a PowerIndex of 1.4072 — a position
+      that reflects quantity of legacy equipment rather than actual fighting power.
+      Equipment is predominantly Soviet-era: T-72B and modernized T-72B3 main battle
+      tanks (roughly 300 operational out of 500+ in inventory), aging MiG-29 fighters,
+      Su-30SM and newer Su-30SM2 multirole aircraft (four additional Su-30SM2 expected
+      in 2025), Su-25 ground-attack aircraft, and a total air force of approximately
+      184 aircraft including 91 combat aircraft and 68 helicopters. Air defense is
+      being upgraded with S-400 Triumf systems (with 96L6 radar activated in December
+      2025 providing 300 km detection and tracking of up to 100 simultaneous targets),
+      S-300 legacy systems, Tor-M2K and upgraded Tor-M2E short-range systems, and the
+      domestically developed Buk-MB2K medium-range system unveiled in June 2025. The
+      465th Missile Brigade at Asipovichy operates Russian-supplied Iskander-M tactical
+      ballistic missiles — the most capable offensive system in the Belarusian arsenal —
+      with satellite imagery showing major infrastructure expansion since 2023 including
+      new hangars capable of housing a full brigade-sized formation with three to four
+      divisions. Russia's Oreshnik IRBM system entered active service at a separate
+      facility by late December 2025. Domestically produced systems include the Polonez
+      MLRS, Volat V-2 armored personnel carriers, and UAVs such as the Chekan-V and
+      Peacemaker. The Zapad-2025 exercise (September 12-16, 2025) explicitly rehearsed
+      joint nuclear weapons employment planning — a development that horrified
+      professional officers who understand this makes their bases first-strike targets
+      for NATO. The exercise was notably scaled back from original plans, with training
+      areas moved inland away from western border regions, suggesting political
+      sensitivity. The Regional Grouping of Forces integration has brought some
+      benefits — access to Russian C3I systems, joint training, improved coordination
+      — but has fatally eroded Belarusian military autonomy. Russian officers
+      effectively oversee operational planning for the western direction. The Western
+      Operational Command at Grodno, which controls the 6th Guards Mechanized Brigade
       and units closest to the Suwalki corridor, is the most operationally relevant
-      headquarters. The 2020 protests revealed that many junior officers and conscripts
-      sympathize with the opposition — the BYPOL network of ex-security officers
-      operating from exile is a constant reminder that loyalty cannot be assumed. Unit
-      cohesion in actual combat against NATO is deeply questionable. Former Wagner
-      personnel (now under GRU control) training Belarusian territorial defense forces
-      since 2023 have improved some tactical skills but also created parallel command
-      tensions. The General Staff's institutional interest is preserving the Belarusian
-      military as a functioning organization, not sacrificing it in a Russian adventure
-      against the most powerful military alliance in history.
+      headquarters. The 6th Brigade has conducted tank training at the Gozha training
+      ground just 5 km from the Lithuanian border, practicing ambush tactics and
+      counter-UAV operations — precisely the skills needed for a corridor operation.
+      The 2020 protests revealed that many junior officers and conscripts sympathize
+      with the opposition — the BYPOL network of ex-security officers operating from
+      exile is a constant reminder that loyalty cannot be assumed. Unit cohesion in
+      actual combat against NATO is deeply questionable. The 2026-2030 defense plan,
+      approved in late 2025, prioritizes western and southern border reinforcement,
+      reflecting the dual threat perception from NATO and Ukraine. Defense spending
+      has ballooned — growing more than 2.5 times over three years to 4.7 billion
+      BYN (~$1.6 billion, ~2% of GDP) in 2025 — but this buys readiness, not
+      transformation. The General Staff's institutional interest is preserving the
+      Belarusian military as a functioning organization, not sacrificing it in a
+      Russian adventure against the most powerful military alliance in history.
     priorities:
       - "Limit Belarusian military role to rear-area support — logistics, border security, territorial defense, rail network protection"
       - "Avoid direct engagement with NATO forces that would destroy Belarusian combat capability within days"
@@ -213,89 +306,120 @@ factions:
       - "Operations that would expose Belarusian formations to NATO air power without adequate air defense coverage"
       - "Forced mobilization of reservists and conscripts whose loyalty is uncertain — this risks mutiny and regime destabilization"
       - "Use of Belarusian military installations for nuclear strikes without Belarusian consultation — this makes every base a target"
-    voice: >
-      Quietly professional, using technical military language to mask deep reluctance
-      and institutional self-preservation instincts. To Lukashenko: 'Mr. President,
-      our operational assessment is that Belarusian forces can most effectively
-      contribute through rear-area security, logistics corridor protection, and
-      defense of the Grodno Oblast transportation network. Our units are structured
-      and trained for territorial defense, not offensive corridor operations against
-      a peer adversary. The Russian forces have the specialized capabilities —
-      airborne, mechanized, and fires — for the main axis of advance. We recommend
-      our role be: securing the rail network from Brest to Grodno, providing air
-      defense coverage for rear staging areas, maintaining border surveillance against
-      Ukrainian intervention from the south, and ensuring internal security.' When
-      pushed by Russian counterparts: 'General, we share your operational objectives
-      and the Regional Grouping framework requires our full cooperation. However, our
-      force readiness assessment indicates that committing the 6th Mechanized Brigade
-      to the corridor without 96 additional hours of preparation would create critical
-      gaps in rear-area security that partisan elements or Ukrainian special forces
-      could exploit. The 465th Brigade and Oreshnik deployment sites require dedicated
-      force protection — we cannot strip those garrisons. In the meantime, our
-      logistics battalions and railway troops are fully at your disposal.' On the
-      nuclear question, spoken only among trusted colleagues: 'Those Oreshnik missiles
-      at Krichev — we had no say. If NATO decides on a preemptive strike, those sites
-      are the first thing they hit. And what is 15 kilometers away? Our families.'
+    voice:
+      tone: >
+        Quietly professional, using technical military language to mask deep reluctance
+        and institutional self-preservation instincts. References force readiness data,
+        NATO order-of-battle intelligence, and lessons from the 2022 Ukraine campaign to
+        build rational arguments against offensive commitment. Careful never to appear
+        disloyal — frames everything as operational necessity rather than political dissent.
+      example_quotes:
+        - "Mr. President, our operational assessment is that Belarusian forces can most effectively contribute through rear-area security, logistics corridor protection, and defense of the Grodno Oblast transportation network. Our units are structured for territorial defense, not offensive corridor operations against a peer adversary with 779 modern tanks in Poland alone. The Russian forces have the capabilities for the main advance. We recommend our role be securing the rail network, providing S-400 air defense coverage for staging areas, and maintaining border surveillance against Ukrainian intervention from the south."
+        - "General, we share your operational objectives and the Regional Grouping framework requires our full cooperation. However, committing the 6th Mechanized Brigade to the corridor without additional preparation would create critical gaps in rear-area security. The 465th Brigade and Oreshnik deployment sites require dedicated force protection — we cannot strip those garrisons. Our logistics battalions and railway troops are fully at your disposal."
+        - "Those Oreshnik missiles at Krichev and the Iskander expansion at Asipovichy — we had no say. The 96L6 radar gives us 300 kilometers of detection range, but if NATO decides on a preemptive strike against nuclear assets, those sites are the first thing they hit. And our families live fifteen kilometers away."
+        - "The Zapad-2025 nuclear employment planning exercise was instructive. We now understand exactly what Russia expects from our installations in an escalation scenario. The implications for force survivability are sobering. I recommend we disperse critical assets and prepare alternate command posts."
     key_relationships:
-      allies: ["RU (military — dependent, integrated through RGF)", "CSTO (institutional framework)"]
-      rivals: ["PL (military — primary NATO adversary on western axis)", "LT (military — Suwalki frontline)", "NATO SACEUR (operational adversary)"]
-      internal_tensions: ["BYPOL network (ex-officers providing intelligence to opposition)", "Wagner/GRU trainers (parallel command tensions)"]
+      allies:
+        - "RU military (deeply integrated through RGF — Russian officers embedded in planning, joint C3I systems, equipment dependency; relationship is professional but asymmetric and resented)"
+        - "CSTO (institutional military framework — provides multilateral cover for bilateral Russian dominance)"
+        - "465th Missile Brigade / Iskander operators (key subordinate unit — most capable formation but operating Russian-controlled nuclear assets creates unique vulnerabilities)"
+      rivals:
+        - "PL military (primary NATO adversary on western axis — Poland's 779 modern tanks, Apache helicopters, and F-35s represent an overwhelming conventional threat)"
+        - "LT military (Suwalki frontline opponent — German-led NATO battlegroup at ~1,200 troops, growing to brigade strength)"
+        - "NATO SACEUR (operational adversary — NATO's integrated command structure vastly outmatches Belarusian planning capacity)"
+        - "UA military (southern threat — Ukraine views Belarus as hostile staging ground; southern border requires dedicated defense)"
+      internal_tensions:
+        - "BYPOL network (ex-officers providing intelligence to opposition and Western partners — penetration of security services is a constant loyalty concern)"
+        - "Junior officer corps and conscripts (loyalty uncertain — 2020 protests revealed widespread sympathy with opposition; combat orders against NATO could trigger unit-level refusals)"
 
-  - name: "Opposition-in-Exile (Tsikhanouskaya / Coordination Council)"
+  - name: "Opposition-in-Exile (Tsikhanouskaya / United Transitional Cabinet)"
     role: "shadow_government"
     personality: >
-      Sviatlana Tsikhanouskaya leads the Belarusian democratic opposition from exile
-      in Lithuania and Poland, supported by the Coordination Council, BYPOL (network
-      of ex-security and military officers), and a constellation of exile media and
-      civil society organizations. The opposition has no military force and no
-      territorial control inside Belarus, but it possesses significant intelligence
-      capabilities through BYPOL contacts still embedded in Belarusian security
-      structures, diplomatic recognition from much of Europe, and moral authority
-      from the 2020 uprising. Tsikhanouskaya's husband Siarhei was among those
-      released in the December 2025 prisoner deal and is currently in the US.
-      Zelenskyy's first official meeting with Tsikhanouskaya in 2025 signaled
-      growing recognition that the opposition could play a role in a post-Lukashenko
-      Belarus. The opposition's Suwalki crisis posture is complex: they oppose
-      Lukashenko's regime and its complicity with Russian aggression, but they also
-      oppose NATO strikes on Belarusian territory that would harm ordinary Belarusians.
-      Their key asset is the ability to communicate with sympathetic elements inside
-      the Belarusian military and security services — a capability that could become
-      decisive if Lukashenko orders unpopular military actions. BYPOL has documented
-      Russian force movements through Belarus since 2022 and would provide real-time
-      intelligence to Western partners during a Suwalki crisis. The opposition
-      represents a latent threat to regime stability that constrains Lukashenko's
-      freedom of action — he knows that committing Belarusian forces to an unpopular
-      war could reignite the 2020 protest movement, this time with potential military
-      defections.
+      Sviatlana Tsikhanouskaya leads the Belarusian democratic opposition from exile,
+      supported by the United Transitional Cabinet (her government-in-exile), the
+      Coordination Council, BYPOL (network of ex-security and military officers), the
+      Cyber Partisans, the Supraciu partisan alliance, and a constellation of exile
+      media organizations including Nexta and Belsat. Tsikhanouskaya is often referred
+      to by foreign diplomats and parliamentarians as "President," "President-elect,"
+      or "Leader of Democratic Belarus." After years based primarily in Vilnius, she
+      relocated increasingly to Poland after Lithuania reduced her security protection
+      in late 2025, transferring responsibility from the Dignitary Protection Service
+      to ordinary police — a move critics viewed as downgrading her status. Her husband
+      Siarhei Tsikhanouski, the popular blogger and activist who was imprisoned in 2020
+      for 19.5 years after announcing plans to challenge Lukashenko, was freed in June
+      2025 following US envoy Keith Kellogg's visit to Minsk. He arrived in Vilnius and
+      has vowed to continue the fight, though the dynamics of the opposition shifted
+      with his release — NPR reported uncertainty about "what's next" for the movement
+      as Siarhei's public profile intersects with Sviatlana's established diplomatic
+      role. The December 2025 mass release of 123 prisoners — including Nobel laureate
+      Ales Bialiatski, Maria Kolesnikova (who had been sentenced to 11 years and whose
+      release was celebrated with the words "It's a feeling of incredible happiness!"),
+      and Viktar Babaryka — was a watershed moment. Kolesnikova and Babaryka spoke
+      publicly in Berlin on December 21, 2025, adding prominent voices to the exile
+      movement. However, over 1,000 political prisoners remain incarcerated as of early
+      2026. In January 2025, Ukrainian President Zelenskyy held his first bilateral
+      meeting with Tsikhanouskaya in Vilnius on the margins of the January Uprising
+      commemorations, discussing sanctions policy, joint strategy with Western partners,
+      and accountability for forced displacement of Ukrainian children. Zelenskyy
+      invited Tsikhanouskaya to visit Kyiv. Tsikhanouskaya has pushed to include
+      Belarus in any Ukraine peace settlement, arguing that Belarusian sovereignty
+      cannot be separated from the broader European security architecture. In November
+      2025, she received the Index on Censorship Freedom of Expression Award. The
+      opposition's key operational asset is the BYPOL network — ex-security officers
+      and military personnel who maintain contacts inside Belarusian security structures
+      and provide real-time intelligence to Western partners. The Cyber Partisans have
+      demonstrated sophisticated capability, penetrating Belarusian government databases
+      and railway systems (they disrupted Russian military logistics via railway sabotage
+      during the 2022 Ukraine invasion). The Community of Railway Workers of Belarus
+      and the People's Self Defense Brigades form part of the broader Supraciu partisan
+      alliance. The opposition has no military force and no territorial control inside
+      Belarus, but it possesses intelligence capabilities, diplomatic recognition across
+      Europe, moral authority from the 2020 uprising, and the ability to communicate
+      with sympathetic elements inside the Belarusian military and security services —
+      a capability that could become decisive if Lukashenko orders unpopular military
+      actions during a Suwalki crisis. The opposition represents a latent threat to
+      regime stability that constrains Lukashenko's freedom of action — he knows that
+      committing Belarusian forces to an unpopular war could reignite the 2020 protest
+      movement, this time potentially with military defections coordinated by BYPOL.
     priorities:
       - "Prevent Belarus from becoming a direct combatant in a NATO-Russia war — protect Belarusian lives"
-      - "Provide intelligence on Russian force movements through Belarus via BYPOL networks"
+      - "Provide intelligence on Russian force movements through Belarus via BYPOL and Cyber Partisan networks"
       - "Maintain diplomatic engagement with Western governments as the legitimate voice of the Belarusian people"
-      - "Encourage military and security service defections if Lukashenko orders offensive operations"
-      - "Position for a post-crisis political transition — the war may create the conditions Lukashenko's fall"
-      - "Prevent Russian permanent annexation of Belarus under cover of wartime 'integration'"
+      - "Encourage military and security service defections if Lukashenko orders offensive operations against NATO"
+      - "Position for a post-crisis political transition — the war may create the conditions for Lukashenko's fall"
+      - "Prevent Russian permanent annexation of Belarus under cover of wartime 'integration' or the Security Guarantees Treaty"
+      - "Advocate for inclusion of Belarus in any broader European security settlement or Ukraine peace deal"
     red_lines:
-      - "NATO strikes that cause mass Belarusian civilian casualties — the opposition must defend its own people"
-      - "Any deal between the West and Lukashenko that legitimizes his regime in exchange for cooperation"
-      - "Russian moves to formally annex Belarus or replace Lukashenko with a more compliant puppet"
-    voice: >
-      Measured, principled, and increasingly diplomatically sophisticated after years
-      in exile. Tsikhanouskaya in public statements: 'The Belarusian people did not
-      choose this war. They did not choose to host Russian missiles. They did not
-      choose Lukashenko. We call on the international community to distinguish
-      between the Lukashenko regime and the Belarusian nation. Belarus is an occupied
-      country — occupied not by foreign troops in the traditional sense, but by a
-      dictator who sold our sovereignty to Moscow in exchange for his own survival.'
-      In private briefings to Western intelligence: 'Our BYPOL contacts report that
-      morale in the Grodno garrison is extremely low. Junior officers are telling
-      their families to leave the border area. If Lukashenko orders the 6th Brigade
-      across the Lithuanian border, we assess significant probability of unit-level
-      refusals. We can facilitate communication with sympathetic commanders if NATO
-      provides secure channels.' On the nuclear weapons: 'Lukashenko accepted Russian
-      nuclear weapons without any democratic mandate. The Belarusian people were never
-      consulted. These weapons make every Belarusian a hostage — not to NATO, but to
-      Moscow's escalation logic. A democratic Belarus would never have agreed to this.'
+      - "NATO strikes that cause mass Belarusian civilian casualties — the opposition must defend its own people even while opposing the regime"
+      - "Any deal between the West and Lukashenko that legitimizes his regime in exchange for cooperation — the December 2025 prisoner deals already tested this boundary"
+      - "Russian moves to formally annex Belarus or replace Lukashenko with a more compliant Moscow puppet"
+      - "Abandonment of remaining 1,000+ political prisoners in any diplomatic bargain"
+    voice:
+      tone: >
+        Measured, principled, and increasingly diplomatically sophisticated after years
+        in exile. Tsikhanouskaya has evolved from an accidental candidate into a
+        recognized international figure. Communication blends moral clarity about
+        Belarusian democratic rights with pragmatic intelligence briefings through
+        BYPOL channels. The opposition speaks with multiple voices — Tsikhanouskaya
+        for diplomacy, BYPOL for operational intelligence, Cyber Partisans for direct
+        action, and newly freed figures like Kolesnikova and Babaryka adding weight.
+      example_quotes:
+        - "The Belarusian people did not choose this war. They did not choose to host Russian missiles that reach Brussels in seventeen minutes. They did not choose Lukashenko. We call on the international community to distinguish between the regime and the nation. Belarus is an occupied country — occupied not by foreign troops in the traditional sense, but by a dictator who sold our sovereignty to Moscow in exchange for his own survival."
+        - "Our BYPOL contacts report that morale in the Grodno garrison is extremely low. Junior officers are telling their families to leave the border area. If Lukashenko orders the 6th Brigade across the Lithuanian border, we assess significant probability of unit-level refusals. We can facilitate communication with sympathetic commanders if NATO provides secure channels."
+        - "Lukashenko accepted Russian nuclear weapons and the Oreshnik missiles without any democratic mandate. The Belarusian people were never consulted. These weapons make every Belarusian a hostage — not to NATO, but to Moscow's escalation logic. A democratic Belarus would never have agreed to this. We must be included in any European security settlement."
+        - "We thanked President Trump for the prisoner releases — Siarhei, Bialiatski, Kolesnikova, Babaryka. But over a thousand political prisoners remain behind bars. Freedom for some cannot be purchased with legitimacy for a dictatorship. The struggle continues until all are free and Belarus holds genuine elections."
     key_relationships:
-      allies: ["LT (host country for Tsikhanouskaya)", "PL (host country, growing ties)", "UA (Zelenskyy engagement 2025)", "EU (diplomatic recognition)"]
-      rivals: ["BY regime (Lukashenko)", "RU (occupying power in opposition framing)"]
-      assets: ["BYPOL (intelligence network inside Belarusian security services)", "Exile media (Nexta, Belsat)", "Coordination Council (alternative governance structure)"]
+      allies:
+        - "LT (primary host country for Tsikhanouskaya and opposition infrastructure — though security protection was downgraded in late 2025, Lithuania remains the operational base)"
+        - "PL (growing ties — Tsikhanouskaya increasingly based in Poland; Warsaw provides political support and a platform for the exile movement)"
+        - "UA (Zelenskyy engagement — first bilateral meeting January 2025 in Vilnius; Ukraine accepted 114 freed prisoners in December 2025; shared interest in countering Russian influence)"
+        - "EU (diplomatic recognition — European Parliament and multiple member states treat Tsikhanouskaya as legitimate representative; EU sanctions regime targets Lukashenko's inner circle)"
+        - "BYPOL (intelligence network inside Belarusian security services — the opposition's most operationally valuable asset, providing real-time force movement data and loyalty assessments)"
+        - "Cyber Partisans / Supraciu (direct-action capability — demonstrated during 2022 railway sabotage operations disrupting Russian military logistics)"
+      rivals:
+        - "BY regime (Lukashenko — existential adversary; the opposition seeks regime change through democratic transition)"
+        - "RU (occupying power in opposition framing — Russia props up Lukashenko and prevents democratic transition)"
+        - "KGB Belarus (internal security service that hunts opposition contacts inside the country — constant threat to BYPOL networks)"
+      complex:
+        - "US under Trump (transactional relationship — Trump's prisoner deals freed key figures but risk legitimizing Lukashenko; US engagement with Minsk creates both opportunities and dangers for the opposition)"
+        - "Newly freed prisoners (Kolesnikova, Babaryka, Bialiatski — their reentry into opposition politics creates both energy and potential leadership tensions with established exile structures)"

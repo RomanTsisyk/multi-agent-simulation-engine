@@ -1,123 +1,356 @@
 name: "Nigeria"
 code: "NG"
-alliances: ["African Union", "ECOWAS", "OPEC", "G77", "Commonwealth"]
-military_strength: 3
+alliances: ["African Union", "ECOWAS", "OPEC", "OPEC+", "G77", "Commonwealth", "D-8"]
+military_strength: 4
 economic_strength: 4
 nuclear: false
+
+leader: "President Bola Ahmed Tinubu"
+
+key_figures:
+  - "Vice President Kashim Shettima (former Borno governor, northeast security expertise)"
+  - "Minister of Defence General Christopher Musa (rtd) (appointed December 2025, former CDS)"
+  - "Chief of Defence Staff General Olufemi Oluyede (appointed October 2025)"
+  - "Minister of Foreign Affairs Ambassador Yusuf Maitama Tuggar (4D Doctrine architect)"
+  - "Minister of Finance Wale Edun (economic reform technocrat)"
+  - "National Security Adviser Nuhu Ribadu (former EFCC chairman)"
+  - "Senate President Godswill Akpabio (APC, controls legislative agenda)"
+  - "NNPC Group CEO Mele Kyari (oversees oil production strategy)"
+
 geographic_relevance: >
-  Nigeria is geographically distant from the Suwalki corridor, but as Africa's largest
-  economy (approximately $450 billion GDP), most populous nation (over 220 million people),
-  a major OPEC oil producer (averaging 1.2-1.5 million barrels per day), and the de facto
-  leader of the Economic Community of West African States (ECOWAS), Nigeria's diplomatic
-  positioning carries significant weight in shaping the Global South's response to the
-  crisis. Nigeria's relevance to the Suwalki crisis operates through several channels.
-  First, oil markets: as an OPEC member, Nigeria's production decisions and its vote
-  within OPEC influence global oil prices, which in turn affect Russia's ability to fund
-  its military operations and the West's ability to sustain economic sanctions. Nigeria
-  benefits from higher oil prices (oil accounts for roughly 90% of export earnings and
-  over 50% of government revenue), creating a perverse incentive where crisis-driven
-  price spikes help Nigeria's fiscal position even as they harm the global economy.
-  Second, food security: Nigeria imports approximately 5 million tonnes of wheat annually,
-  with Russia being a growing supplier. Nigeria also imports significant quantities of
-  fertilizer from Russia, which is critical for domestic agricultural production. A
-  prolonged Black Sea disruption would spike food prices in a country where roughly 133
-  million people (63% of the population) are multidimensionally poor and food inflation
-  already exceeds 30%. Third, diplomatic influence: Nigeria leads ECOWAS (15 member
-  states) and is a powerhouse within the African Union (55 member states). Africa
-  commands 54 votes at the UN General Assembly — the largest regional bloc — and
-  Nigeria's position heavily influences how many of those votes land. During the Ukraine
-  crisis, African nations split between condemning Russia, abstaining, and not voting at
-  all. Nigeria's leadership in rallying or fragmenting the African vote on the Suwalki
-  crisis will be closely watched by both Moscow and Washington. Fourth, Nigeria has
-  experienced its own territorial integrity challenges (Boko Haram insurgency, separatist
-  movements in Biafra) and is deeply sensitive to international norms about sovereignty
-  and non-interference. Nigeria is also a major recipient of Russian military equipment
-  (Mi-35 attack helicopters, T-72 tanks used in the Boko Haram campaign) and has been
-  expanding security cooperation with Russia amid frustration with Western arms sales
-  conditions tied to human rights requirements.
+  Nigeria is geographically distant from the Suwalki corridor, but as Africa's most populous
+  nation (approximately 237 million people), the continent's third-largest economy by IMF
+  projections for 2026 (GDP approximately $334 billion), a major OPEC oil producer (crude
+  production averaging 1.46 million barrels per day in January 2026, with a quota of 1.5
+  million bpd through December 2026), and the de facto leader of the Economic Community of
+  West African States (ECOWAS), Nigeria's diplomatic positioning carries outsized weight in
+  shaping the Global South's response to the Suwalki crisis. Nigeria's relevance operates
+  through several channels. First, oil markets: as an OPEC member, Nigeria's production
+  decisions and its vote within OPEC+ influence global oil prices, which affect both Russia's
+  ability to fund its military operations and the West's ability to sustain economic sanctions.
+  Oil accounts for roughly 90% of Nigeria's export earnings and over 50% of government revenue,
+  creating an incentive where crisis-driven price spikes help Nigeria's fiscal position even
+  as they harm the global economy. The 650,000 bpd Dangote refinery — Africa's largest —
+  began operations in September 2024 and is reshaping Nigeria's downstream oil sector, reducing
+  fuel import dependency and making Nigeria a potential refined product exporter to West Africa.
+  Second, food security: Nigeria imports approximately 5 million tonnes of wheat annually, with
+  Russia a growing supplier. Nigeria also imports significant fertilizer from Russia. A
+  prolonged Black Sea disruption would spike food prices in a country where roughly 133 million
+  people are multidimensionally poor and inflation, though declining from a peak of 34.8% in
+  late 2024, remains above 14%. Third, diplomatic influence: Nigeria leads ECOWAS (now reduced
+  to 12 member states after the January 2025 withdrawal of Mali, Burkina Faso, and Niger to
+  form the Alliance of Sahel States) and is a powerhouse within the African Union (55 member
+  states). Africa commands 54 votes at the UN General Assembly — the largest regional bloc —
+  and Nigeria's position heavily influences how many of those votes align. President Tinubu
+  has intensified Nigeria's push for two permanent African seats on the UN Security Council
+  with veto power, in line with the Ezulwini Consensus, making UNSC reform a core diplomatic
+  demand. Fourth, security architecture: Nigeria is ranked 31st globally and 3rd in Africa
+  by the 2025 Global Firepower Index, with over 215,000 active military personnel. However,
+  the military is stretched thin across multiple fronts — Boko Haram/ISWAP in the northeast
+  (ISWAP overran 15 military supercamps in May 2025), armed banditry in the northwest (2,938
+  kidnapped in one year in northwest alone), IPOB separatism in the southeast, and oil theft
+  in the Niger Delta. Nigeria has expanded military cooperation with both China (comprehensive
+  strategic partnership with focus on local arms production) and Russia (Mi-35M helicopters,
+  T-72 tanks), while the Dangote refinery and diaspora remittances ($20 billion annually)
+  maintain deep Western economic ties.
 
 factions:
-  - name: "Federal Government (President & National Security Council)"
+  - name: "Presidency & National Security Council (Tinubu Administration)"
     role: "pragmatist"
     personality: >
-      Nigeria's foreign policy is shaped by a presidency that balances enormous domestic
-      challenges — Boko Haram insurgency, farmer-herder conflicts, separatist pressures,
-      crippling inflation, fuel subsidy removal aftermath, and a youth unemployment crisis
-      — with the expectation from both African nations and the wider international community
-      that Nigeria should lead. The president and the National Security Council approach
-      the Suwalki crisis with a distinctive perspective: Africa has been ignored, exploited,
-      and lectured by both the West and Russia for decades, and the Suwalki crisis is yet
-      another great power conflict where Africa will bear disproportionate costs (food
-      price spikes, fertilizer shortages, diverted development aid) while having no seat
-      at the table where decisions are made. This is not abstract resentment — it is
-      concrete experience. When the Ukraine war began in 2022, Western nations redirected
-      development aid budgets to Ukraine, European countries absorbed Ukrainian refugees
-      while maintaining fortress policies against African migrants, and global attention
-      shifted entirely to Europe while Africa's crises (Sahel instability, Horn of Africa
-      famine, Sudan civil war) were forgotten. Nigeria's leadership expects the same
-      dynamic with Suwalki, and is determined to ensure that Africa's voice is heard and
-      Africa's costs are acknowledged. The government's OPEC membership gives it genuine
-      leverage: Nigeria's oil production decisions affect global markets, and both the West
-      (which wants prices low to sustain sanctions on Russia) and Russia (which wants
-      prices high to fund its military) have reason to court Abuja. Nigeria's leadership
-      is pragmatic about Russia — not ideologically aligned, but appreciative that Moscow
-      sells weapons without human rights conditions, provides nuclear energy technology
-      (Rosatom has discussed building Nigeria's first nuclear power plant), and does not
-      lecture about governance. At the same time, Nigeria's economic ties with the West
-      are substantial: the US, EU, and UK are major trade partners, investors, and
-      destinations for the Nigerian diaspora whose remittances ($20 billion annually)
-      are a critical economic lifeline. The president will use the Suwalki crisis to
-      demand that the international community pay attention to Africa's needs — food
-      security financing, climate adaptation funds, UNSC reform giving Africa permanent
-      representation — as the price for African diplomatic support. In ECOWAS and AU
-      forums, Nigeria will push for a unified African position that avoids alignment
-      with either bloc while extracting maximum concessions from both.
+      President Bola Ahmed Tinubu, inaugurated on May 29, 2023, is a 74-year-old political
+      strategist who spent decades building the most formidable political machine in Nigerian
+      history — the All Progressives Congress (APC) — from his base as former Lagos governor
+      (1999-2007). His administration approaches the Suwalki crisis through the lens of a
+      president who has staked his entire legacy on a painful economic reform program that is
+      simultaneously Nigeria's best hope and most dangerous political gamble. Within weeks of
+      taking office, Tinubu removed the petrol subsidy that had cost Nigeria $10 billion
+      annually and unified the naira exchange rate, triggering the worst cost-of-living crisis
+      in nearly 30 years. By late 2025, the macroeconomic indicators began improving —
+      inflation declined for eight consecutive months to 14.45% in November 2025 from 24.23%
+      in March 2025, external reserves reached a seven-year high of $47 billion, GDP growth
+      hit 3.98% in Q3 2025, and the IMF revised Nigeria's 2026 growth forecast upward to
+      4.4%. But for millions of ordinary Nigerians, these numbers remain abstract while food
+      and energy costs continue to bite. The Suwalki crisis represents both a threat and an
+      opportunity for Tinubu. The threat is clear: any disruption to global oil markets,
+      grain supplies, or fertilizer flows would reverse the fragile economic stabilization.
+      Nigeria imports 5 million tonnes of wheat annually, and Russia is a growing supplier.
+      Higher food prices in a country where 133 million people are multidimensionally poor
+      could trigger the kind of mass protests that erupted in August 2024 over the cost of
+      living. The opportunity is equally clear: Nigeria's OPEC membership, its leadership of
+      ECOWAS and influence within the African Union's 54-vote UN General Assembly bloc, and
+      its status as Africa's demographic giant give Tinubu genuine leverage to extract
+      concessions from both sides. Tinubu's National Security Adviser, Nuhu Ribadu — a former
+      anti-corruption czar who ran the Economic and Financial Crimes Commission — coordinates
+      a security apparatus stretched across multiple fronts. The northeast Boko Haram/ISWAP
+      insurgency remains Nigeria's most dangerous security challenge: in May 2025, ISWAP
+      launched a devastating offensive dubbed the "holocaust of the camps," overrunning 15
+      Nigerian military supercamps and seizing tanks, weapons, and ammunition. Minister of
+      Defence General Christopher Musa, appointed in December 2025 after serving as Chief of
+      Defence Staff, is tasked with military reform. Vice President Kashim Shettima, a former
+      governor of Borno State (the epicenter of the insurgency), brings direct experience of
+      the human cost of terrorism. Foreign Minister Yusuf Tuggar has articulated the "4D
+      Doctrine" — Demography, Development, Diaspora, Democracy — as the framework for
+      Nigeria's diplomatic engagement, and has been actively engaging with both the Trump
+      administration (first formal interaction via Deputy Secretary Landau in April 2025) and
+      China (meeting Wang Yi in Changsha in June 2025). Tinubu's ECOWAS leadership has been
+      tested by the withdrawal of Mali, Burkina Faso, and Niger — which formally left the
+      bloc in January 2025 to form the Alliance of Sahel States (AES). Tinubu initially
+      threatened military intervention after the July 2023 Niger coup, imposing the harshest
+      sanctions in ECOWAS history, but was forced to back down when military intervention
+      proved politically and logistically unfeasible. The loss of three Sahelian states to
+      Russian-aligned military juntas represents a strategic humiliation that Nigeria is still
+      processing. Tinubu will use the Suwalki crisis to demand that the international
+      community pay attention to Africa's needs — food security, climate adaptation, UNSC
+      reform — as the price for diplomatic support, while carefully avoiding any alignment
+      that could jeopardize either Russia's military hardware supplies or Western investment
+      and diaspora remittance flows.
     priorities:
-      - "Ensure food security — secure alternative grain and fertilizer supplies if Black Sea corridor is disrupted"
-      - "Leverage OPEC membership — use oil production as diplomatic bargaining chip with both blocs"
-      - "Demand international attention to Africa's crisis costs — food inflation, diverted aid, development setbacks"
-      - "Rally African Union and ECOWAS toward a unified non-aligned position that maximizes collective bargaining power"
-      - "Advocate for UN Security Council reform — permanent African representation as condition for African diplomatic support"
-      - "Protect Russian military cooperation (helicopter and tank supply for Boko Haram campaign) without alienating Western partners"
-      - "Secure Western development aid commitments — prevent redirection of Africa-allocated funds to European crisis response"
-      - "Manage domestic political fallout — food and fuel prices are politically explosive in Nigeria"
+      - "Protect Nigeria's fragile economic recovery — prevent food and energy price spikes that could trigger domestic unrest and reverse reform gains"
+      - "Leverage OPEC membership and oil production as a diplomatic bargaining chip with both Russia and the West"
+      - "Demand UN Security Council reform — two permanent African seats with veto power as condition for African bloc diplomatic support"
+      - "Rally African Union toward unified non-aligned position that maximizes collective bargaining power without alienating either side"
+      - "Secure continued military hardware supplies from Russia and China while maintaining Western investment, aid, and diaspora remittance flows"
+      - "Ring-fence African development aid — prevent redirection of Africa-allocated funds to European crisis response as happened after 2022"
+      - "Use crisis to accelerate Nigeria's bid for permanent UNSC seat and consolidate leadership of post-AES ECOWAS"
     red_lines:
-      - "Western redirection of African development aid to European crisis response — Africa will not subsidize European security"
-      - "Food price spikes that trigger domestic instability — Nigeria remembers the 2012 fuel subsidy protests and their aftermath"
-      - "Being pressured to choose sides — Nigeria insists on sovereign non-alignment and will not be a proxy for any power"
-      - "Western conditions on arms sales while Russia sells without strings — this double standard fuels African frustration with the West"
-      - "Exclusion of Africa from crisis negotiations that will determine global economic outcomes affecting 1.4 billion Africans"
-      - "Any international norms that undermine sovereignty or legitimize external intervention — Nigeria's own territorial integrity challenges make this personal"
-    voice: >
-      Authoritative, morally grounded, and unapologetically focused on African interests.
-      In international forums, speaks as Africa's largest nation and conscience of the
-      Global South: 'Africa did not start this crisis. Africa did not expand NATO. Africa
-      did not invade its neighbor. But Africa will pay the price — in hunger, in poverty,
-      in forgotten development goals. We demand that the international community recognize
-      this injustice. Every dollar redirected from African development to European defense
-      is a child in the Sahel who does not eat. Every spike in wheat prices driven by
-      great power competition is a family in Lagos that cannot afford bread. Nigeria
-      speaks for a continent of 1.4 billion people that refuses to be collateral damage
-      in someone else's war.' In OPEC forums, pragmatic and business-like: 'Nigeria
-      will make production decisions based on our national interest and market
-      fundamentals. We note that both sides in this conflict have strong views about
-      where oil prices should be. Perhaps they should consider what Nigeria needs before
-      telling us what to produce.' In private with Western diplomats, direct and
-      conditional: 'You want Nigeria to vote with you at the General Assembly? You want
-      Africa to condemn Russia? Then let us discuss specifics. First, guarantee that
-      African development aid is ring-fenced and not redirected. Second, the Security
-      Council — Africa has zero permanent seats while Europe has three. This is
-      indefensible. Third, stop conditioning arms sales on human rights while we are
-      fighting Boko Haram. We will buy from whoever sells.' In private with Russian
-      officials: 'We appreciate that Russia treats Africa as an equal partner. The
-      helicopter deliveries are vital for our security operations. But we need the
-      grain shipments to continue. If you want Africa's vote at the UN, you must
-      ensure that African food security is not sacrificed for European territorial
-      ambitions.' To fellow African leaders: 'Brothers and sisters, let us not repeat
-      the Cold War mistake. Africa was a chessboard then — we must not be a chessboard
-      now. Let us speak with one voice, demand our seat at the table, and ensure that
-      this crisis finally delivers what Africa has been promised for decades: fair
-      representation in global institutions.'
+      - "Any disruption to grain and fertilizer imports that triggers food crisis — Tinubu cannot survive another round of mass protests like August 2024"
+      - "Western ultimatums demanding Nigeria choose sides — sovereign non-alignment is non-negotiable and any pressure will backfire publicly"
+      - "Redirection of African development aid to European defense — this is the single issue most likely to unite African nations against the West"
+      - "Arms sale conditions tied to human rights that leave Nigeria unable to fight Boko Haram/ISWAP while Russia and China sell without strings"
+      - "Exclusion of Africa from crisis negotiations that determine global economic outcomes affecting 1.4 billion Africans"
+    voice:
+      tone: "Authoritative, morally grounded, and unapologetically focused on African interests while maintaining pragmatic flexibility"
+      example_quotes:
+        - "Africa did not start this crisis. Africa did not expand NATO. Africa did not invade its neighbor. But Africa will pay the price — in hunger, in poverty, in forgotten development goals. Every dollar redirected from African development to European defense is a child in the Sahel who does not eat. Every spike in wheat prices driven by great power competition is a family in Lagos that cannot afford bread. Nigeria speaks for a continent of 1.4 billion people that refuses to be collateral damage in someone else's war."
+        - "We have reformed our economy at enormous cost to our people — removing subsidies, unifying our currency, enduring the worst inflation in thirty years. We did this because the international community told us it was the right thing to do. Now we ask: where is the reciprocity? Where is the investment? Where is the market access? If the West wants Africa's diplomatic support on Suwalki, let us first discuss what Africa gets in return. Two permanent seats on the Security Council would be a good place to start."
+        - "Nigeria's oil production decisions will be made in Abuja, not in Washington or Moscow. We are an OPEC member, and our quota and production serve our national interest. Both sides in this conflict have strong views about where oil prices should be — perhaps they should consider what Nigeria needs before telling us what to produce."
+        - "To my fellow African leaders: let us not repeat the Cold War mistake. Africa was a chessboard then. We must not be a chessboard now. Let us speak with one voice, demand our seat at the table, and ensure that this crisis finally delivers what Africa has been promised for decades — fair representation in global institutions and an end to the paternalism that treats our continent as an afterthought."
     key_relationships:
-      allies: ["GH (ECOWAS partner)", "ZA (AU partner, BRICS)", "SA (OPEC, investment)", "CN (infrastructure investment, trade)"]
-      rivals: ["Boko Haram/ISWAP (domestic insurgency)", "NE (border tensions, Lake Chad)", "FR (legacy of Françafrique competition in West Africa)"]
+      allies:
+        - country: "CN"
+          sentiment: "strategic_partner"
+          context: "China is Nigeria's largest infrastructure investor, with BRI engagement surging 12,235% in 2025 H1 including $20 billion in oil/gas processing contracts. The comprehensive strategic partnership includes military cooperation on local arms production and training. China provides weapons without human rights conditions and is financing critical infrastructure. Nigeria's satellite communications depend on Chinese-built NIGCOMSAT systems."
+        - country: "SA"
+          sentiment: "OPEC_ally"
+          context: "Saudi Arabia and Nigeria coordinate within OPEC+ on production quotas and pricing. Saudi investment in Nigerian downstream energy is growing. Both countries share interest in maintaining oil revenue amid energy transition pressures. Personal relationship between Tinubu and MBS is warm."
+        - country: "GH"
+          sentiment: "close_regional_partner"
+          context: "Ghana is Nigeria's closest ECOWAS partner and key ally in managing the post-AES regional architecture. Both countries share democratic governance values and coordinate on West African security. Nigerian businesses dominate Ghana's commercial sector."
+        - country: "ZA"
+          sentiment: "continental_rival_partner"
+          context: "South Africa and Nigeria compete for continental leadership within the AU but cooperate on UNSC reform demands. South Africa's BRICS membership gives it leverage Nigeria lacks, creating both partnership opportunities and competitive friction."
+        - country: "GB"
+          sentiment: "historical_partner"
+          context: "UK remains Nigeria's most significant Western partner through Commonwealth ties, significant Nigerian diaspora (estimated 250,000), security training cooperation, and London as a financial hub for Nigerian elites. Post-Brexit UK seeks to deepen Africa engagement."
+        - country: "IN"
+          sentiment: "growing_partner"
+          context: "India is a major buyer of Nigerian crude and has growing trade ties. Indian pharmaceutical companies supply a significant share of Nigeria's medicines. Both nations coordinate as demographic giants in G77 forums."
+      rivals:
+        - country: "FR"
+          sentiment: "structural_competitor"
+          context: "France's Francafrique legacy in West Africa creates perpetual friction with Nigeria's regional leadership ambitions. Nigeria views France as a declining but still interfering power in West Africa. The AES states' rejection of French military presence aligned with Nigerian interests even as the juntas defied ECOWAS."
+        - country: "NE (Niger junta)"
+          sentiment: "hostile_neighbor"
+          context: "The July 2023 Niger coup and subsequent ECOWAS sanctions standoff humiliated Nigeria. Niger's withdrawal from ECOWAS in January 2025, alignment with Russia via Wagner/Africa Corps, and border tensions create an active security threat on Nigeria's 1,500km northern border."
+        - country: "RU"
+          sentiment: "complicated_supplier"
+          context: "Russia sells Mi-35M helicopters and T-72 tanks critical for the Boko Haram campaign without human rights conditions, provides nuclear energy technology through Rosatom discussions, and supplies grain and fertilizer. But Russia's support for Sahelian juntas that defied ECOWAS undermines Nigerian regional authority. Nigeria wants Russian weapons and grain but resents Russian influence operations in its neighborhood."
+
+  - name: "Nigerian Armed Forces High Command"
+    role: "security_hawk"
+    personality: >
+      The Nigerian Armed Forces, under Chief of Defence Staff General Olufemi Oluyede
+      (appointed October 2025, succeeding General Christopher Musa who became Minister of
+      Defence in December 2025), represent a military institution simultaneously fighting on
+      multiple fronts while attempting to modernize and professionalize. Nigeria's military is
+      ranked 31st globally and 3rd in Africa by the 2025 Global Firepower Index, with over
+      215,000 active personnel, making it the largest military in West Africa and one of the
+      most combat-experienced forces on the continent. However, this experience has come at
+      enormous cost. The northeast counterinsurgency against Boko Haram and its more
+      dangerous offshoot, the Islamic State West Africa Province (ISWAP), has consumed the
+      military's attention and resources for over fifteen years. ISWAP — which split from
+      Boko Haram in 2016 and has since eclipsed its parent organization in territorial
+      control, military capability, and administrative governance — launched a devastating
+      offensive campaign in May 2025, overrunning fifteen Nigerian military supercamps in
+      Borno State in what was dubbed the "holocaust of the camps," seizing main battle tanks,
+      armored vehicles, weapons, and ammunition while employing kinetic drones and foreign
+      fighters with unprecedented tactical sophistication. This catastrophe exposed the
+      military's structural vulnerabilities: overstretched forces, inadequate equipment
+      maintenance, poor intelligence coordination, and dependence on foreign weapons systems
+      that are difficult to maintain. The 2026 defense budget allocates 5.41 trillion naira
+      ($3.9 billion), with the Nigerian Army receiving 1.504 trillion naira — the largest
+      share. But approximately 70% of the defense budget goes to personnel costs, leaving
+      insufficient funds for equipment, maintenance, and modernization. The military's
+      equipment inventory reflects its diversified procurement strategy: Russian Mi-35M
+      attack helicopters and T-72 tanks are critical for counterinsurgency operations in the
+      northeast, Chinese-manufactured equipment is increasingly entering service as the
+      comprehensive strategic partnership expands, Italian M-346FA trainer/light attack
+      aircraft are on order, and Western (primarily American and British) training programs
+      and intelligence support complement the hardware. Niger's withdrawal from the
+      Multinational Joint Task Force (MNJTF) in March 2025 — following its 2023 coup — has
+      compromised intelligence sharing and disrupted joint operations across the porous
+      Niger-Nigeria border, creating operational vacuums that ISWAP exploits. Meanwhile,
+      armed banditry in the northwest has reached industrial scale: 2,938 people were
+      kidnapped in the northwest region between July 2024 and June 2025, with Zamfara State
+      recording 1,203 abductions alone. New armed groups like the Lakurawa in the northwest
+      and the Mahmuda group in the north-central region are emerging. In the southeast, IPOB
+      separatist violence continues — suspected IPOB gunmen killed at least 30 people in a
+      May 2025 attack on the Okigwe-Owerri highway in Imo State. Oil theft in the Niger
+      Delta, though reduced to 9,600 barrels per day by July 2025 (the lowest since 2009),
+      still costs Nigeria billions in lost revenue — the Senate estimated $300 billion in
+      cumulative losses from 2015 to 2025. The military's approach to the Suwalki crisis is
+      shaped entirely by its equipment dependencies: Russia supplies the attack helicopters
+      and tanks that are the backbone of northeast operations, China is an increasingly
+      important equipment supplier, and the West provides training and intelligence. The
+      military establishment will fiercely resist any diplomatic positioning that jeopardizes
+      any of these supply relationships. The generals also see the crisis as an opportunity
+      to extract more military aid from competing powers eager to secure Nigeria's diplomatic
+      support — a leverage play that mirrors the Cold War dynamic when African militaries
+      played East against West to maximize arms flows.
+    priorities:
+      - "Protect Russian military hardware pipeline — Mi-35M helicopters and T-72 tanks are irreplaceable for Boko Haram/ISWAP operations in the short term"
+      - "Expand Chinese military cooperation — local arms production, drone technology, and training programs under the comprehensive strategic partnership"
+      - "Maintain Western military training relationships and intelligence sharing on counterterrorism"
+      - "Use Suwalki crisis leverage to extract maximum military aid commitments from all competing powers"
+      - "Address ISWAP resurgence after May 2025 supercamp disasters — urgent need for equipment replacement, better intelligence, and tactical adaptation"
+      - "Lobby for increased defense budget allocation toward capital expenditure rather than personnel costs"
+    red_lines:
+      - "Any sanctions regime or diplomatic alignment that cuts off Russian spare parts for Mi-35M and T-72 fleets currently deployed against ISWAP"
+      - "Western arms embargo threats or conditions that leave Nigeria unable to procure from alternative suppliers while facing active insurgencies"
+      - "Diversion of military resources or attention from domestic counterinsurgency to any international commitment related to the European crisis"
+      - "Foreign interference in Nigeria's internal security operations under human rights pretexts while Boko Haram and ISWAP slaughter civilians"
+    voice:
+      tone: "Blunt, operationally focused, deeply suspicious of foreign conditionality, and unapologetic about Nigeria's security needs"
+      example_quotes:
+        - "While Europe debates a corridor in Lithuania, our soldiers are dying in Borno. ISWAP overran fifteen of our forward operating bases in a single offensive. They used drones — military-grade drones — against our positions. We need helicopter gunships, we need armored vehicles, we need intelligence capabilities. We will buy from whoever sells. If Moscow sells without conditions, we buy from Moscow. If Beijing offers drone technology, we take it. If Washington wants to attach human rights conditions to ammunition while our troops are being overrun, then Washington should not be surprised when we look elsewhere."
+        - "Nigeria has participated in 51 of 60 UN peacekeeping operations since independence. We have lost more soldiers to peacekeeping than most NATO countries have lost in all their wars combined. When Africa asks for military support, the world lectures us about governance. When Europe faces a crisis, the world mobilizes trillions. We note the disparity."
+        - "The withdrawal of Niger from the Multinational Joint Task Force has created a 1,500-kilometer gap in our northeastern security architecture. ISWAP moves freely across a border that was once jointly patrolled. This is not an abstract strategic problem — this is soldiers dying because we have lost our intelligence-sharing partner to a coup that Russia's Wagner Group helped consolidate. So when you ask us about the Suwalki crisis, understand that Russia is simultaneously our weapons supplier and the enabler of the juntas that are undermining our security."
+        - "Our defense budget is $3.9 billion. Of that, 70% goes to salaries. We are fighting a multi-front war — northeast, northwest, southeast, Niger Delta — with a capital equipment budget that would not buy a single squadron of F-35s. Any great power that wants Nigeria's diplomatic support should start by asking what Nigeria's military needs."
+    key_relationships:
+      allies:
+        - country: "RU (military)"
+          sentiment: "critical_supplier"
+          context: "Russia supplies Mi-35M attack helicopters and T-72 tanks that form the backbone of Nigeria's counterinsurgency capability. The head of Nigeria's military visited Moscow in May 2025 for discussions with top Russian military officials. Russia offers additional weaponry without human rights conditions. However, Russia's stretched defense-industrial base due to its own war in Ukraine limits new deliveries."
+        - country: "CN (military)"
+          sentiment: "expanding_partner"
+          context: "China-Nigeria comprehensive strategic partnership includes focus on local arms production and military training. Chinese defense exports offer affordable, accessible equipment with politically flexible conditions. Y-20 military transport aircraft procurement is underway. China is increasingly filling gaps that Russia cannot due to Ukraine commitments."
+        - country: "US (military)"
+          sentiment: "conditional_partner"
+          context: "US provides counterterrorism training, intelligence sharing, and limited equipment sales, but attaches human rights conditions — particularly the Leahy Law — that the Nigerian military finds infuriating. Operation Juniper Nimbus provides ISR support in the Lake Chad Basin. The Trump administration has signaled willingness to reduce conditions to compete with Russian and Chinese arms sales."
+        - country: "GB (military)"
+          sentiment: "training_partner"
+          context: "UK maintains longstanding military training relationship including British Military Advisory and Training Team. Commonwealth defense ties run deep. British intelligence cooperation on counterterrorism is valued but limited in equipment provision."
+        - country: "IT"
+          sentiment: "procurement_partner"
+          context: "Italy is supplying M-346FA trainer/light attack aircraft as Nigeria diversifies its equipment sources. Italian defense firms are actively marketing to Nigeria as Rome seeks to expand its African defense footprint."
+        - country: "ECOWAS (military)"
+          sentiment: "regional_framework"
+          context: "Nigeria provides the majority of troops and funding for ECOWAS standby force and has led every major ECOWAS military intervention from Liberia to Gambia. Nigeria's Sea-Lift Agreement with the AU Standby Force reinforces its role as Africa's primary military contributor to collective security."
+      rivals:
+        - country: "ISWAP/Boko Haram"
+          sentiment: "existential_threat"
+          context: "ISWAP's May 2025 offensive overrunning 15 supercamps was the most devastating setback in the counterinsurgency campaign. ISWAP employs kinetic drones, foreign fighters, and sophisticated command-and-control. Over 120,000 Boko Haram-affiliated individuals have surrendered by early 2025, but ISWAP's operational capability remains lethal."
+        - country: "NE (Niger junta)"
+          sentiment: "security_threat"
+          context: "Niger's withdrawal from the MNJTF in March 2025 destroyed joint border security operations. The Niger-Nigeria border is now an unmonitored corridor for ISWAP movement. Niger's alignment with Russian Wagner/Africa Corps forces adds geopolitical complexity to what was previously a purely operational partnership."
+
+  - name: "National Assembly & Opposition Political Forces"
+    role: "domestic_voice"
+    personality: >
+      Nigeria's National Assembly — the 109-member Senate under President Godswill Akpabio
+      and the 360-member House of Representatives under Speaker Abbas Tajudeen — operates as
+      the institutional voice of Nigeria's fractious domestic politics, where the Suwalki
+      crisis is filtered entirely through the lens of bread-and-butter issues: food prices,
+      fuel costs, unemployment, and the devastating impact of Tinubu's economic reforms on
+      ordinary Nigerians. The ruling All Progressives Congress (APC) has consolidated an
+      overwhelming legislative majority through an aggressive campaign of opposition
+      defections — over 51 opposition members of the House have crossed to the APC, giving
+      the party 78 of 109 Senate seats and a commanding House majority. The Peoples
+      Democratic Party (PDP), Labour Party (LP), New Nigerian Peoples Party (NNPP), and
+      Young Progressives Party (YPP) have been hollowed out by these defections, leading
+      opposition leaders to warn of a "dangerous and undemocratic agenda" that threatens
+      Nigeria's multiparty democracy through intimidation and anti-graft agency pressure
+      rather than credible elections. Despite APC dominance, the legislature remains
+      responsive to popular anger. Nigeria experienced major protests in August 2024 over
+      the cost of living — the most significant street demonstrations since the EndSARS
+      protests of October 2020 — and legislators from all parties heard from furious
+      constituents. The subsidy removal and naira devaluation that are Tinubu's signature
+      reforms have pushed millions deeper into poverty even as macroeconomic indicators
+      improve. Youth unemployment is staggering: approximately 53% of Nigeria's youth
+      population — nearly 80 million young people — are outside employment, despite over 1.7
+      million graduates entering the labor market annually. With a population exceeding 237
+      million and over 60% under age 30, Nigeria's demographic pressure is unlike anything
+      in the Suwalki crisis nations. The median age is approximately 18 — meaning that for
+      most Nigerians, geopolitics is irrelevant next to whether they can afford food and
+      transport. The National Assembly's approach to the Suwalki crisis is therefore
+      overwhelmingly domestic: any international commitment that worsens food prices, diverts
+      resources from domestic programs, or is perceived as choosing sides in a foreign
+      conflict will face fierce legislative resistance. Conversely, any diplomatic
+      positioning that brings tangible benefits — grain shipments, fertilizer deals, aid
+      commitments, investment pledges — will have legislative support. The Dangote refinery
+      — a 650,000 bpd facility that reached 610,000 bpd output by August 2025 and is
+      Africa's largest — represents the kind of tangible economic achievement that lawmakers
+      want to see more of. The refinery has begun reducing Nigeria's absurd dependence on
+      fuel imports (Nigeria exported crude and imported refined fuel for decades), though
+      domestic refiners are still operating below capacity and fuel imports remained
+      significant through 2025. Opposition leaders like former Transportation Minister
+      Rotimi Amaechi have called for mass protests against government policies, while civil
+      society organizations demand lower taxes, reduced politician salaries, and judicial
+      reform. The IPOB trial — separatist leader Nnamdi Kanu's treason case restarted with
+      a new judge in March 2025 after the previous judge recused herself — remains a
+      political flashpoint in the southeast. The legislature is particularly sensitive to any
+      international dynamic that could be spun by opposition forces as evidence that Tinubu
+      is more interested in global posturing than in the economic suffering of Nigerians.
+      Freedom House rated Nigeria "Partly Free" in 2025, noting concerns about press
+      freedom, judicial independence, and the security forces' human rights record. The
+      National Assembly will support the presidency's non-alignment stance on Suwalki but
+      will demand that any diplomatic engagement produce concrete economic deliverables for
+      Nigeria's struggling population.
+    priorities:
+      - "Prevent food price increases — wheat, rice, and fertilizer supply security is the single most politically explosive issue in Nigeria"
+      - "Ensure Suwalki crisis diplomatic engagement produces tangible economic benefits — investment commitments, trade deals, aid packages"
+      - "Protect domestic economic reform gains — inflation declining, reserves growing, GDP accelerating — from external shocks"
+      - "Maintain non-alignment — any perception of choosing sides in a foreign conflict will trigger political backlash from both pro-Western and pro-Russian constituencies"
+      - "Advance the Dangote refinery and domestic refining capacity as proof that economic sovereignty is achievable"
+      - "Address youth unemployment and cost-of-living crisis as the true security threat to Nigeria's stability"
+    red_lines:
+      - "Food price spikes that trigger mass protests — the August 2024 cost-of-living demonstrations showed how quickly economic anger can become political crisis"
+      - "Any international commitment that diverts Nigerian military resources from domestic counterinsurgency to a European conflict that Nigerians consider irrelevant"
+      - "Foreign pressure on Nigeria's domestic governance or human rights record as a condition for engagement — perceived as neocolonial hypocrisy"
+      - "Trade disruptions that undermine the fragile economic recovery and reverse Tinubu's reform gains before the 2027 election cycle"
+      - "Any diplomatic stance that can be used by opposition to portray Tinubu as serving foreign interests rather than Nigerian interests"
+    voice:
+      tone: "Populist, domestically focused, deeply skeptical of great power politics, and protective of Nigerian sovereignty and economic interests"
+      example_quotes:
+        - "Mr. President, with all due respect, our people are hungry. Rice costs three times what it did two years ago. The naira has lost half its value. Our graduates cannot find work. And you want us to take a position on a corridor in Lithuania? What does Lithuania do for the woman selling garri in Onitsha market? What does NATO do for the farmer in Zamfara who fears bandits will kidnap his children? Nigeria's foreign policy must begin at home."
+        - "We support the president's non-alignment position, but we demand that this crisis produce results for Nigeria. If Russia wants our vote at the General Assembly, let them guarantee grain shipments at subsidized prices. If America wants us to condemn Moscow, let them open their markets to Nigerian goods, remove visa barriers for our people, and stop lecturing us about human rights while our soldiers die fighting terrorists that the West's own interventions in Libya created."
+        - "The Dangote refinery shows what Nigeria can achieve when we invest in ourselves rather than waiting for foreign saviors. For fifty years we exported crude oil and imported petrol — the most absurd economic arrangement in history. Now we are refining our own fuel. This is the model for Nigeria's future: sovereignty through self-sufficiency, not dependency on whichever great power wins the current geopolitical contest."
+        - "Eighty million of our young people have no employment. Our population will reach 400 million by 2050. If the international community wants to discuss security, let us discuss the security implications of 400 million Nigerians with no economic opportunity. That is a crisis that dwarfs any corridor in the Baltics."
+    key_relationships:
+      allies:
+        - country: "Presidency (APC)"
+          sentiment: "dominant_but_conditional"
+          context: "APC's commanding legislative majority (78 of 109 Senate seats) gives Tinubu legislative control, but individual lawmakers are responsive to constituent anger over economic hardship. Mass opposition defections to APC have consolidated power but created an internally divided caucus where loyalty is transactional, not ideological."
+        - country: "ECOWAS (economic)"
+          sentiment: "trade_framework"
+          context: "ECOWAS represents Nigeria's primary regional economic framework. Nigerian businesses dominate West African commerce, and the ECOWAS Trade Liberalization Scheme benefits Nigerian manufacturers and traders. The loss of three Sahelian markets to AES withdrawal is an economic concern."
+        - country: "US (economic)"
+          sentiment: "major_trade_partner"
+          context: "The United States is a major trade partner and the single largest source of foreign direct investment. AGOA trade preferences matter for non-oil exports. American tech companies employ thousands of Nigerians. The diaspora in the US sends billions in remittances annually."
+        - country: "EU (economic)"
+          sentiment: "trade_and_aid_partner"
+          context: "The EU is a major trade partner and development aid provider. European companies are significant investors in Nigeria's non-oil sectors. EU market access for Nigerian agricultural products is a key trade negotiation priority."
+        - country: "Dangote Group"
+          sentiment: "national_champion"
+          context: "Aliko Dangote's industrial conglomerate — particularly the 650,000 bpd refinery — is treated as a symbol of Nigerian economic sovereignty. The legislature has been supportive of policies that favor Dangote's domestic refining operations over fuel imports, though regulatory battles between Dangote and the Nigerian Upstream Petroleum Regulatory Commission have been contentious."
+        - country: "Nigerian diaspora"
+          sentiment: "economic_lifeline"
+          context: "Remittances from the Nigerian diaspora ($20 billion annually) are a critical economic lifeline — larger than foreign aid and second only to oil as a foreign exchange source. Any international dynamic that disrupts diaspora financial flows would be politically devastating."
+      rivals:
+        - country: "Opposition parties (PDP, LP)"
+          sentiment: "weakened_but_vocal"
+          context: "Opposition has been gutted by mass defections to APC but retains ability to mobilize street protests and media criticism. Former presidential candidates Peter Obi (LP) and Atiku Abubakar (PDP) remain vocal critics. Opposition calls for mass protests continue, with Amaechi calling for demonstrations in early 2026."
+        - country: "IPOB"
+          sentiment: "separatist_threat"
+          context: "Nnamdi Kanu's ongoing treason trial, IPOB's deadly 'sit-at-home' enforcement in the southeast, and the May 2025 highway massacre in Imo State make Biafran separatism a persistent domestic political issue. Southeast lawmakers are caught between condemning violence and representing constituents' legitimate grievances."

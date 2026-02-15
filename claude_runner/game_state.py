@@ -67,6 +67,17 @@ def cmd_init(args: argparse.Namespace) -> None:
     # Build initial state
     initial_state = _build_initial_state(scenario)
 
+    # Merge preset initial_state (if provided) - allows preset to override scenario defaults
+    preset_initial = preset.get("initial_state", {})
+    if preset_initial:
+        # Deep merge public_opinion (and other dicts if needed)
+        if "public_opinion" in preset_initial:
+            initial_state.setdefault("public_opinion", {}).update(preset_initial["public_opinion"])
+        # Add other fields as needed
+        for key in ["nato_alert_level", "corridor_control", "game_time"]:
+            if key in preset_initial:
+                initial_state[key] = preset_initial[key]
+
     # Construct WorldState
     from engine.world_state import MilitaryUnit
     ws = WorldState()
@@ -188,7 +199,12 @@ def cmd_country_context(args: argparse.Namespace) -> None:
     game_dir = Path(args.game_dir).resolve()
     checkpoint = load_checkpoint(game_dir)
     ws = WorldState.from_dict(checkpoint["world_state"])
-    diplomatic_inbox = checkpoint.get("diplomatic_inbox", [])
+    diplomatic_inbox_raw = checkpoint.get("diplomatic_inbox", {})
+    # Convert dict of messages to list format
+    if isinstance(diplomatic_inbox_raw, dict):
+        diplomatic_inbox = list(diplomatic_inbox_raw.values())
+    else:
+        diplomatic_inbox = diplomatic_inbox_raw
 
     codes = [c.upper() for c in args.countries]
 
@@ -250,11 +266,18 @@ def _get_incoming_for(country_code: str, inbox: list[dict]) -> list[dict]:
     result = []
     for msg in inbox:
         channel = msg.get("channel", "public")
-        to = msg.get("to", "").upper()
+        to = msg.get("to", "")
         if channel == "public":
             result.append(msg)
-        elif to == country_code.upper():
-            result.append(msg)
+        else:
+            # Handle both string and list formats for "to"
+            if isinstance(to, list):
+                to_list = [t.upper() if isinstance(t, str) else str(t).upper() for t in to]
+                if country_code.upper() in to_list:
+                    result.append(msg)
+            elif isinstance(to, str):
+                if to.upper() == country_code.upper():
+                    result.append(msg)
     return result
 
 

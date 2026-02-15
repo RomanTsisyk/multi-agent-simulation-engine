@@ -1,109 +1,366 @@
 name: "Mexico"
 code: "MX"
-alliances: ["USMCA", "G20", "Pacific Alliance (observer)", "CELAC", "UN General Assembly"]
-military_strength: 3
-economic_strength: 6
+
+government: >
+  President Claudia Sheinbaum Pardo (MORENA), inaugurated 1 October 2024 — Mexico's
+  first female president, a climate scientist with a PhD from UC Berkeley and former
+  mayor of Mexico City. Her cabinet: Secretary of Foreign Affairs Juan Ramon de la Fuente
+  (former UNAM rector and Mexico's UN ambassador 2019-2024); Secretary of National Defense
+  (SEDENA) Gen. Ricardo Trevilla Trejo; Secretary of the Navy (SEMAR) Adm. Raymundo
+  Pedro Morales Anguiano; Secretary of Finance Rogelio Ramirez de la O (retained from
+  AMLO cabinet); Secretary of Environment Alicia Barcena (former Foreign Minister under
+  AMLO, former ECLAC Executive Secretary, potential candidate for UN Secretary-General in
+  2026). MORENA and its coalition partners (PT, PVEM) hold a supermajority in the Chamber
+  of Deputies (364 of 500 seats) and near-supermajority in the Senate (83 of 128 seats),
+  giving Sheinbaum extraordinary legislative power. The controversial 2024 judicial reform
+  — making Mexico the first country to elect all judges by popular vote — was implemented
+  with June 2025 judicial elections. Sheinbaum enjoys approximately 67-69% approval as of
+  mid-2025, making her the most popular president in Latin America, though ratings have
+  declined from an 85% peak in February 2025. Her administration continues AMLO's "Fourth
+  Transformation" (4T) project while bringing a more technocratic, internationally
+  engaged style.
+
+alliances: ["USMCA", "G20", "Pacific Alliance (observer)", "CELAC", "UN General Assembly", "MIKTA", "Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)"]
+
+military_strength: 3  # Ranked 31st-32nd on Global Firepower Index (2025-2026). ~410,000 active
+                      # personnel plus ~120,000 National Guard (now under SEDENA command after 2024
+                      # constitutional reform). Navy (SEMAR) has ~167 vessels, mostly coastal patrol.
+                      # Air Force has ~433 aircraft but no modern fighter jets — relies on aging F-5
+                      # trainers and turboprops. Defense spending is 0.6-0.7% of GDP (~$16.7B), with a
+                      # 43.8% budget cut to SEDENA in 2025 (from MXN 259B to MXN 152B). Military is
+                      # primarily oriented toward internal security (counter-narcotics, public order)
+                      # rather than external defense. No power projection capability beyond immediate
+                      # borders. Modernization priorities: C-130J Super Hercules transport aircraft,
+                      # tactical vehicle fleet renewal (1,300+ 4x4 replacements), domestic Pegasus
+                      # PE-210A trainer/surveillance aircraft (Oaxaca Aerospace, production beginning
+                      # 2026). Zero capability or intention to project force to Eastern Europe.
+
+economic_strength: 6  # 13th largest economy globally, GDP ~$2.08 trillion nominal (2025), projected
+                      # $2.17T in 2026. Growth slowed sharply to ~0.4% in first three quarters of 2025
+                      # (vs 1.2% in 2024). Central bank projects 0.3% growth for full year 2025. Trump's
+                      # 25% tariffs on non-USMCA-compliant goods are a major headwind, but ~85% of
+                      # Mexican exports enter duty-free under USMCA rules of origin. Manufacturing
+                      # exports to the US rose ~9% Jan-Nov 2025 despite tariff fears. Nearshoring/
+                      # friendshoring boom continues — record FDI inflows. PEMEX debt reduced by $20B
+                      # in 2025 (lowest in 11 years), crude processing hit 1.5 MMb/d (historic high),
+                      # but company still requires government financial support through 2026. USMCA
+                      # review scheduled for late 2026/early 2027 — Trump called the agreement
+                      # "irrelevant" in January 2026. Plan Mexico seeks to reduce Chinese import
+                      # dependence and boost domestic manufacturing, with tariffs of 10-50% on Chinese
+                      # goods announced September 2025. Remittances (~$63B annually) remain critical.
+                      # Peso volatility and US policy uncertainty are primary macro risks.
+
 nuclear: false
+
 geographic_relevance: >
-  Mexico has no geographic connection to the Suwalki corridor and no military
-  capability to project power into Eastern Europe. However, Mexico's diplomatic
-  position matters for several reasons. As the United States' southern neighbor
-  and second-largest trading partner (USMCA), Mexico is deeply affected by any
-  US decision to escalate military commitments in Europe — US economic disruption
-  means Mexican economic disruption. Mexico's GDP is heavily intertwined with
-  the American economy, with roughly 80% of Mexican exports going to the US.
-  Any US wartime footing, defense spending surge, or energy price shock ripples
-  immediately across the border. Mexico also holds a rotating seat aspiration at
-  the UN Security Council and carries significant weight in the UN General Assembly,
-  where it can influence Latin American voting blocs. Mexico's foreign policy is
-  anchored in the Estrada Doctrine — a principle of non-intervention in the
-  internal affairs of other states, rooted in Mexico's own historical experience
-  of US and European intervention in the 19th and 20th centuries. This doctrine
-  is not mere tradition; it is codified in Mexico's constitution and shapes every
-  diplomatic decision. Mexico will instinctively resist being drawn into great
-  power confrontations, reject the idea that it must 'pick a side,' and frame the
-  Suwalki crisis as further evidence that militarism and bloc politics — rather
-  than dialogue and multilateral institutions — are the real threat to global
-  peace. Mexico's relationship with Russia is minimal (limited trade, no strategic
-  dependency), but Mexico's relationship with the US means that Washington will
-  pressure Mexico City to support sanctions, condemn Russia at the UN, and align
-  with the Western position. Mexico will resist this pressure on principle while
-  being careful not to damage the bilateral relationship that its economy depends
-  on. Mexico also imports significant quantities of Russian fertilizers for its
-  agricultural sector, creating a minor but real economic interest in avoiding
-  blanket sanctions.
+  Mexico has no geographic connection to the Suwalki corridor and no military capability to
+  project power into Eastern Europe. However, Mexico's diplomatic position matters for
+  several important reasons. As the United States' southern neighbor and second-largest
+  trading partner under USMCA, Mexico is deeply affected by any US decision to escalate
+  military commitments in Europe — US economic disruption means Mexican economic disruption.
+  Roughly 80% of Mexican exports go to the US, and the bilateral trade relationship exceeds
+  $800 billion annually. Any US wartime footing, defense spending surge, or energy price
+  shock ripples immediately across the border. Mexico also carries significant weight in the
+  UN General Assembly, where it can influence Latin American voting blocs, and is actively
+  promoting a Latin American woman candidate (potentially Alicia Barcena) for UN
+  Secretary-General as Guterres's term ends in December 2026 — giving Mexico an active
+  interest in multilateral positioning. Mexico's foreign policy is anchored in the Estrada
+  Doctrine — a principle of non-intervention in the internal affairs of other states, rooted
+  in Mexico's own historical experience of US and European intervention in the 19th and 20th
+  centuries. This doctrine is codified in Mexico's constitution (Article 89, Section X) and
+  shapes every diplomatic decision. Mexico voted at the UN to condemn Russia's invasion of
+  Ukraine but abstained on suspending Russia from the Human Rights Council, reflecting its
+  characteristic position of defending sovereignty in principle while refusing to join
+  punitive coalitions. President Sheinbaum has maintained this line, stating that Mexico's
+  foreign policy is "grounded in constitutional principles of non-intervention and peaceful
+  conflict resolution." Mexico will instinctively resist being drawn into great power
+  confrontations, reject the idea that it must "pick a side," and frame the Suwalki crisis
+  as further evidence that militarism and bloc politics — rather than dialogue and
+  multilateral institutions — are the real threat to global peace. The Trump-Sheinbaum
+  relationship is the most consequential bilateral dynamic for Mexico: Trump's 25% tariffs,
+  mass deportation campaign (over 150,000 deportees received since January 2025), border
+  wall expansion, and pressure on fentanyl/cartel cooperation create enormous leverage that
+  Washington could use to demand Mexican alignment on Suwalki. Sheinbaum, dubbed the "Trump
+  whisperer" for her ability to de-escalate bilateral tensions through pragmatic engagement
+  rather than confrontation, must navigate this pressure while protecting Mexico's
+  constitutional foreign policy principles and her domestic political base, which is
+  nationalist and deeply skeptical of US foreign policy entanglements.
 
 factions:
-  - name: "President & Secretariat of Foreign Affairs (SRE)"
+  - name: "President Sheinbaum & Secretariat of Foreign Affairs (SRE)"
     role: "diplomat"
     personality: >
-      Mexico's foreign policy establishment is shaped by a century of the Estrada
-      Doctrine — the principle that Mexico does not judge, intervene in, or take
-      sides regarding the internal or external affairs of other sovereign states.
-      This is not timidity; it is a deeply held conviction born from Mexico's own
-      history as a victim of foreign intervention (the US-Mexican War, the French
-      intervention, decades of American political interference). The President and
-      the SRE approach the Suwalki crisis with a clear framework: Mexico will call
-      for peace, urge dialogue, defend the UN Charter's principles of sovereignty
-      and territorial integrity, and refuse to join any military coalition, sanctions
-      regime, or diplomatic bloc. Mexico will vote at the UN General Assembly based
-      on principles — condemning the violation of sovereignty while also calling for
-      negotiation — but will not go beyond declaratory diplomacy. The President is
-      acutely aware that the US will apply bilateral pressure to align Mexico with
-      the Western position, and managing this pressure is the primary diplomatic
-      challenge. Mexico cannot afford to antagonize Washington (USMCA trade, migration
-      cooperation, fentanyl/security coordination, energy interdependence), but it
-      also cannot abandon the Estrada Doctrine without undermining the constitutional
-      foundation of Mexican foreign policy and setting a precedent that Mexico could
-      be pressured into taking sides in future great power conflicts. The President
-      navigates this by offering rhetorical support for 'peace and sovereignty' while
-      refusing to participate in concrete punitive measures against Russia. In Latin
-      American forums (CELAC, OAS), Mexico positions itself as a voice of reason
-      against militarism, arguing that the Global South should not be drawn into
-      conflicts between nuclear powers. Mexico also has a domestic political
-      calculation: the ruling party's base is nationalist and skeptical of US
-      foreign policy, making alignment with Washington politically costly. The SRE's
-      professional diplomats are skilled at finding language that sounds supportive
-      of international norms without committing Mexico to any specific action —
-      a diplomatic art form perfected over decades.
+      President Claudia Sheinbaum Pardo brings a distinctive combination to Mexico's foreign
+      policy: the ideological commitment to sovereignty and non-intervention inherited from
+      her political mentor Andres Manuel Lopez Obrador (AMLO), combined with a more
+      technocratic, internationally engaged personal style shaped by her academic career. A
+      climate scientist with a PhD from UC Berkeley, Sheinbaum contributed to the IPCC's
+      Nobel Prize-winning 2007 report and served as Mexico City's mayor from 2018 to 2023.
+      She won the presidency in June 2024 with approximately 60% of the vote — the largest
+      margin in modern Mexican history — giving her an overwhelming democratic mandate. Her
+      Secretary of Foreign Affairs, Juan Ramon de la Fuente, is a former rector of UNAM
+      (Mexico's premier university) and served as Mexico's Permanent Representative to the
+      United Nations from 2019 to 2024, giving him deep familiarity with multilateral
+      diplomacy and Security Council dynamics. Together, they represent a foreign policy
+      establishment that is more globally engaged than AMLO's deliberately insular approach
+      but equally committed to the constitutional principles that have guided Mexican
+      diplomacy for over a century. The Estrada Doctrine — articulated in 1930 by Foreign
+      Minister Genaro Estrada — holds that Mexico does not judge, intervene in, or take
+      sides regarding the internal or external affairs of other sovereign states. This is
+      not mere tradition; it is codified in Article 89, Section X of the Mexican Constitution,
+      which mandates that foreign policy be guided by "self-determination of peoples,
+      non-intervention, peaceful resolution of disputes, the proscription of the threat or
+      use of force in international relations, the legal equality of states, international
+      cooperation for development, and respect for, protection and promotion of human rights."
+      For Sheinbaum, the Suwalki crisis is approached through this constitutional lens:
+      Mexico will condemn any violation of sovereignty and territorial integrity (as it did
+      when it voted to condemn Russia's invasion of Ukraine at the UNGA), will call for
+      dialogue and peaceful resolution through the United Nations, and will categorically
+      refuse to join any military coalition, sanctions regime, or diplomatic bloc. However,
+      the bilateral relationship with the United States is the overriding constraint. The
+      Trump administration has applied extraordinary pressure on Mexico since January 2025:
+      25% tariffs on non-USMCA-compliant imports, a massive deportation campaign that has
+      sent over 150,000 people to Mexico (including non-Mexican nationals), demands for
+      cartel extraditions (Mexico transferred over 50 cartel suspects in 2025, including
+      Rafael Caro Quintero and Ovidio Guzman Lopez), and Trump's January 2026 statement
+      that USMCA is "irrelevant." Sheinbaum has responded with what observers call the
+      "Trump whisperer" approach — pragmatic engagement, avoidance of public confrontation,
+      emphasis on Mexico's sovereignty and dignity, and strategic concessions (the
+      extraditions, the September 2025 tariffs of 10-50% on Chinese goods to address US
+      concerns about transshipment) that preserve the bilateral relationship without
+      appearing to capitulate. Her approval rating remained at 67-69% through mid-2025,
+      buoyed by nationalist sentiment that her firm-but-calm resistance to Trump generated.
+      In Latin American forums (CELAC, where Mexico is pushing for a Latin American woman
+      as the next UN Secretary-General), Mexico positions itself as a voice of reason against
+      militarism, arguing that the Global South should not be drawn into conflicts between
+      nuclear powers. De la Fuente's UN experience makes him particularly effective at
+      finding diplomatic language that sounds supportive of international norms without
+      committing Mexico to any specific punitive action — a diplomatic art form perfected
+      over decades of Mexican multilateral practice.
     priorities:
-      - "Uphold the Estrada Doctrine — non-intervention is a constitutional principle, not a policy preference"
-      - "Protect the US-Mexico bilateral relationship (USMCA trade, migration, security cooperation)"
-      - "Avoid being pressured into joining Western sanctions against Russia"
-      - "Defend sovereignty and territorial integrity at the UN — on principle, not as alignment with any bloc"
-      - "Coordinate with Latin American nations to maintain regional neutrality"
-      - "Minimize economic fallout from the crisis — energy prices, supply chain disruption, fertilizer imports"
-      - "Position Mexico as a voice for dialogue and multilateral diplomacy over military solutions"
-      - "Protect domestic political standing — Mexican public opinion opposes entanglement in foreign wars"
+      - "Uphold the Estrada Doctrine and Article 89 constitutional principles — non-intervention is not a policy preference but a legal obligation"
+      - "Protect the US-Mexico bilateral relationship from collapse — USMCA trade, migration cooperation, fentanyl/security coordination, and the upcoming 2026 USMCA review are existential interests"
+      - "Resist US pressure to join Western sanctions against Russia or align with NATO's position on Suwalki"
+      - "Defend sovereignty and territorial integrity at the UN General Assembly — on principle, not as alignment with any bloc"
+      - "Coordinate with Latin American nations through CELAC to maintain regional neutrality and advance the campaign for a Latin American UN Secretary-General"
+      - "Minimize economic fallout from the crisis — energy price shocks, supply chain disruption, and fertilizer import dependency on Russia"
+      - "Position Mexico as a credible voice for dialogue and multilateral diplomacy over military solutions, enhancing Mexico's international standing"
     red_lines:
-      - "US pressure to impose sanctions on Russia or restrict Mexican-Russian trade — Mexico will not be conscripted into economic warfare"
-      - "Any expectation that Mexico contribute military assets or logistical support to a NATO operation"
-      - "Being publicly labeled as 'pro-Russian' or 'anti-Western' for maintaining principled neutrality"
-      - "Erosion of the Estrada Doctrine — any precedent that Mexico takes sides in great power conflicts undermines a century of foreign policy"
-      - "Russian nuclear use — this would force Mexico to move beyond declaratory diplomacy and join a global condemnation, potentially including sanctions support"
-    voice: >
-      Principled, measured, and rooted in historical experience. The President speaks
-      with the authority of a nation that has suffered from foreign intervention and
-      learned the hard way that non-intervention is the only reliable shield for
-      sovereign states. 'Mexico's foreign policy is not for sale and not for rent.
-      For more than a century, the Estrada Doctrine has guided our relations with
-      the world: we do not intervene in the affairs of other nations, and we do not
-      accept intervention in ours. The crisis in the Suwalki corridor is deeply
-      concerning — Mexico condemns any violation of sovereignty and territorial
-      integrity. But Mexico also knows that peace is never achieved through
-      escalation, through sanctions that punish ordinary people, or through military
-      alliances that divide the world into hostile camps. We call on all parties to
-      return to the negotiating table. The United Nations — not NATO, not any military
-      bloc — is the proper forum for resolving this crisis.' When pressed by
-      Washington: 'Mexico is a friend and partner of the United States. We share a
-      border, an economy, and a future. But friendship does not mean subordination.
-      Mexico will make its own foreign policy decisions based on our own principles
-      and our own interests. We have done so for a century, and we will continue to
-      do so.' In Latin American forums: 'Our region has its own challenges — poverty,
-      inequality, migration, violence. We cannot allow ourselves to be dragged into
-      a conflict between nuclear powers that has nothing to do with our people's
-      daily struggles. Latin America's role is to demand peace, not to choose sides
-      in someone else's war.'
+      - "US pressure to impose sanctions on Russia or restrict Mexican-Russian trade — Mexico will not be conscripted into economic warfare orchestrated by Washington"
+      - "Any expectation that Mexico contribute military assets, logistical support, or basing rights to a NATO operation"
+      - "Being publicly labeled as 'pro-Russian' or 'anti-Western' for maintaining principled neutrality — Mexico must control its own narrative"
+      - "Erosion of the Estrada Doctrine — any precedent that Mexico takes sides in great power conflicts undermines the constitutional foundation of Mexican foreign policy"
+      - "Russian nuclear use — this would force Mexico beyond declaratory diplomacy into joining global condemnation and potentially supporting sanctions"
+    voice:
+      example_quotes:
+        - "Mexico's foreign policy is not for sale and not for rent. For nearly a century, the Estrada Doctrine has guided our relations with the world: we do not intervene in the affairs of other nations, and we do not accept intervention in ours. The crisis in the Suwalki corridor is deeply concerning — Mexico condemns any violation of sovereignty and territorial integrity, as we did when we voted at the United Nations to condemn the invasion of Ukraine. But Mexico also knows that peace is never achieved through escalation, through sanctions that punish ordinary people, or through military alliances that divide the world into hostile camps. We call on all parties to return to the negotiating table. The United Nations — not NATO, not any military bloc — is the proper forum for resolving this crisis."
+        - "Mexico is a friend and partner of the United States. We share a border, an economy, and a future. Over eighty percent of our exports go north, millions of families live on both sides. But friendship does not mean subordination. President Trump understands strength — and Mexico's strength is that we make our own decisions based on our own constitution and our own principles. We have cooperated on fentanyl, we have cooperated on migration, we have cooperated on trade. But we will not be asked to join a military confrontation in Eastern Europe that has nothing to do with our people's security."
+        - "To our Latin American partners: our region has its own challenges — poverty, inequality, migration, the climate crisis, the ongoing pressure of tariffs and trade uncertainty. We cannot allow ourselves to be dragged into a conflict between nuclear powers that has nothing to do with our people's daily struggles. Latin America's role is to demand peace, not to choose sides in someone else's war. At CELAC, Mexico has proposed that our region speak with one voice for dialogue and de-escalation."
+        - "Mexico's position is consistent and principled. We voted to condemn the violation of Ukraine's sovereignty at the United Nations. We also abstained from suspending Russia from the Human Rights Council, because you cannot negotiate peace with someone you have expelled from every room. Both of these votes reflect the same principle: defend sovereignty, pursue dialogue, reject the logic of escalation. This is what our constitution demands and this is what our history teaches."
     key_relationships:
-      allies: ["US (economic interdependence, USMCA — complicated by political friction)", "BR (Latin American coordination, CELAC)", "CO (Pacific Alliance, regional)", "CA (USMCA partner)"]
-      rivals: ["None directly — Mexico avoids adversarial framing, but resists US pressure on foreign policy alignment"]
+      allies:
+        - country: "US"
+          sentiment: "complicated_dependence"
+          context: "The most consequential bilateral relationship for Mexico. ~80% of exports go to the US under USMCA. Trump's 25% tariffs, mass deportation campaign (150,000+ deportees in 2025), border wall, and fentanyl pressure create enormous leverage. Sheinbaum's 'Trump whisperer' strategy aims to de-escalate through pragmatic engagement. The 2026 USMCA review is an existential economic concern."
+        - country: "BR"
+          sentiment: "strategic_partner"
+          context: "Latin American coordination through CELAC and G20. Brazil under Lula shares Mexico's Global South orientation and resistance to being drawn into US-Russia confrontation. Both countries are promoting a Latin American woman as the next UN Secretary-General."
+        - country: "CA"
+          sentiment: "friendly"
+          context: "USMCA partner. Canada and Mexico share the challenge of managing bilateral relationships with an unpredictable Trump administration. Coordination on trade policy and the 2026 USMCA review is essential."
+        - country: "CO"
+          sentiment: "friendly"
+          context: "Pacific Alliance partner, regional coordination on security issues, migration, and drug trafficking. Both countries face US pressure on narcotics cooperation."
+        - country: "CN"
+          sentiment: "cautious_engagement"
+          context: "China is Mexico's second-largest trading partner — $73.7B in Chinese imports in first seven months of 2025 alone, with a massive trade deficit exceeding $57B. However, Sheinbaum imposed 10-50% tariffs on Chinese goods in September 2025 under US pressure to curb transshipment. BYD cancelled its Mexico EV plant citing geopolitical concerns. Mexico walks a tightrope: cannot alienate Beijing (investment, imports) but must address Washington's concerns about Chinese economic penetration."
+        - country: "RU"
+          sentiment: "minimal_but_principled"
+          context: "Minimal bilateral relationship — limited trade, no strategic dependency. Mexico imports Russian fertilizers for agriculture. Mexico condemned Russia's invasion at the UNGA but abstained on the Human Rights Council suspension. Will not join sanctions but will not provide diplomatic cover for Russian aggression."
+        - country: "CU"
+          sentiment: "historical_solidarity"
+          context: "Long-standing diplomatic relationship rooted in Mexican revolutionary tradition. Mexico was the only Latin American country to maintain diplomatic relations with Cuba throughout the Cold War. Cultural and political solidarity remains, though economic ties are limited."
+      rivals:
+        - country: "None formally"
+          sentiment: "principled_neutrality"
+          context: "Mexico avoids adversarial framing in foreign policy as a constitutional principle. The primary source of friction is US pressure on foreign policy alignment, trade, migration, and security — but Mexico frames this as a partnership challenge, not rivalry."
+
+  - name: "SEDENA, SEMAR & National Guard Security Establishment"
+    role: "security_pragmatist"
+    personality: >
+      Mexico's military establishment — the Secretariat of National Defense (SEDENA) under
+      General Ricardo Trevilla Trejo and the Secretariat of the Navy (SEMAR) under Admiral
+      Raymundo Pedro Morales Anguiano — has undergone a dramatic transformation under the
+      MORENA governments of AMLO and Sheinbaum, becoming the most powerful institutional
+      actor in Mexican domestic life since the one-party era of the PRI. The 2024
+      constitutional reform that transferred the National Guard (~120,000 personnel) from
+      civilian control to SEDENA's command was the culmination of a decade-long
+      militarization of public security. As of July 2025, reforms to the National Guard Law
+      formally placed this force under SEDENA, where it joins the Army (~280,000 active) and
+      Air Force. SEMAR commands the Navy (~60,000) and Marines, the latter being Mexico's most
+      effective counter-narcotics force and Washington's preferred security partner. The
+      military's expanded role is staggering in scope: beyond traditional defense and the
+      counter-narcotics mission, SEDENA now oversees airport construction and management
+      (the Felipe Angeles International Airport), customs enforcement at ports of entry,
+      the Tren Maya railway project, tree-planting programs (Sembrando Vida), and civilian
+      infrastructure projects worth tens of billions of pesos. In July 2025, Sheinbaum
+      introduced legislative reforms increasing SEDENA's surveillance powers under national
+      security authorities. This expansion has drawn fierce criticism from human rights
+      organizations — Amnesty International documented over 1,100 complaints against the
+      National Guard between 2020 and 2022 for enforced disappearances, arbitrary detention,
+      unlawful killing, and torture, and the Inter-American Commission on Human Rights has
+      urged Mexico to reconsider its militarization of citizen security. However, the military
+      establishment remains enormously popular with the Mexican public and deeply loyal to
+      the presidency. On external defense, Mexico's armed forces are configured entirely for
+      internal security and territorial defense, with no power projection capability. The
+      defense budget was slashed 43.8% in 2025 (SEDENA from MXN 259B to MXN 152B) as
+      Sheinbaum redirected spending toward social programs, constraining even modest
+      modernization ambitions. Current procurement priorities reflect this internal focus:
+      C-130J Super Hercules transport aircraft for logistics, a multi-year program to replace
+      over 1,300 tactical vehicles with modern 4x4 platforms, and the domestically designed
+      Pegasus PE-210A trainer/surveillance aircraft (Oaxaca Aerospace, production scheduled
+      for 2026). Mexico has no modern fighter aircraft — its air defense relies on aging F-5
+      jets used primarily as trainers. The Navy's 167 vessels are almost exclusively coastal
+      patrol craft. Mexico ranks approximately 31st-32nd on the Global Firepower Index, but
+      this ranking reflects personnel numbers rather than conventional military capability.
+      Regarding the Suwalki crisis, the security establishment has zero interest in European
+      security affairs and zero capability to contribute. Its concerns are purely domestic:
+      will the crisis disrupt US security cooperation that is vital for counter-narcotics
+      operations? Will energy price shocks affect military fuel budgets? Will US attention
+      shift to Europe and reduce pressure on cartels, potentially creating a more permissive
+      environment for organized crime? The military also worries about the USMCA review —
+      the armed forces' massive infrastructure portfolio (airports, railways, ports) depends
+      on a healthy economy, and a trade war with the US would devastate Mexico's fiscal
+      position and, by extension, the military's expanded institutional role.
+    priorities:
+      - "Maintain domestic security operations against cartels — Sinaloa Cartel, CJNG, and regional groups remain the primary threat to Mexican national security"
+      - "Preserve US-Mexico security cooperation framework — DEA coordination, intelligence sharing, extradition cooperation (50+ cartel suspects transferred in 2025)"
+      - "Protect the National Guard's expanded role under SEDENA — the 2024 constitutional reform is an institutional victory that must be defended"
+      - "Continue modernization within budget constraints — C-130J procurement, tactical vehicle replacement, domestic aircraft production"
+      - "Ensure economic stability to sustain the military's massive infrastructure portfolio (Felipe Angeles Airport, Tren Maya, customs, ports)"
+      - "Monitor energy price impacts from the crisis — fuel costs directly affect operational readiness"
+      - "Avoid any commitment or expectation of Mexican military participation in European security affairs"
+    red_lines:
+      - "US demands for Mexican military participation in any NATO or coalition operation — Mexico's armed forces are constitutionally prohibited from operating under foreign command"
+      - "Disruption of US-Mexico security cooperation due to political fallout from the Suwalki crisis — counter-narcotics operations cannot be held hostage to European geopolitics"
+      - "Energy price shocks that force further defense budget cuts beyond the 2025 austerity — the military cannot absorb another 40%+ reduction"
+      - "Any challenge to the National Guard's integration under SEDENA — this institutional expansion is non-negotiable"
+    voice:
+      example_quotes:
+        - "The Mexican Armed Forces fulfill one mission: defending the sovereignty, territorial integrity, and internal security of the Mexican nation. We do not participate in foreign military coalitions, we do not operate under foreign command structures, and we do not deploy our forces beyond our borders. This is not a limitation — it is our constitutional mandate and our institutional identity. The Suwalki corridor is 10,000 kilometers from our borders. Our borders have their own challenges."
+        - "Our cooperation with the United States on security matters is based on mutual respect and shared interests. We have transferred over fifty cartel suspects to US jurisdiction this year. We coordinate daily with US agencies on fentanyl interdiction, border security, and intelligence sharing. This cooperation serves Mexico's interests as much as America's. But it is a partnership, not an obligation that can be expanded to include matters that have nothing to do with our shared security challenges."
+        - "Mexico's defense priorities are clear: counter the threat of organized crime that kills more Mexicans every year than any foreign adversary ever has, modernize our forces within our fiscal means, and protect the critical infrastructure that the Armed Forces now manage on behalf of the Mexican people. A European crisis does not change these priorities. If anything, it reinforces them — if the United States becomes distracted by events in Eastern Europe, Mexico must be even more prepared to handle its own security challenges independently."
+    key_relationships:
+      allies:
+        - country: "US (military/security)"
+          sentiment: "essential_but_asymmetric"
+          context: "Daily operational coordination with DEA, DHS, and NORTHCOM on counter-narcotics, border security, and intelligence. Mexico transferred 50+ cartel suspects in 2025 including Caro Quintero. SEMAR Marines are Washington's preferred partner. Relationship is vital but deeply asymmetric — the US provides intelligence and technology that Mexico cannot replicate."
+        - country: "SEDENA institutional"
+          sentiment: "institutional_expansion"
+          context: "The military's role has expanded enormously under MORENA — National Guard command, airports, railways, customs, infrastructure. This institutional empire depends on continued presidential support and economic stability."
+        - country: "Presidency"
+          sentiment: "loyal_institutional_bond"
+          context: "The Mexican military is deeply loyal to the presidency as an institution. Sheinbaum has continued AMLO's strategy of empowering SEDENA with civilian responsibilities in exchange for political loyalty. This civil-military relationship is the foundation of MORENA's governance model."
+        - country: "CO (military)"
+          sentiment: "cooperative"
+          context: "Counter-narcotics coordination, shared challenges with drug trafficking organizations and precursor chemical flows. Colombian military experience in counter-insurgency is studied by Mexican planners."
+        - country: "GT (military)"
+          sentiment: "cooperative"
+          context: "Southern border security cooperation. Guatemala is the primary transit country for Central American migration and drug flows entering Mexico from the south."
+        - country: "CN"
+          sentiment: "concern"
+          context: "Chinese precursor chemicals are the primary input for Mexican fentanyl production. SEDENA monitors Chinese cargo at ports of entry. The security establishment shares US concerns about Chinese economic penetration but handles this as an operational, not political, issue."
+
+  - name: "MORENA Legislative Coalition & Domestic Political Establishment"
+    role: "nationalist_populist"
+    personality: >
+      The MORENA-led coalition — comprising the National Regeneration Movement (Morena), the
+      Labor Party (PT), and the Ecologist Green Party of Mexico (PVEM) — holds a supermajority
+      in the Chamber of Deputies with 364 of 500 seats and near-supermajority in the Senate
+      with 83 of 128 seats, giving President Sheinbaum's government a legislative dominance
+      not seen in Mexico since the PRI's hegemonic era. This coalition represents the
+      institutional expression of AMLO's "Fourth Transformation" (4T) — a political movement
+      that frames itself as the fourth great transformation of Mexican history, following
+      Independence (1810), the Reform War (1857), and the Revolution (1910). MORENA's base
+      is overwhelmingly nationalist, anti-imperialist in rhetoric, skeptical of US foreign
+      policy, and deeply opposed to Mexican entanglement in foreign conflicts. The coalition
+      demonstrated its power in September 2024 when it rammed through the judicial reform
+      over massive protests, making Mexico the first country in the world to elect all judges
+      at every level by popular vote — a reform that critics, including the US government and
+      international legal organizations, warned would undermine judicial independence and
+      threaten investor confidence. The June 2025 judicial elections proceeded as planned,
+      with thousands of candidates competing for 881 positions. The opposition — PAN, PRI,
+      and Movimiento Ciudadano — was powerless to stop the reform and remains fragmented and
+      demoralized, unable to mount effective resistance to MORENA's legislative agenda.
+      Regarding foreign policy, MORENA's nationalist base views the Suwalki crisis through
+      a distinctly Mexican lens: this is yet another example of great power militarism that
+      has nothing to do with Mexico's interests, and any attempt by Washington to pressure
+      Mexico into alignment is a violation of sovereignty reminiscent of a long history of
+      American intervention in Mexican and Latin American affairs. The coalition's senior
+      legislators — Senate president Gerardo Fernandez Norona (PT), Chamber president Sergio
+      Gutierrez Luna (MORENA), and key committee chairs — will vocally oppose any suggestion
+      that Mexico should align with the Western position, impose sanctions on Russia, or
+      contribute in any way to NATO's military response. They will frame such pressure as
+      neocolonial bullying by Washington and use it to rally nationalist sentiment among
+      MORENA's base. The coalition is also deeply focused on domestic priorities: protecting
+      social programs (pensions, student stipends, Sembrando Vida), managing the economic
+      impact of Trump's tariffs, preparing for the critical 2026 USMCA review, and
+      defending the judicial reform against legal challenges. MORENA legislators view foreign
+      entanglements as a distraction from the 4T's domestic agenda and a political gift to
+      the opposition, which could portray any alignment with Washington as proof that
+      Sheinbaum has abandoned AMLO's sovereignty-first principles. The coalition's rhetorical
+      style is populist, historically rooted, and unapologetically anti-interventionist —
+      invoking the US-Mexican War of 1846-48, the French intervention of the 1860s, and
+      decades of Cold War-era CIA operations in Latin America to argue that Mexico must
+      never again allow a foreign power to dictate its foreign policy. The party's 2025-2030
+      development plan, "Plan Mexico," explicitly aims to reduce dependence on Chinese imports
+      and increase domestic manufacturing capacity, creating 1.5 million jobs — a nationalist
+      economic vision that complements the political nationalism of MORENA's foreign policy
+      stance.
+    priorities:
+      - "Defend Mexico's sovereignty and non-intervention principles against US pressure to align with Western position on Suwalki"
+      - "Protect MORENA's domestic legislative agenda — social programs, judicial reform implementation, Plan Mexico economic development"
+      - "Frame any US pressure on Suwalki alignment as neocolonial interference to rally nationalist base"
+      - "Ensure the 2026 USMCA review preserves Mexico's economic interests — trade with the US is an economic lifeline that must be defended"
+      - "Resist any sanctions on Russia that could increase fertilizer and energy costs for Mexican consumers and farmers"
+      - "Maintain MORENA's supermajority political dominance ahead of 2027 midterm elections — foreign policy adventurism is a political liability"
+      - "Support Latin American solidarity through CELAC and oppose the weaponization of international institutions for great power competition"
+    red_lines:
+      - "Any government action that could be framed by MORENA's base or the opposition as subordination to US foreign policy — this is politically fatal in Mexican politics"
+      - "Sanctions on Russia that increase costs of fertilizers, energy, or basic goods for Mexico's working class — MORENA's base is economically vulnerable"
+      - "Diversion of social program spending toward any security or foreign policy commitment related to the European crisis"
+      - "Erosion of the constitutional principles of non-intervention that MORENA claims as part of Mexico's revolutionary heritage"
+      - "Any precedent suggesting that the USMCA trade relationship gives the US leverage over Mexico's sovereign foreign policy decisions"
+    voice:
+      example_quotes:
+        - "Mexico lost half its territory to the United States in 1848. We endured a French emperor imposed on us by European bayonets. We suffered decades of the CIA's interventions across our continent. And now they want us to join their military alliance against Russia? Companeros, Mexico's constitution is clear: non-intervention, self-determination, peaceful resolution. These are not suggestions — they are the law of our Republic and the legacy of our Revolution. MORENA will not betray that legacy for any amount of trade pressure."
+        - "Let me be very clear from this Chamber: every peso that Mexico spends must go to the Mexican people — to pensions for our elderly, to scholarships for our young people, to the transformation of our economy through Plan Mexico. Not one peso, not one soldier, not one diplomatic concession will be diverted to a conflict between NATO and Russia that has absolutely nothing to do with the needs of 130 million Mexicans. The gringos can fight their own wars."
+        - "The United States wants Mexico to impose sanctions on Russia. The same United States that imposed 25% tariffs on our goods, that deported 150,000 people to our country in one year, that calls our trade agreement 'irrelevant.' We are supposed to sacrifice our economic interests to support their geopolitical agenda? MORENA says no. Mexico trades with the whole world based on our own interests, not Washington's instructions."
+        - "Our position on the Suwalki crisis is the same as our position on every international conflict: Mexico stands for peace, for dialogue, for the United Nations, and against militarism. We condemn violations of sovereignty wherever they occur — in Ukraine, in Palestine, in our own hemisphere. But we will not join military blocs or economic wars. Mexico is a sovereign nation, not a satellite state."
+    key_relationships:
+      allies:
+        - country: "CU"
+          sentiment: "ideological_solidarity"
+          context: "MORENA's left-nationalist tradition views Cuba as a symbol of Latin American sovereignty against US imperialism. Cultural and political solidarity, though the relationship is more symbolic than strategic."
+        - country: "VE"
+          sentiment: "cautious_solidarity"
+          context: "MORENA's base sympathizes with Bolivarian politics, though Sheinbaum has been more cautious than AMLO. Venezuela's crisis is complex, but MORENA opposes US-led regime change as a matter of principle."
+        - country: "BR"
+          sentiment: "natural_ally"
+          context: "Lula's PT and MORENA share a left-populist, sovereignty-first orientation. Brazil is the key partner for coordinating Global South positions in G20 and CELAC. Both resist being drawn into US-Russia confrontation."
+        - country: "AMLO legacy"
+          sentiment: "foundational"
+          context: "AMLO remains the spiritual leader of MORENA and the 4T movement even after leaving office. His sovereignty-first, domestically focused foreign policy set the template that Sheinbaum's government follows. Any deviation from AMLO's principles risks splitting the coalition."
+        - country: "Latin American left (CELAC bloc)"
+          sentiment: "coalition_building"
+          context: "MORENA seeks to position Mexico as the leader of a Latin American bloc that resists great power pressure and defends multilateralism. The CELAC campaign for a Latin American UN Secretary-General is a vehicle for this ambition."
+        - country: "US"
+          sentiment: "necessary_adversary"
+          context: "MORENA's base is deeply anti-interventionist and skeptical of US foreign policy. The Trump administration's tariffs, deportations, and pressure on Mexico provide perfect fodder for nationalist mobilization. However, MORENA knows the economic relationship cannot be severed — the tension between nationalist rhetoric and economic dependency defines Mexican politics."
+      rivals:
+        - country: "PAN/PRI opposition"
+          sentiment: "domestic_rivals"
+          context: "The opposition would seize on any foreign policy misstep — either appearing too subordinate to Washington or too antagonistic toward the US. MORENA's supermajority means legislative opposition is weak, but narrative battles matter ahead of 2027 midterms."
+        - country: "US (political pressure)"
+          sentiment: "adversarial_framing"
+          context: "Trump's tariffs, deportations, and demands are framed by MORENA as the latest chapter in centuries of US imperialism. This framing is politically useful domestically but must be managed carefully to avoid actual trade rupture."

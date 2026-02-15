@@ -1,9 +1,59 @@
 name: "Taiwan"
 code: "TW"
-alliances: ["US informal security partnership", "Quad alignment", "tech industry alignment with Western democracies"]
-military_strength: 5
-economic_strength: 7
+
+government: >
+  President Lai Ching-te (William Lai, DPP "New Tide" faction), inaugurated May 20, 2024.
+  First minority-government president since democratization — DPP holds only 51 of 113
+  Legislative Yuan seats. Premier Cho Jung-tai. Defense Minister Wellington Koo (first
+  civilian defense minister without military experience in over a decade, appointed April
+  2024). National Security Council Secretary-General Joseph Wu. KMT opposition (52 seats)
+  under new Chairwoman Cheng Li-wun (elected October 2025, took office November 1, 2025).
+  Taiwan People's Party (TPP, 8 seats) under Ko Wen-je. KMT-TPP coalition commands 60-51
+  legislative majority. December 26, 2025: Legislature passed impeachment motion against
+  Lai 60-51 after he refused to promulgate a fiscal revenue-sharing amendment; public
+  hearings scheduled January 14-15 and May 13-14, 2026; roll call vote May 19, 2026 —
+  but opposition lacks the two-thirds supermajority needed for removal. The "Great Recall"
+  campaign (February-August 2025) targeting 31 KMT legislators failed entirely — zero
+  recalls succeeded across July 26 and August 23 votes, emboldening the opposition.
+
+alliances:
+  - "US (informal security partnership — Taiwan Relations Act, strategic ambiguity)"
+  - "JP (deepening security alignment — PM Takaichi stated Taiwan attack would be 'survival-threatening situation' for Japan, Nov 2025)"
+  - "AU (shared China threat perception, Quad alignment)"
+  - "Tech industry alignment with Western democracies (TSMC as strategic bridge)"
+  - "EU (informal, expanding — TSMC Dresden fab deepens economic ties)"
+
+military_strength: 5  # ~190,000-230,000 active personnel (numbers vary by source; recent MND report claims
+                      # nearly 230,000 including conscripts). ~1.67M mobilizable reservists but reserve
+                      # quality is poor — reform ongoing. 144 upgraded F-16V (Block 20) fighters with 66
+                      # new F-16 Block 70/72 on order (deliveries delayed to late 2026-2027 due to Lockheed
+                      # production issues). Mirage 2000-5, F-CK-1 Indigenous Defense Fighters. Patriot PAC-3
+                      # batteries. Indigenous submarine Hai Kun (SS-711) — first submerged trial Jan 29, 2026.
+                      # 6+ Tuo Chiang-class stealth corvettes operational, 6th launched July 2025, fleet of
+                      # 12 expected by 2026-2027. Hsiung Feng II/III anti-ship missiles (232 additional
+                      # ordered, air-launched HF-3 variant tested Dec 2025). $11.1B US arms package approved
+                      # Dec 2025 — largest ever to Taiwan — includes 82 HIMARS, 420 ATACMS, 1,050 Javelins,
+                      # 1,545 TOW-2B, 60 M109A7 howitzers, ALTIUS loitering munitions. But KMT-controlled
+                      # legislature blocking the NT$1.25T special defense budget. One-year conscription
+                      # program producing trained soldiers but at low volumes (6,900 in 2024, 9,839 target
+                      # in 2025) — critical mass of post-2004 births arrives 2027. Combat units operating
+                      # below 80% authorized strength. Asymmetric "porcupine" defense strategy (Overall
+                      # Defense Concept) aims to hold 14-21 days for US intervention. Ranked ~15th globally.
+                      # Strong in asymmetric denial capabilities but cannot match PLA in conventional force.
+
+economic_strength: 7  # Nominal GDP ~$884B (2025 IMF estimate), 21st globally by PPP (~$1.64T). GDP growth
+                      # 7.2-7.4% in 2025 — fastest in Asia, driven by AI semiconductor boom. 2026 growth
+                      # forecast 3.7-4.8% (moderating but still strong). TSMC alone represents ~15% of GDP
+                      # and market cap approaching $1T. TSMC produces >90% of world's most advanced chips
+                      # (3nm, 2nm) — Apple, NVIDIA, Qualcomm, US DoD all dependent. 2025 revenue $122B (+35%
+                      # Q4 profit). "Silicon shield" provides unique geopolitical leverage but eroding under
+                      # US pressure — TSMC committed $165B total US investment (up from $65B). Taiwan's tech
+                      # sector is globally indispensable but economy is export-dependent and vulnerable to
+                      # cross-strait disruption. Housing affordability crisis and wage stagnation are domestic
+                      # pressure points. Stock market surged 22% in 2025 on AI boom.
+
 nuclear: false
+
 geographic_relevance: >
   Taiwan is geographically distant from the Suwalki corridor but the crisis holds existential
   significance for Taipei. The entire strategic calculus for a potential PRC invasion of Taiwan
@@ -19,24 +69,31 @@ geographic_relevance: >
   impeachment motion against Lai — triggered by his refusal to promulgate a fiscal revenue-sharing
   amendment — passed 60-51 on party lines, though it lacks the two-thirds supermajority needed for
   removal. Cross-strait tensions have escalated sharply: the PLA's "Justice Mission 2025" exercise
-  in late December 2025, the eighth major drill since August 2022, rehearsed a full maritime
-  blockade of Taiwan with 130+ aircraft sorties, 14 warships, rockets fired into the Taiwan Strait
-  for the first time since 2022, and exercise zones crossing into Taiwan's contiguous zone —
-  triggered by a massive $11 billion US arms package announced days earlier. Taiwan's semiconductor
-  industry (TSMC, MediaTek, UMC) produces over 90% of the world's most advanced chips, making
-  Taiwan economically indispensable to both Western military systems and global supply chains, but
-  the Trump administration's January 2026 trade deal — extracting $250 billion in Taiwanese
-  semiconductor investment commitments and threatening 100% tariffs if 40% of chip production does
-  not shift to the US — is steadily eroding Taiwan's "silicon shield." TSMC's first Arizona fab
-  (Fab 21 Phase 1) entered volume production in Q4 2024 producing chips for Apple and NVIDIA; the
-  second fab (3nm) completed construction and targets 2027 production; a third fab (2nm/A16) broke
-  ground in April 2025. Taiwan's geographic position in the First Island Chain makes it a critical
-  node in containing Chinese naval expansion into the Pacific. Unlike Ukraine or the Baltics,
-  Taiwan lacks formal defense treaties, relying on America's "strategic ambiguity" — though Trump's
-  transactional approach has introduced new uncertainty about whether US commitment is a security
-  guarantee or a commercial negotiation. If Russia succeeds in Suwalki, Beijing will read it as a
-  green light for Taiwan. If NATO succeeds, it may deter Chinese adventurism or convince Beijing to
-  accelerate its timeline before Western resolve hardens further.
+  on December 29-30, 2025 — the second named major exercise of 2025 directed at Taiwan — rehearsed
+  a full maritime blockade with 130 aircraft sorties (90 crossing the Taiwan Strait centerline),
+  14 PLAN warships, 8 Coast Guard vessels, declared exercise zones encroaching on Taiwan's
+  contiguous zone, and participation by PLA Navy, Air Force, Rocket Force, and other branches.
+  This was linked by Beijing to both Lai's "separatist" rhetoric and the $11.1B US arms package
+  announced days earlier. Since Lai's inauguration, PLA ADIZ incursions have averaged over 300
+  per month — more than double the previous two-year average. On March 13, 2025, Lai became the
+  first Taiwanese president to publicly characterize China as a "foreign hostile force" trying to
+  "annex Taiwan and stamp out the Republic of China." Taiwan's semiconductor industry (TSMC,
+  MediaTek, UMC) produces over 90% of the world's most advanced chips, making Taiwan economically
+  indispensable to both Western military systems and global supply chains. TSMC's Arizona
+  expansion has reached $165 billion in total committed US investment (announced March 2025),
+  with Fab 21 Phase 1 in volume production since Q4 2024, Phase 2 (3nm) complete with tool
+  installation targeting Q3 2026 and volume production H2 2027, Phase 3 (2nm/A16) under
+  construction, and plans for up to 12 total Arizona fabs. But every overseas fab erodes
+  Taiwan's "silicon shield." Taiwan's geographic position in the First Island Chain makes it a
+  critical node in containing Chinese naval expansion into the Pacific. Unlike Ukraine or the
+  Baltics, Taiwan lacks formal defense treaties, relying on America's "strategic ambiguity" —
+  though the Trump administration's transactional approach has introduced new uncertainty about
+  whether US commitment is a security guarantee or a commercial negotiation. Japanese PM Takaichi
+  stated in November 2025 that a Chinese attack on Taiwan would constitute a "survival-threatening
+  situation" for Japan, the strongest such statement by a Japanese leader. If Russia succeeds in
+  Suwalki, Beijing will read it as a green light for Taiwan. If NATO succeeds, it may deter
+  Chinese adventurism or convince Beijing to accelerate its timeline before Western resolve
+  hardens further.
 
 factions:
   - name: "President Lai Ching-te & National Security Council"
@@ -50,275 +107,275 @@ factions:
       first minority-government president since democratization. The KMT-TPP opposition coalition
       has weaponized its legislative majority to block budgets, pass oversight laws expanding
       legislative power, and — most dramatically — initiated impeachment proceedings against Lai
-      in December 2025 after he refused to promulgate a fiscal revenue-sharing amendment that would
-      have gutted central government finances. The impeachment motion passed 60-51 on December 26
-      but faces steep constitutional hurdles requiring two-thirds of legislators and then
-      Constitutional Court concurrence. Lai views the Suwalki crisis as Taiwan's crisis — because
-      it is. If NATO fails to defend Lithuania's sovereignty, the message to Beijing is unmistakable:
-      democracies will not fight for small territories against nuclear-armed adversaries, and Taiwan
-      is next. Lai's cross-strait posture is firm but calibrated: he rejects Beijing's "one country,
-      two systems" formula and the 1992 Consensus, insists Taiwan is already a sovereign state
-      (the Republic of China), and has used every diplomatic channel to support NATO's position
-      while offering Taiwan's semiconductor leverage to reinforce strategic indispensability. His
-      administration has pushed defense spending to 3.32% of GDP for 2026 and proposed a historic
-      $40 billion special defense budget (2026-2033) for US arms acquisitions, including 82 HIMARS
-      launchers, 420 ATACMS missiles, Javelin and TOW anti-armor systems, and the "Taiwan Dome"
-      integrated air defense system. Lai extended conscription from four months to one year
-      (effective January 2025), with the first cohort of 6,900 completing training on Stinger
-      missiles, Javelin launchers, Kestrel rockets, and autonomous drones. He is under no
-      illusions about military realities — Taiwan cannot defeat a full PLA invasion alone — but
-      believes raising costs high enough buys time for US intervention. Domestically, Lai's
-      position is precarious: the failed "Great Recall" campaign of summer 2025, which sought to
-      unseat 31 KMT legislators but failed to remove a single one, was a bitter political defeat
-      that emboldened the opposition. Lai references the 1996 Taiwan Strait Crisis, when US carrier
-      groups deterred Chinese missile tests, as proof that American credibility matters — but
-      privately worries that Trump's transactional approach to Taiwan, treating semiconductor
-      leverage as a commercial negotiation rather than a security partnership, is fundamentally
-      different from the bipartisan commitment of previous administrations.
+      on December 26, 2025 after he refused to promulgate a fiscal revenue-sharing amendment that
+      would have gutted central government finances. The impeachment motion passed 60-51 but faces
+      steep constitutional hurdles requiring two-thirds of legislators and then Constitutional Court
+      concurrence; public hearings are scheduled for January 14-15, 2026, with Lai required to
+      appear January 21-22 and again May 13-14, and the roll call vote set for May 19, 2026. Lai
+      views the Suwalki crisis as Taiwan's crisis — because it is. If NATO fails to defend
+      Lithuania's sovereignty, the message to Beijing is unmistakable: democracies will not fight
+      for small territories against nuclear-armed adversaries, and Taiwan is next. Lai's
+      cross-strait posture is firm but calibrated: he rejects Beijing's "one country, two systems"
+      formula and the 1992 Consensus, insists Taiwan is already a sovereign state (the Republic of
+      China), and on March 13, 2025 became the first Taiwanese president to publicly characterize
+      China as a "foreign hostile force" trying to "annex Taiwan and stamp out the Republic of
+      China." He has used every diplomatic channel to support NATO's position while offering
+      Taiwan's semiconductor leverage to reinforce strategic indispensability. His administration
+      has pushed defense spending to 3.32% of GDP for 2026 — crossing the 3% threshold for the
+      first time since 2009 — and proposed a historic NT$1.25 trillion ($39.6 billion) special
+      defense budget (2026-2033) for US arms acquisitions and joint production programs, covering
+      air defense, anti-armor, drone, and C5ISR capabilities. Defense Minister Wellington Koo, the
+      first civilian without military experience to hold the post in over a decade, has warned
+      publicly (February 11, 2026) that Taiwan could become a "breach" in Indo-Pacific collective
+      defense if the opposition blocks this budget. Lai extended conscription from four months to
+      one year (effective January 2024, with the first full cohort completing training in early
+      2025), with conscripts trained on Stinger missiles, Javelin launchers, Kestrel rockets, and
+      autonomous drones — though the program faces equipment and instructor shortages, with only
+      6% of eligible males initially choosing to enlist rather than defer for university, and many
+      combat units operating below 80% authorized strength. He is under no illusions about military
+      realities — Taiwan cannot defeat a full PLA invasion alone — but believes raising costs high
+      enough buys time for US intervention. Domestically, Lai's position is precarious: the failed
+      "Great Recall" campaign of February-August 2025, which sought to unseat 31 KMT legislators
+      across votes on July 26 and August 23 but failed to remove a single one (with 64-69% voting
+      against recall in all contests), was a bitter political defeat that emboldened the opposition
+      to pursue impeachment. Lai references the 1996 Taiwan Strait Crisis, when US carrier groups
+      deterred Chinese missile tests, as proof that American credibility matters — but privately
+      worries that Trump's transactional approach to Taiwan, treating semiconductor leverage as a
+      commercial negotiation rather than a security partnership, is fundamentally different from the
+      bipartisan commitment of previous administrations. The PLA's Justice Mission 2025 exercise —
+      130 aircraft sorties with 90 crossing the Strait centerline, 14 PLAN warships, exercise zones
+      encroaching on Taiwan's contiguous zone — and the sustained average of 300+ monthly ADIZ
+      incursions since his inauguration confirm that Beijing views his presidency as a provocation
+      worthy of maximum military pressure. Lai's challenge is existential on two fronts: deter
+      China externally while surviving impeachment and legislative sabotage domestically.
     priorities:
       - "Ensure Suwalki crisis does not become precedent for legitimizing territorial seizure of democracies"
-      - "Leverage Taiwan's semiconductor monopoly (TSMC) to reinforce strategic indispensability to the West"
+      - "Leverage Taiwan's semiconductor monopoly (TSMC >90% advanced chips) to reinforce strategic indispensability to the West"
       - "Support NATO allies diplomatically and economically — Taiwan's security depends on Western credibility"
-      - "Accelerate defense procurement — 82 HIMARS, 420 ATACMS, Javelins, TOW missiles, Taiwan Dome air defense"
+      - "Pass NT$1.25T special defense budget through hostile legislature — fund HIMARS, ATACMS, drones, C5ISR, air defense"
       - "Monitor PLA exercises and readiness for signs Beijing uses Suwalki distraction to prepare Taiwan move"
-      - "Manage domestic political crisis — survive impeachment proceedings, pass defense budgets through hostile legislature"
+      - "Survive impeachment proceedings — hearings Jan/May, roll call vote May 19 — maintain governing authority"
       - "Navigate Trump administration's transactional approach without losing US security partnership"
     red_lines:
       - "Any Western peace deal in Suwalki that legitimizes territorial seizure through force or coercion"
-      - "US redeployment of Pacific forces to Europe that weakens Taiwan deterrence"
-      - "PLA military exercises or incursions that indicate preparation for imminent invasion — especially repeat of Justice Mission 2025 scale"
+      - "US redeployment of Pacific carrier strike groups to Europe that weakens Taiwan deterrence"
+      - "PLA military exercises or incursions that indicate preparation for imminent invasion — especially exceeding Justice Mission 2025 scale"
       - "KMT-TPP opposition succeeding in impeachment or forcing capitulation on defense spending"
       - "Trump administration demanding semiconductor concessions that eliminate Taiwan's strategic leverage entirely"
-    voice: >
-      Clear, principled, and direct — speaking the language of democratic solidarity with the
-      urgency of a leader facing existential threat and domestic political siege: 'Taiwan stands
-      with Lithuania, with NATO, and with all democracies facing authoritarian aggression. We
-      understand what is at stake because we live this threat every day. The PLA's Justice Mission
-      2025 exercise — 130 aircraft sorties, rockets in the Taiwan Strait, a simulated blockade of
-      Keelung and Kaohsiung — was not an exercise. It was a rehearsal. If the international
-      community accepts that borders can be changed by force, that sovereignty is negotiable under
-      military pressure, Taiwan will be next. We call on the democratic world to stand firm.
-      Taiwan is not just an island — we are 24 million free people, the first Chinese democracy,
-      and we will not surrender our freedom.' In private channels with Washington: 'Secretary
-      Rubio, Taiwan's security and Lithuania's security are connected by one question: will
-      America fight for its partners when tested? If the answer in Suwalki is no, Beijing already
-      knows the answer for Taiwan. We need clarity, and we need it now. And we offer something in
-      return: TSMC's chips are in your F-35s, your Patriot missiles, your NVIDIA AI systems. We
-      have committed $250 billion in semiconductor investment on American soil. Taiwan is not a
-      liability — we are an indispensable partner. But we need to know that partnership runs both
-      directions.' On the domestic crisis: 'The opposition's impeachment motion is political theater.
-      They lack the two-thirds majority. But I will not sign legislation that guts our central
-      government's ability to fund national defense at the most dangerous moment in cross-strait
-      history.'
+    voice:
+      tone: "Clear, principled, and direct — speaking the language of democratic solidarity with the urgency of a leader facing existential threat and domestic political siege"
+      example_quotes:
+        - "Taiwan stands with Lithuania, with NATO, and with all democracies facing authoritarian aggression. We understand what is at stake because we live this threat every day. The PLA's Justice Mission 2025 exercise — 130 aircraft sorties, 90 crossing the Strait centerline, 14 warships in a simulated blockade of Keelung and Kaohsiung — was not an exercise. It was a rehearsal. If the international community accepts that borders can be changed by force, that sovereignty is negotiable under military pressure, Taiwan will be next. We are 24 million free people, the first Chinese democracy, and we will not surrender our freedom."
+        - "Secretary Rubio, Taiwan's security and Lithuania's security are connected by one question: will America fight for its partners when tested? If the answer in Suwalki is no, Beijing already knows the answer for Taiwan. We need clarity, and we need it now. And we offer something in return: TSMC's chips are in your F-35s, your Patriot missiles, your NVIDIA AI systems. We have committed $165 billion in semiconductor investment on American soil. Taiwan is not a liability — we are an indispensable partner. But we need to know that partnership runs both directions."
+        - "The opposition's impeachment motion is political theater — they lack the two-thirds majority, and the Constitutional Court will not sustain it. But I will not sign legislation that guts our central government's ability to fund national defense at the most dangerous moment in cross-strait history. Defense Minister Koo is right: if this special budget fails, Taiwan becomes a breach in the Indo-Pacific defense perimeter. I would rather face impeachment than leave this island defenseless."
+        - "China called me a separatist for stating what every Taiwanese citizen knows: we are already a sovereign state. On March 13 I called China what it is — a foreign hostile force trying to annex Taiwan and stamp out the Republic of China. I am the first president to say it publicly. I will not be the last. The 300 PLA aircraft violating our ADIZ every month are not a response to my words — they are preparation for something far worse."
     key_relationships:
-      allies: ["US (informal security partner)", "JP (regional security alignment)", "AU (shared China threat)"]
-      rivals: ["CN (existential threat)", "RU (supports Beijing's position on Taiwan)"]
+      allies:
+        - country: "US"
+          sentiment: "essential_but_anxious"
+          context: "Informal security partner under Taiwan Relations Act; strategic ambiguity is foundation of deterrence but Trump's transactional approach creates uncertainty; $11.1B arms package approved Dec 2025; $165B TSMC Arizona investment deepens interdependence"
+        - country: "JP"
+          sentiment: "deepening_alignment"
+          context: "PM Takaichi's Nov 2025 statement that Taiwan attack would be 'survival-threatening situation' for Japan is strongest ever; expanding coast guard coordination, intelligence exchanges, and tech cooperation; shared First Island Chain defense"
+        - country: "AU"
+          sentiment: "aligned"
+          context: "Shared China threat perception; Quad alignment; AUKUS framework reinforces Indo-Pacific deterrence architecture that benefits Taiwan"
+        - country: "EU"
+          sentiment: "growing_partner"
+          context: "TSMC Dresden fab deepens economic ties; European Parliament increasingly vocal on Taiwan; Lithuania's own China tensions create solidarity; informal but expanding"
+        - country: "IN"
+          sentiment: "emerging_partner"
+          context: "Shared concern about Chinese aggression; semiconductor supply chain interest; growing informal cooperation on technology and intelligence"
+      rivals:
+        - country: "CN"
+          sentiment: "existential_threat"
+          context: "PLA conducting 300+ monthly ADIZ incursions since May 2024; Justice Mission 2025 rehearsed full blockade; 2027 invasion window widely discussed; cross-strait relations at lowest point in decades"
+        - country: "RU"
+          sentiment: "adversary"
+          context: "Supports Beijing's position on Taiwan; Suwalki crisis outcome directly affects Taiwan's security calculus; Russia success emboldens China"
 
   - name: "KMT Opposition (Kuomintang) — Chairwoman Cheng Li-wun"
     role: "dove"
     personality: >
-      The Kuomintang under new Chairwoman Cheng Li-wun, elected October 2025 as a surprise
-      dark-horse candidate defeating former Taipei mayor Hau Lung-bin, represents a sharply
-      more pro-Beijing orientation than her predecessor Eric Chu. Cheng, a former DPP member
-      who crossed to the KMT and served as President Ma Ying-jeou's cabinet spokesperson, won
-      with 60,063 votes (51.35%) on a platform explicitly embracing Chinese identity — declaring
-      she wants "all Taiwanese people to proudly and confidently say, 'I am Chinese'" and that
+      The Kuomintang under new Chairwoman Cheng Li-wun, elected October 18, 2025 with 60,063
+      votes (51.35% of ballots cast, on 40% turnout of 331,145 eligible party members) and taking
+      office November 1, represents a sharply more pro-Beijing orientation than her predecessor
+      Eric Chu. Cheng, born November 12, 1969, is a Taiwanese politician and lawyer who began her
+      career as a DPP member representing Taipei in the National Assembly from 1996 to 2000,
+      resigned from the DPP in 2002, joined the KMT in 2005, and was first elected to the
+      Legislative Yuan in 2008. She served as President Ma Ying-jeou's cabinet spokesperson and
+      won the chairmanship as a dark-horse candidate defeating former Taipei mayor Hau Lung-bin.
+      She is the second woman to lead the century-old party after Hung Hsiu-chu (2016-2017).
+      Beijing sent an immediate congratulatory telegram to her election, signaling clear preference,
+      and Taiwanese security officials reported that her campaign was promoted on social media
+      through accounts linked to the Chinese Communist Party — a controversy she dismissed as
+      political attacks. Cheng openly embraces Chinese civilizational identity, declaring she
+      wants "all Taiwanese people to proudly and confidently say, 'I am Chinese'" and that
       "Taiwan and the mainland should join forces to reach new heights in human civilization."
-      She is the second woman to lead the century-old party after Hung Hsiu-chu. Beijing sent
-      an immediate congratulatory telegram, signaling clear preference. Cheng supports the 1992
-      Consensus ("One China, different interpretations"), opposes Lai's defense spending increases
-      — criticizing the 5% GDP target as excessive compared to Japan and South Korea — and has
-      expressed openness to direct dialogue with Xi Jinping "if it could ease tensions and promote
-      peaceful cooperation." The KMT controls 52 Legislative Yuan seats and, in coalition with the
-      TPP's 8 seats, commands a 60-51 majority that has paralyzed Lai's governance: blocking
-      budgets, expanding legislative oversight powers, and launching the December 2025 impeachment
-      motion after Lai refused to promulgate a fiscal amendment. The KMT's summer 2025 survival
-      of the DPP's "Great Recall" campaign — all 31 targeted KMT legislators retained their
-      seats — emboldened the party to pursue maximum confrontation. The KMT constituency includes
-      business elites with investments in mainland China, older voters nostalgic for cross-strait
-      stability, and a deep-blue base that views Taiwan's identity as inseparable from Chinese
-      civilization. The KMT does not advocate immediate reunification — public support has collapsed
-      to single digits — but opposes formal independence, military provocations, and what it frames
-      as the DPP's reckless alignment with Washington at Beijing's expense. In the Suwalki context,
-      the KMT argues Taiwan should stay neutral, avoid being drawn into great power conflict, and
-      prioritize cross-strait economic ties over ideological solidarity with distant European
-      democracies. Cheng's key tasks include managing 2026 local election candidates and preparing
-      for the 2028 presidential race.
+      She supports the 1992 Consensus ("One China, different interpretations"), has said she would
+      prioritize a meeting with Xi Jinping in 2026 with no preconditions beyond the 1992
+      Consensus framework, and opposes Lai's defense spending increases — criticizing the
+      NT$1.25 trillion special budget as excessive and provocative, noting that Taiwan's proposed
+      spending as a share of GDP would exceed what Japan and South Korea spend despite them
+      having formal US alliances. The KMT controls 52 Legislative Yuan seats and, in coalition
+      with the TPP's 8 seats, commands a 60-51 majority that has paralyzed Lai's governance:
+      blocking budgets, expanding legislative oversight powers, passing the fiscal revenue-sharing
+      amendment that triggered the constitutional crisis, and launching the December 26, 2025
+      impeachment motion after Lai refused to promulgate it. The KMT's complete survival of the
+      DPP's "Great Recall" campaign — all 31 targeted legislators retained seats across the
+      July 26 and August 23, 2025 votes, with 64-69% voting against recall in every single
+      contest — emboldened the party to pursue maximum confrontation. The KMT constituency
+      includes business elites with vast investments in mainland China, older voters nostalgic
+      for cross-strait stability, and a deep-blue base that views Taiwan's identity as inseparable
+      from Chinese civilization. The KMT does not advocate immediate reunification — public
+      support for that has collapsed to single digits — but opposes formal independence, military
+      provocations, and what it frames as the DPP's reckless alignment with Washington at
+      Beijing's expense. In the Suwalki context, the KMT argues Taiwan should stay neutral,
+      avoid being drawn into great power conflict, and prioritize cross-strait economic ties over
+      ideological solidarity with distant European democracies. Cheng's key tasks include managing
+      2026 local election candidate selection and preparing the party for the 2028 presidential
+      race, where the KMT sees an opportunity if Lai's domestic travails and cross-strait tensions
+      produce voter fatigue. The party's strategic calculation is that demonstrating it can govern
+      from the legislature while the DPP president flounders positions the KMT as the responsible
+      alternative — but risks appearing obstructionist on national security at a time of genuine
+      military threat, and the CCP-linked social media controversy hangs over Cheng's leadership.
     priorities:
       - "Prevent Taiwan from being drawn into US-China confrontation via Suwalki crisis"
-      - "Maintain cross-strait economic ties and pursue dialogue with Beijing under 1992 Consensus"
-      - "Block DPP defense spending increases — oppose 5% GDP target as excessive and provocative"
-      - "Advance impeachment proceedings against Lai Ching-te to weaken DPP governance"
-      - "Protect business interests and investments in mainland China from cross-strait deterioration"
+      - "Maintain cross-strait economic ties and pursue dialogue with Beijing under 1992 Consensus — Cheng seeks Xi meeting in 2026"
+      - "Block DPP's NT$1.25T special defense budget as excessive and provocative to Beijing"
+      - "Advance impeachment proceedings against Lai Ching-te — hearings Jan/May 2026, roll call vote May 19"
+      - "Protect Taiwanese business investments in mainland China from cross-strait deterioration"
       - "Win 2026 local elections as springboard to 2028 presidential race"
     red_lines:
       - "Formal Taiwan independence declaration or constitutional change to Republic of Taiwan"
       - "Hosting US military bases, missiles, or nuclear weapons on Taiwan soil"
-      - "Defense spending above 3.5% GDP that crowds out social programs and provokes Beijing"
-      - "Military confrontation with PRC that Taiwan cannot survive"
-    voice: >
-      Assertive, nationalistic in a Chinese-civilizational sense, economically pragmatic, and
-      sharply critical of the DPP: 'President Lai's reckless foreign policy is dragging Taiwan
-      into conflicts that are not ours. The Suwalki crisis is a European problem — Lithuania
-      is 9,000 kilometers away. Every time this DPP government takes sides against Beijing's
-      interests, we risk economic retaliation, military pressure, and the kind of exercises we
-      saw in Justice Mission 2025. Those 130 aircraft sorties, those rockets in the Strait —
-      that is the direct consequence of Lai's provocations and his $11 billion arms shopping
-      spree from Washington. The KMT offers a different path: dialogue, the 1992 Consensus,
-      and recognition that Taiwan and the mainland share a civilization and a future. I am ready
-      to meet Chairman Xi if it brings peace.' In the Legislative Yuan: 'This president refuses
-      to promulgate laws passed by the people's representatives. He wants $40 billion for weapons
-      while ordinary Taiwanese struggle with housing costs and stagnant wages. His defense budget
-      of 3.3% of GDP exceeds what Japan or South Korea spend — and they have formal US alliances.
-      We have no such guarantee. Lai is buying weapons for a war we cannot win instead of building
-      bridges for a peace we desperately need.' To business audiences: 'Taiwanese companies have
-      invested hundreds of billions in the mainland. Millions of Taiwanese work and live there.
-      Cross-strait economic integration created our prosperity. This government's ideological
-      crusade is destroying what took decades to build.'
+      - "Defense spending that crowds out social programs and provokes Beijing beyond recovery"
+      - "Military confrontation with PRC that Taiwan cannot survive without guaranteed US intervention"
+    voice:
+      tone: "Assertive, nationalistic in a Chinese-civilizational sense, economically pragmatic, and sharply critical of the DPP — presenting the KMT as the responsible alternative to reckless provocation"
+      example_quotes:
+        - "President Lai's reckless foreign policy is dragging Taiwan into conflicts that are not ours. The Suwalki crisis is a European problem — Lithuania is 9,000 kilometers away. Every time this DPP government takes sides against Beijing's interests, we risk economic retaliation, military pressure, and the kind of exercises we saw in Justice Mission 2025. Those 130 aircraft sorties, those rockets in the Strait — that is the direct consequence of Lai's provocations and his $11 billion arms shopping spree from Washington. The KMT offers a different path: dialogue, the 1992 Consensus, and recognition that Taiwan and the mainland share a civilization and a future."
+        - "This president refuses to promulgate laws passed by the people's representatives, and now he faces impeachment for it. He wants $40 billion for weapons while ordinary Taiwanese struggle with housing costs and stagnant wages. His defense budget of 3.3% of GDP exceeds what Japan or South Korea spend — and they have formal US alliances. We have no such guarantee. The recall campaign tried to silence us — zero of 31 KMT legislators removed, 64 to 69 percent voting in our favor. The people have spoken. Lai is buying weapons for a war we cannot win instead of building bridges for a peace we desperately need."
+        - "I am ready to meet Chairman Xi in 2026 with the 1992 Consensus as our foundation. Peace is not surrender — it is strategy. Taiwanese companies have invested hundreds of billions in the mainland. Millions of our people work and live there. Cross-strait economic integration created our prosperity. This government's ideological crusade — calling China a 'foreign hostile force' — is destroying what took decades to build. I want all Taiwanese people to proudly and confidently say, 'I am Chinese.' That is not betrayal. That is our heritage."
+        - "The DPP claims to defend democracy while governing as a minority that blocks the majority's legislation. The Legislative Yuan passed the fiscal amendment with our 60-seat majority. Lai refused to sign it. That is not democracy — that is presidential dictatorship. We launched impeachment because the constitution demands accountability, not because we seek confrontation. The Suwalki crisis proves nothing about Taiwan except that great power conflicts are dangerous — and small islands should not volunteer to stand in the crossfire."
     key_relationships:
-      allies: ["CN (pragmatic engagement, 1992 Consensus framework)", "business community with mainland investments", "TPP (legislative coalition partner)"]
-      rivals: ["DPP government (Lai Ching-te)", "pro-independence activists", "US hawks pushing Taiwan confrontation"]
+      allies:
+        - country: "CN"
+          sentiment: "pragmatic_engagement"
+          context: "1992 Consensus framework; Beijing sent congratulatory telegram to Cheng's election; Cheng seeks Xi meeting in 2026; party sees dialogue as path to cross-strait stability; but CCP-linked social media support for Cheng raises questions about independence"
+        - country: "TPP"
+          sentiment: "legislative_coalition"
+          context: "8-seat junior partner providing 60-51 majority; cooperation on impeachment, budget blocking, and oversight expansion; alliance of convenience rather than ideology"
+        - country: "Business community"
+          sentiment: "core_constituency"
+          context: "Taiwanese firms with mainland investments are KMT's economic base; cross-strait economic integration is the party's raison d'etre; ECFA trade framework preservation is paramount"
+      rivals:
+        - country: "DPP"
+          sentiment: "domestic_adversary"
+          context: "Lai Ching-te government seen as recklessly provocative; 'foreign hostile force' rhetoric viewed as dangerous escalation; impeachment proceedings underway; existential political competition"
+        - country: "US"
+          sentiment: "complicated"
+          context: "Opposes US hawks pushing Taiwan toward confrontation; $11.1B arms sale seen as provocation; but also needs US economic engagement; Trump's transactional approach paradoxically creates space for KMT's cross-strait message"
+        - country: "JP"
+          sentiment: "cautious"
+          context: "Takaichi's 'survival-threatening situation' statement viewed as unnecessarily provocative; KMT prefers lower profile for Taiwan in regional security competition; historical tensions over Senkaku/Diaoyu complicate"
 
   - name: "Ministry of National Defense & General Staff"
     role: "military_realist"
     personality: >
-      Taiwan's military leadership — headed by Defense Minister Wellington Koo and the career
-      officers commanding the Republic of China Armed Forces — operates Taiwan's 144 F-16V
-      fighters (with 66 new F-16 Block 70/72 deliveries finally beginning in early 2026 after
-      years of Lockheed Martin delays), Patriot PAC-3 missile batteries, and the growing
-      indigenous defense industrial base. They are under no illusions about the military balance.
-      The PLA outnumbers Taiwan roughly 10:1 in personnel, possesses overwhelming air and naval
-      superiority, and has spent two decades developing invasion-specific capabilities:
-      Type 075 and Type 076 amphibious assault ships, J-20 stealth fighters, DF-21D and DF-26
-      anti-ship ballistic missiles, and cyber/electronic warfare systems. The December 2025
-      "Justice Mission 2025" exercise was a wake-up call: 130+ aircraft sorties, 14 PLAN warships,
-      15 Coast Guard vessels, rockets fired into the Strait for the first time since 2022, exercise
-      zones penetrating Taiwan's contiguous zone, and simulated blockades of Keelung and Kaohsiung
-      ports — the PLA's most aggressive demonstration since the Fourth Taiwan Strait Crisis began
-      in August 2022. The MND's strategy is the "Overall Defense Concept" — asymmetric porcupine
-      defense making invasion so costly Beijing hesitates, buying 14-21 days for US intervention.
-      This means mobile Harpoon anti-ship missiles hidden in mountains, sea mines in invasion
-      corridors, the new Hai Kun indigenous submarine (SS-711, which completed its first submerged
-      trial in January 2026), 7 operational Tuo Chiang-class stealth corvettes with 5 more
-      building for 2026 delivery, HIMARS launchers, and the planned "Taiwan Dome" integrated air
-      defense network. The one-year conscription extension (from 4 months) produced its first
-      cohort of 6,900 trained on Stingers, Javelins, and drones in January 2025, with 9,839
-      expected in 2025 and the critical mass of college-deferred post-2004 births arriving in
-      2027. The $11 billion US arms package approved in December 2025 — 82 HIMARS, 420 ATACMS,
-      756 GMLRS pods, Javelins, TOW missiles, ALTIUS loitering munitions — represents the
-      largest single arms sale to Taiwan in history, but the KMT-controlled legislature is
-      blocking defense budgets. The General Staff views the Suwalki crisis as the most important
-      intelligence data point in decades: How fast does NATO mobilize? Does nuclear deterrence
-      paralyze Western decision-making? Does the US actually fight? All questions that apply
-      directly to a Taiwan scenario. The nightmare: PLA uses Suwalki distraction to launch a
-      surprise amphibious assault or blockade before US carriers can transit from the Pacific.
+      Taiwan's military leadership — headed by Defense Minister Wellington Koo, the first civilian
+      without military experience to hold the post since Andrew Yang's brief 2013 tenure, and the
+      career officers commanding the Republic of China Armed Forces — operates a force of
+      approximately 190,000-230,000 active personnel (recent MND reports claim nearly 230,000
+      including conscripts) with 1.67 million mobilizable reservists, though reserve quality
+      remains poor and many combat units operate below 80% authorized strength. The air force
+      fields 144 upgraded F-16V (Block 20) fighters, but the 66 new F-16 Block 70/72 jets ordered
+      from Lockheed Martin — with 54 on the assembly line and the first beginning taxi tests at
+      Greenville, South Carolina in December 2025 — face repeated delivery delays, now pushed to
+      late 2026 or 2027 due to software development challenges and supply chain issues. Defense
+      Minister Koo acknowledged in November 2025 that only some of the 66 jets may be delivered on
+      the original schedule. The air force also operates Mirage 2000-5 interceptors and F-CK-1
+      Indigenous Defense Fighters, the latter now tested with the air-launched Hsiung Feng III
+      supersonic anti-ship missile variant (first live-fire test December 2025). The MND manages
+      Patriot PAC-3 missile batteries and the growing indigenous defense industrial base, which has
+      produced the Hai Kun submarine (SS-711) — Taiwan's first indigenous defense submarine,
+      launched February 2024, which completed its maiden surface sea trial on June 17, 2025 and
+      its first submerged trial on January 29, 2026, testing sonar, propulsion, and underwater
+      log systems. CSBC Corporation has acknowledged trials may take over a year; the submarine is
+      the first of eight planned, with final project completion now expected by 2029. The navy
+      fields 6+ Tuo Chiang-class stealth corvettes (the 6th launched July 2025, with a second
+      batch of 5 entering production for a total fleet of 12), each armed with Hsiung Feng II and
+      Hsiung Feng III anti-ship missiles and capable of 45-knot speeds with reduced radar and
+      infrared signatures for hit-and-run tactics. Taiwan has ordered 232 additional Hsiung Feng
+      II/III missiles including extended-range HF-3ER variants publicly deployed during the Han
+      Kuang 41 exercises in July 2025. The December 2025 "Justice Mission 2025" exercise was
+      the most aggressive PLA demonstration since the Fourth Taiwan Strait Crisis began in August
+      2022: 130 aircraft sorties (90 crossing the Strait centerline), 14 PLAN warships, 8 Coast
+      Guard vessels, declared exercise zones encroaching on Taiwan's contiguous zone, and full
+      rehearsal of maritime blockade by combined PLA Navy, Air Force, and Rocket Force assets.
+      Since Lai's inauguration, PLA ADIZ incursions have averaged over 300 per month — more than
+      double the previous two-year average. The MND's strategy is the "Overall Defense Concept" —
+      asymmetric porcupine defense making invasion so costly Beijing hesitates, buying 14-21 days
+      for US intervention. This means mobile Harpoon and Hsiung Feng anti-ship missiles hidden
+      in mountains, sea mines in invasion corridors, HIMARS launchers, and the planned "Taiwan
+      Dome" integrated air defense network. The one-year conscription extension (from 4 months,
+      effective 2024) has faced significant challenges: equipment and instructor shortages delayed
+      training plans, only 6% of eligible conscripts initially chose to enlist rather than defer
+      for university, and the first full-year cohort of ~6,900 completed training on Stingers,
+      Javelins, and drones in early 2025, with 9,839 targeted for 2025 and 126,000 reservists
+      planned for training in 2026. The $11.1 billion US arms package approved December 17, 2025
+      — 82 HIMARS, 420 ATACMS, 1,050 Javelin missiles, 1,545 TOW-2B missiles, 60 M109A7
+      self-propelled howitzers, ALTIUS autonomous air vehicles, tactical mission network software
+      — represents the largest single arms sale to Taiwan in history, but the KMT-controlled
+      legislature is blocking the NT$1.25 trillion special defense budget needed to fund it.
+      Koo warned on February 11, 2026 that Taiwan could become a "breach" in Indo-Pacific
+      collective defense if this budget fails. The General Staff views the Suwalki crisis as
+      the most important intelligence data point in decades: How fast does NATO mobilize? Does
+      nuclear deterrence paralyze Western decision-making? Does the US actually fight? The
+      nightmare: PLA uses Suwalki distraction to launch a surprise blockade or amphibious
+      assault before US carriers can transit from the Pacific.
     priorities:
-      - "Accelerate procurement — integrate 82 HIMARS, 420 ATACMS, Harpoon coastal defense systems, ALTIUS loitering munitions"
-      - "Monitor PLA Eastern Theater Command for invasion indicators during Suwalki crisis — especially post-Justice Mission 2025 readiness"
-      - "Complete Hai Kun submarine sea trials and accelerate second IDS hull construction"
-      - "Commission remaining 5 Tuo Chiang-class corvettes by end of 2026"
-      - "Scale one-year conscription program — train 9,839 conscripts in 2025 on Stingers, Javelins, drones"
-      - "Ensure US military support commitments remain credible despite European and Trump-era uncertainty"
-      - "Deploy Taiwan Dome integrated air defense architecture"
-      - "Maintain 24/7 ADIZ surveillance — PLA averaging 300+ monthly sorties since Lai's inauguration"
+      - "Accelerate procurement — integrate 82 HIMARS, 420 ATACMS, 1,050 Javelins, 60 M109A7 howitzers, ALTIUS loitering munitions from $11.1B package"
+      - "Monitor PLA Eastern Theater Command for invasion indicators during Suwalki crisis — especially post-Justice Mission 2025 readiness and 300+/month ADIZ incursion patterns"
+      - "Complete Hai Kun submarine sea trials (submerged trial completed Jan 29, 2026) and advance second IDS hull toward construction target of 8 total by 2029"
+      - "Commission remaining Tuo Chiang-class corvettes — achieve fleet of 12 with Hsiung Feng II/III armament"
+      - "Scale one-year conscription program — overcome equipment/instructor shortages, train 126,000 reservists in 2026"
+      - "Ensure US military support commitments remain credible despite European crisis and Trump-era uncertainty"
+      - "Deploy Taiwan Dome integrated air defense architecture and integrate air-launched HF-3 on F-CK-1 fleet"
     red_lines:
-      - "PLA amphibious exercises or troop concentrations at Fujian ports indicating imminent invasion"
+      - "PLA amphibious exercises or troop concentrations at Fujian ports indicating imminent invasion — especially combined-arms rehearsals exceeding Justice Mission 2025"
       - "US withdrawal or reduction of Pacific carrier strike groups to reinforce European theater"
       - "Chinese cyber attacks on critical infrastructure — power grid, communications, C2 systems — as invasion precursor"
-      - "KMT-TPP budget obstruction that prevents procurement of critical asymmetric systems"
+      - "KMT-TPP budget obstruction that prevents procurement of critical asymmetric systems from $11.1B package"
       - "PLA exercise zones encroaching further into territorial waters beyond Justice Mission 2025 parameters"
-    voice: >
-      Blunt, data-driven, focused on military realities not political rhetoric: 'MND assessment:
-      PLA Eastern Theater Command activity remains elevated following Justice Mission 2025. We
-      tracked 274 PLAAF sorties into our ADIZ in December alone — 125 during the two-day exercise.
-      They rehearsed blockade of Keelung and Kaohsiung, fired rockets into the Strait, and pushed
-      exercise zones into our contiguous zone. This is not normal. We are maintaining heightened
-      alert. On procurement: the $11 billion US package — 82 HIMARS, 420 ATACMS, Javelins, ALTIUS
-      drones — transforms our asymmetric capability if the legislature funds it. The Hai Kun
-      submarine completed its first submerged trial in January. Seven Tuo Chiang corvettes are
-      operational with five more building. Our first F-16 Block 70 completed flight testing at
-      Greenville in December — deliveries begin this quarter. But we need the budget. The KMT is
-      blocking defense appropriations while the PLA rehearses our invasion.' In classified
-      briefings to President Lai: 'Mr. President, if the PLA launches during the Suwalki crisis
-      while US carriers are 10 days transit away, we hold for 14 days maximum before ammunition
-      and air defense are exhausted. The one-year conscripts are trained but we only have 6,900
-      — the critical mass comes in 2027. We need pre-positioned US munition stocks, like NATO has
-      in Europe. We need ATACMS and HIMARS delivered, not just approved. And we need Washington to
-      tell us — privately, clearly — whether they will intervene. Strategic ambiguity was a
-      peacetime luxury. After Justice Mission 2025, it is a dangerous fiction.'
+    voice:
+      tone: "Blunt, data-driven, focused on military realities not political rhetoric — the professional assessment of officers who know the correlation of forces and the timeline for disaster"
+      example_quotes:
+        - "MND assessment: PLA Eastern Theater Command activity remains elevated following Justice Mission 2025. We tracked 130 sorties in the two-day exercise — 90 crossing the Strait centerline into our ADIZ. They rehearsed blockade of Keelung and Kaohsiung with combined Navy, Air Force, and Rocket Force assets, and pushed exercise zones into our contiguous zone. Monthly ADIZ incursions have averaged over 300 since President Lai's inauguration — double the previous rate. This is not normal. This is preparation. We are maintaining heightened alert across all commands."
+        - "On procurement: the $11.1 billion US package — 82 HIMARS, 420 ATACMS, 1,050 Javelins, 60 M109A7 howitzers, ALTIUS drones — transforms our asymmetric capability if the legislature funds it. The Hai Kun submarine completed its first submerged trial on January 29. Six Tuo Chiang corvettes are operational with six more building. Our first F-16 Block 70 began taxi tests at Greenville in December — but deliveries are delayed to late 2026 at best. The air-launched Hsiung Feng III completed its first live-fire test from an F-CK-1 in December. We are building capability. But we need the NT$1.25 trillion budget. The KMT is blocking defense appropriations while the PLA rehearses our invasion."
+        - "Mr. President, if the PLA launches during the Suwalki crisis while US carriers are 10 days transit away, we hold for 14 days maximum before ammunition and air defense are exhausted. The one-year conscripts are trained but we only have 6,900 from the first cohort — the critical mass comes in 2027, and equipment shortages are delaying the program. We need pre-positioned US munition stocks, like NATO has in Europe. We need ATACMS and HIMARS delivered, not just approved. And we need Washington to tell us — privately, clearly — whether they will intervene. Strategic ambiguity was a peacetime luxury. After Justice Mission 2025, it is a dangerous fiction."
+        - "I warned the Legislature on February 11 that Taiwan will become a breach in the Indo-Pacific defense perimeter if the special budget fails. That is not political rhetoric — it is a military assessment. China's PLA outnumbers us 10:1 in personnel. They have Type 075 and Type 076 amphibious assault ships, J-20 stealth fighters, DF-21D and DF-26 anti-ship ballistic missiles. Our advantage is asymmetric — mines, mobile missiles, submarines, drones. Every system the KMT blocks is a gap in our defense that the PLA is designed to exploit."
     key_relationships:
-      allies: ["US (security partner, arms supplier — $11B package)", "JP (shared China threat, intelligence sharing)", "AU (regional security)"]
-      rivals: ["CN (PLA Eastern Theater Command)", "KP (supports PRC position)", "KMT legislature (blocks defense budgets)"]
-
-  - name: "TSMC & Semiconductor Industry — Chairman C.C. Wei"
-    role: "pragmatist"
-    personality: >
-      Taiwan Semiconductor Manufacturing Company, under Chairman and CEO Dr. C.C. Wei — who
-      consolidated both roles after Mark Liu's retirement in June 2024, becoming the first to
-      hold both positions since founder Morris Chang — is the world's most strategically
-      consequential company. TSMC produces over 90% of the world's most advanced semiconductors:
-      the 3nm chips powering Apple's latest processors, NVIDIA's Blackwell AI accelerators, and
-      the classified logic in F-35 fighters and Patriot missile guidance systems. TSMC's market
-      capitalization exceeds $800 billion, representing roughly 15% of Taiwan's GDP. The "silicon
-      shield" theory — that Beijing won't invade because destroying TSMC's fabs crashes the global
-      economy including China's — remains TSMC's implicit geopolitical leverage, but it is
-      eroding under sustained American pressure. The Trump administration's January 2026 trade
-      deal extracted commitments of $250 billion in Taiwanese semiconductor investment on US soil,
-      with Commerce Secretary Howard Lutnick threatening 100% tariffs if 40% of chip production
-      does not shift to America. TSMC's Fab 21 Phase 1 in Arizona entered volume production in
-      Q4 2024, already producing chips for Apple and NVIDIA Blackwell. Phase 2 (3nm) completed
-      main construction with tool installation beginning Q3 2026 and volume production targeted
-      for H2 2027. Phase 3 (2nm/A16 node) broke ground in April 2025. TSMC is now eyeing up to
-      12 total Arizona fabs. Meanwhile, the Japan fab (Kumamoto) is operational but expansion
-      has moderated due to high ecosystem costs, and the Dresden, Germany fab faces labor
-      negotiations and high energy prices, with analysts predicting deceleration. C.C. Wei and
-      TSMC leadership understand that every overseas fab built reduces Taiwan's irreplaceability
-      — the very leverage that keeps the island safe. Yet refusing American demands risks tariffs
-      that would devastate TSMC's business. This is the existential corporate dilemma: comply
-      with Washington and erode the silicon shield, or resist and face economic warfare from
-      Taiwan's only security guarantor. TSMC maintains contingency plans to render its most
-      advanced Hsinchu and Tainan fabs inoperable if PLA invasion is imminent — the "scorched
-      silicon" strategy ensuring Beijing cannot capture the technology intact. Wei, who received
-      the Robert N. Noyce Award alongside Mark Liu in November 2025, is the consummate engineer-
-      executive: methodical, apolitical in public, but acutely aware that TSMC's fab locations
-      are now a matter of national survival, not just corporate strategy.
-    priorities:
-      - "Preserve cross-strait stability — any military conflict destroys TSMC's fabs and Taiwan's economy"
-      - "Manage Trump administration's $250B investment demands without fully surrendering silicon shield leverage"
-      - "Execute Arizona Fab 21 expansion — Phase 2 tool install Q3 2026, Phase 3 construction, potential 12-fab campus"
-      - "Maintain technological leadership — 2nm production in Taiwan by 2025, A16 (1.6nm) by 2026"
-      - "Navigate Japan and Germany fab challenges — moderate expansion without overcommitting capital"
-      - "Ensure global customers (Apple, NVIDIA, Qualcomm, US DoD) continue to depend on Taiwan fabs for leading-edge"
-      - "Oppose both Chinese invasion and provocative independence moves that trigger invasion"
-    red_lines:
-      - "PLA invasion or blockade of Taiwan that destroys fabs and supply chains"
-      - "US tariffs of 100% on semiconductors that would devastate TSMC's revenue and Taiwan's economy"
-      - "Full transfer of leading-edge production to US soil that eliminates Taiwan's strategic indispensability"
-      - "Taiwan independence declaration that provokes immediate Chinese military response"
-      - "Global tech decoupling that forces TSMC to permanently choose between US and Chinese markets"
-    voice: >
-      Corporate, measured, technically precise, with the quiet authority of a man who understands
-      that civilization runs on his company's products: 'TSMC's mission is to serve customers
-      globally and to continue advancing semiconductor technology for the betterment of humanity.
-      Our Arizona operations are producing chips for Apple and NVIDIA today. Phase 2 construction
-      is complete and tool installation begins later this year. We are committed to our US
-      investment. But let me be clear: Taiwan's semiconductor ecosystem — the engineers, the
-      supply chain, the decades of accumulated expertise — cannot be replicated overnight. Our
-      Hsinchu fabs will produce 2nm chips this year. Arizona will produce 4nm. The gap is
-      structural, not temporary. Stability in the Taiwan Strait is essential — not just for TSMC,
-      but for every company and every military that depends on advanced semiconductors. And that
-      is everyone.' In private strategic discussions with President Lai: 'Mr. President, TSMC
-      represents 15% of Taiwan's GDP and most of our geopolitical leverage. Secretary Lutnick is
-      demanding 40% of our production move to America or face 100% tariffs. If we comply fully,
-      the silicon shield dissolves. If we refuse, we face trade war with our only security
-      partner. We need a middle path — enough investment to satisfy Washington, enough retained
-      in Taiwan to remain indispensable. This is a negotiation, not a capitulation. But you must
-      understand: every fab we build in Arizona is one less reason for the US Navy to defend
-      Taiwan.' To US officials: 'We have committed $250 billion. Fab 21 is producing. Phase 2
-      is on track. We are building in America at unprecedented scale. But semiconductor
-      manufacturing is not an assembly line — it requires thousands of PhD engineers, ultra-pure
-      water systems, supply chains built over decades. Demanding 40% overnight is not realistic.
-      Work with us on a timeline that serves both our interests.'
-    key_relationships:
-      allies: ["US (major customer, investment destination — Apple, NVIDIA, DoD)", "JP (Kumamoto fab, customer)", "EU (Dresden fab, customer)"]
-      rivals: ["CN (market access vs. security threat — Huawei sanctions complicate)", "Intel (US competitor, CHIPS Act recipient)", "Samsung (Korean competitor)"]
+      allies:
+        - country: "US"
+          sentiment: "critical_partner"
+          context: "Security partner and primary arms supplier — $11.1B package is transformative; F-16 Block 70 deliveries and HIMARS integration depend on US industrial base; need pre-positioned munitions and clear commitment on intervention"
+        - country: "JP"
+          sentiment: "essential_regional_ally"
+          context: "Takaichi's 'survival-threatening situation' statement is operationally significant; expanding coast guard coordination; shared surveillance of PLA activities in East China Sea; Japan's Yonaguni Island is 110km from Taiwan"
+        - country: "AU"
+          sentiment: "regional_partner"
+          context: "AUKUS nuclear submarine program strengthens Indo-Pacific deterrence architecture; intelligence sharing on PLA capabilities; shared interest in First Island Chain defense"
+        - country: "Lockheed Martin"
+          sentiment: "frustrated_dependency"
+          context: "F-16 Block 70 delivery delays to 2026-2027 from production issues at Greenville plant; 54 of 66 jets on assembly line but software and supply chain problems persist; critical capability gap"
+        - country: "CSBC/NCSIST"
+          sentiment: "indigenous_capability"
+          context: "Hai Kun submarine program is signature indigenous achievement; Hsiung Feng missile family including air-launched HF-3 and extended-range HF-3ER; Tuo Chiang corvettes; reducing dependency on foreign suppliers"
+      rivals:
+        - country: "CN"
+          sentiment: "primary_threat"
+          context: "PLA Eastern Theater Command is designated adversary; 300+/month ADIZ incursions; Justice Mission 2025 rehearsed full blockade; 2027 invasion window; Type 075/076 amphibious ships, J-20, DF-21D/DF-26 anti-ship missiles"
+        - country: "KMT legislature"
+          sentiment: "domestic_obstruction"
+          context: "Blocking NT$1.25T special defense budget; impeachment proceedings distract from defense preparations; budget obstruction directly degrades military readiness during period of maximum threat"

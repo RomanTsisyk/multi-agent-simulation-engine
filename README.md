@@ -71,13 +71,27 @@ python run.py play --preset full
 
 ### View Results
 
+**Option 1: Python Dashboard**
+
 ```bash
 # Start web viewer
-python serve.py
+python run.py view logs/game_XXXXX
 
-# Open browser to http://localhost:8080
-# Select your game from the list
+# Open browser to http://localhost:8000
 ```
+
+**Option 2: Static Viewer (GitHub Pages Compatible)**
+
+```bash
+# No dependencies required. Open in browser:
+viewer_static_demo/index.html
+
+# Or deploy to GitHub Pages:
+# Enable Pages in repo settings (main branch, root directory)
+# Viewer will be available at: https://romantsisyk.github.io/multi-agent-simulation-engine/viewer_static_demo/
+```
+
+No backend required. All simulation data is stored as static JSON logs. Ideal for sharing simulations or lightweight inspection of game logs.
 
 ---
 
