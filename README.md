@@ -1,382 +1,272 @@
-# WarGame: LLM-Powered Geopolitical Simulation
+# Multi-Agent Simulation Engine (WarGame)
 
-**A sophisticated multi-agent wargaming system where AI-powered factions debate internal policy before making decisions.**
+**Experimental distributed multi-agent reasoning framework for geopolitical crisis modeling.**
+
+An open-source system that orchestrates multiple AI agents to simulate complex international scenarios. Each country contains 2-4 faction agents that internally debate policy, then synthesize unified decisions. The system resolves conflicts deterministically and tracks cascading effects across military, economic, and political dimensions.
 
 [![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
 
-## 🎯 What Is This?
+## 🔬 What This Is
 
-WarGame simulates geopolitical crises using Large Language Models (LLMs) to drive realistic decision-making. Unlike traditional wargames where countries make monolithic choices, **each country contains multiple AI-powered factions** (hawks, doves, diplomats, military realists) that:
+A research framework for studying emergent behavior in multi-agent systems under resource constraints and incomplete information. The system:
 
-1. **Debate internally** over 3 rounds (initial position → rebuttal → synthesis)
-2. **Argue with each other** citing historical precedents and strategic concerns
-3. **Synthesize** a unified decision weighted by faction influence
+- **Orchestrates 8 parallel agents** (batched by strategic interest)
+- **Enforces narrative consistency** through game master arbitration
+- **Applies cascading effects** (oil prices → war support, casualties → morale)
+- **Tracks 66 countries** with asymmetric capabilities and faction diversity
+- **Generates deterministic outcomes** using combat formulas and public opinion gates
 
-This creates **emergent, narrative-driven gameplay** where political dynamics matter as much as military strength.
-
-### Key Features
-
-- **🎭 Multi-Faction Debates**: Each country has 2-4 factions with distinct personalities and priorities
-- **🌍 66 Countries Modeled**: From major powers (US, Russia, China) to regional actors (Poland, Turkey, Baltic states)
-- **⚛️ Nuclear Escalation Ladder**: Realistic posture levels (peacetime → elevated → launch_ready)
-- **🎲 Cascading Effects**: Oil prices affect public opinion, casualties reduce morale, sanctions trigger economic responses
-- **📊 Rich Analytics**: Post-game analysis with turning points, faction influence charts, and timeline visualization
-- **🔧 Extensible**: YAML-based scenarios and country configs, pluggable LLM backends (Ollama, DeepSeek)
+Primary test scenario: **Suwalki Gap Crisis** (Baltic escalation chain).
 
 ---
 
-## 🎮 Live Demo
+## 🏗️ Architecture
 
-**[🌐 Open Interactive Demo](https://romantsisyk.github.io/multi-agent-simulation-engine/viewer_static_demo/production.html)**
+```
+Country Agents (parallel)
+    ↓
+Faction Debates (3 rounds each)
+    ↓
+Game Master Resolution
+    ↓
+World State Updates (cascading effects)
+    ↓
+Checkpoint (JSON logs)
+    ↓
+Static Web Viewer (no backend)
+```
 
-View a complete game simulation with:
-- 📊 Real-time charts (Oil Prices, Nuclear Posture, War Support, Military Balance)
-- 📋 All country decisions and diplomatic messages
-- 🔍 Round-by-round briefings and combat results
-- 🌍 World state analysis and country metrics
-
-*Note: Works on any device. No backend required.*
+**For detailed architecture, see [ARCHITECTURE.md](analysis/ARCHITECTURE.md)**
 
 ---
 
-## 🚀 Quick Start
+## ⚡ Quick Start
 
 ### Prerequisites
 
-- **Python 3.12+**
-- **Ollama** (for local LLM) or **DeepSeek API key** (for cloud LLM)
-- **64GB RAM recommended** for deepseek-r1:32b model
+- Python 3.12+
+- Ollama (local LLM) or DeepSeek API key
+- 64GB RAM for deepseek-r1:32b
 
 ### Installation
 
 ```bash
-# Clone repository
-git clone https://github.com/yourusername/wargame.git
-cd wargame
+git clone https://github.com/RomanTsisyk/multi-agent-simulation-engine.git
+cd multi-agent-simulation-engine
 
-# Install Python dependencies
 pip install -r requirements.txt
-
-# Install Ollama (macOS/Linux)
-curl -fsSL https://ollama.com/install.sh | sh
-
-# Pull AI model (20GB download, takes 10-30 minutes)
-ollama pull deepseek-r1:32b
-
-# Verify installation
+ollama pull deepseek-r1:32b  # Or use DeepSeek API
 python run.py preflight
 ```
 
-### Run Your First Game
+### Run Simulation
 
 ```bash
-# Quick game (4 countries, 3 rounds, ~15 minutes)
+# Quick (4 countries, 3 rounds)
 python run.py play --preset quick
 
-# Medium game (10 countries, 5 rounds, ~45 minutes)
+# Medium (10 countries, 5 rounds)
 python run.py play --preset medium
 
-# Full game (20 countries, 10 rounds, ~3 hours)
+# Full (20 countries, 10 rounds)
 python run.py play --preset full
 ```
 
 ### View Results
 
-Two viewers available:
+**Live Demo** (5 pre-recorded games):
+```
+https://roman-tsisyk.com/viewer_static_demo/production.html
+```
 
-#### 📊 Production Viewer (Recommended)
+**Local Analytics**:
+```bash
+python run.py view logs/game_TIMESTAMP/
+```
 
-Full-featured static viewer with charts, runs on GitHub Pages:
+---
+
+## 📊 Demo Viewer
+
+No backend required. Static HTML/JS viewer with:
+- Real-time charts (oil prices, nuclear posture, war support, military balance)
+- Country decision logs with faction reasoning
+- Combat results and cascading effects
+- Full JSON state export
+
+Runs on GitHub Pages via `/viewer_static_demo/`.
+
+---
+
+## 🎮 Game Mechanics
+
+- **Combat formula**: Strength × Readiness × Force multipliers
+- **Nuclear escalation**: peacetime → elevated → dispersal → launch_ready
+- **Public opinion gates**: War support determines military action legality
+- **Cascading effects**: Oil price shocks, sanctions impact, refugee flows
+
+**See [GAME_MECHANICS.md](analysis/GAME_MECHANICS.md) for full specifications.**
+
+---
+
+## 🔧 Documentation
+
+- **[ARCHITECTURE.md](analysis/ARCHITECTURE.md)** - System design and component overview
+- **[DESIGN.md](analysis/DESIGN.md)** - Architectural decision rationale
+- **[TECHNICAL.md](analysis/TECHNICAL.md)** - Implementation details and API reference
+- **[GAME_MECHANICS.md](analysis/GAME_MECHANICS.md)** - Combat formulas, escalation ladder, cascading effects
+- **[CLAUDE.md](CLAUDE.md)** - Claude Code runner protocol
+
+---
+
+## 📁 File Structure
+
+```
+engine/
+  ├── game.py              # Round orchestration
+  ├── world_state.py       # State management
+  ├── game_master.py       # Combat resolution
+  └── checkpoint.py        # Save/load
+agents/
+  ├── country.py           # Country orchestration
+  └── faction.py           # Faction debates
+backends/
+  ├── ollama_backend.py
+  └── deepseek_backend.py
+scenarios/                 # YAML scenario definitions
+countries/                 # YAML country configs (66)
+viewer_static_demo/        # Web viewer + demo data
+claude_runner/             # Claude Code integration
+tests/                     # Unit test suite
+```
+
+---
+
+## 🚀 Development
+
+### Testing
 
 ```bash
-# Local development:
-python3 -m http.server 8081
-# Open: http://localhost:8081/viewer_static_demo/production.html
-
-# Live on GitHub Pages:
-# https://romantsisyk.github.io/multi-agent-simulation-engine/viewer_static_demo/production.html
-```
-
-**Features:**
-- Line charts for oil prices, nuclear posture, war support
-- Military balance visualization
-- All 5 simulation runs
-- 30 rounds each
-- Zero backend required
-
-#### 🔧 Analytics Viewer (Local Only)
-
-Rich analytics dashboard with country breakdown. Requires Python server:
-
-```bash
-# Start backend:
-python run.py view logs/game_XXXXX
-
-# Open: http://localhost:8080/
-```
-
-**Features:**
-- Real-time Chart.js visualizations
-- Country-by-country analysis
-- Timeline visualization
-- Escalation tracking
-- Requires FastAPI backend
-
----
-
-## 📖 How It Works
-
-### Game Loop
-
-```
-Round Start → Countries Deliberate → GM Resolves → Update World State → Check End Conditions
-                      ↓
-        Faction Debate (3 rounds) → Synthesis → Decision
-```
-
-### Example: Poland's Internal Debate
-
-**Round 1 - Initial Positions**
-- **President (Hawk)**: "We must attack NOW. Every hour strengthens Russian positions. 1939 taught us appeasement fails!"
-- **PM (Diplomat)**: "Fracturing NATO is worse than losing the corridor. We need Article 5 consensus."
-- **General Staff (Realist)**: "Force ratio is 1.4:1 against us. We need 24h for US reinforcements."
-
-**Round 2 - Rebuttals**
-- President: "General, we won't GET 24 hours. Russia will dig in."
-- PM: "President, unilateral action means Germany blocks Article 5."
-- General: "PM, Germany already hesitates. Diplomacy buys nothing."
-
-**Round 3 - Synthesis**
-Poland chooses PM's approach: Diplomatic pressure + 48h ultimatum + covert mobilization.
-
-**Result**: Decision is shaped by faction weights (President=3.0, PM=2.0, General=2.5 in conventional war phase).
-
----
-
-## 🗂️ Scenarios
-
-### Included Scenario: Suwalki Gap Crisis
-
-**Premise**: Russia seizes the Suwalki corridor (Poland-Lithuania border), cutting off Baltic states from NATO. Poland must decide whether to counter-attack, invoke Article 5, or negotiate.
-
-**Victory Conditions**:
-- **Russian Victory**: Hold corridor for 6 rounds (3 days)
-- **NATO Victory**: Liberate corridor
-- **Diplomatic Resolution**: Negotiated ceasefire
-- **Catastrophic**: Nuclear weapon detonation
-
-**Key Actors**: Poland, Russia, USA, Germany, UK, France, Lithuania, Latvia, Estonia, Belarus, China (observer)
-
----
-
-## ⚙️ Configuration
-
-### YAML-Based Scenarios
-
-Create custom scenarios in `scenarios/` directory:
-
-```yaml
-name: "Taiwan Strait Crisis 2027"
-description: "China announces 72h reunification deadline..."
-
-participants:
-  - US
-  - CN
-  - TW
-  - JP
-
-initial_state:
-  corridor_control: "contested"  # or "russian", "nato"
-  nuclear_posture:
-    US: "elevated"
-    CN: "peacetime"
-
-victory_conditions:
-  - id: "chinese_victory"
-    type: "territorial"
-    description: "China controls Taiwan"
-    threshold_rounds: 10
-```
-
-### Country Configurations
-
-Each country in `countries/` has:
-
-```yaml
-name: "Poland"
-code: "PL"
-military_strength: 5  # 1-10 scale
-economic_strength: 6
-nuclear: false
-
-factions:
-  - name: "President & National Security Council"
-    role: "hawk"  # hawk, dove, diplomat, military_realist, pragmatist, wildcard
-    personality: "References 1939 constantly, sees Russian aggression as existential threat..."
-    priorities:
-      - "Defend Polish territory"
-      - "Invoke Article 5"
-    red_lines:
-      - "Will not accept Russian control of Polish soil"
-```
-
----
-
-## 🧪 Testing
-
-```bash
-# Install test dependencies
 pip install pytest pytest-asyncio pytest-cov
-
-# Run all tests
-pytest
-
-# Run with coverage
-pytest --cov=engine,agents,backends --cov-report=html
-
-# Run specific test file
-pytest tests/test_fixes.py -v
+pytest --cov=engine,agents,backends
 ```
 
----
-
-## 🔧 Architecture
-
-```
-wargame/
-├── engine/           # Core game logic
-│   ├── game.py       # Main game loop, orchestration
-│   ├── world_state.py  # Global state management
-│   ├── game_master.py  # GM agent (resolves actions)
-│   └── analytics.py    # Post-game analysis
-├── agents/           # AI agents
-│   ├── country.py    # Country-level agent (orchestrates factions)
-│   └── faction.py    # Faction-level agent (debates)
-├── backends/         # LLM integrations
-│   ├── ollama_backend.py    # Local Ollama
-│   └── deepseek_backend.py  # Cloud DeepSeek API
-├── scenarios/        # YAML scenario definitions
-├── countries/        # YAML country configurations (66 files)
-├── utils/            # JSON parsing, logging
-└── viewer/           # Web-based game viewer
-```
-
-**See [TECHNICAL.md](analysis/TECHNICAL.md) for detailed architecture documentation.**
-
----
-
-## 🎨 UI/UX Roadmap
-
-A comprehensive UI is in development. See [UI_UX_CONCEPT.md](analysis/UI_UX_CONCEPT.md) for:
-
-- Real-time War Room Dashboard
-- Player Mode (human controls one country)
-- Visual Scenario Editor
-- Post-game analytics with timeline viz
-
-**Status**: Concept complete, implementation planned for Q2 2026.
-
----
-
-## 🐛 Known Issues & Fixes
-
-Recent bug fixes (2026-02-13):
-
-✅ **Nuclear Posture Fix**: Separated nuclear readiness from actual weapon use. Countries can now escalate to `launch_ready` without ending the game.
-
-✅ **Corridor Control Fix**: Replaced fragile substring matching with regex word boundaries and confidence scoring.
-
-✅ **Test Coverage**: Added pytest infrastructure and basic test suite.
-
-**See [analysis/problems.md](analysis/problems.md) for full issue tracker.**
-
----
-
-## 📊 Performance
-
-### Typical Game Stats
-
-- **Quick Game**: 4 countries × 3 rounds = ~60 LLM calls = 15 minutes
-- **Medium Game**: 10 countries × 5 rounds = ~150 LLM calls = 45 minutes
-- **Full Game**: 20 countries × 10 rounds = ~600 LLM calls = 3 hours
-
-### LLM Backend Comparison
-
-| Backend | Speed | Cost | Parallel | Best For |
-|---------|-------|------|----------|----------|
-| Ollama (local) | Slow | Free | No | Development, privacy |
-| DeepSeek API | Fast | ~$3/game | Yes | Production, speed |
-
-**Tip**: Use `--backend deepseek` with `max_concurrent: 10` in `config.yaml` for 5-10x speedup.
-
----
-
-## 🤝 Contributing
-
-Contributions welcome! Priority areas:
-
-1. **New Scenarios**: Taiwan Strait, Arctic Sovereignty, Middle East escalation
-2. **Missing Countries**: Taiwan, Hungary, Romania configs
-3. **Test Coverage**: Expand from 40% to 80%
-4. **UI Implementation**: React dashboard (see UI_UX_CONCEPT.md)
-
-**Development setup**:
+### Code Style
 
 ```bash
-# Install dev dependencies
-pip install -r requirements.txt pytest pytest-asyncio ruff mypy
-
-# Run linter
 ruff check .
-
-# Run type checker
 mypy engine/ agents/ backends/
 ```
 
+### Configuration
+
+Edit `config.yaml`:
+```yaml
+game:
+  scenario: "suwalki"
+  num_countries: 20
+  max_rounds: 10
+
+backend:
+  type: "deepseek"
+  model: "deepseek-r1:32b"
+  max_concurrent: 10
+```
+
 ---
 
-## 📚 Educational Use
+## 🧠 Agent System
 
-WarGame is designed for:
+Each country contains independent faction agents that debate before deciding:
 
-- **University Courses**: International Relations, Security Studies, Game Theory
-- **Think Tanks**: Scenario planning, red team exercises
-- **Policy Training**: Crisis decision-making simulations
+1. **Initial Position** - Faction states opening argument
+2. **Rebuttal** - Respond to other factions
+3. **Synthesis** - Move toward consensus
 
-**Licensing**: MIT License allows commercial and educational use. For bulk educational licensing, contact the maintainers.
+**Faction Types**: Hawk, Dove, Diplomat, Military Realist, Pragmatist
+
+Weight by phase (escalation vs negotiation). See countries/*.yaml for examples.
+
+---
+
+## 🎯 Design Principles
+
+- **Multi-agent reasoning** over monolithic decisions
+- **Asymmetric capabilities** (not all countries equal)
+- **Narrative consistency** enforced by game master
+- **Deterministic resolution** (reproducible outcomes)
+- **Cascading effects** (not isolated decisions)
+- **Static deployment** (no backend required)
+
+---
+
+## 📈 Performance
+
+| Scenario | Countries | Rounds | LLM Calls | Time |
+|----------|-----------|--------|-----------|------|
+| Quick | 4 | 3 | 60 | ~15 min |
+| Medium | 10 | 5 | 150 | ~45 min |
+| Full | 20 | 10 | 600 | ~3 hours |
+
+Backend comparison:
+- **Ollama (local)**: Free, slow, privacy-preserving
+- **DeepSeek API**: Fast, $0.50-3/game, parallel queries
+
+---
+
+## 🧪 Testing & Reproducibility
+
+Games are deterministic given same LLM and seed. All game logs saved as JSON:
+
+```
+logs/game_20260215_123456/
+├── round_001.json
+├── round_002.json
+└── ...
+```
+
+Each round contains:
+- World state before/after
+- All country decisions
+- Combat results
+- Headlines & surprises
+
+Fully analyzable post-hoc without re-running simulation.
+
+---
+
+## 📖 Citation
+
+If using this framework for research:
+
+```bibtex
+@software{wargame2026,
+  author = {Tsisyk, Roman},
+  title = {Multi-Agent Simulation Engine (WarGame)},
+  year = {2026},
+  url = {https://github.com/RomanTsisyk/multi-agent-simulation-engine}
+}
+```
 
 ---
 
 ## 📜 License
 
-MIT License - see [LICENSE](LICENSE) file for details.
+MIT License - see LICENSE file.
 
 ---
 
-## 🙏 Acknowledgments
+## 🤝 Contributing
 
-Inspired by:
-- RAND Corporation's wargaming studies on Baltic defense
-- Academic research on crisis escalation dynamics
-- Professional wargaming community feedback
-
-Built with:
-- [Ollama](https://ollama.com) - Local LLM runtime
-- [DeepSeek](https://www.deepseek.com) - Cloud LLM API
-- [aiohttp](https://docs.aiohttp.org) - Async HTTP
-- [PyYAML](https://pyyaml.org) - Config parsing
+Priority areas:
+- New scenarios (Taiwan Strait, Arctic sovereignty)
+- Missing countries (Taiwan, Hungary, Romania configs)
+- Test coverage expansion
+- Backend optimization (inference batching)
 
 ---
 
-## 📞 Contact & Support
-
-- **Documentation**: [TECHNICAL.md](analysis/TECHNICAL.md) for architecture details
-- **Bug Reports**: [GitHub Issues](https://github.com/yourusername/wargame/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/wargame/discussions)
-
----
-
-**Made with ☢️ and ☮️ by the WarGame team**
+**Built with OpenAI/Anthropic APIs, Ollama, and community feedback.**
