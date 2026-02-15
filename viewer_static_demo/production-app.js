@@ -323,6 +323,135 @@ async function renderMilitaryChart(data) {
   });
 }
 
+function switchView(viewName) {
+  document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
+  const view = document.getElementById(`view-${viewName}`);
+  if (view) view.classList.add('active');
+
+  document.querySelectorAll('.nav-item').forEach(item => {
+    item.classList.remove('active');
+    if (item.dataset.view === viewName) item.classList.add('active');
+  });
+}
+
+async function renderDashboardStats() {
+  if (Object.keys(state.rounds).length === 0) return;
+  const lastRound = Math.max(...Object.keys(state.rounds).map(Number));
+  const ws = state.rounds[lastRound].world_state_after || {};
+
+  let html = '';
+  html += `<div class="stat-card"><div class="stat-label">Oil Price</div><div class="stat-value">$${Math.round(ws.markets?.oil_price || 0)}/bbl</div></div>`;
+  html += `<div class="stat-card"><div class="stat-label">Current Round</div><div class="stat-value">${lastRound}</div></div>`;
+  html += `<div class="stat-card"><div class="stat-label">Corridor Control</div><div class="stat-value">${(ws.corridor_control || 'contested').toUpperCase()}</div></div>`;
+  html += `<div class="stat-card"><div class="stat-label">NATO Alert</div><div class="stat-value">${(ws.nato_alert_level || 'normal').toUpperCase()}</div></div>`;
+
+  const dashboardStats = document.getElementById('dashboard-stats');
+  if (dashboardStats) dashboardStats.innerHTML = html;
+}
+
+async function renderRoundsView() {
+  const roundNav = document.getElementById('round-nav');
+  if (!roundNav) return;
+
+  let html = '';
+  for (const num of Object.keys(state.rounds).sort((a, b) => Number(a) - Number(b))) {
+    html += `<button class="round-btn" onclick="loadRound(${num})">R${num}</button>`;
+  }
+  roundNav.innerHTML = html;
+
+  if (Object.keys(state.rounds).length > 0) {
+    const firstRound = Object.keys(state.rounds).sort((a, b) => Number(a) - Number(b))[0];
+    loadRound(parseInt(firstRound));
+  }
+}
+
+async function loadRound(num) {
+  const round = state.rounds[num];
+  if (!round) return;
+
+  document.querySelectorAll('#round-nav .round-btn').forEach(b => {
+    b.classList.remove('active');
+    if (parseInt(b.textContent.replace('R', '')) === num) b.classList.add('active');
+  });
+
+  const ws = round.world_state_after || {};
+  let html = `<h2>Round ${num}: ${round.briefing?.substring(0, 100) || 'Game State'}...</h2>`;
+  html += `<div class="card"><div class="card-title">Briefing</div><p style="font-size:13px;color:var(--text-secondary);margin-top:8px;white-space:pre-wrap;">${(round.briefing || '').substring(0, 500)}</p></div>`;
+  html += `<div class="card"><div class="card-title">World State</div>`;
+  html += `<div style="font-size:12px;color:var(--text-secondary);"><p><strong>Corridor:</strong> ${ws.corridor_control}</p><p><strong>NATO Alert:</strong> ${ws.nato_alert_level}</p><p><strong>Oil Price:</strong> $${ws.markets?.oil_price}</p></div>`;
+  html += `</div>`;
+
+  const detail = document.getElementById('round-detail');
+  if (detail) detail.innerHTML = html;
+}
+
+async function renderCountriesView() {
+  const countriesList = document.getElementById('countries-list');
+  if (!countriesList) return;
+
+  if (Object.keys(state.rounds).length === 0) {
+    countriesList.innerHTML = '<div class="loading">No data loaded</div>';
+    return;
+  }
+
+  const lastRound = Math.max(...Object.keys(state.rounds).map(Number));
+  const ws = state.rounds[lastRound].world_state_after || {};
+  const publicOpinion = ws.public_opinion || {};
+
+  let html = '<div class="country-grid">';
+  for (const [code, opinion] of Object.entries(publicOpinion).slice(0, 12)) {
+    html += `<div class="country-card">`;
+    html += `<div class="country-code">${code}</div>`;
+    html += `<div class="country-name" style="font-size:12px;">War Support: ${Math.round(opinion.war_support || 0)}%</div>`;
+    html += `<div class="country-rounds" style="font-size:11px;color:var(--accent-cyan);">Gov Approval: ${Math.round(opinion.gov_approval || 0)}%</div>`;
+    html += `</div>`;
+  }
+  html += '</div>';
+  countriesList.innerHTML = html;
+}
+
+async function renderWorldStateView() {
+  const wsRoundNav = document.getElementById('ws-round-nav');
+  if (!wsRoundNav) return;
+
+  let html = '';
+  for (const num of Object.keys(state.rounds).sort((a, b) => Number(a) - Number(b))) {
+    html += `<button class="round-btn" onclick="loadWorldState(${num})">R${num}</button>`;
+  }
+  wsRoundNav.innerHTML = html;
+
+  if (Object.keys(state.rounds).length > 0) {
+    const firstRound = Object.keys(state.rounds).sort((a, b) => Number(a) - Number(b))[0];
+    loadWorldState(parseInt(firstRound));
+  }
+}
+
+async function loadWorldState(num) {
+  const round = state.rounds[num];
+  if (!round) return;
+
+  document.querySelectorAll('#ws-round-nav .round-btn').forEach(b => {
+    b.classList.remove('active');
+    if (parseInt(b.textContent.replace('R', '')) === num) b.classList.add('active');
+  });
+
+  const ws = round.world_state_after || {};
+  const wsJson = document.getElementById('ws-json');
+  if (wsJson) {
+    wsJson.textContent = JSON.stringify(ws, null, 2);
+  }
+
+  const wsMetrics = document.getElementById('ws-metrics');
+  if (wsMetrics) {
+    let html = '';
+    html += `<div class="metric-item"><div class="metric-label">Corridor</div><div class="metric-value">${ws.corridor_control || '—'}</div></div>`;
+    html += `<div class="metric-item"><div class="metric-label">NATO Alert</div><div class="metric-value">${ws.nato_alert_level || '—'}</div></div>`;
+    html += `<div class="metric-item"><div class="metric-label">Oil Price</div><div class="metric-value">$${ws.markets?.oil_price || '—'}</div></div>`;
+    html += `<div class="metric-item"><div class="metric-label">Military Units</div><div class="metric-value">${(ws.military_units || []).length}</div></div>`;
+    wsMetrics.innerHTML = html;
+  }
+}
+
 async function init() {
   try {
     console.log('🚀 Init started');
@@ -355,6 +484,10 @@ async function init() {
       await loadGameData(games[0].name);
       if (status) status.textContent = 'Rendering charts...';
       await renderCharts();
+      await renderDashboardStats();
+      await renderRoundsView();
+      await renderCountriesView();
+      await renderWorldStateView();
       if (status) status.textContent = 'Ready';
     }
     
@@ -363,8 +496,20 @@ async function init() {
         if (status) status.textContent = 'Loading...';
         await loadGameData(e.target.value);
         await renderCharts();
+        await renderDashboardStats();
+        await renderRoundsView();
+        await renderCountriesView();
+        await renderWorldStateView();
         if (status) status.textContent = 'Ready';
       }
+    });
+
+    // Setup navigation
+    document.querySelectorAll('.nav-item').forEach(item => {
+      item.addEventListener('click', (e) => {
+        const view = e.currentTarget.dataset.view;
+        if (view) switchView(view);
+      });
     });
     
     console.log('✅ Init complete');

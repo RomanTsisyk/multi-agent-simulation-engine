@@ -412,6 +412,356 @@ body {
 }
 
 /* ============================================================
+   ROUND VIEW
+   ============================================================ */
+.round-nav {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.round-btn {
+  padding: 8px 16px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg-card);
+  color: var(--text-secondary);
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  transition: all 0.15s;
+}
+
+.round-btn:hover {
+  border-color: var(--accent-blue);
+  color: var(--text-primary);
+}
+
+.round-btn.active {
+  background: var(--accent-blue);
+  border-color: var(--accent-blue);
+  color: #fff;
+}
+
+.briefing-text {
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  white-space: pre-wrap;
+}
+
+.narrative-text {
+  font-size: 14px;
+  color: var(--text-primary);
+  line-height: 1.8;
+  padding: 16px;
+  background: rgba(59, 130, 246, 0.05);
+  border-left: 3px solid var(--accent-blue);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+/* Collapsible */
+.collapsible {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: 8px;
+  overflow: hidden;
+}
+
+.collapsible-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  background: var(--bg-card);
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary);
+  transition: background 0.15s;
+}
+
+.collapsible-header:hover {
+  background: var(--bg-card-hover);
+}
+
+.collapsible-arrow {
+  transition: transform 0.2s;
+  color: var(--text-muted);
+}
+
+.collapsible.open .collapsible-arrow {
+  transform: rotate(90deg);
+}
+
+.collapsible-body {
+  display: none;
+  padding: 16px;
+  border-top: 1px solid var(--border);
+  background: var(--bg-secondary);
+}
+
+.collapsible.open .collapsible-body {
+  display: block;
+}
+
+.action-item {
+  padding: 6px 0;
+  font-size: 13px;
+  color: var(--text-secondary);
+  border-bottom: 1px solid var(--border);
+}
+
+.action-item:last-child { border-bottom: none; }
+
+.reasoning-text {
+  font-size: 13px;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+}
+
+.diplo-msg {
+  display: flex;
+  gap: 8px;
+  padding: 8px 12px;
+  background: var(--bg-card);
+  border-radius: 6px;
+  margin-top: 8px;
+  font-size: 12px;
+}
+
+.diplo-to {
+  font-weight: 700;
+  color: var(--accent-cyan);
+  min-width: 28px;
+}
+
+.diplo-channel {
+  padding: 1px 6px;
+  border-radius: 3px;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.channel-public { background: rgba(16, 185, 129, 0.2); color: var(--accent-green); }
+.channel-private { background: rgba(245, 158, 11, 0.2); color: var(--accent-orange); }
+.channel-backchannel { background: rgba(139, 92, 246, 0.2); color: var(--accent-purple); }
+
+/* ============================================================
+   COUNTRY LIST
+   ============================================================ */
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+}
+
+.country-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.country-card:hover {
+  border-color: var(--accent-blue);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow);
+}
+
+.country-code {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--accent-cyan);
+}
+
+.country-name {
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-top: 4px;
+}
+
+.country-rounds {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-top: 8px;
+}
+
+/* Country detail */
+.country-detail-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.country-detail-code {
+  font-size: 36px;
+  font-weight: 800;
+  color: var(--accent-cyan);
+}
+
+.country-back {
+  font-size: 12px;
+  color: var(--accent-blue);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* ============================================================
+   WORLD STATE
+   ============================================================ */
+.json-viewer {
+  background: var(--bg-primary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  font-family: 'JetBrains Mono', 'SF Mono', 'Fira Code', monospace;
+  font-size: 12px;
+  line-height: 1.7;
+  overflow-x: auto;
+  max-height: 600px;
+  overflow-y: auto;
+  white-space: pre;
+  color: var(--text-secondary);
+}
+
+.json-key { color: var(--accent-cyan); }
+.json-string { color: var(--accent-green); }
+.json-number { color: var(--accent-orange); }
+.json-bool { color: var(--accent-purple); }
+.json-null { color: var(--text-muted); }
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.metric-item {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 12px;
+}
+
+.metric-label {
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--text-muted);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.metric-value {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 4px;
+}
+
+/* ============================================================
+   DEBATE LOG
+   ============================================================ */
+.debate-entry {
+  padding: 12px;
+  margin-bottom: 8px;
+  background: var(--bg-primary);
+  border-radius: var(--radius);
+  border-left: 3px solid var(--accent-purple);
+}
+
+.debate-faction {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--accent-purple);
+  margin-bottom: 4px;
+}
+
+.debate-role {
+  font-size: 10px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.debate-content {
+  font-size: 12px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  white-space: pre-wrap;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+/* ============================================================
+   HEADLINES & EVENTS
+   ============================================================ */
+.headline-item {
+  padding: 8px 12px;
+  background: var(--bg-primary);
+  border-radius: 6px;
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-bottom: 6px;
+  border-left: 3px solid var(--accent-orange);
+}
+
+.event-item {
+  padding: 6px 0;
+  font-size: 13px;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.event-bullet {
+  color: var(--accent-red);
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+/* ============================================================
+   SURPRISE
+   ============================================================ */
+.surprise-item {
+  padding: 10px 14px;
+  background: rgba(239, 68, 68, 0.08);
+  border: 1px solid rgba(239, 68, 68, 0.2);
+  border-radius: 6px;
+  font-size: 13px;
+  color: var(--accent-orange);
+  margin-bottom: 6px;
+}
+
+/* ============================================================
+   LOADING & ANIMATIONS
+   ============================================================ */
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  color: var(--text-muted);
+}
+
+.fade-in {
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ============================================================
    SCROLLBAR
    ============================================================ */
 ::-webkit-scrollbar {
@@ -456,13 +806,20 @@ body {
       <div class="nav-item active" data-view="dashboard">
         <span class="icon">&#9635;</span> Dashboard
       </div>
-      <div class="nav-section">Games</div>
-      <div class="nav-item" data-view="games" style="cursor: default; color: var(--text-muted); pointer-events: none;">
-        <span class="icon">&#9654;</span> <span id="game-status">Loading...</span>
+      <div class="nav-section">Analysis</div>
+      <div class="nav-item" data-view="rounds">
+        <span class="icon">&#9201;</span> Rounds
+      </div>
+      <div class="nav-item" data-view="countries">
+        <span class="icon">&#9873;</span> Countries
+      </div>
+      <div class="nav-item" data-view="worldstate">
+        <span class="icon">&#9741;</span> World State
       </div>
     </nav>
     <div class="sidebar-footer">
-      Production Viewer v2.1<br>
+      Production Viewer v2.0<br>
+      <a href="/docs.html" style="color: var(--accent-blue); text-decoration: none; font-size: 10px;">Documentation</a>
     </div>
   </aside>
 
@@ -477,7 +834,7 @@ body {
         </select>
       </div>
       <span class="topbar-scenario" id="topbar-scenario">WarGame</span>
-      <span class="topbar-round" id="topbar-round"></span>
+      <span class="topbar-round" id="topbar-round">Loading...</span>
       <div class="topbar-nuclear" id="topbar-nuclear">
         <span class="nuclear-indicator nuclear-green"></span>
         <span>NUCLEAR: PEACETIME</span>
@@ -486,8 +843,10 @@ body {
 
     <!-- CONTENT -->
     <div class="content">
+
       <!-- ===== DASHBOARD VIEW ===== -->
       <div class="view active" id="view-dashboard">
+        <div class="dashboard-grid" id="dashboard-stats"></div>
         <div class="chart-row">
           <div class="card">
             <div class="card-header">
@@ -507,7 +866,7 @@ body {
             <div class="card-header">
               <span class="card-title">War Support by Country (%)</span>
             </div>
-            <div class="chart-container"><canvas id="chart-warSupport"></canvas></div>
+            <div class="chart-container"><canvas id="chart-warsupport"></canvas></div>
           </div>
           <div class="card">
             <div class="card-header">
@@ -516,10 +875,55 @@ body {
             <div class="chart-container"><canvas id="chart-military"></canvas></div>
           </div>
         </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="card-title">Escalation Level</span>
+          </div>
+          <div class="escalation-bar" id="escalation-bar"></div>
+          <div style="display:flex;justify-content:space-between;margin-top:6px;">
+            <span style="font-size:10px;color:var(--accent-green)">NORMAL</span>
+            <span style="font-size:10px;color:var(--accent-orange)">HIGH</span>
+            <span style="font-size:10px;color:var(--accent-red)">NUCLEAR</span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="card-title">Event Timeline</span>
+          </div>
+          <div class="timeline" id="timeline"></div>
+        </div>
       </div>
+
+      <!-- ===== ROUNDS VIEW ===== -->
+      <div class="view" id="view-rounds">
+        <div class="round-nav" id="round-nav"></div>
+        <div id="round-detail">
+          <div class="loading">Select a round to view details</div>
+        </div>
+      </div>
+
+      <!-- ===== COUNTRIES VIEW ===== -->
+      <div class="view" id="view-countries">
+        <div id="countries-list"></div>
+        <div id="country-detail" style="display:none;"></div>
+      </div>
+
+      <!-- ===== WORLD STATE VIEW ===== -->
+      <div class="view" id="view-worldstate">
+        <div class="round-nav" id="ws-round-nav"></div>
+        <div class="metrics-grid" id="ws-metrics"></div>
+        <div class="card">
+          <div class="card-header">
+            <span class="card-title">Full World State (JSON)</span>
+          </div>
+          <div class="json-viewer" id="ws-json"></div>
+        </div>
+      </div>
+
     </div>
   </div>
 </div>
+
 
 <script src="production-app.js"></script>
 </body>
